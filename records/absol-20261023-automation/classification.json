@@ -1,0 +1,99 @@
+[
+  {
+    "slot": "light",
+    "file": "앱솔_light_glossy_promo_f.webp",
+    "sha256": "6facc5782f3810176267ad5eb5db873373b7d20e19ec6ce965bc25568e2ac90e",
+    "source_sha256": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385",
+    "acceptance_basis": "user_exception",
+    "qa_passed": false,
+    "references": {}
+  },
+  {
+    "slot": "heavy",
+    "file": "앱솔_heavy_glossy_promo_f.webp",
+    "sha256": "2824ae0f984722ca4642fc7a4a3be58f6ebfa41c64ccc3df20a4ede24f4cc752",
+    "source_sha256": "085ee9f329831290aefe851fd3b7c0e0522a6d179e9d97aecc1676110acb8b5c",
+    "acceptance_basis": "visual_qa",
+    "qa_passed": true,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  },
+  {
+    "slot": "mobility",
+    "file": "앱솔_mobility_glossy_promo_f.webp",
+    "sha256": "614034287914a0c82f5dfed5cef2d1d22e6a0ad696d733f0efccf3c61f7b8f42",
+    "source_sha256": "a6f948d85b39ea593d67662a0c310a216e57673d24ab3fe09a8437b6bd669541",
+    "acceptance_basis": "visual_qa",
+    "qa_passed": true,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  },
+  {
+    "slot": "light_overdrive",
+    "file": "앱솔_light_overdrive_glossy_promo_f.webp",
+    "sha256": "0267c52e3d0226aefd70646cb9a33f919c79fd8d19f0396a2e31b92e3a7e4f25",
+    "source_sha256": "3d6e958f63014ed031edbd92d31a07a42b3e9b45f2b6247824a654e58caa5efd",
+    "acceptance_basis": "visual_qa",
+    "qa_passed": true,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  },
+  {
+    "slot": "heavy_overdrive",
+    "file": "앱솔_heavy_overdrive_glossy_promo_f.webp",
+    "sha256": "8ffedad28186ea8b4c29f32816399dfa5a6d5ebcf4f6120f3d0ea2b342a6de31",
+    "source_sha256": "009fbccd03345b34f764b78ea36cf50e0efd191b972fbc0bdf1d333a22f09245",
+    "acceptance_basis": "visual_qa",
+    "qa_passed": true,
+    "references": {
+      "heavy": "085ee9f329831290aefe851fd3b7c0e0522a6d179e9d97aecc1676110acb8b5c"
+    }
+  },
+  {
+    "slot": "mobility_overdrive",
+    "file": "앱솔_mobility_overdrive_glossy_promo_f.webp",
+    "sha256": "d3fffd97caa93381920df94b22d23337a897d791830679353e505ff7739cadcb",
+    "source_sha256": "37f46feb72673ef2464bef25fd6f0c83147139e50452b77605f7232f867cab70",
+    "acceptance_basis": "user_exception",
+    "qa_passed": false,
+    "references": {
+      "mobility": "a6f948d85b39ea593d67662a0c310a216e57673d24ab3fe09a8437b6bd669541"
+    }
+  },
+  {
+    "slot": "casual1",
+    "file": "앱솔_glossy_promo_f_casual1.webp",
+    "sha256": "82f48b298056e4a0f237c2bb3da123259bd0456b3dcc37fd3a63bb1adc39e258",
+    "source_sha256": "2f958b5cd44a6c09fc7d333586fef608f497b95b36464dde20717d92101cf34b",
+    "acceptance_basis": "user_exception",
+    "qa_passed": false,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  },
+  {
+    "slot": "casual2",
+    "file": "앱솔_glossy_promo_f_casual2.webp",
+    "sha256": "a94b73973f863d431d619635dd1d0268afca9a11e9bc76d30193b7e23ec8b206",
+    "source_sha256": "6c6f3997a06e90667bcc69d2cdbb84e5ea6f96a96db5b4c899c39439a36fa73c",
+    "acceptance_basis": "user_exception",
+    "qa_passed": false,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  },
+  {
+    "slot": "casual3",
+    "file": "앱솔_glossy_promo_f_casual3.webp",
+    "sha256": "67200990bea8695afc47a331c7e8a34c92edf6169cddb84f961610994bf05f10",
+    "source_sha256": "c9d78d73c4a1fc621988a441e50bb108d7b562b6da48acf18966a80385ca63cd",
+    "acceptance_basis": "user_exception",
+    "qa_passed": false,
+    "references": {
+      "light": "f5adabc18890c4fbdda8a449411620bfd3fa87483f769fe9c8f35156fcd15385"
+    }
+  }
+]

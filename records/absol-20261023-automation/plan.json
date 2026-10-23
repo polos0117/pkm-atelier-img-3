@@ -1,0 +1,406 @@
+{
+  "session": "image-runner-2026-10-23-4-359",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "앱솔",
+      "species": "absol-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "lace_set",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "reaching_up",
+          "frame": "waist_up",
+          "pose": "on_tiptoe",
+          "expr": "calm",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "food_berries",
+          "ex": "food_harvest",
+          "garments": [
+            "apron",
+            "shorts"
+          ],
+          "orient": "front",
+          "frame": "three_quarter",
+          "pose": "carrying_something",
+          "expr": "proud",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "cropped hem"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "adult_secretary",
+          "garments": [
+            "jacket",
+            "skirt"
+          ],
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "pose": "walking",
+          "expr": "smug",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "side cutouts",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1,
+            3
+          ],
+          "two": true,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "jacket"
+        ],
+        "orient": [
+          "reaching_up",
+          "front",
+          "front_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "lace_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "reaching_up",
+      "frame": "waist_up",
+      "pose": "on_tiptoe",
+      "expr": "calm",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim",
+      "custom_inputs": {
+        "scene": "Soft morning light falls across a wardrobe studio as she reaches for a ribbon spool on a high shelf during a fashion fitting.",
+        "outfit": "The black geometric lace is fully lined with opaque fabric; the longline top and high-waisted bottoms leave a narrow midriff band, with an open-back closure and a small white crescent clasp.",
+        "reason": "The lace example specifies garments but not activity or room; the high shelf supports the planned reach and the reserved midriff/open-back construction supplies tailoring.",
+        "axes_reason": "Reaching for the spool is mostly active; the white crescent against black visibly recalls source; coordinated set fits balanced separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_harvest",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "front",
+      "frame": "three_quarter",
+      "pose": "carrying_something",
+      "expr": "proud",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "cropped hem"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: Picking ripe berries from a small tree and placing them in a woven basket in a sunny garden.",
+      "custom_inputs": {
+        "scene": "A sunny terraced berry garden with a low stone wall and small trees, where ripe fruit drops into a shallow woven basket beneath her picking hand.",
+        "outfit": "A cropped cotton top, a short waist apron and mini-length gardening shorts in pale oatmeal and navy, with flat practical shoes.",
+        "reason": "The berry example lacks clothing and garden detail; reserved apron/shorts with mini length and cropped hem define the gardening outfit.",
+        "axes_reason": "Picking into a supported basket is balanced movement; only pale/navy colors subtly echo source; apron and shorts are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "adult_secretary",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "pose": "walking",
+      "expr": "smug",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: a retro secretary-inspired costume with a fitted blazer, pencil skirt, and decorative eyewear, at a themed office party",
+      "custom_inputs": {
+        "scene": "A slim document folder and decorative spectacles accompany her arrival at a retro office-themed costume party beneath warm chandelier light.",
+        "outfit": "An ivory fitted blazer with an off-shoulder neckline over an opaque black top and a navy pencil skirt with small side cutouts; a crescent-shaped lapel pin completes the costume.",
+        "reason": "The secretary costume example specifies blazer, pencil skirt and eyewear; the planned cutouts and neckline add construction, while party arrival supplies activity.",
+        "axes_reason": "Arrival through the party is mostly active; white/navy and crescent pin give strong source styling; blazer and pencil skirt are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push",
+    "replan_reason": "Harvest scene had watering pose; avoid watering before any casual generation. No image retry."
+  }
+}

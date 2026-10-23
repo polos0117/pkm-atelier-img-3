@@ -1,0 +1,131 @@
+{
+ "session": "image-runner-2026-10-23-4-359",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "앱솔",
+   "species": "absol-20261023",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "lace_set",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "reaching_up",
+     "frame": "waist_up",
+     "pose": "on_tiptoe",
+     "expr": "calm",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "bare midriff",
+      "open back"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "food_berries",
+     "ex": "food_harvest",
+     "garments": [
+      "apron",
+      "shorts"
+     ],
+     "orient": "front",
+     "frame": "three_quarter",
+     "pose": "carrying_something",
+     "expr": "proud",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "cropped hem"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "adult_secretary",
+     "garments": [
+      "jacket",
+      "skirt"
+     ],
+     "orient": "front_3q",
+     "frame": "chest_up",
+     "pose": "walking",
+     "expr": "smug",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "side cutouts",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "apron",
+     "jacket"
+    ],
+    "orient": [
+     "reaching_up",
+     "front",
+     "front_3q"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
