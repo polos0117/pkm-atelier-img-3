@@ -1,0 +1,27 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "0cbde9994938e11b0c45983a66e53da5b8c38c8fe34a56ee465c0004d81b0bfb",
+  "retained_original": null,
+  "output": {
+    "slot": "casual3",
+    "file": "미라몽_glossy_promo_f_casual3.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "4c80979cadfc998d9f157c8903b730060a0b995efbfe09e96568e10065465a82",
+    "reference": "미라몽_light_glossy_promo_f.webp",
+    "provenance": "사용자가 casual3-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+  },
+  "plan": "casual3-refill-plan.json — everyday_sensual · morning_stretch · half_smile · stretching · rear_3q · chest_up · telephoto135",
+  "review": "창가·커튼·아침 햇빛·팔 올린 스트레칭·뒤 3/4·반미소·회색 슬립 원피스 옆트임·붉은 구슬 펜던트 일치. 프레이밍은 계획(chest_up)보다 넓은 허리 위. 앞 목선은 뒤 각도라 안 보임.",
+  "look_check": "node tools/casual-look.cjs check --card 미라몽 (casual1, casual2, 이 그림) — 통과, 가장 가까운 다른 캐릭터 컷 285점(킬리아 casual2)",
+  "user_approval": "미라몽이랑 같이 올려줘",
+  "at": "2026-10-23",
+  "prompt_provenance": "이 그림의 프롬프트는 casual3-refill-prompt.txt, 생성기 상태는 casual3-refill-ui.json. casual3-prompt.txt·casual3-ui.json 은 막힌 앞 시도의 것."
+}
