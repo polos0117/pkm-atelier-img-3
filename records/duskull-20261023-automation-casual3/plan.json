@@ -1,0 +1,126 @@
+{
+ "session": "image-runner-2026-10-23-2-355",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "해골몽",
+   "species": "duskull-20261023",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "occupation_sensual",
+     "ex": "orbital_hotel",
+     "garments": [
+      "trousers",
+      "vest"
+     ],
+     "orient": "side",
+     "frame": "waist_up",
+     "pose": "gentle_pat",
+     "expr": "serious",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "halter neck",
+      "strapless top"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "garter_set",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "high_angle",
+     "frame": "environmental",
+     "pose": "standing_formal",
+     "expr": "soft_smile",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "occupation_basic",
+     "ex": "hv_battery_tech",
+     "garments": [
+      "shorts",
+      "vest"
+     ],
+     "orient": "front_3q",
+     "frame": "three_quarter",
+     "pose": "carrying_something",
+     "expr": "mischievous",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "open back"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "vest",
+     "lingerie_set"
+    ],
+    "orient": [
+     "side",
+     "high_angle"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
