@@ -1,0 +1,135 @@
+{
+ "session": "chimecho-wynaut-refill-20261023",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "치렁",
+   "species": "chimecho-20261023",
+   "refill": true,
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "occupation_sensual",
+     "ex": "stunt_coordinator",
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "pose": "sitting_floor",
+     "expr": "determined",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "hanbok_slip",
+     "expr": "cold_smile",
+     "pose": "waving",
+     "orient": "looking_down",
+     "frame": "full_body",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "lingerie_set",
+      "skirt"
+     ],
+     "expose": [
+      "high thigh slit",
+      "cropped hem"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": "private_evening",
+     "ex": "cocktail_mini",
+     "expr": "sensual",
+     "pose": "cross_legged",
+     "orient": "reclining",
+     "frame": "environmental",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "halter neck",
+      "side cutouts"
+     ]
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_sensual",
+     "everyday_basic",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse"
+    ],
+    "orient": [
+     "over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "why_refill": {
+  "blocked": {
+   "casual1": "food_berries/food_harvest — 이미지 도구 moderation_blocked (casual1-tool-failure.json)"
+  },
+  "avoid": [
+   "치렁:1:ex=food_harvest"
+  ],
+  "scene_reason": {
+   "1": "lead=place — 연습 무대 바닥부터. 예시(후프와 바닥 표시를 놓는 퍼포먼스 트레이너)의 활동 그대로, 마지막 표시를 누르는 동작과 작업등만 더했다."
+  },
+  "outfit_reason": {
+   "1": "garments=blouse+trousers, expose=mini length·one-shoulder cut — 한쪽 어깨 블라우스를 허리 위 짧은 기장으로. 원작 모티프는 이 컷에만 작은 풍경(바람종) 장식, 2번은 붉은 리본 색, 3번은 없음."
+  },
+  "reserved": "records/casual-reservations/chimecho-wynaut-refill-20261023.json (img-2)",
+  "at": "2026-10-23"
+ }
+}

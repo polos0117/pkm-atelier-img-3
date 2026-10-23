@@ -1,0 +1,146 @@
+{
+ "session": "chimecho-wynaut-refill-20261023",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "마자",
+   "species": "wynaut-20261023-automation-partial",
+   "refill": true,
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "travel_exploration",
+     "ex": "travel_lookout",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "looking_away",
+     "frame": "chest_up",
+     "pose": "checking_map",
+     "expr": "surprised",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "strapless top"
+     ],
+     "lead": "action"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "occupation_sensual",
+     "ex": "deep_dive_specialist",
+     "expr": "focused",
+     "pose": "hands_in_hair",
+     "orient": "side",
+     "frame": "full_body",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "cabin_crew_retro",
+     "garments": [
+      "jacket"
+     ],
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "pose": "side_sitting",
+     "expr": "serious",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "off-shoulder neckline"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "everyday_basic",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "jumpsuit"
+    ],
+    "orient": [
+     "looking_away",
+     "seated_twist"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "why_refill": {
+  "blocked": {
+   "casual1": "adult_roleplay/vinyl_stage — moderation_blocked sexual(output)",
+   "casual3": "travel_exploration/travel_trail — moderation_blocked sexual(output)"
+  },
+  "avoid": [
+   "마자:1:ex=vinyl_stage",
+   "마자:1:ex=travel_trail",
+   "마자:3:ex=travel_trail",
+   "마자:3:ex=vinyl_stage"
+  ],
+  "avoid_note": "처음 두 막힌 예시를 각 컷 번호로만 뺐더니 계획기가 두 장면을 번호만 맞바꿔 골랐다 — 두 예시를 두 자리 모두에서 뺐다.",
+  "scene_reason": {
+   "1": "lead=action — 쌍안경을 내리는 동작부터. 자세(checking_map, 두 손에 지도)와 맞게 예시의 쌍안경은 가슴에 걸고 옆주머니 지도를 편다.",
+   "3": "lead=place — 항공 테마 코스튬 파티의 모의 출국 라운지(역할극 무대를 빈 행사장으로 두지 않음). 자세(side_sitting, 매트)에 맞춰 바닥 매트, 스카프를 고치는 준비 동작."
+  },
+  "outfit_reason": {
+   "1": "garments=jumpsuit, expose=plunging neckline·strapless top — 스트랩리스 스위트하트 점프슈트. 원작 모티프는 이 컷에만 검은 물방울 걸쇠(꼬리).",
+   "3": "garments=jacket, expose=bare midriff·off-shoulder neckline — 예시의 재킷·필박스 모자·스카프에 색·오프숄더·크롭 기장만 더했다. 모티프 장신구 없음."
+  },
+  "reserved": "records/casual-reservations/chimecho-wynaut-refill-20261023.json (img-2)",
+  "at": "2026-10-23"
+ }
+}
