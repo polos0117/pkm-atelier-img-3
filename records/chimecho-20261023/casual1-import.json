@@ -1,0 +1,27 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "0b879a9ffc40d788b13cc0c3e2135a87f2b2f91a20a2352139bc45d8ad4a0636",
+  "retained_original": null,
+  "output": {
+    "slot": "casual1",
+    "file": "치렁_glossy_promo_f_casual1.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "7061301b51dc93c3f27acd10534843cddda884870813468611a81a3cf6a4047d",
+    "reference": "치렁_light_glossy_promo_f.webp",
+    "provenance": "사용자가 casual1-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+  },
+  "plan": "refill-plan-20261023.json",
+  "review": "연습 무대·쌓인 후프·색 테이프 바닥 표시·바닥에 앉아 표시를 누름·어깨 너머 각도·굳은 표정·흰 바지 붉은 줄·금 방울 붉은 술 일치. 상의는 한쪽 어깨 블라우스가 아니라 프릴 홀터 크롭(짧은 기장은 맞음).",
+  "look_check": "node tools/casual-look.cjs check --card 치렁 — 통과, 가장 가까운 다른 캐릭터 컷 281점(왕눈해 casual3)",
+  "user_approval": "응 올려줘",
+  "at": "2026-10-23",
+  "prompt_provenance": "이 그림의 프롬프트는 casual1-refill-prompt.txt, 생성기 상태는 casual1-refill-ui.json. casual1-prompt.txt·casual1-ui.json 은 막힌 앞 시도의 것."
+}
