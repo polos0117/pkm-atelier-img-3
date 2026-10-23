@@ -1,0 +1,128 @@
+{
+ "session": "image-runner-2026-10-23-5-360",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "마자",
+   "species": "wynaut-20261024",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "vinyl_stage",
+     "garments": [
+      "jacket"
+     ],
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "pose": "mid_action",
+     "expr": "serious",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "mini length"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "occupation_sensual",
+     "ex": "deep_dive_specialist",
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "orient": "side",
+     "frame": "full_body",
+     "pose": "hands_in_hair",
+     "expr": "focused",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "travel_exploration",
+     "ex": "travel_trail",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "looking_down",
+     "frame": "environmental",
+     "pose": "checking_map",
+     "expr": "curious",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "strapless top"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "occupation_sensual",
+     "everyday_basic",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse",
+     "jumpsuit"
+    ],
+    "orient": [
+     "over_shoulder",
+     "side",
+     "looking_down"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

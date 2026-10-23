@@ -1,0 +1,402 @@
+{
+  "session": "image-runner-2026-10-23-5-360",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "마자",
+      "species": "wynaut-20261024",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "vinyl_stage",
+          "garments": [
+            "jacket"
+          ],
+          "orient": "over_shoulder",
+          "frame": "three_quarter",
+          "pose": "mid_action",
+          "expr": "serious",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "mini length"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "occupation_sensual",
+          "ex": "deep_dive_specialist",
+          "garments": [
+            "blouse",
+            "trousers"
+          ],
+          "orient": "side",
+          "frame": "full_body",
+          "pose": "hands_in_hair",
+          "expr": "focused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "cropped hem"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "travel_exploration",
+          "ex": "travel_trail",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "looking_down",
+          "frame": "environmental",
+          "pose": "checking_map",
+          "expr": "curious",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "strapless top"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "blouse",
+          "jumpsuit"
+        ],
+        "orient": [
+          "over_shoulder",
+          "side",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "pose": "mid_action",
+      "expr": "serious",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "mini length"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a vinyl stage costume with a glossy fitted jacket and boots under stage lighting",
+      "custom_inputs": {
+        "scene": "On a small concert rehearsal stage, she adjusts a microphone stand between dance steps beneath cyan spotlights.",
+        "outfit": "A turquoise glossy fitted vinyl jacket with an asymmetric one-shoulder cut over an opaque white stage top, separate mini-length white shorts and glossy ankle boots; white zigzag piping trims the jacket.",
+        "reason": "The vinyl jacket and boots example leaves the stage activity and lower garment unspecified; microphone setup and separate mini shorts supply those details, with the reserved shoulder cut.",
+        "axes_reason": "Dance-step preparation is mostly active; turquoise and zigzag trim give strong source influence; jacket and shorts are separate garments."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "deep_dive_specialist",
+      "garments": [
+        "blouse",
+        "trousers"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "hands_in_hair",
+      "expr": "focused",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: Water-Pokémon dive researcher checking mask straps and a waterproof observation slate at a shoreline research base.",
+      "custom_inputs": {
+        "scene": "Soft afternoon light reaches the shoreline research platform, where a waterproof observation slate rests beside the dive mask she is fitting around her hair.",
+        "outfit": "An opaque sand-colored cropped field blouse and high-waisted navy trousers, flat deck shoes and a tiny turquoise zipper pull; the cropped hem reveals a narrow midriff band.",
+        "reason": "The diving example does not specify dry shore clothing; cropped blouse and trousers match the reservation while slate placement frees both hands to fit the mask strap.",
+        "axes_reason": "A stationary mask fitting is mostly posed; the small turquoise pull is subtle source influence; blouse and trousers are separate pieces."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "looking_down",
+      "frame": "environmental",
+      "pose": "checking_map",
+      "expr": "curious",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "strapless top"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.",
+      "custom_inputs": {
+        "scene": "Comparing the folded trail map with a wooden trail marker at a mossy forest junction, she pauses beside a fern-lined stone path with a light travel pack.",
+        "outfit": "An opaque olive strapless wide-leg jumpsuit with high side slits over fitted inner shorts, sturdy walking shoes and a small turquoise map clasp.",
+        "reason": "The trail example supplies pack and activity but no outfit; the reserved strapless jumpsuit and high slit become wide-leg panels with inner shorts suitable for walking.",
+        "axes_reason": "A pause to consult the map is balanced activity; one turquoise clasp is subtle source influence; a single jumpsuit suits balanced separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push",
+    "replan_reason": "Dive researcher had watering pose, avoided before any casual generation. No safety retry."
+  }
+}
