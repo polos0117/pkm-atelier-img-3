@@ -527,5 +527,32 @@
     ]
   },
   "planner": "tools/casual-plan.cjs",
-  "check": "check --fresh passed"
+  "check": "check --fresh passed",
+  "corrections": [
+    {
+      "at": "2026-10-23",
+      "requested_by": "user",
+      "slot": "casual3",
+      "reason": "왼손 손등과 손바닥 위치가 뒤바뀐 오류 수정",
+      "changed_inputs": "Original casual3 and canonical light attached; localized hand/wrist edit prompt. No original generator selections changed.",
+      "prompt": "Use case: precise-object-edit / identity-preserve.\nInput image 1 is the exact edit target: Pansear's approved casual3 aerial-silks scene. Input image 2 is a supporting character identity reference only; do not copy its armor or pose.\nMake ONE localized anatomy correction in image 1: her anatomical LEFT hand has its palm and back-of-hand reversed relative to its wrist and forearm. This is the raised upper grip on the red vertical silk beside her head, in the upper-right of the picture. Redraw that hand and its immediate wrist transition as a correct LEFT hand gripping the silk: the visible surface should be the palmar side, with the thenar pad and thumb base on the anatomically correct side, a single opposing thumb and four distinct fingers wrapping the silk naturally. Show palm creases rather than the back-of-hand knuckle/nail arrangement on the palm-facing surface. Preserve a natural uninterrupted forearm-wrist-palm connection, and maintain exactly five fingers, with no mirrored or duplicate right hand. Keep the hand in the same location and maintain its contact with the silk. Her other, lower hand remains unchanged.\nPreserve every other part of image 1: same adult woman, same face, expression, red ponytail, eyes, body proportions, red opaque practice jumpsuit, supported low seated pose, lower grip, leg positions, red silk, warm studio, lighting, background, camera, framing, and polished glossy anime rendering. No armor. No new object, no additional limbs or fingers, no text or watermark. Exact same vertical 2:3 canvas, 1024x1536. Output only one corrected standalone image.",
+      "references": [
+        "img/바오프_glossy_promo_f_casual3.webp",
+        "img/바오프_light_glossy_promo_f.webp"
+      ],
+      "previous_sha256": "dc4e93b0f6160be69cf115386f4f2a12c4fb2e799d9ea86c14b2e603c6757aa8",
+      "source_sha256": "b9fdc4af33e691513c61de6abf8f6a86b8ed59335933d21d292d8f627121da15",
+      "output_sha256": "0761b4b3a9d5924ad5538461a0150256b81ecb557f323b76810b1add6aae36b0",
+      "size": [
+        1024,
+        1536
+      ],
+      "qa": {
+        "hand_surface": "Raised hand now shows palm and thenar pad; thumb opposes four fingers around the silk. Wrist creases lead continuously into forearm.",
+        "finger_count": "One thumb and four curled fingers; distinct fingertips and no duplicated digit.",
+        "invariants": "Same face, hair, opaque practice jumpsuit, supported seated pose, lower hand, silk, framing, lighting and background retained.",
+        "text": "No text, logo or watermark observed."
+      }
+    }
+  ]
 }
