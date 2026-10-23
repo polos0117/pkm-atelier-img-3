@@ -1,0 +1,325 @@
+{
+  "status": "accepted",
+  "reviewed_at": "2026-10-23",
+  "reviewer": "gpt",
+  "method": "Original-size visual inspection, character contact sheet, recent comparison sheet, and current casual-look WASM check.",
+  "casual": [
+    {
+      "place": {
+        "match": true,
+        "evidence": "햇빛 드는 주방, 낮은 목재 작업대에 도마·성형 틀·초록/주황 큐브와 접시가 놓임."
+      },
+      "action": {
+        "match": true,
+        "evidence": "한 손은 초록 큐브를 집고 다른 손은 접시 위 큐브를 정돈함."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "크림색 민소매 미니 원피스와 높은 옆 슬릿으로 어깨·허벅지가 드러남."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "두 팔은 각각 어깨에서 팔꿈치·손목까지 이어지고 집는 손과 접시 위 손이 따로 보임. 접힌 두 다리와 두 발이 쿠션 안팎으로 연결됨."
+      },
+      "pose": {
+        "match": false,
+        "evidence": "쿠션에 다리를 접고 앉아 작업대 쪽으로 몸통을 틂. 정형적인 양반다리와는 약간 다름."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "골반은 비스듬히 앉고 상체는 카메라 쪽으로 자연스럽게 돌아감."
+      },
+      "frame": {
+        "match": true,
+        "evidence": "머리·손·양발이 프레임 안에 있는 전신."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "눈은 부드럽고 입술은 약간 열림. 선택한 입 다문 무표정과 차이가 있음."
+      },
+      "slot": "casual1",
+      "size": {
+        "match": true,
+        "evidence": "実ファイル1024×1536、WebP。"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "経装の顔・髪色・髪の流れ・目色を維持。Simisageはオリーブ色の長い髪と琥珀色の目、Pansearは赤い長いポニーテールと暖色の目。"
+      },
+      "text": {
+        "match": true,
+        "evidence": "壁・包装・小物・鏡を確認、読める文字/偽ラベル/透かしなし。"
+      },
+      "prompt_sha256": "c4aa5144c3adfc2ae660a33e8483c46673c87d319a49bcbd86189853ccd6b8fb",
+      "ui_errors": []
+    },
+    {
+      "place": {
+        "match": true,
+        "evidence": "큰 창문과 전신거울·옷걸이·낮은 스툴이 있는 피팅 공간."
+      },
+      "action": {
+        "match": true,
+        "evidence": "로브 피팅 중 몸 앞에 팔을 포개고 천을 고정한 모습."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "불투명 초록 홀터 패션 세트와 열린 아이보리 로브. 어깨와 허벅지·높은 다리선이 드러남."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "한 손은 반대쪽 위팔 위에 얹히며 손가락 윤곽이 분리됨. 반대 손은 포갠 팔과 소매 뒤에 가려짐. 팔은 두 개이고 끊기거나 떠 있는 손은 보이지 않음."
+      },
+      "pose": {
+        "match": true,
+        "evidence": "두 팔을 몸통 앞에 편안하게 포갬."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "카메라는 몸통보다 약간 낮고 얼굴은 위쪽을 살짝 향함."
+      },
+      "frame": {
+        "match": true,
+        "evidence": "머리부터 무릎 위까지 포함."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "입술이 살짝 열리고 눈썹은 안쪽이 약간 올라감. 먼 곳을 보는 옅은 미소보다 놀란 듯한 표정에 가까움."
+      },
+      "slot": "casual2",
+      "size": {
+        "match": true,
+        "evidence": "実ファイル1024×1536、WebP。"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "経装の顔・髪色・髪の流れ・目色を維持。Simisageはオリーブ色の長い髪と琥珀色の目、Pansearは赤い長いポニーテールと暖色の目。"
+      },
+      "text": {
+        "match": true,
+        "evidence": "壁・包装・小物・鏡を確認、読める文字/偽ラベル/透かしなし。"
+      },
+      "prompt_sha256": "4e43a92c8f17000dbc93c090e656af4b1919357a2acad63ad489c948d80ec5ef",
+      "ui_errors": []
+    },
+    {
+      "place": {
+        "match": true,
+        "evidence": "조명 거울과 여행 가방, 무대 설비·전시 비행기가 함께 보이는 항공 테마 행사 뒤편."
+      },
+      "action": {
+        "match": true,
+        "evidence": "작은 여행가방을 들고 걸으며 뒤돌아봄. 가방을 탁자 위에 둔다는 추가 설명과 다르게 손에 들고 있음."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "초록 크롭 이벤트 재킷·크림 밴도와 짧은 스커트·모자·목 스카프. 옆 허리와 다리가 드러남."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "가방을 잡은 팔과 옆으로 내린 팔 모두 어깨부터 손까지 이어짐. 다섯 손가락의 굽힘/분리와 정상적인 양다리 보행 연결을 확인."
+      },
+      "pose": {
+        "match": true,
+        "evidence": "한 발을 앞으로 옮기며 다른 발 뒤꿈치를 들어 걷는 모습."
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "몸은 뒤쪽을 향하고 얼굴은 어깨 너머로 카메라를 봄."
+      },
+      "frame": {
+        "match": true,
+        "evidence": "모자부터 두 신발까지 포함한 긴 환경 구도."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "입꼬리를 조금 올리고 눈을 또렷하게 뜬 자신감 있는 표정."
+      },
+      "slot": "casual3",
+      "size": {
+        "match": true,
+        "evidence": "実ファイル1024×1536、WebP。"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "経装の顔・髪色・髪の流れ・目色を維持。Simisageはオリーブ色の長い髪と琥珀色の目、Pansearは赤い長いポニーテールと暖色の目。"
+      },
+      "text": {
+        "match": true,
+        "evidence": "壁・包装・小物・鏡を確認、読める文字/偽ラベル/透かしなし。"
+      },
+      "prompt_sha256": "d5ed345c838bcaa26adb8344ffdef93e4dfdd9410aeae5dbdb673d011acef7e7",
+      "ui_errors": []
+    }
+  ],
+  "forms": [
+    {
+      "slot": "light",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "One frontal/three-quarter full-length character with background margins."
+      }
+    },
+    {
+      "slot": "heavy",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "One frontal/three-quarter full-length character with background margins."
+      }
+    },
+    {
+      "slot": "mobility",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "One frontal/three-quarter full-length character with background margins."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Overdrive follows its own closed-form camera, pose and subject scale."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Overdrive follows its own closed-form camera, pose and subject scale."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "size": {
+        "match": true,
+        "evidence": "1024×1536, complete head ornaments and boots within frame."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Canonical light-form face, eyes, hair and proportions retained."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Two continuous arms and legs; palm extended toward camera and other hand near face/chest; finger silhouettes remain consistent with closed form."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering, labels, logos or watermark."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Leaf-shaped green/gold plates with green seam light on overdrive."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Overdrive follows its own closed-form camera, pose and subject scale."
+      }
+    }
+  ],
+  "diversity": {
+    "pass": true,
+    "evidence": "쿠션에 앉은 음식 준비/팔짱 낀 로브 피팅/가방을 든 전신 보행으로 장소·활동·옷·자세가 구분된다.",
+    "comparison": "Recent comparison sheet: 나옹마·몬냥이·다크펫. Compared actual images, not settings alone.",
+    "look_check": "pass; no distance below 215. Simisage nearest 239, Pansear nearest 264."
+  }
+}
