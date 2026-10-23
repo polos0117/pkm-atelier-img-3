@@ -1,0 +1,122 @@
+{
+  "reviewer": "gpt",
+  "card": "동미러",
+  "source": "data/source-appearance.json 436, data/face-design.json 436 and actual prompt generator UI",
+  "face_reason": "평평한 원반의 둥근 윤곽과 둥근 노란 눈을 부드러운 턱·둥근 가로 눈·넓은 눈 간격으로 해석했다. 작은 사람 코와 얇은 입으로 원반의 단순한 표정을 옮겼으며 청록 짧은 일자 머리와 금색 눈을 실제 UI에서 골랐다.",
+  "compared_characters": [
+    "스컹탱크",
+    "해골몽",
+    "몽나",
+    "앗차키"
+  ],
+  "face_comparison": "스컹탱크의 각진 넓은 턱과 도톰한 입보다 동미러의 턱은 짧고 부드럽고 입이 작다. 해골몽·앗차키의 가늘고 긴 눈보다 둥글게 열린 금색 눈이 보인다. 몽나의 둥글고 볼륨 있는 볼과는 더 좁은 하관과 작은 얇은 입으로 구분된다.",
+  "evolution_comparison": "동탁군의 등록 경장이 없어 실제 이미지 계열 비교는 하지 않았다. 동미러의 원작 원반 및 얼굴 설계 자료를 대조했다.",
+  "casual_similarity": "generated_images/exec-8c57b06f-7afa-4606-b12e-4a18554d08b8.png — 가까운 컷 0장(점수 245 미만)\n     305  무우마_glossy_promo_f_casual1.webp\n     314  잎새코_glossy_promo_f_casual1.webp\n     321  귀뚤톡크_glossy_promo_f_casual3.webp\ngenerated_images/exec-fa88fe45-425b-49e5-aa47-cd53a65ffc83.png — 가까운 컷 2장(점수 245 미만)\n     238  침바루_glossy_promo_f_casual2.webp\n     242  스이쿤_glossy_promo_f_casual1.webp\n     250  암나이트_glossy_promo_f_casual2.webp\ngenerated_images/exec-f5677d76-0264-48bb-9b52-6ea6688af5c1.png — 가까운 컷 0장(점수 245 미만)\n     281  아노딥스_glossy_promo_f_casual3.webp\n     290  아르코_glossy_promo_f_casual1.webp\n     298  체리꼬_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "diversity_comparison": "스컹탱크·미라몽·몽나 일상 9컷과 나란히 보았다. 이번 컷은 넓은 바지 점프슈트로 앉아 드레이프를 펼침, 해변에서 팔짱을 낀 전통 문양 원피스 수영복, 벤치에 무릎을 접어 스케치하기다. 각 컷의 장소·옷 윤곽·주 활동·몸 방향이 구분되며 스컹탱크의 뒤돌아보기·벽 기대기·차 마시기와 다르다.",
+  "slots": {
+    "light": {
+      "image_sha256": "34348bedb093da6552c9b92125f28045e332192d215f327f8069b38fa082b2c8",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "청록 원반 흉갑과 검푸른 원형 장식, 짧은 식물 문양 망토. 머리부터 부츠까지 여백이 있고 손을 화면 왼쪽으로 펼친다.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "heavy": {
+      "image_sha256": "6dd04e50291ddf5b6b4fa73ab4043c0da6f4db6906c4eaf4b6b93816a9fc0428",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "더 두꺼운 어깨·팔·허벅지·정강이 겹판과 열린 얼굴 투구. 경장과 같은 얼굴·머리·금색 눈.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "mobility": {
+      "image_sha256": "19a6e95898a412a822cb1582d73630660652041303b495897d0807283f0d9918",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "얇게 분할된 원형 패널과 청색 추진부가 어깨·허리·다리에 보이고 망토보다 가벼운 외곽선.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "light_overdrive": {
+      "image_sha256": "ec620eecd568255b0869654f0a8f53a0cbeec2e3e8bf8b710a0b42189f37d40f",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "같은 경장 구도·손동작에서 원반판·어깨·다리 판이 이음새를 따라 벌어지고 흰 은빛 안쪽 프레임이 보임.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "heavy_overdrive": {
+      "image_sha256": "ccd6a3d3216ed6e469048e0af628960183ecdf96b0d601053356262b7cb35922",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "중장 구도와 넓은 겹판을 유지하면서 어깨·가슴·허리·무릎의 원형 연결부가 개방됨.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "mobility_overdrive": {
+      "image_sha256": "6c95e3b51f60d3e275e67472c1b4c0975fd86120e83147a3618cbf498a9e1d8c",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "observations": "고기동 구도를 유지한 채 어깨·허리·다리 분할판이 들리고 내부 은빛 고리가 드러남.",
+      "anatomy": "두 팔이 어깨에서 장갑 손목까지 연결되고 양손에 다섯 갈래 윤곽이 보인다. 머리·양발이 화면 안에 있으며 추가 팔다리는 없다."
+    },
+    "casual1": {
+      "image_sha256": "d9d3606f29aa8bfbe2d51bfb74f7b143090492f919ae853eef2bc55552387586",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "scene": "아틀리에 벤치에 앉아 두 손으로 허리의 얇은 드레이프를 펼친다. 뒤의 거울에는 본인의 뒷모습만 반사된다.",
+      "outfit": "청록 홀터 점프슈트와 넓은 바짓단, 깊은 목선과 드러난 어깨.",
+      "anatomy": "두 손의 손목이 팔에 이어지고 손가락이 천 끝과 허리 주름을 잡는다. 두 발과 바지 다리가 벤치 아래 자연스럽게 이어진다.",
+      "record_only_mismatches": "몸통은 비튼 앉은 자세·전신이며 표정은 bored보다 부드럽게 카메라를 본다. 거울 반사와 얼굴 없는 피팅 마네킹은 별도의 실제 두 번째 인물이 아니다."
+    },
+    "casual2": {
+      "image_sha256": "82b35ff61ca43b552c0b7f643b093a12c1498397a1003adcc787ceeaa74c7e36",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "scene": "얕은 물에 발을 담근 해변에서 팔짱을 낀 채 미소 짓는다. 바닥에는 매트와 바다유리.",
+      "outfit": "금동 원형 문양과 짙은 파랑의 스트랩리스 하이컷 원피스 수영복.",
+      "anatomy": "두 팔이 가슴 앞에서 연속적으로 교차하고 한 손이 반대 상완에 놓인다. 반대 손은 팔 아래 가려진 부분이 있어 전 손가락 수를 단정하지 않는다. 두 다리와 발은 얕은 물까지 자연스럽게 이어진다.",
+      "record_only_mismatches": "환경이 있으나 인물이 화면을 크게 차지해 environmental보다 전신 인물컷에 가깝고, looking_away 대신 카메라를 본다."
+    },
+    "casual3": {
+      "image_sha256": "424e356111caa0b608bf580168c96a4e7929f6f97cb951a850a2c617b0537569",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "청록색 짧은 일자 앞머리·금빛 눈·작고 둥근 턱·얇은 입 유지",
+      "text": "글자·상표·가짜 라벨 없음",
+      "single_figure": true,
+      "scene": "공원 벤치에서 무릎을 접어 지지하고 연필 끝을 스케치북에 대어 고사리와 발자국을 그린다.",
+      "outfit": "테라코타 짧은 오버롤과 아이보리 반도, 비대칭 스트랩·홀터 구조로 어깨·등·다리 노출.",
+      "anatomy": "앞 손이 연필을 감싸고 손목과 팔꿈치가 연결된다. 반대 손은 노트 위에 얹혀 일부 손가락이 가려지며 추가 손은 없다. 접힌 다리는 벤치에 지지되어 있다.",
+      "record_only_mismatches": "chest_up보다 넓게 엉덩이·접힌 무릎이 보이며 옆을 향한 몸통에 머리는 돌아본다. 볼의 홍조와 열린 입이 flustered에 부합한다."
+    }
+  },
+  "attempts": {
+    "casual3-first": {
+      "accepted": false,
+      "reason": "스케치북을 들고 식물에 손을 뻗는 모습이며 스케치 주 활동 누락",
+      "record": "attempts/casual3-first/qa.json",
+      "final": "casual3"
+    }
+  }
+}

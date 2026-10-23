@@ -1,0 +1,245 @@
+{
+  "session": "skuntank-bronzor-2870ae-20261023",
+  "card": "동미러",
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "source_editorial",
+      "ex": "transformation_drape",
+      "expr": "bored",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "expose": [
+        "plunging neckline",
+        "halter neck"
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "heritage_pattern_swim",
+      "expr": "amused",
+      "pose": "arms_crossed",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_sketch",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "side",
+      "frame": "chest_up",
+      "pose": "kneeling",
+      "expr": "flustered",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "exampleText": "Sketching habitat plants and Pokémon tracks in a notebook on a park bench.",
+      "manual": [
+        {
+          "field": "scene",
+          "content": "A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page.",
+          "why": "예시 hobby_sketch에 없는 구체적인 활동·물건·빛을 추가: A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page."
+        },
+        {
+          "field": "outfit",
+          "content": "A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible.",
+          "why": "overalls에 계획된 one-shoulder cut / halter neck 재단과 이 장면의 소재·색을 명시: A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "mostly posed — A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page.",
+        "source_influence": "subtle — A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible.",
+        "separates_preference": "balanced — overalls의 실제 재단 구성."
+      }
+    }
+  ],
+  "batch": {
+    "session": "skuntank-bronzor-2870ae-20261023",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "동미러",
+        "species": "bronzor-20261023",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "transformation_drape",
+            "expr": "bored",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "heritage_pattern_swim",
+            "expr": "amused",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_sketch",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "kneeling",
+            "expr": "flustered",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail",
+            "exampleText": "Sketching habitat plants and Pokémon tracks in a notebook on a park bench.",
+            "manual": [
+              {
+                "field": "scene",
+                "content": "A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page.",
+                "why": "예시 hobby_sketch에 없는 구체적인 활동·물건·빛을 추가: A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page."
+              },
+              {
+                "field": "outfit",
+                "content": "A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible.",
+                "why": "overalls에 계획된 one-shoulder cut / halter neck 재단과 이 장면의 소재·색을 명시: A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+              }
+            ],
+            "axesReasons": {
+              "action_level": "mostly posed — A graphite pencil touches the open notebook on the park bench as she sketches the fern fronds and tiny tracks in the soil; late-afternoon sun catches the page.",
+              "source_influence": "subtle — A terracotta short-overall romper has a single shoulder strap connected to a slim halter loop, over a fitted ivory bandeau, leaving the opposite shoulder and most of her thighs visible.",
+              "separates_preference": "balanced — overalls의 실제 재단 구성."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "planner": "tools/casual-plan.cjs",
+  "check": "casual-ledger.py check PLAN-enriched.json --fresh 통과",
+  "reservation_commit": "a3f63ec8c698748aa6af765db3ade8248f80a54b",
+  "replan_reason": "첫 casual3에서 스케치 동작이 빠짐. 완료한 casual1·2의 실제 WebP와 UI 기록을 보존하고 계획기의 refill로 3번만 다시 정했다. on_tiptoe·hands_in_hair·walking을 활동 부적합 후보로 제외했고, 최종 계획은 kneeling·side·chest_up이다. 장면 칸에 연필로 스케치하는 구체 동작을 추가했다."
+}
