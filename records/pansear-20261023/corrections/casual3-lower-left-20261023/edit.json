@@ -1,0 +1,36 @@
+{
+  "at": "2026-10-23",
+  "slot": "casual3",
+  "status": "accepted",
+  "requested_by": "user",
+  "user_correction": "아니 왼손.. 너가 방금 수정한건 오른손이야.",
+  "target": "LOWER LEFT hand at waist height, around image pixel (850,780)",
+  "reason": "Previous attempt edited the upper right hand by mistake. Correct the lower left grip and restore the original upper right hand.",
+  "input_images": [
+    {
+      "role": "edit target, ORIGINAL before mistaken right-hand edit",
+      "path": "recovery/cache-records/pansear-20261023/casual3-accepted.png",
+      "repository_blob": "8732bc0540f1f183d0a2b534f34317efa2212b13"
+    },
+    {
+      "role": "canonical identity",
+      "path": "img/바오프_light_glossy_promo_f.webp"
+    }
+  ],
+  "changed_inputs": "Only correction target changed to the lower waist-level left grip. Original generator selections remain unchanged. The original pre-edit casual3 was used to restore the upper right hand.",
+  "prompt": "Use case: precise-object-edit.\nImage 1 is the ORIGINAL approved casual3 scene, before the mistaken right-hand edit. Image 2 is only the same woman's canonical identity reference; never copy its armor.\nCorrect ONLY the LOWER hand gripping the red vertical silk at WAIST HEIGHT, around pixel (850,780) of this 1024x1536 image. This lower hand is her LEFT hand. It is NOT the raised upper hand next to her head. Keep the entire raised UPPER RIGHT HAND and its arm exactly as in image 1, unchanged.\nThe lower LEFT hand currently has a mirrored/reversed palm-versus-back anatomy. Redraw this lower grip as a real LEFT hand, naturally joined to its horizontally reaching forearm: rotate the palmar surface into view; show a coherent fleshy palm, thenar pad and palmar wrist creases. The thumb belongs on the LOWER side of this horizontally oriented left grip and opposes the four fingers, rather than duplicating a right-hand thumb on the upper edge. Four distinct fingers curl around the opposite side of the vertical silk with believable knuckles and joints, exactly one thumb plus four fingers, no extra digit. Keep this lower hand in its original waist-level position and continuously attached to its original forearm. Avoid an impossible twist of the wrist. The lower left hand must visibly change; the upper right hand must not change.\nPreserve ALL remaining pixels/composition as closely as possible: same adult woman's face, eyes, expression, red ponytail, skin, proportions, opaque red practice jumpsuit, supported seated pose, both legs, silk, studio, light, background, camera and framing. No new object, armor, lettering or watermark. Same polished glossy anime illustration. Exact vertical 2:3 canvas, 1024x1536. One corrected standalone image.",
+  "replaced_sha256": "0761b4b3a9d5924ad5538461a0150256b81ecb557f323b76810b1add6aae36b0",
+  "source_sha256": "aa3b8157341089c0b4a6635441b79a1d21620a3583d78394d246319b7e7e62a8",
+  "output_sha256": "41ca503af2b52a239e83de97d1ed6788c0e7bb3ae560a1a1ae57edd9da9d39fb",
+  "size": [
+    1024,
+    1536
+  ],
+  "qa": {
+    "target": "Lower waist-level grip visibly changed from back-of-hand surface to palm/thenar-pad and wrist-crease surface.",
+    "fingers": "Thumb opposes curled fingers around silk; part of index fingertip is behind the thumb, with three further curled fingertips visible.",
+    "right_hand": "Upper raised right-hand grip matches the original pre-edit image, rather than the mistaken preceding result.",
+    "invariants": "Face, red ponytail, expression, opaque red jumpsuit, seated silhouette, silk, studio and camera preserved.",
+    "observation": "Thumb wraps across the upper rim of the grip; the prompt's lower-thumb placement was not followed exactly."
+  }
+}
