@@ -1,0 +1,441 @@
+{
+  "session": "snorunt-glalie-20261024-fc069",
+  "card": "눈꼬마",
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "yukata_poolside",
+      "expr": "laughing",
+      "pose": "stretching",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "traditional"
+      ],
+      "expose": [
+        "open back",
+        "high thigh slit"
+      ],
+      "lead": "place"
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "adult_teacher",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "front",
+      "frame": "chest_up",
+      "pose": "reading_book",
+      "expr": "half_smile",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "exampleText": "a teacher-inspired costume look with a fitted blazer, pleated skirt, reading glasses, and books",
+      "manual": [
+        {
+          "field": "scene",
+          "content": "An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop.",
+          "why": "선택 예시 adult_teacher에 없는 이 컷의 빛, 장소 세부 및 활동 물건을 지정: An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt.",
+          "why": "계획의 jacket+skirt를 open back / strapless top 구조로 만들고 소재·배색을 지정: A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "balanced — An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop.",
+        "source_influence": "balanced — A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt.",
+        "separates_preference": "prefer separates — jacket+skirt 재단을 따른다."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "one_shoulder_lounge",
+      "garments": [
+        "trousers"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "sitting",
+      "expr": "candid",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "exampleText": "a one-shoulder lounge set — top covering one shoulder and matching soft pants",
+      "manual": [
+        {
+          "field": "scene",
+          "content": "Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops.",
+          "why": "선택 예시 one_shoulder_lounge에 없는 이 컷의 빛, 장소 세부 및 활동 물건을 지정: Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers.",
+          "why": "계획의 trousers를 side cutouts / one-shoulder cut 구조로 만들고 소재·배색을 지정: An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+        }
+      ],
+      "axesReasons": {
+        "action_level": "mostly posed — Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops.",
+        "source_influence": "balanced — An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers.",
+        "separates_preference": "prefer separates — trousers 재단을 따른다."
+      }
+    }
+  ],
+  "batch": {
+    "session": "snorunt-glalie-20261024-fc069",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "눈꼬마",
+        "species": "snorunt-20261024",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "yukata_poolside",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "traditional"
+            ],
+            "expose": [
+              "open back",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "adult_teacher",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "reading_book",
+            "expr": "half_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "detail",
+            "exampleText": "a teacher-inspired costume look with a fitted blazer, pleated skirt, reading glasses, and books",
+            "manual": [
+              {
+                "field": "scene",
+                "content": "An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop.",
+                "why": "선택 예시 adult_teacher에 없는 이 컷의 빛, 장소 세부 및 활동 물건을 지정: An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop."
+              },
+              {
+                "field": "outfit",
+                "content": "A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt.",
+                "why": "계획의 jacket+skirt를 open back / strapless top 구조로 만들고 소재·배색을 지정: A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+              }
+            ],
+            "axesReasons": {
+              "action_level": "balanced — An open stage script rests in her hands during a teacher-themed theatrical rehearsal beside a chalkboard prop.",
+              "source_influence": "balanced — A cropped mustard open-back bolero jacket frames an opaque black strapless blouse, paired with a charcoal pleated skirt and narrow amber belt.",
+              "separates_preference": "prefer separates — jacket+skirt 재단을 따른다."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "one_shoulder_lounge",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "candid",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "light",
+            "exampleText": "a one-shoulder lounge set — top covering one shoulder and matching soft pants",
+            "manual": [
+              {
+                "field": "scene",
+                "content": "Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops.",
+                "why": "선택 예시 one_shoulder_lounge에 없는 이 컷의 빛, 장소 세부 및 활동 물건을 지정: Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops."
+              },
+              {
+                "field": "outfit",
+                "content": "An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers.",
+                "why": "계획의 trousers를 side cutouts / one-shoulder cut 구조로 만들고 소재·배색을 지정: An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "why": "이미지 도구에 별도 크기 설정이 없어 규칙의 2:3 문장을 넣었다."
+              }
+            ],
+            "axesReasons": {
+              "action_level": "mostly posed — Warm reading-lamp light falls across a sofa nook overlooking rainy city rooftops.",
+              "source_influence": "balanced — An ivory one-shoulder lounge top with small waist side cutouts is paired with flowing ochre trousers.",
+              "separates_preference": "prefer separates — trousers 재단을 따른다."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "front"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "얼음귀신",
+        "species": "glalie-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "rooftop_infinity_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "pose": "standing_formal",
+            "expr": "mischievous",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "futuristic_spa",
+            "garments": [
+              "robe"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "dance_step",
+            "expr": "mildly_annoyed",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_fireworks",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "holding_cup",
+            "expr": "pensive",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "robe",
+            "overalls"
+          ],
+          "orient": [
+            "front_3q",
+            "low_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "planner": "tools/casual-plan.cjs",
+  "check": "check --fresh passed",
+  "reservation": "records/casual-reservations/snorunt-glalie-20261024-fc069.json",
+  "replan_reason": "생성 전 의상 예시와 expose·garments 충돌을 avoid로 제외하고 계획기로 다시 정함. 선택값을 수동으로 바꾸지 않음.",
+  "corrections": [
+    {
+      "cut": 2,
+      "from": "lingerie/back_strap",
+      "to": "adult_roleplay/adult_teacher",
+      "reason": "moderation rejection; substantively different stage role, costume and book-reading activity"
+    },
+    {
+      "cut": 3,
+      "reason": "book page lettering",
+      "changed_input": "custom: precise page-only erase",
+      "references": [
+        "light",
+        "casual3 before correction"
+      ]
+    }
+  ]
+}
