@@ -1,0 +1,126 @@
+{
+ "session": "image-runner-2026-10-23-3-356",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "미라몽",
+   "species": "dusclops-20261023",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "swim_coverup",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "high_angle",
+     "frame": "environmental",
+     "pose": "standing_formal",
+     "expr": "laughing",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "plunging neckline"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "homewear",
+     "ex": "late_night_kitchen",
+     "garments": [
+      "shorts"
+     ],
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "pose": "offering_food",
+     "expr": "candid",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "strapless top",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "lingerie",
+     "ex": "garter_set",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "low_angle",
+     "frame": "chest_up",
+     "pose": "dance_step",
+     "expr": "half_smile",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": []
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "partner_care",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "swimwear",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "bikini",
+     "lingerie_set"
+    ],
+    "orient": [
+     "high_angle",
+     "profile_close",
+     "low_angle"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

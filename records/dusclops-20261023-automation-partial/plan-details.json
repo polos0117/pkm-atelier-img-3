@@ -1,0 +1,400 @@
+{
+  "session": "image-runner-2026-10-23-3-356",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "미라몽",
+      "species": "dusclops-20261023",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "swim_coverup",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "high_angle",
+          "frame": "environmental",
+          "pose": "standing_formal",
+          "expr": "laughing",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "plunging neckline"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "homewear",
+          "ex": "late_night_kitchen",
+          "garments": [
+            "shorts"
+          ],
+          "orient": "profile_close",
+          "frame": "waist_up",
+          "pose": "offering_food",
+          "expr": "candid",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "strapless top",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "garter_set",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "low_angle",
+          "frame": "chest_up",
+          "pose": "dance_step",
+          "expr": "half_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1,
+            3
+          ],
+          "two": true,
+          "prev": []
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_sensual",
+          "partner_care",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "swimwear",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "bikini",
+          "lingerie_set"
+        ],
+        "orient": [
+          "high_angle",
+          "profile_close",
+          "low_angle"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "swim_coverup",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "high_angle",
+      "frame": "environmental",
+      "pose": "standing_formal",
+      "expr": "laughing",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "side cutouts",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: swimwear worn under an open gauzy cover-up, tied loosely at the hip",
+      "custom_inputs": {
+        "scene": "Examining a pale spiral shell after a swim at a volcanic-rock beach, with tidal pools and bright midday light glittering beyond the shore.",
+        "outfit": "An opaque graphite bikini with small side cutouts and a deep V neckline beneath the gauzy cover-up; a red circular clasp and silver winding trim recall her wrapped armor.",
+        "reason": "The cover-up example leaves beach activity, time, palette and swimsuit cut unspecified; reserved bikini, side cutouts and neckline supply those differences.",
+        "axes_reason": "Examining a shell is mostly posed; wrapping trim and red ring give strong source influence; coordinated swimwear fits balanced separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "late_night_kitchen",
+      "garments": [
+        "shorts"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "offering_food",
+      "expr": "candid",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "strapless top",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: late at night in the kitchen in oversized tee and shorts, pouring a drink or making a snack",
+      "custom_inputs": {
+        "scene": "A small plate of warm rice cakes and a ceramic teapot sit beside a kitchen counter under warm pendant lights late at night; she offers a freshly prepared snack.",
+        "outfit": "Soft charcoal lounge shorts and an oversized pale-gray tee worn off one shoulder over an opaque strapless top, leaving shoulders and legs visible; wrapped seams and red ring buttons echo her costume.",
+        "reason": "Actual UI expands the kitchen example to oversized tee and shorts; preserve that outfit and add the reserved off-shoulder and strapless construction, with rice cakes specifying the snack.",
+        "axes_reason": "Offering a light plate is balanced action; wrapped seams and ring buttons strongly recall source; shorts and top are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "garter_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "pose": "dance_step",
+      "expr": "half_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a lingerie set with decorative garter straps, worn as styling detail",
+      "custom_inputs": {
+        "scene": "A fashion studio rehearsal floor with tall frosted windows and warm afternoon side light, where she rehearses a small step for a clothing presentation.",
+        "outfit": "An opaque slate lingerie fashion set with decorative garter straps, high-cut legs and an open back; matte fabric and plain edges keep the look uncluttered.",
+        "reason": "The garter example has no location or activity; studio rehearsal gives the dance step a nonsexual fashion context, with reserved high-cut and open-back tailoring.",
+        "axes_reason": "Rehearsing a step is mostly active; only slate palette subtly carries source; the coordinated garment set fits balanced separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push before image generation",
+    "replan_reason": "burkini_modest full cover contradicted side cutouts/deep neckline; --avoid before any casual generation; no safety retry",
+    "ui_correction": "casual2 preserved UI-expanded oversized tee/shorts before intent; original preflight capture retained"
+  }
+}

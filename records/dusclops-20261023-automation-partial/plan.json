@@ -1,0 +1,130 @@
+{
+ "session": "image-runner-2026-10-23-3-356",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "미라몽",
+   "species": "dusclops-20261023",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "burkini_modest",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "high_angle",
+     "frame": "environmental",
+     "pose": "small_jog",
+     "expr": "half_smile",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "plunging neckline"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "homewear",
+     "ex": "bralette_cardigan",
+     "garments": [
+      "cardigan",
+      "crop_top",
+      "shorts"
+     ],
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "pose": "dance_step",
+     "expr": "sleepy",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "strapless top",
+      "off-shoulder neckline"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "cat": "lingerie",
+     "ex": "garter_set",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "low_angle",
+     "frame": "chest_up",
+     "pose": "hand_on_hip",
+     "expr": "soft_smile",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": []
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "partner_care",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "swimwear",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "swimsuit",
+     "cardigan",
+     "crop_top",
+     "lingerie_set"
+    ],
+    "orient": [
+     "high_angle",
+     "profile_close",
+     "low_angle"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
