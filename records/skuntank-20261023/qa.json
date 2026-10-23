@@ -1,0 +1,113 @@
+{
+  "reviewer": "gpt",
+  "card": "스컹탱크",
+  "source": "data/source-appearance.json 435 and data/face-design.json 435; actual UI FACE/HAIR",
+  "face_reason": "가시털의 직선은 각진 광대와 턱선, 고양이 같은 인상은 가로로 긴 눈, 큰 코 단서는 둥근 코끝으로 해석했다. 머리색과 장식 외에도 긴 눈·넓은 턱·도톰한 입으로 최근 세 인물과 구분했다.",
+  "compared_characters": [
+    "해골몽",
+    "몽나",
+    "앗차키"
+  ],
+  "evolution_comparison": "스컹뿡의 등록 경장이 없어 data/face-design.json 및 원작 외형 단서를 대조했다. 실제 이미지 비교를 했다고 기록하지 않는다.",
+  "face_comparison": "해골몽의 더 작고 뾰족한 턱, 몽나의 짧고 둥근 볼과 작은 입, 앗차키의 더 가는 긴 얼굴과 비교했다. 스컹탱크는 넓은 턱과 가로로 길게 열린 눈, 더 도톰한 입이 보인다.",
+  "casual_similarity": "generated_images/exec-bf21c84d-c35c-46cd-9a44-5e248e133e59.png — 가까운 컷 0장(점수 245 미만)\n     301  도롱마담_glossy_promo_f_casual2.webp\n     301  디그다_glossy_promo_f_casual2.webp\n     303  갱도라_glossy_promo_f_casual1.webp\ngenerated_images/exec-8323996d-c97f-438f-8f99-9d0e1f6095de.png — 가까운 컷 0장(점수 245 미만)\n     255  대짱이_glossy_promo_f_casual1.webp\n     271  레디바_glossy_promo_f_casual3.webp\n     274  별가사리_glossy_promo_f_casual1.webp\ngenerated_images/exec-76589bfa-b8a4-496c-bcf7-cb1f8213123b.png — 가까운 컷 0장(점수 245 미만)\n     256  버터플_glossy_promo_f_casual3.webp\n     278  마릴리_glossy_promo_f_casual3.webp\n     286  내루미_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "diversity_comparison": "미라몽·몽나·앗차키 일상 9컷과 나란히 보았다. 이번 세 컷은 행사 갑판에서 뒤돌아보는 유니폼, 사암 기둥에서 부채를 든 랩드레스, 찻집에서 컵을 든 생활한복이다. 팔과 몸통 방향·의상 실루엣·활동이 서로 다르고, 최근 컷의 수영복·테니스·카페·캠핑을 복제하지 않는다.",
+  "slots": {
+    "light": {
+      "image_sha256": "f0d2bbc45343844bd27f353a75fc70fed32db0ba2ea5f473fbd719906cde0eca",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "몸에 붙은 단일 장갑층과 크림색 줄무늬, 보라 망토형 자락"
+    },
+    "heavy": {
+      "image_sha256": "b2cef2ca77e098db94e5d962944e6158bedb7335f0054bd9ca9c4cc0cb6be466",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "어깨·팔·허벅지·정강이에 두꺼운 겹판과 열린 얼굴 머리장식"
+    },
+    "mobility": {
+      "image_sha256": "580cfe7d3b5df68caac637aca3630648868c735f2bb588c2a91455c1bcfd63d6",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "얇고 긴 분할판과 보라 추진 광원"
+    },
+    "light_overdrive": {
+      "image_sha256": "410dc872b9b32b13fbbad431531df4fa5ff98100d696aabd2569e506cc22695a",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "경장과 같은 구도에서 어깨·옆구리·다리 이음새가 열리고 자광이 드러남"
+    },
+    "heavy_overdrive": {
+      "image_sha256": "ac5776e881ac0a8daa38dfa405575053f2576896597f8939328baedc66c88f46",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "중장의 겹판 사이가 열리고 내부 자광이 드러나며 같은 서 있는 자세 유지"
+    },
+    "mobility_overdrive": {
+      "image_sha256": "a537d2b507602727565b6b3feb9b0e5a82e6fe637d7cedd85a8e4da5f8bc985e",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "anatomy": "머리·양발이 화면 안에 있고 양팔이 어깨에서 손목까지 이어진다. 양손은 아래로 이완되어 각 5지 윤곽이 구분되며 추가 팔·손이 없다.",
+      "armor": "고기동의 어깨·허리·다리 분할판이 들리고 추진부 빛과 독 안개가 증가"
+    },
+    "casual1": {
+      "image_sha256": "eaefd3b186013eecca9e6188fd332b83bf8e5a90c9a65e9355b3a69a3fc5876e",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "scene": "리허설 갑판 구조물 앞에서 크림·보라 천을 오른쪽 아래 손에 들고 있다.",
+      "outfit": "짧은 비대칭 어깨의 유니폼풍 상의와 미니 스커트, 어깨·허리 노출",
+      "anatomy": "화면 오른쪽 손이 천을 잡고 손목·손가락이 이어진다. 반대 손은 굽힌 팔 뒤에 가려져 수를 단정할 수 없고 추가 손은 보이지 않는다.",
+      "record_only_mismatches": "chest_up 대신 허벅지까지, small_jog의 발 동작은 잘려 확인 불가, sleepy보다 또렷한 시선. 몸은 뒤를 향하고 머리는 돌아본다."
+    },
+    "casual2": {
+      "image_sha256": "5c514d5b439175cb5bdfdb83aeee90205bbdb444bbdde654de2dd41cc967e306",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "scene": "사막 리조트 사암 기둥 그늘에 몸을 기대고 부채를 든다. 옆에는 토기 컵.",
+      "outfit": "밀짚모자와 크림 리넨 랩드레스, 깊은 슬릿으로 다리 노출. 비대칭 뒤 기장은 요청 mini보다 길다.",
+      "anatomy": "부채 손의 손가락이 가지런히 이어지고 다른 팔은 받침대로 연속되어 추가 손·팔이 없다.",
+      "record_only_mismatches": "relieved에 가까운 풀린 입과 반쯤 뜬 눈. 몸통은 대체로 정면이며 기대는 동작. 뒤쪽 치맛단은 요청보다 길다."
+    },
+    "casual3": {
+      "image_sha256": "f93f447c5ffdf1def9a2ea9ace66fd68403b8804b54592f707dfda859818cc71",
+      "accepted": true,
+      "size": "1024×1536",
+      "identity": "보라색 비대칭 긴 머리와 크림 앞머리, 넓고 각진 턱·가로로 긴 보라 눈 유지",
+      "single_figure": true,
+      "text": "읽을 수 있는 글자·상표 없음",
+      "scene": "목재 창살 찻집에서 한 손을 허리에 대고 다른 손으로 찻잔을 든다.",
+      "outfit": "보라 크롭 저고리형 상의·고름과 연녹색 치마, 드러난 어깨·배.",
+      "anatomy": "허리 손은 손목에서 다섯 손가락 윤곽이 이어지고 찻잔 손은 구부린 손가락이 컵을 감싼다. 양팔 연결이 자연스럽다.",
+      "record_only_mismatches": "waist_up보다 넓은 프레임, mid-turn보다 정면 3/4. 미소와 허리 손동작은 보인다. open back은 정면이라 확인 불가."
+    }
+  }
+}
