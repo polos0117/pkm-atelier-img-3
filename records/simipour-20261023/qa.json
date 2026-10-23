@@ -1,0 +1,211 @@
+{
+  "reviewer": "gpt",
+  "style": "glossy_promo",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "compared_characters": [
+    "앗차프",
+    "바오키",
+    "바오프",
+    "야나키"
+  ],
+  "face_reason": "Oval eyes, broad ears and small nose inform a shorter broad oval human face with fuller lower lip; compared light images show Simipour fuller cheek/lower lip and softer jaw than Panpour, stronger brow than Pansear, and less angular jaw than Simisage. Simisear has narrower raised eye corners. Family comparison retains water curvature and blue/cream motifs.",
+  "face_sources": [
+    "data/source-appearance.json:516",
+    "docs/CHARACTER_FACE_DESIGNS.md:516"
+  ],
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "f3ced13e307eaa83f6f7948efe4a3429805decb109892dee9b8e363903c2a45c",
+      "identity": {
+        "match": true,
+        "evidence": "Blue messy bun with curtain framing and long loose lengths; ivory slim plates on shoulders, forearms, hips and shins. Both boots are inside the frame. Open right palm on screen left and relaxed left hand on screen right have separate digits and continuous wrists."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Blue messy bun with curtain framing and long loose lengths; ivory slim plates on shoulders, forearms, hips and shins. Both boots are inside the frame. Open right palm on screen left and relaxed left hand on screen right have separate digits and continuous wrists."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Blue messy bun with curtain framing and long loose lengths; ivory slim plates on shoulders, forearms, hips and shins. Both boots are inside the frame. Open right palm on screen left and relaxed left hand on screen right have separate digits and continuous wrists."
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "d126756aa94d9a2b17d1daf5614abeb43dcffdb747136104ed4a7af454681561",
+      "identity": {
+        "match": true,
+        "evidence": "Broad rimmed shoulder, chest, thigh and shin plates make a larger outline; face, bun and blue irises match light. Open hands remain separated from the water arcs."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Broad rimmed shoulder, chest, thigh and shin plates make a larger outline; face, bun and blue irises match light. Open hands remain separated from the water arcs."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Broad rimmed shoulder, chest, thigh and shin plates make a larger outline; face, bun and blue irises match light. Open hands remain separated from the water arcs."
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "6b3626682921e4b1467ee2917ee9f43e6e98fc33c0e83b43f7119de5be6b9de3",
+      "identity": {
+        "match": true,
+        "evidence": "Swept hip and calf panels with circular cyan thrusters create air gaps; limbs remain two arms and two legs. Ivory and navy palette and bun match light."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Swept hip and calf panels with circular cyan thrusters create air gaps; limbs remain two arms and two legs. Ivory and navy palette and bun match light."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Swept hip and calf panels with circular cyan thrusters create air gaps; limbs remain two arms and two legs. Ivory and navy palette and bun match light."
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "b07a5e9a9b793f51e2588b0927224f05e8e6eb8528126da90357a2384aa5180e",
+      "identity": {
+        "match": true,
+        "evidence": "Light armor seams expose cyan inner channels at shoulders, waist and shins; head, camera, extended right hand and crossed-leg stance align with closed light."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Light armor seams expose cyan inner channels at shoulders, waist and shins; head, camera, extended right hand and crossed-leg stance align with closed light."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Light armor seams expose cyan inner channels at shoulders, waist and shins; head, camera, extended right hand and crossed-leg stance align with closed light."
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "708f05697871a10c5cff71e5225fb59fffcedc5aa22c34bbb3595d969d1a693c",
+      "identity": {
+        "match": true,
+        "evidence": "Stacked shoulder and thigh plates open above cyan inner frame; closed heavy head and boot locations remain aligned; no carried object or added weapon."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Stacked shoulder and thigh plates open above cyan inner frame; closed heavy head and boot locations remain aligned; no carried object or added weapon."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Stacked shoulder and thigh plates open above cyan inner frame; closed heavy head and boot locations remain aligned; no carried object or added weapon."
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "bbba370ef1d124c84ffd974c64af545b09fe371cf35baca9ea60cb10856567ac",
+      "identity": {
+        "match": true,
+        "evidence": "Fanned plates spread around shoulder, hip and calf thrusters; the original cyan circles and head/hand/foot locations persist without new wings."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Fanned plates spread around shoulder, hip and calf thrusters; the original cyan circles and head/hand/foot locations persist without new wings."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Fanned plates spread around shoulder, hip and calf thrusters; the original cyan circles and head/hand/foot locations persist without new wings."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "c7d09e53c68e79860f02e8491d8714401cade6e8daf6f2f9d5951881808cc381",
+      "identity": {
+        "match": true,
+        "evidence": "She rests her right elbow on an ivory console with her hand near her cheek; left fingers touch the gold cuff. Ivory off-shoulder fabric and gold collar expose shoulders and collarbones. Mouth is slightly parted rather than a straight unimpressed line; framing includes hips rather than only chest. No visible lettering."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "She rests her right elbow on an ivory console with her hand near her cheek; left fingers touch the gold cuff. Ivory off-shoulder fabric and gold collar expose shoulders and collarbones. Mouth is slightly parted rather than a straight unimpressed line; framing includes hips rather than only chest. No visible lettering."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "She rests her right elbow on an ivory console with her hand near her cheek; left fingers touch the gold cuff. Ivory off-shoulder fabric and gold collar expose shoulders and collarbones. Mouth is slightly parted rather than a straight unimpressed line; framing includes hips rather than only chest. No visible lettering."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "4ebe80b9b4f7d14fbed6862288f3f51529fa1695585fd5c014bdddd99e0e05c3",
+      "identity": {
+        "match": true,
+        "evidence": "One shoulder strap supports an opaque navy diagonal top, with high-waisted briefs, bare midriff and long bare legs. Right hand rests on console; left fingers reach her chin. Two continuous arms, two feet inside frame. Crescent glass bottle and satin ribbon are on the console. A gold hair ornament persisted from light despite wardrobe removal instruction; recorded as accessory detail deviation."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "One shoulder strap supports an opaque navy diagonal top, with high-waisted briefs, bare midriff and long bare legs. Right hand rests on console; left fingers reach her chin. Two continuous arms, two feet inside frame. Crescent glass bottle and satin ribbon are on the console. A gold hair ornament persisted from light despite wardrobe removal instruction; recorded as accessory detail deviation."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "One shoulder strap supports an opaque navy diagonal top, with high-waisted briefs, bare midriff and long bare legs. Right hand rests on console; left fingers reach her chin. Two continuous arms, two feet inside frame. Crescent glass bottle and satin ribbon are on the console. A gold hair ornament persisted from light despite wardrobe removal instruction; recorded as accessory detail deviation."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "16f6172d80affa8586841351c54c46fddd4fff2f49c6f133b99d5f6ff2c175bc",
+      "identity": {
+        "match": true,
+        "evidence": "Both hands grasp different edges of a blue-and-ivory blanket beside the lakeside tent and kettle. Romper has bare back and shoulders and short legs. Face looks back over shoulder; hands have believable grips, legs connect continuously. Mid-stride is mild; selected primary blanket task is now present."
+      },
+      "anatomy": {
+        "match": true,
+        "evidence": "Both hands grasp different edges of a blue-and-ivory blanket beside the lakeside tent and kettle. Romper has bare back and shoulders and short legs. Face looks back over shoulder; hands have believable grips, legs connect continuously. Mid-stride is mild; selected primary blanket task is now present."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable text, sign, logo or packaging label in the reviewed image."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded 1024x1536 WebP."
+      },
+      "actual_observations": "Both hands grasp different edges of a blue-and-ivory blanket beside the lakeside tent and kettle. Romper has bare back and shoulders and short legs. Face looks back over shoulder; hands have believable grips, legs connect continuously. Mid-stride is mild; selected primary blanket task is now present."
+    }
+  },
+  "diversity_comparison": "Compared her three images side by side: close console cuff action, standing full-body navy two-piece fashion and back-turned outdoor blanket handling have different silhouettes and hand actions. Against recent Panpour beach/salon/traditional, Simisear doorway/festival/greenhouse, Pansear festival/slip/aerial-silk and Simisage kitchen/robe/aviation images, these use a different ceremonial console action, asymmetric one-shoulder tailoring and lakeside blanket handling. The first two both use ornate pale interiors, but differ in cropped versus full figure and one-piece versus two-piece silhouette. The third is a daylight tent setting.",
+  "casual_look": "tools/casual-look.cjs passed; nearest scores 280,272,284; no neighbor under 245.",
+  "skipped": []
+}
