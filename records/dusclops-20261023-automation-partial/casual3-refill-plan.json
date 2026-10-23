@@ -1,0 +1,126 @@
+{
+ "session": "dusclops-casual3-refill-20261023",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "미라몽",
+   "species": "dusclops-20261023-automation-partial",
+   "refill": true,
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "swim_coverup",
+     "expr": "laughing",
+     "pose": "standing_formal",
+     "orient": "high_angle",
+     "frame": "environmental",
+     "lens": "telephoto135",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "side cutouts",
+      "plunging neckline"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "homewear",
+     "ex": "late_night_kitchen",
+     "expr": "candid",
+     "pose": "offering_food",
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts"
+     ],
+     "expose": [
+      "strapless top",
+      "off-shoulder neckline"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "everyday_sensual",
+     "ex": "morning_stretch",
+     "garments": [
+      "dress"
+     ],
+     "orient": "rear_3q",
+     "frame": "chest_up",
+     "pose": "stretching",
+     "expr": "half_smile",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "plunging neckline"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": []
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "partner_care",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "swimwear",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "dress"
+    ],
+    "orient": [
+     "rear_3q"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "why_refill": {
+  "blocked": "casual3 lingerie/garter_set/low_angle — 이미지 도구 출력 단계에서 sexual 로 막힘(casual3-tool_failure.json)",
+  "user_supplied_rejected": "사용자가 준 대체 그림(해변 비키니·조개·웃음)이 등록된 casual1 과 거의 같다(casual-look 187 < 215) — 올리지 않음",
+  "avoid": [
+   "미라몽:3:ex=garter_set",
+   "미라몽:3:orient=low_angle"
+  ],
+  "scene_reason": "lead=light 라 빛부터 쓰고, 예시(창가에서 커튼을 연 뒤 어깨 스트레칭)의 장소·활동은 그대로 두고 시간대·바람만 더했다",
+  "outfit_reason": "garments=dress, expose=side cutouts·plunging neckline. chest_up·rear_3q 에서 보이게 옆트임을 겨드랑이~갈비뼈로 두었다. 원작 모티프는 이 컷에만 작은 붉은 구슬(외눈)",
+  "reserved": "records/casual-reservations/dusclops-casual3-refill-20261023.json (img-2)"
+ }
+}
