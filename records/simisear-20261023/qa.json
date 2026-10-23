@@ -1,0 +1,68 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "count": 9,
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "99b8c9c814d4deb90c370a7fa1d34d1d2d1e59d78dcd5f4f029b84f35f2e0470",
+      "observations": "단일 전신, 붉은 사이드 포니테일과 짧고 넓은 타원 윤곽·둥근 턱, 호박색 눈. 좌우 펼친 손은 각각 다섯 손가락이며 두 팔과 두 다리가 연결됨. 흰 러프와 얇은 판이 읽힘."
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "d3bc21c9584df5cab876b94826ea84e753e13399c3ebbf6a6788849de4f4493f",
+      "observations": "경장과 같은 얼굴·머리·신체 비율. 두꺼운 어깨·골반·허벅지·정강이 판이 겹쳐 윤곽이 커짐. 양손과 양발이 보이며 무기 없음."
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "3a0c080ac8de9ea7bb93770e907d714578b4c0849d267e0f13cdb7522765b742",
+      "observations": "동일 얼굴·붉은 머리. 어깨·골반·종아리의 얇은 패널이 뒤로 벌어지고 소형 추진기와 공간이 보임. 다섯 손가락 양손과 두 다리 연결."
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "bc172acbc9e5e8c1e077570e8016179014bff586d16cd2e2a83857d73ed2a880",
+      "observations": "경장과 같은 카메라·포즈·인물 크기. 가슴·팔·다리 판 이음새가 열리고 주황색 내부 발광이 드러남. 손가락은 유지됨."
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "6cd3d49f1eba1522956870cb8516edbbdf23b4cfd7bab1bef3f1b63ee5cb399e",
+      "observations": "중장과 같은 카메라·포즈. 겹친 판이 안쪽 프레임에서 벌어져 빛나는 구조가 보이며 새 무기 없음. 인물과 손 유지."
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "360b6d588128478c7e430a27fd53e1720fcaf1dbcfb6af1e54199bf37630d377",
+      "observations": "고기동과 같은 포즈·비율. 기존 패널과 추진기 덮개가 더 열리고 불빛이 드러남. 양손과 팔다리 유지."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "5685d40e406da3ef8f05235fae0cf03e48f6634d1f5c841cb34de24aba0c0d13",
+      "observations": "남색 행사 셔츠·미니 스커트·부츠 차림으로 측면 앉기, 한 손은 모자 조절, 다른 손은 몸을 지지. 거울에는 같은 인물의 뒷머리만 비침. 팔 연결·다리 접힘 자연스럽고 양손은 몸에 연결됨. mat 대신 패딩 벤치, 선택값보다 상체가 더 세워짐은 관찰 기록."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "28c2104991e3337fbb1df995cfc0c539fecd32beae56fe18736417a06b47c941",
+      "observations": "로지의 눈 창과 코트 걸이. 한 손으로 붉은 코트를 걸고 반대 손으로 머그를 잡음. 크롭 니트와 레깅스, 어깨·배 드러남. 양 팔꿈치와 손 연결. 3/4보다 가까운 크롭, nostalgic 대신 미소는 기록만."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "6ba06c9cdb014e8c91a309a0017d8caeff8d56cab5512e09ef99689383916626",
+      "observations": "목재·등불 전통 실내, 붉은 치파오를 입고 바닥에 기대어 앉음. 한 팔은 지지, 다른 손은 턱 곁, 두 다리와 발 연결. 왼손 끝 일부는 프레임 경계, 환경 와이드보다 가까운 프레이밍 및 open-back이 가려진 점은 관찰 기록."
+    }
+  },
+  "face_reason": "부드러운 어깨 러프·넓은 귀에서 넓고 짧은 타원 윤곽과 둥근 턱, 작은 코를 해석. 바오프의 좁은 턱·큰 아몬드 눈보다 넓은 볼과 수평의 둥근 눈으로 차별.",
+  "compared_characters": [
+    "바오프",
+    "야나키",
+    "야나프"
+  ],
+  "diversity_comparison": "실제 그림 비교: 바오프의 축제 손소품·실크 피팅·붉은 운동복, 야나키의 요리·로브 피팅·승무원 테마, 나옹마의 무채색 패션·조리·은색 무대 의상과 대조했다. 이번 세 컷은 남색 제복과 접힌 부츠의 실루엣/서서 코트 거는 크롭 니트와 레깅스/바닥 기대앉기와 긴 치파오 및 등불로 장소·활동·옷·실루엣이 구분된다.",
+  "skipped": [],
+  "tool_rejections": [
+    {
+      "slot": "casual1",
+      "attempt": 1,
+      "record": "attempts/casual1-1/failure.json",
+      "replanned_to": "costume-party preparation; different clothing and scene"
+    }
+  ]
+}
