@@ -1,0 +1,26 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "ad77d0f6cd047cec70a31bb13020ff176bac6a3752c1ed9ca8e835d107ee6eb8",
+  "retained_original": null,
+  "output": {
+    "slot": "casual2",
+    "file": "해골몽_glossy_promo_f_casual2.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "6f3ea28a9f1f6c1278d0b56a9bf438bb79e0b29a82d47e99767fb1bea446c62b",
+    "reference": "해골몽_light_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 일상컷 2번 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "plan_match": "plan-v2.json 의 cut 2(lingerie · garter_set · high_angle · standing_formal · soft_smile · environmental)와 장면이 맞는다 — 피팅룸, 가터 세트, 위에서 내려다본 각도.",
+  "look_check": "node tools/casual-look.cjs check --card 해골몽 (casual1, 이 그림, casual3) — 통과, 가장 가까운 다른 캐릭터 컷 317점(대짱이 casual1)",
+  "user_approval": "1번으로 해골몽만 올려줘",
+  "at": "2026-10-23",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 casual2 프롬프트·설정 기록은 막힌 자동 생성 시도의 것이며 이 그림의 설정으로 확인된 것이 아니다."
+}
