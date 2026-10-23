@@ -1,0 +1,27 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "2736ccf291a8bf00d247ecb94a00f4264919d58ad540d3e001e5b5e2503aba7c",
+  "retained_original": null,
+  "output": {
+    "slot": "casual3",
+    "file": "마자_glossy_promo_f_casual3.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3cafa6d93a43c9194956b33fe18a5ef63cf83cda0a6d6d2b4d23af03d3e2d043",
+    "reference": "마자_light_glossy_promo_f.webp",
+    "provenance": "사용자가 casual3-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+  },
+  "plan": "refill-plan-20261023.json",
+  "review": "둥근 창·크롬 카트·쿠션 매트에 앉아 스카프를 고침·코발트 오프숄더 크롭 재킷·흰 펜슬 스커트 일치. 모자는 필박스보다 사이드 캡에 가까움. 모자·스커트 줄에 눈 모양 장식이 생성됨(의상 칸에는 없음) — 세 장 모두 원작 장식이 든 셈이라 기록만.",
+  "look_check": "node tools/casual-look.cjs check --card 마자 — 통과, 가장 가까운 다른 캐릭터 컷 290점(모부기 casual2)",
+  "user_approval": "응 올려줘",
+  "at": "2026-10-23",
+  "prompt_provenance": "이 그림의 프롬프트는 casual3-refill-prompt.txt, 생성기 상태는 casual3-refill-ui.json. casual3-prompt.txt·casual3-ui.json 은 막힌 앞 시도의 것."
+}
