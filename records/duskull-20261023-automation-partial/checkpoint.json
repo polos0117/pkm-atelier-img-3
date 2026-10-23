@@ -1,0 +1,236 @@
+{
+  "card": 355,
+  "name": "해골몽",
+  "run": "2026-10-23-2",
+  "slots": {
+    "light": {
+      "status": "accepted",
+      "at": "2026-10-23T09:58:58+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/light/prompt.txt",
+        "sha256": "848ca6ef4acd5f275ef4831d1327b123bb204f3245f1df67ff5294949483e5ad"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/light/ui.json",
+        "sha256": "6f77fa0182c6bbb3f1f15c0b9b4cee247f2d146092a8cdc6a2eec94208eccc53"
+      },
+      "references": {},
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/light/original.png",
+        "sha256": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c",
+        "session_only": true,
+        "webp_sha256": "992effe57a54392d044f4a5a3389a025238e2cfe8b2d7916c718ac5179eb6945"
+      },
+      "received_at": "2026-10-23T10:00:12+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/light/qa.json",
+        "sha256": "13df7988ddd678e4a6e4bed0b9d85bbcf8ee73bedbb4b237c828cc7d01dc7108"
+      }
+    },
+    "heavy": {
+      "status": "accepted",
+      "at": "2026-10-23T10:00:50+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy/prompt.txt",
+        "sha256": "48b94ad55cbfd7f111d98cf2721a16889a544f07fcd4ef4e5aecc328ee515bfe"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy/ui.json",
+        "sha256": "40e7be8c0d5fa0ad7b82dc2869b9482418f0ef26f2d0c4a89eb19d79e95c7d78"
+      },
+      "references": {
+        "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy/original.png",
+        "sha256": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682",
+        "session_only": true,
+        "webp_sha256": "b93a08b511d738d879aba2c1f841945b1ec3b69fcf85559ba12315ca6502d4b8"
+      },
+      "received_at": "2026-10-23T10:02:45+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy/qa.json",
+        "sha256": "e0005c3545175b81fd35660c4d1cdcb5dcc787acfbf85674911f0424f0ef8b0d"
+      }
+    },
+    "mobility": {
+      "status": "accepted",
+      "at": "2026-10-23T10:03:01+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility/prompt.txt",
+        "sha256": "363cbe157c2f1de01a261ece9703230422f9ea9423319b4b4b67cedaf0ce6905"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility/ui.json",
+        "sha256": "5614d6a6a3f4c9e7b395800effeac2e543fb25876fa0565a87312fce21b8989e"
+      },
+      "references": {
+        "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility/original.png",
+        "sha256": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f",
+        "session_only": true,
+        "webp_sha256": "84edf263d9d3b35d913c221c2d9a7ab6f3d1e362e6435409fa76eb962f1cec99"
+      },
+      "received_at": "2026-10-23T10:04:40+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility/qa-rejected.json",
+        "sha256": "25a0fd377b06d28f75b047d3852bd2acc51ebdaea09b9c8d2f4a576b8890c1dc"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility/user-exception.json",
+        "sha256": "43190325b2789f04bba17fcaf3af3a082a8c9a01e93bc61930c22294848c7aa5"
+      }
+    },
+    "light_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-23T10:14:38+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/prompt.txt",
+        "sha256": "91d3c43b846a5ac9e5ad8ceafd8afacaecf4f375bdeddbafb17a6aa80555e72b"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/ui.json",
+        "sha256": "cd028763779c184c9650e64fadd34686d74db4c1d401a9249198f91200988dcd"
+      },
+      "references": {
+        "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/original.png",
+        "sha256": "0f2bbe4666c32a47986cb6c4918ff1f21a5baad3ac3de085e8ff913c603bdf15",
+        "session_only": true,
+        "webp_sha256": "1406f78818138e6fd428cf7ff340842501f1d4167bb4b1dd379f2f5b4de7add6"
+      },
+      "received_at": "2026-10-23T10:16:07+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/qa-rejected.json",
+        "sha256": "8ad8b2cd73e13a135a1137f9c002c01a195eee647a852e6403c37e24cefc9edd"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-23-2/355/light_overdrive/user-exception.json",
+        "sha256": "4202c10c4765bc2be64e2ba0315e395e5d3a3c9c3cdaa8992ea8dd0bf1c0ff73"
+      }
+    },
+    "heavy_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-23T10:26:25+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/prompt.txt",
+        "sha256": "8218cbe5d8c54fbdeff038947db1074c9ee6860ed8a95eb06e524a5f47532b8f"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/ui.json",
+        "sha256": "fa27e7a1370ebe2b00b022837a61b9ed3d87fcdaccf5c4ae4cd13b49294954f1"
+      },
+      "references": {
+        "heavy": "31f3e942e89d59d97446dbcc22ef7fb910792dfe944498684f40c9e2195ad682"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/original.png",
+        "sha256": "a8c04905de1e034e871e8b2cb76f082c3dd1d6f649ec9d660c8024a8ca4499d1",
+        "session_only": true,
+        "webp_sha256": "91a195a67cfabddbd6f9dc9fa7f1435283e04023bc679e7f58067a2dbe007feb"
+      },
+      "received_at": "2026-10-23T10:27:37+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/heavy_overdrive/qa.json",
+        "sha256": "362eb4e8f6e23852d39aa947aee421f9f8802ef6dfbb5854841b049338d59f6a"
+      }
+    },
+    "mobility_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-23T10:28:06+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/prompt.txt",
+        "sha256": "c4855b002afc6f5c800d2df108ff8ca57ac7afcbd4c7192889450dfc9970b9fc"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/ui.json",
+        "sha256": "d62d56608219f84590ed16b83b697940deaa5bff849e4b6fa6abaae4c3bb9ef2"
+      },
+      "references": {
+        "mobility": "8ca4344102e2b65c8daec61eeed9a007138a5cbbda350f9fce6172b50b3a3e5f"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/original.png",
+        "sha256": "5d9179338f79456ee2267a22172600f435cf57a991534e17addf1d8c90c93426",
+        "session_only": true,
+        "webp_sha256": "9ce305215235d2506c51694441b306001dda71a292f6a16d0ebcf4f351350dbb"
+      },
+      "received_at": "2026-10-23T10:29:35+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/qa-rejected.json",
+        "sha256": "ef234a491e2bff0cc43fc1885c33ad72afe83cde17358b86bb202da450769daa"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-23-2/355/mobility_overdrive/user-exception.json",
+        "sha256": "3457671f5ddc6b309ef1c191179394b3c336d236bf67d6eb5da36448045c755e"
+      }
+    },
+    "casual1": {
+      "status": "accepted",
+      "at": "2026-10-23T10:31:44+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual1/prompt.txt",
+        "sha256": "935a952a5382aa6eb5768c63ef5cbebe4c5dba11f7713169de779d12befac351"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual1/ui.json",
+        "sha256": "8a4a0c56ba89d20950e16cb9d775b65e67e864d572c94e2aebf19f5db810a0a2"
+      },
+      "references": {
+        "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual1/original.png",
+        "sha256": "520ee05661e19009961206c282b5f53c335f5ba479f8f2b7158e9118a36f7f7b",
+        "session_only": true,
+        "webp_sha256": "439e2d7df026db640a961f571e0688a3ba7dce8c1b75e2549dbeda7d173bdd67"
+      },
+      "received_at": "2026-10-23T10:33:08+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual1/qa-rejected.json",
+        "sha256": "9f7aba713553d038f482a937198e79776dfbfb4f2b24dc812ae8e235951b565f"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual1/user-exception.json",
+        "sha256": "7a5cee08527adacab350a64462c16e31f2ffc2fcc6d5a8ef010f5cbb75c65541"
+      }
+    },
+    "casual2": {
+      "status": "in_flight",
+      "at": "2026-10-23T10:33:47+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual2/prompt.txt",
+        "sha256": "b1724a4cb22bc6a8bfe21b1020158b581f235176dd1124e5f8940b86b0d777f2"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual2/ui.json",
+        "sha256": "4066d8a69acb0b4c4e10b7d7880b68f365a8545f42c9709ce4734aaf2eb3a5d6"
+      },
+      "references": {
+        "light": "7b2e7b7d80fe5900113e066cdc1a93ba6f92f6775ca0f9cfadc6e7d9022a676c"
+      },
+      "tool_failure": {
+        "path": "records/automation/runs/2026-10-23-2/355/casual2/tool-failure.json",
+        "sha256": "3e65d28e3b2210927426da56d51eb9fcda97096f83e6122dcec1daeab8174654"
+      }
+    }
+  },
+  "status": "partial_7_of_9",
+  "missing": {
+    "casual2": "moderation_blocked_no_output",
+    "casual3": "not_generated"
+  },
+  "original_bytes": "session_local_only"
+}
