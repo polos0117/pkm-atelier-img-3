@@ -1,0 +1,70 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "count": 9,
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "d8833bfde9ef52908e6f8a9a25afad54e4ad353c1159289bd2c7b5a974027f89",
+      "observations": "물결 볏 장식·푸른 하이 포니테일·커튼뱅·파란 눈. 중간 폭의 타원 윤곽과 내려간 아몬드 눈, 둥근 작은 코와 중간 입술. 단일 전신으로 양손 다섯 손가락·양발이 프레임에 있고 팔·다리 연결 정상."
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "4d25aa9342d70e533d61e65e9e8e0e48db66647242654e6156bc44fa91573b34",
+      "observations": "기준 경장의 같은 인물. 어깨·팔·골반·정강이의 두꺼운 겹판이 윤곽을 넓히며 두 손은 분리된 다섯 손가락. 몸은 같은 크기이고 무기 없음."
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "a2d748d8b39e825a70a6be0e94ce3cc42a7f37f5a7285409d661d8a384035973",
+      "observations": "경장 얼굴·머리·비율 유지. 어깨·골반·종아리의 얇은 핀과 추진기가 벌어진 고기동 실루엣. 두 손과 두 발이 보이고 물 효과가 손가락을 덮지 않음."
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "77a0763558de27cd0bf9cf95da26ae93fde4fe0cda7038c2079561d07f848142",
+      "observations": "경장 닫힘과 같은 화면·포즈·팔다리. 얇은 판을 들어올린 틈에서 푸른 물빛 프레임이 보임. 손가락 유지."
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "6511f3e9962f89dd542c6abf7e52ebac731ec0b0f6d6e159a3f330354c0a4a95",
+      "observations": "중장 닫힘과 같은 카메라·자세. 두꺼운 겹판 사이가 벌어지며 파란 내부 기구가 드러남. 얼굴·손·몸 비율 유지."
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "3a7286d715215ee686a0d7ced9ac7bc47aadb45b9dde2b686952bed97ec9993e",
+      "observations": "고기동 닫힘과 같은 카메라와 자세. 팬 패널이 더 열리고 추진기 덮개와 물빛 내부가 드러남. 새 무기 없음."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "1d28d9c69418957d9b3d17fd321e46a8caaf92681cc329d467455276ac47b5a6",
+      "observations": "창가에 앉아 삽화 도감을 들고 페이지를 넘기며 차가 옆에 놓임. 크롭 오프숄더 셔츠와 크림 바지, 푸른 포니테일·얼굴 유지. 앞손 손가락이 책 표지와 분리돼 보이고 반대손은 페이지를 잡음. 원본의 페이지 가짜 글자를 부분 수정했으며 수정본 페이지는 크림 종이로 읽힘. chest-up보다 넓은 크롭, gaze가 페이지보다 정면에 가까움은 기록만."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "c75a9bd9854480710f7689c372277e560822d5eff3aaaf968e8b4ec42cf14ec9",
+      "observations": "푸른 자수의 넓은 부부 로브와 맞춘 머리 두름띠, 한쪽 어깨 노출. 몸을 굽힌 뒤 3/4 방향에서 얼굴을 돌아보며 웃고, 한 손은 로브를 모으며 다른 손은 바구니 손잡이를 잡음. 두 팔과 손이 몸에서 이어지고 손가락 융합 없음. waist-up보다 넓은 크롭은 기록만."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "7bd96184be2b1cdf96749116f063dc853ed56f37b4cd5d291e733e0454e982b2",
+      "observations": "풀사이드 바의 낮은 선반에서 쟁반을 놓는 비키니 차림. 안정된 무릎 자세와 두 무릎·정강이·발의 연결이 읽히고 가까운 손은 쟁반, 먼 손은 선반 곁에 놓임. 얼굴과 푸른 포니테일 유지. 먼 손 일부가 선반에 가려진 것은 정상 가림."
+    }
+  },
+  "face_reason": "원작 물결 볏과 원숭이의 가벼운 곡선을 타원 윤곽·완만히 내려가는 아몬드 눈·짧은 둥근 눈썹·둥근 코로 해석한다. 최근 바오키의 짧고 넓은 얼굴·둥근 눈보다 세로 균형과 부드러운 아몬드 눈을 유지한다.",
+  "compared_characters": [
+    "바오키",
+    "바오프",
+    "야나키"
+  ],
+  "evolution_line_check": "앗차키 경장은 아직 등록되지 않아 실제 비교 이미지 없음. 설계표의 계열 차이를 확인했다.",
+  "diversity_comparison": "이번 세 장을 나란히 확인했다: 창가 독서의 밝은 셔츠와 책의 각진 윤곽/자수 부부의 크게 굽힌 몸과 바구니/풀사이드 비키니의 무릎 자세와 쟁반이 장소·활동·옷·윤곽에서 구별된다. 실제 바오키 3장, 바오프의 축제·실크 피팅·운동 실크 장면, 야나키의 요리·로브 피팅·행사 의상 장면과 대조했다.",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "type": "remove pseudo handwriting only",
+      "attempts": 2,
+      "previous": "attempts/casual1-1/qa.json",
+      "all_other_scene_elements_preserved": true
+    }
+  ],
+  "skipped": []
+}
