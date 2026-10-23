@@ -40,8 +40,8 @@
     },
     "casual2": {
       "accepted": true,
-      "image_sha256": "c75a9bd9854480710f7689c372277e560822d5eff3aaaf968e8b4ec42cf14ec9",
-      "observations": "푸른 자수의 넓은 부부 로브와 맞춘 머리 두름띠, 한쪽 어깨 노출. 몸을 굽힌 뒤 3/4 방향에서 얼굴을 돌아보며 웃고, 한 손은 로브를 모으며 다른 손은 바구니 손잡이를 잡음. 두 팔과 손이 몸에서 이어지고 손가락 융합 없음. waist-up보다 넓은 크롭은 기록만."
+      "image_sha256": "d8d32f2243de63cc0c16af1bf8b57280e377d75e67c46a0c58b2b6b8add356c3",
+      "observations": "기존 화면 왼쪽에서 옷자락을 쥔 인물의 오른손이 옷 중간에서 나오는 오류를 수정했다. 가까운 오른쪽 어깨부터 맨살 상완이 내려와 팔꿈치에서 굽고, 맨살 전완이 팔찌와 손목으로 이어진 뒤 같은 손이 옷자락을 쥔다. 천은 팔 뒤로 놓이며 허리 중간의 가짜 소매 구멍이 사라졌다. 옷을 쥔 손의 네 손가락 관절과 반대편 엄지가 자연스럽다. 반대쪽 왼손은 계속 바구니 손잡이를 잡고, 얼굴·포니테일·머리 두름띠·자수 로브·배경을 유지했다."
     },
     "casual3": {
       "accepted": true,
@@ -64,6 +64,13 @@
       "attempts": 2,
       "previous": "attempts/casual1-1/qa.json",
       "all_other_scene_elements_preserved": true
+    },
+    {
+      "slot": "casual2",
+      "type": "user-reported right arm discontinuity repair",
+      "attempts": 1,
+      "record": "replacements/casual2-right-arm-20261023/qa.json",
+      "previous_qa_missed_defect": true
     }
   ],
   "skipped": []

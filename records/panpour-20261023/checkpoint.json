@@ -41,5 +41,15 @@
     "thumbnails_verified": true,
     "registration_slots": 9,
     "where": 2
-  }
+  },
+  "replacements": [
+    {
+      "slot": "casual2",
+      "record": "replacements/casual2-right-arm-20261023/qa.json",
+      "original_sha256": "d8d32f2243de63cc0c16af1bf8b57280e377d75e67c46a0c58b2b6b8add356c3",
+      "webp_sha256": "c44897f61d042e0dc7c0e3c2d175cab1d457c5b721edb8319cdcf055ab854a14",
+      "previous_webp_sha256": "4e514b13c2480286801bf238212bb2e381ce01641418385b51ca56165c4fc483",
+      "status": "accepted; published atomically with this checkpoint in the containing commit"
+    }
+  ]
 }
