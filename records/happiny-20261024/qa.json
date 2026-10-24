@@ -1,7 +1,7 @@
 {
   "card": "핑복",
   "tool": "built-in image_gen",
-  "status": "6/9; casual generation not started",
+  "status": "9/9 images generated and inspected",
   "cuts": {
     "light": {
       "size": {
@@ -182,6 +182,154 @@
         "overlay_checked": false,
         "note": "원본과 손 확대에서 양팔·양다리 연결, 장갑 손 다섯 손가락, 무릎과 손목 연결을 확인. 골반·부츠에 떨어진 신체 없음."
       }
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "분홍 옆 가르마 웨이브·좁고 수평인 눈·둥근 턱·피부색과 성인 비율을 경장과 대조"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "야외 풀바 카운터 옆에서 라임과 얼음이 담긴 유리잔을 두 손으로 듦. 뒤로 풀장·파라솔과 바다"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "네이비 홀터 스포츠 비키니·열린 등과 분홍 솔기. 높은 허리 지시보다 낮은 허리의 하이컷으로 나옴"
+      },
+      "expression": {
+        "match": false,
+        "evidence": "cold smile보다 입술이 살짝 열린 부드러운 표정"
+      },
+      "orientation": {
+        "match": false,
+        "evidence": "측면 선택에 비해 몸통이 뒤 3/4이며 얼굴을 카메라 쪽으로 돌림"
+      },
+      "framing": {
+        "match": false,
+        "evidence": "가슴 위 선택보다 넓어 허벅지 중간까지 보임"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "잔·병·우산·코트 벨트·유리창·클러치·드레스 장식 확대: 글자·가짜 라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞 손은 네 손가락이 컵 바깥을 감싸고 엄지는 컵 뒤로 가려짐. 반대손은 컵 반대쪽을 받쳐 엄지와 손바닥 일부가 보이고 나머지 손가락은 컵·앞손 뒤로 가려짐. 두 손목이 각 팔에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인. 2번의 몸 3개 탐지는 우산·교차 팔과 반사가 원인으로 보이며, 실제 사람은 한 명. 1번의 종아리와 발은 프레임 밖; 2번의 발 일부는 프레임 밖."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "낮의 풀바 비키니와 잔, 밤비 속 코트·슬릿 드레스와 우산, 실내 갈라의 풍성한 뒤돌아본 드레스·트레인으로 장소·활동·옷·구도가 구별된다."
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "분홍 옆 가르마 웨이브·좁고 수평인 눈·둥근 턱·피부색과 성인 비율을 경장과 대조"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "유리 차양과 젖은 강변 보도 옆에서 투명 우산을 어깨에 받치고 팔을 모아 비를 봄"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "코발트 한쪽 어깨 드레스의 높은 옆 슬릿·짧고 열린 차콜 레인코트·검정 부츠"
+      },
+      "expression": {
+        "match": false,
+        "evidence": "평평한 눈썹과 밖을 향한 시선은 있으나 입이 약간 벌어져 unimpressed의 일자 입과 다름"
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "눈과 얼굴이 카메라 밖 강변을 향함"
+      },
+      "framing": {
+        "match": false,
+        "evidence": "무릎 위 선택보다 아래로 내려와 부츠 일부까지 포함"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "잔·병·우산·코트 벨트·유리창·클러치·드레스 장식 확대: 글자·가짜 라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · {'level': 'note', 'what': 'bodies', 'msg': '몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다'}",
+        "arms": 2,
+        "legs": 2,
+        "hands": "우산을 잡은 손의 손가락 네 개가 손잡이 위로 곡선으로 감기며 엄지는 반대쪽에 가려짐. 다른 손은 교차한 팔과 소매 뒤로 가려짐. 두 팔꿈치·손목은 자연스럽게 연결되고 떨어진 손 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인. 2번의 몸 3개 탐지는 우산·교차 팔과 반사가 원인으로 보이며, 실제 사람은 한 명. 1번의 종아리와 발은 프레임 밖; 2번의 발 일부는 프레임 밖."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "낮의 풀바 비키니와 잔, 밤비 속 코트·슬릿 드레스와 우산, 실내 갈라의 풍성한 뒤돌아본 드레스·트레인으로 장소·활동·옷·구도가 구별된다."
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "원본 및 WebP 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "분홍 옆 가르마 웨이브·좁고 수평인 눈·둥근 턱·피부색과 성인 비율을 경장과 대조"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "금빛 피팅룸 문 앞에서 뒤돌며 양손으로 긴 드레스 자락을 들어 드레이프를 확인. 클러치는 옆 받침 위"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "옅은 분홍 쿠튀르 드레스의 열린 등·옆구리 컷아웃·아이보리 타원 장식과 긴 풍성한 트레인"
+      },
+      "expression": {
+        "match": true,
+        "evidence": "눈꺼풀이 낮고 입술이 조금 벌어져 고른 표현과 일치"
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "몸통과 골반이 뒤쪽을 향하고 얼굴이 어깨 너머로 돌아오며 자락이 회전을 따라 흐름"
+      },
+      "framing": {
+        "match": true,
+        "evidence": "머리와 양손·양쪽 구두 및 긴 트레인이 프레임 안에 포함"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "잔·병·우산·코트 벨트·유리창·클러치·드레스 장식 확대: 글자·가짜 라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손이 얇은 자락을 쥐어 엄지·검지로 천을 잡고 나머지 세 손가락이 접힘. 천 뒤로 일부 손가락이 가려지며 손목·팔꿈치 연결 정상. 양 발목과 구두는 각각 한 다리에 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 확인. 2번의 몸 3개 탐지는 우산·교차 팔과 반사가 원인으로 보이며, 실제 사람은 한 명. 1번의 종아리와 발은 프레임 밖; 2번의 발 일부는 프레임 밖."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "낮의 풀바 비키니와 잔, 밤비 속 코트·슬릿 드레스와 우산, 실내 갈라의 풍성한 뒤돌아본 드레스·트레인으로 장소·활동·옷·구도가 구별된다."
+      }
     }
+  },
+  "casual_look": "passed; nearest distances 291 / 297 / 294; no near-identical registered images",
+  "recent_comparison": {
+    "cards": [
+      "시라칸",
+      "분홍장이",
+      "흉내내"
+    ],
+    "viewed": "접근 가능한 일상컷을 이번 세 장과 나란히 비교",
+    "result": "풀바의 잔을 든 뒤 3/4, 비 내리는 도심에서 팔을 접은 모습, 문 앞에서 트레인을 든 전신으로 최근 캐릭터의 식물 돌봄·욕실 의자·우산 벤치·야외 샤워·야외 지도·승무원·향수 장면과 구별된다."
   }
 }

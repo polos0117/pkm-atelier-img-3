@@ -1,0 +1,598 @@
+{
+  "card": "핑복",
+  "batch": {
+    "session": "mime-happiny-20261024-bdf536",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "흉내내",
+        "species": "mime-jr-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "pose": "hands_in_hair",
+            "expr": "calm",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "surveyor_cartographer",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "kneeling",
+            "expr": "proud",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "pose": "leaning_wall",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "slip"
+          ],
+          "orient": [
+            "reaching_up",
+            "crouching",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "핑복",
+        "species": "happiny-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "triangle_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "small_jog",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "rain_editorial",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "arms_crossed",
+            "expr": "unimpressed",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "couture_gala",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "walking",
+            "expr": "sensual",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "dress"
+          ],
+          "orient": [
+            "profile_close",
+            "looking_away",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "poolside_bar",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "side",
+      "frame": "chest_up",
+      "pose": "holding_cup",
+      "expr": "cold_smile",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "high-cut leg"
+      ],
+      "lead": "detail",
+      "example": "in swimwear at a poolside bar, a cold drink on the counter",
+      "scene": "A frosted glass of lime soda sits on the tiled counter of an open-air pool bar; she lifts it after a morning swim while sunlight ripples across the water.",
+      "outfit": "A navy athletic bikini with a high-neck halter top, an open back and high-waisted high-cut bottoms in matte swim fabric, with a single blush-pink seam.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "유리잔을 들어 올리는 가벼운 동작이라 balanced",
+        "분홍 솔기 한 줄만 남긴 원작 영향의 중간값 balanced",
+        "스포츠 비키니의 재단을 중심으로 하는 균형값 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A frosted glass of lime soda sits on the tiled counter of an open-air pool bar; she lifts it after a morning swim while sunlight ripples across the water.",
+          "reason": "풀사이드 바와 찬 음료라는 예시에서 라임 소다·타일 카운터·아침 수영 후의 햇빛을 구체화했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A navy athletic bikini with a high-neck halter top, an open back and high-waisted high-cut bottoms in matte swim fabric, with a single blush-pink seam.",
+          "reason": "예시에 수영복 재단이 없어 네이비 하이넥 스포츠 비키니, 열린 등과 하이컷·높은 허리로 계획의 옷 종류와 드러내는 방식을 지정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "rain_editorial",
+      "garments": [
+        "coat",
+        "dress"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "arms_crossed",
+      "expr": "unimpressed",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example": "an editorial in the rain, using an umbrella to show off the cut and movement of a coat or dress",
+      "scene": "Rain beads on the glass canopy of a riverside arcade; a clear umbrella rests against her shoulder while warm shop lights streak across the wet paving.",
+      "outfit": "An open cropped charcoal raincoat over a cobalt one-shoulder silk dress with a high thigh slit, and low black ankle boots.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "비를 바라보며 팔을 모은 정지 장면이라 mostly posed",
+        "원작의 분홍 장식 대신 청색·차콜을 중심으로 하여 subtle",
+        "한 벌 드레스가 중심이라 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "Rain beads on the glass canopy of a riverside arcade; a clear umbrella rests against her shoulder while warm shop lights streak across the wet paving.",
+          "reason": "빗속 우산 패션이라는 예시를 유지하고 강변 아케이드·유리 차양·물기 반사로 장소와 조명을 구체화했다."
+        },
+        {
+          "field": "outfit",
+          "content": "An open cropped charcoal raincoat over a cobalt one-shoulder silk dress with a high thigh slit, and low black ankle boots.",
+          "reason": "계획의 코트와 드레스를 유지하고 짧게 열린 코트, 한쪽 어깨와 높은 슬릿으로 의상 윤곽을 구별했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "source_editorial",
+      "ex": "couture_gala",
+      "garments": [
+        "dress"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "pose": "walking",
+      "expr": "sensual",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "detail",
+      "example": "preparing for a gala in an intricate couture gown whose colours and shapes echo her source Pokémon",
+      "scene": "A small pearl evening clutch is ready beside the gilded fitting-room doorway as she checks the drape of her gown before entering the gala.",
+      "outfit": "An intricate blush-pink couture gown with a low open back, curved side cutouts, sculpted ivory oval inlays at the waist and a flowing floor-length skirt.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "입장 전 걸으며 드레이프를 확인하는 동작이라 mostly active",
+        "작은 타원 장식만 남기고 드레스 자체를 중심으로 하여 subtle",
+        "긴 한 벌 드레스이므로 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A small pearl evening clutch is ready beside the gilded fitting-room doorway as she checks the drape of her gown before entering the gala.",
+          "reason": "갈라 준비 예시에 이브닝 클러치·피팅룸 문과 드레이프 점검 동작을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "An intricate blush-pink couture gown with a low open back, curved side cutouts, sculpted ivory oval inlays at the waist and a flowing floor-length skirt.",
+          "reason": "예시의 원작 연계 쿠튀르를 유지하고 핑복의 옅은 분홍·아이보리 타원만 작은 허리 장식에 넣으며 등과 옆구리 컷아웃을 정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check passed before reservation",
+  "reservation_commit": "96818a3b2b39d62381d2b8fd83710a56c1a6e86c",
+  "attempts": [
+    {
+      "cut": 1,
+      "example": "swimwear/triangle_bikini",
+      "result": "image generation output rejected by safety system: sexual",
+      "request_id": "7aa9fe1c-b824-4292-bb6b-ad0aced1d773",
+      "count": 1,
+      "next": "finish unaffected cuts 2 and 3, then replan cut 1 to a materially different scene; no same-scene wording retry"
+    }
+  ],
+  "replanned_reservation_commit": "c82e70a4a1bf6002b1c22f3e3f3553b0f7380e51",
+  "replanned_batch": {
+    "session": "mime-happiny-20261024-bdf536",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "핑복",
+        "species": "happiny-20261024",
+        "refill": true,
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "poolside_bar",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "holding_cup",
+            "expr": "cold_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "high-cut leg"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "rain_editorial",
+            "expr": "unimpressed",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "couture_gala",
+            "expr": "sensual",
+            "pose": "walking",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "skirt"
+            ],
+            "expose": [
+              "open back",
+              "side cutouts"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check_result": "replacement plan passed casual-ledger.py check; completed cuts 2 and 3 kept",
+  "actual_comparison": {
+    "cards": [
+      "시라칸",
+      "분홍장이",
+      "흉내내"
+    ],
+    "viewed": "접근 가능한 일상컷을 이번 세 장과 나란히 비교",
+    "result": "풀바의 잔을 든 뒤 3/4, 비 내리는 도심에서 팔을 접은 모습, 문 앞에서 트레인을 든 전신으로 최근 캐릭터의 식물 돌봄·욕실 의자·우산 벤치·야외 샤워·야외 지도·승무원·향수 장면과 구별된다."
+  }
+}

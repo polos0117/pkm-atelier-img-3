@@ -1,0 +1,121 @@
+{
+  "card": "핑복",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "핑복",
+    "cards": {
+      "핑복": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "cold_smile",
+            "pose": "holding_cup",
+            "orient": "side",
+            "scene": "A frosted glass of lime soda sits on the tiled counter of an open-air pool bar; she lifts it after a morning swim while sunlight ripples across the water.",
+            "outfit": "A navy athletic bikini with a high-neck halter top, an open back and high-waisted high-cut bottoms in matte swim fabric, with a single blush-pink seam.",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "poolside_bar",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Happiny (핑복) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: mouth smiling while the eyes stay flat and unsmiling, brows level, gaze direct and unwarm\nPose: Hold a cup comfortably in one or both hands during a quiet break.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: A frosted glass of lime soda sits on the tiled counter of an open-air pool bar; she lifts it after a morning swim while sunlight ripples across the water.\nOutfit and props: A navy athletic bikini with a high-neck halter top, an open back and high-waisted high-cut bottoms in matte swim fabric, with a single blush-pink seam.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear at a poolside bar, a cold drink on the counter\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "reservation_commit": "c82e70a4a1bf6002b1c22f3e3f3553b0f7380e51",
+  "user_approval": "User explicitly approved generation and public repository publication of six casual fashion images, including lingerie and adult roleplay, in the follow-up.",
+  "example_text": "in swimwear at a poolside bar, a cold drink on the counter",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "swimwear",
+    "ex": "poolside_bar",
+    "garments": [
+      "bikini"
+    ],
+    "orient": "side",
+    "frame": "chest_up",
+    "pose": "holding_cup",
+    "expr": "cold_smile",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "open back",
+      "high-cut leg"
+    ],
+    "lead": "detail"
+  },
+  "axes_reasons": [
+    "유리잔을 들어 올리는 가벼운 동작이라 balanced",
+    "분홍 솔기 한 줄만 남긴 원작 영향의 중간값 balanced",
+    "스포츠 비키니의 재단을 중심으로 하는 균형값 balanced"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "A frosted glass of lime soda sits on the tiled counter of an open-air pool bar; she lifts it after a morning swim while sunlight ripples across the water.",
+      "reason": "풀사이드 바와 찬 음료라는 예시에서 라임 소다·타일 카운터·아침 수영 후의 햇빛을 구체화했다."
+    },
+    {
+      "field": "outfit",
+      "content": "A navy athletic bikini with a high-neck halter top, an open back and high-waisted high-cut bottoms in matte swim fabric, with a single blush-pink seam.",
+      "reason": "예시에 수영복 재단이 없어 네이비 하이넥 스포츠 비키니, 열린 등과 하이컷·높은 허리로 계획의 옷 종류와 드러내는 방식을 지정했다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+    }
+  ],
+  "replanned_after_output_rejection": true
+}

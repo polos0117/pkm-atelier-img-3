@@ -1,0 +1,121 @@
+{
+  "card": "핑복",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "핑복",
+    "cards": {
+      "핑복": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "unimpressed",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "scene": "Rain beads on the glass canopy of a riverside arcade; a clear umbrella rests against her shoulder while warm shop lights streak across the wet paving.",
+            "outfit": "An open cropped charcoal raincoat over a cobalt one-shoulder silk dress with a high thigh slit, and low black ankle boots.",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "wildcard",
+            "catCustom": "",
+            "ex": "rain_editorial",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Happiny (핑복) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: flat level brows, half-lidded deadpan stare, mouth in a straight unmoved line\nPose: Fold the arms comfortably across the torso with readable hands.\nOrientation: gaze off-camera; body orientation independent\nScene: Rain beads on the glass canopy of a riverside arcade; a clear umbrella rests against her shoulder while warm shop lights streak across the wet paving.\nOutfit and props: An open cropped charcoal raincoat over a cobalt one-shoulder silk dress with a high thigh slit, and low black ankle boots.\nCategory: Invent one fresh adult lifestyle scene. It should remain stylish, sensual, cinematic, and non-explicit with a coherent specific activity.\nExample scene: an editorial in the rain, using an umbrella to show off the cut and movement of a coat or dress\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "reservation_commit": "96818a3b2b39d62381d2b8fd83710a56c1a6e86c",
+  "user_approval": "User explicitly approved generation and public repository publication of six casual fashion images, including lingerie and adult roleplay, in the follow-up.",
+  "example_text": "an editorial in the rain, using an umbrella to show off the cut and movement of a coat or dress",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "wildcard",
+    "ex": "rain_editorial",
+    "garments": [
+      "coat",
+      "dress"
+    ],
+    "orient": "looking_away",
+    "frame": "three_quarter",
+    "pose": "arms_crossed",
+    "expr": "unimpressed",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+    ],
+    "lead": "place"
+  },
+  "axes_reasons": [
+    "비를 바라보며 팔을 모은 정지 장면이라 mostly posed",
+    "원작의 분홍 장식 대신 청색·차콜을 중심으로 하여 subtle",
+    "한 벌 드레스가 중심이라 balanced"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "Rain beads on the glass canopy of a riverside arcade; a clear umbrella rests against her shoulder while warm shop lights streak across the wet paving.",
+      "reason": "빗속 우산 패션이라는 예시를 유지하고 강변 아케이드·유리 차양·물기 반사로 장소와 조명을 구체화했다."
+    },
+    {
+      "field": "outfit",
+      "content": "An open cropped charcoal raincoat over a cobalt one-shoulder silk dress with a high thigh slit, and low black ankle boots.",
+      "reason": "계획의 코트와 드레스를 유지하고 짧게 열린 코트, 한쪽 어깨와 높은 슬릿으로 의상 윤곽을 구별했다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+    }
+  ]
+}
