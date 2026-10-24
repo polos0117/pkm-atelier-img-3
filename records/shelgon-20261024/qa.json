@@ -1,0 +1,155 @@
+{
+  "card": "쉘곤",
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "image_sha256": "e0258313366c77b75990633bb9e19254ea24d702c8fe7f18cabb2bbd106134fa",
+      "accepted": true,
+      "observations": "One adult woman, full body and both boot tips inside margins. White fitted armor with red painted shards over graphite undersuit; long silver-white hair with deep red underside and a visibly shaved temple. Human skin. Two arms and two legs continuous; full finger gloves have one thumb and four articulated fingers on each hand, bent digits overlap naturally. No text or extra character. Small nose and narrow mouth, lowered outer eyelids and soft oval cheek contour distinguish the recent characters.",
+      "face_reason": "Stored species design translates patient rounded white shell into a smooth oval jaw and low outer eyelids; angled brow and thin mouth retain restrained expression. Same evolution family Bagon has a narrower lifted eye line and different nose/mouth relation; Shelgon is a distinct adult.",
+      "compared_characters": [
+        "아공이",
+        "핑복",
+        "한바이트",
+        "화강돌"
+      ],
+      "anatomy": {
+        "tool": "note · model found two bodies in armor; visual review confirms one",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger gloved hands; one thumb and four fingers each, curled ring and little fingers partially overlap; thumbs face inward. Boots conceal toes.",
+        "overlay_checked": false,
+        "note": "Original and enlarged hands inspected; only one person appears. Second model body is a false positive on armor. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "image_sha256": "62fb4c32541d2c9ba8f18991aa79bfbb429781645c11dc94f8de3bcfa858b8be",
+      "accepted": true,
+      "observations": "Same oval face, red eyes, shaved temple and long silver/red hair as light; thicker layered shoulder, chest, pelvis and leg plates substantially widen the outline. Two full gloved hands relaxed below wrists; curled fingers overlap, no extra arm or leg. Both pointed boots fully framed. Small open headpiece leaves eyes and jaw clear. No text or weapon.",
+      "anatomy": {
+        "tool": "note · low-confidence body, hands not detected",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands at continuous wrists. One thumb and four fingers per hand, bent digits partially overlap; no detached digits or mirrored thumbs. Booted feet conceal toes.",
+        "overlay_checked": false,
+        "note": "Same oval face, red eyes, shaved temple and long silver/red hair as light; thicker layered shoulder, chest, pelvis and leg plates substantially widen the outline. Two full gloved hands relaxed below wrists; curled fingers overlap, no extra arm or leg. Both pointed boots fully framed. Small open headpiece leaves eyes and jaw clear. No text or weapon. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "image_sha256": "097ae4004abab4c3e9623e1f6a50e0329d571ec95f1ea1624b72ca6b9b172345",
+      "accepted": true,
+      "observations": "Identity retained: same red eyes, downturned outer lids, white and burgundy long hair, shaved temple and graphite body proportions. Panels now fan back from shoulders, hips and calves; compact red thrust ports and temple fins replace the bulky heavy silhouette. Two arms descend into relaxed full gloves, each thumb plus four bent fingers at wrists; two long booted legs connect to pelvis. Head and boots inside frame; no additional person or text.",
+      "anatomy": {
+        "tool": "ok · hands not detected",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands at continuous wrists. One thumb and four fingers per hand, bent digits partially overlap; no detached digits or mirrored thumbs. Booted feet conceal toes.",
+        "overlay_checked": false,
+        "note": "Identity retained: same red eyes, downturned outer lids, white and burgundy long hair, shaved temple and graphite body proportions. Panels now fan back from shoulders, hips and calves; compact red thrust ports and temple fins replace the bulky heavy silhouette. Two arms descend into relaxed full gloves, each thumb plus four bent fingers at wrists; two long booted legs connect to pelvis. Head and boots inside frame; no additional person or text. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "6b9a7c2ed7f6fa8d733c92876ff960d77f3070d50fb103869e18da70d15cfc2e",
+      "accepted": true,
+      "observations": "Same rocky background, camera height, head angle, body scale and feet placement as light. Thin white shoulder, forearm, hip and shin plates lift at the seams, showing indigo-violet inner frame light and opened edges. Brow contracts and mouth parts slightly; red iris remains under violet glint. Hands retain their exact relaxed curled shapes, no light on digits. Both arms and legs continuous. No new weapon, helmet or second person. Anatomy tool ok with zero hands detected; fingers checked in enlargement.",
+      "anatomy": {
+        "tool": "ok · hands not detected",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands at continuous wrists. One thumb and four fingers per hand, bent digits partially overlap; no detached digits or mirrored thumbs. Booted feet conceal toes.",
+        "overlay_checked": false,
+        "note": "Same rocky background, camera height, head angle, body scale and feet placement as light. Thin white shoulder, forearm, hip and shin plates lift at the seams, showing indigo-violet inner frame light and opened edges. Brow contracts and mouth parts slightly; red iris remains under violet glint. Hands retain their exact relaxed curled shapes, no light on digits. Both arms and legs continuous. No new weapon, helmet or second person. Anatomy tool ok with zero hands detected; fingers checked in enlargement. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "e4c0dd7e8cae0c2a968f976497c39c4c9da859028e7ab12942e08d9dea8932a4",
+      "accepted": true,
+      "observations": "The heavy form retains the exact standing camera, boot positions, face and white/red hair. Outer shoulder, forearm, hip and shin layers hinge outward and expose purple-lit underlying mechanical joints. Broad chest plates and open headpiece remain. Two wrists connect to unchanged curled gloves; both legs and full boots present. No new gun or armor silhouette unrelated to the layered heavy form. Small plate rotations and gaps read as opening; fingers inspected enlarged.",
+      "anatomy": {
+        "tool": "note · low-confidence body, hands not detected",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands at continuous wrists. One thumb and four fingers per hand, bent digits partially overlap; no detached digits or mirrored thumbs. Booted feet conceal toes.",
+        "overlay_checked": false,
+        "note": "The heavy form retains the exact standing camera, boot positions, face and white/red hair. Outer shoulder, forearm, hip and shin layers hinge outward and expose purple-lit underlying mechanical joints. Broad chest plates and open headpiece remain. Two wrists connect to unchanged curled gloves; both legs and full boots present. No new gun or armor silhouette unrelated to the layered heavy form. Small plate rotations and gaps read as opening; fingers inspected enlarged. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "990852d1a02edf1e33f65caf7c4de2409a905835db2f7de19aaf7517cac43c7b",
+      "accepted": true,
+      "observations": "Same mobility silhouette, leg stance, face, hair flow, camera and cropped margins as closed mobility. Shoulder and hip fins spread farther and propulsion covers expose violet circular internals. No new weapon or helmet. Two continuous gloved arms and two booted legs; same thumb and four curled fingers per hand, reviewed in enlargement. Purple glow remains off the fingers. Both boot tips fully inside the frame. Anatomy tool ok with zero hands, independent visual count retained.",
+      "anatomy": {
+        "tool": "ok · hands not detected",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands at continuous wrists. One thumb and four fingers per hand, bent digits partially overlap; no detached digits or mirrored thumbs. Booted feet conceal toes.",
+        "overlay_checked": false,
+        "note": "Same mobility silhouette, leg stance, face, hair flow, camera and cropped margins as closed mobility. Shoulder and hip fins spread farther and propulsion covers expose violet circular internals. No new weapon or helmet. Two continuous gloved arms and two booted legs; same thumb and four curled fingers per hand, reviewed in enlargement. Purple glow remains off the fingers. Both boot tips fully inside the frame. Anatomy tool ok with zero hands, independent visual count retained. Tool report reviewed separately; pose estimates do not certify hidden fingers."
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "image_sha256": "b9b856fb66865156e899dd35b8f29577d2697427969da4dbcc68152666f592a9",
+      "accepted": true,
+      "observations": "The same adult silver/red-haired woman fixes one small stud earring at an amber dressing mirror. Ivory opaque satin asymmetric one-strap top with ruby edging, bare shoulders and waist match. Bottoms sit lower than planned high waist; framing extends to upper thighs rather than chest-up, both are recorded details. Head tilts into a new close view with a faint challenging smile. Two hands reach the same ear, shoulders and elbows connect correctly. The near right hand shows its thumb and bent four fingers; the far left hand pinches the clasp, partial fingertips occluded. No extra person, lettering or exposed intimate area.",
+      "anatomy": {
+        "tool": "check · flipped_hand, one detected hand",
+        "arms": 2,
+        "legs": "upper thighs present; lower legs outside crop",
+        "hands": "Near right hand: thumb and four bent fingers, dorsal view. Far left hand: thumb and index at clasp; other fingertips partly hidden by near hand. Both wrists connect continuously.",
+        "overlay_checked": true,
+        "note": "Model merges the overlapping hands and labels the near right forearm as left; original shoulder-to-elbow trace and enlarged nails/thumbs show the expected right hand. No actual mirrored hand found."
+      },
+      "diversity_comparison": "Viewed beside actual recent casual images of Relicanth, Gible and Gabite. Earring fastening with two raised close hands and tilted close face differs from Relicanth bunny full-body arms overhead, gardening, seated towel, Gible feeding/window/beach and Gabite basketball/waving sari/book poses. Ivory asymmetric satin construction differs from their bodysuit, shirts, bikini and layered sari. Current scene is a mirror dressing activity; other planned Shelgon cuts use a drawer and an outdoor map shelter. All-three visual comparison will be added after generation."
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "image_sha256": "d084804e55c042ab3cd570cc7b426956704c3e67a59b2abbc20a8cb84cdb0eeb",
+      "accepted": true,
+      "observations": "High camera looks down on the same woman kneeling beside a low wooden drawer. Her near hand rests on hip and the other pinches a red scarf above folded towels, making the organizing activity explicit. Strapless graphite jersey jumpsuit has two wide leg panels and high outer thigh splits; shoulders, collarbones and legs are exposed as planned. Smile is amused and eyes look up; head angle differs from canonical light. Kneeling knees and draped feet extend beyond planned three-quarter framing but maintain natural joints. No armor, label or extra person.",
+      "anatomy": {
+        "tool": "ok · one detected hand",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hip hand: visible thumb and forefinger at cloth, other digits curl behind hip. Scarf hand: visible thumb and bent index, middle/ring/little partly occluded by scarf. Both wrists trace to appropriate shoulders, no mirrored thumb or detached finger.",
+        "overlay_checked": false,
+        "note": "Both knees under split jumpsuit, lower legs and feet partly hidden by fabric; no extra leg. Enlarged hands inspected."
+      },
+      "diversity_comparison": "Actual high-angle kneeling drawer activity and strapless split-leg jumpsuit are visibly distinct from Shelgon earring close view. Compared with actual Relicanth gardening/seated towel/bunny, Gible window/feeding/beach and Gabite basketball/sari/book: home drawer organizing uses a different prop action, downward camera, draped kneeling silhouette and one-piece trousers. Perceptual check passed: nearest score 339, zero neighbors below 245."
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "image_sha256": "cffa5a196e035da140aa1903eafdd25c6a7bec8c1e1010e76d5bb5f95a3bc697",
+      "accepted": true,
+      "observations": "Final localized edit retains the same complete woman, face, red/white hair, off-camera gaze, short sand apron bodice, navy wrap skirt, shelter and leather harness luggage. Handheld map now shows only terrain, water, coastlines and routes; enlarged upper margin has no pseudo-letter label. Table chart likewise shows route lines under brass weights. Two hands grip opposite map edges; four digits each are visible while both thumbs are naturally behind paper. Two continuous legs and both service shoes fully framed. Small distant flying silhouette is background world scenery, not a foreground companion. No second human or readable text.",
+      "anatomy": {
+        "tool": "ok · one detected hand",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Four visible fingers on each map edge, thumbs hidden behind folded paper; wrists and elbows correctly continuous. No extra hand. Booted toes concealed.",
+        "overlay_checked": false,
+        "note": "Full-size map and enlarged hand crops inspected after targeted lettering edit. Body, elbows, knees and shoes retained."
+      },
+      "diversity_comparison": "All three Shelgon images viewed beside actual recent Relicanth, Gible and Gabite casual sets: earring close mirror view in ivory satin, downward kneeling drawer scene in graphite split-leg jumpsuit, and this full-body outdoor map/harness scene in cropped apron and wrap skirt differ in activity, location, clothes and body outline. Compared with Gabite book-holding skirt scene, this is an outdoor open chart held across the waist, off-camera gaze and travel equipment; framing and outline differ. Perceptual all-three check passes with nearest scores 281, 339 and 250, zero near matches below 245."
+    }
+  },
+  "casual_diversity": {
+    "actual_comparison": [
+      "시라칸",
+      "딥상어동",
+      "한바이트"
+    ],
+    "visual_result": "All three differ by location, concrete activity, clothing construction, pose and framing.",
+    "perceptual_check": "passed with zero near matches below current wasm threshold 245; nearest scores 281/339/250"
+  },
+  "correction": {
+    "casual3": "One localized map lettering edit; rejected first source SHA and prompt/UI kept, final source preserves the person and scene."
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "card": "쉘곤",
+  "batch": {
+    "session": "image-runner-2026-10-24-11-372",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "쉘곤",
+        "species": "shelgon-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "asymmetric_lingerie",
+            "expr": "provocative",
+            "pose": "standing_relaxed",
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "floor_organizing",
+            "expr": "amused",
+            "pose": "hand_on_hip",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "strapless top",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "aviation_control",
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "checking_map",
+            "expr": "gentle",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "skirt"
+          ],
+          "orient": [
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "asymmetric_lingerie",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "standing_relaxed",
+      "expr": "provocative",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high-cut leg"
+      ],
+      "lead": "action",
+      "example": "an asymmetric lingerie set with one shoulder strap, a diagonal neckline, and matching high-waisted bottoms",
+      "scene": "She checks the clasp of a tiny ceramic-white stud earring beside an amber-lit dressing-room mirror before evening outfit styling.",
+      "outfit": "An opaque ivory satin asymmetric lingerie set with one shoulder strap, a low diagonal neckline and matching high-waisted, high-cut bottoms, finished with a narrow ruby-red seam.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "귀걸이 잠금을 확인하는 멈춘 순간이라 mostly posed",
+        "아이보리와 좁은 붉은 솔기에 원작 색을 남겨 balanced",
+        "한 세트의 상하의 재단이 함께 읽히는 균형 실루엣이라 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She checks the clasp of a tiny ceramic-white stud earring beside an amber-lit dressing-room mirror before evening outfit styling.",
+          "reason": "비대칭 세트 예시에 활동과 장소가 없어 귀걸이 잠금 확인과 드레싱룸을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque ivory satin asymmetric lingerie set with one shoulder strap, a low diagonal neckline and matching high-waisted, high-cut bottoms, finished with a narrow ruby-red seam.",
+          "reason": "비대칭 재단은 유지하고 아이보리 새틴·붉은 솔기·하이컷을 정해 계획의 목선과 다리선을 표현한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구의 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "floor_organizing",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "pose": "hand_on_hip",
+      "expr": "amused",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "high thigh slit"
+      ],
+      "lead": "place",
+      "example": "kneeling on the floor to sort folded clothes into a low drawer",
+      "scene": "A low cedar drawer opens onto a sunlit linen room, with a folded ruby scarf waiting beside a pile of cream towels.",
+      "outfit": "A strapless graphite-grey jersey jumpsuit with flowing wide legs split high at the outer thighs and a softly fitted waist.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "정리하다 잠시 멈춘 동작과 허리에 둔 손이라 mostly posed",
+        "회색 점프슈트와 붉은 스카프로 balanced",
+        "상하가 이어진 점프슈트 한 벌이므로 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A low cedar drawer opens onto a sunlit linen room, with a folded ruby scarf waiting beside a pile of cream towels.",
+          "reason": "낮은 서랍에 접은 옷을 정리하는 예시에 서랍 재질·햇빛·정리할 스카프와 수건의 종류를 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless graphite-grey jersey jumpsuit with flowing wide legs split high at the outer thighs and a softly fitted waist.",
+          "reason": "예시에 옷이 없어 계획의 점프슈트를 지정하고 스트랩리스와 바깥 허벅지 슬릿으로 어깨·다리를 드러낸다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구의 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "aviation_control",
+      "garments": [
+        "apron",
+        "skirt"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "checking_map",
+      "expr": "gentle",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "light",
+      "example": "Flying-Pokémon travel attendant checking a luggage harness and route map at an open landing shelter.",
+      "scene": "Morning light spreads over a stone landing shelter above a green valley; a leather luggage harness lies beside a route chart weighted with brass clips.",
+      "outfit": "A strapless cropped sand-coloured work apron bodice with functional front pockets, a navy wrap mini skirt and flat leather field shoes, with a small ruby seam on one pocket.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "하네스와 지도를 살피는 가벼운 손동작이라 balanced",
+        "별도 종족 장식 없이 실용적인 직업복 중심이라 subtle",
+        "앞치마 상의와 스커트가 분리되어 prefer separates"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "Morning light spreads over a stone landing shelter above a green valley; a leather luggage harness lies beside a route chart weighted with brass clips.",
+          "reason": "비행 이동 안내원이 끈과 지도를 확인하는 예시에 아침빛·돌 착륙 쉼터·계곡과 가죽 하네스 재질을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless cropped sand-coloured work apron bodice with functional front pockets, a navy wrap mini skirt and flat leather field shoes, with a small ruby seam on one pocket.",
+          "reason": "의상이 없는 예시에 계획의 앞치마와 스커트를 입히고 스트랩리스·짧은 허리선으로 드러내는 두 방식을 구현한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구의 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ],
+      "custom": "Image 1 is the character identity reference. Image 2 is the edit target. On Image 2, replace the small pseudo-letter labels on both maps with unlabeled terrain, coastlines and route lines. Preserve the rest of Image 2 exactly."
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation pushed",
+  "reservation_commit": "237a4f0e842facc3a6d5970c3afb28c5eb53bb64",
+  "full_three_cut_check": "passed with all kept exclusions removed, fixed axes restored to their original generator-selected values",
+  "replanning": [
+    {
+      "slot": "casual3",
+      "before": {
+        "cat": "source_editorial",
+        "ex": "cyber_street",
+        "garments": [
+          "jumpsuit"
+        ]
+      },
+      "why": "casual2 also used jumpsuit, so ask planner for another category to distinguish clothing silhouettes"
+    },
+    {
+      "slot": "casual2",
+      "before": {
+        "pose": "dance_step"
+      },
+      "after": {
+        "pose": "hand_on_hip"
+      },
+      "why": "floor organizing requires kneeling; stationary upper-body hand pose is compatible"
+    },
+    {
+      "slot": "casual3",
+      "before": {
+        "cat": "occupation_basic",
+        "ex": "railway_engineer",
+        "pose": "gentle_pat"
+      },
+      "after": {
+        "cat": "occupation_basic",
+        "ex": "aviation_control",
+        "pose": "checking_map"
+      },
+      "why": "actual UI gentle_pat explicitly requests a Pokemon companion, contradicting the single-person non-partner-care category"
+    }
+  ],
+  "corrections": [
+    {
+      "slot": "casual3",
+      "problem": "Tiny pseudo-letter labels on handheld map upper margin",
+      "changed_input": {
+        "field": "custom",
+        "content": "Image 1 is the character identity reference. Image 2 is the edit target. On Image 2, replace the small pseudo-letter labels on both maps with unlabeled terrain, coastlines and route lines. Preserve the rest of Image 2 exactly.",
+        "reason": "localized removal of lettering required by IMAGE_RULES"
+      },
+      "references": [
+        "approved light original",
+        "first casual3 original as edit target"
+      ],
+      "attempts": 1,
+      "first_original_sha256": "1d2567f93e9fcb84fdd891e64fa336261add26653807d9451b7b2cf574e5323e"
+    }
+  ]
+}
