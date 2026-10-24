@@ -1,0 +1,167 @@
+{
+  "session": "metagross-manual-20261025-a5e4",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "메타그로스",
+      "species": "metagross-20261025",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "active",
+          "ex": "running_recovery",
+          "expr": "laughing",
+          "pose": "turning_back",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shorts"
+          ],
+          "expose": [
+            "cropped hem",
+            "mini length"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "heritage_pattern_swim",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "side",
+          "frame": "waist_up",
+          "pose": "small_jog",
+          "expr": "surprised",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "strapless top"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "everyday_sensual",
+          "ex": "rainy_return",
+          "expr": "candid",
+          "pose": "walking",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "shorts"
+          ],
+          "expose": [
+            "cropped hem",
+            "mini length"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "side"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "history": [
+    {
+      "before_generation": true,
+      "change": "burkini_modest 제외: 전신 덮는 의상과 계획된 strapless/plunging 조합 충돌. shoe_bench 제외: 걷기와 앉아서 신발끈 정리 충돌."
+    },
+    {
+      "before_generation": true,
+      "change": "heritage_pattern_swim의 gentle_pat 제외: 실제 생성기 문구는 포켓몬 동료를 쓰다듬기여서 단독 수영복과 충돌. small_jog로 계획기가 재선정."
+    }
+  ],
+  "direct_inputs": {
+    "1": {
+      "scene": "The riverside cinder track curves past silver reeds in fresh morning sunshine; she lifts an open water bottle after completing her run.",
+      "outfit": "A teal cropped racerback running top and coral mini running shorts with silver side piping reveal her midriff, shoulders and legs; white running shoes.",
+      "reasons": {
+        "scene": "The running recovery example leaves the track and weather open; silver reeds establish a riverside route and morning sun.",
+        "outfit": "The example leaves running apparel details open; cropped top and mini shorts follow the planned hem and length while separating coral fabric from armor blue.",
+        "axes": "Her turn after the run motivates mostly active; teal and silver keep balanced source echoes; the crop top and shorts require separates."
+      }
+    },
+    "2": {
+      "scene": "An amber-tiled open-air bath courtyard borders shallow rippling water; a brief fountain splash breaks the late-afternoon reflections along the path.",
+      "outfit": "An opaque ivory strapless one-piece swimsuit with an indigo heritage textile pattern, matching narrow trim and a deep structured neckline reveals shoulders and collarbones.",
+      "reasons": {
+        "scene": "The swimsuit example supplies neither a location nor weather; the amber courtyard and fountain splash establish a water setting for the planned surprised recovery step.",
+        "outfit": "The example specifies heritage textile pattern and matching trim but no colors or neckline; ivory-indigo cloth with a strapless structured neckline follows the two planned exposure methods.",
+        "axes": "A quick light jogging movement along the wet path is mostly active; indigo stays a subtle source color; the single swimsuit uses balanced separates."
+      }
+    },
+    "3": {
+      "scene": "Her closed cream umbrella drips onto a ceramic tray beside the entryway as evening rain streaks the glass; she carries the loosened raincoat away from her shoulders.",
+      "outfit": "A rust-orange cropped knit top with ivory mini shorts reveals her waist and thighs beneath the open, slipping raincoat; low black rain boots.",
+      "reasons": {
+        "scene": "The example specifies entryway and slipping off a raincoat but leaves props and time open; a wet umbrella and dark evening glass make the return from rain readable.",
+        "outfit": "The raincoat example leaves underclothes open; cropped rust knit and mini ivory shorts realize the planned knit_top/shorts and exposed waist and thighs.",
+        "axes": "Walking in while releasing a wet coat is mostly active; blue-gray rainwear offers balanced source color while rust changes the silhouette; knit and shorts use prefer separates."
+      }
+    }
+  },
+  "check": "casual-ledger.py check --fresh passed",
+  "reservation_commits": [
+    "bf9c8ddfafd215bef4799c3f702f6e74740cdd09",
+    "cfa873b4a4447a318acb879ec0035d321ffea166"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "bd036566eb278a608f75cf4c33b83046ef1162bf89732fa9f2ebf3f8feabbc9e",
+  "accepted": true,
+  "observations": [
+    "고기동의 뒤로 뻗는 패널과 추진기 덮개가 더 펼쳐지고 내부 프레임과 은백색 빛이 보인다. 원래 장갑의 흉부 X·어깨·정강이 위치와 양손의 굽힘·발 위치가 이어진다."
+  ],
+  "anatomy": {
+    "tool": "ok · 명확한 의심 검출 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 모두 엄지 하나·네 손가락. 손가락은 자연스럽게 굽혀 끝 일부가 겹침. 원본과 확대 컷에서 손목 연결 및 엄지 안쪽 방향을 확인함.",
+    "overlay_checked": false,
+    "note": "검사기 미검출 손은 원본과 손 확대 이미지로 세기·관절 연결을 보완했다."
+  },
+  "checks": {
+    "size": {
+      "match": true,
+      "evidence": "실제 PNG와 WebP 1024×1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "청회색 긴 트윈테일·일자 앞머리와 눈색, 콧대와 입 윤곽이 경장에 이어진다."
+    },
+    "text": {
+      "match": true,
+      "evidence": "병과 수영복 무늬, 우산과 옷 부속, 배경 구조에서 읽히는 글자·상표·가짜 라벨이 없다."
+    },
+    "scene_outfit": {
+      "match": true,
+      "evidence": "고기동의 뒤로 뻗는 패널과 추진기 덮개가 더 펼쳐지고 내부 프레임과 은백색 빛이 보인다. 원래 장갑의 흉부 X·어깨·정강이 위치와 양손의 굽힘·발 위치가 이어진다."
+    }
+  }
+}

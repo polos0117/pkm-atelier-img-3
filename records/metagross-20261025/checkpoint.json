@@ -1,0 +1,282 @@
+{
+  "card": "메타그로스",
+  "stage": "QA complete; publishing pending",
+  "generated": 9,
+  "requested": 9,
+  "canonical": {
+    "card": "메타그로스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator controls, repository engine exact prompt",
+    "original": {
+      "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-3a7dce0e-99bd-48bd-a22e-b08519346236.png",
+      "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d",
+      "session_only": true
+    },
+    "references": [],
+    "output": {
+      "filename": "메타그로스_light_glossy_promo_f.webp",
+      "sha256": "51c3d0222ae8e64770ef4ff6d0988d4ab3ef881ca404d6e89d09315a613c02db",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  "face_reason": "금속 면과 중심 대칭을 넓고 각진 얼굴 및 정돈된 이목구비로 해석한다.",
+  "face_prompt": "(her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; narrow eyes, small size, level outer corners, close-set; straight medium brows; balanced nose; straight even lips.",
+  "images": [
+    {
+      "card": "메타그로스",
+      "slot": "light",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-3a7dce0e-99bd-48bd-a22e-b08519346236.png",
+        "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d",
+        "session_only": true
+      },
+      "references": [],
+      "output": {
+        "filename": "메타그로스_light_glossy_promo_f.webp",
+        "sha256": "51c3d0222ae8e64770ef4ff6d0988d4ab3ef881ca404d6e89d09315a613c02db",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-e5aa2c34-3152-4f1b-8bae-fb1a1d2fc0e9.png",
+        "sha256": "88186743e1c74814922777ffcd8e2393f77494ffb50728d7573f81df2eb0fa1a",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_heavy_glossy_promo_f.webp",
+        "sha256": "4aaab7721619fd8b19611a23e012f3cbce8451261c4f1a677f0a221229660638",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-753c0138-4a23-48a2-a9f2-45e0d6e969dc.png",
+        "sha256": "62665b14e6868e1795d930af169ad1c9e4f1750be56b20536b0349d88fdf4bd6",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_mobility_glossy_promo_f.webp",
+        "sha256": "898995e3ec4d81bd654f0053a1e0b39b8b92ee0630ba4b6e6284c4853ab85b41",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-22973510-6c46-4789-9691-f1f88ddd5f04.png",
+        "sha256": "d178466d54e9613be0e2dd75e93fc4ad1a141e6bc6fb7b4aedb5e30b1aed5e11",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_light_overdrive_glossy_promo_f.webp",
+        "sha256": "ba5122c9253259fe00cfdbe8a7d308b02d03cb53f1a7a940791e0ceddf579923",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-0cb37eb3-c5cc-4dd3-ab3e-d6736d61347f.png",
+        "sha256": "5fd57da0ecdc627eba74b36e3c41c9699f678c3730c88f233456138dbd394624",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "heavy",
+          "sha256": "88186743e1c74814922777ffcd8e2393f77494ffb50728d7573f81df2eb0fa1a"
+        },
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_heavy_overdrive_glossy_promo_f.webp",
+        "sha256": "cc06f5eef5009e51aa8b531d10bc042a99760af6f49e122de18a5dd5a00745e2",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-e6b8c48e-d78c-4ff0-9245-fd96778a508d.png",
+        "sha256": "bd036566eb278a608f75cf4c33b83046ef1162bf89732fa9f2ebf3f8feabbc9e",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "mobility",
+          "sha256": "62665b14e6868e1795d930af169ad1c9e4f1750be56b20536b0349d88fdf4bd6"
+        },
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_mobility_overdrive_glossy_promo_f.webp",
+        "sha256": "c02be512c8837d1af4cf11c970082a86f7d4939e00a48facfd1c0f89593aa3c6",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-19499250-a419-4487-85f8-90add6d30a82.png",
+        "sha256": "44631eb645353a848bfadb9aa76725b4fd984863079e6b069ee3ce22a8fdb92e",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_glossy_promo_f_casual1.webp",
+        "sha256": "44a4d83ae9aa0643c9d88275b42ac7e529398857b00b972494ed32220632d9fb",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-eac04adb-03c7-4720-8b6d-35d97c1117cd.png",
+        "sha256": "52dd3a592d43cbbba5fcdb303cd1391c49b758911c219e9fe1f32367819ba03f",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_glossy_promo_f_casual2.webp",
+        "sha256": "7c55e4b08bf5b45c6a57200e2ef4871cdc53834451a07cd98dbe7d7fa83e414d",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "메타그로스",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator controls, repository engine exact prompt",
+      "original": {
+        "path": "/workspace/scratch/a5e4bb41241a/generated_images/exec-deaea13a-f4dc-4870-8433-73f04e0522ef.png",
+        "sha256": "e0bd05760c333828eefc508cf0baf1faf45677ee83ca34bc3bbdb1ebef972ea8",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "f9c36f24807d33835504bb0d76ccc44d19a5e3ce7d0d718d2ee4d506dc5baa0d"
+        }
+      ],
+      "output": {
+        "filename": "메타그로스_glossy_promo_f_casual3.webp",
+        "sha256": "dc44ed621790cf199a7febc4a56ecb5939c8f4faae288ecce6fd1e1acb7962d0",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    }
+  ],
+  "other_requested_card": {
+    "card": "메탕구",
+    "status": "not started here: held by pkm-daily/2026-10-24-12; light in_flight"
+  }
+}
