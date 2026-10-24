@@ -1,0 +1,126 @@
+{
+  "card": "리오르",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "리오르",
+    "cards": {
+      "리오르": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "focused",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "scene": "A striped awning shades wicker berry trays beside a village bakery in bright late-morning sunshine; a paper bag rests against the counter edge.",
+            "outfit": "A sky-blue cropped tank with narrow side cutouts and terracotta high-waisted shorts, with soft white walking shoes and a small yellow bag strap.",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_market",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Riolu (리오르) personified, fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Adjust a shoulder strap with one hand while supporting the travel bag naturally.\nOrientation: body turned away, head looking back over a shoulder\nScene: A striped awning shades wicker berry trays beside a village bakery in bright late-morning sunshine; a paper bag rests against the counter edge.\nOutfit and props: A sky-blue cropped tank with narrow side cutouts and terracotta high-waisted shorts, with soft white walking shoes and a small yellow bag strap.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Choosing fresh berries at a village market stall and placing them into a paper shopping bag.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "Choosing fresh berries at a village market stall and placing them into a paper shopping bag.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 2,
+    "cat": "food_berries",
+    "ex": "food_market",
+    "expr": "focused",
+    "pose": "adjusting_bag",
+    "orient": "over_shoulder",
+    "frame": "three_quarter",
+    "lens": "wide24",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "shorts",
+      "tank"
+    ],
+    "expose": [
+      "cropped hem",
+      "side cutouts"
+    ],
+    "lead": "place"
+  },
+  "axes_reasons": [
+    "봉투와 열매를 다루는 가벼운 이동 동작이라 balanced.",
+    "하늘색 탱크와 노란 가방끈에 종의 배색을 연결하므로 balanced.",
+    "탱크와 쇼츠가 분리된 차림이므로 prefer separates."
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "A striped awning shades wicker berry trays beside a village bakery in bright late-morning sunshine; a paper bag rests against the counter edge.",
+      "reason": "열매를 종이봉투에 담는 예시에 차양·바구니·오전 햇빛과 봉투 받침 위치를 보충한다."
+    },
+    {
+      "field": "outfit",
+      "content": "A sky-blue cropped tank with narrow side cutouts and terracotta high-waisted shorts, with soft white walking shoes and a small yellow bag strap.",
+      "reason": "예시에 없는 의상을 계획의 쇼츠·탱크로 정하고 크롭·옆트임으로 배와 옆구리를 드러낸다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+    }
+  ],
+  "random_changes": {
+    "source": "planner",
+    "avoid": [
+      "먹고자:2:ex=burkini_modest — 덮는 수영복과 계획의 등·배 노출이 맞지 않음",
+      "리오르:1:pose=dance_step — 조수석 활동과 춤 자세가 맞지 않음"
+    ]
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "card": "리오르",
+  "batch": {
+    "session": "gpt-munchlax-riolu-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "먹고자",
+        "species": "munchlax-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "cyber_street",
+            "garments": [
+              "dress"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "gentle_pat",
+            "expr": "bored",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "onsen_after",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "side_sitting",
+            "expr": "flustered",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "retro_motel",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "mid_action",
+            "expr": "mildly_annoyed",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "dress",
+            "bikini"
+          ],
+          "orient": [
+            "side",
+            "reclining",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "리오르",
+        "species": "riolu-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "night_drive",
+            "garments": [
+              "slip"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "sitting",
+            "expr": "calm",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_market",
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "pose": "adjusting_bag",
+            "expr": "focused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "vinyl_stage",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "front",
+            "frame": "full_body",
+            "pose": "dance_step",
+            "expr": "confident",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip",
+            "tank"
+          ],
+          "orient": [
+            "leaning_back",
+            "over_shoulder",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "private_evening",
+      "ex": "night_drive",
+      "expr": "calm",
+      "pose": "sitting",
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "slip"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "high thigh slit"
+      ],
+      "lead": "action",
+      "example": "in the passenger seat at night in a light evening outfit, looking out at passing lights",
+      "scene": "She traces a small arc through condensation on the passenger window as amber tunnel lamps streak across the glass.",
+      "outfit": "A midnight-blue satin slip dress with a softly draped off-shoulder neckline and a high thigh slit, finished with a narrow pale-gold seam.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "조수석에 쉬며 유리에 손끝을 대는 순간이라 mostly posed.",
+        "파랑과 가는 금색 솔기로만 원작을 남기므로 subtle.",
+        "슬립 드레스 한 벌의 연속 실루엣이므로 balanced."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She traces a small arc through condensation on the passenger window as amber tunnel lamps streak across the glass.",
+          "reason": "밤 차창 예시에 유리의 김을 만지는 작은 활동과 터널 조명의 색을 더한다."
+        },
+        {
+          "field": "outfit",
+          "content": "A midnight-blue satin slip dress with a softly draped off-shoulder neckline and a high thigh slit, finished with a narrow pale-gold seam.",
+          "reason": "가벼운 이브닝 차림을 계획의 슬립으로 정하고 오프숄더·허벅지 슬릿을 구현한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_market",
+      "expr": "focused",
+      "pose": "adjusting_bag",
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "expose": [
+        "cropped hem",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example": "Choosing fresh berries at a village market stall and placing them into a paper shopping bag.",
+      "scene": "A striped awning shades wicker berry trays beside a village bakery in bright late-morning sunshine; a paper bag rests against the counter edge.",
+      "outfit": "A sky-blue cropped tank with narrow side cutouts and terracotta high-waisted shorts, with soft white walking shoes and a small yellow bag strap.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "봉투와 열매를 다루는 가벼운 이동 동작이라 balanced.",
+        "하늘색 탱크와 노란 가방끈에 종의 배색을 연결하므로 balanced.",
+        "탱크와 쇼츠가 분리된 차림이므로 prefer separates."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A striped awning shades wicker berry trays beside a village bakery in bright late-morning sunshine; a paper bag rests against the counter edge.",
+          "reason": "열매를 종이봉투에 담는 예시에 차양·바구니·오전 햇빛과 봉투 받침 위치를 보충한다."
+        },
+        {
+          "field": "outfit",
+          "content": "A sky-blue cropped tank with narrow side cutouts and terracotta high-waisted shorts, with soft white walking shoes and a small yellow bag strap.",
+          "reason": "예시에 없는 의상을 계획의 쇼츠·탱크로 정하고 크롭·옆트임으로 배와 옆구리를 드러낸다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "expr": "confident",
+      "pose": "dance_step",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket"
+      ],
+      "expose": [
+        "mini length",
+        "one-shoulder cut"
+      ],
+      "lead": "detail",
+      "example": "a vinyl stage costume with a glossy fitted jacket and boots under stage lighting",
+      "scene": "A coiled microphone cable and round footlights line a rehearsal platform, with violet spotlights cutting through a faint theatrical haze.",
+      "outfit": "A glossy cobalt vinyl fitted jacket with an asymmetric one-shoulder neckline, a silver mini skirt and matching mid-calf stage boots.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "무대의 춤 스텝이 중심이므로 mostly active.",
+        "파란 재킷의 색만 연결하고 종족 장신구를 빼므로 subtle.",
+        "재킷·스커트·부츠가 나뉜 무대 의상이므로 prefer separates."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A coiled microphone cable and round footlights line a rehearsal platform, with violet spotlights cutting through a faint theatrical haze.",
+          "reason": "비닐 재킷 무대 예시에 리허설 플랫폼·각광·보랏빛 스포트라이트의 무대를 보충한다."
+        },
+        {
+          "field": "outfit",
+          "content": "A glossy cobalt vinyl fitted jacket with an asymmetric one-shoulder neckline, a silver mini skirt and matching mid-calf stage boots.",
+          "reason": "예시의 재킷과 부츠를 유지하며 계획의 원숄더·미니 길이를 비대칭 재킷과 미니스커트로 표현한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before reservation",
+  "reservation_commit": "4cc2be9da26a5ad8b2cc3fe0f8833cfd865ce085",
+  "reservation_updates": [
+    "7242ef7f80931155d4c8234a99e53bcdf4491cc0",
+    "4cc2be9da26a5ad8b2cc3fe0f8833cfd865ce085",
+    "a2c15fafb596e6e1c03b6554be4f3bbd1e3f534a"
+  ]
+}

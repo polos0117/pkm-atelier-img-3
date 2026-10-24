@@ -1,0 +1,125 @@
+{
+  "card": "리오르",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "리오르",
+    "cards": {
+      "리오르": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "calm",
+            "pose": "sitting",
+            "orient": "leaning_back",
+            "scene": "She traces a small arc through condensation on the passenger window as amber tunnel lamps streak across the glass.",
+            "outfit": "A midnight-blue satin slip dress with a softly draped off-shoulder neckline and a high thigh slit, finished with a narrow pale-gold seam.",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "night_drive",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Riolu (리오르) personified, fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: torso leaning backward with clear support\nScene: She traces a small arc through condensation on the passenger window as amber tunnel lamps streak across the glass.\nOutfit and props: A midnight-blue satin slip dress with a softly draped off-shoulder neckline and a high thigh slit, finished with a narrow pale-gold seam.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: in the passenger seat at night in a light evening outfit, looking out at passing lights\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "in the passenger seat at night in a light evening outfit, looking out at passing lights",
+  "planner_selection": {
+    "kept": true,
+    "cut": 1,
+    "cat": "private_evening",
+    "ex": "night_drive",
+    "expr": "calm",
+    "pose": "sitting",
+    "orient": "leaning_back",
+    "frame": "chest_up",
+    "lens": "documentary35",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "slip"
+    ],
+    "expose": [
+      "off-shoulder neckline",
+      "high thigh slit"
+    ],
+    "lead": "action"
+  },
+  "axes_reasons": [
+    "조수석에 쉬며 유리에 손끝을 대는 순간이라 mostly posed.",
+    "파랑과 가는 금색 솔기로만 원작을 남기므로 subtle.",
+    "슬립 드레스 한 벌의 연속 실루엣이므로 balanced."
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "She traces a small arc through condensation on the passenger window as amber tunnel lamps streak across the glass.",
+      "reason": "밤 차창 예시에 유리의 김을 만지는 작은 활동과 터널 조명의 색을 더한다."
+    },
+    {
+      "field": "outfit",
+      "content": "A midnight-blue satin slip dress with a softly draped off-shoulder neckline and a high thigh slit, finished with a narrow pale-gold seam.",
+      "reason": "가벼운 이브닝 차림을 계획의 슬립으로 정하고 오프숄더·허벅지 슬릿을 구현한다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+    }
+  ],
+  "random_changes": {
+    "source": "planner",
+    "avoid": [
+      "먹고자:2:ex=burkini_modest — 덮는 수영복과 계획의 등·배 노출이 맞지 않음",
+      "리오르:1:pose=dance_step — 조수석 활동과 춤 자세가 맞지 않음"
+    ]
+  }
+}
