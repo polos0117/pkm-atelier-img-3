@@ -1,0 +1,494 @@
+{
+  "batch_plan": {
+    "session": "hippopotas-20261025-d3bb",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "히포포타스",
+        "species": "hippopotas-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "kilt_inspired",
+            "garments": [
+              "knit_top",
+              "skirt"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "late_snack",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "mid_action",
+            "expr": "calm",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "rooftop_infinity_pool",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "sensual",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top",
+            "jumpsuit"
+          ],
+          "orient": [
+            "looking_away",
+            "turning_midmotion",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "kilt_inspired",
+      "garments": [
+        "knit_top",
+        "skirt"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "side_sitting",
+      "expr": "determined",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "halter neck",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "a kilt-inspired pleated tartan skirt with a fitted knit top and a sash pin",
+      "storage": {
+        "version": 2,
+        "last": "히포포타스",
+        "cards": {
+          "히포포타스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "determined",
+                "pose": "side_sitting",
+                "orient": "looking_away",
+                "scene": "A round bronze sash pin catches the light beside her hand on a folded tartan blanket; the stone terrace overlooks a Highland games field under an overcast afternoon sky.",
+                "outfit": "A fitted chocolate rib-knit bandeau with a narrow halter collar loop and open shoulders, a sand-and-brown pleated tartan kilt skirt and a diagonal sash secured with the round pin; a short top leaves a small line of waist visible.",
+                "frame": "three_quarter",
+                "lens": "telephoto135",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "traditional",
+                "catCustom": "",
+                "ex": "kilt_inspired",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "strong",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "cut": 1,
+                "garments": [
+                  "knit_top",
+                  "skirt"
+                ],
+                "expose": [
+                  "halter neck",
+                  "strapless top"
+                ],
+                "lead": "detail"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "A round bronze sash pin catches the light beside her hand on a folded tartan blanket; the stone terrace overlooks a Highland games field under an overcast afternoon sky.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead detail"
+        },
+        "outfit": {
+          "value": "A fitted chocolate rib-knit bandeau with a narrow halter collar loop and open shoulders, a sand-and-brown pleated tartan kilt skirt and a diagonal sash secured with the round pin; a short top leaves a small line of waist visible.",
+          "reason": "Defines the planner garments knit_top+skirt and exposure construction halter neck, strapless top"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "mostly posed for kilt_inspired",
+        "source_influence": "strong in the garment palette and small accents",
+        "separates_preference": "prefer separates for knit_top+skirt"
+      },
+      "prompt_file": "casual1-prompt.txt"
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "late_snack",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "calm",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "eating a late-night snack at the kitchen counter in loungewear",
+      "storage": {
+        "version": 2,
+        "last": "히포포타스",
+        "cards": {
+          "히포포타스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "calm",
+                "pose": "mid_action",
+                "orient": "turning_midmotion",
+                "scene": "Eating yogurt and sliced fruit from a small bowl at the kitchen counter, lifting a spoonful as the refrigerator door swings gently shut; warm pendant light contrasts with the blue window after midnight.",
+                "outfit": "A rust-colored short jumpsuit with a tailored V bodice, thin shoulder straps and a mini-length split overskirt above the shorts, its high side slits exposing the upper thighs; soft indoor slippers.",
+                "frame": "waist_up",
+                "lens": "wide24",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_sensual",
+                "catCustom": "",
+                "ex": "late_snack",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "subtle",
+                  "separates_preference": "balanced"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "cut": 2,
+                "garments": [
+                  "jumpsuit"
+                ],
+                "expose": [
+                  "high thigh slit",
+                  "mini length"
+                ],
+                "lead": "action"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "Eating yogurt and sliced fruit from a small bowl at the kitchen counter, lifting a spoonful as the refrigerator door swings gently shut; warm pendant light contrasts with the blue window after midnight.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead action"
+        },
+        "outfit": {
+          "value": "A rust-colored short jumpsuit with a tailored V bodice, thin shoulder straps and a mini-length split overskirt above the shorts, its high side slits exposing the upper thighs; soft indoor slippers.",
+          "reason": "Defines the planner garments jumpsuit and exposure construction high thigh slit, mini length"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "mostly active for late_snack",
+        "source_influence": "subtle in the garment palette and small accents",
+        "separates_preference": "balanced for jumpsuit"
+      },
+      "prompt_file": "casual2-prompt.txt"
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "rooftop_infinity_pool",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "reclining",
+      "frame": "environmental",
+      "pose": "sitting",
+      "expr": "sensual",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "open back"
+      ],
+      "lead": "place",
+      "example_text": "in swimwear at a rooftop infinity pool with the city skyline behind her",
+      "storage": {
+        "version": 2,
+        "last": "히포포타스",
+        "cards": {
+          "히포포타스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "sensual",
+                "pose": "sitting",
+                "orient": "reclining",
+                "scene": "A rooftop infinity pool above a sunlit coastal city, the horizon reflected across the water and a folded white towel on the broad stone pool steps.",
+                "outfit": "A teal fully lined bikini with a deep V halter neckline, secure underbust band and open-back ties; matching opaque swim briefs and a thin tan wristband.",
+                "frame": "environmental",
+                "lens": "portrait85",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "swimwear",
+                "catCustom": "",
+                "ex": "rooftop_infinity_pool",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "subtle",
+                  "separates_preference": "balanced"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "cut": 3,
+                "garments": [
+                  "bikini"
+                ],
+                "expose": [
+                  "plunging neckline",
+                  "open back"
+                ],
+                "lead": "place"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "A rooftop infinity pool above a sunlit coastal city, the horizon reflected across the water and a folded white towel on the broad stone pool steps.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead place"
+        },
+        "outfit": {
+          "value": "A teal fully lined bikini with a deep V halter neckline, secure underbust band and open-back ties; matching opaque swim briefs and a thin tan wristband.",
+          "reason": "Defines the planner garments bikini and exposure construction plunging neckline, open back"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "mostly posed for rooftop_infinity_pool",
+        "source_influence": "subtle in the garment palette and small accents",
+        "separates_preference": "balanced for bikini"
+      },
+      "prompt_file": "casual3-prompt.txt"
+    }
+  ],
+  "check_result": "casual-ledger.py check --fresh passed before reservation",
+  "reservation": "records/casual-reservations/hippopotas-20261025-d3bb.json",
+  "diversity_comparison": {
+    "result": "Three different activities, garments and compositions, verified against recent actual casual images and each other.",
+    "evidence": "Comparison montage and casual-look output reviewed; activity-specific observations in qa.json."
+  }
+}

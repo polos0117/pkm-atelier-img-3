@@ -1,0 +1,126 @@
+{
+  "card": "히포포타스",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "히포포타스",
+    "cards": {
+      "히포포타스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "determined",
+            "pose": "side_sitting",
+            "orient": "looking_away",
+            "scene": "A round bronze sash pin catches the light beside her hand on a folded tartan blanket; the stone terrace overlooks a Highland games field under an overcast afternoon sky.",
+            "outfit": "A fitted chocolate rib-knit bandeau with a narrow halter collar loop and open shoulders, a sand-and-brown pleated tartan kilt skirt and a diagonal sash secured with the round pin; a short top leaves a small line of waist visible.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "traditional",
+            "catCustom": "",
+            "ex": "kilt_inspired",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "overall_intensity": true,
+              "skin_exposure": true,
+              "action_level": true,
+              "source_influence": true,
+              "separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "knit_top",
+              "skirt"
+            ],
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "detail"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Hippopotas (히포포타스) personified, ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows pulled down and in, hard forward gaze, jaw clenched, mouth a tight line\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: gaze off-camera; body orientation independent\nScene: A round bronze sash pin catches the light beside her hand on a folded tartan blanket; the stone terrace overlooks a Highland games field under an overcast afternoon sky.\nOutfit and props: A fitted chocolate rib-knit bandeau with a narrow halter collar loop and open shoulders, a sand-and-brown pleated tartan kilt skirt and a diagonal sash secured with the round pin; a short top leaves a small line of waist visible.\nCategory: This cut is built around the traditional dress named in the example — that tradition wins over her ethnicity setting and the attached image's costume; only Auto follows her ethnicity. Use either authentic formal traditional clothing or a modernised everyday interpretation of it, as specified by the example. Keep the garment structure, layering logic, fastening, and silhouette faithful to that tradition rather than generic orientalism or costume-shop pastiche. Colours may follow the source creature, but the construction must remain true to the tradition. Place the character in a setting where such clothing is plausibly worn.\nExample scene: a kilt-inspired pleated tartan skirt with a fitted knit top and a sash pin\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "traditional",
+    "ex": "kilt_inspired",
+    "garments": [
+      "knit_top",
+      "skirt"
+    ],
+    "orient": "looking_away",
+    "frame": "three_quarter",
+    "pose": "side_sitting",
+    "expr": "determined",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "halter neck",
+      "strapless top"
+    ],
+    "lead": "detail"
+  },
+  "manual_inputs": {
+    "scene": {
+      "value": "A round bronze sash pin catches the light beside her hand on a folded tartan blanket; the stone terrace overlooks a Highland games field under an overcast afternoon sky.",
+      "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead detail"
+    },
+    "outfit": {
+      "value": "A fitted chocolate rib-knit bandeau with a narrow halter collar loop and open shoulders, a sand-and-brown pleated tartan kilt skirt and a diagonal sash secured with the round pin; a short top leaves a small line of waist visible.",
+      "reason": "Defines the planner garments knit_top+skirt and exposure construction halter neck, strapless top"
+    },
+    "camera": {
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no separate dimension control."
+    }
+  },
+  "axes_reason": {
+    "action_level": "mostly posed for kilt_inspired",
+    "source_influence": "strong in the garment palette and small accents",
+    "separates_preference": "prefer separates for knit_top+skirt"
+  }
+}
