@@ -1,0 +1,319 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_count": 10,
+  "accepted_count": 9,
+  "face_reason": "사각 무늬·네모 이빨의 직선을 날렵한 윤곽·각진 눈썹·얇은 입술로, 무거운 속 빈 종을 넓고 낮은 콧대로 해석.",
+  "compared_characters": [
+    "동미러",
+    "헌테일",
+    "진주몽",
+    "씨카이저"
+  ],
+  "face_comparison": "동미러는 짧고 둥근 볼과 둥근 눈, 동탁군은 길고 좁은 턱과 수평으로 긴 아몬드 눈·얇은 입술. 헌테일은 높은 눈꼬리와 굽은 코선, 진주몽은 둥근 볼과 큰 눈, 씨카이저는 도톰한 입술과 윗눈꺼풀 모양이 다르다. 원본 얼굴을 잘라 나란히 확인했다.",
+  "diversity_comparison": {
+    "compared": [
+      "헌테일 casual1-3",
+      "진주몽 casual1-3",
+      "씨카이저 casual1-3"
+    ],
+    "observed": "1은 거울 앞에서 등 쪽을 보이며 가터 장식 가장자리를 정돈하는 새틴 의상, 2는 위에서 본 수건 정리·브라렛과 열린 가디건·쇼츠, 3은 낮은 시점의 전신 걸음·짧은 오버롤과 로토무 기기 점검이다. 최근 유카타·해안 수영복·노트, 과일 조리·팔 스트레칭·무대, 출근·필라테스·화장대와 작업·공간·실루엣이 구별된다.",
+    "look_check": "passed; see look-check.txt"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "3d900cba5abd5a038586e3fce3dd21aa7593bc2525e063ebbce9aac73f0847e5",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "가까이 붙는 청록 흉갑·짧은 종 모양 허리 판과 얇은 팔다리 판"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "71f1de3a680e212fc9e2c9f639566198f301f3ef8981875bc904ddbc0aba4e61",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·팔뚝·골반·무릎과 정강이에 두꺼운 겹판과 얼굴을 열어 둔 관 장식"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "137a41d68aa3408570b0291ab34b5d091d6d72908c043760913dbced956dfb85",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·허리·종아리에서 뒤로 갈라진 가는 판과 작은 분사구"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "fdf9726d84200cf4d6a932fe2ccfd87e7be482500cfcf627aebefa76f5fa2679",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "경장 판이 이음새를 따라 떠 있고 은백색 내골격 빛이 틈에 드러남"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "d270b7eb82bb254e9f0a7c600b19468452bba3fc37c8f664320abd26f180bd2b",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "원래 중장 겹판이 힌지에서 크게 열리고 층 사이에 은백색 발광"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "ee003c8dd70265761023816be91e1bbdc2b9d577c5374959a7198cc3a76bd1e5",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 엄지와 펼친 네 손가락 5지 분리. 왼손은 아래로 향한 네 손가락이 보이고 엄지는 손바닥 위쪽이나 장갑 판 아래에 일부 가림. 각 손목이 팔 끝에 이어짐.",
+        "note": "두 어깨에서 팔꿈치와 손목까지 끊김 없음. 두 골반에서 무릎·정강이·부츠까지 연결, 양발 프레임 안. 개방 전후 손과 자세 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 홍채·긴 일자 커트와 일자 앞머리·길고 좁은 턱·작고 얇은 입술 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "같은 분사구 판과 덮개가 더 벌어져 분사구 안쪽이 은백색으로 빛남"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리 꼭대기와 부츠 밑창 모두 여백 안"
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·유적·종 표면에 글자가 아닌 사각 무늬만 보임"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "8086bb5bfcd345b84ff2d20e6b49278e5d385b908b82f4fcaa6aaa142004773c",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "허리 옆 오른손이 옷끝을 잡음. 엄지·검지가 분리되고 굽힌 중지·약지·새끼손가락의 마디가 겹쳐 일부 가림. 다른 손은 몸통 뒤로 가려짐.",
+        "note": "등과 한쪽 옆구리를 보여 주는 뒤 3/4, 골반 아래 허벅지까지 담겨 종아리는 프레임 밖. 거울에는 같은 인물의 후면만 반사, 독립된 두 번째 인물 아님."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "금색 거울·초록 벨벳 의자 앞에서 의상 옆솔기를 잡아 정돈"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "불투명 청록 새틴 상하의와 가터 스트랩·등 트임·배 노출"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "선택 waist_up보다 넓어 허벅지까지, 후면 3/4에서 얼굴은 카메라 쪽"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "입꼬리가 약간 올라가고 눈꺼풀은 낮게 유지"
+        },
+        "text": {
+          "match": true,
+          "evidence": "거울과 장식에 읽히는 문자·상표 없음"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "기준의 녹색 눈·긴 녹색 머리와 일자 앞머리·같은 턱과 코·입 비율"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "563dc3bb2ee421580fcf91cc2dab2da20c5727ad450789c43e293ef2b7ad4845",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "앞쪽 수건 위 인물 오른손의 엄지와 네 손가락 5지가 분리. 다른 손은 수건 옆을 잡아 엄지·검지 일부만 보이고 나머지는 프레임·수건에 가려짐.",
+        "note": "두 팔이 가디건 소매에서 이어짐. 쇼츠와 두 허벅지까지 담겼고 무릎 아래는 프레임 밖."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "비 맺힌 창가 옆 서랍 위의 접힌 수건을 양손으로 정리"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "녹색 레이스 브라렛·열린 아이보리 가디건·짧은 쇼츠, 어깨와 쇄골·배가 드러남"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "높은 시점에서 얼굴과 양손·쇼츠까지, 선택 chest_up보다 넓음"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "곧은 입선·수평의 눈썹·직접 보는 시선"
+        },
+        "text": {
+          "match": true,
+          "evidence": "수건·단추·서랍에 문자 없음"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "기준의 녹색 눈·긴 녹색 머리와 일자 앞머리·같은 턱과 코·입 비율"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "dc4b2e2511b50b616a0b039fe604191bc922298fff45709c9101d23730aba63b",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "태블릿을 조작하는 손의 검지가 화면에 닿고 엄지와 나머지 손가락은 가장자리에서 굽혀져 일부 가림. 받치는 반대 손은 기기와 몸통 뒤에 가려짐.",
+        "note": "골반에서 양쪽 무릎·발목이 이어짐. 한쪽 밑창과 반대쪽 바닥에 딛는 발이 분리, 보행 중 자세가 자연스럽다."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "서비스 패널을 연 선풍기의 회로·도구 옆에서 진단 태블릿을 사용"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "청록 짧은 오버롤·검은 스트랩리스 상의, 어깨와 허벅지 노출"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "두 신발까지 담긴 뒤 3/4 전신, 선택 환경 중심보다 인물 비중이 큼"
+        },
+        "expression": {
+          "match": false,
+          "evidence": "약간 열린 입과 카메라 쪽 시선으로 선택의 먼 시선과 다름"
+        },
+        "text": {
+          "match": true,
+          "evidence": "부분 수정 뒤 두 화면 모두 선풍기 원형 도형과 단색 막대 세 개뿐, 작은 라벨 제거"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "기준의 녹색 눈·긴 녹색 머리와 일자 앞머리·같은 턱과 코·입 비율"
+        }
+      }
+    }
+  }
+}
