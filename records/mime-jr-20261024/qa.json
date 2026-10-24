@@ -1,7 +1,7 @@
 {
   "card": "흉내내",
   "tool": "built-in image_gen",
-  "status": "6/9; casual generation not started",
+  "status": "9/9 images generated and inspected",
   "cuts": {
     "light": {
       "size": {
@@ -182,6 +182,154 @@
         "overlay_checked": false,
         "note": "원본 전신과 손 확대를 대조. 팔꿈치·양 무릎 연결 정상, 제3의 손이나 떨어진 손 없음. 장갑으로 탐지 불확실한 부분은 눈으로 확인."
       }
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "원본과 WebP 모두 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "남색 시뇽·일자 앞머리·분홍 눈·가늘고 짧은 턱과 경장 체형 유지"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "황동 거울과 조명 전구·와인색 커튼 앞에서 양손으로 모자와 올림머리를 고정"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "아이보리 짧은 어깨 열린 재킷·빨강 홀터 이너·미니스커트·필박스 모자·네이비 스카프"
+      },
+      "expression": {
+        "match": false,
+        "evidence": "calm보다 입술이 조금 벌어지고 옅은 미소가 보임"
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "양어깨와 팔을 위로 올리고 팔꿈치를 자연스럽게 굽힘"
+      },
+      "framing": {
+        "match": false,
+        "evidence": "선택은 무릎 위이나 실제로는 허벅지 중간까지 보임"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "병·지도·나침반·거울 가장자리 확대: 글자·로고 없음. 1번 초기 병 라벨은 부분 수정 후 제거."
+      },
+      "anatomy": {
+        "tool": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 머리 쪽 손은 엄지와 머리를 고정하는 굽힌 손가락 일부가 가려짐. 오른쪽 모자 손은 엄지·검지가 챙을 잡고 세 손가락이 자연스럽게 접힘. 양손목·팔꿈치 연결 정상.",
+        "overlay_checked": false,
+        "note": "검사기 통과 후 원본과 손·소품 확대를 눈으로 재확인. 1·3번 다리 아래와 발은 프레임 밖, 보이는 허벅지는 정상 연결."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "일상 1번 두 팔을 올린 행사 준비, 2번 숲길 무릎 자세와 지도 작업, 3번 침실 벽에 기댄 향수 선택으로 장소·활동·옷·자세가 구분된다."
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "원본과 WebP 모두 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "남색 시뇽·일자 앞머리·분홍 눈·가늘고 짧은 턱과 경장 체형 유지"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "산길 표지석 옆 바위에 펼친 지도 위에 검지를 대고 다른 손의 나침반과 대조"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "노랑 짧은 앞치마형 상의의 옆구리 트임과 연갈색 바지의 허벅지 열린 패널, 양쪽 트레킹화"
+      },
+      "expression": {
+        "match": false,
+        "evidence": "입술이 조금 열리고 옅게 웃어 proud의 굳게 닫힌 입과 차이"
+      },
+      "orientation": {
+        "match": true,
+        "evidence": "한쪽 무릎은 바닥에 닿고 다른 다리는 굽혀 세운 낮은 자세"
+      },
+      "framing": {
+        "match": true,
+        "evidence": "머리·지도 작업 손·두 발이 전부 프레임에 포함"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "소품과 배경 확대: 지도는 지형·경로 선만, 나침반은 별과 눈금만, 향수병은 무늬와 유리 반사만 보이고 글자 없음."
+      },
+      "anatomy": {
+        "tool": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "지도 손의 검지 1개와 접힌 중지·약지·소지, 안쪽 엄지. 나침반 손은 안쪽 엄지가 금속 테두리를 받치고 검지와 나머지 손가락이 둘레를 잡아 일부 겹침. 두 팔 끝에 연결.",
+        "overlay_checked": false,
+        "note": "검사기 통과 후 원본과 손·소품 확대를 눈으로 재확인. 1·3번 다리 아래와 발은 프레임 밖, 보이는 허벅지는 정상 연결."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "일상 1번 두 팔을 올린 행사 준비, 2번 숲길 무릎 자세와 지도 작업, 3번 침실 벽에 기댄 향수 선택으로 장소·활동·옷·자세가 구분된다."
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "원본과 WebP 모두 1024×1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "남색 시뇽·일자 앞머리·분홍 눈·가늘고 짧은 턱과 경장 체형 유지"
+      },
+      "scene": {
+        "match": true,
+        "evidence": "침실 화장대 옆 벽에 몸을 기대고 분홍 유리 향수 분무기를 들어 향을 고르는 장면"
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "옅은 청색 새틴 베이비돌·가는 끈·제국 허리선·앞이 갈라진 패널과 불투명한 같은 색 하의"
+      },
+      "expression": {
+        "match": false,
+        "evidence": "직접 응시하지만 입이 약간 열려 confident의 닫힌 입과 차이"
+      },
+      "orientation": {
+        "match": false,
+        "evidence": "앞으로 기울인 선택보다 벽에 어깨를 기대고 허리를 틀어 보이는 자세"
+      },
+      "framing": {
+        "match": false,
+        "evidence": "허리 위 선택보다 넓은 허벅지 중간 프레임"
+      },
+      "letters": {
+        "match": true,
+        "evidence": "소품과 배경 확대: 지도는 지형·경로 선만, 나침반은 별과 눈금만, 향수병은 무늬와 유리 반사만 보이고 글자 없음."
+      },
+      "anatomy": {
+        "tool": "ok",
+        "arms": 2,
+        "legs": 2,
+        "hands": "향수 손은 엄지가 병 뒤를 받쳐 일부 가려지고 검지·중지·약지·소지가 병을 둘러 굽혀짐. 반대손은 화장대 테두리에 얹어 손가락 일부가 모서리 뒤로 가려짐. 양손목과 팔꿈치 정상.",
+        "overlay_checked": false,
+        "note": "검사기 통과 후 원본과 손·소품 확대를 눈으로 재확인. 1·3번 다리 아래와 발은 프레임 밖, 보이는 허벅지는 정상 연결."
+      },
+      "diversity": {
+        "match": true,
+        "evidence": "일상 1번 두 팔을 올린 행사 준비, 2번 숲길 무릎 자세와 지도 작업, 3번 침실 벽에 기댄 향수 선택으로 장소·활동·옷·자세가 구분된다."
+      }
     }
+  },
+  "casual_look": "passed; nearest distances 267 / 257 / 302, no near-identical registered casual images",
+  "recent_comparison": {
+    "cards": [
+      "아공이",
+      "시라칸",
+      "분홍장이"
+    ],
+    "viewed": "각 캐릭터의 접근 가능한 일상컷을 이번 세 장과 나란히 비교",
+    "result": "비교 대상의 거울 셀피·펜싱·뒤돌아선 의상·식물 돌봄·욕실 앉기·우산 벤치·풀장 샤워·앉은 지도 읽기와 구별. 우리 지도 컷은 바위에 펼친 지도와 무릎을 꿇고 나침반을 든 작업으로 분홍장이의 벤치 독도 장면과도 실루엣이 다르다."
   }
 }

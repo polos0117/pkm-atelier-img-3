@@ -69,9 +69,42 @@
       ],
       "sha256": "3de7588f58ed0a42dd16fbf392baaf5c2140909b6c0cd083ea6604c8af0e352f",
       "reference": "mobility"
+    },
+    "casual1": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-5bc2aab4-50b5-47d6-a9e2-c04b9dd41dff.png",
+      "source_sha256": "7ed97548768a3419606bb8d977f5850fba7568b36e99cf938569a117064f0f83",
+      "file": "흉내내_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b68f942a59a730ec88735ae36eff8fce388b03242906c8f57f1ab1f23ea20117",
+      "reference": "light"
+    },
+    "casual2": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-76ee1d6b-b397-4f49-8964-23d04aafc3fa.png",
+      "source_sha256": "9b05b344844e823f02b66b706f6c531b3a5332c201ba5a1eab08d9d601379be1",
+      "file": "흉내내_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "6a5985c075f8a943d35157dde42a770f428cbb1c7469ff6ba1f6dacf587094b4",
+      "reference": "light"
+    },
+    "casual3": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-a13901cd-11b2-4b53-9128-87e935ff959a.png",
+      "source_sha256": "be5554af474fdd866933370c0faeb2a559b9ff7858ca4eeeed314cb6c80f18d6",
+      "file": "흉내내_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "56a8e0f9bf3e90a26fc6168848bf721b79eddd31f6c0b9d35b25ec20f5d9161d",
+      "reference": "light"
     }
   },
-  "status": "six combat slots finished; casual1-3 pending reservation approval",
+  "status": "9/9 images generated, inspected, ready for casual publication",
   "canonical_identity": {
     "file": "흉내내_light_glossy_promo_f.webp",
     "sha256": "ec92bcc45b32f07b5842e00c942ccb1f26407855b2cf649a035fa174002d6982",
@@ -85,5 +118,6 @@
       "사랑동이"
     ],
     "visual_comparison": "마임맨의 넓은 눈 간격과 단정한 긴 윤곽보다 눈이 가까우며 턱이 짧고 가늘다. 시라칸의 길고 각진 눈·코, 아공이의 길고 날카로운 턱, 사랑동이의 좁은 눈·긴 콧대와 구별된다."
-  }
+  },
+  "casual_reservation_commit": "96818a3b2b39d62381d2b8fd83710a56c1a6e86c"
 }

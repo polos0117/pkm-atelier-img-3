@@ -1,0 +1,125 @@
+{
+  "card": "흉내내",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "흉내내",
+    "cards": {
+      "흉내내": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "calm",
+            "pose": "hands_in_hair",
+            "orient": "reaching_up",
+            "scene": "She pins her pillbox hat in place before a retro aviation-themed costume parade; brass mirrors and burgundy drapes line the backstage dressing booth.",
+            "outfit": "An ivory cropped off-shoulder fitted jacket over a cherry-red halter insert, a matching mini skirt, a cream pillbox hat and navy silk neck scarf.",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged.",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "cabin_crew_retro",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Mime Jr. (흉내내) personified, psychic / fairy type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Use the hands to tidy the established hairstyle without changing its cut or length.\nOrientation: reach upward with natural shoulder articulation\nScene: She pins her pillbox hat in place before a retro aviation-themed costume parade; brass mirrors and burgundy drapes line the backstage dressing booth.\nOutfit and props: An ivory cropped off-shoulder fitted jacket over a cherry-red halter insert, a matching mini skirt, a cream pillbox hat and navy silk neck scarf.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf\nNote: Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "reservation_commit": "96818a3b2b39d62381d2b8fd83710a56c1a6e86c",
+  "user_approval": "User explicitly approved generation and public repository publication of six casual fashion images, including lingerie and adult roleplay, in the follow-up.",
+  "example_text": "a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "adult_roleplay",
+    "ex": "cabin_crew_retro",
+    "garments": [
+      "jacket"
+    ],
+    "orient": "reaching_up",
+    "frame": "three_quarter",
+    "pose": "hands_in_hair",
+    "expr": "calm",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+    ],
+    "lead": "action"
+  },
+  "axes_reasons": [
+    "모자를 고정하는 멈춘 순간이라 mostly posed",
+    "남색 스카프에 원작 색이 뚜렷이 남아 strong",
+    "재킷·이너·스커트로 분리되어 prefer separates"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "She pins her pillbox hat in place before a retro aviation-themed costume parade; brass mirrors and burgundy drapes line the backstage dressing booth.",
+      "reason": "승무원 예시에는 활동과 무대가 없어 모자 고정 준비 동작과 퍼레이드 백스테이지를 지정했다."
+    },
+    {
+      "field": "outfit",
+      "content": "An ivory cropped off-shoulder fitted jacket over a cherry-red halter insert, a matching mini skirt, a cream pillbox hat and navy silk neck scarf.",
+      "reason": "예시가 정하지 않은 재킷의 어깨선·짧은 기장·색과 하의, 홀터 이너를 보충했다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+    },
+    {
+      "field": "custom",
+      "content": "Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged.",
+      "reason": "초기 컷 화장대의 분홍 병에 가짜 라벨이 있어 그 병만 투명 병으로 바꾸는 부분 수정"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "card": "흉내내",
+  "batch": {
+    "session": "mime-happiny-20261024-bdf536",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "흉내내",
+        "species": "mime-jr-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "pose": "hands_in_hair",
+            "expr": "calm",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "surveyor_cartographer",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "kneeling",
+            "expr": "proud",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "pose": "leaning_wall",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "slip"
+          ],
+          "orient": [
+            "reaching_up",
+            "crouching",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "핑복",
+        "species": "happiny-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "triangle_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "small_jog",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "rain_editorial",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "arms_crossed",
+            "expr": "unimpressed",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "couture_gala",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "walking",
+            "expr": "sensual",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "dress"
+          ],
+          "orient": [
+            "profile_close",
+            "looking_away",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "cabin_crew_retro",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "hands_in_hair",
+      "expr": "calm",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "halter neck",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "example": "a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf",
+      "scene": "She pins her pillbox hat in place before a retro aviation-themed costume parade; brass mirrors and burgundy drapes line the backstage dressing booth.",
+      "outfit": "An ivory cropped off-shoulder fitted jacket over a cherry-red halter insert, a matching mini skirt, a cream pillbox hat and navy silk neck scarf.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "모자를 고정하는 멈춘 순간이라 mostly posed",
+        "남색 스카프에 원작 색이 뚜렷이 남아 strong",
+        "재킷·이너·스커트로 분리되어 prefer separates"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She pins her pillbox hat in place before a retro aviation-themed costume parade; brass mirrors and burgundy drapes line the backstage dressing booth.",
+          "reason": "승무원 예시에는 활동과 무대가 없어 모자 고정 준비 동작과 퍼레이드 백스테이지를 지정했다."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory cropped off-shoulder fitted jacket over a cherry-red halter insert, a matching mini skirt, a cream pillbox hat and navy silk neck scarf.",
+          "reason": "예시가 정하지 않은 재킷의 어깨선·짧은 기장·색과 하의, 홀터 이너를 보충했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        },
+        {
+          "field": "custom",
+          "content": "Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged.",
+          "reason": "초기 컷 화장대의 분홍 병에 가짜 라벨이 있어 그 병만 투명 병으로 바꾸는 부분 수정"
+        }
+      ],
+      "custom": "Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged."
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_basic",
+      "ex": "surveyor_cartographer",
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "orient": "crouching",
+      "frame": "full_body",
+      "pose": "kneeling",
+      "expr": "proud",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "mini length"
+      ],
+      "lead": "light",
+      "example": "Pokémon expedition cartographer comparing a compass with a hand-drawn habitat map beside a trail marker.",
+      "scene": "Late-afternoon sunlight crosses a fern-lined mountain trail as she compares a brass compass with the hand-drawn habitat map laid on a flat stone beside a trail marker.",
+      "outfit": "A saffron mini-length apron bodice with broad side cutouts, sand-coloured tailored trousers with open upper-thigh panels, and flat leather trail shoes.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "나침반과 지도를 대조하는 정지 순간이라 mostly posed",
+        "자연스러운 탐험복에서 원작 영향이 중간이므로 balanced",
+        "앞치마 상의와 바지가 나뉘어 prefer separates"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon sunlight crosses a fern-lined mountain trail as she compares a brass compass with the hand-drawn habitat map laid on a flat stone beside a trail marker.",
+          "reason": "지도와 나침반을 비교하는 예시 활동을 유지하면서 오후빛·숲길·지도가 놓인 받침을 정해 손 겹침을 줄였다."
+        },
+        {
+          "field": "outfit",
+          "content": "A saffron mini-length apron bodice with broad side cutouts, sand-coloured tailored trousers with open upper-thigh panels, and flat leather trail shoes.",
+          "reason": "옷 지시가 없는 예시에 계획의 앞치마와 바지를 입히고 짧은 앞치마·옆 트임·상부 허벅지 패널로 드러내는 구조를 정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "babydoll",
+      "garments": [
+        "lingerie_set",
+        "slip"
+      ],
+      "orient": "leaning_forward",
+      "frame": "waist_up",
+      "pose": "leaning_wall",
+      "expr": "confident",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "example": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+      "scene": "A pearl-tipped perfume atomizer catches the bedside lamp as she selects an evening fragrance beside a walnut bedroom vanity.",
+      "outfit": "A powder-blue satin babydoll slip with narrow shoulder straps, a plunging neckline, an empire waist that opens into split front panels above matching opaque briefs, and a softly flared hem.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "향수 선택 중 작은 손동작이 있어 balanced",
+        "남색에서 옅은 청색으로 이어지는 색감과 가슴의 작은 분홍 리본으로 strong",
+        "슬립이 중심인 한 벌 실루엣이므로 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A pearl-tipped perfume atomizer catches the bedside lamp as she selects an evening fragrance beside a walnut bedroom vanity.",
+          "reason": "슬립 의상만 있는 예시에 향수를 고르는 활동과 침실 화장대의 밤 조명을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A powder-blue satin babydoll slip with narrow shoulder straps, a plunging neckline, an empire waist that opens into split front panels above matching opaque briefs, and a softly flared hem.",
+          "reason": "계획의 베이비돌·슬립을 유지하고 소재·색, 깊은 목선과 앞이 갈라져 복부가 보이는 패널 구조를 보충했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check passed before reservation",
+  "reservation_commit": "96818a3b2b39d62381d2b8fd83710a56c1a6e86c",
+  "revisions": [
+    {
+      "cut": 1,
+      "reason": "화장대 우측 작은 분홍 병에 가짜 라벨이 생겨 해당 병만 부분 수정",
+      "input_changed": {
+        "custom": "Edit the second attached image only: replace the small pink labelled bottle on the lower-right vanity with a plain transparent glass perfume bottle. Keep the character, costume, pose, framing, lighting and all other objects unchanged."
+      },
+      "original_sha256": "d8ee7a873c0792f69b28c1e7820b6086523a2a146c8f39f97c01f7f0f9a1647e",
+      "references": [
+        "canonical light",
+        "casual1 edit target"
+      ]
+    }
+  ],
+  "check_result": "passed before reservation 96818a3",
+  "actual_comparison": {
+    "cards": [
+      "아공이",
+      "시라칸",
+      "분홍장이"
+    ],
+    "viewed": "각 캐릭터의 접근 가능한 일상컷을 이번 세 장과 나란히 비교",
+    "result": "비교 대상의 거울 셀피·펜싱·뒤돌아선 의상·식물 돌봄·욕실 앉기·우산 벤치·풀장 샤워·앉은 지도 읽기와 구별. 우리 지도 컷은 바위에 펼친 지도와 무릎을 꿇고 나침반을 든 작업으로 분홍장이의 벤치 독도 장면과도 실루엣이 다르다."
+  }
+}
