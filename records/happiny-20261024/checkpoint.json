@@ -1,0 +1,92 @@
+{
+  "card": "핑복",
+  "style": "glossy_promo",
+  "session": "mime-happiny-20261024-bdf536",
+  "tool": "built-in image_gen",
+  "slots": {
+    "light": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-306e4abd-66ba-45ae-adc3-75ce4bce0f00.png",
+      "source_sha256": "ddd94d1c9e7baabcd19b158211cbe352d8b3bb8a85699571f5782958ad18edaa",
+      "file": "핑복_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "5afeb75fa69c19eefdbd0e3a5fde0c48fb81e3d755b8a1fba15bb7d3c94d2ca3",
+      "reference": "none"
+    },
+    "heavy": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-3dc96190-bd09-4a92-a0de-05f77b10efe2.png",
+      "source_sha256": "016c911b2fa8f7773a8e72bb9ba9476860bd6d5a9973ef32a31d95b847a51c52",
+      "file": "핑복_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "838ae6fe8caa9e4cca3f6953acfc567a167b333e8fba521fb0120afdb7e9813d",
+      "reference": "light"
+    },
+    "mobility": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-9b68b555-9a79-43e0-9f4b-ae8af058832a.png",
+      "source_sha256": "5517f8f2c7c5b09936490473302f257262d9aae5c8c947b8734b415048a7ef3b",
+      "file": "핑복_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "9964cae05d0c7e998314680450880dcd964f70af3bf04b61d2eb1fdf256d7e99",
+      "reference": "light"
+    },
+    "light_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-75a32b73-3b9c-43f3-ada8-5f06f231cd08.png",
+      "source_sha256": "cf5ea25da6aed71f81b280c89145bc5ffd32b1e93378cf3dbb2d945b457c6138",
+      "file": "핑복_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cfaf464d2eac02a95a24a774370fb48abf285d95c8026ace032cf2825c72f086",
+      "reference": "light"
+    },
+    "heavy_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-fcbeb37d-0df8-40e5-a4d1-e775c34a2445.png",
+      "source_sha256": "784f006d5759a150b16685c121301a0dbd8f0c6d125aabd23a90fd7c112266a8",
+      "file": "핑복_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "df82a3ca7eec9318282a96a2ec250e430a366aa61da86c20e0351153db322db9",
+      "reference": "heavy"
+    },
+    "mobility_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-08e36339-5988-4f1e-912e-cbf77f2915cd.png",
+      "source_sha256": "2158ded0baabaa1c8e247c22ae4457aa3b9b81bcffbe67c4da622d4f0acd47ab",
+      "file": "핑복_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "f49f5a9a1e4bc6a553a340ad33aaffd1afa24b5632542297919068d3b25510b9",
+      "reference": "mobility"
+    }
+  },
+  "status": "six combat slots finished; casual1-3 pending reservation approval",
+  "canonical_identity": {
+    "file": "핑복_light_glossy_promo_f.webp",
+    "sha256": "5afeb75fa69c19eefdbd0e3a5fde0c48fb81e3d755b8a1fba15bb7d3c94d2ca3",
+    "face_reason": "원작의 부드럽고 둥근 몸을 둥근 얼굴과 턱, 짧은 둥근 눈썹으로 번역하고 좁은 눈을 사용. 얼굴표의 최종 FACE·HAIR 줄 그대로 생성기에 반영.",
+    "source": "data/face-design.json faces.440 and data/source-appearance.json entries.440",
+    "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, average spacing; short rounded brows; balanced nose; medium lips.",
+    "compared": [
+      "럭키",
+      "해피너스",
+      "흉내내",
+      "시라칸",
+      "아공이",
+      "사랑동이"
+    ],
+    "visual_comparison": "럭키의 넓고 둥근 파란 눈과 짧은 코에 비해 눈이 좁고 콧대가 길며 입술이 넓다. 해피너스보다 눈꼬리가 수평이고 턱이 넓고 부드럽다. 흉내내의 가까운 눈·뾰족한 턱과도 구별된다.",
+    "hair_observed": "분홍 웨이브, 이마를 연 옆 가르마. medium finger waves 지시에 비해 뒤쪽 컬이 길어 보이며 이후에는 이 확정 이미지의 실제 머리를 유지."
+  }
+}
