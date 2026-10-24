@@ -1,0 +1,159 @@
+[
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 152.0
+  },
+  "file": "/workspace/generated_images/exec-42af2591-9e8f-4f2b-be1e-8c784e105f0f.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   }
+  ],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 166.3
+  },
+  "file": "/workspace/generated_images/exec-f1d08919-74a6-48e3-8141-5f702dab17c9.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 106.7
+  },
+  "file": "/workspace/generated_images/exec-f2e8622a-bce8-40d5-ad87-ae68f9815a8e.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 157.2
+  },
+  "file": "/workspace/generated_images/exec-5b8970ba-3f80-4063-8b87-654f201800e1.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   }
+  ],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 54.9
+  },
+  "file": "/workspace/generated_images/exec-e28d1d3e-2c77-4d55-8ea6-92c0c2768a56.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 110.0
+  },
+  "file": "/workspace/generated_images/exec-98accf0a-b790-4676-b955-b72e2bf28d6e.png"
+ },
+ {
+  "level": "suspect",
+  "flags": [
+   {
+    "level": "suspect",
+    "what": "many_hands",
+    "msg": "손이 3 개 잡혔다 — 사람 손은 둘"
+   },
+   {
+    "level": "check",
+    "what": "twin_hands",
+    "msg": "오른팔 끝에 손이 둘 — 한쪽 팔에 손이 겹쳐 났다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 1.0,
+    "arm": "R",
+    "gap": 0.03
+   },
+   {
+    "i": 1,
+    "label_side": "L",
+    "score": 1.0,
+    "arm": "L",
+    "gap": 0.17
+   },
+   {
+    "i": 2,
+    "label_side": "R",
+    "score": 0.99,
+    "arm": "R",
+    "gap": 0.5
+   }
+  ],
+  "measure": {
+   "shoulder_px": 329.5,
+   "arm_R_ratio": 0.77,
+   "arm_R_angle": 92
+  },
+  "file": "/workspace/generated_images/exec-45b9452f-c4e4-4200-ba1a-9c91ac8725e7.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.67,
+    "arm": "R",
+    "gap": 0.11
+   }
+  ],
+  "measure": {
+   "shoulder_px": 148.0,
+   "arm_R_ratio": 0.65,
+   "arm_R_angle": 135,
+   "leg_R_ratio": 1.11,
+   "leg_R_angle": 50
+  },
+  "file": "/workspace/generated_images/exec-1e06c9e2-4b88-4547-9187-a74d5c12e900.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.98,
+    "arm": "R",
+    "gap": 0.1
+   },
+   {
+    "i": 1,
+    "label_side": "L",
+    "score": 0.94,
+    "arm": "L",
+    "gap": 0.26
+   }
+  ],
+  "measure": {
+   "shoulder_px": 180.8,
+   "arm_R_ratio": 0.92,
+   "arm_R_angle": 128
+  },
+  "file": "/workspace/generated_images/exec-fe3c6b85-8585-499e-bc09-090859a31472.png"
+ }
+]

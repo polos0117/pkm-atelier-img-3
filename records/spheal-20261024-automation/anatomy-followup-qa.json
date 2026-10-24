@@ -1,0 +1,343 @@
+{
+  "at": "2026-10-24T00:24:37+00:00",
+  "code_commit": "4a487ac66fd972a9ea3bb90952c314db5ddcf408",
+  "model_audit": [
+    {
+      "name": "pose_landmarker_heavy.task",
+      "bytes": 30664242,
+      "sha256": "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b",
+      "source_commit": "046e30da1722aee0525f0fa270eba209667c6a1c",
+      "path": "/tmp/pkm-anatomy-models/pose_landmarker_heavy.task"
+    },
+    {
+      "name": "hand_landmarker.task",
+      "bytes": 7819105,
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "source_commit": "046e30da1722aee0525f0fa270eba209667c6a1c",
+      "path": "/tmp/pkm-anatomy-models/hand_landmarker.task"
+    }
+  ],
+  "runtime": "/workspace/pkm-anatomy-headless/bin/python; mediapipe 0.10.14 + opencv-contrib-python-headless",
+  "tests": "17 passed in headless environment; base Python run failed missing mediapipe before test network mock. ResourceWarnings retained.",
+  "reports": [
+    {
+      "slot": "light",
+      "image_sha256": "661b8f5909665d62a525b630b64d0a8d4f6b786efdc82e315a481bb33595feed",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Adult woman, two arms and two crossed but connected legs. Anatomical right hand at image left shows palm, one thumb/four fingers; anatomical left hand at image right has overlapping gloved digits, plausible five but cannot fully certify overlap. Wrists/ankles continuous, two boots no detached limbs. Face narrower/sharper chin than assigned short wide round design; preserve failure for user review.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Model detected no hands on armored image; this is not confirmation of finger count. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 152.0
+        },
+        "file": "/workspace/generated_images/exec-42af2591-9e8f-4f2b-be1e-8c784e105f0f.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/light/qa-rejected.json",
+        "sha256": "8ac88b5b67ef172793ab8a1f75bf3d645da3a6c24435f98554e9219701039329"
+      },
+      "qa_passed": false,
+      "acceptance_basis": "user_exception"
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "10cad636dcc99ec768d59b7da61078ad7ffc3164cb5ca9084411e46d5d4dd6f2",
+      "anatomy": {
+        "tool": "note; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Adult identity and face match light; broader layered armor on torso pelvis shoulders forearms thighs shins. Full head and boots in frame. Two continuous arms and crossed legs, two feet. Right palm at image left has one thumb and four fingers; left glove at image right has overlapping digits, apparent five with occlusion uncertainty. Wrists and ankles continuous; no detached limbs. Original and upper/lower crops inspected.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Low-confidence body: tool skipped length/angle checks. Prior manual original/crop observations remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "note",
+        "flags": [
+          {
+            "level": "note",
+            "what": "faint_body",
+            "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+          }
+        ],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 166.3
+        },
+        "file": "/workspace/generated_images/exec-f1d08919-74a6-48e3-8141-5f702dab17c9.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/heavy/qa.json",
+        "sha256": "63d1c72df188df1e7efd7501208e4139f843e41639741827829837003131fa7a"
+      },
+      "qa_passed": true,
+      "acceptance_basis": "visual_qa"
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "e5f38b1149c7acd1506e71295466e5ef827c34db61896484ac2641f2a90482f8",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Adult face hair and spotted palette match light. Swept shoulder hip calf panels and compact thrusters; no giant wings. Full head and feet visible. Two arms and two crossed legs continuously connected, two boots. Right palm at image left shows thumb and four fingers; left glove fingers overlap with count partly uncertain, no evident extra digit. Wrists elbows ankles plausible. Original and inspection crops viewed.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Model detected no hands on armored image; this is not confirmation of finger count. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 106.7
+        },
+        "file": "/workspace/generated_images/exec-f2e8622a-bce8-40d5-ad87-ae68f9815a8e.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/mobility/qa.json",
+        "sha256": "5ce0e4dc7625022fb635dc30255ddcca095ce1c5007c2c8e1be26ceb4de60490"
+      },
+      "qa_passed": true,
+      "acceptance_basis": "visual_qa"
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "9be299674efeb5108e2af765842619152482937b651dc7ca6705e72f7f62ce56",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Camera pose face and hands match light, two connected arms and legs and two boots. Right palm one thumb and four fingers; left glove overlaps obscure exact count but no evident extra. Wrists ankles continuous in crops. Blue opened seams visible; thigh surface now has a rigid bordered panel and added knee segmentation beyond original smooth suit, so exact same-armor requirement fails. Retain failure for user post-upload review.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Model detected no hands on armored image; this is not confirmation of finger count. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 157.2
+        },
+        "file": "/workspace/generated_images/exec-5b8970ba-3f80-4063-8b87-654f201800e1.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/light_overdrive/qa-rejected.json",
+        "sha256": "065bf407a5ecaec61bcf7b555af880eaf0b5137194c2b91d7023270b658b8459"
+      },
+      "qa_passed": false,
+      "acceptance_basis": "user_exception"
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "aba9efef1357c43772fb129c75c8242a3874bc0e247112d833a3311ced54214f",
+      "anatomy": {
+        "tool": "note; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Heavy source pose camera face helmet and principal plates retained, stacked plates opened with blue inner frame. Two continuous arms and crossed legs; both boots in frame. Right palm thumb plus four separated fingers, left glove partly overlapped digits with no evident extra; exact hidden count uncertain. Original and crops show continuous wrists ankles and no detached hands. Same adult identity, no weapon or text.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Low-confidence body: tool skipped length/angle checks. Prior manual original/crop observations remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "note",
+        "flags": [
+          {
+            "level": "note",
+            "what": "faint_body",
+            "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+          }
+        ],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 54.9
+        },
+        "file": "/workspace/generated_images/exec-e28d1d3e-2c77-4d55-8ea6-92c0c2768a56.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/heavy_overdrive/qa.json",
+        "sha256": "02f3f4a1b71bb2c09daec5c715c29fbdc3fb3e9edc998c0d1491caf404198109"
+      },
+      "qa_passed": true,
+      "acceptance_basis": "visual_qa"
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "43b1e01e26f57b4f381e3c822e7f9a087b8ba967ee2e4241a55c5be00bd8ddcf",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Same adult face pose camera and hands as mobility, blue opened thruster covers. Two continuous arms and crossed legs, two boots. Right palm thumb and four fingers; left glove overlapping digits partly occluded, exact count uncertain. Crops show connected wrists and ankles, no extra limb. Right-side trailing costume panel length and spread differ substantially and reach frame edge; strict unchanged pieces and clear margin fail. Preserve visual failure for user review.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Model detected no hands on armored image; this is not confirmation of finger count. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [],
+        "measure": {
+          "shoulder_px": 110.0
+        },
+        "file": "/workspace/generated_images/exec-98accf0a-b790-4676-b955-b72e2bf28d6e.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/mobility_overdrive/qa-rejected.json",
+        "sha256": "7773f85a02770e2476a87f1a9e7f863a377864d5197f48924ff8cbe776910f53"
+      },
+      "qa_passed": false,
+      "acceptance_basis": "user_exception"
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "aabbd235f06faff0ea58e4b0cba67080aed86a39c2eb40e5961f9786417684e6",
+      "anatomy": {
+        "tool": "suspect; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each hand grips scarf; four curled fingers visible, thumbs partly hidden behind fabric. No extra digit apparent; exact hidden thumb positions not fully verifiable.",
+        "overlay_checked": true,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Overlay third hand is false detection on chest/neckline at approx x53%, y33%, not an anatomical hand. Original shows only two scarf-holding hands; original thumb occlusion uncertainty remains. Model suspect retained, no extra hand visually found."
+      },
+      "raw_tool_result": {
+        "level": "suspect",
+        "flags": [
+          {
+            "level": "suspect",
+            "what": "many_hands",
+            "msg": "손이 3 개 잡혔다 — 사람 손은 둘"
+          },
+          {
+            "level": "check",
+            "what": "twin_hands",
+            "msg": "오른팔 끝에 손이 둘 — 한쪽 팔에 손이 겹쳐 났다"
+          }
+        ],
+        "hands": [
+          {
+            "i": 0,
+            "label_side": "R",
+            "score": 1.0,
+            "arm": "R",
+            "gap": 0.03
+          },
+          {
+            "i": 1,
+            "label_side": "L",
+            "score": 1.0,
+            "arm": "L",
+            "gap": 0.17
+          },
+          {
+            "i": 2,
+            "label_side": "R",
+            "score": 0.99,
+            "arm": "R",
+            "gap": 0.5
+          }
+        ],
+        "measure": {
+          "shoulder_px": 329.5,
+          "arm_R_ratio": 0.77,
+          "arm_R_angle": 92
+        },
+        "file": "/workspace/generated_images/exec-45b9452f-c4e4-4200-ba1a-9c91ac8725e7.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/casual1/qa-rejected.json",
+        "sha256": "7886ec14ee36ec520fdaaabe801e739fd5433a2721fcc5288124c80059615e2a"
+      },
+      "qa_passed": false,
+      "acceptance_basis": "user_exception"
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "be23f474687e519d82ff56370912d287163cba71fcff445c859a91b20cd45e62",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": "one fully visible; far arm hidden behind torso, total not visually certifiable",
+        "legs": 2,
+        "hands": "One hand rests on towel. Four folded digits overlap, thumb obscured by towel; hidden count and thumb orientation uncertain. Far hand not visible.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [
+          {
+            "i": 0,
+            "label_side": "R",
+            "score": 0.67,
+            "arm": "R",
+            "gap": 0.11
+          }
+        ],
+        "measure": {
+          "shoulder_px": 148.0,
+          "arm_R_ratio": 0.65,
+          "arm_R_angle": 135,
+          "leg_R_ratio": 1.11,
+          "leg_R_angle": 50
+        },
+        "file": "/workspace/generated_images/exec-1e06c9e2-4b88-4547-9187-a74d5c12e900.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/casual2/qa-rejected.json",
+        "sha256": "e7256fa2e085331f27698b309fc31d39a5b3c274a5187d566b89641a0ed11b46"
+      },
+      "qa_passed": false,
+      "acceptance_basis": "user_exception"
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "835d4e100f4658ea56ba895a1ad3bffa9970656b5c3c9e461acb1d70760c747d",
+      "anatomy": {
+        "tool": "ok; actual mediapipe 0.10.14 CPU inference",
+        "arms": 2,
+        "legs": "two thighs visible; knees and feet outside intended crop",
+        "hands": "Upper hand has four curled fingers with thumb partly hidden at cloth/hook; lower hand shows thumb and index while other fingers are occluded by cloth. No evident extra digits, hidden counts uncertain.",
+        "overlay_checked": false,
+        "note": "Actual post-publication follow-up; earlier unavailable QA retained unchanged. Prior manual observations and occlusion uncertainty remain applicable."
+      },
+      "raw_tool_result": {
+        "level": "ok",
+        "flags": [],
+        "hands": [
+          {
+            "i": 0,
+            "label_side": "R",
+            "score": 0.98,
+            "arm": "R",
+            "gap": 0.1
+          },
+          {
+            "i": 1,
+            "label_side": "L",
+            "score": 0.94,
+            "arm": "L",
+            "gap": 0.26
+          }
+        ],
+        "measure": {
+          "shoulder_px": 180.8,
+          "arm_R_ratio": 0.92,
+          "arm_R_angle": 128
+        },
+        "file": "/workspace/generated_images/exec-fe3c6b85-8585-499e-bc09-090859a31472.png"
+      },
+      "original_qa": {
+        "path": "records/automation/runs/2026-10-23-6/363/casual3/qa.json",
+        "sha256": "f040763dd4606bdd9d0f66dc9d676a081d2958e5ce9de591fbffd40e9e86137b"
+      },
+      "qa_passed": true,
+      "acceptance_basis": "visual_qa"
+    }
+  ]
+}
