@@ -1,0 +1,194 @@
+{
+  "card": "사랑동이",
+  "style": "glossy_promo",
+  "tool": "built-in image_gen",
+  "reviewer": "gpt",
+  "images": {
+    "light": {
+      "accepted": true,
+      "observations": "정면 3/4 전신. 두 부츠와 정수리가 프레임 안에 있으며 두 팔이 몸통에서 손목까지 이어진다. 얇은 분홍 판과 하트·원형 무늬가 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "양손 엄지와 네 손가락의 분리된 끝 확인. 손등과 엄지 위치가 서로 거울 대칭으로 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "1c0f0fb1abba2603d803ccc7c1f51953863505e9026a3133afd06b6831eb4f2c"
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "경장의 분홍 머리·눈·얼굴 비율을 유지한다. 어깨·골반·무릎에 테두리가 두꺼운 겹판이 추가되어 외곽이 넓어졌다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "양손 엄지와 네 손가락의 분리된 끝 확인. 손등과 엄지 위치가 서로 거울 대칭으로 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "b2960016bbc1ca283fecfa07e2fb67c0e8bb96f0c6ef65edc9e694b2c4a8f088"
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "어깨·골반·종아리 판이 뒤로 벌어지고 판 사이에 빈 공간과 작은 원형 추진부가 보인다. 손 위치·전신을 유지한다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "양손 엄지와 네 손가락의 분리된 끝 확인. 손등과 엄지 위치가 서로 거울 대칭으로 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "3a947bad8b678727d49fbb9304851734fca457d50d22b9b238ee02a57160cff7"
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "경장과 같은 머리·손·부츠 위치이며 어깨·팔·골반 판이 들려 청록 물빛 프레임이 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "양손 엄지와 네 손가락의 분리된 끝 확인. 손등과 엄지 위치가 서로 거울 대칭으로 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "aac7fd1c5a9ebf48178454555714923437cb6a0db9a2b3f023a1cb00bf4808b2"
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "중장과 같은 전신 구도에서 두꺼운 겹판이 벌어지고 어깨·허리·허벅지·정강이에 청록 발광이 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "양손 엄지와 네 손가락의 분리된 끝 확인. 손등과 엄지 위치가 서로 거울 대칭으로 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "54b2ade682a64dda65cb3f77ca89273c5b2a8c9490fdd42d23390685d31a2acf"
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "밝은 바다 테라스에서 두 팔을 머리 위로 굽혀 스트레칭한다. 시선은 아래, 입은 살짝 열려 있다. 분홍 밴도 비키니와 흰 망사 크롭 상의, 어깨·허리·허벅지가 보인다. 양손 일부는 머리 뒤에 가렸다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "위로 굽힌 두 팔 연결 확인. 오른손 일부 손가락은 머리 뒤에 겹쳐 가림, 왼손은 팔·머리 뒤 가림으로 다섯 끝을 모두 셀 수 없다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "6b454bc8a0728be61a36aaff277e41fcdb5613a46dd4ec8923129c82c77953e6"
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "바닷가 역 승강장에서 한 손은 어깨 끈을 잡고 다른 손은 열린 가방 입구를 확인한다. 높은 카메라에서 전신과 운동화를 담았다. 입가가 완만하게 올라가며 분홍 코트·흰 밴도·쇼츠가 보인다. 코트는 양어깨에서 내려왔고 시선은 카메라를 향한다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "어깨끈을 감싼 손과 가방을 확인하는 손은 엄지·네 손가락 중 일부가 끈·가방·굽힘에 가린다. 중복 손 없고 두 손목이 팔 끝에 이어진다.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "493953c88c322145b92ad69075371fd6478635bcba75790ce94b0f925bc38a0e"
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "전구가 켜진 거울 앞에서 한 손으로 립스틱을 입술 가까이에 대고 다른 손은 화장대 위를 짚는다. 입술을 열어 웃고 분홍 슬립의 등과 허벅지 슬릿이 보인다. 가슴 위 선택보다 골반까지 넓게 담겼다.",
+      "identity": {
+        "match": true,
+        "evidence": "분홍 slick-back 머리·같은 눈색·좁아지는 턱끝과 도톰한 입술을 경장과 대조."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 가방·승강장·병·립스틱·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 크롭 컷은 프레임 밖 또는 가림",
+        "hands": "립스틱을 잡은 손은 엄지와 네 손가락 중 일부 굽힘, 화장대 손은 전경 가림·얕은 심도로 일부 손끝이 가려진다. 두 팔 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 크기와 손 확대 직접 점검. 별도 떠 있는 손·팔 없음."
+      },
+      "image_sha256": "ec69304d2fd3869f8b00f0cba71eddbbcb0990bd3329549659e19dab35886610"
+    }
+  },
+  "skipped": [
+    {
+      "slot": "mobility_overdrive",
+      "reason": "moderation_blocked at output; sexual category; no output file",
+      "request_id": "f0f85bb7-5b70-4c84-963d-bbfd41a06329",
+      "attempts": 1,
+      "retry": false
+    }
+  ],
+  "diversity": {
+    "passed": true,
+    "compared": [
+      "몽얌나",
+      "콩둘기",
+      "분홍장이"
+    ],
+    "observed": "바다 테라스에서 양팔 스트레칭하는 비키니, 역에서 가방을 확인하는 코트·쇼츠 전신, 화장대 립스틱 손질의 슬립으로 장소·행동·옷 윤곽·화각이 나뉜다. 몽얌나의 도자기 관찰·수영장·자수 천과 콩둘기의 민속춤·군복 무대·동료 놀이 실제 이미지와 비교했다."
+  }
+}
