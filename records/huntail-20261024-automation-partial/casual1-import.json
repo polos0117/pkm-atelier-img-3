@@ -1,0 +1,38 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "3ec8d765c7cbbd3651f71d167f0517d9914403ea65cce8605185c933af96a53a",
+  "retained_original": null,
+  "output": {
+    "slot": "casual1",
+    "file": "헌테일_glossy_promo_f_casual1.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "d5e2c900f89e4d6dac9441508cbb9d65f18b64575ccc5bedec4ad0f6b580a5ec",
+    "reference": "헌테일_light_glossy_promo_f.webp",
+    "provenance": "사용자가 casual1-refill-prompt.txt(생성기 출력)로 직접 생성해 준 그림. 이 세션에서는 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 올리지 않고 sha256 만 남긴다(IMAGE_RULES 5절)."
+  },
+  "rejected_before": {
+    "source_sha256": "2d6137b735762de5e6b21b7cb2bb42018e951ed88bcd69e7a7ab3738a133b512",
+    "size": [
+      1122,
+      1402
+    ],
+    "why": "1024×1536(2:3)이 아니라 다시 만듦(IMAGE_RULES 3절 1) — 올리지 않음"
+  },
+  "plan": "casual1-refill-plan.json — adult_roleplay · bunny · flustered · cross_legged · seated_twist · waist_up · portrait85",
+  "plan_match": "casual1-refill-plan.json 의 cut 1(adult_roleplay · bunny · waist_up)과 장면이 맞는다 — 카바레 무대 전구 조명·남색 벨벳 커튼·발치의 큐시트, 남색 바니 수트 홀터·허리 옆 트임, 붉힌 표정. 자세는 책상다리 대신 방석 위 다리 꼬기(바닥 방석에 앉은 자세는 같다)",
+  "look_check": "node tools/casual-look.cjs check --card 헌테일 (이 그림, casual2, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — ok",
+    "eye": "한 손은 턱, 한 손은 방석. 팔 둘·손 둘·다리 둘 이상 없음"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-24"
+}
