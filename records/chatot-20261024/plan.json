@@ -1,0 +1,453 @@
+{
+  "batch": {
+    "session": "chatot-spiritomb-bda553-20261024",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "페라페",
+        "species": "chatot-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_cheering",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting_floor",
+            "expr": "serious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "morning_lingerie",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "turning_back",
+            "expr": "half_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "hotel_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "mischievous",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "lingerie_set"
+          ],
+          "orient": [
+            "reclining",
+            "profile_close",
+            "high_angle"
+          ],
+          "frame": [
+            "environmental"
+          ]
+        }
+      },
+      {
+        "card": "화강돌",
+        "species": "spiritomb-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "caftan_evening",
+            "garments": [
+              "robe"
+            ],
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "pose": "on_tiptoe",
+            "expr": "nostalgic",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "simple_cooking",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "preparing_food",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_secretary",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "small_jog",
+            "expr": "laughing",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe"
+          ],
+          "orient": [
+            "looking_down",
+            "three_quarter_back",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "festivals_contests",
+      "ex": "fest_cheering",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "reclining",
+      "frame": "environmental",
+      "pose": "sitting_floor",
+      "expr": "serious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example": "Clapping from a Pokémon tournament spectator seat, with a small pennant resting on a bag.",
+      "scene": "A small yellow pennant rests on her canvas bag beside a padded terrace seat at an outdoor tournament arena; she claps as the final match concludes in late-afternoon light.",
+      "outfit": "A teal strapless jumpsuit with a plunging sweetheart neckline and long wide-leg trousers, white piping and a small black musical-note zipper charm.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "박수의 한 순간을 담는 관중석 컷이라 mostly posed",
+        "음표 지퍼와 청록·흰 배색이 원작을 적당히 남겨 balanced",
+        "상하가 연결된 와이드레그 점프슈트 한 벌이라 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A small yellow pennant rests on her canvas bag beside a padded terrace seat at an outdoor tournament arena; she claps as the final match concludes in late-afternoon light.",
+          "reason": "응원 예시의 박수와 가방 위 깃발을 유지하고 테라스 좌석·경기 종료·오후빛을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A teal strapless jumpsuit with a plunging sweetheart neckline and long wide-leg trousers, white piping and a small black musical-note zipper charm.",
+          "reason": "예시에 의상이 없어 계획의 점프슈트를 청록 스트랩리스와 깊은 하트 목선으로 구체화했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "morning_lingerie",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "turning_back",
+      "expr": "half_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "example": "a simple cotton lingerie set in morning window light, sheets and a mug nearby",
+      "scene": "She draws a linen curtain aside at sunrise; a porcelain mug and folded cotton sheets rest on the nearby bedside table.",
+      "outfit": "A sky-blue opaque cotton lingerie set with a halter-neck bralette and matching high-waisted briefs, exposing the shoulders and midriff through its two-piece construction.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "커튼을 여는 동작이 중심이라 mostly active",
+        "푸른색만 원작의 색과 이어지고 종족 장식은 없어 balanced",
+        "면 소재 투피스의 일상 패션 재단을 중심으로 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She draws a linen curtain aside at sunrise; a porcelain mug and folded cotton sheets rest on the nearby bedside table.",
+          "reason": "아침 햇살·시트·머그 예시에 커튼을 여는 주 활동과 침대 옆 탁자를 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A sky-blue opaque cotton lingerie set with a halter-neck bralette and matching high-waisted briefs, exposing the shoulders and midriff through its two-piece construction.",
+          "reason": "예시의 면 란제리 세트를 유지하고 계획의 홀터와 복부 노출을 하늘색 불투명 면 투피스로 지정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "hotel_evening",
+      "garments": [
+        "dress"
+      ],
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "pose": "leaning_furniture",
+      "expr": "mischievous",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "light",
+      "example": "in a hotel room in an evening dress, getting ready to go out or unpacking",
+      "scene": "Amber lamplight meets the last blue dusk at a city hotel window as she closes a small evening clutch before heading downstairs.",
+      "outfit": "A crimson satin mini dress with a high thigh slit, slim shoulder straps and a softly draped neckline, paired with a small ivory evening clutch.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "클러치를 닫는 작은 손동작이 있어 balanced",
+        "원작 배색을 벗어난 붉은 드레스가 중심이라 subtle",
+        "미니 드레스 한 벌의 드레이프를 살리므로 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "Amber lamplight meets the last blue dusk at a city hotel window as she closes a small evening clutch before heading downstairs.",
+          "reason": "호텔 저녁이라는 제목에 도심 창가·황혼·클러치를 닫는 활동을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A crimson satin mini dress with a high thigh slit, slim shoulder straps and a softly draped neckline, paired with a small ivory evening clutch.",
+          "reason": "옷을 정하지 않은 예시에 계획의 미니 드레스와 높은 허벅지 슬릿, 붉은 새틴을 지정했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "planner_check": "passed; reservation 22e891e04da68e2e33db0a0ae117672a72f41ad0",
+  "invalid_candidate": "outerwear repeated in Spiritomb cuts 2 and 3; planner avoided parcel_pickup and regenerated"
+}

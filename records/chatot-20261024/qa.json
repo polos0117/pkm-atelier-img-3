@@ -1,0 +1,363 @@
+{
+  "card": "페라페",
+  "style": "glossy_promo",
+  "reviewer": "gpt",
+  "reference": "light",
+  "face_design_basis": "음표·노래 특성을 균형 타원 윤곽, 큰 아몬드 눈, 긴 아치 눈썹, 넓은 입, 짧은 페더컷으로 옮긴 종별 설계. data/face-design.json 441; 원작 외형 자료의 흰 깃과 검은 머리·꼬리. 신규 경장의 WEAR 직접 입력은 누락된 음표 장식과 청록·녹색·노랑 포인트를 보충.",
+  "face_comparison": {
+    "cards": [
+      "핑복",
+      "흉내내",
+      "시라칸"
+    ],
+    "evidence": "최근 경장을 나란히 대조. 페라페는 비교 인물보다 넓은 입과 긴 아치 눈썹, 가까운 큰 아몬드 눈과 둥근 턱의 조합이 읽히며 짧은 페더컷을 유지한다."
+  },
+  "casual_diversity": {
+    "pass": true,
+    "compared": [
+      "핑복",
+      "흉내내",
+      "시라칸"
+    ],
+    "evidence": "테라스에서 박수치는 와이드레그 점프슈트, 창가에서 커튼을 잡는 홀터 면 세트, 호텔 탁자에 기대 클러치를 짚는 붉은 새틴 드레스는 장소·활동·의상·실루엣이 구분된다. 최근의 수영장 음료·우산·갈라, 모자 고정·지도 대조·향수, 식물 물주기·스툴 휴식과 비교했다.",
+    "look_check": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-0704aa55-09f1-4c1b-9296-75f699c73d45.png",
+          "near": [
+            [
+              "캐터피_glossy_promo_f_casual3.webp",
+              279
+            ],
+            [
+              "몬냥이_glossy_promo_f_casual2.webp",
+              286
+            ],
+            [
+              "핫삼_glossy_promo_f_casual2.webp",
+              293
+            ],
+            [
+              "마크탕_glossy_promo_f_casual2.webp",
+              295
+            ],
+            [
+              "야나프_glossy_promo_f_casual3.webp",
+              296
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-77683bfe-64ed-445a-a6ec-5888a276f6a2.png",
+          "near": [
+            [
+              "야나키_glossy_promo_f_casual2.webp",
+              290
+            ],
+            [
+              "어둠대신_glossy_promo_f_casual1.webp",
+              312
+            ],
+            [
+              "킬리아_glossy_promo_f_casual2.webp",
+              318
+            ],
+            [
+              "모다피_glossy_promo_f_casual1.webp",
+              323
+            ],
+            [
+              "요테리_glossy_promo_f_casual1.webp",
+              328
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-f56d48ae-be98-46b4-b637-aae982ba55f1.png",
+          "near": [
+            [
+              "파라스_glossy_promo_f_casual3.webp",
+              327
+            ],
+            [
+              "니드런♂_glossy_promo_f_casual3.webp",
+              329
+            ],
+            [
+              "가디_glossy_promo_f_casual3.webp",
+              345
+            ],
+            [
+              "피콘_glossy_promo_f_casual1.webp",
+              346
+            ],
+            [
+              "비브라바_glossy_promo_f_casual2.webp",
+              357
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "전신과 양 발 끝이 프레임 안. 몸에 붙는 단층 흉갑과 가는 전완·정강이 판, 흰 깃 칼라와 검은 머리의 음표 장식."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "경장과 같은 눈·얼굴·짧은 머리. 어깨·전완·허벅지에 넓은 겹판이 더해져 실루엣이 두꺼워짐."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "같은 얼굴과 헤어. 어깨·허리·종아리의 분할 패널이 뒤로 펼쳐지고 청색 추진부가 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "경장과 손·발·머리 위치 및 배경이 대응. 전완·허리·정강이 이음새가 열려 백금빛 내부가 드러남."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "중장과 위치·구도가 대응. 어깨와 전완·허벅지 겹판 사이 넓은 틈에서 금빛 프레임이 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "고기동과 전신 위치가 대응. 분할 패널이 더 벌어지고 기존 원형 추진부 덮개가 열려 금빛 발광이 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락, 화면 오른손도 엄지와 네 손가락. 손목에서 팔꿈치·어깨까지 이어지며 장갑 손의 엄지가 안쪽이다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "관중석·경기장·가방의 노란 깃발과 박수 동작. 청록 스트랩리스 점프슈트의 어깨·쇄골이 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "박수치는 두 손의 손목·팔꿈치가 몸으로 이어짐. 가까운 손은 네 손가락과 엄지 윤곽, 먼 손도 엄지와 네 손가락이 보임. 두 다리는 점프슈트 아래 따로 이어지고 샌들의 발가락은 원근상 일부 겹침.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      },
+      "observed_deviations": "환경 중심 와이드보다 인물이 크게 담겼고 바닥 대신 쿠션 좌석에 앉음. 진지한 눈·닫힌 입과 기대앉은 몸은 유지."
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "커튼을 잡은 손, 창가 아침빛·침대 시트·머그. 하늘색 홀터 투피스가 어깨·등·복부를 드러냄."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "커튼 쥔 손은 엄지와 네 손가락이 접혀 보이며 일부 끝은 천에 가려짐. 그 팔의 어깨·팔꿈치·손목이 연속. 반대 팔은 몸 뒤로 내려가 손이 가려짐. 다리는 아래 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      },
+      "observed_deviations": "가슴 위 측면보다 골반까지 담긴 뒤 3/4 구도. 입꼬리 미소와 돌아보는 동작, 커튼 잡기는 유지."
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "회청색 눈, 검은 짧은 페더컷과 밝은 모발 끝, 둥근 턱과 넓은 입의 인물 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "도심 황혼 창과 호텔 탁자, 붉은 드레스와 아이보리 클러치. 탁자에 팔꿈치를 대고 반대 손이 클러치 잠금쇠 위에 놓임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본과 손·깃발·가방·머그·클러치 확대에서 글자·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 받친 손은 접힌 손가락 일부가 얼굴에 가려지고, 클러치 위 손은 네 손가락과 옆면 엄지가 보임. 양 팔꿈치가 각 팔에 연속하고 떠 있는 손 없음. 다리는 치마와 아래 프레임에 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대를 눈으로 셈. 자동 검사의 손 미검출이나 뼈대 흐림은 통과로 확대 해석하지 않음. 잘못된 팔다리 연결은 보이지 않음."
+      },
+      "observed_deviations": "허리 위보다 허벅지까지 담김. 높은 카메라와 탁자 지지 자세 유지, 표정은 장난기보다 옅은 미소. 미니보다 길고 옆 슬릿이 높게 열린 드레이프가 보임."
+    }
+  }
+}
