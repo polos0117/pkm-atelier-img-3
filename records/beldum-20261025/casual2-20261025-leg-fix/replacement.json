@@ -1,0 +1,30 @@
+{
+  "card": "메탕",
+  "slot": "casual2",
+  "file": "메탕_glossy_promo_f_casual2.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "다리 생성 오류 수정 — 앞 그림은 책상다리로 앉았는데 방석 위와 바닥에 발이 하나씩 엇갈려 다리가 어긋나 보였다. 새 그림은 한 발을 접어 넣고 한 발을 내렸고 장면·옷·구도는 그대로(안개 낀 산골 역 승강장 벤치, 코발트 오프숄더 크롭 톱·아이보리 컷아웃 바지·빨간 샌들, 노선 카드와 주먹밥).",
+  "previous_webp_sha256": "36e2639bbb2476784f6a74026ca1e5af59e368b8fb8745a440f34b74d26e9f6d",
+  "source_sha256": "9dcb2454f224cb8a885611319d88c2f4f5c163a9a0ffdcd155f777e903840792",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "235b12703103ed4c30c6a66895adfddf8a07a84ffb447381257517068001c669"
+  },
+  "provenance": "사용자가 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/beldum-20261025/casual2-ui.json·plan.json 의 cut 2(travel_exploration · travel_station · cross_legged · seated_twist · full_body) 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 메탕 (casual1, 이 그림, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — ok",
+    "eye": "팔 둘·손 둘(노선 카드·주먹밥)·다리 둘"
+  },
+  "user_approval": "메탕 일상2번 이걸로 교체해줘",
+  "at": "2026-10-24"
+}
