@@ -1,0 +1,254 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "e78f5949ae6cdd318e76f414c644c9148e85039725aeb6f3b9cafd4138ad23c1",
+    "observations": "긴 파란 땋은 머리·가른 앞머리·길쭉한 턱. 붉은 가슴 패널과 파란 얇은 장갑; 협곡에서 양발과 두 손이 전부 보인다.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 1.2 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "9ba3a66dcb785261a73dd6edbdf09bde31b5b23300639d68181c4927fae09b2d",
+    "observations": "경장 얼굴과 머리를 유지하며 어깨·골반·허벅지·정강이에 두꺼운 은테 겹판과 이마를 둘러싼 열린 헬멧이 더해짐.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "37bd7fef1ab48025755435c60c06822489dad65c40993bf6b857fae419b48b5b",
+    "observations": "어깨·허리·정강이 판이 뒤로 벌어지고 주황 추진구가 보인다. 몸통과 긴 땋은 머리의 크기를 유지.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 0.6 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "3c4009146b5f86f85ec082a2b76fa472b16012618bb96e0633f9e8b1c1e67d56",
+    "observations": "경장의 손·발·협곡 구도는 같고 어깨·허벅지·정강이 판 아래 보라빛 틈이 보임.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.7 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "f84ba5c2d5351958ae92ab4916bca7b7f699189f5bddd7fde0ae399c228c162c",
+    "observations": "중장의 두꺼운 겹판이 바깥으로 열려 경첩과 보라색 내부 프레임이 드러남. 같은 발 위치와 손 모양.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "969aad682428d875755e45a8dedfdec5c8d19b5df60ff833f0a7b10a9c83fcf2",
+    "observations": "고기동의 펼친 판과 추진 덮개가 더 열리고 주황빛에 보라빛이 더해짐. 원본 땋은 머리와 카메라 유지.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 장갑손 각각 엄지+4지, 손목에서 연결되며 느슨하게 굽힌 손가락 일부 겹침.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "f0961eba2e1cc90db9e972dfb73e08fa06944659116c2b4a47ac05fe9bbe5ec7",
+    "observations": "야외 농구장에서 낮게 쪼그려 공을 짚음. 붉은 넉넉한 크롭 저지와 네이비 반바지, 어깨·허리·다리가 드러남. 눈꺼풀이 내려와 지친 표정.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "공 위 손 엄지+4지 분리; 무릎 위 손 5지 자연스럽게 내려옴.",
+      "overlay_checked": true,
+      "note": "전투 컷의 빨간 손 표시는 가슴/어깨/골반판 오인식. 실제 확대에서 두 손만 있고 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "d3a650e1ec216b0458748b4bf9e840e58cbe8653495bcff9c50a8d83ebbd4f66",
+    "observations": "금빛 아치 실내에서 손을 흔들며 비대칭 미소. 불투명한 흰 짧은 상의와 파란 사리 드레이프·삼각 버클; 낮은 시점의 허벅지 위 프레임으로 실제 출력.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "note · 몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "손 흔드는 손 5지 분리·엄지 안쪽, 다른 손은 프레임 하단 일부 가려짐.",
+      "overlay_checked": true,
+      "note": "몸 3개 검출은 아치 장식/드레이프 오인식; 실제 사람은 한 명."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑/의상/배경 확대에서 읽히는 글자·상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "851dc5a45cbfc49590bedeb659317e228f81c4619cbc39fece893b91b0722c61",
+    "observations": "의상 피팅룸에서 열린 책을 읽음. 안경·청록 오프숄더 크롭 재킷·회색 미니스커트·로퍼. 양발이 담겼고 졸린 눈으로 책 쪽을 본다.",
+    "identity": {
+      "match": true,
+      "evidence": "가른 앞머리·짙은 파란 긴 땋은 머리·가까운 눈 간격·길게 뻗은 하관을 경장과 대조."
+    },
+    "anatomy": {
+      "tool": "check · 오른팔 끝의 손이 왼손으로 보인다 — 엄지가 반대쪽인 뒤집힌 손(손등이 보이면 모델이 헷갈리기도 한다)",
+      "arms": 2,
+      "legs": 2,
+      "hands": "표지를 짚는 네 손가락과 책 뒤 엄지 가려짐; 반대 손은 책 가장자리를 잡아 엄지 일부 가려짐. 뒤집힘 없음.",
+      "overlay_checked": true,
+      "note": "오른손의 손등을 왼손으로 오인; 원본 확대에서 손목·엄지의 책 잡는 연결 정상."
+    },
+    "text": {
+      "match": true,
+      "evidence": "책 표지·등의 금색 장식은 기하무늬이며 문자 아님. 칠판은 의상 윤곽 그림, 신발과 옷에도 글자 없음."
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "face_reason": {
+    "basis": "data/face-design.json 종별 원작 단서와 얼굴·머리 설계",
+    "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, medium size, level outer corners, close-set; angled brows; broad low bridge nose; wide mouth.",
+    "compared_characters": [
+      "딥상어동",
+      "핑복",
+      "흉내내"
+    ],
+    "comparison": "딥상어동의 각진 좁은 턱과 비교해 한바이트는 더 길고 평평한 하관·낮은 콧대·가까운 눈. 핑복의 둥근 볼과 흉내내의 작은 턱·큰 둥근 눈과도 구분됨."
+  },
+  "diversity_comparison": {
+    "characters": [
+      "딥상어동",
+      "화강돌"
+    ],
+    "evidence": "농구장 쪼그림/금빛 실내 손 흔들기/피팅룸 독서의 실제 세 컷을 비교. 딥상어동의 정원 먹이 주기·바닥 시트 정리·해변 수영복과 화강돌의 서가·시장·야경 드레스와 장소·행동·옷·카메라가 구분됨.",
+    "casual_look": "PASS; 실패 문턱 215 미만 없음"
+  }
+}

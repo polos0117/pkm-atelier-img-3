@@ -1,0 +1,104 @@
+{
+  "card": "한바이트",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "한바이트",
+    "cards": {
+      "한바이트": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "playful",
+            "pose": "waving",
+            "orient": "low_angle",
+            "scene": "Amber lamplight falls across a dressing salon, with carved wooden panels framing an arched doorway.",
+            "outfit": "An opaque ivory sari-blouse lingerie set with a cobalt draped lower piece, a high thigh slit and tailored side cutouts; a small gold triangular clasp gathers the drape.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "sari_blouse_set",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "category": true,
+              "example": true,
+              "expression": true,
+              "pose": true,
+              "orientation": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axis-overall_intensity": true,
+              "axis-skin_exposure": true,
+              "axis-action_level": true,
+              "axis-source_influence": true,
+              "axis-separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "blouse",
+              "lingerie_set",
+              "traditional"
+            ],
+            "expose": [
+              "side cutouts",
+              "high thigh slit"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gabite (한바이트) personified, dragon / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement\nPose: Raise one hand near shoulder height in a friendly small wave.\nOrientation: camera below subject looking upward; obey selected framing\nScene: Amber lamplight falls across a dressing salon, with carved wooden panels framing an arched doorway.\nOutfit and props: An opaque ivory sari-blouse lingerie set with a cobalt draped lower piece, a high thigh slit and tailored side cutouts; a small gold triangular clasp gathers the drape.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a sari blouse-inspired lingerie set with a short fitted top and a draped lower piece\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "a sari blouse-inspired lingerie set with a short fitted top and a draped lower piece",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "value": "Amber lamplight falls across a dressing salon, with carved wooden panels framing an arched doorway.",
+      "reason": "금빛 아치 실내에서 손을 흔들며 비대칭 미소. 불투명한 흰 짧은 상의와 파란 사리 드레이프·삼각 버클; 낮은 시점의 허벅지 위 프레임으로 실제 출력. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "outfit",
+      "value": "An opaque ivory sari-blouse lingerie set with a cobalt draped lower piece, a high thigh slit and tailored side cutouts; a small gold triangular clasp gathers the drape.",
+      "reason": "금빛 아치 실내에서 손을 흔들며 비대칭 미소. 불투명한 흰 짧은 상의와 파란 사리 드레이프·삼각 버클; 낮은 시점의 허벅지 위 프레임으로 실제 출력. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "camera",
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구에 크기 인자가 없어 세로 2:3 해상도 지정"
+    }
+  ],
+  "axes_reasons": {
+    "action_level": "Amber lamplight falls across a dressing salon as she waves toward a friend beyond the frame.에서 선택한 순간의 움직임",
+    "source_influence": "An opaque ivory sari-blouse lingerie set with a cobalt draped lower piece, a high thigh slit and tailored side cutouts; a small gold triangular clasp gathers the drape.에 담은 원작 색·작은 모티프의 비중",
+    "separates_preference": "blouse + lingerie_set + traditional 의상 구조"
+  },
+  "planner_source": "gpt-gible-family-20261024"
+}
