@@ -1,0 +1,29 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "fddd93b2fed205adcfb3f8795fad9d0a1b787436c17bef90903663c99a91fbc6",
+  "retained_original": null,
+  "output": {
+    "slot": "mobility_overdrive",
+    "file": "사랑동이_mobility_overdrive_glossy_promo_f.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "14e41a047d6a5fae3619eaa9fb92e8d0ed607388411d5517e84d438db3b77aa4",
+    "reference": "사랑동이_mobility_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 고기동 개방 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "reference_match": "고기동 그림과 자세·구도·크기·얼굴·머리가 같고 판 사이 발광과 날개 깃이 늘었다(개방 규칙 IMAGE_RULES 3절 ④⑤⑥).",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — check 1: 왼팔 끝 손이 뒤집혀 보인다",
+    "eye": "팔 둘·다리 둘·손 둘. 도구 뼈대가 몸통에 잘못 잡힌 오검출로 보고 눈으로는 이상 없음"
+  },
+  "user_approval": "사랑동이 고기동 개방컷 올려줘",
+  "at": "2026-10-24",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 mobility_overdrive 프롬프트·설정 기록은 막힌 자동 생성 시도의 것이며 이 그림의 설정으로 확인된 것이 아니다."
+}
