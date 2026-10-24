@@ -1,0 +1,48 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "5e67c7073ecd735c9286f3a6476f6b91ae7a84f1a7cbbb198639093d0c526872",
+  "accepted": true,
+  "observations": [
+    "빗물이 맺힌 창 옆 와인바 구석 좌석에 앉아 양손으로 시뇽을 정리한다. 테이블의 잔과 열린 메뉴, 불투명 사파이어 드레스의 깊게 열린 등과 허벅지 슬릿이 보인다. 메뉴의 가짜 인쇄 글자만 부분 수정하여 두 페이지가 이제 빈 종이다."
+  ],
+  "anatomy": {
+    "tool": "note · overlapping body detections, hands 2",
+    "arms": 2,
+    "legs": 2,
+    "hands": "시뇽 뒤 손과 관자 옆 손 모두 엄지와 굽힌 손가락이 보이며 끝 일부는 머리와 손바닥에 가려진다. 양손목·팔꿈치는 양어깨로 이어진다.",
+    "overlay_checked": true,
+    "note": "오버레이와 원본을 나란히 확인했다. 검출된 두 몸은 같은 인물에 겹친 뼈대이며 두 번째 인물이 없다. 양손이 손목·팔꿈치·어깨로 연속되고 두 손에 엄지와 네 손가락이 머리 뒤 일부 가려진 상태로 연결된다."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "푸른 시뇽·불규칙한 앞머리·청색 눈·곧은 코와 도톰한 입술, 얼굴과 몸 비율 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "빗물이 맺힌 창 옆 와인바 구석 좌석에 앉아 양손으로 시뇽을 정리한다. 테이블의 잔과 열린 메뉴, 불투명 사파이어 드레스의 깊게 열린 등과 허벅지 슬릿이 보인다. 메뉴의 가짜 인쇄 글자만 부분 수정하여 두 페이지가 이제 빈 종이다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "메뉴 두 페이지가 빈 아이보리 종이로 수정됐음을 확대 확인했다. 다른 소품과 배경에도 글자·상표·가짜 라벨이 없다."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "양손 머리 정리와 앞 3/4 몸통, 시선 회피·붉어진 볼·살짝 열린 입이 보인다. 허리 위 선택보다 접힌 무릎까지 넓게 담겼다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "레지락",
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "이번 1번의 옥상·긴바지·담요 펼치기, 2번의 무대 재킷·손 인사와 달리 실내 와인바·긴 새틴 드레스·양손 머리 정리다. 최근 비교 컷들과도 자리·활동·옷 실루엣·팔의 높이가 구별된다.",
+    "similarity_gate": "casual-look final edited image passed"
+  }
+}

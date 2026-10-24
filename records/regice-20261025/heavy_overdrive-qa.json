@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "5626c4118389703b87c6698944f2617931b6078b7bbe59071b9623a0bfcb6229",
+  "accepted": true,
+  "observations": [
+    "중장의 두꺼운 겹판이 이음새를 따라 열려 푸른 내부 프레임과 서리가 드러난다. 어깨와 다리 판의 원래 위치, 얼굴·양손·부츠 위치와 카메라가 일반 중장과 맞는다."
+  ],
+  "anatomy": {
+    "tool": "note · armor obscures model skeleton; manual count used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "중장과 경장의 동일한 눈·앞머리·시뇽·턱 비율 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "중장의 두꺼운 겹판이 이음새를 따라 열려 푸른 내부 프레임과 서리가 드러난다. 어깨와 다리 판의 원래 위치, 얼굴·양손·부츠 위치와 카메라가 일반 중장과 맞는다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  }
+}

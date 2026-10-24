@@ -1,0 +1,48 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "d6716e71ad45f4264e834b6d65d6898ddb9029ca6faf77fcbf4a372ca3cfe50a",
+  "accepted": true,
+  "observations": [
+    "푸른 벨벳 커튼과 따뜻한 공연 조명 사이에서 한 손을 들어 인사한다. 한쪽 어깨만 덮는 짧은 파란 재킷과 아이보리 방도·짧은 바지·장갑·장식 띠가 보이며 어깨와 복부가 드러난다."
+  ],
+  "anatomy": {
+    "tool": "note · body not detected; manual inspection",
+    "arms": 2,
+    "legs": 2,
+    "hands": "인사하는 장갑 손은 엄지 하나와 네 손가락이 분리돼 손바닥 안쪽 방향이 맞는다. 반대쪽 팔과 손목은 보이나 손가락은 오른쪽 프레임 밖이라 개수를 확인할 수 없다.",
+    "overlay_checked": false,
+    "note": "보이는 두 팔이 몸에 이어진다. 반대 손 끝과 무릎 아래 다리는 프레이밍 밖이며 이를 실제 기록에 남김."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "정본의 푸른 시뇽·앞머리·청색 아몬드 눈과 입술 비율 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "푸른 벨벳 커튼과 따뜻한 공연 조명 사이에서 한 손을 들어 인사한다. 한쪽 어깨만 덮는 짧은 파란 재킷과 아이보리 방도·짧은 바지·장갑·장식 띠가 보이며 어깨와 복부가 드러난다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "정면에 가까운 몸·한 손 인사·한쪽 올라간 눈썹과 미소가 보인다. 가슴 위 선택보다 허벅지 위까지 넓으며 반대 손은 프레임에서 잘려 있다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "레지락",
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "청색 커튼 앞의 한 손 인사·짧은 비대칭 공연 재킷으로, 옥상 담요와 와인바 양손 머리 정리, 레지락의 쪼그린 원단 피팅과 구별된다. 메탕의 공연 컷은 모자를 만지는 검정 유니폼이어서 동작과 옷의 윤곽이 다르다.",
+    "similarity_gate": "casual-look passed; nearest indexed distance 295"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "card": "레지아이스",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "레지아이스",
+    "cards": {
+      "레지아이스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "flustered",
+            "pose": "hands_in_hair",
+            "orient": "front_3q",
+            "scene": "A corner booth in a wine bar overlooks a rain-lit window; an open menu and a stemmed glass are on the table as she considers the evening selection.",
+            "outfit": "An opaque sapphire satin evening dress with a deep open back, delicate shoulder straps and a high thigh slit, softly reflecting the bar lights; the open back and slit reveal her back and upper leg.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "LOCAL EDIT: the second attached image is the edit target; the first image is the approved identity reference. Remove only the printed marks from both ivory menu pages so the paper is plain. Preserve the woman, her face and hair, both hands, pose, dress, props, lighting, composition and every other pixel as closely as possible.",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "wine_bar",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Regice (레지아이스) personified, ice type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised inner brows, darting or averted eyes, mouth slightly open, faint blush across the cheeks and nose\nPose: Use the hands to tidy the established hairstyle without changing its cut or length.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: A corner booth in a wine bar overlooks a rain-lit window; an open menu and a stemmed glass are on the table as she considers the evening selection.\nOutfit and props: An opaque sapphire satin evening dress with a deep open back, delicate shoulder straps and a high thigh slit, softly reflecting the bar lights; the open back and slit reveal her back and upper leg.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: in a corner seat of a wine bar in an evening dress, looking over a glass and menu\nNote: LOCAL EDIT: the second attached image is the edit target; the first image is the approved identity reference. Remove only the printed marks from both ivory menu pages so the paper is plain. Preserve the woman, her face and hair, both hands, pose, dress, props, lighting, composition and every other pixel as closely as possible.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Live controls and final generated text observed; storage structure transcribed with the same repository prompt engine and compared to live output. No hidden browser storage read.",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "private_evening",
+    "ex": "wine_bar",
+    "garments": [
+      "dress"
+    ],
+    "orient": "front_3q",
+    "frame": "waist_up",
+    "pose": "hands_in_hair",
+    "expr": "flustered",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "open back"
+    ],
+    "lead": "place"
+  },
+  "direct_input_reasons": {
+    "scene": "The wine-bar corner example needs the glass-and-menu activity and a specific evening atmosphere; lead=place.",
+    "outfit": "The planned dress is made concrete with satin and the required open back and thigh slit; the example does not specify its cut.",
+    "axes": "Mostly posed suits considering the menu; strong source influence uses sapphire fabric and small crystal-like reflections; balanced separates keeps a single evening dress.",
+    "custom": "실제 첫 결과 메뉴의 가짜 인쇄 글자만 제거하는 부분 수정. 인물과 구도·의상·손 등 다른 요소는 보존한다."
+  },
+  "axes_reasons": "Mostly posed suits considering the menu; strong source influence uses sapphire fabric and small crystal-like reflections; balanced separates keeps a single evening dress.",
+  "reservation_session": "regirock-regice-20261025-d8a6",
+  "reservation_commit": "782fa579af825864a7bcf8d97bb79b0e8de136e0",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

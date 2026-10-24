@@ -1,0 +1,48 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "c7328d3dda1487b7be88f79014e5aaf9ca432053cf99d984a787a60f0240fb00",
+  "accepted": true,
+  "observations": [
+    "노을진 옥상 상영회에서 체크 담요를 양손으로 펴고 있다. 팝콘·과자와 큰 상영 스크린이 보인다. 옅은 파란 할터 블라우스의 어깨 드레이프·짧은 밑단과 슬레이트 긴바지로 어깨·쇄골·허리를 드러낸다."
+  ],
+  "anatomy": {
+    "tool": "ok · no flagged anatomy",
+    "arms": 2,
+    "legs": 2,
+    "hands": "담요를 잡은 가까운 손은 엄지·검지와 접힌 손가락 일부가 보이고 나머지는 천에 가려진다. 반대 손도 담요 위로 엄지와 손가락 일부가 보이며 두 손목·팔꿈치가 몸에 이어진다.",
+    "overlay_checked": false,
+    "note": "양팔 연결 확인. 긴바지는 담요 뒤로 일부 가려지고 발은 프레이밍 밖이다."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "경장의 푸른 시뇽·청색 눈·앞머리와 눈코입 비율을 유지한다."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "노을진 옥상 상영회에서 체크 담요를 양손으로 펴고 있다. 팝콘·과자와 큰 상영 스크린이 보인다. 옅은 파란 할터 블라우스의 어깨 드레이프·짧은 밑단과 슬레이트 긴바지로 어깨·쇄골·허리를 드러낸다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "팝콘 용기와 과자 봉투, 화면과 옷 장식을 확대 확인했으며 읽히는 글자나 가짜 라벨이 없다."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "힘을 뺀 반쯤 감긴 눈과 살짝 열린 입이 보인다. 한쪽 다리에 체중을 두되 선택한 뒤로 기대기보다 담요 쪽으로 약간 기울며, 무릎 위 선택보다 아래로 넓게 담겼다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "레지락",
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "실제 3장과 앞선 레지락 3장·최근 메타그로스/메탕/보만다 일상 이미지를 비교했다. 이 컷은 옥상 영화 스크린과 양손 담요·긴바지·할터 블라우스라는 장소·활동·실루엣으로 원단 피팅·수영복·달리기·현관 장면과 구별된다.",
+    "similarity_gate": "casual-look passed; nearest indexed distance 320"
+  }
+}

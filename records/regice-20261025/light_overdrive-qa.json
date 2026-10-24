@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "960175474dfd56547bb9a29d661a89177698d8a4d1ae8e649ed63ac3ba96cb8d",
+  "accepted": true,
+  "observations": [
+    "경장의 손·발·머리 크기와 배경 구도가 이어지고 기존 판 이음새가 들려 청백색 내부 프레임과 서리가 드러난다. 신규 무기나 헬멧은 보이지 않는다."
+  ],
+  "anatomy": {
+    "tool": "note · armor obscures model skeleton; manual count used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "경장과 같은 얼굴·시뇽과 신체 비율."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "경장의 손·발·머리 크기와 배경 구도가 이어지고 기존 판 이음새가 들려 청백색 내부 프레임과 서리가 드러난다. 신규 무기나 헬멧은 보이지 않는다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  }
+}

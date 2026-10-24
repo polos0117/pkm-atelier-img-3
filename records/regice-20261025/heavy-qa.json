@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "97e6ed2ed9b11ca21d4151b8ebf29af70b7ea9ba503c0ffcb12217907121e90f",
+  "accepted": true,
+  "observations": [
+    "같은 얼굴과 시뇽을 유지하며 두꺼운 얼음 겹판이 흉부·복부·골반·어깨·허벅지·정강이에 추가되어 외곽이 넓어진다. 관자 장갑 사이로 얼굴이 드러나며 양손과 부츠가 몸에 이어진다."
+  ],
+  "anatomy": {
+    "tool": "note · armor obscures model skeleton; manual count used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "경장과 같은 청색 눈·시뇽·앞머리와 눈코입 비율."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "같은 얼굴과 시뇽을 유지하며 두꺼운 얼음 겹판이 흉부·복부·골반·어깨·허벅지·정강이에 추가되어 외곽이 넓어진다. 관자 장갑 사이로 얼굴이 드러나며 양손과 부츠가 몸에 이어진다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  }
+}

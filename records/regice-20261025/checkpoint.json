@@ -1,0 +1,278 @@
+{
+  "card": "레지아이스",
+  "stage": "QA complete; remote publication pending",
+  "generated": 9,
+  "requested": 9,
+  "canonical": {
+    "card": "레지아이스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-65b2dbc5-09c2-4454-a044-6d6e0d3fc678.png",
+      "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf",
+      "session_only": true
+    },
+    "references": [],
+    "output": {
+      "filename": "레지아이스_light_glossy_promo_f.webp",
+      "sha256": "7c03eea8287580cee3062570517ccd7271b9c551ef0cb557075e33ab4b761bd8",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  "face_reason": "",
+  "face_prompt": "(her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; almond eyes, medium size, level outer corners, average spacing; angled brows; straight slender bridge nose; full lips.",
+  "images": [
+    {
+      "card": "레지아이스",
+      "slot": "light",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-65b2dbc5-09c2-4454-a044-6d6e0d3fc678.png",
+        "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf",
+        "session_only": true
+      },
+      "references": [],
+      "output": {
+        "filename": "레지아이스_light_glossy_promo_f.webp",
+        "sha256": "7c03eea8287580cee3062570517ccd7271b9c551ef0cb557075e33ab4b761bd8",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-b24c44a6-326f-4abe-b87d-52adf0b643b9.png",
+        "sha256": "97e6ed2ed9b11ca21d4151b8ebf29af70b7ea9ba503c0ffcb12217907121e90f",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_heavy_glossy_promo_f.webp",
+        "sha256": "76b1378832c02a7ff7ddde046494e74f65c0eacafd544b0b9d8e6c5e97445b6f",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-cd2b2ebc-07c8-4cf1-aca8-34811136c927.png",
+        "sha256": "63bc109c852fac8a842c1655bccdfdd33d24825db7d8611c489f70bc6e9dfd90",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_mobility_glossy_promo_f.webp",
+        "sha256": "91802a08c80afec030dd6daa2494c6a8960c9815f84d03726062b0b7c3a2972c",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-7343d346-78d5-4c9d-b007-939a22e5bbde.png",
+        "sha256": "960175474dfd56547bb9a29d661a89177698d8a4d1ae8e649ed63ac3ba96cb8d",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_light_overdrive_glossy_promo_f.webp",
+        "sha256": "60b3acf980d1c306bdf8df9bf37e1721379775b031fe07ce49e6fb104c348448",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-c4988f3d-b264-4247-8705-25b702d38f05.png",
+        "sha256": "5626c4118389703b87c6698944f2617931b6078b7bbe59071b9623a0bfcb6229",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "heavy",
+          "sha256": "97e6ed2ed9b11ca21d4151b8ebf29af70b7ea9ba503c0ffcb12217907121e90f"
+        },
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_heavy_overdrive_glossy_promo_f.webp",
+        "sha256": "6e9fb1e6b48cb1b63d218103dd79f8f49096f10b7323db7566bbd82ad742f7ca",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-60cc043e-78f2-4178-89f9-07091e9fad4f.png",
+        "sha256": "1663db757ea8f9f3f0401bb03ce321fdb12cfefa69396cad9fd01ab1859042c5",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "mobility",
+          "sha256": "63bc109c852fac8a842c1655bccdfdd33d24825db7d8611c489f70bc6e9dfd90"
+        },
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_mobility_overdrive_glossy_promo_f.webp",
+        "sha256": "985e5c88501f365f3a119f5a36d310750b38dbfce04c346497512fedf92445be",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-6838e3dc-a66b-461a-be31-3badb3e69a4b.png",
+        "sha256": "c7328d3dda1487b7be88f79014e5aaf9ca432053cf99d984a787a60f0240fb00",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_glossy_promo_f_casual1.webp",
+        "sha256": "31f7eadf7736a9e5209ea09beff4915a7bbf64e1eb81735d272e89d597fd5a1c",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-8b299121-da32-461a-9f1a-8c25dd69d7f9.png",
+        "sha256": "d6716e71ad45f4264e834b6d65d6898ddb9029ca6faf77fcbf4a372ca3cfe50a",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_glossy_promo_f_casual2.webp",
+        "sha256": "0142d381f09115169b22fac4236f1368be2414131df07a3b790b7e8a14516912",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    },
+    {
+      "card": "레지아이스",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual live generator selections and exact submitted prompt",
+      "original": {
+        "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-44d38238-7ff4-45cf-8974-24f89db53ba4.png",
+        "sha256": "5e67c7073ecd735c9286f3a6476f6b91ae7a84f1a7cbbb198639093d0c526872",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf"
+        }
+      ],
+      "output": {
+        "filename": "레지아이스_glossy_promo_f_casual3.webp",
+        "sha256": "0df0a7f0f05a7be334e7c6c1cb8fd93d159ff9aa230ef4846dbf4e51be92133a",
+        "width": 1024,
+        "height": 1536,
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6
+      }
+    }
+  ]
+}

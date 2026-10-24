@@ -1,0 +1,364 @@
+{
+  "card": "레지아이스",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "image_sha256": "df0c68a66e532298121f71e0eb18c1fe7e9671152fa3b3a32e2824a139246dbf",
+      "accepted": true,
+      "observations": [
+        "푸른 시뇽과 불규칙한 앞머리, 옅은 청색 눈과 아몬드 눈매·가늘고 곧은 코·도톰한 입술이 보인다. 얼음 결정의 얇은 어깨·전완·골반·정강이 판과 노란 점 문양을 착용하고 양손과 양부츠가 프레임 안에 있다."
+      ],
+      "anatomy": {
+        "tool": "ok · no flagged anatomy; hand detector 0",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나와 네 손가락이 분리되어 있다. 아래로 내린 손도 엄지와 네 손가락이 보이며 굽힌 끝 일부만 겹친다. 원본 확대에서 두 손목 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "푸른 시뇽과 청색 눈·각진 턱·아몬드 눈매가 이 캐릭터의 경장 정본이다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "푸른 시뇽과 불규칙한 앞머리, 옅은 청색 눈과 아몬드 눈매·가늘고 곧은 코·도톰한 입술이 보인다. 얼음 결정의 얇은 어깨·전완·골반·정강이 판과 노란 점 문양을 착용하고 양손과 양부츠가 프레임 안에 있다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      },
+      "face_reason": "",
+      "face_sources": [
+        "data/face-design.json#378",
+        "data/source-appearance.json#378"
+      ],
+      "compared_characters": [
+        "레지락",
+        "메타그로스",
+        "메탕"
+      ],
+      "face_comparison": "경장 네 장의 실제 이미지를 나란히 확인했다. 같은 레지 계열 레지락의 가늘고 좁은 눈·낮고 넓은 코·얇은 입술과 달리 레지아이스는 아몬드형 눈·가늘고 곧은 코·도톰한 입술이다. 메타그로스의 넓은 하관과 직선 눈썹, 메탕의 더 둥근 볼과 큰 눈보다 눈·코·턱 비율이 구별된다."
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "image_sha256": "97e6ed2ed9b11ca21d4151b8ebf29af70b7ea9ba503c0ffcb12217907121e90f",
+      "accepted": true,
+      "observations": [
+        "같은 얼굴과 시뇽을 유지하며 두꺼운 얼음 겹판이 흉부·복부·골반·어깨·허벅지·정강이에 추가되어 외곽이 넓어진다. 관자 장갑 사이로 얼굴이 드러나며 양손과 부츠가 몸에 이어진다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장과 같은 청색 눈·시뇽·앞머리와 눈코입 비율."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "같은 얼굴과 시뇽을 유지하며 두꺼운 얼음 겹판이 흉부·복부·골반·어깨·허벅지·정강이에 추가되어 외곽이 넓어진다. 관자 장갑 사이로 얼굴이 드러나며 양손과 부츠가 몸에 이어진다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "image_sha256": "63bc109c852fac8a842c1655bccdfdd33d24825db7d8611c489f70bc6e9dfd90",
+      "accepted": true,
+      "observations": [
+        "어깨·골반·종아리의 얇은 결정 패널이 뒤로 갈라지고 사이마다 작은 푸른 추진구가 보인다. 경장의 노란 점 문양과 몸 크기를 유지하며 두 팔·손·다리·부츠가 이어진다."
+      ],
+      "anatomy": {
+        "tool": "ok · no flagged anatomy; hand detector 0",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "정본의 시뇽과 아몬드 눈·가느다란 코·도톰한 입술 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "어깨·골반·종아리의 얇은 결정 패널이 뒤로 갈라지고 사이마다 작은 푸른 추진구가 보인다. 경장의 노란 점 문양과 몸 크기를 유지하며 두 팔·손·다리·부츠가 이어진다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "960175474dfd56547bb9a29d661a89177698d8a4d1ae8e649ed63ac3ba96cb8d",
+      "accepted": true,
+      "observations": [
+        "경장의 손·발·머리 크기와 배경 구도가 이어지고 기존 판 이음새가 들려 청백색 내부 프레임과 서리가 드러난다. 신규 무기나 헬멧은 보이지 않는다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장과 같은 얼굴·시뇽과 신체 비율."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "경장의 손·발·머리 크기와 배경 구도가 이어지고 기존 판 이음새가 들려 청백색 내부 프레임과 서리가 드러난다. 신규 무기나 헬멧은 보이지 않는다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "5626c4118389703b87c6698944f2617931b6078b7bbe59071b9623a0bfcb6229",
+      "accepted": true,
+      "observations": [
+        "중장의 두꺼운 겹판이 이음새를 따라 열려 푸른 내부 프레임과 서리가 드러난다. 어깨와 다리 판의 원래 위치, 얼굴·양손·부츠 위치와 카메라가 일반 중장과 맞는다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "중장과 경장의 동일한 눈·앞머리·시뇽·턱 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "중장의 두꺼운 겹판이 이음새를 따라 열려 푸른 내부 프레임과 서리가 드러난다. 어깨와 다리 판의 원래 위치, 얼굴·양손·부츠 위치와 카메라가 일반 중장과 맞는다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "1663db757ea8f9f3f0401bb03ce321fdb12cfefa69396cad9fd01ab1859042c5",
+      "accepted": true,
+      "observations": [
+        "고기동의 결정 패널이 더 펼쳐지고 추진기 덮개 안쪽에서 밝은 얼음빛이 보인다. 일반 고기동의 팔·손·발 위치와 카메라 및 원래 패널 구성이 이어진다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "고기동과 정본의 청색 눈·시뇽·얼굴 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "고기동의 결정 패널이 더 펼쳐지고 추진기 덮개 안쪽에서 밝은 얼음빛이 보인다. 일반 고기동의 팔·손·발 위치와 카메라 및 원래 패널 구성이 이어진다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "image_sha256": "c7328d3dda1487b7be88f79014e5aaf9ca432053cf99d984a787a60f0240fb00",
+      "accepted": true,
+      "observations": [
+        "노을진 옥상 상영회에서 체크 담요를 양손으로 펴고 있다. 팝콘·과자와 큰 상영 스크린이 보인다. 옅은 파란 할터 블라우스의 어깨 드레이프·짧은 밑단과 슬레이트 긴바지로 어깨·쇄골·허리를 드러낸다."
+      ],
+      "anatomy": {
+        "tool": "ok · no flagged anatomy",
+        "arms": 2,
+        "legs": 2,
+        "hands": "담요를 잡은 가까운 손은 엄지·검지와 접힌 손가락 일부가 보이고 나머지는 천에 가려진다. 반대 손도 담요 위로 엄지와 손가락 일부가 보이며 두 손목·팔꿈치가 몸에 이어진다.",
+        "overlay_checked": false,
+        "note": "양팔 연결 확인. 긴바지는 담요 뒤로 일부 가려지고 발은 프레이밍 밖이다."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장의 푸른 시뇽·청색 눈·앞머리와 눈코입 비율을 유지한다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "노을진 옥상 상영회에서 체크 담요를 양손으로 펴고 있다. 팝콘·과자와 큰 상영 스크린이 보인다. 옅은 파란 할터 블라우스의 어깨 드레이프·짧은 밑단과 슬레이트 긴바지로 어깨·쇄골·허리를 드러낸다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "팝콘 용기와 과자 봉투, 화면과 옷 장식을 확대 확인했으며 읽히는 글자나 가짜 라벨이 없다."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "힘을 뺀 반쯤 감긴 눈과 살짝 열린 입이 보인다. 한쪽 다리에 체중을 두되 선택한 뒤로 기대기보다 담요 쪽으로 약간 기울며, 무릎 위 선택보다 아래로 넓게 담겼다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "레지락",
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "실제 3장과 앞선 레지락 3장·최근 메타그로스/메탕/보만다 일상 이미지를 비교했다. 이 컷은 옥상 영화 스크린과 양손 담요·긴바지·할터 블라우스라는 장소·활동·실루엣으로 원단 피팅·수영복·달리기·현관 장면과 구별된다.",
+        "similarity_gate": "casual-look passed; nearest indexed distance 320"
+      }
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "image_sha256": "d6716e71ad45f4264e834b6d65d6898ddb9029ca6faf77fcbf4a372ca3cfe50a",
+      "accepted": true,
+      "observations": [
+        "푸른 벨벳 커튼과 따뜻한 공연 조명 사이에서 한 손을 들어 인사한다. 한쪽 어깨만 덮는 짧은 파란 재킷과 아이보리 방도·짧은 바지·장갑·장식 띠가 보이며 어깨와 복부가 드러난다."
+      ],
+      "anatomy": {
+        "tool": "note · body not detected; manual inspection",
+        "arms": 2,
+        "legs": 2,
+        "hands": "인사하는 장갑 손은 엄지 하나와 네 손가락이 분리돼 손바닥 안쪽 방향이 맞는다. 반대쪽 팔과 손목은 보이나 손가락은 오른쪽 프레임 밖이라 개수를 확인할 수 없다.",
+        "overlay_checked": false,
+        "note": "보이는 두 팔이 몸에 이어진다. 반대 손 끝과 무릎 아래 다리는 프레이밍 밖이며 이를 실제 기록에 남김."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "정본의 푸른 시뇽·앞머리·청색 아몬드 눈과 입술 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "푸른 벨벳 커튼과 따뜻한 공연 조명 사이에서 한 손을 들어 인사한다. 한쪽 어깨만 덮는 짧은 파란 재킷과 아이보리 방도·짧은 바지·장갑·장식 띠가 보이며 어깨와 복부가 드러난다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "정면에 가까운 몸·한 손 인사·한쪽 올라간 눈썹과 미소가 보인다. 가슴 위 선택보다 허벅지 위까지 넓으며 반대 손은 프레임에서 잘려 있다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "레지락",
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "청색 커튼 앞의 한 손 인사·짧은 비대칭 공연 재킷으로, 옥상 담요와 와인바 양손 머리 정리, 레지락의 쪼그린 원단 피팅과 구별된다. 메탕의 공연 컷은 모자를 만지는 검정 유니폼이어서 동작과 옷의 윤곽이 다르다.",
+        "similarity_gate": "casual-look passed; nearest indexed distance 295"
+      }
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "image_sha256": "5e67c7073ecd735c9286f3a6476f6b91ae7a84f1a7cbbb198639093d0c526872",
+      "accepted": true,
+      "observations": [
+        "빗물이 맺힌 창 옆 와인바 구석 좌석에 앉아 양손으로 시뇽을 정리한다. 테이블의 잔과 열린 메뉴, 불투명 사파이어 드레스의 깊게 열린 등과 허벅지 슬릿이 보인다. 메뉴의 가짜 인쇄 글자만 부분 수정하여 두 페이지가 이제 빈 종이다."
+      ],
+      "anatomy": {
+        "tool": "note · overlapping body detections, hands 2",
+        "arms": 2,
+        "legs": 2,
+        "hands": "시뇽 뒤 손과 관자 옆 손 모두 엄지와 굽힌 손가락이 보이며 끝 일부는 머리와 손바닥에 가려진다. 양손목·팔꿈치는 양어깨로 이어진다.",
+        "overlay_checked": true,
+        "note": "오버레이와 원본을 나란히 확인했다. 검출된 두 몸은 같은 인물에 겹친 뼈대이며 두 번째 인물이 없다. 양손이 손목·팔꿈치·어깨로 연속되고 두 손에 엄지와 네 손가락이 머리 뒤 일부 가려진 상태로 연결된다."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "푸른 시뇽·불규칙한 앞머리·청색 눈·곧은 코와 도톰한 입술, 얼굴과 몸 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "빗물이 맺힌 창 옆 와인바 구석 좌석에 앉아 양손으로 시뇽을 정리한다. 테이블의 잔과 열린 메뉴, 불투명 사파이어 드레스의 깊게 열린 등과 허벅지 슬릿이 보인다. 메뉴의 가짜 인쇄 글자만 부분 수정하여 두 페이지가 이제 빈 종이다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "메뉴 두 페이지가 빈 아이보리 종이로 수정됐음을 확대 확인했다. 다른 소품과 배경에도 글자·상표·가짜 라벨이 없다."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "양손 머리 정리와 앞 3/4 몸통, 시선 회피·붉어진 볼·살짝 열린 입이 보인다. 허리 위 선택보다 접힌 무릎까지 넓게 담겼다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "레지락",
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "이번 1번의 옥상·긴바지·담요 펼치기, 2번의 무대 재킷·손 인사와 달리 실내 와인바·긴 새틴 드레스·양손 머리 정리다. 최근 비교 컷들과도 자리·활동·옷 실루엣·팔의 높이가 구별된다.",
+        "similarity_gate": "casual-look final edited image passed"
+      }
+    }
+  }
+}

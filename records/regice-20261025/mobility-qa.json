@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "63bc109c852fac8a842c1655bccdfdd33d24825db7d8611c489f70bc6e9dfd90",
+  "accepted": true,
+  "observations": [
+    "어깨·골반·종아리의 얇은 결정 패널이 뒤로 갈라지고 사이마다 작은 푸른 추진구가 보인다. 경장의 노란 점 문양과 몸 크기를 유지하며 두 팔·손·다리·부츠가 이어진다."
+  ],
+  "anatomy": {
+    "tool": "ok · no flagged anatomy; hand detector 0",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "정본의 시뇽과 아몬드 눈·가느다란 코·도톰한 입술 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "어깨·골반·종아리의 얇은 결정 패널이 뒤로 갈라지고 사이마다 작은 푸른 추진구가 보인다. 경장의 노란 점 문양과 몸 크기를 유지하며 두 팔·손·다리·부츠가 이어진다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  }
+}
