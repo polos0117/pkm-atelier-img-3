@@ -1,0 +1,102 @@
+{
+  "card": "딥상어동",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "딥상어동",
+    "cards": {
+      "딥상어동": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "surprised",
+            "pose": "offering_food",
+            "orient": "over_shoulder",
+            "scene": "Beneath an apricot tree in late morning, a small Gible companion waits beside a terracotta feeding bowl as she offers it a single berry.",
+            "outfit": "Butter-yellow linen halter short overalls with an open back and rolled hems, worn with canvas sandals.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "partner_care",
+            "catCustom": "",
+            "ex": "care_feeding",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "category": true,
+              "example": true,
+              "expression": true,
+              "pose": true,
+              "orientation": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axis-overall_intensity": true,
+              "axis-skin_exposure": true,
+              "axis-action_level": true,
+              "axis-source_influence": true,
+              "axis-separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "open back",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gible (딥상어동) personified, dragon / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised brows, widened eyes with visible upper white, mouth open in a small round shape\nPose: Offer a small treat or food bowl toward the scene's companion, keeping hands and companion separate.\nOrientation: body turned away, head looking back over a shoulder\nScene: Beneath an apricot tree in late morning, a small Gible companion waits beside a terracotta feeding bowl as she offers it a single berry.\nOutfit and props: Butter-yellow linen halter short overalls with an open back and rolled hems, worn with canvas sandals.\nCategory: Show a quiet personal moment caring for a Pokémon companion. Make the interaction, supporting props and comfortable setting specific; keep the approved woman as the main subject and any companion anatomically separate.\nExample scene: Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE WOMAN ONLY, with exactly one Pokémon companion as the scene describes — a separate creature at its own natural scale, its body never merged with hers, not a second human and not dressed like her. No other person or creature, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "value": "Beneath an apricot tree in late morning, a small Gible companion waits beside a terracotta feeding bowl as she offers it a single berry.",
+      "reason": "살구나무 정원에서 뒤돌아보며 열매를 내민다. 노란 짧은 오버롤은 등이 열리고 두 다리와 샌들이 보인다. 동료 딥상어동 한 마리가 별도 몸으로 그릇 옆에 있다. — 예시에서 정하지 않은 구체 요소 보충"
+    },
+    {
+      "field": "outfit",
+      "value": "Butter-yellow linen halter short overalls with an open back and rolled hems, worn with canvas sandals.",
+      "reason": "살구나무 정원에서 뒤돌아보며 열매를 내민다. 노란 짧은 오버롤은 등이 열리고 두 다리와 샌들이 보인다. 동료 딥상어동 한 마리가 별도 몸으로 그릇 옆에 있다. — 예시에서 정하지 않은 구체 요소 보충"
+    },
+    {
+      "field": "camera",
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구에 크기 인자가 없어 세로 2:3 해상도 지정"
+    }
+  ],
+  "axes_reasons": {
+    "action_level": "Beneath an apricot tree in late morning, a small Gible companion waits beside a terracotta feeding bowl as she offers it a single berry.에서 선택한 순간의 움직임",
+    "source_influence": "Butter-yellow linen halter short overalls with an open back and rolled hems, worn with canvas sandals.에 담은 원작 색·작은 모티프의 비중",
+    "separates_preference": "overalls 의상 구조"
+  },
+  "planner_source": "gpt-gible-family-20261024"
+}

@@ -1,0 +1,102 @@
+{
+  "card": "딥상어동",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "딥상어동",
+    "cards": {
+      "딥상어동": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "candid",
+            "pose": "waving",
+            "orient": "rear_3q",
+            "scene": "Black volcanic stones ring the outdoor basin at blue hour; she greets someone beyond the scene while steam rises from the water.",
+            "outfit": "A teal halter high-cut swimsuit beneath a short ivory bath towel wrapped securely around her torso, with bare shoulders and legs.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "onsen_after",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "category": true,
+              "example": true,
+              "expression": true,
+              "pose": true,
+              "orientation": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axis-overall_intensity": true,
+              "axis-skin_exposure": true,
+              "axis-action_level": true,
+              "axis-source_influence": true,
+              "axis-separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gible (딥상어동) personified, dragon / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: caught mid-motion, eyes off camera, mouth in an unposed in-between shape\nPose: Raise one hand near shoulder height in a friendly small wave.\nOrientation: rear three-quarter view showing back and one flank\nScene: Black volcanic stones ring the outdoor basin at blue hour; she greets someone beyond the scene while steam rises from the water.\nOutfit and props: A teal halter high-cut swimsuit beneath a short ivory bath towel wrapped securely around her torso, with bare shoulders and legs.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": false,
+  "example_text": "at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "value": "Black volcanic stones ring the outdoor basin at blue hour; she greets someone beyond the scene while steam rises from the water.",
+      "reason": "onsen_after 예시에 없는 구체적인 장소 재질·시간·진행 중 활동을 추가"
+    },
+    {
+      "field": "outfit",
+      "value": "A teal halter high-cut swimsuit beneath a short ivory bath towel wrapped securely around her torso, with bare shoulders and legs.",
+      "reason": "swimsuit의 색과 소재를 정하고 high-cut leg / halter neck를 의복 구조로 표현"
+    },
+    {
+      "field": "camera",
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 해상도를 지정"
+    }
+  ],
+  "axes_reasons": {
+    "action_level": "Black volcanic stones ring the outdoor basin at blue hour; she greets someone beyond the scene while steam rises from the water.에서 선택한 순간의 움직임",
+    "source_influence": "A teal halter high-cut swimsuit beneath a short ivory bath towel wrapped securely around her torso, with bare shoulders and legs.에 담은 원작 색·작은 모티프의 비중",
+    "separates_preference": "swimsuit 의상 구조"
+  },
+  "planner_source": "gpt-gible-family-20261024"
+}

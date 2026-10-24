@@ -1,0 +1,254 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "3e0b27c6776986aec71f0222a105e96f12ffbf649f0adee109b2be7ed0e6367f",
+    "observations": "좁고 각진 턱·수평의 가는 눈·중간 길이 파란 포니테일. 협곡 배경에서 양발과 두 장갑손이 보이고 얇은 판이 몸을 따른다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 1.1 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "094c8b18e0746d76f7b587cdc1d49d4a0c3047ec8dfadd2ee1787108fb07d6da",
+    "observations": "얼굴과 포니테일은 경장과 같고 어깨·골반·허벅지에 은색 테두리의 두꺼운 2층 판이 더해졌다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "df44c91ada00e454b64597259c3924a8c9d54e78e81ddc18a7e4e27e48f77b28",
+    "observations": "어깨·골반·종아리의 판이 뒤로 벌어지고 작은 파란 추진광이 생겼다. 관절과 인체 실루엣이 드러난다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.9 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "e3cb231071a841acbac83219556864e74ad3409aaf19aded68fbc946ebbd9ff2",
+    "observations": "경장과 같은 발 위치·손 모양·협곡 구도. 얇은 판 이음새가 벌어지고 보라색 안쪽 빛이 난다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "94551f58c7a2b2f0e7c99d793edadd88318b126a18ba5de9d07e038f893b0e2f",
+    "observations": "중장과 동일한 얼굴·카메라·양발 위치. 두꺼운 바깥 판이 들려 내부 프레임과 보라빛 틈이 보인다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "note · 몸을 못 찾았다 — 눈으로 본다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "4fae4bec57ec2a794d6ee2983b25df8c8333a68b996ace49f612712b0843c65d",
+    "observations": "고기동의 바깥으로 펼친 판이 더 벌어지고 추진 덮개 안쪽이 보라색으로 밝아졌다. 원본 포즈를 유지한다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양 장갑손 엄지 1+네 손가락, 관절과 연결 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "5291e9d38857d4d8cd79f97067ba6361dcf4a4bd4afe0e2e3df0eecf0b5c055a",
+    "observations": "살구나무 정원에서 뒤돌아보며 열매를 내민다. 노란 짧은 오버롤은 등이 열리고 두 다리와 샌들이 보인다. 동료 딥상어동 한 마리가 별도 몸으로 그릇 옆에 있다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "열매 잡은 손 엄지와 네 손가락의 일부 겹침; 반대 손은 허벅지 뒤 일부 가려짐",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "9172e4275db7679e68a44a4126f72fa69287c7a861455c7e802099139e18abe0",
+    "observations": "창가 매트에 한 무릎을 세우고 앉아 시트를 정돈한다. 흰 버튼 셔츠 소매는 말렸고 등판과 허벅지가 드러난다. 고개는 아래를 향하며 한 손은 천을 잡고 다른 손은 천 아래 가려진다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.7 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 2,
+      "legs": 2,
+      "hands": "천 잡은 손 5지 연결 정상; 다른 손은 천에 가려져 세지 않음",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "accepted": true,
+    "image_sha256": "b61567c5539ba893528b9418bcfacd95a29274313532f806f5ffe406a9ddaff2",
+    "observations": "배구 네트 옆 해변에서 파란 삼각 비키니와 수건. 몸은 정면이고 눈은 아래로 향하며 한 손은 어깨의 수건을 잡고 다른 손은 내려온다.",
+    "identity": {
+      "match": true,
+      "evidence": "청회색 눈·가른 앞머리·파란 포니테일과 좁은 하관을 기준 이미지와 대조"
+    },
+    "anatomy": {
+      "tool": "ok · ",
+      "arms": 2,
+      "legs": 2,
+      "hands": "수건 잡은 손 접힌 네 손가락·엄지 일부 가려짐; 내려온 손 엄지와 네 손가락 정상",
+      "overlay_checked": true,
+      "note": "경장/고기동의 빨간 손 표시는 가슴판·골반판 오인식. 일상2는 천에 가린 손목과 허벅지 오인식; 실제 원본 확대에서 떨어진 손 없음."
+    },
+    "text": {
+      "match": true,
+      "evidence": "장갑 표면·수건·의복·배경을 확대해 글자와 상표 없음"
+    },
+    "size": {
+      "match": true,
+      "evidence": "원본 및 WebP 1024×1536"
+    }
+  },
+  "face_reason": {
+    "basis": "data/face-design.json 443 · 원작 두 뿔의 각을 얼굴과 턱으로 해석",
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, long length, narrow width; angular defined jaw; narrow eyes, medium size, level outer corners, average spacing; angled brows; long nose with low tip; wide mouth.",
+    "compared_characters": [
+      "핑복",
+      "흉내내",
+      "화강돌"
+    ],
+    "comparison": "핑복의 둥근 볼·흉내내의 작은 턱·화강돌의 한쪽을 가린 눈과 비교. 딥상어동은 길고 좁은 하관, 낮은 수평 눈과 긴 코로 구분된다. 한바이트·한카리아스는 아직 생성 전이므로 설계표 차이만 확인."
+  },
+  "diversity_comparison": {
+    "characters": [
+      "핑복",
+      "화강돌"
+    ],
+    "evidence": "핑복의 음료·도시 야경·쇼핑 드레스, 화강돌의 서가·시장·야간 드레스와 실제 비교. 이번 컷은 동료 먹이 주기/시트 정리/해변 수건으로 활동·옷·구도와 환경이 구분됨.",
+    "casual_look": "PASS; 최저 238, 실패 문턱 215 이상"
+  }
+}
