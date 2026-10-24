@@ -1,0 +1,122 @@
+{
+  "card": "라티오스",
+  "no": 381,
+  "run": "2026-10-24-13",
+  "execution_id": "pkm-daily-2026-10-24T20-00-00Z",
+  "status": "nine_accepted_pending_registration",
+  "slots": {
+    "light": {
+      "file": "img/라티오스_light_glossy_promo_f.webp",
+      "source_sha256": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0",
+      "webp_sha256": "84debbcfdcf3cfbc785c9cebda28303b2f8d426560b929e42ee181bde20b229f",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {}
+    },
+    "heavy": {
+      "file": "img/라티오스_heavy_glossy_promo_f.webp",
+      "source_sha256": "6a54c9df75fb3264626b80acd5bb22ff3518aa8f874fcc5e137322594df48723",
+      "webp_sha256": "940f72644742334fcfb47b65353fc19215f09ccfe07493c1b3811870c85951c1",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    },
+    "mobility": {
+      "file": "img/라티오스_mobility_glossy_promo_f.webp",
+      "source_sha256": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337",
+      "webp_sha256": "7148a1c35f561afd2eed209605fd9715c0b6222e0a59f039bbd2d24035dcd466",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    },
+    "light_overdrive": {
+      "file": "img/라티오스_light_overdrive_glossy_promo_f.webp",
+      "source_sha256": "c84e555bca24c551372124b3e7544463696ef7c1ae48b62b2823c31e57a99db0",
+      "webp_sha256": "8117447bad54505688e7106a66221708081c06082829867ed5f384c6d50a6d08",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    },
+    "heavy_overdrive": {
+      "file": "img/라티오스_heavy_overdrive_glossy_promo_f.webp",
+      "source_sha256": "37d5308538390f4b5021b31817ebd33421dff1b52a52a4779d184940a2fda264",
+      "webp_sha256": "ff7c26aa6eaf2d00dba988933355484fa996c2a0014906d5fb4065a72ddcab5d",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "heavy": "6a54c9df75fb3264626b80acd5bb22ff3518aa8f874fcc5e137322594df48723"
+      }
+    },
+    "mobility_overdrive": {
+      "file": "img/라티오스_mobility_overdrive_glossy_promo_f.webp",
+      "source_sha256": "2671230a28568b75b0385f94350bf40d944e99923e92e426f58cec2893781e44",
+      "webp_sha256": "66d5c678f9bcd008cf7b7b129900a9cb2383f79833003c2ea67fa87367095173",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "mobility": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337"
+      }
+    },
+    "casual1": {
+      "file": "img/라티오스_glossy_promo_f_casual1.webp",
+      "source_sha256": "38eb10ca59eda6c35873e6cbb9e3569495b8e3c10da90057c23e0f3c52ae6c80",
+      "webp_sha256": "a692d40e858546b045207b2e566d1f938d64a1f79fcc6c4dfb0f0c1867b76658",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    },
+    "casual2": {
+      "file": "img/라티오스_glossy_promo_f_casual2.webp",
+      "source_sha256": "ca8608d8f88ee1d1ecffec93a476b97d7910c0d36ae5fa6fab331704d5e42077",
+      "webp_sha256": "e1c670207deb844cb3a3aed22afd9c4e9f97a7cd9f9589313439928d698fcf2d",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    },
+    "casual3": {
+      "file": "img/라티오스_glossy_promo_f_casual3.webp",
+      "source_sha256": "d355f13bcfe2ed2d5ebf798b5b29c8241d801026e13fc614e74edc43eddb5bea",
+      "webp_sha256": "010161f120238f416d1eb00ec00579cd5e90cff817a4c0df5e3a5775873e1304",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+      }
+    }
+  },
+  "actual_reference_supplement": {
+    "heavy_overdrive": {
+      "heavy": "6a54c9df75fb3264626b80acd5bb22ff3518aa8f874fcc5e137322594df48723",
+      "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+    },
+    "mobility_overdrive": {
+      "mobility": "e009db48d2766423518c7decada08a8756918be59bb5de055f913e72e7694337",
+      "light": "f005300105e94baca09e4f563b4b8fe881cfe74aec84c7bbb1836a8331bd80b0"
+    }
+  },
+  "visual_qa_summary": {
+    "passed": 0,
+    "accepted_for_user_post_upload_review": 9,
+    "not_qa_passed_slots": [
+      "light",
+      "heavy",
+      "mobility",
+      "light_overdrive",
+      "heavy_overdrive",
+      "mobility_overdrive",
+      "casual1",
+      "casual2",
+      "casual3"
+    ]
+  }
+}
