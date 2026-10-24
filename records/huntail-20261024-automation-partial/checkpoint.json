@@ -1,0 +1,295 @@
+{
+  "card": 367,
+  "name": "헌테일",
+  "run": "2026-10-24-8",
+  "slots": {
+    "light": {
+      "status": "accepted",
+      "at": "2026-10-24T04:06:45+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/light/prompt.txt",
+        "sha256": "e8efd273e07247030deb3275c55317e606e45a8e856376f3a17f7f1c3b2b9f7b"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/light/ui.json",
+        "sha256": "5455fa8b1a4ce50006c69a707d3704e4c5e8d969f6eb0a7f238d5e96e35ad081"
+      },
+      "references": {},
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/light/original.png",
+        "sha256": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4",
+        "session_only": true,
+        "webp_sha256": "55b79292f46ebdf34bf4f3401d6b6a6b7a5bfa389a85b712e4a00cb01fd54382"
+      },
+      "received_at": "2026-10-24T04:08:17+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/light/qa-rejected.json",
+        "sha256": "0f689b6a961490e97b73971b2589debf87e55d4fd1ee0d81523ff01964a67ed9"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/light/user-exception.json",
+        "sha256": "96206436f61ba1875ffa2d11f60e3b53cfd112b4bd8f9783ca502f0bba170a4e"
+      }
+    },
+    "heavy": {
+      "status": "accepted",
+      "at": "2026-10-24T04:08:42+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy/prompt.txt",
+        "sha256": "5d3334439352638c45b5c65a487a46871ccb897ef1d3a05a464b5b3b8cbab35a"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy/ui.json",
+        "sha256": "900a0d077585f025d8bd414bf77d54c57664812a5c6ae159d5e8ae1ecb045d20"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy/original.png",
+        "sha256": "4f8902e6a43489500dc23f8506b7eac11a450fbc0ec8e161a17c9bed4d943bea",
+        "session_only": true,
+        "webp_sha256": "8947e31a373decfe01ff60067be1b2abf42cab32eee22d7dec746a24d72cba35"
+      },
+      "received_at": "2026-10-24T04:10:11+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy/qa-rejected.json",
+        "sha256": "230cbaec297e5e13338d7f41b9d8153abdd8a11db72dbe151b2fb84aab0d8083"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy/user-exception.json",
+        "sha256": "b45782ec8b47d9fba92d964d6154f0f1b1fbf91aca9883b0328f34ba2d8472d3"
+      }
+    },
+    "mobility": {
+      "status": "accepted",
+      "at": "2026-10-24T04:10:35+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility/prompt.txt",
+        "sha256": "766545566dd1a59732ce23608f737f382573a8665d7d05adc2150975f86b67f2"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility/ui.json",
+        "sha256": "36a58cd4503b1d904c8f75a9ee2c2d053f75778c86463cd089eb4f9af442eb42"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility/original.png",
+        "sha256": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4",
+        "session_only": true,
+        "webp_sha256": "5e32c30a27b1fbe9dd1494752b8df5a423f8d92d47fccff58786140048e1e3cf"
+      },
+      "received_at": "2026-10-24T04:12:07+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility/qa-rejected.json",
+        "sha256": "bb405739ccc2dc75e5e8358c580d835dad87f69ec3c2e28f2ce7a96c9cdbf89c"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility/user-exception.json",
+        "sha256": "1b637084fcb5ddb76ce4db0a7a9f75f5dfe22973c9d54a11475121b251879525"
+      }
+    },
+    "light_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-24T04:12:28+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/prompt.txt",
+        "sha256": "e3bf027a62fa71c16b7ba45362b5d683ba15f546b25821e28606079cbbb09ccb"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/ui.json",
+        "sha256": "6d1bcc6ad55377ede89506e7f334663dd17f521fe3e9e9c0ed4193233d0857d3"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/original.png",
+        "sha256": "44ceb6997a8a8f69c7e1be215a6ddac97edc6e940ebf199140fa07f54eb0d40d",
+        "session_only": true,
+        "webp_sha256": "e50ed44e89bb207bf1540142df4ab48d784de4e00dbfe8f5667bbd3ddc05c773"
+      },
+      "received_at": "2026-10-24T04:13:57+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/qa-rejected.json",
+        "sha256": "3da85cdbcd85481bbfb8105d6d915195d1e9096cdda31ad9a32b58f66d803b80"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/light_overdrive/user-exception.json",
+        "sha256": "4adc86cad42be36a2c823a842e8670461c260e8178aeda140ba1813f153a7199"
+      }
+    },
+    "heavy_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-24T04:14:20+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/prompt.txt",
+        "sha256": "ad5ac7306c3855b08b478601f6714600ed7ade7cc70a2161f55b2af5d9948352"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/ui.json",
+        "sha256": "545dd00d67126d8ca335d2c2e30def9c70a0b4401828efc079614c1d618cd02b"
+      },
+      "references": {
+        "heavy": "4f8902e6a43489500dc23f8506b7eac11a450fbc0ec8e161a17c9bed4d943bea"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/original.png",
+        "sha256": "1faaaa8a0c3e26e1d3f8cd08541ec40d7ed424edd74b2dc763d857de7d467a5e",
+        "session_only": true,
+        "webp_sha256": "23b9ce505e8ca8611ad1ce044ed42fd940e00e721864e8ef7d94648185321bdc"
+      },
+      "received_at": "2026-10-24T04:16:29+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/qa-rejected.json",
+        "sha256": "b468cfcdce74844c26a43168a761c826fa5589be04cfead2d34824ba00af7f23"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/heavy_overdrive/user-exception.json",
+        "sha256": "0044d9b1758cf097a9ea41ecc2e697b8fd873944f5a3c1c01605645687256824"
+      }
+    },
+    "mobility_overdrive": {
+      "status": "accepted",
+      "at": "2026-10-24T04:16:53+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/prompt.txt",
+        "sha256": "21474baa426b74473e7a22e49faee0d84ec87d5c70574b8f78c5844bba43e1b9"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/ui.json",
+        "sha256": "2ece80fd83ce2478bafbf02f7a5394f927c2df480fba288bc9ff4c9f7912f07b"
+      },
+      "references": {
+        "mobility": "b9c0435a77a826cdf57f1015fc05a3ab45d17d275387488b812c21c4c08863c4"
+      },
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/original.png",
+        "sha256": "64a4bd4e2dcbfdc0a30cf4517da21b6c6468687f2529945ff20cce7018d995d3",
+        "session_only": true,
+        "webp_sha256": "d01745e1f817a6e705628fcf7190876cd79ef23cb5806b6bb5d1c25c0706104f"
+      },
+      "received_at": "2026-10-24T04:18:45+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/qa-rejected.json",
+        "sha256": "9ea8a1f45ca3afc304ebea02c232622524eddbb209f317d6bb651d728845e8ef"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/mobility_overdrive/user-exception.json",
+        "sha256": "4885efaf26a39066b7b5826c0474bdeef566a8f160993dc4b299e5e8c3f99889"
+      }
+    },
+    "casual1": {
+      "status": "rejected",
+      "at": "2026-10-24T04:19:23+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual1/prompt.txt",
+        "sha256": "b5f2a12e46da75c0e34fa08b0bae650d126400fc01cedd8fa6b5da3fb60da274"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual1/ui.json",
+        "sha256": "1a7bdf13b13255c83f1f0657aace611826ee9d8bd64fc7824c539b9f0abbc13b"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "tool_failure": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual1/tool-failure.json",
+        "sha256": "adc53d3605c1b1ada7625d1ab93376002219b50955e2cca7b56a93e6bf96432a"
+      }
+    },
+    "casual2": {
+      "status": "accepted",
+      "at": "2026-10-24T04:21:16+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/prompt.txt",
+        "sha256": "850dcbf104b5483762bb9e8feff715b6afecf820349cc08221f72e2c9583922b"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/ui.json",
+        "sha256": "c18658a099cfec864090ad1c80a71cfea675f4e7052c496f5c06b00c3deae1f0"
+      },
+      "approval": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/independent-slot-approval.json",
+        "sha256": "c68aa56cb7f45bc55d1140f4f34ee278df921a7659b3a93bb6b227d9269f95e6"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "independent_slot_after_terminal_failure": true,
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/original.png",
+        "sha256": "a91ae9589b4f00e5b297daa7d7caff01c3ae0a10b30232fa9eef45bc3b7a51f2",
+        "session_only": true,
+        "webp_sha256": "9e0285282eca00f7cb4ffc5824bc10b93419d6b645b8e71a8b1bddbc61dca125"
+      },
+      "received_at": "2026-10-24T04:23:16+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/qa-rejected.json",
+        "sha256": "4defeb6db5da0707b52fcd1f8b41efea528b65a9e9af71865e46efbc2a4cfbb8"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual2/user-exception.json",
+        "sha256": "d2b572037f9146baae39f8ce0ae608569ca8e4fb246a3b78c2c41f27bcca40af"
+      }
+    },
+    "casual3": {
+      "status": "accepted",
+      "at": "2026-10-24T04:23:38+00:00",
+      "prompt": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/prompt.txt",
+        "sha256": "b1b24e704ec792df7e9116d1a7c38d7ca67327392500a7896c6c0f5268de9db6"
+      },
+      "ui": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/ui.json",
+        "sha256": "47d296d9c249e0929c8ff740c44d8c8c208e0a0a29aa9afbd8c87724a132b51a"
+      },
+      "approval": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/independent-slot-approval.json",
+        "sha256": "a211f64f01b4fb3e2ad8795f749191c4927bf8f1f283babff4d236e770c2aba6"
+      },
+      "references": {
+        "light": "6531b50441705601875e7796ef6033c5b47253220406116b297bae4a820823a4"
+      },
+      "independent_slot_after_terminal_failure": true,
+      "image": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/original.png",
+        "sha256": "ec53cfe51bef6242a1f002ef3f62063090f73dfbf49da85685f48cbafe73ebfa",
+        "session_only": true,
+        "webp_sha256": "d70b168439d6da85cacd112574b5c5741f3d62e57f2d8e5b08033a35598c927e"
+      },
+      "received_at": "2026-10-24T04:25:35+00:00",
+      "qa": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/qa-rejected.json",
+        "sha256": "9ee98b306674a35fccb11283b330c83c9da0c181ad66ebd176a9c16da7815f3b"
+      },
+      "acceptance_basis": "user_exception",
+      "qa_passed": false,
+      "exception": {
+        "path": "records/automation/runs/2026-10-24-8/367/casual3/user-exception.json",
+        "sha256": "5eae9404bab76c976f353d124c8a0d434cda018dbc5ba3d8d56cf9f903621e37"
+      }
+    }
+  },
+  "status": "partial_8_of_9",
+  "missing": {
+    "casual1": "moderation_blocked_no_output"
+  },
+  "original_bytes": "session_local_only"
+}

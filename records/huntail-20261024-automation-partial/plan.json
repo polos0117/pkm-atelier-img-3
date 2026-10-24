@@ -1,0 +1,405 @@
+{
+  "session": "image-runner-2026-10-24-8-367",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "헌테일",
+      "species": "huntail-20261024",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "garter_set",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "pose": "on_tiptoe",
+          "expr": "cold_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "bare midriff",
+            "high-cut leg"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "garments": [
+            "apron",
+            "shorts"
+          ],
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "pose": "preparing_food",
+          "expr": "curious",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "everyday_sensual",
+          "ex": "sunroom_relax",
+          "garments": [
+            "shorts",
+            "vest"
+          ],
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "pose": "hands_in_hair",
+          "expr": "sensual",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "cropped hem"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "shorts",
+          "vest"
+        ],
+        "orient": [
+          "rear_3q",
+          "front_3q",
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "garter_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "pose": "on_tiptoe",
+      "expr": "cold_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "high-cut leg"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: a lingerie set with decorative garter straps, worn as styling detail",
+      "custom_inputs": {
+        "scene": "Warm light catches a blue glass vase on a high dressing-room shelf while she rises on tiptoe to straighten its placement.",
+        "outfit": "An opaque navy lingerie set with a bare midriff, high-cut leg line and decorative orange garter straps, with small ring motifs along the trim.",
+        "reason": "Garter styling specifies garments but not activity or setting; arranging a vase on a high shelf motivates the reserved tiptoe pose and detail-first scene.",
+        "axes_reason": "Reaching to arrange the vase is active, orange rings and navy strongly echo Huntail, and the matching set is balanced."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    },
+    {
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_tea",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "front_3q",
+      "frame": "three_quarter",
+      "pose": "preparing_food",
+      "expr": "curious",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: Pouring warm berry tea into a cup at a small kitchen table with a teapot and sliced fruit.",
+      "custom_inputs": {
+        "scene": "At a small kitchen table in morning light, a teapot and sliced fruit are arranged for pouring warm berry tea into a cup.",
+        "outfit": "An opaque blue one-shoulder top with an off-shoulder neckline on the other side, an orange ring-patterned apron and separate navy shorts.",
+        "reason": "The tea example supplies setting and action; top, apron and shorts specify the reserved garments and exposure choices without changing that activity.",
+        "axes_reason": "Pouring tea is balanced activity, navy and orange rings are strong source influence, with separate top and shorts under an apron."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "sunroom_relax",
+      "garments": [
+        "shorts",
+        "vest"
+      ],
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "pose": "hands_in_hair",
+      "expr": "sensual",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "cropped hem"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: curled on a sunroom sofa in soft knitwear with a blanket and a book",
+      "custom_inputs": {
+        "scene": "Pausing over her open book, she curls on a sunroom sofa with a blanket and raises both hands to adjust her bun in the afternoon light.",
+        "outfit": "A soft opaque cream knitted cropped vest and separate mini-length knit shorts, with one small orange button as the only source accent.",
+        "reason": "The sunroom example already includes sofa blanket book and knitwear; vest and shorts realize the reserved garments, and adjusting her bun fits the selected hands-in-hair gesture.",
+        "axes_reason": "A paused grooming moment is mostly posed, one orange button is subtle source influence, with separate vest and shorts."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push; no replan",
+    "actual_comparison": "Actual recent images viewed: Clamperl stage jacket/trousers folded-arm standing, seaside full-length swim resting, gallery velvet gown walking; Walrein train crop shirt/skirt walking, studio crop/leggings stretching, bedroom lingerie leaning; Sealeo evening jumpsuit in reflective hall, hot-spring bikini kneel, bead-work blouse/skirt seated. Huntail plans vase arrangement with garter styling rear waist-up, kitchen tea apron/shorts three-quarter, sunroom knit vest/shorts curled full body. Actual results must be compared; planned differences alone are not a QA pass."
+  }
+}
