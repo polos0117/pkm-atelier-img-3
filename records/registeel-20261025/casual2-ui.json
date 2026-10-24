@@ -1,0 +1,114 @@
+{
+  "card": "레지스틸",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "레지스틸",
+    "cards": {
+      "레지스틸": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "calm",
+            "pose": "mid_stride",
+            "orient": "turning_midmotion",
+            "scene": "She eats a pear wedge from a small saucer at the kitchen island after midnight; the open refrigerator casts cool light across pale oak cabinets and a warm under-cabinet lamp.",
+            "outfit": "A soft sage jersey lounge jumpsuit has a strapless bodice and a folded off-shoulder neckline draped below the collarbones, exposing both shoulders and the upper chest. A thin charcoal waist seam is its only source-colour echo.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_sensual",
+            "catCustom": "",
+            "ex": "late_snack",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "strapless top",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Registeel (레지스틸) personified, steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Capture a clear mid-stride step with believable weight transfer.\nOrientation: mid-turn body motion with equipment following its body mounts\nScene: She eats a pear wedge from a small saucer at the kitchen island after midnight; the open refrigerator casts cool light across pale oak cabinets and a warm under-cabinet lamp.\nOutfit and props: A soft sage jersey lounge jumpsuit has a strapless bodice and a folded off-shoulder neckline draped below the collarbones, exposing both shoulders and the upper chest. A thin charcoal waist seam is its only source-colour echo.\nCategory: Create a sensual but non-explicit everyday lifestyle moment with the same clearly adult character. The situation must read as believable ordinary life, so specify the room, the clothing, and a concrete action already in progress rather than a posed shoot. Use natural household or street lighting and eye-level framing; fabric drape, movement, and light carry the mood. Avoid turning the scene into a lingerie catalogue or a deliberate glamour shoot.\nExample scene: eating a late-night snack at the kitchen counter in loungewear\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "everyday_sensual",
+    "ex": "late_snack",
+    "garments": [
+      "jumpsuit"
+    ],
+    "orient": "turning_midmotion",
+    "frame": "waist_up",
+    "pose": "mid_stride",
+    "expr": "calm",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "strapless top",
+      "off-shoulder neckline"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "Late snack example omits the food and lighting; pear, refrigerator and oak cabinetry specify them.",
+    "outfit": "The example asks for loungewear but supplies no garment; the planned jumpsuit and two neckline openings become soft jersey lounge clothing.",
+    "axes": "Active eating gesture and turning movement use mostly active; one charcoal seam keeps source subtle; a jumpsuit is a single garment."
+  },
+  "axes_reasons": "Active eating gesture and turning movement use mostly active; one charcoal seam keeps source subtle; a jumpsuit is a single garment.",
+  "reservation_session": "registeel-latias-20261025-f0c6",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

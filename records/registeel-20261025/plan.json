@@ -1,0 +1,274 @@
+{
+  "session": "registeel-latias-20261025-f0c6",
+  "planner": "tools/casual-plan.cjs",
+  "character": {
+    "card": "레지스틸",
+    "species": "registeel-20261025",
+    "refill": true,
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "traditional",
+        "ex": "thobe_inspired",
+        "expr": "determined",
+        "pose": "bending_over",
+        "orient": "looking_away",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "axes": {
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "halter neck",
+          "high thigh slit"
+        ]
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "everyday_sensual",
+        "ex": "late_snack",
+        "expr": "calm",
+        "pose": "mid_stride",
+        "orient": "turning_midmotion",
+        "frame": "waist_up",
+        "lens": "wide24",
+        "axes": {
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "strapless top",
+          "off-shoulder neckline"
+        ]
+      },
+      {
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "rooftop_infinity_pool",
+        "garments": [
+          "bikini"
+        ],
+        "orient": "reclining",
+        "frame": "environmental",
+        "pose": "side_sitting",
+        "expr": "cold_smile",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "halter neck",
+          "strapless top"
+        ],
+        "lead": "place"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          3
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "bikini"
+      ],
+      "orient": [
+        "reclining"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed before generation",
+  "reservation_commit": "b9d684df333ff6812734b197de99a886e173d0e1",
+  "casual_details": {
+    "1": {
+      "scene": "Late-afternoon sun filters through the carved stone screens of a textile courtyard; she checks a ceramic dye bowl on a low worktable before a weaving demonstration.",
+      "outfit": "A modern slate-silver silk thobe-inspired dress keeps its long straight cut and embroidered chest panel, with a halter neckline baring the shoulders and a high thigh slit. Seven tiny ruby-red embroidered circles decorate the charcoal chest panel.",
+      "reasons": {
+        "scene": "The dress example supplies no setting or activity; textile dye inspection provides both.",
+        "outfit": "The example defines a straight gown and chest embroidery but leaves colour, fabric and openings unspecified; the planned halter and thigh slit preserve the long gown.",
+        "axes": "Balanced movement for dye inspection; strong source influence through silver, charcoal and seven ruby dots; one dress uses balanced separates."
+      }
+    },
+    "2": {
+      "scene": "She eats a pear wedge from a small saucer at the kitchen island after midnight; the open refrigerator casts cool light across pale oak cabinets and a warm under-cabinet lamp.",
+      "outfit": "A soft sage jersey lounge jumpsuit has a strapless bodice and a folded off-shoulder neckline draped below the collarbones, exposing both shoulders and the upper chest. A thin charcoal waist seam is its only source-colour echo.",
+      "reasons": {
+        "scene": "Late snack example omits the food and lighting; pear, refrigerator and oak cabinetry specify them.",
+        "outfit": "The example asks for loungewear but supplies no garment; the planned jumpsuit and two neckline openings become soft jersey lounge clothing.",
+        "axes": "Active eating gesture and turning movement use mostly active; one charcoal seam keeps source subtle; a jumpsuit is a single garment."
+      }
+    },
+    "3": {
+      "scene": "A glass of chilled berry water and a folded towel rest beside her after swimming laps; blue-hour city lights shimmer beyond the rooftop infinity edge.",
+      "outfit": "A fully lined slate-silver bandeau bikini has charcoal piping, a secure low back clasp, and matching mid-rise bottoms. The strapless top bares her shoulders and collarbones while the low fastening leaves her upper back open.",
+      "reasons": {
+        "scene": "The rooftop example supplies no activity or time; post-lap refreshment and blue hour add a concrete pause.",
+        "outfit": "The pool example names swimwear without specifying construction; the planned bikini uses strapless support and a low open back.",
+        "axes": "The post-swim pause is mostly posed; silver and charcoal are a few balanced colour cues; the bikini is treated as one coordinated outfit."
+      }
+    }
+  },
+  "final_casual3_plan": {
+    "session": "registeel-casual3-20261025-f0c6",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "레지스틸",
+        "species": "registeel-20261025",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "thobe_inspired",
+            "expr": "determined",
+            "pose": "bending_over",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "halter neck",
+              "high thigh slit"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "late_snack",
+            "expr": "calm",
+            "pose": "mid_stride",
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "strapless top",
+              "off-shoulder neckline"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "rooftop_infinity_pool",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "sensual",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "replan_reason": "Before generation, planned necklines conflicted with high-neck or halter swimsuit examples. Only pending casual3 was replanned; casual1 and casual2 were preserved.",
+  "unsubmitted_examples": [
+    "burkini_modest",
+    "highleg_onepiece",
+    "halter_bikini"
+  ],
+  "final_casual3_reservation_commit": "fefdaf76b2469a8cdabfebef94912e812b2cfac7"
+}

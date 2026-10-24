@@ -1,0 +1,114 @@
+{
+  "card": "레지스틸",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "레지스틸",
+    "cards": {
+      "레지스틸": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "sensual",
+            "pose": "sitting",
+            "orient": "reclining",
+            "scene": "A glass of chilled berry water and a folded towel rest beside her after swimming laps; blue-hour city lights shimmer beyond the rooftop infinity edge.",
+            "outfit": "A fully lined slate-silver bandeau bikini has charcoal piping, a secure low back clasp, and matching mid-rise bottoms. The strapless top bares her shoulders and collarbones while the low fastening leaves her upper back open.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "rooftop_infinity_pool",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Registeel (레지스틸) personified, steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: heavy-lidded eyes, lips slightly parted and relaxed, brow smooth, chin a little lowered\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: reclined body supported by a surface\nScene: A glass of chilled berry water and a folded towel rest beside her after swimming laps; blue-hour city lights shimmer beyond the rooftop infinity edge.\nOutfit and props: A fully lined slate-silver bandeau bikini has charcoal piping, a secure low back clasp, and matching mid-rise bottoms. The strapless top bares her shoulders and collarbones while the low fastening leaves her upper back open.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: in swimwear at a rooftop infinity pool with the city skyline behind her\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "swimwear",
+    "ex": "rooftop_infinity_pool",
+    "garments": [
+      "bikini"
+    ],
+    "orient": "reclining",
+    "frame": "environmental",
+    "pose": "sitting",
+    "expr": "sensual",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "strapless top",
+      "open back"
+    ],
+    "lead": "detail"
+  },
+  "direct_input_reasons": {
+    "scene": "The rooftop example supplies no activity or time; post-lap refreshment and blue hour add a concrete pause.",
+    "outfit": "The pool example names swimwear without specifying construction; the planned bikini uses strapless support and a low open back.",
+    "axes": "The post-swim pause is mostly posed; silver and charcoal are a few balanced colour cues; the bikini is treated as one coordinated outfit."
+  },
+  "axes_reasons": "The post-swim pause is mostly posed; silver and charcoal are a few balanced colour cues; the bikini is treated as one coordinated outfit.",
+  "reservation_session": "registeel-casual3-20261025-f0c6",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
