@@ -1,0 +1,120 @@
+{
+  "card": "화강돌",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "화강돌",
+    "cards": {
+      "화강돌": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "determined",
+            "pose": "preparing_food",
+            "orient": "three_quarter_back",
+            "scene": "She chops fresh herbs for couscous at a sunlit kitchen island; sliced tomatoes, a ceramic bowl and a wooden spoon sit beside the chopping board.",
+            "outfit": "A cropped ivory apron over an off-shoulder short-sleeve cotton tee, with both hems ending above the waist, sage-green tailored denim jeans and narrow violet apron ties.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "simple_cooking",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Spiritomb (화강돌) personified, ghost / dark type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows pulled down and in, hard forward gaze, jaw clenched, mouth a tight line\nPose: Work at a kitchen counter, stirring a bowl or arranging ingredients with clearly separated hands and utensils.\nOrientation: rear three-quarter view with natural equipment depth and occlusion\nScene: She chops fresh herbs for couscous at a sunlit kitchen island; sliced tomatoes, a ceramic bowl and a wooden spoon sit beside the chopping board.\nOutfit and props: A cropped ivory apron over an off-shoulder short-sleeve cotton tee, with both hems ending above the waist, sage-green tailored denim jeans and narrow violet apron ties.\nCategory: Create candid ordinary personal-life moments. The scene should feel lived-in, believable, and visually specific rather than staged. Use normal contemporary clothing with clear character personality. Avoid glamour-shoot posing, professional work, and costume styling.\nExample scene: in her kitchen in a casual tee, jeans and apron, chopping ingredients\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "reservation_commit": "22e891e04da68e2e33db0a0ae117672a72f41ad0",
+  "example_text": "in her kitchen in a casual tee, jeans and apron, chopping ingredients",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "everyday_basic",
+    "ex": "simple_cooking",
+    "garments": [
+      "apron",
+      "trousers"
+    ],
+    "orient": "three_quarter_back",
+    "frame": "three_quarter",
+    "pose": "preparing_food",
+    "expr": "determined",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "cropped hem",
+      "off-shoulder neckline"
+    ],
+    "lead": "action"
+  },
+  "axes_reasons": [
+    "도마 위에서 허브를 써는 가벼운 조리 동작이라 balanced",
+    "허리의 보라 끈이 종의 색만 적당히 남겨 balanced",
+    "앞치마·티셔츠와 데님 바지가 분리되어 prefer separates"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "She chops fresh herbs for couscous at a sunlit kitchen island; sliced tomatoes, a ceramic bowl and a wooden spoon sit beside the chopping board.",
+      "reason": "간단한 요리라는 예시에 쿠스쿠스용 허브를 써는 활동·아침빛 아일랜드 조리대를 보충했다."
+    },
+    {
+      "field": "outfit",
+      "content": "A cropped ivory apron over an off-shoulder short-sleeve cotton tee, with both hems ending above the waist, sage-green tailored denim jeans and narrow violet apron ties.",
+      "reason": "계획의 앞치마와 바지를 유지하고 짧은 앞치마와 티셔츠·내려간 어깨선으로 어깨와 복부가 보이게 했다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+    }
+  ]
+}

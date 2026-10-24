@@ -1,0 +1,455 @@
+{
+  "batch": {
+    "session": "chatot-spiritomb-bda553-20261024",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "페라페",
+        "species": "chatot-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_cheering",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting_floor",
+            "expr": "serious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "morning_lingerie",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "turning_back",
+            "expr": "half_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "hotel_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "mischievous",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "lingerie_set"
+          ],
+          "orient": [
+            "reclining",
+            "profile_close",
+            "high_angle"
+          ],
+          "frame": [
+            "environmental"
+          ]
+        }
+      },
+      {
+        "card": "화강돌",
+        "species": "spiritomb-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "caftan_evening",
+            "garments": [
+              "robe"
+            ],
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "pose": "on_tiptoe",
+            "expr": "nostalgic",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "simple_cooking",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "preparing_food",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_secretary",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "small_jog",
+            "expr": "laughing",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe"
+          ],
+          "orient": [
+            "looking_down",
+            "three_quarter_back",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "caftan_evening",
+      "garments": [
+        "robe"
+      ],
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "pose": "on_tiptoe",
+      "expr": "nostalgic",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example": "a Moroccan evening caftan — a long embroidered robe with a decorated belt and sfifa trim",
+      "scene": "An arched courtyard gallery with carved plaster niches hosts an evening textile gathering; she lifts a silk drape onto a brass hook as lanterns warm the tiled wall.",
+      "outfit": "A saffron silk Moroccan caftan robe with sfifa braid trim and a decorated waist belt, one shoulder elegantly draped and the other bare, a plunging neckline, and tiny violet bead embroidery along the edge.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "드레이프를 고리에 거는 움직임이 중심이라 mostly active",
+        "보랏빛 자수만 작은 색감으로 남겨 balanced",
+        "늘어지는 카프탄 로브 한 벌이라 balanced"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "An arched courtyard gallery with carved plaster niches hosts an evening textile gathering; she lifts a silk drape onto a brass hook as lanterns warm the tiled wall.",
+          "reason": "전통 이브닝 레이어링 예시에 회랑 직물 모임·실크 드레이프를 거는 활동·등불을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A saffron silk Moroccan caftan robe with sfifa braid trim and a decorated waist belt, one shoulder elegantly draped and the other bare, a plunging neckline, and tiny violet bead embroidery along the edge.",
+          "reason": "지역 미정의 전통 이브닝을 실크 카프탄으로 구체화하고 한쪽 어깨와 깊은 목선으로 계획의 노출 방식을 구현했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "simple_cooking",
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "three_quarter",
+      "pose": "preparing_food",
+      "expr": "determined",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "example": "in her kitchen in a casual tee, jeans and apron, chopping ingredients",
+      "scene": "She chops fresh herbs for couscous at a sunlit kitchen island; sliced tomatoes, a ceramic bowl and a wooden spoon sit beside the chopping board.",
+      "outfit": "A cropped ivory apron over an off-shoulder short-sleeve cotton tee, with both hems ending above the waist, sage-green tailored denim jeans and narrow violet apron ties.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "도마 위에서 허브를 써는 가벼운 조리 동작이라 balanced",
+        "허리의 보라 끈이 종의 색만 적당히 남겨 balanced",
+        "앞치마·티셔츠와 데님 바지가 분리되어 prefer separates"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She chops fresh herbs for couscous at a sunlit kitchen island; sliced tomatoes, a ceramic bowl and a wooden spoon sit beside the chopping board.",
+          "reason": "간단한 요리라는 예시에 쿠스쿠스용 허브를 써는 활동·아침빛 아일랜드 조리대를 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped ivory apron over an off-shoulder short-sleeve cotton tee, with both hems ending above the waist, sage-green tailored denim jeans and narrow violet apron ties.",
+          "reason": "계획의 앞치마와 바지를 유지하고 짧은 앞치마와 티셔츠·내려간 어깨선으로 어깨와 복부가 보이게 했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "adult_secretary",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "small_jog",
+      "expr": "laughing",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "strapless top",
+        "side cutouts"
+      ],
+      "lead": "detail",
+      "example": "a retro secretary-inspired costume with a fitted blazer, pencil skirt, and decorative eyewear, at a themed office party",
+      "scene": "A pair of decorative cat-eye glasses and a slim folder accompany her entrance to a retro office-themed costume party, where a punch bowl and amber spotlights frame the doorway.",
+      "outfit": "A fitted plum cropped blazer with open side cutouts over a strapless opaque bodice, a matching high-waisted pencil skirt with a walking slit, emerald buttons and decorative cat-eye glasses.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "파티 입구로 가볍게 뛰어드는 동작이 중심이라 mostly active",
+        "보라와 초록 단추가 원작 팔레트를 뚜렷이 반영해 strong",
+        "블레이저·스트랩리스 이너·펜슬스커트가 분리되어 prefer separates"
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A pair of decorative cat-eye glasses and a slim folder accompany her entrance to a retro office-themed costume party, where a punch bowl and amber spotlights frame the doorway.",
+          "reason": "테마 사무실 파티 예시를 유지하고 입장 동선·펀치볼·조명·얇은 폴더를 구체화했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A fitted plum cropped blazer with open side cutouts over a strapless opaque bodice, a matching high-waisted pencil skirt with a walking slit, emerald buttons and decorative cat-eye glasses.",
+          "reason": "예시의 블레이저·펜슬스커트·장식 안경을 유지하고 스트랩리스 이너와 짧은 옆 트임으로 계획의 드러내는 방식을 반영했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+        }
+      ]
+    }
+  ],
+  "planner_check": "passed; reservation 22e891e04da68e2e33db0a0ae117672a72f41ad0",
+  "invalid_candidate": "outerwear repeated in Spiritomb cuts 2 and 3; planner avoided parcel_pickup and regenerated"
+}

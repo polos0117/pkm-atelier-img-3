@@ -1,0 +1,363 @@
+{
+  "card": "화강돌",
+  "style": "glossy_promo",
+  "reviewer": "gpt",
+  "reference": "light",
+  "face_design_basis": "봉인된 구체·초승달 눈·들쭉날쭉한 입을 넓은 타원 윤곽, 뒤로 물러난 부드러운 턱, 치켜올라간 눈과 꺾인 눈썹, 넓은 입으로 옮긴 직접 설계. data/face-design.json 442와 docs/CHARACTER_FACE_DESIGNS.md, 원작 외형의 초록 보석·보랏빛을 대조. 긴 비대칭컷과 한쪽 눈을 덮는 사이드뱅을 유지.",
+  "face_comparison": {
+    "cards": [
+      "페라페",
+      "핑복",
+      "흉내내"
+    ],
+    "evidence": "경장을 나란히 보아 화강돌은 올라간 좁은 눈매와 사선 눈썹, 넓은 얼굴의 뺨과 뒤로 물러난 작은 턱이 읽힘. 페라페의 큰 아몬드 눈·둥근 턱, 핑복의 부드러운 열린 눈, 흉내내의 짧은 얼굴과 구별된다."
+  },
+  "casual_diversity": {
+    "pass": true,
+    "compared": [
+      "페라페",
+      "핑복",
+      "흉내내"
+    ],
+    "evidence": "회랑에서 천을 거는 사프란 카프탄, 주방에서 허브를 써는 짧은 티셔츠·앞치마·데님, 파티 입구로 뛰어드는 보라 블레이저·펜슬스커트는 의상·장소·활동·구도가 구별됨. 최근 캐릭터의 관중석·창가·호텔, 수영장·우산·갈라, 모자 고정·지도·향수와 실제 그림을 나란히 비교했다.",
+    "look_check": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-a8471601-250d-42e6-be93-c2cbb13be1df.png",
+          "near": [
+            [
+              "사랑동이_glossy_promo_f_casual3.webp",
+              280
+            ],
+            [
+              "차오꿀_glossy_promo_f_casual3.webp",
+              292
+            ],
+            [
+              "어둠대신_glossy_promo_f_casual1.webp",
+              300
+            ],
+            [
+              "트리토돈_glossy_promo_f_casual1.webp",
+              302
+            ],
+            [
+              "귀뚤뚜기_glossy_promo_f_casual1.webp",
+              315
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-ee8c1c08-7f38-49d1-9fb2-bd52fa0c5f42.png",
+          "near": [
+            [
+              "버터플_glossy_promo_f_casual3.webp",
+              250
+            ],
+            [
+              "덩쿠리_glossy_promo_f_casual1.webp",
+              260
+            ],
+            [
+              "쌔비냥_glossy_promo_f_casual3.webp",
+              261
+            ],
+            [
+              "마릴리_glossy_promo_f_casual3.webp",
+              268
+            ],
+            [
+              "깜지곰_glossy_promo_f_casual1.webp",
+              273
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/bda553685394/generated_images/exec-d3e66cc3-78b7-4ae4-a715-ef4bf04cd508.png",
+          "near": [
+            [
+              "고우스트_glossy_promo_f_casual2.webp",
+              248
+            ],
+            [
+              "방패톱스_glossy_promo_f_casual2.webp",
+              256
+            ],
+            [
+              "덩쿠리_glossy_promo_f_casual3.webp",
+              261
+            ],
+            [
+              "우츠보트_glossy_promo_f_casual2.webp",
+              262
+            ],
+            [
+              "디그다_glossy_promo_f_casual1.webp",
+              274
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "전신과 양 발 끝이 프레임 안. 얇은 어깨·전완·골반·정강이 판과 보라 슈트, 초록 보석, 긴 비대칭 머리."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "경장과 같은 얼굴·헤어. 흉갑·어깨·전완·허벅지·정강이에 넓은 겹판이 중첩되어 실루엣이 두꺼움."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "같은 얼굴·헤어. 얇은 패널이 어깨·허리·종아리에서 뒤로 펼쳐지고 초록 추진부가 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "경장과 손·발·머리 및 배경 위치가 대응. 얇은 판이 벌어진 안쪽에서 보랏빛 프레임이 드러남."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "중장과 전신 구도·자세가 대응. 어깨·전완·골반·다리 겹판 틈에서 보랏빛 내부가 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "check · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다; 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 6.6 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": true,
+        "note": "뼈대 그림은 흉갑을 작은 몸으로 잡아 실제 왼손까지 거리가 크다고 표시했다. 원본에서 그 손은 검은 장갑 손목·전완 갑주·상완·어깨에 연속되고 엄지+네 손가락이다. 오른팔과 두 다리도 끊김 없이 연결된다."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "고기동과 인물 크기·손·발 위치가 대응. 펼친 패널이 더 열리고 추진부 주변으로 보랏빛이 드러남."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 엄지와 네 손가락이 별개로 보이며 손목에서 전완·팔꿈치·어깨까지 연속. 화면 오른손은 아래로 구부린 손가락 일부가 서로 가려지고 엄지가 손바닥 안쪽에 있음. 두 팔과 두 다리만 보임.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "아치 회랑·격자 등불·황동 고리에 천을 거는 동작. 사프란 카프탄은 브레이드 트림·장식 띠·깊은 목선과 드러난 한쪽 어깨가 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "check · 몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다; 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 2.4 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "높은 고리의 손은 엄지와 집는 손가락 일부가 보이고 나머지는 천에 가려짐. 아래 손은 손등과 손가락 일부가 보이며 끝은 오른쪽 프레임 밖. 소매 안에서 두 전완과 두 손이 이어짐. 다리는 로브와 아래 프레임 밖.",
+        "overlay_checked": true,
+        "note": "뼈대 그림은 입·가슴·소매를 어깨·팔·다리로 잡아 몸 3개와 떨어진 손을 표시했다. 원본에서 고리 위 손은 위로 든 팔에, 아래 손은 앞쪽 소매에서 나온 팔에 연결되며 별도 세 번째 인물·손은 없다."
+      },
+      "observed_deviations": "가슴 위보다 허리 아래까지 담겼고 아래 시선 대신 천 쪽 위를 봄. 입은 옅게 벌어지고 표정은 아련함보다 차분함. 발은 프레임 밖이라 까치발 여부는 확인 불가."
+    },
+    "casual2": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "햇빛 주방의 도마 위 허브를 칼로 써는 동작. 토마토·쿠스쿠스 그릇, 어깨와 허리가 드러난 짧은 티셔츠·앞치마와 녹색 데님."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "칼 쥔 손은 손잡이 위 굽힌 네 손가락, 엄지는 손잡이 뒤로 일부 가려짐. 허브를 모은 반대 손은 손가락 일부가 잎과 앞팔에 가려짐. 두 손은 별도 팔에서 이어지고 다리는 데님 안에 따로 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      },
+      "observed_deviations": "무릎 위보다 아래까지 담겼고 앞치마 하단이 계획보다 길다. 짧은 티셔츠와 허리 노출, 뒤 3/4 몸통·돌아본 얼굴·다문 입과 조리 활동은 유지."
+    },
+    "casual3": {
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "보라 눈, 긴 흑자색 머리와 자주 끝, 눈을 덮는 사이드뱅, 올라간 눈매와 작은 턱 유지"
+      },
+      "scene_form": {
+        "match": true,
+        "evidence": "파티 문·펀치볼·장식 풍선과 입장하는 보폭. 안경·폴더·보라 블레이저·스트랩리스 보디스·펜슬스커트, 복부와 옆구리 컷아웃이 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536, 2:3"
+      },
+      "text": {
+        "match": true,
+        "evidence": "천·소매·주방 칼/그릇·폴더·파티 문 확대에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "몸 옆의 가볍게 쥔 손은 접힌 네 손가락과 옆 엄지 윤곽. 폴더 쥔 손은 네 손가락이 앞면에, 엄지는 폴더 뒤로 가려짐. 양팔·두 다리와 두 구두가 몸에 이어지고 관절 방향이 자연스럽다.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 확대에서 양팔과 다리의 몸 연결을 셈. 판과 망토 자락을 추가 팔다리로 세지 않았다."
+      },
+      "observed_deviations": "눈을 감는 웃음보다 한쪽 눈을 뜬 큰 웃음. 뒤로 기댄 상체보다 앞으로 들어오는 달리기 자세이며 전신·폴더·파티 입장 동작은 유지."
+    }
+  }
+}

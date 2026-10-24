@@ -1,0 +1,120 @@
+{
+  "card": "화강돌",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "화강돌",
+    "cards": {
+      "화강돌": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "laughing",
+            "pose": "small_jog",
+            "orient": "leaning_back",
+            "scene": "A pair of decorative cat-eye glasses and a slim folder accompany her entrance to a retro office-themed costume party, where a punch bowl and amber spotlights frame the doorway.",
+            "outfit": "A fitted plum cropped blazer with open side cutouts over a strapless opaque bodice, a matching high-waisted pencil skirt with a walking slit, emerald buttons and decorative cat-eye glasses.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_secretary",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Spiritomb (화강돌) personified, ghost / dark type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: head tipped back slightly, eyes squeezed nearly shut, mouth open wide with teeth showing, cheeks raised high\nPose: Jog lightly with compact arm movement and a believable running step.\nOrientation: torso leaning backward with clear support\nScene: A pair of decorative cat-eye glasses and a slim folder accompany her entrance to a retro office-themed costume party, where a punch bowl and amber spotlights frame the doorway.\nOutfit and props: A fitted plum cropped blazer with open side cutouts over a strapless opaque bodice, a matching high-waisted pencil skirt with a walking slit, emerald buttons and decorative cat-eye glasses.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a retro secretary-inspired costume with a fitted blazer, pencil skirt, and decorative eyewear, at a themed office party\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "reservation_commit": "22e891e04da68e2e33db0a0ae117672a72f41ad0",
+  "example_text": "a retro secretary-inspired costume with a fitted blazer, pencil skirt, and decorative eyewear, at a themed office party",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "adult_roleplay",
+    "ex": "adult_secretary",
+    "garments": [
+      "jacket",
+      "skirt"
+    ],
+    "orient": "leaning_back",
+    "frame": "full_body",
+    "pose": "small_jog",
+    "expr": "laughing",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "strapless top",
+      "side cutouts"
+    ],
+    "lead": "detail"
+  },
+  "axes_reasons": [
+    "파티 입구로 가볍게 뛰어드는 동작이 중심이라 mostly active",
+    "보라와 초록 단추가 원작 팔레트를 뚜렷이 반영해 strong",
+    "블레이저·스트랩리스 이너·펜슬스커트가 분리되어 prefer separates"
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "A pair of decorative cat-eye glasses and a slim folder accompany her entrance to a retro office-themed costume party, where a punch bowl and amber spotlights frame the doorway.",
+      "reason": "테마 사무실 파티 예시를 유지하고 입장 동선·펀치볼·조명·얇은 폴더를 구체화했다."
+    },
+    {
+      "field": "outfit",
+      "content": "A fitted plum cropped blazer with open side cutouts over a strapless opaque bodice, a matching high-waisted pencil skirt with a walking slit, emerald buttons and decorative cat-eye glasses.",
+      "reason": "예시의 블레이저·펜슬스커트·장식 안경을 유지하고 스트랩리스 이너와 짧은 옆 트임으로 계획의 드러내는 방식을 반영했다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 설정이 없어 2:3 픽셀 크기를 보충한다."
+    }
+  ]
+}
