@@ -1,6 +1,6 @@
 {
   "card": "아공이",
-  "status": "qa_done_upload_pending",
+  "status": "registered_complete",
   "generated": 9,
   "requested": 9,
   "canonical": {
@@ -53,7 +53,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     },
     {
       "slot": "mobility",
@@ -70,7 +71,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     },
     {
       "slot": "light_overdrive",
@@ -87,7 +89,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     },
     {
       "slot": "heavy_overdrive",
@@ -104,7 +107,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "heavy"
+      "reference_slot": "heavy",
+      "reference_sha256": "7bf4704eee878b41dd2be6b94727dea23c23d0c9d72b0cb1ffb4336caae27347"
     },
     {
       "slot": "mobility_overdrive",
@@ -121,7 +125,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "mobility"
+      "reference_slot": "mobility",
+      "reference_sha256": "2d72b2e604e4dec03ca187feccda26045955615bb5312b11f0b6488ab14cb544"
     },
     {
       "slot": "casual1",
@@ -138,7 +143,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     },
     {
       "slot": "casual2",
@@ -155,7 +161,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     },
     {
       "slot": "casual3",
@@ -172,7 +179,8 @@
         1536
       ],
       "format": "WEBP",
-      "reference_slot": "light"
+      "reference_slot": "light",
+      "reference_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
     }
   ],
   "face_reason": "단단한 머리와 큰 둥근 주둥이를 넓은 얼굴와 둥근 사람 코끝으로 해석한다.",
@@ -191,5 +199,14 @@
   },
   "actual_hair_observation": "설정 medium layered보다 길게 그려졌다. 확정 경장 이미지가 후속 인물 기준이다.",
   "originals_session_only": true,
-  "skipped": []
+  "skipped": [],
+  "image_commit": "981e17f7e50c698486909dba688037e8cd6c9c15",
+  "thumbnail_commit": "6cdcdaabf013ae3bdceabd7e87cd4ee36733270d",
+  "registration_commit": "dc05ea53ddac28a2ef3e336609ca12efb7cc7396",
+  "verified_images": 9,
+  "verification": "remote main fetched: WebP sha256 equals generated conversion; thumbnails exist; data/img.json where=2 for each exact filename",
+  "workflow_results": {
+    "thumbnails": "success",
+    "registration": "success"
+  }
 }
