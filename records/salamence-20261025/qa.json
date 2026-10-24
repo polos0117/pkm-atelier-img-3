@@ -1,0 +1,309 @@
+{
+  "card": "보만다",
+  "accepted": true,
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "b2aa3f7ba83e642a37c0667bdb53033186476cd9b53f2f46f60028e20d12ef47",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "몸에 붙는 얇은 판과 붉은 분할 망토, 두 팔이 아래로 이어짐. 머리부터 부츠 끝까지 프레임 안에 있음.",
+        "각진 하관·긴 콧대·가로로 긴 회색 눈이 쉘곤의 작은 타원 얼굴, 먹고자의 짧고 둥근 얼굴, 리오르의 좁은 턱, 화강돌의 부드러운 얼굴과 구분됨."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": true,
+        "note": "각진 하관·긴 콧대·가로로 긴 회색 눈이 쉘곤의 작은 타원 얼굴, 먹고자의 짧고 둥근 얼굴, 리오르의 좁은 턱, 화강돌의 부드러운 얼굴과 구분됨."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "890c41331e079f884b6f865e45e7e1b97acbf9f7e5d5c41a71b5f464e425896e",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "어깨·전완·허벅지·정강이에 두꺼운 판이 겹쳐 외곽이 커짐. 얼굴·푸른 회색 머리·두 다리 크기는 경장과 같음.",
+        "정수리와 관자놀이에 열린 헬멧이 추가되지만 눈·턱은 드러남."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": false,
+        "note": "정수리와 관자놀이에 열린 헬멧이 추가되지만 눈·턱은 드러남."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "ffbd78ac217eda4567051fd9ddd9f467a189119756ab760a9acda8d3424485e6",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "어깨·골반·종아리의 얇은 판이 뒤로 갈라져 펴지고 파란 소형 추진기가 보임. 두 팔과 두 다리는 몸에 연결됨.",
+        "얼굴과 머리 길이는 경장과 같고 붉은 망토는 작은 갈래로 정리됨."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": false,
+        "note": "얼굴과 머리 길이는 경장과 같고 붉은 망토는 작은 갈래로 정리됨."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "618916928c27028c78ad27638bee163304830617bd37c0876d8d8b30e3892290",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "경장의 발 위치·카메라·골반 방향을 유지하며 허리·전완·정강이의 이음새가 열려 보라 빛이 나옴.",
+        "경장과 동일한 양손 자세이며 새 무장이나 헬멧 없음."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": false,
+        "note": "경장과 동일한 양손 자세이며 새 무장이나 헬멧 없음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "57c251f8461fdc3894ee1a2d3343ed8a4769538ef0f4fb9fe1330e25a22f17d0",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "중장의 발 위치·얼굴 크기·겹친 판을 유지하고 어깨와 허리 판 사이가 벌어져 보라 빛이 드러남.",
+        "검사기는 머리 위 허공에 뼈대를 잡음. 실제 양손은 아래로 이어진 전완 끝에 붙었고 셋째 손 없음."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 1.7 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": true,
+        "note": "검사기는 머리 위 허공에 뼈대를 잡음. 실제 양손은 아래로 이어진 전완 끝에 붙었고 셋째 손 없음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "44f07ebf7984261e47a2e448b59c00c61ee852f1d685165549dccc77af098520",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "고기동과 같은 몸 위치에서 뒤로 펼친 패널이 더 벌어지고 추진기 덮개 안쪽이 보라 빛으로 드러남.",
+        "손·다리·신발 위치는 닫힌 폼과 대응함."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+        "overlay_checked": false,
+        "note": "손·다리·신발 위치는 닫힌 폼과 대응함."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "e36df6cb1e6e34c8f5154f1edfa4b803ef46c6c363defd655bed0a2d8dce3d3f",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "검정 불투명 안감의 홀터 레이스 세트, 낮은 오토만의 아이보리 스카프를 손바닥으로 누름. 두 무릎을 바닥에 대고 있음.",
+        "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "note · 몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+        "arms": 2,
+        "legs": 2,
+        "hands": "스카프 위 가까운 손은 엄지와 네 손가락이 겹쳐 보임; 먼 손은 가까운 손·오토만에 일부 가려짐. 팔은 각각 어깨와 연결됨.",
+        "overlay_checked": false,
+        "note": "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "검정 불투명 안감의 홀터 레이스 세트, 낮은 오토만의 아이보리 스카프를 손바닥으로 누름. 두 무릎을 바닥에 대고 있음."
+      },
+      "selected_pose_framing_expression": {
+        "match": false,
+        "evidence": "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+      },
+      "diversity_comparison": "먹고자·리오르·화강돌의 실제 일상 9장과 병치. 낮은 오토만 레이스 정리·수변 기둥의 전신 커버업·상자 수령 쪼그림은 장소·행동·옷 구조·몸의 높이로 구분됨."
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "eb54ebcad2686073d1db859462ddde6c703b73af01ccc4977fd044b6f4700d31",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "수영장 기둥에 어깨를 기대고 한 손은 붉은 끈을 잡음. 파란 수영복 위 붉은 한복선 저고리·긴 랩치마, 복부와 어깨·다리가 드러남.",
+        "수정 후 금속 머리장식·귀걸이가 제거됨. 전신과 라군·파빌리온이 보이며 머리는 앞 3/4."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "아래로 내린 손은 엄지와 네 손가락, 끈을 쥔 손은 엄지·검지가 보이고 나머지는 접혀 겹침. 맨발 각각 발가락 다섯, 양 발목 연속.",
+        "overlay_checked": false,
+        "note": "수정 후 금속 머리장식·귀걸이가 제거됨. 전신과 라군·파빌리온이 보이며 머리는 앞 3/4."
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "수영장 기둥에 어깨를 기대고 한 손은 붉은 끈을 잡음. 파란 수영복 위 붉은 한복선 저고리·긴 랩치마, 복부와 어깨·다리가 드러남."
+      },
+      "selected_pose_framing_expression": {
+        "match": true,
+        "evidence": "수정 후 금속 머리장식·귀걸이가 제거됨. 전신과 라군·파빌리온이 보이며 머리는 앞 3/4."
+      },
+      "diversity_comparison": "먹고자·리오르·화강돌의 실제 일상 9장과 병치. 낮은 오토만 레이스 정리·수변 기둥의 전신 커버업·상자 수령 쪼그림은 장소·행동·옷 구조·몸의 높이로 구분됨."
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "d5dd1cc5f99be16f901a6a9a38c9aae3f1bfd2340ebf2557d954d9a622a07bb5",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": [
+        "편의점 낮은 선반에서 상자를 잡는 웅크린 자세. 회색 후드 니트 밴도·검정 레깅스·운동화, 어깨와 복부가 드러남.",
+        "수정 후 상자 라벨과 신발 표시가 없어짐. 한 손은 무릎 위로 자연스럽게 늘어지고 다른 손은 상자 위. 프레임은 요청보다 넓어 신발까지 보임."
+      ],
+      "identity": {
+        "match": true,
+        "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG 확인"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+      },
+      "anatomy": {
+        "tool": "ok · ",
+        "arms": 2,
+        "legs": 2,
+        "hands": "무릎 위 손에서 엄지와 네 손가락, 상자 위 손은 엄지·검지·중지가 보이고 다른 둘은 상자 뒤에 가려짐. 팔꿈치·무릎은 굽힘 방향이 자연스러움.",
+        "overlay_checked": false,
+        "note": "수정 후 상자 라벨과 신발 표시가 없어짐. 한 손은 무릎 위로 자연스럽게 늘어지고 다른 손은 상자 위. 프레임은 요청보다 넓어 신발까지 보임."
+      },
+      "scene_outfit": {
+        "match": true,
+        "evidence": "편의점 낮은 선반에서 상자를 잡는 웅크린 자세. 회색 후드 니트 밴도·검정 레깅스·운동화, 어깨와 복부가 드러남."
+      },
+      "selected_pose_framing_expression": {
+        "match": false,
+        "evidence": "수정 후 상자 라벨과 신발 표시가 없어짐. 한 손은 무릎 위로 자연스럽게 늘어지고 다른 손은 상자 위. 프레임은 요청보다 넓어 신발까지 보임."
+      },
+      "diversity_comparison": "먹고자·리오르·화강돌의 실제 일상 9장과 병치. 낮은 오토만 레이스 정리·수변 기둥의 전신 커버업·상자 수령 쪼그림은 장소·행동·옷 구조·몸의 높이로 구분됨."
+    }
+  ],
+  "compared_characters": [
+    "쉘곤",
+    "먹고자",
+    "리오르",
+    "화강돌"
+  ]
+}

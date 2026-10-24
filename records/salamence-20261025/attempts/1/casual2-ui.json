@@ -1,0 +1,116 @@
+{
+  "card": "보만다",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "보만다",
+    "cards": {
+      "보만다": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "sensual",
+            "pose": "leaning_wall",
+            "orient": "front_3q",
+            "scene": "A pale-stone pool pavilion opens onto a blue mountain lagoon, with warm late-afternoon light on its tiled terrace; she draws the cover-up ribbon through her fingers.",
+            "outfit": "A cobalt swimsuit sits beneath a red silk hanbok-line cover-up: a cropped open-back jeogori and a high-waisted flowing wrap skirt with a deep side opening.",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "hanbok_coverup",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Salamence (보만다) personified, dragon / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: heavy-lidded eyes, lips slightly parted and relaxed, brow smooth, chin a little lowered\nPose: Lean a shoulder or the back lightly against a wall while keeping balance through the feet.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: A pale-stone pool pavilion opens onto a blue mountain lagoon, with warm late-afternoon light on its tiled terrace; she draws the cover-up ribbon through her fingers.\nOutfit and props: A cobalt swimsuit sits beneath a red silk hanbok-line cover-up: a cropped open-back jeogori and a high-waisted flowing wrap skirt with a deep side opening.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "swimwear",
+    "ex": "hanbok_coverup",
+    "garments": [
+      "skirt",
+      "traditional"
+    ],
+    "orient": "front_3q",
+    "frame": "environmental",
+    "pose": "leaning_wall",
+    "expr": "sensual",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "cropped hem",
+      "open back"
+    ],
+    "lead": "place"
+  },
+  "direct_input_reasons": {
+    "scene": "한복선 커버업 예시에 없는 산 라군 파빌리온과 끈을 정돈하는 활동을 보충함",
+    "outfit": "계획의 치마·전통 의상·짧은 자락·오픈백을 저고리와 트임 랩치마로 구현함",
+    "axes": "커버업 끈을 당기는 가벼운 움직임에 balanced; 청색과 적색이 의상에 넓게 드러나 strong; 저고리와 치마로 separates"
+  },
+  "axes_reasons": "커버업 끈을 당기는 가벼운 움직임에 balanced; 청색과 적색이 의상에 넓게 드러나 strong; 저고리와 치마로 separates",
+  "reservation_session": "gpt-salamence-beldum-20261025",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

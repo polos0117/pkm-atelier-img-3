@@ -1,0 +1,39 @@
+{
+  "slot": "casual1",
+  "image_sha256": "e36df6cb1e6e34c8f5154f1edfa4b803ef46c6c363defd655bed0a2d8dce3d3f",
+  "reviewer": "gpt",
+  "accepted": true,
+  "observations": [
+    "검정 불투명 안감의 홀터 레이스 세트, 낮은 오토만의 아이보리 스카프를 손바닥으로 누름. 두 무릎을 바닥에 대고 있음.",
+    "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+  ],
+  "identity": {
+    "match": true,
+    "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+  },
+  "dimensions": {
+    "match": true,
+    "evidence": "1024×1536 PNG 확인"
+  },
+  "text": {
+    "match": true,
+    "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+  },
+  "anatomy": {
+    "tool": "note · 몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다",
+    "arms": 2,
+    "legs": 2,
+    "hands": "스카프 위 가까운 손은 엄지와 네 손가락이 겹쳐 보임; 먼 손은 가까운 손·오토만에 일부 가려짐. 팔은 각각 어깨와 연결됨.",
+    "overlay_checked": false,
+    "note": "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+  },
+  "scene_outfit": {
+    "match": true,
+    "evidence": "검정 불투명 안감의 홀터 레이스 세트, 낮은 오토만의 아이보리 스카프를 손바닥으로 누름. 두 무릎을 바닥에 대고 있음."
+  },
+  "selected_pose_framing_expression": {
+    "match": false,
+    "evidence": "요청한 측면 근접보다 앞 3/4 얼굴이며 허리 위보다 넓어 허벅지와 무릎이 보임. 입꼬리는 올라가지만 눈은 차분함."
+  },
+  "diversity_comparison": "먹고자·리오르·화강돌의 실제 일상 9장과 병치. 낮은 오토만 레이스 정리·수변 기둥의 전신 커버업·상자 수령 쪼그림은 장소·행동·옷 구조·몸의 높이로 구분됨."
+}

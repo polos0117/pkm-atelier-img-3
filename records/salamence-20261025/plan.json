@@ -1,0 +1,477 @@
+{
+  "card": "보만다",
+  "batch": {
+    "session": "gpt-salamence-beldum-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "보만다",
+        "species": "salamence-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "lace_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "kneeling",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "leaning_wall",
+            "expr": "sensual",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "parcel_pickup",
+            "garments": [
+              "leggings",
+              "sweater"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "proud",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "traditional",
+            "leggings",
+            "sweater"
+          ],
+          "orient": [
+            "profile_close",
+            "front_3q",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "메탕",
+        "species": "beldum-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_police",
+            "garments": [
+              "shirt",
+              "skirt"
+            ],
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "pose": "standing_formal",
+            "expr": "mischievous",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "cross_legged",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "poncho_andes",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "serious",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "crop_top",
+            "trousers"
+          ],
+          "orient": [
+            "low_angle",
+            "seated_twist",
+            "three_quarter_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "lace_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "kneeling",
+      "expr": "cold_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "scene": "A folded ivory scarf rests on a low dressing-room ottoman; she smooths one corner with her palm in cool morning light.",
+      "outfit": "The black lace longline top is lined with opaque satin and finished with a halter neckline; matching high-waisted high-cut briefs have geometric trim and a narrow muted-red seam.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded ivory scarf rests on a low dressing-room ottoman; she smooths one corner with her palm in cool morning light.",
+          "reason": "예시는 옷만 정하므로 낮은 오토만에서 스카프를 정리하는 활동과 아침빛을 보충함"
+        },
+        {
+          "field": "outfit",
+          "content": "The black lace longline top is lined with opaque satin and finished with a halter neckline; matching high-waisted high-cut briefs have geometric trim and a narrow muted-red seam.",
+          "reason": "레이스 예시에 없는 불투명 안감·계획의 홀터와 하이컷 구조·붉은 솔기를 지정함"
+        }
+      ],
+      "axes_reasons": "스카프 정리는 멈춘 동작이며 검정 레이스에 붉은 솔기만 보탬; 세트 의상이라 balanced",
+      "example_text": "a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim"
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "hanbok_coverup",
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "orient": "front_3q",
+      "frame": "environmental",
+      "pose": "leaning_wall",
+      "expr": "sensual",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "place",
+      "scene": "A pale-stone pool pavilion opens onto a blue mountain lagoon, with warm late-afternoon light on its tiled terrace; she draws the cover-up ribbon through her fingers.",
+      "outfit": "A cobalt swimsuit sits beneath a red silk hanbok-line cover-up: a cropped open-back jeogori and a high-waisted flowing wrap skirt with a deep side opening.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Partial correction to the supplied completed scene: remove the inherited red metal hair ornament and dangling earrings, leaving her hairline and ears bare. Keep the scene composition and all other details.",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A pale-stone pool pavilion opens onto a blue mountain lagoon, with warm late-afternoon light on its tiled terrace; she draws the cover-up ribbon through her fingers.",
+          "reason": "한복선 커버업 예시에 없는 산 라군 파빌리온과 끈을 정돈하는 활동을 보충함"
+        },
+        {
+          "field": "outfit",
+          "content": "A cobalt swimsuit sits beneath a red silk hanbok-line cover-up: a cropped open-back jeogori and a high-waisted flowing wrap skirt with a deep side opening.",
+          "reason": "계획의 치마·전통 의상·짧은 자락·오픈백을 저고리와 트임 랩치마로 구현함"
+        },
+        {
+          "field": "custom",
+          "content": "Partial correction to the supplied completed scene: remove the inherited red metal hair ornament and dangling earrings, leaving her hairline and ears bare. Keep the scene composition and all other details.",
+          "reason": "일상2 첫 결과에 남은 금속 머리장식과 늘어진 귀걸이만 제거하는 부분 수정"
+        }
+      ],
+      "axes_reasons": "커버업 끈을 당기는 가벼운 움직임에 balanced; 청색과 적색이 의상에 넓게 드러나 strong; 저고리와 치마로 separates",
+      "example_text": "swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt"
+    },
+    {
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "parcel_pickup",
+      "garments": [
+        "leggings",
+        "sweater"
+      ],
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "pose": "one_knee_up",
+      "expr": "proud",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "strapless top"
+      ],
+      "lead": "action",
+      "scene": "She lifts a small parcel from the convenience-store counter’s low collection shelf as afternoon light washes the entrance.",
+      "outfit": "A strapless cropped hooded knit sweater in chalk gray leaves the shoulders and midriff bare, paired with graphite leggings with narrow red seams and low-top sneakers.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Partial correction to the supplied completed scene: replace the parcel labels and shoe-tongue marking with uninterrupted cardboard and fabric. Keep the scene composition and all other details.",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She lifts a small parcel from the convenience-store counter’s low collection shelf as afternoon light washes the entrance.",
+          "reason": "소포 수령 예시에 없는 낮은 수령 선반과 오후 시간대를 보충함"
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless cropped hooded knit sweater in chalk gray leaves the shoulders and midriff bare, paired with graphite leggings with narrow red seams and low-top sneakers.",
+          "reason": "후드와 레깅스를 유지하면서 계획의 스웨터·스트랩리스·복부 노출을 후드 니트 밴도로 구현함"
+        },
+        {
+          "field": "custom",
+          "content": "Partial correction to the supplied completed scene: replace the parcel labels and shoe-tongue marking with uninterrupted cardboard and fabric. Keep the scene composition and all other details.",
+          "reason": "일상3 첫 결과의 소포 라벨과 신발 혀의 가짜 표시만 제거하는 부분 수정"
+        }
+      ],
+      "axes_reasons": "소포를 막 받쳐 든 정지 순간으로 mostly posed; 회색·붉은 봉제가 종의 색을 드러내 strong; 니트와 레깅스로 separates",
+      "example_text": "at a convenience-store counter in a hoodie and leggings, picking up a small parcel"
+    }
+  ],
+  "check": "casual-plan.cjs check passed before reservation publication",
+  "reservation_session": "gpt-salamence-beldum-20261025",
+  "revisions": [
+    {
+      "slot": "casual2",
+      "reason": "inherited metal headpiece and earrings removed",
+      "previous_original_sha256": "883da9bb4f352e4b7163ec119d0f7eedfec98781e874fdbb96a35a2c3709e42a"
+    },
+    {
+      "slot": "casual3",
+      "reason": "parcel labels and shoe-tongue marking removed",
+      "previous_original_sha256": "3568823eb2b91db9a5af877a96ed238eb22d032f017bb67e0b1e0b4a1e7bb098"
+    }
+  ],
+  "face_reason": "큰 용의 턱과 날개 힘을 각진 하관과 강한 수평 눈매로 옮김; 긴 페더컷은 붉은 날개와 비행 특징을 사람 머리로 해석",
+  "face_source": "data/face-design.json 373; data/source-appearance.json 373",
+  "face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, wide-set; straight medium brows; long nose with low tip; wide mouth.",
+  "compared_characters": [
+    "쉘곤",
+    "먹고자",
+    "리오르",
+    "화강돌"
+  ]
+}

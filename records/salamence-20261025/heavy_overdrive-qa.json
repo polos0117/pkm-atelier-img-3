@@ -1,0 +1,30 @@
+{
+  "slot": "heavy_overdrive",
+  "image_sha256": "57c251f8461fdc3894ee1a2d3343ed8a4769538ef0f4fb9fe1330e25a22f17d0",
+  "reviewer": "gpt",
+  "accepted": true,
+  "observations": [
+    "중장의 발 위치·얼굴 크기·겹친 판을 유지하고 어깨와 허리 판 사이가 벌어져 보라 빛이 드러남.",
+    "검사기는 머리 위 허공에 뼈대를 잡음. 실제 양손은 아래로 이어진 전완 끝에 붙었고 셋째 손 없음."
+  ],
+  "identity": {
+    "match": true,
+    "evidence": "청회색 긴 페더컷·긴 콧대·회색 눈·각진 하관이 경장과 일치"
+  },
+  "dimensions": {
+    "match": true,
+    "evidence": "1024×1536 PNG 확인"
+  },
+  "text": {
+    "match": true,
+    "evidence": "확대 검토에서 글자·로고·가짜 라벨 없음"
+  },
+  "anatomy": {
+    "tool": "check · 손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 1.7 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+    "arms": 2,
+    "legs": 2,
+    "hands": "검은 장갑의 각 손에서 엄지와 네 손가락이 구분됨. 굽힌 손가락 일부는 서로 겹치지만 손목은 전완과 연속되고 엄지가 안쪽에 있음.",
+    "overlay_checked": true,
+    "note": "검사기는 머리 위 허공에 뼈대를 잡음. 실제 양손은 아래로 이어진 전완 끝에 붙었고 셋째 손 없음."
+  }
+}
