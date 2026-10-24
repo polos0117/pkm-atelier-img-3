@@ -1,0 +1,181 @@
+{
+  "light": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Pearl-white fitted armour, ruby cape panels and limb accents, blue triangular chest inlay.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "check: loose hand and two body detections; actual hand detector marked bare thigh as a hand",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": true,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "face_reason": "Species face-design gives a heart-shaped face, narrow tapered chin, level almond eyes with closer spacing, slender nose and long feathered hair with swept bangs. Actual face comparison against Registeel, Regice and Metagross shows a narrower lower face and swept pink fringe rather than blunt silver bangs or blue twin hairstyles.",
+    "compared_characters": [
+      "레지스틸",
+      "레지아이스",
+      "메타그로스"
+    ],
+    "image_sha256": "717930a57b87a68e572610db585ba3707d1605727dc5982c190e840ecd969ded",
+    "original_sha256": "1578e54f2f5a3690bdceff46565e3c6565cd76fee68fb5dd501911e3c7f30865",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "heavy": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Broader layered shoulders, hips, forearms and shins enlarge the outline while keeping face and colour.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "note: low-confidence pose; length and angle checks omitted",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": false,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "image_sha256": "986ea7557d3f606390c628614e7005bb8d1301488c4e57965da407801652e9ef",
+    "original_sha256": "0b0b7df6b1373b8484db059fa731bd749adcf70922bfb95619557ca3eb1643f8",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "mobility": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Separated swept panels and compact circular thrusters replace the heavy stack.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "note: low-confidence pose; length and angle checks omitted",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": false,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "image_sha256": "9f35ee360b6bc96f8a317c8a00ab8ad7103105257d9f4d1a8a8846590b5b0b96",
+    "original_sha256": "df988f426505e2ffc76888102525bb11b385396f1be95db950b9d9091c22c7e7",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "light_overdrive": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Slim plates separate at seams; violet light exposes the internal frame with the same airborne pose.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": false,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "image_sha256": "3363a028de269b56a804a57e5cc71428d8c5ef38adedf44885c124cc3c2958ca",
+    "original_sha256": "233784205622f68b13442e5da18f18933348c27c827ce26875ad7108d315a96b",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "heavy_overdrive": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Stacked plates hinge apart and the violet light reveals wider interior gaps.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": false,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "image_sha256": "b647bcc26c9400b18a940f06367aae6159cbb804621513b1734f89abffa5979f",
+    "original_sha256": "4a341aa5f041da1d43b619a6d0ccfc7980c79c534da9fa593de9747511f93a4a",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "mobility_overdrive": {
+    "observations": {
+      "identity": "Long feathered pale-pink hair, swept bangs, red eyes and tapered lower face preserved from light anchor.",
+      "design": "Swept panels spread and thruster covers open; violet drive light, original stance and face retained.",
+      "variance": "Near and far legs overlap strongly in the airborne pose; the far lower leg and boot are partly hidden. Hands extend toward and sideways from the camera."
+    },
+    "anatomy": {
+      "tool": "note: low-confidence pose; length and angle checks omitted",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near red glove: one thumb and four separated fingers. Far red glove: extended thumb and four fingers, some foreshortened; both wrists connect to forearms.",
+      "overlay_checked": false,
+      "note": "No extra body or disconnected hand in the original. Light overlay falsely marks thigh as a hand; both real hands are visible at their forearm ends. Armour and overlapping legs lower pose-detection confidence."
+    },
+    "image_sha256": "195480bc5c7f0f60960c4b5aa18bdd2b259d97adff6b8b38959a53bcbb14c62a",
+    "original_sha256": "74b961c1be547a8aab70512fa3f6fc5e7ec2dc728108f057feb1ca1851481951",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "casual1": {
+    "observations": {
+      "scene": "Sorting prop books among rolling theatrical shelves, red cardigan, white halter, slit pencil skirt and glasses.",
+      "identity": "Pink feathered hair and red eyes retained; face is near profile with glasses.",
+      "variance": "The cardigan sleeves are longer than the initial prose implied but pushed above wrists; midriff and thigh slit remain visible."
+    },
+    "anatomy": {
+      "tool": "note: two body detections; one hand detected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised hand: thumb partially hidden around book edge, four digit contours. Lower hand: thumb on book and four fingers along spine with slight overlap. Both arms connect from shoulder to wrist.",
+      "overlay_checked": true,
+      "note": "One woman only. Two continuous legs and two heeled shoes; no detached or extra hand."
+    },
+    "diversity_comparison": "Actual-image comparison against Regice, Metagross and Registeel plus the three Latias scenes: full-height bookshelf work in cardigan/skirt, close moving rooftop sportswear and seated rainy cafe in short overalls differ in activity, garment silhouette and crop. WASM comparison passed with nearest scores 269/272/278.",
+    "image_sha256": "4ad81d6b6c445c2e71def4045540675398bd71e4555b8db67f0ab2384cb913d7",
+    "original_sha256": "8ac59352aeef05e6a7383aff6d7a7069a637245af038d4fb838666c83755a933",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "casual2": {
+    "observations": {
+      "scene": "Rhythmic rooftop warm-up in sports-bra crop top and ruby leggings; mat and resistance loop ground the workout.",
+      "variance": "Image frames to thighs rather than chest-up; proud expression softens to a smile. Planned movement, midriff and side cutouts remain."
+    },
+    "anatomy": {
+      "tool": "check: forearm symmetry ratio 0.60",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised left hand is a loose five-digit fist with thumb outside; right hand is loosely curled with thumb and four digits, some hidden by foreshortening.",
+      "overlay_checked": true,
+      "note": "Near forearm approaches camera while far forearm points away. Original shows connected elbows and wrists with plausible foreshortening; lower legs outside crop."
+    },
+    "diversity_comparison": "Actual-image comparison against Regice, Metagross and Registeel plus the three Latias scenes: full-height bookshelf work in cardigan/skirt, close moving rooftop sportswear and seated rainy cafe in short overalls differ in activity, garment silhouette and crop. WASM comparison passed with nearest scores 269/272/278.",
+    "image_sha256": "770f4777b40564383edd7af3f59e883fa7dbf5c19427b9f6f935e4870ac701f9",
+    "original_sha256": "7b02a3c7093e9ffaef7fe2bf643064f28381a8cc81ab3766bdff387517140eb8",
+    "reviewer": "gpt",
+    "accepted": true
+  },
+  "casual3": {
+    "observations": {
+      "scene": "Seated on cafe banquette, sorting bird-habitat prints beside a camera and scrapbook at rain-streaked harbour window. Short denim overalls and bandeau preserve the selected garment.",
+      "cleanup": "One targeted edit removed faux print from scrapbook and camera; photos, hands and pose preserved.",
+      "variance": "Folded legs extend beyond three-quarter crop; side cutouts and short hem are readable. Small red triangle appears in addition to red seam."
+    },
+    "anatomy": {
+      "tool": "ok; one hand detected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Left hand holds a print with thumb behind the paper and four fingers along its front edge; right hand rests on stack with thumb and four fingers partly overlapping.",
+      "overlay_checked": false,
+      "note": "Both arms continuous, folded legs anatomically connected; one foot partly visible at left edge and the other occluded by folded legs. No extra appendage visible."
+    },
+    "diversity_comparison": "Actual-image comparison against Regice, Metagross and Registeel plus the three Latias scenes: full-height bookshelf work in cardigan/skirt, close moving rooftop sportswear and seated rainy cafe in short overalls differ in activity, garment silhouette and crop. WASM comparison passed with nearest scores 269/272/278.",
+    "image_sha256": "8f27db632d42353a5a1ce6e720a300a1be20a544cb5ff9e63380aa6b9d1cbef9",
+    "original_sha256": "c0e512e27d484c7651e4c6421b95a193cc63f1fc93a23af3674111770c05db49",
+    "reviewer": "gpt",
+    "accepted": true
+  }
+}

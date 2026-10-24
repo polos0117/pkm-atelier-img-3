@@ -1,0 +1,276 @@
+{
+  "session": "registeel-latias-20261025-f0c6",
+  "planner": "tools/casual-plan.cjs",
+  "character": {
+    "card": "라티아스",
+    "species": "latias-20261025",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "adult_librarian",
+        "expr": "focused",
+        "pose": "mid_action",
+        "orient": "side",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "cardigan",
+          "skirt"
+        ],
+        "expose": [
+          "cropped hem",
+          "halter neck"
+        ],
+        "lead": "action"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "active",
+        "ex": "warmup",
+        "expr": "proud",
+        "pose": "dance_step",
+        "orient": "leaning_forward",
+        "frame": "chest_up",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "crop_top",
+          "leggings"
+        ],
+        "expose": [
+          "bare midriff",
+          "side cutouts"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "hobbies_leisure",
+        "ex": "hobby_photo",
+        "expr": "curious",
+        "pose": "taking_photo",
+        "orient": "low_angle",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "mini length",
+          "off-shoulder neckline"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "check": "passed before generation",
+  "reservation_commit": "b9d684df333ff6812734b197de99a886e173d0e1",
+  "casual_details": {
+    "1": {
+      "scene": "She aligns clothbound prop books on a waist-height shelf during a literary-themed stage rehearsal, with rolling bookshelf scenery and warm footlights visible behind her.",
+      "outfit": "A cropped ruby-red fitted cardigan is worn open over a pearl-white halter bodice, leaving a band of midriff and the collarbones visible; a charcoal pencil skirt has a high side slit. Thin glasses and one small blue triangular brooch complete the librarian event costume.",
+      "reasons": {
+        "scene": "The librarian example supplies bookshelves but no preparation task; sorting theatrical prop books makes the costume event explicit.",
+        "outfit": "The cardigan, pencil skirt and glasses remain; cropped tailoring and a halter bodice implement the planned exposed midriff and neckline.",
+        "axes": "Prop alignment is ongoing activity; red-white palette plus triangle makes the source clear; separate cardigan, bodice and skirt support prefer separates."
+      }
+    },
+    "2": {
+      "scene": "A coiled resistance loop and a rolled exercise mat mark her spot on a rooftop training deck; the warm-up takes place in crisp morning light before the practice session.",
+      "outfit": "A pearl-white sports-bra crop top has ruby-red side panels with side cutouts and a stitched blue triangle at the centre; ruby-red high-waisted leggings complete the coordinated activewear. The cropped hem bares her midriff and the side openings reveal the ribcage.",
+      "reasons": {
+        "scene": "Warm-up example leaves location and time open; rooftop deck, exercise mat and morning light ground the activity.",
+        "outfit": "The sports bra and leggings stay unchanged in type; source colours and triangle are integrated into athletic fabric, with planned midriff and side-cutout exposure.",
+        "axes": "A rhythmic moving warm-up uses mostly active; red-white-blue motifs make source strong; crop top and leggings are separates."
+      }
+    },
+    "3": {
+      "scene": "At a curved window table in a harbour cafe, she sorts bird-habitat prints into two small piles beside a compact camera and an open travel scrapbook; rain beads on the glass.",
+      "outfit": "Seafoam denim short overalls have a cropped bib panel and broad side cutouts above the shorts, worn over an ivory bandeau. The shortened hem exposes her thighs while the open sides show her waist; a single ruby-red stitched seam is the source-colour echo.",
+      "reasons": {
+        "scene": "The cafe sorting example leaves habitat subject and weather open; bird photographs and rainy harbour light distinguish the work surface.",
+        "outfit": "The hobby example has no clothing; short overalls implement the planned cropped hem and side cutouts while a bandeau provides secure coverage.",
+        "axes": "Sorting prints during a seated pause is mostly posed; one red seam keeps source subtle; overalls are a single dominant garment.",
+        "custom": "The first output introduced tiny faux print on the scrapbook and camera; this is a limited lettering cleanup with the anchor and existing casual3 attached."
+      },
+      "custom": "Targeted edit of the second attached image: erase only the tiny printed lettering, faux labels and glyphs on the scrapbook pages, photograph borders and camera body. Keep the paper textures, bird and landscape photographs, plant drawings, camera details, her face, body, hands, pose, clothes, framing and lighting unchanged."
+    }
+  },
+  "final_plan": {
+    "session": "registeel-latias-20261025-f0c6",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "라티아스",
+        "species": "latias-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_librarian",
+            "expr": "focused",
+            "pose": "mid_action",
+            "orient": "side",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "cardigan",
+              "skirt"
+            ],
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "active",
+            "ex": "warmup",
+            "expr": "proud",
+            "pose": "dance_step",
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "mischievous",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "final_reservation_commit": "1da12582ab00fcc1bca8d773852ba73250f4872c",
+  "replan_reason": "The pending casual3 taking-photo pose contradicted the sorting-photo example. Planner changed only the ungenerated third cut; generated first two were kept.",
+  "cleanup": "One targeted edit of casual3 removed tiny faux lettering; original attempt hash and pre-edit UI are preserved separately."
+}

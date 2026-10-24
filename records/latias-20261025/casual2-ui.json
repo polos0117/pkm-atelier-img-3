@@ -1,0 +1,117 @@
+{
+  "card": "라티아스",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "라티아스",
+    "cards": {
+      "라티아스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "proud",
+            "pose": "dance_step",
+            "orient": "leaning_forward",
+            "scene": "A coiled resistance loop and a rolled exercise mat mark her spot on a rooftop training deck; the warm-up takes place in crisp morning light before the practice session.",
+            "outfit": "A pearl-white sports-bra crop top has ruby-red side panels with side cutouts and a stitched blue triangle at the centre; ruby-red high-waisted leggings complete the coordinated activewear. The cropped hem bares her midriff and the side openings reveal the ribcage.",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "active",
+            "catCustom": "",
+            "ex": "warmup",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "kept": true,
+            "cut": 2,
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Latias (라티아스) personified, dragon / psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: chin lifted, brows level, eyes bright and steady, closed-lip smile with a firm mouth\nPose: Take a small rhythmic dance step with coordinated arms and balanced feet.\nOrientation: torso leaning forward with supported balance\nScene: A coiled resistance loop and a rolled exercise mat mark her spot on a rooftop training deck; the warm-up takes place in crisp morning light before the practice session.\nOutfit and props: A pearl-white sports-bra crop top has ruby-red side panels with side cutouts and a stitched blue triangle at the centre; ruby-red high-waisted leggings complete the coordinated activewear. The cropped hem bares her midriff and the side openings reveal the ribcage.\nCategory: Show real movement with fashion-forward activewear or movement-oriented clothing. Avoid generic gym snapshots. Prioritize dynamic motion, readable silhouette, waist and hip lines, fabric movement, and varied action.\nExample scene: warming up before training in a sports bra and leggings, swinging her arms and stretching her legs\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 2,
+    "cat": "active",
+    "ex": "warmup",
+    "expr": "proud",
+    "pose": "dance_step",
+    "orient": "leaning_forward",
+    "frame": "chest_up",
+    "lens": "natural50",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "crop_top",
+      "leggings"
+    ],
+    "expose": [
+      "bare midriff",
+      "side cutouts"
+    ],
+    "lead": "detail"
+  },
+  "direct_input_reasons": {
+    "scene": "Warm-up example leaves location and time open; rooftop deck, exercise mat and morning light ground the activity.",
+    "outfit": "The sports bra and leggings stay unchanged in type; source colours and triangle are integrated into athletic fabric, with planned midriff and side-cutout exposure.",
+    "axes": "A rhythmic moving warm-up uses mostly active; red-white-blue motifs make source strong; crop top and leggings are separates."
+  },
+  "axes_reasons": "A rhythmic moving warm-up uses mostly active; red-white-blue motifs make source strong; crop top and leggings are separates.",
+  "reservation_session": "registeel-latias-20261025-f0c6",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
