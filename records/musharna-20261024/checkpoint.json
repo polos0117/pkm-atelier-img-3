@@ -1,6 +1,6 @@
 {
   "card": "몽얌나",
-  "status": "qa_done_upload_pending",
+  "status": "registered",
   "canonical": {
     "slot": "light",
     "original": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
@@ -28,7 +28,7 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": null
+      "references": []
     },
     {
       "slot": "heavy",
@@ -42,7 +42,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "mobility",
@@ -56,7 +63,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "light_overdrive",
@@ -70,7 +84,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "heavy_overdrive",
@@ -84,7 +105,20 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "heavy",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-e646b703-c052-4b17-9bca-718b79ba7d8c.png",
+          "original_sha256": "6b8010515b6f7d0bf236e981c709554657a82bd5ae2070b00bf81ddd227b3ad7",
+          "published_file": "몽얌나_heavy_glossy_promo_f.webp"
+        },
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "mobility_overdrive",
@@ -98,7 +132,20 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "mobility",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-1ce9bb43-0dd3-4ec8-917a-3814a039b771.png",
+          "original_sha256": "4791a9de38cca3a28bc147f821eb38ba8446198e917da51cedad521f1db4c43d",
+          "published_file": "몽얌나_mobility_glossy_promo_f.webp"
+        },
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "casual1",
@@ -112,7 +159,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "casual2",
@@ -126,7 +180,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     },
     {
       "slot": "casual3",
@@ -140,7 +201,14 @@
       ],
       "format": "WEBP",
       "style": "glossy_promo",
-      "reference": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png"
+      "references": [
+        {
+          "slot": "light",
+          "path": "/workspace/scratch/e600c0a1543e/generated_images/exec-d6ac85ba-b3a5-441a-82b7-9a59d7ec9dbb.png",
+          "original_sha256": "d735daed9a709c1f58a4a7d7bf3793f64496a8a249e645d48e32ba0ca866d989",
+          "published_file": "몽얌나_light_glossy_promo_f.webp"
+        }
+      ]
     }
   ],
   "source_face_reason": "꿈결의 둥근 몸을 넓은 볼·도톰한 입술, 분홍 곡선을 시뇽과 곡선 판으로 해석",
@@ -156,5 +224,16 @@
       "slot": "casual2",
       "event": "one call settled without a returned image or saved file; detailed error not retained; identical prompt retry returned final file"
     }
-  ]
+  ],
+  "image_commit": "54d1a2b9aefb9da8d3046bc1379706cf7b40c4d8",
+  "thumbnail_commit": "8451df53594681ac5a6737d9c8fc34d7404ebb0c",
+  "registration_commit": "1afb75fa456d4766f9531738399d916316024a11",
+  "face_prompt": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; drooping eyes, medium size, downturned outer corners, close-set; fine soft arches; straight slender bridge nose; full lips.",
+  "canonical_record_commit": "614978cc58017af1ea9720df8a532d884decdbec",
+  "remote_verified": {
+    "image_sha256": true,
+    "thumbnails": 9,
+    "registered_slots": 9,
+    "where": 2
+  }
 }
