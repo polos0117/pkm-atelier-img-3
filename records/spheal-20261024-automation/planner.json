@@ -1,0 +1,127 @@
+{
+ "session": "image-runner-2026-10-23-6-363",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "대굴레오",
+   "species": "spheal-20261024",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "traditional",
+     "ex": "abaya_modern",
+     "garments": [
+      "dress",
+      "robe"
+     ],
+     "orient": "leaning_back",
+     "frame": "chest_up",
+     "pose": "squatting",
+     "expr": "gentle",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "off-shoulder neckline"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "partner_care",
+     "ex": "care_rain_shelter",
+     "garments": [
+      "shorts",
+      "tank"
+     ],
+     "orient": "three_quarter_back",
+     "frame": "waist_up",
+     "pose": "gentle_pat",
+     "expr": "relieved",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "mini length"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "lingerie",
+     "ex": "back_strap",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "reaching_up",
+     "frame": "three_quarter",
+     "pose": "standing_relaxed",
+     "expr": "playful",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "open back"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "tank"
+    ],
+    "orient": [
+     "leaning_back",
+     "three_quarter_back",
+     "reaching_up"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "AI visual QA",
+  "compared_recent_characters": [
+    "얼음귀신",
+    "눈꼬마",
+    "스컹뿡"
+  ],
+  "actual_images_viewed": "Three recent canonicals and their nine casual thumbnails; all nine generated originals and hand/foot or visible limb crops.",
+  "casual_diversity": "Courtyard robe/dress with scarf inspection while crouched; rainy porch tank/shorts kneeling companion care; dressing-room strap fashion standing scarf hanging. These differ in activity, clothing, scene and silhouette. Casual2/3 share rear-three-quarter view, but kneeling vs standing reaching and outfit/setting are distinct. Casual1 and3 share scarf motif but handling versus hanging and robe versus strap outfit differ. Recent pool, classroom reading, sofa reading, aviary crouching, laundry and police mirror images compared directly.",
+  "visual_issues": "Light face narrower than assignment; light overdrive adds thigh panel boundaries; mobility overdrive extends trailing panel; casual1 and2 framing wider than UI. Original failed QA and exception acceptance remain unchanged.",
+  "look_check": "WASM ok:true, crowd0 and no duplicates for all3.",
+  "anatomy": "Originals and inspection crops examined. Hidden thumbs, far arm in casual2 and feet outside crop or under dress explicitly uncertain. Tool inference unavailable due missing libGLESv2.so.2 despite verified models. No overlay claimed.",
+  "acceptance": "Visual failures retained separately from user post-upload review acceptance.",
+  "generated_slots": 9,
+  "missing": []
+}

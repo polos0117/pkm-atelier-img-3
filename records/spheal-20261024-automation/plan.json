@@ -1,0 +1,402 @@
+{
+  "session": "image-runner-2026-10-23-6-363",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "대굴레오",
+      "species": "spheal-20261024",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "traditional",
+          "ex": "abaya_modern",
+          "garments": [
+            "dress",
+            "robe"
+          ],
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "pose": "squatting",
+          "expr": "gentle",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "partner_care",
+          "ex": "care_rain_shelter",
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "waist_up",
+          "pose": "gentle_pat",
+          "expr": "relieved",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "back_strap",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "pose": "standing_relaxed",
+          "expr": "playful",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "tank"
+        ],
+        "orient": [
+          "leaning_back",
+          "three_quarter_back",
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "abaya_modern",
+      "garments": [
+        "dress",
+        "robe"
+      ],
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "pose": "squatting",
+      "expr": "gentle",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a modern abaya — a long flowing open-front robe in fine fabric over a simple dress, with a matching scarf",
+      "custom_inputs": {
+        "scene": "In a tiled courtyard beside a shallow fountain at dusk, she examines the embroidery of a folded scarf between her hands.",
+        "outfit": "The flowing pale blue robe has white circular embroidery and falls off the shoulders over an opaque white dress with a deep V neckline; the matching scarf carries the same spotted border.",
+        "reason": "The modern abaya example specifies robe dress and scarf but no activity, location or color; courtyard scarf inspection and Spheal-inspired embroidery supply these details.",
+        "axes_reason": "Scarf inspection is mostly posed; the blue and white circular embroidery is strong source influence, with a dress and robe balanced ensemble."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 2,
+      "cat": "partner_care",
+      "ex": "care_rain_shelter",
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "waist_up",
+      "pose": "gentle_pat",
+      "expr": "relieved",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "mini length"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: Wiping rain from a Pokémon companion with a towel under a covered porch, umbrellas resting nearby.",
+      "custom_inputs": {
+        "scene": "A soft towel rests over a small Spheal companion beneath a wooden covered porch, with wet umbrellas beside the doorway and cool rainy morning light beyond.",
+        "outfit": "An opaque cropped pale grey tank and separate navy mini shorts with flat waterproof sandals; a small blue seam detail is the only source-color accent.",
+        "reason": "The rain shelter example leaves companion species and clothing unspecified; a small Spheal and cropped tank with shorts match the reserved garments and exposure.",
+        "axes_reason": "Gentle towel patting is balanced activity, the tiny blue seam is subtle source influence, and tank and shorts are separate garments."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "back_strap",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "standing_relaxed",
+      "expr": "playful",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: a lingerie set with a decorative strap arrangement across the upper back",
+      "custom_inputs": {
+        "scene": "Warm morning light from a dressing-room skylight falls across a clothes rail while she hangs a light scarf on an upper hook.",
+        "outfit": "The opaque pale blue lingerie set has a high-cut leg line and an open back crossed by decorative white straps, with a small circular fabric motif at the strap junction.",
+        "reason": "The back-strap example supplies the garment but no everyday activity or palette; hanging a scarf and pale blue white details complement the selected upper-back strap design.",
+        "axes_reason": "A brief pause at the clothes rail is mostly posed; the limited pale blue and circular motif gives balanced source influence, with a coordinated set."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push",
+    "replan_reason": null
+  }
+}
