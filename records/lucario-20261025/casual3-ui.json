@@ -1,0 +1,127 @@
+{
+  "card": "루카리오",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "루카리오",
+    "cards": {
+      "루카리오": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "relieved",
+            "pose": "carrying_something",
+            "orient": "reaching_up",
+            "scene": "Removing a small lunch container from a picnic basket supported against the pergola shelf while her raised hand lifts its lid; the blanket below already holds sliced berries and an opened lunch box.",
+            "outfit": "A cropped cream tank with navy edging and a cobalt mini skirt, bare midriff and legs; flat leather sandals suit the picnic lawn.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_picnic",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "overall_intensity": true,
+              "skin_exposure": true,
+              "action_level": true,
+              "source_influence": true,
+              "separates_preference": true
+            },
+            "kept": true,
+            "cut": 3,
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Lucario (루카리오) personified, fighting / steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Carry the scene's bag, basket or box with believable hand contact and weight.\nOrientation: reach upward with natural shoulder articulation\nScene: Removing a small lunch container from a picnic basket supported against the pergola shelf while her raised hand lifts its lid; the blanket below already holds sliced berries and an opened lunch box.\nOutfit and props: A cropped cream tank with navy edging and a cobalt mini skirt, bare midriff and legs; flat leather sandals suit the picnic lawn.\nCategory: Show a specific everyday cooking, berry-growing or picnic activity in the Pokémon world. Use readable hands, utensils and ingredients; favor ordinary personal life over professional workwear.\nExample scene: Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 3,
+    "cat": "food_berries",
+    "ex": "food_picnic",
+    "expr": "relieved",
+    "pose": "carrying_something",
+    "orient": "reaching_up",
+    "frame": "full_body",
+    "lens": "natural50",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "skirt",
+      "tank"
+    ],
+    "expose": [
+      "bare midriff",
+      "mini length"
+    ],
+    "lead": "action"
+  },
+  "manual_inputs": {
+    "scene": {
+      "value": "Removing a small lunch container from a picnic basket supported against the pergola shelf while her raised hand lifts its lid; the blanket below already holds sliced berries and an opened lunch box.",
+      "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead action"
+    },
+    "outfit": {
+      "value": "A cropped cream tank with navy edging and a cobalt mini skirt, bare midriff and legs; flat leather sandals suit the picnic lawn.",
+      "reason": "Defines the planner garments skirt+tank and exposure construction bare midriff, mini length"
+    },
+    "camera": {
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no separate dimension control."
+    }
+  },
+  "axes_reason": {
+    "action_level": "balanced for food_picnic",
+    "source_influence": "subtle in the garment palette and small accents",
+    "separates_preference": "prefer separates for skirt+tank"
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "batch_plan": {
+    "session": "lucario-hippopotas-20261025-d3bb",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "루카리오",
+        "species": "lucario-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "halter_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "hand_on_hip",
+            "expr": "confident",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "hanbok_errand",
+            "expr": "laughing_open",
+            "pose": "stretching",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "food_berries",
+            "ex": "food_picnic",
+            "expr": "relieved",
+            "pose": "carrying_something",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "halter_bikini",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "hand_on_hip",
+      "expr": "confident",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "light",
+      "example_text": "a halter bikini with a neck tie and a supportive underbust band",
+      "storage": {
+        "version": 2,
+        "last": "루카리오",
+        "cards": {
+          "루카리오": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "confident",
+                "pose": "hand_on_hip",
+                "orient": "rear_3q",
+                "scene": "Late-morning light sparkles across an outdoor lap pool, with tiled lane ends and a towel on the starting block as she pauses between swimming laps.",
+                "outfit": "A fully lined navy halter bikini with a deep V-shaped neckline, secure wide neck ties and high-cut matching briefs, pale blue piping and a small silver fastening; practical pool sandals.",
+                "frame": "environmental",
+                "lens": "documentary35",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "swimwear",
+                "catCustom": "",
+                "ex": "halter_bikini",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "balanced",
+                  "separates_preference": "balanced"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "cut": 1,
+                "garments": [
+                  "bikini"
+                ],
+                "expose": [
+                  "high-cut leg",
+                  "plunging neckline"
+                ],
+                "lead": "light"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "Late-morning light sparkles across an outdoor lap pool, with tiled lane ends and a towel on the starting block as she pauses between swimming laps.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead light"
+        },
+        "outfit": {
+          "value": "A fully lined navy halter bikini with a deep V-shaped neckline, secure wide neck ties and high-cut matching briefs, pale blue piping and a small silver fastening; practical pool sandals.",
+          "reason": "Defines the planner garments bikini and exposure construction high-cut leg, plunging neckline"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "mostly posed for halter_bikini",
+        "source_influence": "balanced in the garment palette and small accents",
+        "separates_preference": "balanced for bikini"
+      },
+      "prompt_file": "casual1-prompt.txt"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "hanbok_errand",
+      "expr": "laughing_open",
+      "pose": "stretching",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "example_text": "a daily errand in a modern daily hanbok — short jeogori-style top with goreum tie over a simple chima skirt",
+      "storage": {
+        "version": 2,
+        "last": "루카리오",
+        "cards": {
+          "루카리오": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "laughing_open",
+                "pose": "stretching",
+                "orient": "profile_close",
+                "scene": "Morning sunlight glances off pale stone walls along the village errand route; a woven shopping basket hangs from her forearm as she pauses beneath a budding branch.",
+                "outfit": "A contemporary ivory one-shoulder hanbok jeogori with a small side waist cutout, navy ribbon fastening and a soft blue wrap skirt; the exposed shoulder and side waist distinguish the modern construction.",
+                "frame": "chest_up",
+                "lens": "portrait85",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "hanbok_errand",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "subtle",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "kept": true,
+                "cut": 2,
+                "garments": [
+                  "skirt",
+                  "traditional"
+                ],
+                "expose": [
+                  "side cutouts",
+                  "one-shoulder cut"
+                ],
+                "lead": "light"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "Morning sunlight glances off pale stone walls along the village errand route; a woven shopping basket hangs from her forearm as she pauses beneath a budding branch.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead light"
+        },
+        "outfit": {
+          "value": "A contemporary ivory one-shoulder hanbok jeogori with a small side waist cutout, navy ribbon fastening and a soft blue wrap skirt; the exposed shoulder and side waist distinguish the modern construction.",
+          "reason": "Defines the planner garments skirt+traditional and exposure construction side cutouts, one-shoulder cut"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "mostly active for hanbok_errand",
+        "source_influence": "subtle in the garment palette and small accents",
+        "separates_preference": "prefer separates for skirt+traditional"
+      },
+      "prompt_file": "casual2-prompt.txt"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_picnic",
+      "expr": "relieved",
+      "pose": "carrying_something",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "tank"
+      ],
+      "expose": [
+        "bare midriff",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "Unpacking a picnic lunch and sliced berries on a blanket beside a travel basket.",
+      "storage": {
+        "version": 2,
+        "last": "루카리오",
+        "cards": {
+          "루카리오": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "overdrive",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {
+              "apparent age": "20s"
+            },
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "casual": {
+                "expr": "relieved",
+                "pose": "carrying_something",
+                "orient": "reaching_up",
+                "scene": "Removing a small lunch container from a picnic basket supported against the pergola shelf while her raised hand lifts its lid; the blanket below already holds sliced berries and an opened lunch box.",
+                "outfit": "A cropped cream tank with navy edging and a cobalt mini skirt, bare midriff and legs; flat leather sandals suit the picnic lawn.",
+                "frame": "full_body",
+                "lens": "natural50",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "food_berries",
+                "catCustom": "",
+                "ex": "food_picnic",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "balanced",
+                  "source_influence": "subtle",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {},
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "overall_intensity": true,
+                  "skin_exposure": true,
+                  "action_level": true,
+                  "source_influence": true,
+                  "separates_preference": true
+                },
+                "kept": true,
+                "cut": 3,
+                "garments": [
+                  "skirt",
+                  "tank"
+                ],
+                "expose": [
+                  "bare midriff",
+                  "mini length"
+                ],
+                "lead": "action"
+              }
+            }
+          }
+        }
+      },
+      "manual_inputs": {
+        "scene": {
+          "value": "Removing a small lunch container from a picnic basket supported against the pergola shelf while her raised hand lifts its lid; the blanket below already holds sliced berries and an opened lunch box.",
+          "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead action"
+        },
+        "outfit": {
+          "value": "A cropped cream tank with navy edging and a cobalt mini skirt, bare midriff and legs; flat leather sandals suit the picnic lawn.",
+          "reason": "Defines the planner garments skirt+tank and exposure construction bare midriff, mini length"
+        },
+        "camera": {
+          "value": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no separate dimension control."
+        }
+      },
+      "axes_reason": {
+        "action_level": "balanced for food_picnic",
+        "source_influence": "subtle in the garment palette and small accents",
+        "separates_preference": "prefer separates for skirt+tank"
+      },
+      "prompt_file": "casual3-prompt.txt"
+    }
+  ],
+  "check_result": "casual-ledger.py check --fresh passed before reservation",
+  "reservation": "records/casual-reservations/lucario-hippopotas-20261025-d3bb.json",
+  "diversity_comparison": {
+    "result": "Three different activities, garments and compositions, verified against recent actual casual images and each other.",
+    "evidence": "Comparison montage and casual-look output reviewed; activity-specific observations in qa.json."
+  }
+}

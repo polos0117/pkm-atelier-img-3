@@ -1,0 +1,124 @@
+{
+  "card": "루카리오",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "루카리오",
+    "cards": {
+      "루카리오": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "confident",
+            "pose": "hand_on_hip",
+            "orient": "rear_3q",
+            "scene": "A fashion fitting salon with tall blue drapes, a walnut dressing screen and a brass floor mirror framing the editorial set. Cool afternoon window light meets warm vanity bulbs.",
+            "outfit": "A fully opaque midnight-blue lingerie set with a plunging structured neckline and high-cut legs, silver satin bindings and decorative garter straps over sheer stockings; a blue enamel clasp is the small source accent.",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "garter_set",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "overall_intensity": true,
+              "skin_exposure": true,
+              "action_level": true,
+              "source_influence": true,
+              "separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Lucario (루카리오) personified, fighting / steel type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nPose: Place one hand on the hip and let the other arm rest naturally or support the scene's prop.\nOrientation: rear three-quarter view showing back and one flank\nScene: A fashion fitting salon with tall blue drapes, a walnut dressing screen and a brass floor mirror framing the editorial set. Cool afternoon window light meets warm vanity bulbs.\nOutfit and props: A fully opaque midnight-blue lingerie set with a plunging structured neckline and high-cut legs, silver satin bindings and decorative garter straps over sheer stockings; a blue enamel clasp is the small source accent.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a lingerie set with decorative garter straps, worn as styling detail\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "lingerie",
+    "ex": "garter_set",
+    "garments": [
+      "lingerie_set"
+    ],
+    "orient": "rear_3q",
+    "frame": "environmental",
+    "pose": "hand_on_hip",
+    "expr": "confident",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high-cut leg",
+      "plunging neckline"
+    ],
+    "lead": "place"
+  },
+  "manual_inputs": {
+    "scene": {
+      "value": "A fashion fitting salon with tall blue drapes, a walnut dressing screen and a brass floor mirror framing the editorial set. Cool afternoon window light meets warm vanity bulbs.",
+      "reason": "Adds the concrete activity, lighting and setting absent from the selected example; follows planner lead place"
+    },
+    "outfit": {
+      "value": "A fully opaque midnight-blue lingerie set with a plunging structured neckline and high-cut legs, silver satin bindings and decorative garter straps over sheer stockings; a blue enamel clasp is the small source accent.",
+      "reason": "Defines the planner garments lingerie_set and exposure construction high-cut leg, plunging neckline"
+    },
+    "camera": {
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no separate dimension control."
+    }
+  },
+  "axes_reason": {
+    "action_level": "mostly posed for garter_set",
+    "source_influence": "balanced in the garment palette and small accents",
+    "separates_preference": "balanced for lingerie_set"
+  }
+}

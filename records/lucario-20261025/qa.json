@@ -1,0 +1,352 @@
+{
+  "light": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "64fcfc1a680dad7ff2227cb3a41dbf32acd719ea654fb52842c19935f25a0090",
+    "observations": "Single woman, complete head and boots, separate connected arms and legs. Thin shoulder/forearm/hip/shin plates over fitted undersuit; face camera-facing.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "note · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Single woman, complete head and boots, separate connected arms and legs. Thin shoulder/forearm/hip/shin plates over fitted undersuit; face camera-facing."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "5256fb0ea2d61a23dc2ed18ad4557b86acdbc886ec609e4bd57a3c315e22884e",
+    "observations": "Same face and hair; visibly stacked broad shoulder, chest, pelvis and leg armor. Complete body and two connected gloved hands.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "note · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Same face and hair; visibly stacked broad shoulder, chest, pelvis and leg armor. Complete body and two connected gloved hands."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "e91977268ca9fa22a68634662574420e9751ed1099a277aa7ed612cb80e33dca",
+    "observations": "Same face and hair; shoulder, hip and calf panels sweep outward, with compact glowing thrusters and temple fins. Whole body remains readable.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "ok · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Same face and hair; shoulder, hip and calf panels sweep outward, with compact glowing thrusters and temple fins. Whole body remains readable."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "fc8dd89a6332b87c34e5b8e925ffc23ff087e371f27fc1e76baf4c8c58b759af",
+    "observations": "Closed light card camera and pose retained. Thin plates separate along seams and reveal lit inner mechanisms without a new weapon.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "note · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Closed light card camera and pose retained. Thin plates separate along seams and reveal lit inner mechanisms without a new weapon."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "4250904a978588dc65c16d41ad9c98b2ba8136e1bb7443ccb6554dca3e631e6a",
+    "observations": "Closed heavy card composition retained. Broad outer plates hinge away, exposing luminous inner frames; face and body remain the same.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "note · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Closed heavy card composition retained. Broad outer plates hinge away, exposing luminous inner frames; face and body remain the same."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "2e4ad07ad93f6694e5baae7da1cba520e5dc53640d2b74353eb5dc8fb0c27fd9",
+    "observations": "Closed mobility card composition retained. Fanned panels spread and thruster covers open; glowing inner mechanisms, no new weapon.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "note · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands; one thumb and four fingers on the forward palm; other fingers bent/partly occluded, no detached hand.",
+      "overlay_checked": true,
+      "note": "Closed mobility card composition retained. Fanned panels spread and thruster covers open; glowing inner mechanisms, no new weapon."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "5304e7cd588bd32fe39e5632cf88b7c0043ab775cae8d5ee0d340787857ad40e",
+    "observations": "Rear three-quarter at the outdoor lap pool, face turned back toward camera. Navy halter bikini, one hand at hip and one on towel-covered block. Two arms and legs connected; hip fingers partly occluded. Confidence visible in closed composed mouth.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "ok · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands attached to their forearms; thumb sides and visible finger separations checked at enlarged size; concealed digits noted in observations.",
+      "overlay_checked": true,
+      "note": "Rear three-quarter at the outdoor lap pool, face turned back toward camera. Navy halter bikini, one hand at hip and one on towel-covered block. Two arms and legs connected; hip fingers partly occluded. Confidence visible in closed composed mouth."
+    },
+    "planned_selection": {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "halter_bikini",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "hand_on_hip",
+      "expr": "confident",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "light"
+    },
+    "composition": {
+      "match": true,
+      "evidence": "Rear three-quarter at the outdoor lap pool, face turned back toward camera. Navy halter bikini, one hand at hip and one on towel-covered block. Two arms and legs connected; hip fingers partly occluded. Confidence visible in closed composed mouth."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Rear three-quarter at the outdoor lap pool, face turned back toward camera. Navy halter bikini, one hand at hip and one on towel-covered block. Two arms and legs connected; hip fingers partly occluded. Confidence visible in closed composed mouth."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "Rear three-quarter at the outdoor lap pool, face turned back toward camera. Navy halter bikini, one hand at hip and one on towel-covered block. Two arms and legs connected; hip fingers partly occluded. Confidence visible in closed composed mouth."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "aeed58af999ee95fa112afd4406b45559694699274a616a1fc9939d4341ec47e",
+    "observations": "Laughing with open eyes, both elbows lifted to stretch behind the head, hands hidden by hair. White asymmetric modern hanbok top, blue skirt and market basket; flowering village lane. Framing extends farther down than chest-up selection; recorded only.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "ok · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands occluded by hair behind the head; two arms trace continuously to that occlusion.",
+      "overlay_checked": true,
+      "note": "Laughing with open eyes, both elbows lifted to stretch behind the head, hands hidden by hair. White asymmetric modern hanbok top, blue skirt and market basket; flowering village lane. Framing extends farther down than chest-up selection; recorded only."
+    },
+    "planned_selection": {
+      "kept": true,
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "hanbok_errand",
+      "expr": "laughing_open",
+      "pose": "stretching",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "light"
+    },
+    "composition": {
+      "match": false,
+      "evidence": "Laughing with open eyes, both elbows lifted to stretch behind the head, hands hidden by hair. White asymmetric modern hanbok top, blue skirt and market basket; flowering village lane. Framing extends farther down than chest-up selection; recorded only."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Laughing with open eyes, both elbows lifted to stretch behind the head, hands hidden by hair. White asymmetric modern hanbok top, blue skirt and market basket; flowering village lane. Framing extends farther down than chest-up selection; recorded only."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "Laughing with open eyes, both elbows lifted to stretch behind the head, hands hidden by hair. White asymmetric modern hanbok top, blue skirt and market basket; flowering village lane. Framing extends farther down than chest-up selection; recorded only."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "reviewer": "gpt",
+    "image_sha256": "22a362c74a7932c809f1f24ff6ca51d9085a7a371878e0f5c3eeb7d81445b3b4",
+    "observations": "Opening a lunch tin above the picnic basket; berries, lunch boxes and checkered blanket visible below. Cream cropped tank and blue mini skirt. Both raised hands naturally contact lid/container; two connected legs and sandal feet. Mouth slightly open, gaze lowered.",
+    "identity": {
+      "match": true,
+      "evidence": "Same eye color, jaw shape, hair color and tied hairstyle as the approved light card; expression may vary."
+    },
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "text_logo": {
+      "match": true,
+      "evidence": "No readable text, fake labels or logos visible in the image; props and background checked."
+    },
+    "anatomy": {
+      "tool": "ok · see anatomy inspection log; detector is weak on armor",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands attached to their forearms; thumb sides and visible finger separations checked at enlarged size; concealed digits noted in observations.",
+      "overlay_checked": true,
+      "note": "Opening a lunch tin above the picnic basket; berries, lunch boxes and checkered blanket visible below. Cream cropped tank and blue mini skirt. Both raised hands naturally contact lid/container; two connected legs and sandal feet. Mouth slightly open, gaze lowered."
+    },
+    "planned_selection": {
+      "kept": true,
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_picnic",
+      "expr": "relieved",
+      "pose": "carrying_something",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "tank"
+      ],
+      "expose": [
+        "bare midriff",
+        "mini length"
+      ],
+      "lead": "action"
+    },
+    "composition": {
+      "match": true,
+      "evidence": "Opening a lunch tin above the picnic basket; berries, lunch boxes and checkered blanket visible below. Cream cropped tank and blue mini skirt. Both raised hands naturally contact lid/container; two connected legs and sandal feet. Mouth slightly open, gaze lowered."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Opening a lunch tin above the picnic basket; berries, lunch boxes and checkered blanket visible below. Cream cropped tank and blue mini skirt. Both raised hands naturally contact lid/container; two connected legs and sandal feet. Mouth slightly open, gaze lowered."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "Opening a lunch tin above the picnic basket; berries, lunch boxes and checkered blanket visible below. Cream cropped tank and blue mini skirt. Both raised hands naturally contact lid/container; two connected legs and sandal feet. Mouth slightly open, gaze lowered."
+    }
+  }
+}
