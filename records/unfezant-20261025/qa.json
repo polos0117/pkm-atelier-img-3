@@ -1,0 +1,203 @@
+{
+  "light": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    }
+  },
+  "heavy": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "note",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    }
+  },
+  "mobility": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    }
+  },
+  "light_overdrive": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "note",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    },
+    "pair": {
+      "match": true,
+      "evidence": "Same skyline, stance, forward palm, feet and framing as the corresponding closed form. Gray plate edges lift and gold light emerges from seams."
+    }
+  },
+  "heavy_overdrive": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "note",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    },
+    "pair": {
+      "match": true,
+      "evidence": "Same skyline, stance, forward palm, feet and framing as the corresponding closed form. Gray plate edges lift and gold light emerges from seams."
+    }
+  },
+  "mobility_overdrive": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "ok",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Armor: extended palm shows thumb and four separated fingers; relaxed hand shows thumb and four bent fingers. Casual counts and occlusion recorded below.",
+      "overlay_checked": false,
+      "note": "Full-resolution image and close detail reviewed; no floating extra limb seen."
+    },
+    "pair": {
+      "match": true,
+      "evidence": "Same skyline, stance, forward palm, feet and framing as the corresponding closed form. Gray plate edges lift and gold light emerges from seams."
+    }
+  },
+  "casual1": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "note",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Berry hand: index and thumb oppose near berry, three folded fingers visible. Chin hand: palm and fingers partly hidden against cheek.",
+      "overlay_checked": false,
+      "note": "Pose model finds two bodies in the folded legs; visual review shows one woman only, seated with two legs."
+    },
+    "scene": {
+      "match": true,
+      "evidence": "Gray off-shoulder knit and short black lounge shorts; floor cushion and amber berry bowl in sunlit apartment."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Lifted closed-lip smile, relaxed eyebrows and warm slightly narrowed eyes."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Actual crop includes knees and folded legs, wider than requested waist-up; no regeneration for framing drift."
+    }
+  },
+  "casual2": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "check",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Visible hand on satchel: four fingers extend along canvas, thumb partly occluded by hand angle; far hand and far forearm are occluded by torso/counter.",
+      "overlay_checked": true,
+      "note": "Overlay puts shoulder near hip and marks the equipment hand loose. Actual near shoulder, upper arm, elbow, forearm and wrist are visibly continuous."
+    },
+    "scene": {
+      "match": true,
+      "evidence": "Cedar parcel cubbies, mail satchel and loose flight-harness straps with buckles on the workbench; near hand rests on satchel."
+    },
+    "pose": {
+      "match": false,
+      "evidence": "Near hand rests on equipment rather than petting a companion; original one-figure task is preserved."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "Pelvis faces the workbench, upper back visible; head turns over shoulder and face remains readable."
+    }
+  },
+  "casual3": {
+    "dimensions": "1024x1536",
+    "identity": {
+      "match": true,
+      "evidence": "Long dark-gray feathered hair, green-gold narrow eyes, heart-shaped face and fine pointed lower jaw match the light anchor."
+    },
+    "anatomy": {
+      "tool": "check",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Chin hand: thumb folds below index, four fingers flex naturally with some overlap; far hand lies outside requested portrait crop with arm continuing to left edge.",
+      "overlay_checked": true,
+      "note": "Overlay finds hand correctly but places arm skeleton at crossed thighs. Actual visible hand attaches to continuous forearm and bent elbow inside jacket sleeve."
+    },
+    "scene": {
+      "match": true,
+      "evidence": "Burgundy cropped jacket, ivory bandeau, matching shorts and silk neck scarf; blue-lit stage runway and equipment trunks behind her."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Asymmetric open smile with upper teeth visible and lifted eyebrow."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Wider seated crop includes thighs rather than chest-up."
+    }
+  },
+  "comparison": {
+    "faces": [
+      "콩둘기",
+      "유토브",
+      "메탕",
+      "보만다",
+      "리오르"
+    ],
+    "face_result": "Unfezant has darker long flowing feathered hair, stronger eye angle and narrower heart-shaped chin than Tranquill, and distinct rounded/oval lower face from Pidove.",
+    "recent_casual": [
+      "메탕",
+      "보만다",
+      "리오르",
+      "유토브"
+    ],
+    "visual_result": "Floor berry snack, rear three-quarter parcel workbench and reclined blue stage lounge differ in activity, clothing silhouette and camera; compared with recent images in a contact sheet.",
+    "casual_look": "passed: nearest scores 275,291,279; none below 215"
+  }
+}

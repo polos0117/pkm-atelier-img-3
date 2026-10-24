@@ -1,0 +1,161 @@
+[
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 48.5
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-37e35cfc-1934-405d-8ebf-0562f4f019d5.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   }
+  ],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 106.1
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-e175952e-e042-4196-8b92-0434119801db.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 165.9,
+   "arm_L_ratio": 0.78,
+   "arm_L_angle": 70
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-d3f88ea5-5b0f-4d46-846d-07ef3cceae55.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   }
+  ],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 13.5
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-24a410b7-5fcf-46cf-b642-e8f57aff74af.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   }
+  ],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 103.1
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-52fe49bd-77d0-4d78-9a6b-cd346b385ef8.png"
+ },
+ {
+  "level": "ok",
+  "flags": [],
+  "hands": [],
+  "measure": {
+   "shoulder_px": 166.4
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-f219ee1f-4770-4e6a-a757-b1e6f29cbd9f.png"
+ },
+ {
+  "level": "note",
+  "flags": [
+   {
+    "level": "note",
+    "what": "bodies",
+    "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.99,
+    "arm": "R",
+    "gap": 0.04
+   }
+  ],
+  "measure": {
+   "shoulder_px": 344.1,
+   "arm_L_ratio": 1.04,
+   "arm_L_angle": 56,
+   "arm_R_ratio": 0.8,
+   "arm_R_angle": 148,
+   "leg_R_ratio": 1.69,
+   "leg_R_angle": 58
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-6cbf45de-dfb6-423c-bff4-b17c7885d77e.png"
+ },
+ {
+  "level": "check",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   },
+   {
+    "level": "check",
+    "what": "loose_hand",
+    "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.8 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.98,
+    "arm": null,
+    "gap": 0.78
+   }
+  ],
+  "measure": {
+   "shoulder_px": 28.4
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-76793f98-3d50-49c5-a4fc-8f6213f43503.png"
+ },
+ {
+  "level": "check",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   },
+   {
+    "level": "check",
+    "what": "loose_hand",
+    "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 2.1 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "L",
+    "score": 1.0,
+    "arm": null,
+    "gap": 2.09
+   }
+  ],
+  "measure": {
+   "shoulder_px": 320.8
+  },
+  "file": "/workspace/scratch/0fd9c6c3b1f0/generated_images/exec-832329d4-1538-45ed-93d1-87920442c65e.png"
+ }
+]

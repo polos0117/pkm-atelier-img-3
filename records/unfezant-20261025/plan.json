@@ -1,0 +1,242 @@
+{
+  "session": "gpt-tranquill-unfezant-20261025-0fd9",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "유토브",
+      "species": "tranquill-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "lab_roleplay",
+          "garments": [
+            "coat",
+            "dress"
+          ],
+          "orient": "reaching_up",
+          "frame": "chest_up",
+          "pose": "standing_relaxed",
+          "expr": "sleepy",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "plunging neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_reading",
+          "expr": "surprised",
+          "pose": "holding_cup",
+          "orient": "low_angle",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "trousers",
+            "vest"
+          ],
+          "expose": [
+            "bare midriff",
+            "one-shoulder cut"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "occupation_sensual",
+          "ex": "orbital_hotel",
+          "expr": "soft_smile",
+          "pose": "checking_map",
+          "orient": "high_angle",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "trousers",
+            "vest"
+          ],
+          "expose": [
+            "open back",
+            "halter neck"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "coat"
+        ],
+        "orient": [
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "켄호로우",
+      "species": "unfezant-20261025",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "homewear",
+          "ex": "offshoulder_knit",
+          "expr": "amused",
+          "pose": "sitting_floor",
+          "orient": "seated_twist",
+          "frame": "waist_up",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "shorts"
+          ],
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "occupation_basic",
+          "ex": "avionics_tech",
+          "expr": "gentle",
+          "pose": "gentle_pat",
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "shorts"
+          ],
+          "expose": [
+            "side cutouts",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "flight_attendant",
+          "expr": "playful",
+          "pose": "perched_seat",
+          "orient": "reclining",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "jacket"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "reservation_commit": "ca4320fcedf0f22460e6a50f40a38e18e778c3a1",
+  "initial_check": "passed by planner before generation; later attempted replan rejected and not reserved"
+}
