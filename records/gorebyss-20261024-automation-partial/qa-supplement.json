@@ -1,0 +1,28 @@
+{
+  "reviewer": "AI visual QA",
+  "compared_recent_characters": [
+    "동탁군",
+    "꼬지지",
+    "헌테일",
+    "진주몽"
+  ],
+  "actual_images_viewed": "Current eight originals and hand/foot crops; flagged anatomy overlays; recent canonicals and casual thumbnails. Tool actual inference executed on all eight. Hidden digits and clothed toes not certified.",
+  "casual_diversity": "Arena referee uniform and forest map skirt/top differ in setting, activity, framing and silhouette. Both generated casual-look checks passed; casual3 has one nearby index result but no near-identical threshold failure. Only two outputs; no three-image pass asserted.",
+  "acceptance": "All eight visual QA failures retained with standing user post-upload-review acceptance. No regeneration.",
+  "missing": {
+    "casual2": "terminal output moderation_blocked sexual; request 63f416be-d9e6-4f4a-a3c1-5e055b063c09; no returned file, no retry"
+  },
+  "anatomy_clarification": "heavy_overdrive red hand landmarks actually land on chest armor. See separate append-only visual clarification; original QA retained.",
+  "models": {
+    "pose_sha256": "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b",
+    "hand_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+  },
+  "actual_additional_references": {
+    "heavy_overdrive": {
+      "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+    },
+    "mobility_overdrive": {
+      "light": "89c27d051225a98060122c5c22c17895b438b1d43db7e5d732b69b05acb12f74"
+    }
+  }
+}

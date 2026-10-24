@@ -1,0 +1,29 @@
+[
+ {
+  "level": "check",
+  "flags": [
+   {
+    "level": "check",
+    "what": "loose_hand",
+    "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 0.8 배) — 셋째 손·떨어진 손"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "L",
+    "score": 0.84,
+    "arm": null,
+    "gap": 0.82
+   }
+  ],
+  "measure": {
+   "shoulder_px": 221.8,
+   "arm_L_ratio": 1.22,
+   "arm_L_angle": 170,
+   "arm_R_ratio": 0.83,
+   "arm_R_angle": 81
+  },
+  "file": "/workspace/generated_images/exec-db5d1728-6c02-44e7-81c2-d0fbb2cb7eaf.png"
+ }
+]
