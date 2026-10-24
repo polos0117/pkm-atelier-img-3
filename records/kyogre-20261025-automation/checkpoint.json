@@ -1,0 +1,122 @@
+{
+  "card": "가이오가",
+  "no": 382,
+  "run": "2026-10-24-14",
+  "execution_id": "pkm-daily-2026-10-24T22-00-00Z",
+  "status": "nine_accepted_pending_registration",
+  "slots": {
+    "light": {
+      "file": "img/가이오가_light_glossy_promo_f.webp",
+      "source_sha256": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49",
+      "webp_sha256": "cc491f447eeb0be7b6d8af7705c7391657a0db368732be26e532ffd0d208cc1f",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {}
+    },
+    "heavy": {
+      "file": "img/가이오가_heavy_glossy_promo_f.webp",
+      "source_sha256": "e573b9d631d96568a75abce9916b9507840811d8eb3141aaf75a4a97c2d8eb9b",
+      "webp_sha256": "6b3d1a67b7b4782d07ad062caa29b74e984d20f6f8f5d093cbe67df2948d46ff",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    },
+    "mobility": {
+      "file": "img/가이오가_mobility_glossy_promo_f.webp",
+      "source_sha256": "49f0ccd0e94c20b059d2cda898b1030fee024887fcac516f4af159b5c2bff738",
+      "webp_sha256": "e9ebfd8c0fbd7bc396806937753f144356106f13bf6ea09359c9e1378078c4c2",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    },
+    "light_overdrive": {
+      "file": "img/가이오가_light_overdrive_glossy_promo_f.webp",
+      "source_sha256": "5a479ed0d1d72b4a2c42c21359fd6a3f46f60d0e37da6b8ae3e05cc4e85a5345",
+      "webp_sha256": "40394b94abf426c7ee2e94f4b222f385a2dfe2acfdfc557e2dcf008c87ba0f76",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    },
+    "heavy_overdrive": {
+      "file": "img/가이오가_heavy_overdrive_glossy_promo_f.webp",
+      "source_sha256": "aa8903e0f7a5089142616e4abd919d438508c53081576d92d02fca8b5d47d1c3",
+      "webp_sha256": "8b86f37d021051147ae6bde322e6ea26517a671097ae6f287f58db487b108f22",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "heavy": "e573b9d631d96568a75abce9916b9507840811d8eb3141aaf75a4a97c2d8eb9b"
+      }
+    },
+    "mobility_overdrive": {
+      "file": "img/가이오가_mobility_overdrive_glossy_promo_f.webp",
+      "source_sha256": "9d68fc2e5e9051c5b4d1a2edffec77fe616c78a091c0265fedc7a354b312b711",
+      "webp_sha256": "a0e82ac8d1d8a5f39268359286435d1e0c8c0ad37ab36b584a91a7ee8b5e7965",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "mobility": "49f0ccd0e94c20b059d2cda898b1030fee024887fcac516f4af159b5c2bff738"
+      }
+    },
+    "casual1": {
+      "file": "img/가이오가_glossy_promo_f_casual1.webp",
+      "source_sha256": "57b488f35cd198ac727c0e7d91a6d790d87d53ffa3b6d61b2586fbec7a617b35",
+      "webp_sha256": "d755bcb3a74de8d76d8439ef5676f7694f6a04ebe248c2d734301a14d927ad38",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    },
+    "casual2": {
+      "file": "img/가이오가_glossy_promo_f_casual2.webp",
+      "source_sha256": "6e474b24516221c34f5aa1c82d7cb0e50905053e74ae927f98e74d30e16808fd",
+      "webp_sha256": "ec449bf68d8e70a43e9f568aa0517e607c8abf5e0e0ebd676c3468be0553bec7",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    },
+    "casual3": {
+      "file": "img/가이오가_glossy_promo_f_casual3.webp",
+      "source_sha256": "d2584dda5fe8d1640cbeefe9cace3b2aed0389f80d1ac715f9e0ae7569f9c3cf",
+      "webp_sha256": "df0b47e0d036365a502de2265f3657437000b7b990754d54b807322ce828b6ec",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+      }
+    }
+  },
+  "actual_reference_supplement": {
+    "heavy_overdrive": {
+      "heavy": "e573b9d631d96568a75abce9916b9507840811d8eb3141aaf75a4a97c2d8eb9b",
+      "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+    },
+    "mobility_overdrive": {
+      "mobility": "49f0ccd0e94c20b059d2cda898b1030fee024887fcac516f4af159b5c2bff738",
+      "light": "51887edb37016f4fff37f744b1309902cf815a0b4d3c2627d99a780319bacf49"
+    }
+  },
+  "visual_qa_summary": {
+    "passed": 0,
+    "accepted_for_user_post_upload_review": 9,
+    "not_qa_passed_slots": [
+      "light",
+      "heavy",
+      "mobility",
+      "light_overdrive",
+      "heavy_overdrive",
+      "mobility_overdrive",
+      "casual1",
+      "casual2",
+      "casual3"
+    ]
+  }
+}
