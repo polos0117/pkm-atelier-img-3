@@ -1,0 +1,89 @@
+{
+  "card": "흉내내",
+  "style": "glossy_promo",
+  "session": "mime-happiny-20261024-bdf536",
+  "tool": "built-in image_gen",
+  "slots": {
+    "light": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-c28065da-de17-4a0d-a127-ba195607bad0.png",
+      "source_sha256": "05e7e9192709b1c95d681ef5c244f10a1520b328582da96208d7cdf579a7b365",
+      "file": "흉내내_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "ec92bcc45b32f07b5842e00c942ccb1f26407855b2cf649a035fa174002d6982",
+      "reference": "none"
+    },
+    "heavy": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-51ddbe80-84ef-499a-8ea3-5be83530c834.png",
+      "source_sha256": "9dc4095303b0dc33bb9567c0672e0c249f6a03cb613a5e2b7394479ed3ea42b1",
+      "file": "흉내내_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "7a89c63c3089b3d2b4223dab5f352a48dca8e83c22da6c760f73bca07dad28a8",
+      "reference": "light"
+    },
+    "mobility": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-1d7f948a-d3ed-4261-bcdf-ebbf543ee0fc.png",
+      "source_sha256": "f53f8d917a86378e757587168e23529e7ac8643aaec552afa420bc79703a5ddf",
+      "file": "흉내내_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "59c4d490c408dcf319a3d0a75e31fa949f444fc1a1d659d3f6309f167b88d262",
+      "reference": "light"
+    },
+    "light_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-2efd42e4-b08c-43d7-822d-34494f2e0604.png",
+      "source_sha256": "ea5dafee6fa3e921ee1a88d11278bd2635360934ef27bd06c669a5be60ae66f4",
+      "file": "흉내내_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "47714b3f2329b4bf41290a5b24f17d1f43bfeb092684cf157adfeb3b21c7d368",
+      "reference": "light"
+    },
+    "heavy_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-6ee97b1d-df7d-48ff-9d30-01c2b92bd1ba.png",
+      "source_sha256": "2e410aef4b3cd5b507998778ae0cee52d28cf34a8485ef4e7f640c1a4731fbdb",
+      "file": "흉내내_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "bb57637a857a86cae8d0b8844270bf3ff5cdf3e1ab7454cdeb64bd380bad805d",
+      "reference": "heavy"
+    },
+    "mobility_overdrive": {
+      "source_session_path": "/workspace/scratch/bdf536712ce5/generated_images/exec-baaf9bc7-b92e-4c5a-aa40-bf56f3ea4849.png",
+      "source_sha256": "83a50556c4bf4cca4e57912c9fbd890bef67fe05228f3058bc10313626e5cfde",
+      "file": "흉내내_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "3de7588f58ed0a42dd16fbf392baaf5c2140909b6c0cd083ea6604c8af0e352f",
+      "reference": "mobility"
+    }
+  },
+  "status": "six combat slots finished; casual1-3 pending reservation approval",
+  "canonical_identity": {
+    "file": "흉내내_light_glossy_promo_f.webp",
+    "sha256": "ec92bcc45b32f07b5842e00c942ccb1f26407855b2cf649a035fa174002d6982",
+    "face_reason": "원작의 작은 표현적인 상안면을 하트형 윤곽·가까운 둥근 눈·활 모양 윗입술로 해석. 실제 생성기 FACE·HAIR 줄을 사용.",
+    "source": "data/face-design.json faces.439 and data/source-appearance.json entries.439",
+    "final_face_line": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; open rounded eyes, medium size, level outer corners, close-set; thin straight brows; small delicate nose; bow-shaped upper lip.",
+    "compared": [
+      "마임맨",
+      "시라칸",
+      "아공이",
+      "사랑동이"
+    ],
+    "visual_comparison": "마임맨의 넓은 눈 간격과 단정한 긴 윤곽보다 눈이 가까우며 턱이 짧고 가늘다. 시라칸의 길고 각진 눈·코, 아공이의 길고 날카로운 턱, 사랑동이의 좁은 눈·긴 콧대와 구별된다."
+  }
+}
