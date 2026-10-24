@@ -1,0 +1,43 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "a6efab158c62e76d881ef96c8ed0e4df03a15a7178e954d9b6717bb58c84f48b",
+  "accepted": true,
+  "observations": [
+    "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+  ],
+  "anatomy": {
+    "tool": "ok · []",
+    "arms": 2,
+    "legs": 2,
+    "hands": "両手: one thumb + four fingers; gripping/curled fingers partly occluded",
+    "overlay_checked": false,
+    "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+  },
+  "checks": {
+    "identity": {
+      "match": true,
+      "evidence": "검정 번 두 개·일자 앞머리·회갈색 눈과 둥근 볼이 경장과 이어진다."
+    },
+    "scene_outfit": {
+      "match": true,
+      "evidence": "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+    },
+    "text": {
+      "match": true,
+      "evidence": "가방 잠금쇠·패턴·배경 창·발목 버클을 확대해 읽히는 글자나 가짜 라벨이 없음을 확인했다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "쉘곤",
+      "한카리아스",
+      "화강돌"
+    ],
+    "evidence": "세 장은 도시에서 발목 스트랩 채우기/온천에서 휴식/여행가방 정리로 다르고, 조형 하이로 드레스·비키니와 수건·복고 미니 드레스가 분리된다. 쉘곤의 이브닝 세트·린넨 정리·야외 항로 점검, 한카리아스의 기타·커튼·풀사이드, 화강돌의 시장·의상실·바 무대와 활동과 구도가 다르다.",
+    "similarity_gate": "look-munchlax.txt: closest scores 271 or higher; passed"
+  }
+}

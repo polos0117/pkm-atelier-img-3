@@ -1,0 +1,239 @@
+{
+  "card": "먹고자",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "image_sha256": "101ec223562c4933550213c4be98e8d33e191ca952333822bf157f6ddc0bb7fb",
+      "accepted": true,
+      "observations": [
+        "검정 양쪽 번과 일자 앞머리, 둥글고 폭 있는 얼굴·코끝, 작은 크림색 장갑과 완전한 부츠가 보인다. 앞손은 엄지와 네 손가락, 내려둔 손은 네 손가락과 옆으로 나온 엄지가 분리된다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      },
+      "face_reason": "원작의 둥근 머리와 큰 눈을 짧고 넓은 얼굴·둥근 턱과 코끝으로 해석했다.",
+      "compared_characters": [
+        "잠만보",
+        "쉘곤",
+        "한카리아스",
+        "화강돌"
+      ],
+      "comparison": "잠만보는 긴 얼굴·낮은 눈꺼풀, 쉘곤은 길쭉한 얼굴과 가는 턱, 한카리아스는 각진 눈매, 화강돌은 더 뾰족한 턱과 가는 눈이다. 먹고자는 넓고 둥근 볼·큰 둥근 눈·짧은 코로 구분된다."
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "image_sha256": "d0ed2a8313494707ad870c7ab63ed44c050601cfe6583e9fe0c17ba4cdd9f0a3",
+      "accepted": true,
+      "observations": [
+        "경장의 얼굴·머리와 검정/크림 배색이 유지된다. 어깨·전완·허벅지·무릎에 두꺼운 겹판이 추가돼 외곽이 커졌으며 몸통·양팔·양다리는 연결된다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "image_sha256": "3817879a965821f53fd1eeac77fd1bf98ea5b6143052d9f24e7964b3a53084ab",
+      "accepted": true,
+      "observations": [
+        "동일한 번 헤어와 얼굴을 유지한 채 어깨·골반·종아리에 후퇴하는 패널과 소형 추진기가 보인다. 앞손 다섯 손가락과 내려둔 손의 분리된 손가락을 확인했다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "c85da849c7c89d9da03f5b025c784b6a7acc2f40bc76d0db1e236bada42cdd33",
+      "accepted": true,
+      "observations": [
+        "일반 경장과 같은 발 위치·앞손·얼굴 크기·도시 배경이다. 어깨·전완·복부·골반 판의 이음새가 들리고 내부 백금빛이 드러난다. 손 위에는 광선이 없다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "deaf1b7e66651f1c7d1a779c1e6f8236a00ad92368aa417dc6695e6b2757688b",
+      "accepted": true,
+      "observations": [
+        "중장과 같은 발·손·얼굴 구도를 유지하면서 겹판이 벌어져 내부 프레임과 금빛 틈이 보인다. 기존 머리띠와 갑주 부품의 윤곽이 이어지고 새 무기는 없다."
+      ],
+      "anatomy": {
+        "tool": "note · [{'level': 'note', 'what': 'faint_body', 'msg': '몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다'}]",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "5fbe2bbac030865258ab2d03f46903ad54631537190cafc25011e491c92b9576",
+      "accepted": true,
+      "observations": [
+        "고기동과 같은 자세와 크기로 어깨·골반·종아리 패널이 더 펼쳐지고 추진기 덮개 안쪽이 금빛으로 드러난다. 양손과 발의 위치가 일반 폼과 일치한다."
+      ],
+      "anatomy": {
+        "tool": "note · [{'level': 'note', 'what': 'faint_body', 'msg': '몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다'}]",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손 엄지+네 손가락; 반대손의 엄지와 손가락은 펼쳐지거나 주먹으로 접힘; 덧손 없음",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "image_sha256": "d21afc62471c959ee61fbf48abb6d9f0224842407d3d6fb855ab3c8b6e4011ea",
+      "accepted": true,
+      "observations": [
+        "도시 난간에서 샌들 스트랩을 채운다. 검정/크림 원형 무늬 하이로 드레스, 내려간 어깨선과 깊은 목선, 한쪽 들어 올린 무릎이 보인다. 양손은 발목으로 이어지고 손가락 일부는 버클 뒤에 가려져 있다. 선택한 측면보다 얼굴과 가슴이 카메라로 돌아오며, 밑단은 날카로운 주름보다 물결 드레이프다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "両手: one thumb + four fingers; gripping/curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      },
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "검정 번 두 개·일자 앞머리·회갈색 눈과 둥근 볼이 경장과 이어진다."
+        },
+        "scene_outfit": {
+          "match": true,
+          "evidence": "도시 난간에서 샌들 스트랩을 채운다. 검정/크림 원형 무늬 하이로 드레스, 내려간 어깨선과 깊은 목선, 한쪽 들어 올린 무릎이 보인다. 양손은 발목으로 이어지고 손가락 일부는 버클 뒤에 가려져 있다. 선택한 측면보다 얼굴과 가슴이 카메라로 돌아오며, 밑단은 날카로운 주름보다 물결 드레이프다."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "도시 난간에서 샌들 스트랩을 채운다. 검정/크림 원형 무늬 하이로 드레스, 내려간 어깨선과 깊은 목선, 한쪽 들어 올린 무릎이 보인다. 양손은 발목으로 이어지고 손가락 일부는 버클 뒤에 가려져 있다. 선택한 측면보다 얼굴과 가슴이 카메라로 돌아오며, 밑단은 날카로운 주름보다 물결 드레이프다."
+        },
+        "text": {
+          "match": true,
+          "evidence": "가방 잠금쇠·패턴·배경 창·발목 버클을 확대해 읽히는 글자나 가짜 라벨이 없음을 확인했다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "쉘곤",
+          "한카리아스",
+          "화강돌"
+        ],
+        "evidence": "세 장은 도시에서 발목 스트랩 채우기/온천에서 휴식/여행가방 정리로 다르고, 조형 하이로 드레스·비키니와 수건·복고 미니 드레스가 분리된다. 쉘곤의 이브닝 세트·린넨 정리·야외 항로 점검, 한카리아스의 기타·커튼·풀사이드, 화강돌의 시장·의상실·바 무대와 활동과 구도가 다르다.",
+        "similarity_gate": "look-munchlax.txt: closest scores 271 or higher; passed"
+      }
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "image_sha256": "a6efab158c62e76d881ef96c8ed0e4df03a15a7178e954d9b6717bb58c84f48b",
+      "accepted": true,
+      "observations": [
+        "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "両手: one thumb + four fingers; gripping/curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      },
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "검정 번 두 개·일자 앞머리·회갈색 눈과 둥근 볼이 경장과 이어진다."
+        },
+        "scene_outfit": {
+          "match": true,
+          "evidence": "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "검은 돌과 물·삼나무 가림막 앞에서 세이지 홀터 비키니와 허리 수건을 입고 쉬고 있다. 귀 옆에 올린 손과 뒤의 바닥을 짚은 손이 각각 팔에 이어진다. 두 다리가 옆으로 접혔고 발은 화면 밖이다. 허리 위 선택보다 허벅지·무릎까지 넓게 보이며, 뒤로 기대기보다 상체가 세워져 있다."
+        },
+        "text": {
+          "match": true,
+          "evidence": "가방 잠금쇠·패턴·배경 창·발목 버클을 확대해 읽히는 글자나 가짜 라벨이 없음을 확인했다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "쉘곤",
+          "한카리아스",
+          "화강돌"
+        ],
+        "evidence": "세 장은 도시에서 발목 스트랩 채우기/온천에서 휴식/여행가방 정리로 다르고, 조형 하이로 드레스·비키니와 수건·복고 미니 드레스가 분리된다. 쉘곤의 이브닝 세트·린넨 정리·야외 항로 점검, 한카리아스의 기타·커튼·풀사이드, 화강돌의 시장·의상실·바 무대와 활동과 구도가 다르다.",
+        "similarity_gate": "look-munchlax.txt: closest scores 271 or higher; passed"
+      }
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "image_sha256": "e20ed6f58ffae9b0dba117a8e6ea11a4c167d0f1eef8d409eda4305177811e18",
+      "accepted": true,
+      "observations": [
+        "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+      ],
+      "anatomy": {
+        "tool": "ok · []",
+        "arms": 2,
+        "legs": 2,
+        "hands": "両手: one thumb + four fingers; gripping/curled fingers partly occluded",
+        "overlay_checked": false,
+        "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+      },
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "검정 번 두 개·일자 앞머리·회갈색 눈과 둥근 볼이 경장과 이어진다."
+        },
+        "scene_outfit": {
+          "match": true,
+          "evidence": "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+        },
+        "text": {
+          "match": true,
+          "evidence": "가방 잠금쇠·패턴·배경 창·발목 버클을 확대해 읽히는 글자나 가짜 라벨이 없음을 확인했다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "쉘곤",
+          "한카리아스",
+          "화강돌"
+        ],
+        "evidence": "세 장은 도시에서 발목 스트랩 채우기/온천에서 휴식/여행가방 정리로 다르고, 조형 하이로 드레스·비키니와 수건·복고 미니 드레스가 분리된다. 쉘곤의 이브닝 세트·린넨 정리·야외 항로 점검, 한카리아스의 기타·커튼·풀사이드, 화강돌의 시장·의상실·바 무대와 활동과 구도가 다르다.",
+        "similarity_gate": "look-munchlax.txt: closest scores 271 or higher; passed"
+      }
+    }
+  },
+  "accepted": true
+}

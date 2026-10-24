@@ -1,0 +1,43 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "e20ed6f58ffae9b0dba117a8e6ea11a4c167d0f1eef8d409eda4305177811e18",
+  "accepted": true,
+  "observations": [
+    "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+  ],
+  "anatomy": {
+    "tool": "ok · []",
+    "arms": 2,
+    "legs": 2,
+    "hands": "両手: one thumb + four fingers; gripping/curled fingers partly occluded",
+    "overlay_checked": false,
+    "note": "원본 및 확대 컷에서 팔꿈치·무릎·엄지 쪽과 팔 연결을 확인했다. 검사기 손 검출 누락은 시각 검수로 보완."
+  },
+  "checks": {
+    "identity": {
+      "match": true,
+      "evidence": "검정 번 두 개·일자 앞머리·회갈색 눈과 둥근 볼이 경장과 이어진다."
+    },
+    "scene_outfit": {
+      "match": true,
+      "evidence": "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "복고풍 방의 침대 위 노란 가방에서 옷을 정리한다. 붉은 홀터 미니 드레스와 아이보리 샌들, 아래를 보는 눈과 찌푸린 눈썹·입이 보인다. 두 손은 각각 천을 잡고 엄지는 천에 일부 가려졌다. 원숄더보다 양 어깨가 드러나는 홀터로 나왔고 선택한 환경 와이드보다 인물이 크다."
+    },
+    "text": {
+      "match": true,
+      "evidence": "가방 잠금쇠·패턴·배경 창·발목 버클을 확대해 읽히는 글자나 가짜 라벨이 없음을 확인했다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "쉘곤",
+      "한카리아스",
+      "화강돌"
+    ],
+    "evidence": "세 장은 도시에서 발목 스트랩 채우기/온천에서 휴식/여행가방 정리로 다르고, 조형 하이로 드레스·비키니와 수건·복고 미니 드레스가 분리된다. 쉘곤의 이브닝 세트·린넨 정리·야외 항로 점검, 한카리아스의 기타·커튼·풀사이드, 화강돌의 시장·의상실·바 무대와 활동과 구도가 다르다.",
+    "similarity_gate": "look-munchlax.txt: closest scores 271 or higher; passed"
+  }
+}

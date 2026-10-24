@@ -1,0 +1,450 @@
+{
+  "card": "먹고자",
+  "batch": {
+    "session": "gpt-munchlax-riolu-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "먹고자",
+        "species": "munchlax-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "cyber_street",
+            "garments": [
+              "dress"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "gentle_pat",
+            "expr": "bored",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "onsen_after",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "side_sitting",
+            "expr": "flustered",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "retro_motel",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "mid_action",
+            "expr": "mildly_annoyed",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "dress",
+            "bikini"
+          ],
+          "orient": [
+            "side",
+            "reclining",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "리오르",
+        "species": "riolu-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "night_drive",
+            "garments": [
+              "slip"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "sitting",
+            "expr": "calm",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_market",
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "pose": "adjusting_bag",
+            "expr": "focused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "vinyl_stage",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "front",
+            "frame": "full_body",
+            "pose": "dance_step",
+            "expr": "confident",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip",
+            "tank"
+          ],
+          "orient": [
+            "leaning_back",
+            "over_shoulder",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "source_editorial",
+      "ex": "thruster_flare",
+      "garments": [
+        "dress"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "bending_over",
+      "expr": "bored",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example": "a hemline that flares out sharply like a burst of her Pokémon's energy",
+      "scene": "A rain-polished pedestrian terrace glows with turquoise pavement lights at dusk; she fastens a loose sandal strap beside a chrome railing.",
+      "outfit": "A charcoal sculptural dress with an off-shoulder plunging neckline, cream circular printing and a sharply pleated high-low hem that bursts outward like a fan, paired with flat sandals.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "샌들 스트랩을 다루는 손동작이 있으므로 balanced.",
+        "크림 원형 프린트와 흑색 배색이 의상의 주된 무늬라 strong.",
+        "상하가 이어진 조형 드레스 한 벌이므로 balanced."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A rain-polished pedestrian terrace glows with turquoise pavement lights at dusk; she fastens a loose sandal strap beside a chrome railing.",
+          "reason": "에너지처럼 벌어지는 옷자락 예시에 장소와 활동이 없어 빗물 젖은 테라스와 샌들 스트랩 채우기를 보충한다."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal sculptural dress with an off-shoulder plunging neckline, cream circular printing and a sharply pleated high-low hem that bursts outward like a fan, paired with flat sandals.",
+          "reason": "계획의 드레스를 오프숄더·깊은 목선으로 재단하고 예시의 급격히 벌어지는 밑단을 주름진 하이로 헴으로 구체화한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "onsen_after",
+      "expr": "flustered",
+      "pose": "side_sitting",
+      "orient": "reclining",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "expose": [
+        "open back",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "example": "at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+      "scene": "She cools off after the soak beside a cedar slat screen, with pale morning mist drifting over dark volcanic stones.",
+      "outfit": "An opaque sage-green halter bikini with a fully open back and bare midriff; a small ivory bathing towel wraps loosely around her hips.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "목욕 뒤 쉬는 순간이므로 mostly posed.",
+        "원작 장식 없이 옅은 아이보리 수건의 색만 남기므로 subtle.",
+        "비키니와 수건을 하나의 목욕 차림으로 묶으므로 balanced."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "She cools off after the soak beside a cedar slat screen, with pale morning mist drifting over dark volcanic stones.",
+          "reason": "온천 뒤 휴식 예시에 삼나무 가림막·아침 안개·검은 화산석의 환경을 더한다."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque sage-green halter bikini with a fully open back and bare midriff; a small ivory bathing towel wraps loosely around her hips.",
+          "reason": "수건을 두르는 예시는 유지하고 계획의 비키니를 세이지색 홀터와 등 개방형으로 정해 등·배 노출을 구현한다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "wildcard",
+      "ex": "retro_motel",
+      "expr": "mildly_annoyed",
+      "pose": "mid_action",
+      "orient": "looking_down",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "example": "in a retro motel room in vintage-style clothes, sorting a suitcase",
+      "scene": "A mustard-yellow suitcase lies open beneath a peach motel lamp, with cotton travel clothes and a small shoe pouch waiting to be sorted.",
+      "outfit": "A rust-red vintage mini dress with an asymmetric one-shoulder halter neckline and a flared hem, paired with ivory flat sandals.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "axes_reasons": [
+        "가방 속 옷을 정리하는 진행 중 동작이므로 mostly active.",
+        "원작 모티프는 아이보리 신발의 작은 색 연결에 머물러 subtle.",
+        "빈티지 원피스 한 벌의 실루엣이므로 balanced."
+      ],
+      "custom_fields": [
+        {
+          "field": "scene",
+          "content": "A mustard-yellow suitcase lies open beneath a peach motel lamp, with cotton travel clothes and a small shoe pouch waiting to be sorted.",
+          "reason": "여행 가방 정리 예시에 가방 색·램프·정리할 옷과 신발 주머니를 구체화한다."
+        },
+        {
+          "field": "outfit",
+          "content": "A rust-red vintage mini dress with an asymmetric one-shoulder halter neckline and a flared hem, paired with ivory flat sandals.",
+          "reason": "빈티지 옷 예시에 계획의 드레스와 원숄더 홀터 재단을 정해 어깨·다리선을 드러낸다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed before reservation",
+  "reservation_commit": "4cc2be9da26a5ad8b2cc3fe0f8833cfd865ce085"
+}

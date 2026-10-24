@@ -1,0 +1,125 @@
+{
+  "card": "먹고자",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "먹고자",
+    "cards": {
+      "먹고자": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "flustered",
+            "pose": "side_sitting",
+            "orient": "reclining",
+            "scene": "She cools off after the soak beside a cedar slat screen, with pale morning mist drifting over dark volcanic stones.",
+            "outfit": "An opaque sage-green halter bikini with a fully open back and bare midriff; a small ivory bathing towel wraps loosely around her hips.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "onsen_after",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Munchlax (먹고자) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised inner brows, darting or averted eyes, mouth slightly open, faint blush across the cheeks and nose\nPose: Sit on a mat with both legs folded to one side and a relaxed upright torso.\nOrientation: reclined body supported by a surface\nScene: She cools off after the soak beside a cedar slat screen, with pale morning mist drifting over dark volcanic stones.\nOutfit and props: An opaque sage-green halter bikini with a fully open back and bare midriff; a small ivory bathing towel wraps loosely around her hips.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+  "planner_selection": {
+    "kept": true,
+    "cut": 2,
+    "cat": "swimwear",
+    "ex": "onsen_after",
+    "expr": "flustered",
+    "pose": "side_sitting",
+    "orient": "reclining",
+    "frame": "waist_up",
+    "lens": "telephoto135",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "bikini"
+    ],
+    "expose": [
+      "open back",
+      "bare midriff"
+    ],
+    "lead": "action"
+  },
+  "axes_reasons": [
+    "목욕 뒤 쉬는 순간이므로 mostly posed.",
+    "원작 장식 없이 옅은 아이보리 수건의 색만 남기므로 subtle.",
+    "비키니와 수건을 하나의 목욕 차림으로 묶으므로 balanced."
+  ],
+  "custom_fields": [
+    {
+      "field": "scene",
+      "content": "She cools off after the soak beside a cedar slat screen, with pale morning mist drifting over dark volcanic stones.",
+      "reason": "온천 뒤 휴식 예시에 삼나무 가림막·아침 안개·검은 화산석의 환경을 더한다."
+    },
+    {
+      "field": "outfit",
+      "content": "An opaque sage-green halter bikini with a fully open back and bare midriff; a small ivory bathing towel wraps loosely around her hips.",
+      "reason": "수건을 두르는 예시는 유지하고 계획의 비키니를 세이지색 홀터와 등 개방형으로 정해 등·배 노출을 구현한다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+    }
+  ],
+  "random_changes": {
+    "source": "planner",
+    "avoid": [
+      "먹고자:2:ex=burkini_modest — 덮는 수영복과 계획의 등·배 노출이 맞지 않음",
+      "리오르:1:pose=dance_step — 조수석 활동과 춤 자세가 맞지 않음"
+    ]
+  }
+}
