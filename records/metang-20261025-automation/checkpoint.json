@@ -1,0 +1,120 @@
+{
+  "card": "메탕구",
+  "no": 375,
+  "run": "2026-10-24-12",
+  "execution_id": "pkm-daily-2026-10-24T16-00-00Z",
+  "status": "nine_accepted_pending_registration",
+  "slots": {
+    "light": {
+      "file": "img/메탕구_light_glossy_promo_f.webp",
+      "source_sha256": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174",
+      "webp_sha256": "257ab85b021472c23db7a668e101f9ba782891e0e991255af651bba6b39ab6af",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {}
+    },
+    "heavy": {
+      "file": "img/메탕구_heavy_glossy_promo_f.webp",
+      "source_sha256": "a2b915dffac95b324c8f6f027c7761d728b9c20769b422789c258cc7a2ae91e9",
+      "webp_sha256": "11169ce7fab8469c195465973f9131768167ba1e92261d7f94cae6750905bdfe",
+      "qa_passed": true,
+      "acceptance_basis": "AI_QA",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    },
+    "mobility": {
+      "file": "img/메탕구_mobility_glossy_promo_f.webp",
+      "source_sha256": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360",
+      "webp_sha256": "057dd9b11ff1c17f9172f0a670fe1f0da691cfb809d8733a89c53b7310daa83b",
+      "qa_passed": true,
+      "acceptance_basis": "AI_QA",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    },
+    "light_overdrive": {
+      "file": "img/메탕구_light_overdrive_glossy_promo_f.webp",
+      "source_sha256": "f15e89b9b665de1f5b689d876e300fa3d60ccb8d6ca146731be31f12f7b587d7",
+      "webp_sha256": "4ffbdd5795feb4cbbbeb68e778c02c8f64c7135fd413d04b0aa7d0f657dbdda1",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    },
+    "heavy_overdrive": {
+      "file": "img/메탕구_heavy_overdrive_glossy_promo_f.webp",
+      "source_sha256": "81a28d80a72657ac35ade26bc90bd0755fe8b08908ad9ba8ac235b3d6d712d18",
+      "webp_sha256": "ee13e0cdfa3e4ab2f557ab065ed603098d7b73e1e691c16f759f753a1de4bc88",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "heavy": "a2b915dffac95b324c8f6f027c7761d728b9c20769b422789c258cc7a2ae91e9"
+      }
+    },
+    "mobility_overdrive": {
+      "file": "img/메탕구_mobility_overdrive_glossy_promo_f.webp",
+      "source_sha256": "a53ce0967f09bb0bf5c1aab3d178570696583dcf4d9137833df805ee930c472e",
+      "webp_sha256": "a1aeb5f1cffd5c7b00e790b4e1ae2d9ea9af6f041b27514e0b7033180e8f661a",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "mobility": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360"
+      }
+    },
+    "casual1": {
+      "file": "img/메탕구_glossy_promo_f_casual1.webp",
+      "source_sha256": "c1ac329534a7e356288a4727ee84113ea50826b1f67a01e3531077c89723e387",
+      "webp_sha256": "a450a3f86a456fbd711e5ea291672a5717af0c61f2d0e988e5db85bbdcd21af4",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    },
+    "casual2": {
+      "file": "img/메탕구_glossy_promo_f_casual2.webp",
+      "source_sha256": "603c5d6a431f769626094de671ee754cb47113d3470e259ed3e872293fe93f7f",
+      "webp_sha256": "7339b74a368e090b25a61f7703f58e41ba3f705cc0c2ae1cd7c5a973d300dfc4",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    },
+    "casual3": {
+      "file": "img/메탕구_glossy_promo_f_casual3.webp",
+      "source_sha256": "79e02e29f77cea3440df2ad51774d2df71863e6ddb56b03e75b0ac390767cc2d",
+      "webp_sha256": "276bec823a84e15e2e6d3f664bda7217141a5b382b56f2bd41c0390068f1f55a",
+      "qa_passed": false,
+      "acceptance_basis": "user_exception",
+      "references": {
+        "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+      }
+    }
+  },
+  "actual_reference_supplement": {
+    "heavy_overdrive": {
+      "heavy": "a2b915dffac95b324c8f6f027c7761d728b9c20769b422789c258cc7a2ae91e9",
+      "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+    },
+    "mobility_overdrive": {
+      "mobility": "720527698883227bcdf0d38b10f12b1353b09f9f9f967676e11ac71a0e22f360",
+      "light": "6113aa4a16a764d917b9ebcbfccca6bb4e291a9306d25fd8658608ab8aeed174"
+    }
+  },
+  "visual_qa_summary": {
+    "passed": 2,
+    "accepted_for_user_post_upload_review": 7,
+    "not_qa_passed_slots": [
+      "light",
+      "light_overdrive",
+      "heavy_overdrive",
+      "mobility_overdrive",
+      "casual1",
+      "casual2",
+      "casual3"
+    ]
+  }
+}

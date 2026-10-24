@@ -1,0 +1,37 @@
+[
+ {
+  "level": "check",
+  "flags": [
+   {
+    "level": "note",
+    "what": "bodies",
+    "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+   },
+   {
+    "level": "check",
+    "what": "loose_hand",
+    "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 1.3 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "L",
+    "score": 0.9,
+    "arm": null,
+    "gap": 1.26
+   },
+   {
+    "i": 1,
+    "label_side": "R",
+    "score": 0.92,
+    "arm": "R",
+    "gap": 0.16
+   }
+  ],
+  "measure": {
+   "shoulder_px": 244.9
+  },
+  "file": "/workspace/generated_images/exec-ecbb484b-6172-4594-97e4-47a62c674ac2.png"
+ }
+]
