@@ -225,7 +225,24 @@
       }
     }
   ],
-  "stage": "qa passed; pending remote publish and registration",
+  "stage": "registered and remote bytes/thumbnails verified",
   "face_comparison": "face-comparison.jpg was visually inspected against family and recent three characters",
-  "repair": "원본 재생성 없이 0바이트 변환본을 동일 PNG의 규정 WebP로 복구하고 재열기 검증함."
+  "repair": "원본 재생성 없이 0바이트 변환본을 동일 PNG의 규정 WebP로 복구하고 재열기 검증함.",
+  "publication": {
+    "image_commits": [
+      "23376e0af15b7af4e6f113b75e7df4d3331d5725",
+      "e9dd7526b13b21cc5d57a2f6658abb6c0c26ace6"
+    ],
+    "thumbnail_commit": "638b932a03b5da238c8f455be06686b714a424ec",
+    "registration_commit": "7599bd1dbf7f1e15dfa59928f006503aec9297c2",
+    "verified": {
+      "images": 9,
+      "thumbnails": 9,
+      "registered_slots": 9,
+      "sha256_matches": true
+    },
+    "tool": "built-in image_gen",
+    "prompts": "*-prompt.txt with exact generator outputs; corresponding *-ui.json",
+    "warning": "GitHub Actions reports Node.js 20 action deprecation; thumbnail and registration steps succeeded."
+  }
 }
