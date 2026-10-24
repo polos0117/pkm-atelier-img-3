@@ -1,0 +1,41 @@
+[
+ {
+  "level": "suspect",
+  "flags": [
+   {
+    "level": "suspect",
+    "what": "many_hands",
+    "msg": "손이 3 개 잡혔다 — 사람 손은 둘"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.99,
+    "arm": "R",
+    "gap": 0.12
+   },
+   {
+    "i": 1,
+    "label_side": "L",
+    "score": 0.7,
+    "arm": "L",
+    "gap": 0.29
+   },
+   {
+    "i": 2,
+    "label_side": "R",
+    "score": 0.75,
+    "arm": "R",
+    "gap": 0.16
+   }
+  ],
+  "measure": {
+   "shoulder_px": 183.6,
+   "arm_R_ratio": 0.55,
+   "arm_R_angle": 97
+  },
+  "file": "/workspace/generated_images/exec-a0796eb0-3705-4a41-9670-84727dd0c153.png"
+ }
+]

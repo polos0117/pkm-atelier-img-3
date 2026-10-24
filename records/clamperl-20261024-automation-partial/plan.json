@@ -1,0 +1,400 @@
+{
+  "session": "image-runner-2026-10-24-7-366",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "진주몽",
+      "species": "clamperl-20261024",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "vinyl_stage",
+          "garments": [
+            "jacket"
+          ],
+          "orient": "side",
+          "frame": "full_body",
+          "pose": "arms_crossed",
+          "expr": "proud",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "open back"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "burkini_modest",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "reclining",
+          "frame": "chest_up",
+          "pose": "cross_legged",
+          "expr": "calm",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "side cutouts"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "private_evening",
+          "ex": "velvet_evening",
+          "garments": [
+            "dress"
+          ],
+          "orient": "looking_down",
+          "frame": "environmental",
+          "pose": "walking",
+          "expr": "confident",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "strapless top"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1,
+            2
+          ],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit"
+        ],
+        "orient": [
+          "side",
+          "reclining",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "arms_crossed",
+      "expr": "proud",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: a vinyl stage costume with a glossy fitted jacket and boots under stage lighting",
+      "custom_inputs": {
+        "scene": "Pearlescent shell-shaped buttons catch the rehearsal lights as she waits beside a concert stage with her arms folded.",
+        "outfit": "A glossy silver-blue fitted vinyl jacket with a cropped hem and open back, worn with separate opaque pink trousers and silver boots; shell scalloping follows the jacket seams.",
+        "reason": "The vinyl stage example gives jacket boots and stage lighting but no palette or details; shell buttons and seams and separate trousers complete the reserved jacket outfit.",
+        "axes_reason": "Waiting is mostly posed, shell scalloping and palette provide strong source influence, and jacket with trousers are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "burkini_modest",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "reclining",
+      "frame": "chest_up",
+      "pose": "cross_legged",
+      "expr": "calm",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "example_text": "Example scene: a modest full-cover swimsuit with long sleeves, full-length legs, and a fitted hood",
+      "custom_inputs": {
+        "scene": "Resting after a swim, she sits cross-legged and leans back against a cushion on a shaded seaside terrace.",
+        "outfit": "The opaque full-cover pale blue swimsuit has long sleeves, full-length legs and a fitted hood; an outer shell-patterned panel has a plunging neckline and side cutouts over the continuous opaque swimsuit.",
+        "reason": "The modest full-cover example requires coverage while the plan assigns plunging neckline and side cutouts; placing those shapes on an outer panel preserves the example and actual planned detail without exposing the body beneath.",
+        "axes_reason": "Resting is mostly posed, shell pattern gives strong source influence, and the outer panel and full suit form a balanced ensemble."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "velvet_evening",
+      "garments": [
+        "dress"
+      ],
+      "orient": "looking_down",
+      "frame": "environmental",
+      "pose": "walking",
+      "expr": "confident",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a heavy velvet evening dress with its deep sheen",
+      "custom_inputs": {
+        "scene": "Inside a quiet art gallery at night, she walks between framed seascapes while looking down at the exhibition leaflet in her hands.",
+        "outfit": "An opaque strapless midnight-blue velvet evening dress with a high thigh slit and a small pink pearl clasp at the waist, worn with simple low silver heels.",
+        "reason": "The velvet evening dress example has no location or activity; gallery browsing and velvet dress details complete the reserved dress and expose values.",
+        "axes_reason": "Walking through the gallery is active, the pearl clasp provides balanced source influence, and the dress ensemble is balanced."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push; no replan",
+    "actual_comparison": "Actual recent thumbnails viewed: Walrein train-platform cropped shirt/skirt walking, studio stretch crop top/leggings, bedroom lingerie leaning; Sealeo reflective hall evening jumpsuit, hot-spring bikini kneel, bead-work seated blouse/skirt; Spheal courtyard scarf robe crouch, rain-porch tank/shorts kneel, dressing-room lingerie standing scarf. Clamperl plans stage jacket/trousers arms-crossed side full body, terrace full-cover swim resting reclining chest-up, gallery velvet dress walking environmental. Final actual result comparison appended per slot; planned differences alone are not QA pass."
+  }
+}
