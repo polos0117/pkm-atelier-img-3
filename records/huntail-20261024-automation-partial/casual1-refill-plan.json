@@ -1,0 +1,128 @@
+{
+ "session": "huntail-casual1-refill-20261024",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "헌테일",
+   "species": "huntail-20261024-automation-partial",
+   "refill": true,
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "bunny",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "pose": "cross_legged",
+     "expr": "flustered",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "food_berries",
+     "ex": "food_tea",
+     "expr": "curious",
+     "pose": "preparing_food",
+     "orient": "front_3q",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "apron",
+      "shorts"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "off-shoulder neckline"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": "everyday_sensual",
+     "ex": "sunroom_relax",
+     "expr": "sensual",
+     "pose": "hands_in_hair",
+     "orient": "reaching_up",
+     "frame": "full_body",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts",
+      "vest"
+     ],
+     "expose": [
+      "mini length",
+      "cropped hem"
+     ]
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": []
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "source_editorial",
+     "traditional",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "swimsuit"
+    ],
+    "orient": [
+     "seated_twist"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "why_refill": {
+  "blocked": "casual1 lingerie/garter_set/rear_3q/waist_up/on_tiptoe — 이미지 도구가 출력 단계에서 막음(casual1 tool-failure)",
+  "avoid": [
+   "헌테일:1:ex=garter_set"
+  ],
+  "scene_reason": "lead=place 라 무대 모습부터 쓰고, 예시(카지노 바니 코스튬, 무대 바닥)의 장소는 그대로 두고 오후 리허설·발치의 큐시트만 더했다 — 역할극 무대를 빈 행사장이 아닌 카바레 리허설 무대로",
+  "outfit_reason": "garments=swimsuit(원피스형 바니 수트), expose=halter neck·side cutouts. 헌테일의 남색·크림색을 수트·커프스에 썼고 따로 모티프 장신구는 넣지 않았다",
+  "reserved": "records/casual-reservations/huntail-casual1-refill-20261024.json (img-2)",
+  "made_by": "사용자가 이 프롬프트로 직접 생성한다(2026-10-24 요청 \"헌테일, 분홍장이 일상컷 프롬포트 만들어줘\")"
+ }
+}
