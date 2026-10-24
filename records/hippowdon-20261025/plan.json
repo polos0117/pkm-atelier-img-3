@@ -1,0 +1,235 @@
+{
+  "session": "hippowdon-skorupi-20261025-da8969",
+  "planner": "tools/casual-plan.cjs",
+  "character": {
+    "card": "하마돈",
+    "species": "hippowdon-20261025",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "lingerie",
+        "ex": "hanbok_slip",
+        "expr": "half_smile",
+        "pose": "cross_legged",
+        "orient": "leaning_forward",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "lingerie_set",
+          "skirt",
+          "traditional"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "side cutouts"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "festivals_contests",
+        "ex": "fest_booth",
+        "expr": "curious",
+        "pose": "leaning_furniture",
+        "orient": "rear_3q",
+        "frame": "chest_up",
+        "lens": "portrait85",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "mini length",
+          "halter neck"
+        ],
+        "lead": "action"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "partner_care",
+        "ex": "care_brushing",
+        "expr": "serious",
+        "pose": "carrying_something",
+        "orient": "looking_away",
+        "frame": "environmental",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "strapless top"
+        ],
+        "lead": "detail"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "hanbok_slip",
+      "expr": "half_smile",
+      "pose": "cross_legged",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "lingerie_set",
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "side cutouts"
+      ],
+      "lead": "place"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_booth",
+      "expr": "curious",
+      "pose": "leaning_furniture",
+      "orient": "rear_3q",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "mini length",
+        "halter neck"
+      ],
+      "lead": "action"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_brushing",
+      "expr": "serious",
+      "pose": "carrying_something",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "detail"
+    }
+  ],
+  "check": "passed before generation",
+  "reservation_commit": "0d68f7ff58c7dbba0b29162b43c7c7bc6146b66b",
+  "details": {
+    "1": {
+      "scene": "A cedar-floored hanok dressing alcove opens onto a rain-dark courtyard; a silk ribbon and folded fabric rest beside her floor cushion.",
+      "outfit": "An ivory opaque silk wrap top sits off the shoulders with small side cutouts above a full high-waisted charcoal skirt; a narrow sand-gold tie finishes the short top.",
+      "reasons": {
+        "scene": "예시가 장소를 정하지 않아 한옥 의상 정리 공간과 비 오는 오후를 보충",
+        "outfit": "속적삼·속치마 구조를 유지하며 계획의 오프숄더와 옆 트임, 소재·색을 지정",
+        "axes": "정지한 휴식은 mostly posed, 원작은 모래빛 끈만 subtle, 상하 분리 한복은 prefer separates"
+      }
+    },
+    "2": {
+      "scene": "Lifting a tiny handmade sand-colored hippo charm from a woven display tray, she compares its beadwork under amber festival lanterns.",
+      "outfit": "Terracotta halter-neck short overalls have a tailored mini-length hem and polished brass clasps, with bare shoulders and legs; a cream fabric belt ties the silhouette together.",
+      "reasons": {
+        "scene": "축제 부스에서 들어 보는 물건을 하마 참과 직조 전시대로 구체화",
+        "outfit": "계획의 overalls와 홀터·미니 길이를 축제용 테라코타 쇼트 오버롤로 구현",
+        "axes": "참을 들어 살피는 순간은 balanced, 하마 참은 balanced 원작 영향, 단일 오버롤은 balanced 분리 선호"
+      }
+    },
+    "3": {
+      "scene": "A small brush basket in her left hand and a soft brush in her right accompany a calm Hippopotas on the grooming mat; sunlit stable windows cast long rectangles across the floor.",
+      "outfit": "Cream one-shoulder short overalls with a single broad diagonal strap are layered over a securely fitted strapless rust bandeau; the asymmetric cut leaves one shoulder and both legs bare.",
+      "reasons": {
+        "scene": "돌봄 매트 예시에 들고 있는 바구니와 브러시, 동료 히포포타스·아침 채광을 보충",
+        "outfit": "계획의 one-shoulder와 strapless를 단일 멜빵과 밴도 이너로 함께 표현",
+        "axes": "브러싱 동작은 balanced, 동료와 녹슨 흙색은 balanced 영향, 오버롤과 밴도는 balanced 분리"
+      }
+    }
+  },
+  "compared_characters": [
+    "가이오가",
+    "라티오스",
+    "라티아스"
+  ],
+  "comparison": "실제 일상 9장과 이번 세 컷을 나란히 검토. 장소·활동·옷·포즈 조합이 구분됨.",
+  "replan_reason": "스콜피 일상 1의 책 읽기 및 일상 3의 물 주기가 예시 활동과 맞지 않아 생성 전 계획기 --avoid로 재선정. 하마돈 세 컷은 그대로 보존."
+}
