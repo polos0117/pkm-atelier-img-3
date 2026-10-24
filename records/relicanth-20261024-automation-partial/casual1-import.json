@@ -1,0 +1,30 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "517fbdad09bbf8d694e24147813332aefc2e5c5b23cc7b1a2d76030c220ef3c3",
+  "retained_original": null,
+  "output": {
+    "slot": "casual1",
+    "file": "시라칸_glossy_promo_f_casual1.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b17f9fcb7b464eeb2b8874b96275704f1334502f454ba77f30e9349a36cfeea6",
+    "reference": "시라칸_light_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 일상컷 1번 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "plan_match": "plan.json 의 cut 1(adult_roleplay · bunny · smug · hands_in_hair · reaching_up · full_body)과 장면이 맞는다 — 카바레 무대 커튼·전구 조명·분장대, 갈색 바니 원피스 홀터·허리 옆 트임·바위 무늬 황갈색 판·붉은 테두리, 두 손을 머리 위로 올려 귀 머리띠를 매만짐, 전신",
+  "look_check": "node tools/casual-look.cjs check --card 시라칸 (이 그림, casual2, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — ok",
+    "eye": "팔 둘(둘 다 머리 위)·손 둘·다리 둘 이상 없음"
+  },
+  "user_approval": "이걸로 올려줘",
+  "at": "2026-10-24",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 casual1 프롬프트·설정 기록은 막힌 자동 생성 시도의 것이며 이 그림의 설정으로 확인된 것이 아니다."
+}
