@@ -1,0 +1,102 @@
+{
+  "card": "한카리아스",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "한카리아스",
+    "cards": {
+      "한카리아스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "soft_smile",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "scene": "Late-afternoon sunlight filters across a seaside deck where a folded striped beach towel rests beside her.",
+            "outfit": "A mustard high-cut swimsuit with side cutouts beneath a loose white gauze cover-up tied open at the waist, with navy piping at the neckline.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "swim_coverup",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "category": true,
+              "example": true,
+              "expression": true,
+              "pose": true,
+              "orientation": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axis-overall_intensity": true,
+              "axis-skin_exposure": true,
+              "axis-action_level": true,
+              "axis-source_influence": true,
+              "axis-separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Garchomp (한카리아스) personified, dragon / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids\nPose: Perch on a low ledge or bench with the feet resting naturally below.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: Late-afternoon sunlight filters across a seaside deck where a folded striped beach towel rests beside her.\nOutfit and props: A mustard high-cut swimsuit with side cutouts beneath a loose white gauze cover-up tied open at the waist, with navy piping at the neckline.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: swimwear worn under an open gauzy cover-up, tied loosely at the hip\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "swimwear worn under an open gauzy cover-up, tied loosely at the hip",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "value": "Late-afternoon sunlight filters across a seaside deck where a folded striped beach towel rests beside her.",
+      "reason": "노을의 해변 데크 턱에 앉아 몸통을 비틀고 옅게 미소. 노란 컷아웃 수영복·흰 열린 커버업·줄무늬 수건. 한 손은 턱을 짚고 다른 손은 머리 곁에 있으며 어깨·허리·다리가 드러남. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "outfit",
+      "value": "A mustard high-cut swimsuit with side cutouts beneath a loose white gauze cover-up tied open at the waist, with navy piping at the neckline.",
+      "reason": "노을의 해변 데크 턱에 앉아 몸통을 비틀고 옅게 미소. 노란 컷아웃 수영복·흰 열린 커버업·줄무늬 수건. 한 손은 턱을 짚고 다른 손은 머리 곁에 있으며 어깨·허리·다리가 드러남. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "camera",
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구에 크기 인자가 없어 세로 2:3 해상도 지정"
+    }
+  ],
+  "axes_reasons": {
+    "action_level": "Late-afternoon sunlight filters across a seaside deck where a folded striped beach towel rests beside her.에서 선택한 순간의 움직임",
+    "source_influence": "A mustard high-cut swimsuit with side cutouts beneath a loose white gauze cover-up tied open at the waist, with navy piping at the neckline.에 담은 원작 색·작은 모티프의 비중",
+    "separates_preference": "swimsuit 의상 구조"
+  },
+  "planner_source": "gpt-gible-family-20261024"
+}

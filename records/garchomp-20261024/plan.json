@@ -1,0 +1,516 @@
+{
+  "casual_plan": [
+    {
+      "expr": "laughing_open",
+      "pose": "mid_stride",
+      "orient": "leaning_forward",
+      "scene": "In a wood-paneled rehearsal room, warm side lighting catches a small acoustic ukulele beside a linen floor cushion.",
+      "outfit": "Burgundy strapless overalls with tailored wide legs and a secure fitted bodice, exposing her shoulders and upper back; narrow ivory piping traces the seams.",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "hobbies_leisure",
+      "catCustom": "",
+      "ex": "hobby_music",
+      "exCustom": "",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+        "category": true,
+        "example": true,
+        "expression": true,
+        "pose": true,
+        "orientation": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axis-overall_intensity": true,
+        "axis-skin_exposure": true,
+        "axis-action_level": true,
+        "axis-source_influence": true,
+        "axis-separates_preference": true
+      },
+      "cut": 1,
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "open back",
+        "strapless top"
+      ],
+      "lead": "place"
+    },
+    {
+      "expr": "soft_smile",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "scene": "Late-afternoon sunlight filters across a seaside deck where a folded striped beach towel rests beside her.",
+      "outfit": "A mustard high-cut swimsuit with side cutouts beneath a loose white gauze cover-up tied open at the waist, with navy piping at the neckline.",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "swimwear",
+      "catCustom": "",
+      "ex": "swim_coverup",
+      "exCustom": "",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "action": {},
+      "randomLocks": {
+        "category": true,
+        "example": true,
+        "expression": true,
+        "pose": true,
+        "orientation": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axis-overall_intensity": true,
+        "axis-skin_exposure": true,
+        "axis-action_level": true,
+        "axis-source_influence": true,
+        "axis-separates_preference": true
+      },
+      "cut": 2,
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "high-cut leg",
+        "side cutouts"
+      ],
+      "lead": "light"
+    },
+    {
+      "expr": "wistful",
+      "pose": "stretching",
+      "orient": "reaching_up",
+      "scene": "She positions a hanging rehearsal ribbon beside a marked path on the stage floor as cool overhead lights mix with warm footlights.",
+      "outfit": "A short white fitted vest and tailored cobalt trousers, exposing her midriff and shoulders; a navy triangular pin fastens the vest.",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "occupation_sensual",
+      "catCustom": "",
+      "ex": "motion_stage_director",
+      "exCustom": "",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "action": {},
+      "randomLocks": {
+        "category": true,
+        "example": true,
+        "expression": true,
+        "pose": true,
+        "orientation": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axis-overall_intensity": true,
+        "axis-skin_exposure": true,
+        "axis-action_level": true,
+        "axis-source_influence": true,
+        "axis-separates_preference": true
+      },
+      "cut": 3,
+      "garments": [
+        "trousers",
+        "vest"
+      ],
+      "expose": [
+        "bare midriff",
+        "mini length"
+      ],
+      "lead": "action"
+    }
+  ],
+  "batch_plan": {
+    "session": "gpt-gible-family-20261024",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "딥상어동",
+        "species": "gible-20261024",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "expr": "surprised",
+            "pose": "offering_food",
+            "orient": "over_shoulder",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "open back",
+              "halter neck"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "oversized_shirt",
+            "garments": [
+              "dress",
+              "shirt"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "one_knee_up",
+            "expr": "candid",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "triangle_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "front",
+            "frame": "three_quarter",
+            "pose": "contrapposto",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt"
+          ],
+          "orient": [
+            "rear_3q",
+            "front"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "한바이트",
+        "species": "gabite-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "active",
+            "ex": "basketball_jersey",
+            "garments": [
+              "shorts"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "squatting",
+            "expr": "exhausted",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "sari_blouse_set",
+            "garments": [
+              "blouse",
+              "lingerie_set",
+              "traditional"
+            ],
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "pose": "waving",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "high thigh slit"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_teacher",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "front_3q",
+            "frame": "full_body",
+            "pose": "reading_book",
+            "expr": "sleepy",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shorts",
+            "blouse",
+            "traditional"
+          ],
+          "orient": [
+            "crouching",
+            "low_angle",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "한카리아스",
+        "species": "garchomp-20261024",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_music",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "mid_stride",
+            "expr": "laughing_open",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "swim_coverup",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "pose": "perched_seat",
+            "expr": "soft_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_sensual",
+            "ex": "motion_stage_director",
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "stretching",
+            "expr": "wistful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "vest"
+          ],
+          "orient": [
+            "leaning_forward",
+            "seated_twist",
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "계획 통과 — 3명",
+  "replanning": null
+}

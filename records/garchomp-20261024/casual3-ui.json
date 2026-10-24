@@ -1,0 +1,103 @@
+{
+  "card": "한카리아스",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "한카리아스",
+    "cards": {
+      "한카리아스": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "mobility",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "wistful",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "scene": "She positions a hanging rehearsal ribbon beside a marked path on the stage floor as cool overhead lights mix with warm footlights.",
+            "outfit": "A short white fitted vest and tailored cobalt trousers, exposing her midriff and shoulders; a navy triangular pin fastens the vest.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "motion_stage_director",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "category": true,
+              "example": true,
+              "expression": true,
+              "pose": true,
+              "orientation": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axis-overall_intensity": true,
+              "axis-skin_exposure": true,
+              "axis-action_level": true,
+              "axis-source_influence": true,
+              "axis-separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Garchomp (한카리아스) personified, dragon / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: gaze softened and directed slightly upward or away, faint sad smile, inner brows raised\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: reach upward with natural shoulder articulation\nScene: She positions a hanging rehearsal ribbon beside a marked path on the stage floor as cool overhead lights mix with warm footlights.\nOutfit and props: A short white fitted vest and tailored cobalt trousers, exposing her midriff and shoulders; a navy triangular pin fastens the vest.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon Contest performance director positioning stage props and indicating a rehearsal path under stage lights.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "example_text": "Pokémon Contest performance director positioning stage props and indicating a rehearsal path under stage lights.",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "value": "She positions a hanging rehearsal ribbon beside a marked path on the stage floor as cool overhead lights mix with warm footlights.",
+      "reason": "푸른 무대 리본을 높은 가로봉에 묶는 동작. 흰 짧은 조끼·파란 바지·삼각 핀과 뒤쪽 조명이 보이고 팔 둘이 위로 이어진다. 두 손 일부가 화면 위에서 잘렸으며 표정은 옅은 아련한 미소. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "outfit",
+      "value": "A short white fitted vest and tailored cobalt trousers, exposing her midriff and shoulders; a navy triangular pin fastens the vest.",
+      "reason": "푸른 무대 리본을 높은 가로봉에 묶는 동작. 흰 짧은 조끼·파란 바지·삼각 핀과 뒤쪽 조명이 보이고 팔 둘이 위로 이어진다. 두 손 일부가 화면 위에서 잘렸으며 표정은 옅은 아련한 미소. — 예시에 없는 구체 요소 보충"
+    },
+    {
+      "field": "camera",
+      "value": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "도구에 크기 인자가 없어 세로 2:3 해상도 지정"
+    }
+  ],
+  "axes_reasons": {
+    "action_level": "She positions a hanging rehearsal ribbon beside a marked path on the stage floor as cool overhead lights mix with warm footlights.에서 선택한 순간의 움직임",
+    "source_influence": "A short white fitted vest and tailored cobalt trousers, exposing her midriff and shoulders; a navy triangular pin fastens the vest.에 담은 원작 색·작은 모티프의 비중",
+    "separates_preference": "trousers + vest 의상 구조"
+  },
+  "planner_source": "gpt-gible-family-20261024"
+}
