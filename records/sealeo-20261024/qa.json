@@ -1,0 +1,318 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_count": 9,
+  "no_replacements": true,
+  "face_reason": "바다사자의 넓은 체적과 수염을 넓은 볼·부드러운 눈·흰 깃으로 해석. 대굴레오의 둥근 짧은 얼굴보다 길고 넓은 성인 윤곽, 처진 큰 눈과 무게 있는 턱.",
+  "compared_characters": [
+    "대굴레오",
+    "랑딸랑",
+    "스컹뿡"
+  ],
+  "face_comparison": "대굴레오는 짧고 둥근 얼굴, 씨레오는 긴 타원과 넓은 아래 얼굴. 랑딸랑은 작은 입·짧은 금발과 높은 눈꼬리, 스컹뿡은 뾰족한 턱·좁고 날렵한 눈. 얼굴과 머리를 직접 비교했다.",
+  "diversity_comparison": {
+    "compared": [
+      "대굴레오 casual1-3",
+      "랑딸랑 casual1-3",
+      "스컹뿡 casual1-3"
+    ],
+    "observed": "씨레오 1은 긴 점프슈트의 런웨이와 허리에 손을 둔 상체, 2는 온천 돌 수반에서 물을 뜨는 낮은 무릎 자세·비키니와 허리 수건, 3은 공예 책상에 앉아 양손으로 비즈를 꿰는 니트+긴 바지다. 최근 유카타 포장·동료 돌봄·염색, 한복 외출·풀사이드·자전거, 새장·빨래·이벤트 코스튬과 장소·활동·실루엣이 구별된다.",
+    "look_check": "passed"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "58b1573b9187b2aacdcec79dd6b77e53aa4a8c701959e1b3da0d552e6a4596a9",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "흰 흉갑과 얇은 팔·다리 판, 좁은 윤곽"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "4bf7d205fc76a6f9560486386e12e18c593ee3d860de4e6854e15f27835512b0",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "흉복부와 어깨·허벅지·정강이에 두꺼운 겹판"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "89a03253b693df19450ad0efbec842ea49b0110ed42c91ad5cf61d6552dcca89",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·골반·종아리의 뒤로 벌어진 판과 소형 분사구"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "560b7fdc75fbd5290644079cfe8d3c29974fa6f11f947bf604084d94ae8ac3b1",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "경장 이음새가 떠 있고 안쪽에 얼음 청광"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "09bc34a231fef93a6ed455ac557c96c7831e0378d095a7460d1641ace086f95e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "겹판 사이 넓은 틈과 안쪽 얼음 발광"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "c2eee63573336788c4fac590cba1bf4f4a8d0e8b1eff417eb5fb8e8b23a012e5",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손(화면 왼쪽)은 엄지와 네 손가락 5지, 인물 왼손은 네 손가락이 분리되고 엄지는 손등 각도로 일부 가려짐. 손목은 각각 팔 끝에 연결.",
+        "note": "어깨→팔꿈치→손목 두 경로, 골반→무릎→발목 두 경로가 이어짐. 양발이 바위 위, 추가 팔다리 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈·긴 푸른 웨이브·커튼뱅·같은 코와 입 윤곽"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 끝까지 화면 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "펼쳐진 판과 열린 분사구 덮개·서리 빛"
+        },
+        "text": {
+          "match": true,
+          "evidence": "글자·라벨·상표·테두리 없음"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "75819634d4f51ef12d05a4361b7fc6e9e567b9edb42a143912d0a8ad45eed0f2",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "허리에 얹은 오른손의 네 손가락과 천 뒤쪽 엄지, 반대 손은 몸통 뒤로 가려짐.",
+        "note": "허리 위로 담겨 다리는 프레임 밖이며 추가 다리·손 없음."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "런웨이 조명과 반투명 패널 앞에서 모델링, 허리에 손"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "푸른 새틴 홀터 점프슈트·깊은 목선·아이보리 허리띠"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "선택 chest_up보다 넓게 허벅지 위까지, 방향도 완전 측면보다 앞 3/4"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "늘어진 눈꺼풀과 조금 열린 입"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "어깨·쇄골·등 옆선 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "기구·종이·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "1d6d7b0d70b084d0520cfe9c56932a7bb4c7f7012605f85cfbc75009bb2c622e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "물을 받는 양손에 보이는 손가락이 각각 분리, 엄지는 손 안쪽. 일부 손끝이 물에 가려짐.",
+        "note": "쪼그린 왼쪽 다리와 바닥에 댄 오른쪽 무릎에서 양발까지 자연스럽게 이어짐."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "김이 오르는 온천의 검은 돌 수반, 두 손으로 물 받기"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "스트랩리스 파랑 비키니와 짧게 감은 흰 수건"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리·양손·양발이 화면 안"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "눈을 카메라로 향하고 입꼬리가 완만하게 올라감"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "어깨·배·허벅지와 다리 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "기구·종이·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "f9446c7887e649b65aa2e58a4c65820581f3f7d188375a046084023d8a23e53b",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "비즈와 끈을 잡은 양손의 엄지·검지와 굽힌 나머지 손가락 분리, 겹친 손가락 일부 가려짐.",
+        "note": "바지 안 양쪽 무릎과 두 샌들 연결, 가구가 다리를 끊지 않음."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "비즈와 끈이 놓인 작업대에서 작은 부적을 양손으로 꿰기"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "한쪽 어깨와 허리를 드러낸 짧은 니트와 긴 흰 바지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "벤치에 앉아 양발까지 포함, 상체가 책상 쪽으로 비틀림"
+        },
+        "expression": {
+          "match": false,
+          "evidence": "미소와 편안한 눈, 선택 flustered보다 차분함"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "어깨·쇄골·배가 드러남"
+        },
+        "text": {
+          "match": true,
+          "evidence": "기구·종이·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    }
+  }
+}
