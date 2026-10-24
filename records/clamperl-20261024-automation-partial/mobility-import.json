@@ -1,0 +1,29 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "4163c7b796f9107f9be53158275bf4f0dc5369f9c4f01bd2b53e58285e852636",
+  "retained_original": null,
+  "output": {
+    "slot": "mobility",
+    "file": "진주몽_mobility_glossy_promo_f.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "f93de5c90f7a90ce726c5dc1375e30bfe122e0160e853cc68e13a3f0daacd4c0",
+    "reference": "진주몽_light_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "reference_match": "경장 그림과 얼굴·머리·진주 장식이 같다. 손을 내뻗은 경장과 달리 서서 걷는 자세 — 막힌 시도(선택 연출 없음)와 다른 그림이다.",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — check 1: 어느 팔에도 안 붙은 손 — 뼈대가 날개 깃에 잘못 잡힌 오검출",
+    "eye": "팔 둘·다리 둘·손 둘·손가락 이상 없음"
+  },
+  "user_approval": "진주몽 고기동, 고기동 개방 — 걔가 또 뭐 안된다고해서 내가 하려고",
+  "at": "2026-10-24",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 막힌 자동 생성 기록은 이 그림의 설정으로 확인된 것이 아니다."
+}

@@ -1,0 +1,29 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "source_sha256": "5d79a5eb7960781bc975202e235e05402b6b654a6793bf2e184f07978687d2c5",
+  "retained_original": null,
+  "output": {
+    "slot": "mobility_overdrive",
+    "file": "진주몽_mobility_overdrive_glossy_promo_f.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3603191c44fd1b8a34d507eb26f51213b68c77961eaec3d95399a551bbe39df1",
+    "reference": "진주몽_mobility_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "reference_match": "고기동 그림과 자세·구도·크기·얼굴이 같고 판 사이 발광과 깃이 늘었다(개방 규칙 IMAGE_RULES 3절 ④⑤⑥).",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — note 1: 몸이 2 개로 잡힘 — 뼈대가 날개 깃에 잘못 잡힌 오검출, 두 번째 인물 없음",
+    "eye": "팔 둘·다리 둘·손 둘·손가락 이상 없음"
+  },
+  "user_approval": "진주몽 고기동, 고기동 개방 — 걔가 또 뭐 안된다고해서 내가 하려고",
+  "at": "2026-10-24",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 막힌 자동 생성 기록은 이 그림의 설정으로 확인된 것이 아니다."
+}
