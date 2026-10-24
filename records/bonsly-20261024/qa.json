@@ -1,0 +1,326 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_count": 10,
+  "accepted_count": 9,
+  "blocked_count": 1,
+  "compared_characters": [
+    "꼬지모",
+    "헌테일",
+    "진주몽",
+    "씨카이저",
+    "동탁군"
+  ],
+  "face_reason": "분재의 작은 둥근 체적·바위의 단단함을 타원 윤곽과 넓은 아래 얼굴로, 물기 어린 인상을 내려간 눈꼬리·작은 입·둥근 코끝으로 해석한 성인 여성.",
+  "face_comparison": "꼬지모의 길고 갸름한 턱·살짝 올라간 눈꼬리보다 꼬지지는 아래 볼이 넓고 눈꼬리가 내려가며 코끝과 입이 둥글고 작다. 동탁군의 길고 가는 눈·얇은 입술과도 다르다. 헌테일의 높은 눈꼬리·진주몽의 넓고 둥근 큰 눈·씨카이저의 도톰한 입술과 나란히 확인했다.",
+  "diversity_comparison": {
+    "compared": [
+      "동탁군 casual1-3",
+      "헌테일 casual1-3",
+      "진주몽 casual1-3",
+      "씨카이저 casual1-3"
+    ],
+    "observed": "꼬지지 1은 야간 먹거리 가판대·간식을 내미는 손·긴 슬릿 점프슈트, 2는 콘테스트 리본 비교·양손을 들어 올린 낮은 시점·노랑 쇼트 점프슈트, 3은 무대 뒤 거울·모자와 손인사·짧은 흰 이벤트 드레스와 스타킹이다. 동탁군의 새틴 가터 솔기 정돈·빨래 접기·기기 점검과 옷 종류·손동작·담긴 범위가 다르다. 최근 3명의 해안·필기·조리·스트레칭·출근·필라테스·독서와 장소·활동·실루엣도 구분된다.",
+    "look_check": "passed; see look-check.txt"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "77d4a6672a4799633c643a899cc11dfff8c1e1394cd9e7400c2de83f5369dca4",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "갈색 돌 질감 얇은 갑주와 세로로 놓인 둥근 노랑 보석 세 개, 검은 슈트"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "ac098a925df25290dbc5f8af967216fd73211eabcd38ff0dbf74960168177f47",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "두꺼운 돌 겹판이 어깨·흉복부·골반·허벅지·정강이를 넓게 둘러싸며 열린 관 장식"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "f57c7d9f1beeafea10bfae5b2461b93e6994377cc9114d06889dcf9e82fbf09e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "가는 돌 판이 어깨·허리·종아리에서 뒤로 벌어지고 작은 금색 분사구 노출"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "3f23ee847f6860ecbc37fe04b93191d5a2ed9b13e6774bfa6123c67fddfd52cd",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "원래 경장 판 사이가 작은 힌지로 열려 황금 모래빛 내골격이 보임"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "653762dbe0eb1d633111409966800657e73be1ff177e9c27a8acafb41dcaa7c6",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "원래 두꺼운 겹판이 넓은 틈을 두고 열리고 황금빛이 안쪽에서 드러남"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "86585b9d4126cd80a8572105a70844135d021e30e54566f0b07c1d0d0d54e7c0",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "화면 왼쪽 인물 오른손의 엄지와 펼친 네 손가락 5지 분리. 반대 손은 아래로 세 손가락이 길게 보이고 엄지·새끼손가락은 옆으로 짧거나 장갑 가드에 일부 가림. 두 손의 방향과 손목 연결이 일관된다.",
+        "note": "두 어깨→팔꿈치→손목과 골반→무릎→발목→부츠가 끊기지 않음. 양발 끝 프레임 안, 개방 전후 자세와 손 모양 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "갈색 눈·짧은 갈색 트윈테일·일자 앞머리·아래로 부드럽게 내려간 눈꼬리·작은 입 유지"
+        },
+        "form": {
+          "match": true,
+          "evidence": "같은 부채꼴 판과 분사구 덮개가 더 벌어져 황금색 추진 빛과 작은 돌 조각 소용돌이"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 두 부츠 밑창에 여백 있음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "돌 표면의 점무늬·구조물·보석에 문자나 라벨 없음"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "da776ff036f4e5290fcdf0deb7406058d92d51db2abb86f2eccfee3321fbb535",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "간식 포장을 쥔 손의 네 손가락이 종이 앞에서 분리되고 엄지는 포장 뒤에 가림. 반대 손은 엄지와 네 손가락이 자연스럽게 굽고 일부 겹침.",
+        "note": "팔은 어깨와 팔꿈치에서 이어지고 허벅지까지 보여 다리 두 경로가 구분, 무릎 아래는 프레임 밖."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "등불이 켜진 먹거리 가판대에서 종이 포장의 구운 간식을 앞으로 내밂"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "적갈색 점프슈트의 긴 양쪽 슬릿과 허리 옆 트임, 어깨와 허벅지가 드러남"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리에서 무릎 위까지 정면으로 담김"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "눈꺼풀이 낮고 입이 조금 열려 피곤한 기색"
+        },
+        "text": {
+          "match": true,
+          "evidence": "간식 포장에 인쇄 없음. 가판대 종이는 꽃·가지 그림, 등은 격자와 꽃 장식, 읽히는 글자 없음"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "짧은 갈색 트윈테일·갈색 홍채·둥근 코끝과 작은 입 비율 유지"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "7dac6700fe216d9f43e6ebea5f232b65a8afda101bad6b6bf39d5de9730e4ef5",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "리본을 각각 잡은 양손의 엄지·검지와 굽힌 세 손가락 5지 구조가 분리. 보석·천에 일부 손끝 가림.",
+        "note": "양팔을 올린 어깨·팔꿈치·손목이 이어짐. 쇼츠와 양쪽 허벅지가 보이며 무릎 아래는 프레임 밖."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "준비 테이블의 작은 액세서리 상자 위로 노랑·초록 리본 두 개를 들어 비교"
+        },
+        "outfit": {
+          "match": false,
+          "evidence": "버터색 짧은 점프슈트·깊은 목선·등 트임, 원작 작은 녹색 머리 장식이 추가로 남음"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "낮은 시점에 상체와 쇼츠·허벅지까지, 선택 waist_up보다 넓게 담김"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "입술을 다물고 눈썹이 안쪽으로 모여 단호한 시선"
+        },
+        "text": {
+          "match": true,
+          "evidence": "상자·리본·무대 천에는 원형 장식만 있고 문자 없음"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "짧은 갈색 트윈테일·갈색 홍채·둥근 코끝과 작은 입 비율 유지"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "4d358b6fdc8003d2b4782101b5db24bc58935fdaa8ceda8193dc3a93d3fdf972",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인사하는 손은 펼친 엄지와 네 손가락 5지. 모자의 장식 핀을 잡은 반대 손은 엄지·검지와 굽힌 나머지 손가락이 구분, 모자 뒤로 일부 가림.",
+        "note": "양팔·손목과 골반에서 이어진 두 스타킹 다리·흰 구두가 분리, 무릎·발목이 꺾이는 방향 자연스러움. 거울 속은 같은 사람의 흐린 반사."
+      },
+      "observations": {
+        "scene": {
+          "match": false,
+          "evidence": "무대 뒤 거울과 의상 걸이 앞에서 한 손으로 인사하고 다른 손으로 접힌 모자와 금색 핀을 정돈"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "짧은 흰 퍼프소매 이벤트 드레스·붉은 앞치마 테두리·허리 옆과 허벅지 슬릿·흰 스타킹과 구두"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "뒤돌아 어깨 너머로 얼굴을 보이며 머리와 두 구두까지 전신"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "한쪽 입꼬리가 올라간 작은 미소와 옆으로 향한 시선"
+        },
+        "text": {
+          "match": true,
+          "evidence": "모자와 소품·거울·의상에 문자나 실제 기관 표장 없음"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "짧은 갈색 트윈테일·갈색 홍채·둥근 코끝과 작은 입 비율 유지"
+        }
+      }
+    }
+  },
+  "deviations_recorded_only": [
+    "casual2 retained one compact green hair accessory and wider framing",
+    "casual3 cap is held with its pin beside the mirror instead of already on the head; the costume-preparation activity is present"
+  ]
+}
