@@ -1,0 +1,114 @@
+{
+  "card": "스콜피",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "스콜피",
+    "cards": {
+      "스콜피": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "smug",
+            "pose": "arms_crossed",
+            "orient": "front",
+            "scene": "A ceramic perfume dish and a loose satin belt rest on the evening vanity beside her; soft wall lamps glow through a plum-colored screen.",
+            "outfit": "An opaque plum high-cut lingerie set leaves the midriff visible beneath an open short satin robe; wide supportive straps and matching full-coverage bottoms create a secure coordinated set.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "night_robe",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "lingerie_set",
+              "robe"
+            ],
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Skorupi (스콜피) personified, poison / bug type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one mouth corner lifted, lids lowered in a knowing look, chin tipped slightly up\nPose: Fold the arms comfortably across the torso with readable hands.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: A ceramic perfume dish and a loose satin belt rest on the evening vanity beside her; soft wall lamps glow through a plum-colored screen.\nOutfit and props: An opaque plum high-cut lingerie set leaves the midriff visible beneath an open short satin robe; wide supportive straps and matching full-coverage bottoms create a secure coordinated set.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a lingerie set worn under an open silk night robe with a tied sash\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Actual live generator UI controls selected; repository-generated prompt compared with visible live output.",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "lingerie",
+    "ex": "night_robe",
+    "garments": [
+      "lingerie_set",
+      "robe"
+    ],
+    "orient": "front",
+    "frame": "waist_up",
+    "pose": "arms_crossed",
+    "expr": "smug",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high-cut leg",
+      "bare midriff"
+    ],
+    "lead": "detail"
+  },
+  "direct_input_reasons": {
+    "scene": "계획의 소품 우선 문장과 팔짱 자세에 맞춰 화장대 향수 접시·벨트와 저녁 조명을 보충",
+    "outfit": "계획의 lingerie_set·robe·하이컷·맨허리를 불투명 자주색 세트와 짧게 연 로브로 구현",
+    "axes": "팔짱을 끼고 멈춘 순간은 mostly posed, 보랏빛은 balanced 영향, 로브와 세트 조합은 balanced 분리"
+  },
+  "reservation_session": "hippowdon-skorupi-20261025-da8969",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

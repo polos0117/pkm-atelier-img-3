@@ -1,0 +1,242 @@
+{
+  "session": "hippowdon-skorupi-20261025-da8969",
+  "planner": "tools/casual-plan.cjs",
+  "character": {
+    "card": "스콜피",
+    "species": "skorupi-20261025",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "active",
+        "ex": "stretch",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "side",
+        "frame": "three_quarter",
+        "pose": "standing_formal",
+        "expr": "mischievous",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "side cutouts"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "night_robe",
+        "garments": [
+          "lingerie_set",
+          "robe"
+        ],
+        "orient": "front",
+        "frame": "waist_up",
+        "pose": "arms_crossed",
+        "expr": "smug",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "detail"
+      },
+      {
+        "cut": 3,
+        "cat": "travel_exploration",
+        "ex": "travel_lakeside",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "looking_down",
+        "frame": "full_body",
+        "pose": "adjusting_bag",
+        "expr": "nostalgic",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "jumpsuit",
+        "robe"
+      ],
+      "orient": [
+        "side",
+        "front",
+        "looking_down"
+      ],
+      "frame": []
+    }
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "active",
+      "ex": "stretch",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "side",
+      "frame": "three_quarter",
+      "pose": "standing_formal",
+      "expr": "mischievous",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "side cutouts"
+      ],
+      "lead": "place"
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "night_robe",
+      "garments": [
+        "lingerie_set",
+        "robe"
+      ],
+      "orient": "front",
+      "frame": "waist_up",
+      "pose": "arms_crossed",
+      "expr": "smug",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "bare midriff"
+      ],
+      "lead": "detail"
+    },
+    {
+      "cut": 3,
+      "cat": "travel_exploration",
+      "ex": "travel_lakeside",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "looking_down",
+      "frame": "full_body",
+      "pose": "adjusting_bag",
+      "expr": "nostalgic",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "light"
+    }
+  ],
+  "check": "passed before generation",
+  "reservation_commit": "0d68f7ff58c7dbba0b29162b43c7c7bc6146b66b",
+  "details": {
+    "1": {
+      "scene": "Beside a cork exercise mat and foam roller, she pauses upright during a gentle calf and shoulder mobility stretch in a bright studio with a curved window.",
+      "outfit": "A sapphire fitted athletic jumpsuit has a secure deep V neckline ending above the sternum and small opaque-edged side cutouts at the waist, with tapered legs and soft training shoes.",
+      "reasons": {
+        "scene": "제목만 있는 스트레칭 예시에 종아리·어깨 가동성 운동과 스튜디오 환경을 지정",
+        "outfit": "계획의 jumpsuit·V넥·옆 트임을 운동복 재단으로 구체화",
+        "axes": "멈춰 선 스트레칭은 mostly posed, 파란색만 subtle 원작 영향, 점프슈트는 balanced 분리"
+      }
+    },
+    "2": {
+      "scene": "A ceramic perfume dish and a loose satin belt rest on the evening vanity beside her; soft wall lamps glow through a plum-colored screen.",
+      "outfit": "An opaque plum high-cut lingerie set leaves the midriff visible beneath an open short satin robe; wide supportive straps and matching full-coverage bottoms create a secure coordinated set.",
+      "reasons": {
+        "scene": "계획의 소품 우선 문장과 팔짱 자세에 맞춰 화장대 향수 접시·벨트와 저녁 조명을 보충",
+        "outfit": "계획의 lingerie_set·robe·하이컷·맨허리를 불투명 자주색 세트와 짧게 연 로브로 구현",
+        "axes": "팔짱을 끼고 멈춘 순간은 mostly posed, 보랏빛은 balanced 영향, 로브와 세트 조합은 balanced 분리"
+      }
+    },
+    "3": {
+      "scene": "Late-afternoon light glitters across the lake while an uncapped water bottle rests on the flat rock next to her walking shoes and canvas travel bag.",
+      "outfit": "A pale blue mini-length culotte jumpsuit has airy overskirt panels split high at the thighs, a fitted sleeveless bodice and practical walking shoes; a slim purple zipper pull provides a tiny color accent.",
+      "reasons": {
+        "scene": "호숫가 물 마시기 휴식 예시에 늦은 오후 빛과 병·여행가방 위치를 보충",
+        "outfit": "계획의 jumpsuit·미니·높은 슬릿을 치마 패널이 겹친 쇼트 퀼로트 점프슈트로 구현",
+        "axes": "가방끈을 정리하는 휴식은 balanced, 보라 지퍼만 subtle 영향, 점프슈트는 balanced 분리"
+      }
+    }
+  },
+  "compared_characters": [
+    "가이오가",
+    "라티오스",
+    "라티아스"
+  ],
+  "comparison": "실제 일상 9장과 이번 세 컷을 나란히 검토. 장소·활동·옷·포즈 조합이 구분됨.",
+  "replan_reason": "스콜피 일상 1의 책 읽기 및 일상 3의 물 주기가 예시 활동과 맞지 않아 생성 전 계획기 --avoid로 재선정. 하마돈 세 컷은 그대로 보존."
+}

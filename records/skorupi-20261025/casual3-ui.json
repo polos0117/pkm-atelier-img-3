@@ -1,0 +1,112 @@
+{
+  "card": "스콜피",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "스콜피",
+    "cards": {
+      "스콜피": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "nostalgic",
+            "pose": "adjusting_bag",
+            "orient": "looking_down",
+            "scene": "Late-afternoon light glitters across the lake while an uncapped water bottle rests on the flat rock next to her walking shoes and canvas travel bag.",
+            "outfit": "A pale blue mini-length culotte jumpsuit has airy overskirt panels split high at the thighs, a fitted sleeveless bodice and practical walking shoes; a slim purple zipper pull provides a tiny color accent.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "travel_exploration",
+            "catCustom": "",
+            "ex": "travel_lakeside",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Skorupi (스콜피) personified, poison / bug type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: soft distant gaze past the camera, faint wistful half-smile, brows gently raised at the inner ends\nPose: Adjust a shoulder strap with one hand while supporting the travel bag naturally.\nOrientation: gaze directed downward; camera height unchanged\nScene: Late-afternoon light glitters across the lake while an uncapped water bottle rests on the flat rock next to her walking shoes and canvas travel bag.\nOutfit and props: A pale blue mini-length culotte jumpsuit has airy overskirt panels split high at the thighs, a fitted sleeveless bodice and practical walking shoes; a slim purple zipper pull provides a tiny color accent.\nCategory: Show travel or peaceful field exploration in the Pokémon world, with useful travel clothing and a specific activity. Let the environment support the woman without overwhelming her or turning the scene into combat.\nExample scene: Taking a water break on a flat lakeside rock, with walking shoes and a travel bag clearly grounded.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Actual live generator UI controls selected; repository-generated prompt compared with visible live output.",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "travel_exploration",
+    "ex": "travel_lakeside",
+    "garments": [
+      "jumpsuit"
+    ],
+    "orient": "looking_down",
+    "frame": "full_body",
+    "pose": "adjusting_bag",
+    "expr": "nostalgic",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "mini length"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "호숫가 물 마시기 휴식 예시에 늦은 오후 빛과 병·여행가방 위치를 보충",
+    "outfit": "계획의 jumpsuit·미니·높은 슬릿을 치마 패널이 겹친 쇼트 퀼로트 점프슈트로 구현",
+    "axes": "가방끈을 정리하는 휴식은 balanced, 보라 지퍼만 subtle 영향, 점프슈트는 balanced 분리"
+  },
+  "reservation_session": "hippowdon-skorupi-20261025-da8969",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
