@@ -1,0 +1,45 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63",
+  "accepted": true,
+  "observations": [
+    "회갈색 긴 블런트컷과 불규칙한 앞머리, 주황 눈, 좁은 눈매·꺾인 눈썹·또렷한 턱이 보인다. 주황 바위 모서리 장갑과 일곱 점 문양, 얇은 어깨·전완·골반·정강이 판을 착용하고 양손·부츠 끝이 프레임 안에 있다."
+  ],
+  "anatomy": {
+    "tool": "note · armor obscures model skeleton; manual count used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "긴 회갈색 머리와 주황 눈, 각진 턱과 좁은 수평 눈이 첫 정본을 이룬다."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "회갈색 긴 블런트컷과 불규칙한 앞머리, 주황 눈, 좁은 눈매·꺾인 눈썹·또렷한 턱이 보인다. 주황 바위 모서리 장갑과 일곱 점 문양, 얇은 어깨·전완·골반·정강이 판을 착용하고 양손·부츠 끝이 프레임 안에 있다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  },
+  "face_reason": "",
+  "face_sources": [
+    "data/face-design.json#377",
+    "data/source-appearance.json#377"
+  ],
+  "compared_characters": [
+    "메타그로스",
+    "메탕",
+    "보만다"
+  ],
+  "face_comparison": "실제 경장 4장을 나란히 확인했다. 메타그로스의 넓은 하관·직선 눈썹, 메탕의 둥근 볼과 큰 눈, 보만다의 긴 얼굴과 뾰족한 코끝보다 레지락은 각진 턱·낮고 넓은 코·가늘고 수평인 눈과 꺾인 눈썹을 보인다. 레지 계열은 현재 첫 신규 인물이며 레지아이스와 레지스틸의 등록 경장은 없다."
+}

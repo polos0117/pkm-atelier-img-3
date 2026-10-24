@@ -1,0 +1,361 @@
+{
+  "card": "레지락",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "image_sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63",
+      "accepted": true,
+      "observations": [
+        "회갈색 긴 블런트컷과 불규칙한 앞머리, 주황 눈, 좁은 눈매·꺾인 눈썹·또렷한 턱이 보인다. 주황 바위 모서리 장갑과 일곱 점 문양, 얇은 어깨·전완·골반·정강이 판을 착용하고 양손·부츠 끝이 프레임 안에 있다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "긴 회갈색 머리와 주황 눈, 각진 턱과 좁은 수평 눈이 첫 정본을 이룬다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "회갈색 긴 블런트컷과 불규칙한 앞머리, 주황 눈, 좁은 눈매·꺾인 눈썹·또렷한 턱이 보인다. 주황 바위 모서리 장갑과 일곱 점 문양, 얇은 어깨·전완·골반·정강이 판을 착용하고 양손·부츠 끝이 프레임 안에 있다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      },
+      "face_reason": "",
+      "face_sources": [
+        "data/face-design.json#377",
+        "data/source-appearance.json#377"
+      ],
+      "compared_characters": [
+        "메타그로스",
+        "메탕",
+        "보만다"
+      ],
+      "face_comparison": "실제 경장 4장을 나란히 확인했다. 메타그로스의 넓은 하관·직선 눈썹, 메탕의 둥근 볼과 큰 눈, 보만다의 긴 얼굴과 뾰족한 코끝보다 레지락은 각진 턱·낮고 넓은 코·가늘고 수평인 눈과 꺾인 눈썹을 보인다. 레지 계열은 현재 첫 신규 인물이며 레지아이스와 레지스틸의 등록 경장은 없다."
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "image_sha256": "14e7ecb2ebb2a2cf8f922f7d38f8ffc6e8609badd538834ffc5d95e729c4c21e",
+      "accepted": true,
+      "observations": [
+        "경장과 같은 얼굴·머리·몸을 유지하고 어깨·흉부·복부·골반·허벅지·정강이에 두꺼운 바위 겹판이 더해져 윤곽이 넓다. 작은 관자 장갑이 있으며 얼굴은 드러나고 양팔과 다리가 이어진다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "정본과 같은 주황 눈·꺾인 눈썹·긴 블런트 머리 및 턱 비율."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "경장과 같은 얼굴·머리·몸을 유지하고 어깨·흉부·복부·골반·허벅지·정강이에 두꺼운 바위 겹판이 더해져 윤곽이 넓다. 작은 관자 장갑이 있으며 얼굴은 드러나고 양팔과 다리가 이어진다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "image_sha256": "5b0204c48af1ba59a5cc253ecfb45749e0e78e168a713130c619185efc2195e2",
+      "accepted": true,
+      "observations": [
+        "어깨·골반·종아리의 얇은 판이 뒤로 갈라지고 패널 사이에 작은 주황 추진구가 보인다. 경장 흉부 문양과 체형을 유지하고 양손·발이 몸에 연결되어 있다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장의 눈·입·턱과 앞머리, 긴 회갈색 머리가 이어진다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "어깨·골반·종아리의 얇은 판이 뒤로 갈라지고 패널 사이에 작은 주황 추진구가 보인다. 경장 흉부 문양과 체형을 유지하고 양손·발이 몸에 연결되어 있다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "e7e7d0b6ab9d69f68b5b4e28804346f8ff6c4a85c47e32939e3e625664a0e795",
+      "accepted": true,
+      "observations": [
+        "경장과 얼굴 크기·발 위치·손 위치·카메라가 이어지고 기존 판 이음새가 들리면서 금빛 내부 프레임과 작은 바위 파편이 보인다. 새 무기나 헬멧은 없다."
+      ],
+      "anatomy": {
+        "tool": "check · faint_body / loose_hand at thigh",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": true,
+        "note": "오버레이의 빨간 손 표시는 오른쪽 허벅지의 열린 장갑과 금빛 이음새를 손으로 오인했다. 실제 양손은 기존 손목에 붙어 있고 제3의 손이 없다. 확대해서 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장의 동일 인물·표정 골격과 머리 형태 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "경장과 얼굴 크기·발 위치·손 위치·카메라가 이어지고 기존 판 이음새가 들리면서 금빛 내부 프레임과 작은 바위 파편이 보인다. 새 무기나 헬멧은 없다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "275b1097369777c2ad17744058c7b17f56695dc76f3cb05a32043b9b92f018bf",
+      "accepted": true,
+      "observations": [
+        "중장 겹판이 같은 자리에 남은 채 어깨·전완·골반·다리 판 사이가 벌어져 금빛 내부가 드러난다. 일반 중장의 부츠·손·얼굴 위치와 체형을 유지한다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "중장 및 정본의 같은 주황 눈·긴 앞머리·각진 턱이 이어진다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "중장 겹판이 같은 자리에 남은 채 어깨·전완·골반·다리 판 사이가 벌어져 금빛 내부가 드러난다. 일반 중장의 부츠·손·얼굴 위치와 체형을 유지한다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "image_sha256": "6e76ffb237dc740f7bf17197837b611f5e7a40c969976e49b2682d6b474d4561",
+      "accepted": true,
+      "observations": [
+        "고기동의 뒤로 뻗은 패널과 추진기 덮개가 더 열려 금빛 내부와 작은 바위 파편이 보인다. 카메라·손·부츠 위치와 원래 판 구성이 이어지며 새 무기는 없다."
+      ],
+      "anatomy": {
+        "tool": "note · armor obscures model skeleton; manual count used",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "고기동 및 정본과 같은 눈·머리·몸 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "고기동의 뒤로 뻗은 패널과 추진기 덮개가 더 열려 금빛 내부와 작은 바위 파편이 보인다. 카메라·손·부츠 위치와 원래 판 구성이 이어지며 새 무기는 없다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        }
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "image_sha256": "555b260d6a8d033b9d4dc1086c87de3936f55a601fb08c3776b20aed38cf4494",
+      "accepted": true,
+      "observations": [
+        "금속 스크린과 마네킹이 있는 피팅실에서 쪼그려 원단 견본을 살핀다. 어깨 너머 얼굴을 돌렸고 주황 메탈릭 크롭 상의·검정 미니스커트가 어깨·허리·허벅지를 드러낸다. 작은 주황 머리 장식이 남아 있지만 장갑은 없다."
+      ],
+      "anatomy": {
+        "tool": "check · leg_sym x2 / loose_hand",
+        "arms": 2,
+        "legs": 2,
+        "hands": "원단을 든 손은 엄지·검지가 보이고 나머지 세 손가락은 원단 뒤에 일부 가려짐. 아래에서 견본을 받치는 손도 엄지와 접힌 손가락이 천을 감싸며 손목이 팔에 이어짐.",
+        "overlay_checked": true,
+        "note": "모델이 가까운 팔을 다리로 잇고 낮은 쪼그림의 다리를 짧게 잡아 좌우 길이를 오판했다. 원본에서 양팔·손목과 굽힌 두 다리·부츠가 이어지고 추가 팔다리는 없다."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "주황 눈과 회갈색 긴 머리, 동일한 눈썹·턱 비율이 유지된다."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "금속 스크린과 마네킹이 있는 피팅실에서 쪼그려 원단 견본을 살핀다. 어깨 너머 얼굴을 돌렸고 주황 메탈릭 크롭 상의·검정 미니스커트가 어깨·허리·허벅지를 드러낸다. 작은 주황 머리 장식이 남아 있지만 장갑은 없다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "쪼그림과 어깨 너머 시선은 보이나 허리 위 선택보다 부츠까지 넓게 담겼다. 눈썹·입은 평평하고 웃지 않는다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "세 장의 실제 이미지를 최근 3명의 일상 9장과 나란히 확인했다. 이 컷은 원단 견본을 양손으로 받치며 뒤돌아본 낮은 쪼그림·비대칭 메탈릭 투피스로, 달리기·분수·현관·무대·기차역·리본 수영복과 장소·손동작·옷이 구별된다.",
+        "similarity_gate": "casual-look passed; nearest indexed distance 288"
+      }
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "image_sha256": "79db08d38ed6399587809015c0e13f74029a49b386b9e45d529fa0ec87be8b3c",
+      "accepted": true,
+      "observations": [
+        "거울과 새틴 견본이 있는 피팅실의 낮은 플랫폼 곁에서 한 무릎을 바닥에 대고 천의 세로 봉제선을 살핀다. 불투명 테라코타 뷔스티에와 하이컷 하의·스톤색 스타킹·주황 뮬이 보이며 어깨와 윗허벅지가 드러난다. 거울에는 자신의 뒷모습만 반사된다."
+      ],
+      "anatomy": {
+        "tool": "check · mirror body / loose_hand",
+        "arms": 2,
+        "legs": 2,
+        "hands": "입가 손은 엄지와 네 굽힌 손가락이 보이고 끝 일부가 겹친다. 천을 누르는 손은 검지·엄지가 보이며 나머지 손가락은 천과 손바닥 뒤에 가려진다. 두 발은 뮬과 스타킹 아래에 각각 이어짐.",
+        "overlay_checked": true,
+        "note": "두 번째 몸은 본인의 거울 반사다. 턱 곁 손을 손목에서 떨어진 것으로 오인했으나 손목과 팔꿈치가 연속되어 있다. 두 다리는 앞뒤 깊이가 다른 굽힌 자세이며 서로 교차하되 몸에 연결된다."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "원형과 같은 주황 눈·회갈색 긴 머리와 앞머리, 각진 턱 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "거울과 새틴 견본이 있는 피팅실의 낮은 플랫폼 곁에서 한 무릎을 바닥에 대고 천의 세로 봉제선을 살핀다. 불투명 테라코타 뷔스티에와 하이컷 하의·스톤색 스타킹·주황 뮬이 보이며 어깨와 윗허벅지가 드러난다. 거울에는 자신의 뒷모습만 반사된다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        },
+        "selected_pose_camera": {
+          "match": true,
+          "evidence": "한 무릎을 내린 자세와 전신 프레임, 아래로 향하는 시선·다문 입이 보인다. 반사된 얼굴은 보이지 않는다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "보만다 일상1도 무릎을 댄 실내 란제리지만, 이번 컷은 테라코타 세로 봉제 뷔스티에·스타킹·직물 견본·거울 반사와 입가에 둔 손으로 구성된다. 이번 1번의 뒤돌아본 비대칭 투피스와 3번의 야외 서 있는 유카타·수영복과 실루엣 및 팔 동작이 구별된다.",
+        "similarity_gate": "casual-look passed; nearest indexed distance 303"
+      }
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "image_sha256": "6339f092104635f5a1768f05bad05f8fc50b4a58138bff46d4f2e026188e5769",
+      "accepted": true,
+      "observations": [
+        "푸른 수영장과 석주가 있는 햇빛 드는 리조트에서 발끝을 세워 황동 난간 위 타월을 꺼낸다. 주황 할터 수영복과 옆 트임, 열린 모래색 유카타가 보이고 양팔과 두 발이 몸에 이어진다."
+      ],
+      "anatomy": {
+        "tool": "ok · no flagged anatomy",
+        "arms": 2,
+        "legs": 2,
+        "hands": "높이 뻗은 손은 타월을 엄지와 손가락으로 감싸 일부 끝이 타월에 가려진다. 허리 앞 손은 유카타 천을 잡은 굽힌 네 손가락과 엄지가 연결된다. 양발 발끝이 바닥을 딛고 보이는 발가락이 분리된다.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+      },
+      "checks": {
+        "dimensions": {
+          "match": true,
+          "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+        },
+        "identity": {
+          "match": true,
+          "evidence": "경장의 주황 눈과 회갈색 긴 블런트 머리, 얼굴 비율 유지."
+        },
+        "scene_and_outfit": {
+          "match": true,
+          "evidence": "푸른 수영장과 석주가 있는 햇빛 드는 리조트에서 발끝을 세워 황동 난간 위 타월을 꺼낸다. 주황 할터 수영복과 옆 트임, 열린 모래색 유카타가 보이고 양팔과 두 발이 몸에 이어진다."
+        },
+        "text_and_count": {
+          "match": true,
+          "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+        },
+        "selected_pose_camera": {
+          "match": false,
+          "evidence": "환경 중심 와이드 선택보다 인물이 크게 보이며 선택한 아래 시선 대신 타월 쪽 위를 본다. 발끝 들기와 타월을 꺼내는 활동은 분명하다."
+        }
+      },
+      "diversity_comparison": {
+        "compared_characters": [
+          "메타그로스",
+          "메탕",
+          "보만다"
+        ],
+        "evidence": "보만다 수영복은 리본을 양손에 들고 선 장면이며 이번에는 한 팔을 높이 뻗어 타월을 꺼내는 발끝 자세·열린 유카타다. 분수에서 달리던 메타그로스와도 장소 구조·활동·겉옷 윤곽이 다르고 이번 두 피팅실 컷과 야외 수직 구도가 구별된다.",
+        "similarity_gate": "casual-look passed; nearest indexed distance 284"
+      }
+    }
+  }
+}

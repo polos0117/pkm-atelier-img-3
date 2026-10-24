@@ -1,0 +1,116 @@
+{
+  "card": "레지락",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "레지락",
+    "cards": {
+      "레지락": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "unimpressed",
+            "pose": "squatting",
+            "orient": "over_shoulder",
+            "scene": "Late-afternoon copper light crosses a fashion fitting studio with polished metal screens; she checks the seam of a folded fabric swatch beside the fitting platform.",
+            "outfit": "An asymmetric bronze metallic crop top with an off-shoulder neckline on one side and a single narrow shoulder panel on the other, paired with a graphite wrap miniskirt; her shoulders, waist and thighs are exposed by the tailoring.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "source_editorial",
+            "catCustom": "",
+            "ex": "metallic_asymmetry",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Regirock (레지락) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: flat level brows, half-lidded deadpan stare, mouth in a straight unmoved line\nPose: Squat comfortably to interact at a lower height with balanced feet.\nOrientation: body turned away, head looking back over a shoulder\nScene: Late-afternoon copper light crosses a fashion fitting studio with polished metal screens; she checks the seam of a folded fabric swatch beside the fitting platform.\nOutfit and props: An asymmetric bronze metallic crop top with an off-shoulder neckline on one side and a single narrow shoulder panel on the other, paired with a graphite wrap miniskirt; her shoulders, waist and thighs are exposed by the tailoring.\nCategory: This scene should reinterpret the source creature as human editorial fashion. Translate source-specific colors, geometry, silhouette logic, crest language, and equipment symbolism into couture or themed fashion. No literal armor, no pilot suit, no mechanical body, no weapons.\nExample scene: asymmetric tailoring in metallic-sheen fabric, each side cut differently\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Live controls and final generated text observed; storage structure transcribed with the same repository prompt engine and compared to live output. No hidden browser storage read.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "source_editorial",
+    "ex": "metallic_asymmetry",
+    "garments": [
+      "crop_top",
+      "skirt"
+    ],
+    "orient": "over_shoulder",
+    "frame": "waist_up",
+    "pose": "squatting",
+    "expr": "unimpressed",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "off-shoulder neckline",
+      "one-shoulder cut"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "The metallic-tailoring example has no location or activity, so a fitting studio and checking a fabric seam provide them; lead=light.",
+    "outfit": "The example specifies asymmetric metallic fabric but no garments; the planned crop_top and skirt supply the silhouette and different shoulder cuts.",
+    "axes": "Mostly posed fits checking a small seam; balanced source influence keeps the bronze echo small; prefer separates fits the two-piece crop top and skirt."
+  },
+  "axes_reasons": "Mostly posed fits checking a small seam; balanced source influence keeps the bronze echo small; prefer separates fits the two-piece crop top and skirt.",
+  "reservation_session": "regirock-regice-20261025-d8a6",
+  "reservation_commit": "782fa579af825864a7bcf8d97bb79b0e8de136e0",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "card": "레지락",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-cf9fdd1f-3d43-4f23-828a-50a773ad4451.png",
+      "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63",
+      "session_only": true
+    },
+    "references": [],
+    "output": {
+      "filename": "레지락_light_glossy_promo_f.webp",
+      "sha256": "6d75d586de56c4c396a6a1549dd0157c78f2a9dd4485d4900fcf8a6164a3dbc2",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-ba2cd58a-23d0-4850-bbe8-15ce28537830.png",
+      "sha256": "14e7ecb2ebb2a2cf8f922f7d38f8ffc6e8609badd538834ffc5d95e729c4c21e",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_heavy_glossy_promo_f.webp",
+      "sha256": "36ac25fb6e3d1e31745bb8645135cc4d1c7ebe403f832ff103b269509b2fc10d",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-86efc779-c1bf-4168-9e6b-2bbd42cebbd1.png",
+      "sha256": "5b0204c48af1ba59a5cc253ecfb45749e0e78e168a713130c619185efc2195e2",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_mobility_glossy_promo_f.webp",
+      "sha256": "b38e0a858572a9d0a1c9e4d105225c2d2f281742b8d10025fbcbf6f483decc67",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-f2c488a5-796a-4381-95be-d7a9680baba9.png",
+      "sha256": "e7e7d0b6ab9d69f68b5b4e28804346f8ff6c4a85c47e32939e3e625664a0e795",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_light_overdrive_glossy_promo_f.webp",
+      "sha256": "65aafc7bfba1ae4db7311b6d458798c5b8d6b73426e1cf78f4cdcb6c50ebb076",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-b68ffa3b-7284-4d73-aee4-187877cf566d.png",
+      "sha256": "275b1097369777c2ad17744058c7b17f56695dc76f3cb05a32043b9b92f018bf",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "heavy",
+        "sha256": "14e7ecb2ebb2a2cf8f922f7d38f8ffc6e8609badd538834ffc5d95e729c4c21e"
+      },
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "24401d8be3a079196d2a443b1d0734a511e1ee74e96be7afd9a6a05815d379dc",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-21ae6e2b-f737-4a50-8912-4fcb4fa11b3d.png",
+      "sha256": "6e76ffb237dc740f7bf17197837b611f5e7a40c969976e49b2682d6b474d4561",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "mobility",
+        "sha256": "5b0204c48af1ba59a5cc253ecfb45749e0e78e168a713130c619185efc2195e2"
+      },
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "69d6bee4cf5da5d639132099c506165bbeeaefe0a85bd78abdc9ca8c71a6002c",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-d287dac8-b582-4829-9edc-774450d2240e.png",
+      "sha256": "555b260d6a8d033b9d4dc1086c87de3936f55a601fb08c3776b20aed38cf4494",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_glossy_promo_f_casual1.webp",
+      "sha256": "ec6e24f784799751b0272d01a6e42ab3b27631f352660923d18f2566c51010f3",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-b7ac9260-1376-4eab-ab6c-22a6198cd380.png",
+      "sha256": "79db08d38ed6399587809015c0e13f74029a49b386b9e45d529fa0ec87be8b3c",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_glossy_promo_f_casual2.webp",
+      "sha256": "b9fd83ba6324735e76580fd13bf99d42a0ed577d2736c2b3aa93b34961a4e891",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "레지락",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual live generator selections and exact submitted prompt",
+    "original": {
+      "session_path": "/workspace/scratch/d8a6d29c5313/generated_images/exec-a4f1d474-5b38-43bf-8bed-03cd68f33d34.png",
+      "sha256": "6339f092104635f5a1768f05bad05f8fc50b4a58138bff46d4f2e026188e5769",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "912eff63cfd08d50458f37d291a6d0c854ef7111f1778831aad7985bccda7f63"
+      }
+    ],
+    "output": {
+      "filename": "레지락_glossy_promo_f_casual3.webp",
+      "sha256": "e6dacbe6f9a74bd327854cb8740c9d03a6790353d05c92dca4d44d6e7633d338",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6
+    }
+  }
+]

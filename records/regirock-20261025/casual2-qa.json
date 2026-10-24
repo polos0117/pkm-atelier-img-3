@@ -1,0 +1,47 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "79db08d38ed6399587809015c0e13f74029a49b386b9e45d529fa0ec87be8b3c",
+  "accepted": true,
+  "observations": [
+    "거울과 새틴 견본이 있는 피팅실의 낮은 플랫폼 곁에서 한 무릎을 바닥에 대고 천의 세로 봉제선을 살핀다. 불투명 테라코타 뷔스티에와 하이컷 하의·스톤색 스타킹·주황 뮬이 보이며 어깨와 윗허벅지가 드러난다. 거울에는 자신의 뒷모습만 반사된다."
+  ],
+  "anatomy": {
+    "tool": "check · mirror body / loose_hand",
+    "arms": 2,
+    "legs": 2,
+    "hands": "입가 손은 엄지와 네 굽힌 손가락이 보이고 끝 일부가 겹친다. 천을 누르는 손은 검지·엄지가 보이며 나머지 손가락은 천과 손바닥 뒤에 가려진다. 두 발은 뮬과 스타킹 아래에 각각 이어짐.",
+    "overlay_checked": true,
+    "note": "두 번째 몸은 본인의 거울 반사다. 턱 곁 손을 손목에서 떨어진 것으로 오인했으나 손목과 팔꿈치가 연속되어 있다. 두 다리는 앞뒤 깊이가 다른 굽힌 자세이며 서로 교차하되 몸에 연결된다."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "원형과 같은 주황 눈·회갈색 긴 머리와 앞머리, 각진 턱 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "거울과 새틴 견본이 있는 피팅실의 낮은 플랫폼 곁에서 한 무릎을 바닥에 대고 천의 세로 봉제선을 살핀다. 불투명 테라코타 뷔스티에와 하이컷 하의·스톤색 스타킹·주황 뮬이 보이며 어깨와 윗허벅지가 드러난다. 거울에는 자신의 뒷모습만 반사된다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    },
+    "selected_pose_camera": {
+      "match": true,
+      "evidence": "한 무릎을 내린 자세와 전신 프레임, 아래로 향하는 시선·다문 입이 보인다. 반사된 얼굴은 보이지 않는다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "보만다 일상1도 무릎을 댄 실내 란제리지만, 이번 컷은 테라코타 세로 봉제 뷔스티에·스타킹·직물 견본·거울 반사와 입가에 둔 손으로 구성된다. 이번 1번의 뒤돌아본 비대칭 투피스와 3번의 야외 서 있는 유카타·수영복과 실루엣 및 팔 동작이 구별된다.",
+    "similarity_gate": "casual-look passed; nearest indexed distance 303"
+  }
+}

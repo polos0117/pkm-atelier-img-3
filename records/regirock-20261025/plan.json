@@ -1,0 +1,289 @@
+{
+  "session": "regirock-regice-20261025-d8a6",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "레지락",
+      "species": "regirock-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "source_editorial",
+          "ex": "metallic_asymmetry",
+          "garments": [
+            "crop_top",
+            "skirt"
+          ],
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "pose": "squatting",
+          "expr": "unimpressed",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "one-shoulder cut"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "bustier_inspired",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "crouching",
+          "frame": "full_body",
+          "pose": "kneeling",
+          "expr": "pensive",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "strapless top"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "yukata_poolside",
+          "garments": [
+            "traditional"
+          ],
+          "orient": "looking_down",
+          "frame": "environmental",
+          "pose": "on_tiptoe",
+          "expr": "wistful",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "side cutouts"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2,
+            3
+          ],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "crop_top",
+          "skirt",
+          "traditional"
+        ],
+        "orient": [
+          "over_shoulder",
+          "crouching",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "레지아이스",
+      "species": "regice-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "wildcard",
+          "ex": "rooftop_cinema",
+          "garments": [
+            "blouse",
+            "trousers"
+          ],
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "pose": "contrapposto",
+          "expr": "exhausted",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "halter neck",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "garments": [
+            "jacket"
+          ],
+          "orient": "front",
+          "frame": "chest_up",
+          "pose": "waving",
+          "expr": "provocative",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "one-shoulder cut"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "private_evening",
+          "ex": "wine_bar",
+          "garments": [
+            "dress"
+          ],
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "pose": "hands_in_hair",
+          "expr": "flustered",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "open back"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            2,
+            3
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "blouse"
+        ],
+        "orient": [
+          "leaning_back",
+          "front",
+          "front_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "direct_inputs": {
+    "1": {
+      "scene": "Late-afternoon copper light crosses a fashion fitting studio with polished metal screens; she checks the seam of a folded fabric swatch beside the fitting platform.",
+      "outfit": "An asymmetric bronze metallic crop top with an off-shoulder neckline on one side and a single narrow shoulder panel on the other, paired with a graphite wrap miniskirt; her shoulders, waist and thighs are exposed by the tailoring.",
+      "reasons": {
+        "scene": "The metallic-tailoring example has no location or activity, so a fitting studio and checking a fabric seam provide them; lead=light.",
+        "outfit": "The example specifies asymmetric metallic fabric but no garments; the planned crop_top and skirt supply the silhouette and different shoulder cuts.",
+        "axes": "Mostly posed fits checking a small seam; balanced source influence keeps the bronze echo small; prefer separates fits the two-piece crop top and skirt."
+      }
+    },
+    "2": {
+      "scene": "A wardrobe fitting room has a low padded platform, standing mirror and orderly satin swatches; she studies the vertical seam of a matching sample laid beside her.",
+      "outfit": "Opaque terracotta satin, a strapless longline structured bustier with vertical seams and matching high-cut briefs, warm stone-coloured stockings and plain heeled mules; shoulders and upper thighs remain visible.",
+      "reasons": {
+        "scene": "The bustier example describes clothing only; the fitting room and satin-seam sample establish a fashion fitting activity, lead=place.",
+        "outfit": "The planned lingerie_set needs matching lower garments; opaque satin, strapless cut and high-cut leg follow the two planned expose values without changing the long structured bodice.",
+        "axes": "Mostly posed suits the fitting pause; strong source influence uses a recognisable terracotta-and-stone palette; balanced separates preserves one coordinated lingerie set."
+      }
+    },
+    "3": {
+      "scene": "Collecting a folded towel from a poolside brass rail, she pauses on a sunlit resort deck beside blue water and pale stone arches.",
+      "outfit": "A light sand-coloured yukata worn open over a burnt-orange halter swimsuit with small side cutouts and high-cut legs; the split yukata hem leaves her upper thighs visible, and the open front reveals her waist.",
+      "reasons": {
+        "scene": "The poolside yukata example has no specific activity; collecting the towel adds a practical poolside task and lead=action.",
+        "outfit": "The planned traditional garment is the required open yukata; high split hem and swimsuit side cutouts express the planned thigh slit and side-cutout exposure.",
+        "axes": "Mostly active suits reaching for the towel; balanced source influence is limited to warm colour echoes; balanced separates suits the swimsuit under its coordinated yukata."
+      }
+    }
+  },
+  "check": "casual-ledger.py check --fresh passed",
+  "reservation_commits": [
+    "2570c2d78933f89926bd4f17efd05a46d49a7ebd",
+    "782fa579af825864a7bcf8d97bb79b0e8de136e0"
+  ],
+  "history": [
+    {
+      "before_generation": true,
+      "change": "레지락 casual3 burkini_modest 제외: 전신을 덮는 예시와 bold/side-cutouts 설정이 충돌하여 계획기로 재선정. 어떤 컷도 이때 생성 전이었다."
+    }
+  ]
+}

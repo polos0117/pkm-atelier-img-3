@@ -1,0 +1,47 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "6339f092104635f5a1768f05bad05f8fc50b4a58138bff46d4f2e026188e5769",
+  "accepted": true,
+  "observations": [
+    "푸른 수영장과 석주가 있는 햇빛 드는 리조트에서 발끝을 세워 황동 난간 위 타월을 꺼낸다. 주황 할터 수영복과 옆 트임, 열린 모래색 유카타가 보이고 양팔과 두 발이 몸에 이어진다."
+  ],
+  "anatomy": {
+    "tool": "ok · no flagged anatomy",
+    "arms": 2,
+    "legs": 2,
+    "hands": "높이 뻗은 손은 타월을 엄지와 손가락으로 감싸 일부 끝이 타월에 가려진다. 허리 앞 손은 유카타 천을 잡은 굽힌 네 손가락과 엄지가 연결된다. 양발 발끝이 바닥을 딛고 보이는 발가락이 분리된다.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대에서 팔 둘·다리 둘·손목 연결·엄지 방향을 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "경장의 주황 눈과 회갈색 긴 블런트 머리, 얼굴 비율 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "푸른 수영장과 석주가 있는 햇빛 드는 리조트에서 발끝을 세워 황동 난간 위 타월을 꺼낸다. 주황 할터 수영복과 옆 트임, 열린 모래색 유카타가 보이고 양팔과 두 발이 몸에 이어진다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "환경 중심 와이드 선택보다 인물이 크게 보이며 선택한 아래 시선 대신 타월 쪽 위를 본다. 발끝 들기와 타월을 꺼내는 활동은 분명하다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "보만다 수영복은 리본을 양손에 들고 선 장면이며 이번에는 한 팔을 높이 뻗어 타월을 꺼내는 발끝 자세·열린 유카타다. 분수에서 달리던 메타그로스와도 장소 구조·활동·겉옷 윤곽이 다르고 이번 두 피팅실 컷과 야외 수직 구도가 구별된다.",
+    "similarity_gate": "casual-look passed; nearest indexed distance 284"
+  }
+}

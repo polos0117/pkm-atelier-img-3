@@ -1,0 +1,34 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "e7e7d0b6ab9d69f68b5b4e28804346f8ff6c4a85c47e32939e3e625664a0e795",
+  "accepted": true,
+  "observations": [
+    "경장과 얼굴 크기·발 위치·손 위치·카메라가 이어지고 기존 판 이음새가 들리면서 금빛 내부 프레임과 작은 바위 파편이 보인다. 새 무기나 헬멧은 없다."
+  ],
+  "anatomy": {
+    "tool": "check · faint_body / loose_hand at thigh",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지 하나와 네 손가락이 보이며 굽힌 끝 일부는 겹쳐 가려짐. 양 손목과 팔꿈치가 몸에 이어지고 엄지 방향이 각각 맞는다.",
+    "overlay_checked": true,
+    "note": "오버레이의 빨간 손 표시는 오른쪽 허벅지의 열린 장갑과 금빛 이음새를 손으로 오인했다. 실제 양손은 기존 손목에 붙어 있고 제3의 손이 없다. 확대해서 확인함."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "경장의 동일 인물·표정 골격과 머리 형태 유지."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "경장과 얼굴 크기·발 위치·손 위치·카메라가 이어지고 기존 판 이음새가 들리면서 금빛 내부 프레임과 작은 바위 파편이 보인다. 새 무기나 헬멧은 없다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    }
+  }
+}

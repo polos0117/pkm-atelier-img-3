@@ -1,0 +1,47 @@
+{
+  "reviewer": "gpt",
+  "image_sha256": "555b260d6a8d033b9d4dc1086c87de3936f55a601fb08c3776b20aed38cf4494",
+  "accepted": true,
+  "observations": [
+    "금속 스크린과 마네킹이 있는 피팅실에서 쪼그려 원단 견본을 살핀다. 어깨 너머 얼굴을 돌렸고 주황 메탈릭 크롭 상의·검정 미니스커트가 어깨·허리·허벅지를 드러낸다. 작은 주황 머리 장식이 남아 있지만 장갑은 없다."
+  ],
+  "anatomy": {
+    "tool": "check · leg_sym x2 / loose_hand",
+    "arms": 2,
+    "legs": 2,
+    "hands": "원단을 든 손은 엄지·검지가 보이고 나머지 세 손가락은 원단 뒤에 일부 가려짐. 아래에서 견본을 받치는 손도 엄지와 접힌 손가락이 천을 감싸며 손목이 팔에 이어짐.",
+    "overlay_checked": true,
+    "note": "모델이 가까운 팔을 다리로 잇고 낮은 쪼그림의 다리를 짧게 잡아 좌우 길이를 오판했다. 원본에서 양팔·손목과 굽힌 두 다리·부츠가 이어지고 추가 팔다리는 없다."
+  },
+  "checks": {
+    "dimensions": {
+      "match": true,
+      "evidence": "PNG와 변환한 WebP를 실제 열어 1024×1536 확인"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "주황 눈과 회갈색 긴 머리, 동일한 눈썹·턱 비율이 유지된다."
+    },
+    "scene_and_outfit": {
+      "match": true,
+      "evidence": "금속 스크린과 마네킹이 있는 피팅실에서 쪼그려 원단 견본을 살핀다. 어깨 너머 얼굴을 돌렸고 주황 메탈릭 크롭 상의·검정 미니스커트가 어깨·허리·허벅지를 드러낸다. 작은 주황 머리 장식이 남아 있지만 장갑은 없다."
+    },
+    "text_and_count": {
+      "match": true,
+      "evidence": "장갑 문양과 배경을 확대 확인했으며 글자·상표·가짜 라벨이나 두 번째 인물이 없음."
+    },
+    "selected_pose_camera": {
+      "match": false,
+      "evidence": "쪼그림과 어깨 너머 시선은 보이나 허리 위 선택보다 부츠까지 넓게 담겼다. 눈썹·입은 평평하고 웃지 않는다."
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "메타그로스",
+      "메탕",
+      "보만다"
+    ],
+    "evidence": "세 장의 실제 이미지를 최근 3명의 일상 9장과 나란히 확인했다. 이 컷은 원단 견본을 양손으로 받치며 뒤돌아본 낮은 쪼그림·비대칭 메탈릭 투피스로, 달리기·분수·현관·무대·기차역·리본 수영복과 장소·손동작·옷이 구별된다.",
+    "similarity_gate": "casual-look passed; nearest indexed distance 288"
+  }
+}
