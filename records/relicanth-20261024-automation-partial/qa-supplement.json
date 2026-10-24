@@ -1,0 +1,22 @@
+{
+  "card": 369,
+  "actual_comparison": "casual2 standing windowsill watering knit/trousers and casual3 seated bedroom towel-drying tank/shorts differ in activity, garment silhouette, setting and framing. Both rear three-quarter, casual2 chest/hip crop and casual3 full body. Actual recent examples listed in diversity.txt directly compared. Casual1 refused; no result comparison possible.",
+  "later_overlay_review": {
+    "casual2": "Actually viewed overlay after immutable QA record. Tool ok one hand, far arm/hidden digits remain uncertain; original QA overlay_checked:false preserved."
+  },
+  "visual_passes": [
+    "heavy",
+    "mobility"
+  ],
+  "post_review_exceptions": [
+    "light",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual2",
+    "casual3"
+  ],
+  "unavailable": [
+    "casual1"
+  ]
+}

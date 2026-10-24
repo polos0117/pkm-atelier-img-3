@@ -1,0 +1,405 @@
+{
+  "session": "image-runner-2026-10-24-10-369",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "시라칸",
+      "species": "relicanth-20261024",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "bunny",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "reaching_up",
+          "frame": "full_body",
+          "pose": "hands_in_hair",
+          "expr": "smug",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "side cutouts"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_gardening",
+          "garments": [
+            "knit_top",
+            "trousers"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "chest_up",
+          "pose": "watering",
+          "expr": "relieved",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "bare midriff"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "homewear",
+          "ex": "after_bath",
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "orient": "rear_3q",
+          "frame": "environmental",
+          "pose": "perched_seat",
+          "expr": "wistful",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "open back"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit",
+          "knit_top",
+          "trousers",
+          "tank"
+        ],
+        "orient": [
+          "reaching_up",
+          "three_quarter_back",
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "bunny",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "pose": "hands_in_hair",
+      "expr": "smug",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor",
+      "custom_inputs": {
+        "scene": "A small retro cabaret stage with velvet curtains and warm footlights, during the final costume check before a performance.",
+        "outfit": "An opaque brown swimsuit-cut stage one-piece with a halter neck and small side cutouts, tan rock-pattern panels and red piping; matching cuffs, bow-tie collar and rabbit-ear headband.",
+        "reason": "The bunny example supplies costume and stage but no moment; a final costume check supplies context, while material, neckline and cutouts realize the reserved swimsuit garment and exposure choices.",
+        "axes_reason": "A held costume-check moment is mostly posed; brown/tan/red rock pattern gives strong source influence; a single-piece stage garment is balanced."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    },
+    {
+      "cut": 2,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_gardening",
+      "garments": [
+        "knit_top",
+        "trousers"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "chest_up",
+      "pose": "watering",
+      "expr": "relieved",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+      "custom_inputs": {
+        "scene": "Late-afternoon light crosses the terracotta seedling pots and a small brass watering can on the windowsill; gardening scissors rest beside a dry clipped leaf.",
+        "outfit": "A rust-colored one-shoulder cropped knit top showing the midriff, with separate tan trousers and a narrow brown belt.",
+        "reason": "Gardening example already specifies watering seedlings and trimming leaves; light and pot materials add detail, while knit top and trousers realize the reserved clothing without repeating the pose.",
+        "axes_reason": "Watering is gentle balanced activity; earth colors provide balanced source influence; top and trousers are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "after_bath",
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "perched_seat",
+      "expr": "wistful",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: after a bath in a cotton camisole and shorts, drying her hair with a towel",
+      "custom_inputs": {
+        "scene": "A wooden comb and a spare folded bath towel lie on the bedroom dresser beside a shaded evening lamp.",
+        "outfit": "An opaque brown cotton open-back tank top and separate mini-length tan lounge shorts with a red geometric scale-pattern hem.",
+        "reason": "Actual UI example specifies drying hair with a towel in cotton camisole and shorts; comb, spare towel and evening lamp add room detail without changing that activity. Cotton tank and shorts preserve the example and reserved garment groups.",
+        "axes_reason": "A paused towel-drying moment is mostly posed; brown/tan/red scale pattern strongly recalls Relicanth; tank and shorts are separates."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed by casual-plan --reserve --push; no replan",
+    "actual_comparison": "Recent actual images viewed: Musharna mirror makeup flowing floral skirt, indoor pool cutout swimsuit, floor fabric selection shorts/top; Pidove festival dancing skirt, backstage jacket costume, outdoor partner-care skirt/top; Gorebyss arena referee and forest map bench. Planned Relicanth stage costume check one-piece, windowsill seedling watering knit/trousers, bedroom post-bath grooming shorts/tank differ in location, activity, silhouette and framing. Actual results require separate comparison; settings alone are not proof.\n"
+  }
+}
