@@ -1,0 +1,223 @@
+{
+  "card": "아공이",
+  "style": "glossy_promo",
+  "tool": "built-in image_gen",
+  "reviewer": "gpt",
+  "images": {
+    "light": {
+      "accepted": true,
+      "observations": "회색 긴 레이어드 머리와 옆 앞머리, 금빛 눈. 노란 원형 머리 장식과 회색 능선형 판, 삼각 무늬. 두 발·정수리가 프레임 안이며 양팔이 손목까지 이어진다. 선택한 중간 길이보다 실제 머리가 길다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "0afe016ecf3e71b4ee6e32903eedc2fada033ea54c933d11d65187caeeeabd44"
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "경장 얼굴·금빛 눈·회색 머리를 유지. 어깨·골반·전완·무릎·정강이에 두꺼운 테두리의 겹판이 쌓이고 얼굴은 열린다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "7bf4704eee878b41dd2be6b94727dea23c23d0c9d72b0cb1ffb4336caae27347"
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "경장의 얼굴·머리와 전신을 유지. 어깨·골반·종아리의 가는 판이 뒤로 벌어지고 파란 추진부와 판 사이 빈 공간이 보인다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "2d72b2e604e4dec03ca187feccda26045955615bb5312b11f0b6488ab14cb544"
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "경장과 같은 손·발 위치·카메라에서 얇은 판이 들리고 남보라 발광이 팔·허리·다리 이음새로 드러난다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "1ee1203eb2bc768a84b76b340fd14ce6bc01acc261fc022dfdeddf3ce330d721"
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "중장과 같은 전신 위치에서 겹판의 바깥층이 벌어져 남보라 내부 프레임을 드러낸다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "c23835e35fa5abff1518aa600c273334b1fd5a2e4d9cfc42b39a07bd04d4d6c0"
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "고기동의 펼쳐진 어깨·골반·종아리 판이 더 벌어지고 추진부와 프레임이 보라색으로 빛난다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "검은 장갑의 두 손에서 엄지 1과 네 손가락의 구부러진 끝을 확인. 손목이 팔 끝에 붙고 손등 방향·엄지가 서로 맞는다.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "8e5d75e03bcc0a07144e866ffc8952978093bc0fb722afb94bc6f01a52bef9fc"
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "햇빛 비치는 아파트 현관에서 폰을 들어 거울 셀카를 확인하고 다른 손은 허리에 댄다. 아이보리 넓은 리넨 오버롤과 세이지 오프숄더 크롭 블라우스, 어깨·옆구리가 보인다. 전신과 샌들이 담겼고 입가가 올라가 있다. 거울 가장자리의 반사는 몸 일부만 보이며 별도 얼굴은 없다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "폰 손은 네 손가락이 폰 가장자리에 이어지고 엄지는 기기 뒤 가림. 허리에 댄 손은 굽힌 손가락 일부만 보이며 엄지는 몸 뒤 가림. 두 팔 연결 확인.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "ff6eac610adde465d68deced801547dd20cea94774cbfd940fb8b7578681d70f"
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "펜싱 훈련장 벤치와 칼 보관대 앞에서 흰 마스크를 겨드랑이에 끼고 한 손으로 아래 테두리를 잡는다. 반대 팔은 머리 뒤로 올라가 손이 가렸다. 흰 재킷이 크림 밴도 위로 열리고 복부가 드러난다. 정면에 가깝고 무릎 위까지 담겨 선택한 허리 위보다 넓다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "마스크를 쥔 손은 엄지와 네 손가락 중 일부가 테두리 아래 가림. 머리 뒤 반대 손은 가려 셀 수 없음. 두 팔의 연결·굽힘을 확인.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "d59223a1a7addf16efb6bbabf84b09c122a80bec52739bd8eff3ac7f02d99c4d"
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "밝은 드레싱룸의 옷걸이 곁에서 쪼그려 앉아 어깨 너머로 얼굴을 돌린다. 두 손은 흰 천을 집고 있다. 남청 바디수트의 넓은 어깨끈·레이스 옆판·높은 다리선, 불투명한 몸판이 보인다. 두 발이 바닥에 이어지고 무릎이 자연스럽게 굽혔다. 선택한 무릎 위보다 전신에 가깝게 담겼다.",
+      "identity": {
+        "match": true,
+        "evidence": "회색 머리·옆으로 쓸어넘긴 앞머리·금빛 좁은 눈매·길게 휜 눈썹·넓은 입 모양이 경장과 이어진다."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 폰·마스크·의류·거울 확대에 읽을 수 있는 글자나 로고 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": "2; 잘린 부위는 가림 또는 프레임 밖",
+        "hands": "천을 잡은 두 손은 엄지와 구부린 네 손가락 일부가 천·반대 손에 가려짐. 손목 둘이 각각 팔 끝에 이어지며 셋째 손 없음. 두 발의 엄지·발가락 굽힘도 확대 확인.",
+        "overlay_checked": false,
+        "note": "원본 크기 및 손·발 확대에서 팔다리 연결과 엄지 방향 점검."
+      },
+      "image_sha256": "976ff43c2217205f8f6d3275424ada18b4d86cd12c5538f307848724f2200a91"
+    }
+  },
+  "skipped": [],
+  "diversity": {
+    "passed": true,
+    "compared": [
+      "사랑동이",
+      "콩둘기",
+      "몽얌나"
+    ],
+    "observed": "현관에서 폰을 든 전신 셀카와 넓은 오버롤, 훈련장의 마스크·흰 재킷, 옷장 곁에서 천을 집는 낮은 자세의 바디수트로 장소·옷·동작·실루엣이 다르다. 사랑동이의 비키니 스트레칭·역 가방 확인·거울 립스틱과 구체 활동·구도·옷 차이를 확인. 콩둘기와 몽얌나 실제 일상컷도 나란히 확인."
+  },
+  "attempts": [
+    {
+      "slot": "casual1",
+      "image_sha256": "f354fc2f0fb7006b3c698040636a623764610f3671507bd7384d2f638e6570bf",
+      "accepted": false,
+      "reason": "casual-look score 192 against 체리버 casual1; threshold 215",
+      "original_session_only": true,
+      "replacement": "casual1",
+      "changed": [
+        "place",
+        "activity",
+        "garment silhouette",
+        "pose"
+      ]
+    }
+  ]
+}
