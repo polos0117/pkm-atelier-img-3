@@ -225,6 +225,20 @@
       }
     }
   ],
-  "stage": "qa passed; pending remote publish and registration",
-  "face_comparison": "riolu-face-comparison.jpg visually inspected; Lucario canonical not found; four recent canonical portraits compared"
+  "stage": "registered and remote bytes/thumbnails verified",
+  "face_comparison": "riolu-face-comparison.jpg visually inspected; Lucario canonical not found; four recent canonical portraits compared",
+  "publication": {
+    "image_commit": "0320063e8c2ecfa21712fcea98222a8a438c2878",
+    "thumbnail_commit": "22ca029f6dea6490dc462407c91a811eaec5edf7",
+    "registration_commit": "346b98bf44cfc8671c7ed5c3ab72ce73df777e52",
+    "verified": {
+      "images": 9,
+      "thumbnails": 9,
+      "registered_slots": 9,
+      "sha256_matches": true
+    },
+    "tool": "built-in image_gen",
+    "prompts": "*-prompt.txt with exact generator outputs; corresponding *-ui.json",
+    "workflow_warnings": "Existing style/legacy image sizes and Node.js 20 action deprecation were reported. All 18 newly generated images were independently decoded and verified as 1024x1536. Thumbnail and registration checks succeeded."
+  }
 }
