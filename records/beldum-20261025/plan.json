@@ -1,0 +1,488 @@
+{
+  "card": "메탕",
+  "batch": {
+    "session": "gpt-salamence-beldum-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "보만다",
+        "species": "salamence-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "lace_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "kneeling",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "leaning_wall",
+            "expr": "sensual",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "parcel_pickup",
+            "garments": [
+              "leggings",
+              "sweater"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "proud",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "traditional",
+            "leggings",
+            "sweater"
+          ],
+          "orient": [
+            "profile_close",
+            "front_3q",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "메탕",
+        "species": "beldum-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_police",
+            "expr": "mischievous",
+            "pose": "standing_formal",
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "skirt"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_station",
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "cross_legged",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "poncho_andes",
+            "expr": "serious",
+            "pose": "arms_crossed",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "trousers"
+          ],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "adult_police",
+      "expr": "mischievous",
+      "pose": "standing_formal",
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shirt",
+        "skirt"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "scene": "Warm amber bulbs rim a costume-party mirror that reflects a burgundy velvet curtain; a silver costume case rests on the dressing stool.",
+      "outfit": "The navy party shirt has cobalt satin edging, a low off-shoulder sleeve line and small side-waist cutouts; a silver-flecked pencil skirt and a red stone in the invented star badge finish the costume.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "aspect": "2:3",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm amber bulbs rim a costume-party mirror that reflects a burgundy velvet curtain; a silver costume case rests on the dressing stool.",
+          "reason": "경찰풍 파티 의상 예시에 없는 전구 조명·거울에 비치는 커튼·의상 케이스를 보충함"
+        },
+        {
+          "field": "outfit",
+          "content": "The navy party shirt has cobalt satin edging, a low off-shoulder sleeve line and small side-waist cutouts; a silver-flecked pencil skirt and a red stone in the invented star badge finish the costume.",
+          "reason": "짧은소매 셔츠와 넥타이 구조를 유지하며 어깨선·옆허리 컷아웃·직물 디테일을 정함"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ],
+      "axes_reasons": "모자를 고친 채 잠시 멈춰 mostly posed; 붉은 보석과 청색 테두리로 balanced; 셔츠와 펜슬스커트로 separates",
+      "example_text": "a fitted navy police-style party costume — a short-brimmed peaked cap, a short-sleeved button shirt with epaulettes and a tie, a star-shaped decorative badge, a belted pencil skirt and boots; adjusting the cap with one hand at a costume-party mirror (an invented badge, no real insignia or weapons)"
+    },
+    {
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_station",
+      "garments": [
+        "crop_top",
+        "trousers"
+      ],
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "pose": "cross_legged",
+      "expr": "curious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "scene": "She traces the card’s single blue route line with her thumb; early mist gathers along the platform tracks, and the canvas travel bag is mustard yellow.",
+      "outfit": "A cobalt off-shoulder crop top with narrow silver piping is paired with ivory trousers with geometric side cutouts at the upper hips and flat red sandals.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "Partial correction to the supplied completed scene: replace the large folded map with a small route card bearing a single blue path, and put a small paper-wrapped rice snack in her other hand. Preserve the platform, outfit, seated body position and framing.",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She traces the card’s single blue route line with her thumb; early mist gathers along the platform tracks, and the canvas travel bag is mustard yellow.",
+          "reason": "역 벤치 예시에 없는 지도 색선·선로의 아침 안개·여행가방 재질과 색을 보충함"
+        },
+        {
+          "field": "outfit",
+          "content": "A cobalt off-shoulder crop top with narrow silver piping is paired with ivory trousers with geometric side cutouts at the upper hips and flat red sandals.",
+          "reason": "예시가 의상을 정하지 않아 계획의 크롭톱·바지·오프숄더·옆트임을 청색과 아이보리로 구성함"
+        },
+        {
+          "field": "custom",
+          "content": "Partial correction to the supplied completed scene: replace the large folded map with a small route card bearing a single blue path, and put a small paper-wrapped rice snack in her other hand. Preserve the platform, outfit, seated body position and framing.",
+          "reason": "일상2 첫 결과의 지도 위 작은 가짜 라벨 가능성을 없애고 예시의 간식을 실제로 손에 든 장면으로 맞추는 부분 수정"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ],
+      "axes_reasons": "노선 카드를 읽는 정지 순간으로 mostly posed; 코발트·은색 테두리·빨강의 배색이 뚜렷해 strong; 상의와 바지로 separates",
+      "example_text": "Waiting on a rural station bench with a travel bag, holding a snack and checking a route card."
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "traditional",
+      "ex": "poncho_andes",
+      "expr": "serious",
+      "pose": "arms_crossed",
+      "orient": "three_quarter_back",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "action",
+      "scene": "She pauses beside a handloom to judge a fresh band of woven stripes in the workshop’s late-morning light.",
+      "outfit": "The striped rust, ochre and indigo lliclla is folded short over one shoulder above a strapless ivory bodice, leaving the other shoulder and collarbones bare; a high-waisted knee-length pollera skirt and charcoal felt hat complete the outfit.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "aspect": "2:3",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She pauses beside a handloom to judge a fresh band of woven stripes in the workshop’s late-morning light.",
+          "reason": "안데스 직물 의상 예시에는 행동·장소가 없어 베틀 옆에서 직조한 띠를 평가하는 생활 장면을 정함"
+        },
+        {
+          "field": "outfit",
+          "content": "The striped rust, ochre and indigo lliclla is folded short over one shoulder above a strapless ivory bodice, leaving the other shoulder and collarbones bare; a high-waisted knee-length pollera skirt and charcoal felt hat complete the outfit.",
+          "reason": "예시의 lliclla·pollera·펠트 모자를 유지하며 한쪽 어깨·스트랩리스 구조와 짧게 접힌 직물의 길이를 보충함"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 크기 인자가 없어 세로 2:3 픽셀 크기를 명시한다."
+        }
+      ],
+      "axes_reasons": "직조물을 평가하며 멈춰 mostly posed; 남색 한 줄만 종의 색을 가져와 balanced; 상의·걸침·치마를 분리해 separates",
+      "example_text": "an Andean woven layer — a striped handwoven poncho or lliclla over a pollera skirt and a felt hat"
+    }
+  ],
+  "check": "casual-plan.cjs check passed before reservation publication; slots 1 and 3 preserved from prior checked batch",
+  "reservation_session": "gpt-salamence-beldum-20261025",
+  "revisions": [
+    {
+      "slot": "casual2",
+      "reason": "large map changed to small route card; snack added as required by example",
+      "previous_original_sha256": "c2bebc921183405eca7ba1190b1cb8b6405f19c43a85552940eabcc3b1360bd0"
+    }
+  ],
+  "face_reason": "구형 금속 머리를 넓고 짧은 얼굴·부드러운 턱·큰 눈으로 해석하고, 중간 길이 곱슬로 둥근 체적을 이음. 사람의 두 눈과 성인 체형을 유지.",
+  "face_source": "data/face-design.json 374; data/source-appearance.json 374",
+  "face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; open rounded eyes, large size, level outer corners, average spacing; short rounded brows; straight slender bridge nose; full lips.",
+  "compared_characters": [
+    "보만다",
+    "리오르",
+    "먹고자"
+  ],
+  "family_comparison": "메탕구·메타그로스는 현재 등록된 경장 없음; 계열 얼굴 설계표와 대조",
+  "prepublish_validation": {
+    "remote_img3_commit": "3957f2d1a5704f0abef0cccf9bf682955af82435",
+    "result": "passed",
+    "command": "casual-ledger.py check beldum-replan.json --fresh --repos pkm-atelier-img pkm-atelier-img-2 remote-validation/pkm-atelier-img-3",
+    "reason": "Use actual remote records and all remote image names. A fresh check including the unpublished new Beldum image files counts its own travel_station cut in small_cat_open; that self-count produced an already-used-cycle error. Pre-generation planner validation and remote-only prepublication check both pass. No checker or stored selection modified.",
+    "local_worktree_check": "failed: 메탕 2번 travel_exploration 예시 순환 — own unpublished cut counted in global cycle"
+  }
+}
