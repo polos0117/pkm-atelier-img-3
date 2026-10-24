@@ -1,0 +1,117 @@
+{
+  "card": "유토브",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "유토브",
+    "cards": {
+      "유토브": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "soft_smile",
+            "pose": "checking_map",
+            "orient": "high_angle",
+            "scene": "Late-afternoon amber light crosses a Pokémon-friendly hotel's reception counter, where a folded resting blanket, travel cushion and route map are being arranged.",
+            "outfit": "An ivory open-back halter vest ending above the waist with tailored charcoal trousers; gray feather-like piping edges the vest.",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "orbital_hotel",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "kept": true,
+            "cut": 3,
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "expose": [
+              "open back",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Tranquill (유토브) personified, normal / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids\nPose: Hold a folded-out route map in both hands while checking the surroundings.\nOrientation: camera above subject looking downward; obey selected framing\nScene: Late-afternoon amber light crosses a Pokémon-friendly hotel's reception counter, where a folded resting blanket, travel cushion and route map are being arranged.\nOutfit and props: An ivory open-back halter vest ending above the waist with tailored charcoal trousers; gray feather-like piping edges the vest.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon-friendly hotel concierge preparing a partner resting kit and a local route map at the reception counter.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 3,
+    "cat": "occupation_sensual",
+    "ex": "orbital_hotel",
+    "expr": "soft_smile",
+    "pose": "checking_map",
+    "orient": "high_angle",
+    "frame": "full_body",
+    "lens": "telephoto135",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "trousers",
+      "vest"
+    ],
+    "expose": [
+      "open back",
+      "halter neck"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "orbital_hotel의 실제 예시인 동반 호텔 접수대에 늦은 오후와 휴식 키트 구성품을 보충",
+    "outfit": "trousers+vest의 halter neck/open back을 의상 구조로 반영",
+    "axes": "지도와 키트 정리는 balanced, 깃털 파이핑과 회색 배색은 strong, 두 벌은 prefer separates"
+  },
+  "axes_reasons": "지도와 키트 정리는 balanced, 깃털 파이핑과 회색 배색은 strong, 두 벌은 prefer separates",
+  "reservation_session": "gpt-tranquill-unfezant-20261025-0fd9",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
