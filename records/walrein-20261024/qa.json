@@ -1,0 +1,320 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_count": 9,
+  "no_replacements": true,
+  "face_reason": "큰 흰 갈기와 둥근 주둥이는 부드러운 타원 턱·결 있는 눈썹·둥근 코끝·도톰한 입술. 씨레오보다 수평이고 가로로 긴 아몬드 눈과 중간 폭 얼굴을 유지. 긴 굵은 곱슬이 흰 갈기와 이어진다.",
+  "compared_characters": [
+    "씨레오",
+    "대굴레오",
+    "랑딸랑",
+    "스컹뿡"
+  ],
+  "face_comparison": "씨레오의 둥글고 아래로 부드럽게 흐른 눈보다 가로로 길고 수평인 눈과 도톰한 입. 대굴레오의 짧은 원형 얼굴과 구분되고, 랑딸랑의 가는 턱·작은 입과도 다르다.",
+  "diversity_comparison": {
+    "compared": [
+      "씨레오 casual1-3",
+      "대굴레오 casual1-3",
+      "랑딸랑 casual1-3",
+      "스컹뿡 casual1-3"
+    ],
+    "observed": "통근은 기차 플랫폼에서 카드와 가방을 든 재킷·미니스커트, 운동은 스튜디오 벽을 이용한 상체 스트레칭과 레깅스, 마지막은 저녁 화장대 서랍 앞에서 앞으로 기울인 전신과 세로 절개 뷔스티에다. 씨레오의 런웨이·온천·비즈 공예 및 이전 세 캐릭터의 생활 장면과 활동·구도·옷 종류가 구별된다.",
+    "look_check": "passed"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "8fabb0c3c99f1dc67421d91aeabc82b754d381b6c21ea3ff86932c30fa2888e8",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "흰 갈기형 깃·상아형 라펠·가는 청색 판과 흰 고리 장식"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "749b68056d52078dd4009e408a7d4395a86b368374287b54e9c866514d637475",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "가슴·배·골반·허벅지·정강이 겹판이 더 두껍고 넓음"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "0519001cea014c637c79c95ac5e074e2b1f6bfd760d07090caac239156bbb20e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·골반·종아리에서 뒤로 뻗은 판 사이 공간과 분사구"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "a6bf1c671e731fa92d228e145bd62d142793211c8af4a76bfdaec3695bb265ce",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "경장의 판 이음새가 떠서 안쪽 얼음빛 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "a982a582a214c19a448ef93f0744f8161713f5bcae95aeae93b779aeea5060dc",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "중장 겹판이 벌어지고 차가운 청광과 서리 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "720295d2169ae4c4be0afbfa4518b97ff9db520ce36260074177544c4637ad3c",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 화면 왼쪽에서 엄지와 네 손가락이 구별되며 새끼손가락이 굽혀짐. 인물 왼손은 화면 오른쪽에서 아래로 늘어뜨리고 네 손가락·엄지의 윤곽이 장갑과 손등 각도로 일부 겹침. 손목이 팔 끝에 붙는다.",
+        "note": "양 어깨에서 팔꿈치와 손목, 양 골반에서 무릎과 두 부츠까지 연속. 흰 갈기와 옷자락은 팔·다리와 분리, 추가 사지 없음."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "푸른 눈과 긴 굵은 푸른 곱슬, 넓지 않은 타원 얼굴·입술 유지"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠 끝까지 카드 프레임 안"
+        },
+        "form": {
+          "match": true,
+          "evidence": "쓸린 판이 더 벌어지고 분사구 덮개 열린 청광"
+        },
+        "text": {
+          "match": true,
+          "evidence": "읽히는 문자·상표·워터마크 없음"
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "0034ae9e146cff65a8d53973ff9f66c7ea44cb00a870a707e5e04da235124bb1",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "인물 오른손은 카드를 잡아 엄지·검지와 세 손가락 굴곡이 분리, 왼손은 가방 끈을 감싼 엄지와 네 마디가 구별됨.",
+        "note": "상반신에서 허벅지까지, 다리 아래는 프레임 밖. 양팔은 손목까지 연속."
+      },
+      "observations": {
+        "scene": {
+          "match": false,
+          "evidence": "기차 문 옆 플랫폼에서 교통카드와 가방을 들고 통근. 예시의 열차 내부 대신 플랫폼으로 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "짧은 흰 블라우스·푸른 재킷·옆선이 열린 미니스커트"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "waist_up보다 넓은 허벅지 위 구도, 상체 앞 3/4"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "입이 조금 열리고 눈은 카메라 쪽, wistful보다 당당한 느낌"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "배와 허벅지·허리 옆선 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "카드·기구·화장대 용기·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "9467034f2d30da8e8a00c825c7e155508208b0efe884532f2866f91b5d3d96fb",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "벽에 댄 인물 오른손은 엄지와 굽힌 네 손가락 일부가 겹쳐짐. 위로 든 왼손은 상단 프레임에 일부 잘려 완전 계수 불가.",
+        "note": "어깨→팔꿈치→손목이 각각 연결. 두 다리는 레깅스 안에서 무릎 부근까지 연결, 손 잘림은 프레이밍 편차로 기록."
+      },
+      "observations": {
+        "scene": {
+          "match": false,
+          "evidence": "운동 매트와 리포머가 있는 스튜디오의 벽을 이용해 옆구리 스트레칭. 매트/리포머 위 코어 동작 대신 벽에서 선 동작."
+        },
+        "outfit": {
+          "match": false,
+          "evidence": "어깨가 드러난 짧은 파란 상의와 흰 레깅스, 예시의 unitard 대신 선택한 separates가 보임"
+        },
+        "framing": {
+          "match": false,
+          "evidence": "머리부터 무릎 부근, 위로 든 손 일부가 상단 밖"
+        },
+        "expression": {
+          "match": true,
+          "evidence": "바깥을 보는 눈과 붉어진 볼, 조금 열린 입"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "어깨·쇄골·배 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "카드·기구·화장대 용기·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "cf998570b7764d2e0f14bcc67eb689c2692d1ca2a6f092e23dcdd580f7082954",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count performed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "상의 절개를 만지는 오른손의 엄지·검지, 굽힌 나머지 손가락 일부가 겹침. 서랍을 짚는 왼손은 엄지·검지와 나머지 손가락이 깊이 방향으로 겹침.",
+        "note": "몸통에서 두 다리·무릎·두 발이 이어지고 서랍에 짚은 팔도 팔꿈치에서 손목까지 연속."
+      },
+      "observations": {
+        "scene": {
+          "match": true,
+          "evidence": "따뜻한 램프가 켜진 화장대의 열린 낮은 서랍 앞에서 상체를 기울여 옷의 절개를 확인"
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "상아색 세로 절개·긴 몸판의 불투명 푸른 홀터 뷔스티에와 하이컷 하의"
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양발을 포함하는 전신, 한 손은 서랍에 지지"
+        },
+        "expression": {
+          "match": false,
+          "evidence": "눈꺼풀이 내려가고 입이 조금 열린 차분한 표정, 뚜렷한 smirk는 약함"
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "어깨·등·허벅지와 다리 노출"
+        },
+        "text": {
+          "match": true,
+          "evidence": "카드·기구·화장대 용기·배경에 읽히는 글자나 가짜 라벨 없음"
+        }
+      }
+    }
+  }
+}
