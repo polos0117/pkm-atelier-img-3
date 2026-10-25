@@ -1,0 +1,34 @@
+{
+  "card": "유토브",
+  "slot": "casual1",
+  "file": "유토브_glossy_promo_f_casual1.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "손 방향 수정 — 앞 그림은 위로 든 왼손이 손목에서 반대로 돌아가(오른손을 비틀어 붙인 듯, 엄지가 바깥쪽·손가락이 보는 쪽으로 꺾임) 있었다. ①과 앞 그림을 함께 첨부한 부분 고치기(fix-prompt.txt)로 그 손만 고쳤다 — 손목이 아래팔과 일직선, 엄지·검지로 크리스털 줄을 집는다. 얼굴·머리·의상·내린 손·배경은 그대로.",
+  "previous_webp_sha256": "e937479f50a85407de0959927b33419c3713262fcb2cc5d2f381cdc5a2c71778",
+  "source_sha256": "7a0c6391cc1c37b88432a58b81117641537eb15b08a7b8ebf34033dcf1c08a6f",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "d0b0bbba62d21e029c693f3cadaf09d72e3d699958b2ba89403a9b020cd3878c"
+  },
+  "provenance": "사용자가 fix-prompt.txt 로 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/tranquill-20261025/casual1-ui.json·plan.json 의 cut 1 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 유토브 (이 그림, casual2, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — check · 팔에 안 붙은 손(위로 든 팔을 뼈대가 못 잡음)",
+    "arms": 2,
+    "legs": "치마·프레임에 가려짐",
+    "hands": "위 왼손 — 엄지·검지로 줄을 집음, 엄지 안쪽 · 내린 오른손 — 카운터를 짚음",
+    "overlay_checked": true,
+    "note": "뼈대 그림에 위로 든 팔이 없다 — 오검출. 눈으로 두 팔 모두 어깨에 이어짐"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-25"
+}
