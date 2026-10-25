@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/pkm-daily-20261025-0200/runner.py", line 24, in <module>
+    if __name__=='__main__':R.main()
+                            ^^^^^^^^
+  File "/workspace/pkm-atelier/tools/image-runner.py", line 808, in main
+    raise ValueError('run blocked; no generation until explicitly resolved')
+ValueError: run blocked; no generation until explicitly resolved

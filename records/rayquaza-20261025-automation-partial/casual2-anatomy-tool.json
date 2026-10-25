@@ -1,0 +1,30 @@
+[
+ {
+  "level": "check",
+  "flags": [
+   {
+    "level": "note",
+    "what": "faint_body",
+    "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+   },
+   {
+    "level": "check",
+    "what": "loose_hand",
+    "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 오른손목에서 어깨너비의 2.9 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+   }
+  ],
+  "hands": [
+   {
+    "i": 0,
+    "label_side": "R",
+    "score": 0.99,
+    "arm": null,
+    "gap": 2.93
+   }
+  ],
+  "measure": {
+   "shoulder_px": 218.3
+  },
+  "file": "/workspace/generated_images/exec-39ba86cc-5769-42a1-a395-019f6de85017.png"
+ }
+]

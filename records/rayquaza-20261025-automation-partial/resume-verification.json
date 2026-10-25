@@ -1,0 +1,16 @@
+{
+  "planner_fix": "1b3771eb539af6ac3cb46118873458d9daa56772",
+  "stamp_fix": "120a92b77b0a49f8fadc27f1c0e74c7983eee6c1",
+  "reservation_path": "records/casual-reservations/image-runner-2026-10-25-16-384.json",
+  "reservation_sha256": "9b8fd7ad379a2775c6e5b35911a6d53b15d8ea2e1006b0952a929e0e32856635",
+  "reservation_at": "2026-10-25T02:50:12+00:00",
+  "stamp": "2866cdb8ed4b8b0dbae5bafae120002b3668744c031c974a2c399193fbf77771",
+  "actual_stamp_matches": true,
+  "cutoff": "2026-10-25T02:55:00+00:00",
+  "tests": [
+    "casual-plan 50 cases including 60-seed implicit outerwear regression",
+    "casual-ledger stamp validity/tamper/legacy tests",
+    "image-runner-external reservation stamp and race tests",
+    "session adapter all array entries retained"
+  ]
+}

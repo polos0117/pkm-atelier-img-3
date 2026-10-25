@@ -1,0 +1,399 @@
+{
+  "session": "image-runner-2026-10-25-16-384",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "레쿠쟈",
+      "species": "rayquaza-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "wildcard",
+          "ex": "observatory_night",
+          "garments": [
+            "coat"
+          ],
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "pose": "dance_step",
+          "expr": "calm",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "open back",
+            "side cutouts"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "uniform_inspired",
+          "garments": [
+            "uniform"
+          ],
+          "orient": "side",
+          "frame": "chest_up",
+          "pose": "side_sitting",
+          "expr": "focused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "open_shirt_lingerie",
+          "garments": [
+            "lingerie_set",
+            "shirt"
+          ],
+          "orient": "high_angle",
+          "frame": "full_body",
+          "pose": "one_knee_up",
+          "expr": "soft_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "bare midriff",
+            "plunging neckline"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2,
+            3
+          ],
+          "two": true,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "travel_exploration",
+          "food_berries",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "coat",
+          "uniform",
+          "lingerie_set"
+        ],
+        "orient": [
+          "over_shoulder",
+          "side",
+          "high_angle"
+        ],
+        "frame": [
+          "waist_up"
+        ]
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "wildcard",
+      "ex": "observatory_night",
+      "garments": [
+        "coat"
+      ],
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "pose": "dance_step",
+      "expr": "calm",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example_text": "Example scene: at a night observatory in a warm coat, looking through a telescope at the stars",
+      "custom_inputs": {
+        "scene": "Place: an open observatory terrace under a clear starry night, with one telescope and a stool. The adult woman makes a small dance step around the stool while turning her gaze over her shoulder calmly; one hand reaches naturally toward the telescope adjustment knob. No other figure.",
+        "outfit": "A tailored white long coat with an architectural open-back panel and small side cutouts, worn over an opaque fitted top and separate full-length black trousers. Black Y-shaped seam trim recalls Rayquaza strongly as textile detail; plain flat shoes. Normal astronomy outing, no armor, no seductive pose."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "uniform_inspired",
+      "garments": [
+        "uniform"
+      ],
+      "orient": "side",
+      "frame": "chest_up",
+      "pose": "side_sitting",
+      "expr": "focused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "Example scene: a stylized uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia",
+      "custom_inputs": {
+        "scene": "Detail: a plain decorative epaulette and folded costume program rest on a theater dressing-room bench. The adult woman sits sideways on the bench, focused while fastening a small invented uniform lapel decoration with her hands. Clear side view, no other figure, ordinary costume preparation.",
+        "outfit": "A stylized adult event uniform: opaque strapless cropped bodice with crisp lapel-shaped trim, separate tailored trousers and a small detachable decorative epaulette. Black and white Y-shaped textile lines evoke Rayquaza strongly, invented insignia only; no armor or weapons. Fully covered chest and pelvis, no intimate pose."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": true
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "open_shirt_lingerie",
+      "garments": [
+        "lingerie_set",
+        "shirt"
+      ],
+      "orient": "high_angle",
+      "frame": "full_body",
+      "pose": "one_knee_up",
+      "expr": "soft_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "plunging neckline"
+      ],
+      "lead": "light",
+      "example_text": "Example scene: a tailored oversized shirt worn open over a matching satin lingerie set",
+      "custom_inputs": {
+        "scene": "Light: soft morning window light falls across a quiet home dressing room and a small stool. The adult woman places one knee on the stool while calmly folding a clean towel on a nearby shelf, a gentle smile. High-angle full-body composition, visible naturally positioned hands, no other figure, no sexual activity.",
+        "outfit": "A tailored oversized shirt worn open over a matching opaque satin lingerie set with secure lined cups and full-coverage briefs. A modest V neckline and bare midriff, chest and pelvis fully covered; soft ivory fabric and one small black seam accent. Simple home wardrobe scene, no seductive pose, no intimate body emphasis."
+      },
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "submitted": true,
+      "generated": false
+    }
+  ],
+  "preflight": {
+    "planner_check": "passed official replan after upstream implicit-outerwear fix; original failed plans retained; no safety-refusal retry",
+    "actual_comparison": "Actual recent images viewed: Groudon shop-floor parcel packing, exhibition strap adjustment, beach jogging; Blitzle ornate-room dress, stage ribbon outfit, outdoor creature play; Zebstrika indoor curtain/lingerie, stage seat, marina swimwear. Rayquaza planned night telescope terrace/dance step in tailored coat/trousers, side-view seated costume-uniform preparation, and high-angle home towel-folding with shirt over opaque lingerie. Third overlaps lingerie broadly with Zebstrika but location, full-body crop, one-knee-on-stool activity and shirt silhouette differ. Costume bench versus stage seat needs actual-result comparison; choices alone are not a QA pass.\n"
+  }
+}
