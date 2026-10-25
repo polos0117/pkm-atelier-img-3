@@ -1,0 +1,418 @@
+{
+  "session": "chespin-quilladin-20261025-e406",
+  "batch_plan": {
+    "session": "chespin-quilladin-20261025-e406",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "도치마론",
+        "species": "chespin-20261025",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "commute_train",
+            "expr": "proud",
+            "pose": "hands_in_hair",
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "jacket"
+            ],
+            "expose": [
+              "open back",
+              "mini length"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "tennis_active",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "standing_relaxed",
+            "expr": "determined",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_police",
+            "expr": "cold_smile",
+            "pose": "mid_stride",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt"
+            ],
+            "expose": [
+              "side cutouts",
+              "cropped hem"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "도치보구",
+        "species": "quilladin-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "corset_lingerie",
+            "expr": "sleepy",
+            "pose": "bending_over",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "broadcast_director",
+            "expr": "smug",
+            "pose": "small_jog",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "low_back_evening",
+            "expr": "mischievous",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "open back",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "commute_train",
+      "garments": [
+        "blouse",
+        "jacket",
+        "skirt"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "hands_in_hair",
+      "expr": "proud",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_original": "commuting on a train in a blazer, blouse and skirt, holding a strap and her bag",
+      "direct_inputs": {
+        "scene": "Catching the morning train, she rides in a sunlit carriage with a shoulder bag at her hip, polished overhead grab straps and blurred rooftops passing the windows.",
+        "outfit": "A cropped navy bolero jacket and ivory open-back blouse pair with a scarlet pleated miniskirt; the blouse and jacket share a broad back opening, exposing her upper back and thighs.",
+        "reasons": {
+          "scene": "The train-commute example fixes riding with a strap and bag; sunlight, polished straps and passing rooftops supply time and carriage detail.",
+          "outfit": "The example provides no wardrobe; blouse, jacket and skirt follow the planner with its open-back and mini-length construction.",
+          "axes": "Waiting on the platform is mostly posed; a small red accent keeps source influence subtle; blouse and skirt require separates."
+        }
+      },
+      "locks": "cat,ex,expr,pose,orient,frame,lens,aspect and all five axes locked by planner URL"
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "adult_police",
+      "garments": [
+        "shirt",
+        "skirt"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "mid_stride",
+      "expr": "cold_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "cropped hem"
+      ],
+      "lead": "place",
+      "example_original": "a fitted navy police-style party costume — a short-brimmed peaked cap, a short-sleeved button shirt with epaulettes and a tie, a star-shaped decorative badge, a belted pencil skirt and boots; adjusting the cap with one hand at a costume-party mirror (an invented badge, no real insignia or weapons)",
+      "direct_inputs": {
+        "scene": "A costume-party dressing lounge has brass-framed mirrors and velvet curtains, with warm bulbs reflecting from the cap brim as she prepares to enter the party.",
+        "outfit": "The navy short-sleeved police-style button shirt has a cropped hem and small side cutouts above a belted pencil miniskirt, exposing her waist and thighs; retain its epaulettes, tie, decorative star badge, peaked cap and boots.",
+        "reasons": {
+          "scene": "The example requires a party mirror; the dressing lounge and warm bulbs specify its setting without changing the cap-adjusting action.",
+          "outfit": "The example defines the police party outfit; cropped shirt and side cutouts apply the planner while retaining every recognizable garment.",
+          "axes": "The selected stride is mostly active; a tiny palette echo remains subtle; shirt and skirt require separates."
+        }
+      },
+      "locks": "cat,ex,expr,pose,orient,frame,lens,aspect and all five axes locked by planner URL"
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "tennis_active",
+      "garments": [
+        "skirt"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "standing_relaxed",
+      "expr": "determined",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "mini length"
+      ],
+      "lead": "place",
+      "example_original": "in a pleated tennis skirt and polo, racket raised in the ready stance before returning a ball",
+      "direct_inputs": {
+        "scene": "A sunlit clay tennis court lies beyond a green windscreen; red clay dust gathers near the baseline during an early-evening practice rally.",
+        "outfit": "An ivory polo has a broad open-back panel and forest-green collar, paired with a short pleated tennis miniskirt that leaves her back and upper thighs bare, plus white court shoes.",
+        "reasons": {
+          "scene": "The tennis ready-stance example defines the racket activity; clay surface, windscreen and early-evening light specify its environment.",
+          "outfit": "The example already requires a polo and pleated tennis skirt; an open-back panel and mini hem apply the planner without replacing those garments.",
+          "axes": "Waiting to return the next ball is mostly posed; green and red echoes give balanced source influence; polo and skirt are separates.",
+          "custom": "The first tennis output had invented printed labels on the racket shaft; this is a localized lettering removal with canonical light plus the edit target."
+        },
+        "custom": "Supporting image 2 is the edit target. Remove only all printed lettering and label-like marks from the tennis racket frame, preserving its paint colors. Keep the entire existing image, character, pose, hands, clothing, lighting and background unchanged."
+      },
+      "locks": "cat,ex,expr,pose,orient,frame,lens,aspect and all five axes locked by planner URL"
+    }
+  ],
+  "reservation_commits": [
+    "bce99a139ce1e8f2d6bb93ed270603cbb702e0dc",
+    "c0f038818ad754501c6ec401eff9e654dc55b339",
+    "01b1dd4e808aec568ef32fe8078ee1d9ce01ca75"
+  ],
+  "check": "casual-ledger.py check passed before reservation publication",
+  "face_design": {
+    "basis": {
+      "name": "도치마론",
+      "en": "Chespin",
+      "line": "도치마론",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "oval",
+        "face length": "short",
+        "face width": "wide",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "large",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "straight medium brows",
+        "nose character": "small delicate nose",
+        "lips": "small mouth"
+      },
+      "why": "밤송이의 둥근 중심과 작은 가시를 둥근 얼굴 안의 또렷한 눈으로 해석한다.",
+      "cues": [
+        "몸 형태 upright → 얼굴형 균형 잡힌 타원형"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 균형 잡힌 타원형",
+      "hair": {
+        "hairstyle": "half-up",
+        "hair length": "medium",
+        "bangs": "choppy bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘four leaf-like spikes’·풀 타입에서 반묶음(묶은 꼬리) · 중간 길이 · 끝을 불규칙하게 친 앞머리",
+      "hair_cues": [
+        "‘four leaf-like spikes’ → 헤어스타일 반묶음",
+        "‘four leaf-like spikes’ → 앞머리 끝을 불규칙하게 친 앞머리"
+      ]
+    },
+    "final_face_line": "(her own structure, not the style's default face): oval face, short length, wide width; soft rounded jaw; almond eyes, large size, level outer corners, average spacing; straight medium brows; small delicate nose; small mouth.",
+    "canonical_file": "도치마론_light_glossy_promo_f.webp",
+    "canonical_sha256": "7e4be70b51b9ff22e32f57eb43486a0cc37bd4dbb25f29a1dd54005b84f365f3",
+    "compared_actual_characters": [
+      "무스틈니",
+      "독개굴",
+      "삐딱구리"
+    ],
+    "conclusion": "Compared actual canonical against Carnivine, Toxicroak and Croagunk: Chespin has a shorter broader cheek contour, larger open almond eyes and smaller nose/mouth, distinguishable beyond hair and palette."
+  },
+  "diversity": "Actual triptych and recent nine casual images compared: train with raised arms and bolero, rear-turn tennis grip with open-back polo, and party mirror cap-adjustment in structured navy uniform differ in activity, wardrobe construction and composition; no near-duplicate detected by casual-look.",
+  "generation_tool": "built-in image_gen",
+  "storage_note": "Original PNGs stay only in the producing session; this record retains hashes. Accepted WebPs and records are remotely recoverable after publication.",
+  "retries": [
+    {
+      "slot": "light",
+      "reason": "Six digits in the extended hand. Rejected before anchor acceptance. New text-only generation with loose fists.",
+      "rejected_original_sha256": "16e218daaa047bb0c9d689563e00eb270ec2e3cbb64ffd0851fc05e7511a3154"
+    },
+    {
+      "slot": "casual2",
+      "reason": "Aerial silk example required mid-air unitard, incompatible with planner floor pose and separates. Replanned through avoid; tennis ready stance accepted."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Invented racket label; local lettering removal with original light plus tennis target.",
+      "rejected_original_sha256": "aa6f9d9aabfd91a262898811cccc3badd052e4af2b1cea85b98c49e2d8a81835"
+    }
+  ]
+}
