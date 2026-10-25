@@ -1,0 +1,599 @@
+{
+  "session": "jirachi-deoxys-20261025-manual",
+  "characters": [
+    {
+      "card": "지라치",
+      "species": "jirachi-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "cabana_daybed",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "squatting",
+          "expr": "laughing",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high-cut leg"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "partner_care",
+          "ex": "care_walk",
+          "expr": "relieved",
+          "pose": "carrying_something",
+          "orient": "front_3q",
+          "frame": "full_body",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shirt",
+            "skirt"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "wildcard",
+          "ex": "winter_lodge",
+          "expr": "mildly_annoyed",
+          "pose": "side_sitting",
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "coat",
+            "leggings",
+            "sweater"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "halter neck"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2,
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "crouching"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "card": "지라치",
+      "slot": "casual1",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "지라치",
+        "cards": {
+          "지라치": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "laughing",
+                "pose": "squatting",
+                "orient": "crouching",
+                "scene": "Golden afternoon light falls across a striped resort cabana; she reaches for a folded beach towel beside the daybed.",
+                "outfit": "An opaque pale-blue one-piece swimsuit with a plunging neckline and high-cut leg openings, with simple flat beach sandals.",
+                "frame": "environmental",
+                "lens": "portrait85",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "swimwear",
+                "catCustom": "",
+                "ex": "cabana_daybed",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "subtle",
+                  "separates_preference": "balanced"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "cut": 1,
+                "garments": [
+                  "swimsuit"
+                ],
+                "expose": [
+                  "plunging neckline",
+                  "high-cut leg"
+                ],
+                "lead": "light"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "cabana_daybed",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "crouching",
+        "frame": "environmental",
+        "pose": "squatting",
+        "expr": "laughing",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "high-cut leg"
+        ],
+        "lead": "light"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Jirachi (지라치) personified, steel / psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: head tipped back slightly, eyes squeezed nearly shut, mouth open wide with teeth showing, cheeks raised high\nPose: Squat comfortably to interact at a lower height with balanced feet.\nOrientation: low crouch with flexed knees and hips\nScene: Golden afternoon light falls across a striped resort cabana; she reaches for a folded beach towel beside the daybed.\nOutfit and props: An opaque pale-blue one-piece swimsuit with a plunging neckline and high-cut leg openings, with simple flat beach sandals.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: seated at a resort cabana daybed in swimwear with an open cover-up, a book and a cold drink beside her\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "Golden afternoon light falls across a striped resort cabana; she reaches for a folded beach towel beside the daybed.",
+        "outfit": "An opaque pale-blue one-piece swimsuit with a plunging neckline and high-cut leg openings, with simple flat beach sandals.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: Golden afternoon light falls across a striped resort cabana; she reaches for a folded beach towel beside the daybed.",
+        "outfit": "Implements planner garments swimsuit and exposure structures plunging neckline, high-cut leg",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: cabana_daybed",
+        "source_influence": "Species expressed through the palette and small clothing accents in An opaque pale-blue one-piece swimsuit with a plunging neckline and high-cut leg openings, with simple flat beach sandals.",
+        "separates_preference": "Planner garments: swimsuit"
+      }
+    },
+    {
+      "card": "지라치",
+      "slot": "casual2",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "지라치",
+        "cards": {
+          "지라치": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "relieved",
+                "pose": "carrying_something",
+                "orient": "front_3q",
+                "scene": "A small blue treat pouch rests in her hand as one curious small Eevee sniffs the autumn leaves on the path.",
+                "outfit": "A pale-blue off-shoulder shirt tied above the waist and a yellow pleated mini skirt, with white walking shoes.",
+                "frame": "full_body",
+                "lens": "telephoto135",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "partner_care",
+                "catCustom": "",
+                "ex": "care_walk",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "balanced",
+                  "source_influence": "strong",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "kept": true,
+                "cut": 2,
+                "garments": [
+                  "shirt",
+                  "skirt"
+                ],
+                "expose": [
+                  "off-shoulder neckline",
+                  "mini length"
+                ],
+                "lead": "detail"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "kept": true,
+        "cut": 2,
+        "cat": "partner_care",
+        "ex": "care_walk",
+        "expr": "relieved",
+        "pose": "carrying_something",
+        "orient": "front_3q",
+        "frame": "full_body",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shirt",
+          "skirt"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "mini length"
+        ],
+        "lead": "detail"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Jirachi (지라치) personified, steel / psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Carry the scene's bag, basket or box with believable hand contact and weight.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: A small blue treat pouch rests in her hand as one curious small Eevee sniffs the autumn leaves on the path.\nOutfit and props: A pale-blue off-shoulder shirt tied above the waist and a yellow pleated mini skirt, with white walking shoes.\nCategory: Show a quiet personal moment caring for a Pokémon companion. Make the interaction, supporting props and comfortable setting specific; keep the approved woman as the main subject and any companion anatomically separate.\nExample scene: Walking along a park path beside a curious Pokémon companion, carrying a small treat pouch.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE WOMAN ONLY, with exactly one Pokémon companion as the scene describes — a separate creature at its own natural scale, its body never merged with hers, not a second human and not dressed like her. No other person or creature, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "A small blue treat pouch rests in her hand as one curious small Eevee sniffs the autumn leaves on the path.",
+        "outfit": "A pale-blue off-shoulder shirt tied above the waist and a yellow pleated mini skirt, with white walking shoes.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: A small blue treat pouch rests in her hand as one curious small Eevee sniffs the autumn leaves on the path.",
+        "outfit": "Implements planner garments shirt, skirt and exposure structures off-shoulder neckline, mini length",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: care_walk",
+        "source_influence": "Species expressed through the palette and small clothing accents in A pale-blue off-shoulder shirt tied above the waist and a yellow pleated mini skirt, with white walking shoes.",
+        "separates_preference": "Planner garments: shirt, skirt"
+      }
+    },
+    {
+      "card": "지라치",
+      "slot": "casual3",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "지라치",
+        "cards": {
+          "지라치": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "mildly_annoyed",
+                "pose": "side_sitting",
+                "orient": "rear_3q",
+                "scene": "She rubs her hands together after coming in from the snow; a stone fireplace warms a cedar lodge with frost beyond the window.",
+                "outfit": "A short ivory coat draped open over a blue one-shoulder halter sweater, exposing one shoulder and the upper chest, with fitted charcoal leggings.",
+                "frame": "waist_up",
+                "lens": "documentary35",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "wildcard",
+                "catCustom": "",
+                "ex": "winter_lodge",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "subtle",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "kept": true,
+                "cut": 3,
+                "garments": [
+                  "coat",
+                  "leggings",
+                  "sweater"
+                ],
+                "expose": [
+                  "one-shoulder cut",
+                  "halter neck"
+                ],
+                "lead": "action"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "kept": true,
+        "cut": 3,
+        "cat": "wildcard",
+        "ex": "winter_lodge",
+        "expr": "mildly_annoyed",
+        "pose": "side_sitting",
+        "orient": "rear_3q",
+        "frame": "waist_up",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "coat",
+          "leggings",
+          "sweater"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "halter neck"
+        ],
+        "lead": "action"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Jirachi (지라치) personified, steel / psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: inner brows drawn together, one eye slightly narrowed, mouth pressed flat to one side\nPose: Side-sit on a mat: hips on the mat, both knees bent and pointing to the same side, both lower legs folded back so the two feet lie side by side next to the opposite hip; torso upright.\nOrientation: rear three-quarter view showing back and one flank\nScene: She rubs her hands together after coming in from the snow; a stone fireplace warms a cedar lodge with frost beyond the window.\nOutfit and props: A short ivory coat draped open over a blue one-shoulder halter sweater, exposing one shoulder and the upper chest, with fitted charcoal leggings.\nCategory: Invent one fresh adult lifestyle scene. It should remain stylish, sensual, cinematic, and non-explicit with a coherent specific activity.\nExample scene: in a winter lodge in a knit sweater and leggings, hanging up her coat and holding a hot drink\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "She rubs her hands together after coming in from the snow; a stone fireplace warms a cedar lodge with frost beyond the window.",
+        "outfit": "A short ivory coat draped open over a blue one-shoulder halter sweater, exposing one shoulder and the upper chest, with fitted charcoal leggings.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: She rubs her hands together after coming in from the snow; a stone fireplace warms a cedar lodge with frost beyond the window.",
+        "outfit": "Implements planner garments coat, leggings, sweater and exposure structures one-shoulder cut, halter neck",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: winter_lodge",
+        "source_influence": "Species expressed through the palette and small clothing accents in A short ivory coat draped open over a blue one-shoulder halter sweater, exposing one shoulder and the upper chest, with fitted charcoal leggings.",
+        "separates_preference": "Planner garments: coat, leggings, sweater"
+      }
+    }
+  ],
+  "check": "planner check passed; reservation stamp verified",
+  "replans": [
+    "casual1 original lingerie output blocked; planner selected resort cabana swimwear scene"
+  ]
+}
