@@ -1,0 +1,148 @@
+{
+  "storage": {
+    "last": "마그마번",
+    "cards": {
+      "마그마번": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "confident",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "scene": "A pair of decorative reading glasses rests in her hand beside a rolling library ladder, part of a literary costume-party photo set with shelves of old clothbound volumes.",
+            "outfit": "A fitted cropped pink cardigan worn open over a red strapless bandeau, with a high-slit pencil miniskirt and burgundy heels; the shoulders, midriff and thighs are bare.",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "adult_librarian",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Magmortar (마그마번) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nPose: Perch on a low ledge or bench with the feet resting naturally below.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: A pair of decorative reading glasses rests in her hand beside a rolling library ladder, part of a literary costume-party photo set with shelves of old clothbound volumes.\nOutfit and props: A fitted cropped pink cardigan worn open over a red strapless bandeau, with a high-slit pencil miniskirt and burgundy heels; the shoulders, midriff and thighs are bare.\nCategory: Create playful adult event fashion inspired by occupation or roleplay motifs. It must read as a costume made for a stage presentation or themed event, not as an authentic workplace uniform. Use original colours and decorative details — no real institutional insignia, no weapons, no tactical gear. Describe the costume by its tailoring, trim, and props, and show a believable styling or preparation action.\nExample scene: a librarian-inspired costume with a fitted cardigan, pencil skirt, and glasses, among bookshelves\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 1,
+    "cat": "adult_roleplay",
+    "ex": "adult_librarian",
+    "garments": [
+      "cardigan",
+      "skirt"
+    ],
+    "orient": "seated_twist",
+    "frame": "environmental",
+    "pose": "perched_seat",
+    "expr": "confident",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "cropped hem",
+      "strapless top"
+    ],
+    "lead": "detail"
+  },
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "A pair of decorative reading glasses rests in her hand beside a rolling library ladder, part of a literary costume-party photo set with shelves of old clothbound volumes.",
+      "reason": "Example lacks the stated concrete work surface, task, time and light; elaborated from reserved adult_librarian."
+    },
+    {
+      "field": "outfit",
+      "content": "A fitted cropped pink cardigan worn open over a red strapless bandeau, with a high-slit pencil miniskirt and burgundy heels; the shoulders, midriff and thighs are bare.",
+      "reason": "Specifies reserved cardigan+skirt with cropped hem+strapless top and character color echo; matching preset lacks this exact construction."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed follows perched_seat for adult_librarian",
+    "source": "balanced expressed via the listed palette and restrained feather/spot details.",
+    "separates": "prefer separates follows cardigan+skirt"
+  }
+}
