@@ -1,0 +1,49 @@
+{
+  "approved_anchor": {
+    "card": "암트르",
+    "slot": "light",
+    "style": "glossy_promo",
+    "style_evidence": "Actual generator style selection; UI text verified before submission",
+    "source": "/workspace/scratch/fc2694d251a0/generated_images/exec-9bb7249f-29d6-4ba5-a602-dbba0a485b3b.png",
+    "source_sha256": "a11af1274d3035f290979c514a0c3a5e793a444219b0cb282e07ed2ac1c78122",
+    "file": "img/암트르_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "0a1840f4584587eb7bd7f8d5ed38694dd8290c7aa623eceeadc4186ac48056bb",
+    "reference": null
+  },
+  "accepted_slots": [
+    "light",
+    "light_overdrive",
+    "mobility",
+    "heavy",
+    "mobility_overdrive",
+    "heavy_overdrive",
+    "casual2",
+    "casual1",
+    "casual3"
+  ],
+  "publication": "pending",
+  "originals": "session-local only; sha256 preserved",
+  "qa": "complete",
+  "face_design": {
+    "reason": "The angular rocky body supports an angular jaw, narrow horizontal eyes and straight brows. Unlike Roggenrola, medium facial width, average eye spacing, smaller nose and mouth distinguish her as a separate adult. Crystals are chest and head ornaments.",
+    "sources": [
+      "data/source-appearance.json#525",
+      "data/face-design.json#525",
+      "docs/CHARACTER_FACE_DESIGNS.md#525"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, average spacing; straight medium brows; balanced nose; small mouth.",
+    "compared": [
+      "단굴",
+      "타만타",
+      "푸호꼬",
+      "브리가론"
+    ],
+    "observed": "Her broader lower face and longer eyes contrast with Roggenrola’s narrow triangular contour and closer sharper eyes; recent three anchors have different soft/elongated contours."
+  },
+  "original_policy": "Generated originals remain session-local; only their SHA256 hashes, final WebP assets and text records are published."
+}

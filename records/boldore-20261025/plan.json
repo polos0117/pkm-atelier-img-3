@@ -1,0 +1,616 @@
+{
+  "session": "roggenrola-boldore-fc2694-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "batch_plan": {
+    "session": "roggenrola-boldore-fc2694-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "단굴",
+        "species": "roggenrola-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "poolside_bar",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "pose": "holding_cup",
+            "expr": "laughing",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "leaning_furniture",
+            "expr": "cold_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "gentle_pat",
+            "expr": "relieved",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "lingerie_set",
+            "tank"
+          ],
+          "orient": [
+            "low_angle",
+            "looking_down",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "암트르",
+        "species": "boldore-20261025",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "desert_resort",
+            "expr": "exhausted",
+            "pose": "squatting",
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "example_text": "at a desert resort in a linen wrap dress and sun hat, resting in the shade",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Resting beside a low carved stone bench after a desert walk, she cools herself with a small palm-leaf fan in a resort courtyard of ochre dunes and turquoise mosaics.",
+                "reason": "Desert resort example has no specific activity beyond rest; added cooling with palm fan and local turquoise mosaic bench."
+              },
+              {
+                "field": "outfit",
+                "content": "An orange-red strapless linen dress has a structured plunging neckline and a high side slit, with flat leather sandals and a small navy sash.",
+                "reason": "Linen dress example has no neckline or palette; supplied orange strapless deep-neck wrap silhouette and navy sash to implement dress/exposure plan."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Resting with a fan is a held recovery moment.",
+              "source_influence": "Orange wrap dress, navy sash and small amber gems clearly echo the rocky source.",
+              "separates_preference": "Single dress with sash is a one-piece outfit."
+            },
+            "prompt_file": "casual1-prompt.txt"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "vinyl_stage",
+            "expr": "focused",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "jacket"
+            ],
+            "expose": [
+              "cropped hem",
+              "bare midriff"
+            ],
+            "example_text": "a vinyl stage costume with a glossy fitted jacket and boots under stage lighting",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Violet rehearsal lights wash a concert stage as she warms up beneath a suspended lighting rig, with a coiled cable and floor monitor near the wings.",
+                "reason": "Vinyl-stage example does not name rehearsal context or activity; added warm-up beneath rig and concert monitor/cable details."
+              },
+              {
+                "field": "outfit",
+                "content": "Her glossy fitted navy vinyl jacket has a cropped hem over a coral bandeau, with a high-waisted stage brief, bare midriff and tall matching boots.",
+                "reason": "Example requires jacket and boots; added navy cropped construction, coral bandeau and matching stage brief for bare midriff."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Overhead warm-up actively extends arms and back.",
+              "source_influence": "Navy jacket and coral stage top retain source colors without armor.",
+              "separates_preference": "Cropped jacket, bandeau and separate stage bottom are distinct pieces."
+            },
+            "prompt_file": "casual2-prompt.txt"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "window_vanity",
+            "garments": [
+              "robe",
+              "slip"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "one_knee_up",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "light",
+            "example_text": "at a window-side vanity in a slip and light robe, brushing her hair or putting on earrings",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Cool dawn light filters through pale-blue linen curtains beside a low window-side vanity; she draws a small wooden brush through the ends of her hair.",
+                "reason": "Window-vanity example allows hair or earrings; chose brushing hair, low vanity and cool dawn curtain light to differentiate from the amber standing ribbon scene."
+              },
+              {
+                "field": "outfit",
+                "content": "A pale-blue strapless slip has a shaped plunging neckline and a short hem; a light coral sleeveless robe hangs open around it, leaving her shoulders and legs bare.",
+                "reason": "Example names slip and light robe only; supplied blue strapless deep neckline and open coral sleeveless robe, with short hem and bare shoulders."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Slow hair brushing while settled on the mat is a mostly held grooming moment.",
+              "source_influence": "Small gold/crystal details and coral robe provide source echoes while blue slip controls the silhouette.",
+              "separates_preference": "Slip is one main garment with a light robe layer, so balanced preference fits."
+            },
+            "prompt_file": "casual3-prompt.txt"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe"
+          ],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "wildcard",
+      "ex": "desert_resort",
+      "expr": "exhausted",
+      "pose": "squatting",
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "example_text": "at a desert resort in a linen wrap dress and sun hat, resting in the shade",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Resting beside a low carved stone bench after a desert walk, she cools herself with a small palm-leaf fan in a resort courtyard of ochre dunes and turquoise mosaics.",
+          "reason": "Desert resort example has no specific activity beyond rest; added cooling with palm fan and local turquoise mosaic bench."
+        },
+        {
+          "field": "outfit",
+          "content": "An orange-red strapless linen dress has a structured plunging neckline and a high side slit, with flat leather sandals and a small navy sash.",
+          "reason": "Linen dress example has no neckline or palette; supplied orange strapless deep-neck wrap silhouette and navy sash to implement dress/exposure plan."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Resting with a fan is a held recovery moment.",
+        "source_influence": "Orange wrap dress, navy sash and small amber gems clearly echo the rocky source.",
+        "separates_preference": "Single dress with sash is a one-piece outfit."
+      },
+      "prompt_file": "casual1-prompt.txt"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "vinyl_stage",
+      "expr": "focused",
+      "pose": "stretching",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "jacket"
+      ],
+      "expose": [
+        "cropped hem",
+        "bare midriff"
+      ],
+      "example_text": "a vinyl stage costume with a glossy fitted jacket and boots under stage lighting",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Violet rehearsal lights wash a concert stage as she warms up beneath a suspended lighting rig, with a coiled cable and floor monitor near the wings.",
+          "reason": "Vinyl-stage example does not name rehearsal context or activity; added warm-up beneath rig and concert monitor/cable details."
+        },
+        {
+          "field": "outfit",
+          "content": "Her glossy fitted navy vinyl jacket has a cropped hem over a coral bandeau, with a high-waisted stage brief, bare midriff and tall matching boots.",
+          "reason": "Example requires jacket and boots; added navy cropped construction, coral bandeau and matching stage brief for bare midriff."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Overhead warm-up actively extends arms and back.",
+        "source_influence": "Navy jacket and coral stage top retain source colors without armor.",
+        "separates_preference": "Cropped jacket, bandeau and separate stage bottom are distinct pieces."
+      },
+      "prompt_file": "casual2-prompt.txt"
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "window_vanity",
+      "garments": [
+        "robe",
+        "slip"
+      ],
+      "orient": "crouching",
+      "frame": "waist_up",
+      "pose": "one_knee_up",
+      "expr": "sleepy",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "light",
+      "example_text": "at a window-side vanity in a slip and light robe, brushing her hair or putting on earrings",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool dawn light filters through pale-blue linen curtains beside a low window-side vanity; she draws a small wooden brush through the ends of her hair.",
+          "reason": "Window-vanity example allows hair or earrings; chose brushing hair, low vanity and cool dawn curtain light to differentiate from the amber standing ribbon scene."
+        },
+        {
+          "field": "outfit",
+          "content": "A pale-blue strapless slip has a shaped plunging neckline and a short hem; a light coral sleeveless robe hangs open around it, leaving her shoulders and legs bare.",
+          "reason": "Example names slip and light robe only; supplied blue strapless deep neckline and open coral sleeveless robe, with short hem and bare shoulders."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Slow hair brushing while settled on the mat is a mostly held grooming moment.",
+        "source_influence": "Small gold/crystal details and coral robe provide source echoes while blue slip controls the silhouette.",
+        "separates_preference": "Slip is one main garment with a light robe layer, so balanced preference fits."
+      },
+      "prompt_file": "casual3-prompt.txt"
+    }
+  ],
+  "validation": "casual-ledger.py check passed; reservation verify returned two matching stamps before generation",
+  "reservation_file": "records/casual-reservations/roggenrola-boldore-fc2694-20261025.json",
+  "reservation_commit": "b13e5f35afe2383a6164691e39aeecef6b6d9e0e",
+  "recent_visual_comparison": [
+    "타만타",
+    "푸호꼬",
+    "브리가론"
+  ],
+  "visual_comparison": "Viewed actual recent image grid of 타만타, 푸호꼬 and 브리가론 plus 단굴 trio. Desert fan/rest, standing overhead stage stretch, and seated morning hair-brushing differ in place, main activity, clothing silhouette and gesture. Compared with 단굴’s standing amber vanity/ribbon scene, this morning vanity is a tight seated floor composition with robe, raised knee and brush. casual-look passed, nearest distances 295 / 278 / 291.",
+  "generation_mode": "built-in image_gen; one standalone image per call; closed form + approved light anchor for overdrive",
+  "face_design": {
+    "reason": "The angular rocky body supports an angular jaw, narrow horizontal eyes and straight brows. Unlike Roggenrola, medium facial width, average eye spacing, smaller nose and mouth distinguish her as a separate adult. Crystals are chest and head ornaments.",
+    "sources": [
+      "data/source-appearance.json#525",
+      "data/face-design.json#525",
+      "docs/CHARACTER_FACE_DESIGNS.md#525"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, average spacing; straight medium brows; balanced nose; small mouth.",
+    "compared": [
+      "단굴",
+      "타만타",
+      "푸호꼬",
+      "브리가론"
+    ],
+    "observed": "Her broader lower face and longer eyes contrast with Roggenrola’s narrow triangular contour and closer sharper eyes; recent three anchors have different soft/elongated contours."
+  },
+  "replans": [
+    {
+      "slot": "casual3",
+      "before": "active/aerial_silk with crop_top and leggings, grounded dance-step plan",
+      "reason": "Actual Example scene requires a unitard and an airborne hold, incompatible with planned garments and grounded action. No image call submitted for that plan.",
+      "after": "homewear/window_vanity; planner --refill preserved completed casual1 and casual2, --avoid cat=active; all changes came from planner, reservation stamped and pushed before generation.",
+      "reservation_commit": "b13e5f35afe2383a6164691e39aeecef6b6d9e0e"
+    }
+  ]
+}
