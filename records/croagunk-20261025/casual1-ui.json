@@ -1,0 +1,120 @@
+{
+  "card": "삐딱구리",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "삐딱구리",
+    "cards": {
+      "삐딱구리": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "confident",
+            "pose": "kneeling",
+            "orient": "looking_down",
+            "scene": "A white-stone lap-pool terrace opens beneath a glass roof at midday; she rinses blue swimming goggles at a broad shallow pool step.",
+            "outfit": "A black-and-orange bandeau bikini whose fitted cropped top has a deep central V notch and secure underbust band, paired with high-cut bottoms and slim ivory piping.",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "swimwear",
+            "catCustom": "",
+            "ex": "bandeau_bikini",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "bikini",
+              "crop_top"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Croagunk (삐딱구리) personified, poison / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nPose: Kneel in a stable supported position suited to a low task or interaction.\nOrientation: gaze directed downward; camera height unchanged\nScene: A white-stone lap-pool terrace opens beneath a glass roof at midday; she rinses blue swimming goggles at a broad shallow pool step.\nOutfit and props: A black-and-orange bandeau bikini whose fitted cropped top has a deep central V notch and secure underbust band, paired with high-cut bottoms and slim ivory piping.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a bandeau bikini with a straight strapless top and matching bottoms\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "swimwear",
+    "ex": "bandeau_bikini",
+    "garments": [
+      "bikini",
+      "crop_top"
+    ],
+    "orient": "looking_down",
+    "frame": "environmental",
+    "pose": "kneeling",
+    "expr": "confident",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "plunging neckline",
+      "high-cut leg"
+    ],
+    "lead": "place"
+  },
+  "reservation_session": "drapion-croagunk-20261025-fb0b",
+  "reservation_commit": "1aa8e6926cb81940624f943b44d07cc638ac2eee",
+  "direct_input_reasons": {
+    "scene": "Adds the specific lighting and activity props absent from bandeau_bikini",
+    "outfit": "Realizes bikini+crop_top using plunging neckline and high-cut leg",
+    "camera": "The image tool has no size control; request the required 1024×1536 portrait."
+  },
+  "axes_reasons": {
+    "action_level": "mostly posed matches kneeling in bandeau_bikini",
+    "source_influence": "strong is represented in the stated clothing colors and details",
+    "separates_preference": "balanced follows bikini+crop_top"
+  },
+  "randomization": "All selected options from casual-plan.cjs; no manual option edits"
+}

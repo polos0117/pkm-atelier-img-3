@@ -1,0 +1,171 @@
+{
+  "light": {
+    "accepted": true,
+    "observations": "Amber eyes, full lips, compact rounded lower face, black topknot and two orange head ornaments; black fitted armor carries white bands and thin orange plates. Head and both boots are within margins.",
+    "face_reason": "Rounded cheek pouches and broad facial mass were interpreted as a wider oval face, rounder eye openings and fuller mouth; differs from angular Drapion and Skorupi, narrower Hippowdon and longer Zebstrika faces.",
+    "compared_characters": [
+      "드래피온",
+      "스콜피",
+      "하마돈",
+      "제브라이카"
+    ],
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One thumb and four articulated fingers on each glove; close guard hand has fingers partly superimposed in depth.",
+      "overlay_checked": false,
+      "note": "Extended wrist meets forearm, guard wrist joins elbow; two continuous legs end in separate boots."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "d035a4b4dc2db371eb1a761d4a30667bb20ee44ab3c61e24935fd97c6e5e8fd1",
+    "original_sha256": "194efc5f421cf0b243fd9da055659ee8a3f02a2b57c388a6d36d5277a74906e0"
+  },
+  "heavy": {
+    "accepted": true,
+    "observations": "Broad layered orange and white plates cover chest, hips, thighs and shins; open-face helmet rim preserves topknot and face.",
+    "anatomy": {
+      "tool": "note; faint body, no length measures",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full gloves retain five digits, inner guard hand tips overlap.",
+      "overlay_checked": false,
+      "note": "Heavy shoulder rims are costume rather than extra arms."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "82b90f22402c41694df41c13262dcfe0121b09b0b151227fae040eea1a83637e",
+    "original_sha256": "00d9ba8205641d07e25cf25591f91eabafe0e067087a6e0ae4025005ba7975a8"
+  },
+  "mobility": {
+    "accepted": true,
+    "observations": "Thin orange shoulder/hip/calf fins sweep back with compact violet thrusters, keeping the original black-orange palette and amber eyes.",
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended palm shows thumb plus four fingers; raised glove has five digits with bent tips overlapping.",
+      "overlay_checked": false,
+      "note": "Both legs align through knee guards to the original boots."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "ba964a7da04b7bca906d8482b5f43057a6e70d1affaad9ede03403ec48452a9c",
+    "original_sha256": "2e5e72ab8bbeb9692059c2e8d21f98427e71e33600d8b35a6162e9dc60cf4ceb"
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "observations": "Same outstretched hand, bridge and stance as light, with orange plates lifted to reveal violet seams and vapor.",
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five-digit silhouettes match closed light form.",
+      "overlay_checked": false,
+      "note": "Energy ribbons remain behind fingers and arms."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "1a885aa685af75061fc2d1fea00029c6e5d391307d54e94784dd2293c45778f7",
+    "original_sha256": "30d9c4f86684b69cdea83b79743ed2b91b514a9d9c6aeff09871c3d0564cb000"
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "observations": "Stacked heavy shells open at chest, hips and shins to reveal purple inner structure; helmet rim, body position and bridge remain.",
+    "anatomy": {
+      "tool": "note; faint body, no length measures",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended hand has one thumb and four fingers; raised fingertips partly overlap.",
+      "overlay_checked": false,
+      "note": "No free-floating hand or additional foot among opened plates."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "c5632b8180af78d11b68b5ce8f69aa25b3e95845152fc3e5485b51f8cfdb0f44",
+    "original_sha256": "929e67e71365422f64db443090d2607225ab5b4a1e118cc1bd4f59230a286f7c"
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "observations": "Swept fins spread farther around purple vents; same open hand, shoulder height, face scale and boots as closed mobility.",
+    "anatomy": {
+      "tool": "ok; gloves not detected as hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two five-digit gloves, curved guard fingers partly occluded by one another.",
+      "overlay_checked": false,
+      "note": "Vents do not interrupt elbow or knee connections."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "f5cea7789ae7514b306f2f4b6207d34a966addaed571f57653cf8e0e047c3c64",
+    "original_sha256": "be6337036522c4583c117831202e617439174d5f25580609debe540e1ce18d48"
+  },
+  "casual1": {
+    "accepted": true,
+    "observations": "Kneeling in shallow pool water while holding dripping blue goggles in both hands; black-orange strapless V-notch bandeau and high-cut bottoms. Gaze faces the viewer rather than selected looking-down; framing closer than environmental long shot.",
+    "activity": {
+      "match": true,
+      "evidence": "Water drains from both goggle lenses between her hands at the pool step."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "Strapless bandeau has a central V notch, high-cut bottoms leave shoulders, midriff and thighs uncovered."
+    },
+    "diversity_comparison": "Final contact comparison with Drapion, Skorupi and Zebstrika: kneeling goggle-rinse scene differs from standing exercise and rooftop costumes; current other cuts are seated sketching and a close coffee portrait. Numerical nearest score 273, passes; first attempt score 213 retained separately.",
+    "anatomy": {
+      "tool": "ok; two hands",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands show correct inner thumbs and four fingers, some digits are partly behind goggle rims.",
+      "overlay_checked": false,
+      "note": "Two bent thighs join knees, lower shins and feet partly hidden in water; no spare limbs."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "9cff0f01d61d25dea7385853ad143d352c9547f449bee1c38cc9bd682c643654",
+    "original_sha256": "5a7e686f772fb201f07907e9254e1d5879fa40ccba47faf1417a88e48a390fd1"
+  },
+  "casual2": {
+    "accepted": true,
+    "observations": "Seated on a park bench under leafy light with notebook of plants and footprints, pencil held during pause; rust one-shoulder cropped knit and ivory wide trousers. Seated result differs from selected standing contrapposto, recorded without changing settings.",
+    "activity": {
+      "match": true,
+      "evidence": "Plant and paw-track drawings fill the held notebook; pencil held near the drawing during a pause."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "One shoulder and midriff are visible; wide trouser legs retain their distinct silhouette."
+    },
+    "diversity_comparison": "Low-angle seated sketch with long trousers is distinct from kneeling swimwear and coffee close-up, and recent comparison costumes and exercise outfits.",
+    "anatomy": {
+      "tool": "ok; one hand detected",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Pencil grip thumb and fingers partly overlap; notebook hand has thumb behind paper and four fingers along the rim.",
+      "overlay_checked": false,
+      "note": "Both forearms continue to wrists; two covered legs cross in perspective, feet are outside the frame."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "a92629861487fc693fd8290e15e216c170504d6056be9b72628bae0f79d6a75a",
+    "original_sha256": "39679c84ab845ef8201d58d96c064336de3cc8461d0f5c2acea6d8c1f3909926"
+  },
+  "casual3": {
+    "accepted": true,
+    "observations": "Peach satin robe drops below one shoulder and folds into a deep neckline; both hands hold a small espresso cup beside pears and a linen cloth. Relaxed parted lips and a soft direct gaze; crop includes waist beyond selected chest-up.",
+    "activity": {
+      "match": true,
+      "evidence": "Dark coffee fills the held cup at the sunlit breakfast nook."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "Robe is tied at waist; exposed shoulder and plunging folded lapel stay visible."
+    },
+    "diversity_comparison": "Tight coffee-and-robe portrait differs from the wide pool task and leafy notebook scene; recent Drapion, Skorupi and Zebstrika contact sheet does not show this paired cup-holding action.",
+    "anatomy": {
+      "tool": "ok; two hands",
+      "arms": 2,
+      "legs": "outside crop",
+      "hands": "Handle grip has visible thumb and four bent fingers; supporting hand thumb is partly hidden by cup, four fingers visible.",
+      "overlay_checked": false,
+      "note": "Both elbows and forearms remain connected through open robe sleeves; no detached wrist."
+    },
+    "reviewer": "gpt",
+    "image_sha256": "d3d8d4b20e83fef4dce23f545e01cf78168d1cac3a54d1ce7089c1515a40d186",
+    "original_sha256": "257f62c9220587f26afc39d0efbe265449d189f9a213fcb73a76f6388ae9d03c"
+  }
+}
