@@ -1,0 +1,356 @@
+{
+  "batch": {
+    "session": "gpt-diggersby-fletchling-20261026",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "파르토",
+        "species": "diggersby-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "heritage_pattern_swim",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "pose": "stretching",
+            "expr": "sleepy",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "knit_dress_home",
+            "expr": "pensive",
+            "pose": "leaning_furniture",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "occupation_sensual",
+            "ex": "fashion_project",
+            "expr": "focused",
+            "pose": "one_knee_up",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "화살꼬빈",
+        "species": "fletchling-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "camo_couture",
+            "expr": "wistful",
+            "pose": "gentle_pat",
+            "orient": "looking_away",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "expose": [
+              "bare midriff",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "expr": "proud",
+            "pose": "mid_action",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "kebaya_daily",
+            "garments": [
+              "blouse"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "bending_over",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "blouse"
+          ],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "화살꼬빈",
+    "species": "fletchling-20261026",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "source_editorial",
+        "ex": "camo_couture",
+        "expr": "wistful",
+        "pose": "gentle_pat",
+        "orient": "looking_away",
+        "frame": "chest_up",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "crop_top",
+          "trousers"
+        ],
+        "expose": [
+          "bare midriff",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "adult_roleplay",
+        "ex": "bunny",
+        "expr": "proud",
+        "pose": "mid_action",
+        "orient": "leaning_back",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "high-cut leg",
+          "open back"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 3,
+        "cat": "traditional",
+        "ex": "kebaya_daily",
+        "garments": [
+          "blouse"
+        ],
+        "orient": "rear_3q",
+        "frame": "full_body",
+        "pose": "bending_over",
+        "expr": "determined",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "bare midriff",
+          "off-shoulder neckline"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "source_editorial",
+        "private_evening",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "blouse"
+      ],
+      "orient": [
+        "rear_3q"
+      ],
+      "frame": []
+    }
+  },
+  "replanning": "Planner replaced burkini_modest conflicting with halter/plunging neckline, and aodai_daily conflicting with strapless lingerie/skirt garment combination; other planned values preserved by --keep before generation. No earlier images existed for kept selections."
+}

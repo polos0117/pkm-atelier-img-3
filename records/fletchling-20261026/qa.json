@@ -1,0 +1,159 @@
+{
+  "card": "화살꼬빈",
+  "accepted_generated_images": true,
+  "complete": false,
+  "generated": 7,
+  "requested": 9,
+  "missing": [
+    "casual2",
+    "casual3"
+  ],
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "4d027a5950552191a69d2a1da3302fac9b628c71068d5baac5eba9dcb1bd0b39",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Single adult woman, short red feathered hair and compact face with upward narrow eyes; orange-white-black close-fitting light plates and black-orange tail sash. Two continuous arms/legs, five digits on both full gloves; head and boots within frame.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Single adult woman, short red feathered hair and compact face with upward narrow eyes; orange-white-black close-fitting light plates and black-orange tail sash. Two continuous arms/legs, five digits on both full gloves; head and boots within frame."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "1af16b6b8239f5d54ceb932450b70158a968701726993c94748a2af3f274e437",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same short hair, face and stance; thick layered orange-white shoulder, forearm and shin plates. Two arms and legs; two gloves with one thumb and four fingers each.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Same short hair, face and stance; thick layered orange-white shoulder, forearm and shin plates. Two arms and legs; two gloves with one thumb and four fingers each."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "c5193e17539db0206b7e01baa5f5533434fb5a17439436ffe9a1a52ecd3f8bab",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same identity; slender pointed fins and small shoulder/hip propulsion units, thinner than heavy. Two arms/legs, two five-digit gloves, no added weapon.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Same identity; slender pointed fins and small shoulder/hip propulsion units, thinner than heavy. Two arms/legs, two five-digit gloves, no added weapon."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "84bd1452e528e1028aafdc34387c96cae87257ad818aa7acfaf9ba0f8678f6a2",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Original light silhouette, camera, head/hand/foot positions retained; existing plates open along seams with golden light. No separate weapon or new helmet.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Original light silhouette, camera, head/hand/foot positions retained; existing plates open along seams with golden light. No separate weapon or new helmet."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "8a72487e34f0396bd983b46331873ba260f6322b1d5d872b8c85a86759558fc3",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Original heavy shape and pose retained; broad layered plates open to expose golden mechanisms. Five-digit gloves stay clear of energy effects.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Original heavy shape and pose retained; broad layered plates open to expose golden mechanisms. Five-digit gloves stay clear of energy effects."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "5d414d4d765dcc782c50de7527ea2b2467520ab0a98f940e9f3e8816f99723db",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same high-mobility pose, fins open and propulsion brightens; no change to face or limb alignment. Two gloved five-digit hands, two legs.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two five-digit full gloves, inner thumb at each hand",
+        "overlay_checked": false,
+        "note": "Same high-mobility pose, fins open and propulsion brightens; no change to face or limb alignment. Two gloved five-digit hands, two legs."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "b1bdd1d9636d0761ab20a0094a4b6daf6ef0808e7d29776d6fb138a2d4836420",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Adult woman with short red feather cut looks wistfully up and away in wardrobe studio; off-shoulder feather-camouflage crop top and charcoal trousers expose shoulders/midriff. Near hand has five fingers on fabric; other hand is partly concealed behind the swatch. Two arms follow shoulders/elbows; lower legs outside crop. Actual framing is waist/hip-up rather than reserved chest-up, recorded.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "casual1: near hand five digits; opposite hand partly concealed behind fabric",
+        "overlay_checked": false,
+        "note": "Adult woman with short red feather cut looks wistfully up and away in wardrobe studio; off-shoulder feather-camouflage crop top and charcoal trousers expose shoulders/midriff. Near hand has five fingers on fabric; other hand is partly concealed behind the swatch. Two arms follow shoulders/elbows; lower legs outside crop. Actual framing is waist/hip-up rather than reserved chest-up, recorded."
+      }
+    }
+  ],
+  "face_reason": "Compact bird form becomes compact human face with narrow upward eyes and a straight slender bridge. Reddish-orange head becomes short red feathered hair; source markings become white V and feather-shaped plates.",
+  "face_source": [
+    "data/face-design.json #661",
+    "data/source-appearance.json #661"
+  ],
+  "final_face_sentence": "FACE (her own structure, not the style's default face): compact face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, upturned outer corners, close-set; straight medium brows; straight slender bridge nose; small mouth.",
+  "compared_characters": [
+    "파르토",
+    "파르빗",
+    "내룸벨트"
+  ],
+  "face_comparison": "Compared actual light images: red short feathered hair and compact narrow-eyed face are distinct from Diggersby long ponytail/wide cheeks, Bunnelby lighter short ponytail and Lickilicky pink ringlets/round face.",
+  "diversity_comparison": "Only casual1 returned: studio swatch-patting action, camouflage crop top and trousers, wistful averted gaze. Compared with Diggersby actual pool stretch, home knit and mannequin fitting images; the standing close crop and pattern handling differ. Three-image diversity cannot be passed because two outputs were blocked.",
+  "tool_failures": [
+    {
+      "slot": "casual2",
+      "terminal": true,
+      "output_files": [],
+      "code": "moderation_blocked",
+      "request_id": "9502e233-f695-4f98-bdaf-854970cbac46",
+      "moderation_stage": "output",
+      "categories": [
+        "sexual"
+      ],
+      "prompt_sha256": "eaded0585700b273a913e841923e65d69cf667d73365e56e3c05f340feb828e1",
+      "disposition": "No retry or filter-seeking rewrite; slot remains missing."
+    },
+    {
+      "slot": "casual3",
+      "terminal": true,
+      "output_files": [],
+      "code": "moderation_blocked",
+      "request_id": "16b6503c-24e1-4993-97e8-4875df058ab1",
+      "moderation_stage": "output",
+      "categories": [
+        "sexual"
+      ],
+      "prompt_sha256": "7fa8c5a2472546dfea7b45d83d8c1cdf68d1fd487f2378ee18141f96c8ca2de8",
+      "disposition": "No retry or filter-seeking rewrite; slot remains missing."
+    }
+  ]
+}
