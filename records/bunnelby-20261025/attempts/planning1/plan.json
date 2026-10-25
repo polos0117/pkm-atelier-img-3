@@ -1,0 +1,428 @@
+{
+  "session": "greninja-bunnelby-50ad-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "개굴닌자",
+      "species": "greninja-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "private_evening",
+          "ex": "halter_evening",
+          "garments": [
+            "dress"
+          ],
+          "orient": "reaching_up",
+          "frame": "waist_up",
+          "pose": "hands_in_hair",
+          "expr": "sensual",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "side cutouts"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "back_strap",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "pose": "kneeling",
+          "expr": "half_smile",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "halter neck"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "food_berries",
+          "ex": "food_tea",
+          "garments": [
+            "skirt",
+            "tank"
+          ],
+          "orient": "high_angle",
+          "frame": "full_body",
+          "pose": "preparing_food",
+          "expr": "curious",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "open back"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "private_evening",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "lingerie_set",
+          "tank"
+        ],
+        "orient": [
+          "reaching_up",
+          "looking_down",
+          "high_angle"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "파르빗",
+      "species": "bunnelby-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "bunny",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "front_3q",
+          "frame": "chest_up",
+          "pose": "on_tiptoe",
+          "expr": "serious",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "bare midriff",
+            "plunging neckline"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "wildcard",
+          "ex": "futuristic_spa",
+          "garments": [
+            "robe"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "squatting",
+          "expr": "mildly_annoyed",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "high thigh slit"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_nap",
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "pose": "walking",
+          "expr": "candid",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "side cutouts"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit",
+          "robe",
+          "shirt"
+        ],
+        "orient": [
+          "front_3q",
+          "crouching",
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "bunny",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "pose": "on_tiptoe",
+      "expr": "serious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "plunging neckline"
+      ],
+      "lead": "detail",
+      "scene": "A row of round amber footlights marks the rehearsal stage; she checks the hanging velvet stage ribbon before her entrance.",
+      "outfit": "A chocolate-brown satin one-piece bunny stage costume with a plunging neckline and a small waist cutout exposing the midriff, ivory cuffs, bow-tie collar and rabbit-ear headband.",
+      "example_text": "a retro casino bunny costume with a fitted one-piece garment, cuffs, bow-tie collar, and rabbit-ear headband, on a stage floor",
+      "input_reasons": {
+        "scene": "Adds the concrete environment, objects and activity absent from bunny",
+        "outfit": "Specifies swimsuit with bare midriff and plunging neckline",
+        "camera": "The built-in image tool has no size argument; the generator camera field specifies 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "She moves through a stage rehearsal.",
+        "source_influence": "The source appears only in restrained colours or small embroidery.",
+        "separates_preference": "The chosen garment is a single dress, robe or coordinated costume."
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner",
+        "manual_changes": []
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "futuristic_spa",
+      "garments": [
+        "robe"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "squatting",
+      "expr": "mildly_annoyed",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "high thigh slit"
+      ],
+      "lead": "light",
+      "scene": "Violet floor lights reflect from white curved spa walls and a low towel bench; she folds a small lavender towel onto the lowest shelf.",
+      "outfit": "A peach opaque wrap robe in a mini length with a high thigh slit, secured at the waist and worn with pearl slide sandals.",
+      "example_text": "Futuristic Spa",
+      "input_reasons": {
+        "scene": "Adds the concrete environment, objects and activity absent from futuristic_spa",
+        "outfit": "Specifies robe with mini length and high thigh slit",
+        "camera": "The built-in image tool has no size argument; the generator camera field specifies 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "The moment centers on a stationary personal preparation or tidying activity.",
+        "source_influence": "The blue star embroidery or character colour is prominent in this garment and setting.",
+        "separates_preference": "The chosen garment is a single dress, robe or coordinated costume."
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner",
+        "manual_changes": []
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_nap",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "walking",
+      "expr": "candid",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "scene": "A shaded orchard picnic blanket holds one small sleeping Eevee and a closed book; she pauses beside the blanket to check on her companion.",
+      "outfit": "A mint cropped short-sleeve shirt with side cutouts and high-waisted cream trousers, with the shoulders and midriff visible.",
+      "example_text": "Resting beside a sleeping Pokémon companion on a shaded picnic blanket with a closed book nearby.",
+      "input_reasons": {
+        "scene": "Adds the concrete environment, objects and activity absent from care_nap",
+        "outfit": "Specifies shirt+trousers with cropped hem and side cutouts",
+        "camera": "The built-in image tool has no size argument; the generator camera field specifies 1024×1536."
+      },
+      "axis_reasons": {
+        "action_level": "She pauses during a step beside her sleeping companion.",
+        "source_influence": "The blue star embroidery or character colour is prominent in this garment and setting.",
+        "separates_preference": "The selected outfit has separate upper and lower garments."
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner",
+        "manual_changes": []
+      }
+    }
+  ],
+  "check": "planner reserve passed; verify stamp passed",
+  "reservation": "records/casual-reservations/greninja-bunnelby-50ad-20261025.json"
+}

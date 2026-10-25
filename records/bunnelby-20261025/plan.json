@@ -1,0 +1,352 @@
+{
+  "session": "greninja-bunnelby-50ad-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "파르빗",
+      "species": "bunnelby-20261025",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "ceremonial_instructor",
+          "garments": [
+            "jacket"
+          ],
+          "orient": "front_3q",
+          "frame": "environmental",
+          "pose": "hand_on_hip",
+          "expr": "soft_smile",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "cropped hem"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "wildcard",
+          "ex": "futuristic_spa",
+          "garments": [
+            "robe"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "pose": "on_tiptoe",
+          "expr": "unimpressed",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high thigh slit"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_nap",
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "orient": "reclining",
+          "frame": "waist_up",
+          "pose": "perched_seat",
+          "expr": "candid",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "strapless top"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "robe",
+          "shirt",
+          "trousers"
+        ],
+        "orient": [
+          "front_3q",
+          "turning_midmotion",
+          "reclining"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "ceremonial_instructor",
+      "garments": [
+        "jacket"
+      ],
+      "orient": "front_3q",
+      "frame": "environmental",
+      "pose": "hand_on_hip",
+      "expr": "soft_smile",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "cropped hem"
+      ],
+      "lead": "place",
+      "scene": "An amber-lit rehearsal pavilion has a small conductor podium and a velvet stage curtain; she waits beside the podium for her ceremonial introduction.",
+      "outfit": "An ivory sleeveless cropped belted jacket and matching mini shorts form a ceremonial event costume with brown gloves and a decorative chestnut sash, exposing her midriff and legs.",
+      "example_text": "a ceremonial instructor costume with a belted jacket, gloves, and a decorative sash",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner after avoid bunny",
+        "manual_changes": []
+      },
+      "direct_inputs": {
+        "scene": {
+          "content": "An amber-lit rehearsal pavilion has a small conductor podium and a velvet stage curtain; she waits beside the podium for her ceremonial introduction.",
+          "reason": "Adds the rehearsal pavilion, podium and amber cue light missing from the costume-only example."
+        },
+        "outfit": {
+          "content": "An ivory sleeveless cropped belted jacket and matching mini shorts form a ceremonial event costume with brown gloves and a decorative chestnut sash, exposing her midriff and legs.",
+          "reason": "Uses the selected jacket in a cropped sleeveless ceremonial event set with mini shorts."
+        },
+        "camera": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in tool has no size argument; the generator camera field specifies 1024×1536."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Her hand-on-hip pause suits waiting beside a rehearsal podium.",
+        "source_influence": "Chestnut sash and ivory jacket recall the source colour without copying armor.",
+        "separates_preference": "The cropped jacket and mini shorts are two garments."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "futuristic_spa",
+      "garments": [
+        "robe"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "on_tiptoe",
+      "expr": "unimpressed",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high thigh slit"
+      ],
+      "lead": "action",
+      "scene": "She places a folded lavender towel on a curved shelf in a white futuristic spa with violet light strips and a frosted glass wall.",
+      "outfit": "An opaque peach sleeveless wrap robe has a plunging neckline and a high thigh slit, secured by a broad soft belt.",
+      "example_text": "Futuristic Spa",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner after avoid bunny",
+        "manual_changes": []
+      },
+      "direct_inputs": {
+        "scene": {
+          "content": "She places a folded lavender towel on a curved shelf in a white futuristic spa with violet light strips and a frosted glass wall.",
+          "reason": "Specifies towel placement as the spa activity and the curved shelf as its prop."
+        },
+        "outfit": {
+          "content": "An opaque peach sleeveless wrap robe has a plunging neckline and a high thigh slit, secured by a broad soft belt.",
+          "reason": "Specifies the selected robe with a deep neckline and thigh slit and opaque peach fabric."
+        },
+        "camera": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in tool has no size argument; the generator camera field specifies 1024×1536."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Towel placement is an ongoing light spa chore.",
+        "source_influence": "Peach robe and lavender towel keep the spa outfit independent of the armor.",
+        "separates_preference": "The belted robe is one garment."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_nap",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "reclining",
+      "frame": "waist_up",
+      "pose": "perched_seat",
+      "expr": "candid",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "strapless top"
+      ],
+      "lead": "light",
+      "scene": "Dappled late-afternoon light falls through apple leaves onto a raised picnic blanket, where one small Eevee sleeps beside a closed book.",
+      "outfit": "A pale-mint strapless cropped button-front shirt bodice and high-waisted cream trousers leave her shoulders and midriff bare.",
+      "example_text": "Resting beside a sleeping Pokémon companion on a shaded picnic blanket with a closed book nearby.",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "source": "planner after avoid bunny",
+        "manual_changes": []
+      },
+      "direct_inputs": {
+        "scene": {
+          "content": "Dappled late-afternoon light falls through apple leaves onto a raised picnic blanket, where one small Eevee sleeps beside a closed book.",
+          "reason": "Adds orchard light, the raised blanket, and identifies exactly one sleeping Eevee."
+        },
+        "outfit": {
+          "content": "A pale-mint strapless cropped button-front shirt bodice and high-waisted cream trousers leave her shoulders and midriff bare.",
+          "reason": "Gives the selected shirt and trousers a strapless cropped shirt construction."
+        },
+        "camera": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in tool has no size argument; the generator camera field specifies 1024×1536."
+        }
+      },
+      "axis_reasons": {
+        "action_level": "Resting beside a sleeping Eevee is a held seated moment.",
+        "source_influence": "Mint and cream everyday clothes contain no conspicuous species ornament.",
+        "separates_preference": "The cropped shirt and trousers are distinct garments."
+      }
+    }
+  ],
+  "check": "Planner reserve/check passed; stamped reservation published to main",
+  "replanning": {
+    "reason": "Bunny stage scene blocked by image tool; new ceremonial event scene, changed poses and framing from planner",
+    "reservation_commit": "8590e7e3cd12f36ae7e8bc8fa1e9ff09a752c7bd"
+  },
+  "regenerations": [
+    {
+      "slot": "mobility_overdrive",
+      "attempts": 2,
+      "reason": "Opening ear plates crossed the top border. Final generator formOverride keeps ears closed and opens only existing shoulder/forearm/hip/shin panels.",
+      "reference": "/workspace/scratch/50ad0d4f00ee/generated_images/exec-d480dfff-1553-4887-ae95-3ddbf9cf7ffb.png"
+    },
+    {
+      "slot": "casual1",
+      "original_scene": "adult_roleplay/bunny",
+      "reason": "Tool moderation blocked output",
+      "action": "New planner-stamped ceremonial instructor scene, published reservation 8590e7e3"
+    }
+  ]
+}
