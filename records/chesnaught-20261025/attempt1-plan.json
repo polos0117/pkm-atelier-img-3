@@ -1,0 +1,249 @@
+{
+ "session": "chesnaught-fennekin-20261025-28cd",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "브리가론",
+   "species": "chesnaught-20261025",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "adult_roleplay",
+     "ex": "adult_secretary",
+     "garments": [
+      "jacket",
+      "skirt"
+     ],
+     "orient": "high_angle",
+     "frame": "waist_up",
+     "pose": "sitting",
+     "expr": "playful",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "cropped hem"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "food_berries",
+     "ex": "food_harvest",
+     "garments": [
+      "apron",
+      "shorts"
+     ],
+     "orient": "over_shoulder",
+     "frame": "chest_up",
+     "pose": "offering_food",
+     "expr": "gentle",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "strapless top"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "hobbies_leisure",
+     "ex": "hobby_craft",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "crouching",
+     "frame": "full_body",
+     "pose": "kneeling",
+     "expr": "confident",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "plunging neckline"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "private_evening"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "apron",
+     "jumpsuit"
+    ],
+    "orient": [
+     "high_angle",
+     "over_shoulder",
+     "crouching"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "푸호꼬",
+   "species": "fennekin-20261025",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "everyday_sensual",
+     "ex": "fridge_light",
+     "garments": [
+      "trousers",
+      "vest"
+     ],
+     "orient": "front_3q",
+     "frame": "environmental",
+     "pose": "waving",
+     "expr": "provocative",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "halter neck"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "babydoll",
+     "garments": [
+      "lingerie_set",
+      "slip"
+     ],
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "pose": "walking",
+     "expr": "sensual",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "festivals_contests",
+     "ex": "fest_cheering",
+     "garments": [
+      "trousers",
+      "vest"
+     ],
+     "orient": "rear_3q",
+     "frame": "chest_up",
+     "pose": "adjusting_bag",
+     "expr": "curious",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "mini length"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_sensual",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "active",
+     "source_editorial",
+     "private_evening"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "trousers",
+     "vest",
+     "slip"
+    ],
+    "orient": [
+     "front_3q",
+     "leaning_forward",
+     "rear_3q"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
