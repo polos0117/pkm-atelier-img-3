@@ -1,0 +1,390 @@
+{
+  "batch_plan": {
+    "session": "drapion-croagunk-20261025-fb0b",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "드래피온",
+        "species": "drapion-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "shoe_bench",
+            "garments": [
+              "dress"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_pokeblock",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "pose": "offering_food",
+            "expr": "laughing",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_nurse",
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "sitting",
+            "expr": "provocative",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "food_berries",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "dress",
+            "apron"
+          ],
+          "orient": [
+            "crouching",
+            "three_quarter_back",
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "삐딱구리",
+        "species": "croagunk-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "boyshort_swim",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "pose": "mid_stride",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_sketch",
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "contrapposto",
+            "expr": "gentle",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "window_vanity",
+            "garments": [
+              "robe",
+              "slip"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "gentle_pat",
+            "expr": "sensual",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top"
+          ],
+          "orient": [
+            "over_shoulder",
+            "low_angle",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "character": {
+    "card": "드래피온",
+    "species": "drapion-20261025",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "everyday_sensual",
+        "ex": "shoe_bench",
+        "garments": [
+          "dress"
+        ],
+        "orient": "crouching",
+        "frame": "three_quarter",
+        "pose": "squatting",
+        "expr": "playful",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "high thigh slit"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 2,
+        "cat": "food_berries",
+        "ex": "food_pokeblock",
+        "garments": [
+          "apron",
+          "shorts"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "environmental",
+        "pose": "offering_food",
+        "expr": "laughing",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "strapless top",
+          "bare midriff"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 3,
+        "cat": "adult_roleplay",
+        "ex": "adult_nurse",
+        "garments": [
+          "apron",
+          "dress"
+        ],
+        "orient": "seated_twist",
+        "frame": "waist_up",
+        "pose": "sitting",
+        "expr": "provocative",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "halter neck",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          3
+        ],
+        "two": false,
+        "prev": [
+          2,
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "food_berries",
+        "hobbies_leisure",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "dress",
+        "apron"
+      ],
+      "orient": [
+        "crouching",
+        "three_quarter_back",
+        "seated_twist"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed before generation",
+  "reservation_commit": "b4d4531467875a12328e6d3dfb7ef3322f342a07",
+  "adjustments": "Planner excluded repeated outerwear and incompatible sketch-watering pose; no options were hand-picked.",
+  "direct_inputs": {
+    "1": {
+      "scene": "Cool dawn light filters through an amber-glass entryway window; a loose bootlace and one open canvas tote lie by the oak shoe bench.",
+      "outfit": "A plum jersey wrap dress with a deep V neckline and a high thigh slit, paired with soft black lace-up ankle boots; lavender seam piping recalls her palette."
+    },
+    "2": {
+      "scene": "Offer a freshly cut berry confection on a small ceramic saucer across a sunlit home-kitchen counter; jewel-colored cubes cool in a shallow tray nearby.",
+      "outfit": "A short cream waist apron over butter-yellow tailored shorts and a sage strapless bandeau, leaving her shoulders and a band of midriff bare."
+    },
+    "3": {
+      "scene": "A retro charity-revue backstage nook has a padded stool, round dressing lights and a small tray of theatrical medical props.",
+      "outfit": "A fitted white button-front mini dress with off-shoulder puff sleeves and slim halter straps, a red-trimmed short apron, white stockings and a folded white cap."
+    }
+  }
+}

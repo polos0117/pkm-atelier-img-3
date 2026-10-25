@@ -1,0 +1,118 @@
+{
+  "card": "드래피온",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "드래피온",
+    "cards": {
+      "드래피온": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "playful",
+            "pose": "squatting",
+            "orient": "crouching",
+            "scene": "Cool dawn light filters through an amber-glass entryway window; a loose bootlace and one open canvas tote lie by the oak shoe bench.",
+            "outfit": "A plum jersey wrap dress with a deep V neckline and a high thigh slit, paired with soft black lace-up ankle boots; lavender seam piping recalls her palette.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_sensual",
+            "catCustom": "",
+            "ex": "shoe_bench",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Drapion (드래피온) personified, poison / dark type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement\nPose: Squat comfortably to interact at a lower height with balanced feet.\nOrientation: low crouch with flexed knees and hips\nScene: Cool dawn light filters through an amber-glass entryway window; a loose bootlace and one open canvas tote lie by the oak shoe bench.\nOutfit and props: A plum jersey wrap dress with a deep V neckline and a high thigh slit, paired with soft black lace-up ankle boots; lavender seam piping recalls her palette.\nCategory: Create a sensual but non-explicit everyday lifestyle moment with the same clearly adult character. The situation must read as believable ordinary life, so specify the room, the clothing, and a concrete action already in progress rather than a posed shoot. Use natural household or street lighting and eye-level framing; fabric drape, movement, and light carry the mood. Avoid turning the scene into a lingerie catalogue or a deliberate glamour shoot.\nExample scene: sitting on the entryway bench to tie her shoes before going out\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "everyday_sensual",
+    "ex": "shoe_bench",
+    "garments": [
+      "dress"
+    ],
+    "orient": "crouching",
+    "frame": "three_quarter",
+    "pose": "squatting",
+    "expr": "playful",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "plunging neckline",
+      "high thigh slit"
+    ],
+    "lead": "light"
+  },
+  "reservation_session": "drapion-croagunk-20261025-fb0b",
+  "reservation_commit": "b4d4531467875a12328e6d3dfb7ef3322f342a07",
+  "direct_input_reasons": {
+    "scene": "Adds the specific lighting and activity props absent from shoe_bench",
+    "outfit": "Realizes dress using plunging neckline and high thigh slit",
+    "camera": "The image tool has no size control; request the required 1024×1536 portrait."
+  },
+  "axes_reasons": {
+    "action_level": "mostly posed matches squatting in shoe_bench",
+    "source_influence": "strong is represented in the stated clothing colors and details",
+    "separates_preference": "balanced follows dress"
+  },
+  "randomization": "All selected options from casual-plan.cjs; no manual option edits"
+}
