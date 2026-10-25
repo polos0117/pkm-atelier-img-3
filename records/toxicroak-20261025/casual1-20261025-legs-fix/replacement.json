@@ -1,0 +1,35 @@
+{
+  "card": "독개굴",
+  "slot": "casual1",
+  "file": "독개굴_glossy_promo_f_casual1.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "다리·발 수정 — 앞 그림은 뒤에서 본 각도로 방석에 앉은 다리가 방석에 섞이고 발이 무릎 옆에 뭉개져 나왔다. 새 그림은 무릎을 대고 앉아 두 발바닥이 엉덩이 아래로 또렷하다. 얼굴·머리·옷·두 손에 쥔 비단·방·빛은 그대로.",
+  "previous_webp_sha256": "0524cc368186f85ffeaca98c06272806492a69e88f4b1632ebcd24c4109e7c73",
+  "source_sha256": "a2a200f001992321a4773147f789e646abaea386cd3aadfc8c39cd5e4ac4505b",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "177003d50b072a698c745b09f40c10c6a376e1cff5b9888bd3d02371eb69aef2"
+  },
+  "provenance": "사용자가 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "계획 설정은 바뀌지 않았다 — records/toxicroak-20261025/plan.json 의 cut 1 그대로. 자세는 앞 그림의 옆앉기 대신 무릎 대고 앉기로 보인다.",
+  "look_check": "node tools/casual-look.cjs check --card 독개굴 (이 그림, casual2, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — check · 오른팔 끝에 손 둘·뒤집힌 손(뒤에서 본 각도라 왼팔이 몸에 가려 두 손을 한 팔로 잡음)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손 모두 비단을 쥠 — 왼팔은 몸 뒤로 가려짐",
+    "feet": "두 발바닥 엉덩이 아래, 발가락 보임",
+    "overlay_checked": true,
+    "note": "뼈대 그림에 왼팔이 없다 — 오검출"
+  },
+  "user_approval": "독개굴 일상1번 교체해줘",
+  "at": "2026-10-25"
+}
