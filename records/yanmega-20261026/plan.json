@@ -1,0 +1,351 @@
+{
+  "batch": {
+    "session": "togekiss-yanmega-20261026-748b",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "토게키스",
+        "species": "togekiss-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "expr": "half_smile",
+            "pose": "kneeling",
+            "orient": "crouching",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_brushing",
+            "expr": "gentle",
+            "pose": "carrying_something",
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "classic_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "sensual",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "over_shoulder"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "메가자리",
+        "species": "yanmega-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "juban_inspired",
+            "expr": "soft_smile",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "window_rain",
+            "expr": "curious",
+            "pose": "holding_cup",
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "food_berries",
+            "ex": "food_market",
+            "expr": "candid",
+            "pose": "leaning_wall",
+            "orient": "front",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "메가자리",
+    "species": "yanmega-20261026",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "lingerie",
+        "ex": "juban_inspired",
+        "expr": "soft_smile",
+        "pose": "arms_crossed",
+        "orient": "looking_away",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "high thigh slit",
+          "halter neck"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "everyday_sensual",
+        "ex": "window_rain",
+        "expr": "curious",
+        "pose": "holding_cup",
+        "orient": "rear_3q",
+        "frame": "environmental",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "off-shoulder neckline",
+          "side cutouts"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "food_berries",
+        "ex": "food_market",
+        "expr": "candid",
+        "pose": "leaning_wall",
+        "orient": "front",
+        "frame": "chest_up",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "apron",
+          "skirt"
+        ],
+        "expose": [
+          "bare midriff",
+          "cropped hem"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          1,
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_sensual",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "replanning": "Before casual generation, planner replaced burkini_modest and highleg_onepiece because their required coverage/high neckline contradicted planned exposure. Prior ungenerated selections retained through --keep; no selection was hand-edited."
+}

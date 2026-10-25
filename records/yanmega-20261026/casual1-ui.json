@@ -1,0 +1,151 @@
+{
+  "storage": {
+    "last": "메가자리",
+    "cards": {
+      "메가자리": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "soft_smile",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "scene": "A Japanese inn dressing alcove contains a low lacquer chest and a folded sash; dusk filters through the paper screens as she pauses during an evening fashion fitting.",
+            "outfit": "An opaque sage silk juban-inspired halter slip with a wrapped front, a narrow sash and a high thigh slit, leaving shoulders and one thigh bare.",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "juban_inspired",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Yanmega (메가자리) personified, bug / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: faint upward pull at the mouth corners, lips together, warmth reaching the lower eyelids\nPose: Fold the arms comfortably across the torso with readable hands.\nOrientation: gaze off-camera; body orientation independent\nScene: A Japanese inn dressing alcove contains a low lacquer chest and a folded sash; dusk filters through the paper screens as she pauses during an evening fashion fitting.\nOutfit and props: An opaque sage silk juban-inspired halter slip with a wrapped front, a narrow sash and a high thigh slit, leaving shoulders and one thigh bare.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a juban-inspired silk underlayer with a wrapped front and a narrow sash\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "kept": true,
+    "cut": 1,
+    "cat": "lingerie",
+    "ex": "juban_inspired",
+    "expr": "soft_smile",
+    "pose": "arms_crossed",
+    "orient": "looking_away",
+    "frame": "three_quarter",
+    "lens": "documentary35",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "slip"
+    ],
+    "expose": [
+      "high thigh slit",
+      "halter neck"
+    ],
+    "lead": "place"
+  },
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "A Japanese inn dressing alcove contains a low lacquer chest and a folded sash; dusk filters through the paper screens as she pauses during an evening fashion fitting.",
+      "reason": "The juban_inspired example does not specify this light/environment detail; added only this cut: A Japanese inn dressing alcove contains a low lacquer chest and a folded sash; dusk filters through the paper screens as she pauses during an evening fashion fitting."
+    },
+    {
+      "field": "outfit",
+      "content": "An opaque sage silk juban-inspired halter slip with a wrapped front, a narrow sash and a high thigh slit, leaving shoulders and one thigh bare.",
+      "reason": "The juban_inspired example leaves material/color and the reserved high thigh slit,halter neck construction unspecified; this cut uses slip."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed chosen for the visible activity: Standing in Japanese inn dressing alcove with lacquer chest, folded cloth and dusk shoji; wrapped silk underlayer with sash.",
+    "source": "subtle is expressed in this outfit: Opaque sage halter wrap slip, narrow sash and high thigh slit, bare shoulders/thigh; source clips retained as hair accents, noted.",
+    "separates": "balanced follows the planned garment construction slip for juban_inspired."
+  },
+  "planner_selection": {
+    "random": "Planner seeded search; no worker random redraw or manual choice edits.",
+    "adjustments": "Only replanning listed in plan and preserved blocked/rejected records; actual output UI retains original selections."
+  }
+}
