@@ -1,0 +1,319 @@
+{
+  "session": "gpt-mantyke-snover-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "travel_exploration",
+      "ex": "travel_trail",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "front",
+      "frame": "three_quarter",
+      "pose": "checking_map",
+      "expr": "serious",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "Pausing at a forest trail junction to compare a folded map with a trail marker, wearing a light travel pack.",
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      },
+      "axes_reason": "지도를 확인하는 가벼운 움직임이라 balanced; 초록·크림 배색이 보여 balanced; 오버롤 중심 한 벌이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Late-afternoon rays strike a stone cairn at the fork beneath tall larches; mist still hangs over the next ridge.",
+          "reason": "숲길 예시가 정하지 않은 늦은 오후 빛과 낙엽송·능선 안개를 보충"
+        },
+        {
+          "field": "outfit",
+          "text": "Moss-green short overalls use a halter bib and low open sides over a cream strapless bandeau, leaving her shoulders and upper thighs bare.",
+          "reason": "overalls의 색과 홀터 구조·스트랩리스 밴도로 어깨·다리가 보이게 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size field; specify 1024×1536 in generator camera input."
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "penthouse_window",
+      "garments": [
+        "slip"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "turning_back",
+      "expr": "soft_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "at a penthouse window in an elegant evening outfit, resting while looking at the city lights",
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      },
+      "axes_reason": "커튼을 젖히는 진행 동작이라 mostly active; 초록 테두리와 흰 실크를 함께 써 balanced; 슬립 한 벌이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She draws a sheer curtain aside to watch the first evening lights flicker across the glass towers beyond the penthouse window.",
+          "reason": "창가 제목만 있어 커튼을 젖혀 불빛을 보는 활동과 저녁 시간을 정함"
+        },
+        {
+          "field": "outfit",
+          "text": "An ivory silk slip has a low open back and a plunging V front, with fine forest-green piping around its narrow straps.",
+          "reason": "slip의 아이보리 실크·낮은 등 파임·초록 테두리와 깊은 앞 목선을 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size field; specify 1024×1536 in generator camera input."
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "adult_teacher",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "reading_book",
+      "expr": "calm",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "a teacher-inspired costume look with a fitted blazer, pleated skirt, reading glasses, and books",
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      },
+      "axes_reason": "책장을 읽고 들고 있는 가벼운 행동이라 balanced; 초록 뷔스티에만 단서라 subtle; 재킷과 스커트가 분리돼 prefer separates",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A rehearsal stage is dressed as a vintage classroom, with a walnut lectern, a brass desk bell and wooden desks under warm footlights.",
+          "reason": "교사 의상 예시에 무대 장소가 없어 교실로 꾸민 리허설 무대와 교탁·종을 정함"
+        },
+        {
+          "field": "outfit",
+          "text": "A charcoal fitted blazer is cut away at both waist sides and worn off the shoulders over an opaque forest-green bustier and a short ivory pleated skirt; thin reading glasses complete the teacher-themed stage costume.",
+          "reason": "jacket+skirt에 맞춰 어깨가 내려온 재킷·옆구리 컷아웃·플리츠 스커트의 색과 구조를 보충"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size field; specify 1024×1536 in generator camera input."
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ]
+    }
+  ],
+  "planning": {
+    "card": "눈쓰개",
+    "species": "snover-20261025",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "travel_exploration",
+        "ex": "travel_trail",
+        "garments": [
+          "overalls"
+        ],
+        "orient": "front",
+        "frame": "three_quarter",
+        "pose": "checking_map",
+        "expr": "serious",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "strapless top",
+          "halter neck"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 2,
+        "cat": "private_evening",
+        "ex": "penthouse_window",
+        "garments": [
+          "slip"
+        ],
+        "orient": "profile_close",
+        "frame": "chest_up",
+        "pose": "turning_back",
+        "expr": "soft_smile",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "open back",
+          "plunging neckline"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 3,
+        "cat": "adult_roleplay",
+        "ex": "adult_teacher",
+        "garments": [
+          "jacket",
+          "skirt"
+        ],
+        "orient": "side",
+        "frame": "full_body",
+        "pose": "reading_book",
+        "expr": "calm",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "side cutouts",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          3
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "active",
+        "homewear",
+        "private_evening",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "overalls",
+        "slip"
+      ],
+      "orient": [
+        "front",
+        "profile_close",
+        "side"
+      ],
+      "frame": []
+    }
+  },
+  "check": "planner check passed; reservation stamp verified before generation; casual-look passed"
+}

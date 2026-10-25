@@ -1,0 +1,312 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_calls": 9,
+  "accepted_count": 9,
+  "face_reason": "눈 덮인 나무와 두 초록 가시의 직선을 각진 윤곽·턱·사선 눈썹·곧은 코와 얇은 입술로 해석한 저장소 설계를 적용했다. 중간 길이 생머리와 불규칙한 앞머리는 눈과 침엽의 단서다.",
+  "face_sources": [
+    "data/face-design.json #459",
+    "data/source-appearance.json #459",
+    "docs/CHARACTER_FACE_DESIGNS.md #459"
+  ],
+  "compared_characters": [
+    "타만타",
+    "푸호꼬",
+    "브리가론"
+  ],
+  "same_family_comparison": "눈설왕 경장 등록 이미지가 아직 없어 동일 계열 실제 이미지 비교는 불가. 새 그림을 비교용으로 추가 생성하지 않았다.",
+  "face_comparison": "눈쓰개는 가로로 비교적 넓은 하관과 각진 턱·얇은 입술·사선 눈썹, 짧은 은백색 생머리와 초록 홍채다. 타만타의 둥근 볼·도톰한 입술·가깝게 모인 눈, 푸호꼬의 크게 열린 눈과 짧은 코, 브리가론의 긴 하관과 좁은 눈매와 구별된다. 네 경장의 얼굴을 나란히 확인했다.",
+  "diversity_comparison": {
+    "compared": [
+      "타만타 casual1-3",
+      "푸호꼬 casual1-3",
+      "브리가론 casual1-3"
+    ],
+    "observed": "숲길에서 지도와 배낭·짧은 오버롤, 저녁 도시 창가에서 커튼을 젖히는 백리스 실크 슬립, 교실로 꾸민 리허설 무대에서 책을 읽는 재킷·플리츠 스커트다. 세 컷의 장소·행동·옷·화면 범위가 구별된다. 타만타의 벤치·열매 수확·궤도 라운지와 푸호꼬의 전통복·수영장·무대 입장, 브리가론의 앉은 역할극·냉장고·공예와도 구분된다.",
+    "look_check": "passed; see look-check.txt"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "d96507b57951f5cb74c98255796206b5f2155fd7ce31af074ac93a1a8a6b092f",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "얇은 흰 어깨·전완·허리·정강이 판과 초록 뾰족 모서리, 검은 밀착 슈트와 초록 뒤허리 자락."
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "74c5904c632c9787808b64f6cbd7510627fe6a46005149447679a298a80a61b2",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "겹쳐진 큰 흰색·초록색 판이 어깨·흉갑·허리·허벅지·정강이를 넓게 덮고 열린 관자 장식이 추가된 두꺼운 외곽."
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "e469d465d8c552a463edbd5f87cdbde85a60e33821b23be6cfc1b6fcfcb9667e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·허리·종아리의 가는 판이 뒤로 갈라져 뻗고 초록색 구동부와 작은 분사구가 보임."
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "b125b22acd47532b2aa367a3233374728668881dadc0604a54005030f43dcc6f",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "얇은 흰 어깨·전완·허리·정강이 판과 초록 뾰족 모서리, 검은 밀착 슈트와 초록 뒤허리 자락. 기존 판이 이음새를 따라 벌어지고 풀빛 안쪽 프레임과 잎 입자가 드러난다. 새 무장이나 별도 장갑은 생기지 않음."
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "427f1c715c6028aa8b0bfb69b614fb9ff5b7a35719b219b22755d39546d2f6f5",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "겹쳐진 큰 흰색·초록색 판이 어깨·흉갑·허리·허벅지·정강이를 넓게 덮고 열린 관자 장식이 추가된 두꺼운 외곽. 기존 판이 이음새를 따라 벌어지고 풀빛 안쪽 프레임과 잎 입자가 드러난다. 새 무장이나 별도 장갑은 생기지 않음."
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "d633adac4b791bcd1b295991789fad65d91330963676a7e2a3526e46fbade453",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹을 쥐고 장갑 표면에 네 손가락의 접힌 마디와 옆에 감긴 엄지가 보인다. 두 손목 모두 전완·팔꿈치·어깨로 연결되며 별도 손이 없다.",
+        "overlay_checked": false,
+        "note": "두 팔과 다리의 연결을 확인. 양쪽 부츠가 프레임 안에 있고 무릎과 발목의 방향이 이어짐. 개방 전후 손·자세·카메라 유지."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨·허리·종아리의 가는 판이 뒤로 갈라져 뻗고 초록색 구동부와 작은 분사구가 보임. 기존 판이 이음새를 따라 벌어지고 풀빛 안쪽 프레임과 잎 입자가 드러난다. 새 무장이나 별도 장갑은 생기지 않음."
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "9898c391527767f9d954a2c6d67226f50c7b5b2958effc83ff6b136406f97cac",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "지도 왼쪽 가장자리의 오른손은 네 손가락이 앞에 보이고 엄지는 종이 뒤에 가려짐. 반대 손도 네 손가락을 종이 앞에 걸고 엄지는 뒤에 있어 지도 집기가 읽힌다. 두 손목이 각각 전완과 팔꿈치에 붙어 있다.",
+        "overlay_checked": false,
+        "note": "접힌 지도를 두 손으로 펼치고 숲길 돌무더기 옆에 서서 옆을 살핀다. 상체는 카메라보다 옆으로 돌아가 정면 선택과 조금 다르다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "눈썹이 내려가고 입술을 다문 집중한 표정으로 지도 쪽을 바라본다."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "접힌 지도를 두 손으로 펼치고 숲길 돌무더기 옆에 서서 옆을 살핀다. 상체는 카메라보다 옆으로 돌아가 정면 선택과 조금 다르다."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "크림색 스트랩리스 밴도와 초록 홀터형 짧은 오버롤·작은 배낭. 어깨·옆구리·허벅지가 보이고 가슴과 골반은 불투명 원단으로 덮임."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "낙엽송 숲길·돌무더기·지도·배낭이 있어 길을 확인하는 활동이 보임."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리부터 무릎 부근까지 담김. 선택한 무릎 위 범위와 대체로 일치."
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "22b4125eb2bc6f539841a57a38b279d79cfe707f992eef480d1e3131dd5be40a",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "커튼을 쥔 오른손은 엄지와 손가락이 천을 감싸고 일부 손끝은 오른쪽 프레임 밖에 있다. 손목·전완·팔꿈치·위팔이 하나로 이어진다. 반대 팔은 몸 뒤에 가려져 따로 손이 보이지 않는다.",
+        "overlay_checked": false,
+        "note": "몸통과 골반은 창 쪽으로 돌리고 오른팔을 굽혀 커튼을 잡는다. 고개는 어깨 너머 카메라 쪽으로 돌아왔다. 목이 어깨 위에 이어지고 얼굴 방향은 완전 측면 선택과 다르다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "한쪽 입꼬리를 조금 올린 미소와 눈을 뜬 표정."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "몸통과 골반은 창 쪽으로 돌리고 오른팔을 굽혀 커튼을 잡는다. 고개는 어깨 너머 카메라 쪽으로 돌아왔다. 목이 어깨 위에 이어지고 얼굴 방향은 완전 측면 선택과 다르다."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "아이보리 실크 슬립에 가는 초록 테두리와 낮은 등 파임이 있고 어깨·등·가슴 옆 목선이 드러남. 유두·골반은 덮임."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "도시 빌딩의 저녁 불빛이 보이는 창가에서 실제로 얇은 커튼을 젖힌다."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "머리부터 엉덩이·허벅지까지 담겨 가슴 위 선택보다 넓게 나왔다."
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "de78dca7178cd942a0b1085fbea89ffa4406d032f8b3bc95fe066b42e17115dd",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual counting on originals and enlarged hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "책 표지 쪽 오른손은 네 손가락을 펼쳐 표지를 잡고 엄지는 책 뒤에 가려짐. 책 아래 왼손은 구부린 네 손가락이 모서리를 지지하고 엄지는 반대 면에 가려진다. 두 손목이 소매 끝·전완에 각각 연결됨.",
+        "overlay_checked": false,
+        "note": "옆으로 선 몸통·골반과 나란히 이어진 목, 책을 든 두 팔이 보인다. 두 다리는 무릎에서 교차하고 양발이 각 정강이 끝에 연결됨."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은백색 생머리·불규칙한 앞머리·초록 홍채·각진 하관·얇은 입술을 경장과 비교해 유지 확인."
+        },
+        "text": {
+          "match": true,
+          "evidence": "지도는 도로·지형 무늬, 책은 선 장식, 칠판은 흐릿한 불규칙한 분필 얼룩으로 보이며 읽히는 글자·가짜 라벨은 없음. 의상·버클·도시 창도 확인."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "책으로 시선을 낮추고 입을 다문 차분한 표정."
+        },
+        "pose": {
+          "match": true,
+          "evidence": "옆으로 선 몸통·골반과 나란히 이어진 목, 책을 든 두 팔이 보인다. 두 다리는 무릎에서 교차하고 양발이 각 정강이 끝에 연결됨."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "어깨를 드러낸 차콜 재킷·옆구리 컷아웃·초록 뷔스티에·짧은 아이보리 플리츠 스커트·독서안경과 구두. 어깨·옆구리·허벅지가 드러나고 가슴·골반은 원단으로 덮임."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "붉은 무대 커튼과 조명, 목재 교탁·책상·종이 있는 교실 세트에서 책을 읽는다."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리부터 굽 높은 구두의 바닥까지 여백 안에 담김."
+        }
+      }
+    }
+  }
+}
