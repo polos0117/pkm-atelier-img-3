@@ -1,0 +1,155 @@
+{
+  "card": "파르토",
+  "style": "glossy_promo",
+  "accepted": true,
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "0801957745481de170fd2aca5d5dab063f5663a78d569244557332b17bb6034c",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "One adult woman, brown ponytail and wide softly rounded face. Two arms, two legs, open gloved hands with five digits; full boots. Head ornament grazes upper edge; no head/foot cut. Gray-brown spotted armor and rear sash read clearly.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "One adult woman, brown ponytail and wide softly rounded face. Two arms, two legs, open gloved hands with five digits; full boots. Head ornament grazes upper edge; no head/foot cut. Gray-brown spotted armor and rear sash read clearly."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "9c55651bddd7080321fb44cac729b4c259b398f4a7d44b2d417671b9c9213030",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same face/ponytail, pose and scene; substantially broader shoulder, forearm and leg plate stacks. Two arms and legs, five-digit open gloves. Ear headpiece near upper edge recorded.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "Same face/ponytail, pose and scene; substantially broader shoulder, forearm and leg plate stacks. Two arms and legs, five-digit open gloves. Ear headpiece near upper edge recorded."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "22b945c03cbf74874f3247a0d778f0190d60b7a0ea27ded888c6b32499414bf9",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same identity and pose; tapered armor fins and distributed amber vents contrast with heavy plates. Five-digit gloved hands, two continuous arms/legs.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "Same identity and pose; tapered armor fins and distributed amber vents contrast with heavy plates. Five-digit gloved hands, two continuous arms/legs."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "33112d4d254b4b469229d48a3f9bad8b97778296b2e980e328fa106a4755cbab",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same light form silhouette, open right palm and hanging left hand, feet and rocky background; small existing plates open along seams with amber energy.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "Same light form silhouette, open right palm and hanging left hand, feet and rocky background; small existing plates open along seams with amber energy."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "ffdbf22d99a6380ba6f84ca0e7b64b72b499875ee89ca9abd691acbdc2b329fd",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same heavy form camera and limb placement; stacked plates separate to show amber mechanisms, without a new weapon or helmet. Gloves remain five-digit.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "Same heavy form camera and limb placement; stacked plates separate to show amber mechanisms, without a new weapon or helmet. Gloves remain five-digit."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "cb81fc0eb05ca88794775053877ad84b8bc35b7233412fb80487e382a6b8a710",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Same mobility pose, face and foot placement; existing fins open with amber energy. Two continuous arms and legs and two five-digit gloves.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "two gloved hands, each one thumb and four fingers; thumb orientation follows arm",
+        "overlay_checked": false,
+        "note": "Same mobility pose, face and foot placement; existing fins open with amber energy. Two continuous arms and legs and two five-digit gloves."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "1f94602489a9f2d1f795e64f48a77d96f2660b6fc6ef9364e0d542d1146f3365",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Geometric brown halter one-piece at dawn bathing courtyard. Both arms stretch overhead with wrists clasped; four curled fingers and thumbs follow overlapping hands, hidden digit surfaces noted. Two legs, five toes on each foot; sleepy eyelids. Full body as planned.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "casual1: two clasped hands, overlapping digits partly occluded; thumb placement follows wrists",
+        "overlay_checked": false,
+        "note": "Geometric brown halter one-piece at dawn bathing courtyard. Both arms stretch overhead with wrists clasped; four curled fingers and thumbs follow overlapping hands, hidden digit surfaces noted. Two legs, five toes on each foot; sleepy eyelids. Full body as planned."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "f15837b2d6aadbf6976b1e11b21748309cf5529f49851d2a2950d4140b01eec5",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Cocoa rib-knit mini dress with high side slit in timber room, rain on window. Two arms run to sofa; near hand five digits, far hand overlaps and is partly occluded. Two legs in slippers. Low camera and thoughtful expression present; framing is tighter than environmental selection, recorded without retry.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "casual2: near hand five digits, opposite hand partly occluded by overlap",
+        "overlay_checked": false,
+        "note": "Cocoa rib-knit mini dress with high side slit in timber room, rain on window. Two arms run to sofa; near hand five digits, far hand overlaps and is partly occluded. Two legs in slippers. Low camera and thoughtful expression present; framing is tighter than environmental selection, recorded without retry."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "2ca370960af569fb51e813348a6af887b97b35a40a61b1f8b67b2342bbb0f5ad",
+      "reviewer": "gpt",
+      "accepted": true,
+      "observations": "Ivory one-shoulder dress and focused face at fabric mannequin; one raised knee, one visible hand with five fingers pinching fabric. Other arm/hand occluded behind torso/knee. Two legs folded naturally, front foot has five toes; actual frame shows more legs than waist-up selection, recorded.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); anatomy-check.py exit 3; manual inspection completed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "casual3: visible hand five digits; opposite hand occluded",
+        "overlay_checked": false,
+        "note": "Ivory one-shoulder dress and focused face at fabric mannequin; one raised knee, one visible hand with five fingers pinching fabric. Other arm/hand occluded behind torso/knee. Two legs folded naturally, front foot has five toes; actual frame shows more legs than waist-up selection, recorded."
+      }
+    }
+  ],
+  "face_reason": "Gray rabbit volume interpreted as short wide human face, rounded jaw and broad low bridge; long brown ponytail retains the Bunnelby line while separating her mature facial proportions from its shorter hairstyle.",
+  "face_source": [
+    "data/face-design.json #660",
+    "data/source-appearance.json #660"
+  ],
+  "final_face_sentence": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; broad low bridge nose; medium lips.",
+  "compared_characters": [
+    "파르빗",
+    "개굴닌자",
+    "내룸벨트"
+  ],
+  "face_comparison": "Viewed actual light images together: Bunnelby has shorter brown hairstyle and slimmer cheek structure; Greninja has long dark-blue hair and more angular eyes; Lickilicky has pink ringlets and a broad round silhouette. Diggersby retains long brown ponytail and short wide cheeks.",
+  "diversity_comparison": "Bathing-pool overhead stretch in halter swimsuit; forward lean on sofa in rib-knit mini; close focused fitting/seam work beside mannequin in one-shoulder ivory dress. Locations, activities, garment silhouettes and hand positions differ. Actual recent casual images compared before publication; accessory carryover and frame differences are recorded, not silently marked exact."
+}
