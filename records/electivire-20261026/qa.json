@@ -1,0 +1,299 @@
+{
+  "card": "에레키블",
+  "method": "built-in image_gen; actual generator UI prompts retained; original-size review plus enlarged hands and feet",
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "노랑 단층 어깨·팔·정강이판, 검정 슈트, 트윈테일과 꼬리형 허리자락 두 개."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "서 있는 양다리와 부츠 두 개가 바닥에 닿고, 어깨에서 장갑 손까지 팔 두 개가 이어짐. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨·흉부·허리·정강이에 넓은 겹판과 두꺼운 테두리, 눈·턱이 열린 머리판."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "두 손이 몸 양옆으로 내려오고 팔꿈치와 장갑 손목 연결이 보임. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨·허리·종아리의 가늘고 긴 판이 뒤로 벌어지고 원형 추진부가 보임."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "다리 두 개의 무릎과 부츠, 양팔과 손목 모두 연결됨. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "경장과 같은 얼굴 크기·발 위치·배경; 단층 판 이음새가 들리고 노란 전류가 틈에서 나옴."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원래 양손 실루엣을 유지하고 손가락에 전류가 겹치지 않음. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "중장과 같은 구도·헬멧·발 위치; 겹판이 층별로 열려 내부 프레임과 전류가 드러남."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "일반 중장과 동일한 양팔·다리 위치와 손목 연결. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "실제 파일 1024×1536, WebP로 열림"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "가까운 금빛 아몬드 눈, 들린 코끝, 부드러운 타원 턱과 검정 트윈테일이 경장과 이어짐"
+      },
+      "form": {
+        "match": true,
+        "evidence": "고기동과 같은 분할판·부츠·인물 크기; 뒤로 펼친 판 틈의 발광과 프레임이 커짐."
+      },
+      "text": {
+        "match": true,
+        "evidence": "금속판·배경 구조물에 글자·로고 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 밀착 장갑: 엄지 1개와 네 손가락. 굽힌 손가락 일부는 서로 가려짐; 두 엄지 방향과 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "허리 자락을 다리로 세지 않음; 부츠 두 개와 팔 두 개가 인체에 이어짐. 원본과 손·부츠 확대를 대조함."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 WebP"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "검정 트윈테일·금빛 눈·들린 코와 타원 턱이 유지됨."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "열린 건조기와 수건을 담은 바구니; 한 팔은 바구니 아래로, 다른 손은 인사."
+      },
+      "outfit_and_exposure": {
+        "match": true,
+        "evidence": "검정 홀터 니트와 짧은 반바지, 노란 테두리; 어깨와 등·허벅지가 드러남."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "눈꺼풀은 낮고 입꼬리가 작게 올라감; amused의 눈가 주름은 약함."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "돌아보는 뒤 3/4 몸통, 실제 프레임은 허리 위보다 넓어 허벅지까지 담김.",
+        "disposition": "Allowed reporting-only differences; selected values unchanged."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 확대에서 읽을 수 있는 글자·가짜 서체·상표 없음; 세탁기 패널은 흐린 기하 표시, 출입증은 빈 면."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "인사 손은 엄지+네 손가락이 분리됨. 바구니를 받친 손은 수건과 프레임에 가려짐.",
+        "overlay_checked": false,
+        "note": "어깨에서 인사 손목과 바구니 쪽 팔꿈치까지 자연스럽게 이어짐; 두 허벅지 이하 다리는 화면 밖. 손 확대 대조함."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 WebP"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 검정 트윈테일과 금빛 눈; 놀라서 커진 눈과 열린 입 외 얼굴 비율 유지."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "소파에 앉아 작은 우쿨렐레의 줄과 지판을 양손으로 누름. 옆에 보면대."
+      },
+      "outfit_and_exposure": {
+        "match": true,
+        "evidence": "깊은 목선의 검정 미니 롬퍼; 어깨·윗가슴·허벅지가 드러나며 노랑 허리끈."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "눈썹과 눈이 올라가고 입이 동그랗게 열림."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "소파 등받이에 기대지만 상체는 비교적 세워짐; chest_up보다 넓어 무릎까지 담김.",
+        "disposition": "Allowed reporting-only differences; selected values unchanged."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 확대에서 읽을 수 있는 글자·가짜 서체·상표 없음; 세탁기 패널은 흐린 기하 표시, 출입증은 빈 면."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "줄을 튕기는 손은 네 손가락과 부분적으로 가려진 엄지; 지판 손은 굽힌 네 손가락과 목 뒤에 가려진 엄지.",
+        "overlay_checked": false,
+        "note": "팔 두 개가 악기 앞·목 양쪽 손으로 이어지고 두 허벅지와 무릎이 자연스럽게 보임. 손 확대 대조함."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 WebP"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "뒤 3/4에서 같은 금빛 눈, 코끝과 검정 트윈테일 유지."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "밝은 행사 입구 통로를 가볍게 뛰며 입장 리본 묶음을 운반; 배경 군중은 얼굴 없는 흐린 실루엣."
+      },
+      "outfit_and_exposure": {
+        "match": true,
+        "evidence": "옆과 허리가 열린 노란 크롭 조끼, 검정 쇼츠, 운동화·리본 배지·목걸이 출입증; 허리와 옆구리 드러남."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "낮은 눈꺼풀과 작게 열린 미소, 카메라로 돌아본 시선."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "뒤 3/4 몸통·돌아본 얼굴과 전신; 무대 입구·조명·난간도 읽힘.",
+        "disposition": "Allowed reporting-only differences; selected values unchanged."
+      },
+      "text": {
+        "match": true,
+        "evidence": "원본 및 확대에서 읽을 수 있는 글자·가짜 서체·상표 없음; 세탁기 패널은 흐린 기하 표시, 출입증은 빈 면."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (checker exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "리본 쥔 손의 엄지가 위에서 감싸며 네 손가락은 리본에 부분 가려짐. 반대 손은 머리카락과 허리 뒤에 가려짐.",
+        "overlay_checked": false,
+        "note": "두 팔꿈치가 몸 앞뒤로 연결되고 한쪽 무릎을 굽힌 보행. 두 발은 각각 들린 신발바닥과 지면의 신발로 보임. 손 확대 대조함."
+      }
+    }
+  },
+  "skipped": [],
+  "diversity": {
+    "pass": true,
+    "look_check": "casual-look check exit 0; no near duplicate",
+    "viewed_comparisons": [
+      "내룸벨트 일상1–3",
+      "거대코뿌리 일상1–3",
+      "덩쿠림보 일상1–3"
+    ],
+    "evidence": "세탁방에서 수건 바구니를 받치는 뒤돌아보기, 소파의 악기 연주, 야외 행사에서 전신 조깅. 니트+쇼츠 / 한 벌 롬퍼 / 재단 조끼로 옷과 활동·카메라가 구분됨. 비교 대상의 옷 갈아입기·해안 드로잉·메이드·펜싱·치파오·살와르·발코니·풀사이드·기록 작업과 구별됨."
+  }
+}

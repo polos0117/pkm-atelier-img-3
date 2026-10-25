@@ -1,0 +1,376 @@
+{
+  "batch": {
+    "session": "electivire-magmortar-20261026-b889",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "에레키블",
+        "species": "electivire-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "kneeling",
+            "expr": "amused",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_music",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "sitting",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "waving",
+            "expr": "provocative",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "crouching",
+            "reclining",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "마그마번",
+        "species": "magmortar-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_librarian",
+            "garments": [
+              "cardigan",
+              "skirt"
+            ],
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "pose": "perched_seat",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "festival_night",
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "orient": "side",
+            "frame": "three_quarter",
+            "pose": "offering_food",
+            "expr": "exhausted",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_cheering",
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "pose": "adjusting_bag",
+            "expr": "nostalgic",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "cardigan",
+            "skirt",
+            "blouse"
+          ],
+          "orient": [
+            "seated_twist",
+            "side",
+            "over_shoulder"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "에레키블",
+    "species": "electivire-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "bunny",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "crouching",
+        "frame": "full_body",
+        "pose": "kneeling",
+        "expr": "amused",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "strapless top"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 2,
+        "cat": "hobbies_leisure",
+        "ex": "hobby_music",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "reclining",
+        "frame": "chest_up",
+        "pose": "sitting",
+        "expr": "surprised",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "mini length"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 3,
+        "cat": "lingerie",
+        "ex": "garter_set",
+        "garments": [
+          "lingerie_set"
+        ],
+        "orient": "turning_midmotion",
+        "frame": "waist_up",
+        "pose": "waving",
+        "expr": "provocative",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "bare midriff",
+          "halter neck"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1,
+          3
+        ],
+        "two": true,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "jumpsuit"
+      ],
+      "orient": [
+        "crouching",
+        "reclining",
+        "turning_midmotion"
+      ],
+      "frame": []
+    }
+  },
+  "planning": "Unmodified planner selections; reservation pushed through connected GitHub API because local git HTTPS authentication is unavailable."
+}
