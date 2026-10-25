@@ -1,0 +1,717 @@
+{
+  "session": "gpt-froakie-frogadier-20261025-8e9f",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_gardening",
+      "expr": "confident",
+      "pose": "watering",
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "knit_top",
+        "shorts"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "aspect": "2:3",
+      "example_text": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+      "axes_reason": "물주기와 작은 잎 손질의 움직임이라 balanced, 종족 장신구 없이 차가운 색만 남겨 subtle, 니트·쇼츠 분리라 prefer separates",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A deep apartment windowsill holds young berry plants above a sun-warmed tile floor; late morning sun catches fresh droplets and a small pair of gardening scissors.",
+          "reason": "창가 원예 예시에 아파트의 깊은 창턱·늦은 오전 햇빛·물방울과 가위를 구체화"
+        },
+        {
+          "field": "outfit",
+          "text": "An ivory ribbed knit top with an asymmetric off-shoulder neckline and short fitted hem, paired with dark teal pleated shorts and flat sandals; her shoulders and upper thighs remain visible.",
+          "reason": "계획 knit_top+shorts를 비대칭 오프숄더 니트와 청록 쇼츠·샌들로 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_lantern",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "offering_food",
+      "expr": "gentle",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "action",
+      "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+      "axes_reason": "간식을 들고 운하길을 걷는 가벼운 움직임이라 balanced, 축제 의상의 색을 우선해 subtle, 멜빵바지 한 벌 중심이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Lifting a small skewer of roasted berries above its folded paper wrap, she follows a canal path between amber lanterns and maple branches at early dusk.",
+          "reason": "등불 축제 산책 예시의 간식을 구운 열매 꼬치와 종이 포장으로 정하고 운하·단풍과 해질녘을 추가"
+        },
+        {
+          "field": "outfit",
+          "text": "Warm rust-colored short overalls with one strap worn loose over a cream asymmetric off-shoulder bandeau, exposing one shoulder, the side waist and upper thighs; flat canvas shoes complete the festival clothes.",
+          "reason": "계획 overalls를 녹빛 붉은 짧은 멜빵바지·한쪽 끈과 크림 비대칭 반도로 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "hanbok_coverup",
+      "expr": "provocative",
+      "pose": "leaning_wall",
+      "orient": "front",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "high thigh slit",
+        "open back"
+      ],
+      "lead": "action",
+      "aspect": "2:3",
+      "example_text": "swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt",
+      "axes_reason": "커버업 허리끈을 정리하는 가벼운 움직임이라 balanced, 파랑·흰색과 거품 자수로 strong, 수영복과 커버업 치마가 분리되어 prefer separates",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Straightening the waist ribbon of her cover-up, she pauses by a pale stone pool pavilion while afternoon light ripples across the nearby water.",
+          "reason": "제목에만 있던 한복 커버업 예시에 허리끈을 정리하는 활동·석조 풀 파빌리온과 오후빛을 지정"
+        },
+        {
+          "field": "outfit",
+          "text": "Cobalt swimwear beneath an open-back cropped hanbok-line wrap top and a high-waisted wide flowing white skirt with a deep thigh slit; pale-blue edging and tiny bubble-like embroidery echo the water motif.",
+          "reason": "계획 skirt+traditional의 등 파임·허벅지 슬릿을 넓게 흐르는 치마와 짧은 한복선 상의에 적용하고 코발트 수영복·거품 자수를 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    }
+  ],
+  "planning": {
+    "session": "gpt-froakie-frogadier-20261025-8e9f",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "개구마르",
+        "species": "froakie-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "flight_attendant",
+            "expr": "amused",
+            "pose": "standing_formal",
+            "orient": "over_shoulder",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "jacket"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "cropped hem"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "materials_lab",
+            "expr": "nostalgic",
+            "pose": "arms_crossed",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "luminous_circuit",
+            "expr": "bored",
+            "pose": "waving",
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "개굴반장",
+        "species": "frogadier-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_gardening",
+            "expr": "confident",
+            "pose": "watering",
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "place",
+            "aspect": "2:3",
+            "example_text": "Watering small berry seedlings on a windowsill and trimming a dry leaf with gardening scissors.",
+            "axes_reason": "물주기와 작은 잎 손질의 움직임이라 balanced, 종족 장신구 없이 차가운 색만 남겨 subtle, 니트·쇼츠 분리라 prefer separates",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "A deep apartment windowsill holds young berry plants above a sun-warmed tile floor; late morning sun catches fresh droplets and a small pair of gardening scissors.",
+                "reason": "창가 원예 예시에 아파트의 깊은 창턱·늦은 오전 햇빛·물방울과 가위를 구체화"
+              },
+              {
+                "field": "outfit",
+                "text": "An ivory ribbed knit top with an asymmetric off-shoulder neckline and short fitted hem, paired with dark teal pleated shorts and flat sandals; her shoulders and upper thighs remain visible.",
+                "reason": "계획 knit_top+shorts를 비대칭 오프숄더 니트와 청록 쇼츠·샌들로 구체화"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_lantern",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "offering_food",
+            "expr": "gentle",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "action",
+            "example_text": "Walking through a lantern festival with a small snack, wearing comfortable event clothing with subtle Pokémon motifs.",
+            "axes_reason": "간식을 들고 운하길을 걷는 가벼운 움직임이라 balanced, 축제 의상의 색을 우선해 subtle, 멜빵바지 한 벌 중심이라 balanced",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Lifting a small skewer of roasted berries above its folded paper wrap, she follows a canal path between amber lanterns and maple branches at early dusk.",
+                "reason": "등불 축제 산책 예시의 간식을 구운 열매 꼬치와 종이 포장으로 정하고 운하·단풍과 해질녘을 추가"
+              },
+              {
+                "field": "outfit",
+                "text": "Warm rust-colored short overalls with one strap worn loose over a cream asymmetric off-shoulder bandeau, exposing one shoulder, the side waist and upper thighs; flat canvas shoes complete the festival clothes.",
+                "reason": "계획 overalls를 녹빛 붉은 짧은 멜빵바지·한쪽 끈과 크림 비대칭 반도로 구체화"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "expr": "provocative",
+            "pose": "leaning_wall",
+            "orient": "front",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "action",
+            "aspect": "2:3",
+            "example_text": "swimwear under a hanbok-line cover-up with a high waist and wide flowing skirt",
+            "axes_reason": "커버업 허리끈을 정리하는 가벼운 움직임이라 balanced, 파랑·흰색과 거품 자수로 strong, 수영복과 커버업 치마가 분리되어 prefer separates",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Straightening the waist ribbon of her cover-up, she pauses by a pale stone pool pavilion while afternoon light ripples across the nearby water.",
+                "reason": "제목에만 있던 한복 커버업 예시에 허리끈을 정리하는 활동·석조 풀 파빌리온과 오후빛을 지정"
+              },
+              {
+                "field": "outfit",
+                "text": "Cobalt swimwear beneath an open-back cropped hanbok-line wrap top and a high-waisted wide flowing white skirt with a deep thigh slit; pale-blue edging and tiny bubble-like embroidery echo the water motif.",
+                "reason": "계획 skirt+traditional의 등 파임·허벅지 슬릿을 넓게 흐르는 치마와 짧은 한복선 상의에 적용하고 코발트 수영복·거품 자수를 구체화"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "도구 크기 항목이 없어 생성기 카메라 칸에 세로 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "looking_away"
+          ],
+          "frame": []
+        },
+        "refill": true
+      }
+    ]
+  },
+  "check": "planner check passed; reservation stamps verified before generation",
+  "reservation_commits": [
+    "cb953645c2a695bd3e0fddf4cf3db9abfac04e99",
+    "01c23c41b8f2c747ff5c12c718ec3f210378973f",
+    "df107ebf70ea0e8eb3ee7909cf1ef592347f74e2",
+    "a1994366629430e4cbf074c6190d843db550d85a"
+  ],
+  "revision": {
+    "slot": "casual2",
+    "attempts": [
+      {
+        "attempt": 1,
+        "source": "generated_images/exec-6ac16240-3f43-4be0-86a0-422240d2b324.png",
+        "sha256": "4f11b05ad1c3c509a15a43e63c1ca09d571cfb0de32ad93755e0ecea5ccb6986",
+        "accepted": false,
+        "reason": "주 활동 박수가 없고 가방의 깃발을 잡음",
+        "changed_inputs": "none"
+      },
+      {
+        "attempt": 2,
+        "source": "generated_images/exec-a1d153ea-1e07-4481-9748-89232329bb97.png",
+        "sha256": "62f548b75a173125131e8602f51a0108f36d1ac8672cad0a2d1ba406e4853f2e",
+        "accepted": false,
+        "reason": "다시 박수 없이 깃발에 손을 뻗음; 신발 혀에도 가짜 라벨이 생김",
+        "changed_inputs": "none"
+      }
+    ],
+    "replanning": "관중석 예시가 박수 대신 깃발을 만지는 그림으로 두 번 나옴. 계획기의 --avoid ex=fest_cheering로 등불 축제로 다시 배정. 의상과 장면 보충 칸을 새 예시에 맞게 변경. 컷1·3의 원래 선택과 이미지는 보존.",
+    "planner_replacement": {
+      "session": "gpt-froakie-frogadier-20261025-8e9f",
+      "planner": "tools/casual-plan.cjs",
+      "characters": [
+        {
+          "card": "개굴반장",
+          "species": "frogadier-20261025",
+          "refill": true,
+          "cuts": [
+            {
+              "kept": true,
+              "cut": 1,
+              "cat": "hobbies_leisure",
+              "ex": "hobby_gardening",
+              "expr": "confident",
+              "pose": "watering",
+              "orient": "leaning_back",
+              "frame": "full_body",
+              "lens": "wide24",
+              "axes": {
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "prefer separates"
+              },
+              "garments": [
+                "knit_top",
+                "shorts"
+              ],
+              "expose": [
+                "one-shoulder cut",
+                "off-shoulder neckline"
+              ]
+            },
+            {
+              "cut": 2,
+              "cat": "festivals_contests",
+              "ex": "fest_lantern",
+              "garments": [
+                "overalls"
+              ],
+              "orient": "looking_away",
+              "frame": "environmental",
+              "pose": "offering_food",
+              "expr": "gentle",
+              "lens": "natural50",
+              "aspect": "2:3",
+              "axes": {
+                "overall_intensity": "strong",
+                "skin_exposure": "bold",
+                "action_level": "balanced",
+                "source_influence": "subtle",
+                "separates_preference": "balanced"
+              },
+              "expose": [
+                "off-shoulder neckline",
+                "one-shoulder cut"
+              ],
+              "lead": "action"
+            },
+            {
+              "kept": true,
+              "cut": 3,
+              "cat": "swimwear",
+              "ex": "hanbok_coverup",
+              "expr": "provocative",
+              "pose": "leaning_wall",
+              "orient": "front",
+              "frame": "chest_up",
+              "lens": "natural50",
+              "axes": {
+                "action_level": "balanced",
+                "source_influence": "strong",
+                "separates_preference": "prefer separates"
+              },
+              "garments": [
+                "skirt",
+                "traditional"
+              ],
+              "expose": [
+                "high thigh slit",
+                "open back"
+              ]
+            }
+          ],
+          "why": {
+            "required": {
+              "slots": [],
+              "two": false,
+              "prev": [
+                1
+              ]
+            },
+            "low": [
+              "occupation_basic",
+              "occupation_sensual",
+              "everyday_basic",
+              "everyday_sensual",
+              "partner_care",
+              "travel_exploration",
+              "food_berries",
+              "festivals_contests",
+              "hobbies_leisure",
+              "private_evening",
+              "wildcard"
+            ]
+          },
+          "claims": {
+            "garment": [
+              "overalls"
+            ],
+            "orient": [
+              "looking_away"
+            ],
+            "frame": []
+          }
+        }
+      ]
+    }
+  },
+  "visual_comparison": {
+    "cards": [
+      "개구마르",
+      "눈설왕",
+      "포푸니라",
+      "마폭시"
+    ],
+    "observed": "창가 식물·물뿌리개·니트쇼츠 / 가을 운하·열매 간식·멜빵반바지 / 풀 파빌리온·허리끈·한복 커버업으로 나뉨. 최근 작업의 항공·부화장·광섬유·자전거·바느질·살롱·카메라와 구분됨.",
+    "near_cuts": [
+      "체리꼬 casual1",
+      "스라크 casual3",
+      "앤테이 casual2"
+    ],
+    "near_observed": "등불 운하와 걸어오는 실루엣이 체리꼬와 가깝지만 긴 녹색 슬릿 치마·샌들 대신 짧은 멜빵바지·운동화이며 꼬치를 앞으로 내민 팔과 다른 포장이 보임. 스라크는 수풀 수변 산책, 앤테이는 긴 한복 치마와 다른 손동작."
+  }
+}
