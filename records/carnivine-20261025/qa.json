@@ -1,0 +1,182 @@
+{
+  "light": {
+    "identity": "Olive green-gold long single braid, round green eyes, tapered heart-shaped face, small nose and thin lips; distinct from Toxicroak's angular jaw/narrow eyes and black-red tied hair, Drapion's purple swept hair and Croagunk's stronger compact face.",
+    "form": "Red, green and yellow leaf plates over spotted fitted suit; human skin, no held weapon.",
+    "framing": "Head, braid and both boots inside image, leaves sweep around figure.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Screen-left palm has one thumb and four fingers; screen-right smaller hand has thumb and four curved fingers, partly foreshortened.",
+      "overlay_checked": true,
+      "note": "Tool cannot find body; manual shoulder-elbow-wrist and hip-knee-ankle paths inspected.",
+      "tool": "note · 몸을 못 찾았다 — 눈으로 본다"
+    },
+    "image_sha256": "ced17f011feb75b2ba2991c4476805e381256d2acb72244fb98d517bf6c7dabf",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "heavy": {
+    "identity": "Same face, choppy bangs and long braid.",
+    "form": "Thick stacked leaf plates at shoulders, pelvis, thighs and shins; crown and temples framed by open-face guards.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Open glove palms retain five-digit silhouettes; some fingertips overlap from perspective.",
+      "overlay_checked": true,
+      "note": "Tool no body; manually count two connected arms and legs.",
+      "tool": "note · 몸을 못 찾았다 — 눈으로 본다"
+    },
+    "image_sha256": "fabde9ee14f3b256e55e2975d732ae8fafddd5197311d99bd52814f4d40db7dc",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "mobility": {
+    "identity": "Same eye color, face shape and braid.",
+    "form": "Leaf panels fan outward with separated hip/calf fins and green compact thrusters.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Thumb plus four curved fingers on each hand; open hands remain attached to forearms.",
+      "overlay_checked": true,
+      "note": "Weak skeleton; armor obscures exact elbow boundaries. No extra limb visible.",
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+    },
+    "image_sha256": "046cdbc34c76bb416d483f530c1f906d2d5a1a1ce53848c1eecfe97d12793a6f",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "light_overdrive": {
+    "identity": "Same face and braid as closed light.",
+    "form": "Thin plates lift at seams with glowing green inner frame, leaves and pollen; matches source composition.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Gloved open hands preserve closed image's finger arrangement.",
+      "overlay_checked": true,
+      "note": "Weak tool skeleton; manual limb paths inspected, glow remains away from fingers.",
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+    },
+    "image_sha256": "04f979b44337b3394a05a5d9cd1c2d083fd29e33040cc694ed12845632e03003",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "heavy_overdrive": {
+    "identity": "Same crown, face, hair and proportions.",
+    "form": "Broad leaf armor layers hinge open; green light visible inside shoulder, torso and legs.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Same open palms and five-digit silhouettes as closed heavy, fingers not covered by effects.",
+      "overlay_checked": true,
+      "note": "Weak skeleton; manual check finds two arms and legs.",
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+    },
+    "image_sha256": "dac418925bbdac589ddd67af2483ab7a45145949e99e1cda4d4590cd31135fcb",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "mobility_overdrive": {
+    "identity": "Same face, braid and eye colors.",
+    "form": "Fanned panels spread farther with brighter green open thruster cores and pollen, original framing retained.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Thumb and four fingers per glove, foreshortened screen-right fingers partly overlap.",
+      "overlay_checked": true,
+      "note": "Two arm and two leg paths remain continuous.",
+      "tool": "ok · "
+    },
+    "image_sha256": "b36a8548275a2432065d0fd5af27d58c8e65de64b7bd2fe20cb758c7abdde3c3",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual1": {
+    "identity": "Same green eyes, tapered face and olive bangs; braid is being gathered into an updo in the hair-tying activity.",
+    "scene": "Bright green-tiled bathroom, towel and low stool, both arms raised to tie red hair ribbon.",
+    "outfit": "Short belted opaque sage robe with red seam and leaf accents; shoulders and thighs exposed.",
+    "direction": {
+      "match": true,
+      "evidence": "Low squat with both knees flexed and balanced bare feet."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Full squatting body visible, but tighter than requested environmental view."
+    },
+    "expression": {
+      "match": false,
+      "evidence": "Parted lips and attentive gaze instead of closed straight mouth."
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Ribbon hand's thumb and curved fingers visible with tips partly occluded; far hand hidden in hair. Bare toes partly overlap but separate feet trace to ankles.",
+      "overlay_checked": true,
+      "note": "Tool finds multiple bodies; only one woman present, reflected light and bent legs confuse detector.",
+      "tool": "note · 몸이 3 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+    },
+    "image_sha256": "03453773f9a1e71e039d24abb24ea1dd357e98cf5e06d64323337214c8e5ac0a",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual2": {
+    "identity": "Same olive braid, face and eyes, eyes closed while laughing. Source floral head ornament carried over despite wardrobe request; record mismatch.",
+    "scene": "White cabana, wicker basket, drink and turquoise cove; hand supported on counter.",
+    "outfit": "Green one-piece with deep neckline and high legs, coral printed hip-knotted sarong, exposed legs and shoulders.",
+    "direction": {
+      "match": true,
+      "evidence": "Torso and pelvis turn together toward front three-quarter; ankles crossed."
+    },
+    "framing": {
+      "match": true,
+      "evidence": "Complete head, hands and bare feet within margins."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Open laughing mouth, raised cheeks and eyes nearly shut."
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Counter hand fingers partly foreshortened against surface; sarong hand thumb and fingers curl around fabric, partly occluded.",
+      "overlay_checked": true,
+      "note": "Both wrists continuous; crossed shins lead to separate feet. No detached hand.",
+      "tool": "ok · "
+    },
+    "image_sha256": "738500cc6f2daa76fbdc03d774fcc43de5dd8c56fdffc59254710ea8cdbfa525",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual3": {
+    "identity": "Same olive braid, green eyes and tapered face.",
+    "scene": {
+      "match": false,
+      "evidence": "One separate Bulbasaur under towel and a folded umbrella on porch. Woman stretches rather than using her two main hands to wipe rain; an extra hand appears on towel."
+    },
+    "outfit": "Ivory halter tie shirt and rust-red wrap skirt; midriff and shoulders exposed, leaf clasp at collar.",
+    "direction": {
+      "match": true,
+      "evidence": "Torso leaning back with arms overhead."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Knees included, a little wider than just above knees."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Wide laughing mouth, cheeks raised, eyes open and engaged."
+    },
+    "anatomy": {
+      "tool": "check · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다; 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 3.2 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
+      "arms": 3,
+      "legs": "two visible to cropped knees",
+      "hands": "Two hands overlap above head, plus a third hand on Bulbasaur's towel; the extra hand cannot belong to either overhead arm.",
+      "overlay_checked": true,
+      "note": "FAILED anatomy: extra third hand/arm. Preserve generated original and publish under standing user post-upload visual review / no automatic replacement instruction; do not label accepted or passed."
+    },
+    "qa_pass": false,
+    "known_issue": "Extra third hand and arm on towel beside companion; needs user-directed correction if requested.",
+    "image_sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  }
+}
