@@ -1,0 +1,34 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "source_sha256": "859f7f3269dfe450ad97617bf185675a6833cda7b911b85801214f78152492c5",
+  "output": {
+    "slot": "casual2",
+    "file": "화살꼬빈_glossy_promo_f_casual2.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "9235376a5e3f87c56e619164830663ed856c67ad0f24c089c2b1fe6144067116",
+    "reference": "화살꼬빈_light_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 일상컷 2번 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "plan_match": "plan.json 의 cut 2(adult_roleplay · bunny · proud · mid_action · leaning_back · three_quarter · documentary35)와 casual2-prompt.txt 의 장면이 맞는다 — 무대 조명 아래 카바레 연습실, 숯색 바니 레오타드에 흰 칼라·주황빨강 나비넥타이·손목 커프·토끼 귀 머리띠·검은 타이츠·낮은 굽, 왼손으로 의자를 짚고 뒤로 기대며 오른손으로 무대 손짓, 한쪽 무릎을 굽힌 동작. 다른 점은 적기만 한다: 화면이 무릎 위에서 끊기지 않고 신발까지 내려왔다.",
+  "look_check": "node tools/casual-look.cjs check --card 화살꼬빈 (casual1, 이 그림, casual3) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — note · 몸 2 개로 잡힘(사람은 한 명 — 겹친 다리를 따로 잡음)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손 위로 든 무대 손짓 · 왼손 의자 짚음",
+    "overlay_checked": true,
+    "note": "뼈대 그림 확인 — 굽힌 다리 뒤로 선 다리가 화면 밖으로 내려감. 두 번째 인물 없음"
+  },
+  "user_approval": "화살꼬빈 일상컷 누락된거 채워줘 → 응 올려줘",
+  "at": "2026-10-25",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 casual2-prompt.txt 는 tool-failures.json 의 막힌 자동 생성 시도(moderation_blocked)의 것이다. 그림이 그 프롬프트의 장면과 맞지만, 사용자가 같은 프롬프트로 만들었는지는 확인하지 않았다."
+}

@@ -1,0 +1,34 @@
+{
+  "uploaded_name": "image.png",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "source_sha256": "179777a2ddc8a844000eefaba74bdbe1d8f9e9927ed8064742b2aa6838372f42",
+  "output": {
+    "slot": "casual3",
+    "file": "화살꼬빈_glossy_promo_f_casual3.webp",
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "fa05e02abc63d708e6f0fdc719826f9f6515b15717dc40605111ec65237248c5",
+    "reference": "화살꼬빈_light_glossy_promo_f.webp",
+    "provenance": "사용자가 비어 있던 일상컷 3번 자리에 직접 만들어 준 그림. 이 세션에서 생성·수정 없이 WebP 변환만 했다.",
+    "recovery": "원본 PNG 는 규칙(IMAGE_RULES 5절 '원본 PNG 는 세션 안에만')대로 올리지 않고 sha256 만 남긴다."
+  },
+  "plan_match": "plan.json 의 cut 3(traditional · kebaya_daily · determined · bending_over · rear_3q · full_body · telephoto135)와 casual3-prompt.txt 의 장면이 맞는다 — 인도네시아 안뜰 바느질방, 흰 깃털 자수 테두리의 주황빨강 오프숄더 크롭 크바야 블라우스와 숯색 바틱 랩스커트, 낮은 바틱 탁자 위로 살짝 숙여 천 가장자리를 맞춤, 뒤쪽 3/4 각도에서 고개는 어깨 너머 3/4, 머리부터 발까지 전신.",
+  "look_check": "node tools/casual-look.cjs check --card 화살꼬빈 (casual1, casual2, 이 그림) — 통과. 캐스퐁_glossy_promo_f_casual1 과 216점(245 미만 주의, 215 미만 실패 아님) — 둘 다 크롭 오프숄더 상의·트임 랩스커트로 직물 탁자에 손을 짚은 구도라 가깝게 나옴. 각도(뒤쪽 3/4 / 정면)·자세(숙임 / 섬)·색이 달라 같은 컷으로 보이지 않는다고 봄.",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — ok",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손 — 탁자 위 바틱 천을 짚음",
+    "overlay_checked": true,
+    "note": "뒤돌아보는 고개·목 연결 자연스러움. 두 번째 인물 없음"
+  },
+  "user_approval": "화살꼬빈 일상컷 누락된거 채워줘 → 응 올려줘",
+  "at": "2026-10-25",
+  "prompt_provenance": "사용자가 준 최종 그림 — 이 폴더의 casual3-prompt.txt 는 tool-failures.json 의 막힌 자동 생성 시도(moderation_blocked)의 것이다. 그림이 그 프롬프트의 장면과 맞지만, 사용자가 같은 프롬프트로 만들었는지는 확인하지 않았다."
+}
