@@ -1,0 +1,312 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generation_calls": 11,
+  "accepted_count": 9,
+  "face_reason": "둥근 몸을 부드러운 볼·둥근 턱·둥근 코끝·도톰한 입술로 해석하고, 두 더듬이와 둥근 체적을 커튼뱅과 양쪽 번으로 연결한 저장소 설계를 적용했다.",
+  "face_sources": [
+    "data/face-design.json #458",
+    "data/source-appearance.json #458",
+    "docs/CHARACTER_FACE_DESIGNS.md #458"
+  ],
+  "compared_characters": [
+    "만타인",
+    "네오라이트",
+    "브리가론",
+    "푸호꼬"
+  ],
+  "face_comparison": "만타인은 길고 좁은 하관과 긴 검은 머리, 네오라이트는 긴 눈꼬리와 작은 뾰족턱, 브리가론은 긴 얼굴과 각진 턱·얇은 입술, 푸호꼬는 넓게 뜬 눈과 짧은 코끝이 눈에 띈다. 타만타는 가깝게 모인 수평 아몬드 눈·둥근 볼·도톰한 아래입술·은청색 번으로 구분된다. 비교 이미지를 나란히 확인했다.",
+  "diversity_comparison": {
+    "compared": [
+      "네오라이트 casual1-3",
+      "브리가론 casual1-3",
+      "푸호꼬 casual1-3"
+    ],
+    "observed": "타만타 1은 목재 파빌리온의 벤치에서 사리 응용 상하의를 입고 무릎을 모아 앉음, 2는 햇빛 정원에서 짧은 앞치마·데님 쇼츠로 열매를 수확, 3은 행성이 보이는 링 라운지에서 원숄더 롱드레스와 양반다리. 비교 대상의 수영·조리·보석 작업·침실 음료·전통복 축제·냉장고 및 무대 장면과 활동·장소·옷·구도가 다르다.",
+    "look_check": "passed; see look-check.txt"
+  },
+  "cuts": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "22910034ee9b678058b08f15e41f2e4244acb6fd3a108987480be9081e7f0d6c",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "얇은 어깨·전완·골반·정강이 판과 밀착 슈트, 얼굴과 손·부츠가 가려지지 않는다."
+        }
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "9641d18d4f1af7026f4a4b1fed3d2376f64cc23363abefd4d97641ba9b67aecf",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "겹쳐진 넓은 어깨·허리·허벅지·정강이 판, 두꺼운 테두리와 열린 이마 장식으로 경장보다 큰 외곽이다."
+        }
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "ffc83323d65960d7466a33a4c7e58500af4bd1e2840a7bb701fd56cb2ce0154b",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨와 골반·종아리에 뒤로 갈라져 퍼지는 가는 지느러미 판과 노출된 구동부가 보인다."
+        }
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "c737233d866121e3bcd161af5fb5f79abc0aa723be3267168e40169ffb139a9e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "얇은 어깨·전완·골반·정강이 판과 밀착 슈트, 얼굴과 손·부츠가 가려지지 않는다. 같은 판이 이음새에서 열리고 청록색 물빛과 안쪽 프레임이 드러난다. 새 무장·헬멧은 없음."
+        }
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "d9cb436f532b872b6352b56b49acd7ab145036e919f3c41e3bf26660d02c6535",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "겹쳐진 넓은 어깨·허리·허벅지·정강이 판, 두꺼운 테두리와 열린 이마 장식으로 경장보다 큰 외곽이다. 같은 판이 이음새에서 열리고 청록색 물빛과 안쪽 프레임이 드러난다. 새 무장·헬멧은 없음."
+        }
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "4992bfa88b46526cd790d97d0c1906bbe27c4210ad93b200667bd34e070273c4",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 주먹으로 쥐어 엄지가 네 손가락 위로 감기고 손등의 관절이 장갑에 구분된다. 손목에서 전완·팔꿈치·어깨까지 이어지며 떨어진 손은 없다.",
+        "overlay_checked": false,
+        "note": "두 팔은 어깨에서 손목까지, 두 다리는 골반에서 무릎·부츠까지 이어진다. 부츠는 모두 프레임 안. 개방은 일반 폼의 주먹과 카메라·자세를 유지한다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨와 골반·종아리에 뒤로 갈라져 퍼지는 가는 지느러미 판과 노출된 구동부가 보인다. 같은 판이 이음새에서 열리고 청록색 물빛과 안쪽 프레임이 드러난다. 새 무장·헬멧은 없음."
+        }
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "556475545d2593f91dcee121c09d3975d9a2c11b153ffb618120177ac9b4e636",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽의 인물 오른손은 벤치 위에 손바닥을 대고 손가락 네 개가 겹쳐 뻗으며 엄지는 손바닥 가장자리에 일부 가려짐. 턱 밑 왼손은 구부린 네 손가락과 손바닥 뒤의 엄지가 부분적으로 겹친다. 손목·팔꿈치는 각각 두 팔로 이어짐.",
+        "overlay_checked": false,
+        "note": "벤치 끝에 앉아 무릎과 다리를 모으고 한 손을 턱 밑에 댔다. 상체는 골반보다 카메라 쪽으로 조금 돌아온다."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "expression": {
+          "match": false,
+          "evidence": "입을 살짝 벌리고 한쪽을 보는 눈. 선택한 닫힌 입 한쪽 미소보다 부드러운 열린 입으로 나왔다."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "벤치 끝에 앉아 무릎과 다리를 모으고 한 손을 턱 밑에 댔다. 상체는 골반보다 카메라 쪽으로 조금 돌아온다."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "자주색 짧은 사리 블라우스·옆구리 컷아웃·긴 드레이프와 높은 슬릿. 어깨·허리·다리가 드러나고 가슴과 골반은 불투명 원단으로 덮인다."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "등불과 목각 벤치·접힌 실크가 있는 파빌리온에서 쉬는 패션 컷."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "머리부터 금색 샌들 양발까지 담김."
+        }
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "cdf67801fea2cd7dbca8f13470502ac581519a655fc8ab0657c610c12bcfaf2e",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "나뭇가지 쪽 오른손은 엄지·검지가 잎과 열매 사이로 접히고 나머지는 잎 뒤에 가려짐. 바구니 쪽 왼손은 검지와 엄지로 열매를 집고 나머지 세 손가락은 구부러져 연속된 마디가 보인다. 양손이 각각 전완에 이어진다.",
+        "overlay_checked": false,
+        "note": "허리를 앞으로 굽혀 한 손으로 잎을 젖히고 다른 손으로 바구니 속 열매를 집는 동작. 선택한 음식을 내미는 자세보다 수확에 맞게 변함."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "expression": {
+          "match": false,
+          "evidence": "눈을 열매 쪽으로 내리고 입술을 조금 벌린 집중한 생활 표정."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "허리를 앞으로 굽혀 한 손으로 잎을 젖히고 다른 손으로 바구니 속 열매를 집는 동작. 선택한 음식을 내미는 자세보다 수확에 맞게 변함."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "노란 짧은 홀터 앞치마·데님 미니 쇼츠. 양어깨·허리와 배·허벅지가 보이며 작은 파랑 모티프 하나가 앞치마에 있다."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "해안 마을과 테라스 정원·열매 나무·수확 바구니가 있고 실제로 열매를 따고 담는다."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "머리 위부터 허벅지까지. 허리 위 선택보다 넓게 나왔다."
+        }
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "070130b2a41b9c979fb7a35db4938506cb9025a533187d583fcb2efdc0513af8",
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3); visual count on originals and magnified hands/feet",
+        "arms": 2,
+        "legs": 2,
+        "hands": "정강이 위의 오른손은 네 손가락이 아래로 펴지고 엄지는 손의 오른쪽 가장자리에 겹친다. 턱을 받친 왼손은 엄지를 턱 쪽에 숨기고 네 손가락을 아래로 구부려 한 손목에 연결된다.",
+        "overlay_checked": false,
+        "note": "원형 소파에 양반다리로 앉고 왼팔꿈치를 등받이에 지지한다. 골반·무릎·정강이의 교차가 이어지고 두 발은 각각 반대 무릎 밑에 가려져 바깥 가장자리만 보임."
+      },
+      "observations": {
+        "identity": {
+          "match": true,
+          "evidence": "은청색 커튼뱅·양쪽 번, 파란 홍채·가깝게 모인 아몬드 눈·도톰한 입술과 둥근 볼을 경장과 비교."
+        },
+        "text": {
+          "match": true,
+          "evidence": "갑주·의상·창·바구니·테이블·원단 장식을 확대해 읽을 글자나 라벨이 없는 것을 확인."
+        },
+        "expression": {
+          "match": false,
+          "evidence": "가로로 긴 눈과 힘을 뺀 눈썹·살짝 열린 입으로 정면을 본다. 시큰둥함은 약하게 표현됨."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "원형 소파에 양반다리로 앉고 왼팔꿈치를 등받이에 지지한다. 골반·무릎·정강이의 교차가 이어지고 두 발은 각각 반대 무릎 밑에 가려져 바깥 가장자리만 보임."
+        },
+        "wardrobe": {
+          "match": true,
+          "evidence": "은청색 원숄더 롱드레스·깊은 대각 목선·파랑 곡선 무늬와 스커트 갈라짐. 양어깨 비대칭·쇄골·다리가 보이고 골반은 원단으로 덮임."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "행성과 궤도 링이 창 밖에 보이고 원형 관측 라운지에서 쉬고 있다. 시선은 창이 아닌 카메라로 향함."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "인물이 화면을 크게 차지하며 두 발과 머리는 안에 있다. 환경 중심 선택보다 인물 중심으로 나왔다."
+        }
+      }
+    }
+  }
+}
