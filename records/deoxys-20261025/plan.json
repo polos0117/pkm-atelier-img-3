@@ -1,0 +1,602 @@
+{
+  "session": "jirachi-deoxys-20261025-manual",
+  "characters": [
+    {
+      "card": "테오키스",
+      "species": "deoxys-20261025",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "source_editorial",
+          "ex": "cyber_street",
+          "expr": "bored",
+          "pose": "mid_action",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "jumpsuit"
+          ],
+          "expose": [
+            "side cutouts",
+            "strapless top"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "boyshort_swim",
+          "expr": "laughing",
+          "pose": "stretching",
+          "orient": "leaning_forward",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "bare midriff",
+            "plunging neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "everyday_basic",
+          "ex": "commute_train",
+          "garments": [
+            "blouse",
+            "jacket",
+            "skirt"
+          ],
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "pose": "hands_in_hair",
+          "expr": "determined",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "open back",
+            "strapless top"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2,
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "travel_exploration",
+          "food_berries",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "blouse",
+          "jacket"
+        ],
+        "orient": [
+          "reaching_up"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "card": "테오키스",
+      "slot": "casual1",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "테오키스",
+        "cards": {
+          "테오키스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "bored",
+                "pose": "mid_action",
+                "orient": "side",
+                "scene": "A violet translucent umbrella handle is held loosely as rain reflects the orange neon of a futuristic pedestrian street.",
+                "outfit": "A matte charcoal strapless jumpsuit with teal side cutouts exposing the sides of the waist, and an orange geometric seam detail.",
+                "frame": "chest_up",
+                "lens": "natural50",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "source_editorial",
+                "catCustom": "",
+                "ex": "cyber_street",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "strong",
+                  "separates_preference": "balanced"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "cut": 1,
+                "garments": [
+                  "jumpsuit"
+                ],
+                "expose": [
+                  "side cutouts",
+                  "strapless top"
+                ],
+                "lead": "detail"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "cut": 1,
+        "cat": "source_editorial",
+        "ex": "cyber_street",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "side",
+        "frame": "chest_up",
+        "pose": "mid_action",
+        "expr": "bored",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "side cutouts",
+          "strapless top"
+        ],
+        "lead": "detail"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Deoxys (테오키스) personified, psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: lidded half-open eyes looking away, slack mouth, brows flat and unengaged\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: A violet translucent umbrella handle is held loosely as rain reflects the orange neon of a futuristic pedestrian street.\nOutfit and props: A matte charcoal strapless jumpsuit with teal side cutouts exposing the sides of the waist, and an orange geometric seam detail.\nCategory: This scene should reinterpret the source creature as human editorial fashion. Translate source-specific colors, geometry, silhouette logic, crest language, and equipment symbolism into couture or themed fashion. No literal armor, no pilot suit, no mechanical body, no weapons.\nExample scene: futuristic streetwear carrying her Pokémon's motifs as printed patches and reflective trim\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "A violet translucent umbrella handle is held loosely as rain reflects the orange neon of a futuristic pedestrian street.",
+        "outfit": "A matte charcoal strapless jumpsuit with teal side cutouts exposing the sides of the waist, and an orange geometric seam detail.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: A violet translucent umbrella handle is held loosely as rain reflects the orange neon of a futuristic pedestrian street.",
+        "outfit": "Implements planner garments jumpsuit and exposure structures side cutouts, strapless top",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: cyber_street",
+        "source_influence": "Species expressed through the palette and small clothing accents in A matte charcoal strapless jumpsuit with teal side cutouts exposing the sides of the waist, and an orange geometric seam detail.",
+        "separates_preference": "Planner garments: jumpsuit"
+      }
+    },
+    {
+      "card": "테오키스",
+      "slot": "casual2",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "테오키스",
+        "cards": {
+          "테오키스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "laughing",
+                "pose": "stretching",
+                "orient": "leaning_forward",
+                "scene": "Late afternoon sunlight gleams on a seaside exercise deck beside calm water; she stretches after swimming.",
+                "outfit": "A deep-teal boyshort swimsuit set with a plunging fitted top and short square-cut orange-trimmed bottoms, leaving the midriff bare.",
+                "frame": "environmental",
+                "lens": "portrait85",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "swimwear",
+                "catCustom": "",
+                "ex": "boyshort_swim",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "strong",
+                  "separates_preference": "balanced"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "cut": 2,
+                "garments": [
+                  "swimsuit"
+                ],
+                "expose": [
+                  "bare midriff",
+                  "plunging neckline"
+                ],
+                "lead": "light"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "cut": 2,
+        "cat": "swimwear",
+        "ex": "boyshort_swim",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "leaning_forward",
+        "frame": "environmental",
+        "pose": "stretching",
+        "expr": "laughing",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "bare midriff",
+          "plunging neckline"
+        ],
+        "lead": "light"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Deoxys (테오키스) personified, psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: head tipped back slightly, eyes squeezed nearly shut, mouth open wide with teeth showing, cheeks raised high\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: torso leaning forward with supported balance\nScene: Late afternoon sunlight gleams on a seaside exercise deck beside calm water; she stretches after swimming.\nOutfit and props: A deep-teal boyshort swimsuit set with a plunging fitted top and short square-cut orange-trimmed bottoms, leaving the midriff bare.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a boyshort swimsuit set with a fitted top and short square-cut bottoms\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "Late afternoon sunlight gleams on a seaside exercise deck beside calm water; she stretches after swimming.",
+        "outfit": "A deep-teal boyshort swimsuit set with a plunging fitted top and short square-cut orange-trimmed bottoms, leaving the midriff bare.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: Late afternoon sunlight gleams on a seaside exercise deck beside calm water; she stretches after swimming.",
+        "outfit": "Implements planner garments swimsuit and exposure structures bare midriff, plunging neckline",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: boyshort_swim",
+        "source_influence": "Species expressed through the palette and small clothing accents in A deep-teal boyshort swimsuit set with a plunging fitted top and short square-cut orange-trimmed bottoms, leaving the midriff bare.",
+        "separates_preference": "Planner garments: swimsuit"
+      }
+    },
+    {
+      "card": "테오키스",
+      "slot": "casual3",
+      "ui_source": "actual Preact generator DOM",
+      "storage": {
+        "last": "테오키스",
+        "cards": {
+          "테오키스": {
+            "style": "glossy_promo",
+            "identityMode": "reference",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "determined",
+                "pose": "hands_in_hair",
+                "orient": "reaching_up",
+                "scene": "An early commuter carriage has rain-speckled windows and teal seats; a small orange tote rests on the empty seat beside her.",
+                "outfit": "A teal strapless open-back blouse and rust-orange mini skirt, with a cropped charcoal jacket draped loosely at her elbows, leaving shoulders and upper back visible.",
+                "frame": "three_quarter",
+                "lens": "natural50",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "commute_train",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "balanced",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                },
+                "cut": 3,
+                "garments": [
+                  "blouse",
+                  "jacket",
+                  "skirt"
+                ],
+                "expose": [
+                  "open back",
+                  "strapless top"
+                ],
+                "lead": "place"
+              }
+            }
+          }
+        }
+      },
+      "planner_selection": {
+        "cut": 3,
+        "cat": "everyday_basic",
+        "ex": "commute_train",
+        "garments": [
+          "blouse",
+          "jacket",
+          "skirt"
+        ],
+        "orient": "reaching_up",
+        "frame": "three_quarter",
+        "pose": "hands_in_hair",
+        "expr": "determined",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "open back",
+          "strapless top"
+        ],
+        "lead": "place"
+      },
+      "reservation_session": "jirachi-deoxys-20261025-manual",
+      "prompt": "CHARACTER: the same woman as the attached image — Deoxys (테오키스) personified, psychic type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: brows pulled down and in, hard forward gaze, jaw clenched, mouth a tight line\nPose: Use the hands to tidy the established hairstyle without changing its cut or length.\nOrientation: reach upward with natural shoulder articulation\nScene: An early commuter carriage has rain-speckled windows and teal seats; a small orange tote rests on the empty seat beside her.\nOutfit and props: A teal strapless open-back blouse and rust-orange mini skirt, with a cropped charcoal jacket draped loosely at her elbows, leaving shoulders and upper back visible.\nCategory: Create candid ordinary personal-life moments. The scene should feel lived-in, believable, and visually specific rather than staged. Use normal contemporary clothing with clear character personality. Avoid glamour-shoot posing, professional work, and costume styling.\nExample scene: commuting on a train in a blazer, blouse and skirt, holding a strap and her bag\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "direct_inputs": {
+        "scene": "An early commuter carriage has rain-speckled windows and teal seats; a small orange tote rests on the empty seat beside her.",
+        "outfit": "A teal strapless open-back blouse and rust-orange mini skirt, with a cropped charcoal jacket draped loosely at her elbows, leaving shoulders and upper back visible.",
+        "camera": "Vertical 2:3 portrait (1024×1536)."
+      },
+      "direct_input_reasons": {
+        "scene": "Adds specific activity, lighting or props absent from the selected example: An early commuter carriage has rain-speckled windows and teal seats; a small orange tote rests on the empty seat beside her.",
+        "outfit": "Implements planner garments blouse, jacket, skirt and exposure structures open back, strapless top",
+        "camera": "Image tool has no size control; explicit 2:3 canvas instruction."
+      },
+      "axes_reasons": {
+        "action_level": "Selected example and activity: commute_train",
+        "source_influence": "Species expressed through the palette and small clothing accents in A teal strapless open-back blouse and rust-orange mini skirt, with a cropped charcoal jacket draped loosely at her elbows, leaving shoulders and upper back visible.",
+        "separates_preference": "Planner garments: blouse, jacket, skirt"
+      }
+    }
+  ],
+  "check": "planner check passed; reservation stamp verified",
+  "replans": [
+    {
+      "reason": "Bottle pseudo-lettering in original refrigerator scene; label edit output blocked by tool safety filter. Selected a different scene with planner.",
+      "replacement": "commute_train",
+      "original_sha256": "26c49e59628f3f1d6e496e18a42c1983a985cc93ab462f10d8e65ee21addf878",
+      "reservation_commit": "0fb20623cb65da7bf6c983fb82779153c3d9752a"
+    },
+    {
+      "reason": "Sparse checkouts initially lacked existing image filenames. Linked actual existing image files, reran planner and checked successful exit before reserving final scene.",
+      "planner_log": "Final planner exit 0; reservation stamp verified."
+    }
+  ]
+}
