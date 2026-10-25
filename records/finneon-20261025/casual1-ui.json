@@ -1,0 +1,115 @@
+{
+  "card": "형광어",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "형광어",
+    "cards": {
+      "형광어": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "surprised",
+            "pose": "sitting_floor",
+            "orient": "reclining",
+            "scene": "Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light.",
+            "outfit": "Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "cold_chain",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "kept": true,
+            "cut": 1,
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "action"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Finneon (형광어) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised brows, widened eyes with visible upper white, mouth open in a small round shape\nPose: Sit on the floor or a mat with both legs in front of the hips — stretched out or knees loosely raised — two separate legs and both feet in view, heels resting on the floor.\nOrientation: reclined body supported by a surface\nScene: Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light.\nOutfit and props: Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon berry-supply worker sorting colorful berries into padded crates in a cool storeroom.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Repository generator output; live UI confirmation recorded per slot.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 1,
+    "cat": "occupation_basic",
+    "ex": "cold_chain",
+    "expr": "surprised",
+    "pose": "sitting_floor",
+    "orient": "reclining",
+    "frame": "three_quarter",
+    "lens": "telephoto135",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "overalls"
+    ],
+    "expose": [
+      "one-shoulder cut",
+      "bare midriff"
+    ],
+    "lead": "action"
+  },
+  "direct_input_reasons": {
+    "scene": "예시의 열매 분류 작업에 큰 열매를 발견하는 구체 상황과 오후 빛을 보충.",
+    "outfit": "계획기의 overalls와 한쪽 어깨·허리 노출을 실제 작업복 구조로 구현."
+  },
+  "reservation_session": "finneon-lumineon-20261025-50744",
+  "randomization": "casual-plan.cjs only; no manual option changes",
+  "reference_sha256": {
+    "light": "1689212c59e3d1995c2c6600726acd9e6a8d199710c7b0ebe44f7acfca6c45a1"
+  }
+}

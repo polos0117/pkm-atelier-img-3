@@ -1,0 +1,547 @@
+{
+  "card": "형광어",
+  "species": "finneon-20261025",
+  "cuts": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "cold_chain",
+      "expr": "surprised",
+      "pose": "sitting_floor",
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "direct_inputs": {
+        "scene": "Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light.",
+        "outfit": "Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots.",
+        "reasons": {
+          "scene": "예시의 열매 분류 작업에 큰 열매를 발견하는 구체 상황과 오후 빛을 보충.",
+          "outfit": "계획기의 overalls와 한쪽 어깨·허리 노출을 실제 작업복 구조로 구현."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light. This is the planned movement or held moment.",
+        "source_influence": "Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: overalls; implemented by Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots."
+      },
+      "example_text": "Pokémon berry-supply worker sorting colorful berries into padded crates in a cool storeroom."
+    },
+    {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "camisole_wrap",
+      "garments": [
+        "shorts",
+        "skirt",
+        "tank"
+      ],
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "pose": "leaning_wall",
+      "expr": "amused",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "direct_inputs": {
+        "scene": "Late-morning sunlight draws narrow gold stripes across the apartment curtain; she loosens its braided tie to let fresh air into the room.",
+        "outfit": "A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric.",
+        "reasons": {
+          "scene": "집에서 입는 캐미솔·랩 바텀 예시에 커튼 묶음을 푸는 생활 동작과 오전 빛을 보충.",
+          "outfit": "tank+shorts+skirt를 랩 패널 쇼츠와 캐미솔로 구현하고 한쪽 어깨와 허리 노출을 지정."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Late-morning sunlight draws narrow gold stripes across the apartment curtain; she loosens its braided tie to let fresh air into the room. This is the planned movement or held moment.",
+        "source_influence": "A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: shorts, skirt, tank; implemented by A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric."
+      },
+      "example_text": "a thin-strap camisole with a wrap skirt or wrap shorts tied at the hip, at home"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "cabin_crew_retro",
+      "expr": "pensive",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket"
+      ],
+      "expose": [
+        "cropped hem",
+        "halter neck"
+      ],
+      "lead": "place",
+      "direct_inputs": {
+        "scene": "Inside a restored prop aircraft at a retro travel fashion event, warm aisle lamps illuminate oval windows and polished seats as she waits for her entrance cue.",
+        "outfit": "A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps.",
+        "reasons": {
+          "scene": "승무원 예시에 실제 운항 대신 패션 행사 소품 객실과 입장 대기 상황을 지정.",
+          "outfit": "재킷·필박스 모자·스카프를 보존하고 크롭 밑단과 홀터넥·미니 치마로 노출을 구현."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Inside a restored prop aircraft at a retro travel fashion event, warm aisle lamps illuminate oval windows and polished seats as she waits for her entrance cue. This is the planned movement or held moment.",
+        "source_influence": "A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: jacket; implemented by A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps."
+      },
+      "example_text": "a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf"
+    }
+  ],
+  "why": {
+    "required": {
+      "slots": [],
+      "two": false,
+      "prev": [
+        1
+      ]
+    },
+    "low": [
+      "occupation_basic",
+      "occupation_sensual",
+      "travel_exploration",
+      "food_berries",
+      "festivals_contests",
+      "hobbies_leisure",
+      "active",
+      "source_editorial",
+      "homewear",
+      "traditional"
+    ]
+  },
+  "claims": {
+    "garment": [
+      "shorts",
+      "tank"
+    ],
+    "orient": [
+      "low_angle"
+    ],
+    "frame": []
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "cold_chain",
+      "expr": "surprised",
+      "pose": "sitting_floor",
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "direct_inputs": {
+        "scene": "Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light.",
+        "outfit": "Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots.",
+        "reasons": {
+          "scene": "예시의 열매 분류 작업에 큰 열매를 발견하는 구체 상황과 오후 빛을 보충.",
+          "outfit": "계획기의 overalls와 한쪽 어깨·허리 노출을 실제 작업복 구조로 구현."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Sorting the final tray, she discovers one unusually large pink berry among the small blue berries; padded crates and chilled steel shelving catch the afternoon light. This is the planned movement or held moment.",
+        "source_influence": "Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: overalls; implemented by Sage-green cotton work overalls have a single shoulder strap and a fitted waist cutout exposing her midriff; the short legs finish above the knee, with ankle work boots."
+      },
+      "example_text": "Pokémon berry-supply worker sorting colorful berries into padded crates in a cool storeroom."
+    },
+    {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "camisole_wrap",
+      "garments": [
+        "shorts",
+        "skirt",
+        "tank"
+      ],
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "pose": "leaning_wall",
+      "expr": "amused",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "direct_inputs": {
+        "scene": "Late-morning sunlight draws narrow gold stripes across the apartment curtain; she loosens its braided tie to let fresh air into the room.",
+        "outfit": "A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric.",
+        "reasons": {
+          "scene": "집에서 입는 캐미솔·랩 바텀 예시에 커튼 묶음을 푸는 생활 동작과 오전 빛을 보충.",
+          "outfit": "tank+shorts+skirt를 랩 패널 쇼츠와 캐미솔로 구현하고 한쪽 어깨와 허리 노출을 지정."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Late-morning sunlight draws narrow gold stripes across the apartment curtain; she loosens its braided tie to let fresh air into the room. This is the planned movement or held moment.",
+        "source_influence": "A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: shorts, skirt, tank; implemented by A blue one-shoulder cropped camisole tank bares her midriff above pink lounge shorts with an asymmetric wrap-skirt panel; tiny blue dots edge the wrap fabric."
+      },
+      "example_text": "a thin-strap camisole with a wrap skirt or wrap shorts tied at the hip, at home"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "cabin_crew_retro",
+      "expr": "pensive",
+      "pose": "standing_formal",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket"
+      ],
+      "expose": [
+        "cropped hem",
+        "halter neck"
+      ],
+      "lead": "place",
+      "direct_inputs": {
+        "scene": "Inside a restored prop aircraft at a retro travel fashion event, warm aisle lamps illuminate oval windows and polished seats as she waits for her entrance cue.",
+        "outfit": "A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps.",
+        "reasons": {
+          "scene": "승무원 예시에 실제 운항 대신 패션 행사 소품 객실과 입장 대기 상황을 지정.",
+          "outfit": "재킷·필박스 모자·스카프를 보존하고 크롭 밑단과 홀터넥·미니 치마로 노출을 구현."
+        }
+      },
+      "axes_reason": {
+        "action_level": "Inside a restored prop aircraft at a retro travel fashion event, warm aisle lamps illuminate oval windows and polished seats as she waits for her entrance cue. This is the planned movement or held moment.",
+        "source_influence": "A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps. This determines the degree of source color.",
+        "separates_preference": "Selected garment pieces: jacket; implemented by A fitted cropped navy jacket is open over a pink halter top, paired with a high-waisted ivory miniskirt, a pillbox hat, a silk neck scarf and navy pumps."
+      },
+      "example_text": "a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf"
+    }
+  ],
+  "batch_plan": {
+    "session": "finneon-lumineon-20261025-50744",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "형광어",
+        "species": "finneon-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "cold_chain",
+            "expr": "surprised",
+            "pose": "sitting_floor",
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "camisole_wrap",
+            "garments": [
+              "shorts",
+              "skirt",
+              "tank"
+            ],
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "pose": "leaning_wall",
+            "expr": "amused",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "expr": "pensive",
+            "pose": "standing_formal",
+            "orient": "front",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "jacket"
+            ],
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shorts",
+            "tank"
+          ],
+          "orient": [
+            "low_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "네오라이트",
+        "species": "lumineon-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "hanfu_formal",
+            "expr": "nostalgic",
+            "pose": "leaning_wall",
+            "orient": "leaning_back",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "side cutouts",
+              "high thigh slit"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "morning_lingerie",
+            "expr": "flustered",
+            "pose": "holding_cup",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "rashguard_set",
+            "expr": "wistful",
+            "pose": "arms_crossed",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "reservation_session": "finneon-lumineon-20261025-50744",
+  "check": "passed casual-plan.cjs check; stamped reservation verified before calls",
+  "replanning": [
+    {
+      "card": "네오라이트",
+      "cuts": [
+        1,
+        3
+      ],
+      "reason": "Initial ao dai garment lingerie combination and full-cover swimwear exposure conflict. Replanned with official --avoid, kept unaffected cuts."
+    },
+    {
+      "card": "형광어",
+      "cuts": [
+        2
+      ],
+      "reason": "gentle_pat pose explicitly required a Pokémon partner despite non-partner homewear category. Replanned with --avoid pose; official planner selected camisole_wrap."
+    },
+    {
+      "card": "형광어",
+      "cut": 1,
+      "reason": "Tiny crate and boot text marks removed via image 1 canonical + image 2 target partial correction; first attempt SHA recorded separately.",
+      "changed_inputs": "No scene selection changed; precise text-removal edit only."
+    }
+  ],
+  "correction_attempt": {
+    "slot": "casual1",
+    "original_sha256": "b6ed7f7c3e28cfede1948e3820cd30805745f9e6dc91e223f86c75bd3477ee8e",
+    "reason": "Tiny crate and boot labels",
+    "edit_prompt": "casual1-correction-prompt.txt"
+  }
+}
