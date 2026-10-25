@@ -2,38 +2,8 @@
   "card": "푸호꼬",
   "storage": {
     "style": "glossy_promo",
-    "identityMode": "reference",
-    "form": "overdrive",
-    "baseForm": "mobility",
-    "motifs": "",
-    "formOverride": "",
-    "headFeature": "",
-    "faceDesignOn": true,
-    "params": {
-      "apparent age": "20s"
-    },
-    "locks": {},
     "mode": "casual",
     "scenes": {
-      "action": {
-        "expr": "",
-        "pose": "",
-        "orient": "",
-        "scene": "",
-        "outfit": "",
-        "frame": "",
-        "lens": "",
-        "camera": "",
-        "custom": "",
-        "aspect": "2:3",
-        "cat": "everyday_basic",
-        "catCustom": "",
-        "ex": "",
-        "exCustom": "",
-        "axes": {},
-        "action": {},
-        "randomLocks": {}
-      },
       "casual": {
         "expr": "gentle",
         "pose": "walking",
@@ -71,20 +41,11 @@
           "action_level": true,
           "source_influence": true,
           "separates_preference": true
-        },
-        "cut": 1,
-        "garments": [
-          "skirt",
-          "traditional"
-        ],
-        "expose": [
-          "side cutouts",
-          "one-shoulder cut"
-        ],
-        "lead": "action"
+        }
       }
     }
   },
   "prompt": "CHARACTER: the same woman as the attached image — Fennekin (푸호꼬) personified, fire type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: softly lowered brows, warm relaxed eyes, faint closed-lip smile, no tension anywhere\nPose: Walk at a comfortable pace with a natural step and arm swing.\nOrientation: body turned away, head looking back over a shoulder\nScene: Checking the red tassel fastening on her sash beside a lacquered courtyard screen, she lets a folded paper fan rest against her palm as lanterns begin to glow.\nOutfit and props: An ivory cross-collar ruqun with wide flowing sleeves is styled with one shoulder gently slipped free and small side-waist cutouts above a vermilion high-waisted skirt; an amber sash and delicate flame embroidery finish the formal hanfu.\nCategory: This cut is built around the traditional dress named in the example — that tradition wins over her ethnicity setting and the attached image's costume; only Auto follows her ethnicity. Use either authentic formal traditional clothing or a modernised everyday interpretation of it, as specified by the example. Keep the garment structure, layering logic, fastening, and silhouette faithful to that tradition rather than generic orientalism or costume-shop pastiche. Colours may follow the source creature, but the construction must remain true to the tradition. Place the character in a setting where such clothing is plausibly worn.\nExample scene: a formal Chinese hanfu — cross-collar ruqun with wide flowing sleeves, high-waisted skirt and a sash\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
-  "provenance": "Actual generator UI choices; snapshot reconstructed from observed form values. Prompt reproduced by the same repository engine and checked against its UI output."
+  "provenance": "Actual generator UI choices; snapshot reconstructed from observed form values. Prompt reproduced by the same repository engine and checked against its UI output.",
+  "storage_scope": "Submission-time visible UI controls and the active scene, reconstructed from observed selections; inactive or hidden state omitted."
 }

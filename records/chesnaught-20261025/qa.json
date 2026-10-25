@@ -174,6 +174,36 @@
         "hands": "안경을 잡은 손: 엄지와 검지가 집고 나머지 세 손가락이 접힘. 상판의 손: 엄지·검지·중지·약지·새끼손가락 다섯, 손목이 소매와 연결됨.",
         "overlay_checked": true,
         "note": "원본과 뼈대 그림 비교. 검사기가 가슴·골반을 어깨·팔꿈치로 잡은 컷의 loose_hand는 실제 팔 연결을 따라가 확인함. 떨어진 손·셋째 팔 없음."
+      },
+      "components": {
+        "expression": {
+          "match": true,
+          "evidence": "입 한쪽이 올라가며 치아가 조금 보이고 눈썹 한쪽이 높음."
+        },
+        "pose": {
+          "match": true,
+          "evidence": "와인색 의자에 체중이 실리고 한 손은 안경, 다른 손은 옆 상판에 지지."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "카메라가 머리보다 높아 어깨와 상판을 내려다봄."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "허리 위 선택보다 넓게 허벅지까지 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "크롭 재킷·스커트·장식 안경, 드러난 어깨와 복부."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "한 손으로 안경다리를 고쳐 쥠."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "크롭 재킷·스커트·장식 안경, 드러난 어깨와 복부. 실제 어깨·허리 또는 다리의 피부가 보이며 가려야 할 곳은 의상으로 가려짐."
+        }
       }
     },
     {
@@ -199,6 +229,36 @@
         "hands": "위로 뻗은 손: 엄지와 검지가 체리를 집고 나머지 손가락은 손등·그릇에 일부 가려짐. 반대 손은 몸과 옷 뒤에 가려짐.",
         "overlay_checked": true,
         "note": "원본과 오버레이 대조. 모델은 가까운 어깨를 몸 반대쪽으로 뻗은 팔과 연결하고 손목을 실제보다 낮은 아래팔에 찍음. 실제 들린 팔은 먼 어깨의 소매에서 팔꿈치·손목으로 이어지며, 가까운 팔은 옷과 몸 뒤에 가려짐. 세 번째 인물·팔 없음."
+      },
+      "components": {
+        "expression": {
+          "match": true,
+          "evidence": "눈꺼풀이 낮고 입꼬리에 작은 미소."
+        },
+        "pose": {
+          "match": false,
+          "evidence": "발이 프레임 밖이라 발끝을 세웠는지는 확인 불가; 한 팔은 높은 선반으로 뻗음."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "등과 한쪽 옆구리가 보이는 뒤 3/4."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "가슴 위보다 넓게 허벅지까지 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "아이보리 오프숄더 짧은 점프슈트·높은 옆 슬릿으로 어깨와 다리가 드러남."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "열린 냉장고 위쪽 체리 그릇으로 손을 뻗음."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "아이보리 오프숄더 짧은 점프슈트·높은 옆 슬릿으로 어깨와 다리가 드러남. 실제 어깨·허리 또는 다리의 피부가 보이며 가려야 할 곳은 의상으로 가려짐."
+        }
       }
     },
     {
@@ -224,6 +284,36 @@
         "hands": "두 손이 구슬을 잡고 각각 손목과 아래팔에 이어짐. 엄지·검지의 집기, 접힌 중지·약지·새끼손가락이 구슬과 끈에 일부 가려짐. 뒤쪽 두 발은 다리와 연결됨.",
         "overlay_checked": true,
         "note": "원본과 뼈대 그림 비교. 검사기가 가슴·골반을 어깨·팔꿈치로 잡은 컷의 loose_hand는 실제 팔 연결을 따라가 확인함. 떨어진 손·셋째 팔 없음."
+      },
+      "components": {
+        "expression": {
+          "match": true,
+          "evidence": "눈썹이 안정되고 정면을 여유 있게 보며 입은 작게 벌어짐."
+        },
+        "pose": {
+          "match": true,
+          "evidence": "양 무릎이 바닥에 닿고 정강이와 두 발이 엉덩이 뒤로 접힘."
+        },
+        "orientation": {
+          "match": false,
+          "evidence": "낮게 웅크리기보다는 상체를 세운 무릎 자세."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리·양손·무릎·뒤로 접힌 발이 프레임 안."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "테라코타 깊은 V 네크라인과 양다리 쪽으로 갈라진 긴 린넨 자락."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "구슬 하나와 끈을 양손으로 맞추며 완성된 부적이 아래로 늘어짐."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "테라코타 깊은 V 네크라인과 양다리 쪽으로 갈라진 긴 린넨 자락. 실제 어깨·허리 또는 다리의 피부가 보이며 가려야 할 곳은 의상으로 가려짐."
+        }
       }
     }
   ],
