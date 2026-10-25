@@ -1,0 +1,231 @@
+{
+  "card": "기가이어스",
+  "style": "glossy_promo",
+  "checks": {
+    "light": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Slim navy-gray armor, orange crystals on chest and guards; long navy blunt hair and blue-gray eyes; head and both boots inside frame."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Both arms end in full-finger gloves; four fingers plus inner thumb on each, partially overlapping curled fingertips on image-right.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Slim navy-gray armor, orange crystals on chest and guards; long navy blunt hair and blue-gray eyes; head and both boots inside frame."
+    },
+    "heavy": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Broader layered shoulder, hip and shin plates with visible thick rims; crown/temple armor leaves bangs, eyes and jaw clear; stance and identity maintained."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Both gloved hands hang from continuous forearms; inner thumbs distinct, curled fingers overlap on image-right.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Broader layered shoulder, hip and shin plates with visible thick rims; crown/temple armor leaves bangs, eyes and jaw clear; stance and identity maintained."
+    },
+    "mobility": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Split shoulder and hip fins sweep outward/back; small orange thruster ports visible, no giant wings; same face and body."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Two gloved hands below forearm guards, inner thumbs visible; four curled fingers partly occlude each other.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Split shoulder and hip fins sweep outward/back; small orange thruster ports visible, no giant wings; same face and body."
+    },
+    "light_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Light plate edges separate at chest, shoulder, hip and shin, with golden inner seams and floating rock; camera, stance, head size and boots match light."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Glove silhouettes and five-digit construction match closed light; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Light plate edges separate at chest, shoulder, hip and shin, with golden inner seams and floating rock; camera, stance, head size and boots match light."
+    },
+    "heavy_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Layered heavy plates lift on internal hinges, golden mechanism exposed; same head position, framing and gauntlet silhouettes as heavy."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Two gloves stay at original forearm ends; four fingers and thumb each with overlapping curled tips.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Layered heavy plates lift on internal hinges, golden mechanism exposed; same head position, framing and gauntlet silhouettes as heavy."
+    },
+    "mobility_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Swept fins open further, circular thrusters brighten gold, split shin plates expose internal layers; original mobility composition retained."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Two connected arms and gloves unchanged in position; inner thumbs and four fingers read in enlarged crops.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Swept fins open further, circular thrusters brighten gold, split shin plates expose internal layers; original mobility composition retained."
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Seated in blue tournament stands, torso/face toward screen-right, lips closed and brows slightly lowered; bare hands clap above a bag with crystal pennant. Navy one-shoulder jumpsuit exposes shoulder and upper chest."
+      },
+      "text": {
+        "match": true,
+        "observed": "No readable letters, labels or watermark; tournament circular ball/crest graphics are scene decoration."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 inferred continuous; below-frame portions not countable",
+        "hands": "Two palms together, four long fingers and one thumb per hand; the far hand is partially occluded by the nearer clapping palm.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Seated in blue tournament stands, torso/face toward screen-right, lips closed and brows slightly lowered; bare hands clap above a bag with crystal pennant. Navy one-shoulder jumpsuit exposes shoulder and upper chest.",
+      "selection_difference": "Clapping example activity took priority over selected adjusting_bag pose; half-body/upper-thigh view rather than strict waist-up."
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Torso rotated toward screen-right; near arm reaches up to folded cloth, far fingertips brace shelf. Gray strapless tank and navy short shorts expose shoulders, waist and thighs; slight closed smile."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 inferred continuous; below-frame portions not countable",
+        "hands": "Raised hand tips meet cloth at top edge and are partly cropped/occluded; far hand shows side thumb and overlapping fingertips at shelf. Both elbows join their arms.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Torso rotated toward screen-right; near arm reaches up to folded cloth, far fingertips brace shelf. Gray strapless tank and navy short shorts expose shoulders, waist and thighs; slight closed smile.",
+      "selection_difference": "Upper-thigh view rather than chest-up; toes not visible so on_tiptoe cannot be verified."
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Full figure faces front three-quarter at stone pool; one hand rests hip, other hangs at cover-up edge; calm face looks closer toward viewer than planned downwards. Deep V navy swimsuit has side cutouts, gray cover-up open and loosely tied."
+      },
+      "text": {
+        "match": true,
+        "observed": "Inspected background, garments and props: no letters, brand labels or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used.",
+        "arms": 2,
+        "legs": "2 visible",
+        "hands": "Hip hand fingers partly hidden by fabric with visible thumb/index; lowered hand has four bent fingers and inner thumb. Both bare feet each show five toes; crossed legs remain separate.",
+        "overlay_checked": false,
+        "note": "Original and magnified crops checked; no detached, extra or reversed limb."
+      },
+      "observation": "Full figure faces front three-quarter at stone pool; one hand rests hip, other hangs at cover-up edge; calm face looks closer toward viewer than planned downwards. Deep V navy swimsuit has side cutouts, gray cover-up open and loosely tied.",
+      "selection_difference": "Near front three-quarter, face angled toward viewer rather than looking down; body dominates rather than wide environmental framing."
+    }
+  },
+  "comparison": {
+    "recent": [
+      "마그마번",
+      "화살꼬빈",
+      "에레키블"
+    ],
+    "evolution": [
+      "단굴",
+      "암트르"
+    ],
+    "face": "Narrow horizontal eyes, broad angular jaw and restrained thin lips distinguish the long blunt navy-haired anchor from rounded short-haired Roggenrola, shorter chin of Boldore, fuller-mouth Magmortar, softer tilted-eyed Fletchling and wider-eyed Electivire. Compared actual registered anchors.",
+    "casual": "Arena seated clapping in a one-shoulder jumpsuit / upward reach at a kitchen shelf in a strapless tank and shorts / standing at a limestone pool in a cutout swimsuit with gauzy cover-up. All three differ from each other and the actual recent bar, market, DJ, cabaret, laundry, ukulele and night-walk scenes.",
+    "casual_look": "pass; nearest scores casual1=311, casual2=337, casual3=262; no near duplicates"
+  },
+  "anatomy_tool": "unavailable: mediapipe package absent; invoked checker returned exit code 3; direct original and enlarged hand/foot inspection used."
+}

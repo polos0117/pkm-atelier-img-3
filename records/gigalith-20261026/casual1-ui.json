@@ -1,0 +1,146 @@
+{
+  "storage": {
+    "last": "기가이어스",
+    "cards": {
+      "기가이어스": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "serious",
+            "pose": "adjusting_bag",
+            "orient": "profile_close",
+            "scene": "Blue arena seats overlook a brightly lit tournament floor; she claps both hands together while a small pennant rests across her shoulder bag.",
+            "outfit": "A navy one-shoulder jumpsuit with a deep asymmetrical neckline, showing her shoulder and upper chest; a narrow red-orange waist seam echoes the crystal palette.",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "festivals_contests",
+            "catCustom": "",
+            "ex": "fest_cheering",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gigalith (기가이어스) personified, rock type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set\nPose: Adjust a shoulder strap with one hand while supporting the travel bag naturally.\nOrientation: side profile, close only when no explicit framing is selected\nScene: Blue arena seats overlook a brightly lit tournament floor; she claps both hands together while a small pennant rests across her shoulder bag.\nOutfit and props: A navy one-shoulder jumpsuit with a deep asymmetrical neckline, showing her shoulder and upper chest; a narrow red-orange waist seam echoes the crystal palette.\nCategory: Show one moment attending a Pokémon-world festival or contest, with an identifiable activity and event props. Preserve the approved identity and let the selected scene determine clothing and mood.\nExample scene: Clapping from a Pokémon tournament spectator seat, with a small pennant resting on a bag.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "kept": true,
+    "cut": 1,
+    "cat": "festivals_contests",
+    "ex": "fest_cheering",
+    "expr": "serious",
+    "pose": "adjusting_bag",
+    "orient": "profile_close",
+    "frame": "waist_up",
+    "lens": "portrait85",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "jumpsuit"
+    ],
+    "expose": [
+      "plunging neckline",
+      "one-shoulder cut"
+    ],
+    "lead": "place"
+  },
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "Blue arena seats overlook a brightly lit tournament floor; she claps both hands together while a small pennant rests across her shoulder bag.",
+      "reason": "The tournament example lacks the arena seat colors, light and bag placement."
+    },
+    {
+      "field": "outfit",
+      "content": "A navy one-shoulder jumpsuit with a deep asymmetrical neckline, showing her shoulder and upper chest; a narrow red-orange waist seam echoes the crystal palette.",
+      "reason": "Defines jumpsuit in navy, gray and orange using plunging neckline and one-shoulder cut in fest_cheering."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "balanced describes the concrete activity: Blue arena seats overlook a brightly lit tournament floor; she claps both hands together while a small pennant rests across her shoulder bag.",
+    "source": "subtle uses the specific color/embroidery accent in A navy one-shoulder jumpsuit with a deep asymmetrical neckline, showing her shoulder and upper chest; a narrow red-orange waist seam echoes the crystal palette.",
+    "separates": "balanced follows the reserved garment construction jumpsuit for fest_cheering"
+  }
+}
