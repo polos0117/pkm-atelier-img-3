@@ -1,0 +1,219 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generated": 9,
+  "requested": 9,
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "fe5b440ff813bc588293a18caf1995d32be36f2405c49720d252f6215ef21173",
+      "observations": "Two separate armored arms end in black gloves; both boots fit inside the frame. Straight silver bangs, red eyes and a defined angular jaw differ from the softer narrow faces of Magnemite/Magneton and recent Greninja/Bunnelby/Froakie.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "df7fc6ae91ef70f3970c37c22e3fe232ed60297bb5aa4302dc8a5a2cba60e1a2",
+      "observations": "Broad nested shoulder rims, added forearm shells, layered thigh plates and larger boots visibly enlarge the silhouette. Face, red eyes, long silver hair, underlying proportions and two arm chains match light.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "e910894b7f6bae563216fecf65e7d3d41c95c6a993d3ca5d20133a7e092cce2b",
+      "observations": "Shoulder, hip and calf panels sweep outward with open gaps and small gold thruster lights. The same face and relaxed hand positions remain; both feet have clear margins.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "342b2a7d0cc13ac511e2321ad5227cd6516fc873a44f47f748243eb32069f2b1",
+      "observations": "Slim shoulder, forearm, thigh and shin seams lift apart over gold inner structures. Face position, hands, boots and ring-shaped structures in the storm background align with closed light.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "870427fd53f5b01e839f4eed8c69b3d323ac2033a9cb52a44e5ca13357965d96",
+      "observations": "Nested broad shoulder shells and thick limb plates open along their original seams; gold electrical channels appear below. Both hands remain in the same position as heavy; no added weapon.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "7bc971d8bcaefcdf69e39d6e2e250254f56888b3c780cfbc6444c075338e133d",
+      "observations": "Previously split fins open further around gold inner coils at shoulders, hips and calves. Camera, head size, hair, hands and boots match mobility.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full-finger black gloves. Each has an inward thumb and four bent fingers; overlapping finger segments are partly occluded. Enlarged hand crops show continuous wrists and no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "7cdc3474d7636948c1e3d0952a691a1eaca231ff60604fabed0252536cb88b4a",
+      "observations": "Charcoal halter jumpsuit has open back and side waist cutouts. She turns beside a corn stall, one hand beside a tray of grilled corn. Both sandaled feet are present. Torso is closer to rear three-quarter than planned side; face turns over the near shoulder.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand has a separated thumb and four flexed fingers beside corn; far hand is hidden behind the torso/bag. No detached hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "effc4f586db6a0f3249dd9b1e11db2824b47528bd431b614ac49d49b0b3be2f2",
+      "observations": "At a turquoise pool she crouches with both feet planted; one hand touches the water and the other rests by the bent thigh. Opaque asymmetric gray swimsuit exposes shoulders and high-cut hips. Brow is low and lips neutral. Crop includes feet rather than planned above-knee framing.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Water hand: four fingers descend toward the water, thumb partly hidden by hand rotation; thigh hand shows separated fingertips with thumb partly occluded. Both wrists trace continuously to their elbows. Feet show toes rather than extra hands.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "77ab37b15f80007ba25715c8fbce64cf197d7d16b00d981268d9a9a86e7f9452",
+      "observations": "Silver structured satin bustier and matching brief at a bulb-lit dressing mirror with burgundy curtain and stool. Torso is side three-quarter; eyes look toward camera and mouth has a small smile. Frame reaches upper thighs rather than planned chest-up; walking motion and seam smoothing are understated.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward hand is loosely curled with thumb crossing the fingers; rear low hand shows a downturned thumb and four gently curved fingers. Both connect through ordinary wrists; no extra hand.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected; feet and joints also checked. Legs in casual3 continue outside the upper-thigh crop."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No readable lettering or logos; stall curtains have brush-shaped decoration, and mirror lights and glass contain no label."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    }
+  },
+  "face": {
+    "reason": "Steel geometry interpreted as an angular jaw; central red pupil as two large human eyes; straight magnet geometry as blunt-cut hair.",
+    "source": "data/source-appearance.json entries.462 and data/face-design.json faces.462",
+    "compared_characters": [
+      "코일",
+      "레어코일",
+      "개굴닌자",
+      "파르빗",
+      "개구마르"
+    ],
+    "comparison": "Compared actual face crops: the established coil line uses swept-up gray hair and narrower eyes, recent characters have longer/narrower chins or rounded cheek lines; Magnezone has level larger eyes, straight brow line and a broader defined jaw.",
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; open rounded eyes, large size, level outer corners, average spacing; straight medium brows; balanced nose; straight even lips."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "개굴닌자",
+      "파르빗",
+      "개굴반장"
+    ],
+    "result": "Actual three-image rows compared. Festival full-length trouser silhouette and corn stall, low water-touch crouch in a swimsuit, and satin bustier mirror scene are distinct in location, garment silhouette and hand activity. They differ from the recent hair-adjusting mirror, kneeling fountain and balcony tea scenes, rabbit roleplay/towel/picnic scenes, and café/festival lantern/sarong scenes.",
+    "casual_look": "PASS; nearest scores 271, 290, 260; no score below 245."
+  }
+}
