@@ -1,0 +1,33 @@
+{
+  "card": "푸호꼬",
+  "slot": "casual3",
+  "file": "푸호꼬_glossy_promo_f_casual3.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "리본 쥔 손·목 수정 — 앞 그림은 리본 쥔 왼손의 손가락이 뭉치고 엄지가 불분명했으며, 등과 날개뼈가 카메라를 보는데 얼굴이 거의 정면이라 머리가 너무 돌아가 보였다. 새 그림은 손가락이 리본을 감싸 쥐고, 고개가 왼쪽 어깨 너머로 덜 돌아 3/4 얼굴·턱이 어깨 위·목 옆선이 보인다. 옷·허리에 얹은 손·배경은 그대로. ①과 앞 그림을 함께 첨부한 부분 고치기(fix-prompt.txt).",
+  "previous_webp_sha256": "7b4b85495c23b3666da2604730852e2e30ea6acd34e9fb48eccbc2bc672ba1ed",
+  "source_sha256": "dcd65dc6937a2c83809c7332d56d71042a0c9c8a94a471a868cebbc80a907053",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "c9f3b3c8676c8cda2dd51dbb9d3f57d07264927b2b694d2e89a3b42c551dc0f1"
+  },
+  "provenance": "사용자가 fix-prompt.txt 로 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/fennekin-20261025/plan.json 의 cut 3(festivals_contests · fest_ribbon · hand_on_hip · three_quarter_back · chest_up) 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 푸호꼬 (고친 casual1, casual2, 고친 casual3) — 통과",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — note · 문턱을 낮춰 몸을 찾음(뼈대가 흐려 길이·각도는 안 봄)",
+    "arms": 2,
+    "hands": "왼손 — 리본을 감싸 쥠 · 오른손 — 허리",
+    "overlay_checked": false,
+    "note": "두 번째 인물 없음"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-25"
+}

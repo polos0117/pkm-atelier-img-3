@@ -1,0 +1,33 @@
+{
+  "card": "푸호꼬",
+  "slot": "casual1",
+  "file": "푸호꼬_glossy_promo_f_casual1.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "등 뒤 손 수정 — 앞 그림은 허리 뒤 매듭을 쥔 오른손이 손목에서 비틀려 앞을 보는 손을 등에 붙인 듯했다. 새 그림은 손목이 곧고 손등이 카메라를 보며 검지·중지로 빨간 매듭을 집는다. 얼굴·머리·옷·부채·배경은 그대로. ①과 앞 그림을 함께 첨부한 부분 고치기(fix-prompt.txt).",
+  "previous_webp_sha256": "a3f677f2d64a64ef932164ef269777ba93c8015341b9420560f3e8ada92b3384",
+  "source_sha256": "afd3429aa791a203d4fa3b1855b121ffe4ff5242f9b2be399a1ee6d62dc32040",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "2042eb217a905061b01758b44ddd9bf1e66f8f7fcba0722b4496e3fcedb8e031"
+  },
+  "provenance": "사용자가 fix-prompt.txt 로 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/fennekin-20261025/plan.json 의 cut 1(traditional · hanfu_formal · walking · over_shoulder · three_quarter) 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 푸호꼬 (고친 casual1, casual2, 고친 casual3) — 통과",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — note · 몸 2 개로 잡힘(소매·옷자락을 따로 잡음)",
+    "arms": 2,
+    "hands": "등 뒤 오른손 — 손등, 검지·중지로 매듭 · 왼손 — 부채",
+    "overlay_checked": false,
+    "note": "두 번째 인물 없음"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-25"
+}
