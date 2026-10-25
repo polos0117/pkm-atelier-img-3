@@ -1,0 +1,129 @@
+{
+ "session": "image-runner-2026-10-24-15-383",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "그란돈",
+   "species": "groudon-20261025",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "occupation_basic",
+     "ex": "orbital_logistics",
+     "garments": [
+      "trousers",
+      "vest"
+     ],
+     "orient": "high_angle",
+     "frame": "chest_up",
+     "pose": "small_jog",
+     "expr": "playful",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "cropped hem"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "source_editorial",
+     "ex": "cockpit_harness",
+     "garments": [
+      "crop_top",
+      "trousers"
+     ],
+     "orient": "reaching_up",
+     "frame": "waist_up",
+     "pose": "standing_relaxed",
+     "expr": "bored",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "bare midriff"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "burkini_modest",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "front_3q",
+     "frame": "environmental",
+     "pose": "perched_seat",
+     "expr": "laughing",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "side cutouts"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "partner_care",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "trousers",
+     "vest",
+     "swimsuit"
+    ],
+    "orient": [
+     "high_angle",
+     "reaching_up",
+     "front_3q"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

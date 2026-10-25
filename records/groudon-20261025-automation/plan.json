@@ -1,0 +1,784 @@
+{
+  "card": "그란돈",
+  "batch_plan": {
+    "session": "image-runner-2026-10-24-15-383",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "그란돈",
+        "species": "groudon-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "orbital_logistics",
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "pose": "sitting_floor",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "cropped hem"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "cockpit_harness",
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "standing_relaxed",
+            "expr": "bored",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "highleg_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "small_jog",
+            "expr": "amused",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "trousers",
+            "vest",
+            "swimsuit"
+          ],
+          "orient": [
+            "high_angle",
+            "reaching_up",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "casual1": {
+      "storage": {
+        "last": "그란돈",
+        "cards": {
+          "그란돈": {
+            "style": "glossy_promo",
+            "identityMode": "create",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "surprised",
+                "pose": "sitting_floor",
+                "orient": "high_angle",
+                "scene": "Detail: a rolled route map and feed pouch beside a Poké Ball case on a wooden shop counter. The adult travel-supply shopkeeper sits on the floor beside the counter packing a low parcel tray, surprised by a tiny spilled pile of travel tags; hands naturally sort one map, no other figure. Warm morning shop light and wooden supply shelves.",
+                "outfit": "A cropped utility vest with an open back over an opaque supportive front, separate relaxed full-length work trousers and flat work shoes. White and charcoal fabrics, small red seam tabs recalling Groudon subtly; practical travel-supply shop clothing, no armor. Natural working gesture, no sexual pose.",
+                "frame": "chest_up",
+                "lens": "wide24",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "occupation_basic",
+                "catCustom": "",
+                "ex": "orbital_logistics",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "subtle",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "prompt": "CHARACTER: the same woman as the attached image — Groudon (그란돈) personified, ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised brows, widened eyes with visible upper white, mouth open in a small round shape\nPose: Sit comfortably on the floor or a mat with clearly separated legs and hands.\nOrientation: camera above subject looking downward; obey selected framing\nScene: Detail: a rolled route map and feed pouch beside a Poké Ball case on a wooden shop counter. The adult travel-supply shopkeeper sits on the floor beside the counter packing a low parcel tray, surprised by a tiny spilled pile of travel tags; hands naturally sort one map, no other figure. Warm morning shop light and wooden supply shelves.\nOutfit and props: A cropped utility vest with an open back over an opaque supportive front, separate relaxed full-length work trousers and flat work shoes. White and charcoal fabrics, small red seam tabs recalling Groudon subtly; practical travel-supply shop clothing, no armor. Natural working gesture, no sexual pose.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon travel-supply shopkeeper packing a route map, feed pouch and Poké Ball case at a wooden shop counter.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "plan": {
+        "cut": 1,
+        "cat": "occupation_basic",
+        "ex": "orbital_logistics",
+        "garments": [
+          "trousers",
+          "vest"
+        ],
+        "orient": "high_angle",
+        "frame": "chest_up",
+        "pose": "sitting_floor",
+        "expr": "surprised",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "open back",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      },
+      "custom_inputs": {
+        "scene": "Detail: a rolled route map and feed pouch beside a Poké Ball case on a wooden shop counter. The adult travel-supply shopkeeper sits on the floor beside the counter packing a low parcel tray, surprised by a tiny spilled pile of travel tags; hands naturally sort one map, no other figure. Warm morning shop light and wooden supply shelves.",
+        "outfit": "A cropped utility vest with an open back over an opaque supportive front, separate relaxed full-length work trousers and flat work shoes. White and charcoal fabrics, small red seam tabs recalling Groudon subtly; practical travel-supply shop clothing, no armor. Natural working gesture, no sexual pose."
+      },
+      "camera_reason": "Tool has no size argument.",
+      "captured_at": "2026-10-25T00:04:54.822Z"
+    },
+    "casual2": {
+      "storage": {
+        "last": "그란돈",
+        "cards": {
+          "그란돈": {
+            "style": "glossy_promo",
+            "identityMode": "create",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "bored",
+                "pose": "standing_relaxed",
+                "orient": "reaching_up",
+                "scene": "Place: an empty cockpit-inspired fashion exhibition fitting alcove with charcoal wall panels and red seam lights. An adult woman stands relaxed, bored while reaching one hand upward to adjust a suspended display strap; other hand rests naturally at her side. Decorative tailoring exhibition, no combat and no restraints.",
+                "outfit": "Opaque one-shoulder cropped structured top and separate charcoal wide-leg trousers; bare midriff. Broad red and white geometric layered textile trim interprets Groudon shell plates strongly. Harness-like belts and buckles are decorative tailoring, loose and non-restraining. Plain ankle shoes, no armor, no lingerie.",
+                "frame": "waist_up",
+                "lens": "telephoto135",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "source_editorial",
+                "catCustom": "",
+                "ex": "cockpit_harness",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly posed",
+                  "source_influence": "strong",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "prompt": "CHARACTER: the same woman as the attached image — Groudon (그란돈) personified, ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: lidded half-open eyes looking away, slack mouth, brows flat and unengaged\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: reach upward with natural shoulder articulation\nScene: Place: an empty cockpit-inspired fashion exhibition fitting alcove with charcoal wall panels and red seam lights. An adult woman stands relaxed, bored while reaching one hand upward to adjust a suspended display strap; other hand rests naturally at her side. Decorative tailoring exhibition, no combat and no restraints.\nOutfit and props: Opaque one-shoulder cropped structured top and separate charcoal wide-leg trousers; bare midriff. Broad red and white geometric layered textile trim interprets Groudon shell plates strongly. Harness-like belts and buckles are decorative tailoring, loose and non-restraining. Plain ankle shoes, no armor, no lingerie.\nCategory: This scene should reinterpret the source creature as human editorial fashion. Translate source-specific colors, geometry, silhouette logic, crest language, and equipment symbolism into couture or themed fashion. No literal armor, no pilot suit, no mechanical body, no weapons.\nExample scene: tailoring with harness-like belts and buckles crossing the torso as decoration\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "plan": {
+        "cut": 2,
+        "cat": "source_editorial",
+        "ex": "cockpit_harness",
+        "garments": [
+          "crop_top",
+          "trousers"
+        ],
+        "orient": "reaching_up",
+        "frame": "waist_up",
+        "pose": "standing_relaxed",
+        "expr": "bored",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "bare midriff"
+        ],
+        "lead": "place"
+      },
+      "custom_inputs": {
+        "scene": "Place: an empty cockpit-inspired fashion exhibition fitting alcove with charcoal wall panels and red seam lights. An adult woman stands relaxed, bored while reaching one hand upward to adjust a suspended display strap; other hand rests naturally at her side. Decorative tailoring exhibition, no combat and no restraints.",
+        "outfit": "Opaque one-shoulder cropped structured top and separate charcoal wide-leg trousers; bare midriff. Broad red and white geometric layered textile trim interprets Groudon shell plates strongly. Harness-like belts and buckles are decorative tailoring, loose and non-restraining. Plain ankle shoes, no armor, no lingerie."
+      },
+      "camera_reason": "Tool has no size argument.",
+      "captured_at": "2026-10-25T00:05:47.244Z"
+    },
+    "casual3": {
+      "storage": {
+        "last": "그란돈",
+        "cards": {
+          "그란돈": {
+            "style": "glossy_promo",
+            "identityMode": "create",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "amused",
+                "pose": "small_jog",
+                "orient": "front_3q",
+                "scene": "Light: clear afternoon sun glints on shallow coastal water beside dark basalt boulders. The adult woman makes a small relaxed jog along the sand, amused by the foam reaching her feet; natural athletic arm motion and visible hands, broad coastline environmental view. No other figure.",
+                "outfit": "Opaque high-leg one-piece athletic swimsuit with high neckline, supportive racerback, open side cutouts and secure full chest and seat coverage. Red and white angular panels with charcoal seams clearly echo Groudon plates as textile design. Normal swimming attire and natural exercise, no seductive pose or intimate camera emphasis.",
+                "frame": "environmental",
+                "lens": "natural50",
+                "camera": "Vertical 2:3 portrait (1024×1536).",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "swimwear",
+                "catCustom": "",
+                "ex": "highleg_onepiece",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "strong",
+                  "separates_preference": "balanced"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "prompt": "CHARACTER: the same woman as the attached image — Groudon (그란돈) personified, ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nPose: Jog lightly with compact arm movement and a believable running step.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nScene: Light: clear afternoon sun glints on shallow coastal water beside dark basalt boulders. The adult woman makes a small relaxed jog along the sand, amused by the foam reaching her feet; natural athletic arm motion and visible hands, broad coastline environmental view. No other figure.\nOutfit and props: Opaque high-leg one-piece athletic swimsuit with high neckline, supportive racerback, open side cutouts and secure full chest and seat coverage. Red and white angular panels with charcoal seams clearly echo Groudon plates as textile design. Normal swimming attire and natural exercise, no seductive pose or intimate camera emphasis.\nCategory: This single scene is swimwear-focused. Use modern swimwear that is fully lined and stays secure during movement, described by its construction — neckline, straps, panels, leg line, fabric. Prioritize a memorable swimwear scene with real action and water context over static posing. Keep the setting a public or resort one: poolside, shoreline, deck, or open water.\nExample scene: a high-leg one-piece swimsuit with a high neckline and supportive racerback\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+      "locks": [
+        {
+          "id": "lock-expression",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-category",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-example",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-pose",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-orientation",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-frame",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-lens",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-aspect",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-overall_intensity",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-skin_exposure",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-action_level",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-source_influence",
+          "pressed": "true"
+        },
+        {
+          "id": "lock-axis-separates_preference",
+          "pressed": "true"
+        }
+      ],
+      "plan": {
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "highleg_onepiece",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "front_3q",
+        "frame": "environmental",
+        "pose": "small_jog",
+        "expr": "amused",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "light"
+      },
+      "custom_inputs": {
+        "scene": "Light: clear afternoon sun glints on shallow coastal water beside dark basalt boulders. The adult woman makes a small relaxed jog along the sand, amused by the foam reaching her feet; natural athletic arm motion and visible hands, broad coastline environmental view. No other figure.",
+        "outfit": "Opaque high-leg one-piece athletic swimsuit with high neckline, supportive racerback, open side cutouts and secure full chest and seat coverage. Red and white angular panels with charcoal seams clearly echo Groudon plates as textile design. Normal swimming attire and natural exercise, no seductive pose or intimate camera emphasis."
+      },
+      "camera_reason": "Tool has no size argument.",
+      "captured_at": "2026-10-25T00:06:27.409Z"
+    }
+  },
+  "reservation": {
+    "note": "일상컷 예약 — tools/casual-ledger.py reserve 가 쓴다. 세션 하나 = 파일 하나라 push 가 엇갈려도 남의 예약을 지우지 않는다. 24시간 지나면 읽지 않는다.",
+    "session": "image-runner-2026-10-24-15-383",
+    "at": "2026-10-25T00:01:35+00:00",
+    "characters": [
+      {
+        "species": "groudon-20261025",
+        "card": "그란돈",
+        "at": "2026-10-25T00:01:35+00:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "orbital_logistics",
+            "expr": "surprised",
+            "pose": "sitting_floor",
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "expose": [
+              "open back",
+              "cropped hem"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "cockpit_harness",
+            "expr": "bored",
+            "pose": "standing_relaxed",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "highleg_onepiece",
+            "expr": "amused",
+            "pose": "small_jog",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        ]
+      }
+    ]
+  },
+  "check": "Planner check passed before reservation/generation; actual look comparison passed all three (see look-check.txt).",
+  "regeneration": false
+}
