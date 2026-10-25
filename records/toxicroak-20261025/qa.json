@@ -1,0 +1,178 @@
+{
+  "light": {
+    "identity": "Black hair with red streaks tied high, narrow brown-red eyes, full lips and defined jaw; distinct from Drapion's purple swept hair, Croagunk's compact face and Zebstrika's silver-black hair. Long ponytail is observed instead of a strict top-knot bun; preserve this first image as canonical.",
+    "form": "Slim shoulder, forearm, hip and shin plates in red/black/white; human skin; no held weapon.",
+    "framing": "Full head and armored feet visible with ground margin.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands attached to wrists, inner thumbs visible; four curled fingers on each, some overlap at tips.",
+      "overlay_checked": true,
+      "note": "Separate elbow and wrist paths; shin lengths visually coherent.",
+      "tool": "ok · "
+    },
+    "image_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "heavy": {
+    "identity": "Same high black-red ponytail, bangs, narrow eyes and lip shape.",
+    "form": "Broader layered shoulder, thigh, shin and pelvic plates plus open-face temple guards.",
+    "framing": "Both boots and hair inside frame.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five-digit gloved hands with curled fingers; thumb inside each hand.",
+      "overlay_checked": true,
+      "note": "Tool found weak skeleton; inspect manually. No detached hand or extra arm visible.",
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+    },
+    "image_sha256": "d4b74fbbae49811a45330faebb8e7162f82830a96d8c24fe3a25eb8bc2113811",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "mobility": {
+    "identity": "Same face and hair as light.",
+    "form": "Swept fins and separated hip/calf plates, compact red thrusters; no giant wings.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands retain light-form curled five-digit construction.",
+      "overlay_checked": true,
+      "note": "Tool flipped-hand warning inspected against original and crop: screen-left hand's thumb curves inward; hand back and glove seams likely confuse classifier.",
+      "tool": "check · 오른팔 끝의 손이 왼손으로 보인다 — 엄지가 반대쪽인 뒤집힌 손(손등이 보이면 모델이 헷갈리기도 한다)"
+    },
+    "image_sha256": "5e624dc0e8fac0a4d265832ddbd4e51ef1ed6751fc3a0fab0c444e7be5c519c3",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "light_overdrive": {
+    "identity": "Face and high ponytail preserved.",
+    "form": "Light armor seams lift with violet inner-frame glow; standing composition and moon remain aligned.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloved hands correspond to closed-form hands; curled fingers partially overlap.",
+      "overlay_checked": true,
+      "note": "Tool flipped-hand warning inspected; thumb remains inside and same as closed image.",
+      "tool": "check · 오른팔 끝의 손이 왼손으로 보인다 — 엄지가 반대쪽인 뒤집힌 손(손등이 보이면 모델이 헷갈리기도 한다)"
+    },
+    "image_sha256": "e4560367652e049b0636677fadcf14434e84fb8c65c806bbd1d4107558228680",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "heavy_overdrive": {
+    "identity": "Same face, bangs, crown guards and body size.",
+    "form": "Stacked shoulder and leg plates hinge open with violet vapor; same camera and pose.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands at forearm ends, each thumb and four curled fingers; tips overlap.",
+      "overlay_checked": true,
+      "note": "Low-confidence skeleton; manual limb paths remain continuous.",
+      "tool": "note · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+    },
+    "image_sha256": "28754e477bb695957d5293b993be9448ebbfe45dd8115f556bf4700c4203d16d",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "mobility_overdrive": {
+    "identity": "Same face and hair, gaze remains toward camera.",
+    "form": "Fanned shoulder, hip and calf panels spread; purple thruster cores open, maintaining camera and standing pose.",
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Five digits per gloved hand with inner thumbs; fingers clear of glow.",
+      "overlay_checked": true,
+      "note": "Two arms and legs, no detached parts.",
+      "tool": "ok · "
+    },
+    "image_sha256": "a91156e79ec395cb901f0fe8799bd96175e751b22d939c8e6c5e66f4e86cb12b",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual1": {
+    "identity": "Same black-red high ponytail, narrow eyes and full lips.",
+    "scene": "Courtyard dressing alcove; both hands fold red patterned fabric on her lap.",
+    "outfit": "Charcoal halter bralette and high-waist bottoms, bare back and legs. Added choker observed.",
+    "direction": {
+      "match": true,
+      "evidence": "Back and one flank toward camera, head turns over shoulder."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Tighter seated framing than environmental long shot; figure dominates room."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "One mouth corner lifted with closed relaxed lips."
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand shows thumb and four curled fingers; far hand's fingers partly hidden by cloth and near hand.",
+      "overlay_checked": true,
+      "note": "Tool assigned both close hands to same arm; image shows separate near forearm and far forearm coming around torso. No third hand. Far fingers occluded rather than claimed fully countable.",
+      "tool": "check · 오른팔 끝의 손이 왼손으로 보인다 — 엄지가 반대쪽인 뒤집힌 손(손등이 보이면 모델이 헷갈리기도 한다); 오른팔 끝에 손이 둘 — 한쪽 팔에 손이 겹쳐 났다"
+    },
+    "image_sha256": "0524cc368186f85ffeaca98c06272806492a69e88f4b1632ebcd24c4109e7c73",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual2": {
+    "identity": "Same facial proportions, bangs and black-red hair.",
+    "scene": "Riverbank bench, lemonade bottle and bag; fireworks already visible instead of only waiting.",
+    "outfit": "Ivory short denim overalls, side openings and red top. Bag includes a Poké Ball motif; record visible mark rather than claiming no mark.",
+    "direction": {
+      "match": false,
+      "evidence": "Rear three-quarter with head turned back, rather than only forward lean."
+    },
+    "pose": {
+      "match": true,
+      "evidence": "Pause and turn, one foot lifted behind, one hand holding bottle."
+    },
+    "expression": {
+      "match": false,
+      "evidence": "Attentive sidelong gaze with parted mouth; raised brow is subtle."
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": 2,
+      "hands": "Bottle hand fingers wrap around cylinder, partly occluded; lowered hand thumb and four fingers separated.",
+      "overlay_checked": true,
+      "note": "Both legs trace to hips; lifted boot remains connected, lowered fingers attached to wrist.",
+      "tool": "ok · "
+    },
+    "image_sha256": "61fc69a3bc762c08616fb2c57ce523e6bddb71a98425eaadec8dd9ad0f3cbe45",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  },
+  "casual3": {
+    "identity": "Same ponytail, red strands, narrow eyes and face proportions.",
+    "scene": "Textile display, hand touches hanging woven sample.",
+    "outfit": "Kente geometric burgundy/gold dress with strapless bodice and one-shoulder drape.",
+    "direction": {
+      "match": true,
+      "evidence": "Eyes look down and sideways toward fabric."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Head to thighs, wider than selected chest-up."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Unposed slightly parted lips and gaze away."
+    },
+    "anatomy": {
+      "arms": 2,
+      "legs": "cropped below thighs",
+      "hands": "Hip hand has thumb plus four fingers; fabric hand's fingertips partially hidden around cloth edge.",
+      "overlay_checked": true,
+      "note": "Two continuous arms; no floating hand.",
+      "tool": "ok · "
+    },
+    "image_sha256": "740daaf6789e2f865310463dd2a9458932e49ef96a9eebb414d88f2888993297",
+    "reviewer": "gpt",
+    "decision": "preserve generated result for user review; no automatic replacement"
+  }
+}

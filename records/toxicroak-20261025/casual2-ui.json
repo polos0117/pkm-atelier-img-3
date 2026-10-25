@@ -1,0 +1,114 @@
+{
+  "card": "독개굴",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "독개굴",
+    "cards": {
+      "독개굴": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "curious",
+            "pose": "turning_back",
+            "orient": "leaning_forward",
+            "scene": "A chilled lemonade bottle catches the first evening reflections; paper lanterns extend along the river and a small canvas bag sits beside the bench.",
+            "outfit": "Short ivory denim overalls have a mini shorts hem and deep side cutouts exposing her waist, with a red sleeveless inner top.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "festivals_contests",
+            "catCustom": "",
+            "ex": "fest_fireworks",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 2,
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "mini length",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Toxicroak (독개굴) personified, poison / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Pause mid-step and turn the head and shoulders gently back, without twisting the torso unnaturally.\nOrientation: torso leaning forward with supported balance\nScene: A chilled lemonade bottle catches the first evening reflections; paper lanterns extend along the river and a small canvas bag sits beside the bench.\nOutfit and props: Short ivory denim overalls have a mini shorts hem and deep side cutouts exposing her waist, with a red sleeveless inner top.\nCategory: Show one moment attending a Pokémon-world festival or contest, with an identifiable activity and event props. Preserve the approved identity and let the selected scene determine clothing and mood.\nExample scene: Waiting for festival fireworks at a riverside seating area, holding a drink with a small bag beside her.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "planner_selection": {
+    "cut": 2,
+    "cat": "festivals_contests",
+    "ex": "fest_fireworks",
+    "garments": [
+      "overalls"
+    ],
+    "orient": "leaning_forward",
+    "frame": "full_body",
+    "pose": "turning_back",
+    "expr": "curious",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "mini length",
+      "side cutouts"
+    ],
+    "lead": "detail"
+  },
+  "direct_input_reasons": {
+    "scene": "Add drink material, dusk lighting and seating detail missing from the riverside fireworks example.",
+    "outfit": "The planner's overalls need a practical festival material and short cutout construction.",
+    "axes": "The selected turning movement is mostly active; color echoes are subtle; short overalls form one connected garment."
+  },
+  "axes_reasons": "The selected turning movement is mostly active; color echoes are subtle; short overalls form one connected garment.",
+  "reservation_session": "toxicroak-carnivine-20261025-5a3f",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}

@@ -1,0 +1,240 @@
+{
+  "session": "toxicroak-carnivine-20261025-5a3f",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "bralette_highwaist",
+      "garments": [
+        "crop_top",
+        "lingerie_set"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "cross_legged",
+      "expr": "half_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "halter neck"
+      ],
+      "lead": "place"
+    },
+    {
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_fireworks",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "pose": "turning_back",
+      "expr": "curious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "detail"
+    },
+    {
+      "cut": 3,
+      "cat": "traditional",
+      "ex": "kente_modern",
+      "garments": [
+        "dress"
+      ],
+      "orient": "looking_away",
+      "frame": "chest_up",
+      "pose": "hand_on_hip",
+      "expr": "candid",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "action"
+    }
+  ],
+  "character": {
+    "card": "독개굴",
+    "species": "toxicroak-20261025",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "lingerie",
+        "ex": "bralette_highwaist",
+        "garments": [
+          "crop_top",
+          "lingerie_set"
+        ],
+        "orient": "rear_3q",
+        "frame": "environmental",
+        "pose": "cross_legged",
+        "expr": "half_smile",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "halter neck"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 2,
+        "cat": "festivals_contests",
+        "ex": "fest_fireworks",
+        "garments": [
+          "overalls"
+        ],
+        "orient": "leaning_forward",
+        "frame": "full_body",
+        "pose": "turning_back",
+        "expr": "curious",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "mini length",
+          "side cutouts"
+        ],
+        "lead": "detail"
+      },
+      {
+        "cut": 3,
+        "cat": "traditional",
+        "ex": "kente_modern",
+        "garments": [
+          "dress"
+        ],
+        "orient": "looking_away",
+        "frame": "chest_up",
+        "pose": "hand_on_hip",
+        "expr": "candid",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "strapless top"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1
+        ],
+        "two": false,
+        "prev": [
+          2,
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "lingerie_set",
+        "overalls"
+      ],
+      "orient": [
+        "rear_3q",
+        "leaning_forward",
+        "looking_away"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed before generation",
+  "reservation_commit": "771386faac9ca9eca3c6155d128aaa586c3134bb",
+  "direct_input_details": {
+    "1": {
+      "scene": "A terracotta dressing alcove opens onto leafy courtyard tiles in late morning; she folds a silk scarf across her lap.",
+      "outfit": "The opaque charcoal bralette has wide supportive straps converging into a halter collar, a plunging neckline and a cropped top silhouette; matching high-waisted bottoms have muted red piping.",
+      "reasons": {
+        "scene": "Title-only lingerie example needs a concrete room and quiet hand activity.",
+        "outfit": "Specify the selected halter and neckline structure while retaining the soft-cup bralette and high-waisted bottoms.",
+        "axes": "Scarf-folding is mostly posed; restrained red piping supplies balanced source color without costume armor; lingerie reads as one coordinated set."
+      }
+    },
+    "2": {
+      "scene": "A chilled lemonade bottle catches the first evening reflections; paper lanterns extend along the river and a small canvas bag sits beside the bench.",
+      "outfit": "Short ivory denim overalls have a mini shorts hem and deep side cutouts exposing her waist, with a red sleeveless inner top.",
+      "reasons": {
+        "scene": "Add drink material, dusk lighting and seating detail missing from the riverside fireworks example.",
+        "outfit": "The planner's overalls need a practical festival material and short cutout construction.",
+        "axes": "The selected turning movement is mostly active; color echoes are subtle; short overalls form one connected garment."
+      }
+    },
+    "3": {
+      "scene": "She checks the drape of a fabric swatch at a textile exhibition doorway, with woven samples behind her in afternoon light.",
+      "outfit": "A modern dress in kente-patterned burgundy, black and gold has a strapless fitted bodice with a diagonal one-shoulder draped sash, leaving her opposite shoulder and collarbones bare.",
+      "reasons": {
+        "scene": "Kente dress example names clothing only, so supply a textile exhibition and checking fabric activity.",
+        "outfit": "Translate both selected exposure methods as strapless bodice plus a single draped shoulder sash.",
+        "axes": "Fabric inspection is mostly posed; palette and angular fabric pattern provide balanced source influence; the dress is one piece."
+      }
+    }
+  },
+  "replanning": "Ungenerated plans only: exclude scene/pose conflicts and repeated silhouettes via planner; no existing images replaced."
+}

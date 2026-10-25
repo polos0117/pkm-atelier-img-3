@@ -1,0 +1,225 @@
+{
+  "card": "독개굴",
+  "stage": "9 images generated and reviewed; ready for main publication",
+  "canonical": {
+    "card": "독개굴",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "live generator UI choices and prompt comparison",
+    "original_sha256": "cd97b4e05c7b4aa5cf1ea01c3a11cc1cef97cc4d110d4d5bb901df39ff71fd89",
+    "original_session_only": true,
+    "filename": "독개굴_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0",
+    "reference_slot": null
+  },
+  "face_design": {
+    "name": "독개굴",
+    "en": "Toxicroak",
+    "line": "삐딱구리",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "thick low brows",
+      "nose character": "prominent defined nose",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "‘gently-upward curling spike’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘gently-upward curling spike’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘gently-upward curling spike’ → 눈매 가늘고 날카로운 눈",
+      "‘gently-upward curling spike’ → 눈썹 굵고 눈 가까이 낮은",
+      "‘gently-upward curling spike’ → 코 크고 또렷한 코"
+    ],
+    "adjusted": "같은 계열 삐딱구리와 겹쳐 원작 단서의 다음 후보로 옮김 — 코 코끝이 둥근 → 크고 또렷한 코 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 굵은 곱슬 → 정수리에 묶어 올린 번",
+    "hair": {
+      "hairstyle": "top knot",
+      "hair length": "long",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘gently-upward curling spike’·격투 타입에서 정수리에 묶어 올린 번(올림머리) · 긴 머리 · 끝을 불규칙하게 친 앞머리 — 삐딱구리에서 이어 같은 묶음",
+    "hair_cues": [
+      "격투 타입 → 헤어스타일 정수리에 묶어 올린 번",
+      "‘gently-upward curling spike’ → 앞머리 끝을 불규칙하게 친 앞머리"
+    ]
+  },
+  "face_prompt": "her own structure, not the style's default face): angular face, balanced length, wide width; angular defined jaw; narrow eyes, medium size, level outer corners, average spacing; thick low brows; prominent defined nose; full lips.\n\nHAIR: long top knot, choppy bangs.\n\n",
+  "face_comparison": {
+    "characters": [
+      "드래피온",
+      "삐딱구리",
+      "제브라이카"
+    ],
+    "observed": "Black hair with red streaks tied high, narrow brown-red eyes, full lips and defined jaw; distinct from Drapion's purple swept hair, Croagunk's compact face and Zebstrika's silver-black hair. Long ponytail is observed instead of a strict top-knot bun; preserve this first image as canonical."
+  },
+  "images": [
+    {
+      "card": "독개굴",
+      "slot": "light",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "cd97b4e05c7b4aa5cf1ea01c3a11cc1cef97cc4d110d4d5bb901df39ff71fd89",
+      "original_session_only": true,
+      "filename": "독개굴_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0",
+      "reference_slot": null
+    },
+    {
+      "card": "독개굴",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "16004cb80d51c1f1f1f69075c2a68889aa375d8431c7c13b07dfcefd316097c8",
+      "original_session_only": true,
+      "filename": "독개굴_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "d4b74fbbae49811a45330faebb8e7162f82830a96d8c24fe3a25eb8bc2113811",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    },
+    {
+      "card": "독개굴",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "c896df714a936062133ac3e7eef215b58cac5c41588fa9780eb9d643091a5919",
+      "original_session_only": true,
+      "filename": "독개굴_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "5e624dc0e8fac0a4d265832ddbd4e51ef1ed6751fc3a0fab0c444e7be5c519c3",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    },
+    {
+      "card": "독개굴",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "39dc027598f00cd78029f284e5cc831b0bb4c07af7728bc640a1d2f5cbdc3805",
+      "original_session_only": true,
+      "filename": "독개굴_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "e4560367652e049b0636677fadcf14434e84fb8c65c806bbd1d4107558228680",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    },
+    {
+      "card": "독개굴",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "42816a715bba9d2d19332f30aac959727970c9722ff3dce352df3eb84087cfcc",
+      "original_session_only": true,
+      "filename": "독개굴_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "28754e477bb695957d5293b993be9448ebbfe45dd8115f556bf4700c4203d16d",
+      "reference_slot": "heavy",
+      "reference_sha256": "d4b74fbbae49811a45330faebb8e7162f82830a96d8c24fe3a25eb8bc2113811"
+    },
+    {
+      "card": "독개굴",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "ad14f97caa7946e0e7b24357679e1be18a74aaf5a17fe2bdcc60308d047ae024",
+      "original_session_only": true,
+      "filename": "독개굴_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "a91156e79ec395cb901f0fe8799bd96175e751b22d939c8e6c5e66f4e86cb12b",
+      "reference_slot": "mobility",
+      "reference_sha256": "5e624dc0e8fac0a4d265832ddbd4e51ef1ed6751fc3a0fab0c444e7be5c519c3"
+    },
+    {
+      "card": "독개굴",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "27710611b3777b574c1a10ee2863ff419bfd21359354baf3eec8834961561c9f",
+      "original_session_only": true,
+      "filename": "독개굴_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "0524cc368186f85ffeaca98c06272806492a69e88f4b1632ebcd24c4109e7c73",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    },
+    {
+      "card": "독개굴",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "6f40fa1809ea4e58894ac066c76bf7f81fe3599ffde576bbc52214ee3fc995ac",
+      "original_session_only": true,
+      "filename": "독개굴_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "61fc69a3bc762c08616fb2c57ce523e6bddb71a98425eaadec8dd9ad0f3cbe45",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    },
+    {
+      "card": "독개굴",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "basis": "live generator UI choices and prompt comparison",
+      "original_sha256": "0052c7327801d6459598acb65230efcafb4c3b7962e661a825381178d4923689",
+      "original_session_only": true,
+      "filename": "독개굴_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "740daaf6789e2f865310463dd2a9458932e49ef96a9eebb414d88f2888993297",
+      "reference_slot": "light",
+      "reference_sha256": "00b57a9fc1a0f037df62018752f14e1034a2d16a220431d441c97f36d8ae73b0"
+    }
+  ],
+  "originals": "session only; no original PNG committed",
+  "publication": "awaiting main fast-forward and thumbnail / image registry workflow confirmation"
+}
