@@ -1,0 +1,218 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "generated": 9,
+  "requested": 9,
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "e3cbcb4ebd0589e3835906618ac8fcf5c7f7294804fbdc95a234a64d41c1f774",
+      "observations": "Pink long ringlet hair, side-swept bangs, curled crest, white bib-shaped chest plate and yellow abdominal stripes. One arm extends toward camera with five separated glove digits; the other bends with its hand behind the hair. Two continuous legs end in boots with clear frame margins.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "9b53cdf9cbf7734737d3933c547d6a50a4256ddd5d44145c2b341a3a9156d768",
+      "observations": "Thick nested shoulder, forearm, hip and knee plates enlarge the silhouette. Face, pink curls, open hand and bent opposite elbow remain consistent with light. Helmet ornaments leave eyes and jaw visible.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "50ff0320af8fd3e39b916f8136720fbccc886eac8c9ae7434658ed37d9a0e4d2",
+      "observations": "Swept split panels at shoulders, hips and calves create open gaps around pink thruster lights. Same facial proportions, hair curls, white chest and yellow abdominal lines as light; two boots in frame.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "598e54311f390de98dcdd62f8afce75d4d19712543f572161c7c710c86876615",
+      "observations": "Existing slim plates lift along shoulder, arm, hip and shin seams; white-gold light appears inside. Open palm, bent elbow, boots and background architecture stay aligned with light.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "e6dc42c76f375fbd25e14fad3050e9b9d5c4b4211e7e054f20dd349ac3474472",
+      "observations": "Broad nested shells hinge outward exposing gold inner ribs at shoulders, abdomen and legs. Existing hand positions, face size and boot positions remain aligned with heavy; no weapon.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "5917cc97c4b6ca3636b87748968cf69cc9ea0f78d9ac68226772ba8dc7997bc0",
+      "observations": "Swept fins spread farther around the original shoulder/hip/calf thrusters with gold light in the gaps. Forward palm and hand behind hair remain in the same places as mobility.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward pink glove clearly has one thumb and four separated fingers. Opposite hand is largely hidden behind hair at the end of its bent forearm; visible wrist and folded glove segments are continuous.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "6967f76ef685427b75966b3bf6234b93f556361b76c47754f91b99ff801687ec",
+      "observations": "Seated cross-legged on a rug in an amber-lit entrance hall, she hangs a pink jacket on the coat rail and holds a handbag handle. Cream side-cutout top and mini skirt show waist sides and thighs. Rear three-quarter torso and over-shoulder face match the intended orientation; jacket is off rather than worn.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Raised hand has four curled fingers against the jacket and a partly hidden thumb; lower hand bends naturally around the bag handle, thumb opposed and curled fingers partly hidden by the handle. Both wrists connect to visible forearms.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "574560d0001e6b6026b12a2e184831dd7da7b8562110f60ec5f2fc72959322d8",
+      "observations": "At a rocky beach she side-sits with both knees to the same side, sketching a spiral shell in a notebook. Both hands support actual drawing; small tracks are visible in wet sand. Pink open vest-like layer and cream strapless top expose shoulder and collarbone. Frame includes folded legs rather than planned waist-up.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Pencil hand uses an opposed thumb-index grip, middle finger supports the pencil and two remaining fingertips curl below; notebook hand has thumb on top and four curled fingers partly hidden under the cover.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "746c77eca8c8234944a39b7d3fe8178ec3cef3360fb74073aaf8e954573a4043",
+      "observations": "At a theatre dressing mirror with bulb lights and burgundy drapes, she holds a white napkin beside a tea service. Black-and-white off-shoulder maid bodice, short apron skirt, white stockings and pink ribbon are visible. She smiles open-mouthed over the near shoulder; eyes remain more open than the planned laugh.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand pinches the napkin with opposed thumb and curled fingers; far hand is largely occluded by the cloth and near wrist. No detached hand or additional arm.",
+        "overlay_checked": false,
+        "note": "Original and enlarged crops inspected. Two legs and knees connect normally; feet are partly occluded in crossed/folded casual poses or outside casual3 framing. Forward hand is larger due to moderate perspective rather than an extra limb."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering or logos. Notebook contains a shell drawing without words, garment buttons are geometric, and backstage containers show no readable labels."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Decoded image is 1024x1536."
+      }
+    }
+  },
+  "face": {
+    "reason": "Round source body suggests fuller human cheeks and a broad lower face, ordinary small nose and thin lips; curled crest suggests long pink ringlets.",
+    "source": "data/source-appearance.json entries.463 and data/face-design.json faces.463",
+    "compared_characters": [
+      "내루미",
+      "자포코일",
+      "개굴닌자",
+      "파르빗"
+    ],
+    "comparison": "Actual face crops compared: Lickilicky retains coil-like curl continuity with Lickitung but has a compact nose and broader cheek area. Magnezone has a defined angular jaw, level larger red eyes and straight brows; Greninja is narrower and sharper-eyed; Bunnelby has rounder wide-open eyes. Hair was not the only comparison criterion.",
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; rounded soft tip nose; thin lips."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "자포코일",
+      "개굴닌자",
+      "파르빗"
+    ],
+    "result": "Actual rows compared. Cross-legged hallway jacket hanging, side-seated beach shell drawing, and standing backstage napkin preparation differ in location, hand task, garment and body silhouette. Two seated scenes have different leg placement and arm directions. Magnezone has festival trousers/water-touch crouch/bustier mirror, Greninja hair-adjusting/fountain/tea, and Bunnelby theatre/towel/picnic.",
+    "casual_look": "PASS; nearest scores 318,255,255; no score below 245."
+  }
+}
