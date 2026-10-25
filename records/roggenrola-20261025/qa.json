@@ -1,0 +1,272 @@
+{
+  "light": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Thin close-fitting navy plates at shoulders, hips and shins with brown faceted inserts and gold hexagons."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "heavy": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Broad stacked shoulder, thigh and shin plates make the silhouette visibly larger without changing body proportions."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "light_overdrive": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Thin shoulder/hip/shin plates lift at seams with gold inner frames; camera, hand and boot positions match light."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "mobility": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Split swept panels at shoulders, hips and calves with compact luminous thrusters create open gaps."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "casual1": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Seated at a turquoise-tiled pool bar, laughing with eyes closed and both hands around a citrus drink; navy one-piece with high leg line and open back."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand has four curled fingers, thumb partly hidden by glass; far hand shows four fingertips, remaining thumb occluded. Both wrists continue into separate forearms.",
+      "overlay_checked": false,
+      "note": "Two arms connected at shoulders; near elbow bent naturally on counter, far forearm partly behind glass. Two thighs visible; lower legs outside crop. No extra hand or foot."
+    },
+    "selected_vs_observed": {
+      "expression": "match: raised cheeks, shut eyes, wide laughing mouth",
+      "pose": "match: both hands support the glass",
+      "orientation": "match: bar and canopy viewed from below",
+      "framing": "different: includes upper thighs rather than waist-up; recorded per rule",
+      "outfit": "match: navy cutout/open-back swimwear; motif hair ornament reappears as a small accent"
+    },
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "heavy_overdrive": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Stacked armor opens on articulated hinges; gold inner frame visible between layers; silhouette and stance align with heavy."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "mobility_overdrive": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Fanned panels open farther and thruster covers spread around glowing internals while the closed mobility pose stays fixed."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Extended right palm shows one thumb and four separated fingers; lowered left hand has four curled fingers and inward thumb, with normal joint bends.",
+      "overlay_checked": false,
+      "note": "Both arms connect shoulder to elbow to wrist. Two legs and booted feet connect naturally through hips and knees; no floating extremity. Overlapping finger segments in lowered hand are occlusion, not extra digits."
+    },
+    "selected_vs_observed": "Full body with head and both boot tips inside the frame; camera and joints coherent",
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "casual3": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "Crouched beside a terracotta bowl, one hand offers a blue berry and the other pats one separate Roggenrola; nasturtiums and stone wall frame the garden."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman plus exactly one separate Roggenrola; no other creature or readable lettering."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Berry hand has thumb and curved index around fruit, other three fingers partly occluded; patting hand has five natural digits, some overlapping on rock.",
+      "overlay_checked": false,
+      "note": "Both hands attached through uninterrupted forearms and elbows. Two bent legs visible beneath trousers; near sandal has five toes, far sandal partly occluded. Creature is anatomically separate."
+    },
+    "selected_vs_observed": {
+      "expression": "partial: relaxed brows and softly open mouth; less pronounced relief than prompt",
+      "pose": "match: one hand pats companion",
+      "orientation": "partial: she looks down toward companion rather than away from camera independently",
+      "framing": "different: crouched full figure and feet fit the frame",
+      "outfit": "match: mustard one-shoulder cropped tank and loose navy trousers"
+    },
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  },
+  "casual2": {
+    "size": {
+      "match": true,
+      "evidence": "[1024, 1536] pixels, real WebP"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Short straight navy bob, close-set amber eyes, narrow angular jaw and slim nose bridge stay consistent with the light anchor."
+    },
+    "scene_or_form": {
+      "match": true,
+      "evidence": "A standing woman leans on the vanity and arranges a loose satin ribbon in an amber dressing suite; ivory empire-waist babydoll over opaque lingerie."
+    },
+    "text_and_figures": {
+      "match": true,
+      "evidence": "One adult woman; no visible lettering, labels or extra figure"
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed (exit code 3); proceeded with visual counting as IMAGE_RULES permits",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Ribbon hand: thumb opposes four bent fingers, some finger pads hidden by ribbon. Supporting hand rests on vanity, fingers partially hidden behind ribbons and counter edge.",
+      "overlay_checked": false,
+      "note": "Two uninterrupted arms meet shoulder and elbow; crossed but separate legs reach two bare feet with five toes each. No duplicated limb or detached finger."
+    },
+    "selected_vs_observed": {
+      "expression": "partial: slight closed-mouth smile and slanted brows; gaze more toward camera than down",
+      "pose": "match: supporting palm on vanity, other hand touching ribbon",
+      "orientation": "different: face looks toward camera; recorded",
+      "framing": "match: head to toes and dressing room furniture visible",
+      "outfit": "match: short ivory slip, halter underlying set and translucent lower panel with opaque intimate coverage"
+    },
+    "result": "accepted after original-size visual inspection and hand/foot crop review"
+  }
+}

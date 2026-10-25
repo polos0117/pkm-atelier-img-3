@@ -1,0 +1,49 @@
+{
+  "approved_anchor": {
+    "card": "단굴",
+    "slot": "light",
+    "style": "glossy_promo",
+    "style_evidence": "Actual generator style selection; UI text verified before submission",
+    "source": "/workspace/scratch/fc2694d251a0/generated_images/exec-35a92551-fc6f-47cf-b127-fee641c14508.png",
+    "source_sha256": "f1021ad27b7e23e116c20e7e5006cd7404a14d1c3da890797d735c94adc6e277",
+    "file": "img/단굴_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "840cc41e6b9703ae4baacc171801854fc6e0f98ddec4cf31e29d22ce242e787c",
+    "reference": null
+  },
+  "accepted_slots": [
+    "light",
+    "heavy",
+    "light_overdrive",
+    "mobility",
+    "casual1",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual3",
+    "casual2"
+  ],
+  "publication": "pending",
+  "originals": "session-local only; sha256 preserved",
+  "qa": "complete",
+  "face_design": {
+    "reason": "Navy faceted rock suggests a narrow angular jaw, sharp close-set eyes and angled brows; the hexagonal opening is a small gold ornament, not a single human eye.",
+    "sources": [
+      "data/source-appearance.json#524",
+      "data/face-design.json#524",
+      "docs/CHARACTER_FACE_DESIGNS.md#524"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, narrow width; angular defined jaw; sharp eyes, medium size, level outer corners, close-set; angled brows; prominent defined nose; thin lips.",
+    "compared": [
+      "암트르",
+      "타만타",
+      "푸호꼬",
+      "브리가론"
+    ],
+    "observed": "The other family anchor has a broader lower face, more widely spaced narrow eyes, smaller nose and shorter mouth; recent anchors have softer longer contours."
+  },
+  "original_policy": "Generated originals remain session-local; only their SHA256 hashes, final WebP assets and text records are published."
+}

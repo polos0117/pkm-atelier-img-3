@@ -1,0 +1,622 @@
+{
+  "session": "roggenrola-boldore-fc2694-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "batch_plan": {
+    "session": "roggenrola-boldore-fc2694-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "단굴",
+        "species": "roggenrola-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "poolside_bar",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "low_angle",
+            "frame": "waist_up",
+            "pose": "holding_cup",
+            "expr": "laughing",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light",
+            "example_text": "in swimwear at a poolside bar, a cold drink on the counter",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late morning sunlight scatters from turquoise tiles onto the rattan bar and a chilled citrus drink.",
+                "reason": "Poolside bar example supplies no time or building material; added morning tile reflections and rattan counter."
+              },
+              {
+                "field": "outfit",
+                "content": "A navy high-cut swimsuit has an open back and a broad mustard-yellow geometric belt detail, paired with simple brown sandals.",
+                "reason": "Swimwear example has no construction; supplied high-cut open-back navy one-piece to implement planned swimsuit and both exposure methods."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Holding and sipping a chilled drink is gentle movement at the bar.",
+              "source_influence": "Navy swimsuit and mustard geometric belt visibly echo the rock palette.",
+              "separates_preference": "Swimsuit is a single garment."
+            },
+            "prompt_file": "casual1-prompt.txt"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "leaning_furniture",
+            "expr": "cold_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "place",
+            "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "An amber-lit dressing suite has a carved vanity, a velvet stool and a pale rug; she straightens a satin ribbon lying on the vanity.",
+                "reason": "Babydoll example specifies clothes only; added dressing-suite vanity and a ribbon-straightening activity."
+              },
+              {
+                "field": "outfit",
+                "content": "The ivory babydoll has narrow shoulder straps, an empire waist and a softly flared translucent hem over an opaque halter lingerie set, with the midriff visible through the airy slip.",
+                "reason": "Example fixes narrow straps and empire waist; added ivory fabric and a separate opaque halter set beneath the airy lower layer."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "One hand tidies the ribbon while the other supports her against the vanity.",
+              "source_influence": "Ivory silhouette dominates, with only small warm gold details rather than armor colors.",
+              "separates_preference": "Slip and underlying set function as one layered editorial look."
+            },
+            "prompt_file": "casual2-prompt.txt"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "gentle_pat",
+            "expr": "relieved",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "action",
+            "example_text": "Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.",
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Offering a berry to a small Roggenrola beside a terracotta feeding bowl, she gives its upper rock a gentle pat; nasturtiums fill the sunlit garden bed.",
+                "reason": "Care-feeding example does not specify species or surroundings; selected one Roggenrola and nasturtium bed while keeping the berry offering."
+              },
+              {
+                "field": "outfit",
+                "content": "A mustard one-shoulder tank ends at a mini cropped hem, leaving the shoulder and waist bare above loose navy trousers and brown sandals.",
+                "reason": "Example gives no clothes; implemented planned one-shoulder mini cropped tank plus trousers with bare shoulder and waist."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "Berry offering and gentle pat provide light ongoing motion.",
+              "source_influence": "Mustard tank, navy trousers and the species companion make the source palette explicit.",
+              "separates_preference": "Tank and trousers form separate upper and lower pieces."
+            },
+            "prompt_file": "casual3-prompt.txt"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "lingerie_set",
+            "tank"
+          ],
+          "orient": [
+            "low_angle",
+            "looking_down",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "암트르",
+        "species": "boldore-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "desert_resort",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "squatting",
+            "expr": "exhausted",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "vinyl_stage",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "pose": "stretching",
+            "expr": "focused",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "aerial_silk",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "dance_step",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "leggings"
+          ],
+          "orient": [
+            "leaning_back",
+            "reaching_up",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "poolside_bar",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "pose": "holding_cup",
+      "expr": "laughing",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "in swimwear at a poolside bar, a cold drink on the counter",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late morning sunlight scatters from turquoise tiles onto the rattan bar and a chilled citrus drink.",
+          "reason": "Poolside bar example supplies no time or building material; added morning tile reflections and rattan counter."
+        },
+        {
+          "field": "outfit",
+          "content": "A navy high-cut swimsuit has an open back and a broad mustard-yellow geometric belt detail, paired with simple brown sandals.",
+          "reason": "Swimwear example has no construction; supplied high-cut open-back navy one-piece to implement planned swimsuit and both exposure methods."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Holding and sipping a chilled drink is gentle movement at the bar.",
+        "source_influence": "Navy swimsuit and mustard geometric belt visibly echo the rock palette.",
+        "separates_preference": "Swimsuit is a single garment."
+      },
+      "prompt_file": "casual1-prompt.txt"
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "babydoll",
+      "garments": [
+        "lingerie_set",
+        "slip"
+      ],
+      "orient": "looking_down",
+      "frame": "environmental",
+      "pose": "leaning_furniture",
+      "expr": "cold_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An amber-lit dressing suite has a carved vanity, a velvet stool and a pale rug; she straightens a satin ribbon lying on the vanity.",
+          "reason": "Babydoll example specifies clothes only; added dressing-suite vanity and a ribbon-straightening activity."
+        },
+        {
+          "field": "outfit",
+          "content": "The ivory babydoll has narrow shoulder straps, an empire waist and a softly flared translucent hem over an opaque halter lingerie set, with the midriff visible through the airy slip.",
+          "reason": "Example fixes narrow straps and empire waist; added ivory fabric and a separate opaque halter set beneath the airy lower layer."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "One hand tidies the ribbon while the other supports her against the vanity.",
+        "source_influence": "Ivory silhouette dominates, with only small warm gold details rather than armor colors.",
+        "separates_preference": "Slip and underlying set function as one layered editorial look."
+      },
+      "prompt_file": "casual2-prompt.txt"
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_feeding",
+      "garments": [
+        "tank",
+        "trousers"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "gentle_pat",
+      "expr": "relieved",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "one-shoulder cut"
+      ],
+      "lead": "action",
+      "example_text": "Offering a small berry treat to a Pokémon companion beside a feeding bowl in a quiet garden.",
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Offering a berry to a small Roggenrola beside a terracotta feeding bowl, she gives its upper rock a gentle pat; nasturtiums fill the sunlit garden bed.",
+          "reason": "Care-feeding example does not specify species or surroundings; selected one Roggenrola and nasturtium bed while keeping the berry offering."
+        },
+        {
+          "field": "outfit",
+          "content": "A mustard one-shoulder tank ends at a mini cropped hem, leaving the shoulder and waist bare above loose navy trousers and brown sandals.",
+          "reason": "Example gives no clothes; implemented planned one-shoulder mini cropped tank plus trousers with bare shoulder and waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no separate pixel-size control, so the common required 1024×1536 portrait instruction is entered here."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Berry offering and gentle pat provide light ongoing motion.",
+        "source_influence": "Mustard tank, navy trousers and the species companion make the source palette explicit.",
+        "separates_preference": "Tank and trousers form separate upper and lower pieces."
+      },
+      "prompt_file": "casual3-prompt.txt"
+    }
+  ],
+  "validation": "casual-ledger.py check passed; reservation verify returned two matching stamps before generation",
+  "reservation_file": "records/casual-reservations/roggenrola-boldore-fc2694-20261025.json",
+  "reservation_commit": "6afc24238ed9dcd51866c1d0afaccdac9df4f370",
+  "recent_visual_comparison": [
+    "타만타",
+    "푸호꼬",
+    "브리가론"
+  ],
+  "visual_comparison": "Actual images of 타만타, 푸호꼬 and 브리가론 were viewed beside this batch. This trio is a low-view pool bar cup scene, standing vanity/ribbon scene, and crouched garden companion care. Clothing silhouettes and gestures differ from each other and the recent reference grid. casual-look check passed, closest distances 308 / 300 / 258.",
+  "generation_mode": "built-in image_gen; one standalone image per call; closed form + approved light anchor for overdrive",
+  "face_design": {
+    "reason": "Navy faceted rock suggests a narrow angular jaw, sharp close-set eyes and angled brows; the hexagonal opening is a small gold ornament, not a single human eye.",
+    "sources": [
+      "data/source-appearance.json#524",
+      "data/face-design.json#524",
+      "docs/CHARACTER_FACE_DESIGNS.md#524"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, narrow width; angular defined jaw; sharp eyes, medium size, level outer corners, close-set; angled brows; prominent defined nose; thin lips.",
+    "compared": [
+      "암트르",
+      "타만타",
+      "푸호꼬",
+      "브리가론"
+    ],
+    "observed": "The other family anchor has a broader lower face, more widely spaced narrow eyes, smaller nose and shorter mouth; recent anchors have softer longer contours."
+  }
+}
