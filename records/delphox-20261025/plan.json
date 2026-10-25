@@ -1,0 +1,591 @@
+{
+  "session": "braixen-delphox-1b3444-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "asymmetric_lingerie",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "standing_relaxed",
+      "expr": "mischievous",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "an asymmetric lingerie set with one shoulder strap, a diagonal neckline, and matching high-waisted bottoms",
+      "axes_reason": "드레싱룸에서 쉬는 정지 장면이라 mostly posed, 아이보리와 녹슨 빨강 테두리를 함께 반영해 balanced, 란제리 세트 중심이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Warm morning light reaches a dressing room with a curved oak wardrobe, a low upholstered bench and a pearl comb resting on a small vanity tray.",
+          "reason": "의상 예시뿐이라 아침 빛의 드레싱룸·참나무 옷장·벤치·빗으로 생활 공간을 정함"
+        },
+        {
+          "field": "outfit",
+          "text": "An ivory satin asymmetric lingerie set has one shoulder strap that continues to a halter fastening, a diagonal neckline, an open back and matching high-waisted bottoms with rust piping; soft slippers complete it.",
+          "reason": "비대칭 스트랩·대각선 목선·하이웨이스트 하의를 유지하며 홀터 여밈·등 파임·아이보리 새틴과 녹슨 빨강 테두리로 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "aerial_silk",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "pose": "mid_stride",
+      "expr": "laughing_open",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "example_text": "in a fitted unitard, wrapped in aerial silks and holding a pose in mid-air",
+      "axes_reason": "실크를 모아 잡고 발을 옮기는 진행 동작이라 mostly active, 크림·구리 배색을 통해 모티프가 일부 드러나 balanced, 짧은 점프슈트 한 벌이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Gathering two suspended lengths of silk during a floor-level practice drill, she takes a small step across the padded studio floor; tall windows bring in cool afternoon light.",
+          "reason": "에어리얼 실크 연습 제목만 있어 바닥 매트 위에서 두 실크를 모아 잡는 기초 드릴과 오후 창빛을 추가"
+        },
+        {
+          "field": "outfit",
+          "text": "A deep teal short jumpsuit with an off-shoulder neckline and mini-length fitted legs, edged in cream and copper, with soft dance slippers.",
+          "reason": "계획의 jumpsuit를 짧은 다리 길이와 오프숄더 목선으로 지정하고 틸·크림·구리 배색과 무용화를 보충"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_sensual",
+      "ex": "drone_director",
+      "garments": [
+        "trousers",
+        "vest"
+      ],
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "pose": "taking_photo",
+      "expr": "proud",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "Pokémon wildlife documentary director adjusting a tripod camera and reviewing habitat sketches at a field hide.",
+      "axes_reason": "삼각대 카메라를 조정하는 작은 움직임이라 balanced, 녹슨 빨강 지퍼 손잡이 하나로 subtle, 상의·조끼·바지가 나뉘어 prefer separates",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A reed-screened field hide overlooks a sunlit wetland; she adjusts the tripod camera while habitat sketches lie open on a narrow bench beside the viewing slit.",
+          "reason": "생태 촬영 예시에 갈대 은신처·햇빛 든 습지와 관찰창 옆 도면 벤치를 추가"
+        },
+        {
+          "field": "outfit",
+          "text": "A cropped charcoal vest worn open over a teal strapless bandeau, with stone-gray high-waisted trousers and field boots; the short hems leave her shoulders and midriff bare, with one rust zipper pull.",
+          "reason": "계획의 trousers와 vest를 회색 바지·짧은 차콜 조끼·틸 스트랩리스 상의로 구성해 어깨·복부를 드러냄"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        },
+        {
+          "field": "custom",
+          "text": "EDIT the second attached image. The first is the approved character reference. Keep the whole second image exactly as it is, including her face, hair, clothes, pose, hands, camera shape, tripod, habitat drawings, wetland and framing. Change only the tiny white and red lettering, numbers and fake brand marks on the cameras and lens barrels: remove them completely, leaving clean matching metal, rubber and plastic surfaces with their existing shape and lighting. Keep the anatomical details unchanged.",
+          "reason": "확대 검수에서 카메라에 가짜 라벨이 보여 ①+해당 컷을 첨부하는 부분 수정으로 카메라·렌즈 표식만 제거"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    }
+  ],
+  "planning": {
+    "session": "braixen-delphox-1b3444-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "테르나",
+        "species": "braixen-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "station_wait",
+            "expr": "determined",
+            "pose": "one_knee_up",
+            "orient": "crouching",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat"
+            ],
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "floor_cushion",
+            "expr": "sleepy",
+            "pose": "side_sitting",
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "robe"
+            ],
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "wrap_swim",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "pose": "mid_action",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "마폭시",
+        "species": "delphox-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "asymmetric_lingerie",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "mischievous",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "halter neck"
+            ],
+            "lead": "light",
+            "example_text": "an asymmetric lingerie set with one shoulder strap, a diagonal neckline, and matching high-waisted bottoms",
+            "axes_reason": "드레싱룸에서 쉬는 정지 장면이라 mostly posed, 아이보리와 녹슨 빨강 테두리를 함께 반영해 balanced, 란제리 세트 중심이라 balanced",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Warm morning light reaches a dressing room with a curved oak wardrobe, a low upholstered bench and a pearl comb resting on a small vanity tray.",
+                "reason": "의상 예시뿐이라 아침 빛의 드레싱룸·참나무 옷장·벤치·빗으로 생활 공간을 정함"
+              },
+              {
+                "field": "outfit",
+                "text": "An ivory satin asymmetric lingerie set has one shoulder strap that continues to a halter fastening, a diagonal neckline, an open back and matching high-waisted bottoms with rust piping; soft slippers complete it.",
+                "reason": "비대칭 스트랩·대각선 목선·하이웨이스트 하의를 유지하며 홀터 여밈·등 파임·아이보리 새틴과 녹슨 빨강 테두리로 구체화"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "aerial_silk",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "mid_stride",
+            "expr": "laughing_open",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "action",
+            "example_text": "in a fitted unitard, wrapped in aerial silks and holding a pose in mid-air",
+            "axes_reason": "실크를 모아 잡고 발을 옮기는 진행 동작이라 mostly active, 크림·구리 배색을 통해 모티프가 일부 드러나 balanced, 짧은 점프슈트 한 벌이라 balanced",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Gathering two suspended lengths of silk during a floor-level practice drill, she takes a small step across the padded studio floor; tall windows bring in cool afternoon light.",
+                "reason": "에어리얼 실크 연습 제목만 있어 바닥 매트 위에서 두 실크를 모아 잡는 기초 드릴과 오후 창빛을 추가"
+              },
+              {
+                "field": "outfit",
+                "text": "A deep teal short jumpsuit with an off-shoulder neckline and mini-length fitted legs, edged in cream and copper, with soft dance slippers.",
+                "reason": "계획의 jumpsuit를 짧은 다리 길이와 오프숄더 목선으로 지정하고 틸·크림·구리 배색과 무용화를 보충"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_sensual",
+            "ex": "drone_director",
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "pose": "taking_photo",
+            "expr": "proud",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "place",
+            "example_text": "Pokémon wildlife documentary director adjusting a tripod camera and reviewing habitat sketches at a field hide.",
+            "axes_reason": "삼각대 카메라를 조정하는 작은 움직임이라 balanced, 녹슨 빨강 지퍼 손잡이 하나로 subtle, 상의·조끼·바지가 나뉘어 prefer separates",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "A reed-screened field hide overlooks a sunlit wetland; she adjusts the tripod camera while habitat sketches lie open on a narrow bench beside the viewing slit.",
+                "reason": "생태 촬영 예시에 갈대 은신처·햇빛 든 습지와 관찰창 옆 도면 벤치를 추가"
+              },
+              {
+                "field": "outfit",
+                "text": "A cropped charcoal vest worn open over a teal strapless bandeau, with stone-gray high-waisted trousers and field boots; the short hems leave her shoulders and midriff bare, with one rust zipper pull.",
+                "reason": "계획의 trousers와 vest를 회색 바지·짧은 차콜 조끼·틸 스트랩리스 상의로 구성해 어깨·복부를 드러냄"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              },
+              {
+                "field": "custom",
+                "text": "EDIT the second attached image. The first is the approved character reference. Keep the whole second image exactly as it is, including her face, hair, clothes, pose, hands, camera shape, tripod, habitat drawings, wetland and framing. Change only the tiny white and red lettering, numbers and fake brand marks on the cameras and lens barrels: remove them completely, leaving clean matching metal, rubber and plastic surfaces with their existing shape and lighting. Keep the anatomical details unchanged.",
+                "reason": "확대 검수에서 카메라에 가짜 라벨이 보여 ①+해당 컷을 첨부하는 부분 수정으로 카메라·렌즈 표식만 제거"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "vest"
+          ],
+          "orient": [
+            "rear_3q",
+            "turning_midmotion",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "casual-ledger check and stamp verification passed",
+  "reservation_commit": "a801033c4d300880fc30b4b320aa51a026980413",
+  "revisions": [
+    {
+      "phase": "before casual generation",
+      "reason": "그루머 예시에 companion pat 자세가 선택되어 생성기에 포켓몬 동료 문장이 섞임",
+      "action": "planner --avoid 마폭시:2:pose=gentle_pat, new plan reserved and published"
+    },
+    {
+      "slot": "casual3",
+      "reason": "fake lettering on camera body and lens barrels",
+      "action": "partial edit with approved light anchor plus target image, other settings unchanged",
+      "before_source_sha256": "bef5a4c1ffd264aefd150b45cc938ae2ad80bdc16b7b58f34f7c7bf2d1221e50"
+    }
+  ],
+  "visual_comparison": {
+    "cards": [
+      "테르나",
+      "암트르",
+      "단굴"
+    ],
+    "observed": "드레싱룸의 뒤 3/4 선 자세·실크를 잡고 발을 옮기는 전신·갈대 은신처 카메라 조작의 세 장소와 옷·동작이 구별됨. 테르나의 기차역·쿠션·풀장과도 다르며, 최근 무대 장면과 운동 실크 장면은 의상·장소·활동·팔 구도가 다름."
+  }
+}
