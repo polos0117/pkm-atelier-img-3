@@ -1,0 +1,34 @@
+{
+  "card": "도치보구",
+  "slot": "casual3",
+  "file": "도치보구_glossy_promo_f_casual3.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "몸·얼굴 연결 수정 — 앞 그림은 맨등과 양 날개뼈가 카메라를 보는데 얼굴도 정면이라 머리가 목 위에서 뒤로 돌아간 듯했다. ①과 앞 그림을 함께 첨부한 부분 고치기(fix-prompt.txt)로 머리·목·어깨만 고쳤다 — 오른쪽 어깨 너머로 4분의 1쯤 돌아보는 3/4 얼굴, 턱이 어깨 위, 목 옆선이 보인다. 드레스·다리·손·배경은 그대로.",
+  "previous_webp_sha256": "515950948dbbc52ae56c026c577405f54c2e00b1230a9c9cdaf36188700b7b2c",
+  "source_sha256": "7782c26ffd6104f2771a9d39fe8e579bf40283459f19022b6ccceae2d5e6664c",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "55a8d0bd161d5e9ed9e594cbf59dd90eb8d8f61a1732af78651ceada81dc21e0"
+  },
+  "provenance": "사용자가 fix-prompt.txt 로 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "설정은 바뀌지 않았다 — records/quilladin-20261025/plan.json 의 cut 3(private_evening · low_back_evening · perched_seat · seated_twist · environmental) 그대로.",
+  "look_check": "node tools/casual-look.cjs check --card 도치보구 (casual1, casual2, 이 그림) — 통과, 245점 미만 컷 없음",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — note · 몸 3 개로 잡힘(꼰 다리·드레스 자락을 따로 잡음)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손 잔 · 왼손 오토만",
+    "overlay_checked": false,
+    "note": "두 번째 인물 없음"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-25"
+}
