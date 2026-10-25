@@ -1,0 +1,229 @@
+{
+  "batch": {
+    "session": "togekiss-refill-20261026-748b",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "토게키스",
+        "species": "togekiss-20261026",
+        "refill": true,
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "hoodie_shorts",
+            "garments": [
+              "shorts",
+              "sweater"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "standing_formal",
+            "expr": "half_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_brushing",
+            "expr": "gentle",
+            "pose": "carrying_something",
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "classic_bikini",
+            "expr": "sensual",
+            "pose": "arms_crossed",
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "high_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "토게키스",
+    "species": "togekiss-20261026",
+    "refill": true,
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "homewear",
+        "ex": "hoodie_shorts",
+        "garments": [
+          "shorts",
+          "sweater"
+        ],
+        "orient": "high_angle",
+        "frame": "full_body",
+        "pose": "standing_formal",
+        "expr": "half_smile",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "bare midriff"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "partner_care",
+        "ex": "care_brushing",
+        "expr": "gentle",
+        "pose": "carrying_something",
+        "orient": "low_angle",
+        "frame": "chest_up",
+        "lens": "portrait85",
+        "axes": {
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shirt",
+          "trousers"
+        ],
+        "expose": [
+          "cropped hem",
+          "one-shoulder cut"
+        ]
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "classic_bikini",
+        "expr": "sensual",
+        "pose": "arms_crossed",
+        "orient": "over_shoulder",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "axes": {
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ]
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [
+        "high_angle"
+      ],
+      "frame": []
+    }
+  },
+  "replanning": "After the garter scene was blocked and the festival result lacked clapping, planner reserved a different homewear example with a compatible standing pose. Completed casual2 and casual3 remain unchanged."
+}

@@ -1,0 +1,152 @@
+{
+  "storage": {
+    "last": "토게키스",
+    "cards": {
+      "토게키스": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "half_smile",
+            "pose": "standing_formal",
+            "orient": "high_angle",
+            "scene": "A wood-floored apartment living room has a low sofa, a folded blanket and warm floor lighting after sunset; she pauses beside the sofa before settling in for the evening.",
+            "outfit": "A soft blue cropped hoodie sweater worn with its wide neckline off one shoulder and separate white lounge shorts; the short hem leaves her midriff bare, with tiny red triangular stitching at the cuffs.",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "homewear",
+            "catCustom": "",
+            "ex": "hoodie_shorts",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Togekiss (토게키스) personified, fairy / flying type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one mouth corner lifted higher than the other, lips closed, gaze slightly to the side\nPose: Stand upright with a balanced stance and a composed posture.\nOrientation: camera above subject looking downward; obey selected framing\nScene: A wood-floored apartment living room has a low sofa, a folded blanket and warm floor lighting after sunset; she pauses beside the sofa before settling in for the evening.\nOutfit and props: A soft blue cropped hoodie sweater worn with its wide neckline off one shoulder and separate white lounge shorts; the short hem leaves her midriff bare, with tiny red triangular stitching at the cuffs.\nCategory: Create designed, fashion-forward homewear or lounge-life scenes. Avoid plain pajamas and bland static sofa poses. Use believable home-life actions, stylish home fashion silhouettes, and a sensual but natural private-life atmosphere.\nExample scene: in a cropped hoodie showing her midriff and short shorts, at home\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 1,
+    "cat": "homewear",
+    "ex": "hoodie_shorts",
+    "garments": [
+      "shorts",
+      "sweater"
+    ],
+    "orient": "high_angle",
+    "frame": "full_body",
+    "pose": "standing_formal",
+    "expr": "half_smile",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "one-shoulder cut",
+      "bare midriff"
+    ],
+    "lead": "place"
+  },
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "A wood-floored apartment living room has a low sofa, a folded blanket and warm floor lighting after sunset; she pauses beside the sofa before settling in for the evening.",
+      "reason": "The hoodie_shorts example does not specify this light/environment detail; added only this cut: A wood-floored apartment living room has a low sofa, a folded blanket and warm floor lighting after sunset; she pauses beside the sofa before settling in for the evening."
+    },
+    {
+      "field": "outfit",
+      "content": "A soft blue cropped hoodie sweater worn with its wide neckline off one shoulder and separate white lounge shorts; the short hem leaves her midriff bare, with tiny red triangular stitching at the cuffs.",
+      "reason": "The hoodie_shorts example leaves material/color and the reserved one-shoulder cut,bare midriff construction unspecified; this cut uses shorts,sweater."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed chosen for the visible activity: Standing beside a sofa at home, holding a mug and touching her hair; cropped hoodie and shorts clearly present.",
+    "source": "balanced is expressed in this outfit: Blue cropped hoodie with neckline below one shoulder and white shorts, shoulders/midriff/legs exposed.",
+    "separates": "prefer separates follows the planned garment construction shorts,sweater for hoodie_shorts."
+  },
+  "planner_selection": {
+    "random": "Planner seeded search; no worker random redraw or manual choice edits.",
+    "adjustments": "Only replanning listed in plan and preserved blocked/rejected records; actual output UI retains original selections."
+  }
+}
