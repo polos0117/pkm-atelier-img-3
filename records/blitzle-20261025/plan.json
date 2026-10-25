@@ -1,0 +1,366 @@
+{
+  "session": "blitzle-zebstrika-20261025-acc8",
+  "planner": "tools/casual-plan.cjs",
+  "batch_plan": {
+    "session": "blitzle-zebstrika-20261025-acc8",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "줄뮤마",
+        "species": "blitzle-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "kebaya_lace",
+            "garments": [
+              "tank"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "leaning_furniture",
+            "expr": "half_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_rehearsal",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "relieved",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_play",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "cross_legged",
+            "expr": "serious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "rear_3q",
+            "leaning_forward",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "제브라이카",
+        "species": "zebstrika-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "burkini_modest",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "stretching",
+            "expr": "candid",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "traditional",
+            "ex": "aodai_daily",
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "trousers"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "gentle_pat",
+            "expr": "curious",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "event_staff",
+            "garments": [
+              "vest"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "skirt"
+          ],
+          "orient": [
+            "turning_midmotion",
+            "looking_away",
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "kebaya_lace",
+      "garments": [
+        "tank"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "leaning_furniture",
+      "expr": "half_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "side cutouts"
+      ],
+      "lead": "action"
+    },
+    {
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_rehearsal",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "pose": "hand_on_hip",
+      "expr": "relieved",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "light"
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_play",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "cross_legged",
+      "expr": "serious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "mini length"
+      ],
+      "lead": "place"
+    }
+  ],
+  "check": "passed before generation",
+  "reservation_commit": "db79b02282f177854afd22e06b9fbba981d2cdc1",
+  "details": {
+    "1": {
+      "scene": "Adjusting a floral lace cuff beside a carved teak vanity in a batik-lined dressing room at sunset.",
+      "outfit": "An ivory embroidered kebaya lace top with an off-shoulder neckline over an opaque fitted tank camisole with small side cutouts, paired with a dark indigo sarong skirt.",
+      "reasons": {
+        "scene": "레이스 상의 예시는 장소와 활동이 없어 화장대에서 소매 정리를 보충",
+        "outfit": "크바야 예시의 레이스와 캐미솔을 유지하며 계획 tank·오프숄더·측면 컷아웃을 구체화",
+        "axes": "소매 정리는 balanced, 흑백 배색은 balanced, 상하의 별도이므로 prefer separates"
+      }
+    },
+    "2": {
+      "scene": "Amber rehearsal lamps illuminate the backstage curtain and a satin ribbon loop before the contest begins.",
+      "outfit": "Coral strapless short overalls with one detachable shoulder strap resting off the shoulder, a tailored bodice and a wide satin rehearsal ribbon.",
+      "reasons": {
+        "scene": "리허설 예시에 없는 황색 조명과 무대 커튼 보충",
+        "outfit": "예시에 의상이 없어 계획의 overalls·한쪽 어깨·스트랩리스 구조 지정",
+        "axes": "동작 사이 쉬는 순간은 mostly posed, 흑백 리본 배색 balanced, 한 벌 오버롤 balanced"
+      }
+    },
+    "3": {
+      "scene": "Inside a grassy courtyard enclosed by low brick walls, a soft toy ball rolls toward her small playful Blitzle companion.",
+      "outfit": "A cobalt halter-neck mini overall playsuit with bare shoulders and short legs, white zigzag stitching and flat canvas shoes.",
+      "reasons": {
+        "scene": "마당 예시에 낮은 벽 재질과 동료 종류를 지정",
+        "outfit": "놀이에 맞게 계획 overalls·홀터·미니 길이를 코발트 플레이수트로 구체화",
+        "axes": "앉은 놀이 mostly posed, 지그재그 무늬 strong, 한 벌 플레이수트 balanced"
+      }
+    }
+  },
+  "compared_characters": [
+    "하마돈",
+    "스콜피",
+    "켄호로우"
+  ],
+  "comparison": "실제 이번 세 장과 최근 하마돈·스콜피·켄호로우 일상 9장을 나란히 비교. 사롱을 입고 서서 소매 정리, 붉은 오버롤 무대 리본 연습, 파랑 플레이수트 잔디 공놀이로 활동·실루엣·카메라가 구별됨. 유사도 검사 통과(최근접 247/284/290)."
+}

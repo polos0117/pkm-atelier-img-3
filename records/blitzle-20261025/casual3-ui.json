@@ -1,0 +1,114 @@
+{
+  "card": "줄뮤마",
+  "slot": "casual3",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "줄뮤마",
+    "cards": {
+      "줄뮤마": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "serious",
+            "pose": "cross_legged",
+            "orient": "leaning_back",
+            "scene": "Inside a grassy courtyard enclosed by low brick walls, a soft toy ball rolls toward her small playful Blitzle companion.",
+            "outfit": "A cobalt halter-neck mini overall playsuit with bare shoulders and short legs, white zigzag stitching and flat canvas shoes.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "partner_care",
+            "catCustom": "",
+            "ex": "care_play",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 3,
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "place"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Blitzle (줄뮤마) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: level lowered brow, steady unblinking gaze, mouth closed in a straight line, jaw set\nPose: Sit cross-legged on a floor cushion with relaxed shoulders and readable hands.\nOrientation: torso leaning backward with clear support\nScene: Inside a grassy courtyard enclosed by low brick walls, a soft toy ball rolls toward her small playful Blitzle companion.\nOutfit and props: A cobalt halter-neck mini overall playsuit with bare shoulders and short legs, white zigzag stitching and flat canvas shoes.\nCategory: Show a quiet personal moment caring for a Pokémon companion. Make the interaction, supporting props and comfortable setting specific; keep the approved woman as the main subject and any companion anatomically separate.\nExample scene: Rolling a soft toy ball toward a playful Pokémon companion in an enclosed grassy courtyard.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE WOMAN ONLY, with exactly one Pokémon companion as the scene describes — a separate creature at its own natural scale, its body never merged with hers, not a second human and not dressed like her. No other person or creature, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "cut": 3,
+    "cat": "partner_care",
+    "ex": "care_play",
+    "garments": [
+      "overalls"
+    ],
+    "orient": "leaning_back",
+    "frame": "full_body",
+    "pose": "cross_legged",
+    "expr": "serious",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "halter neck",
+      "mini length"
+    ],
+    "lead": "place"
+  },
+  "direct_input_reasons": {
+    "scene": "마당 예시에 낮은 벽 재질과 동료 종류를 지정",
+    "outfit": "놀이에 맞게 계획 overalls·홀터·미니 길이를 코발트 플레이수트로 구체화",
+    "axes": "앉은 놀이 mostly posed, 지그재그 무늬 strong, 한 벌 플레이수트 balanced"
+  },
+  "axes_reasons": "앉은 놀이 mostly posed, 지그재그 무늬 strong, 한 벌 플레이수트 balanced",
+  "reservation_session": "blitzle-zebstrika-20261025-acc8",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
