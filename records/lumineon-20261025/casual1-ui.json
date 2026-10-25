@@ -1,0 +1,114 @@
+{
+  "card": "네오라이트",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "네오라이트",
+    "cards": {
+      "네오라이트": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "nostalgic",
+            "pose": "waving",
+            "orient": "leaning_back",
+            "scene": "Late-afternoon light falls across a ceramic tray of blue beads and a half-threaded travel charm on the studio table; she briefly greets someone at the doorway without setting down the threaded cord.",
+            "outfit": "A cream off-shoulder linen jumpsuit has a high side slit in each loose trouser leg; a narrow blue waist tie and flat sandals finish the studio outfit.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "hobbies_leisure",
+            "catCustom": "",
+            "ex": "hobby_craft",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Lumineon (네오라이트) personified, water type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: soft distant gaze past the camera, faint wistful half-smile, brows gently raised at the inner ends\nPose: Raise one hand near shoulder height in a friendly small wave.\nOrientation: torso leaning backward with clear support\nScene: Late-afternoon light falls across a ceramic tray of blue beads and a half-threaded travel charm on the studio table; she briefly greets someone at the doorway without setting down the threaded cord.\nOutfit and props: A cream off-shoulder linen jumpsuit has a high side slit in each loose trouser leg; a narrow blue waist tie and flat sandals finish the studio outfit.\nCategory: Show a personal hobby or restful leisure moment with a specific action and relevant objects. Pokémon motifs may appear naturally in the activity, without requiring armor, a uniform or a companion.\nExample scene: Threading beads into a small Pokémon-inspired travel charm at a hobby table with tidy craft tools.\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Repository generator output; live UI confirmation recorded per slot.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "hobbies_leisure",
+    "ex": "hobby_craft",
+    "garments": [
+      "jumpsuit"
+    ],
+    "orient": "leaning_back",
+    "frame": "waist_up",
+    "pose": "waving",
+    "expr": "nostalgic",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "off-shoulder neckline"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "여행 부적 비즈 꿰기 예시에 푸른 구슬·꿰던 끈을 보유한 채 문가에 인사하는 상황과 오후 빛을 보충.",
+    "outfit": "jumpsuit·어깨 노출·높은 슬릿 계획을 리넨 점프슈트 바지의 트임으로 구현."
+  },
+  "reservation_session": "finneon-lumineon-20261025-50744",
+  "randomization": "casual-plan.cjs only; no manual option changes",
+  "reference_sha256": {
+    "light": "d66dddda7f07c0261ce0a82b44c9e55b2576d08e0476ad61d09fcb5d428f2159"
+  }
+}
