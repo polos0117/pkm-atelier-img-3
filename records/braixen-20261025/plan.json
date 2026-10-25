@@ -1,0 +1,572 @@
+{
+  "session": "braixen-delphox-1b3444-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "station_wait",
+      "expr": "determined",
+      "pose": "one_knee_up",
+      "orient": "crouching",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "coat"
+      ],
+      "expose": [
+        "side cutouts",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "waiting at a station in a coat and casual outfit, checking her bag and the time",
+      "axes_reason": "가방 지퍼를 살피는 멈춘 순간이라 mostly posed, 주황 코트 한 가지 색을 남겨 subtle, 상하의가 분리되어 prefer separates",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A small overnight bag rests beside her on a rain-darkened platform; she checks its side-pocket zipper while waiting for the evening train.",
+          "reason": "역 대기 예시에 가방 주머니를 확인하는 구체 행동과 비 젖은 저녁 플랫폼을 추가"
+        },
+        {
+          "field": "outfit",
+          "text": "A short burnt-orange sleeveless coat worn open over an ivory strapless top with side cutouts and charcoal tailored shorts, with black ankle boots.",
+          "reason": "계획의 짧은 코트에 스트랩리스 상의와 옆구리 컷아웃·쇼츠의 구조와 색을 지정"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "floor_cushion",
+      "expr": "sleepy",
+      "pose": "side_sitting",
+      "orient": "high_angle",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "robe"
+      ],
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "lounging against big floor cushions in soft homewear",
+      "axes_reason": "쿠션에서 담요 끝을 만지는 휴식이라 mostly posed, 종족 장신구를 빼 subtle, 로브 한 벌 중심이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A sunken living room has oversized floor cushions, a low walnut table and late afternoon light; she idly smooths the edge of a soft throw over a cushion.",
+          "reason": "바닥 쿠션 예시에 선큰 거실과 낮은 탁자, 담요 끝을 정리하는 활동을 추가"
+        },
+        {
+          "field": "outfit",
+          "text": "A sage silk lounging robe with a one-shoulder neckline and a high thigh slit, loosely tied at the waist.",
+          "reason": "계획의 로브를 세이지 실크·한쪽 어깨 목선·높은 옆트임으로 구체화"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "wrap_swim",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "front_3q",
+      "frame": "three_quarter",
+      "pose": "mid_action",
+      "expr": "smug",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "a wrap-front swimsuit with a crossed bodice and a tie at the waist",
+      "axes_reason": "수영복 허리 매듭을 여미는 진행 동작이라 mostly active, 검정·주황 주조색이 뚜렷해 strong, 한 벌 수영복이라 balanced",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Soft midday sun lights a tiled pool pavilion; she fastens the little wrap skirt at her hip before stepping down to the deck.",
+          "reason": "랩 수영복 예시에 없는 정오의 풀 파빌리온과 허리 매듭을 여미는 활동을 지정"
+        },
+        {
+          "field": "outfit",
+          "text": "A black wrap-front one-piece swimsuit with a crossed bodice, high-cut legs and amber-edged side cutouts, with a short burnt-orange swim skirt tied at the waist and simple slide sandals.",
+          "reason": "계획의 랩 프론트 수영복 구조를 유지하며 검정·호박색 테두리와 하이컷·옆구리 파임 및 짧은 스커트를 지정"
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+        }
+      ],
+      "locked": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "random_selection": {
+        "method": "tools/casual-plan.cjs",
+        "manual_changes": "none"
+      }
+    }
+  ],
+  "planning": {
+    "session": "braixen-delphox-1b3444-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "테르나",
+        "species": "braixen-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "station_wait",
+            "expr": "determined",
+            "pose": "one_knee_up",
+            "orient": "crouching",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat"
+            ],
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "detail",
+            "example_text": "waiting at a station in a coat and casual outfit, checking her bag and the time",
+            "axes_reason": "가방 지퍼를 살피는 멈춘 순간이라 mostly posed, 주황 코트 한 가지 색을 남겨 subtle, 상하의가 분리되어 prefer separates",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "A small overnight bag rests beside her on a rain-darkened platform; she checks its side-pocket zipper while waiting for the evening train.",
+                "reason": "역 대기 예시에 가방 주머니를 확인하는 구체 행동과 비 젖은 저녁 플랫폼을 추가"
+              },
+              {
+                "field": "outfit",
+                "text": "A short burnt-orange sleeveless coat worn open over an ivory strapless top with side cutouts and charcoal tailored shorts, with black ankle boots.",
+                "reason": "계획의 짧은 코트에 스트랩리스 상의와 옆구리 컷아웃·쇼츠의 구조와 색을 지정"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "floor_cushion",
+            "expr": "sleepy",
+            "pose": "side_sitting",
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "robe"
+            ],
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "place",
+            "example_text": "lounging against big floor cushions in soft homewear",
+            "axes_reason": "쿠션에서 담요 끝을 만지는 휴식이라 mostly posed, 종족 장신구를 빼 subtle, 로브 한 벌 중심이라 balanced",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "A sunken living room has oversized floor cushions, a low walnut table and late afternoon light; she idly smooths the edge of a soft throw over a cushion.",
+                "reason": "바닥 쿠션 예시에 선큰 거실과 낮은 탁자, 담요 끝을 정리하는 활동을 추가"
+              },
+              {
+                "field": "outfit",
+                "text": "A sage silk lounging robe with a one-shoulder neckline and a high thigh slit, loosely tied at the waist.",
+                "reason": "계획의 로브를 세이지 실크·한쪽 어깨 목선·높은 옆트임으로 구체화"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "wrap_swim",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "pose": "mid_action",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light",
+            "example_text": "a wrap-front swimsuit with a crossed bodice and a tie at the waist",
+            "axes_reason": "수영복 허리 매듭을 여미는 진행 동작이라 mostly active, 검정·주황 주조색이 뚜렷해 strong, 한 벌 수영복이라 balanced",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "text": "Soft midday sun lights a tiled pool pavilion; she fastens the little wrap skirt at her hip before stepping down to the deck.",
+                "reason": "랩 수영복 예시에 없는 정오의 풀 파빌리온과 허리 매듭을 여미는 활동을 지정"
+              },
+              {
+                "field": "outfit",
+                "text": "A black wrap-front one-piece swimsuit with a crossed bodice, high-cut legs and amber-edged side cutouts, with a short burnt-orange swim skirt tied at the waist and simple slide sandals.",
+                "reason": "계획의 랩 프론트 수영복 구조를 유지하며 검정·호박색 테두리와 하이컷·옆구리 파임 및 짧은 스커트를 지정"
+              },
+              {
+                "field": "camera",
+                "text": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구 크기 필드가 없어 생성기 카메라 칸에 1024×1536 명시"
+              }
+            ],
+            "locked": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "random_selection": {
+              "method": "tools/casual-plan.cjs",
+              "manual_changes": "none"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "마폭시",
+        "species": "delphox-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "asymmetric_lingerie",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "pose": "hands_in_hair",
+            "expr": "mischievous",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "surgical_tech",
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "pose": "gentle_pat",
+            "expr": "proud",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "materials_lab",
+            "garments": [
+              "shorts",
+              "vest"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "mid_stride",
+            "expr": "amused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "vest",
+            "shorts"
+          ],
+          "orient": [
+            "over_shoulder",
+            "three_quarter_back",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "casual-ledger check and reservation stamp verify passed",
+  "revision": {
+    "slot": "casual3",
+    "blocked_example": "onsen_after",
+    "reason": "image_gen output moderation blocked (sexual), request de3decde-49bf-40e2-bfd2-82de22f6113d",
+    "replacement": "wrap_swim",
+    "reservation_commit": "6b503b437405463858290f5ae0577dcec83be65b"
+  },
+  "visual_comparison": {
+    "cards": [
+      "푸호꼬",
+      "단굴",
+      "눈쓰개"
+    ],
+    "observed": "기차역의 쪼그린 가방 확인 / 위에서 본 쿠션과 로브 / 풀장에 선 랩 수영복 매듭 동작이 서로 구분됨. 비교 대상의 궁궐·여행·이브닝·식물돌봄과 구별됨."
+  }
+}
