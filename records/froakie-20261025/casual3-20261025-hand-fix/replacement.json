@@ -1,0 +1,33 @@
+{
+  "card": "개구마르",
+  "slot": "casual3",
+  "file": "개구마르_glossy_promo_f_casual3.webp",
+  "repository": "pkm-atelier-img-3",
+  "reason": "손 수정 — 앞 그림은 들어 올린 왼팔이 어깨 뒤로 접힌 채 손바닥을 카메라로 돌려 흔들어 팔이 불가능하게 꼬여 보였다. 새 그림은 두 손 모두 몸 앞 엉덩이 쪽에서 빛나는 드레스 자락을 잡는다. 얼굴·머리·드레스·빛줄기 배경·낮은 각도는 그대로. 사용자가 직접 고친 그림(이 세션의 머리 만지기 수정안은 쓰지 않음).",
+  "previous_webp_sha256": "b3e98bd8fbf5414857e417ca7cdcc2989be711174920b88737a161a3bafd6890",
+  "source_sha256": "c0acaaa84207e52fad9c1ee7e81d68753fb5318037593353cc11fd3167272a1c",
+  "actual_input_format": "PNG",
+  "retained_original": null,
+  "output": {
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "10479316ea30e0a0e931da2e2e8ed89b71f51d24c48101688fadafb42922e23f"
+  },
+  "provenance": "사용자가 직접 고쳐 만든 그림. 이 세션에서는 WebP 변환만 했다. 원본 PNG 는 올리지 않는다(IMAGE_RULES 5절).",
+  "plan": "records/froakie-20261025/plan.json 의 cut 3(source_editorial · luminous_circuit · bored · waving · low_angle · three_quarter · documentary35) 중 pose 가 달라졌다 — waving(손 흔들기) 대신 두 손으로 드레스 자락 잡기. 계획은 고치지 않고 여기 적기만 한다.",
+  "look_check": "node tools/casual-look.cjs check --card 개구마르 (casual1, casual2, 고친 casual3) — 통과",
+  "anatomy": {
+    "tool": "tools/anatomy-check.py — check · 왼팔 끝의 손이 오른손으로 보인다",
+    "arms": 2,
+    "hands": "두 손 — 몸 앞 엉덩이 쪽에서 드레스 자락을 잡음",
+    "overlay_checked": true,
+    "note": "손 부분을 잘라 직접 봄 — 천에 손이 가려 생긴 잘못 잡힘으로 판단. 두 번째 인물 없음"
+  },
+  "user_approval": "응 올려줘",
+  "at": "2026-10-25"
+}
