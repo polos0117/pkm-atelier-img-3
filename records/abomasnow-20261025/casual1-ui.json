@@ -1,0 +1,119 @@
+{
+  "storage": {
+    "last": "눈설왕",
+    "cards": {
+      "눈설왕": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "laughing_open",
+            "pose": "standing_relaxed",
+            "orient": "rear_3q",
+            "scene": "A bicycle helmet rests on the handlebar of her road bike; she checks its chin strap at a mountain cycling rest stop in crisp morning light.",
+            "outfit": "A fitted white-and-forest-green cycling jersey with an open-back panel, mini-length bib-overall shorts, close-fitting cycling shoes and one small leaf-shaped zipper pull.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "",
+            "custom": "EDIT ONLY the second attached image, which is the existing scene. Preserve its woman, face, hair, outfit, hands, bicycle, pose, framing, lighting and landscape. Replace the entire information board at far left with a simple painted mountain-and-lake landscape without markings; replace the tiny textlike marks on both glove wristbands with plain solid fabric. The first image is facial identity reference only.",
+            "aspect": "2:3",
+            "cat": "active",
+            "catCustom": "",
+            "ex": "cycling_kit",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "overall_intensity": true,
+              "skin_exposure": true,
+              "action_level": true,
+              "source_influence": true,
+              "separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Abomasnow (눈설왕) personified, grass / ice type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: rear three-quarter view showing back and one flank; the head turns no more than a quarter turn, face in profile or three-quarter\nScene: A bicycle helmet rests on the handlebar of her road bike; she checks its chin strap at a mountain cycling rest stop in crisp morning light.\nOutfit and props: A fitted white-and-forest-green cycling jersey with an open-back panel, mini-length bib-overall shorts, close-fitting cycling shoes and one small leaf-shaped zipper pull.\nCategory: Show real movement with fashion-forward activewear or movement-oriented clothing. Avoid generic gym snapshots. Prioritize dynamic motion, readable silhouette, waist and hip lines, fabric movement, and varied action.\nExample scene: in a cycling jersey and bib shorts, checking her bicycle and buckling a helmet\nNote: EDIT ONLY the second attached image, which is the existing scene. Preserve its woman, face, hair, outfit, hands, bicycle, pose, framing, lighting and landscape. Replace the entire information board at far left with a simple painted mountain-and-lake landscape without markings; replace the tiny textlike marks on both glove wristbands with plain solid fabric. The first image is facial identity reference only.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "ui_source": "Actual generator UI loaded with selected controls; visible #prompt-output exactly equals submitted prompt",
+  "prompt_fnv": "e44069ef",
+  "ui_verified_at": "2026-10-25T09:06:43.629Z",
+  "references": [
+    {
+      "role": "identity reference",
+      "source": "generated_images/exec-5003f0e3-48d7-4d20-b15b-e8396310e1c8.png",
+      "sha256": "9b6f250a839a2a56d8ab1851fcc800622db0b99cc8d961efd9a72adb0d92f400"
+    },
+    {
+      "role": "edit target",
+      "source": "/workspace/scratch/7c9c0c188bbc/generated_images/exec-85068889-036a-4f15-9459-9a091982c923.png",
+      "sha256": "5d2892ebe83eb6bbd3c26165a06aceb7f868d9c6de8235b49625df798682e7eb"
+    }
+  ],
+  "generation_mode": "built-in image_gen",
+  "image_tool_suffix": "Output size: 1024×1536, vertical 2:3. Image 1: identity reference. Image 2: exact edit target. Make only the specified label removal.",
+  "submitted_tool_prompt": "CHARACTER: the same woman as the attached image — Abomasnow (눈설왕) personified, grass / ice type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Stand at ease with relaxed shoulders and naturally balanced feet.\nOrientation: rear three-quarter view showing back and one flank; the head turns no more than a quarter turn, face in profile or three-quarter\nScene: A bicycle helmet rests on the handlebar of her road bike; she checks its chin strap at a mountain cycling rest stop in crisp morning light.\nOutfit and props: A fitted white-and-forest-green cycling jersey with an open-back panel, mini-length bib-overall shorts, close-fitting cycling shoes and one small leaf-shaped zipper pull.\nCategory: Show real movement with fashion-forward activewear or movement-oriented clothing. Avoid generic gym snapshots. Prioritize dynamic motion, readable silhouette, waist and hip lines, fabric movement, and varied action.\nExample scene: in a cycling jersey and bib shorts, checking her bicycle and buckling a helmet\nNote: EDIT ONLY the second attached image, which is the existing scene. Preserve its woman, face, hair, outfit, hands, bicycle, pose, framing, lighting and landscape. Replace the entire information board at far left with a simple painted mountain-and-lake landscape without markings; replace the tiny textlike marks on both glove wristbands with plain solid fabric. The first image is facial identity reference only.\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.\n\n\nOutput size: 1024×1536, vertical 2:3. Image 1: identity reference. Image 2: exact edit target. Make only the specified label removal."
+}
