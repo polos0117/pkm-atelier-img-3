@@ -1,0 +1,87 @@
+{
+  "approved_anchor": {
+    "card": "포푸니라",
+    "slot": "light",
+    "style": "glossy_promo",
+    "style_evidence": "Actual generator style selection; UI text verified before submission",
+    "source": "generated_images/exec-661f2274-ef7c-4f4b-8119-a3317711223c.png",
+    "source_sha256": "51ad8770c6638151233f2d2353733282555a646f659c5987b51288fe8e4c941a",
+    "file": "img/포푸니라_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "b535d0aa12e831a0b6aa2457a0a3f26cd9896df67acd1badd5b46a00087460c7",
+    "reference": null,
+    "references": []
+  },
+  "accepted_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "casual1",
+    "casual2",
+    "casual3",
+    "heavy_overdrive",
+    "mobility_overdrive"
+  ],
+  "qa": "complete after original-size, cropped-hand/foot and actual-image comparisons",
+  "publication": "Nine new WebP assets and these records are included together in the containing character commit; downstream thumbnail and registration commits determine completion.",
+  "original_policy": "Generated original PNG files remain session-local; hashes, UI, prompts, QA and final WebP only are published.",
+  "face_design": {
+    "source": "data/face-design.json",
+    "card": 461,
+    "family": "포푸니",
+    "reason": "갈고리 발톱과 뾰족한 볏을 좁아지는 턱·날카로운 눈매·곧은 콧대와 얇은 입술로 옮겼다. 포푸니 계열의 예리한 선은 남기면서 가늘고 곧은 눈썹과 성숙한 하안면으로 별개의 성인을 만든다.",
+    "design": {
+      "name": "포푸니라",
+      "en": "Weavile",
+      "line": "포푸니",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "sharp",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "narrow tapered chin",
+        "eye shape": "sharp",
+        "eye size": "medium",
+        "eye tilt": "upturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "thin straight brows",
+        "nose character": "straight slender bridge",
+        "lips": "thin lips"
+      },
+      "why": "갈고리 발톱과 날카로운 볏을 높은 광대와 치켜올라간 눈으로 구분한다.",
+      "cues": [
+        "악 타입 → 눈매 강하게 치켜올라간 눈",
+        "얼음 타입 → 코 곧고 가는 콧대"
+      ],
+      "adjusted": "같은 계열 포푸니와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 가늘고 곧은",
+      "hair": {
+        "hairstyle": "chignon",
+        "hair length": "long",
+        "bangs": "asymmetric bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘bright red crown’·‘oval, yellow gem-like protrusion’·악 타입에서 단정하게 말아 올린 시뇽(올림머리) · 긴 머리 · 좌우 길이가 다른 앞머리",
+      "hair_cues": [
+        "‘bright red crown’ → 헤어스타일 단정하게 말아 올린 시뇽",
+        "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+      ]
+    },
+    "comparison": "포푸니의 더 날카로운 턱끝과 비스듬한 눈썹보다 수평의 가는 눈썹·길어진 중앙 얼굴을 보인다. 단굴의 작은 둥근 눈·짧은 턱, 암트르의 넓은 광대와 묵직한 입, 타만타의 부드러운 둥근 눈·작은 코끝과 구별된다. 눈설왕의 둥근 턱·낮은 눈썹·수평 눈과도 차이가 난다.",
+    "compared_characters": [
+      "포푸니",
+      "단굴",
+      "암트르",
+      "타만타"
+    ],
+    "anchor_sha256": "51ad8770c6638151233f2d2353733282555a646f659c5987b51288fe8e4c941a",
+    "anchor_file": "img/포푸니라_light_glossy_promo_f.webp",
+    "final_face_line": "FACE (her own structure, not the style's default face): sharp face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, average spacing; thin straight brows; straight slender bridge nose; thin lips."
+  },
+  "upload_base": "11624ef6e148a19382a403f1a8eac0de21f8fe64"
+}

@@ -1,0 +1,748 @@
+{
+  "session": "abomasnow-weavile-7c9c0c-20261025",
+  "planner": "tools/casual-plan.cjs",
+  "batch_plan": {
+    "session": "abomasnow-weavile-7c9c0c-20261025",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "눈설왕",
+        "species": "abomasnow-20261025",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "active",
+            "ex": "cycling_kit",
+            "garments": [
+              "overalls",
+              "shorts"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "open back"
+            ],
+            "lead": "detail",
+            "example_text": "in a cycling jersey and bib shorts, checking her bicycle and buckling a helmet",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A bicycle helmet rests on the handlebar of her road bike; she checks its chin strap at a mountain cycling rest stop in crisp morning light.",
+                "reason": "Cycling Kit 예시에 없는 산악 호수의 휴식 지점과 오전 빛을 정하고, 헬멧이 핸들에 걸린 상태에서 버클을 확인하는 활동을 구체화했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A fitted white-and-forest-green cycling jersey with an open-back panel, mini-length bib-overall shorts, close-fitting cycling shoes and one small leaf-shaped zipper pull.",
+                "reason": "예시의 저지와 빕쇼츠를 유지하고 흰색·녹색, 등 절개와 미니 빕 기장, 신발과 작은 지퍼 장식을 정했다."
+              },
+              {
+                "field": "custom",
+                "content": "EDIT ONLY the second attached image, which is the existing scene. Preserve its woman, face, hair, outfit, hands, bicycle, pose, framing, lighting and landscape. Replace the entire information board at far left with a simple painted mountain-and-lake landscape without markings; replace the tiny textlike marks on both glove wristbands with plain solid fabric. The first image is facial identity reference only.",
+                "reason": "첫 결과 안내판과 장갑 띠에 글자 같은 무늬가 있어 그 두 영역만 풍경 그림과 단색 천으로 바꾸는 부분 수정이다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "버클을 잡고 멈춰 확인하므로 mostly posed.",
+              "source_influence": "저지와 빕의 흰색·녹색 패널로 숲과 눈의 색이 뚜렷해 strong.",
+              "separates_preference": "저지와 빕쇼츠가 나뉘므로 prefer separates."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual1-prompt.txt"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "lab_roleplay",
+            "expr": "pensive",
+            "pose": "dance_step",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "light",
+            "example_text": "a laboratory-themed costume with a crisp white coat over a fitted dress, using original decorative badges",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Cool spotlights illuminate a science-themed rehearsal stage with a wheeled demonstration table; she moves into her marked entrance beside a glass prism display.",
+                "reason": "연구실 역할극 예시가 장소를 정하지 않아 실제 직장 대신 프리즘 소품이 있는 과학 테마 리허설 무대와 차가운 스포트라이트를 보충했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A cropped white laboratory costume coat slips off the shoulders over an emerald halter minidress, with a silver geometric decorative badge and white ankle boots.",
+                "reason": "예시의 흰 코트와 밀착 드레스 구조를 유지하면서 짧은 코트·에메랄드 홀터 미니드레스·흰 부츠·기하 장식 배지를 정했다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "무대 입장 스텝 중인 순간이므로 mostly active.",
+              "source_influence": "녹색 드레스가 원작 색을 일부 잇되 흰 무대 의상이 중심이라 balanced.",
+              "separates_preference": "드레스 한 벌에 코트를 걸치는 구성이라 balanced."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual2-prompt.txt",
+            "kept_note": "Carried forward the same reserved selection during compatibility replan; this does not claim it had already been generated."
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "window_light",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "bending_over",
+            "expr": "wistful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "light",
+            "example_text": "standing in casual clothes in the light of a large window, one hand on the frame",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late-afternoon window light falls across a conservatory window frame and hanging ferns; she pauses beside the open sash to feel the air.",
+                "reason": "창가 예시에 없는 온실의 고사리와 오후 햇빛, 열린 창문에서 바람을 느끼는 작은 생활 동작을 보충했다."
+              },
+              {
+                "field": "outfit",
+                "content": "Ivory linen short overalls tailored as a halter romper with an off-shoulder ruffled neckline, leaving the shoulders and upper back visible; forest-green piping echoes her palette.",
+                "reason": "예시는 평상복이라고만 하므로 계획기의 오버롤을 린넨 홀터 롬퍼와 오프숄더 프릴, 녹색 파이핑으로 구체화했다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "창가로 상체를 살짝 기울이는 가벼운 움직임이므로 balanced.",
+              "source_influence": "흰 린넨과 녹색 파이핑의 눈·숲 색 대비가 뚜렷해 strong.",
+              "separates_preference": "짧은 오버롤 한 벌이라 balanced."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual3-prompt.txt"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "rear_3q",
+            "side"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "포푸니라",
+        "species": "weavile-20261025",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "barong_inspired",
+            "expr": "surprised",
+            "pose": "sitting_floor",
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "trousers"
+            ],
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "detail",
+            "example_text": "a barong-inspired sheer embroidered piña-style top over simple trousers or skirt",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A folded embroidered fan and a small woven sewing basket lie on a rattan mat; she examines the finished hem beside a carved wooden veranda door.",
+                "reason": "바롱 예시는 옷만 정하므로 목재 베란다·라탄 매트·수선 바구니·완성한 옷단 검사라는 활동을 보충했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A cropped piña-style barong blouse with translucent embroidered sleeves over an opaque charcoal bandeau leaves her midriff visible; a crimson mini wrap skirt layers over tailored cropped trousers with side openings, and soft red slippers finish the ensemble.",
+                "reason": "바롱 자수 상의와 바지 구조를 지키며 불투명 안감, 짧은 상의, 붉은 랩 치마와 옆 트임 바지, 슬리퍼를 정했다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "앉아서 완성된 옷단을 살피는 멈춘 순간이라 mostly posed.",
+              "source_influence": "검정 바지와 붉은 랩의 색 일부만 원작을 잇기 때문에 balanced.",
+              "separates_preference": "블라우스·스커트·바지가 나뉘므로 prefer separates."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual1-prompt.txt",
+            "kept_note": "Carried forward the same reserved selection during compatibility replan; this does not claim it had already been generated."
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "lace_set",
+            "expr": "flustered",
+            "pose": "sitting",
+            "orient": "reclining",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "light",
+            "example_text": "a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Warm lamplight and pale moonlight meet in an Art Deco dressing room; she pauses on the velvet chaise after laying a folded silk scarf on its arm.",
+                "reason": "레이스 세트 예시는 장소를 정하지 않아 아르데코 드레스룸·달빛과 램프빛·벨벳 의자·접은 실크 스카프를 보충했다."
+              },
+              {
+                "field": "outfit",
+                "content": "The black longline lace top is strapless with opaque structured cups and geometric lace edges; matching high-waisted bottoms have a high-cut leg, with a tiny crimson piping detail and black satin slippers.",
+                "reason": "예시의 검정 롱라인 탑과 높은 허리 하의·기하 레이스를 유지하며 스트랩리스 불투명 컵과 하이컷 다리선, 작은 붉은 파이핑을 정했다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "긴 의자에 앉아 잠깐 멈추는 순간이므로 mostly posed.",
+              "source_influence": "검정 세트에 작은 붉은 마감만 남기므로 subtle.",
+              "separates_preference": "이미 예시가 상하 세트를 지정해 추가 분리를 강요하지 않는 balanced."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual2-prompt.txt",
+            "kept_note": "Carried forward the same reserved selection during compatibility replan; this does not claim it had already been generated."
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "onsen_after",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "small_jog",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "light",
+            "example_text": "at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+            "locked_fields": [
+              "cat",
+              "ex",
+              "expr",
+              "pose",
+              "orient",
+              "frame",
+              "lens",
+              "aspect",
+              "overall_intensity",
+              "skin_exposure",
+              "action_level",
+              "source_influence",
+              "separates_preference"
+            ],
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Pale dawn brightens the steaming stone hot-spring terrace; she takes a few brisk warming steps beside the stone basin with her towel secured around her hips.",
+                "reason": "온천 뒤 수건 예시에 없는 새벽 빛과 물 밖에서 몸을 덥히는 짧은 걸음, 허리에 고정한 수건을 구체화했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A charcoal strapless bikini with a high-cut leg and crimson piping is visible above the securely wrapped white bath towel; waterproof sandals rest nearby.",
+                "reason": "온천 예시의 수건을 유지하면서 계획기의 비키니를 검회색·붉은 파이핑·하이컷으로 보충했다."
+              }
+            ],
+            "axes_reasons": {
+              "action_level": "물 밖에서 몸을 덥히며 빠르게 몇 걸음 옮겨 mostly active.",
+              "source_influence": "검회색·붉은 마감 일부만 수영복에 반영해 balanced.",
+              "separates_preference": "비키니와 수건이 예시로 정해져 있으므로 balanced."
+            },
+            "random_selection": {
+              "by": "tools/casual-plan.cjs",
+              "manual_changes": []
+            },
+            "prompt_file": "casual3-prompt.txt"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "barong_inspired",
+      "expr": "surprised",
+      "pose": "sitting_floor",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "trousers"
+      ],
+      "expose": [
+        "mini length",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "example_text": "a barong-inspired sheer embroidered piña-style top over simple trousers or skirt",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded embroidered fan and a small woven sewing basket lie on a rattan mat; she examines the finished hem beside a carved wooden veranda door.",
+          "reason": "바롱 예시는 옷만 정하므로 목재 베란다·라탄 매트·수선 바구니·완성한 옷단 검사라는 활동을 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped piña-style barong blouse with translucent embroidered sleeves over an opaque charcoal bandeau leaves her midriff visible; a crimson mini wrap skirt layers over tailored cropped trousers with side openings, and soft red slippers finish the ensemble.",
+          "reason": "바롱 자수 상의와 바지 구조를 지키며 불투명 안감, 짧은 상의, 붉은 랩 치마와 옆 트임 바지, 슬리퍼를 정했다."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "앉아서 완성된 옷단을 살피는 멈춘 순간이라 mostly posed.",
+        "source_influence": "검정 바지와 붉은 랩의 색 일부만 원작을 잇기 때문에 balanced.",
+        "separates_preference": "블라우스·스커트·바지가 나뉘므로 prefer separates."
+      },
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "prompt_file": "casual1-prompt.txt",
+      "kept_note": "Carried forward the same reserved selection during compatibility replan; this does not claim it had already been generated."
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "lace_set",
+      "expr": "flustered",
+      "pose": "sitting",
+      "orient": "reclining",
+      "frame": "environmental",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "light",
+      "example_text": "a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm lamplight and pale moonlight meet in an Art Deco dressing room; she pauses on the velvet chaise after laying a folded silk scarf on its arm.",
+          "reason": "레이스 세트 예시는 장소를 정하지 않아 아르데코 드레스룸·달빛과 램프빛·벨벳 의자·접은 실크 스카프를 보충했다."
+        },
+        {
+          "field": "outfit",
+          "content": "The black longline lace top is strapless with opaque structured cups and geometric lace edges; matching high-waisted bottoms have a high-cut leg, with a tiny crimson piping detail and black satin slippers.",
+          "reason": "예시의 검정 롱라인 탑과 높은 허리 하의·기하 레이스를 유지하며 스트랩리스 불투명 컵과 하이컷 다리선, 작은 붉은 파이핑을 정했다."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "긴 의자에 앉아 잠깐 멈추는 순간이므로 mostly posed.",
+        "source_influence": "검정 세트에 작은 붉은 마감만 남기므로 subtle.",
+        "separates_preference": "이미 예시가 상하 세트를 지정해 추가 분리를 강요하지 않는 balanced."
+      },
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "prompt_file": "casual2-prompt.txt",
+      "kept_note": "Carried forward the same reserved selection during compatibility replan; this does not claim it had already been generated."
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "onsen_after",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "small_jog",
+      "expr": "playful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "light",
+      "example_text": "at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+      "locked_fields": [
+        "cat",
+        "ex",
+        "expr",
+        "pose",
+        "orient",
+        "frame",
+        "lens",
+        "aspect",
+        "overall_intensity",
+        "skin_exposure",
+        "action_level",
+        "source_influence",
+        "separates_preference"
+      ],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Pale dawn brightens the steaming stone hot-spring terrace; she takes a few brisk warming steps beside the stone basin with her towel secured around her hips.",
+          "reason": "온천 뒤 수건 예시에 없는 새벽 빛과 물 밖에서 몸을 덥히는 짧은 걸음, 허리에 고정한 수건을 구체화했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal strapless bikini with a high-cut leg and crimson piping is visible above the securely wrapped white bath towel; waterproof sandals rest nearby.",
+          "reason": "온천 예시의 수건을 유지하면서 계획기의 비키니를 검회색·붉은 파이핑·하이컷으로 보충했다."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "물 밖에서 몸을 덥히며 빠르게 몇 걸음 옮겨 mostly active.",
+        "source_influence": "검회색·붉은 마감 일부만 수영복에 반영해 balanced.",
+        "separates_preference": "비키니와 수건이 예시로 정해져 있으므로 balanced."
+      },
+      "random_selection": {
+        "by": "tools/casual-plan.cjs",
+        "manual_changes": []
+      },
+      "prompt_file": "casual3-prompt.txt"
+    }
+  ],
+  "validation": "casual-ledger.py check passed and verify confirmed two matching reservation stamps before generation.",
+  "reservation_file": "records/casual-reservations/abomasnow-weavile-7c9c0c-20261025.json",
+  "generation_mode": "built-in image_gen; one standalone image per tool call",
+  "recent_visual_comparison": [
+    "눈쓰개",
+    "단굴",
+    "암트르"
+  ],
+  "visual_comparison": "세 장을 단굴·암트르·눈쓰개 일상컷과 이번 눈설왕 세 장의 실제 그림과 나란히 비교했다. 바롱 재단을 살피는 바닥 앉기, 검정 레이스 세트의 벨벳 긴 의자, 온천에서 수건을 잡고 걷는 측면은 장소·활동·옷 구조·담긴 범위가 서로 다르다. 바닥 앉기는 단굴의 물주기나 암트르의 부채 휴식과 손동작·의복·실내 구조가 다르다.",
+  "face_design": {
+    "source": "data/face-design.json",
+    "card": 461,
+    "family": "포푸니",
+    "reason": "갈고리 발톱과 뾰족한 볏을 좁아지는 턱·날카로운 눈매·곧은 콧대와 얇은 입술로 옮겼다. 포푸니 계열의 예리한 선은 남기면서 가늘고 곧은 눈썹과 성숙한 하안면으로 별개의 성인을 만든다.",
+    "design": {
+      "name": "포푸니라",
+      "en": "Weavile",
+      "line": "포푸니",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "sharp",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "narrow tapered chin",
+        "eye shape": "sharp",
+        "eye size": "medium",
+        "eye tilt": "upturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "thin straight brows",
+        "nose character": "straight slender bridge",
+        "lips": "thin lips"
+      },
+      "why": "갈고리 발톱과 날카로운 볏을 높은 광대와 치켜올라간 눈으로 구분한다.",
+      "cues": [
+        "악 타입 → 눈매 강하게 치켜올라간 눈",
+        "얼음 타입 → 코 곧고 가는 콧대"
+      ],
+      "adjusted": "같은 계열 포푸니와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 가늘고 곧은",
+      "hair": {
+        "hairstyle": "chignon",
+        "hair length": "long",
+        "bangs": "asymmetric bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘bright red crown’·‘oval, yellow gem-like protrusion’·악 타입에서 단정하게 말아 올린 시뇽(올림머리) · 긴 머리 · 좌우 길이가 다른 앞머리",
+      "hair_cues": [
+        "‘bright red crown’ → 헤어스타일 단정하게 말아 올린 시뇽",
+        "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+      ]
+    },
+    "comparison": "포푸니의 더 날카로운 턱끝과 비스듬한 눈썹보다 수평의 가는 눈썹·길어진 중앙 얼굴을 보인다. 단굴의 작은 둥근 눈·짧은 턱, 암트르의 넓은 광대와 묵직한 입, 타만타의 부드러운 둥근 눈·작은 코끝과 구별된다. 눈설왕의 둥근 턱·낮은 눈썹·수평 눈과도 차이가 난다.",
+    "compared_characters": [
+      "포푸니",
+      "단굴",
+      "암트르",
+      "타만타"
+    ],
+    "anchor_sha256": "51ad8770c6638151233f2d2353733282555a646f659c5987b51288fe8e4c941a",
+    "anchor_file": "img/포푸니라_light_glossy_promo_f.webp",
+    "final_face_line": "FACE (her own structure, not the style's default face): sharp face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, average spacing; thin straight brows; straight slender bridge nose; thin lips."
+  },
+  "replans": [
+    {
+      "before_generation": true,
+      "reason": "The first plan failed the ledger. A second plan passed; incompatible aerial-silk unitard versus leggings/tank and window jogging were replanned by the planner before generation. Reservation history is retained in img-2."
+    }
+  ]
+}
