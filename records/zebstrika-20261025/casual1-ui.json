@@ -1,0 +1,116 @@
+{
+  "card": "제브라이카",
+  "slot": "casual1",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "제브라이카",
+    "cards": {
+      "제브라이카": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "flustered",
+            "pose": "on_tiptoe",
+            "orient": "profile_close",
+            "scene": "Adjusting how the silk robe falls while reaching for the upper switch of a tall brass lamp beside a penthouse console at blue hour.",
+            "outfit": "A pale pearl silk robe draped open at the elbows over a backless charcoal silk slip with a high thigh slit and a fine white zigzag hem.",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "silk_robe_evening",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "cut": 1,
+            "garments": [
+              "robe",
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Zebstrika (제브라이카) personified, electric type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised inner brows, darting or averted eyes, mouth slightly open, faint blush across the cheeks and nose\nPose: Rise slightly onto the toes to reach a higher object without changing limb proportions.\nOrientation: side profile, close only when no explicit framing is selected\nScene: Adjusting how the silk robe falls while reaching for the upper switch of a tall brass lamp beside a penthouse console at blue hour.\nOutfit and props: A pale pearl silk robe draped open at the elbows over a backless charcoal silk slip with a high thigh slit and a fine white zigzag hem.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: a silk robe thrown over an evening slip, adjusting how it falls\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Rendered controls transcribed after live UI selection; prompt rebuilt with the same repository engine and compared with the live output.",
+  "planner_selection": {
+    "cut": 1,
+    "cat": "private_evening",
+    "ex": "silk_robe_evening",
+    "garments": [
+      "robe",
+      "slip"
+    ],
+    "orient": "profile_close",
+    "frame": "waist_up",
+    "pose": "on_tiptoe",
+    "expr": "flustered",
+    "lens": "wide24",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "open back"
+    ],
+    "lead": "action"
+  },
+  "direct_input_reasons": {
+    "scene": "실크 이브닝 예시에 없는 램프 끄기 활동과 청색 시간대 지정",
+    "outfit": "계획 robe+slip과 등을 여는 구조·허벅지 슬릿을 실크 소재로 구체화",
+    "axes": "램프에 손을 뻗는 동작 mostly active, 흑백 소품 balanced, 드레스형 슬립 balanced"
+  },
+  "axes_reasons": "램프에 손을 뻗는 동작 mostly active, 흑백 소품 balanced, 드레스형 슬립 balanced",
+  "reservation_session": "blitzle-zebstrika-20261025-acc8",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes"
+}
