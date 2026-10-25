@@ -235,5 +235,17 @@
       }
     }
   },
-  "replanning": "Ungenerated plans only: exclude scene/pose conflicts and repeated silhouettes via planner; no existing images replaced."
+  "replanning": "Ungenerated plans only: exclude scene/pose conflicts and repeated silhouettes via planner; no existing images replaced.",
+  "partial_edits": [
+    {
+      "slot": "casual3",
+      "reason": "User requested removal of extra third hand/arm",
+      "changed_settings": "None: existing scene, clothing, pose and framing preserved; partial object removal only",
+      "references": [
+        "canonical light image",
+        "existing casual3 image"
+      ],
+      "correction_record": "corrections/arm-fix-20261025/correction.json"
+    }
+  ]
 }

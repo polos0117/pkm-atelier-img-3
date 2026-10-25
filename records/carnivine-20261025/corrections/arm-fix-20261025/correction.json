@@ -1,0 +1,44 @@
+{
+  "card": "무스틈니",
+  "slot": "casual3",
+  "operation": "partial_edit",
+  "requested": "Remove extra third arm/hand and reupload",
+  "date_kst": "2026-10-25T12:24:33.239920+09:00",
+  "generator": "built-in image_gen",
+  "reference_identity": "무스틈니_light_glossy_promo_f.webp",
+  "edit_target": "무스틈니_glossy_promo_f_casual3.webp",
+  "previous_webp_sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e",
+  "edited_original_sha256": "8b076ff6acf759d3371a978f8c27e4241215aaed1f652a34c3dc358a78d4bf3d",
+  "new_webp_sha256": "16a5dcc32c67e1676ece52b3e20da63bb1ef4be8487a710dfabdaf5e2e6ad1aa",
+  "format": "WEBP",
+  "size": [
+    1024,
+    1536
+  ],
+  "encoding": {
+    "quality": 85,
+    "method": 6
+  },
+  "prompt_file": "prompt.txt",
+  "attempts": [
+    {
+      "attempt": 1,
+      "result": "Output moderation blocked; no image returned",
+      "request_id": "6658b873-84c7-43a3-bef9-3a0ab6e98b02"
+    },
+    {
+      "attempt": 2,
+      "result": "Image returned; exact same prompt and reference images"
+    }
+  ],
+  "manual_review": {
+    "extra_hand_removed": true,
+    "arms": 2,
+    "hands": 2,
+    "towel": "No flesh or stray wrist remains on towel; white towel folds reconstructed over companion",
+    "preserved": "Face, braid, two overhead arms, clothing, seated pose, Bulbasaur and porch composition retained",
+    "fingers": "Two overhead hands overlap; some fingers occluded, not all separately countable",
+    "tool_warning": "arm_ratio warning inspected: inferred wrist lies on bent upper arm/elbow region, so automatic length estimate is unreliable; both actual arms remain continuous"
+  },
+  "original_png": "session only; not uploaded"
+}

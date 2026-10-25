@@ -150,7 +150,7 @@
     "identity": "Same olive braid, green eyes and tapered face.",
     "scene": {
       "match": false,
-      "evidence": "One separate Bulbasaur under towel and a folded umbrella on porch. Woman stretches rather than using her two main hands to wipe rain; an extra hand appears on towel."
+      "evidence": "One separate Bulbasaur under towel and folded umbrella; woman stretches overhead rather than wiping. This scene difference is preserved because the user requested only the extra-arm correction."
     },
     "outfit": "Ivory halter tie shirt and rust-red wrap skirt; midriff and shoulders exposed, leaf clasp at collar.",
     "direction": {
@@ -166,17 +166,21 @@
       "evidence": "Wide laughing mouth, cheeks raised, eyes open and engaged."
     },
     "anatomy": {
-      "tool": "check · 몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다; 손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 3.2 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다",
-      "arms": 3,
-      "legs": "two visible to cropped knees",
-      "hands": "Two hands overlap above head, plus a third hand on Bulbasaur's towel; the extra hand cannot belong to either overhead arm.",
+      "tool": "check · 오른팔 아래팔/위팔 길이 비 1.94 — 사람 범위 0.30~1.60 밖(늘어나거나 짧아진 팔)",
+      "arms": 2,
+      "legs": "two legs visible to cropped knees",
+      "hands": "Exactly two hands overlap overhead; thumbs/fingers partly occluded in the grip. No third hand remains on towel.",
       "overlay_checked": true,
-      "note": "FAILED anatomy: extra third hand/arm. Preserve generated original and publish under standing user post-upload visual review / no automatic replacement instruction; do not label accepted or passed."
+      "note": "Extra towel hand removed. Tool arm-length warning reviewed against original-sized image and hand crop; estimated wrist falls on raised arm rather than true wrist. Actual two shoulder-elbow-wrist paths are continuous."
     },
-    "qa_pass": false,
-    "known_issue": "Extra third hand and arm on towel beside companion; needs user-directed correction if requested.",
-    "image_sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e",
+    "qa_pass": true,
+    "known_issue": null,
+    "image_sha256": "16a5dcc32c67e1676ece52b3e20da63bb1ef4be8487a710dfabdaf5e2e6ad1aa",
     "reviewer": "gpt",
-    "decision": "preserve generated result for user review; no automatic replacement"
+    "decision": "User-requested corrected replacement, manually reviewed",
+    "qa_scope": "user-requested removal of the extra third arm/hand",
+    "resolved_issue": "Extra human hand/arm on towel removed by approved partial edit",
+    "original_sha256": "8b076ff6acf759d3371a978f8c27e4241215aaed1f652a34c3dc358a78d4bf3d",
+    "correction_record": "corrections/arm-fix-20261025/correction.json"
   }
 }

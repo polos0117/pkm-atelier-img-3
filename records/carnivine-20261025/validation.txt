@@ -3,3 +3,5 @@ forms.cjs passed.
 casual-look check passed; closest cut distance 229, above rejection threshold 215.
 9 anatomy checks executed; manual full-image and hand-crop review completed.
 Known failed visual QA: casual3 has extra third arm/hand. Preserved for user review.
+
+2026-10-25 user-requested correction: extra towel hand removed. Manual count: two overhead arms and two hands. Automatic check reports arm_ratio; overlay reviewed, wrist landmark misplaced. Exact original-sized target composition retained. New WebP SHA256: 16a5dcc32c67e1676ece52b3e20da63bb1ef4be8487a710dfabdaf5e2e6ad1aa

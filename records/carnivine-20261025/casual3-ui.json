@@ -74,9 +74,9 @@
       }
     }
   },
-  "prompt": "CHARACTER: the same woman as the attached image — Carnivine (무스틈니) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: torso leaning backward with clear support\nScene: A soft towel catches droplets beside a small Bulbasaur on a porch bench; the storm is easing over the garden and a folded umbrella rests at the steps.\nOutfit and props: An ivory halter-neck shirt ties above her waist, paired with a rust-red wrap skirt; her shoulders and midriff stay bare, with a small green leaf clasp at the collar.\nCategory: Show a quiet personal moment caring for a Pokémon companion. Make the interaction, supporting props and comfortable setting specific; keep the approved woman as the main subject and any companion anatomically separate.\nExample scene: Wiping rain from a Pokémon companion with a towel under a covered porch, umbrellas resting nearby.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE WOMAN ONLY, with exactly one Pokémon companion as the scene describes — a separate creature at its own natural scale, its body never merged with hers, not a second human and not dressed like her. No other person or creature, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "prompt": "Use case: precise-object-edit.\nInput image 1 is the approved light-form identity reference. Input image 2 is the EDIT TARGET, the porch scene. Edit image 2 only.\nOutput exactly one vertical 2:3 image, 1024×1536.\n\nFIX ONLY THE EXTRA HUMAN HAND / THIRD ARM: the woman already has her two correct arms raised over her head, with both correct hands meeting at the upper-left edge of the picture. Keep those two raised arms and hands exactly in their existing pose. Remove the additional human hand resting on the white towel immediately above Bulbasaur's forehead at the middle-left of the image (approximately x=240–350, y=730–820 in the 1024×1536 target), including any extra wrist or flesh connection leading from it toward her waist. This towel hand is the erroneous third hand. Restore that small area as uninterrupted fluffy white towel folds over Bulbasaur, with matching rain droplets and lighting. The finished woman must have exactly two arms and exactly two hands, both still raised overhead. No hand or arm remains on the towel or near the companion.\n\nKEEP EXACTLY: her face, open-eyed laugh, green eyes, olive-green bangs and long thick single braid with the red ribbon; the shape and position of her two real raised arms and overhead hands; her torso, waist, legs and seated pose; the ivory halter shirt, green leaf clasp and rust-red patterned wrap skirt; camera angle, crop, framing, body size and background. Keep the single Bulbasaur's face, body, bulb and location; the white towel, porch bench, wooden architecture, umbrella, garden, rain droplets and warm clearing sunlight. Preserve the same polished anime linework, color, detailed textures and shading. Do not add text or change any other detail.\n",
   "selection_confirmed_in_live_ui": true,
-  "capture_note": "Controls transcribed from the live generator UI; prompt generated using the repository engine and compared with its visible output.",
+  "capture_note": "Original generator UI state retained as scene provenance; final submitted prompt is the user-requested targeted image edit recorded here.",
   "planner_selection": {
     "cut": 3,
     "cat": "partner_care",
@@ -112,5 +112,51 @@
   "axes_reasons": "Reaching the towel across her companion is mostly active; a single leaf clasp and earthy colors give balanced source influence; shirt and skirt prefer separates.",
   "reservation_session": "toxicroak-carnivine-20261025-5a3f",
   "reservation_commit": "connector fast-forward main",
-  "randomization": "casual-plan.cjs only; no manual option changes"
+  "randomization": "casual-plan.cjs only; no manual option changes",
+  "original_generator_prompt": "CHARACTER: the same woman as the attached image — Carnivine (무스틈니) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: mouth open wide in a laugh with teeth showing and cheeks raised, but the eyes stay open and engaged — lids only slightly narrowed, gaze still readable rather than squeezed shut\nPose: Stretch the arms and upper back gently in a comfortable everyday motion.\nOrientation: torso leaning backward with clear support\nScene: A soft towel catches droplets beside a small Bulbasaur on a porch bench; the storm is easing over the garden and a folded umbrella rests at the steps.\nOutfit and props: An ivory halter-neck shirt ties above her waist, paired with a rust-red wrap skirt; her shoulders and midriff stay bare, with a small green leaf clasp at the collar.\nCategory: Show a quiet personal moment caring for a Pokémon companion. Make the interaction, supporting props and comfortable setting specific; keep the approved woman as the main subject and any companion anatomically separate.\nExample scene: Wiping rain from a Pokémon companion with a towel under a covered porch, umbrellas resting nearby.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE WOMAN ONLY, with exactly one Pokémon companion as the scene describes — a separate creature at its own natural scale, its body never merged with hers, not a second human and not dressed like her. No other person or creature, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "operation": "partial_edit",
+  "edit": {
+    "card": "무스틈니",
+    "slot": "casual3",
+    "operation": "partial_edit",
+    "requested": "Remove extra third arm/hand and reupload",
+    "date_kst": "2026-10-25T12:24:33.239920+09:00",
+    "generator": "built-in image_gen",
+    "reference_identity": "무스틈니_light_glossy_promo_f.webp",
+    "edit_target": "무스틈니_glossy_promo_f_casual3.webp",
+    "previous_webp_sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e",
+    "edited_original_sha256": "8b076ff6acf759d3371a978f8c27e4241215aaed1f652a34c3dc358a78d4bf3d",
+    "new_webp_sha256": "16a5dcc32c67e1676ece52b3e20da63bb1ef4be8487a710dfabdaf5e2e6ad1aa",
+    "format": "WEBP",
+    "size": [
+      1024,
+      1536
+    ],
+    "encoding": {
+      "quality": 85,
+      "method": 6
+    },
+    "prompt_file": "prompt.txt",
+    "attempts": [
+      {
+        "attempt": 1,
+        "result": "Output moderation blocked; no image returned",
+        "request_id": "6658b873-84c7-43a3-bef9-3a0ab6e98b02"
+      },
+      {
+        "attempt": 2,
+        "result": "Image returned; exact same prompt and reference images"
+      }
+    ],
+    "manual_review": {
+      "extra_hand_removed": true,
+      "arms": 2,
+      "hands": 2,
+      "towel": "No flesh or stray wrist remains on towel; white towel folds reconstructed over companion",
+      "preserved": "Face, braid, two overhead arms, clothing, seated pose, Bulbasaur and porch composition retained",
+      "fingers": "Two overhead hands overlap; some fingers occluded, not all separately countable",
+      "tool_warning": "arm_ratio warning inspected: inferred wrist lies on bent upper arm/elbow region, so automatic length estimate is unreliable; both actual arms remain continuous"
+    },
+    "original_png": "session only; not uploaded"
+  }
 }

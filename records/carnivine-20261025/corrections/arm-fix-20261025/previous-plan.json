@@ -1,0 +1,239 @@
+{
+  "session": "toxicroak-carnivine-20261025-5a3f",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "hair_tie",
+      "garments": [
+        "robe"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "squatting",
+      "expr": "serious",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "mini length"
+      ],
+      "lead": "light"
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "sarong_wrap",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "front_3q",
+      "frame": "full_body",
+      "pose": "leaning_furniture",
+      "expr": "laughing",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "place"
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_rain_shelter",
+      "garments": [
+        "shirt",
+        "skirt"
+      ],
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "pose": "stretching",
+      "expr": "laughing_open",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "halter neck"
+      ],
+      "lead": "detail"
+    }
+  ],
+  "character": {
+    "card": "무스틈니",
+    "species": "carnivine-20261025",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "everyday_sensual",
+        "ex": "hair_tie",
+        "garments": [
+          "robe"
+        ],
+        "orient": "crouching",
+        "frame": "environmental",
+        "pose": "squatting",
+        "expr": "serious",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "off-shoulder neckline",
+          "mini length"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 2,
+        "cat": "swimwear",
+        "ex": "sarong_wrap",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "front_3q",
+        "frame": "full_body",
+        "pose": "leaning_furniture",
+        "expr": "laughing",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 3,
+        "cat": "partner_care",
+        "ex": "care_rain_shelter",
+        "garments": [
+          "shirt",
+          "skirt"
+        ],
+        "orient": "leaning_back",
+        "frame": "three_quarter",
+        "pose": "stretching",
+        "expr": "laughing_open",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "bare midriff",
+          "halter neck"
+        ],
+        "lead": "detail"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "swimsuit",
+        "shirt",
+        "skirt"
+      ],
+      "orient": [
+        "crouching",
+        "front_3q",
+        "leaning_back"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed before generation",
+  "reservation_commit": "771386faac9ca9eca3c6155d128aaa586c3134bb",
+  "direct_input_details": {
+    "1": {
+      "scene": "Morning light from frosted bathroom windows grazes pale green tiles, with a linen towel and hair ribbon on a low wooden stool.",
+      "outfit": "A short opaque sage robe is securely belted, with an off-shoulder collar and mini hem exposing her shoulders and thighs; its subtle red seam stitching echoes her source palette.",
+      "reasons": {
+        "scene": "Add bathroom materials and accessible hair ribbon, without repeating the example's hair-tying action.",
+        "outfit": "Retain a soft robe but specify the selected open shoulders and short hem.",
+        "axes": "Hair tying in a stable squat is mostly posed; green and red motif colors supply the selected strong source influence; a robe is one piece."
+      }
+    },
+    "2": {
+      "scene": "A weathered white beach cabana faces a turquoise cove, with a wicker side table and striped cushion in clear midday sun.",
+      "outfit": "Her opaque dark green one-piece swimsuit has a plunging neckline and high-cut legs; a coral leaf-print sarong knots at one hip and falls open along the other thigh.",
+      "reasons": {
+        "scene": "The swimwear example has no place, so add a cabana with usable furniture and seaside light.",
+        "outfit": "Specify swimsuit color and structure while preserving the required printed hip-knotted sarong.",
+        "axes": "Leaning against the table gives balanced light motion; green with leaf-print coral supplies balanced source echoes; the swimsuit remains one piece."
+      }
+    },
+    "3": {
+      "scene": "A soft towel catches droplets beside a small Bulbasaur on a porch bench; the storm is easing over the garden and a folded umbrella rests at the steps.",
+      "outfit": "An ivory halter-neck shirt ties above her waist, paired with a rust-red wrap skirt; her shoulders and midriff stay bare, with a small green leaf clasp at the collar.",
+      "reasons": {
+        "scene": "Name exactly one companion and explain the towel and easing storm required for the care example.",
+        "outfit": "Construct the selected shirt and skirt as a halter and cropped hem, with one small source accessory.",
+        "axes": "Reaching the towel across her companion is mostly active; a single leaf clasp and earthy colors give balanced source influence; shirt and skirt prefer separates."
+      }
+    }
+  },
+  "replanning": "Ungenerated plans only: exclude scene/pose conflicts and repeated silhouettes via planner; no existing images replaced."
+}

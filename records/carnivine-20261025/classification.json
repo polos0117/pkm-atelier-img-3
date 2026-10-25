@@ -138,8 +138,8 @@
     "card": "무스틈니",
     "slot": "casual3",
     "style": "glossy_promo",
-    "basis": "live generator UI choices and prompt comparison",
-    "original_sha256": "ee628c91c4dc94502f5815ceae3b7cb47d9ad24fd16be6789037a8d7f583d985",
+    "basis": "User requested extra arm correction; direct built-in image edit using canonical light image and target",
+    "original_sha256": "8b076ff6acf759d3371a978f8c27e4241215aaed1f652a34c3dc358a78d4bf3d",
     "original_session_only": true,
     "filename": "무스틈니_glossy_promo_f_casual3.webp",
     "size": [
@@ -147,8 +147,10 @@
       1536
     ],
     "format": "WEBP",
-    "sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e",
+    "sha256": "16a5dcc32c67e1676ece52b3e20da63bb1ef4be8487a710dfabdaf5e2e6ad1aa",
     "reference_slot": "light",
-    "reference_sha256": "ced17f011feb75b2ba2991c4476805e381256d2acb72244fb98d517bf6c7dabf"
+    "reference_sha256": "ced17f011feb75b2ba2991c4476805e381256d2acb72244fb98d517bf6c7dabf",
+    "operation": "partial_edit",
+    "edit_target_sha256": "25a62903dddb1b47e7a419ae42ce0b01192914c4c31c6954aa0dff28bbda5c3e"
   }
 ]
