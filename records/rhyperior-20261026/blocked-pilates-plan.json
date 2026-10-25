@@ -1,0 +1,370 @@
+{
+  "batch": {
+    "session": "gpt-rhyperior-tangrowth-20261026-24d8",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "거대코뿌리",
+        "species": "rhyperior-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "active",
+            "ex": "pilates",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "mid_action",
+            "expr": "determined",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "bending_over",
+            "expr": "mischievous",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "kaftan_daily",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "dance_step",
+            "expr": "proud",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": []
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "lingerie_set"
+          ],
+          "orient": [
+            "leaning_back",
+            "leaning_forward",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "덩쿠림보",
+        "species": "tangrowth-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "bunny",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "high_angle",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "playful",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "yukata_poolside",
+            "garments": [
+              "traditional"
+            ],
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "pose": "mid_stride",
+            "expr": "flustered",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "cropped hem",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "transit_control",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "pose": "sitting_floor",
+            "expr": "laughing_open",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "traditional",
+            "overalls"
+          ],
+          "orient": [
+            "high_angle",
+            "front_3q",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "거대코뿌리",
+    "species": "rhyperior-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "active",
+        "ex": "pilates",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "leaning_back",
+        "frame": "three_quarter",
+        "pose": "mid_action",
+        "expr": "determined",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "strapless top",
+          "high thigh slit"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "garter_set",
+        "garments": [
+          "lingerie_set"
+        ],
+        "orient": "leaning_forward",
+        "frame": "chest_up",
+        "pose": "bending_over",
+        "expr": "mischievous",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 3,
+        "cat": "traditional",
+        "ex": "kaftan_daily",
+        "garments": [
+          "dress"
+        ],
+        "orient": "rear_3q",
+        "frame": "full_body",
+        "pose": "dance_step",
+        "expr": "proud",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "halter neck",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": []
+      },
+      "low": [
+        "occupation_basic",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "jumpsuit",
+        "lingerie_set"
+      ],
+      "orient": [
+        "leaning_back",
+        "leaning_forward",
+        "rear_3q"
+      ],
+      "frame": []
+    }
+  },
+  "replanning": "Planner excluded aodai_daily because garments conflicted with its recognizable outfit, and burkini_modest because it conflicts with bold exposure. Entire batch replanned before any casual generation."
+}
