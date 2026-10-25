@@ -1,0 +1,121 @@
+{
+  "card": "도치보구",
+  "slot": "casual2",
+  "ui_source": "https://polos0117.github.io/pkm-atelier/prompt.html",
+  "storage": {
+    "version": 2,
+    "last": "도치보구",
+    "cards": {
+      "도치보구": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "casual": {
+            "expr": "smug",
+            "pose": "small_jog",
+            "orient": "turning_midmotion",
+            "scene": "Amber stage lights spill across a backstage corridor at a Pokémon Contest, where a handheld microphone and interview notes are ready for the next broadcast segment.",
+            "outfit": "A terracotta halter-neck reporter dress has a deep thigh slit, exposing her shoulders and one leg, with low ankle boots and a small green earpiece.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Supporting image 2 is the edit target. Remove only the tiny printed writing on the exposed paper edge beside the clipboard; keep its colored tabs. Preserve the entire image, including both hands, microphone, clipboard, outfit, pose, face, lighting and background.",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "broadcast_director",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {},
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            },
+            "kept": true,
+            "cut": 2,
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Quilladin (도치보구) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one mouth corner lifted, lids lowered in a knowing look, chin tipped slightly up\nPose: Jog lightly with compact arm movement and a believable running step.\nOrientation: mid-turn body motion with equipment following its body mounts\nScene: Amber stage lights spill across a backstage corridor at a Pokémon Contest, where a handheld microphone and interview notes are ready for the next broadcast segment.\nOutfit and props: A terracotta halter-neck reporter dress has a deep thigh slit, exposing her shoulders and one leg, with low ankle boots and a small green earpiece.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon Contest reporter checking a microphone and interview notes backstage before a broadcast.\nNote: Supporting image 2 is the edit target. Remove only the tiny printed writing on the exposed paper edge beside the clipboard; keep its colored tabs. Preserve the entire image, including both hands, microphone, clipboard, outfit, pose, face, lighting and background.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_confirmed_in_live_ui": true,
+  "capture_note": "Actual live generator controls selected via browser; stored values transcribed to repository prompt engine.",
+  "planner_selection": {
+    "kept": true,
+    "cut": 2,
+    "cat": "occupation_sensual",
+    "ex": "broadcast_director",
+    "expr": "smug",
+    "pose": "small_jog",
+    "orient": "turning_midmotion",
+    "frame": "full_body",
+    "lens": "documentary35",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "garments": [
+      "dress"
+    ],
+    "expose": [
+      "high thigh slit",
+      "halter neck"
+    ],
+    "lead": "light"
+  },
+  "direct_input_reasons": {
+    "scene": "The reporter example fixes microphone, notes and backstage; amber stage light and the corridor refine the broadcast setting.",
+    "outfit": "No outfit is specified by the example; the planner's halter dress and thigh slit give a complete reporter look with the required exposure.",
+    "axes": "The selected light jog makes the transition mostly active; earth and green tones keep source influence balanced; the one-piece dress uses balanced garment preference.",
+    "custom": "Enlargement of the interview-note edge revealed tiny invented writing; this is a localized text removal with canonical light and the existing reporter result."
+  },
+  "axes_reasons": "The selected light jog makes the transition mostly active; earth and green tones keep source influence balanced; the one-piece dress uses balanced garment preference.",
+  "reservation_session": "chespin-quilladin-20261025-e406",
+  "reservation_commit": "connector fast-forward main",
+  "randomization": "casual-plan.cjs only; no manual option changes",
+  "example_original": "Pokémon Contest reporter checking a microphone and interview notes backstage before a broadcast.",
+  "actual_references": {
+    "light": "9c3b3d0f43ad349f6442e7739780c2370902ab4fcb4268ce76af2422af57c720",
+    "edit_target": "84367187d5d991936f753ed4148b8d5dee92563cf48acd9ad110580baeeac937"
+  }
+}
