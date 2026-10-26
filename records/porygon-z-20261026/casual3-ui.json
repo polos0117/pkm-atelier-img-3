@@ -1,0 +1,158 @@
+{
+  "storage": {
+    "last": "폴리곤Z",
+    "cards": {
+      "폴리곤Z": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "scene": "She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.",
+            "outfit": "Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "port_operations",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Porygon-Z (폴리곤Z) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nSCENE (chosen):\nExpression: brows released upward and outward, eyes half closed, breath-out mouth slightly open, whole face loosened\nPose: Adjust a shoulder strap with one hand while supporting the travel bag naturally.\nOrientation: body turned away, head looking back over one shoulder — a quarter turn at most, face in three-quarter or profile with the chin above that shoulder\nScene: She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.\nOutfit and props: Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon port guide checking travel bags and a coastal route map beside a passenger ferry dock.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 3,
+    "cat": "occupation_basic",
+    "ex": "port_operations",
+    "garments": [
+      "overalls"
+    ],
+    "orient": "over_shoulder",
+    "frame": "chest_up",
+    "pose": "adjusting_bag",
+    "expr": "relieved",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "strapless top",
+      "mini length"
+    ],
+    "lead": "action"
+  },
+  "source": "actual local prompt.html UI",
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.",
+      "reason": "Adds details absent from port_operations: She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk."
+    },
+    {
+      "field": "outfit",
+      "content": "Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+      "reason": "Defines the reserved overalls construction and strapless top+mini length for port_operations."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Built-in image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "balanced for port_operations and adjusting_bag",
+    "source": "subtle via Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+    "separates": "balanced follows overalls"
+  },
+  "planner_selection": "All selection values and locks loaded from stamped planner URL; no manual selection changes.",
+  "partial_edit": {
+    "reason": "Far forearm crossed behind torso and a hand appeared disconnected at the bag. Corrected far arm to visible elbow-wrist-hand on hip, removed stray bag hand. Near hand holds the travel strap.",
+    "references": [
+      "generated_images/exec-39faa50f-f9ac-4694-bf72-911afcd268dd.png",
+      "generated_images/exec-2fda1429-97b2-46be-bd1a-e5849b7d99f3.png"
+    ],
+    "submitted_prompt": "EDIT image 2, using image 1 only as the woman's identity anchor. Preserve image 2's face, blue ponytail, expression, strapless blue short overalls, ferry dock at sunset, coastal maps and open travel bag, camera angle and crop. Correct only her far arm and the disconnected-looking hand at the travel bag. She has exactly TWO arms. Keep the near arm bent upward holding the overall buckle near her chest exactly as it is. Her far arm is the arm along the viewer-left edge: keep that upper arm, then make its elbow bend naturally so its short forearm and hand rest visibly against her own viewer-left waist/hip, with a continuous readable elbow-wrist-hand connection; five natural fingers. Remove the entire stray hand and forearm that currently emerge from behind her lower viewer-right waist into the open bag. The open bag remains resting on the dock rail/table beside her, with maps visible and no hand inside it. Preserve all other details. One adult woman, same glossy anime style, vertical 2:3 1024x1536.\n",
+    "rejected_original_sha256": "d669c9f246ceca13556be4c413343ab3e0d4fd330decaff412d070d53a1e6333"
+  }
+}

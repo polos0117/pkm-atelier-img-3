@@ -1,0 +1,149 @@
+{
+  "storage": {
+    "last": "폴리곤Z",
+    "cards": {
+      "폴리곤Z": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "pensive",
+            "pose": "contrapposto",
+            "orient": "looking_down",
+            "scene": "The grooming salon has a blue padded platform, a wall of folded pale towels and a basket of soft brushes in late-afternoon light.",
+            "outfit": "A blue halter-neck wrap dress with black piping, a fitted waist and a high thigh slit, exposing her shoulders and one leg; practical flat sandals complete the salon outfit.",
+            "frame": "full_body",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "surgical_tech",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Porygon-Z (폴리곤Z) personified, normal type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: gaze angled down and away, slightly furrowed brow, lips lightly pressed or touched\nPose: Rest weight on one leg with the opposite knee relaxed in natural contrapposto.\nOrientation: gaze directed downward; camera height unchanged\nScene: The grooming salon has a blue padded platform, a wall of folded pale towels and a basket of soft brushes in late-afternoon light.\nOutfit and props: A blue halter-neck wrap dress with black piping, a fitted waist and a high thigh slit, exposing her shoulders and one leg; practical flat sandals complete the salon outfit.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Pokémon groomer arranging brushes and clean towels beside a padded grooming platform in a salon.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 2,
+    "cat": "occupation_sensual",
+    "ex": "surgical_tech",
+    "garments": [
+      "dress"
+    ],
+    "orient": "looking_down",
+    "frame": "full_body",
+    "pose": "contrapposto",
+    "expr": "pensive",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "halter neck",
+      "high thigh slit"
+    ],
+    "lead": "place"
+  },
+  "source": "actual local prompt.html UI",
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "The grooming salon has a blue padded platform, a wall of folded pale towels and a basket of soft brushes in late-afternoon light.",
+      "reason": "Adds details absent from surgical_tech: The grooming salon has a blue padded platform, a wall of folded pale towels and a basket of soft brushes in late-afternoon light."
+    },
+    {
+      "field": "outfit",
+      "content": "A blue halter-neck wrap dress with black piping, a fitted waist and a high thigh slit, exposing her shoulders and one leg; practical flat sandals complete the salon outfit.",
+      "reason": "Defines the reserved dress construction and halter neck+high thigh slit for surgical_tech."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Built-in image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed for surgical_tech and contrapposto",
+    "source": "strong via A blue halter-neck wrap dress with black piping, a fitted waist and a high thigh slit, exposing her shoulders and one leg; practical flat sandals complete the salon outfit.",
+    "separates": "balanced follows dress"
+  },
+  "planner_selection": "All selection values and locks loaded from stamped planner URL; no manual selection changes."
+}

@@ -1,0 +1,214 @@
+{
+  "reviewer": "gpt",
+  "style": "glossy_promo",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "7c21c304548ec55da5455ced0e5348a185ede7d2ec4ad9895bc2cb633d73e676",
+      "observations": "Blue medium ponytail, angular jaw and narrow level eyes; slim shoulder/forearm/hip/shin plates and ring-patterned blue sash. Open front hand and far hand remain connected; both boots inside frame.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Blue medium ponytail, angular jaw and narrow level eyes; slim shoulder/forearm/hip/shin plates and ring-patterned blue sash. Open front hand and far hand remain connected; both boots inside frame."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "187f9227881fbd82806ad3f1006eb4b29f2b31a54adaf2996104990d9ea98112",
+      "observations": "Same blue ponytail and face; second thick broad blue/silver plates enlarge shoulders, torso, thighs and shins. Crown/temple guard leaves eyes and jaw visible. Both arms and legs connected.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Same blue ponytail and face; second thick broad blue/silver plates enlarge shoulders, torso, thighs and shins. Crown/temple guard leaves eyes and jaw visible. Both arms and legs connected."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "c3060b114024dc02e4d840935af172f554c4a543d94bdd72e37a2a4f3f238700",
+      "observations": "Same face and body; slim separated fins flare along shoulders, forearms, hips and shins with exposed black joints. No weapon. Both boots visible.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Same face and body; slim separated fins flare along shoulders, forearms, hips and shins with exposed black joints. No weapon. Both boots visible."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "b3add9ccc178a8f490160f74b4546fb30c810e20fe75e6ab3ccd0f5f3a14c982",
+      "observations": "Light plate edges hinge apart around shoulders, torso and legs; gold Normal-type light follows the seams. Original open-hand pose, face, camera and sash retained.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Light plate edges hinge apart around shoulders, torso and legs; gold Normal-type light follows the seams. Original open-hand pose, face, camera and sash retained."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "abeddf0e7dd2f0791715bb0188d91028c71eb71586fcf2dedfd5b1beaa472c55",
+      "observations": "Thick heavy plates open along their seams around chest, shoulders, hips and legs, revealing gold internal mechanisms. Original hand pose and standing scale retained.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Thick heavy plates open along their seams around chest, shoulders, hips and legs, revealing gold internal mechanisms. Original hand pose and standing scale retained."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "52f44305d4c38e2998ef0c08a6a21798a2418bd1dc0747ba3a4ceeb297e820a1",
+      "observations": "Mobility fins open from their existing seams with gold internal light. Original narrow body, face, arms and two legs retained; no added weapon.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open gloved hand: five separated digits with inner thumb; far hand: four digits clear, thumb partly occluded by palm angle.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Mobility fins open from their existing seams with gold internal light. Original narrow body, face, arms and two legs retained; no added weapon."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "7e35d104163ca8b97797ec4010d4dbb9d0d8948a68cbab980c2abfb7e713e7ed",
+      "observations": "Rear three-quarter figure in cobalt triangle bikini at a blue hotel pool; near hand gathers the rolled blue towel from the stone ledge. Tied open back visible. Face turned over shoulder; crop extends to thighs rather than selected waist-up. No armor.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near towel hand: four curled fingers, thumb partly hidden behind towel; far hand occluded behind body. No detached hand.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; lower legs outside requested scene crop, not inferred as missing."
+      },
+      "spec_comparison": {
+        "match": false,
+        "evidence": "Rear three-quarter figure in cobalt triangle bikini at a blue hotel pool; near hand gathers the rolled blue towel from the stone ledge. Tied open back visible. Face turned over shoulder; crop extends to thighs rather than selected waist-up. No armor."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "192f697e84bec0603040fd0e72688582e75b5b743a154220338ae99db6acd4d5",
+      "observations": "Standing beside padded grooming platform and clean towels, both hands arrange a brush. Cobalt halter wrap dress has bare shoulders and high thigh slit; blue hair and facial identity retained. Both feet have five visible toes. She looks toward viewer more than the selected downward gaze; recorded only.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands on brush: fingers overlap naturally around handle; near four fingers and opposing thumb, far thumb/index clear with remaining curled fingers partly occluded. Both feet five visible toes.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; both legs join hips and bend naturally."
+      },
+      "spec_comparison": {
+        "match": false,
+        "evidence": "Standing beside padded grooming platform and clean towels, both hands arrange a brush. Cobalt halter wrap dress has bare shoulders and high thigh slit; blue hair and facial identity retained. Both feet have five visible toes. She looks toward viewer more than the selected downward gaze; recorded only."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "a6d34281ef7f2c0670f0d7f555af0f5284525e4b6206dd15a851d5420abfc289",
+      "observations": "At sunset ferry dock, near hand grips a dark travel strap near shoulder, far hand now visibly rests on hip with a continuous bent elbow and wrist. Open travel bag and coastal maps beside her. Strapless blue short-overall silhouette exposes back/shoulders and legs. Crop extends beyond selected chest-up; unreadable tiny map labels recorded only.",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue ponytail, parted fringe, narrow eyes and angular facial outline as light anchor."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hip hand: four fingers over fabric, thumb partly occluded at waist; strap hand: opposed thumb/index and curled middle/ring/little fingers, partly hidden by strap. Exactly two continuous arms after correction.",
+        "overlay_checked": false,
+        "note": "Reviewed full resolution and enlarged hands; lower legs outside requested scene crop, not inferred as missing."
+      },
+      "spec_comparison": {
+        "match": false,
+        "evidence": "At sunset ferry dock, near hand grips a dark travel strap near shoulder, far hand now visibly rests on hip with a continuous bent elbow and wrist. Open travel bag and coastal maps beside her. Strapless blue short-overall silhouette exposes back/shoulders and legs. Crop extends beyond selected chest-up; unreadable tiny map labels recorded only."
+      }
+    }
+  ],
+  "diversity_comparison": "Viewed the three final scenes together: pool/towel/bikini rear view, grooming platform/brush/long slit dress full body, ferry dock/travel bag/short overalls. Compared actual recent Swoobat and Drilbur scenes and related Porygon/Porygon2 faces; different locations, activities and garment shapes. Swimwear and dock both use a look-back head turn, recorded as a remaining directional similarity; silhouettes and activities differ. casual-look check passes. Additional actual latest registered image comparison: Audino, Excadrill, Mamoswine contact sheet; swimsuit versus performance gown/bench views, salon brush versus their sitting or snack activities, and ferry baggage distinguish location/activity/garment. Side-by-side checked Swoobat/Drilbur as well.",
+  "skipped": [],
+  "corrections": [
+    {
+      "slot": "casual3",
+      "reason": "Far arm was not readable and a hand appeared disconnected beside the bag. Partial edit with light anchor + original target; replaced far arm with visible bent arm and hand on hip, removed stray hand.",
+      "initial_original_sha256": "d669c9f246ceca13556be4c413343ab3e0d4fd330decaff412d070d53a1e6333"
+    }
+  ],
+  "tool_mode": "built-in image_gen"
+}
