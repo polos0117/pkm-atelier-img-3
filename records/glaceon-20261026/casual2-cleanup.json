@@ -1,0 +1,9 @@
+{
+  "reason": "Crystal specimen tray contained a tiny printed white identification card.",
+  "input_target_sha256": "f1cc9ae03a65c40c0ed65ce269667a9cfba4ce3a268aeeb40eeed2c3e3ec4c0d",
+  "output_sha256": "9de829568286c28788a931f6885c69d5b9b1eed148c42c768b4dbd218d7b16bd",
+  "identity_reference": "light",
+  "prompt": "EDIT the first attached image only. It is the approved Glaceon research laboratory scene. The second attached image is identity reference only. Remove the small white printed identification tag inside the crystal specimen tray on the viewer's right (around x=950,y=945 of the 1024×1536 image). Replace that tag rectangle with the dark specimen-tray foam already surrounding it, continuing its material and lighting. Remove any other tiny printed markings on specimen tags or camera surfaces if present. Preserve the woman, both hands holding the camera, every finger and wrist, face, hair, clothing, body, pose, camera, crop, maps, photographs, crystals and all other pixels as closely as possible. This is a tiny label-cleanup edit, with no redesign. Output exactly one 1024×1536 vertical image.\n",
+  "inputs_changed": "No generator selections changed; image-only label removal with target and approved light attached.",
+  "inspection": "White label removed and dark tray foam continued; woman/camera/hands/composition remain."
+}

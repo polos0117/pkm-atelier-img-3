@@ -1,0 +1,352 @@
+{
+  "batch": {
+    "session": "leafeon-glaceon-77c665-20261026",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "리피아",
+        "species": "leafeon-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "opera_night",
+            "expr": "sleepy",
+            "pose": "side_sitting",
+            "orient": "reclining",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "garter_set",
+            "expr": "mischievous",
+            "pose": "hands_in_hair",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "active",
+            "ex": "pilates",
+            "expr": "relieved",
+            "pose": "contrapposto",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "글레이시아",
+        "species": "glaceon-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "halter_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "flustered",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "office_project",
+            "expr": "focused",
+            "pose": "taking_photo",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "cafe_takeout",
+            "expr": "playful",
+            "pose": "cross_legged",
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "글레이시아",
+    "species": "glaceon-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "halter_bikini",
+        "garments": [
+          "bikini"
+        ],
+        "orient": "crouching",
+        "frame": "three_quarter",
+        "pose": "squatting",
+        "expr": "flustered",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "halter neck"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "occupation_basic",
+        "ex": "office_project",
+        "expr": "focused",
+        "pose": "taking_photo",
+        "orient": "side",
+        "frame": "chest_up",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "trousers",
+          "vest"
+        ],
+        "expose": [
+          "mini length",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "everyday_basic",
+        "ex": "cafe_takeout",
+        "expr": "playful",
+        "pose": "cross_legged",
+        "orient": "seated_twist",
+        "frame": "full_body",
+        "lens": "portrait85",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "knit_top",
+          "trousers"
+        ],
+        "expose": [
+          "strapless top",
+          "open back"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1
+        ],
+        "two": false,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "source_editorial",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [
+        "crouching"
+      ],
+      "frame": []
+    }
+  },
+  "replanning": "Glaceon casual1: planner avoided burkini_modest and highleg_onepiece because coverage and neckline contradicted reserved high-cut leg/halter neck. Other cuts kept through planner; no hand-edited selections."
+}

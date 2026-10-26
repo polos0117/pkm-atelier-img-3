@@ -1,0 +1,148 @@
+{
+  "storage": {
+    "last": "글레이시아",
+    "cards": {
+      "글레이시아": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "focused",
+            "pose": "taking_photo",
+            "orient": "side",
+            "scene": "A regional laboratory desk holds habitat maps, wildlife observation photographs and a field-kit tray; she photographs the arranged specimens with a small camera before sorting the prints.",
+            "outfit": "A cropped off-shoulder pale-blue tailored vest with small ice-blue geometric seams and separate high-waisted navy trousers; the short hem exposes her midriff and the neckline leaves shoulders bare.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "office_project",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Glaceon (글레이시아) personified, ice type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: slightly drawn brow, narrowed steady eyes fixed on one point, mouth firmly closed\nPose: Hold a camera with both hands to photograph a subject in the scene.\nOrientation: side body profile, approximately 90 degrees to camera\nScene: A regional laboratory desk holds habitat maps, wildlife observation photographs and a field-kit tray; she photographs the arranged specimens with a small camera before sorting the prints.\nOutfit and props: A cropped off-shoulder pale-blue tailored vest with small ice-blue geometric seams and separate high-waisted navy trousers; the short hem exposes her midriff and the neckline leaves shoulders bare.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character.\nExample scene: Pokémon research coordinator arranging habitat maps, observation photographs and field kits at a regional laboratory desk.\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "kept": true,
+    "cut": 2,
+    "cat": "occupation_basic",
+    "ex": "office_project",
+    "expr": "focused",
+    "pose": "taking_photo",
+    "orient": "side",
+    "frame": "chest_up",
+    "lens": "telephoto135",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "trousers",
+      "vest"
+    ],
+    "expose": [
+      "mini length",
+      "off-shoulder neckline"
+    ],
+    "lead": "place"
+  },
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "A regional laboratory desk holds habitat maps, wildlife observation photographs and a field-kit tray; she photographs the arranged specimens with a small camera before sorting the prints.",
+      "reason": "Example lacks the stated concrete work surface, task, time and light; elaborated from reserved office_project."
+    },
+    {
+      "field": "outfit",
+      "content": "A cropped off-shoulder pale-blue tailored vest with small ice-blue geometric seams and separate high-waisted navy trousers; the short hem exposes her midriff and the neckline leaves shoulders bare.",
+      "reason": "Specifies reserved trousers+vest with mini length+off-shoulder neckline and character color echo; matching preset lacks this exact construction."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "balanced follows taking_photo for office_project",
+    "source": "strong expressed via the listed palette and restrained feather/spot details.",
+    "separates": "prefer separates follows trousers+vest"
+  }
+}
