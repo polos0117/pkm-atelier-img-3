@@ -1,0 +1,353 @@
+{
+  "batch": {
+    "session": "gpt-gigalith-woobat-20261026",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "기가이어스",
+        "species": "gigalith-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "festivals_contests",
+            "ex": "fest_cheering",
+            "expr": "serious",
+            "pose": "adjusting_bag",
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "soft_tank_shorts",
+            "expr": "cold_smile",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "expose": [
+              "mini length",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "swim_coverup",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "hand_on_hip",
+            "expr": "calm",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "또르박쥐",
+        "species": "woobat-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "helicopter_pilot",
+            "expr": "smug",
+            "pose": "checking_map",
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "hanbok_slip",
+            "expr": "pensive",
+            "pose": "hand_on_hip",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_nurse",
+            "expr": "laughing",
+            "pose": "standing_formal",
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "또르박쥐",
+    "species": "woobat-20261026",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "occupation_sensual",
+        "ex": "helicopter_pilot",
+        "expr": "smug",
+        "pose": "checking_map",
+        "orient": "leaning_forward",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "plunging neckline"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "hanbok_slip",
+        "expr": "pensive",
+        "pose": "hand_on_hip",
+        "orient": "high_angle",
+        "frame": "full_body",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "lingerie_set",
+          "skirt",
+          "traditional"
+        ],
+        "expose": [
+          "high thigh slit",
+          "open back"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "adult_roleplay",
+        "ex": "adult_nurse",
+        "expr": "laughing",
+        "pose": "standing_formal",
+        "orient": "front_3q",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "apron",
+          "dress"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "mini length"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": true,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "private_evening",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "replanning": "Before generation, planner avoided burkini_modest and highleg_onepiece because preset coverage conflicted with its own exposure choices; avoided bodysuit because garment assignment was lingerie_set. All selected values were planner-produced; no reservation hand edits. Reservation main commit 5ff2ab8ea9e384514290993e2037d765e4d8404a."
+}
