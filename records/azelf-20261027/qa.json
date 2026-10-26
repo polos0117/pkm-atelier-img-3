@@ -1,0 +1,226 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "tool_mode": "built-in image_gen",
+  "anatomy_command_result": "exit 3: mediapipe unavailable; manual full image and enlarged hand/foot review performed",
+  "face_comparison": [
+    "유크시",
+    "엠라이트",
+    "메타그로스"
+  ],
+  "diversity_comparison": {
+    "characters": [
+      "분떠도리",
+      "엠라이트",
+      "유크시"
+    ],
+    "evidence": "실제 일상 이미지 8장과 이번 3장을 나란히 확인. 팔을 높이 들어 잔을 든 무도회·서서 뒤돌아본 피팅실·다리를 옆으로 접고 앉은 해변으로 활동과 실루엣이 다름. 최근의 자동차 기대기·거울 셀카·책상 자료 보기·보드게임·카페 코코아와 구별됨.",
+    "casual_look": "pass; nearest scores 276/251/302, all above rejection threshold 215"
+  },
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "dae879b6a52d32c2d3c0f896f197c187d27ffda27cafb5670236b7ccc8c351cf",
+      "identity": {
+        "match": true,
+        "evidence": "푸른 긴 컬·가른 앞머리·회청색 눈·좁은 턱. 은청색 밀착 장갑과 붉은 이마/흉부 보석, 뒤로 갈라진 두 자락. 전신과 양발이 화면 안에 있고 양팔이 몸통에 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "푸른 긴 컬·가른 앞머리·회청색 눈·좁은 턱. 은청색 밀착 장갑과 붉은 이마/흉부 보석, 뒤로 갈라진 두 자락. 전신과 양발이 화면 안에 있고 양팔이 몸통에 이어짐."
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "88733cd198cab730ac6193a7ef9ea5089f8178f03230a661b23e6ccf2e62830b",
+      "identity": {
+        "match": true,
+        "evidence": "기준 얼굴과 긴 컬 유지. 어깨와 골반·넓적다리·정강이에 두 겹의 두꺼운 은색 판이 추가되어 경장보다 넓은 윤곽. 머리 장식은 열려 얼굴을 가리지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "기준 얼굴과 긴 컬 유지. 어깨와 골반·넓적다리·정강이에 두 겹의 두꺼운 은색 판이 추가되어 경장보다 넓은 윤곽. 머리 장식은 열려 얼굴을 가리지 않음."
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "b9da2bf198d634f3b9cbd7d5538410b7664cf4f9a6289a0d16165339c343072f",
+      "identity": {
+        "match": true,
+        "evidence": "기준 얼굴 유지. 어깨·엉덩이·종아리의 가는 판이 뒤로 갈라지고 청색 소형 추진기가 보임. 손이나 얼굴을 가리는 큰 날개 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "기준 얼굴 유지. 어깨·엉덩이·종아리의 가는 판이 뒤로 갈라지고 청색 소형 추진기가 보임. 손이나 얼굴을 가리는 큰 날개 없음."
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "c395160877a4fcea65e58fadc6abf436f8007130124469b097382cb6b669f5b5",
+      "identity": {
+        "match": true,
+        "evidence": "경장과 같은 몸 방향·손 위치·두 발 위치. 어깨·흉갑·허리·정강이 이음새가 열리며 자홍색 에스퍼 빛이 드러남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "경장과 같은 몸 방향·손 위치·두 발 위치. 어깨·흉갑·허리·정강이 이음새가 열리며 자홍색 에스퍼 빛이 드러남."
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "539051c809e6b016af272b180a52a4c8e8213010327816cf5a254226c0258128",
+      "identity": {
+        "match": true,
+        "evidence": "중장과 동일한 얼굴 크기·몸 방향·손 위치. 겹친 어깨·허벅지·정강이 장갑 사이로 내부 빛과 고리가 나타남."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "중장과 동일한 얼굴 크기·몸 방향·손 위치. 겹친 어깨·허벅지·정강이 장갑 사이로 내부 빛과 고리가 나타남."
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "9cc6405da21037cd779eaf53130478f4367b8dccf19a783a41518a195511bd72",
+      "identity": {
+        "match": true,
+        "evidence": "고기동의 뒤로 뻗는 판과 인물 위치 유지. 어깨·골반 추진기 및 종아리에 자홍색 고리가 열림. 새 무기 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑: 가까운 손은 엄지와 네 손가락이 분리되어 다섯, 먼 손은 엄지·펴진 두 손가락과 굽힌 두 손가락이 겹쳐 보임. 손목과 아래팔 연결 및 엄지 방향 확인.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "고기동의 뒤로 뻗는 판과 인물 위치 유지. 어깨·골반 추진기 및 종아리에 자홍색 고리가 열림. 새 무기 없음."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "39ab2efa990eebfc60dc8cafefdb8d8d69bbf1b3e09263edc6ba96cc6a6ca5c0",
+      "identity": {
+        "match": true,
+        "evidence": "고딕 촛불 무도회에서 붉은 주스 잔을 높이 듦. 뒤에서 본 상체와 드러난 등·어깨, 미소와 살짝 보이는 이. 짙은 벨벳 망토와 가운; 배경 가면 손님은 작고 흐림."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "잔을 든 손: 엄지는 잔대/손가락 뒤로 부분 가려짐, 검지와 굽힌 중지·약지·새끼손가락 윤곽을 확인. 다른 손은 프레임 밖; 손목·팔꿈치·어깨 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "고딕 촛불 무도회에서 붉은 주스 잔을 높이 듦. 뒤에서 본 상체와 드러난 등·어깨, 미소와 살짝 보이는 이. 짙은 벨벳 망토와 가운; 배경 가면 손님은 작고 흐림.",
+      "scene": {
+        "match": true,
+        "evidence": "고딕 촛불 무도회에서 붉은 주스 잔을 높이 듦. 뒤에서 본 상체와 드러난 등·어깨, 미소와 살짝 보이는 이. 짙은 벨벳 망토와 가운; 배경 가면 손님은 작고 흐림."
+      },
+      "deviations": "선택한 가슴 위보다 넓게 허벅지까지 보임. 의상 색은 붉은 안감이 두드러짐. 원작 머리 장식이 남음. 발/반대손은 프레임 밖."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "c5eb58056e04abbd3c83ccee28de6a7d9c4f61c42410cb79788f70ecaeca56b1",
+      "identity": {
+        "match": true,
+        "evidence": "밝은 거울 조명이 둘러싼 피팅실. 등 뒤 기하학 스트랩이 있는 연청색 불투명 란제리, 몸통을 뒤로 돌려 얼굴을 보임. 팔 둘·다리 둘과 두 손은 몸에 붙어 있음. 거울에는 동일 자세의 반사가 존재."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 오른손은 엄지와 네 손가락의 굽힌 윤곽 다섯, 반대 손은 허벅지 옆에서 일부 손가락이 겹치거나 가려짐. 두 손 모두 아래팔 끝에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "밝은 거울 조명이 둘러싼 피팅실. 등 뒤 기하학 스트랩이 있는 연청색 불투명 란제리, 몸통을 뒤로 돌려 얼굴을 보임. 팔 둘·다리 둘과 두 손은 몸에 붙어 있음. 거울에는 동일 자세의 반사가 존재.",
+      "scene": {
+        "match": true,
+        "evidence": "밝은 거울 조명이 둘러싼 피팅실. 등 뒤 기하학 스트랩이 있는 연청색 불투명 란제리, 몸통을 뒤로 돌려 얼굴을 보임. 팔 둘·다리 둘과 두 손은 몸에 붙어 있음. 거울에는 동일 자세의 반사가 존재."
+      },
+      "deviations": "전체 환경보다 인물 비중이 큼. 거울 반사와 이마 보석이 남음. crop_top은 별도 겹이 아닌 짧은 strapless bralette로 표현."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "5d52c5ec2965d6c6470825e1a6c5c9f246b0cbbc09b267de84f3615361439d9d",
+      "identity": {
+        "match": true,
+        "evidence": "맑은 해변 탈의실 옆 줄무늬 타월에 다리를 옆으로 접어 앉음. 청백색 하이웨이스트 비키니와 허리 옆 컷아웃. 뒤 3/4 몸 방향에서 얼굴은 뒤돌아보고 양손은 타월과 허벅지를 짚음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "타월을 짚은 손의 다섯 손가락과 허벅지 위 손의 겹친 다섯 윤곽, 엄지 방향을 확인. 양발은 접힌 두 다리 끝에 있고 발가락이 겹치지만 추가 발 없음.",
+        "overlay_checked": false,
+        "note": "원본과 확대 손·발을 직접 확인. 잘린 범위는 보이지 않는 것으로 기록."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 PNG; WebP same dimensions"
+      },
+      "observations": "맑은 해변 탈의실 옆 줄무늬 타월에 다리를 옆으로 접어 앉음. 청백색 하이웨이스트 비키니와 허리 옆 컷아웃. 뒤 3/4 몸 방향에서 얼굴은 뒤돌아보고 양손은 타월과 허벅지를 짚음.",
+      "scene": {
+        "match": true,
+        "evidence": "맑은 해변 탈의실 옆 줄무늬 타월에 다리를 옆으로 접어 앉음. 청백색 하이웨이스트 비키니와 허리 옆 컷아웃. 뒤 3/4 몸 방향에서 얼굴은 뒤돌아보고 양손은 타월과 허벅지를 짚음."
+      },
+      "deviations": "위허리 비키니가 배꼽 위보다 약간 낮음. 장면은 타월 휴식으로 유지. 원작 작은 귀걸이 남음."
+    }
+  }
+}
