@@ -1,0 +1,279 @@
+{
+  "session": "conkeldurr-tympole-3d3c",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "노보청",
+      "species": "conkeldurr-20261026",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "crochet_bikini",
+          "expr": "half_smile",
+          "pose": "leaning_furniture",
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "bikini"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "detail",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: A woven sunbed rail and folded ivory beach towel catch the late-morning light on a terracotta resort terrace; her hands rest lightly along the rail.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: A fully lined saffron crochet bikini has a halter tie, an open back and a high-cut matching bottom, leaving her midriff bare.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 balanced는 A woven sunbed rail and folded ivory beach towel catch the late-morning light on a terracotta resort terrace; her hands rest lightly along the rail.의 활동량을 따르고, SOURCE balanced는 A fully lined saffron crochet bikini has a halter tie, an open back and a high-cut matching bottom, leaving her midriff bare.에 작은 색 단서로 반영하며, 분리형 값은 계획한 bikini 실루엣에 맞춤."
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "sport_cotton",
+          "expr": "wistful",
+          "pose": "standing_relaxed",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "action",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: She takes a breath after her morning stretch beside the tall windows of a sunlit loft bedroom, her hands resting on a pale oak counter.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: An opaque plum cotton sports-bra-style lingerie top with a racer back and matching high-waisted briefs; the set leaves her midriff and shoulders bare.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 mostly posed는 She takes a breath after her morning stretch beside the tall windows of a sunlit loft bedroom, her hands resting on a pale oak counter.의 활동량을 따르고, SOURCE subtle는 An opaque plum cotton sports-bra-style lingerie top with a racer back and matching high-waisted briefs; the set leaves her midriff and shoulders bare.에 작은 색 단서로 반영하며, 분리형 값은 계획한 lingerie_set 실루엣에 맞춤."
+        },
+        {
+          "cut": 3,
+          "cat": "source_editorial",
+          "ex": "runway",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "high_angle",
+          "frame": "full_body",
+          "pose": "walking",
+          "expr": "confident",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "high thigh slit"
+          ],
+          "lead": "detail",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: Narrow pools of overhead light mark the pale stone runway as she takes a measured step along its centre line.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: A bronze crepe one-shoulder jumpsuit with an asymmetric neckline and high outer-thigh slits in the wide trouser legs, exposing one shoulder and the sides of her legs.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 mostly active는 Narrow pools of overhead light mark the pale stone runway as she takes a measured step along its centre line.의 활동량을 따르고, SOURCE subtle는 A bronze crepe one-shoulder jumpsuit with an asymmetric neckline and high outer-thigh slits in the wide trouser legs, exposing one shoulder and the sides of her legs.에 작은 색 단서로 반영하며, 분리형 값은 계획한 jumpsuit 실루엣에 맞춤."
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "high_angle"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "동챙이",
+      "species": "tympole-20261026",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "simple_cooking",
+          "expr": "confident",
+          "pose": "preparing_food",
+          "orient": "looking_down",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "waterfall_pool",
+          "expr": "surprised",
+          "pose": "standing_relaxed",
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "high-cut leg",
+            "side cutouts"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "wildcard",
+          "ex": "arcade_night",
+          "expr": "sensual",
+          "pose": "one_knee_up",
+          "orient": "looking_away",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "trousers"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "manual_inputs": [
+    {
+      "scene": "A woven sunbed rail and folded ivory beach towel catch the late-morning light on a terracotta resort terrace; her hands rest lightly along the rail.",
+      "outfit": "A fully lined saffron crochet bikini has a halter tie, an open back and a high-cut matching bottom, leaving her midriff bare.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "She takes a breath after her morning stretch beside the tall windows of a sunlit loft bedroom, her hands resting on a pale oak counter.",
+      "outfit": "An opaque plum cotton sports-bra-style lingerie top with a racer back and matching high-waisted briefs; the set leaves her midriff and shoulders bare.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "Narrow pools of overhead light mark the pale stone runway as she takes a measured step along its centre line.",
+      "outfit": "A bronze crepe one-shoulder jumpsuit with an asymmetric neckline and high outer-thigh slits in the wide trouser legs, exposing one shoulder and the sides of her legs.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    }
+  ],
+  "check": "planner check and reservation verify passed; sparse metadata snapshot uses current Git record UIs and authoritative file listing, no other full image checkout",
+  "comparison_cards": [
+    "야느와르몽",
+    "눈여아",
+    "로토무"
+  ],
+  "replans": [
+    {
+      "slot": "casual2",
+      "reason": "front_lace_corset output rejected by image tool sexual moderation; planner selected sport_cotton, not a same-prompt retry"
+    },
+    {
+      "slot": "casual3",
+      "reason": "planner reading_book conflicted with runway walk; avoided reading_book before generation and planner selected walking"
+    }
+  ]
+}
