@@ -1,0 +1,641 @@
+{
+  "session": "throh-sawk-20261027-8e00",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": {
+    "card": "타격귀",
+    "species": "sawk-20261027",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "noir_detective",
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "orient": "side",
+        "frame": "chest_up",
+        "pose": "one_knee_up",
+        "expr": "soft_smile",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "off-shoulder neckline",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "submitted_scene": {
+          "expr": "soft_smile",
+          "pose": "one_knee_up",
+          "orient": "side",
+          "scene": "Hard silver studio light cuts through theatrical haze onto a rain-streaked window flat; the set floor is covered by a charcoal rehearsal mat.",
+          "outfit": "A cobalt short belted trench-style coat worn below the shoulders over a black off-shoulder fitted dress with side-waist cutouts, plus a fedora and close-fitting gloves; a small diamond weave accents the coat belt.",
+          "frame": "chest_up",
+          "lens": "documentary35",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "EDIT: Image 1 is the identity reference; image 2 is the edit target. In image 2, change only the raised gloved hand at the hat brim to hold a small round brass-rimmed prop magnifying glass by its short walnut handle in front of her, with her gaze directed at its lens. Preserve the rest of image 2 exactly.",
+          "aspect": "2:3",
+          "cat": "adult_roleplay",
+          "catCustom": "",
+          "ex": "noir_detective",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 1,
+          "garments": [
+            "coat",
+            "dress"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "side cutouts"
+          ],
+          "lead": "light"
+        },
+        "example_text": "a noir detective costume — a short belted trench-style coat, a fedora and gloves over a fitted dress; examining a prop magnifying glass on a smoky set lit like a film still",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Hard silver studio light cuts through theatrical haze onto a rain-streaked window flat; the set floor is covered by a charcoal rehearsal mat.",
+            "reason": "은색 조명·빗물 창문 세트·리허설 매트로 탐정 테마 촬영장을 구체화한다."
+          },
+          {
+            "field": "outfit",
+            "content": "A cobalt short belted trench-style coat worn below the shoulders over a black off-shoulder fitted dress with side-waist cutouts, plus a fedora and close-fitting gloves; a small diamond weave accents the coat belt.",
+            "reason": "짧은 코트·드레스에 계획의 내려간 어깨선과 옆허리 컷아웃을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          },
+          {
+            "field": "custom",
+            "content": "EDIT: Image 1 is the identity reference; image 2 is the edit target. In image 2, change only the raised gloved hand at the hat brim to hold a small round brass-rimmed prop magnifying glass by its short walnut handle in front of her, with her gaze directed at its lens. Preserve the rest of image 2 exactly.",
+            "reason": "처음 결과에 예시의 돋보기가 빠져, 승인 경장과 첫 결과를 함께 첨부하고 올린 손·소품만 부분 보정하려 했다. 요청은 moderation_blocked로 종료돼 결과는 없으며 재시도하지 않았다."
+          }
+        ],
+        "axes_reason": "소품을 살피는 정지 장면은 mostly posed, 청색 코트와 검은 무늬는 strong, 드레스 중심 구성은 balanced.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      },
+      {
+        "cut": 2,
+        "cat": "gala_red_carpet",
+        "ex": "award_ceremony",
+        "garments": [
+          "dress"
+        ],
+        "orient": "front_3q",
+        "frame": "environmental",
+        "pose": "walking",
+        "expr": "pensive",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "open back"
+        ],
+        "lead": "action",
+        "submitted_scene": {
+          "expr": "pensive",
+          "pose": "walking",
+          "orient": "front_3q",
+          "scene": "The velvet train brushes a dark red runner beneath a warm circular spotlight; broad steps lead up to a gold-curtained stage.",
+          "outfit": "A burgundy velvet gown with a plunging neckline and a deep open back, a long flowing train and fitted covered hip panels; one tiny cobalt teardrop pendant.",
+          "frame": "environmental",
+          "lens": "natural50",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "aspect": "2:3",
+          "cat": "gala_red_carpet",
+          "catCustom": "",
+          "ex": "award_ceremony",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 2,
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "plunging neckline",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        "example_text": "walking to the stage at an award ceremony in a plunging velvet gown, a plain golden statuette in hand",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "The velvet train brushes a dark red runner beneath a warm circular spotlight; broad steps lead up to a gold-curtained stage.",
+            "reason": "기차자락과 붉은 러너·원형 조명·금색 커튼으로 시상식 무대를 구체화한다."
+          },
+          {
+            "field": "outfit",
+            "content": "A burgundy velvet gown with a plunging neckline and a deep open back, a long flowing train and fitted covered hip panels; one tiny cobalt teardrop pendant.",
+            "reason": "벨벳 드레스에 계획의 깊은 목선과 열린 등을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          }
+        ],
+        "axes_reason": "무대로 걷는 활동은 mostly active, 작은 청색 펜던트만 subtle, 한 벌 드레스는 balanced.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      },
+      {
+        "cut": 3,
+        "cat": "retro_glamour",
+        "ex": "aerobics_80s",
+        "garments": [
+          "leggings"
+        ],
+        "orient": "reaching_up",
+        "frame": "waist_up",
+        "pose": "standing_relaxed",
+        "expr": "proud",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "halter neck",
+          "cropped hem"
+        ],
+        "lead": "place",
+        "submitted_scene": {
+          "expr": "proud",
+          "pose": "standing_relaxed",
+          "orient": "reaching_up",
+          "scene": "A mirrored aerobics studio has a pink sprung floor, mint wall bars and a cassette player beneath tall afternoon-lit windows.",
+          "outfit": "A cobalt halter leotard with a cropped upper section joined to its high-cut lower section by narrow side straps, exposing shoulders and midriff; shiny lilac tights-style leggings, pink leg warmers and a soft black headband complete the 1980s look.",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "aspect": "2:3",
+          "cat": "retro_glamour",
+          "catCustom": "",
+          "ex": "aerobics_80s",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 3,
+          "garments": [
+            "leggings"
+          ],
+          "expose": [
+            "halter neck",
+            "cropped hem"
+          ],
+          "lead": "place"
+        },
+        "example_text": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband, mid-move in a mirrored studio",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "A mirrored aerobics studio has a pink sprung floor, mint wall bars and a cassette player beneath tall afternoon-lit windows.",
+            "reason": "운동복 촬영 스튜디오의 매트·벽면·시간을 보충한다."
+          },
+          {
+            "field": "outfit",
+            "content": "A cobalt halter leotard with a cropped upper section joined to its high-cut lower section by narrow side straps, exposing shoulders and midriff; shiny lilac tights-style leggings, pink leg warmers and a soft black headband complete the 1980s look.",
+            "reason": "레깅스와 상의에 홀터 목선과 짧은 밑단을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          }
+        ],
+        "axes_reason": "동작 중 휴식은 mostly posed, 청색 배색은 balanced, 상하 분리형이라 prefer separates.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1,
+          3
+        ],
+        "two": true,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "subculture_fashion",
+        "nightlife",
+        "dance_stage",
+        "spa_wellness",
+        "fantasy_costume",
+        "bridal",
+        "gala_red_carpet",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "coat",
+        "leggings"
+      ],
+      "orient": [
+        "side",
+        "front_3q",
+        "reaching_up"
+      ],
+      "frame": []
+    }
+  },
+  "batch": {
+    "session": "throh-sawk-20261027-8e00",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "던지미",
+        "species": "throh-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "spa_wellness",
+            "ex": "mud_mask",
+            "garments": [
+              "robe"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "jazz_bar_stage",
+            "garments": [
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "pose": "sitting",
+            "expr": "sensual",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "paddle_board",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "stretching",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe",
+            "swimsuit"
+          ],
+          "orient": [
+            "crouching",
+            "seated_twist",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "타격귀",
+        "species": "sawk-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "noir_detective",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "one_knee_up",
+            "expr": "soft_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "award_ceremony",
+            "garments": [
+              "dress"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "walking",
+            "expr": "pensive",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "aerobics_80s",
+            "garments": [
+              "leggings"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "standing_relaxed",
+            "expr": "proud",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "cropped hem"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "leggings"
+          ],
+          "orient": [
+            "side",
+            "front_3q",
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve",
+  "reservation_commit": "2de24a1ccb1cee2f30ac69d72689646bd1f68f42",
+  "metadata_source": "Git tree filenames and genuine casual UI JSON; no historical image originals copied. Filename-only temporary symlinks were used for the ledger membership scan, removed before publication.",
+  "generator": "actual UI via browser; archived prompt rebuilt by unmodified generator engine from selected controls",
+  "tool": "built-in image_gen",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "attempt": 2,
+      "reason": "Required magnifying glass absent",
+      "target_original_sha256": "768c8f6d404e93bba481d3305c5ea3489fb4fb688734b8c40d5aa0f57d69ff44",
+      "changed_inputs": [
+        "custom"
+      ],
+      "references": [
+        "light",
+        "casual1 attempt1"
+      ],
+      "result": "moderation_blocked; no output; deferred"
+    }
+  ]
+}

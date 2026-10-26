@@ -1,0 +1,24 @@
+{
+  "slot": "casual1",
+  "attempt": 2,
+  "operation": "partial edit adding omitted magnifying glass",
+  "terminal": true,
+  "output_files": [],
+  "code": "moderation_blocked",
+  "category": "sexual",
+  "moderation_stage": "output",
+  "request_id": "0ce9f1b2-0e14-4417-b181-2161bb39939a",
+  "prompt_sha256": "aabde5446858cdae2a17816e0145b3836d1d4cec59623145f27965ada5ca7f86",
+  "status": "deferred; no retry or substitution",
+  "attempt1": {
+    "original_sha256": "768c8f6d404e93bba481d3305c5ea3489fb4fb688734b8c40d5aa0f57d69ff44",
+    "qa_passed": false,
+    "observations": "탐정 의상과 세트는 나왔으나 돋보기 소품·그 소품을 살피는 활동이 빠짐. 미게시.",
+    "ui": "casual1-attempt1-ui.json",
+    "prompt": "casual1-attempt1-prompt.txt"
+  },
+  "references": [
+    "approved light form",
+    "original casual1 as edit target"
+  ]
+}

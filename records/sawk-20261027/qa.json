@@ -1,0 +1,183 @@
+{
+  "reviewer": "gpt",
+  "face_reason": "던지미의 붉은 언더컷·둥근 얼굴과 구분되는 청색 단발·각진 턱·좁은 눈매를 유지. 디아루가·두까비·두빅굴의 은색/푸른 머리와 얼굴 형태·머리 길이도 비교함.",
+  "compared_characters": [
+    "던지미",
+    "디아루가",
+    "두까비",
+    "두빅굴"
+  ],
+  "diversity_comparison": "실제 결과는 탐정 촬영장의 코트·바닥 앉기(미게시), 시상식 벨벳 가운·전신 걷기, 운동 스튜디오 레오타드/레깅스·상체 기지개로 구분됨. 던지미의 가운·피아노 의자·바다 패들보드와 장소·옷·행동이 다르다.",
+  "slots": [
+    {
+      "slot": "light",
+      "image_sha256": "ea3dd73719336a939ca4a509bdab9884bab15217ac9d39b728c6c6e6a7512e81",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "청흑 중간 길이 단발·밝은 청색 눈·각진 턱과 좁은 눈매. 얇은 청색 어깨·팔·정강이판과 검은 이너, 양 주먹·두 발이 보인다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "청흑 중간 길이 단발·밝은 청색 눈·각진 턱과 좁은 눈매. 얇은 청색 어깨·팔·정강이판과 검은 이너, 양 주먹·두 발이 보인다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "8bb4df3352bca46dce04cc363b7526561473088f8dd262a46d72e252431d6d89",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "겹친 어깨·허벅지·전완판이 두꺼워져 외곽이 넓어졌다. 얼굴과 청색 단발은 경장과 같다. 얼굴이 열린 측두부 덮개만 추가됐다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "겹친 어깨·허벅지·전완판이 두꺼워져 외곽이 넓어졌다. 얼굴과 청색 단발은 경장과 같다. 얼굴이 열린 측두부 덮개만 추가됐다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "fbae13075571d2f6488562fc43b8755005655ac9431b0cf9de97dc1f06a4bfc1",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "어깨·허리·종아리판이 뒤로 갈라져 펼쳐지고 푸른 소형 추진기가 보인다. 경장의 얼굴·체형과 검은 장갑은 유지된다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "어깨·허리·종아리판이 뒤로 갈라져 펼쳐지고 푸른 소형 추진기가 보인다. 경장의 얼굴·체형과 검은 장갑은 유지된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "9f188f457813e1de354417416a36153ed26e832c43a35ebceb522edd121e90a7",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "경장과 같은 구도·두 주먹·발 위치에서 얇은 판이 들리고 주황 기운과 내부 프레임이 드러난다. 눈은 청색을 유지한다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "경장과 같은 구도·두 주먹·발 위치에서 얇은 판이 들리고 주황 기운과 내부 프레임이 드러난다. 눈은 청색을 유지한다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "92cdf2e906c1e98602191bc3f0bb26012a44f511ec18dabd0b1803c7391d9299",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "중장의 겹판들이 벌어져 내부 관절·주황빛 틈이 보인다. 카메라·인물 크기·발 위치·얼굴은 중장 일반 그림에 맞춰 유지된다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "중장의 겹판들이 벌어져 내부 관절·주황빛 틈이 보인다. 카메라·인물 크기·발 위치·얼굴은 중장 일반 그림에 맞춰 유지된다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "621dcea1f329d82fcdd7e7b429f184a7d2edc415a357f08f4124e4d278b008c2",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "고기동의 부채 패널과 추진기 덮개가 더 열려 내부 주황 불빛이 보인다. 얼굴과 눈·청색 단발·두 주먹·발 위치는 같은 인물로 이어진다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "고기동의 부채 패널과 추진기 덮개가 더 열려 내부 주황 불빛이 보인다. 얼굴과 눈·청색 단발·두 주먹·발 위치는 같은 인물로 이어진다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검은 장갑의 주먹. 네 손가락 굽힘과 안쪽 엄지 연결이 보이고 접힌 끝마디 일부는 가림.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "e649a60b9804a6b5688dfa2b4bf3190a6d66275274d61e11701451904ef0e864",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "금색 커튼과 붉은 계단 앞을 걷고 오른손에 금색 트로피를 든다. 버건디 벨벳의 깊은 목선·긴 트레인과 작은 청색 펜던트가 보인다. 뒤쪽 카메라·손님은 흐린 배경이다. 등은 정면 구도로 인해 확인 불가."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "금색 커튼과 붉은 계단 앞을 걷고 오른손에 금색 트로피를 든다. 버건디 벨벳의 깊은 목선·긴 트레인과 작은 청색 펜던트가 보인다. 뒤쪽 카메라·손님은 흐린 배경이다. 등은 정면 구도로 인해 확인 불가."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "트로피를 잡은 오른손의 엄지는 손잡이 반대편으로 일부 가림. 왼손은 자연스레 굽은 네 손가락과 옆 엄지가 손목에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "5fe6ba530fa873194fd615c81fd1a83b255ea7fd564d9713627790c77442b47e",
+      "accepted": true,
+      "identity": {
+        "match": true,
+        "evidence": "분홍 바닥·민트색 바·카세트·스튜디오 거울이 보인다. 청색 홀터 상부와 하이컷 하부가 옆 끈으로 연결되고 보라색 광택 레깅스가 구분된다. 양팔을 머리 뒤로 올리고 양손은 머리에 가려진다. 거울에 같은 인물의 흐린 뒷모습 반사가 있다. 분홍 워머가 종아리 대신 팔꿈치에 표현되고 헤어밴드는 명확하지 않은 의상 세부 차이를 기록한다."
+      },
+      "scene_and_wardrobe": {
+        "match": true,
+        "evidence": "분홍 바닥·민트색 바·카세트·스튜디오 거울이 보인다. 청색 홀터 상부와 하이컷 하부가 옆 끈으로 연결되고 보라색 광택 레깅스가 구분된다. 양팔을 머리 뒤로 올리고 양손은 머리에 가려진다. 거울에 같은 인물의 흐린 뒷모습 반사가 있다. 분홍 워머가 종아리 대신 팔꿈치에 표현되고 헤어밴드는 명확하지 않은 의상 세부 차이를 기록한다."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 머리 뒤에 가려져 손가락 수를 확인하지 않음. 두 팔은 어깨·팔꿈치를 통해 연결되며 거울의 팔은 반사임.",
+        "overlay_checked": false,
+        "note": "원본을 눈으로 확인. 가려진 관절·손끝은 가림으로 기록했고 추가·분리 팔다리는 관찰되지 않음."
+      }
+    }
+  ],
+  "deferred_slot": "casual1",
+  "deferred_reason": "Attempt1 omitted required prop; corrective edit rejected by image safety tool."
+}
