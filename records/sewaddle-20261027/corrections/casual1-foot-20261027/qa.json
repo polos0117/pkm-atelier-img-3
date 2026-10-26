@@ -1,0 +1,41 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "source_tool": "built-in image_gen",
+  "image_sha256": "aa29665a71f551e2c3a31e40f1c04c6fe500a47bc5a9af1d28efae6904344690",
+  "output_webp_sha256": "d444a3b92b73da5db3acede50e9df427d3de06c7f9e5d1afd913922f83804dc0",
+  "previous_webp_sha256": "9e35630d7684e8734cadecd70513648c26ab002c021166f8b016980397722be2",
+  "observations": [
+    "The lower-center truncated trouser cuff has been replaced with a continuous bent shin and cuff leading into the lower-left boot.",
+    "The second knee is raised and its trouser leg visibly descends into the upright boot being laced at screen right. Exactly two legs and two boots; both boots have complete soles, toes, heels and shafts inside the original canvas.",
+    "The upper body, amber eyes, olive twin buns, black mesh crop top, tartan trousers, lace-gripping hands and wet amber-lit brick alley remain consistent.",
+    "Both original arms connect through wrists to the lace-gripping hands. Fingers remain curled around the laces, with some fingertips naturally occluded."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing; anatomy-check exited 3",
+    "arms": 2,
+    "legs": 2,
+    "boots": 2,
+    "hands": "Two hands grip boot laces; thumb sides and visible bent finger joints remain natural, with some tips occluded by laces or each other.",
+    "overlay_checked": false,
+    "zoom_checked": true,
+    "note": "Full frame and original-size lower-body crop inspected. Hip-thigh-knee-shin-ankle-boot chains now read continuously, with correct half-kneeling joint directions. No empty cuff, detached boot or extra foot."
+  },
+  "deviation": "The lower-body kneel was changed minimally to a half-kneel so both boots connect anatomically; this is the user-authorized foot repair, while the selected scene/outfit and upper-body orientation are unchanged.",
+  "size": [
+    1024,
+    1536
+  ],
+  "original_session_only": "/workspace/scratch/27a4fd9cafac/generated_images/exec-9f66d62a-7ce4-4d2c-85d8-4f4f5da2444e.png",
+  "references": [
+    {
+      "role": "edit target",
+      "sha256": "5de6fa8f483d7f8ccb76027af39045f062f501d779b69da03f79c2b01be63167"
+    },
+    {
+      "role": "canonical identity",
+      "file": "img/두르보_light_glossy_promo_f.webp",
+      "sha256": "403eb769c42230887d762a01621b062603e5fc6e7a6470c589d7925e5a57b573"
+    }
+  ]
+}

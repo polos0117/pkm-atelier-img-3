@@ -143,8 +143,8 @@
     },
     "casual1": {
       "accepted": true,
-      "image_sha256": "5de6fa8f483d7f8ccb76027af39045f062f501d779b69da03f79c2b01be63167",
-      "observations": "Wet brick stairs and basement concert light surround her while both hands work at a boot lace. Back three-quarter torso, turned face, off-shoulder mesh crop top and tartan trousers are visible; knees and shins fold behind her.",
+      "image_sha256": "aa29665a71f551e2c3a31e40f1c04c6fe500a47bc5a9af1d28efae6904344690",
+      "observations": "The lower-center truncated trouser cuff has been replaced with a continuous bent shin and cuff leading into the lower-left boot. / The second knee is raised and its trouser leg visibly descends into the upright boot being laced at screen right. Exactly two legs and two boots; both boots have complete soles, toes, heels and shafts inside the original canvas. / The upper body, amber eyes, olive twin buns, black mesh crop top, tartan trousers, lace-gripping hands and wet amber-lit brick alley remain consistent. / Both original arms connect through wrists to the lace-gripping hands. Fingers remain curled around the laces, with some fingertips naturally occluded.",
       "size": {
         "match": true,
         "evidence": "Decoded original is 1024 by 1536 pixels."
@@ -154,14 +154,20 @@
         "evidence": "Amber almond eyes, olive-green twin buns, straight fringe and short rounded cheeks remain consistent."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe is not installed (exit 3)",
+        "tool": "unavailable: mediapipe missing; anatomy-check exited 3",
         "arms": 2,
         "legs": 2,
-        "hands": "Open gloves: one thumb plus four fingers each; casual1 fingers curl around laces, some tips occluded; casual2 palms supported with overlapping digits; casual3 near fingers grip cloth and far hand is occluded. No detached or extra hand observed.",
+        "boots": 2,
+        "hands": "Two hands grip boot laces; thumb sides and visible bent finger joints remain natural, with some tips occluded by laces or each other.",
         "overlay_checked": false,
-        "note": "Original-size hand crops and full frames inspected; limbs attach continuously, elbows and knees bend in an anatomical direction."
+        "zoom_checked": true,
+        "note": "Full frame and original-size lower-body crop inspected. Hip-thigh-knee-shin-ankle-boot chains now read continuously, with correct half-kneeling joint directions. No empty cuff, detached boot or extra foot."
       },
-      "deviations": []
+      "deviations": [
+        "The lower-body kneel was changed minimally to a half-kneel so both boots connect anatomically; this is the user-authorized foot repair, while the selected scene/outfit and upper-body orientation are unchanged."
+      ],
+      "correction_record": "corrections/casual1-foot-20261027/qa.json",
+      "previous_review": "corrections/casual1-foot-20261027/previous-qa.json"
     },
     "casual2": {
       "accepted": true,

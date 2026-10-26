@@ -1,0 +1,35 @@
+{
+  "card": "두르보",
+  "slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "requested": 9,
+  "generated": 9,
+  "originals": "session only; hashes in classification.json",
+  "status": "registered",
+  "image_commit": "bd1e6474c2f1729ccb4aea215b4abd309d7043a9",
+  "thumbnail_verified_at_commit": "1ebd11fd20555bb190e361111a3322ac41de9ec4",
+  "registry_verified_at_commit": "8be3e228a93f7c1017a0cacf6ad398d78a5131ba",
+  "verified": {
+    "remote_image_blobs_match": 9,
+    "thumbnails_512_long_edge": 9,
+    "registry_slots": 9,
+    "shard": 2
+  },
+  "generator": "actual prompt UI; built-in image_gen",
+  "records": {
+    "classification": "classification.json",
+    "qa": "qa.json",
+    "prompts": "<slot>-prompt.txt",
+    "settings": "<slot>-ui.json"
+  },
+  "limitation": "Anatomy estimator unavailable because mediapipe is not installed; full frames and original-size hand crops were inspected visually."
+}

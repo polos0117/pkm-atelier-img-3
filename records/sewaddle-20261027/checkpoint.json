@@ -31,5 +31,13 @@
     "prompts": "<slot>-prompt.txt",
     "settings": "<slot>-ui.json"
   },
-  "limitation": "Anatomy estimator unavailable because mediapipe is not installed; full frames and original-size hand crops were inspected visually."
+  "limitation": "Anatomy estimator unavailable because mediapipe is not installed; full frames and original-size hand crops were inspected visually.",
+  "latest_correction": {
+    "slot": "casual1",
+    "reason": "User reported a cut-off foot",
+    "record": "corrections/casual1-foot-20261027/qa.json",
+    "previous_webp_sha256": "9e35630d7684e8734cadecd70513648c26ab002c021166f8b016980397722be2",
+    "corrected_webp_sha256": "d444a3b92b73da5db3acede50e9df427d3de06c7f9e5d1afd913922f83804dc0",
+    "status": "corrected image ready for same-path replacement"
+  }
 }

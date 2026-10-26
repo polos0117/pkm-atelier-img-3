@@ -158,12 +158,17 @@
     "style": "glossy_promo",
     "gender": "f",
     "basis": "actual generator UI and image_gen",
-    "source": "/workspace/scratch/27a4fd9cafac/generated_images/exec-5e92bb3f-72a1-4a6f-afb8-501358b89715.png",
-    "original_sha256": "5de6fa8f483d7f8ccb76027af39045f062f501d779b69da03f79c2b01be63167",
+    "source": "/workspace/scratch/27a4fd9cafac/generated_images/exec-9f66d62a-7ce4-4d2c-85d8-4f4f5da2444e.png",
+    "original_sha256": "aa29665a71f551e2c3a31e40f1c04c6fe500a47bc5a9af1d28efae6904344690",
     "references": [
       {
-        "source": "exec-ec6b5f04-3fdb-445f-a65f-f35ee8075cb9.png",
-        "sha256": "53afe9e2c004291c031dce96c41cfe8007e5a8903fe21ac31b0996c5a391066a"
+        "role": "edit target",
+        "sha256": "5de6fa8f483d7f8ccb76027af39045f062f501d779b69da03f79c2b01be63167"
+      },
+      {
+        "role": "canonical identity",
+        "file": "img/두르보_light_glossy_promo_f.webp",
+        "sha256": "403eb769c42230887d762a01621b062603e5fc6e7a6470c589d7925e5a57b573"
       }
     ],
     "output": {
@@ -173,9 +178,37 @@
         1536
       ],
       "format": "WebP",
-      "sha256": "9e35630d7684e8734cadecd70513648c26ab002c021166f8b016980397722be2"
+      "sha256": "d444a3b92b73da5db3acede50e9df427d3de06c7f9e5d1afd913922f83804dc0"
     },
-    "source_session_only": true
+    "source_session_only": true,
+    "correction": "corrections/casual1-foot-20261027/qa.json",
+    "previous_versions": [
+      {
+        "card": "두르보",
+        "slot": "casual1",
+        "style": "glossy_promo",
+        "gender": "f",
+        "basis": "actual generator UI and image_gen",
+        "source": "/workspace/scratch/27a4fd9cafac/generated_images/exec-5e92bb3f-72a1-4a6f-afb8-501358b89715.png",
+        "original_sha256": "5de6fa8f483d7f8ccb76027af39045f062f501d779b69da03f79c2b01be63167",
+        "references": [
+          {
+            "source": "exec-ec6b5f04-3fdb-445f-a65f-f35ee8075cb9.png",
+            "sha256": "53afe9e2c004291c031dce96c41cfe8007e5a8903fe21ac31b0996c5a391066a"
+          }
+        ],
+        "output": {
+          "file": "두르보_glossy_promo_f_casual1.webp",
+          "size": [
+            1024,
+            1536
+          ],
+          "format": "WebP",
+          "sha256": "9e35630d7684e8734cadecd70513648c26ab002c021166f8b016980397722be2"
+        },
+        "source_session_only": true
+      }
+    ]
   },
   {
     "card": "두르보",
