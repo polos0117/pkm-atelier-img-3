@@ -1,6 +1,6 @@
 {
   "card": "두더류",
-  "status": "2 complete / 9 requested",
+  "status": "9/9 final images reviewed",
   "images": {
     "light": {
       "size": {
@@ -53,6 +53,209 @@
         "overlay_checked": false,
         "note": "Original-size visual review and enlarged light-hand review; both booted legs visibly join torso."
       }
+    },
+    "mobility": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Swept separated shoulder, hip and calf plates and small blue thrusters."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one thumb extending toward image right and four upper/leftward fingers. Far left glove: one upper opposing thumb and four lower fingers. Counts and continuous wrists reviewed in enlarged crops.",
+        "note": "Both armored legs connect to hips and both boot tips visible; no extra limbs."
+      }
+    },
+    "light_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form pose, face and camera retained while plates hinge apart, exposing warm ochre/gold inner glow. No new helmet or weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one thumb extending toward image right and four upper/leftward fingers. Far left glove: one upper opposing thumb and four lower fingers. Counts and continuous wrists reviewed in enlarged crops.",
+        "note": "Both armored legs connect to hips and both boot tips visible; no extra limbs."
+      }
+    },
+    "heavy_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form pose, face and camera retained while plates hinge apart, exposing warm ochre/gold inner glow. No new helmet or weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one thumb extending toward image right and four upper/leftward fingers. Far left glove: one upper opposing thumb and four lower fingers. Counts and continuous wrists reviewed in enlarged crops.",
+        "note": "Both armored legs connect to hips and both boot tips visible; no extra limbs."
+      }
+    },
+    "mobility_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form pose, face and camera retained while plates hinge apart, exposing warm ochre/gold inner glow. No new helmet or weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one thumb extending toward image right and four upper/leftward fingers. Far left glove: one upper opposing thumb and four lower fingers. Counts and continuous wrists reviewed in enlarged crops.",
+        "note": "Both armored legs connect to hips and both boot tips visible; no extra limbs."
+      }
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Crouching in walled grassy courtyard, right hand pats one Sandshrew and left fingertips roll zigzag toy ball toward it; tank has side cutouts, separate loose blue trousers."
+      },
+      "pose_framing": {
+        "match": "recorded",
+        "evidence": "Environmental frame and looking-away determined face retained; two bent legs and sneakers naturally supported on lawn."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Patting hand has four fingers laid on shell and thumb alongside. Ball hand has four fingertips bending toward ball, thumb partly hidden behind its upper surface. Both arms continuously attached to shoulders, forearm length proportionate to upper arm.",
+        "note": "Original output and enlarged hand/foot crops reviewed; hidden parts explicitly recorded."
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Standing beside retro aircraft cabin set with backstage bulbs, wearing navy cropped jacket/mini skirt, white bandeau, pillbox hat and pink scarf; raised white-gloved hand waves."
+      },
+      "pose_framing": {
+        "match": "recorded",
+        "evidence": "Image rendered through upper thighs instead of selected chest-up; torso more three-quarter than strict profile. Smile partly open rather than closed half smile; recorded deviations only."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Raised glove clearly has four fanned fingers plus inner thumb; bent wrist joins forearm. Other arm/hand hidden behind torso; lower legs outside frame.",
+        "note": "Original output and enlarged hand/foot crops reviewed; hidden parts explicitly recorded."
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upward eye corners, tapered chin and thin lips as corrected light anchor."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "No lettering/logos. One adult woman; casual1 also has exactly one distinct Sandshrew companion."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Moving beside steaming stone thermal pool, copper jug and white towel at side; slate halter bikini with gray angled print, high-cut bottoms and deep V neckline."
+      },
+      "pose_framing": {
+        "match": "recorded",
+        "evidence": "Three-quarter moving torso with gaze slightly down, crop through upper thighs rather than strict waist-up."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing, anatomy-check.py exit3; manual enlargement review",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Near hand is loosely clenched: four folded finger segments and thumb across upper side. Far hand is also curled with fingertips partly occluded; wrist connects to forearm. Two thighs enter crop, lower legs outside frame.",
+        "note": "Original output and enlarged hand/foot crops reviewed; hidden parts explicitly recorded."
+      }
     }
+  },
+  "reviewed_at": "2026-10-26T01:15:11.429662+00:00",
+  "casual_look": "passed; nearest scores 283 / 290 / 314; no near duplicate below 215",
+  "diversity": {
+    "compared": [
+      "맘박쥐 casual1-3",
+      "토게키스 casual1-3"
+    ],
+    "evidence": "Crouching in courtyard playing ball with Sandshrew in cutout tank/utility trousers; close waving cabin-crew costume at aircraft set; moving beside thermal pool in slate halter bikini. Settings, activity, silhouette and framing differ from each other and compared sets."
   }
 }
