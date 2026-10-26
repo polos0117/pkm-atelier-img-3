@@ -1,0 +1,31 @@
+{
+  "card": "엠라이트",
+  "stage": "All 9 images generated; new casual3 ready to publish",
+  "generated": 9,
+  "pending": [],
+  "new_image": {
+    "card": "엠라이트",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "file": "엠라이트_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "source_sha256": "aeb1fb1e37043073dbd8f8fe7e4cba11daaee523cc1c0053179af2c3afb18c5c",
+    "source_session_only": true,
+    "sha256": "d7dd93f3be226b695204a6978b961481c44c25b537a1bc7629028afcc7685893",
+    "bytes": 290332,
+    "reference": {
+      "slot": "light",
+      "sha256": "ab34b5287009ff99a9f42728eda7ad5f2d082e31d122fd7dbca694c9c5670bd2"
+    },
+    "generation": "Built-in image_gen, one call for this authorized new scene",
+    "prompt": "casual3-refill-prompt.txt",
+    "ui": "casual3-refill-ui.json",
+    "checks": "WebP fully decoded after save; PNG and WebP both 1024×1536."
+  },
+  "previous_8_images": "Preserved unchanged",
+  "previous_attempt_records": "Preserved unchanged"
+}

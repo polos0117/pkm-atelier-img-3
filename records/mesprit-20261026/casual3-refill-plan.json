@@ -1,0 +1,113 @@
+{
+ "session": "mesprit-casual3-refill-20261027-5c945c",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "엠라이트",
+   "species": "mesprit-20261026",
+   "refill": true,
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "swimwear",
+     "ex": "yacht_deck",
+     "expr": "smug",
+     "pose": "sitting_floor",
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "lens": "natural50",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "bikini"
+     ],
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "occupation_basic",
+     "ex": "satellite_operator",
+     "expr": "curious",
+     "pose": "kneeling",
+     "orient": "crouching",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts",
+      "tank",
+      "vest"
+     ],
+     "expose": [
+      "cropped hem",
+      "mini length"
+     ]
+    },
+    {
+     "cut": 3,
+     "cat": "subculture_fashion",
+     "ex": "goth_cafe",
+     "garments": [
+      "dress"
+     ],
+     "orient": "side",
+     "frame": "full_body",
+     "pose": "standing_formal",
+     "expr": "unimpressed",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "halter neck"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "active",
+     "subculture_fashion",
+     "dance_stage"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [
+     "side"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

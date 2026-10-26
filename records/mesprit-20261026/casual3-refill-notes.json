@@ -1,0 +1,56 @@
+{
+  "user_approval": "엠라이트 다른 장면으로 생성해서 올려줘",
+  "previous_slot": "casual3",
+  "previous_outcome": "Unconfirmed failure with no image; its prompt and outcome are retained.",
+  "changed_scene": "subculture_fashion/goth_cafe, lined black lace dress and platform boots in a candlelit cafe, in place of lingerie/satin_teddy in a bedroom.",
+  "planner_values": {
+    "cut": 3,
+    "cat": "subculture_fashion",
+    "ex": "goth_cafe",
+    "garments": [
+      "dress"
+    ],
+    "orient": "side",
+    "frame": "full_body",
+    "pose": "standing_formal",
+    "expr": "unimpressed",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "side cutouts",
+      "halter neck"
+    ],
+    "lead": "place"
+  },
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "content": "The candlelit gothic cafe has carved dark-wood booths and rain-streaked arched windows; she waits for her order with a porcelain cup and saucer held together at waist level.",
+      "reason": "The cafe example has no specific activity, so add waiting with a cup and saucer; dark booths, rain and windows establish its environment."
+    },
+    {
+      "field": "outfit",
+      "content": "Her dress has an opaque black lining, a halter neckline and two side cutouts, exposing shoulders, waist and thighs; one of the silver rings carries a tiny rose-colored stone.",
+      "reason": "Specify opaque lining, halter and two waist side openings to implement planner exposure; retain the example’s lace mini dress, platforms and rings."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "The tool lacks an explicit size option, so request 1024×1536 here."
+    }
+  ],
+  "axes_reason": {
+    "action_level": "mostly posed: standing while waiting with cup and saucer.",
+    "source_influence": "subtle: one small rose-colored stone in a silver ring; black goth clothing retains its own palette.",
+    "separates_preference": "balanced: the selected garment is a one-piece dress."
+  },
+  "reservation_commit": "877f2552132091300526a5478c5c83f0401c9e85",
+  "sparse_ledger": "Tracked image-name manifests from current Git trees were used without fetching unrelated image bytes; unchanged ledger logic checked metadata and active reservations."
+}

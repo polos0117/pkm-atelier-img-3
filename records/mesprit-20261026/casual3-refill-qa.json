@@ -1,0 +1,27 @@
+{
+  "slot": "casual3",
+  "reviewer": "gpt",
+  "accepted": true,
+  "qa_passed": true,
+  "image_sha256": "aeb1fb1e37043073dbd8f8fe7e4cba11daaee523cc1c0053179af2c3afb18c5c",
+  "observations": {
+    "identity": "Pink very-long twin tails, red eyes, tapered chin and facial features match light anchor; side profile differs from anchor camera.",
+    "scene": "Cup and saucer in both hands at waist height; candles, gothic arches, dark carved cafe counter, rain on windows and cafe chairs.",
+    "outfit": "Black lace halter dress with waist openings and platform boots. Dress has a long split train rather than a strict mini hem; record-only garment detail deviation. Upper torso and pelvis remain covered; shoulders, waist and thigh exposed.",
+    "pose": "Upright side-facing stance; hands together in front; feet grounded.",
+    "expression": "Half-lidded sideways gaze with a faint small smile, softer than the selected flat deadpan expression (record only).",
+    "frame": "Complete head, body, both hand positions and platforms in frame.",
+    "source_motifs": "Small red stones and hair ornaments remain, with dominant black goth outfit; record-only source accent deviation.",
+    "logos": "No readable brand, lettering or interface visible."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (anatomy-check.py exited 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two hands overlap naturally around cup and saucer. Foreground thumb and four finger paths visible; rear-hand fingertips partly hidden by foreground hand and saucer. No detached hand, extra limb or clear extra digit seen.",
+    "overlay_checked": false,
+    "note": "Original and enlarged hands visually inspected; rear leg partly occluded in side stance, two grounded boots visible."
+  },
+  "diversity_comparison": "Compared the three Mesprit cuts and Uxie three actual images. Full side standing in a dark gothic cafe, black lace and platforms contrasts with yacht bikini reclining and kneeling research vest/shorts; Uxie car, mirror and gold lounge dress also differ in setting, silhouette and activity.",
+  "casual_look": "Passed: nearest external scores 293, 294, 296; no near duplicates below 245."
+}
