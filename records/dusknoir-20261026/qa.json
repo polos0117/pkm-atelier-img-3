@@ -249,10 +249,10 @@
     "anatomy": {
       "tool": "unavailable: mediapipe module is not installed",
       "arms": 2,
-      "legs": 2,
-      "hands": "부케를 쥔 손은 엄지와 접힌 손가락이 꽃 줄기에 일부 가려진다. 가까운 손은 오른쪽 테두리에 걸려 전체 손가락 수를 확인할 수 없다.",
+      "legs": "접힌 두 다리가 겹치고 발끝은 천·꽃 장식에 가려져 전체 연결을 명확히 판정할 수 없음",
+      "hands": "부케를 쥔 손은 꽃 줄기와 다른 팔에 일부 가려진다. 가까운 손은 허벅지 뒤로 가려져 손가락 전체를 확인할 수 없다.",
       "overlay_checked": false,
-      "note": "가까운 어깨·팔꿈치·손목과 부케 쪽 팔이 각각 이어지며 추가 팔·손은 보이지 않는다. 테두리의 손 잘림은 현행 규칙에 따라 기록했다."
+      "note": "원본 손·목·어깨·다리 확대 재검토. 가까운 손은 화면 밖 잘림이 아니라 허벅지에 가린 것이다. 팔·목의 뚜렷한 단절·불가능한 꼬임은 보이지 않으나 손가락과 발끝은 가림으로 검수 제한."
     }
   },
   "diversity": {
@@ -263,5 +263,14 @@
     ],
     "result": "실제 그림을 나란히 비교했다. 미러볼 아래 플레어 점프슈트로 벨트 정리·계단에서 긴 트레인 잡기·밝은 창가에서 부케 들기의 의상·활동·몸 실루엣이 구분된다.",
     "tool": "../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     283  다탱구_glossy_promo_f_casual3.webp\n     292  폴리곤2_glossy_promo_f_casual3.webp\n     300  로젤리아_glossy_promo_f_casual3.webp\n../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     330  푸호꼬_glossy_promo_f_casual1.webp\n     336  데기라스_glossy_promo_f_casual3.webp\n     347  자포코일_glossy_promo_f_casual1.webp\n../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     294  두코_glossy_promo_f_casual3.webp\n     295  니드런♀_glossy_promo_f_casual3.webp\n     303  로토스_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "user_requested_review": {
+    "cuts": [
+      "casual2",
+      "casual3"
+    ],
+    "casual2": "뚜렷한 손가락 과다·팔 단절은 보이지 않는다. 자락을 쥔 손의 엄지와 네 손가락이 읽히며 먼 손은 천에 일부 가려진다.",
+    "casual3": "목·어깨에 뚜렷한 불가능한 꼬임은 보이지 않는다. 가까운 손이 허벅지 뒤에 가리고 다리·발이 겹쳐 전부 정상으로 확정할 수 없다. 양손을 읽히게 하는 기준상 개선 권장.",
+    "action": "Review only; no image edit or regeneration requested or performed."
   }
 }
