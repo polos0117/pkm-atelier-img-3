@@ -1,0 +1,422 @@
+{
+  "session": "azelf-dialga-20261027-5a13",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "디아루가",
+      "species": "dialga-20261027",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "dance_stage",
+          "ex": "ballroom_waltz",
+          "garments": [
+            "dress"
+          ],
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "pose": "mid_action",
+          "expr": "focused",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "mini length"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "active",
+          "ex": "surf_prep",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "looking_away",
+          "frame": "environmental",
+          "pose": "leaning_furniture",
+          "expr": "gentle",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "idol_stage",
+          "expr": "serious",
+          "pose": "dance_step",
+          "orient": "profile_close",
+          "frame": "waist_up",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "jacket",
+            "skirt"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "halter neck"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2,
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "active",
+          "dance_stage"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "looking_down",
+          "looking_away"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "dance_stage",
+      "ex": "ballroom_waltz",
+      "garments": [
+        "dress"
+      ],
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "pose": "mid_action",
+      "expr": "focused",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "mini length"
+      ],
+      "lead": "light",
+      "example_text": "a flowing ballroom gown with a fitted bodice, turning a solo waltz step across a chandelier ballroom",
+      "ui_state": {
+        "expr": "focused",
+        "pose": "mid_action",
+        "orient": "looking_down",
+        "scene": "Warm chandelier light glints on parquet flooring and pale-blue silk draperies in a grand ballroom at evening rehearsal.",
+        "outfit": "A silver-blue off-shoulder ballroom gown with a fitted bodice and a short layered front skirt that sweeps into a longer back train; the neckline reveals her shoulders and the short front exposes her thighs.",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "dance_stage",
+        "catCustom": "",
+        "ex": "ballroom_waltz",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "selection_method": "planner; actual prompt.html controls; fixed query selection and locks",
+      "axis_reasons": {
+        "action_level": "왈츠가 진행 중인 회전 동작",
+        "source_influence": "가운의 은청색·청색 결정 장식",
+        "separates_preference": "한 벌의 볼룸 가운"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm chandelier light glints on parquet flooring and pale-blue silk draperies in a grand ballroom at evening rehearsal.",
+          "reason": "왈츠 예시의 저녁 조명과 실크 커튼을 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "A silver-blue off-shoulder ballroom gown with a fitted bodice and a short layered front skirt that sweeps into a longer back train; the neckline reveals her shoulders and the short front exposes her thighs.",
+          "reason": "계획의 dress·off-shoulder·mini length를 가운 앞뒤 길이 차이로 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 입력란이 없어 세로 2:3 1024×1536 지정"
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "surf_prep",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "leaning_furniture",
+      "expr": "gentle",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "at the water's edge in a wetsuit pulled down to the waist over a bikini top, waxing a surfboard",
+      "ui_state": {
+        "expr": "gentle",
+        "pose": "leaning_furniture",
+        "orient": "looking_away",
+        "scene": "A bar of surf wax and a coiled board leash lie on a wooden preparation rack beside a sunny beach surf shack.",
+        "outfit": "A slate-blue high-cut bikini with narrow silver piping and an open tie-back top, with a charcoal wetsuit rolled down to her low waist; the tie-back exposes her shoulder blades and the bikini top reveals her shoulders and midriff.",
+        "frame": "environmental",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "active",
+        "catCustom": "",
+        "ex": "surf_prep",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "selection_method": "planner; actual prompt.html controls; fixed query selection and locks",
+      "axis_reasons": {
+        "action_level": "왁스를 바르며 보드에 한 팔로 지지",
+        "source_influence": "서핑 의상에 청색만 작은 강조로",
+        "separates_preference": "비키니에 허리로 내린 잠수복"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A bar of surf wax and a coiled board leash lie on a wooden preparation rack beside a sunny beach surf shack.",
+          "reason": "서핑 준비의 도구와 보드를 놓는 지지대를 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "A slate-blue high-cut bikini with narrow silver piping and an open tie-back top, with a charcoal wetsuit rolled down to her low waist; the tie-back exposes her shoulder blades and the bikini top reveals her shoulders and midriff.",
+          "reason": "예시의 잠수복을 유지하며 비키니 색·타이백·원단을 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 입력란이 없어 세로 2:3 1024×1536 지정"
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "idol_stage",
+      "expr": "serious",
+      "pose": "dance_step",
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "halter neck"
+      ],
+      "lead": "action",
+      "example_text": "an idol stage costume — a fitted sparkling cropped jacket, a pleated mini skirt and knee boots; striking a closing pose on a rehearsal stage under coloured spotlights",
+      "ui_state": {
+        "expr": "serious",
+        "pose": "dance_step",
+        "orient": "profile_close",
+        "scene": "She practices the final beat of a solo idol choreography under rehearsal spotlights on a compact concert stage.",
+        "outfit": "An asymmetrical cropped silver one-shoulder stage jacket over a navy halter top with a short pleated skirt; the exposed shoulder and halter opening reveal her collarbones while the short jacket reveals her waist.",
+        "frame": "waist_up",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "catCustom": "",
+        "ex": "idol_stage",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "selection_method": "planner; actual prompt.html controls; fixed query selection and locks",
+      "axis_reasons": {
+        "action_level": "마지막 아이돌 안무 동작",
+        "source_influence": "무대 옷의 청색과 작은 결정 장식",
+        "separates_preference": "짧은 재킷·홀터 상의·미니스커트 분리 구성"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She practices the final beat of a solo idol choreography under rehearsal spotlights on a compact concert stage.",
+          "reason": "리허설의 마지막 동작과 작은 무대 조명 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "An asymmetrical cropped silver one-shoulder stage jacket over a navy halter top with a short pleated skirt; the exposed shoulder and halter opening reveal her collarbones while the short jacket reveals her waist.",
+          "reason": "예시의 cropped jacket·skirt와 계획의 원숄더·홀터 목선을 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "도구에 크기 입력란이 없어 세로 2:3 1024×1536 지정"
+        }
+      ]
+    }
+  ],
+  "check": "planner check passed; verify 2 stamps matched",
+  "reservation_commit": "425c990983adecd41220b0717e8db0dfdb0d828d",
+  "replan_reason": "생성 전 볼룸 왈츠에 앉거나 쪼그리는 자세, 클라이밍/파쿠르 주 활동을 덮는 자세를 avoid로 제외. K-pop 연습은 아이돌 무대와 옷 실루엣이 겹쳐 제외. 기존 3번 선택은 keep으로 유지; 새 1·2번은 계획기가 결정. 생성 재시도 없음.",
+  "comparison_characters": [
+    "아그놈",
+    "유크시",
+    "엠라이트"
+  ]
+}

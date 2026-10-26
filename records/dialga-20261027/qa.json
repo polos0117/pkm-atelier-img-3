@@ -1,0 +1,226 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "tool_mode": "built-in image_gen",
+  "face_comparison": [
+    "유크시",
+    "엠라이트",
+    "메타그로스"
+  ],
+  "anatomy_command_result": "exit 3: mediapipe missing; manual original and enlarged hands/feet review completed",
+  "diversity_comparison": {
+    "characters": [
+      "아그놈",
+      "유크시",
+      "엠라이트"
+    ],
+    "evidence": "실제 비교판으로 볼룸 가운을 펼친 회전·서핑 보드 왁싱·무대 마지막 안무를 비교. 아그놈의 잔 들기/피팅/타월 휴식, 유크시의 자동차·거울 셀카·라운지, 엠라이트의 요트·지도 작업과 장소·활동·의상 실루엣 및 팔 동작이 다름.",
+    "casual_look": "../pkm-atelier-img-3/img/디아루가_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     309  비크티니_glossy_promo_f_casual3.webp\n     316  엠라이트_glossy_promo_f_casual1.webp\n     319  스이쿤_glossy_promo_f_casual2.webp\n../pkm-atelier-img-3/img/디아루가_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     276  치코리타_glossy_promo_f_casual3.webp\n     287  쉘곤_glossy_promo_f_casual3.webp\n     291  화살꼬빈_glossy_promo_f_casual3.webp\n../pkm-atelier-img-3/img/디아루가_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     288  딜리버드_glossy_promo_f_casual2.webp\n     308  눈설왕_glossy_promo_f_casual2.webp\n     313  덩쿠림보_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "321a2f960bdc4c611bc8d6a86d29b5a09d7bee90bc9d782e5a62726e0c1cc9e6",
+      "identity": {
+        "match": true,
+        "evidence": "긴 은청색 생머리와 불규칙 앞머리, 수평으로 긴 눈과 선명한 턱. 남청색 밀착 슈트·은색 슬림 판·푸른 흉부 결정. 양팔과 양다리가 몸통에 이어지고 무기 없음. 발끝이 화면 테두리에 조금 닿음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "긴 은청색 생머리와 불규칙 앞머리, 수평으로 긴 눈과 선명한 턱. 남청색 밀착 슈트·은색 슬림 판·푸른 흉부 결정. 양팔과 양다리가 몸통에 이어지고 무기 없음. 발끝이 화면 테두리에 조금 닿음."
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "3860eab1f9c1494af70025440e9525e8dd99531306d8808730c7a0c16c61dd68",
+      "identity": {
+        "match": true,
+        "evidence": "같은 얼굴과 머리 유지. 어깨·흉부·골반·허벅지·정강이에 큰 이중 판과 두꺼운 가장자리. 머리 장식이 커졌지만 눈·앞머리·턱을 가리지 않음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "같은 얼굴과 머리 유지. 어깨·흉부·골반·허벅지·정강이에 큰 이중 판과 두꺼운 가장자리. 머리 장식이 커졌지만 눈·앞머리·턱을 가리지 않음."
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "5edff95a84316580fe7030fcb2a3f86369e8f20a2737486b50a3bad12b3594d2",
+      "identity": {
+        "match": true,
+        "evidence": "같은 얼굴·머리와 몸의 비율 유지. 어깨·골반·종아리에 뒤로 벌어진 가는 판과 소형 청색 추진기. 손이나 관절을 막는 부착물 없음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "같은 얼굴·머리와 몸의 비율 유지. 어깨·골반·종아리에 뒤로 벌어진 가는 판과 소형 청색 추진기. 손이나 관절을 막는 부착물 없음."
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "267ca7de9d8c9fa6eaf9a66f7356cb83ec306f77949801d4eac5c738a2f30fda",
+      "identity": {
+        "match": true,
+        "evidence": "경장의 인물 위치·손 위치·다리 간격 유지. 어깨·허리·정강이 판이 들리고 흰빛과 청색 내부 발광선이 드러남."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "경장의 인물 위치·손 위치·다리 간격 유지. 어깨·허리·정강이 판이 들리고 흰빛과 청색 내부 발광선이 드러남."
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "9a3c8e68460e3acc70588e7e45bf45471a866556223165af256a691cb8bcf0c4",
+      "identity": {
+        "match": true,
+        "evidence": "중장 기준의 카메라와 손·발 위치 유지. 두꺼운 어깨와 허벅지·정강이 판 사이 기계 이음새가 열려 청백색 빛이 보임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "중장 기준의 카메라와 손·발 위치 유지. 두꺼운 어깨와 허벅지·정강이 판 사이 기계 이음새가 열려 청백색 빛이 보임."
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "8e3bc3eafa573a20bd18b58464edf07871b3ecfc7e6f9e70c888e7d304835539",
+      "identity": {
+        "match": true,
+        "evidence": "고기동 기준 인물 구도와 장식 판 위치 유지. 어깨·허리·종아리 추진기와 판 사이에 청백색 빛이 밝아짐. 새 무기나 헬멧 없음."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손의 엄지와 굽힌 네 손가락 윤곽을 확대 확인. 손가락 일부는 손바닥 앞에서 겹침; 장갑 손목과 아래팔 연결이 유지되고 분리된 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "고기동 기준 인물 구도와 장식 판 위치 유지. 어깨·허리·종아리 추진기와 판 사이에 청백색 빛이 밝아짐. 새 무기나 헬멧 없음."
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "22622626741df22ae5a2b3983b7d3de53cef569c3b044ae2891d385c35103381",
+      "identity": {
+        "match": true,
+        "evidence": "샹들리에 무도회장에서 양손으로 흐르는 가운 자락을 펼쳐 돌고 있음. 아래를 보는 시선과 살짝 모인 눈썹, 은청색 오프숄더 가운의 앞쪽 짧은 치마에서 허벅지가 드러남."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "치마를 잡은 양손 모두 팔 끝에 연결. 화면 왼쪽 손은 엄지와 네 손가락의 굽힌 윤곽을 확인; 화면 오른쪽 손끝 일부는 테두리에 걸리고 천 뒤로 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "샹들리에 무도회장에서 양손으로 흐르는 가운 자락을 펼쳐 돌고 있음. 아래를 보는 시선과 살짝 모인 눈썹, 은청색 오프숄더 가운의 앞쪽 짧은 치마에서 허벅지가 드러남.",
+      "scene": {
+        "match": true,
+        "evidence": "샹들리에 무도회장에서 양손으로 흐르는 가운 자락을 펼쳐 돌고 있음. 아래를 보는 시선과 살짝 모인 눈썹, 은청색 오프숄더 가운의 앞쪽 짧은 치마에서 허벅지가 드러남."
+      },
+      "deviations": "선택보다 조금 넓은 프레임, 오른손 끝이 테두리에 닿음. 가운의 크리스털 장신구가 다소 큼."
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "8c3c7e91cc25b94fc67cac352d87d97ac0cf46c60f7c6379c0c23111b098317e",
+      "identity": {
+        "match": true,
+        "evidence": "해변 서핑 준비대 위 보드에 한 손으로 왁스를 문지르고 반대 팔로 지지. 검은 잠수복을 허리로 내려 묶고 청색 비키니 상의를 입음. 뒤 3/4에서 등과 어깨가 드러나고 양발은 데크 위에 놓임."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "왁스를 잡은 손은 엄지가 도구 뒤로 일부 가려지고 네 손가락이 블록을 감쌈. 반대 손은 겹친 아래팔 뒤에서 보드 지지로 가려짐. 두 팔은 각각 어깨·팔꿈치·손목으로 연결되고 제3의 손 없음.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "해변 서핑 준비대 위 보드에 한 손으로 왁스를 문지르고 반대 팔로 지지. 검은 잠수복을 허리로 내려 묶고 청색 비키니 상의를 입음. 뒤 3/4에서 등과 어깨가 드러나고 양발은 데크 위에 놓임.",
+      "scene": {
+        "match": true,
+        "evidence": "해변 서핑 준비대 위 보드에 한 손으로 왁스를 문지르고 반대 팔로 지지. 검은 잠수복을 허리로 내려 묶고 청색 비키니 상의를 입음. 뒤 3/4에서 등과 어깨가 드러나고 양발은 데크 위에 놓임."
+      },
+      "deviations": "선택한 옆 시선보다 카메라 쪽으로 뒤돌아봄. 예시의 허리로 내린 잠수복 때문에 비키니 하이컷 밑단은 가려짐; 어깨·등·허리는 드러나 의상 입력의 노출 유지. 환경 와이드보다 인물 비중이 큼."
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "2250bec425e68ddf2928d114a368026cf98d8ad18e94658460c85c818efd1075",
+      "identity": {
+        "match": true,
+        "evidence": "스포트라이트와 무대 트러스 앞에서 두 팔로 마지막 안무를 표현. 은색 스팽글 짧은 재킷과 남청 홀터 상의·주름 미니스커트. 허리·어깨·허벅지가 보이고 얼굴은 옆 3/4 방향."
+      },
+      "dimensions": {
+        "match": true,
+        "evidence": "1024×1536 original and WebP"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "머리 위 손은 두 펼친 손가락과 굽힌 두 손가락 및 엄지, 반대 손은 세 펼친 손가락과 위쪽 엄지·접힌 손가락 윤곽으로 다섯. 일부 손끝은 화면 상단/좌측에 걸림. 두 팔이 각각 어깨에 연결됨.",
+        "overlay_checked": false,
+        "note": "원본·손 확대·서핑 양팔 및 양발 확대본을 직접 확인. 프레임 밖 부분은 가려짐으로 기록."
+      },
+      "observations": "스포트라이트와 무대 트러스 앞에서 두 팔로 마지막 안무를 표현. 은색 스팽글 짧은 재킷과 남청 홀터 상의·주름 미니스커트. 허리·어깨·허벅지가 보이고 얼굴은 옆 3/4 방향.",
+      "scene": {
+        "match": true,
+        "evidence": "스포트라이트와 무대 트러스 앞에서 두 팔로 마지막 안무를 표현. 은색 스팽글 짧은 재킷과 남청 홀터 상의·주름 미니스커트. 허리·어깨·허벅지가 보이고 얼굴은 옆 3/4 방향."
+      },
+      "deviations": "허리 위보다 넓게 허벅지까지 보임. 정확한 측면보다 옆 3/4, 팔을 올리면서 손끝 일부가 테두리에 걸림. 장신구와 크리스털 색 강조가 선택 subtle보다 큼."
+    }
+  }
+}
