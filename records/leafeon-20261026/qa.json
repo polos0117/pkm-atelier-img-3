@@ -1,0 +1,278 @@
+{
+  "card": "리피아",
+  "review": "원본 전체와 손/발 확대, 일반-개방 쌍 및 실제 비교 이미지 확인",
+  "tool": "built-in image_gen",
+  "images": {
+    "light": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "얇은 잎 판. 머리와 양발에 여백이 있는 전신, 무기를 들지 않음."
+      }
+    },
+    "heavy": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨와 다리의 겹친 잎 판. 머리와 양발에 여백이 있는 전신, 무기를 들지 않음."
+      }
+    },
+    "mobility": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "옆과 뒤로 펼쳐진 분할 판과 추진부. 머리와 양발에 여백이 있는 전신, 무기를 들지 않음."
+      }
+    },
+    "light_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "얇은 잎 판의 이음새가 열리고 녹색 내부 발광. 닫힌 폼의 포즈와 인물 크기·카메라 유지."
+      }
+    },
+    "heavy_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "어깨와 다리의 겹친 잎 판의 이음새가 열리고 녹색 내부 발광. 닫힌 폼의 포즈와 인물 크기·카메라 유지."
+      }
+    },
+    "mobility_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 밀착 장갑 양손. 화면 왼손은 엄지 1+네 손가락이 부채꼴로 분리되고, 오른손은 아래로 펴진 5지. 양손의 엄지 방향은 팔의 내측과 맞는다.",
+        "overlay_checked": false,
+        "note": "양팔은 어깨-팔꿈치-손목, 양다리는 골반-무릎-발목으로 연결. 중복 또는 떨어진 손발 없음."
+      },
+      "form": {
+        "match": true,
+        "evidence": "옆과 뒤로 펼쳐진 분할 판과 추진부의 이음새가 열리고 녹색 내부 발광. 닫힌 폼의 포즈와 인물 크기·카메라 유지."
+      }
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "클러치 위 양손, 엄지는 물체 뒤로 부분 가림, 나머지 손가락은 잡는 자세로 굽음. 손목에서 팔꿈치까지 연결.",
+        "overlay_checked": false,
+        "note": "굽힌 두 무릎과 별개의 두 발, 각각 스트랩 구두."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "금색 극장 박스석의 붉은 벨벳 난간에서 아이보리 클러치에 양손을 대고 집는다. 옆에 오페라 글라스가 있고 무대와 흐릿한 객석이 보인다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "아이보리 긴 드레스의 할터 리본과 어깨 아래로 열린 짧은 갈색 코트. 어깨와 깊은 슬릿의 허벅지가 드러난다."
+      },
+      "composition": {
+        "match": false,
+        "evidence": "무릎을 같은 쪽으로 접고 벨벳 좌석에 앉아 상체를 돌렸다. 완전한 기대기보다 곧게 앉은 쪽이며 입이 조금 열리고 눈꺼풀이 내려가 있다.",
+        "action": "기록만 하는 항목; 선택값을 결과에 맞춰 바꾸지 않음"
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손이 머리 위에서 머리카락을 잡음. 머리카락에 일부 손가락 가림. 양팔은 어깨-팔꿈치-손목으로 연결.",
+        "overlay_checked": false,
+        "note": "허벅지 둘까지 보이고 하퇴와 발은 프레임 밖."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "금색 타원 거울과 옷장이 있는 드레싱룸. 양팔을 올려 반묶음 머리를 정리한다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "불투명 코코아 새틴 속옷과 가터 스트랩, 허벅지 스타킹. 등과 어깨, 허리 노출."
+      },
+      "composition": {
+        "match": false,
+        "evidence": "골반과 등은 뒤 3/4, 얼굴은 어깨 너머 3/4. 턱이 가까운 어깨 위에 있고 목 옆면이 보인다. 한쪽 입꼬리가 올라간다. 허리 위보다 넓은 허벅지까지의 프레이밍.",
+        "action": "기록만 하는 항목; 선택값을 결과에 맞춰 바꾸지 않음"
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "1024×1536 실제 픽셀 확인"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "황금빛 눈과 올리브색 긴 반묶음, 커튼 앞머리, 부드러운 타원 얼굴 유지"
+      },
+      "text": {
+        "match": true,
+        "evidence": "확대 확인에서 글자·라벨·상표 없음"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe 모듈 없음; 검사기 실행 시 안내 후 육안 점검으로 진행",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 머리 뒤에서 부분 또는 대부분 가림. 손목이 각각 아래팔에 연결되며 머리 위 별도 손 없음.",
+        "overlay_checked": false,
+        "note": "두 다리의 무릎과 발목 연결, 두 맨발, 화면 오른쪽 발의 5개 발가락 확인. 먼 발의 일부 발가락 겹침."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "리포머와 운동 매트, 물병이 있는 햇빛 드는 필라테스 스튜디오에서 코어 운동 사이에 서서 스트레칭한다."
+      },
+      "outfit": {
+        "match": true,
+        "evidence": "세이지 크롭 운동 상의 옆 컷아웃과 열린 등 구조, 별도 갈색 레깅스, 맨발. 허리와 옆구리, 어깨가 드러난다."
+      },
+      "composition": {
+        "match": false,
+        "evidence": "한쪽 다리에 체중을 두고 다른 발끝을 세운 전신. 골반은 측면으로, 상체와 얼굴은 앞 3/4. 양팔을 머리 뒤로 올렸다. 눈꺼풀은 편안히 내려가고 입이 조금 열림.",
+        "action": "기록만 하는 항목; 선택값을 결과에 맞춰 바꾸지 않음"
+      }
+    }
+  },
+  "diversity": {
+    "pass": true,
+    "look_check": "pkm-atelier-img-3/img/리피아_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     261  마임맨_glossy_promo_f_casual2.webp\n     289  부스터_glossy_promo_f_casual3.webp\n     294  메가니움_glossy_promo_f_casual2.webp\npkm-atelier-img-3/img/리피아_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     279  꼴깍몬_glossy_promo_f_casual3.webp\n     283  동탁군_glossy_promo_f_casual1.webp\n     292  스컹탱크_glossy_promo_f_casual2.webp\npkm-atelier-img-3/img/리피아_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     289  레어코일_glossy_promo_f_casual1.webp\n     294  주리비얀_glossy_promo_f_casual1.webp\n     301  버섯꼬_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+    "compared": [
+      "마그마번 casual1-3",
+      "에레키블 casual1-3",
+      "메가자리 casual1-3"
+    ],
+    "evidence": "실제 12장 나란히 확인. 극장 전신 앉기·드레싱룸 뒤 3/4·필라테스 전신 서기가 장소/주활동/옷 종류/골반 방향에서 구분된다. 앞선 캐릭터의 시장·카페·무대·세탁실과 구별된다."
+  }
+}
