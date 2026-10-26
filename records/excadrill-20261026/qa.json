@@ -1,0 +1,225 @@
+{
+  "light": {
+    "accepted": true,
+    "image_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+    "reviewer": "gpt",
+    "observations": "Single brown-haired woman with angular jaw and narrow brown eyes; dark brown bodysuit with slim white/red plates. Both boots inside border. Both lowered hands attach at the wrists; separated curled fingers, some finger edges occluded by their own overlap.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Single brown-haired woman with angular jaw and narrow brown eyes; dark brown bodysuit with slim white/red plates. Both boots inside border. Both lowered hands attach at the wrists; separated curled fingers, some finger edges occluded by their own overlap."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    },
+    "face_reason": "Generator design translates steel drill edges into angular jaw, narrow level eyes, low brows and wide mouth; asymmetric medium cut echoes smaller blades.",
+    "face_source": "data/face-design.json faces.530; source-appearance.json 530",
+    "compared_characters": [
+      "두더류",
+      "맘모꾸리",
+      "불화살빈",
+      "파이어로"
+    ],
+    "face_comparison": "Drilbur has short navy choppy hair and more tapered chin; Mamoswine has long brown hair and softer fuller eyes; Fletchinder has orange long hair and Talonflame red long hair. Excadrill has brown medium asymmetric hair and stronger angular jaw. Confirmed after generation against published light images; current same-family Drilbur also checked.",
+    "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; narrow eyes, small size, level outer corners, wide-set; thick low brows; straight slender bridge nose; wide mouth."
+  },
+  "heavy": {
+    "accepted": true,
+    "image_sha256": "09dcee876b000be8725891003af14a2bbe60f88063cf8b055638ad08a3071dab",
+    "reviewer": "gpt",
+    "observations": "Same brown asymmetric hair and facial structure. Layered shoulder, breast, hip and shin plates produce a broader silhouette. Two connected arms and two straight weight-bearing legs; fingers remain on the two wrist ends. Head fin slightly touches upper border (record only).",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Same brown asymmetric hair and facial structure. Layered shoulder, breast, hip and shin plates produce a broader silhouette. Two connected arms and two straight weight-bearing legs; fingers remain on the two wrist ends. Head fin slightly touches upper border (record only)."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "image_sha256": "76daf31bf0faea98ed75a21a82238e21ca204778c47a14b68974b9e9247bf364",
+    "reviewer": "gpt",
+    "observations": "Same woman and base palette; plates fan outward behind shoulders, forearms and calves, leaving a slimmer torso. Two relaxed gloved hands, two legs and two boots; no carried weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Same woman and base palette; plates fan outward behind shoulders, forearms and calves, leaving a slimmer torso. Two relaxed gloved hands, two legs and two boots; no carried weapon."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "image_sha256": "8571df16b865c1e99d0b7ccc479f6e39aff979b29e9da79d876804e08efc135a",
+    "reviewer": "gpt",
+    "observations": "Matches the light stance, camera and body scale. Existing slim plates lift along seams to show amber energy; eyes remain brown. No new helmet or weapon. Both hands keep the original positions.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Matches the light stance, camera and body scale. Existing slim plates lift along seams to show amber energy; eyes remain brown. No new helmet or weapon. Both hands keep the original positions."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "image_sha256": "c5e3a61df2cd32506b924fe172bd3eeda3ee5d17fe9537232306eba25a6e1794",
+    "reviewer": "gpt",
+    "observations": "Matches heavy pose and face. Layered armor sections separate to reveal gold-lit internal hinges along shoulders, thighs and shins. Hands and boots remain in place; head fin border contact retained.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Matches heavy pose and face. Layered armor sections separate to reveal gold-lit internal hinges along shoulders, thighs and shins. Hands and boots remain in place; head fin border contact retained."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "image_sha256": "5d00c3ce234785880d826f005cadee59f5147fd88a51806be82d83b6eae50a90",
+    "reviewer": "gpt",
+    "observations": "Matches mobility pose and camera. Fanned plates separate farther along their seams with amber vent light, keeping the same gloves and boots. Two arms and two legs remain connected.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Matches mobility pose and camera. Fanned plates separate farther along their seams with amber vent light, keeping the same gloves and boots. Two arms and two legs remain connected."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "image_sha256": "283ca22782f4c1572044f34d7f8b0bb187127939fec565bcc8a0468573ae3f26",
+    "reviewer": "gpt",
+    "observations": "Leaning over a wood counter at a basalt camp, she serves berry curry from a burner pot with a ladle in her right hand and a wooden bowl in her left. Brown halter apron, red bandeau and white shorts expose shoulders, waist and thighs. Right grip hides parts of fingers around ladle; left thumb rests at bowl rim with four supporting finger contours. Gaze more toward viewer than reserved candid (record only).",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Leaning over a wood counter at a basalt camp, she serves berry curry from a burner pot with a ladle in her right hand and a wooden bowl in her left. Brown halter apron, red bandeau and white shorts expose shoulders, waist and thighs. Right grip hides parts of fingers around ladle; left thumb rests at bowl rim with four supporting finger contours. Gaze more toward viewer than reserved candid (record only)."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Leaning over a wood counter at a basalt camp, she serves berry curry from a burner pot with a ladle in her right hand and a wooden bowl in her left. Brown halter apron, red bandeau and white shorts expose shoulders, waist and thighs. Right grip hides parts of fingers around ladle; left thumb rests at bowl rim with four supporting finger contours. Gaze more toward viewer than reserved candid (record only)."
+    },
+    "diversity_comparison": "Compared actual images of Mamoswine, Fletchinder and Talonflame. Camp cooking with two utensils, wall-supported one-leg exercise and seated vanity fitting differ from their lakeshore rest/ribbon/grocery, costume/balcony/train and watering/pool/market scenes. New three use apron+shorts, sports crop+leggings and lace camisole+shorts, and different torso/hand silhouettes. casual-look check passed, all nearest scores >=306."
+  },
+  "casual2": {
+    "accepted": true,
+    "image_sha256": "b4dcb30f49a1d5e909bb71c1e0b80839e7ed9cadf0bb8080a1df044aeca82ed7",
+    "reviewer": "gpt",
+    "observations": "Rear three-quarter body, face turned back, right palm on timber wall and left hand holding a lifted shoe for a standing quadriceps stretch. Two legs connect at hips and bend normally; left fingers wrap the shoe and right five digit outlines lie against wall. White one-shoulder crop and brown leggings expose shoulder/back and waist. Calf stretch changed to quadriceps stretch; home exercise activity remains. Gentle smile visible.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Rear three-quarter body, face turned back, right palm on timber wall and left hand holding a lifted shoe for a standing quadriceps stretch. Two legs connect at hips and bend normally; left fingers wrap the shoe and right five digit outlines lie against wall. White one-shoulder crop and brown leggings expose shoulder/back and waist. Calf stretch changed to quadriceps stretch; home exercise activity remains. Gentle smile visible."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Rear three-quarter body, face turned back, right palm on timber wall and left hand holding a lifted shoe for a standing quadriceps stretch. Two legs connect at hips and bend normally; left fingers wrap the shoe and right five digit outlines lie against wall. White one-shoulder crop and brown leggings expose shoulder/back and waist. Calf stretch changed to quadriceps stretch; home exercise activity remains. Gentle smile visible."
+    },
+    "diversity_comparison": "Compared actual images of Mamoswine, Fletchinder and Talonflame. Camp cooking with two utensils, wall-supported one-leg exercise and seated vanity fitting differ from their lakeshore rest/ribbon/grocery, costume/balcony/train and watering/pool/market scenes. New three use apron+shorts, sports crop+leggings and lace camisole+shorts, and different torso/hand silhouettes. casual-look check passed, all nearest scores >=306."
+  },
+  "casual3": {
+    "accepted": true,
+    "image_sha256": "cf11d2b2a409b13bc0941b3d7e59ccec6594fdf6cd16c4e7814c0f30e1845c9a",
+    "reviewer": "gpt",
+    "observations": "Seated side-on at a lamp-lined vanity, ivory embroidered lace kebaya over an opaque camisole and red mini shorts. Waist side and thighs visible. One hand bends under chin with curled fingers, other rests beyond forearm on vanity with digits partly occluded. Brown asymmetric hair, narrow eyes and jaw retained. Crop is wider than waist-up, body slightly three-quarter (record only).",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Seated side-on at a lamp-lined vanity, ivory embroidered lace kebaya over an opaque camisole and red mini shorts. Waist side and thighs visible. One hand bends under chin with curled fingers, other rests beyond forearm on vanity with digits partly occluded. Brown asymmetric hair, narrow eyes and jaw retained. Crop is wider than waist-up, body slightly three-quarter (record only)."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Brown asymmetric medium cut, brown narrow eyes and angular jaw retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Seated side-on at a lamp-lined vanity, ivory embroidered lace kebaya over an opaque camisole and red mini shorts. Waist side and thighs visible. One hand bends under chin with curled fingers, other rests beyond forearm on vanity with digits partly occluded. Brown asymmetric hair, narrow eyes and jaw retained. Crop is wider than waist-up, body slightly three-quarter (record only)."
+    },
+    "diversity_comparison": "Compared actual images of Mamoswine, Fletchinder and Talonflame. Camp cooking with two utensils, wall-supported one-leg exercise and seated vanity fitting differ from their lakeshore rest/ribbon/grocery, costume/balcony/train and watering/pool/market scenes. New three use apron+shorts, sports crop+leggings and lace camisole+shorts, and different torso/hand silhouettes. casual-look check passed, all nearest scores >=306."
+  }
+}

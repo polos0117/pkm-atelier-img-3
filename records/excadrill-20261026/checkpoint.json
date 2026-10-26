@@ -1,0 +1,136 @@
+{
+  "card": "몰드류",
+  "style": "glossy_promo",
+  "generation": "built-in image_gen",
+  "base_slot": "light",
+  "originals": "session_only; PNG not committed",
+  "reservation_commit": "74b381c3c8f1b0b1517785ba45b09931992d88b4",
+  "slots": {
+    "light": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-686b22d8-849a-4124-91e8-ed594870c27c.png",
+      "original_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "session_only": true,
+      "output": "img/몰드류_light_glossy_promo_f.webp",
+      "webp_sha256": "67c987346cee0cf90bd1f9c282c02a031f013a7ca200b9f1f514fd313c42ea77",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": null,
+      "reference_sha256": null,
+      "prompt_sha256": "808896db499f3236b6cb4b111f9095462bfeed718027f31a0709eec055931a43"
+    },
+    "heavy": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-237716c5-1d65-462d-ac35-d15fc8f76c91.png",
+      "original_sha256": "09dcee876b000be8725891003af14a2bbe60f88063cf8b055638ad08a3071dab",
+      "session_only": true,
+      "output": "img/몰드류_heavy_glossy_promo_f.webp",
+      "webp_sha256": "a2bf97a6887d839d73f84c54f8054816c3f5bab3ee9813ed1953d9c18363ef28",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "0810bca9e40e34dee5181188d85648bcbf25a4f5442905d37bee5f3c194d39eb"
+    },
+    "mobility": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-bce37571-4b5e-4422-a651-951d29f6d0eb.png",
+      "original_sha256": "76daf31bf0faea98ed75a21a82238e21ca204778c47a14b68974b9e9247bf364",
+      "session_only": true,
+      "output": "img/몰드류_mobility_glossy_promo_f.webp",
+      "webp_sha256": "3f42f967ffc43a4804766432ef0cab4a6a3711ad0aad55ff1ce5c9e63ed1751e",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "b7b6e4c6b8320fde199a642e57984f737f42e6c29e2b66b4774e07d0fa8e9639"
+    },
+    "light_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-ecdb9c12-bed0-4750-a5cd-5101eb2af2b6.png",
+      "original_sha256": "8571df16b865c1e99d0b7ccc479f6e39aff979b29e9da79d876804e08efc135a",
+      "session_only": true,
+      "output": "img/몰드류_light_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "9f3850cea9488f39204d59370fff564430c2d7ab126fec9a80c47c0c19fb6122",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "b669e12fefd98a993532995e4a2e5ba53ab893a531ceae62bdfac4872b23650c"
+    },
+    "heavy_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-509834df-51c2-4bf6-a0f3-073122597b88.png",
+      "original_sha256": "c5e3a61df2cd32506b924fe172bd3eeda3ee5d17fe9537232306eba25a6e1794",
+      "session_only": true,
+      "output": "img/몰드류_heavy_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "88db62133a9b88b8b3e0c4c9b4f89a236bd5ef6dd078600b350eb62d8da0c068",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "heavy",
+      "reference_sha256": "09dcee876b000be8725891003af14a2bbe60f88063cf8b055638ad08a3071dab",
+      "prompt_sha256": "d5274cc90f331284956bbd083f50192a76bd9fa630f798d0f40b44288fc3dc1c"
+    },
+    "mobility_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-2a947671-ec87-4338-8b50-b3a32a458977.png",
+      "original_sha256": "5d00c3ce234785880d826f005cadee59f5147fd88a51806be82d83b6eae50a90",
+      "session_only": true,
+      "output": "img/몰드류_mobility_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "5500d88bc7777ace2979f4ba8744d0a8a829ad781764bf9c72aac89a18a43ace",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "mobility",
+      "reference_sha256": "76daf31bf0faea98ed75a21a82238e21ca204778c47a14b68974b9e9247bf364",
+      "prompt_sha256": "b9e3e70339c5330a139fcb7b152770f32ccbb4619dc96a53e1843232294d7246"
+    },
+    "casual1": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-433e4733-f315-46b8-a13c-be20c0af7457.png",
+      "original_sha256": "283ca22782f4c1572044f34d7f8b0bb187127939fec565bcc8a0468573ae3f26",
+      "session_only": true,
+      "output": "img/몰드류_glossy_promo_f_casual1.webp",
+      "webp_sha256": "4cbb87ece9745928b1018de1bb32ed7c4aa3894d4e544d7439af3cd1c39805f0",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "e4d886bd9448a6822b4dd32465bdd7e12464b649b766dc3b22a24f95ea30ba3c"
+    },
+    "casual2": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-a91c0609-b23b-4f9f-b01c-2cb4c73d119b.png",
+      "original_sha256": "b4dcb30f49a1d5e909bb71c1e0b80839e7ed9cadf0bb8080a1df044aeca82ed7",
+      "session_only": true,
+      "output": "img/몰드류_glossy_promo_f_casual2.webp",
+      "webp_sha256": "51f4e2d634fd076eae67a882f31414594f78c2345c1f4e2ad8499c5fceee558a",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "bf21a35824cfcd4cc0d72f89a2bd3e697d3403c89aadd822a360dd8e0783f292"
+    },
+    "casual3": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-d8872e5d-ed2e-42d6-8ea9-1e36bacedb2a.png",
+      "original_sha256": "cf11d2b2a409b13bc0941b3d7e59ccec6594fdf6cd16c4e7814c0f30e1845c9a",
+      "session_only": true,
+      "output": "img/몰드류_glossy_promo_f_casual3.webp",
+      "webp_sha256": "8de49182bba39c18648a4aa96a510ad8c25af3cc76728c1e138b8a01deeb3e98",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "3c14e7aa056ff83f9feb2c99dfd6c712f1727b812709b2ffbb68f4bd7c9eb94e",
+      "prompt_sha256": "b630cd34e523f9400e0cd6eb4565eec0fd528c84a2ac612ace1d35844a4657af"
+    }
+  }
+}
