@@ -3,194 +3,72 @@
   "planner": "tools/casual-plan.cjs",
   "characters": [
     {
-      "card": "대코파스",
-      "species": "probopass-20261026",
+      "card": "야느와르몽",
+      "species": "dusknoir-20261026",
+      "refill": true,
       "cuts": [
         {
+          "kept": true,
           "cut": 1,
-          "cat": "dance_stage",
-          "ex": "hula",
-          "garments": [
-            "crop_top",
-            "shorts",
-            "skirt"
-          ],
-          "orient": "crouching",
-          "frame": "environmental",
-          "pose": "kneeling",
-          "expr": "focused",
+          "cat": "retro_glamour",
+          "ex": "disco_halter",
+          "expr": "serious",
+          "pose": "perched_seat",
+          "orient": "leaning_back",
+          "frame": "full_body",
           "lens": "wide24",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "jumpsuit",
+            "trousers"
+          ],
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "festival_steps",
+          "garments": [
+            "dress"
+          ],
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "pose": "standing_formal",
+          "expr": "playful",
+          "lens": "portrait85",
           "aspect": "2:3",
           "axes": {
             "overall_intensity": "strong",
             "skin_exposure": "bold",
             "action_level": "mostly posed",
-            "source_influence": "subtle",
-            "separates_preference": "prefer separates"
-          },
-          "expose": [
-            "strapless top",
-            "open back"
-          ],
-          "lead": "light"
-        },
-        {
-          "cut": 2,
-          "cat": "subculture_fashion",
-          "ex": "gyaru_street",
-          "garments": [
-            "dress"
-          ],
-          "orient": "side",
-          "frame": "chest_up",
-          "pose": "taking_photo",
-          "expr": "unimpressed",
-          "lens": "telephoto135",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "balanced",
             "source_influence": "balanced",
             "separates_preference": "balanced"
           },
           "expose": [
-            "plunging neckline",
-            "mini length"
+            "halter neck",
+            "open back"
           ],
           "lead": "action"
         },
         {
           "cut": 3,
-          "cat": "retro_glamour",
-          "ex": "deco_lounge",
+          "cat": "bridal",
+          "ex": "before_ceremony",
           "garments": [
             "dress"
           ],
-          "orient": "turning_midmotion",
-          "frame": "waist_up",
-          "pose": "contrapposto",
-          "expr": "amused",
-          "lens": "documentary35",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "mostly posed",
-            "source_influence": "subtle",
-            "separates_preference": "balanced"
-          },
-          "expose": [
-            "side cutouts",
-            "one-shoulder cut"
-          ],
-          "lead": "place"
-        }
-      ],
-      "why": {
-        "required": {
-          "slots": [
-            3
-          ],
-          "two": false,
-          "prev": [
-            1
-          ]
-        },
-        "low": [
-          "travel_exploration",
-          "hobbies_leisure",
-          "source_editorial",
-          "retro_glamour",
-          "subculture_fashion",
-          "nightlife",
-          "dance_stage",
-          "spa_wellness",
-          "fantasy_costume",
-          "bridal",
-          "gala_red_carpet"
-        ]
-      },
-      "claims": {
-        "garment": [
-          "crop_top"
-        ],
-        "orient": [
-          "crouching",
-          "side",
-          "turning_midmotion"
-        ],
-        "frame": []
-      }
-    },
-    {
-      "card": "야느와르몽",
-      "species": "dusknoir-20261026",
-      "cuts": [
-        {
-          "cut": 1,
-          "cat": "retro_glamour",
-          "ex": "disco_halter",
-          "garments": [
-            "jumpsuit"
-          ],
-          "orient": "leaning_back",
-          "frame": "full_body",
-          "pose": "perched_seat",
-          "expr": "serious",
-          "lens": "wide24",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "mostly posed",
-            "source_influence": "balanced",
-            "separates_preference": "balanced"
-          },
-          "expose": [
-            "strapless top",
-            "plunging neckline"
-          ],
-          "lead": "place"
-        },
-        {
-          "cut": 2,
-          "cat": "nightlife",
-          "ex": "club_floor",
-          "garments": [
-            "dress"
-          ],
-          "orient": "seated_twist",
-          "frame": "environmental",
-          "pose": "side_sitting",
-          "expr": "calm",
-          "lens": "telephoto135",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "mostly posed",
-            "source_influence": "subtle",
-            "separates_preference": "balanced"
-          },
-          "expose": [
-            "halter neck",
-            "mini length"
-          ],
-          "lead": "detail"
-        },
-        {
-          "cut": 3,
-          "cat": "spa_wellness",
-          "ex": "hammam",
-          "garments": [
-            "robe"
-          ],
-          "orient": "profile_close",
+          "orient": "rear_3q",
           "frame": "chest_up",
-          "pose": "squatting",
-          "expr": "cold_smile",
-          "lens": "natural50",
+          "pose": "side_sitting",
+          "expr": "smug",
+          "lens": "telephoto135",
           "aspect": "2:3",
           "axes": {
             "overall_intensity": "strong",
@@ -200,17 +78,15 @@
             "separates_preference": "balanced"
           },
           "expose": [
-            "off-shoulder neckline",
-            "open back"
+            "high thigh slit",
+            "mini length"
           ],
-          "lead": "light"
+          "lead": "place"
         }
       ],
       "why": {
         "required": {
-          "slots": [
-            1
-          ],
+          "slots": [],
           "two": false,
           "prev": [
             3
@@ -218,7 +94,6 @@
         },
         "low": [
           "travel_exploration",
-          "hobbies_leisure",
           "source_editorial",
           "nightlife",
           "spa_wellness",
@@ -228,35 +103,209 @@
         ]
       },
       "claims": {
-        "garment": [
-          "jumpsuit",
-          "robe"
-        ],
-        "orient": [
-          "leaning_back",
-          "seated_twist",
-          "profile_close"
-        ],
+        "garment": [],
+        "orient": [],
         "frame": []
       }
     }
   ],
-  "status": "7 of 9 generated; casual2 and casual3 safety blocked, refill pending",
-  "face_review": {
-    "basis": "data/face-design.json 477 species design; high collar vertical silhouette interpreted as long face and soft drooping eyes",
-    "canonical": {
-      "slot": "light",
-      "card": "야느와르몽",
-      "style": "glossy_promo",
-      "basis": "actual generator UI",
-      "original_local": "/workspace/scratch/16097793eaa4/generated_images/exec-e692a5bf-d5ff-4fce-88d5-8b3ad6838571.png",
-      "original_sha256": "057e1463f25efefd0bf6949092e23de94ec1572dd56013ae07f34a88cc530c88",
-      "file": "야느와르몽_light_glossy_promo_f.webp",
-      "width": 1024,
-      "height": 1536,
-      "format": "WEBP",
-      "sha256": "f96608646f4acadefdc84cea2d6701ea5fd2c1d566df9d79a03bc2a5137ac018",
-      "reference": "none"
+  "status": "complete: 9/9 generated",
+  "history": {
+    "partial_image_commit": "4db77335baae8ab9ee737d218a20b98f26b247c4",
+    "partial_registration_commit": "cf60598",
+    "initial_plan": "plan-initial.json",
+    "refill_reservation_commit": "e2c245713406729129255225289f5cbdd7bf4601",
+    "reason": "Two output safety rejections; changed to distinct gala and bridal scenes through planner refill; no same-scene retry"
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "disco_halter",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "perched_seat",
+      "expr": "serious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "scene": "A low chrome bench sits at the edge of the illuminated floor beneath the mirror ball; she adjusts the narrow belt buckle between songs.",
+      "outfit": "A plum lurex halter jumpsuit with a plunging front and an open back, with long flared trousers and a narrow gold belt; her shoulders and upper back are exposed.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "example": "a 1970s lurex halter jumpsuit with flared legs, under a mirror ball on a lit disco floor",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "A low chrome bench sits at the edge of the illuminated floor beneath the mirror ball; she adjusts the narrow belt buckle between songs.",
+          "reason": "미러볼과 벤치가 만나는 공간 및 벨트 버클을 정리하는 구체 활동 보완"
+        },
+        {
+          "field": "outfit",
+          "content": "A plum lurex halter jumpsuit with a plunging front and an open back, with long flared trousers and a narrow gold belt; her shoulders and upper back are exposed.",
+          "reason": "루렉스 색과 금색 벨트, 노출되는 등 구조를 지정"
+        }
+      ],
+      "axes_reason": "벤치에 앉아 버클을 정리하는 정지 순간이라 mostly posed, 한 벌 점프슈트라 balanced, 금색 벨트와 원본 색 연결은 balanced",
+      "random_source": "planner; no hand-selected option overrides"
+    },
+    {
+      "cut": 2,
+      "cat": "gala_red_carpet",
+      "ex": "festival_steps",
+      "garments": [
+        "dress"
+      ],
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "pose": "standing_formal",
+      "expr": "playful",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "open back"
+      ],
+      "lead": "action",
+      "scene": "She gathers one edge of her long train before the next step as camera flashes ripple across the grand stair landing.",
+      "outfit": "A midnight silk halter gown with an open back and a flowing gold-lined train; her shoulders and back are exposed, with a small gold crescent brooch at the waist.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "example": "climbing a grand red-carpeted staircase at a film festival in a gown with a long train",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "She gathers one edge of her long train before the next step as camera flashes ripple across the grand stair landing.",
+          "reason": "예시의 계단 오르기에서 트레인 정리하는 순간을 구체화"
+        },
+        {
+          "field": "outfit",
+          "content": "A midnight silk halter gown with an open back and a flowing gold-lined train; her shoulders and back are exposed, with a small gold crescent brooch at the waist.",
+          "reason": "검정 실크와 금색 안감, 홀터·열린 등으로 계획의 두 노출 방식 실현"
+        }
+      ],
+      "axes_reason": "다음 계단 전 자락을 잡는 멈춘 순간이라 mostly posed, 한 벌 긴 드레스라 balanced, 검정·금색과 작은 브로치로 source balanced",
+      "random_source": "planner; no hand-selected option overrides"
+    },
+    {
+      "cut": 3,
+      "cat": "bridal",
+      "ex": "before_ceremony",
+      "garments": [
+        "dress"
+      ],
+      "orient": "rear_3q",
+      "frame": "chest_up",
+      "pose": "side_sitting",
+      "expr": "smug",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "place",
+      "scene": "An antique dressing mirror and a pale velvet cushion stand beside the window; white camellias and a narrow black-and-gold ribbon fill her small bouquet.",
+      "outfit": "An ivory satin sweetheart-neckline bridal mini gown with a fitted opaque bodice, a side slit in the short skirt and a low back, with a short veil; her shoulders, upper back and legs are exposed.",
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "custom": "",
+      "catCustom": "",
+      "exCustom": "",
+      "action": {},
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "example": "in a sweetheart-neckline wedding gown and veil, holding her bouquet by a sunlit window of the bridal room",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "An antique dressing mirror and a pale velvet cushion stand beside the window; white camellias and a narrow black-and-gold ribbon fill her small bouquet.",
+          "reason": "브라이덜룸의 거울·쿠션과 부케 꽃 종류 및 리본을 지정"
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory satin sweetheart-neckline bridal mini gown with a fitted opaque bodice, a side slit in the short skirt and a low back, with a short veil; her shoulders, upper back and legs are exposed.",
+          "reason": "스위트하트 목선은 예시를 유지하고 미니 기장과 슬릿·낮은 등을 구체화"
+        }
+      ],
+      "axes_reason": "부케를 든 대기 자세라 mostly posed, 미니 웨딩드레스 한 벌이라 balanced, 검정·금색 부케 리본과 모티프가 source strong을 보완",
+      "random_source": "planner; no hand-selected option overrides"
     }
-  }
+  ]
 }

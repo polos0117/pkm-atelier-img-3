@@ -1,36 +1,38 @@
 {
+  "card": "야느와르몽",
   "storage": {
+    "last": "야느와르몽",
     "style": "glossy_promo",
     "mode": "casual",
     "identityMode": "reference",
     "scenes": {
       "casual": {
         "cut": 2,
-        "cat": "nightlife",
-        "ex": "club_floor",
+        "cat": "gala_red_carpet",
+        "ex": "festival_steps",
         "garments": [
           "dress"
         ],
-        "orient": "seated_twist",
-        "frame": "environmental",
-        "pose": "side_sitting",
-        "expr": "calm",
-        "lens": "telephoto135",
+        "orient": "low_angle",
+        "frame": "three_quarter",
+        "pose": "standing_formal",
+        "expr": "playful",
+        "lens": "portrait85",
         "aspect": "2:3",
         "axes": {
           "overall_intensity": "strong",
           "skin_exposure": "bold",
           "action_level": "mostly posed",
-          "source_influence": "subtle",
+          "source_influence": "balanced",
           "separates_preference": "balanced"
         },
         "expose": [
           "halter neck",
-          "mini length"
+          "open back"
         ],
-        "lead": "detail",
-        "scene": "A gold folding fan sweeps across her chest on the final beat of a floor-level dance phrase; colored spotlights skim the raised dance platform.",
-        "outfit": "A cobalt sequined bodycon halter mini dress with an open back and silver heeled sandals; her shoulders, back and legs are exposed.",
+        "lead": "action",
+        "scene": "She gathers one edge of her long train before the next step as camera flashes ripple across the grand stair landing.",
+        "outfit": "A midnight silk halter gown with an open back and a flowing gold-lined train; her shoulders and back are exposed, with a small gold crescent brooch at the waist.",
         "camera": "Vertical 2:3 portrait (1024×1536).",
         "custom": "",
         "catCustom": "",
@@ -54,6 +56,6 @@
       }
     }
   },
-  "prompt": "CHARACTER: the same woman as the attached image — Dusknoir (야느와르몽) personified, ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: relaxed brow, softly open eyes, lips closed and unstrained, no smile\nPose: Side-sit on a mat: hips on the mat, both knees bent and pointing to the same side, both lower legs folded back so the two feet lie side by side next to the opposite hip; torso upright.\nOrientation: seated with supported pelvis and a natural torso twist\nScene: A gold folding fan sweeps across her chest on the final beat of a floor-level dance phrase; colored spotlights skim the raised dance platform.\nOutfit and props: A cobalt sequined bodycon halter mini dress with an open back and silver heeled sandals; her shoulders, back and legs are exposed.\nCategory: Show one moment of public nightlife — a club dance floor, a DJ booth, a neon bar, a karaoke room, a rooftop party, a jazz bar. Bold night-out fashion such as bodycon, sequins, cut-outs, backless or mini dresses, with a specific action already in progress. Other guests stay soft, out-of-focus shapes in the background; coloured club light, haze and reflections carry the mood.\nExample scene: dancing in a sequined bodycon mini dress on a crowded club floor under coloured lights\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
-  "selection_source": "Planner query loaded into actual generator UI; free-text fields filled and rendered prompt checked before submission"
+  "prompt": "CHARACTER: the same woman as the attached image — Dusknoir (야느와르몽) personified, ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: asymmetric grin with teeth just showing, one brow raised, eyes narrowed with amusement\nPose: Stand upright with a balanced stance and a composed posture.\nOrientation: camera below subject looking upward; obey selected framing\nScene: She gathers one edge of her long train before the next step as camera flashes ripple across the grand stair landing.\nOutfit and props: A midnight silk halter gown with an open back and a flowing gold-lined train; her shoulders and back are exposed, with a small gold crescent brooch at the waist.\nCategory: Show a public gala or red-carpet moment: arriving on a red carpet, posing at a photo wall, a film-festival staircase, an award ceremony, a gala dinner, a charity auction, a fashion-week front row. A show-stopping evening gown or couture look — high slits, open backs, plunging or one-shoulder necklines, trains — with event lights and flashes. Photographers and guests stay blurred in the background; no real event names or logos.\nExample scene: climbing a grand red-carpeted staircase at a film festival in a gown with a long train\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_source": "Actual generator UI with planner refill query; rendered prompt verified"
 }

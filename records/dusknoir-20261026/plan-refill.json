@@ -1,0 +1,112 @@
+{
+ "session": "gpt-probopass-dusknoir-20261026",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "야느와르몽",
+   "species": "dusknoir-20261026",
+   "refill": true,
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "retro_glamour",
+     "ex": "disco_halter",
+     "expr": "serious",
+     "pose": "perched_seat",
+     "orient": "leaning_back",
+     "frame": "full_body",
+     "lens": "wide24",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "jumpsuit",
+      "trousers"
+     ],
+     "expose": [
+      "strapless top",
+      "plunging neckline"
+     ]
+    },
+    {
+     "cut": 2,
+     "cat": "gala_red_carpet",
+     "ex": "festival_steps",
+     "garments": [
+      "dress"
+     ],
+     "orient": "low_angle",
+     "frame": "three_quarter",
+     "pose": "standing_formal",
+     "expr": "playful",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "cat": "bridal",
+     "ex": "before_ceremony",
+     "garments": [
+      "dress"
+     ],
+     "orient": "rear_3q",
+     "frame": "chest_up",
+     "pose": "side_sitting",
+     "expr": "smug",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "mini length"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "travel_exploration",
+     "source_editorial",
+     "nightlife",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ]
+}

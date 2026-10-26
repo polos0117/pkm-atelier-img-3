@@ -145,7 +145,18 @@
       "evidence": "닫힌 입과 낮은 눈꺼풀로 진지한 인상이다."
     }
   },
-  "skipped": [
+  "face_comparison": {
+    "characters": [
+      "미라몽",
+      "코코파스",
+      "엘레이드",
+      "폴리곤Z",
+      "다부니",
+      "대코파스"
+    ],
+    "evidence": "실제 경장들을 나란히 확인했다. 야느와르몽의 길고 좁은 턱과 처진 눈은 대코파스의 각진 턱과 일자 앞머리, 최근 세 캐릭터의 얼굴과 구분된다."
+  },
+  "blocked_history": [
     {
       "slot": "casual2",
       "reason": "output safety rejection sexual",
@@ -159,15 +170,98 @@
       "next": "refill with a different example and pose"
     }
   ],
-  "face_comparison": {
-    "characters": [
-      "미라몽",
-      "코코파스",
-      "엘레이드",
-      "폴리곤Z",
-      "다부니",
-      "대코파스"
+  "skipped": [],
+  "casual2": {
+    "identity": {
+      "match": true,
+      "evidence": "회갈색 번, 눈을 덮는 긴 앞머리와 노란 눈을 경장과 대조했다."
+    },
+    "format": {
+      "match": true,
+      "evidence": "실제 WEBP, 1024×1536을 확인했다."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "붉은 카펫 계단에서 한 손으로 길게 늘어진 검정·금색 드레스 자락을 모은다. 뒤에는 흐릿한 사진가와 플래시가 보인다."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "검정 홀터 실크 드레스와 금색 안감의 긴 트레인, 드러난 어깨·등·허벅지가 보인다."
+    },
+    "pose": {
+      "match": true,
+      "evidence": "상체를 세우고 한 손으로 자락을 잡은 채 계단에 서 있다."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "낮은 시점에서 올려다보며 계단과 세로 기둥이 위로 이어진다."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "입꼬리가 비대칭으로 올라가고 이가 살짝 보인다."
+    },
+    "framing": {
+      "match": true,
+      "evidence": "머리부터 무릎 위 범위가 담기고 손의 자락 잡는 동작이 읽힌다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module is not installed",
+      "arms": 2,
+      "legs": "frame-limited; lower legs outside crop",
+      "hands": "자락 쥔 손은 엄지와 접힌 네 손가락이 천을 감싸며, 아래로 내려간 반대 손의 손끝은 일부 천과 겹친다.",
+      "overlay_checked": false,
+      "note": "두 팔이 어깨·팔꿈치·손목으로 자연스럽게 이어진다. 중복 손이 보이지 않는다."
+    }
+  },
+  "casual3": {
+    "identity": {
+      "match": true,
+      "evidence": "회갈색 번과 긴 옆머리, 노란 눈, 긴 턱선이 경장과 이어진다."
+    },
+    "format": {
+      "match": true,
+      "evidence": "실제 WEBP, 1024×1536을 확인했다."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "창 빛이 드는 브라이덜룸에서 흰 꽃 부케를 들고 있으며 짧은 베일과 거울이 보인다."
+    },
+    "wardrobe": {
+      "match": true,
+      "evidence": "아이보리 새틴 미니 웨딩드레스의 낮은 등과 짧은 치마로 어깨·등·다리가 드러난다. 검정·금색 리본이 부케와 장식에 남는다."
+    },
+    "pose": {
+      "match": true,
+      "evidence": "낮은 쿠션 위에서 양 무릎을 같은 쪽으로 접고 앉았다."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "등과 한쪽 옆구리가 카메라를 향하며 고개는 가까운 어깨 위로 자연스럽게 돌아간다."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "한쪽 입꼬리가 올라가고 눈꺼풀이 내려와 있다."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "가슴 위 요청보다 넓게 접은 다리까지 담겼다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe module is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "부케를 쥔 손은 엄지와 접힌 손가락이 꽃 줄기에 일부 가려진다. 가까운 손은 오른쪽 테두리에 걸려 전체 손가락 수를 확인할 수 없다.",
+      "overlay_checked": false,
+      "note": "가까운 어깨·팔꿈치·손목과 부케 쪽 팔이 각각 이어지며 추가 팔·손은 보이지 않는다. 테두리의 손 잘림은 현행 규칙에 따라 기록했다."
+    }
+  },
+  "diversity": {
+    "compared": [
+      "대코파스 casual1-3",
+      "엘레이드 casual1-3",
+      "폴리곤Z casual1-3"
     ],
-    "evidence": "실제 경장들을 나란히 확인했다. 야느와르몽의 길고 좁은 턱과 처진 눈은 대코파스의 각진 턱과 일자 앞머리, 최근 세 캐릭터의 얼굴과 구분된다."
+    "result": "실제 그림을 나란히 비교했다. 미러볼 아래 플레어 점프슈트로 벨트 정리·계단에서 긴 트레인 잡기·밝은 창가에서 부케 들기의 의상·활동·몸 실루엣이 구분된다.",
+    "tool": "../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     283  다탱구_glossy_promo_f_casual3.webp\n     292  폴리곤2_glossy_promo_f_casual3.webp\n     300  로젤리아_glossy_promo_f_casual3.webp\n../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     330  푸호꼬_glossy_promo_f_casual1.webp\n     336  데기라스_glossy_promo_f_casual3.webp\n     347  자포코일_glossy_promo_f_casual1.webp\n../pkm-atelier-img-3/img/야느와르몽_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     294  두코_glossy_promo_f_casual3.webp\n     295  니드런♀_glossy_promo_f_casual3.webp\n     303  로토스_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
   }
 }
