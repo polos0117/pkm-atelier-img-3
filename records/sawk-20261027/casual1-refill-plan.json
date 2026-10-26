@@ -1,0 +1,240 @@
+{
+  "card": "타격귀",
+  "slot": "casual1",
+  "user_instruction": "타격귀 다른 일상구도로 다시 만들어서 올려줘",
+  "reservation_session": "sawk-casual1-refill-20261027-8e00",
+  "reservation_commit": "ba579901e3919a8b2bbebed0c07fc120dc3932d1",
+  "planner_check": "passed",
+  "reservation_stamp": "verified",
+  "plan": {
+    "session": "sawk-casual1-refill-20261027-8e00",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "타격귀",
+        "species": "sawk-20261027",
+        "refill": true,
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_knitting",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "leaning_furniture",
+            "expr": "soft_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "award_ceremony",
+            "expr": "pensive",
+            "pose": "walking",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "aerobics_80s",
+            "expr": "proud",
+            "pose": "standing_relaxed",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "leggings"
+            ],
+            "expose": [
+              "halter neck",
+              "cropped hem"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "new_cut": {
+    "cut": 1,
+    "cat": "hobbies_leisure",
+    "ex": "hobby_knitting",
+    "garments": [
+      "overalls"
+    ],
+    "orient": "rear_3q",
+    "frame": "full_body",
+    "pose": "leaning_furniture",
+    "expr": "soft_smile",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "side cutouts",
+      "one-shoulder cut"
+    ],
+    "lead": "place"
+  },
+  "example_text": "Knitting a soft scarf on a window seat, a ball of yarn resting in a basket at her side.",
+  "submitted_scene": {
+    "expr": "soft_smile",
+    "pose": "leaning_furniture",
+    "orient": "rear_3q",
+    "scene": "An oak bay-window nook overlooks a rain-speckled garden; a linen cushion and soft afternoon light warm the interior.",
+    "outfit": "Sand-coloured linen short overalls with a single wide shoulder strap, a secure high lined bib, wide shorts and small side-waist openings; cream canvas sneakers and a subtle cobalt stitch along one pocket.",
+    "frame": "full_body",
+    "lens": "natural50",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "custom": "",
+    "aspect": "2:3",
+    "cat": "hobbies_leisure",
+    "catCustom": "",
+    "ex": "hobby_knitting",
+    "exCustom": "",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "action": {},
+    "randomLocks": {
+      "cat": true,
+      "ex": true,
+      "expr": true,
+      "pose": true,
+      "orient": true,
+      "frame": true,
+      "lens": true,
+      "aspect": true,
+      "overall_intensity": true,
+      "skin_exposure": true,
+      "action_level": true,
+      "source_influence": true,
+      "separates_preference": true
+    },
+    "cut": 1,
+    "garments": [
+      "overalls"
+    ],
+    "expose": [
+      "side cutouts",
+      "one-shoulder cut"
+    ],
+    "lead": "place"
+  },
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "content": "An oak bay-window nook overlooks a rain-speckled garden; a linen cushion and soft afternoon light warm the interior.",
+      "reason": "창가 예시에 없는 참나무 소재·비 오는 정원·오후 빛·쿠션을 보충한다."
+    },
+    {
+      "field": "outfit",
+      "content": "Sand-coloured linen short overalls with a single wide shoulder strap, a secure high lined bib, wide shorts and small side-waist openings; cream canvas sneakers and a subtle cobalt stitch along one pocket.",
+      "reason": "계획의 오버롤·원숄더·옆허리 개방을 린넨 작업복 구조로 구체화하고, 높은 안감 처리 앞판과 넓은 반바지를 지정한다."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "이미지 도구에 크기 선택 항목이 없어 1024×1536 세로 규격을 명시한다."
+    }
+  ],
+  "axes_reason": "뜨개질 손동작은 balanced, 주머니의 작은 청색 스티치만 남겨 subtle, 오버롤 한 벌이므로 balanced.",
+  "old_blocked_request_id": "0ce9f1b2-0e14-4417-b181-2161bb39939a",
+  "substantive_nonsexual_changes": [
+    "탐정 테마 역할극을 창가의 뜨개질 취미 장면으로 변경",
+    "트렌치 코트·짧은 드레스를 안감 처리 린넨 오버롤과 운동화로 변경",
+    "바닥에 한 무릎을 세운 측면 구도를 창가 뒤 3/4 전신 구도로 변경",
+    "돋보기 부분 보정 요청을 폐기하고 경장 ①을 기준으로 새 장면을 한 장 생성"
+  ],
+  "reference": {
+    "file": "타격귀_light_glossy_promo_f.webp",
+    "original_sha256": "ea3dd73719336a939ca4a509bdab9884bab15217ac9d39b728c6c6e6a7512e81"
+  },
+  "metadata_reading": "Git tree filename index and genuine casual UI records for ledger. Temporary filename-index symlinks removed before publishing; other character originals were not copied."
+}
