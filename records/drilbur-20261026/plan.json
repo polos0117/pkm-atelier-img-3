@@ -1,0 +1,372 @@
+{
+  "batch": {
+    "session": "swoobat-drilbur-5f8d-20261026",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "맘박쥐",
+        "species": "swoobat-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_lookout",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "walking",
+            "expr": "proud",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "morning_stretch",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "sitting",
+            "expr": "provocative",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "bodysuit",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "sitting_floor",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "private_evening"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top",
+            "shorts",
+            "lingerie_set"
+          ],
+          "orient": [
+            "looking_down",
+            "reclining",
+            "three_quarter_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "두더류",
+        "species": "drilbur-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "partner_care",
+            "ex": "care_play",
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "gentle_pat",
+            "expr": "determined",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "waving",
+            "expr": "half_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "thermal_spa",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "small_jog",
+            "expr": "sensual",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "private_evening"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "tank",
+            "jacket"
+          ],
+          "orient": [
+            "looking_away",
+            "profile_close",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "두더류",
+    "species": "drilbur-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "partner_care",
+        "ex": "care_play",
+        "garments": [
+          "tank",
+          "trousers"
+        ],
+        "orient": "looking_away",
+        "frame": "environmental",
+        "pose": "gentle_pat",
+        "expr": "determined",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "side cutouts",
+          "strapless top"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 2,
+        "cat": "adult_roleplay",
+        "ex": "cabin_crew_retro",
+        "garments": [
+          "jacket"
+        ],
+        "orient": "profile_close",
+        "frame": "chest_up",
+        "pose": "waving",
+        "expr": "half_smile",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "mini length",
+          "cropped hem"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "thermal_spa",
+        "garments": [
+          "bikini"
+        ],
+        "orient": "turning_midmotion",
+        "frame": "waist_up",
+        "pose": "small_jog",
+        "expr": "sensual",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "detail"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2,
+          3
+        ],
+        "two": true,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "private_evening"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "tank",
+        "jacket"
+      ],
+      "orient": [
+        "looking_away",
+        "profile_close",
+        "turning_midmotion"
+      ],
+      "frame": []
+    }
+  },
+  "check": "casual-ledger.py check passed with complete image directory; stamped reservation published before generation",
+  "replanning": "Planner avoided burkini_modest/bandeau_bikini incompatible with the selected exposure, and two-handed map pose incompatible with binocular activity. No reservation hand edits."
+}

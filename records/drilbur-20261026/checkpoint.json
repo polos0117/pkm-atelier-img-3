@@ -1,0 +1,82 @@
+{
+  "card": "두더류",
+  "status": "2/9 complete: light and heavy uploaded at user request; remaining seven pending",
+  "files": [
+    {
+      "card": "두더류",
+      "slot": "light",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local generator UI and its unmodified output; built-in image_gen",
+      "source": "generated_images/exec-dfa91bfd-bfb6-4b6a-9a6a-cc46ac74cf95.png",
+      "source_sha256": "33b74aaf15e2755c6cff7719ba90aa887e700b91d87f57949e8c175114f59f05",
+      "output": "두더류_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "9a2c12981f287c9c868cc4b77785f2f241670d90cb3746ebe7abc6c5607d1c5b",
+      "reference": null
+    },
+    {
+      "card": "두더류",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local generator UI and its unmodified output; built-in image_gen",
+      "source": "generated_images/exec-dafee8fb-a54b-4e7d-ab6a-a6f8b1959e61.png",
+      "source_sha256": "b4938b0f0a5bbc7d3fd1a70649625bbc39fd5c16845c2ddca23503aa0a359bc6",
+      "output": "두더류_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b0447302b649afbf2fd5d3835a7eed353f05df81ad04817169e0bfc301da0155",
+      "reference": "light"
+    }
+  ],
+  "anchor": {
+    "card": "두더류",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual local generator UI and its unmodified output; built-in image_gen",
+    "source": "generated_images/exec-dfa91bfd-bfb6-4b6a-9a6a-cc46ac74cf95.png",
+    "source_sha256": "33b74aaf15e2755c6cff7719ba90aa887e700b91d87f57949e8c175114f59f05",
+    "output": "두더류_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "9a2c12981f287c9c868cc4b77785f2f241670d90cb3746ebe7abc6c5607d1c5b",
+    "reference": null
+  },
+  "hand_edit": {
+    "reason": "Original light right hand had six digits; removed downward extra digit before establishing anchor",
+    "rejected_source_sha256": "da1857c193946cd3bfd84aa99c62062070d78d03f4a23c19523bb69f748626aa",
+    "prompt": "light-hand-edit-prompt.txt"
+  },
+  "face_design": {
+    "source": "data/face-design.json#529; source-appearance.json#529; CHARACTER_FACE_DESIGNS.md",
+    "reason": "Navy jagged stripe informs short wolf cut; upright body and ground type map to oval contour, tapered chin, raised eyes, broad low nose bridge and thin lips.",
+    "actual_compared": [
+      "맘박쥐",
+      "토게키스",
+      "메가자리",
+      "거대코뿌리",
+      "덩쿠림보"
+    ],
+    "evidence": "Uplifted eye corners, narrower pointed chin and thin lips contrast with Swoobat rounded cheeks/large level eyes and Togekiss relaxed lowered eyes/full lips.",
+    "face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, average spacing; long arched brows; broad low bridge nose; thin lips.",
+    "hair_line": "HAIR: short wolf cut, choppy bangs."
+  }
+}

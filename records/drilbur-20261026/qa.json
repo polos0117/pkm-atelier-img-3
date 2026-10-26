@@ -1,0 +1,58 @@
+{
+  "card": "두더류",
+  "status": "2 complete / 9 requested",
+  "images": {
+    "light": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upturned eyes, narrow chin and slim lips."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Single slim plates over fitted navy suit, white/blue angled motifs and narrow sash."
+      },
+      "text_and_framing": {
+        "match": true,
+        "evidence": "One full adult woman in rocky canyon, boots and head inside frame, no readable text or weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; prior checker exit3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward right palm has one thumb on image right and four fanned fingers; far left glove has four lower fingers and opposing upper thumb. Both wrists connect, no duplicate limb. Original six-digit hand was corrected before heavy generation.",
+        "overlay_checked": false,
+        "note": "Original-size visual review and enlarged light-hand review; both booted legs visibly join torso."
+      }
+    },
+    "heavy": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, quality85 method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same navy/white short wolf cut, blue-gray upturned eyes, narrow chin and slim lips."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Layered shoulder, forearm, hip/thigh/shin plates and open-face crown guards; face and body proportions retained."
+      },
+      "text_and_framing": {
+        "match": true,
+        "evidence": "One full adult woman in rocky canyon, boots and head inside frame, no readable text or weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; prior checker exit3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward right palm has one thumb on image right and four fanned fingers; far left glove has four lower fingers and opposing upper thumb. Both wrists connect, no duplicate limb. Original six-digit hand was corrected before heavy generation.",
+        "overlay_checked": false,
+        "note": "Original-size visual review and enlarged light-hand review; both booted legs visibly join torso."
+      }
+    }
+  }
+}
