@@ -1,0 +1,136 @@
+{
+ "session": "palpitoad-seismitoad-20261027",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "두까비",
+   "species": "palpitoad-20261027",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "retro_glamour",
+     "ex": "boho_crochet",
+     "garments": [
+      "trousers"
+     ],
+     "orient": "leaning_back",
+     "frame": "chest_up",
+     "pose": "perched_seat",
+     "expr": "amused",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "strapless top"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "occupation_sensual",
+     "ex": "yacht_captain",
+     "expr": "sleepy",
+     "pose": "reading_book",
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "expose": [
+      "cropped hem",
+      "strapless top"
+     ],
+     "lead": "action"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": "festivals_contests",
+     "ex": "fest_illumination",
+     "expr": "nostalgic",
+     "pose": "holding_cup",
+     "orient": "low_angle",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "blouse",
+      "trousers"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "trousers"
+    ],
+    "orient": [
+     "leaning_back"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

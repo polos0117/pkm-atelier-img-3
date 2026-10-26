@@ -1,0 +1,400 @@
+{
+  "session": "palpitoad-seismitoad-20261027",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "두까비",
+      "species": "palpitoad-20261027",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "retro_glamour",
+          "ex": "boho_crochet",
+          "garments": [
+            "trousers"
+          ],
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "pose": "perched_seat",
+          "expr": "amused",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "occupation_sensual",
+          "ex": "yacht_captain",
+          "expr": "sleepy",
+          "pose": "reading_book",
+          "orient": "over_shoulder",
+          "frame": "three_quarter",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "blouse",
+            "trousers"
+          ],
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "festivals_contests",
+          "ex": "fest_illumination",
+          "expr": "nostalgic",
+          "pose": "holding_cup",
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "blouse",
+            "trousers"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "trousers"
+        ],
+        "orient": [
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "boho_crochet",
+      "garments": [
+        "trousers"
+      ],
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "pose": "perched_seat",
+      "expr": "amused",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "place"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "yacht_captain",
+      "expr": "sleepy",
+      "pose": "reading_book",
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "trousers"
+      ],
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "action"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_illumination",
+      "expr": "nostalgic",
+      "pose": "holding_cup",
+      "orient": "low_angle",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "trousers"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "place"
+    }
+  ],
+  "generator_records": {
+    "casual1": {
+      "actual_settings": {
+        "expr": "amused",
+        "pose": "perched_seat",
+        "orient": "leaning_back",
+        "scene": "Sunlit festival fields surround a striped canvas stool beside a stall of handmade woven bags; she pauses between music sets.",
+        "outfit": "A cream crochet halter crop top over an opaque strapless bandeau, low-rise indigo flared jeans and a woven belt; the halter reveals her shoulders and the cropped hem reveals her waist.",
+        "frame": "chest_up",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "retro_glamour",
+        "catCustom": "",
+        "ex": "boho_crochet",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "direct_input_reasons": {
+        "scene": "선정한 예시에 없는 음악 세트 사이 가판대와 스툴의 휴식 상황를 보충.",
+        "outfit": "예시를 유지하면서 옷감·색과 계획 garments/expose를 구체화. 크로셰 아래 불투명 밴도로 가림, 로라이즈 청바지",
+        "camera": "도구에 크기 설정이 없어 1024×1536 문장을 입력."
+      },
+      "axes_reasons": {
+        "action_level": "축제 사이 스툴 휴식이라 정지 비중 높음",
+        "source_influence": "청색 머리 외에는 작은 색 조응만",
+        "separates_preference": "상하의 분리: ['trousers']"
+      }
+    },
+    "casual2": {
+      "actual_settings": {
+        "expr": "sleepy",
+        "pose": "reading_book",
+        "orient": "over_shoulder",
+        "scene": "She compares a lagoon depth chart with her compact binoculars on an observation boat during an early marine survey.",
+        "outfit": "A strapless cropped cream blouse with a navy sailor collar panel, belted low-rise blue trousers and deck shoes; the neckline exposes her shoulders and the cropped hem exposes her waist.",
+        "frame": "three_quarter",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_sensual",
+        "catCustom": "",
+        "ex": "yacht_captain",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "direct_input_reasons": {
+        "scene": "선정한 예시에 없는 해도·쌍안경의 대조 활동과 조사 시간를 보충.",
+        "outfit": "예시를 유지하면서 옷감·색과 계획 garments/expose를 구체화. 스트랩리스 크롭 블라우스와 네이비 바지",
+        "camera": "도구에 크기 설정이 없어 1024×1536 문장을 입력."
+      },
+      "axes_reasons": {
+        "action_level": "해도를 확인하는 손동작 중심",
+        "source_influence": "해양 조사·청색·둥근 단추가 물 타입을 환기",
+        "separates_preference": "상하의 분리: ['blouse', 'trousers']"
+      }
+    },
+    "casual3": {
+      "actual_settings": {
+        "expr": "nostalgic",
+        "pose": "holding_cup",
+        "orient": "low_angle",
+        "scene": "An archway of blue and amber winter lights stretches across a waterfront promenade at dusk.",
+        "outfit": "An asymmetric off-shoulder ivory blouse with one narrow shoulder strap, navy high-waist trousers and cream gloves; the neckline exposes her shoulders and collarbone.",
+        "frame": "waist_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "festivals_contests",
+        "catCustom": "",
+        "ex": "fest_illumination",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "direct_input_reasons": {
+        "scene": "선정한 예시에 없는 워터프런트와 조명 아치의 색·시간대를 보충.",
+        "outfit": "예시를 유지하면서 옷감·색과 계획 garments/expose를 구체화. 비대칭 어깨 목선과 장갑",
+        "camera": "도구에 크기 설정이 없어 1024×1536 문장을 입력."
+      },
+      "axes_reasons": {
+        "action_level": "걷는 축제와 따뜻한 컵의 가벼운 동작",
+        "source_influence": "청금색 조명과 둥근 장신구 색을 연결",
+        "separates_preference": "상하의 분리: ['blouse', 'trousers']"
+      }
+    }
+  }
+}
