@@ -1,0 +1,262 @@
+{
+  "session": "gpt-probopass-dusknoir-20261026",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "대코파스",
+      "species": "probopass-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "dance_stage",
+          "ex": "hula",
+          "garments": [
+            "crop_top",
+            "shorts",
+            "skirt"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "kneeling",
+          "expr": "focused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "strapless top",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "subculture_fashion",
+          "ex": "gyaru_street",
+          "garments": [
+            "dress"
+          ],
+          "orient": "side",
+          "frame": "chest_up",
+          "pose": "taking_photo",
+          "expr": "unimpressed",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "mini length"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "deco_lounge",
+          "garments": [
+            "dress"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "pose": "contrapposto",
+          "expr": "amused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "retro_glamour",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "crop_top"
+        ],
+        "orient": [
+          "crouching",
+          "side",
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "야느와르몽",
+      "species": "dusknoir-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "retro_glamour",
+          "ex": "disco_halter",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "pose": "perched_seat",
+          "expr": "serious",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "nightlife",
+          "ex": "club_floor",
+          "garments": [
+            "dress"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "side_sitting",
+          "expr": "calm",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "spa_wellness",
+          "ex": "hammam",
+          "garments": [
+            "robe"
+          ],
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "pose": "squatting",
+          "expr": "cold_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit",
+          "robe"
+        ],
+        "orient": [
+          "leaning_back",
+          "seated_twist",
+          "profile_close"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "status": "7 of 9 generated; casual2 and casual3 safety blocked, refill pending",
+  "face_review": {
+    "basis": "data/face-design.json 477 species design; high collar vertical silhouette interpreted as long face and soft drooping eyes",
+    "canonical": {
+      "slot": "light",
+      "card": "야느와르몽",
+      "style": "glossy_promo",
+      "basis": "actual generator UI",
+      "original_local": "/workspace/scratch/16097793eaa4/generated_images/exec-e692a5bf-d5ff-4fce-88d5-8b3ad6838571.png",
+      "original_sha256": "057e1463f25efefd0bf6949092e23de94ec1572dd56013ae07f34a88cc530c88",
+      "file": "야느와르몽_light_glossy_promo_f.webp",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "sha256": "f96608646f4acadefdc84cea2d6701ea5fd2c1d566df9d79a03bc2a5137ac018",
+      "reference": "none"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "storage": {
+    "style": "glossy_promo",
+    "mode": "casual",
+    "identityMode": "reference",
+    "scenes": {
+      "casual": {
+        "cut": 3,
+        "cat": "spa_wellness",
+        "ex": "hammam",
+        "garments": [
+          "robe"
+        ],
+        "orient": "profile_close",
+        "frame": "chest_up",
+        "pose": "squatting",
+        "expr": "cold_smile",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "off-shoulder neckline",
+          "open back"
+        ],
+        "lead": "light",
+        "scene": "Diffuse blue light enters through star-shaped skylights, illuminating the marble basin and the shallow rinsing bowl beside the slab.",
+        "outfit": "An opaque cream striped cotton peshtemal is wrapped robe-style securely across her chest and hips, with its top edge off her shoulders and low across her upper back.",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "catCustom": "",
+        "exCustom": "",
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Dusknoir (야느와르몽) personified, ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: mouth smiling while the eyes stay flat and unsmiling, brows level, gaze direct and unwarm\nPose: Squat comfortably to interact at a lower height with balanced feet.\nOrientation: side profile, close only when no explicit framing is selected\nScene: Diffuse blue light enters through star-shaped skylights, illuminating the marble basin and the shallow rinsing bowl beside the slab.\nOutfit and props: An opaque cream striped cotton peshtemal is wrapped robe-style securely across her chest and hips, with its top edge off her shoulders and low across her upper back.\nCategory: Show a moment of rest at a spa, hot spring, sauna or bathhouse: an open-air bath edge, a cedar tub, a robe lounge, a hammam, a cold plunge. She wears swimwear, a secure towel wrap, a plush robe or bathhouse loungewear that stays fully covering at chest and hips; steam, wood, stone and water light carry the scene. Calm, unhurried posture; no shower scenes.\nExample scene: wrapped in a striped cotton peshtemal on the warm marble slab of a domed hammam, a brass bowl beside her\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "selection_source": "Planner query loaded into actual generator UI; free-text fields filled and rendered prompt checked before submission"
+}

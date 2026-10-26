@@ -1,0 +1,95 @@
+{
+  "input": {
+    "mech": "야느와르몽",
+    "sourceName": "Dusknoir",
+    "series": "ghost",
+    "sourceAppearance": {
+      "name": "야느와르몽",
+      "en": "Dusknoir",
+      "color": "black",
+      "shape": "arms",
+      "features": [
+        {
+          "part": "antenna",
+          "detail": "short, yellow antenna"
+        },
+        {
+          "part": "collar",
+          "detail": "upturned collar"
+        },
+        {
+          "part": "marking",
+          "detail": "two almond-shaped markings"
+        },
+        {
+          "part": "tail",
+          "detail": "wispy tail"
+        },
+        {
+          "part": "iris",
+          "detail": "yellow iris"
+        },
+        {
+          "part": "band",
+          "detail": "yellow band"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Dusknoir_%28Pok%C3%A9mon%29",
+      "revision": 4610899,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "3034b1e4ebc283369c0e7a20ef455d68e6772e909a237827af2b20dbee5761e9",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "야느와르몽",
+      "en": "Dusknoir",
+      "line": "해골몽",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "elongated",
+        "face length": "long",
+        "face width": "narrow",
+        "jaw & chin": "long chin with defined jaw",
+        "eye shape": "drooping",
+        "eye size": "medium",
+        "eye tilt": "downturned outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "straight medium brows",
+        "nose character": "balanced nose",
+        "lips": "wide mouth"
+      },
+      "why": "움켜쥐는 큰 몸과 높은 칼라의 수직선을 긴 얼굴와 낮은 눈꺼풀로 해석한다.",
+      "cues": [
+        "고스트 타입 → 눈매 살짝 처진 부드러운 눈"
+      ],
+      "adjusted": "[머리] 진화 계열의 머리 잇기 규칙에 맞추려고 포니테일 → 흐트러진 번",
+      "hair": {
+        "hairstyle": "messy bun",
+        "hair length": "long",
+        "bangs": "long side bangs covering one eye"
+      },
+      "hair_locked": false,
+      "hair_why": "키 2.2m에서 흐트러진 번(올림머리) · 긴 머리 · 한쪽 눈을 덮는 긴 사이드뱅 — 미라몽에서 이어 같은 묶음",
+      "hair_cues": [
+        "키 2.2m → 머리 길이 긴 머리",
+        "고스트 타입 → 앞머리 한쪽 눈을 덮는 긴 사이드뱅"
+      ]
+    },
+    "style": "glossy_promo",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "outputMode": "action",
+    "identityMode": "reference",
+    "form": "mobility",
+    "baseForm": "mobility",
+    "camera": "Vertical 2:3 portrait (1024×1536)."
+  },
+  "selection_source": "Actual generator UI selections; prompt verified against rendered output before submission"
+}
