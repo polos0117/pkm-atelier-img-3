@@ -1,0 +1,91 @@
+{
+  "input": {
+    "mech": "대코파스",
+    "sourceName": "Probopass",
+    "series": "rock / steel",
+    "sourceAppearance": {
+      "name": "대코파스",
+      "en": "Probopass",
+      "color": "gray",
+      "shape": "heads",
+      "features": [
+        {
+          "part": "magnet",
+          "detail": "big red hat-like magnet"
+        },
+        {
+          "part": "nose",
+          "detail": "red nose"
+        },
+        {
+          "part": "mustache",
+          "detail": "bushy black mustache"
+        },
+        {
+          "part": "eye",
+          "detail": "small round eyes"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Probopass_%28Pok%C3%A9mon%29",
+      "revision": 4611259,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "2b330ffe63955c038ee262cd8b33a96179db187e55dca2a1aa6f99bf9b347eea",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "대코파스",
+      "en": "Probopass",
+      "line": "코코파스",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "angular",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "square broad jaw",
+        "eye shape": "large",
+        "eye size": "small",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "straight medium brows",
+        "nose character": "balanced nose",
+        "lips": "straight even lips"
+      },
+      "why": "",
+      "cues": [
+        "강철 타입 → 얼굴형 각지고 선명한 얼굴형",
+        "바위 타입 → 턱선 · 턱끝 넓고 각진 사각 턱",
+        "‘small round eyes’ → 눈매 큰 눈",
+        "‘small round eyes’ → 눈 크기 작은 눈",
+        "‘small round eyes’ → 눈꼬리 각도 수평",
+        "몸 형태 heads → 눈 간격 눈 사이가 가까운"
+      ],
+      "adjusted": "같은 계열 코코파스와 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 얇은 입술 → 굴곡 없이 곧은",
+      "hair": {
+        "hairstyle": "blunt cut",
+        "hair length": "long",
+        "bangs": "straight bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘big red hat-like magnet’·바위 타입에서 끝을 일자로 자른 컷(곧은 결) · 긴 머리 · 일자 앞머리 — 코코파스에서 이어 같은 묶음",
+      "hair_cues": [
+        "‘big red hat-like magnet’ → 헤어스타일 끝을 일자로 자른 컷"
+      ]
+    },
+    "style": "glossy_promo",
+    "params": [
+      [
+        "apparent age",
+        "20s"
+      ]
+    ],
+    "outputMode": "action",
+    "identityMode": "reference",
+    "form": "overdrive",
+    "baseForm": "mobility",
+    "camera": "Vertical 2:3 portrait (1024×1536)."
+  },
+  "selection_source": "Actual generator UI selections; prompt verified against rendered output before submission"
+}

@@ -1,0 +1,438 @@
+{
+  "session": "gpt-probopass-dusknoir-20261026",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "대코파스",
+      "species": "probopass-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "dance_stage",
+          "ex": "hula",
+          "garments": [
+            "crop_top",
+            "shorts",
+            "skirt"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "kneeling",
+          "expr": "focused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "strapless top",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "subculture_fashion",
+          "ex": "gyaru_street",
+          "garments": [
+            "dress"
+          ],
+          "orient": "side",
+          "frame": "chest_up",
+          "pose": "taking_photo",
+          "expr": "unimpressed",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "mini length"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "deco_lounge",
+          "garments": [
+            "dress"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "pose": "contrapposto",
+          "expr": "amused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "retro_glamour",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "crop_top"
+        ],
+        "orient": [
+          "crouching",
+          "side",
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "야느와르몽",
+      "species": "dusknoir-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "retro_glamour",
+          "ex": "disco_halter",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "pose": "perched_seat",
+          "expr": "serious",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "nightlife",
+          "ex": "club_floor",
+          "garments": [
+            "dress"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "side_sitting",
+          "expr": "calm",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "spa_wellness",
+          "ex": "hammam",
+          "garments": [
+            "robe"
+          ],
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "pose": "squatting",
+          "expr": "cold_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit",
+          "robe"
+        ],
+        "orient": [
+          "leaning_back",
+          "seated_twist",
+          "profile_close"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "dance_stage",
+      "ex": "hula",
+      "garments": [
+        "crop_top",
+        "shorts",
+        "skirt"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "kneeling",
+      "expr": "focused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "strapless top",
+        "open back"
+      ],
+      "lead": "light",
+      "example": "a hula costume with a flower lei, a bandeau top and a grass-style skirt over shorts, swaying on a beach stage at sunset",
+      "random_source": "planner",
+      "adjustments": [],
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm footlights cast amber bands across the timber stage; the flower lei lifts gently in the sea breeze.",
+          "reason": "무대 조명과 바람의 구체 조건 보완"
+        },
+        {
+          "field": "outfit",
+          "content": "Crimson silk bandeau tied behind her bare back, cream raffia skirt over charcoal dance shorts; her shoulders, midriff and back remain exposed.",
+          "reason": "해당 컷에서 계획한 옷 종류·색·소재·드러내는 방식을 구체화"
+        }
+      ],
+      "axes_reason": "hula 활동과 crop_top,shorts,skirt 구조에 맞춰 계획기가 정한 축을 유지했다."
+    },
+    {
+      "cut": 2,
+      "cat": "subculture_fashion",
+      "ex": "gyaru_street",
+      "garments": [
+        "dress"
+      ],
+      "orient": "side",
+      "frame": "chest_up",
+      "pose": "taking_photo",
+      "expr": "unimpressed",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "mini length"
+      ],
+      "lead": "action",
+      "example": "gyaru — a bodycon mini dress, platform heels, long nail art and layered accessories, posing for a photo-booth picture in a busy shopping street",
+      "random_source": "planner",
+      "adjustments": [],
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "She triggers a compact camera for her photo-booth portrait; the booth stands beside rain-beaded shopping windows.",
+          "reason": "포토부스와 비 내린 쇼핑가의 촬영 조건 보완"
+        },
+        {
+          "field": "outfit",
+          "content": "A fuchsia leopard-print mini dress with a plunging neckline, sparkling earrings and stacked bangles; her collarbones and legs are exposed.",
+          "reason": "해당 컷에서 계획한 옷 종류·색·소재·드러내는 방식을 구체화"
+        }
+      ],
+      "axes_reason": "gyaru_street 활동과 dress 구조에 맞춰 계획기가 정한 축을 유지했다."
+    },
+    {
+      "cut": 3,
+      "cat": "retro_glamour",
+      "ex": "deco_lounge",
+      "garments": [
+        "dress"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "contrapposto",
+      "expr": "amused",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example": "a 1920s bias-cut satin lounge gown, lighting a candle in an Art Deco hotel lounge",
+      "random_source": "planner",
+      "adjustments": [],
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "overall_intensity": true,
+        "skin_exposure": true,
+        "action_level": true,
+        "source_influence": true,
+        "separates_preference": true
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Fluted brass wall panels and emerald velvet booths surround a small marble bar; a coupe glass rests beside her fingertips.",
+          "reason": "아르데코 바의 소재와 색 보완"
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory satin one-shoulder evening dress with a sculpted side cutout and a draped skirt; her shoulder and waist are exposed.",
+          "reason": "해당 컷에서 계획한 옷 종류·색·소재·드러내는 방식을 구체화"
+        }
+      ],
+      "axes_reason": "deco_lounge 활동과 dress 구조에 맞춰 계획기가 정한 축을 유지했다."
+    }
+  ],
+  "check": "planner check passed; remote reservation 1b09866e99ca0ba53a0f82845a2671c94fbb59e3; verify passed",
+  "face_review": {
+    "why": "돌과 강철의 각진 부피는 턱선과 윤곽으로, 작은 원형 눈은 가까운 작은 눈으로 해석했다. 코와 수염은 사람 얼굴에 복제하지 않았다.",
+    "basis": "data/source-appearance.json 476 and data/face-design.json 476",
+    "canonical": {
+      "slot": "light",
+      "card": "대코파스",
+      "style": "glossy_promo",
+      "basis": "actual generator UI",
+      "original_local": "/workspace/scratch/16097793eaa4/generated_images/exec-b6e0a105-6340-45c6-acf9-c02e327db5b0.png",
+      "original_sha256": "0b6c4782a080b6a0a95b7fa6cc835d81da762d85a9acc8569f86f8deb8bf74b7",
+      "file": "대코파스_light_glossy_promo_f.webp",
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "sha256": "64ff65704300a74d58b81a183402f77c114399441a16f3eade75e8151a1ab67a",
+      "reference": "none"
+    }
+  }
+}
