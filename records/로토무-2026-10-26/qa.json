@@ -1,0 +1,180 @@
+{
+  "reviewer": "gpt",
+  "items": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "4a3d7ee2e20e75cf5e6ee3b833ea5006e6985aa2e030426f05cbbf95dc030611",
+      "observations": "주황색 비대칭 단발과 푸른 아랫머리, 주황 눈·좁은 턱·큰 아몬드 눈. 검은 슈트 위 주황색 얇은 어깨·전완·골반·정강이 장갑. 양팔과 양다리가 몸에서 장갑 손·부츠까지 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "df8a6b83922aba4c654a7363d1d68beddcacc6142349980f1ca61a95e45fb8b0",
+      "observations": "어깨·가슴·허리·골반·허벅지·정강이에 겹판이 늘어 윤곽이 넓다. 주황 눈과 짧은 비대칭 머리는 기준과 같다. 양손이 전완 끝에 붙어 있고 두 다리가 정상적으로 바닥을 딛는다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "64bbb3d4dc5b9a67e566b45334ca5893c38f7f0d3f02104c2a7de304de4e9d66",
+      "observations": "어깨·골반·종아리의 얇은 패널과 작은 원형 추진기가 옆과 뒤로 벌어진다. 기준 인물의 얼굴·머리·체형이 유지되며 양팔·두 부츠 연결이 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "ddaac4573ec09c1a3973db6b4e0afc9b427aabd290f7180c39fa02926f543316",
+      "observations": "경장의 같은 자세·구도·발 위치에서 주황 판이 들리고 검은 내부 틀과 황백색 전기 아크가 드러난다. 주황 눈 색을 유지한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "4f42bbb8bde0ac55bccd3d8beb0340f00d878994280ca0c3c921945212d6abba",
+      "observations": "중장의 같은 어깨·손·발 위치. 두꺼운 겹판이 들리며 어깨·전완·골반·다리 내부 프레임과 노란 전기가 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "254fd01b018805d2314994555ddc1abf2b8915cc8fbca823e8cad0c799410c7e",
+      "observations": "고기동과 같은 전신 구도. 어깨·골반·종아리 추진 패널이 더 벌어지고 내부 축·황백 전기 아크가 드러난다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "검은 장갑의 엄지와 접힌 네 손가락이 일부 겹쳐 보임. 양 손목이 전완 끝에 붙으며 엄지 방향과 관절 연결에 뚜렷한 반전 없음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "44ac28ff731b1e71f3f2a4bddf2fa096e44e9df749631cb4a04a992034e371c5",
+      "observations": "보라 무대 조명과 커튼 앞에서 마술 상자를 열어 보여 준다. 파란 스팽글 상의·반바지·주황 짧은 연미복·장갑·탑햇. 상자를 들기보다 받침 위 뚜껑에 손을 대는 결과이며 허리 위보다 넓게 허벅지까지 담겼다. 활동은 마술 상자 시연으로 일치하고 자세·크롭 차이는 기록한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "뚜껑 위 손과 상자 안쪽 손이 장갑 손목에서 각각 이어짐. 상자 모서리에 일부 끝손가락이 가려짐. 보이는 손가락이 따로 떨어지거나 여섯째 손가락으로 갈라지지 않음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "77983cca4fb53ea9b10b1226b7a157b545b55946fd94fcab456553879a988140",
+      "observations": "피로연 무도장 안에서 양손으로 아이보리 드레스 자락을 잡고 돌아보는 순간. 등·옆 허리 컷아웃과 흐르는 치마가 보인다. 등쪽 몸통 위 얼굴이 어깨 너머 3/4로 돌아오며, 목이 어깨 위로 연결된다. 머리 장식이 꽃으로 바뀌었으나 머리 길이·색·얼굴은 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손이 치마를 쥐어 엄지·검지와 접힌 나머지 손가락이 겹침. 양 전완이 손목으로 자연스럽게 이어지고 천 너머 가려진 손끝은 추정하지 않음.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "91236dcdc6245a54d0002344baac85df90b82fce73350cde4845c1339e5576d4",
+      "observations": "목재 라운저에 엎드려 한 손에 찬물 잔을 들고 입가에 가까이 댄다. 반대 전완은 쿠션 위에 있고, 두 무릎이 접힌 다리와 양발이 뒤에 보인다. 두꺼운 파란 타월이 가슴·골반을 감싼다. 계획의 로브는 소매 없는 타월 랩으로 표현됐고 배경에 온수탕이 보인다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "잔을 쥔 손의 네 손가락이 잔 앞에 굽혀지고 엄지는 잔 뒤로 가려짐. 쿠션 위 손은 손등·엄지 쪽과 접힌 손가락이 보인다. 양 전완 연결 정상.",
+        "overlay_checked": false,
+        "note": "1024×1536 원본 눈 검수. 일상1은 프레임 아래 다리, 일상2는 치마 아래 다리 일부가 가려져 보이지 않는 부분은 검증하지 못함. 별도 셋째 팔다리나 끊긴 팔은 보이지 않음."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "주황 눈, 짧은 주황·청색 비대칭 단발, 작은 턱과 넓은 입이 기준과 이어진다."
+      }
+    }
+  ],
+  "face_reason": "플라스마의 예리함·장난스러운 분위기를 짧은 하트형 얼굴, 좁은 턱, 큰 눈, 각진 눈썹과 넓은 입으로 해석. 번개 실루엣을 비대칭 짧은 커트로 옮긴 자료를 UI에서 적용했다.",
+  "face_sources": [
+    "data/face-design.json:479",
+    "data/source-appearance.json:479"
+  ],
+  "compared_characters": [
+    "눈여아",
+    "야느와르몽",
+    "대코파스",
+    "엘레이드"
+  ],
+  "diversity_comparison": "실제로 비교한 대코파스 훌라·야느와르몽 디스코 점프슈트·엘레이드 세탁실과 장소·주 활동·옷이 다르다. 이번 배치 눈여아의 벤치 갈라·랜턴 옆앉기·풀사이드 쪼그리기와 달리 로토무는 상자 시연·드레스 회전·타월 엎드리기다.",
+  "casual_look": "PASS; nearest distances 301,267,313; no near duplicate"
+}
