@@ -1,0 +1,110 @@
+{
+  "light": {
+    "accepted": true,
+    "observations": "짧은 곱슬 머리·좁은 눈·베이지 반점 경장, 양팔과 양다리가 몸에 연결된 전신.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "heavy": {
+    "accepted": true,
+    "observations": "경장과 같은 얼굴·곱슬머리, 가슴·어깨·허벅지 위 넓은 겹판으로 중장 구별.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "mobility": {
+    "accepted": true,
+    "observations": "경장과 같은 얼굴, 어깨·골반·종아리의 분할판과 소형 추진기.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "observations": "경장과 같은 자세·구도, 얇은 판 이음새에 녹색 발광.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "observations": "중장과 같은 구도와 겹판, 판 사이의 넓은 틈과 녹광.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "observations": "고기동과 같은 구도, 펼친 패널·열린 추진기 덮개 사이 녹광.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "casual1": {
+    "accepted": true,
+    "observations": "정자 격자창과 도자기 화병, 팔짱을 낀 회색 한푸와 트임 치마. 배와 한쪽 다리 노출.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "일상 프레이밍·자세의 세부 차이는 기록만 적용; casual1은 선택보다 사선 시점, casual3은 기대기보다 상체를 앞으로 기울임."
+  },
+  "casual2": {
+    "accepted": true,
+    "observations": "붉은 벨벳 미니드레스·산타 모자, 트리 곁에 앉아 별 장식을 거는 손. 어깨·다리 노출.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "일상 프레이밍·자세의 세부 차이는 기록만 적용; casual1은 선택보다 사선 시점, casual3은 기대기보다 상체를 앞으로 기울임."
+  },
+  "casual3": {
+    "accepted": true,
+    "observations": "빗방울 창가의 보드판, 한 손으로 말을 옮기고 다른 손은 턱 아래. 입을 벌리고 웃음, 크롭 탱크·반바지.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "장갑 손 또는 맨손의 엄지 방향과 보이는 손가락 육안 확인; 팔짱의 반대 손·프레임 밖 발은 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "일상 프레이밍·자세의 세부 차이는 기록만 적용; casual1은 선택보다 사선 시점, casual3은 기대기보다 상체를 앞으로 기울임."
+  }
+}

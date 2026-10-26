@@ -1,0 +1,244 @@
+{
+  "session": "scatterbug-spewpa-572bc2",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "분이벌레",
+      "species": "scatterbug-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "partner_care",
+          "ex": "care_walk",
+          "garments": [
+            "overalls"
+          ],
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "pose": "gentle_pat",
+          "expr": "soft_smile",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "cropped hem",
+            "one-shoulder cut"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 2,
+          "cat": "homewear",
+          "ex": "oversized_shirt",
+          "garments": [
+            "dress",
+            "shirt"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "pose": "hand_on_hip",
+          "expr": "candid",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "chemise_silk",
+          "garments": [
+            "slip"
+          ],
+          "orient": "rear_3q",
+          "frame": "environmental",
+          "pose": "sitting_floor",
+          "expr": "pensive",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "strapless top"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "homewear",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "overalls",
+          "shirt",
+          "slip"
+        ],
+        "orient": [
+          "over_shoulder",
+          "turning_midmotion",
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "분떠도리",
+      "species": "spewpa-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "traditional",
+          "ex": "hanfu_formal",
+          "garments": [
+            "skirt",
+            "traditional"
+          ],
+          "orient": "front",
+          "frame": "three_quarter",
+          "pose": "arms_crossed",
+          "expr": "determined",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "high thigh slit"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "santa_party",
+          "garments": [
+            "dress"
+          ],
+          "orient": "low_angle",
+          "frame": "chest_up",
+          "pose": "cross_legged",
+          "expr": "proud",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_boardgame",
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "orient": "reclining",
+          "frame": "waist_up",
+          "pose": "sitting",
+          "expr": "laughing_open",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "off-shoulder neckline"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "skirt",
+          "traditional",
+          "shorts",
+          "tank"
+        ],
+        "orient": [
+          "front",
+          "low_angle",
+          "reclining"
+        ],
+        "frame": []
+      }
+    }
+  ]
+}
