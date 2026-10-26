@@ -1,0 +1,314 @@
+{
+  "reviewer": "gpt",
+  "items": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "60e34b8a3b7de3b72f0bcc99c9c15596e4e7afdde7d7c4a4aa2a4b7ffce7b3c0",
+      "observations": "적갈색 로크스와 보라색 끝, 넓은 턱·아몬드 눈. 버건디 얇은 판과 보라색 밴드. 양팔과 양 부츠가 몸에 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "적갈색 로크스와 보라색 끝, 넓은 턱·아몬드 눈. 버건디 얇은 판과 보라색 밴드. 양팔과 양 부츠가 몸에 이어짐."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "162a680c1bc9f806e474629833a4f0f2d44b85d1da2063c516bd399dba7c5b86",
+      "observations": "레드카펫·플래시 앞에서 짙은 보라색 홀터 슬릿 가운, 한 손 은색 클러치·반대 팔은 위로 뻗음. 어깨와 한 다리가 드러남. 위쪽 손끝과 머리카락 일부가 테두리에 걸린 것은 기록만 함.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "클러치 손은 네 손가락이 앞면, 엄지가 반대쪽을 잡음. 위로 뻗은 손은 테두리에 일부 가려짐. 두 다리는 가운·프레이밍으로 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "레드카펫·플래시 앞에서 짙은 보라색 홀터 슬릿 가운, 한 손 은색 클러치·반대 팔은 위로 뻗음. 어깨와 한 다리가 드러남. 위쪽 손끝과 머리카락 일부가 테두리에 걸린 것은 기록만 함."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "4d461b05a2fac04571857ba19272bafd9d54809f35b85304b4189df4b2214c54",
+      "observations": "어깨·가슴·배·전완·골반·허벅지의 두꺼운 겹판. 경장과 같은 얼굴·머리·피부색이며 양손 주먹이 손목 끝에 있음.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "어깨·가슴·배·전완·골반·허벅지의 두꺼운 겹판. 경장과 같은 얼굴·머리·피부색이며 양손 주먹이 손목 끝에 있음."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "faf52ae1920f8fc456bc248ab1694f89bd64593b54075b38216d2b33122c3497",
+      "observations": "목조 헛간 무대에서 웨스턴 모자·프린지 조끼·보라색 밴도·데님 쇼츠. 양팔을 머리 위로 올려 부드러운 올가미를 잡음. 회전 중보다 올가미를 든 순간으로 보이고 허리 위보다 넓게 담김.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "머리 위 양손이 겹쳐 로프를 잡음. 아래로 나온 엄지와 접힌 손가락들이 보이며 겹친 손가락 끝은 정확히 셀 수 없어 가려짐으로 기록. 양 팔꿈치 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "목조 헛간 무대에서 웨스턴 모자·프린지 조끼·보라색 밴도·데님 쇼츠. 양팔을 머리 위로 올려 부드러운 올가미를 잡음. 회전 중보다 올가미를 든 순간으로 보이고 허리 위보다 넓게 담김."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "a3839529f0d84e8f3c5714ba425c8be22a09e4dd5bd3670c7780da0b8f283bb1",
+      "observations": "네온 조명의 클럽 파우더룸 거울에서 베리색 립스틱을 바름. 남색 홀터 미니드레스의 허리 컷아웃, 웅크린 다리와 거울 테두리. 가슴 위보다 넓게 담겼고 거울의 부분 반사는 별도 인물이 아님.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "립스틱 손의 엄지·검지와 굽힌 세 손가락이 보임. 아래 손은 무릎 옆에서 네 손가락, 엄지는 가려짐. 무릎·발목은 웅크린 자세로 일부 겹침.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "네온 조명의 클럽 파우더룸 거울에서 베리색 립스틱을 바름. 남색 홀터 미니드레스의 허리 컷아웃, 웅크린 다리와 거울 테두리. 가슴 위보다 넓게 담겼고 거울의 부분 반사는 별도 인물이 아님."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "413fd15cf62cfc56226930c0e6eff1b75a689187ca71dea060a1af9ef966769f",
+      "observations": "어깨·허리·종아리의 뒤로 펼친 버건디 핀과 보라색 추진기. 두 팔과 두 다리의 연결·길이가 자연스러움.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "어깨·허리·종아리의 뒤로 펼친 버건디 핀과 보라색 추진기. 두 팔과 두 다리의 연결·길이가 자연스러움."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "8bee47dd08c0d500f242bb9604a95872fd5996d2d00087bcaeeb53379d9b8cfa",
+      "observations": "경장의 얇은 판이 열리며 주황색 격투 빛이 보임. 눈색·머리색, 양 주먹과 발 위치가 경장과 같음.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "경장의 얇은 판이 열리며 주황색 격투 빛이 보임. 눈색·머리색, 양 주먹과 발 위치가 경장과 같음."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "f729608f526530128709690d59c68db8fb15362fb0c736c33709c3ad4dd342d7",
+      "observations": "중장 겹판이 층마다 열려 주황색 내부 프레임·관절 노출. 얼굴·전신 배치와 기존 장갑 형태 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "중장 겹판이 층마다 열려 주황색 내부 프레임·관절 노출. 얼굴·전신 배치와 기존 장갑 형태 유지."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "3c611d05e7f538e7dccd9c8306408b01725a6a0bd19450d7f12b25560c618cd5",
+      "observations": "고기동의 핀과 추진기 이음새가 열려 주황색 내부와 추진광 노출. 일반 고기동의 구도·몸 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "적갈색·보라 로크스와 넓은 턱·아몬드 눈이 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "고기동의 핀과 추진기 이음새가 열려 주황색 내부와 추진광 노출. 일반 고기동의 구도·몸 위치 유지."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    }
+  ],
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/토쇠골_glossy_promo_f_casual1.webp",
+        "near": [
+          [
+            "지그제구리_glossy_promo_f_casual1.webp",
+            297
+          ],
+          [
+            "라이츄_glossy_promo_f_casual3.webp",
+            314
+          ],
+          [
+            "파라섹트_glossy_promo_f_casual3.webp",
+            327
+          ],
+          [
+            "삐_glossy_promo_f_casual1.webp",
+            328
+          ],
+          [
+            "대코파스_glossy_promo_f_casual1.webp",
+            329
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/토쇠골_glossy_promo_f_casual2.webp",
+        "near": [
+          [
+            "마그카르고_glossy_promo_f_casual1.webp",
+            332
+          ],
+          [
+            "메타그로스_glossy_promo_f_casual3.webp",
+            333
+          ],
+          [
+            "헬가_glossy_promo_f_casual3.webp",
+            345
+          ],
+          [
+            "치렁_glossy_promo_f_casual2.webp",
+            346
+          ],
+          [
+            "또도가스_glossy_promo_f_casual2.webp",
+            349
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/토쇠골_glossy_promo_f_casual3.webp",
+        "near": [
+          [
+            "마임맨_glossy_promo_f_casual2.webp",
+            340
+          ],
+          [
+            "글라이온_glossy_promo_f_casual2.webp",
+            345
+          ],
+          [
+            "리피아_glossy_promo_f_casual1.webp",
+            347
+          ],
+          [
+            "쉘곤_glossy_promo_f_casual1.webp",
+            357
+          ],
+          [
+            "노공룡_glossy_promo_f_casual3.webp",
+            360
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "compared_characters": [
+    "야느와르몽",
+    "눈여아",
+    "로토무"
+  ],
+  "diversity_evidence": "야느와르몽의 디스코·영화제·브라이덜, 눈여아의 갈라 벤치·엘프 랜턴·수영장, 로토무의 마술 무대·리셉션 가운·사우나 라운지 실제 이미지와 비교. 이번 히노키 탕·피로연 미니·영화 세트 계단과 로데오 무대·카펫 입장·립스틱 거울은 활동과 의상·인물 실루엣이 구분됨.",
+  "face_sources": [
+    "data/face-design.json:533",
+    "data/source-appearance.json:533"
+  ],
+  "face_reason": "원작의 둥근 체적을 둥근 턱·넓은 얼굴·둥근 눈으로 옮김. 후속 토쇠골은 넓은 각진 턱과 길게 뻗은 눈썹·아몬드 눈으로 구분."
+}

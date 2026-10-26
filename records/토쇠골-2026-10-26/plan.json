@@ -1,0 +1,278 @@
+{
+  "session": "timburr-gurdurr-d3da857e",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "으랏차",
+      "species": "timburr-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "hinoki_bath",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "pose": "side_sitting",
+          "expr": "calm",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "bridal",
+          "ex": "second_dress",
+          "garments": [
+            "dress"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "perched_seat",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "halter neck"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "hollywood_bias",
+          "garments": [
+            "dress"
+          ],
+          "orient": "crouching",
+          "frame": "full_body",
+          "pose": "kneeling",
+          "expr": "cold_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "side cutouts"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit"
+        ],
+        "orient": [
+          "profile_close",
+          "seated_twist",
+          "crouching"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "토쇠골",
+      "species": "gurdurr-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "rodeo_cowgirl",
+          "garments": [
+            "vest"
+          ],
+          "orient": "side",
+          "frame": "waist_up",
+          "pose": "stretching",
+          "expr": "sleepy",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "strapless top",
+            "off-shoulder neckline"
+          ],
+          "lead": "place",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: The barn-dance stage has polished timber boards, amber footlights and a painted sunset backdrop; her soft lasso forms one loose loop.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: A burgundy fringed cropped vest frames a secure violet strapless bodice with an off-shoulder band; short denim, a western hat and cowboy boots complete the costume, leaving waist and thighs visible.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "adult_roleplay/rodeo_cowgirl의 활동과 vest 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        },
+        {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "red_carpet",
+          "garments": [
+            "dress"
+          ],
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "pose": "on_tiptoe",
+          "expr": "provocative",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "halter neck"
+          ],
+          "lead": "detail",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: A small silver clutch hangs from her lowered hand while white camera flashes ripple along the entrance carpet.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: A deep-violet halter evening gown has a plunging neckline and high side slit, revealing collarbones and one leg; metallic heels and a slender red bracelet finish it.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "gala_red_carpet/red_carpet의 활동과 dress 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        },
+        {
+          "cut": 3,
+          "cat": "nightlife",
+          "ex": "powder_mirror",
+          "garments": [
+            "dress"
+          ],
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "pose": "squatting",
+          "expr": "amused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "side cutouts"
+          ],
+          "lead": "action",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: She applies berry lipstick; a magenta strip light runs beneath the mirror and reflects across glazed black tiles.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: A midnight-blue halter mini dress uses tiny silver edging around waist cutouts, leaving her shoulders, sides and upper thighs visible.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "nightlife/powder_mirror의 활동과 dress 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "fantasy_costume",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "vest"
+        ],
+        "orient": [
+          "side",
+          "reaching_up",
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "reservation_commit": "33665577d2a65c8da6adb48250732e1032fd2984",
+  "engine": "built-in image_gen",
+  "status": "9/9 generated, dimensions and visual QA checked",
+  "check": "planner reservation verified; casual-look pass",
+  "manual_inputs": [
+    {
+      "scene": "The barn-dance stage has polished timber boards, amber footlights and a painted sunset backdrop; her soft lasso forms one loose loop.",
+      "outfit": "A burgundy fringed cropped vest frames a secure violet strapless bodice with an off-shoulder band; short denim, a western hat and cowboy boots complete the costume, leaving waist and thighs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "A small silver clutch hangs from her lowered hand while white camera flashes ripple along the entrance carpet.",
+      "outfit": "A deep-violet halter evening gown has a plunging neckline and high side slit, revealing collarbones and one leg; metallic heels and a slender red bracelet finish it.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "She applies berry lipstick; a magenta strip light runs beneath the mirror and reflects across glazed black tiles.",
+      "outfit": "A midnight-blue halter mini dress uses tiny silver edging around waist cutouts, leaving her shoulders, sides and upper thighs visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    }
+  ]
+}
