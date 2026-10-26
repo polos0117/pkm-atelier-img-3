@@ -1,0 +1,250 @@
+{
+  "reviewer": "gpt",
+  "status": "partial: 8 accepted; casual2 moderation-blocked without output",
+  "face_design": {
+    "reason": "Long pointed wings and black/yellow facial markings interpreted as narrow upturned close-set eyes, straight medium brows and a distinct bow-shaped upper lip; human face retained. Observed long red windswept hair and small oval jaw remain separate from orange-haired Fletchinder.",
+    "sources": [
+      "data/face-design.json:663",
+      "data/source-appearance.json:663",
+      "docs/CHARACTER_FACE_DESIGNS.md:663"
+    ],
+    "compared_characters": [
+      "불화살빈",
+      "화살꼬빈",
+      "토게키스",
+      "메가자리"
+    ],
+    "observations": "Talonflame has a straighter medium brow and a fuller bow in upper lip; Fletchinder has angled brows, a slimmer bridge and thinner lips. Fletchling has shorter hair and broader cheek outline; Togekiss softer larger eyes, Yanmega longer sharper eye corners. Comparison made using actual current light images."
+  },
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "91ee54e952ba5518fadad835dcd30fac9a1256c2a3b4e3543de820099202e3f3",
+      "source_sha256": "eda578a4c46d53180ef8449fca138f1f1e04786a3bf805c96b98e36364de5803",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "080b58758ac8d6fc660bf9ded94d5cab8d40148d042a2004b3b043607f566e1d",
+      "source_sha256": "eaa41442d5e0708fc932f4692815ac278b49db0ee3415b2e4dc98b723c1fa16c",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Broad layered shoulder, hip and shin plates make the armor outline thicker; open-face crest leaves eyes, bangs and jaw clear.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Broad layered shoulder, hip and shin plates make the armor outline thicker; open-face crest leaves eyes, bangs and jaw clear."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "ceb3d58884f5cfe2b9a36486682d7f78d1fe0ef7ced6cd49c298968b2e6c9fd3",
+      "source_sha256": "db22a703740465daf46c5008eb6a98b36fa777977acb6e222517c48636e11ba0",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Plates split backward at shoulders, hips and calves with circular orange propulsion light; hands remain empty.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Plates split backward at shoulders, hips and calves with circular orange propulsion light; hands remain empty."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "b2afad1dffc87be4d98cb7fd8b21c4673feb110a628e5a0526115e35050f261d",
+      "source_sha256": "373052a06e10ac850c5cff0de0555c1c9cf43460fa8f4cadf9985856c4a79ce8",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "76eeb274c0fc39cef677c7762876617202a2ba13a64980228036f97730e151f6",
+      "source_sha256": "ced5cedc99cfb0f8678750d7d98afec3d9028438d3e0fe4cecf32deb926ae52d",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "d2e537a1ff4688af68535556dd78e28c96c3790438be67e06bbb1677f003b04c",
+      "source_sha256": "1764a6d070363a150939fa1e728503c11bcbd5ddee189f8e5ccd389bab3ee689",
+      "observations": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Two arms connect through shoulders and elbows to black full-finger gloves; two legs run through knees to pointed armored boots. Hands show opposed thumbs and curved fingers, some black fingertip edges overlap; no extra detached limb observed. Face and chest angle toward camera, feet and head fully inside frame. Face, stance, mountain horizon and cape match corresponding closed form; plate seams open with orange-yellow light. No new weapon."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "b3713c50a86e7e990acae22cc02b10f74eccc2fda8202728e9a4baeb8139b207",
+      "source_sha256": "f95e68488fa050f3e02b2262045e948a08ff5ac42438bf69457d01c016aeda4c",
+      "observations": "Forward torso among glasshouse ferns under copper pendant lamps; angled brows and compressed mouth express annoyance. Near hand grips watering-can handle with four curled fingers and hidden thumb; other hand reaches into fern with fingertips partly obscured. Arms join bare shoulders through bent elbows; legs partly cropped/occluded by plants. Water flows from spout to pots. Short off-shoulder red cardigan and black skirt expose shoulders and midriff; framing extends to thighs rather than selected waist.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Forward torso among glasshouse ferns under copper pendant lamps; angled brows and compressed mouth express annoyance. Near hand grips watering-can handle with four curled fingers and hidden thumb; other hand reaches into fern with fingertips partly obscured. Arms join bare shoulders through bent elbows; legs partly cropped/occluded by plants. Water flows from spout to pots. Short off-shoulder red cardigan and black skirt expose shoulders and midriff; framing extends to thighs rather than selected waist."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "8d3597802c9c4a6588b8d09bf6f4ae2d4a86e0d6da7bf1b6c0bc477a3a747c4e",
+      "source_sha256": "feb23c6685dc14fc009a70bb1de91908a6317f443d684af017742d06fb85d884",
+      "observations": "Standing on wood veranda, both arms reach right: upper hand pinches top ribbon edge with thumb and index, remaining fingers curled; lower hand holds ribbon with thumb and curled fingers. Both shoulders join the arms naturally; both legs reach strappy sandals with visible toes. Head looks toward raised ribbon in three-quarter profile, lips slightly parted. White off-shoulder embroidered cropped blouse and orange flowing skirt expose shoulders, midriff and one thigh. Ribbons and roof carvings are ornaments, not writing.",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Red windswept hair, amber eyes, straight brows, small oval jaw and bow-shaped lip match light anchor."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No visible lettered labels, brand or false typography; textile motifs are cross-stitch patterns."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands attached; occluded digits reported in observations rather than asserted fully visible.",
+        "overlay_checked": false,
+        "note": "Standing on wood veranda, both arms reach right: upper hand pinches top ribbon edge with thumb and index, remaining fingers curled; lower hand holds ribbon with thumb and curled fingers. Both shoulders join the arms naturally; both legs reach strappy sandals with visible toes. Head looks toward raised ribbon in three-quarter profile, lips slightly parted. White off-shoulder embroidered cropped blouse and orange flowing skirt expose shoulders, midriff and one thigh. Ribbons and roof carvings are ornaments, not writing."
+      }
+    }
+  },
+  "skipped": [
+    {
+      "slot": "casual2",
+      "reason": "moderation_blocked",
+      "request_id": "d4d7c8ea-9035-4aa7-9f47-02d1bc0a11f2",
+      "attempts": 1,
+      "output_files": []
+    }
+  ],
+  "diversity_comparison": {
+    "status": "available two cuts distinguishable; mandatory swimwear slot and full three-cut comparison remain incomplete",
+    "compared": [
+      "염무왕 casual3",
+      "차오꿀 casual3",
+      "도롱충이 casual2",
+      "불화살빈 casual1",
+      "불화살빈 casual3"
+    ],
+    "observations": "Night greenhouse has a forward-facing torso, lowered watering can, short red cardigan and black skirt; veranda embroidery has reaching arms, side-facing torso, flowing orange skirt and puffed white blouse. Compared Emboar tea preparation shares an off-shoulder short top but hand task, narrow cardigan silhouette, glasshouse depth and lighting differ. Fletchinder is costume fitting or seated train reading. Neither available Talonflame scene repeats cabin-crew or terrace seating.",
+    "metric": "pkm-atelier-img-3/img/파이어로_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     260  꼬마돌_glossy_promo_f_casual2.webp\n     278  윤겔라_glossy_promo_f_casual1.webp\n     279  로즈레이드_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/파이어로_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     265  니드런♀_glossy_promo_f_casual1.webp\n     265  레어코일_glossy_promo_f_casual1.webp\n     266  플러시_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "card": "파이어로",
-  "status": "8 of 9 accepted; casual2 held after moderation_blocked; awaiting publication",
+  "status": "9 of 9 generated and reviewed; refill casual2 awaiting publication verification",
   "files": [
     {
       "card": "파이어로",
@@ -153,6 +153,25 @@
       "method": 6,
       "sha256": "8d3597802c9c4a6588b8d09bf6f4ae2d4a86e0d6da7bf1b6c0bc477a3a747c4e",
       "reference": "light"
+    },
+    {
+      "card": "파이어로",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local generator UI and its unmodified output; built-in image_gen",
+      "source": "generated_images/exec-0fe10394-30b6-4f32-ae8a-5da23dcfcf9f.png",
+      "source_sha256": "c7109c031fe3d90b75a891481a96c3d56858cec8e139e667ba34a11f5adb9a87",
+      "output": "파이어로_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "cca612666ffc785a751b5c3473c6758d2df83a953601b5ecff76934895c70310",
+      "reference": "light"
     }
   ],
   "anchor": {
@@ -174,7 +193,7 @@
     "sha256": "91ee54e952ba5518fadad835dcd30fac9a1256c2a3b4e3543de820099202e3f3",
     "reference": null
   },
-  "missing": [
-    "casual2"
-  ]
+  "missing": [],
+  "replacement_authorization": "User: 미생성된 컷에 대한 대체컷 만들어서 업로드 진행해줘",
+  "refill_session": "fletchinder-talonflame-refill-20261026-fbd6"
 }

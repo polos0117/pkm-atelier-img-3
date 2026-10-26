@@ -1,6 +1,6 @@
 {
   "reviewer": "gpt",
-  "status": "partial: 8 accepted; casual2 moderation-blocked without output",
+  "status": "9 accepted; all three casual scenes reviewed; awaiting remote registration",
   "face_design": {
     "reason": "Long pointed wings and black/yellow facial markings interpreted as narrow upturned close-set eyes, straight medium brows and a distinct bow-shaped upper lip; human face retained. Observed long red windswept hair and small oval jaw remain separate from orange-haired Fletchinder.",
     "sources": [
@@ -224,27 +224,57 @@
         "overlay_checked": false,
         "note": "Standing on wood veranda, both arms reach right: upper hand pinches top ribbon edge with thumb and index, remaining fingers curled; lower hand holds ribbon with thumb and curled fingers. Both shoulders join the arms naturally; both legs reach strappy sandals with visible toes. Head looks toward raised ribbon in three-quarter profile, lips slightly parted. White off-shoulder embroidered cropped blouse and orange flowing skirt expose shoulders, midriff and one thigh. Ribbons and roof carvings are ornaments, not writing."
       }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "cca612666ffc785a751b5c3473c6758d2df83a953601b5ecff76934895c70310",
+      "source_sha256": "c7109c031fe3d90b75a891481a96c3d56858cec8e139e667ba34a11f5adb9a87",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Anchor hair, eye colours and facial proportions retained; see detailed observation."
+      },
+      "text": {
+        "match": true,
+        "evidence": "Rail, pool tile, towel and watch enlarged; no lettered labels."
+      },
+      "observations": "Sitting on public lap-pool tile beside folded towel and lane rope; torso and knees face camera from a high viewpoint. Right index touches sports-watch face on left wrist; the other right fingers curl behind it and thumb is partly hidden. Left arm bends naturally to wrist and relaxed hand: index points down, other fingers curl with thumb on inner side. Both shoulders, elbows and wrists connect; two legs run to bare feet with five toes on each, outer right edge close to frame. Wide eyes and small open O-mouth express surprise. Slate high-neck performance swimsuit has orange seams and small side-waist cutouts. No lettering, detached hand or extra limb.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible finger edges and occlusions counted in observations; no claim that hidden digits are visible.",
+        "overlay_checked": false,
+        "note": "Sitting on public lap-pool tile beside folded towel and lane rope; torso and knees face camera from a high viewpoint. Right index touches sports-watch face on left wrist; the other right fingers curl behind it and thumb is partly hidden. Left arm bends naturally to wrist and relaxed hand: index points down, other fingers curl with thumb on inner side. Both shoulders, elbows and wrists connect; two legs run to bare feet with five toes on each, outer right edge close to frame. Wide eyes and small open O-mouth express surprise. Slate high-neck performance swimsuit has orange seams and small side-waist cutouts. No lettering, detached hand or extra limb."
+      }
     }
   },
-  "skipped": [
-    {
-      "slot": "casual2",
-      "reason": "moderation_blocked",
-      "request_id": "d4d7c8ea-9035-4aa7-9f47-02d1bc0a11f2",
-      "attempts": 1,
-      "output_files": []
-    }
-  ],
   "diversity_comparison": {
-    "status": "available two cuts distinguishable; mandatory swimwear slot and full three-cut comparison remain incomplete",
-    "compared": [
-      "염무왕 casual3",
-      "차오꿀 casual3",
-      "도롱충이 casual2",
-      "불화살빈 casual1",
-      "불화살빈 casual3"
+    "status": "passed: full three-cut set reviewed",
+    "recent_compared": [
+      "맘박쥐",
+      "글레이시아",
+      "또르박쥐"
     ],
-    "observations": "Night greenhouse has a forward-facing torso, lowered watering can, short red cardigan and black skirt; veranda embroidery has reaching arms, side-facing torso, flowing orange skirt and puffed white blouse. Compared Emboar tea preparation shares an off-shoulder short top but hand task, narrow cardigan silhouette, glasshouse depth and lighting differ. Fletchinder is costume fitting or seated train reading. Neither available Talonflame scene repeats cabin-crew or terrace seating.",
-    "metric": "pkm-atelier-img-3/img/파이어로_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     260  꼬마돌_glossy_promo_f_casual2.webp\n     278  윤겔라_glossy_promo_f_casual1.webp\n     279  로즈레이드_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/파이어로_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     265  니드런♀_glossy_promo_f_casual1.webp\n     265  레어코일_glossy_promo_f_casual1.webp\n     266  플러시_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
-  }
+    "observations": "Greenhouse casual1 is standing with watering can and cardigan/skirt; pool casual2 is seated with long forward legs and hands at watch in athletic one-piece; veranda casual3 stands side-on with both arms reaching ribbons, puffed blouse and flowing skirt. Compared recent Swoobat, Glaceon and Woobat images: Glaceon also has a pool scene but crouches at water in bikini with hand near surface, whereas this result sits on tiles and checks wristwatch in high-neck performance one-piece. Athletic task, leg silhouette, garment construction and view are distinct. Nearest Gastrodon pool cabana is seated but holds a drink; Golduck kneels on waterfall rocks in a bikini.",
+    "metric": "pkm-atelier-img-3/img/파이어로_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     260  꼬마돌_glossy_promo_f_casual2.webp\n     278  윤겔라_glossy_promo_f_casual1.webp\n     279  로즈레이드_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/파이어로_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     298  트리토돈_glossy_promo_f_casual3.webp\n     300  골덕_glossy_promo_f_casual1.webp\n     313  히포포타스_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/파이어로_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     265  니드런♀_glossy_promo_f_casual1.webp\n     265  레어코일_glossy_promo_f_casual1.webp\n     266  플러시_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "history": {
+    "initial_skipped": [
+      {
+        "slot": "casual2",
+        "reason": "moderation_blocked",
+        "request_id": "d4d7c8ea-9035-4aa7-9f47-02d1bc0a11f2",
+        "attempts": 1,
+        "output_files": []
+      }
+    ],
+    "previous_qa": "qa-before-refill.json",
+    "rejected_attempt": "attempts/casual2-initial/",
+    "new_authorization": "User: 미생성된 컷에 대한 대체컷 만들어서 업로드 진행해줘"
+  },
+  "skipped": []
 }

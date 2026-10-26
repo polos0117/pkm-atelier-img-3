@@ -1,11 +1,12 @@
 {
   "batch": {
-    "session": "fletchinder-talonflame-20261026-fbd6",
+    "session": "fletchinder-talonflame-refill-20261026-fbd6",
     "planner": "tools/casual-plan.cjs",
     "characters": [
       {
         "card": "불화살빈",
         "species": "fletchinder-20261026",
+        "refill": true,
         "cuts": [
           {
             "kept": true,
@@ -18,8 +19,6 @@
             "frame": "chest_up",
             "lens": "wide24",
             "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
               "action_level": "mostly active",
               "source_influence": "strong",
               "separates_preference": "prefer separates"
@@ -30,34 +29,34 @@
             "expose": [
               "cropped hem",
               "halter neck"
-            ],
-            "lead": "place"
+            ]
           },
           {
-            "kept": true,
             "cut": 2,
-            "cat": "source_editorial",
-            "ex": "heritage_couture",
-            "expr": "bored",
-            "pose": "stretching",
+            "cat": "wildcard",
+            "ex": "ferry_deck",
+            "garments": [
+              "dress",
+              "jacket"
+            ],
             "orient": "over_shoulder",
             "frame": "three_quarter",
-            "lens": "documentary35",
+            "pose": "standing_relaxed",
+            "expr": "exhausted",
+            "lens": "portrait85",
+            "aspect": "2:3",
             "axes": {
               "overall_intensity": "strong",
               "skin_exposure": "bold",
-              "action_level": "mostly active",
-              "source_influence": "subtle",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
               "separates_preference": "balanced"
             },
-            "garments": [
-              "dress"
-            ],
             "expose": [
               "side cutouts",
-              "one-shoulder cut"
+              "high thigh slit"
             ],
-            "lead": "detail"
+            "lead": "light"
           },
           {
             "kept": true,
@@ -70,20 +69,18 @@
             "frame": "environmental",
             "lens": "natural50",
             "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
               "action_level": "balanced",
               "source_influence": "strong",
               "separates_preference": "balanced"
             },
             "garments": [
+              "crop_top",
               "overalls"
             ],
             "expose": [
               "bare midriff",
               "strapless top"
-            ],
-            "lead": "action"
+            ]
           }
         ],
         "why": {
@@ -91,16 +88,14 @@
             "slots": [],
             "two": false,
             "prev": [
-              2,
-              3
+              1
             ]
           },
           "low": [
+            "occupation_basic",
             "occupation_sensual",
-            "everyday_sensual",
-            "partner_care",
             "travel_exploration",
-            "festivals_contests",
+            "food_berries",
             "hobbies_leisure",
             "active",
             "source_editorial",
@@ -110,13 +105,16 @@
         },
         "claims": {
           "garment": [],
-          "orient": [],
+          "orient": [
+            "over_shoulder"
+          ],
           "frame": []
         }
       },
       {
         "card": "파이어로",
         "species": "talonflame-20261026",
+        "refill": true,
         "cuts": [
           {
             "kept": true,
@@ -129,8 +127,6 @@
             "frame": "waist_up",
             "lens": "portrait85",
             "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
               "action_level": "balanced",
               "source_influence": "strong",
               "separates_preference": "prefer separates"
@@ -142,87 +138,87 @@
             "expose": [
               "off-shoulder neckline",
               "cropped hem"
-            ],
-            "lead": "place"
+            ]
           },
           {
-            "kept": true,
             "cut": 2,
             "cat": "swimwear",
-            "ex": "highleg_onepiece",
-            "expr": "surprised",
-            "pose": "dance_step",
-            "orient": "rear_3q",
-            "frame": "chest_up",
-            "lens": "portrait85",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly active",
-              "source_influence": "balanced",
-              "separates_preference": "balanced"
-            },
+            "ex": "sport_onepiece",
             "garments": [
               "swimsuit"
             ],
-            "expose": [
-              "high-cut leg",
-              "side cutouts"
-            ],
-            "lead": "place"
-          },
-          {
-            "cut": 3,
-            "cat": "traditional",
-            "ex": "folk_embroidery",
-            "garments": [
-              "blouse",
-              "skirt"
-            ],
-            "orient": "reaching_up",
-            "frame": "full_body",
-            "pose": "standing_relaxed",
-            "expr": "wistful",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "pose": "sitting_floor",
+            "expr": "surprised",
             "lens": "portrait85",
             "aspect": "2:3",
             "axes": {
               "overall_intensity": "strong",
               "skin_exposure": "bold",
               "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "folk_embroidery",
+            "expr": "wistful",
+            "pose": "standing_relaxed",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
               "source_influence": "subtle",
               "separates_preference": "prefer separates"
             },
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
             "expose": [
               "off-shoulder neckline",
               "cropped hem"
-            ],
-            "lead": "place"
+            ]
           }
         ],
         "why": {
           "required": {
-            "slots": [],
+            "slots": [
+              2
+            ],
             "two": false,
             "prev": [
               1
             ]
           },
           "low": [
+            "occupation_basic",
             "occupation_sensual",
-            "everyday_sensual",
-            "partner_care",
             "travel_exploration",
-            "festivals_contests",
+            "food_berries",
             "active",
+            "source_editorial",
             "traditional",
             "wildcard"
           ]
         },
         "claims": {
           "garment": [
-            "blouse"
+            "swimsuit"
           ],
-          "orient": [],
+          "orient": [
+            "high_angle"
+          ],
           "frame": []
         }
       }
@@ -231,6 +227,7 @@
   "casual_plan": {
     "card": "파이어로",
     "species": "talonflame-20261026",
+    "refill": true,
     "cuts": [
       {
         "kept": true,
@@ -243,8 +240,6 @@
         "frame": "waist_up",
         "lens": "portrait85",
         "axes": {
-          "overall_intensity": "strong",
-          "skin_exposure": "bold",
           "action_level": "balanced",
           "source_influence": "strong",
           "separates_preference": "prefer separates"
@@ -256,92 +251,98 @@
         "expose": [
           "off-shoulder neckline",
           "cropped hem"
-        ],
-        "lead": "place",
-        "example_text": "in a greenhouse at night in a light cardigan and skirt, watering plants by lamp light"
+        ]
       },
       {
-        "kept": true,
         "cut": 2,
         "cat": "swimwear",
-        "ex": "highleg_onepiece",
-        "expr": "surprised",
-        "pose": "dance_step",
-        "orient": "rear_3q",
-        "frame": "chest_up",
-        "lens": "portrait85",
-        "axes": {
-          "overall_intensity": "strong",
-          "skin_exposure": "bold",
-          "action_level": "mostly active",
-          "source_influence": "balanced",
-          "separates_preference": "balanced"
-        },
+        "ex": "sport_onepiece",
         "garments": [
           "swimsuit"
         ],
-        "expose": [
-          "high-cut leg",
-          "side cutouts"
-        ],
-        "lead": "place",
-        "example_text": "a high-leg one-piece swimsuit with a high neckline and supportive racerback"
-      },
-      {
-        "cut": 3,
-        "cat": "traditional",
-        "ex": "folk_embroidery",
-        "garments": [
-          "blouse",
-          "skirt"
-        ],
-        "orient": "reaching_up",
-        "frame": "full_body",
-        "pose": "standing_relaxed",
-        "expr": "wistful",
+        "orient": "high_angle",
+        "frame": "three_quarter",
+        "pose": "sitting_floor",
+        "expr": "surprised",
         "lens": "portrait85",
         "aspect": "2:3",
         "axes": {
           "overall_intensity": "strong",
           "skin_exposure": "bold",
           "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "example_text": "a sporty one-piece swimsuit with a racerback and a high neckline in solid performance fabric"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "traditional",
+        "ex": "folk_embroidery",
+        "expr": "wistful",
+        "pose": "standing_relaxed",
+        "orient": "reaching_up",
+        "frame": "full_body",
+        "lens": "portrait85",
+        "axes": {
+          "action_level": "mostly posed",
           "source_influence": "subtle",
           "separates_preference": "prefer separates"
         },
+        "garments": [
+          "blouse",
+          "skirt"
+        ],
         "expose": [
           "off-shoulder neckline",
           "cropped hem"
-        ],
-        "lead": "place",
-        "example_text": "a folk-embroidered peasant blouse with dense cross-stitch on sleeves and yoke, over a simple skirt"
+        ]
       }
     ],
     "why": {
       "required": {
-        "slots": [],
+        "slots": [
+          2
+        ],
         "two": false,
         "prev": [
           1
         ]
       },
       "low": [
+        "occupation_basic",
         "occupation_sensual",
-        "everyday_sensual",
-        "partner_care",
         "travel_exploration",
-        "festivals_contests",
+        "food_berries",
         "active",
+        "source_editorial",
         "traditional",
         "wildcard"
       ]
     },
     "claims": {
       "garment": [
-        "blouse"
+        "swimsuit"
       ],
-      "orient": [],
+      "orient": [
+        "high_angle"
+      ],
       "frame": []
     }
   },
-  "replanning": "Before generation the planner avoided burkini_modest and aodai_daily for Talonflame because full-coverage garments conflicted with reserved exposed areas; other selections were retained through --keep. Reservations published with force:false."
+  "previous_plan": "plan-original.json",
+  "replacement": {
+    "slot": "casual2",
+    "approval": "User requested alternate ungenerated cuts and upload on 2026-10-26.",
+    "reason": "Rear close-up swimsuit dance replaced by a poolside athletic recovery scene, a high-neck performance swimsuit, sports-watch activity and high-angle sitting composition.",
+    "original_failure": "attempts/casual2-initial/casual2-failure.json",
+    "new_source_sha256": "c7109c031fe3d90b75a891481a96c3d56858cec8e139e667ba34a11f5adb9a87"
+  },
+  "reservation_commit": "4bbe0da2e4645c91aef28546d541e907568eb2af"
 }
