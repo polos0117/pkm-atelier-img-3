@@ -1,6 +1,6 @@
 {
   "card": "펄기아",
-  "status": "9 accepted images; ready for publication",
+  "status": "registered_complete",
   "canonical": {
     "card": "펄기아",
     "slot": "light",
@@ -26,5 +26,24 @@
   "originals": "Session only, hashes in classification.json",
   "comparison": "Actual recent WebP contact sheet and hand/foot crops inspected in session",
   "tool": "built-in image_gen",
-  "prompts": "Adjacent *-prompt.txt and *-ui.json files"
+  "prompts": "Adjacent *-prompt.txt and *-ui.json files",
+  "published": {
+    "images": "0b3f853af43fe6b01bf5deba01b7100477dc1c61",
+    "thumbnails": "9ffc01f7d1e7cd15ebd5dc44e137356e2ab87e11",
+    "code_registry": "cea6535ee3a32cb15a252ee34de0fa88722a72e4",
+    "images_verified_head": "93cc358c8325bfcf00f34ac9d15ef00d97b31f27",
+    "code_verified_head": "74b87b151a333ebc84456877180b3d1268dc8bef",
+    "where": 2,
+    "image_blob_matches": 9,
+    "valid_webp_thumbnails": 9,
+    "exact_registered_slots": 9
+  },
+  "workflow_checks": {
+    "thumbnail": "success",
+    "registration": "success",
+    "latest_image_pages": "success",
+    "latest_code_pages": "success",
+    "prior_code_pages_500": "Superseded by successful new deployment 40423240152"
+  },
+  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images"
 }

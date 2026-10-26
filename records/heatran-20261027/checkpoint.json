@@ -1,6 +1,6 @@
 {
   "card": "히드런",
-  "status": "9 visually accepted images; ready for publication",
+  "status": "registered_complete",
   "canonical": {
     "card": "히드런",
     "slot": "light",
@@ -26,5 +26,24 @@
   "originals": "Session only; SHA256 in classification.json",
   "comparison": "Real recent WebPs, Palkia outputs and enlarged hand/foot crops inspected",
   "tool": "built-in image_gen",
-  "prompts": "Adjacent *-prompt.txt and *-ui.json files"
+  "prompts": "Adjacent *-prompt.txt and *-ui.json files",
+  "published": {
+    "images": "e65044c427ea34128e3fe3cbaa6b33e5a8a2c4dc",
+    "thumbnails": "93cc358c8325bfcf00f34ac9d15ef00d97b31f27",
+    "code_registry": "74b87b151a333ebc84456877180b3d1268dc8bef",
+    "images_verified_head": "93cc358c8325bfcf00f34ac9d15ef00d97b31f27",
+    "code_verified_head": "74b87b151a333ebc84456877180b3d1268dc8bef",
+    "where": 2,
+    "image_blob_matches": 9,
+    "valid_webp_thumbnails": 9,
+    "exact_registered_slots": 9
+  },
+  "workflow_checks": {
+    "thumbnail": "success",
+    "registration": "success",
+    "latest_image_pages": "success",
+    "latest_code_pages": "success",
+    "prior_code_pages_500": "Superseded by successful new deployment 40423240152"
+  },
+  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images"
 }
