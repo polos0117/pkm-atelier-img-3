@@ -1,0 +1,121 @@
+{
+  "card": "두까비",
+  "storage": {
+    "last": "두까비",
+    "cards": {
+      "두까비": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "sleepy",
+            "pose": "reading_book",
+            "orient": "over_shoulder",
+            "scene": "She compares a lagoon depth chart with her compact binoculars on an observation boat during an early marine survey.",
+            "outfit": "A strapless cropped cream blouse with a navy sailor collar panel, belted low-rise blue trousers and deck shoes; the neckline exposes her shoulders and the cropped hem exposes her waist.",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "yacht_captain",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Palpitoad (두까비) personified, water / ground type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nSCENE (chosen):\nExpression: heavy drooping eyelids, unfocused gaze, softened slack mouth, brow low and relaxed\nPose: Hold an open book with readable finger placement and look toward its pages.\nOrientation: body turned away, head looking back over one shoulder — a quarter turn at most, face in three-quarter or profile with the chin above that shoulder\nScene: She compares a lagoon depth chart with her compact binoculars on an observation boat during an early marine survey.\nOutfit and props: A strapless cropped cream blouse with a navy sailor collar panel, belted low-rise blue trousers and deck shoes; the neckline exposes her shoulders and the cropped hem exposes her waist.\nCategory: Show one believable working moment in the Pokémon world. Choose care, research, conservation, berry cultivation, crafts, travel, contests or battle support. Make the profession readable through a concrete task, practical clothing and relevant tools. Preserve the approved woman; invent her own workwear instead of copying an existing trainer, Gym Leader or Pokémon Center character. Use glamorous tailoring and confident professional presence while keeping the outfit credible for the task.\nExample scene: Water-Pokémon observation-boat guide checking binoculars and a marine habitat chart on deck.\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "source": "Actual local prompt.html rendered in Chromium; planner query and saved UI selections loaded, free-text fields entered through form controls.",
+  "correction": {
+    "type": "partial anatomy edit",
+    "source_tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Image 1 is the current failed anatomy edit target. Image 2 is the approved character identity reference only.\nMake a decisive local anatomy correction to Image 1. It currently has THREE ARMS: a near upper arm at image-left with a truncated bent elbow, a far arm holding the left side of the chart, AND a phantom horizontal forearm sprouting from her waist and reaching to the chart's right edge.\nDELETE THE ENTIRE PHANTOM HORIZONTAL ARM AND HAND under the chart: remove all skin from the lower-back/waist area across to the hand at the chart's right edge, approximately x=580..960, y=715..910 in the 1024x1536 image. Reconstruct the unobstructed boat console and chart underside behind this removed limb. No hand at all remains on the right outer edge of the chart. The open chart rests on a sloped chart stand on the existing console.\nKeep only TWO natural arms, as follows:\n1. The near arm, descending from the large visible shoulder on image-left: replace its curled/truncated elbow with an anatomically continuous arm hanging down outside her left silhouette. Continue from the upper arm through a softly bent elbow, a visible forearm and wrist, to ONE relaxed hand resting on the boat rail beside her hip at image-left. Show that entire shoulder-to-hand chain naturally. This hand is away from the chart.\n2. The far arm: retain the existing arm that descends from the far shoulder beside the sailor collar to the elbow immediately left of the chart; its ONE hand steadies the near-left edge of the chart. This is the only hand touching the chart.\nExactly TWO arms and TWO hands in the entire illustration: one hand down on the image-left rail, one hand at the near-left chart edge. Nothing grows from the back, ribs or waist. Natural limb lengths. Each hand has one thumb and four fingers, with sensible occlusion.\nPreserve the same adult woman, facial identity, sleepy over-shoulder expression, blue wavy hair, sailor blouse, navy trousers, torso and hips, camera, chart artwork, binoculars, boat, sea cliffs, sunlight and premium glossy anime style. Change only the arms and the small background areas exposed by removing the phantom limb. Vertical 2:3, exactly 1024x1536. One adult woman, no new characters.\n",
+    "reference_files": [
+      {
+        "role": "edit target, attempt1",
+        "file": "generated_images/exec-98f1cf75-4127-4648-9bec-517262a9cc65.png",
+        "sha256": "a3dc35637a321202690f0523180b54258b4a43ad6e07d4b509c9ede64527851b"
+      },
+      {
+        "role": "canonical identity",
+        "file": "img/두까비_light_glossy_promo_f.webp",
+        "sha256": "c960b7fbd5fe2763beaf6c53e34b8b7b93020b7ebccab7c92abddbee524501e7"
+      }
+    ],
+    "original_ui_unchanged": true
+  }
+}

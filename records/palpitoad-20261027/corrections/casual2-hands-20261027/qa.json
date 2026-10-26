@@ -1,0 +1,57 @@
+{
+  "card": "두까비",
+  "slot": "casual2",
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "0c34933381c9af43d912694267495fa20543e6d1cf8798ac5e02bf17be7b6eb7",
+  "webp_sha256": "4b789055062e51999e7c99ce6fd70be76b51d999994a6eaa38999a20090654a0",
+  "replaces_webp_sha256": "cbbd3a2f56d3de73f6627176aa2c82824b3c34558204305c922d7a91abf1ead0",
+  "authorization": "User: 두까비 일상 2번에 몸에서 튀어나온 손이 그림을 잡고있어. 이거까지 손이 총4개인데 수정해서 업로드까지 해줘",
+  "observations": [
+    "가까운 팔은 화면 왼쪽 어깨에서 위팔·팔꿈치·아래팔·손목으로 이어져 난간을 짚는 손까지 연속됨.",
+    "먼 팔은 반대 어깨에서 내려와 해도 왼쪽 아래를 받치는 손으로 이어짐.",
+    "허리에서 해도 오른쪽으로 나왔던 가짜 팔과 손이 사라짐. 해도 오른쪽에는 손이 없고 콘솔 받침에 놓임.",
+    "팔 두 개·손 두 개. 난간 손의 손가락 일부는 난간 뒤에 가려지고, 해도 손의 엄지와 보이는 손가락은 페이지를 따라 정상 연결됨.",
+    "동일한 얼굴·졸린 표정·청색 웨이브 머리·세일러 블라우스·바지·배 배경과 해도·쌍안경 유지."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe missing; anatomy-check exited 3",
+    "arms": 2,
+    "legs": "프레이밍상 하단 일부만 보임, 기존 하체 유지",
+    "hands": "2 hands total; fingers partly occluded by rail and chart. No disconnected/floating hands or torso-origin limb.",
+    "overlay_checked": false,
+    "zoom_checked": true,
+    "note": "원본 크기와 팔·손 확대 이미지를 확인. 어깨→위팔→팔꿈치→아래팔→손목→손의 연결을 각각 추적함."
+  },
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "accepted": false,
+      "source_sha256": "a3dc35637a321202690f0523180b54258b4a43ad6e07d4b509c9ede64527851b",
+      "reason": "허리에서 해도 오른쪽으로 뻗는 가짜 팔이 남음; 게시하지 않음.",
+      "source_session_only": "generated_images/exec-98f1cf75-4127-4648-9bec-517262a9cc65.png",
+      "prompt": "attempt1-prompt.txt"
+    },
+    {
+      "attempt": 2,
+      "accepted": true,
+      "source_sha256": "0c34933381c9af43d912694267495fa20543e6d1cf8798ac5e02bf17be7b6eb7",
+      "prompt": "edit-prompt.txt"
+    }
+  ],
+  "originals": "session_only; no PNG committed",
+  "source_tool": "built-in image_gen",
+  "references": [
+    {
+      "role": "edit target, attempt1",
+      "file": "generated_images/exec-98f1cf75-4127-4648-9bec-517262a9cc65.png",
+      "sha256": "a3dc35637a321202690f0523180b54258b4a43ad6e07d4b509c9ede64527851b"
+    },
+    {
+      "role": "canonical identity",
+      "file": "img/두까비_light_glossy_promo_f.webp",
+      "sha256": "c960b7fbd5fe2763beaf6c53e34b8b7b93020b7ebccab7c92abddbee524501e7"
+    }
+  ],
+  "ui_settings": "Original casual2-ui.json selections unchanged; user-requested partial anatomy edit. Far hand steadies chart, near hand rests on railing."
+}

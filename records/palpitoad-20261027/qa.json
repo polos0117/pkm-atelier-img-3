@@ -122,21 +122,24 @@
     },
     {
       "slot": "casual2",
-      "image_sha256": "497a3d4224c2a26c5e62b291443c463f9ebffa32f07e336b1d81fe2cb8a3fc23",
+      "image_sha256": "0c34933381c9af43d912694267495fa20543e6d1cf8798ac5e02bf17be7b6eb7",
       "accepted": true,
-      "observations": "바다와 난간이 보이는 관찰선에서 해도를 양손으로 확인. 쌍안경은 옆 선반. 몸통은 뒤쪽이고 얼굴은 어깨 너머. 크롭 블라우스와 바지, 등·어깨·허리 노출. 표정은 반쯤 감긴 눈.",
+      "observations": "가까운 팔은 화면 왼쪽 어깨에서 위팔·팔꿈치·아래팔·손목으로 이어져 난간을 짚는 손까지 연속됨. / 먼 팔은 반대 어깨에서 내려와 해도 왼쪽 아래를 받치는 손으로 이어짐. / 허리에서 해도 오른쪽으로 나왔던 가짜 팔과 손이 사라짐. 해도 오른쪽에는 손이 없고 콘솔 받침에 놓임. / 팔 두 개·손 두 개. 난간 손의 손가락 일부는 난간 뒤에 가려지고, 해도 손의 엄지와 보이는 손가락은 페이지를 따라 정상 연결됨. / 동일한 얼굴·졸린 표정·청색 웨이브 머리·세일러 블라우스·바지·배 배경과 해도·쌍안경 유지.",
       "identity": {
         "match": true,
         "evidence": "청색·하늘색 웨이브, 푸른 둥근 눈과 볼·입 구조가 경장과 같음"
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe missing",
+        "tool": "unavailable: mediapipe missing; anatomy-check exited 3",
         "arms": 2,
-        "legs": "프레이밍에 일부/전체 가려짐",
-        "hands": "해도 양쪽을 잡은 손; 양손 손가락은 책·손등에 부분 가려짐, 보이는 엄지 방향과 관절 연결 정상",
+        "legs": "프레이밍상 하단 일부만 보임, 기존 하체 유지",
+        "hands": "2 hands total; fingers partly occluded by rail and chart. No disconnected/floating hands or torso-origin limb.",
         "overlay_checked": false,
-        "note": "원본 이미지를 보고 몸에서 팔·손으로 이어지는 연결과 관절 방향 확인. 확실한 추가·단절 없음."
-      }
+        "zoom_checked": true,
+        "note": "원본 크기와 팔·손 확대 이미지를 확인. 어깨→위팔→팔꿈치→아래팔→손목→손의 연결을 각각 추적함."
+      },
+      "correction_record": "corrections/casual2-hands-20261027/qa.json",
+      "previous_review": "corrections/casual2-hands-20261027/previous-qa.json"
     },
     {
       "slot": "casual3",
