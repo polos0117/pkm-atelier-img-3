@@ -1,0 +1,262 @@
+{
+  "initial_plan": {
+    "session": "palkia-heatran-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "펄기아",
+        "species": "palkia-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cat_cafe",
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "holding_cup",
+            "expr": "mischievous",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "parcel_pickup",
+            "garments": [
+              "leggings",
+              "sweater"
+            ],
+            "orient": "low_angle",
+            "frame": "environmental",
+            "pose": "bending_over",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "garments": [
+              "shirt"
+            ],
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "exhausted",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "sweater",
+            "shirt"
+          ],
+          "orient": [
+            "profile_close",
+            "low_angle",
+            "reclining"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "히드런",
+        "species": "heatran-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "aodai_daily",
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "trousers"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_rain_shelter",
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "gentle_pat",
+            "expr": "curious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "turning_back",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "skirt",
+            "tank"
+          ],
+          "orient": [
+            "over_shoulder",
+            "front",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "submitted_from_initial_plan": false,
+  "reason": "Initial ao dai tunic/high-collar example conflicted with planner halter garment exposure; floor-organizing replacement paired kneeling example with standing pose. Planner --avoid excluded those examples before any casual image generation. Current plan is in plan.json.",
+  "reservation_commit": "ec0304aac6c920593ebb73cc8662403ce9907f2b"
+}

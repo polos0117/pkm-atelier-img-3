@@ -1,0 +1,398 @@
+{
+  "card": "히드런",
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "compared_characters": [
+    "펄기아",
+    "타격귀",
+    "던지미",
+    "두르보"
+  ],
+  "face_reason": "Actual species FACE/HAIR UI: angular face, square broad jaw, medium wide-set almond eyes, straight eyebrows, balanced nose and thin lips, long blunt hair with straight bangs. Copper hair and amber eyes are stable. Compared actual Palkia and recent Sawk, Throh and Sewaddle images; jaw, eyes, eyebrows, mouth and hairstyle distinguish her. Heatran has no evolutionary relatives.",
+  "diversity_comparison": "Compared the three actual new images with Palkia cafe, parcel and studio images and recent real Sawk/Throh/Sewaddle WebPs. Sunroom knit romper with open book, rear-view copper dress while removing earrings at night, and athletic full-body beach volleyball differ in activity, location, clothing silhouette and orientation. Sunroom reading differs from Sawk sofa music in outfit, activity and forward torso; evening earrings differs from Throh wine-bar sitting and Sawk standing red carpet in hands, body direction and crop. Volleyball differs from seated creek swim or paddleboarding in active low stance, ball/net and camera.",
+  "anatomy_tool": "unavailable: No module named mediapipe; tool attempted in this session and returned exit 3. All images manually reviewed including enlarged hands/feet.",
+  "images": [
+    {
+      "slot": "light",
+      "file": "히드런_light_glossy_promo_f.webp",
+      "image_sha256": "4e452bb6d59c200a49a41d23f59d3b13b58f49c0eacc4c322410b217314f01f5",
+      "accepted": true,
+      "observations": "Slim brown undersuit and silver/copper plates with amber chest gem. Long copper blunt-cut hair with bangs and amber almond eyes. Full-body single figure, two arms and two legs terminating in boots.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Slim brown undersuit and silver/copper plates with amber chest gem. Long copper blunt-cut hair with bangs and amber almond eyes. Full-body single figure, two arms and two legs terminating in boots."
+      }
+    },
+    {
+      "slot": "heavy",
+      "file": "히드런_heavy_glossy_promo_f.webp",
+      "image_sha256": "03c2ed78e968de0a9f7195bc9362c782786802d52f28e2695c7a44d2b08d200c",
+      "accepted": true,
+      "observations": "Broader stacked plates and thick rims over shoulders, torso, pelvis, thighs and shins; open face retained. Same body, copper hair and amber eyes.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Broader stacked plates and thick rims over shoulders, torso, pelvis, thighs and shins; open face retained. Same body, copper hair and amber eyes."
+      }
+    },
+    {
+      "slot": "mobility",
+      "file": "히드런_mobility_glossy_promo_f.webp",
+      "image_sha256": "8e9928d7b6bda7365fa67a48084a2f96aee72e556f94e2db8a0a46b73d7875e6",
+      "accepted": true,
+      "observations": "Thin swept shoulder, hip and calf panels spread backward with compact orange emitters and temple fins. Same identity, free joints and complete silhouette.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Thin swept shoulder, hip and calf panels spread backward with compact orange emitters and temple fins. Same identity, free joints and complete silhouette."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "file": "히드런_light_overdrive_glossy_promo_f.webp",
+      "image_sha256": "354180d12702f9aab57961653e257f69d232032edf70b444ca983ddfacec121a",
+      "accepted": true,
+      "observations": "Light camera, stance, scale and hands preserved. Slim seams open to reveal orange magma-like frame; no new helmet or weapon.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Light camera, stance, scale and hands preserved. Slim seams open to reveal orange magma-like frame; no new helmet or weapon."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "file": "히드런_heavy_overdrive_glossy_promo_f.webp",
+      "image_sha256": "ac76058e2fce3c47208f7d32a760214e5fb14acf226fb9155c8e4983f0fba69d",
+      "accepted": true,
+      "observations": "Heavy pose and camera retained while stacked plates hinge outward. Orange light reveals frame through wide gaps, original gauntlets and boots remain.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Heavy pose and camera retained while stacked plates hinge outward. Orange light reveals frame through wide gaps, original gauntlets and boots remain."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "file": "히드런_mobility_overdrive_glossy_promo_f.webp",
+      "image_sha256": "b8de07788ab3307e51be16e3472cd9b2ede64ed7848ef35c7467ce79cb027116",
+      "accepted": true,
+      "observations": "Mobility panels spread farther and thruster covers open. Same fan-shaped parts, body, hands, camera and pose with brighter orange inner seams.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full glove hands, each with one thumb and four curled fingers, correct handedness. Two connected arms and two booted legs, no detached or duplicate hand.",
+        "overlay_checked": false,
+        "note": "Mobility panels spread farther and thruster covers open. Same fan-shaped parts, body, hands, camera and pose with brighter orange inner seams."
+      }
+    },
+    {
+      "slot": "casual1",
+      "file": "히드런_glossy_promo_f_casual1.webp",
+      "image_sha256": "4d7e5878cb41233146a2d61973e4d5d94f9c37226b03742d8f4bd2ac72d8a67e",
+      "accepted": true,
+      "observations": "Copper one-shoulder knit short jumpsuit on sunroom sofa, open art book held in two hands, oatmeal knitted blanket nearby. Face and upper body slightly angled, gaze lowered toward book; actual crop reaches thighs rather than selected chest-up. One shoulder and thighs exposed. Book pictures contain no readable brand.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Book hand on left of image shows four fingers on cover with thumb hidden behind; other hand shows thumb and four fingers. Both wrists connect to forearms. Legs partly cropped; lower legs/feet outside frame."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "Both hands hold open book on sunroom sofa."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "Head through thighs, more than chest-up."
+        },
+        "orientation": {
+          "match": false,
+          "evidence": "Slight front three-quarter angle rather than square frontal torso."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "Specified exposed body areas visible; chest and pelvis covered."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Book hand on left of image shows four fingers on cover with thumb hidden behind; other hand shows thumb and four fingers. Both wrists connect to forearms. Legs partly cropped; lower legs/feet outside frame.",
+        "overlay_checked": false,
+        "note": "Copper one-shoulder knit short jumpsuit on sunroom sofa, open art book held in two hands, oatmeal knitted blanket nearby. Face and upper body slightly angled, gaze lowered toward book; actual crop reaches thighs rather than selected chest-up. One shoulder and thighs exposed. Book pictures contain no readable brand."
+      }
+    },
+    {
+      "slot": "casual2",
+      "file": "히드런_glossy_promo_f_casual2.webp",
+      "image_sha256": "3b1cd5d46fe2ccd00999c52e2ca0856b8b3d6d34eceac071524824f5d6e67f7c",
+      "accepted": true,
+      "observations": "Copper satin strapless mini dress, charcoal coat on velvet chair, mirror, earring dish and evening bag in night dressing area. She reaches both connected hands to an earring and looks over a bare shoulder; back three-quarter torso and facial turn are anatomically consistent. More of thighs is framed than selected waist-up. Shoulder and side of upper chest remain exposed.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Each earring/face-level hand has five digits; index and thumb form natural pinch, remaining fingers curl inward. Both wrists and elbows connect, no third arm. Lower legs/feet cropped."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "Fingers handle earring; coat rests on chair after party."
+        },
+        "framing": {
+          "match": false,
+          "evidence": "Head through thighs, more than waist-up."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "Torso away, face partly turns over near shoulder."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "Specified exposed body areas visible; chest and pelvis covered."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each earring/face-level hand has five digits; index and thumb form natural pinch, remaining fingers curl inward. Both wrists and elbows connect, no third arm. Lower legs/feet cropped.",
+        "overlay_checked": false,
+        "note": "Copper satin strapless mini dress, charcoal coat on velvet chair, mirror, earring dish and evening bag in night dressing area. She reaches both connected hands to an earring and looks over a bare shoulder; back three-quarter torso and facial turn are anatomically consistent. More of thighs is framed than selected waist-up. Shoulder and side of upper chest remain exposed."
+      }
+    },
+    {
+      "slot": "casual3",
+      "file": "히드런_glossy_promo_f_casual3.webp",
+      "image_sha256": "dfde5a2910383f05579ecfdb076abe4bf791a564949ec3c09c6faecdcbd7546e",
+      "accepted": true,
+      "observations": "Sporty copper/charcoal halter bikini, beach volleyball net and incoming ball. Both knees bent, forearms together and hands clasped in low reception stance; laugh has raised cheeks, nearly closed eyes and open mouth. Full head, hands and feet inside frame. Bare shoulders, midriff, hips and thighs visible.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same amber eyes, copper long blunt hair, straight bangs and angular jaw as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Original and WebP reopened at 1024×1536."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two connected hands clasp for reception; two thumbs and partly overlapped folded fingers, no free extra digit. Both bare feet have natural toe direction; five near toes visible, far toes partly buried in sand. Both knees bend forward naturally."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure, no competing person."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "Forearms extended for volleyball receive on sand court."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "Complete head, fingers and both feet."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "Mid-motion torso, hair follows movement."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "Specified exposed body areas visible; chest and pelvis covered."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands clasp for reception; two thumbs and partly overlapped folded fingers, no free extra digit. Both bare feet have natural toe direction; five near toes visible, far toes partly buried in sand. Both knees bend forward naturally.",
+        "overlay_checked": false,
+        "note": "Sporty copper/charcoal halter bikini, beach volleyball net and incoming ball. Both knees bent, forearms together and hands clasped in low reception stance; laugh has raised cheeks, nearly closed eyes and open mouth. Full head, hands and feet inside frame. Bare shoulders, midriff, hips and thighs visible."
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "session": "palkia-heatran-20261027",
+  "batch": {
+    "session": "palkia-heatran-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "히드런",
+        "species": "heatran-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "sunroom_relax",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "reading_book",
+            "expr": "curious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "private_evening",
+            "ex": "after_party",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "dressing_up",
+            "expr": "smug",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "beach_volley",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "mid_action",
+            "expr": "laughing",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "bikini"
+          ],
+          "orient": [
+            "front",
+            "over_shoulder",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "sunroom_relax",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "front",
+      "frame": "chest_up",
+      "pose": "reading_book",
+      "expr": "curious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "mini length"
+      ],
+      "lead": "detail",
+      "example_text": "curled on a sunroom sofa in soft knitwear with a blanket and a book",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An open art book rests in her hands beside a folded oatmeal blanket as afternoon light falls through tall sunroom windows.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: An open art book rests in her hands beside a folded oatmeal blanket as afternoon light falls through tall sunroom windows."
+        },
+        {
+          "field": "outfit",
+          "content": "A soft copper knit one-shoulder short jumpsuit with an amber waist seam; the asymmetric neckline bares one shoulder and the short hem exposes her thighs.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A soft copper knit one-shoulder short jumpsuit with an amber waist seam; the asymmetric neckline bares one shoulder and the short hem exposes her thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced: An open art book rests in her hands beside a folded oatmeal blanket as afternoon light falls through tall sunroom windows.",
+        "source_influence": "strong: limited to the colour and trim of A soft copper knit one-shoulder short jumpsuit with an amber waist seam; the asymmetric neckline bares one shoulder and the short hem exposes her thighs.",
+        "separates_preference": "balanced: planner garment set jumpsuit implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "private_evening",
+      "ex": "after_party",
+      "garments": [
+        "coat",
+        "dress"
+      ],
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "pose": "dressing_up",
+      "expr": "smug",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "after a party in an evening dress, taking off her earrings and draping her coat over a chair",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The penthouse dressing alcove has a velvet chair, a tall mirror and a small earring dish beside an evening bag after her return from a party.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: The penthouse dressing alcove has a velvet chair, a tall mirror and a small earring dish beside an evening bag after her return from a party."
+        },
+        {
+          "field": "outfit",
+          "content": "A copper satin strapless mini dress with a plunging neckline, and a short charcoal coat draped over the chair; the dress exposes her shoulders and upper chest.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A copper satin strapless mini dress with a plunging neckline, and a short charcoal coat draped over the chair; the dress exposes her shoulders and upper chest."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced: The penthouse dressing alcove has a velvet chair, a tall mirror and a small earring dish beside an evening bag after her return from a party.",
+        "source_influence": "strong: limited to the colour and trim of A copper satin strapless mini dress with a plunging neckline, and a short charcoal coat draped over the chair; the dress exposes her shoulders and upper chest.",
+        "separates_preference": "balanced: planner garment set coat,dress implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "beach_volley",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "pose": "mid_action",
+      "expr": "laughing",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "playing beach volleyball in a sporty bikini, crouching low to receive the ball on hot sand",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Bright midday sunlight casts crisp shadows across a resort sand court with the volleyball net and a ball arriving over the sand.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: Bright midday sunlight casts crisp shadows across a resort sand court with the volleyball net and a ball arriving over the sand."
+        },
+        {
+          "field": "outfit",
+          "content": "A sporty opaque copper halter bikini with charcoal trim and high-cut legs; the halter neckline exposes her shoulders and the high leg openings expose her hips and thighs.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A sporty opaque copper halter bikini with charcoal trim and high-cut legs; the halter neckline exposes her shoulders and the high leg openings expose her hips and thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active: Bright midday sunlight casts crisp shadows across a resort sand court with the volleyball net and a ball arriving over the sand.",
+        "source_influence": "balanced: limited to the colour and trim of A sporty opaque copper halter bikini with charcoal trim and high-cut legs; the halter neckline exposes her shoulders and the high leg openings expose her hips and thighs.",
+        "separates_preference": "balanced: planner garment set bikini implemented in the captured outfit field."
+      }
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation stamps verified",
+  "reservation_commit": "ec0304aac6c920593ebb73cc8662403ce9907f2b",
+  "tool": "built-in image_gen",
+  "generator": "Actual prompt.html rendered in Chromium; exact output unchanged",
+  "storage_method": "Shared partial Git + isolated sparse worktrees. Genuine Git tree filename membership is represented by temporary /dev/null links for the filename-only ledger scan; unrelated image originals were not downloaded. Real UI metadata and actual comparison WebPs were read. Links are never published."
+}
