@@ -1,0 +1,240 @@
+{
+  "batch": {
+    "session": "porygonz-gallade-20261026-affa848",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "엘레이드",
+        "species": "gallade-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "laundry_soft",
+            "expr": "curious",
+            "pose": "folding_cloth",
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "cardigan"
+            ],
+            "expose": [
+              "side cutouts",
+              "cropped hem"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "witch_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "hand_on_hip",
+            "expr": "laughing",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "mirror_touchup",
+            "expr": "flustered",
+            "pose": "hands_in_hair",
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "high_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "엘레이드",
+    "species": "gallade-20261026",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "everyday_sensual",
+        "ex": "laundry_soft",
+        "expr": "curious",
+        "pose": "folding_cloth",
+        "orient": "front",
+        "frame": "environmental",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "cardigan"
+        ],
+        "expose": [
+          "side cutouts",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      },
+      {
+        "cut": 2,
+        "cat": "adult_roleplay",
+        "ex": "witch_party",
+        "garments": [
+          "dress"
+        ],
+        "orient": "high_angle",
+        "frame": "full_body",
+        "pose": "hand_on_hip",
+        "expr": "laughing",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "side cutouts"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "private_evening",
+        "ex": "mirror_touchup",
+        "expr": "flustered",
+        "pose": "hands_in_hair",
+        "orient": "profile_close",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "slip"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "strapless top"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_sensual",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [
+        "high_angle"
+      ],
+      "frame": []
+    }
+  },
+  "check": "casual-ledger.py check passed with complete image directory; stamped reservation published before generation",
+  "replanning": "casual2 night_robe returned terminal moderation_blocked with no image. Planner kept accepted cuts1/3 and chose a materially different public Halloween costume festival activity; category and camera changed. No rejected-scene retry and no reservation hand edits."
+}

@@ -1,0 +1,241 @@
+{
+  "storage": {
+    "last": "엘레이드",
+    "cards": {
+      "폴리곤Z": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "scene": "She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.",
+            "outfit": "Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "port_operations",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      },
+      "엘레이드": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "smug",
+            "pose": "arms_crossed",
+            "orient": "low_angle",
+            "scene": "Warm lamplight pools across an ivory velvet dressing-room chair and pale green curtains during an evening lingerie fashion fitting.",
+            "outfit": "A fully opaque emerald halter lingerie set with a plunging neckline and high-waisted matching bottoms, beneath an open short ivory silk robe with its sash loosely tied at the waist, revealing her collarbones and legs.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "night_robe",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gallade (엘레이드) personified, psychic / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one mouth corner lifted, lids lowered in a knowing look, chin tipped slightly up\nPose: Fold the arms comfortably across the torso with readable hands.\nOrientation: camera below subject looking upward; obey selected framing\nScene: Warm lamplight pools across an ivory velvet dressing-room chair and pale green curtains during an evening lingerie fashion fitting.\nOutfit and props: A fully opaque emerald halter lingerie set with a plunging neckline and high-waisted matching bottoms, beneath an open short ivory silk robe with its sash loosely tied at the waist, revealing her collarbones and legs.\nCategory: Use tasteful adult lingerie-inspired evening fashion with full intimate coverage. Describe the garment by its construction — cut, fabric, trim, straps, closures, layers — rather than by mood words. The garments are securely fitted and fully opaque, and the look is suitable for a mainstream evening-fashion editorial. Build the image through framing, silhouette, posture, and lighting rather than exposure.\nExample scene: a lingerie set worn under an open silk night robe with a tied sash\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: balanced — a few source color and marking cues integrated into everyday clothing\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 2,
+    "cat": "lingerie",
+    "ex": "night_robe",
+    "garments": [
+      "lingerie_set",
+      "robe"
+    ],
+    "orient": "low_angle",
+    "frame": "three_quarter",
+    "pose": "arms_crossed",
+    "expr": "smug",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "plunging neckline",
+      "halter neck"
+    ],
+    "lead": "light"
+  },
+  "source": "actual local prompt.html UI",
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "Warm lamplight pools across an ivory velvet dressing-room chair and pale green curtains during an evening lingerie fashion fitting.",
+      "reason": "Adds details absent from night_robe: Warm lamplight pools across an ivory velvet dressing-room chair and pale green curtains during an evening lingerie fashion fitting."
+    },
+    {
+      "field": "outfit",
+      "content": "A fully opaque emerald halter lingerie set with a plunging neckline and high-waisted matching bottoms, beneath an open short ivory silk robe with its sash loosely tied at the waist, revealing her collarbones and legs.",
+      "reason": "Defines the reserved lingerie_set+robe construction and plunging neckline+halter neck for night_robe."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Built-in image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed for night_robe and arms_crossed",
+    "source": "balanced via A fully opaque emerald halter lingerie set with a plunging neckline and high-waisted matching bottoms, beneath an open short ivory silk robe with its sash loosely tied at the waist, revealing her collarbones and legs.",
+    "separates": "balanced follows lingerie_set+robe"
+  },
+  "planner_selection": "All selection values and locks loaded from stamped planner URL; no manual selection changes."
+}

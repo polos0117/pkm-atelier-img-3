@@ -1,0 +1,182 @@
+{
+  "card": "엘레이드",
+  "style": "glossy_promo",
+  "stage": "9 accepted final images; publication pending",
+  "anchor": {
+    "path": "/workspace/scratch/affa84852d37/generated_images/exec-09b6d32e-9a3f-4d05-8d3f-c117a51f2612.png",
+    "sha256": "1e803fb072264f584cbebe9dc723856a067b3a0dd7a2993a9ad21d70cf92e894"
+  },
+  "face_reason": "Elongated and narrow face, defined chin, level narrowed eyes and angled brows distinguish the disciplined Gallade knight from rounded Ralts/Kirlia and softer Gardevoir. Long high tied green hair reads as a ponytail flowing from crown knot rather than compact topknot; this actual light image is the identity anchor for later slots.",
+  "source": "data/face-design.json faces.475; actual prompt UI FACE and HAIR output",
+  "compared_characters": [
+    "랄토스",
+    "킬리아",
+    "가디안"
+  ],
+  "outputs": [
+    {
+      "slot": "light",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": null,
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-09b6d32e-9a3f-4d05-8d3f-c117a51f2612.png",
+      "original_sha256": "1e803fb072264f584cbebe9dc723856a067b3a0dd7a2993a9ad21d70cf92e894",
+      "file": "엘레이드_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "f87b1cbaf0a4ffe4308a1268f7da80195dd8b8b928ac19994ac3f22973e153c8",
+      "bytes": 362828
+    },
+    {
+      "slot": "heavy",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-bd40e4e2-f792-4f1a-9bdd-1cd7bfa65924.png",
+      "original_sha256": "f634716a344a42ccf07ddd9f71d68f3ce7b69f13de9cea9c2a35eca1edf00537",
+      "file": "엘레이드_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "1497b50107520714c9a4eabebe52433272d68c90754643af3741037fedf5483f",
+      "bytes": 361560
+    },
+    {
+      "slot": "mobility",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-2de8170c-a3ab-4e0a-8b73-e630f05a55e2.png",
+      "original_sha256": "a50311e6185c4fdb7950248805309348cf24d89e9dda9782548624164882bd34",
+      "file": "엘레이드_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "4230182442431c88de7fbe210cb68cc416c5de24141ab67ea6a5787f7ab3ac7b",
+      "bytes": 357610
+    },
+    {
+      "slot": "light_overdrive",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-a06f0066-ade8-46ac-9c22-c1a670d5533d.png",
+      "original_sha256": "1a70daa04df390bb6def12a4e16cd9d66890eded0e35fbcd675f07a5aca68b34",
+      "file": "엘레이드_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "94e65a798bd3c01d91032e5d0d5f493f44548fe6a5e302f1e75dd41e53f3542f",
+      "bytes": 376166
+    },
+    {
+      "slot": "heavy_overdrive",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "heavy",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-9f4918ee-4df1-4c29-86df-665fda0c8940.png",
+      "original_sha256": "d550085e4c049263816faf307f043bf1e26da05bb238e1520b3ef88135079558",
+      "file": "엘레이드_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "85ca057e254bac7b8987825b64d66b9fedccdf85f0990f89ed2f87157993d407",
+      "bytes": 391072
+    },
+    {
+      "slot": "mobility_overdrive",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "mobility",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-94ec6e2c-695d-457a-b479-7380223a62d3.png",
+      "original_sha256": "374d26535199bc2b04cf9f06af865e99be4d9aa0daefba5c409632be19aa4ee5",
+      "file": "엘레이드_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "c0a48d823e15cfb8cd58f1fabae22439cf11f3249b8a9084852de4000abda250",
+      "bytes": 395986
+    },
+    {
+      "slot": "casual1",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-e8f6d882-b492-4eb6-a9b9-7f9ff92b69ff.png",
+      "original_sha256": "9731be22558331bbba0eda6c4692de118b3383457bbd613844710abbdfe9a286",
+      "file": "엘레이드_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "5b0bbf790f45082468a78b2106edd97b8d8dfbd94faa36a340cd245cb0f957aa",
+      "bytes": 252502
+    },
+    {
+      "slot": "casual2",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-108efd30-336d-4ed9-b93f-89da16d059eb.png",
+      "original_sha256": "b64c535e6f0f2e62a0c9d476df51e005772a2d0e6beafb41dd03fc9b604f1fa2",
+      "file": "엘레이드_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "830c8ea9edec35ecf7d5984ada637e534f08af80135a5f615c5128ae86851417",
+      "bytes": 370618
+    },
+    {
+      "slot": "casual3",
+      "card": "엘레이드",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local prompt.html controls, captured UI and exact submitted prompt",
+      "reference": "light",
+      "original": "/workspace/scratch/affa84852d37/generated_images/exec-7ef10185-c64b-4815-b8b1-a0b052085ed8.png",
+      "original_sha256": "2c5667487e25b201b08a82ead19f0b89c7f83114918fe53b2a46519dd3f29291",
+      "file": "엘레이드_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "ba93bafd317991dee037da22b33727281e23a3490f3261342e6c480d7bc8fc1b",
+      "bytes": 210840
+    }
+  ],
+  "qa": "qa.json",
+  "replanned_casual2": "public Halloween festival witch costume; original terminal rejection preserved under attempts/"
+}

@@ -1,0 +1,240 @@
+{
+  "storage": {
+    "last": "엘레이드",
+    "cards": {
+      "폴리곤Z": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "scene": "She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.",
+            "outfit": "Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "port_operations",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      },
+      "엘레이드": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "flustered",
+            "pose": "hands_in_hair",
+            "orient": "profile_close",
+            "scene": "She tidies a loose strand beside a small oval dressing mirror while a closed red lipstick case rests near a pearl comb.",
+            "outfit": "A pearl-white satin slip with a strapless fitted neckline, an asymmetric draped sleeve slipping below one shoulder and a low open back, leaving her shoulders and upper back visible.",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "mirror_touchup",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gallade (엘레이드) personified, psychic / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: raised inner brows, darting or averted eyes, mouth slightly open, faint blush across the cheeks and nose\nPose: Use the hands to tidy the established hairstyle without changing its cut or length.\nOrientation: side profile, close only when no explicit framing is selected\nScene: She tidies a loose strand beside a small oval dressing mirror while a closed red lipstick case rests near a pearl comb.\nOutfit and props: A pearl-white satin slip with a strapless fitted neckline, an asymmetric draped sleeve slipping below one shoulder and a low open back, leaving her shoulders and upper back visible.\nCategory: Create mature private evening fashion scenes with intimate but non-explicit atmosphere. Use elegant, attractive, clearly adult styling, confident body language, and believable private-life context.\nExample scene: at a mirror in an evening outfit, touching up lipstick or her hair\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 3,
+    "cat": "private_evening",
+    "ex": "mirror_touchup",
+    "garments": [
+      "slip"
+    ],
+    "orient": "profile_close",
+    "frame": "waist_up",
+    "pose": "hands_in_hair",
+    "expr": "flustered",
+    "lens": "natural50",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "one-shoulder cut",
+      "strapless top"
+    ],
+    "lead": "action"
+  },
+  "source": "actual local prompt.html UI",
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "She tidies a loose strand beside a small oval dressing mirror while a closed red lipstick case rests near a pearl comb.",
+      "reason": "Adds details absent from mirror_touchup: She tidies a loose strand beside a small oval dressing mirror while a closed red lipstick case rests near a pearl comb."
+    },
+    {
+      "field": "outfit",
+      "content": "A pearl-white satin slip with a strapless fitted neckline, an asymmetric draped sleeve slipping below one shoulder and a low open back, leaving her shoulders and upper back visible.",
+      "reason": "Defines the reserved slip construction and one-shoulder cut+strapless top for mirror_touchup."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Built-in image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "mostly posed for mirror_touchup and hands_in_hair",
+    "source": "strong via A pearl-white satin slip with a strapless fitted neckline, an asymmetric draped sleeve slipping below one shoulder and a low open back, leaving her shoulders and upper back visible.",
+    "separates": "balanced follows slip"
+  },
+  "planner_selection": "All selection values and locks loaded from stamped planner URL; no manual selection changes."
+}

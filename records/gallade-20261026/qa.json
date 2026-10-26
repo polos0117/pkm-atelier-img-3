@@ -1,0 +1,217 @@
+{
+  "reviewer": "gpt",
+  "style": "glossy_promo",
+  "tool_mode": "built-in image_gen",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "1e803fb072264f584cbebe9dc723856a067b3a0dd7a2993a9ad21d70cf92e894",
+      "observations": "Single adult woman with long green hair tied high at a crown knot, angular narrow face and level eyes; slim white/teal/red plates, full-finger black gloves and two boots inside frame. Crest and flowing hair tips touch frame; recorded only.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Single adult woman with long green hair tied high at a crown knot, angular narrow face and level eyes; slim white/teal/red plates, full-finger black gloves and two boots inside frame. Crest and flowing hair tips touch frame; recorded only."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "f634716a344a42ccf07ddd9f71d68f3ce7b69f13de9cea9c2a35eca1edf00537",
+      "observations": "Same face, green tied hair and body; thick white/red overlapping plates broaden shoulders, torso, hips, thigh and shin outlines. Open face crown plates leave eyes, bangs and jaw visible. Exactly two continuous arms and legs.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Same face, green tied hair and body; thick white/red overlapping plates broaden shoulders, torso, hips, thigh and shin outlines. Open face crown plates leave eyes, bangs and jaw visible. Exactly two continuous arms and legs."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "a50311e6185c4fdb7950248805309348cf24d89e9dda9782548624164882bd34",
+      "observations": "Same identity with long narrow fins and slim joint gaps at shoulder, hip and shin; cyan mechanical vents distinguish mobility design. No weapon. Both full-finger gloves and boots visible.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Same identity with long narrow fins and slim joint gaps at shoulder, hip and shin; cyan mechanical vents distinguish mobility design. No weapon. Both full-finger gloves and boots visible."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "1a70daa04df390bb6def12a4e16cd9d66890eded0e35fbcd675f07a5aca68b34",
+      "observations": "Light-form plates hinge open along their existing seams to reveal magenta psychic light at torso and joints. Original camera, body scale and open-hand stance preserved.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Light-form plates hinge open along their existing seams to reveal magenta psychic light at torso and joints. Original camera, body scale and open-hand stance preserved."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "d550085e4c049263816faf307f043bf1e26da05bb238e1520b3ef88135079558",
+      "observations": "Broad heavy plates open at shoulder, chest, hip and shin seams with magenta internals; no newly carried object. Original pose, body size and background remain.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Broad heavy plates open at shoulder, chest, hip and shin seams with magenta internals; no newly carried object. Original pose, body size and background remain."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "374d26535199bc2b04cf9f06af865e99be4d9aa0daefba5c409632be19aa4ee5",
+      "observations": "Long mobility fins split open along seams with bright magenta internals while preserving cyan vent locations, original hands and narrow silhouette. No new helmet or weapon.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near black glove has five separate digits including upper thumb; far black glove has five tips, some thumb-base overlap from palm angle. Wrist continuous with forearm.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Long mobility fins split open along seams with bright magenta internals while preserving cyan vent locations, original hands and narrow silhouette. No new helmet or weapon."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "9731be22558331bbba0eda6c4692de118b3383457bbd613844710abbdfe9a286",
+      "observations": "In a bright home laundry sunroom, she folds a white towel using both hands beside washer, wicker basket and drying rack. Mint cropped cardigan drapes below shoulders over side-cutout ivory knit top and gray shorts. Exposed midriff, side waist and legs visible; bare feet have five toes each. Actual torso turns slightly three-quarter rather than strict front; record only.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands grip towel edges; thumbs oppose curled fingers, remaining digits partly hidden by cloth. Both bare feet show five toes; no duplicate foot.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": false,
+        "evidence": "In a bright home laundry sunroom, she folds a white towel using both hands beside washer, wicker basket and drying rack. Mint cropped cardigan drapes below shoulders over side-cutout ivory knit top and gray shorts. Exposed midriff, side waist and legs visible; bare feet have five toes each. Actual torso turns slightly three-quarter rather than strict front; record only."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "b64c535e6f0f2e62a0c9d476df51e005772a2d0e6beafb41dd03fc9b604f1fa2",
+      "observations": "Laughing at public Halloween festival, one hand on hip and the other holding a pumpkin lantern handle. Violet lace-up short witch dress, pointed hat and striped thigh-high stockings read clearly; high camera, shoulders and thighs visible. Hat tip touches upper border; background bystanders are small faceless blurred shapes. No identifiable logo.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hip hand shows thumb and four fingers; lantern hand has an opposed thumb/index grip with remaining curled fingers partly hidden around handle. No extra hand.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; two legs continue naturally from the hips, without detached feet."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Laughing at public Halloween festival, one hand on hip and the other holding a pumpkin lantern handle. Violet lace-up short witch dress, pointed hat and striped thigh-high stockings read clearly; high camera, shoulders and thighs visible. Hat tip touches upper border; background bystanders are small faceless blurred shapes. No identifiable logo."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "2c5667487e25b201b08a82ead19f0b89c7f83114918fe53b2a46519dd3f29291",
+      "observations": "Side profile at ornate vanity mirror, both hands tidy a green fringe strand; white satin slip with draped off-shoulder sleeve and open back. Closed red lipstick and pearl comb on vanity. Human shoulder/elbow/wrist chains continue naturally; no duplicated reflection face. Lower legs are outside the waist-up crop.",
+      "identity": {
+        "match": true,
+        "evidence": "Green high tied hair, straight fringe and narrow teal eyes agree with light anchor; expression and face angle vary in everyday scenes."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands by fringe: visible opposing thumb/index pinches, middle/ring/little partly occluded by hair and each other. Both wrists join their own forearms and elbows; no detached hand.",
+        "overlay_checked": false,
+        "note": "Full image and enlarged hand/foot regions reviewed directly; lower legs outside scene crop."
+      },
+      "spec_comparison": {
+        "match": true,
+        "evidence": "Side profile at ornate vanity mirror, both hands tidy a green fringe strand; white satin slip with draped off-shoulder sleeve and open back. Closed red lipstick and pearl comb on vanity. Human shoulder/elbow/wrist chains continue naturally; no duplicated reflection face. Lower legs are outside the waist-up crop."
+      }
+    }
+  ],
+  "diversity_comparison": "Viewed final three scenes side by side: sunlit laundry/knit layers and shorts/towel folding full body; public festival/witch short dress, stockings and lantern/high camera laughter; vanity/white satin evening slip/profile hair adjustment waist up. Compared actual latest Porygon-Z scenes and actual Audino, Excadrill, Mamoswine contact sheet; activities, locations and clothes differ. casual-look reports no near-identical scene for any cut.",
+  "failed_attempts": [
+    {
+      "slot": "casual2",
+      "ex": "night_robe",
+      "request_id": "076c82e8-40c7-44f3-91b9-b1deeeb9f71f",
+      "code": "moderation_blocked",
+      "output_files": [],
+      "resolution": "No retry of the rejected scene. Planner kept existing cuts1/3, selected public witch costume festival and changed category/camera/garment/activity. New stamped reservation published and verified before new generation."
+    }
+  ],
+  "skipped": []
+}

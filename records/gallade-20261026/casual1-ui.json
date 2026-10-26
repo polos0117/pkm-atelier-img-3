@@ -1,0 +1,240 @@
+{
+  "storage": {
+    "last": "엘레이드",
+    "cards": {
+      "폴리곤Z": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "relieved",
+            "pose": "adjusting_bag",
+            "orient": "over_shoulder",
+            "scene": "She sorts a compact navy travel bag alongside a folded coastal route map as warm ferry lights brighten the boarding dock at dusk.",
+            "outfit": "Strapless slate-blue short overalls with an elasticated bib bodice, turned-up mini-length legs and brass utility buckles at the waist, revealing her shoulders and legs.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "catCustom": "",
+            "ex": "port_operations",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      },
+      "엘레이드": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "curious",
+            "pose": "folding_cloth",
+            "orient": "front",
+            "scene": "A pale linen shirt and soft cotton towels lie in a low wicker laundry basket beside a sunroom drying rack and a washing machine.",
+            "outfit": "A mint cropped cardigan with elbow-length sleeves, draped loosely off one shoulder over an ivory side-cutout knit bandeau and charcoal lounge shorts, exposing her side waist and midriff.",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_sensual",
+            "catCustom": "",
+            "ex": "laundry_soft",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "CHARACTER: the same woman as the attached image — Gallade (엘레이드) personified, psychic / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: one brow raised higher, head tilted, eyes wide and attentive, lips slightly parted\nPose: Fold a blanket, towel or garment with both hands, its edges lined up between them.\nOrientation: torso and pelvis face the camera; gaze is independent\nScene: A pale linen shirt and soft cotton towels lie in a low wicker laundry basket beside a sunroom drying rack and a washing machine.\nOutfit and props: A mint cropped cardigan with elbow-length sleeves, draped loosely off one shoulder over an ivory side-cutout knit bandeau and charcoal lounge shorts, exposing her side waist and midriff.\nCategory: Create a sensual but non-explicit everyday lifestyle moment with the same clearly adult character. The situation must read as believable ordinary life, so specify the room, the clothing, and a concrete action already in progress rather than a posed shoot. Use natural household or street lighting and eye-level framing; fabric drape, movement, and light carry the mood. Avoid turning the scene into a lingerie catalogue or a deliberate glamour shoot.\nExample scene: folding laundry at home in soft loungewear, a cardigan slipping loosely off one shoulder\nFraming: Environmental long shot: show the complete woman and enough surroundings to establish the activity and location.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: strong — clearly recognizable source palette and motifs in clothing, not new armor or creature anatomy\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra.",
+  "cut": {
+    "cut": 1,
+    "cat": "everyday_sensual",
+    "ex": "laundry_soft",
+    "garments": [
+      "cardigan"
+    ],
+    "orient": "front",
+    "frame": "environmental",
+    "pose": "folding_cloth",
+    "expr": "curious",
+    "lens": "documentary35",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+    },
+    "expose": [
+      "side cutouts",
+      "cropped hem"
+    ],
+    "lead": "detail"
+  },
+  "source": "actual local prompt.html UI",
+  "manual_inputs": [
+    {
+      "field": "scene",
+      "content": "A pale linen shirt and soft cotton towels lie in a low wicker laundry basket beside a sunroom drying rack and a washing machine.",
+      "reason": "Adds details absent from laundry_soft: A pale linen shirt and soft cotton towels lie in a low wicker laundry basket beside a sunroom drying rack and a washing machine."
+    },
+    {
+      "field": "outfit",
+      "content": "A mint cropped cardigan with elbow-length sleeves, draped loosely off one shoulder over an ivory side-cutout knit bandeau and charcoal lounge shorts, exposing her side waist and midriff.",
+      "reason": "Defines the reserved cardigan construction and side cutouts+cropped hem for laundry_soft."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Built-in image tool has no size parameter."
+    }
+  ],
+  "axes_reason": {
+    "action": "balanced for laundry_soft and folding_cloth",
+    "source": "strong via A mint cropped cardigan with elbow-length sleeves, draped loosely off one shoulder over an ivory side-cutout knit bandeau and charcoal lounge shorts, exposing her side waist and midriff.",
+    "separates": "prefer separates follows cardigan"
+  },
+  "planner_selection": "All selection values and locks loaded from stamped planner URL; no manual selection changes."
+}
