@@ -1,0 +1,617 @@
+{
+  "session": "throh-sawk-20261027-8e00",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": {
+    "card": "던지미",
+    "species": "throh-20261027",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "spa_wellness",
+        "ex": "mud_mask",
+        "garments": [
+          "robe"
+        ],
+        "orient": "crouching",
+        "frame": "waist_up",
+        "pose": "squatting",
+        "expr": "provocative",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "side cutouts",
+          "plunging neckline"
+        ],
+        "lead": "light",
+        "submitted_scene": {
+          "expr": "provocative",
+          "pose": "squatting",
+          "orient": "crouching",
+          "scene": "Soft morning light warms a travertine treatment room; a ceramic bowl of cucumber slices rests beside a low cedar stool.",
+          "outfit": "A short ivory spa robe with a plunging neckline and small side-waist cutouts, securely wrapped across the chest and hips; a narrow crimson piping accent.",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "aspect": "2:3",
+          "cat": "spa_wellness",
+          "catCustom": "",
+          "ex": "mud_mask",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 1,
+          "garments": [
+            "robe"
+          ],
+          "expose": [
+            "side cutouts",
+            "plunging neckline"
+          ],
+          "lead": "light"
+        },
+        "example_text": "in a spa robe with a clay mask on her face, resting with cucumber slices in hand in a treatment room",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Soft morning light warms a travertine treatment room; a ceramic bowl of cucumber slices rests beside a low cedar stool.",
+            "reason": "아침 자연광·트래버틴·시더 스툴을 예시의 치료실에 추가한다."
+          },
+          {
+            "field": "outfit",
+            "content": "A short ivory spa robe with a plunging neckline and small side-waist cutouts, securely wrapped across the chest and hips; a narrow crimson piping accent.",
+            "reason": "짧은 가운에 지정된 옆허리 컷아웃과 깊은 목선을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          }
+        ],
+        "axes_reason": "휴식 자세는 mostly posed, 가운 테두리만 subtle, 가운 한 벌은 balanced.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      },
+      {
+        "cut": 2,
+        "cat": "nightlife",
+        "ex": "jazz_bar_stage",
+        "garments": [
+          "dress"
+        ],
+        "orient": "seated_twist",
+        "frame": "three_quarter",
+        "pose": "sitting",
+        "expr": "sensual",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "mini length"
+        ],
+        "lead": "detail",
+        "submitted_scene": {
+          "expr": "sensual",
+          "pose": "sitting",
+          "orient": "seated_twist",
+          "scene": "A stemmed glass of sparkling grape juice catches candle reflections beside the polished piano rim; amber spotlights fall across a burgundy piano bench.",
+          "outfit": "An emerald satin gown with a mini-length front hem, long back drape and a high thigh slit, exposing her shoulders and legs; fine black piping outlines the neckline.",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "aspect": "2:3",
+          "cat": "nightlife",
+          "catCustom": "",
+          "ex": "jazz_bar_stage",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 2,
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "high thigh slit",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        "example_text": "leaning on the grand piano of a dim jazz bar in a high-slit gown, a glass in hand",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "A stemmed glass of sparkling grape juice catches candle reflections beside the polished piano rim; amber spotlights fall across a burgundy piano bench.",
+            "reason": "포도주스·피아노 의자·촛불을 예시에 없는 세부로 추가한다."
+          },
+          {
+            "field": "outfit",
+            "content": "An emerald satin gown with a mini-length front hem, long back drape and a high thigh slit, exposing her shoulders and legs; fine black piping outlines the neckline.",
+            "reason": "슬릿 가운의 앞자락을 짧게·뒤는 길게 해 mini length와 high thigh slit을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          }
+        ],
+        "axes_reason": "앉아서 잔을 든 정지 장면은 mostly posed, 검은 테두리만 subtle, 가운 한 벌은 balanced.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      },
+      {
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "paddle_board",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "high_angle",
+        "frame": "full_body",
+        "pose": "stretching",
+        "expr": "surprised",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "bare midriff",
+          "strapless top"
+        ],
+        "lead": "place",
+        "submitted_scene": {
+          "expr": "surprised",
+          "pose": "stretching",
+          "orient": "high_angle",
+          "scene": "A crescent-shaped bay has clear turquoise shallows over pale sand; a small wake curls off the bamboo-deck paddleboard at noon.",
+          "outfit": "A secure strapless red-and-black cutout swimsuit with a built-in support band, open midriff panels and fully lined chest and hip sections; the fabric carries a small black diamond pattern.",
+          "frame": "full_body",
+          "lens": "wide24",
+          "camera": "Vertical 2:3 portrait (1024×1536).",
+          "custom": "",
+          "aspect": "2:3",
+          "cat": "swimwear",
+          "catCustom": "",
+          "ex": "paddle_board",
+          "exCustom": "",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "action": {},
+          "randomLocks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "overall_intensity": true,
+            "skin_exposure": true,
+            "action_level": true,
+            "source_influence": true,
+            "separates_preference": true
+          },
+          "cut": 3,
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "bare midriff",
+            "strapless top"
+          ],
+          "lead": "place"
+        },
+        "example_text": "standing on a paddleboard in a swimsuit on a calm bay, the paddle mid-stroke",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "A crescent-shaped bay has clear turquoise shallows over pale sand; a small wake curls off the bamboo-deck paddleboard at noon.",
+            "reason": "만의 모래 바닥·대나무 보드·정오를 구체화한다."
+          },
+          {
+            "field": "outfit",
+            "content": "A secure strapless red-and-black cutout swimsuit with a built-in support band, open midriff panels and fully lined chest and hip sections; the fabric carries a small black diamond pattern.",
+            "reason": "수영복에 스트랩리스 지지 밴드와 열린 배 패널을 적용한다."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "이미지 도구에 크기 선택 항목이 없어 세로 2:3 규격을 입력한다."
+          }
+        ],
+        "axes_reason": "패들 활동은 mostly active, 붉은색과 검은 마름모 무늬는 strong, 한 벌 수영복은 balanced.",
+        "selection_source": "planner, no manual changes",
+        "locks": "all 13 planned fields locked in actual UI"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          3
+        ],
+        "two": false,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "subculture_fashion",
+        "nightlife",
+        "dance_stage",
+        "spa_wellness",
+        "fantasy_costume",
+        "bridal",
+        "gala_red_carpet",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "robe",
+        "swimsuit"
+      ],
+      "orient": [
+        "crouching",
+        "seated_twist",
+        "high_angle"
+      ],
+      "frame": []
+    }
+  },
+  "batch": {
+    "session": "throh-sawk-20261027-8e00",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "던지미",
+        "species": "throh-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "spa_wellness",
+            "ex": "mud_mask",
+            "garments": [
+              "robe"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "jazz_bar_stage",
+            "garments": [
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "pose": "sitting",
+            "expr": "sensual",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "paddle_board",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "stretching",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe",
+            "swimsuit"
+          ],
+          "orient": [
+            "crouching",
+            "seated_twist",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "타격귀",
+        "species": "sawk-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "noir_detective",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "one_knee_up",
+            "expr": "soft_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "award_ceremony",
+            "garments": [
+              "dress"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "walking",
+            "expr": "pensive",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "aerobics_80s",
+            "garments": [
+              "leggings"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "standing_relaxed",
+            "expr": "proud",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "cropped hem"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "leggings"
+          ],
+          "orient": [
+            "side",
+            "front_3q",
+            "reaching_up"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve",
+  "reservation_commit": "2de24a1ccb1cee2f30ac69d72689646bd1f68f42",
+  "metadata_source": "Git tree filenames and genuine casual UI JSON; no historical image originals copied. Filename-only temporary symlinks were used for the ledger membership scan, removed before publication.",
+  "generator": "actual UI via browser; archived prompt rebuilt by unmodified generator engine from selected controls",
+  "tool": "built-in image_gen"
+}
