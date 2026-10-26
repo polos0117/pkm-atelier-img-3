@@ -1,0 +1,173 @@
+{
+  "notes": [
+    {
+      "cut": 1,
+      "example_text": "a 1950s halter playsuit, leaning against the fender of a classic convertible",
+      "planner_values": {
+        "cut": 1,
+        "cat": "retro_glamour",
+        "ex": "pinup_car",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "front_3q",
+        "frame": "full_body",
+        "pose": "mid_action",
+        "expr": "laughing",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded silk scarf rests beside her on the polished fender at a daytime classic-car gathering.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "A 1950s-style golden satin halter playsuit, a short jumpsuit with an asymmetric one-shoulder strap and plunging neckline; its short legs expose her thighs and the neckline exposes her upper chest.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active for a 1950s halter playsuit, leaning against the fender of a classic convertible",
+        "source_influence": "subtle implemented through A 1950s-style golden satin halter playsuit, a short jumpsuit with an asymmetric one-shoulder strap and plunging neckline; its short legs expose her thighs and the neckline exposes her upper chest.",
+        "separates_preference": "balanced follows planned jumpsuit"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    },
+    {
+      "cut": 2,
+      "example_text": "checking her outfit in a full-length mirror, phone raised",
+      "planner_values": {
+        "kept": true,
+        "cut": 2,
+        "cat": "everyday_sensual",
+        "ex": "mirror_selfie",
+        "expr": "flustered",
+        "pose": "leaning_wall",
+        "orient": "high_angle",
+        "frame": "environmental",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "plunging neckline",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She takes a mirror selfie with a small phone in her right hand inside an ochre fitting alcove after finding a new outfit; her free hand rests against the wall.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory one-shoulder wide-leg jumpsuit with a plunging neckline and a warm yellow waist seam; the asymmetric cut exposes one shoulder and the neckline exposes her upper chest.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced for checking her outfit in a full-length mirror, phone raised",
+        "source_influence": "strong implemented through An ivory one-shoulder wide-leg jumpsuit with a plunging neckline and a warm yellow waist seam; the asymmetric cut exposes one shoulder and the neckline exposes her upper chest.",
+        "separates_preference": "balanced follows planned jumpsuit"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    },
+    {
+      "cut": 3,
+      "example_text": "an evening out in formal traditional dress from her own ethnic background",
+      "planner_values": {
+        "kept": true,
+        "cut": 3,
+        "cat": "private_evening",
+        "ex": "heritage_evening",
+        "expr": "mischievous",
+        "pose": "contrapposto",
+        "orient": "leaning_forward",
+        "frame": "chest_up",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "strapless top",
+          "high thigh slit"
+        ],
+        "lead": "place"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Carved walnut panels and a shaded amber lamp frame a heritage hotel lounge after dinner.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "A formal Chinese-style strapless pale-gold cheongsam dress with a high thigh slit and an understated red gemstone brooch; the bodice exposes her shoulders and the slit exposes one thigh.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for an evening out in formal traditional dress from her own ethnic background",
+        "source_influence": "strong implemented through A formal Chinese-style strapless pale-gold cheongsam dress with a high thigh slit and an understated red gemstone brooch; the bodice exposes her shoulders and the slit exposes one thigh.",
+        "separates_preference": "balanced follows planned dress"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    }
+  ],
+  "sparse_ledger_method": "All remote tracked img filenames were read from Git HEAD tree, without downloading image bytes. Ledger os.listdir(img) reads that exact manifest; records and recent comparison images are materialized. No checks or tracked tool source were modified.",
+  "replan_history": [
+    {
+      "card": "유크시",
+      "cut": 1,
+      "old": "roller_disco",
+      "reason": "Example mandates satin hot pants while planner chose trousers; replanned before any casual generation.",
+      "new": "pinup_car"
+    }
+  ]
+}
