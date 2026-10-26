@@ -1,6 +1,6 @@
 {
   "reviewer": "gpt",
-  "status": "partial: 8 accepted; casual2 moderation-blocked without output",
+  "status": "9 accepted; all three casual scenes reviewed; awaiting remote registration",
   "face_design": {
     "reason": "Pointed black wings and sharp beak interpreted as narrow upturned eyes, angled brows and a slender straight nose. Observed orange-haired anchor has a tapered oval jaw and small thin mouth; no new facial design was applied to later images.",
     "sources": [
@@ -224,20 +224,57 @@
         "overlay_checked": false,
         "note": "Seated cross-legged on train bench; near hand supports book edge with four long fingers and partly hidden thumb, far hand lifts one page with thumb opposed to curled fingers. Two arms join shoulders; both legs lead to laced shoes. Open-mouthed laugh, orange bandeau under denim bib shorts, landscape window. Paper and spine false typography removed by local edit; bird illustrations retained. Bib covers central midriff; side waist remains open."
       }
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "5f7b01944a87a3477f775c01af3b1e9a6dcfc229e79514594133bf437677fbc2",
+      "source_sha256": "4e714f0f2c8b961979753eec3add113a58f0a65e2fb6d4d9ff3eefc31de084c8",
+      "dimensions": {
+        "match": true,
+        "evidence": "Pillow confirms 1024x1536"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Anchor hair, eye colours and facial proportions retained; see detailed observation."
+      },
+      "text": {
+        "match": true,
+        "evidence": "Rail, pool tile, towel and watch enlarged; no lettered labels."
+      },
+      "observations": "Sunset passenger ferry deck and wake behind a white rail. Torso faces rear three-quarter, head turns over near shoulder with face in three-quarter view; sleepy eyelids and slightly parted lips, rather than a strongly exhausted expression. Orange hair and amber eyes retain anchor identity. Near arm descends continuously through bent elbow to the rail: four finger edges visible, thumb hidden under palm. Far forearm and hand mostly hidden by torso and rail, visible fingertips rest behind near wrist. Two legs continue below navy slit dress, lower legs cropped at knees. Short linen jacket lies off shoulders and leaves side-waist opening visible. No lettering or extra limb.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible finger edges and occlusions counted in observations; no claim that hidden digits are visible.",
+        "overlay_checked": false,
+        "note": "Sunset passenger ferry deck and wake behind a white rail. Torso faces rear three-quarter, head turns over near shoulder with face in three-quarter view; sleepy eyelids and slightly parted lips, rather than a strongly exhausted expression. Orange hair and amber eyes retain anchor identity. Near arm descends continuously through bent elbow to the rail: four finger edges visible, thumb hidden under palm. Far forearm and hand mostly hidden by torso and rail, visible fingertips rest behind near wrist. Two legs continue below navy slit dress, lower legs cropped at knees. Short linen jacket lies off shoulders and leaves side-waist opening visible. No lettering or extra limb."
+      }
     }
   },
-  "skipped": [
-    {
-      "slot": "casual2",
-      "reason": "moderation_blocked",
-      "request_id": "09973874-29b1-4a13-94f2-84afeaa34a72",
-      "attempts": 1,
-      "output_files": []
-    }
-  ],
   "diversity_comparison": {
-    "status": "two available casuals are distinct; full three-cut comparison impossible while casual2 missing",
-    "observations": "Compared actual images of 차오꿀 casual3 (standing red cabin-crew costume), 염무왕 casual3 (yellow blouse preparing tea and berries), 도롱충이 casual2 (seated outdoor terrace). Costume fitting shares turned-shoulder composition with 차오꿀, but shoulder-fastening action, halter lapels and backstage fitting differ. Train reading has seated crossed legs and hands at a book; it differs from terrace seating in clothing, arm task and train window. Only two available cuts: three-cut diversity remains pending casual2.",
-    "metric": "pkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     288  차오꿀_glossy_promo_f_casual3.webp\n     301  염무왕_glossy_promo_f_casual3.webp\n     315  로즈레이드_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     323  비크티니_glossy_promo_f_casual3.webp\n     324  유토브_glossy_promo_f_casual2.webp\n     325  독침붕_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
-  }
+    "status": "passed: full three-cut set reviewed",
+    "recent_compared": [
+      "맘박쥐",
+      "글레이시아",
+      "또르박쥐"
+    ],
+    "observations": "Costume-fitting casual1 and ferry casual2 both turn over shoulder, but raised shoulder-fastening hand versus both hands on rail, pleated uniform versus long slit dress/jacket, and interior clothes rail versus sunset ferry distinguish activity and silhouette. Casual3 is seated train reading with crossed legs and open-mouth laughter. Compared recent Swoobat seated lounge/fitting/gown scenes, Glaceon pool crouch/camera/cafe, and Woobat map/gown/party: ferry rail travel activity is distinguishable. Nearest visual neighbour Lairon casual1 shares ferry, jacket and dark dress, but faces forward with both arms raised to hair, while this result faces away and rests both hands at rail.",
+    "metric": "pkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     288  차오꿀_glossy_promo_f_casual3.webp\n     301  염무왕_glossy_promo_f_casual3.webp\n     315  로즈레이드_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual2.webp — 가까운 컷 1장(점수 245 미만)\n     240  갱도라_glossy_promo_f_casual1.webp\n     270  앱솔_glossy_promo_f_casual3.webp\n     274  망나뇽_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     323  비크티니_glossy_promo_f_casual3.webp\n     324  유토브_glossy_promo_f_casual2.webp\n     325  독침붕_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "history": {
+    "initial_skipped": [
+      {
+        "slot": "casual2",
+        "reason": "moderation_blocked",
+        "request_id": "09973874-29b1-4a13-94f2-84afeaa34a72",
+        "attempts": 1,
+        "output_files": []
+      }
+    ],
+    "previous_qa": "qa-before-refill.json",
+    "rejected_attempt": "attempts/casual2-initial/",
+    "new_authorization": "User: 미생성된 컷에 대한 대체컷 만들어서 업로드 진행해줘"
+  },
+  "skipped": []
 }

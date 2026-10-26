@@ -1,0 +1,243 @@
+{
+  "reviewer": "gpt",
+  "status": "partial: 8 accepted; casual2 moderation-blocked without output",
+  "face_design": {
+    "reason": "Pointed black wings and sharp beak interpreted as narrow upturned eyes, angled brows and a slender straight nose. Observed orange-haired anchor has a tapered oval jaw and small thin mouth; no new facial design was applied to later images.",
+    "sources": [
+      "data/face-design.json:662",
+      "data/source-appearance.json:662",
+      "docs/CHARACTER_FACE_DESIGNS.md:662"
+    ],
+    "compared_characters": [
+      "화살꼬빈",
+      "토게키스",
+      "메가자리",
+      "리피아"
+    ],
+    "observations": "Fletchling has a shorter feathered red cut and wider cheek silhouette; Togekiss has softer wide-set eyes and a small open mouth; Yanmega has sharper long eye corners and a narrow lower face; Leafeon has broader rounded cheeks. Anchor retains average eye spacing and an angled brow."
+  },
+  "images": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "c084c37e6881834580449865eddd5ec0b7a7b5c1bc383ff7729172fb3b56dee3",
+      "source_sha256": "6db6fae54d44554f2878db794d26ac38842662d5657d1ad2b26f86f55bc89ff7",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "36c25b506bbb2af636292cb7af72c0ee99232c93d4b1b0fa719d94ccb38bf8aa",
+      "source_sha256": "5bfeab84da9eedd875700f5936f6173a100cdc7558eeccc4b9aadd6ed83f5c78",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Broad red plates overlap at shoulders, thighs and shins; body proportions remain close to anchor.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Broad red plates overlap at shoulders, thighs and shins; body proportions remain close to anchor."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "166cdf885229ee1faf8f8b77892a1d54717163a4882474e89107f24086e95ea5",
+      "source_sha256": "d414f881199fed84637b3bc78aa9cf8a8f6988ac4f5758a6a8fe8469b068c5b3",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Narrow blade plates fan back at shoulders and hips, with no carried weapon.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Narrow blade plates fan back at shoulders and hips, with no carried weapon."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "bd3659cc3d14a89748dccaf4522cdc9f6d28e9d899579e2a42d1e39f72c485b2",
+      "source_sha256": "0d075481dd2590837b80da27acfa60c2545a3e3f5b283d7b0ff9c896774d7513",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "f0b9b53eb0d8a15b1e5bb3a67da9941fa8e9c39c213b445c5c575d6e2312b4ad",
+      "source_sha256": "1bf3a9a806c5ed101c8f902686f22926a02f51f127a1f03c591988f7aa9e3b17",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "fb50d18c30bda4c59f39f001c37a0c7d690cae5f6fc2d158b2ef11c50314f50e",
+      "source_sha256": "c5ddfcbeb6f07da5428a017e096921b3acdb49ba88a30cef25f08f81bb42d915",
+      "observations": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Face angled toward viewer; two arms connect to shoulders, two gauntleted hands hang at the sides, two armored legs connect through pelvis to grounded feet. Black glove folds hide some fingertip contours; no disconnected hand or extra limb seen. Same pose, horizon and limb position as corresponding closed form; orange glow follows plate seams."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "b772d85e6af09d4d4dfe432ac8be40275b5ef3ea8d43caf900e0149258fb124a",
+      "source_sha256": "aaaef168935c05b7c67504d1e9fe8068b660008a7dbc6e5e81532c737a8c4614",
+      "observations": "Turned torso in fitting room; near upper arm runs from visible shoulder to bent elbow and hand pinching shoulder ornament. Far arm crosses chest and is mostly occluded; its fingertips appear at right edge. Five-digit grasp is partly hidden. Skirt hem and shoulders are bare; face glances back with a slight smile, framing extends to upper thighs rather than selected chest crop.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Turned torso in fitting room; near upper arm runs from visible shoulder to bent elbow and hand pinching shoulder ornament. Far arm crosses chest and is mostly occluded; its fingertips appear at right edge. Five-digit grasp is partly hidden. Skirt hem and shoulders are bare; face glances back with a slight smile, framing extends to upper thighs rather than selected chest crop."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "87f62959152408046da8489f6c13ec9352c1d838b50a7290ddcb5e784a7cc941",
+      "source_sha256": "54a6e3f39cf7742fc76179fb8631bef3072a8fc4146cc203d1d4fdfe3ee52130",
+      "observations": "Seated cross-legged on train bench; near hand supports book edge with four long fingers and partly hidden thumb, far hand lifts one page with thumb opposed to curled fingers. Two arms join shoulders; both legs lead to laced shoes. Open-mouthed laugh, orange bandeau under denim bib shorts, landscape window. Paper and spine false typography removed by local edit; bird illustrations retained. Bib covers central midriff; side waist remains open.",
+      "dimensions": {
+        "match": true,
+        "evidence": "1024x1536 from Pillow"
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Orange wind-swept hair, amber eyes, angled brows and tapered oval face retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "No lettering in scene; casual3 book pages/spine inspected after cleanup."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module absent",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected hands; exposed fingers manually inspected, occluded digits not claimed visible.",
+        "overlay_checked": false,
+        "note": "Seated cross-legged on train bench; near hand supports book edge with four long fingers and partly hidden thumb, far hand lifts one page with thumb opposed to curled fingers. Two arms join shoulders; both legs lead to laced shoes. Open-mouthed laugh, orange bandeau under denim bib shorts, landscape window. Paper and spine false typography removed by local edit; bird illustrations retained. Bib covers central midriff; side waist remains open."
+      }
+    }
+  },
+  "skipped": [
+    {
+      "slot": "casual2",
+      "reason": "moderation_blocked",
+      "request_id": "09973874-29b1-4a13-94f2-84afeaa34a72",
+      "attempts": 1,
+      "output_files": []
+    }
+  ],
+  "diversity_comparison": {
+    "status": "two available casuals are distinct; full three-cut comparison impossible while casual2 missing",
+    "observations": "Compared actual images of 차오꿀 casual3 (standing red cabin-crew costume), 염무왕 casual3 (yellow blouse preparing tea and berries), 도롱충이 casual2 (seated outdoor terrace). Costume fitting shares turned-shoulder composition with 차오꿀, but shoulder-fastening action, halter lapels and backstage fitting differ. Train reading has seated crossed legs and hands at a book; it differs from terrace seating in clothing, arm task and train window. Only two available cuts: three-cut diversity remains pending casual2.",
+    "metric": "pkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     288  차오꿀_glossy_promo_f_casual3.webp\n     301  염무왕_glossy_promo_f_casual3.webp\n     315  로즈레이드_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/불화살빈_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     323  비크티니_glossy_promo_f_casual3.webp\n     324  유토브_glossy_promo_f_casual2.webp\n     325  독침붕_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

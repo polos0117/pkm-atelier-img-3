@@ -1,6 +1,6 @@
 {
   "card": "불화살빈",
-  "status": "8 of 9 accepted; casual2 held after moderation_blocked; awaiting publication",
+  "status": "9 of 9 generated and reviewed; refill casual2 awaiting publication verification",
   "files": [
     {
       "card": "불화살빈",
@@ -177,6 +177,25 @@
         "prompt": "casual3-cleanup-prompt.txt",
         "ui": "casual3-cleanup-ui.json"
       }
+    },
+    {
+      "card": "불화살빈",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual local generator UI and its unmodified output; built-in image_gen",
+      "source": "generated_images/exec-4aba6d85-5443-47d0-8dae-044f585a514a.png",
+      "source_sha256": "4e714f0f2c8b961979753eec3add113a58f0a65e2fb6d4d9ff3eefc31de084c8",
+      "output": "불화살빈_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "5f7b01944a87a3477f775c01af3b1e9a6dcfc229e79514594133bf437677fbc2",
+      "reference": "light"
     }
   ],
   "anchor": {
@@ -198,7 +217,7 @@
     "sha256": "c084c37e6881834580449865eddd5ec0b7a7b5c1bc383ff7729172fb3b56dee3",
     "reference": null
   },
-  "missing": [
-    "casual2"
-  ]
+  "missing": [],
+  "replacement_authorization": "User: 미생성된 컷에 대한 대체컷 만들어서 업로드 진행해줘",
+  "refill_session": "fletchinder-talonflame-refill-20261026-fbd6"
 }
