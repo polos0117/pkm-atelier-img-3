@@ -1,0 +1,438 @@
+{
+  "session": "sewaddle-swadloon-20261027",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": {
+    "card": "두르보",
+    "species": "sewaddle-20261027",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "subculture_fashion",
+        "ex": "punk_alley",
+        "garments": [
+          "crop_top",
+          "trousers"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "three_quarter",
+        "pose": "kneeling",
+        "expr": "determined",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "off-shoulder neckline",
+          "bare midriff"
+        ],
+        "lead": "light",
+        "actual_scene": "Amber light from a basement live house spills across wet brick steps after an evening shower.",
+        "actual_outfit": "A black off-shoulder cropped top with fine mesh sleeves over an opaque bodice leaves her shoulders and midriff bare, paired with rust-and-olive tartan trousers, hanging straps, safety pins and black lace-up platform boots.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "selection_source": "unmodified planner; actual generator UI loaded through its supplied query",
+        "random_changes": "none by operator",
+        "axes_reason": "Boot lacing is a held low task; plaid trousers and cropped mesh top are separates, with olive/rust source accents.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The punk example leaves weather and venue light unspecified; wet steps and amber basement light establish the concert alley.",
+          "outfit": "The punk example leaves palette and neckline unspecified; rust/olive plaid and off-shoulder opaque construction implement the planned garments and exposure."
+        }
+      },
+      {
+        "cut": 2,
+        "cat": "swimwear",
+        "ex": "cutout_onepiece",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "leaning_back",
+        "frame": "full_body",
+        "pose": "sitting_floor",
+        "expr": "confident",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "side cutouts"
+        ],
+        "lead": "action",
+        "actual_scene": "Resting on a folded coral beach towel beside a pale limestone tidal pool at midday, she lets the clear water lap at her toes.",
+        "actual_outfit": "An opaque fully lined ivory one-piece swimsuit has large waist-side cutouts, high-cut leg openings and thin tangerine edging, leaving her waist sides and legs bare.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "selection_source": "unmodified planner; actual generator UI loaded through its supplied query",
+        "random_changes": "none by operator",
+        "axes_reason": "The tidal-pool rest is paused; a single fully lined swimsuit needs balanced construction and only orange trim echoes the source.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The swimsuit example contains no place or activity; a limestone tidal-pool rest supplies both.",
+          "outfit": "The one-piece example leaves color and leg line unspecified; ivory fabric, orange trim and high-cut leg implement the planned exposure."
+        }
+      },
+      {
+        "cut": 3,
+        "cat": "source_editorial",
+        "ex": "couture_gala",
+        "garments": [
+          "dress"
+        ],
+        "orient": "looking_down",
+        "frame": "environmental",
+        "pose": "contrapposto",
+        "expr": "unimpressed",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "open back"
+        ],
+        "lead": "detail",
+        "actual_scene": "A folded invitation rests on a dressing console in a grand botanical conservatory foyer; she checks the finished drape of her gown before the evening gala.",
+        "actual_outfit": "A one-shoulder olive silk couture gown folds into overlapping leaflike pleats with an orange underside, a deep open back and a sweeping floor-length train, leaving one shoulder and her upper back bare.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "selection_source": "unmodified planner; actual generator UI loaded through its supplied query",
+        "random_changes": "none by operator",
+        "axes_reason": "Checking a couture drape is paused; a one-piece pleated gown naturally uses balanced separates preference and source-colored folds.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The couture example leaves the gala venue unspecified; a botanical foyer and console invitation establish preparation.",
+          "outfit": "The couture example leaves cut and cloth unspecified; a one-shoulder open-back olive silk gown implements the dress and two planned exposure methods."
+        }
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "everyday_basic",
+        "travel_exploration",
+        "hobbies_leisure",
+        "source_editorial",
+        "traditional",
+        "subculture_fashion",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "trousers"
+      ],
+      "orient": [
+        "three_quarter_back",
+        "leaning_back",
+        "looking_down"
+      ],
+      "frame": []
+    }
+  },
+  "batch": {
+    "session": "sewaddle-swadloon-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "두르보",
+        "species": "sewaddle-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "punk_alley",
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "kneeling",
+            "expr": "determined",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "cutout_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "sitting_floor",
+            "expr": "confident",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "couture_gala",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "contrapposto",
+            "expr": "unimpressed",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "source_editorial",
+            "traditional",
+            "subculture_fashion",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "trousers"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "leaning_back",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "두르쿤",
+        "species": "swadloon-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "lifeguard_event",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "station_wait",
+            "garments": [
+              "coat"
+            ],
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "pose": "adjusting_bag",
+            "expr": "laughing_open",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "garments": [
+              "shirt"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "bored",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt"
+          ],
+          "orient": [
+            "profile_close",
+            "leaning_forward",
+            "low_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve",
+  "reservation_commit": "20b84ffef0d0a1b2e2fa7fa70f37cefd05479e41",
+  "metadata_source": "Git tree filenames and genuine casual UI JSON; no historical image originals copied. Filename-only temporary symlinks were used for the ledger membership scan, removed before publication.",
+  "generator": "actual UI via browser; archived prompt rebuilt by unmodified generator engine from selected controls",
+  "tool": "built-in image_gen"
+}
