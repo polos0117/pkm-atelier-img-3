@@ -1,0 +1,177 @@
+{
+  "card": "두빅굴",
+  "reviewer": "gpt",
+  "source_tool": "built-in image_gen",
+  "compared_characters": [
+    "동챙이",
+    "두까비",
+    "유크시",
+    "엠라이트"
+  ],
+  "face_reason": "실제 UI가 종별 FACE/HAIR를 실은 신규 경장. 동챙이·두까비의 청색 계열과 둥근 진동판은 이어지고, 더 짧은 머리와 좁고 기울어진 눈매·조금 더 긴 턱·넓은 미소로 구별. 유크시의 긴 금발과 엠라이트의 분홍 장발·세모진 윤곽과 직접 비교.",
+  "diversity_comparison": "이번 3장은 주방의 서서 집게 사용·드레싱룸 바닥 책상다리·해안 발코니에서 두 팔을 올리는 모습으로 장소·활동·옷 실루엣·구도가 다름. 두까비의 크로셰 청바지/관찰선 해도/조명컵과 대조. 동챙이의 부엌도 음식 준비지만 이번에는 전신·집게·도시락·앞치마 반바지로 다름. 유크시·엠라이트 실제 비교판의 자동차·요트·피팅룸·성당·연구장면과 장소·활동이 구별됨.",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "be9d04dee1bf672d6183f0abd854ec7f5ee5e0440924bc64ec27767ae906b50f",
+      "observations": "청색 단발에 긴 옆앞머리, 파란 눈과 기울어진 눈매, 미소의 넓은 입. 원형 머리장식·견갑·무릎판이 진동 돌기 모티프를 환기. 물과 바위가 떠 있고 발끝까지 들어옴.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "f784742acd092ab7a7d66911ee0ea5edf489d227ceaaf08f5b1d937470dbaee2",
+      "observations": "경장의 같은 청색 머리·푸른 눈·옆앞머리. 어깨·전완·허리·허벅지와 종아리의 넓어진 다층 판, 두꺼운 부츠. 전신 같은 인물이고 무기 없음.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "f68cd9677dc786d515b3c4528ad1811cb855185004005c47a7459ead9c42d7ae",
+      "observations": "같은 청색 머리·얼굴. 분할된 얇은 판과 어깨·허벅지·종아리 추진구, 뾰족한 머리 장식. 발끝까지 보이며 양팔·다리가 몸과 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "140b5986a575cfd2d66045f13f8a3f5308e76f8ef39befaeb01dfe12ba99ee4b",
+      "observations": "같은 경장 카메라와 벌린 오른팔·발 위치. 기존 판이 가볍게 벌어지고 어깨·전완·허리·정강이 안쪽에서 푸른 수류가 드러남.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "ded4f15df3f885cbf81ca0e71359edbd3194756b4ff9e5846037d7d18831252d",
+      "observations": "같은 중장 카메라·전신 크기. 큰 원형 견갑·무릎판을 포함한 겹판이 열려 내부 푸른 코어가 보임. 손가락을 에너지가 가리지 않음.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "99efc6c172227ccdf14fc5e3a6f89bbec56f4aa78a435c40703046c8a996033f",
+      "observations": "고기동과 같은 얼굴·벌린 오른팔·다리·카메라. 추진판 사이 푸른 빛과 수류가 강해짐. 새 무기·헬멧 없음.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 각 5지; 오른손은 펼쳐짐, 왼손은 옆으로 내려오며 부분 원근 단축. 엄지 위치와 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "14db6e55b93cf9c333a2d20c0832f5077d9310c4b1a265adb0a3ebacc5663485",
+      "observations": "아침 주방에서 딸기를 든 손과 집게로 2단 도시락에 주먹밥·과일을 담는 손. 청록 짧은 앞치마·크롭 상의·짧은 바지, 어깨·허리·허벅지가 보임. 발가락은 슬리퍼 끝에 부분 노출.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "딸기를 잡은 손은 엄지·검지가 물체를 가리고 나머지 세 손가락이 접힘; 집게 손의 엄지와 감긴 손가락 일부는 도구·손등에 가려짐. 두 손 모두 팔 끝에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "2d800a4692a4e445695cf157170ee9a3a81bffc31e0f40691cc039e73a088ba0",
+      "observations": "드레싱룸의 화장대·전구·옷걸이 앞. 청록 앞끈 코르셋과 하이웨이스트 하의, 바닥 원형 쿠션 위 책상다리. 한 팔은 벤치에 얹고 다른 손은 정강이에 둠. 반쯤 웃는 입. reclining보다 똑바로 앉은 상체이고 environmental보다 인물 비중 큼; 기록만 함.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "벤치에 늘어진 손: 5지, 손목 굴곡 자연스러움. 정강이 위 손: 5지와 엄지 방향 확인. 발의 일부 발가락은 반대 다리 뒤에 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "9ee052048762464723eb23c4f5b38398425e59e6246f4b20bbf61d2028cbcc1c",
+      "observations": "바다·해안 마을을 내려다보는 발코니. 아이보리 홀터 실크 드레스·청록 허리 리본과 슬릿, 양손으로 머리를 정리. 어깨와 등 옆면·허벅지 노출. 시선은 옆 위쪽이고 눈썹이 올라간 아련한 표정. 잔은 손 대신 옆 탁자 위; hands_in_hair 선택과 함께 기록.",
+      "identity": {
+        "match": true,
+        "evidence": "짧은 남색·파란 머리, 길게 옆으로 흐른 앞머리·푸른 눈·턱·입 구조 유지"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check exited 3",
+        "arms": 2,
+        "legs": "허벅지 일부만 프레임 내",
+        "hands": "화면 왼쪽 머리를 잡은 손은 손가락이 머리·손등에 겹쳐 일부 가려짐; 반대 손은 머리 뒤로 가려짐. 양팔은 어깨·팔꿈치·손목으로 이어지고 떨어진 손 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손·발 영역을 확대해 연결·수·꺾임을 눈으로 확인."
+      }
+    }
+  ]
+}

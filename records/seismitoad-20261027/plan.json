@@ -1,0 +1,486 @@
+{
+  "session": "palpitoad-seismitoad-20261027",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "두빅굴",
+      "species": "seismitoad-20261027",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "food_berries",
+          "ex": "food_bento",
+          "garments": [
+            "apron",
+            "shorts"
+          ],
+          "orient": "front",
+          "frame": "full_body",
+          "pose": "preparing_food",
+          "expr": "relieved",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "front_lace_corset",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "reclining",
+          "frame": "environmental",
+          "pose": "cross_legged",
+          "expr": "half_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high-cut leg"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "bridal",
+          "ex": "honeymoon_suite",
+          "garments": [
+            "dress",
+            "slip"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "pose": "hands_in_hair",
+          "expr": "wistful",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "halter neck"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "slip"
+        ],
+        "orient": [
+          "front",
+          "reclining",
+          "turning_midmotion"
+        ],
+        "frame": []
+      },
+      "casual_plan": [
+        {
+          "cut": 1,
+          "cat": "food_berries",
+          "ex": "food_bento",
+          "garments": [
+            "apron",
+            "shorts"
+          ],
+          "orient": "front",
+          "frame": "full_body",
+          "pose": "preparing_food",
+          "expr": "relieved",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "front_lace_corset",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "reclining",
+          "frame": "environmental",
+          "pose": "cross_legged",
+          "expr": "half_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high-cut leg"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "bridal",
+          "ex": "honeymoon_suite",
+          "garments": [
+            "dress",
+            "slip"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "pose": "hands_in_hair",
+          "expr": "wistful",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "halter neck"
+          ],
+          "lead": "light"
+        }
+      ],
+      "generator_records": {
+        "casual1": {
+          "actual_settings": {
+            "expr": "relieved",
+            "pose": "preparing_food",
+            "orient": "front",
+            "scene": "She portions berry slices beside the rice balls for a picnic before the morning train.",
+            "outfit": "A short teal open-back apron over an opaque sleeveless cropped top and navy mini shorts; the apron leaves her shoulder blades visible and the shorts reveal her thighs.",
+            "frame": "full_body",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "food_berries",
+            "catCustom": "",
+            "ex": "food_bento",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "direct_input_reasons": {
+            "scene": "예시에 없는 기차 출발 전 피크닉 준비·잘라 담을 과일 활동을 보충.",
+            "outfit": "앞치마·반바지 선택을 청록·네이비로 구체화하고 등 열림·미니 기장을 적용.",
+            "camera": "도구에 크기 설정이 없어 Vertical 2:3 portrait (1024×1536). 입력."
+          },
+          "axes_reasons": {
+            "action_level": "집게로 도시락을 담는 가벼운 손동작",
+            "source_influence": "앞치마·슬리퍼의 작은 둥근 색무늬만 사용",
+            "separates_preference": "짧은 앞치마와 바지의 분리 실루엣"
+          }
+        },
+        "casual2": {
+          "actual_settings": {
+            "expr": "half_smile",
+            "pose": "cross_legged",
+            "orient": "reclining",
+            "scene": "A teal satin ribbon lies beside a tufted bench in an art-deco dressing room, where she relaxes after a costume fitting.",
+            "outfit": "An opaque teal front-lacing corset with a plunging neckline over matching high-waisted high-cut lingerie bottoms; the neckline reveals her upper chest and the high-cut legs reveal her hips, with breasts and pelvis covered.",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "lingerie",
+            "catCustom": "",
+            "ex": "front_lace_corset",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "direct_input_reasons": {
+            "scene": "코르셋 예시가 의상뿐이라 쿠션·드레싱룸·의상 피팅 후 휴식을 장소·활동으로 지정.",
+            "outfit": "코르셋·하의 예시를 유지하며 청록 새틴과 불투명 가림, 깊은 목선·하이컷을 지정.",
+            "camera": "도구에 크기 설정이 없어 Vertical 2:3 portrait (1024×1536). 입력."
+          },
+          "axes_reasons": {
+            "action_level": "피팅 후 앉아 쉬는 정지 장면",
+            "source_influence": "청록 코르셋과 둥근 패턴으로 모티프 환기",
+            "separates_preference": "코르셋과 매칭 하의를 한 룩으로"
+          }
+        },
+        "casual3": {
+          "actual_settings": {
+            "expr": "wistful",
+            "pose": "hands_in_hair",
+            "orient": "turning_midmotion",
+            "scene": "Soft morning light falls across the balcony rail and a chilled citrus spritz as the sea breeze arrives.",
+            "outfit": "An ivory silk halter-neck slip dress with a high thigh slit and a teal sash; the halter cut reveals her shoulders and the slit reveals her thigh.",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "bridal",
+            "catCustom": "",
+            "ex": "honeymoon_suite",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "direct_input_reasons": {
+            "scene": "예시가 정하지 않은 아침 빛과 시트러스 음료를 보충.",
+            "outfit": "실크 슬립 예시를 아이보리 홀터 드레스와 청록 띠로 구체화, 슬릿을 적용.",
+            "camera": "도구에 크기 설정이 없어 Vertical 2:3 portrait (1024×1536). 입력."
+          },
+          "axes_reasons": {
+            "action_level": "바닷바람을 맞으며 머리 정리하는 포즈 중심",
+            "source_influence": "흰 드레스에 작은 청록 리본 색 조응",
+            "separates_preference": "한 벌의 실크 드레스"
+          }
+        }
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "food_berries",
+      "ex": "food_bento",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "front",
+      "frame": "full_body",
+      "pose": "preparing_food",
+      "expr": "relieved",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "open back"
+      ],
+      "lead": "action"
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "front_lace_corset",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "reclining",
+      "frame": "environmental",
+      "pose": "cross_legged",
+      "expr": "half_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high-cut leg"
+      ],
+      "lead": "detail"
+    },
+    {
+      "cut": 3,
+      "cat": "bridal",
+      "ex": "honeymoon_suite",
+      "garments": [
+        "dress",
+        "slip"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "hands_in_hair",
+      "expr": "wistful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "halter neck"
+      ],
+      "lead": "light"
+    }
+  ],
+  "check": "Original batch planner check and stamped reservation verified before generation."
+}
