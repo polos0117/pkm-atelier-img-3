@@ -1,0 +1,363 @@
+{
+  "batch": {
+    "session": "gpt-gliscor-mamoswine-20261026-891d",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "글라이온",
+        "species": "gliscor-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "ceremonial_whitegold",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "environmental",
+            "pose": "small_jog",
+            "expr": "provocative",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_photo",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "pose": "stretching",
+            "expr": "amused",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_teacher",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "one_knee_up",
+            "expr": "focused",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "leaning_back",
+            "reaching_up",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "맘모꾸리",
+        "species": "mamoswine-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "bandeau_bikini",
+            "garments": [
+              "bikini",
+              "crop_top"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "sitting",
+            "expr": "sleepy",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_rehearsal",
+            "garments": [
+              "trousers",
+              "vest"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "cross_legged",
+            "expr": "nostalgic",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "grocery_run",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "on_tiptoe",
+            "expr": "confident",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "vest"
+          ],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "글라이온",
+    "species": "gliscor-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "source_editorial",
+        "ex": "ceremonial_whitegold",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "leaning_back",
+        "frame": "environmental",
+        "pose": "small_jog",
+        "expr": "provocative",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "strapless top"
+        ],
+        "lead": "place"
+      },
+      {
+        "cut": 2,
+        "cat": "hobbies_leisure",
+        "ex": "hobby_photo",
+        "garments": [
+          "jumpsuit"
+        ],
+        "orient": "reaching_up",
+        "frame": "chest_up",
+        "pose": "stretching",
+        "expr": "amused",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "mini length",
+          "halter neck"
+        ],
+        "lead": "light"
+      },
+      {
+        "cut": 3,
+        "cat": "adult_roleplay",
+        "ex": "adult_teacher",
+        "garments": [
+          "jacket",
+          "skirt"
+        ],
+        "orient": "crouching",
+        "frame": "waist_up",
+        "pose": "one_knee_up",
+        "expr": "focused",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "open back",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          3
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "source_editorial",
+        "homewear"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "jumpsuit"
+      ],
+      "orient": [
+        "leaning_back",
+        "reaching_up",
+        "crouching"
+      ],
+      "frame": []
+    }
+  },
+  "replanning": "Before generation, planner avoided mamoswine cut1 burkini_modest because modest coverage conflicts with planned high-cut leg and strapless top. Final reservation unchanged from planner, published through GitHub connector as 718cc819b6b372af0ffebe841201010c5da2ba23 after CLI push authentication failed."
+}

@@ -1,0 +1,285 @@
+{
+  "card": "글라이온",
+  "style": "glossy_promo",
+  "checks": {
+    "light": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Single purple-haired woman with long side-swept hair, red-purple close plates, black undersuit, batwing-shaped cape panels and pointed plate edges. Full head and both pointed boots inside frame."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Original full-size image and enlarged hand crops checked; continuous limbs, no detached hand/foot. First light attempt had six digits; corrected before anchor acceptance."
+      },
+      "observation": "Single purple-haired woman with long side-swept hair, red-purple close plates, black undersuit, batwing-shaped cape panels and pointed plate edges. Full head and both pointed boots inside frame."
+    },
+    "heavy": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Same face, hair and body size; overlapping broad shoulder/hip/shin plates with larger rims, temple plates and exposed bangs/jaw. Hands and stance retained."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Same face, hair and body size; overlapping broad shoulder/hip/shin plates with larger rims, temple plates and exposed bangs/jaw. Hands and stance retained."
+    },
+    "mobility": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Same woman and stance; segmented shoulder/hip/shin fins fan backwards around glowing ports; smaller separated plates distinguish it from heavy form."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Same woman and stance; segmented shoulder/hip/shin fins fan backwards around glowing ports; smaller separated plates distinguish it from heavy form."
+    },
+    "light_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Closed light pose and scale retained; slim plates lift along seams, amber frame light and rising stones fill the gaps without hiding hands."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Closed light pose and scale retained; slim plates lift along seams, amber frame light and rising stones fill the gaps without hiding hands."
+    },
+    "heavy_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Heavy layered silhouette and temple plates retained; broad plates opened from amber-lit inner joints; floating stones remain behind the hands."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Heavy layered silhouette and temple plates retained; broad plates opened from amber-lit inner joints; floating stones remain behind the hands."
+    },
+    "mobility_overdrive": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Mobility fins and stance retained; fan segments opened around amber ports, head/boots visible and original purple eye color retained."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Outstretched glove has five separated digits; round palm padding is not an extra finger. Lower glove has inner thumb and four fingers, partially overlapping. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Mobility fins and stance retained; fan segments opened around amber ports, head/boots visible and original purple eye color retained."
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Marble reception portico, garden and gold late light; ivory gold-trimmed long jumpsuit with bare shoulders and upper chest. Both hands hold a sealed invitation. One leg steps forward; direct small smile."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Image-left fingers curl on envelope front (four tips/knuckles, thumb behind edge); image-right hand has four curled fingers plus thumb along paper edge. Wrists continuous.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Marble reception portico, garden and gold late light; ivory gold-trimmed long jumpsuit with bare shoulders and upper chest. Both hands hold a sealed invitation. One leg steps forward; direct small smile.",
+      "activity": {
+        "match": true,
+        "observed": "Marble reception portico, garden and gold late light; ivory gold-trimmed long jumpsuit with bare shoulders and upper chest. Both hands hold a sealed invitation. One leg steps forward; direct small smile."
+      },
+      "pose_framing_expression": {
+        "match": false,
+        "observed": "Marble reception portico, garden and gold late light; ivory gold-trimmed long jumpsuit with bare shoulders and upper chest. Both hands hold a sealed invitation. One leg steps forward; direct small smile. Framing/pose/expression variation recorded without changing reserved settings."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "observed": "Marble reception portico, garden and gold late light; ivory gold-trimmed long jumpsuit with bare shoulders and upper chest. Both hands hold a sealed invitation. One leg steps forward; direct small smile."
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Cafe camera, cliff habitat prints and open scrapbook; right hand lifts a print by one corner and left hand arranges a print on the book. Both forearms and hands are in front and within frame. Plum halter short jumpsuit, shoulders and thighs exposed, same purple eyes/hair. Planned overhead stretch/reaching-up was not retained after activity correction; this pose deviation is recorded."
+      },
+      "text": {
+        "match": true,
+        "observed": "Clothes, paper, metal and background checked at original size; no readable lettering, brand or watermark."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": "two; upper thighs visible, lower legs outside crop",
+        "hands": "Right hand four bent fingers and thumb grip photograph corner; left hand thumb and four fingers arrange print, with far little finger partly occluded by the ring finger. Both wrists connected.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Cafe camera, cliff habitat prints and open scrapbook; right hand lifts a print by one corner and left hand arranges a print on the book. Both forearms and hands are in front and within frame. Plum halter short jumpsuit, shoulders and thighs exposed, same purple eyes/hair. Planned overhead stretch/reaching-up was not retained after activity correction; this pose deviation is recorded.",
+      "activity": {
+        "match": true,
+        "observed": "Cafe camera, cliff habitat prints and open scrapbook; right hand lifts a print by one corner and left hand arranges a print on the book. Both forearms and hands are in front and within frame. Plum halter short jumpsuit, shoulders and thighs exposed, same purple eyes/hair. Planned overhead stretch/reaching-up was not retained after activity correction; this pose deviation is recorded."
+      },
+      "pose_framing_expression": {
+        "match": false,
+        "observed": "Cafe camera, cliff habitat prints and open scrapbook; right hand lifts a print by one corner and left hand arranges a print on the book. Both forearms and hands are in front and within frame. Plum halter short jumpsuit, shoulders and thighs exposed, same purple eyes/hair. Planned overhead stretch/reaching-up was not retained after activity correction; this pose deviation is recorded."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "observed": "Cafe camera, cliff habitat prints and open scrapbook; right hand lifts a print by one corner and left hand arranges a print on the book. Both forearms and hands are in front and within frame. Plum halter short jumpsuit, shoulders and thighs exposed, same purple eyes/hair. Planned overhead stretch/reaching-up was not retained after activity correction; this pose deviation is recorded."
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "observed": "1024x1536 PNG and WebP"
+      },
+      "identity": {
+        "match": true,
+        "observed": "Red velvet photo-booth backdrop and lectern; crouched/kneeling woman stacks books, glasses on the rug. One-shoulder charcoal blazer and purple pleated skirt, exposed shoulder/back/upper thighs. Face looks down at the books; blackboard is clear after lettering removal."
+      },
+      "text": {
+        "match": true,
+        "observed": "No readable letters, logo or watermark; envelope seal and garment ornaments inspected. Casual3 blackboard chalk removed."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; tools/anatomy-check.py invoked and returned exit code 3.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Upper hand index rests along book edge, three other fingers curl around it and thumb is hidden behind spine. Lower hand supports stack with thumb visible and four fingers occluded by books. Two kneeling legs and both shoes connect naturally.",
+        "overlay_checked": false,
+        "note": "Direct image and enlarged hand crops checked."
+      },
+      "observation": "Red velvet photo-booth backdrop and lectern; crouched/kneeling woman stacks books, glasses on the rug. One-shoulder charcoal blazer and purple pleated skirt, exposed shoulder/back/upper thighs. Face looks down at the books; blackboard is clear after lettering removal.",
+      "activity": {
+        "match": true,
+        "observed": "Red velvet photo-booth backdrop and lectern; crouched/kneeling woman stacks books, glasses on the rug. One-shoulder charcoal blazer and purple pleated skirt, exposed shoulder/back/upper thighs. Face looks down at the books; blackboard is clear after lettering removal."
+      },
+      "pose_framing_expression": {
+        "match": true,
+        "observed": "Red velvet photo-booth backdrop and lectern; crouched/kneeling woman stacks books, glasses on the rug. One-shoulder charcoal blazer and purple pleated skirt, exposed shoulder/back/upper thighs. Face looks down at the books; blackboard is clear after lettering removal. Framing/pose/expression variation recorded without changing reserved settings."
+      },
+      "outfit_exposure": {
+        "match": true,
+        "observed": "Red velvet photo-booth backdrop and lectern; crouched/kneeling woman stacks books, glasses on the rug. One-shoulder charcoal blazer and purple pleated skirt, exposed shoulder/back/upper thighs. Face looks down at the books; blackboard is clear after lettering removal."
+      }
+    }
+  },
+  "similarity": {
+    "pass": true,
+    "closest_scores": [
+      243,
+      279,
+      326
+    ],
+    "threshold": 215
+  },
+  "diversity": {
+    "pass": true,
+    "compared_actual": [
+      "글레이시아 casual1-3",
+      "불화살빈 casual1,3",
+      "파이어로 casual1,3"
+    ],
+    "observed": "Reception walking/white long jumpsuit; cafe overhead stretch/plum short jumpsuit; costume-booth crouch/asymmetric blazer and pleated skirt are distinct in clothing outline, hand activity and camera distance. Recent comparison images separately inspected."
+  },
+  "attempts": [
+    {
+      "slot": "light",
+      "event": "First output safety blocked; identical prompt repeated unchanged. First produced image had six digits. Hand-only correction accepted."
+    },
+    {
+      "slot": "casual3",
+      "event": "First output safety blocked; identical prompt repeated unchanged. Chalk on blackboard then removed in a localized edit."
+    },
+    {
+      "slot": "casual2",
+      "event": "Localized arm/hand edit to bring both hands into frame and depict photo-sorting, with anchor and edit target attached; face/outfit/background preserved."
+    }
+  ],
+  "notes": [
+    "Casual2 hands corrected to show the required photo-sorting activity. Reserved stretching pose and upward orientation differ from final and remain unchanged in plan/UI records.",
+    "Automatic anatomy model was unavailable; manual review used as allowed by IMAGE_RULES."
+  ]
+}
