@@ -1,0 +1,242 @@
+{
+  "batch": {
+    "session": "swoobat-drilbur-5f8d-20261026",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "맘박쥐",
+        "species": "swoobat-20261026",
+        "refill": true,
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "adult_secretary",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "proud",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "morning_stretch",
+            "expr": "provocative",
+            "pose": "sitting",
+            "orient": "reclining",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "high_slit_gown",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "leaning_furniture",
+            "expr": "confident",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "private_evening",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "three_quarter_back",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "맘박쥐",
+    "species": "swoobat-20261026",
+    "refill": true,
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "adult_secretary",
+        "garments": [
+          "jacket",
+          "skirt"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "three_quarter",
+        "pose": "one_knee_up",
+        "expr": "proud",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "bare midriff",
+          "open back"
+        ],
+        "lead": "light"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "everyday_sensual",
+        "ex": "morning_stretch",
+        "expr": "provocative",
+        "pose": "sitting",
+        "orient": "reclining",
+        "frame": "waist_up",
+        "lens": "documentary35",
+        "axes": {
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "knit_top",
+          "shorts"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "halter neck"
+        ]
+      },
+      {
+        "cut": 3,
+        "cat": "private_evening",
+        "ex": "high_slit_gown",
+        "garments": [
+          "dress"
+        ],
+        "orient": "looking_down",
+        "frame": "environmental",
+        "pose": "leaning_furniture",
+        "expr": "confident",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1
+        ],
+        "two": false,
+        "prev": [
+          1
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "private_evening",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [
+        "three_quarter_back",
+        "looking_down"
+      ],
+      "frame": []
+    }
+  },
+  "check": "casual-ledger.py check passed with complete image directory; stamped reservation published before generation",
+  "replanning": "Planner avoided burkini_modest/bandeau_bikini incompatible with the selected exposure, and two-handed map pose incompatible with binocular activity. No reservation hand edits."
+}

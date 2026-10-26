@@ -1,0 +1,262 @@
+{
+  "card": "맘박쥐",
+  "reviewed_at": "2026-10-26T00:59:59.284915+00:00",
+  "generation": "built-in image_gen; prompts and actual UI state stored beside this record",
+  "automatic_anatomy": "unavailable: mediapipe missing, anatomy-check.py exit 3; manual full-image and enlarged hands/feet review used",
+  "casual_look": "passed; nearest scores casual1 313, casual2 339, casual3 256; none below 215",
+  "diversity": {
+    "actual_compared": [
+      "토게키스 casual1-3",
+      "메가자리 casual1-3"
+    ],
+    "evidence": "Office-party backless jacket/skirt with one raised knee; pink knit top/shorts reclining morning stretch; full-length blue one-shoulder gown arranging rose at console. Different activities, garment silhouettes and framing, distinct from the compared hoodie/companion/bikini and wrap slip/overalls/market apron sets."
+  },
+  "images": {
+    "light": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Slim single armor layer and free joints; no helmet."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "heavy": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Broad stacked shoulder, chest, hip and shin plates; face remains open."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "mobility": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Separated swept shoulder and hip panels with compact circular thrusters."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "light_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form framing and plate layout retained; seams open to pink-magenta rings without added weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "heavy_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form framing and plate layout retained; seams open to pink-magenta rings without added weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "mobility_overdrive": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Matching closed-form framing and plate layout retained; seams open to pink-magenta rings without added weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Right forward palm: one upward thumb and four fanned fingers after hand-only edit. Left far glove: one thumb along upper edge and four lower fingers, pinky bent; both wrists join forearms.",
+        "note": "Both booted feet and both legs continuous to torso; five digits on each glove checked in final enlarged contact sheet."
+      }
+    },
+    "casual2": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Pink halter knit and black shorts; reclined in chair beside open curtains and bright window, one elbow raised behind head in shoulder stretch."
+      },
+      "selection_deviations": {
+        "match": "recorded",
+        "evidence": "Crop includes upper thighs rather than exact waist-up; one shoulder and back are bare."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Lower hand at chair edge has four loosely folded fingers and one lateral thumb. Raised hand occluded behind head; elbow and upper arm remain continuous. Lower legs outside crop.",
+        "note": "Reviewed original-sized output and hand/foot crops. Hidden/cropped parts explicitly noted."
+      }
+    },
+    "casual1": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Floor-level party scene beside desk, one knee raised, body back three-quarter and face turned over shoulder; glasses and navy backless cropped jacket with gray fitted skirt."
+      },
+      "selection_deviations": {
+        "match": "recorded",
+        "evidence": "Selected pencil skirt is shortened by high side slit; selected closed smile is slightly parted. Pose/orientation retained; these garment/expression details are recorded deviations."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Visible hand hangs over raised knee: four relaxed fingers plus thumb, wrist continuous. Other hand is hidden behind body/desk; not claimed five visible fingers. Both bent legs and heeled feet connect naturally.",
+        "note": "Reviewed original-sized output and hand/foot crops. Hidden/cropped parts explicitly noted."
+      }
+    },
+    "casual3": {
+      "size": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, source size checked before encoding quality85/method6."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Short rounded cheek/jaw proportions, blue-gray almond eyes and feathered blue hair remain consistent with the approved light image."
+      },
+      "text_people": {
+        "match": true,
+        "evidence": "Single detailed adult woman; no text, logos or competing person visible."
+      },
+      "activity_outfit": {
+        "match": true,
+        "evidence": "Blue one-shoulder satin gown and thigh slit; standing beside marble console, one hand lowers ivory rose stem into vase and other supports body on counter."
+      },
+      "selection_deviations": {
+        "match": "recorded",
+        "evidence": "Gaze is toward camera rather than selected downward gaze; actual full-body environmental framing retained."
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; exit 3",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Flower hand: four curved fingers around stem, thumb opposing behind stem. Supporting hand: four fingers together on counter, thumb partly hidden at palm; wrists connect. One visible leg, second leg under gown, both heeled feet in frame.",
+        "note": "Reviewed original-sized output and hand/foot crops. Hidden/cropped parts explicitly noted."
+      }
+    }
+  }
+}
