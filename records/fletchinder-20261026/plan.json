@@ -1,0 +1,343 @@
+{
+  "batch": {
+    "session": "fletchinder-talonflame-20261026-fbd6",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "불화살빈",
+        "species": "fletchinder-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "uniform_inspired",
+            "expr": "amused",
+            "pose": "turning_back",
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "uniform"
+            ],
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "heritage_couture",
+            "expr": "bored",
+            "pose": "stretching",
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_reading",
+            "expr": "laughing_open",
+            "pose": "reading_book",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "파이어로",
+        "species": "talonflame-20261026",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "greenhouse_afterdark",
+            "expr": "mildly_annoyed",
+            "pose": "watering",
+            "orient": "front",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "cardigan",
+              "skirt"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "highleg_onepiece",
+            "expr": "surprised",
+            "pose": "dance_step",
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "traditional",
+            "ex": "folk_embroidery",
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "pose": "standing_relaxed",
+            "expr": "wistful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "active",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "blouse"
+          ],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "불화살빈",
+    "species": "fletchinder-20261026",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "uniform_inspired",
+        "expr": "amused",
+        "pose": "turning_back",
+        "orient": "leaning_back",
+        "frame": "chest_up",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "uniform"
+        ],
+        "expose": [
+          "cropped hem",
+          "halter neck"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "source_editorial",
+        "ex": "heritage_couture",
+        "expr": "bored",
+        "pose": "stretching",
+        "orient": "over_shoulder",
+        "frame": "three_quarter",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "side cutouts",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "hobbies_leisure",
+        "ex": "hobby_reading",
+        "expr": "laughing_open",
+        "pose": "reading_book",
+        "orient": "low_angle",
+        "frame": "environmental",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "bare midriff",
+          "strapless top"
+        ],
+        "lead": "action"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          2,
+          3
+        ]
+      },
+      "low": [
+        "occupation_sensual",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "traditional",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "replanning": "Before generation the planner avoided burkini_modest and aodai_daily for Talonflame because full-coverage garments conflicted with reserved exposed areas; other selections were retained through --keep. Reservations published with force:false."
+}
