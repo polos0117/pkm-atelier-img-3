@@ -1,0 +1,110 @@
+{
+  "light": {
+    "accepted": true,
+    "observations": "짧은 레이어드 머리·둥근 눈과 볼, 베이지 반점 경장 전신.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "heavy": {
+    "accepted": true,
+    "observations": "경장 얼굴과 신체 비율 유지, 넓은 겹판으로 어깨·다리 외곽 확대.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "mobility": {
+    "accepted": true,
+    "observations": "경장 얼굴 유지, 뒤로 펼친 패널과 소형 추진기.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "observations": "경장 구도·양손 그대로, 얇은 판 이음새가 열리며 녹광 노출.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "observations": "중장 구도·양손 그대로, 겹판 사이 녹색 내부 프레임.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "observations": "고기동 구도·양손 그대로, 펼쳐진 패널 사이 녹색 날개 모양 빛.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": ""
+  },
+  "casual1": {
+    "accepted": true,
+    "observations": "은행나무 길, 이브이 한 마리와 함께 머리를 쓰다듬는 손. 숏 오버롤과 크림 밴드톱.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "선택보다 가까운 크롭 또는 시선 차이는 기록만; casual1 산책 중 멈춰 쓰다듬는 순간."
+  },
+  "casual3": {
+    "accepted": true,
+    "observations": "침실 러그에 앉아 나뭇잎을 분류하는 양손, 연녹색 슬립과 레이스 밑단. 등·어깨 노출.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "선택보다 가까운 크롭 또는 시선 차이는 기록만; casual1 산책 중 멈춰 쓰다듬는 순간."
+  },
+  "casual2": {
+    "accepted": true,
+    "observations": "허브가 있는 햇살 부엌·발코니, 셔츠 원피스와 맨발 전신. 한 손 허리·다른 손 조리대.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "보이는 손가락과 엄지 방향 육안 확인; casual1 반대 손은 몸 뒤 가려짐, casual2 조리대 손 일부 가려짐",
+      "overlay_checked": false
+    },
+    "deviations": "선택보다 가까운 크롭 또는 시선 차이는 기록만; casual1 산책 중 멈춰 쓰다듬는 순간."
+  }
+}
