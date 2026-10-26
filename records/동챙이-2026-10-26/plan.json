@@ -1,0 +1,270 @@
+{
+  "session": "conkeldurr-tympole-3d3c",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "노보청",
+      "species": "conkeldurr-20261026",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "crochet_bikini",
+          "expr": "half_smile",
+          "pose": "leaning_furniture",
+          "orient": "front_3q",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "bikini"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "sport_cotton",
+          "expr": "wistful",
+          "pose": "standing_relaxed",
+          "orient": "leaning_forward",
+          "frame": "waist_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 3,
+          "cat": "source_editorial",
+          "ex": "runway",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "high_angle",
+          "frame": "full_body",
+          "pose": "walking",
+          "expr": "confident",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "high thigh slit"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "source_editorial",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "high_angle"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "동챙이",
+      "species": "tympole-20261026",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "simple_cooking",
+          "expr": "confident",
+          "pose": "preparing_food",
+          "orient": "looking_down",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "light",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: Morning light from a wide kitchen window crosses a wooden chopping board as she slices spring vegetables for lunch.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: A cropped white tee and a short blue waist apron sit above low-rise linen trousers, leaving a narrow bare midriff; short sleeves expose her arms.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 balanced는 Morning light from a wide kitchen window crosses a wooden chopping board as she slices spring vegetables for lunch.의 활동량을 따르고, SOURCE subtle는 A cropped white tee and a short blue waist apron sit above low-rise linen trousers, leaving a narrow bare midriff; short sleeves expose her arms.에 작은 색 단서로 반영하며, 분리형 값은 계획한 apron,trousers 실루엣에 맞춤."
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "swimwear",
+          "ex": "waterfall_pool",
+          "expr": "surprised",
+          "pose": "standing_relaxed",
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "high-cut leg",
+            "side cutouts"
+          ],
+          "lead": "action",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: She pushes her wet hair back with both hands while cool waterfall spray catches afternoon sunlight around the mossy rock pool.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: A cobalt one-piece swimsuit with high-cut legs and curved side cutouts; a pale yellow edge follows the neckline and her open back remains visible.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 mostly posed는 She pushes her wet hair back with both hands while cool waterfall spray catches afternoon sunlight around the mossy rock pool.의 활동량을 따르고, SOURCE strong는 A cobalt one-piece swimsuit with high-cut legs and curved side cutouts; a pale yellow edge follows the neckline and her open back remains visible.에 작은 색 단서로 반영하며, 분리형 값은 계획한 swimsuit 실루엣에 맞춤."
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "wildcard",
+          "ex": "arcade_night",
+          "expr": "sensual",
+          "pose": "one_knee_up",
+          "orient": "looking_away",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "knit_top",
+            "trousers"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "place",
+          "manual_input_reasons": {
+            "scene": "선택 예시에 없는 구체적 시간·장소·소품 보충: An arcade prize counter glows with cyan and pink light; she inspects a little capsule prize in both hands beside the game machines.",
+            "outfit": "선택 예시에 없는 구체적 소재·색·옷 구조 보충: A butter-yellow off-shoulder knit top has a short open back and is paired with navy high-waisted trousers, exposing her shoulders and upper back.",
+            "camera": "이미지 도구에 크기 매개변수가 없어 1024×1536을 지정"
+          },
+          "axes_reason": "계획기의 mostly posed는 An arcade prize counter glows with cyan and pink light; she inspects a little capsule prize in both hands beside the game machines.의 활동량을 따르고, SOURCE subtle는 A butter-yellow off-shoulder knit top has a short open back and is paired with navy high-waisted trousers, exposing her shoulders and upper back.에 작은 색 단서로 반영하며, 분리형 값은 계획한 knit_top,trousers 실루엣에 맞춤."
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "traditional",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "manual_inputs": [
+    {
+      "scene": "Morning light from a wide kitchen window crosses a wooden chopping board as she slices spring vegetables for lunch.",
+      "outfit": "A cropped white tee and a short blue waist apron sit above low-rise linen trousers, leaving a narrow bare midriff; short sleeves expose her arms.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "She pushes her wet hair back with both hands while cool waterfall spray catches afternoon sunlight around the mossy rock pool.",
+      "outfit": "A cobalt one-piece swimsuit with high-cut legs and curved side cutouts; a pale yellow edge follows the neckline and her open back remains visible.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "An arcade prize counter glows with cyan and pink light; she inspects a little capsule prize in both hands beside the game machines.",
+      "outfit": "A butter-yellow off-shoulder knit top has a short open back and is paired with navy high-waisted trousers, exposing her shoulders and upper back.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    }
+  ],
+  "check": "planner check and reservation verify passed; sparse metadata snapshot uses current Git record UIs and authoritative file listing, no other full image checkout",
+  "comparison_cards": [
+    "야느와르몽",
+    "눈여아",
+    "로토무"
+  ],
+  "replans": []
+}

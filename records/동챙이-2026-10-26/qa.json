@@ -1,0 +1,216 @@
+{
+  "items": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "sha256": "04eda69078e63b31171bb4fc6a5112d83cf36cf83b4e6cdb041ec7a75a70b5bb",
+      "observations": "검정·파랑 짧은 웨이브 머리와 넓은 둥근 눈. 푸른 경장판·검정 타원 무늬·허리 뒤 푸른 자락. 앞쪽으로 편 한 손과 옆으로 편 반대손, 두 다리와 두 부츠가 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "검정·파랑 짧은 웨이브 머리와 넓은 둥근 눈. 푸른 경장판·검정 타원 무늬·허리 뒤 푸른 자락. 앞쪽으로 편 한 손과 옆으로 편 반대손, 두 다리와 두 부츠가 이어짐."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "sha256": "09944a307d69d35ea25c402674372b8d4d50f292ab8e1ec316e00db55faf1395",
+      "observations": "어깨·가슴·배·골반·허벅지·정강이에 넓은 아이보리 겹판과 파란 패널 추가. 열린 얼굴 장식과 귀 옆 원형 센서, 경장과 같은 머리·얼굴·양손 위치.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "어깨·가슴·배·골반·허벅지·정강이에 넓은 아이보리 겹판과 파란 패널 추가. 열린 얼굴 장식과 귀 옆 원형 센서, 경장과 같은 머리·얼굴·양손 위치."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "sha256": "095d02ef1d7d613af972def83b5bf2423a2eb487f5afe0d0ea1ce25977f2f63a",
+      "observations": "어깨·허리·종아리에 뒤로 펼친 얇은 분리 핀과 푸른 소형 추진기. 경장과 같은 인물·두 팔·두 다리와 전신 구도.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "어깨·허리·종아리에 뒤로 펼친 얇은 분리 핀과 푸른 소형 추진기. 경장과 같은 인물·두 팔·두 다리와 전신 구도."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "sha256": "2758b814df869f303683fad4250360d40f7bc3261346b0ecb1b763f105e42bd5",
+      "observations": "경장의 얇은 판 이음새가 들리며 푸른 내부 빛과 프레임 노출. 양손·두 발·허리 자락·카메라 위치가 경장과 같음.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "경장의 얇은 판 이음새가 들리며 푸른 내부 빛과 프레임 노출. 양손·두 발·허리 자락·카메라 위치가 경장과 같음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "sha256": "8aaeaccd5946c6c036baf37b06ff3c3a675a2d7d4bf999577499f159c1951487",
+      "observations": "중장 겹판들이 바깥으로 벌어져 푸른 원형 관절과 내부 프레임이 드러남. 얼굴·헬멧·전신 크기와 손·발 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "중장 겹판들이 바깥으로 벌어져 푸른 원형 관절과 내부 프레임이 드러남. 얼굴·헬멧·전신 크기와 손·발 위치 유지."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "sha256": "5e248b98e8099f21739d1a770a3ef85a287e3b63247ef17695a1d2cc0e6cf16f",
+      "observations": "고기동의 어깨·허리·종아리 핀과 추진기 덮개가 열림. 푸른 내부 프레임과 물 에너지, 일반 폼의 양손·양발 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞으로 편 손은 엄지 하나·네 손가락, 옆으로 편 손도 엄지 하나·네 손가락이 구분됨. 엄지 쪽과 전완 연결 정상; 물·장갑판은 손가락과 분리됨.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "고기동의 어깨·허리·종아리 핀과 추진기 덮개가 열림. 푸른 내부 프레임과 물 에너지, 일반 폼의 양손·양발 위치 유지."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "sha256": "42faed6f265144d6d9fc997ee931543e6683cedf2ded70d1ad6db84530e315df",
+      "observations": "창빛 드는 부엌에서 흰 크롭 티·파란 허리 앞치마·린넨 바지를 입고 채소를 썸. 한 손은 칼, 반대손은 채소를 잡음. 아래보기 선택보다 카메라 쪽 시선이며 배와 양팔이 드러남.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "칼 손은 엄지·검지와 나머지 손가락이 손잡이 뒤에 부분 가려짐. 채소 손은 네 굽힌 손가락·엄지 일부가 채소 뒤로 가려짐. 손목과 두 팔 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "창빛 드는 부엌에서 흰 크롭 티·파란 허리 앞치마·린넨 바지를 입고 채소를 썸. 한 손은 칼, 반대손은 채소를 잡음. 아래보기 선택보다 카메라 쪽 시선이며 배와 양팔이 드러남."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "sha256": "e31e38e53a4bf7cc670b58b0628d626d2e2f0a59bc7f06d60165ae21f07a51f1",
+      "observations": "바위 폭포의 물웅덩이에서 코발트 원피스 수영복 차림, 몸통과 골반은 뒤 3/4로 향하고 얼굴만 어깨 너머로 돌아봄. 양손으로 젖은 머리를 쓸어 올림. 계획의 허리깊이보다 물이 얕아 허벅지까지 보임.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "한 손은 머리 뒤에 대부분 가려짐. 반대 손은 머리카락을 잡은 엄지·굽힌 손가락 일부가 보이고 손끝은 머리에 가려짐. 양팔이 어깨·팔꿈치·손목까지 정상 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "바위 폭포의 물웅덩이에서 코발트 원피스 수영복 차림, 몸통과 골반은 뒤 3/4로 향하고 얼굴만 어깨 너머로 돌아봄. 양손으로 젖은 머리를 쓸어 올림. 계획의 허리깊이보다 물이 얕아 허벅지까지 보임."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "sha256": "53d39ebd95168f6ab3b222ca000add7c4387e2bb79e96bbe0ecb63405c479de9",
+      "observations": "네온 아케이드 경품 기계 옆에서 버터색 오프숄더 니트·남색 바지·운동화. 한 무릎을 세우고 앉아 양손으로 투명 캡슐 경품을 살펴봄. 가슴 위 선택보다 넓게 전신에 가깝게 담김.",
+      "identity": {
+        "match": true,
+        "evidence": "검정과 파랑의 짧은 웨이브·옆 앞머리, 푸른 눈·넓은 둥근 얼굴 비율이 경장과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "캡슐 왼쪽 손의 엄지와 네 손가락, 반대 손의 엄지·검지와 굽힌 세 손가락이 캡슐 가장자리에 이어짐. 손가락 일부 겹침은 있으나 여분의 손·팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 가려진 손가락은 추정하지 않음. 일상2의 물 아래 다리는 가려짐, 일상3은 접은 다리와 양 운동화 연결 확인."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "네온 아케이드 경품 기계 옆에서 버터색 오프숄더 니트·남색 바지·운동화. 한 무릎을 세우고 앉아 양손으로 투명 캡슐 경품을 살펴봄. 가슴 위 선택보다 넓게 전신에 가깝게 담김."
+      }
+    }
+  ],
+  "casual_look": "pkm-atelier-img-3/img/동챙이_glossy_promo_f_casual1.webp — 가까운 컷 1장(점수 245 미만)\n     221  모래두지_glossy_promo_f_casual1.webp\n     257  보르쥐_glossy_promo_f_casual1.webp\n     257  전룡_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/동챙이_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     304  대검귀_glossy_promo_f_casual2.webp\n     304  솜솜코_glossy_promo_f_casual1.webp\n     305  푸호꼬_glossy_promo_f_casual2.webp\npkm-atelier-img-3/img/동챙이_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     279  단굴_glossy_promo_f_casual3.webp\n     304  성원숭_glossy_promo_f_casual2.webp\n     309  메타몽_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "compared_characters": [
+    "야느와르몽",
+    "눈여아",
+    "로토무",
+    "노보청"
+  ],
+  "diversity_evidence": "최근 갈라·웨딩·엘프·마술·스파 실제 이미지 및 이번 노보청의 테라스·침실·런웨이와 비교. 채소 써는 전신 주방, 뒤돌아 머리 올리는 폭포 수영복, 한 무릎 세워 경품을 보는 네온 아케이드는 장소·활동·의상과 몸 실루엣이 구분됨.",
+  "face_reason": "원작의 짧고 둥근 체적과 넓게 떨어진 눈을 짧고 넓은 타원형 얼굴·둥근 눈·넓은 턱으로, 머리는 짧은 핑거 웨이브로 옮김. 노보청의 긴 땋은 머리·아몬드 눈·굵은 낮은 눈썹과 구분됨.",
+  "face_sources": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "final_face_sentence": "(her own structure, not the style's default face): oval face, short length, wide width; wide heavy chin; open rounded eyes, medium size, level outer corners, wide-set; fine soft arches; small delicate nose; wide mouth."
+}
