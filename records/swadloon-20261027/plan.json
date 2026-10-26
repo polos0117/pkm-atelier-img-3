@@ -1,0 +1,447 @@
+{
+  "session": "sewaddle-swadloon-20261027",
+  "planner": "tools/casual-plan.cjs",
+  "casual_plan": {
+    "card": "두르쿤",
+    "species": "swadloon-20261027",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "adult_roleplay",
+        "ex": "noir_detective",
+        "garments": [
+          "coat",
+          "dress"
+        ],
+        "orient": "side",
+        "frame": "chest_up",
+        "pose": "one_knee_up",
+        "expr": "soft_smile",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "off-shoulder neckline"
+        ],
+        "lead": "place",
+        "actual_scene": "A retro film studio set has a dark leather floor cushion, venetian-blind shadows and a silver desk lamp cutting through theatrical haze.",
+        "actual_outfit": "A short belted forest-green trench-style coat rests below her shoulders over an ivory off-shoulder fitted dress with a high thigh slit, with a felt fedora and fine full-finger gloves; she examines a small round prop magnifying glass with a short handle.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "random_changes": "No manual selection changes; unmodified planner values loaded in the actual UI.",
+        "axes_reason": "The prop magnifier is held in a posed studio moment; coat over a one-piece dress is balanced and green/ivory coloring is source-strong.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The noir example leaves the set furnishing unspecified; a studio cushion and blind shadows support the selected seated pose.",
+          "outfit": "The detective example leaves colors and neckline unspecified; forest-green coat and off-shoulder ivory slit dress implement the planned garments/exposure."
+        }
+      },
+      {
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "satin_teddy",
+        "garments": [
+          "lingerie_set"
+        ],
+        "orient": "leaning_forward",
+        "frame": "waist_up",
+        "pose": "hand_on_hip",
+        "expr": "flustered",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "strapless top",
+          "side cutouts"
+        ],
+        "lead": "detail",
+        "actual_scene": "A small velvet jewellery case lies open on a lacquered dressing table as she considers a pair of emerald earrings before an evening fashion fitting.",
+        "actual_outfit": "An opaque strapless deep-moss satin teddy is tailored as one continuous garment with structured cups and small waist-side cutouts, exposing shoulders and waist sides; a delicate leaf-vein embroidery accents the smooth fabric.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "random_changes": "No manual selection changes; unmodified planner values loaded in the actual UI.",
+        "axes_reason": "The fitting is a held hand-on-hip moment; the satin one-piece uses balanced construction and moss leaf embroidery visibly echoes the source.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The satin example has no setting or activity; a dressing-table earring fitting supplies both.",
+          "outfit": "The satin example leaves cut unspecified; opaque strapless construction and small side cutouts implement the two planned exposure methods."
+        }
+      },
+      {
+        "cut": 3,
+        "cat": "homewear",
+        "ex": "hammock_balcony",
+        "garments": [
+          "knit_top",
+          "shorts"
+        ],
+        "orient": "looking_away",
+        "frame": "three_quarter",
+        "pose": "checking_map",
+        "expr": "candid",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "mini length",
+          "halter neck"
+        ],
+        "lead": "light",
+        "actual_scene": "Late-morning light filters through striped balcony awnings; a folded coastal trail map lies across her lap as she plans an afternoon walk while the hammock sways.",
+        "actual_outfit": "A pearl silk-knit halter lounge top and soft lilac silk mini shorts leave her shoulders and legs bare, with a tiny olive-green drawstring as the only source-color accent.",
+        "locks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "random_changes": "No manual selection changes; unmodified planner values loaded in the actual UI.",
+        "axes_reason": "The map and swaying hammock imply gentle motion; halter and shorts are separates, with only a small olive drawstring as source accent.",
+        "direct_input_reasons": {
+          "camera": "The image tool has no separate size control; this line requests 1024x1536.",
+          "scene": "The hammock example leaves time and the map prop unspecified; late-morning awning light and a coastal trail map support the selected route-checking activity.",
+          "outfit": "The silk lounge example leaves garment components unspecified; silk-knit halter and silk mini shorts implement the planned separates and exposure."
+        }
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1,
+          2
+        ],
+        "two": true,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "everyday_basic",
+        "partner_care",
+        "travel_exploration",
+        "homewear",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "coat",
+        "lingerie_set",
+        "knit_top",
+        "shorts"
+      ],
+      "orient": [
+        "side",
+        "leaning_forward",
+        "looking_away"
+      ],
+      "frame": [
+        "chest_up"
+      ]
+    }
+  },
+  "batch": {
+    "session": "sewaddle-swadloon-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "두르보",
+        "species": "sewaddle-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "punk_alley",
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "kneeling",
+            "expr": "determined",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "cutout_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "sitting_floor",
+            "expr": "confident",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "couture_gala",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "contrapposto",
+            "expr": "unimpressed",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "travel_exploration",
+            "hobbies_leisure",
+            "source_editorial",
+            "traditional",
+            "subculture_fashion",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "trousers"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "leaning_back",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "두르쿤",
+        "species": "swadloon-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "noir_detective",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "side",
+            "frame": "chest_up",
+            "pose": "one_knee_up",
+            "expr": "soft_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "satin_teddy",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "waist_up",
+            "pose": "hand_on_hip",
+            "expr": "flustered",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "hammock_balcony",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "checking_map",
+            "expr": "candid",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "lingerie_set",
+            "knit_top",
+            "shorts"
+          ],
+          "orient": [
+            "side",
+            "leaning_forward",
+            "looking_away"
+          ],
+          "frame": [
+            "chest_up"
+          ]
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve",
+  "reservation_commit": "970535753daf466b48e1b3143f9d5d8497e799ed",
+  "metadata_source": "Git tree filenames and genuine casual UI JSON; no historical image originals copied. Filename-only temporary symlinks were used for the ledger membership scan, removed before publication.",
+  "generator": "actual UI via browser; archived prompt rebuilt by unmodified generator engine from selected controls",
+  "tool": "built-in image_gen",
+  "replan_reason": "Lifeguard example output was rejected; unmodified planner excluded that example. Keeping cuts 2 and 3 failed the fresh ledger two-required-scenes rule, so all three ungenerated casual selections were replanned. Accepted forms were preserved."
+}

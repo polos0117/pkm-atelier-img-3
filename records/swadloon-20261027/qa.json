@@ -1,0 +1,309 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "face_reason": "Swadloon source leaf enclosure is translated into a longer oval face, balanced jaw and long arched brows with a defined nose. face-design.json 541 supplies a single messy bun and straight fringe; her narrow relaxed eyes and longer face differ from Sewaddle’s short round face and twin buns.",
+  "compared_characters": [
+    "두르보",
+    "던지미",
+    "타격귀",
+    "두빅굴"
+  ],
+  "comparison_evidence": "Actual light cards and recent thumbnail sheet inspected. Sewaddle has round cheeks and twin buns, Throh short red-black hair and a sharper mouth, Sawk a narrow blue-haired face, Seismitoad blue curled hair. Swadloon has a single olive bun and an oval face with long brows.",
+  "diversity_comparison": "The studio detective is seated on a dark cushion with a prop magnifier and coat/dress; the satin fitting leans at a dressing table with one hand on hip; the silk lounge set sits in an outdoor hammock holding a map. Actual results differ in place, hand activity, garment silhouette and framing. Sewaddle’s punk back view, full-body tidal-pool swimsuit and long conservatory gown differ from all three. Recent Throh/Sawk/Seismitoad thumbnails were also inspected.",
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "generated_images/exec-62f14611-dc96-42c7-80ca-b7b2a09c817e.png",
+        "near": [
+          [
+            "프테라_glossy_promo_f_casual2.webp",
+            281
+          ],
+          [
+            "겟핸보숭_glossy_promo_f_casual1.webp",
+            285
+          ],
+          [
+            "크랩_glossy_promo_f_casual2.webp",
+            286
+          ],
+          [
+            "로토스_glossy_promo_f_casual2.webp",
+            289
+          ],
+          [
+            "주리비얀_glossy_promo_f_casual2.webp",
+            295
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "generated_images/exec-8c4d46b5-83ef-476c-9b42-09cfab115c2c.png",
+        "near": [
+          [
+            "쉘곤_glossy_promo_f_casual1.webp",
+            283
+          ],
+          [
+            "냄새꼬_glossy_promo_f_casual1.webp",
+            285
+          ],
+          [
+            "꼬몽울_glossy_promo_f_casual3.webp",
+            287
+          ],
+          [
+            "해루미_glossy_promo_f_casual3.webp",
+            289
+          ],
+          [
+            "줄뮤마_glossy_promo_f_casual2.webp",
+            290
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 1,
+        "duplicate_of": [],
+        "file": "generated_images/exec-2b5b900e-c821-43e2-a2b4-eedd8f1c21f3.png",
+        "near": [
+          [
+            "보송송_glossy_promo_f_casual2.webp",
+            244
+          ],
+          [
+            "타만타_glossy_promo_f_casual2.webp",
+            245
+          ],
+          [
+            "주리비얀_glossy_promo_f_casual2.webp",
+            257
+          ],
+          [
+            "파비코리_glossy_promo_f_casual3.webp",
+            266
+          ],
+          [
+            "꼴깍몬_glossy_promo_f_casual1.webp",
+            270
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "blocked_attempt": "blocked-casual1-lifeguard/result.json",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "2e7f61b82955435316628dbf02fd14c7485df635dae788bde1d12f17ef07ae80",
+      "observations": "Olive-and-ivory slim leaf plates, long leaf-shaped belt sash, single tousled bun and drooping almond eyes. One glove hangs at her hip and the other bends near her cheek, with continuous shoulders, elbows and wrists. Two legs cross lightly above fitted boots.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "d7bb2f3f3de3b4910c71acf53cd5f4817dde61257a728b4a77bff0e7dc9958e2",
+      "observations": "Layered thick-rimmed leaf plates broaden shoulders, hips and shins; an open crown frame leaves her face clear. The cheek-level hand, hanging glove and crossed legs retain the light card anatomy.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "1bffe11eaa8ed6c9320a6cdeb57e8885cb15f39837814fdc9864c03fa28a1716",
+      "observations": "Shoulder and hip plates sweep outward around compact thrusters; calf panels fan backward. Her single bun, oval face, relaxed mouth and paired limbs match the canonical light image.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "9f53bff0d65c1987cf720343abb3dfa79a40b11648daab71f7929026ca5898da",
+      "observations": "The light pose, cheek-level glove and crossed boot placement are preserved; lifted slim plates reveal lime light and inner hardware along the shoulder, wrist, hip and shin seams.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "0cc15aa07ea9fde66663481ee8b08e37c78635687e88229d98b44c6b0de85145",
+      "observations": "The thick shoulder and hip layers swing outward with light visible below them. Her head, hands, body size and boots keep the heavy card arrangement.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "c7f181f16f6df7bf735d0343092454617c0b6a8e5f7b198a52f5c5c642b1315e",
+      "observations": "Fanned panels spread farther at shoulders, hips and calves; thruster covers show lime cores and winglike light. The face, both hands and stance keep the mobility image arrangement.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two full gloves, each thumb and four fingers visible or partly overlapped; the hanging fingers curl loosely and raised fingers bend near her cheek. No extra or detached hand.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "4c000fff7730d57fa82c0bcea14aa239577f48797966b304e39494c8bda47938",
+      "observations": "She sits on a dark studio cushion with one knee up, wearing a green dropped-shoulder trench, ivory dress, fedora and close gloves. One hand holds a prop magnifier and the other rests near her chin; blind shadows and film props establish the noir set.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands attach through wrists: one curls at the chin, the other grips the magnifier. One thumb and four fingers each, with some fingers overlapping in the grip.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": [
+        "Result is wider than chest-up selection and turns face more toward camera; framed feet and knees remain natural. Framing/orientation variance recorded without regeneration."
+      ]
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "6420b0689adc1423b00957fd782823d6cee67d8be9f49157d8a562245d708a67",
+      "observations": "She leans beside a lacquered dressing table in a moss satin one-piece with bare shoulders and side-waist openings. One hand rests on the hip and the other pinches an emerald earring above an open case. Both arms attach through normal elbows and wrists.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": "lower legs outside waist-up framing",
+        "hands": "Hip hand shows thumb plus four long fingers; earring hand shows a pinching thumb/index with three curved remaining fingers. Both connect to complete forearms.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": []
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "f33cb7e3b5499c98f1e11bc99625cda090eb24fbce7f74151c95608dcc575297",
+      "observations": "She sits in a woven balcony hammock with a map held between both hands, gaze off-camera. White silk-knit halter and lilac short shorts distinguish the lounge scene; one leg extends down outside the hammock and the other folds beneath it.",
+      "identity": {
+        "match": true,
+        "evidence": "Single olive messy bun, straight wispy fringe, green-gold almond eyes, long brows and oval cheek/jaw structure match the light image."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Original and WebP both decoded at 1024x1536."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed (exit 3)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two map-gripping hands: four fingers overlap each paper edge, with thumbs partly hidden behind the map. Wrists lead continuously to both forearms.",
+        "overlay_checked": false,
+        "note": "Full frame and original-size hand crops inspected. Shoulders, elbows, wrists and visible knees connect normally; no extra limbs or impossible bends observed."
+      },
+      "deviations": [
+        "Folded map has small invented cartographic lettering; recorded under IMAGE_RULES text tolerance."
+      ]
+    }
+  }
+}
