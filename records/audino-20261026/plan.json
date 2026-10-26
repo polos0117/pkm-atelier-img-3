@@ -1,0 +1,237 @@
+{
+  "batch": {
+    "session": "gpt-excadrill-audino-20261026-96b2",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "다부니",
+        "species": "audino-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "active",
+            "ex": "basketball_jersey",
+            "garments": [
+              "shorts"
+            ],
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "serious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "bodysuit",
+            "expr": "cold_smile",
+            "pose": "kneeling",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "retro_astronaut",
+            "expr": "calm",
+            "pose": "squatting",
+            "orient": "crouching",
+            "frame": "environmental",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "homewear",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "front_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": {
+    "card": "다부니",
+    "species": "audino-20261026",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "active",
+        "ex": "basketball_jersey",
+        "garments": [
+          "shorts"
+        ],
+        "orient": "front_3q",
+        "frame": "chest_up",
+        "pose": "carrying_something",
+        "expr": "serious",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "off-shoulder neckline"
+        ],
+        "lead": "detail"
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "bodysuit",
+        "expr": "cold_smile",
+        "pose": "kneeling",
+        "orient": "looking_away",
+        "frame": "three_quarter",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "place"
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "adult_roleplay",
+        "ex": "retro_astronaut",
+        "expr": "calm",
+        "pose": "squatting",
+        "orient": "crouching",
+        "frame": "environmental",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "jumpsuit"
+        ],
+        "expose": [
+          "high thigh slit",
+          "off-shoulder neckline"
+        ],
+        "lead": "detail"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": true,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "active",
+        "source_editorial",
+        "homewear",
+        "traditional"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [
+        "front_3q"
+      ],
+      "frame": []
+    }
+  },
+  "reservation_commit": "updated reservation for basketball; see attempts/casual1-surf-prep/tool-failure.json",
+  "check": "planner check passed; reservation saved without manual changes",
+  "replanning": "Audino casual1 surf preparation was output moderation_blocked with no file. Substantive alternative is a basketball practice arrival in jersey, sports top and shorts, with new expression, pose and lens. Existing planned cuts 2/3 kept unchanged; kept is planner terminology, not a publication claim."
+}

@@ -1,0 +1,224 @@
+{
+  "light": {
+    "accepted": true,
+    "image_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+    "reviewer": "gpt",
+    "observations": "Single adult woman with pink medium twin braids, curtain bangs, soft oval face and pinkish brown downturned eyes. Pink and white slim armor with rounded ear-shaped ornaments. Two connected arms and two legs; front open palm shows thumb and four separated fingers, farther hand has bent fingers partly overlapping. Both boots within image.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Single adult woman with pink medium twin braids, curtain bangs, soft oval face and pinkish brown downturned eyes. Pink and white slim armor with rounded ear-shaped ornaments. Two connected arms and two legs; front open palm shows thumb and four separated fingers, farther hand has bent fingers partly overlapping. Both boots within image."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    },
+    "face_reason": "Generator design translates soft volume and floppy ears into oval rounded jaw, downturned almond eyes, rounded nose tip and full lips; twin braids echo paired ears.",
+    "face_source": "data/face-design.json faces.531; source-appearance.json 531",
+    "compared_characters": [
+      "몰드류",
+      "맘모꾸리",
+      "불화살빈"
+    ],
+    "face_comparison": "Excadrill has angular brown-haired face and sharper level eyes; Mamoswine has long brown straight hair; Fletchinder has long orange hair and narrower upturned eyes. Audino has pink medium twin braids, soft rounded jaw and downturned almond eyes. Actual published reference pictures compared; Audino is a standalone evolutionary line in card data.",
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, downturned outer corners, average spacing; straight medium brows; rounded soft tip nose; full lips."
+  },
+  "heavy": {
+    "accepted": true,
+    "image_sha256": "da8257d97755a17655ef699fee4906c4b94321be226af7e57da41151e06e0384",
+    "reviewer": "gpt",
+    "observations": "Same face and braids; layered rounded shoulder, arm, waist and leg plates make the silhouette heavier. Both open gloved hands connect to forearms, five digit outlines visible with slight overlap on farther hand. Two legs connect through knees to boots.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Same face and braids; layered rounded shoulder, arm, waist and leg plates make the silhouette heavier. Both open gloved hands connect to forearms, five digit outlines visible with slight overlap on farther hand. Two legs connect through knees to boots."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "image_sha256": "7374456e575d4e20ca507d269eaee3607fdacd52255c141a67c5e881538aa6bc",
+    "reviewer": "gpt",
+    "observations": "Same face, braids, pink/white palette and gloves. Armor splits into swept fins around shoulders, hips and calves. Two hands remain separate with correctly opposed thumbs, two legs and two boots. No carried weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Same face, braids, pink/white palette and gloves. Armor splits into swept fins around shoulders, hips and calves. Two hands remain separate with correctly opposed thumbs, two legs and two boots. No carried weapon."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "image_sha256": "cb15617890000a765234f66ad8f533d5f178cf4bb27a931a5a21afbc40d146e1",
+    "reviewer": "gpt",
+    "observations": "Camera, pose, character scale and hand positions match light. Pink/white slim panels open along seams with warm pale-gold normal-type light. Eye colour retained, no weapon or new helmet.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Camera, pose, character scale and hand positions match light. Pink/white slim panels open along seams with warm pale-gold normal-type light. Eye colour retained, no weapon or new helmet."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "image_sha256": "d631c0bb2285d066ee47b03f76f9c734c86a6498544d0d9764023a2c7c8791ad",
+    "reviewer": "gpt",
+    "observations": "Matches heavy stance and body scale. Layered shell plates open to expose gold internal joints around shoulders, torso, thighs and shins. Slightly firmer mouth expression; face and braids retained. Both hands stay attached and maintain five digit structures.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Matches heavy stance and body scale. Layered shell plates open to expose gold internal joints around shoulders, torso, thighs and shins. Slightly firmer mouth expression; face and braids retained. Both hands stay attached and maintain five digit structures."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "image_sha256": "4bed1b414778eaa0ab9a7042e84ee73b4a0878ded2f1c3545b063f2f4f41b246",
+    "reviewer": "gpt",
+    "observations": "Matches mobility stance, face and body scale. Swept panels open farther with pale gold circular vents. Both hands and both legs in the same locations, no added limb or weapon.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Matches mobility stance, face and body scale. Swept panels open farther with pale gold circular vents. Both hands and both legs in the same locations, no added limb or weapon."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "image_sha256": "f8c26b6e292324fc1d72d84cb0d29596be3e1498b062cf9cd1db8aafa221e216",
+    "reviewer": "gpt",
+    "observations": "Inside a sunlit basketball gym, she holds an orange ball against her right hip with one hand and a pink towel at her left shoulder with the other. White loose basketball jersey, pink sports top and charcoal shorts expose shoulder/side and thighs. Five fingers wrap the ball; towel grip has curled fingers partly hidden by fabric. Serious mouth with eyes toward camera. Crop includes upper thighs instead of chest-up; record only.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Inside a sunlit basketball gym, she holds an orange ball against her right hip with one hand and a pink towel at her left shoulder with the other. White loose basketball jersey, pink sports top and charcoal shorts expose shoulder/side and thighs. Five fingers wrap the ball; towel grip has curled fingers partly hidden by fabric. Serious mouth with eyes toward camera. Crop includes upper thighs instead of chest-up; record only."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Inside a sunlit basketball gym, she holds an orange ball against her right hip with one hand and a pink towel at her left shoulder with the other. White loose basketball jersey, pink sports top and charcoal shorts expose shoulder/side and thighs. Five fingers wrap the ball; towel grip has curled fingers partly hidden by fabric. Serious mouth with eyes toward camera. Crop includes upper thighs instead of chest-up; record only."
+    },
+    "diversity_comparison": "Compared actual images of Excadrill, Mamoswine and Fletchinder. Basketball ball/towel carry, kneeling ribbon fitting and crouched space-stage capsule inspection differ from camp cooking/exercise/vanity, lakeshore/ribbon/grocery and costume/balcony/train scenes. Jersey+shorts, lace bodysuit and astronaut costume give different clothing outlines and hand/leg arrangements. casual-look passed, nearest scores 269 or higher."
+  },
+  "casual2": {
+    "accepted": true,
+    "image_sha256": "0390b4c97260967c957191b6d6b5f20e4b0dc2f4a1cfa65b912a520f8f6e84b4",
+    "reviewer": "gpt",
+    "observations": "Kneeling on a cushioned mat in a loft fitting space, she compares a pink ribbon in her left hand with a lace sample in her right. Opaque cream lace-panel bodysuit, high-cut legs, pink waist ribbon. Five finger contours present on both grips with portions concealed by ribbon/lace. Pink twin braids and soft oval face retained. Expression is a soft smile rather than cold smile; small midriff cutout omitted and straps narrower (clothing detail recorded). No extra covering layer was added.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Kneeling on a cushioned mat in a loft fitting space, she compares a pink ribbon in her left hand with a lace sample in her right. Opaque cream lace-panel bodysuit, high-cut legs, pink waist ribbon. Five finger contours present on both grips with portions concealed by ribbon/lace. Pink twin braids and soft oval face retained. Expression is a soft smile rather than cold smile; small midriff cutout omitted and straps narrower (clothing detail recorded). No extra covering layer was added."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Kneeling on a cushioned mat in a loft fitting space, she compares a pink ribbon in her left hand with a lace sample in her right. Opaque cream lace-panel bodysuit, high-cut legs, pink waist ribbon. Five finger contours present on both grips with portions concealed by ribbon/lace. Pink twin braids and soft oval face retained. Expression is a soft smile rather than cold smile; small midriff cutout omitted and straps narrower (clothing detail recorded). No extra covering layer was added."
+    },
+    "diversity_comparison": "Compared actual images of Excadrill, Mamoswine and Fletchinder. Basketball ball/towel carry, kneeling ribbon fitting and crouched space-stage capsule inspection differ from camp cooking/exercise/vanity, lakeshore/ribbon/grocery and costume/balcony/train scenes. Jersey+shorts, lace bodysuit and astronaut costume give different clothing outlines and hand/leg arrangements. casual-look passed, nearest scores 269 or higher."
+  },
+  "casual3": {
+    "accepted": true,
+    "image_sha256": "6235421e48b5f2100aa038299c8e830ae57dd98b5318e19dc41c86545df8120d",
+    "reviewer": "gpt",
+    "observations": "Crouching on a retro space-themed stage, she checks a small sample capsule in her raised left glove while her right holds a transparent bubble helmet. White/silver costume with pink trim, bare shoulders, high thigh openings and moon boots. Both arms attach at shoulders and wrists; both hands have fingers wrapped around props with occlusions. Two bent legs and boots connect naturally. Helmet is carried rather than worn (record only).",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both wrist-to-hand connections inspected; curled/gripping or hidden fingers noted in observations. No extra detached hand or reversed thumb observed.",
+      "overlay_checked": false,
+      "note": "Crouching on a retro space-themed stage, she checks a small sample capsule in her raised left glove while her right holds a transparent bubble helmet. White/silver costume with pink trim, bare shoulders, high thigh openings and moon boots. Both arms attach at shoulders and wrists; both hands have fingers wrapped around props with occlusions. Two bent legs and boots connect naturally. Helmet is carried rather than worn (record only)."
+    },
+    "dimensions": {
+      "match": true,
+      "evidence": "Pillow decoded PNG as 1024x1536"
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Pink medium twin braids, curtain bangs, soft oval jaw and downturned almond eyes retained."
+    },
+    "scene_outfit_activity": {
+      "match": true,
+      "evidence": "Crouching on a retro space-themed stage, she checks a small sample capsule in her raised left glove while her right holds a transparent bubble helmet. White/silver costume with pink trim, bare shoulders, high thigh openings and moon boots. Both arms attach at shoulders and wrists; both hands have fingers wrapped around props with occlusions. Two bent legs and boots connect naturally. Helmet is carried rather than worn (record only)."
+    },
+    "diversity_comparison": "Compared actual images of Excadrill, Mamoswine and Fletchinder. Basketball ball/towel carry, kneeling ribbon fitting and crouched space-stage capsule inspection differ from camp cooking/exercise/vanity, lakeshore/ribbon/grocery and costume/balcony/train scenes. Jersey+shorts, lace bodysuit and astronaut costume give different clothing outlines and hand/leg arrangements. casual-look passed, nearest scores 269 or higher."
+  }
+}

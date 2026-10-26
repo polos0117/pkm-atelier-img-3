@@ -1,0 +1,136 @@
+{
+  "card": "다부니",
+  "style": "glossy_promo",
+  "generation": "built-in image_gen",
+  "base_slot": "light",
+  "originals": "session_only; PNG not committed",
+  "reservation_commit": "5b117dc7e8ef938ea8fca8d8f245badb38246c9b",
+  "slots": {
+    "light": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-0f5c95b2-7c5e-4adf-882d-e72a0e1bdf4d.png",
+      "original_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "session_only": true,
+      "output": "img/다부니_light_glossy_promo_f.webp",
+      "webp_sha256": "e5a4da34248a8c31be1974072acb8be768587f57e29cdf5f055213e96761e184",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": null,
+      "reference_sha256": null,
+      "prompt_sha256": "1dc3c450480d44590436aa77e9efb5a0c1d85a65dde13249c5ccd0b0c17031a9"
+    },
+    "heavy": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-f68d1442-97e9-46b2-aa6f-9a935d1a65fb.png",
+      "original_sha256": "da8257d97755a17655ef699fee4906c4b94321be226af7e57da41151e06e0384",
+      "session_only": true,
+      "output": "img/다부니_heavy_glossy_promo_f.webp",
+      "webp_sha256": "00292b97f115ea752ab9901805fcb1e7d7187a5bec3a940fe324ea5fc507130d",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "bc48b95bbbb7f11b91b297e2af106ef47c23e2fa3de377ca94b7d1ce1141957b"
+    },
+    "mobility": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-307a51d4-9b5f-4b1c-b345-3b9ed0a0eadf.png",
+      "original_sha256": "7374456e575d4e20ca507d269eaee3607fdacd52255c141a67c5e881538aa6bc",
+      "session_only": true,
+      "output": "img/다부니_mobility_glossy_promo_f.webp",
+      "webp_sha256": "cf6512c2626a612c51bc6dd08a7d116b164e082626454a0b121a9f10a51497d0",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "f51da9f96c1c5e9781e7fee50eeef780b4a33a4d450697204ddb1331db7e2f1a"
+    },
+    "light_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-37f4ce6b-d388-44e0-88db-945f4ccaa085.png",
+      "original_sha256": "cb15617890000a765234f66ad8f533d5f178cf4bb27a931a5a21afbc40d146e1",
+      "session_only": true,
+      "output": "img/다부니_light_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "8af6d32f95b434b95d7315969836f53a72aae0bd84a1355a14aea847ce5210ea",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "390ca2beb4662563af34be6cf4057220922bf2f59eaa95c5d52dd2125ea3c16b"
+    },
+    "heavy_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-6d3314d8-4ec8-4414-89c1-5612213a3604.png",
+      "original_sha256": "d631c0bb2285d066ee47b03f76f9c734c86a6498544d0d9764023a2c7c8791ad",
+      "session_only": true,
+      "output": "img/다부니_heavy_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "57e437800861c6a87c75387c3b37566966237f79fc7af5621f78c4cea55c1a22",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "heavy",
+      "reference_sha256": "da8257d97755a17655ef699fee4906c4b94321be226af7e57da41151e06e0384",
+      "prompt_sha256": "ddc55fd8910674416339e05e126b2b9dfb0fb7c6867b4d28b19d440f5d204f44"
+    },
+    "mobility_overdrive": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-b3ce7c2b-dbdc-4bdb-841b-10471a98f2d1.png",
+      "original_sha256": "4bed1b414778eaa0ab9a7042e84ee73b4a0878ded2f1c3545b063f2f4f41b246",
+      "session_only": true,
+      "output": "img/다부니_mobility_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "62b061f68e252da3b67e2ebe6331fc2a5bb247279a49c6c715e61b5c311711c9",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "mobility",
+      "reference_sha256": "7374456e575d4e20ca507d269eaee3607fdacd52255c141a67c5e881538aa6bc",
+      "prompt_sha256": "b3c8c71472ffdbd39ab090904a0895880b2cb548aba3caccb39d7b03a2fa3115"
+    },
+    "casual1": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-c4e3d4f2-26c9-40ac-b301-13638d40e6b5.png",
+      "original_sha256": "f8c26b6e292324fc1d72d84cb0d29596be3e1498b062cf9cd1db8aafa221e216",
+      "session_only": true,
+      "output": "img/다부니_glossy_promo_f_casual1.webp",
+      "webp_sha256": "343e47df48516522f7bc96039e154f1af720d125034b261288dc9018a5a5c001",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "706ae742702958f5b0011307e5661d841b334decf92305d65a9fe5e0dda6f5be"
+    },
+    "casual2": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-c966c604-8a9c-48e0-8383-711d958692ab.png",
+      "original_sha256": "0390b4c97260967c957191b6d6b5f20e4b0dc2f4a1cfa65b912a520f8f6e84b4",
+      "session_only": true,
+      "output": "img/다부니_glossy_promo_f_casual2.webp",
+      "webp_sha256": "4833f1e9a2d8340017ce0b857a55de61ca28d6ec4b8948d746462fbfdbaa648c",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "18e7927a207988fcb449af14077f276eb19e2686c4da5eeb9bdf948265596363"
+    },
+    "casual3": {
+      "original_path": "/workspace/scratch/96b2714473e4/generated_images/exec-d006b23a-c60a-409e-a398-c85150647f11.png",
+      "original_sha256": "6235421e48b5f2100aa038299c8e830ae57dd98b5318e19dc41c86545df8120d",
+      "session_only": true,
+      "output": "img/다부니_glossy_promo_f_casual3.webp",
+      "webp_sha256": "679d081ed1a701e83d71073bab575cec4e3fa63196fdd58a32ed725ae1b10e17",
+      "size": [
+        1024,
+        1536
+      ],
+      "reference_slot": "light",
+      "reference_sha256": "82f5da03b5456179c636d9e1780516816763d88c463d6789bdf31ab74f702d87",
+      "prompt_sha256": "b10e22b03dd785b6e95b9e3952b13ff8941b33e2d61d681e99b994cb4d59aacf"
+    }
+  }
+}
