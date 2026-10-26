@@ -1,0 +1,174 @@
+{
+  "notes": [
+    {
+      "cut": 1,
+      "example_text": "sunbathing in a bikini on the cushioned foredeck of a moored yacht, leaning back on her hands",
+      "planner_values": {
+        "kept": true,
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "yacht_deck",
+        "expr": "smug",
+        "pose": "sitting_floor",
+        "orient": "seated_twist",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "action"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She sunbathes on a cushioned foredeck mat beside neatly coiled yacht ropes after swimming in the late-afternoon sea breeze.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque rose-pink high-cut bikini with pale grey edging and a small red gemstone clasp; its high-cut legs and two-piece shape expose her hips and midriff.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for sunbathing in a bikini on the cushioned foredeck of a moored yacht, leaning back on her hands",
+        "source_influence": "strong implemented through An opaque rose-pink high-cut bikini with pale grey edging and a small red gemstone clasp; its high-cut legs and two-piece shape expose her hips and midriff.",
+        "separates_preference": "balanced follows planned bikini"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    },
+    {
+      "cut": 2,
+      "example_text": "Pokémon migration researcher comparing seasonal habitat maps and observation photographs at a research station.",
+      "planner_values": {
+        "kept": true,
+        "cut": 2,
+        "cat": "occupation_basic",
+        "ex": "satellite_operator",
+        "expr": "curious",
+        "pose": "kneeling",
+        "orient": "crouching",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shorts",
+          "vest"
+        ],
+        "expose": [
+          "cropped hem",
+          "mini length"
+        ],
+        "lead": "place"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A field research station has low map drawers with seasonal habitat maps and migration observation photographs spread for comparison during a daytime study shift.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped pink technical vest over a fitted tank with tailored mini shorts and practical ankle boots; the cropped hem exposes her waist and the shorts expose her thighs.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for Pokémon migration researcher comparing seasonal habitat maps and observation photographs at a research station.",
+        "source_influence": "strong implemented through A cropped pink technical vest over a fitted tank with tailored mini shorts and practical ankle boots; the cropped hem exposes her waist and the shorts expose her thighs.",
+        "separates_preference": "prefer separates follows planned shorts,vest"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    },
+    {
+      "cut": 3,
+      "example_text": "a satin teddy — a single-piece lingerie garment from neckline to hip in one smooth deep colour",
+      "planner_values": {
+        "kept": true,
+        "cut": 3,
+        "cat": "lingerie",
+        "ex": "satin_teddy",
+        "expr": "playful",
+        "pose": "standing_formal",
+        "orient": "side",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "open back",
+          "plunging neckline"
+        ],
+        "lead": "detail"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded satin sash lies on the dressing bench in a rose-lit bedroom alcove before an evening wardrobe fitting.",
+          "reason": "Adds specific lighting, setting details or props to this example without replacing its location or main activity."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque mauve satin teddy lingerie set with an open back and a plunging neckline, covering breasts and pelvis; the back opening exposes her shoulder blades and the neckline exposes her upper chest.",
+          "reason": "Specifies this cut’s planner garments and exposure construction, material and palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool lacks an explicit size argument, so request the required 1024×1536 portrait here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for a satin teddy — a single-piece lingerie garment from neckline to hip in one smooth deep colour",
+        "source_influence": "balanced implemented through An opaque mauve satin teddy lingerie set with an open back and a plunging neckline, covering breasts and pelvis; the back opening exposes her shoulder blades and the neckline exposes her upper chest.",
+        "separates_preference": "balanced follows planned lingerie_set"
+      },
+      "selection_method": "Unchanged planner choices loaded by query into prompt.html. Free text entered through UI; final prompt and persisted UI captured."
+    }
+  ],
+  "sparse_ledger_method": "All remote tracked img filenames were read from Git HEAD tree, without downloading image bytes. Ledger os.listdir(img) reads that exact manifest; records and recent comparison images are materialized. No checks or tracked tool source were modified.",
+  "replan_history": [
+    {
+      "card": "유크시",
+      "cut": 1,
+      "old": "roller_disco",
+      "reason": "Example mandates satin hot pants while planner chose trousers; replanned before any casual generation.",
+      "new": "pinup_car"
+    }
+  ]
+}
