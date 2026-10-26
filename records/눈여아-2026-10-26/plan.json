@@ -1,0 +1,247 @@
+{
+  "casual_plan": {
+    "session": "froslass-rotom-aeb07946",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "눈여아",
+        "species": "froslass-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "gala_red_carpet",
+            "ex": "museum_gala",
+            "garments": [
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "perched_seat",
+            "expr": "calm",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "elf_costume",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "pose": "side_sitting",
+            "expr": "cold_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "jetset_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "squatting",
+            "expr": "serious",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "hobbies_leisure",
+            "source_editorial",
+            "nightlife",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat",
+            "swimsuit"
+          ],
+          "orient": [
+            "profile_close",
+            "seated_twist",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "로토무",
+        "species": "rotom-20261026",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "magician_assistant",
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "orient": "side",
+            "frame": "waist_up",
+            "pose": "carrying_something",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "bridal",
+            "ex": "reception_gown",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "turning_back",
+            "expr": "nostalgic",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "spa_wellness",
+            "ex": "sauna_lounge",
+            "garments": [
+              "robe"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "lying_prone",
+            "expr": "relieved",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "high thigh slit"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "hobbies_leisure",
+            "source_editorial",
+            "nightlife",
+            "spa_wellness",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "uniform",
+            "robe"
+          ],
+          "orient": [
+            "side",
+            "leaning_back",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "status": "9/9 generated and visually reviewed",
+  "reservation_commit": "48deb5d739bd698bdbcc4cc61fe010f68597ed20",
+  "engine": "built-in image_gen",
+  "check": "planner check passed before reserve; casual-look passed",
+  "manual_inputs_policy": "생성기 UI의 scene/outfit에만 보충. 갈라: 벤치 손 위치·대리석 조명·새틴 목선, 엘프: 랜턴 빛과 케이프 소재, 수영장: 시간대·선글라스 동작·색과 등선. 선택값은 예약대로 유지."
+}

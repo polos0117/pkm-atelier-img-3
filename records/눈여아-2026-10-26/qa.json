@@ -1,0 +1,180 @@
+{
+  "reviewer": "gpt",
+  "items": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "7aa72ab0a403d06cc83663299d8ef3b31bb80e1ccc5c51abea4661362e6659b6",
+      "observations": "두 팔이 어깨부터 검은 장갑 손까지 이어진다. 허벅지·무릎·발목의 백색 장갑 아래 두 다리가 서 있고, 결정 흉장·붉은 허리 자락·보랏빛 눈·백색 시뇽이 읽힌다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "409a9a5bb121236154a54a51268cd937c49c73b556e81c0504fdd0d6f7ddd1cd",
+      "observations": "어깨·전완·골반·허벅지·정강이의 겹판이 경장보다 넓다. 얼굴·눈·백색 시뇽은 기준과 같다. 두 팔은 아래로 내려가며 양손이 장갑 끝에 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "e8dbc806b4b71cb046b90c96188e29e6a3358ec510b2b40b1b70e0587e656e41",
+      "observations": "어깨·허리·종아리의 분리 패널과 원형 추진기가 펼쳐져 있다. 얼굴·머리는 기준과 같고 양팔과 두 부츠가 끊김 없이 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "50d0a09af63820072293f9d266dd06e0a72626a7a4ff2b1d634479f237f37d8a",
+      "observations": "경장과 같은 카메라·발 위치·팔 위치. 전완·허리·정강이 판 사이가 열려 청색 냉기 빛이 보이고 눈 색은 보라색을 유지한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "6eb19c5a362e3274d9a1578af5580e016c9959bec53942723d3bffebb9985432",
+      "observations": "중장과 같은 몸 위치와 겹판 구성. 어깨·배·골반·정강이의 겹판 사이로 푸른 내부 프레임과 눈송이가 드러난다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "db9dc02f63e50a1f96c1e24a5f2e8a0aac84929b8e24d71e120c3a99642d9799",
+      "observations": "고기동과 같은 전신 배치. 원형 추진기와 분리 패널이 더 벌어져 내부 축과 푸른 광선이 드러난다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지와 굽힌 네 손가락이 겹치며 일부 끝이 가려짐. 엄지는 각 손의 안쪽, 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "b7f4eee4afd7d904c7649629415da1a2ad5653f193d8cbcd7a2cc2cb3390c442",
+      "observations": "대리석 조각·기둥·샹들리에가 있는 갈라 홀의 벤치에 걸터앉았다. 흰 새틴 드레스의 깊은 목선과 열린 등이 보이며 두 손은 벤치에 붙어 있다. 가슴 위 계획보다 넓게 무릎까지 담겼고 측면보다 앞 3/4로 돌아왔으므로 기록만 남긴다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가까운 손은 엄지와 네 손가락이 벤치 위에서 분리되어 보임. 먼 손은 네 손가락이 보이고 엄지는 몸·손바닥에 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "432a8cdd35b15b97d447aa5ba5b07bd5e61d0204a2e78851282582008b1cefa4",
+      "observations": "숲 테마 파티의 쿠션에 두 다리를 옆으로 접고 앉아 랜턴을 높이 들었다. 반대 손은 무릎 위. 초록 잎 자수 짧은 드레스·짧은 케이프·귀 장식·샌들이 보인다. 코트가 긴 독립 겉옷 대신 짧은 케이프로 표현된 차이는 기록한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "랜턴 고리를 쥔 손은 검지·엄지와 접힌 손가락이 겹침. 무릎 위 손은 엄지와 길게 편 네 손가락이 나뉨. 두 손목이 전완에 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "452edd40892c254ee442e83bd846b2e1340632daa5fedcd545d3d6e69cdfaef3",
+      "observations": "호텔 수영장 가장자리에서 웅크려 앉아 한 손으로 선글라스 테를 만지고 반대 손은 무릎에 놓았다. 백색 하이컷 원피스 수영복·버건디 스카프·은색 샌들. 두 팔·무릎·발목 연결이 자연스럽다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "선글라스 손은 검지와 엄지가 테를 잡고 나머지 세 손가락이 굽혀짐. 무릎 손은 엄지·검지와 겹쳐진 세 손가락이 자연스럽게 이어짐.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536 눈 검수. 별도 팔·손·발이 떨어져 있거나 셋째 팔다리는 보이지 않는다. 가려진 손가락·발끝은 추정하여 세지 않는다."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "같은 보랏빛 눈, 일자 앞머리, 흰 시뇽, 가는 코와 입·턱선 유지."
+      }
+    }
+  ],
+  "face_reason": "자료의 얼음 결정과 차가운 분위기를 각진 윤곽·아몬드 눈·곧은 눈썹·얇은 입으로 해석. 눈꼬마의 올림머리 계열은 이어지되 백색 시뇽과 더 좁고 긴 눈매로 구분한다.",
+  "face_sources": [
+    "data/face-design.json:478",
+    "data/source-appearance.json:478"
+  ],
+  "compared_characters": [
+    "눈꼬마",
+    "야느와르몽",
+    "대코파스",
+    "엘레이드"
+  ],
+  "diversity_comparison": "최근 실제 그림: 대코파스는 해질녘 무릎 꿇은 훌라, 야느와르몽은 디스코 홀터 점프슈트 벤치, 엘레이드는 세탁실 서서 수건 개기. 눈여아는 대리석 갈라 새틴 드레스, 숲 파티 옆앉기 랜턴, 햇빛 수영장 쪼그리기·선글라스로 장소·활동·옷과 자세가 구분된다.",
+  "casual_look": "PASS; nearest distances 277,275,263; no near duplicate"
+}
