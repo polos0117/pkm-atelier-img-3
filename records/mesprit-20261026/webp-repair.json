@@ -1,0 +1,7 @@
+{
+  "slot": "mobility_overdrive",
+  "problem": "Published WebP blob was empty; PNG source remains valid.",
+  "previous_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+  "repair": "Converted the exact generated PNG again with WebP quality 85 method 6; no new image generation or design change.",
+  "validation": "All 17 new WebP files were reopened and fully decoded with Pillow, each 1024x1536."
+}
