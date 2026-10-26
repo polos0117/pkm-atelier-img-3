@@ -1,0 +1,286 @@
+{
+  "session": "timburr-gurdurr-d3da857e",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "으랏차",
+      "species": "timburr-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "hinoki_bath",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "profile_close",
+          "frame": "chest_up",
+          "pose": "side_sitting",
+          "expr": "calm",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "plunging neckline"
+          ],
+          "lead": "action",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: She rests her forearms along the cedar rim; cool mountain-morning light reflects in the bath water.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: A plum strapless one-piece swimsuit has a secure plunging neckline with an inset panel, exposing shoulders and collarbones; a narrow pink band borders the bodice.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "spa_wellness/hinoki_bath의 활동과 swimsuit 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        },
+        {
+          "cut": 2,
+          "cat": "bridal",
+          "ex": "second_dress",
+          "garments": [
+            "dress"
+          ],
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "pose": "perched_seat",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "halter neck"
+          ],
+          "lead": "place",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: A reception lounge with ivory banquettes and scattered rose petals; her discarded heels rest beside the seat.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: The beaded ivory mini dress has a halter neckline, bare shoulders and exposed legs, with pearl sandals slipping from her feet.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "bridal/second_dress의 활동과 dress 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "hollywood_bias",
+          "garments": [
+            "dress"
+          ],
+          "orient": "crouching",
+          "frame": "full_body",
+          "pose": "kneeling",
+          "expr": "cold_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "side cutouts"
+          ],
+          "lead": "detail",
+          "selection_source": "planner; no manual change to reserved values",
+          "manual_input_reasons": {
+            "scene": "선택한 예시에 없는 구체적 조명·소품 위치를 보충: A satin train spills across the vintage studio staircase, caught by a warm tungsten spotlight.",
+            "outfit": "계획기의 옷 종류·노출 방식을 구체적 소재·색으로 옮김: A rose-gold bias-cut satin gown keeps the deep cowl back and adds discreet waist cutouts, exposing the back and sides above the flowing skirt.",
+            "camera": "도구에 크기 매개변수가 없어 세로 2:3 1024×1536 지정"
+          },
+          "axes_reason": "retro_glamour/hollywood_bias의 활동과 dress 실루엣에 계획기가 배정한 세 축을 그대로 사용."
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit"
+        ],
+        "orient": [
+          "profile_close",
+          "seated_twist",
+          "crouching"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "토쇠골",
+      "species": "gurdurr-20261026",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "rodeo_cowgirl",
+          "garments": [
+            "vest"
+          ],
+          "orient": "side",
+          "frame": "waist_up",
+          "pose": "stretching",
+          "expr": "sleepy",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "strapless top",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "red_carpet",
+          "garments": [
+            "dress"
+          ],
+          "orient": "reaching_up",
+          "frame": "three_quarter",
+          "pose": "on_tiptoe",
+          "expr": "provocative",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "halter neck"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "nightlife",
+          "ex": "powder_mirror",
+          "garments": [
+            "dress"
+          ],
+          "orient": "leaning_back",
+          "frame": "chest_up",
+          "pose": "squatting",
+          "expr": "amused",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "side cutouts"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "travel_exploration",
+          "hobbies_leisure",
+          "source_editorial",
+          "nightlife",
+          "fantasy_costume",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "vest"
+        ],
+        "orient": [
+          "side",
+          "reaching_up",
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "reservation_commit": "33665577d2a65c8da6adb48250732e1032fd2984",
+  "engine": "built-in image_gen",
+  "status": "9/9 generated, dimensions and visual QA checked",
+  "check": "planner reservation verified; casual-look pass",
+  "manual_inputs": [
+    {
+      "scene": "She rests her forearms along the cedar rim; cool mountain-morning light reflects in the bath water.",
+      "outfit": "A plum strapless one-piece swimsuit has a secure plunging neckline with an inset panel, exposing shoulders and collarbones; a narrow pink band borders the bodice.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "A reception lounge with ivory banquettes and scattered rose petals; her discarded heels rest beside the seat.",
+      "outfit": "The beaded ivory mini dress has a halter neckline, bare shoulders and exposed legs, with pearl sandals slipping from her feet.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "scene": "A satin train spills across the vintage studio staircase, caught by a warm tungsten spotlight.",
+      "outfit": "A rose-gold bias-cut satin gown keeps the deep cowl back and adds discreet waist cutouts, exposing the back and sides above the flowing skirt.",
+      "camera": "Vertical 2:3 portrait (1024×1536)."
+    }
+  ],
+  "repairs": [
+    {
+      "slot": "casual2",
+      "attempts": 2,
+      "reason": "first generation and same-settings retry showed three sandals and no shoe-removal action; targeted footwear edit preserved scene and identity",
+      "edit_prompt": "casual2-edit-prompt.txt"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "reviewer": "gpt",
+  "items": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "8ac3c892db2306ca46dc76654da9cc2da1b9df8f8bf53149ea6bf4b7be843f8e",
+      "observations": "회갈색 곱슬머리와 분홍색 가닥, 둥근 눈·턱선. 얇은 어깨·전완·허리·정강이 판, 두 주먹과 두 부츠가 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "회갈색 곱슬머리와 분홍색 가닥, 둥근 눈·턱선. 얇은 어깨·전완·허리·정강이 판, 두 주먹과 두 부츠가 이어짐."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "ab5e5ae90d1421a817ce5f513b399fba064c65ecb6c460fcee62cc6d5b8606f8",
+      "observations": "산 설경을 보는 히노키 탕, 자주색 수영복. 턱을 한 손으로 괴고 반대 팔은 나무 가장자리에 올림. 원래 측면보다 앞 3/4이며 계획의 옆앉기는 물에 가려짐.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 손은 엄지·검지와 굽힌 손가락이 겹침; 가장자리 손의 네 손가락과 엄지 일부가 포개져 보임. 양 손목 연결 정상.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "산 설경을 보는 히노키 탕, 자주색 수영복. 턱을 한 손으로 괴고 반대 팔은 나무 가장자리에 올림. 원래 측면보다 앞 3/4이며 계획의 옆앉기는 물에 가려짐."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "1096a4344528ca92d40621fa555bab54115492baa358c6642fa7f65d5e591ec5",
+      "observations": "어깨·허리·종아리에 뒤로 뻗은 분리 핀과 추진기. 양팔·양다리는 경장의 신체 비율을 유지함.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "어깨·허리·종아리에 뒤로 뻗은 분리 핀과 추진기. 양팔·양다리는 경장의 신체 비율을 유지함."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "380bebc6debdfb7a36ec58f83bc631451d5e48fcd8e7ef6bc4a399b5b6e724d0",
+      "observations": "양 어깨의 넓은 겹판과 가슴·배·골반·허벅지 중첩 장갑으로 외곽이 넓어짐. 얼굴·곱슬머리는 경장과 같음.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "양 어깨의 넓은 겹판과 가슴·배·골반·허벅지 중첩 장갑으로 외곽이 넓어짐. 얼굴·곱슬머리는 경장과 같음."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "19e60366b6ab43d169ba68ee7e4cf65d27e4acc2a06b81e3bccb0dd8ce05781d",
+      "observations": "아이보리 비즈 미니드레스로 피로연 벤치에 앉음. 한 발은 맨발, 든 발 끝에 구두 하나가 빠져 나가며 다른 구두는 바닥에 있음. 심각한 표정과 교차한 다리. 환경 와이드 대신 전신에 가까움.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 손은 엄지와 접은 네 손가락 일부가 턱에 가려짐; 무릎을 넘긴 손은 엄지·검지와 세 손가락이 자연스럽게 모임. 맨발의 다섯 발가락 확인.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "아이보리 비즈 미니드레스로 피로연 벤치에 앉음. 한 발은 맨발, 든 발 끝에 구두 하나가 빠져 나가며 다른 구두는 바닥에 있음. 심각한 표정과 교차한 다리. 환경 와이드 대신 전신에 가까움."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "0bfd2b9b9af637934ec1a0bb6640b50fded5fd705bdf821ba0b20c9b588822ea",
+      "observations": "경장과 같은 발·팔·카메라. 얇은 판이 벌어져 주황색 격투 타입 빛과 내부 관절이 드러남.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "경장과 같은 발·팔·카메라. 얇은 판이 벌어져 주황색 격투 타입 빛과 내부 관절이 드러남."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "b4e4a803d1ad7d5e28011a47d049b50d42191ec43c4bccf7290428ff9af70901",
+      "observations": "중장의 넓은 겹판·양 주먹·두 발 위치 유지. 겹판 사이가 열리며 주황색 내부 프레임과 원형 관절이 보임.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "중장의 넓은 겹판·양 주먹·두 발 위치 유지. 겹판 사이가 열리며 주황색 내부 프레임과 원형 관절이 보임."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "24b1638d25e506fea92fb1aad684e6f46a70c86c67c2c460568d5cfb3b803e64",
+      "observations": "고기동의 어깨·허리·종아리 핀이 벌어지고 추진광이 주황색으로 바뀜. 얼굴과 전신 위치 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 전완 끝에 장갑 주먹이 붙어 있음. 엄지와 접힌 네 손가락은 부분적으로 겹쳐 가려짐. 손·팔 중복 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "고기동의 어깨·허리·종아리 핀이 벌어지고 추진광이 주황색으로 바뀜. 얼굴과 전신 위치 유지."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "e1254d46af35dbbc1ed6549dca9219a0e41c3f59742a7aa86cd9b90383bbfe5b",
+      "observations": "구식 영화 세트 계단의 따뜻한 조명 아래 로즈골드 바이어스 가운, 열린 카울 등·허리 컷아웃. 무릎을 꿇고 두 손으로 계단을 짚으며 돌아봄.",
+      "identity": {
+        "match": true,
+        "evidence": "회갈색·분홍 곱슬머리와 둥근 눈·턱 구조가 기준과 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손이 계단 위에 있고 가까운 손 네 손가락과 엄지, 먼 손은 겹쳐 일부 가려짐. 두 발·발목이 치마 아래 이어짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 이미지로 직접 확인. 가려진 부분은 숫자를 추정하지 않음."
+      },
+      "scene": {
+        "match": true,
+        "evidence": "구식 영화 세트 계단의 따뜻한 조명 아래 로즈골드 바이어스 가운, 열린 카울 등·허리 컷아웃. 무릎을 꿇고 두 손으로 계단을 짚으며 돌아봄."
+      },
+      "deviations_policy": "프레이밍·방향·표정·소품 세부 차이는 IMAGE_RULES 2026-10-26 기준에 따라 실제 관찰을 기록함."
+    }
+  ],
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/으랏차_glossy_promo_f_casual1.webp",
+        "near": [
+          [
+            "아르코_glossy_promo_f_casual1.webp",
+            296
+          ],
+          [
+            "개구마르_glossy_promo_f_casual2.webp",
+            297
+          ],
+          [
+            "프테라_glossy_promo_f_casual2.webp",
+            298
+          ],
+          [
+            "쉘곤_glossy_promo_f_casual3.webp",
+            301
+          ],
+          [
+            "왕콘치_glossy_promo_f_casual1.webp",
+            301
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/으랏차_glossy_promo_f_casual2.webp",
+        "near": [
+          [
+            "파비코_glossy_promo_f_casual3.webp",
+            277
+          ],
+          [
+            "깜지곰_glossy_promo_f_casual1.webp",
+            285
+          ],
+          [
+            "코뿌리_glossy_promo_f_casual1.webp",
+            285
+          ],
+          [
+            "괴력몬_glossy_promo_f_casual3.webp",
+            288
+          ],
+          [
+            "귀뚤톡크_glossy_promo_f_casual3.webp",
+            288
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "pkm-atelier-img-3/img/으랏차_glossy_promo_f_casual3.webp",
+        "near": [
+          [
+            "윤겔라_glossy_promo_f_casual1.webp",
+            295
+          ],
+          [
+            "부스터_glossy_promo_f_casual3.webp",
+            298
+          ],
+          [
+            "깜지곰_glossy_promo_f_casual2.webp",
+            299
+          ],
+          [
+            "마그마_glossy_promo_f_casual1.webp",
+            299
+          ],
+          [
+            "내룸벨트_glossy_promo_f_casual1.webp",
+            300
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "compared_characters": [
+    "야느와르몽",
+    "눈여아",
+    "로토무"
+  ],
+  "diversity_evidence": "야느와르몽의 디스코·영화제·브라이덜, 눈여아의 갈라 벤치·엘프 랜턴·수영장, 로토무의 마술 무대·리셉션 가운·사우나 라운지 실제 이미지와 비교. 이번 히노키 탕·피로연 미니·영화 세트 계단과 로데오 무대·카펫 입장·립스틱 거울은 활동과 의상·인물 실루엣이 구분됨.",
+  "face_sources": [
+    "data/face-design.json:532",
+    "data/source-appearance.json:532"
+  ],
+  "face_reason": "원작의 둥근 체적을 둥근 턱·넓은 얼굴·둥근 눈으로 옮김. 후속 토쇠골은 넓은 각진 턱과 길게 뻗은 눈썹·아몬드 눈으로 구분."
+}
