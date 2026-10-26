@@ -1,0 +1,349 @@
+{
+  "card": "펄기아",
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "accepted": true,
+  "compared_characters": [
+    "타격귀",
+    "던지미",
+    "두르보"
+  ],
+  "face_reason": "Actual UI species FACE/HAIR: long wide oval, broad chin, narrow level eyes, angled eyebrows and wide mouth, very long high ponytail. Actual generated face is distinguishable from Sawk short blue bob and softer tapered face, Throh short red asymmetric hair and compact angular face, Sewaddle round green-haired double-bun face. No evolutionary relatives for Palkia.",
+  "diversity_comparison": "All three new outputs visually compared with actual recent Sawk, Throh and Sewaddle WebPs. Cafe cup/large upper portrait, rainy parcel-pickup/standing low-angle full body, and studio brush sorting/side-sitting bare-back view differ in activity, place, outfit silhouette and body orientation. Sawk music/sofa, red carpet and dance studio; Throh spa robe, piano-bar gown and paddleboarding; Sewaddle punk stairs, creek swim and ivy gown have different combinations.",
+  "anatomy_tool": "unavailable: No module named mediapipe; actual command exited 3. Visual counting performed with hand and foot crops.",
+  "images": [
+    {
+      "slot": "light",
+      "file": "펄기아_light_glossy_promo_f.webp",
+      "image_sha256": "64c0e9f901d35a50c96681693088e9d04716e60f029a2575e0d2b0c079b81aa3",
+      "accepted": true,
+      "observations": "White/purple slim plates, exposed joints, long high ponytail, single full body with face toward camera. Both forearms lead to glove hands and both legs terminate in boots; long striped costume sash is not an extra leg.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "White/purple slim plates, exposed joints, long high ponytail, single full body with face toward camera. Both forearms lead to glove hands and both legs terminate in boots; long striped costume sash is not an extra leg."
+      }
+    },
+    {
+      "slot": "heavy",
+      "file": "펄기아_heavy_glossy_promo_f.webp",
+      "image_sha256": "0de9db5b06ac213598fac4720d53367b4f76eea37315f70bb44d5e106feb6f0c",
+      "accepted": true,
+      "observations": "Broad overlapping shoulder, abdomen, thigh and shin plates form a visibly larger silhouette while preserving the same face, hair and body. Two arms and two booted legs remain readable.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "Broad overlapping shoulder, abdomen, thigh and shin plates form a visibly larger silhouette while preserving the same face, hair and body. Two arms and two booted legs remain readable."
+      }
+    },
+    {
+      "slot": "mobility",
+      "file": "펄기아_mobility_glossy_promo_f.webp",
+      "image_sha256": "d834162ed0f1c0492f40ce679f580301839e48aac73d7306ffd0ee5a16737c1d",
+      "accepted": true,
+      "observations": "Swept fan panels at shoulders, hips and calves with compact violet emitters; narrower waist and free joints. Same identity and full-body outline.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "Swept fan panels at shoulders, hips and calves with compact violet emitters; narrower waist and free joints. Same identity and full-body outline."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "file": "펄기아_heavy_overdrive_glossy_promo_f.webp",
+      "image_sha256": "140de1ebd982b6c88175725ae3da39532a80fd6e6556c3b64a50e30242967696",
+      "accepted": true,
+      "observations": "Heavy camera and pose preserved. Stacked plates hinge away from bright cyan inner frame. Face, gloves, feet and armor motifs retained.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "Heavy camera and pose preserved. Stacked plates hinge away from bright cyan inner frame. Face, gloves, feet and armor motifs retained."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "file": "펄기아_mobility_overdrive_glossy_promo_f.webp",
+      "image_sha256": "432bdc4596926f9ea856e2b357e4d692d82977ec4df5dc9c6fd0051885496f7e",
+      "accepted": true,
+      "observations": "Mobility fan panels spread further; cyan gaps and open thruster covers appear. Original camera, pose and body scale retained.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "Mobility fan panels spread further; cyan gaps and open thruster covers appear. Original camera, pose and body scale retained."
+      }
+    },
+    {
+      "slot": "casual1",
+      "file": "펄기아_glossy_promo_f_casual1.webp",
+      "image_sha256": "6de0a062d4bccb109d932db171af220cb075f2adab8d717f7a72c5fe30eea105",
+      "accepted": true,
+      "observations": "Frilled lilac apron dress, cat-ear headband and bow choker at cafe counter. Both connected hands hold a latte; bare shoulders, neckline and thigh slit visible. Captured profile/chest-up/mischievous selections differ from actual front three-quarter, head-to-thigh, softly smiling result: recorded deviations only under 2026-10-26 rules. Latte serving moment is visible at counter.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two connected bare hands around cup. Near thumb and four fingers discernible; far thumb partly behind cup, fingers curl along cup. No duplicate or reversed hand."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected bare hands around cup. Near thumb and four fingers discernible; far thumb partly behind cup, fingers curl along cup. No duplicate or reversed hand.",
+        "overlay_checked": false,
+        "note": "Frilled lilac apron dress, cat-ear headband and bow choker at cafe counter. Both connected hands hold a latte; bare shoulders, neckline and thigh slit visible. Captured profile/chest-up/mischievous selections differ from actual front three-quarter, head-to-thigh, softly smiling result: recorded deviations only under 2026-10-26 rules. Latte serving moment is visible at counter."
+      }
+    },
+    {
+      "slot": "casual2",
+      "file": "펄기아_glossy_promo_f_casual2.webp",
+      "image_sha256": "5ed5ac5bdb1682fd8a7ead64897321cf4dd630c6b2af568d8e9828342cf6b0c7",
+      "accepted": true,
+      "observations": "Cropped white hoodie, purple leggings, low convenience-store shelf and small parcel, rainy doorway. Left screen hand rests on thigh, right screen hand reaches parcel, both connected to forearms; thumbs on correct sides. Laughing eyes open and wide smile, low viewpoint, complete standing figure. Midriff and waist are exposed.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Thigh hand shows five digits; parcel hand thumb visible while four fingers are partly hidden behind box. Both wrists connect to sleeves. Sneakers cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Thigh hand shows five digits; parcel hand thumb visible while four fingers are partly hidden behind box. Both wrists connect to sleeves. Sneakers cover toes.",
+        "overlay_checked": false,
+        "note": "Cropped white hoodie, purple leggings, low convenience-store shelf and small parcel, rainy doorway. Left screen hand rests on thigh, right screen hand reaches parcel, both connected to forearms; thumbs on correct sides. Laughing eyes open and wide smile, low viewpoint, complete standing figure. Midriff and waist are exposed."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "file": "펄기아_light_overdrive_glossy_promo_f.webp",
+      "image_sha256": "63123e8a94c711ab4c092ce6da25c2695da46421c5c80720343c8f5c5aa6779f",
+      "accepted": true,
+      "observations": "Light image camera, head, hand pose and scale retained. Slim armor seams lift to expose blue inner frame; no new helmet or weapon.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two five-digit full gloves; near hand thumb+four fingers spread, far hand four fingers and inner thumb readable. No detached hand. Boots cover toes.",
+        "overlay_checked": false,
+        "note": "Light image camera, head, hand pose and scale retained. Slim armor seams lift to expose blue inner frame; no new helmet or weapon."
+      }
+    },
+    {
+      "slot": "casual3",
+      "file": "펄기아_glossy_promo_f_casual3.webp",
+      "image_sha256": "c0e883b0fcc1e0c7ae72a11df7a0fe125261da3358105887c968e8cac4aa1831",
+      "accepted": true,
+      "observations": "Paint-spattered shirt knotted behind back, plum shorts, brush holder and finished canvas. She sorts brushes while sitting with both bent knees toward one side and two feet together. Bare shoulder, upper back and thighs visible. Actual head turns over shoulder and is more alert than exhausted; body is side-sitting rather than reclining, and full body is shown rather than planned three-quarter: deviations recorded.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Same lavender-white blunt bangs, high ponytail, violet eyes and facial structure as canonical light."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow reopened original and WebP, 1024×1536 each."
+        },
+        "anatomy": {
+          "match": true,
+          "evidence": "Brush hand has thumb partly behind brush and four curled fingers; container hand fingers partly occluded by brush holder. Two bare feet, five toes on near foot; far foot toes partly overlapped. Ankles and knees connect naturally."
+        },
+        "people": {
+          "match": true,
+          "evidence": "One detailed human figure; no competing second figure."
+        },
+        "brand": {
+          "match": true,
+          "evidence": "No identifiable commercial logo observed."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; command exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Brush hand has thumb partly behind brush and four curled fingers; container hand fingers partly occluded by brush holder. Two bare feet, five toes on near foot; far foot toes partly overlapped. Ankles and knees connect naturally.",
+        "overlay_checked": false,
+        "note": "Paint-spattered shirt knotted behind back, plum shorts, brush holder and finished canvas. She sorts brushes while sitting with both bent knees toward one side and two feet together. Bare shoulder, upper back and thighs visible. Actual head turns over shoulder and is more alert than exhausted; body is side-sitting rather than reclining, and full body is shown rather than planned three-quarter: deviations recorded."
+      }
+    }
+  ]
+}

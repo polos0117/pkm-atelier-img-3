@@ -1,0 +1,419 @@
+{
+  "session": "palkia-heatran-20261027",
+  "batch": {
+    "session": "palkia-heatran-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "펄기아",
+        "species": "palkia-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "cat_cafe",
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "holding_cup",
+            "expr": "mischievous",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "parcel_pickup",
+            "garments": [
+              "leggings",
+              "sweater"
+            ],
+            "orient": "low_angle",
+            "frame": "environmental",
+            "pose": "bending_over",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "art_studio",
+            "garments": [
+              "shirt"
+            ],
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "exhausted",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "sweater",
+            "shirt"
+          ],
+          "orient": [
+            "profile_close",
+            "low_angle",
+            "reclining"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "히드런",
+        "species": "heatran-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "aodai_daily",
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "trousers"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "arms_crossed",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_rain_shelter",
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "gentle_pat",
+            "expr": "curious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "turning_back",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "skirt",
+            "tank"
+          ],
+          "orient": [
+            "over_shoulder",
+            "front",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "cat_cafe",
+      "garments": [
+        "apron",
+        "dress"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "holding_cup",
+      "expr": "mischievous",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "a cat cafe event costume — a cat-ear headband, a bow choker and a frilled apron dress; serving a latte at a themed cafe",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The cafe serving counter has violet ceramic saucers and warm pendant lights during an afternoon themed event.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: The cafe serving counter has violet ceramic saucers and warm pendant lights during an afternoon themed event."
+        },
+        {
+          "field": "outfit",
+          "content": "A lilac frilled apron dress with a plunging neckline and a high thigh slit, a cat-ear headband and a bow choker; the neckline exposes her upper chest and the slit exposes one thigh.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A lilac frilled apron dress with a plunging neckline and a high thigh slit, a cat-ear headband and a bow choker; the neckline exposes her upper chest and the slit exposes one thigh."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced: The cafe serving counter has violet ceramic saucers and warm pendant lights during an afternoon themed event.",
+        "source_influence": "balanced: limited to the colour and trim of A lilac frilled apron dress with a plunging neckline and a high thigh slit, a cat-ear headband and a bow choker; the neckline exposes her upper chest and the slit exposes one thigh.",
+        "separates_preference": "balanced: planner garment set apron,dress implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_basic",
+      "ex": "parcel_pickup",
+      "garments": [
+        "leggings",
+        "sweater"
+      ],
+      "orient": "low_angle",
+      "frame": "environmental",
+      "pose": "bending_over",
+      "expr": "laughing_open",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "cropped hem"
+      ],
+      "lead": "action",
+      "example_text": "at a convenience-store counter in a hoodie and leggings, picking up a small parcel",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She collects a small delivery parcel from a low convenience-store pickup shelf during a rainy evening.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: She collects a small delivery parcel from a low convenience-store pickup shelf during a rainy evening."
+        },
+        {
+          "field": "outfit",
+          "content": "A short ivory cropped hooded sweater and violet high-waisted leggings; the cropped hoodie hem leaves her midriff and waist exposed.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A short ivory cropped hooded sweater and violet high-waisted leggings; the cropped hoodie hem leaves her midriff and waist exposed."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced: She collects a small delivery parcel from a low convenience-store pickup shelf during a rainy evening.",
+        "source_influence": "balanced: limited to the colour and trim of A short ivory cropped hooded sweater and violet high-waisted leggings; the cropped hoodie hem leaves her midriff and waist exposed.",
+        "separates_preference": "prefer separates: planner garment set leggings,sweater implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "wildcard",
+      "ex": "art_studio",
+      "garments": [
+        "shirt"
+      ],
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "pose": "side_sitting",
+      "expr": "exhausted",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "in an art studio after hours in a paint-splattered shirt, tidying tools and finished pieces",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A paint-stained brush holder rests beside a finished canvas while she sorts used brushes and tidies the studio after closing.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: A paint-stained brush holder rests beside a finished canvas while she sorts used brushes and tidies the studio after closing."
+        },
+        {
+          "field": "outfit",
+          "content": "An oversized white artist shirt draped off one shoulder and tied below the shoulder blades to leave an open back, paired with short plum studio shorts; her shoulder and upper back are exposed.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: An oversized white artist shirt draped off one shoulder and tied below the shoulder blades to leave an open back, paired with short plum studio shorts; her shoulder and upper back are exposed."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed: A paint-stained brush holder rests beside a finished canvas while she sorts used brushes and tidies the studio after closing.",
+        "source_influence": "strong: limited to the colour and trim of An oversized white artist shirt draped off one shoulder and tied below the shoulder blades to leave an open back, paired with short plum studio shorts; her shoulder and upper back are exposed.",
+        "separates_preference": "prefer separates: planner garment set shirt implemented in the captured outfit field."
+      }
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation stamps verified",
+  "reservation_commit": "90aeba31842e92aeaea07c3047db418a436f53d2",
+  "tool": "built-in image_gen",
+  "generator": "Actual prompt.html rendered in Chromium; exact output unchanged",
+  "storage_method": "Shared partial Git + isolated sparse worktrees. Genuine Git tree filename membership is represented by temporary /dev/null links for the filename-only ledger scan; unrelated image originals were not downloaded. Real UI metadata and actual comparison WebPs were read. Links are never published."
+}
