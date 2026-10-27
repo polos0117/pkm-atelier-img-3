@@ -1,0 +1,8 @@
+{
+  "reason": "Initial outstretched hand had duplicate digits; partial correction before anchor confirmation",
+  "initial_original_sha256": "fc97461d534b338f43db0bf9ec2f3ff9cde8b3a40fffd88fc5c73136760f2948",
+  "corrected_original_sha256": "eac31ea9d78eb3dc6422afb93d063895788c23003545249662cbf29857c382c7",
+  "prompt": "light-correction-prompt.txt",
+  "input_role": "Edit target; preserve entire image except duplicate fingers",
+  "result": "Five total digits on extended hand, confirmed in enlarged crop; corrected result is canonical light anchor; original attempt is session-only"
+}

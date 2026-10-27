@@ -1,0 +1,127 @@
+{
+  "card": "치릴리",
+  "status": "ready_for_publication",
+  "requested": 9,
+  "generated": 9,
+  "session_paths": {
+    "light": "/workspace/scratch/a822cfc74231/generated_images/exec-1efd3129-0276-4e21-b302-50650bfbf129.png",
+    "heavy": "/workspace/scratch/a822cfc74231/generated_images/exec-cf3f14c1-3b9e-4702-98bf-b610ec393628.png",
+    "mobility": "/workspace/scratch/a822cfc74231/generated_images/exec-1a502b0e-4f7b-424f-902a-20e984b4d8e9.png",
+    "light_overdrive": "/workspace/scratch/a822cfc74231/generated_images/exec-9a7c9ebc-b3ae-4c00-9ad1-53d37b85b0da.png",
+    "heavy_overdrive": "/workspace/scratch/a822cfc74231/generated_images/exec-a094c804-41a1-4888-9b43-9927cf2ff183.png",
+    "casual1": "/workspace/scratch/a822cfc74231/generated_images/exec-34d1f6bd-adbc-43c6-a1c3-4138a37142cc.png",
+    "mobility_overdrive": "/workspace/scratch/a822cfc74231/generated_images/exec-93e22b79-2bcf-45de-8473-d4d1fd477dfd.png",
+    "casual2": "/workspace/scratch/a822cfc74231/generated_images/exec-5cdd6f89-edcf-42da-b4bf-0d7603c4ca0d.png"
+  },
+  "sha256": {
+    "light": "eac31ea9d78eb3dc6422afb93d063895788c23003545249662cbf29857c382c7",
+    "heavy": "7b2fa9594d0c811e001a3b79b8120b11c98588f774fa0c79af02fcfbbebc7548",
+    "mobility": "94ad9cfcd0ff3b7f7a8d7271e6fdb3fc1a51cb82bc5d616be6b1c266fbcd7458",
+    "light_overdrive": "9d19b8bdf3f9a61bca785e5e2f6221d8b45061d7c9853b38936377ea6c7743cc",
+    "heavy_overdrive": "cb77ac85d2064f91305c38b40a51aa3afaceead2090ca6c4c4570056705ba78d",
+    "casual1": "13de8d85017fbbcedf581f6ebe7531cfcec230670ea9414e27ed771fc99e3ba0",
+    "mobility_overdrive": "16b3e51addf0e009eec278d321febd1676d114b7736cc35563f40386f9a2ab25",
+    "casual2": "0cee20b8dea6514f3db9e0711980cb83373262407a5f88602206fffe7ea70325"
+  },
+  "published": false,
+  "original_policy": "Original PNG remains session-only; original sha256, exact prompt/UI, converted WebP hashes preserved.",
+  "anchor": {
+    "card": "치릴리",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-1efd3129-0276-4e21-b302-50650bfbf129.png",
+    "original_sha256": "eac31ea9d78eb3dc6422afb93d063895788c23003545249662cbf29857c382c7",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "치릴리_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "9618ccad2964b256e33bdc996c7bc4ddd1300573173e5125cbd1084e4e9ce503"
+    }
+  },
+  "source_evidence": {
+    "name": "치릴리",
+    "en": "Petilil",
+    "color": "green",
+    "shape": "blob",
+    "features": [
+      {
+        "part": "leaf",
+        "detail": "three oblong head leaves"
+      },
+      {
+        "part": "face",
+        "detail": "white crescent face"
+      },
+      {
+        "part": "collar",
+        "detail": "green bib-shaped collar"
+      },
+      {
+        "part": "body",
+        "detail": "light-green bulb with five base stubs"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Petilil_%28Pok%C3%A9mon%29",
+    "revision": 4611226,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "05d4c514dd412e820d56fec8db14c4833a94ea63567877141cd29901b15893e9",
+    "method": "source-checked-correction",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "치릴리",
+    "en": "Petilil",
+    "line": "치릴리",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "small delicate nose",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 blob → 얼굴형 부드럽고 둥근 얼굴형",
+      "몸 형태 blob → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "몸 형태 blob → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 균형 잡힌 타원형 → 부드럽고 둥근 얼굴형, 눈 간격 눈 하나 너비 안팎 → 눈 사이가 넓은",
+    "hair": {
+      "hairstyle": "messy bun",
+      "hair length": "medium",
+      "bangs": "parted bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘three oblong head leaves’·‘light-green bulb with five base stubs’·몸 형태 blob에서 흐트러진 번(올림머리) · 중간 길이 · 가운데를 가른 앞머리",
+    "hair_cues": [
+      "‘three oblong head leaves’ → 헤어스타일 흐트러진 번"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, level outer corners, wide-set; long arched brows; small delicate nose; bow-shaped upper lip.",
+  "compared_characters": [
+    "비비용",
+    "엘풍",
+    "휠구",
+    "치릴리",
+    "드레디어"
+  ],
+  "face_choice_reason": "Petilil soft green head leaves and bib become leaf armor and compact bun, with species-specific rounded face and wide-set almond eyes. Compared visually with the taller oval-faced Lilligant and recent characters."
+}

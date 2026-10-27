@@ -1,0 +1,330 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Standing in a sunlit white garden arcade with one palm extended and two separate boots on the floor."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Slim single layer of ivory/green leaf armor and three head leaves; green eyes and compact bun. Original hand was corrected before anchor confirmation; see light-correction.json."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near palm: one thumb plus four fingers. Lowered opposite hand: five gloved digits, partly foreshortened.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same white arcade, extended near arm and lowered far arm, both legs connected to hips."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Broad stacked shoulder/chest/hip/shin plates enlarge armor outline while body and face stay the same."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near open palm has five digits; far lowered hand has five gloved digits. Wrists connect naturally.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Sunlit arcade with both feet inside frame, near palm extended."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Shoulder and hip leaf fins fan outward/back; small round green propulsion cores, no added weapon."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended palm five digits; opposite gloved hand five with perspective overlap.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same light camera, pose, body scale, boot placements and garden arches."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Light armor seams hinge open over green-gold luminous internal ribs; eye color retained."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Corrected near hand retains five digits; far hand retains five gloved digits. No duplicate limb.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same heavy camera and full-body pose with two grounded boots."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Thick stacked plates open at seams to expose mechanical ribs and green inner light."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "One thumb plus four fingers on near palm; five digits on lowered far hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Resting side-seated on emerald velvet floor padding in a dressing suite lit by amber vanity bulbs."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Opaque velvet longline bralette and high-cut briefs; midriff and thighs visible. Heavy eyelids and relaxed mouth. Full seated figure rather than selected chest-up framing, recorded as permitted deviation."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left palm on mat: visible fingers partly hidden by foreground and edge; other hand mostly occluded between folded legs. Two arms and two folded legs traced without detached additions.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same mobility camera, body scale and extended-arm pose."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Existing fins spread along hinges and show bright circular green cores, no new helmet or weapon."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands retain five gloved digits, connected wrists and clear finger tips.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Salsa spin on parquet under amber spotlights; skirt fringe sweeps outward."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Green fringed mini dress, exposed back and legs; mischievous small smile. Full-body over-shoulder view rather than selected profile close-up, recorded without regeneration."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands have five digits with flexed overlaps and thumb on inner side; two legs end in separate heeled sandals, toes partly covered by straps.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale olive messy bun, parted bangs, broad-set green almond eyes, soft rounded jaw and bow upper lip match the confirmed corrected light anchor. Distinct from Lilligant's oval face, downturned eye corners and taller bun; visually compared with Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "One hand sprinkles silver glitter while the other holds a glass jar in a pink-draped flower studio."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Strapless petal dress, detached sheer shoulder petal bands and translucent wing props; bare back and shoulders. Brows slightly drawn and mouth neutral, looking over shoulder."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Pinching hand: thumb/index meet, other fingers flexed with partial overlap. Jar hand: thumb partly hidden behind jar and four curled fingers. Both arms connect; lower legs outside frame.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    }
+  ],
+  "diversity": {
+    "compared_actual_images": [
+      "비비용",
+      "엘풍",
+      "휠구"
+    ],
+    "evidence": "The three scenes show folded seated velvet fashion in a dressing room, a standing salsa spin with sweeping fringe, and over-shoulder glitter sprinkling in a pastel flower studio. Activity, outfit construction, arm silhouette and crop differ. Recent comparison images include seated cafes, telescope costume, rooftop and static glamour scenes; the present three do not repeat their combined composition.",
+    "look_check": "pkm-atelier-img-3/img/치릴리_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     308  어둠대신_glossy_promo_f_casual2.webp\n     319  게을킹_glossy_promo_f_casual3.webp\n     322  투구_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/치릴리_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     269  레오꼬_glossy_promo_f_casual3.webp\n     293  비브라바_glossy_promo_f_casual1.webp\n     294  샤비_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/치릴리_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     275  소미안_glossy_promo_f_casual1.webp\n     279  플라베베_glossy_promo_f_casual3.webp\n     280  주리비얀_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

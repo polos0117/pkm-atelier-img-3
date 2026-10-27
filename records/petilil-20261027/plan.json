@@ -1,0 +1,540 @@
+{
+  "session": "petilil-lilligant-a822",
+  "batch": {
+    "session": "petilil-lilligant-a822",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "치릴리",
+        "species": "petilil-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "velvet_set",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "pose": "side_sitting",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "salsa_spin",
+            "garments": [
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "face_close",
+            "pose": "dance_step",
+            "expr": "mischievous",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "fantasy_costume",
+            "ex": "fairy_wings",
+            "garments": [
+              "dress"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "mid_action",
+            "expr": "serious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "active",
+            "dance_stage",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "lingerie_set"
+          ],
+          "orient": [
+            "low_angle",
+            "profile_close",
+            "over_shoulder"
+          ],
+          "frame": [
+            "face_close"
+          ]
+        }
+      },
+      {
+        "card": "드레디어",
+        "species": "lilligant-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_birdwatch",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "environmental",
+            "pose": "standing_formal",
+            "expr": "amused",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "bridal",
+            "ex": "garden_aisle",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "pose": "bending_over",
+            "expr": "gentle",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "yacht_deck",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "cross_legged",
+            "expr": "pensive",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "active",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "bikini"
+          ],
+          "orient": [
+            "leaning_back",
+            "looking_down",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "velvet_set",
+      "garments": [
+        "crop_top",
+        "lingerie_set"
+      ],
+      "orient": "low_angle",
+      "frame": "chest_up",
+      "pose": "side_sitting",
+      "expr": "sleepy",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "example_text": "a deep-coloured velvet lingerie set of a bralette and high-waisted bottoms",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "velvet_set",
+          "garments": [
+            "crop_top",
+            "lingerie_set"
+          ],
+          "orient": "low_angle",
+          "frame": "chest_up",
+          "pose": "side_sitting",
+          "expr": "sleepy",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "bare midriff"
+          ],
+          "lead": "action"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Resting after a late rehearsal on an emerald velvet floor mat in a dressing suite, with warm amber vanity bulbs.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Resting after a late rehearsal on an emerald velvet floor mat in a dressing suite, with warm amber vanity bulbs."
+        },
+        {
+          "field": "outfit",
+          "content": "Forest-green opaque velvet longline bralette styled as a cropped top, with matching high-waisted high-cut briefs; the two-piece cut leaves her midriff and upper thighs bare.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: Forest-green opaque velvet longline bralette styled as a cropped top, with matching high-waisted high-cut briefs; the two-piece cut leaves her midriff and upper thighs bare."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for Resting after a late rehearsal on an emerald velvet floor mat in a dressing suite, with warm amber vanity bulbs.",
+        "source_influence": "balanced implemented by Forest-green opaque velvet longline bralette styled as a cropped top, with matching high-waisted high-cut briefs; the two-piece cut leaves her midriff and upper thighs bare.",
+        "separates_preference": "balanced follows the actual garment construction crop_top,lingerie_set"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "dance_stage",
+      "ex": "salsa_spin",
+      "garments": [
+        "dress"
+      ],
+      "orient": "profile_close",
+      "frame": "face_close",
+      "pose": "dance_step",
+      "expr": "mischievous",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "mini length"
+      ],
+      "lead": "light",
+      "example_text": "mid-spin in a fringed salsa dress at a social dance hall, the fringe flaring out",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 2,
+          "cat": "dance_stage",
+          "ex": "salsa_spin",
+          "garments": [
+            "dress"
+          ],
+          "orient": "profile_close",
+          "frame": "face_close",
+          "pose": "dance_step",
+          "expr": "mischievous",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "mini length"
+          ],
+          "lead": "light"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber spotlights cross a polished parquet floor, with copper pendant lamps reflected behind the dance area.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Amber spotlights cross a polished parquet floor, with copper pendant lamps reflected behind the dance area."
+        },
+        {
+          "field": "outfit",
+          "content": "A leaf-green fringed mini dress with a plunging neckline and flowing silk tassels.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A leaf-green fringed mini dress with a plunging neckline and flowing silk tassels."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active for Amber spotlights cross a polished parquet floor, with copper pendant lamps reflected behind the dance area.",
+        "source_influence": "strong implemented by A leaf-green fringed mini dress with a plunging neckline and flowing silk tassels.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "fantasy_costume",
+      "ex": "fairy_wings",
+      "garments": [
+        "dress"
+      ],
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "serious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "a fairy costume — a petal-layered mini dress with glittering wing props, sprinkling glitter in a flower photo studio",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 3,
+          "cat": "fantasy_costume",
+          "ex": "fairy_wings",
+          "garments": [
+            "dress"
+          ],
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "pose": "mid_action",
+          "expr": "serious",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "strapless top"
+          ],
+          "lead": "detail"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A small pinch of silver glitter catches the light above a table of paper flowers; pale pink studio drapes soften the backdrop.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: A small pinch of silver glitter catches the light above a table of paper flowers; pale pink studio drapes soften the backdrop."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless petal-layered mini dress with an off-shoulder neckline of detached sheer petal bands, leaving shoulders and collarbones visible; translucent glittered wing props complete the costume.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A strapless petal-layered mini dress with an off-shoulder neckline of detached sheer petal bands, leaving shoulders and collarbones visible; translucent glittered wing props complete the costume."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active for A small pinch of silver glitter catches the light above a table of paper flowers; pale pink studio drapes soften the backdrop.",
+        "source_influence": "balanced implemented by A strapless petal-layered mini dress with an off-shoulder neckline of detached sheer petal bands, leaving shoulders and collarbones visible; translucent glittered wing props complete the costume.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    }
+  ],
+  "check": "Planner batch check passed; reservation stamp verify passed before generation.",
+  "reservation_commit": "3c01616",
+  "compared_actual_images": [
+    "비비용 light/casual1–3",
+    "엘풍 light/casual1–3",
+    "휠구 light/casual1–3"
+  ],
+  "storage": "Shared blob:none Git metadata in /workspace/shared-git; task branch and sparse worktrees; inventory symlinks excluded from all publication manifests."
+}
