@@ -1,0 +1,444 @@
+{
+  "session": "vivillon-litleo-20261027",
+  "batch": {
+    "session": "vivillon-litleo-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "비비용",
+        "species": "vivillon-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "kaftan_daily",
+            "expr": "playful",
+            "pose": "squatting",
+            "orient": "crouching",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "diner_counter",
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "pose": "arms_crossed",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "railway_engineer",
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "perched_seat",
+            "expr": "calm",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "blouse",
+            "skirt",
+            "vest"
+          ],
+          "orient": [
+            "high_angle",
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "레오꼬",
+        "species": "litleo-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "velvet_set",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "pose": "standing_formal",
+            "expr": "serious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "partner_care",
+            "ex": "care_rain_shelter",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "pose": "gentle_pat",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "fantasy_costume",
+            "ex": "fae_ball",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "leaning_wall",
+            "expr": "amused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "crop_top",
+            "overalls"
+          ],
+          "orient": [
+            "front_3q",
+            "three_quarter_back",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "kaftan_daily",
+      "expr": "playful",
+      "pose": "squatting",
+      "orient": "crouching",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "a resort kaftan — a loose ankle-length tunic with a wide neckline and embroidered trim",
+      "selection_source": "Planner query loaded all choices and randomLocks in Chromium; free text entered through UI controls; output captured unchanged.",
+      "random": "Planner picked values; no manual option overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning light falls across patterned tiles in a Moroccan resort courtyard as she tests the water temperature of a low tiled fountain with her fingertips.",
+          "reason": "Example lacks this particular time, location detail or concrete activity: Morning light falls across patterned tiles in a Moroccan resort courtyard as she tests the water temperature of a low tiled fountain with her fingertips."
+        },
+        {
+          "field": "outfit",
+          "content": "A white kaftan dress with narrow black geometric embroidery, a high thigh slit and oval waist side cutouts exposing her legs and waist.",
+          "reason": "Implements the planned garment types and exposure cuts with these materials and colours: A white kaftan dress with narrow black geometric embroidery, a high thigh slit and oval waist side cutouts exposing her legs and waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is tied to the specific held or moving activity: Morning light falls across patterned tiles in a Moroccan resort courtyard as she tests the water temperature of a low tiled fountain with her fingertips.",
+        "source_influence": "subtle is expressed in the chosen colour and fabric details: A white kaftan dress with narrow black geometric embroidery, a high thigh slit and oval waist side cutouts exposing her legs and waist.",
+        "separates_preference": "balanced follows this cut's garment construction: dress"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "diner_counter",
+      "garments": [
+        "blouse",
+        "skirt"
+      ],
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "pose": "arms_crossed",
+      "expr": "cold_smile",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "a 1950s wiggle skirt and a fitted cropped blouse, perched on a chrome diner stool with a milkshake",
+      "selection_source": "Planner query loaded all choices and randomLocks in Chromium; free text entered through UI controls; output captured unchanged.",
+      "random": "Planner picked values; no manual option overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A mint-green diner counter has a ribbed chrome stool and a tall strawberry milkshake glass during a late-morning break.",
+          "reason": "Example lacks this particular time, location detail or concrete activity: A mint-green diner counter has a ribbed chrome stool and a tall strawberry milkshake glass during a late-morning break."
+        },
+        {
+          "field": "outfit",
+          "content": "A black 1950s wiggle skirt and a fitted ivory cropped one-shoulder blouse with tiny black pixel embroidery, exposing her waist and one shoulder.",
+          "reason": "Implements the planned garment types and exposure cuts with these materials and colours: A black 1950s wiggle skirt and a fitted ivory cropped one-shoulder blouse with tiny black pixel embroidery, exposing her waist and one shoulder."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is tied to the specific held or moving activity: A mint-green diner counter has a ribbed chrome stool and a tall strawberry milkshake glass during a late-morning break.",
+        "source_influence": "strong is expressed in the chosen colour and fabric details: A black 1950s wiggle skirt and a fitted ivory cropped one-shoulder blouse with tiny black pixel embroidery, exposing her waist and one shoulder.",
+        "separates_preference": "prefer separates follows this cut's garment construction: blouse, skirt"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "railway_engineer",
+      "garments": [
+        "skirt",
+        "vest"
+      ],
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "pose": "perched_seat",
+      "expr": "calm",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "example_text": "Pokémon travel-train attendant arranging luggage straps and a partner resting cushion in a carriage.",
+      "selection_source": "Planner query loaded all choices and randomLocks in Chromium; free text entered through UI controls; output captured unchanged.",
+      "random": "Planner picked values; no manual option overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She straightens a loose luggage strap beside a neatly placed partner resting cushion as the carriage passes sunlit countryside.",
+          "reason": "Example lacks this particular time, location detail or concrete activity: She straightens a loose luggage strap beside a neatly placed partner resting cushion as the carriage passes sunlit countryside."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped cream utility vest with open waist side cutouts over a black bandeau and a black mini skirt with ivory piping and low travel shoes; the short hem and cutouts expose her waist and thighs.",
+          "reason": "Implements the planned garment types and exposure cuts with these materials and colours: A cropped cream utility vest with open waist side cutouts over a black bandeau and a black mini skirt with ivory piping and low travel shoes; the short hem and cutouts expose her waist and thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is tied to the specific held or moving activity: She straightens a loose luggage strap beside a neatly placed partner resting cushion as the carriage passes sunlit countryside.",
+        "source_influence": "subtle is expressed in the chosen colour and fabric details: A cropped cream utility vest with open waist side cutouts over a black bandeau and a black mini skirt with ivory piping and low travel shoes; the short hem and cutouts expose her waist and thighs.",
+        "separates_preference": "prefer separates follows this cut's garment construction: skirt, vest"
+      }
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed, both stamped reservations verified",
+  "reservation_commit": "32c4f250dc0c8a1abbeb3352a36e360dc0bb51b8",
+  "tool": "built-in image_gen",
+  "storage": "Shared blob:none repositories; separate branches and sparse worktrees. Only metadata and requested comparison images materialized; filename-only tools use temporary /dev/null links for exact tracked image inventory. Those links are never staged or published.",
+  "replans": [
+    {
+      "card": "비비용",
+      "slot": "casual2",
+      "reason": "One output safety rejection; did not repeat the rejected request. Planner selected a different diner scene, keeping completed casual1.",
+      "blocked_prompt": "blocked-casual2-prompt.txt"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "card": "비비용",
+  "anchor": {
+    "card": "비비용",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact captured output; built-in image_gen",
+    "source_session_only": "/workspace/scratch/33b918e792a9/generated_images/exec-40a8a9b6-7e83-4d18-9344-29058b389939.png",
+    "original_sha256": "576f91fa54c36c8eb7c1a5281806c8ff9e3b0669f4986f36163346c9f1614215",
+    "references": [],
+    "output": {
+      "file": "비비용_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "134bc940439fc08ad8190aa68ec9deaee1b872f7304382d14ea37592779a2f44"
+    }
+  },
+  "face_design": {
+    "name": "비비용",
+    "en": "Vivillon",
+    "line": "분이벌레",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "rounded soft tip",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "크게 펼친 나비 날개와 선명한 무늬를 넓은 상안면과 큰 사람 눈으로 해석한다.",
+    "cues": [
+      "몸 형태 bug-wings → 얼굴형 이마가 넓고 턱이 가는 하트형",
+      "‘round, grayish head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘round, grayish head’ → 눈매 큰 눈",
+      "몸 형태 bug-wings → 눈 크기 큰 눈",
+      "‘round, grayish head’ → 코 코끝이 둥근"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 아래로 갈수록 좁아지는 턱끝 → 부드럽고 둥근 턱, 코 작고 여린 코 → 코끝이 둥근 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 양쪽 동그란 번 → 굵은 곱슬",
+    "hair": {
+      "hairstyle": "curly",
+      "hair length": "long",
+      "bangs": "straight bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘round, grayish head’·‘ovoid scale’에서 굵은 곱슬(웨이브·곱슬) · 긴 머리 · 일자 앞머리 — 분떠도리에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘round, grayish head’ → 헤어스타일 굵은 곱슬"
+    ]
+  },
+  "source_evidence": {
+    "name": "비비용",
+    "en": "Vivillon",
+    "color": "white",
+    "shape": "bug-wings",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "pixelated markings"
+      },
+      {
+        "part": "band",
+        "detail": "black band"
+      },
+      {
+        "part": "head",
+        "detail": "round, grayish head"
+      },
+      {
+        "part": "antennae",
+        "detail": "skinny antennae"
+      },
+      {
+        "part": "scale",
+        "detail": "ovoid scale"
+      },
+      {
+        "part": "segment",
+        "detail": "three segments"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Vivillon_%28Pok%C3%A9mon%29",
+    "revision": 4624772,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "f41c19139e47b4362ef066c632954bf3a43f170099188d1cdaab8f178554b41c",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_reason": "Butterfly silhouette suggests a broad upper face, large open eyes, soft rounded jaw and cupid-bow lip. Long light curls make the grayscale palette readable.",
+  "final_face_line": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; soft rounded jaw; open rounded eyes, large size, level outer corners, average spacing; long arched brows; rounded soft tip nose; bow-shaped upper lip.",
+  "actual_comparison": [
+    "히드런",
+    "펄기아",
+    "두르쿤",
+    "분이벌레",
+    "분떠도리"
+  ],
+  "face_comparison": "Compared rendered faces with hair/ornaments mentally excluded: Vivillon has larger rounder eyes and softer jaw than the recent long-faced anchors; Litleo has sharply rising almond eyes, a narrow chin and smaller mouth, distinct from Vivillon's wider open eyes.",
+  "batches": [
+    "anchor approved",
+    "heavy and mobility approved",
+    "three matched-pose overdrives approved",
+    "three independent casuals checked"
+  ],
+  "published": false,
+  "manifest": "classification.json"
+}
