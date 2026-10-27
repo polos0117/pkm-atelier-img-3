@@ -1,0 +1,82 @@
+{
+  "card": "어흥염",
+  "storage": {
+    "last": "어흥염",
+    "cards": {
+      "어흥염": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "ANATOMY EDIT ONLY: Keep the attached full-body image exactly, including face, hair, outfit, pose, camera, lighting and background. Repair ONLY the gloved hand on the LEFT side of the screen. The repaired hand must have exactly one thumb and four fingers: index, middle, ring and little finger, all attached naturally to the same palm. Remove the small duplicate fingertips poking out from behind the palm. Change this LEFT-screen hand into a compact, relaxed CLOSED FIST. All four fingers curl fully into the palm as one coherent fist, with the thumb resting naturally over the index and middle fingers. No loose curled fingertips poke out behind the palm. Keep the fist attached to its existing wrist. Preserve both existing wrists and arms, the other hand, and the opened or closed armor state; do not change armor or anything else.",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  },
+  "prompt": "INPUT: the attached image is the approved character; keep her.\n\nSOURCE: Incineroar (어흥염), fire / dark type.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nFORM — LIGHT: one close-fitting armor layer: slim plates at the shoulders, forearms, hips and shins over a fitted undersuit, joints free, a slim readable outline. No helmet; at most a slim headband or temple sensor.\n\nOUTPUT: the LIGHT form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions, palette and the species features she wears as costume; change only her armor, as FORM says. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nNote: ANATOMY EDIT ONLY: Keep the attached full-body image exactly, including face, hair, outfit, pose, camera, lighting and background. Repair ONLY the gloved hand on the LEFT side of the screen. The repaired hand must have exactly one thumb and four fingers: index, middle, ring and little finger, all attached naturally to the same palm. Remove the small duplicate fingertips poking out from behind the palm. Change this LEFT-screen hand into a compact, relaxed CLOSED FIST. All four fingers curl fully into the palm as one coherent fist, with the thumb resting naturally over the index and middle fingers. No loose curled fingertips poke out behind the palm. Keep the fist attached to its existing wrist. Preserve both existing wrists and arms, the other hand, and the opened or closed armor state; do not change armor or anything else.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nHANDS: each hand has one thumb and four fingers, the thumb on its inner side, never merged, doubled, mirrored or extra. Her hands keep the same gloves or bare hands as in the attached image; effects stay off the fingers."
+}

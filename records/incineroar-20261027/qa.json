@@ -1,0 +1,289 @@
+{
+  "card": "어흥염",
+  "review": "Original 1024x1536 images and enlarged hand/foot crops visually inspected.",
+  "corrections": {
+    "light": "Initial light left-screen glove had multiple curled duplicate fingertips. Corrected that hand to a compact closed fist before generating any followups; all followups use corrected light.",
+    "initial_light_sha256": "87f28fe573294c0a3b56faebcde3a812ac4bc90a718a24e32dd4a51415b6b978",
+    "mobility_overdrive": "First request coincided with environment outage; no returned output_hint or generated file. After environment recovery verified latest file was previous heavy opening, then resubmitted same prompt and same references. No returned image replaced."
+  },
+  "slots": {
+    "light": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Slim red-black striped fitted armor at shoulders, forearms, hips and shins."
+      }
+    },
+    "heavy": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Layered red-black plates enlarge shoulders, forearms, hips and shins over unchanged body."
+      }
+    },
+    "mobility": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Split swept fins and compact vents at shoulders, hips and calves."
+      }
+    },
+    "light_overdrive": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Slim red-black striped fitted armor at shoulders, forearms, hips and shins."
+      },
+      "opening": {
+        "match": true,
+        "evidence": "Corresponding closed form camera, stance, fist, hair and boots retained; plate seams open around inner orange fire light; amber eye color unchanged. Dark type energy is less pronounced than fire in actual render."
+      }
+    },
+    "heavy_overdrive": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Layered red-black plates enlarge shoulders, forearms, hips and shins over unchanged body."
+      },
+      "opening": {
+        "match": true,
+        "evidence": "Corresponding closed form camera, stance, fist, hair and boots retained; plate seams open around inner orange fire light; amber eye color unchanged. Dark type energy is less pronounced than fire in actual render."
+      }
+    },
+    "mobility_overdrive": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "left-screen compact fist: four fingers folded with thumb outside; right-screen relaxed glove: one thumb and four fingers with distal overlap/occlusion",
+        "overlay_checked": false,
+        "note": "Both arms attach at shoulders and wrists, two separate knees/boots. No third limb or detached hand. Glove guards remain costume, not fingers."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "form": {
+        "match": true,
+        "evidence": "Split swept fins and compact vents at shoulders, hips and calves."
+      },
+      "opening": {
+        "match": true,
+        "evidence": "Corresponding closed form camera, stance, fist, hair and boots retained; plate seams open around inner orange fire light; amber eye color unchanged. Dark type energy is less pronounced than fire in actual render."
+      }
+    },
+    "casual1": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Pocket-watch hand: thumb beside rim, four fingers bent along case with some contact occlusion; other hand rests on boot with four long fingers and side thumb partly occluded. Two cross-folded legs and two attached boots.",
+        "overlay_checked": false,
+        "note": "Hands and feet enlarged; occluded parts explicitly recorded, no additional arm/leg or abnormal joint connection observed."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "activity": {
+        "match": true,
+        "evidence": "Clockwork fair stalls, copper bunting, pocket watch and brass goggles; white blouse, brocade underbust corset and short bustle skirt, thighs and waist cutouts exposed."
+      },
+      "pose_orientation_frame": {
+        "match": false,
+        "evidence": "Legs cross on a cushion; torso front three-quarter rather than pronounced seated twist; mouth slightly parted rather than the planned bored expression.",
+        "disposition": "record_only_under_IMAGE_RULES_2026-10-26"
+      },
+      "exposure": {
+        "match": true,
+        "evidence": "Clockwork fair stalls, copper bunting, pocket watch and brass goggles; white blouse, brocade underbust corset and short bustle skirt, thighs and waist cutouts exposed."
+      }
+    },
+    "casual2": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Waist hand has thumb pinching cloth and four bent fingers; hanging hand has one thumb and four curled fingers, partly overlapped. Two legs cross naturally; two feet with five toes each.",
+        "overlay_checked": false,
+        "note": "Hands and feet enlarged; occluded parts explicitly recorded, no additional arm/leg or abnormal joint connection observed."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "activity": {
+        "match": true,
+        "evidence": "Warm lamp and walnut wall; crimson connected satin teddy exposes shoulders, waist and legs; fingers adjust waist seam."
+      },
+      "pose_orientation_frame": {
+        "match": false,
+        "evidence": "Low camera and full figure retained, wall lean subtle; expression is poised rather than clearly smug.",
+        "disposition": "record_only_under_IMAGE_RULES_2026-10-26"
+      },
+      "exposure": {
+        "match": true,
+        "evidence": "Warm lamp and walnut wall; crimson connected satin teddy exposes shoulders, waist and legs; fingers adjust waist seam."
+      }
+    },
+    "casual3": {
+      "identity": {
+        "match": true,
+        "evidence": "Long black-and-red wolf-cut hair, amber eyes, arched brows, stronger jaw and wide mouth preserved against corrected light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe module not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hip hand has one thumb and four fingers laid on the waist; helmet hand thumb along shell and fingers curled under the base, partly occluded by helmet. Two arms attach naturally; two knees, distal boots outside crop.",
+        "overlay_checked": false,
+        "note": "Hands and feet enlarged; occluded parts explicitly recorded, no additional arm/leg or abnormal joint connection observed."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP decodes at 1024x1536, quality85 method6."
+      },
+      "figure": {
+        "match": true,
+        "evidence": "One clearly adult human woman; no duplicate focal figure or recognizable real brand."
+      },
+      "activity": {
+        "match": true,
+        "evidence": "Silver cardboard rocket fins, stars and blue party lighting; white silver-trim jumpsuit with off-shoulder neckline and connected waist cutouts; bubble helmet held at the hip."
+      },
+      "pose_orientation_frame": {
+        "match": false,
+        "evidence": "Torso tilts against rocket with one hand on hip; slightly flushed parted lips, three-quarter crop reaches below knees.",
+        "disposition": "record_only_under_IMAGE_RULES_2026-10-26"
+      },
+      "exposure": {
+        "match": true,
+        "evidence": "Silver cardboard rocket fins, stars and blue party lighting; white silver-trim jumpsuit with off-shoulder neckline and connected waist cutouts; bubble helmet held at the hip."
+      }
+    }
+  },
+  "diversity": {
+    "match": true,
+    "evidence": "Seated steampunk pocket-watch inspection, full-body satin fashion against walnut wall, and white astronaut costume beside cardboard rocket differ in activity, silhouette, clothing construction and camera; compared actual contact sheet to Torracat plus 빼미스로우, 나몰빼미, 드레디어 casual1-3.",
+    "look_check": "pkm-atelier-img-3/img/어흥염_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     259  맘모꾸리_glossy_promo_f_casual2.webp\n     263  투구_glossy_promo_f_casual3.webp\n     284  델빌_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/어흥염_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     269  엘풍_glossy_promo_f_casual1.webp\n     320  귀뚤톡크_glossy_promo_f_casual2.webp\n     334  플라이곤_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/어흥염_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     297  밀로틱_glossy_promo_f_casual2.webp\n     304  날쌩마_glossy_promo_f_casual1.webp\n     312  무우마_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}
