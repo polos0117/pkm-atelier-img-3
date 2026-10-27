@@ -1,0 +1,113 @@
+{
+  "card": "깜눈크",
+  "generated": 9,
+  "requested": 9,
+  "status": "QA complete; published in the commit containing this checkpoint",
+  "anchor": {
+    "card": "깜눈크",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/39ce70e48af5/generated_images/exec-3b9058bf-eba6-4687-a376-4182a9c2cddd.png",
+    "original_sha256": "00c0ad14d66d887d4892c84e53145437a634310bca3e200e9cbd9a4c7d9b286f",
+    "identity_or_form_reference": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "깜눈크_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "a9586afcb4a902c1446137fc737aa1ce86c043ce5b2bdd609b9539b8d5a615e4"
+    }
+  },
+  "face_design": {
+    "name": "깜눈크",
+    "en": "Sandile",
+    "line": "깜눈크",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "wide",
+      "jaw & chin": "wide heavy chin",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "long nose with low tip",
+      "lips": "wide mouth"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "‘long snout’ → 코 길고 코끝이 내려온"
+    ],
+    "adjusted": "",
+    "hair": {
+      "hairstyle": "low bun",
+      "hair length": "medium",
+      "bangs": "asymmetric bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "땅 타입에서 목덜미 낮은 번(올림머리) · 중간 길이 · 좌우 길이가 다른 앞머리",
+    "hair_cues": [
+      "땅 타입 → 헤어스타일 목덜미 낮은 번",
+      "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "깜눈크",
+    "en": "Sandile",
+    "color": "brown",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "black stripe"
+      },
+      {
+        "part": "claw",
+        "detail": "three sharp, black claws"
+      },
+      {
+        "part": "snout",
+        "detail": "long snout"
+      },
+      {
+        "part": "leg",
+        "detail": "stubby legs"
+      },
+      {
+        "part": "foot",
+        "detail": "flat feet"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Sandile_%28Pok%C3%A9mon%29",
+    "revision": 4611307,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "42f557829125d1d5aaedcc83642fcc1959c3160e1b8833c92c4bf902f89f7404",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed.",
+  "face_review": {
+    "source": "data/face-design.json faces 551 and source-appearance entries 551",
+    "reason": "Broad chin, narrow level eyes and low thick brow distinguish her from Basculin and recent owl faces; low brown bun and dark eye accents echo Sandile.",
+    "compared": [
+      "배쓰나이 light",
+      "모크나이퍼 light",
+      "나몰빼미 light",
+      "빼미스로우 light"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; narrow eyes, medium size, level outer corners, wide-set; thick low brows; long nose with low tip; wide mouth."
+  },
+  "workflow_fallback": "Thumbnail workflow failed on pre-existing 빼미스로우_heavy_overdrive_glossy_promo_f.webp. Requested thumbnails generated with unchanged tools/make-thumbs.py; no unrelated images changed."
+}

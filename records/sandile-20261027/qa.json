@@ -1,0 +1,228 @@
+{
+  "light": {
+    "identity": {
+      "match": true,
+      "evidence": "Warm brown skin, dark brown low bun, uneven side fringe, heavy chin and narrow amber eyes. Black stripes cross ochre plates. Two gloved arms hang independently and two legs end in grounded boots."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Warm brown skin, dark brown low bun, uneven side fringe, heavy chin and narrow amber eyes. Black stripes cross ochre plates. Two gloved arms hang independently and two legs end in grounded boots."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "casual1": {
+    "identity": {
+      "match": true,
+      "evidence": "In a sunlit mirrored practice room, she checks a bent-hand dance gesture over her shoulder. Sand cropped dance top and high-waisted black shorts show midriff and legs; a small blurred mirror reflection is background, not another performer."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Raised hand has four fingers in a relaxed gesture with the thumb partly occluded across palm; lowered hand has one inner thumb and four separated fingers.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. In a sunlit mirrored practice room, she checks a bent-hand dance gesture over her shoulder. Sand cropped dance top and high-waisted black shorts show midriff and legs; a small blurred mirror reflection is background, not another performer."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "Her back is toward the mirror and her face looks over her shoulder toward the viewer."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Crop includes upper thighs rather than face_close."
+    },
+    "expression": {
+      "match": false,
+      "evidence": "Eyes are narrowed but more alert than sleepy; recorded without regeneration."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Raised relaxed dance hand and mirror show a practice pose."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Bare shoulders, open back, midriff and short legs remain visible."
+    }
+  },
+  "light_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Light pose, subject scale, hand positions and desert cliffs persist; slim plates lift along orange inner channels and eyes remain amber."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Light pose, subject scale, hand positions and desert cliffs persist; slim plates lift along orange inner channels and eyes remain amber."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "mobility": {
+    "identity": {
+      "match": true,
+      "evidence": "Streamlined ochre fins and orange emitter nodes outline shoulders and hips; two knees lead into long shin shells without extra limbs."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Streamlined ochre fins and orange emitter nodes outline shoulders and hips; two knees lead into long shin shells without extra limbs."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "casual2": {
+    "identity": {
+      "match": true,
+      "evidence": "A midnight-blue one-shoulder gown with crystal stars, gold sash and crescent headpiece on a starry studio set. One hand gathers her skirt and the other rests on a brass pedestal; front and back feet are separate in sandals."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Skirt-grip hand: thumb opposes curled fingers, distal digits partly hidden in fabric; pedestal hand: thumb at inner edge and fingers partly occluded by brass rim. Sandal toes counted five on front foot, rear foot foreshortened.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. A midnight-blue one-shoulder gown with crystal stars, gold sash and crescent headpiece on a starry studio set. One hand gathers her skirt and the other rests on a brass pedestal; front and back feet are separate in sandals."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    },
+    "orientation": {
+      "match": false,
+      "evidence": "Torso is mostly upright rather than leaning toward camera."
+    },
+    "framing": {
+      "match": true,
+      "evidence": "Full figure and the crystal-star studio set are visible."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "One lip corner lifts slightly beneath angled brows."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Crystal stars and a crescent prop frame the star-goddess costume pose."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Asymmetric neckline, one bare shoulder, side waist and thigh slit remain visible; chest/pelvis covered."
+    }
+  },
+  "heavy": {
+    "identity": {
+      "match": true,
+      "evidence": "Broader stacked ochre shells cover shoulders, chest, thigh and knees; narrow eyes and low bun match light. Both gloves remain separate from the large forearm guards."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Broader stacked ochre shells cover shoulders, chest, thigh and knees; narrow eyes and low bun match light. Both gloves remain separate from the large forearm guards."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "casual3": {
+    "identity": {
+      "match": true,
+      "evidence": "In a lined ochre crochet halter bikini, she sits on a towel on a wooden dock and dips her feet in clear water. One arm supports her on the towel and the other is occluded behind her body; two crossed lower legs continue from separate knees."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Supporting hand on towel shows thumb beside four fingers; far hand is hidden behind the torso. Front foot has five visible toes through water; other foot partly overlaps behind the shin.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. In a lined ochre crochet halter bikini, she sits on a towel on a wooden dock and dips her feet in clear water. One arm supports her on the towel and the other is occluded behind her body; two crossed lower legs continue from separate knees."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "Shoulders lean back and one straight supporting arm reaches the dock."
+    },
+    "framing": {
+      "match": true,
+      "evidence": "Hair, both knees and feet in the water are inside the frame."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Relaxed brows and distant upward gaze read reflective."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Towel, dock edge and toe tips beneath the ripples show her testing the water."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Halter top, bare midriff and high-cut bikini bottom match the planned crochet swimsuit."
+    }
+  },
+  "heavy_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Stacked outer plates separate around shoulders, hips and shins, with bright orange light below. Boot and wrist positions follow heavy."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Stacked outer plates separate around shoulders, hips and shins, with bright orange light below. Boot and wrist positions follow heavy."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "mobility_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Vent plates spread along existing shoulder/hip emitter channels, exposing orange inner frame while keeping her stance and face unchanged."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both close-fitting gloves have one thumb and four fingers; curled fingers are foreshortened, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and hand/foot enlargements visually checked. Vent plates spread along existing shoulder/hip emitter channels, exposing orange inner frame while keeping her stance and face unchanged."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified a 1024×1536 WebP; original PNG sha256 is recorded."
+    }
+  },
+  "diversity": {
+    "pass": true,
+    "evidence": "Mirror rehearsal in shorts; full-length star costume in a crystal set; seated crochet swimwear on a sunlit dock differ in place, activity, garment and framing. Compared all three with Basculin casuals and actual casuals of 모크나이퍼, 나몰빼미, 빼미스로우. Wasm duplicate check passed; nearest score 221 exceeds rejection threshold 215."
+  }
+}
