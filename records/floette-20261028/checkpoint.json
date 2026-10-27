@@ -1,0 +1,39 @@
+{
+  "stage": "generated_and_reviewed_partial",
+  "generated": 6,
+  "requested": 9,
+  "light": {
+    "card": "플라엣테",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "dbb0e0886657c496e24b0309ba46f609e33f9a6547d3c6a32737050fd1e990fe",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "플라엣테_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a",
+      "git_blob": "d8aaf25ff859ece3cb28179dfd4de9910df09443"
+    }
+  },
+  "face_rationale": "Compact rounded jaw and small delicate nose interpret the small single-flower guardian; long half-up hair echoes its leaf and shared evolution family.",
+  "face_source": "data/face-design.json; data/source-appearance.json; docs/CHARACTER_FACE_DESIGNS.md",
+  "final_face_line": "FACE (her own structure, not the style's default face): compact face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, level outer corners, average spacing; straight medium brows; small delicate nose; bow-shaped upper lip.",
+  "compared_characters": [
+    "플라베베",
+    "형사구스",
+    "턱지충이",
+    "전지충이"
+  ],
+  "original_policy": "PNG session-only; only hashes, UI, prompts, QA and WebP published",
+  "manifest": "classification.json"
+}
