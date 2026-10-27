@@ -1,0 +1,468 @@
+{
+  "session": "torracat-incineroar-20261027-fb112",
+  "batch": {
+    "session": "torracat-incineroar-20261027-fb112",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "냐오히트",
+        "species": "torracat-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "floor_organizing",
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "pose": "sitting_floor",
+            "expr": "half_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "nineties_slip",
+            "garments": [
+              "cardigan",
+              "dress",
+              "slip"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "contrapposto",
+            "expr": "sensual",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "spa_wellness",
+            "ex": "rotenburo_edge",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "leaning_furniture",
+            "expr": "confident",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "partner_care",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top",
+            "trousers",
+            "cardigan",
+            "slip"
+          ],
+          "orient": [
+            "looking_down",
+            "profile_close",
+            "front"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "어흥염",
+        "species": "incineroar-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "steampunk_fair",
+            "garments": [
+              "blouse",
+              "lingerie_set",
+              "skirt"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "cross_legged",
+            "expr": "bored",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "satin_teddy",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "low_angle",
+            "frame": "environmental",
+            "pose": "leaning_wall",
+            "expr": "smug",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "retro_astronaut",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "hand_on_hip",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "seated_twist",
+            "low_angle",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "floor_organizing",
+      "garments": [
+        "knit_top",
+        "trousers"
+      ],
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "pose": "sitting_floor",
+      "expr": "half_smile",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "halter neck"
+      ],
+      "lead": "place",
+      "example_text": "kneeling on the floor to sort folded clothes into a low drawer",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A low oak drawer sits beside a woven sorting basket in a sunlit dressing room; she slides a folded linen garment into the drawer.",
+          "reason": "Specific objects, light and activity added to this example: A low oak drawer sits beside a woven sorting basket in a sunlit dressing room; she slides a folded linen garment into the drawer."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal halter knit top in a very short cropped length exposes shoulders and midriff, with rust-red low-rise tapered trousers.",
+          "reason": "The planned knit_top,trousers use mini length, halter neck through this design: A charcoal halter knit top in a very short cropped length exposes shoulders and midriff, with rust-red low-rise tapered trousers."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to A low oak drawer sits beside a woven sorting basket in a sunlit dressing room; she slides a folded linen garment into the drawer.",
+        "source_influence": "strong is reflected in A charcoal halter knit top in a very short cropped length exposes shoulders and midriff, with rust-red low-rise tapered trousers.",
+        "separates_preference": "prefer separates corresponds to knit_top,trousers"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "nineties_slip",
+      "garments": [
+        "cardigan",
+        "dress",
+        "slip"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "contrapposto",
+      "expr": "sensual",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "a 1990s minimal satin slip dress with thin straps under a small cropped cardigan, at a city loft party",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Turning a small crystal party glass in her fingers, she pauses beside the loft's brick window while amber pendant lights catch the satin.",
+          "reason": "Specific objects, light and activity added to this example: Turning a small crystal party glass in her fingers, she pauses beside the loft's brick window while amber pendant lights catch the satin."
+        },
+        {
+          "field": "outfit",
+          "content": "An orange-red satin slip dress has a plunging neckline and high thigh slit; the small charcoal cropped cardigan hangs open below her shoulders.",
+          "reason": "The planned cardigan,dress,slip use high thigh slit, plunging neckline through this design: An orange-red satin slip dress has a plunging neckline and high thigh slit; the small charcoal cropped cardigan hangs open below her shoulders."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to Turning a small crystal party glass in her fingers, she pauses beside the loft's brick window while amber pendant lights catch the satin.",
+        "source_influence": "subtle is reflected in An orange-red satin slip dress has a plunging neckline and high thigh slit; the small charcoal cropped cardigan hangs open below her shoulders.",
+        "separates_preference": "balanced corresponds to cardigan,dress,slip"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "spa_wellness",
+      "ex": "rotenburo_edge",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "front",
+      "frame": "chest_up",
+      "pose": "leaning_furniture",
+      "expr": "confident",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "sitting on the stone edge of an open-air hot spring in a swimsuit, feet in the steaming water, snow on the rocks",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Blue twilight and lantern reflections spread over the snow-lined rocks; she rests both hands on the dry stone beside her hips.",
+          "reason": "Specific objects, light and activity added to this example: Blue twilight and lantern reflections spread over the snow-lined rocks; she rests both hands on the dry stone beside her hips."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal open-back one-piece swimsuit has a generous connected waist cutout exposing the midriff, with orange seam piping.",
+          "reason": "The planned swimsuit use bare midriff, open back through this design: A charcoal open-back one-piece swimsuit has a generous connected waist cutout exposing the midriff, with orange seam piping."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced is matched to Blue twilight and lantern reflections spread over the snow-lined rocks; she rests both hands on the dry stone beside her hips.",
+        "source_influence": "strong is reflected in A charcoal open-back one-piece swimsuit has a generous connected waist cutout exposing the midriff, with orange seam piping.",
+        "separates_preference": "balanced corresponds to swimsuit"
+      }
+    }
+  ],
+  "check": "Planner check and stamp verification passed before casual submissions.",
+  "reservation_commit": "d773a30f89bcfdcaf17a1a5f2c222af5a1d99db5",
+  "compared_actual_images": [
+    "나몰빼미 casual1-3",
+    "빼미스로우 casual1-3",
+    "드레디어 casual1-3"
+  ],
+  "storage_method": "Shared Git blob:none objects, task branch/worktree and sparse necessary metadata. Omitted image names read from Git trees; no image placeholders.",
+  "replanning_reason": "Excluded breakfast_bed because assigned garment conflicted with example satin pyjamas; excluded standing pose for floor sorting and incompatible activity angles."
+}

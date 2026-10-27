@@ -1,0 +1,104 @@
+{
+  "card": "냐오히트",
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "anchor": {
+    "card": "냐오히트",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/fb1121de16a7/generated_images/exec-cedb270a-5fe2-4033-8586-aa869f5e8626.png",
+    "original_sha256": "38d39a44c42ce78e7c8ec337ff4b815f606f0556b40130567e4d638d4265d613",
+    "identity_or_form_reference": [],
+    "prompt": "light-correction-prompt.txt",
+    "ui": "light-correction-ui.json",
+    "output": {
+      "file": "냐오히트_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "de9809e71911c924e95e10afd3cfde57b4212ec2c41e40a8585dc0b351d504b7"
+    }
+  },
+  "face_design": {
+    "name": "냐오히트",
+    "en": "Torracat",
+    "line": "냐오불",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "angled brows",
+      "nose character": "rounded soft tip",
+      "lips": "medium lips"
+    },
+    "why": "성장한 고양이의 강해진 체적을 타원 얼굴와 굵은 눈썹으로 구분한다.",
+    "cues": [
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 굵고 눈 가까이 낮은 → 바깥에서 꺾이는 사선",
+    "hair": {
+      "hairstyle": "windswept",
+      "hair length": "medium",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "불꽃 타입에서 바람에 날린 듯한 스타일(층 낸 컷) · 중간 길이 · 끝을 불규칙하게 친 앞머리 — 냐오불에서 이어 같은 묶음",
+    "hair_cues": [
+      "불꽃 타입 → 헤어스타일 바람에 날린 듯한 스타일"
+    ]
+  },
+  "source_evidence": {
+    "name": "냐오히트",
+    "en": "Torracat",
+    "color": "red",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "vertical stripe"
+      },
+      {
+        "part": "fur",
+        "detail": "dark gray fur"
+      },
+      {
+        "part": "iris",
+        "detail": "yellow irises"
+      },
+      {
+        "part": "tail",
+        "detail": "thicker tail"
+      },
+      {
+        "part": "nose",
+        "detail": "tiny triangular white nose"
+      },
+      {
+        "part": "claw",
+        "detail": "short black claws"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Torracat_%28Pok%C3%A9mon%29",
+    "revision": 4630098,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "fe886aff5c6fc5e4836be605ab1817208718aa9e7e70d0425ea53f418757fa45",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_comparison": "Compared rendered anchor with 빼미스로우, 나몰빼미, 드레디어: narrower eyes and angled brows, broad separation, oval cheeks distinguish Torracat; Incineroar uses a heavier jaw and sharper lifted eye corners. No style change.",
+  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed."
+}
