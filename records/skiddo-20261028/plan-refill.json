@@ -1,0 +1,247 @@
+{
+  "user_request": "메이클은 다른 계획으로 재생성",
+  "scope": "Missing casual3 only",
+  "reservation_commit": "243d2175cdcbb3e9e785567940ccc916324793a2",
+  "batch": {
+    "session": "skiddo-gogoat-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고고트",
+        "species": "gogoat-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "expr": "nostalgic",
+            "pose": "turning_back",
+            "orient": "front",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "rooftop_party",
+            "expr": "laughing_open",
+            "pose": "cross_legged",
+            "orient": "reclining",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "nightlife",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "메이클",
+        "species": "skiddo-20261028",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "rashguard_set",
+            "expr": "candid",
+            "pose": "standing_formal",
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "halter neck",
+              "high-cut leg"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "cyber_street",
+            "expr": "unimpressed",
+            "pose": "carrying_something",
+            "orient": "profile_close",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "gala_red_carpet",
+            "ex": "front_row",
+            "garments": [
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "direct_inputs": {
+    "scene": "A polished runway extends past the front-row seats; she studies the lighting composition with a folded programme resting on her lap.",
+    "outfit": "A sculptural charcoal mini dress with a bronze-edged halter neck and an overlapping high thigh slit, paired with simple bronze sandals."
+  },
+  "reason": "Replace traditional private indoor rest with public fashion-week runway observation; changes place, activity, wardrobe and seated composition.",
+  "axis_reasons": {
+    "action_level": "Held moment while observing the runway.",
+    "source_influence": "One subtle bronze/leaf accent keeps the couture look readable.",
+    "separates_preference": "A single sculptural dress is a balanced one-piece silhouette."
+  }
+}

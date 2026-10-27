@@ -1,6 +1,6 @@
 {
-  "stage": "reviewed_partial",
-  "generated": 8,
+  "stage": "reviewed_all_nine",
+  "generated": 9,
   "requested": 9,
   "light": {
     "card": "메이클",
@@ -38,8 +38,37 @@
     "전지충이"
   ],
   "original_policy": "PNG remains session-only; records preserve hashes and exact prompts.",
-  "blocked_slots": [
-    "casual3"
-  ],
-  "manifest": "classification.json"
+  "blocked_slots": [],
+  "manifest": "classification.json",
+  "refill": {
+    "slot": "casual3",
+    "classification": {
+      "card": "메이클",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "User-requested new plan; actual prompt.html planner query and form controls; built-in image_gen",
+      "original_sha256": "b5a77c3cddc2de5ee3ac0d36d4bc73bf435cdad3a7d1b5cd8d8085824099eb98",
+      "references": [
+        {
+          "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+        }
+      ],
+      "prompt": "casual3-refill-prompt.txt",
+      "ui": "casual3-refill-ui.json",
+      "output": {
+        "file": "메이클_glossy_promo_f_casual3.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "feea3346ec20535491a95cd9f3ea46e8e12327855e488e09b3e796793c4bd35c",
+        "git_blob": "e17741d7bf912f7757b20fed3316be662734f6c2"
+      }
+    },
+    "original_failure_preserved": "casual3-failure.json"
+  }
 }

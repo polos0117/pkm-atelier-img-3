@@ -1,0 +1,32 @@
+{
+  "slot": "casual3",
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "b5a77c3cddc2de5ee3ac0d36d4bc73bf435cdad3a7d1b5cd8d8085824099eb98",
+  "observations": [
+    "Same brown-and-white medium shaggy hair and adult facial identity.",
+    "Charcoal halter mini dress, crossed legs, programme and front-row seating establish runway observation.",
+    "Background audience and runway model silhouettes are blurred; the personification remains the only foreground subject.",
+    "Both legs and sandal-clad feet connect coherently; chin hand and programme hand are connected to their arms. Programme obscures lower-hand fingertips; curled-finger contours around its lower-right edge are ambiguous."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Chin hand has naturally curled and overlapping digits; lower hand and thumb partly occluded by programme; right edge contours noted above.",
+    "overlay_checked": false,
+    "note": "Original image and enlarged hand crop inspected; no automatic regeneration."
+  },
+  "diversity_comparison": {
+    "compared": [
+      "메이클 casual1",
+      "메이클 casual2",
+      "플라베베",
+      "형사구스",
+      "턱지충이",
+      "전지충이"
+    ],
+    "evidence": "Front-row seated legs-crossed scene and formal dress differ from the shoreline standing swimsuit and rainy street parcel outfit; prior comparison contact sheet reviewed.",
+    "casual_look": "passed; nearest existing cut score 279, above rejection threshold 215."
+  }
+}
