@@ -1,0 +1,106 @@
+{
+  "card": "히드런",
+  "slot": "casual2",
+  "operation": "User-directed local anatomy edit with built-in image_gen, not a new lifestyle scene plan",
+  "original_generator_storage": {
+    "last": "히드런",
+    "cards": {
+      "히드런": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "smug",
+            "pose": "dressing_up",
+            "orient": "over_shoulder",
+            "scene": "The penthouse dressing alcove has a velvet chair, a tall mirror and a small earring dish beside an evening bag after her return from a party.",
+            "outfit": "A copper satin strapless mini dress with a plunging neckline, and a short charcoal coat draped over the chair; the dress exposes her shoulders and upper chest.",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "private_evening",
+            "catCustom": "",
+            "ex": "after_party",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "Use case: precise-object-edit.\nImage 1 is the edit target, the copper evening-dress illustration. Image 2 is the approved light-form woman, used only to preserve her identity.\nCorrect the impossible rear arm in Image 1: the hand on the left of the image reaches an earring from behind her back with no believable shoulder-to-elbow connection. Remove that rear-reaching hand and forearm completely and reconstruct a relaxed, anatomically readable two-arm pose.\nKeep the same adult woman, copper long hair and bangs, amber eyes, face, body proportions, copper satin strapless mini dress, amber earrings, charcoal coat on the velvet chair, dressing table, mirror, evening bag, night city lights and glossy illustration style. Turn only her upper body and seated pose enough toward a natural front three-quarter view to make both shoulders and arm paths readable, while retaining the same seated dressing-table scene and expression.\nOnly one hand adjusts an earring: the arm beneath the visible ear on the left side of the image begins at its own visible shoulder, drops to a lowered elbow beside her ribs, then bends gently upward along the front/side of her torso to bring that hand to the earring. The upper arm, elbow, forearm and wrist must form a continuous natural chain, never passing behind her back. Her other arm drops from the opposite shoulder and bends normally so that its relaxed hand rests on the dressing table near the earring dish. No second raised hand near her face. Exactly two connected arms and two hands, with one thumb and four fingers each, no detached hand, extra limb or crossed-back reach. Arrange her hair so it does not conceal the repaired shoulder and elbow.\nPreserve 1024x1536 portrait resolution. One woman; no added people, text or watermark.",
+  "user_request": "펄기아 일상 1번 가슴 사이에서 나오는 손, 히드런 일상 2번 등 뒤 귀걸이 손 구도를 확인하고 수정해 재반영",
+  "prior_qa_correction": "Previous review counted hands but missed the shoulder-elbow-wrist continuity defect."
+}

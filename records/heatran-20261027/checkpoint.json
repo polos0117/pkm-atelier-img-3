@@ -45,5 +45,15 @@
     "latest_code_pages": "success",
     "prior_code_pages_500": "Superseded by successful new deployment 40423240152"
   },
-  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images"
+  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images",
+  "replacements": [
+    {
+      "slot": "casual2",
+      "record": "records/heatran-casual2-armfix-20261027",
+      "old_sha256": "8ffc41a29deed943d7325e1840d8098bb619eccbed0254bffd78cde0e952831c",
+      "new_sha256": "3bc1f1833f08ddb44432d5b6b9bca9adcf419901d1cdefb16c065907abd8ae3c",
+      "reason": "Rear-reaching earring arm had no believable shoulder-elbow connection",
+      "status": "visually accepted; publication pending"
+    }
+  ]
 }

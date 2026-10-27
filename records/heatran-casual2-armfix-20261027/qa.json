@@ -1,0 +1,63 @@
+{
+  "card": "히드런",
+  "slot": "casual2",
+  "accepted": true,
+  "reviewer": "gpt",
+  "original_sha256": "f9b0e5087575e4ba9e659917b114d75db136fc82948fbb72ee96a04c8fc41049",
+  "previous_public_sha256": "8ffc41a29deed943d7325e1840d8098bb619eccbed0254bffd78cde0e952831c",
+  "new_public_sha256": "3bc1f1833f08ddb44432d5b6b9bca9adcf419901d1cdefb16c065907abd8ae3c",
+  "previous_review_erratum": "The prior QA incorrectly accepted the arm reaching the earring from behind her back; shoulder-elbow-wrist continuity was not checked thoroughly. This targeted replacement supersedes that finding.",
+  "checks": {
+    "arm_chains": {
+      "match": true,
+      "evidence": "Image-left shoulder leads downward into upper arm and lowered elbow, then visible forearm rises to one wrist and hand at the earring. Image-right arm descends along the far side of the torso and reaches the vanity, with hand relaxed over table edge. No arm reaches behind the back."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "Two hands only. Raised hand thumb/index pinch beside earring with remaining fingers curled; resting hand thumb is separate from four descending fingers. Enlarged original crops inspected."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Same copper long straight hair, blunt bangs, amber eyes, facial proportions and adult body as approved light form."
+    },
+    "scene": {
+      "match": true,
+      "evidence": "Copper evening dress, coat on velvet chair, vanity, earring dish, evening bag and night skyline retained; single figure."
+    },
+    "pose_change": {
+      "match": true,
+      "evidence": "User-requested repair rotates torso to front three-quarter view to expose arm construction. Original over-shoulder selection is deliberately superseded for anatomy correction."
+    }
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe not installed, actual attempt exited 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Five digits per hand, some flexed/overlapped naturally. No detached or extra hand. Lower legs/feet cropped.",
+    "overlay_checked": false,
+    "note": "Whole upper body and separate 1.5x crops of both arm chains and hands visually inspected."
+  },
+  "output": {
+    "file": "히드런_glossy_promo_f_casual2.webp",
+    "format": "WebP",
+    "size": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6,
+    "sha256": "3bc1f1833f08ddb44432d5b6b9bca9adcf419901d1cdefb16c065907abd8ae3c"
+  },
+  "references": [
+    {
+      "role": "edit target",
+      "path": "generated_images/exec-d1e6b183-ce38-44f0-95ed-9811484199ea.png",
+      "sha256": "3b1cd5d46fe2ccd00999c52e2ca0856b8b3d6d34eceac071524824f5d6e67f7c"
+    },
+    {
+      "role": "approved identity only",
+      "path": "generated_images/exec-da20899c-6567-4257-9c56-ed1c4b89d25f.png",
+      "sha256": "4e452bb6d59c200a49a41d23f59d3b13b58f49c0eacc4c322410b217314f01f5"
+    }
+  ]
+}
