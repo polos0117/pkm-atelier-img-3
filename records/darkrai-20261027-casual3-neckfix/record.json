@@ -1,0 +1,50 @@
+{
+  "card": "다크라이",
+  "slot": "casual3",
+  "type": "user_requested_local_edit",
+  "request": "다크라이 일상컷3번에 고개가 돌아간게 과해. 수정해줘.",
+  "source_prompt": "records/darkrai-20261027/casual3-prompt.txt",
+  "source_ui": "records/darkrai-20261027/casual3-ui.json",
+  "generator_selections_changed": false,
+  "edit_instruction": "Reduce neck rotation by turning head toward image-right, following torso and sternum, looking toward balcony. Keep the existing scene.",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "role": "edit target",
+      "file": "다크라이_glossy_promo_f_casual3.webp",
+      "sha256": "b8bb64e568ecc3ec5a1885668dbc3249670c40f6aeb0683aee71362e10749aba"
+    },
+    {
+      "role": "identity only",
+      "file": "다크라이_light_glossy_promo_f.webp",
+      "sha256": "efc85b6733536f407e191415fd7c5524cde0b46b9beb3af93c87257a06c3e390"
+    }
+  ],
+  "original_session_only": "/workspace/scratch/cf2320b4ff1f/generated_images/exec-0b5695c8-fb66-49f3-a2a1-0e78be77ae97.png",
+  "original_sha256": "72bc5b9e83ceaa79bc427f1cb06605810276de2294e5f22369835d8d9123fdd9",
+  "output": {
+    "file": "다크라이_glossy_promo_f_casual3.webp",
+    "format": "WebP",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6,
+    "sha256": "c2b86a751ac200d7a57a2f18c6a45af5597b2c0d5b3c1b9c3788564ba0d5d190"
+  },
+  "qa": {
+    "neck_head": "Nose and chin now clearly point image-right; head follows chest direction with little tilt. Jaw sits above neck rather than across near shoulder. Natural neck-to-shoulder line.",
+    "identity": "Same narrow face, reddish eyes and long black/red/white hair; shaved temple is partly obscured from this corrected viewing angle.",
+    "preserved": "Seated torso, hands together on lap, folded legs, garnet opaque slip with lace, velvet bench, moon, towers, lighting and crop retained.",
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed, as verified earlier in this environment",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two continuous forearms and overlapping hands on lap; curved fingers and thumb partly hidden by overlap. Both knees fold into the same seat; feet partly under lace hem.",
+      "overlay_checked": false,
+      "note": "Manual full original and enlarged head/neck/shoulder and hand/leg review."
+    },
+    "accepted": true
+  }
+}
