@@ -1,0 +1,118 @@
+{
+  "card": "플라베베",
+  "anchor": {
+    "card": "플라베베",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html UI and captured unmodified prompt; built-in image_gen",
+    "original_session_path": "/workspace/scratch/2c6e4110460a/generated_images/exec-387a40d0-5f06-46b5-94f8-1ab3c81be8ae.png",
+    "original_sha256": "22b9535869e5cd2c9db6923fa315f90e42da0bc0b397a48e0ef15036a04f6be6",
+    "references": [],
+    "output": {
+      "file": "플라베베_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1a9fbc47e77d604ab6098597801e5a2afd62e9647b1e9fb84565f684b2643e5b"
+    }
+  },
+  "face_reason": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다.",
+  "source_evidence": {
+    "name": "플라베베",
+    "en": "Flabébé",
+    "color": "white",
+    "shape": "arms",
+    "features": [
+      {
+        "part": "tail",
+        "detail": "peduncle-like tail"
+      },
+      {
+        "part": "leaf",
+        "detail": "three small leaves"
+      },
+      {
+        "part": "petal",
+        "detail": "five rounded petals"
+      },
+      {
+        "part": "arm",
+        "detail": "stubby arms"
+      },
+      {
+        "part": "nose",
+        "detail": "small, pointed nose"
+      },
+      {
+        "part": "ear",
+        "detail": "heart-shaped ears"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Flab%C3%A9b%C3%A9_%28Pok%C3%A9mon%29",
+    "revision": 4610871,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "e712a256f23774973b17c60f26b3aa17c70a2cacab1619914e7f218043d321b1",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "플라베베",
+    "en": "Flabébé",
+    "line": "플라베베",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "straight slender bridge",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "",
+    "cues": [
+      "‘heart-shaped ears’ → 얼굴형 이마가 넓고 턱이 가는 하트형",
+      "‘small, pointed nose’ → 코 곧고 가는 콧대",
+      "‘heart-shaped ears’ → 입술 윗입술이 활 모양인"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 크고 또렷한 코 → 곧고 가는 콧대",
+    "hair": {
+      "hairstyle": "half-up",
+      "hair length": "medium",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘three small leaves’·‘five rounded petals’에서 반묶음(묶은 꼬리) · 중간 길이 · 커튼뱅",
+    "hair_cues": [
+      "‘three small leaves’ → 헤어스타일 반묶음"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, level outer corners, average spacing; long arched brows; straight slender bridge nose; bow-shaped upper lip.",
+  "compared_characters": [
+    "모아머",
+    "마디네",
+    "쉐이미",
+    "레오꼬"
+  ],
+  "batches": [
+    "anchor accepted",
+    "heavy and mobility accepted",
+    "three matching-composition overdrives accepted",
+    "three casuals accepted"
+  ],
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "originals": "PNG session only; original and final WebP hashes retained in classification.json"
+}

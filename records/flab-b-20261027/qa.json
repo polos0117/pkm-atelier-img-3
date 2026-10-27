@@ -1,0 +1,340 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "sha256": "22b9535869e5cd2c9db6923fa315f90e42da0bc0b397a48e0ef15036a04f6be6",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 어깨·팔뚝·허리·정강이의 슬림한 갑판 한 겹."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "sha256": "6a789aa9422bad37d0c500764797e379b152e8cdf287d076cdabfb5643e1da68",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 어깨·팔·허벅지·정강이에 두껍고 넓은 판이 겹쳐 큰 외곽선을 형성."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "sha256": "944a8af3ec48834096c17c1e0dadc06279415468c1ffcdb276499f5cd58054ac",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 어깨·허리·종아리 판이 뒤로 갈라져 열린 윤곽과 추진 장치를 형성."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "sha256": "884882257adbe3585ae6b4d4b49ba45e68b652b99130f4fd5a93913485fb7f24",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 분홍빛 요정 광채가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "sha256": "6dc9ea62673a1daeb4e1ef0d051e42c643e229f851452c0cd053420dc9935eff",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 분홍빛 요정 광채가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "sha256": "2fc38d4295cc15b4b59c728be3a53e675dd370fdd946e0bf76e7b81c55326e9f",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "흰색·금색 갑판과 꽃잎 어깨 장식, 녹색 잎 모양 허리 판과 늘어지는 리본. 밝은 꽃 기둥 사이에서 두 팔을 벌리고 전신이 보인다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 분홍빛 요정 광채가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 열린 손바닥의 엄지는 위, 검지는 밖으로 뻗고 세 손가락은 아래로 자연스럽게 굽는다. 화면 오른쪽 손등 방향의 손은 엄지와 네 손가락이 겹쳐 굽으며, 손 두 개가 각 손목에서 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "sha256": "19e81cf6690ea61d3ac97b2f302f7bb9ce805abe1f09f2e5b3a8b03c66307185",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "햇살 드는 낮은 작업대에서 작은 종이학을 양손으로 접는다. 앞에는 완성된 학 여러 개와 종이가 놓여 있다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "계획의 측면 얼굴보다 앞 3/4에 가깝고 가슴 위보다 넓게 허리와 바지 윗부분이 보인다. 크림색 한쪽 어깨 크롭 탱크톱과 세이지색 바지가 분리되고 어깨·복부가 드러남. 방향·프레이밍 차이는 기록만 한다."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가까운 손은 엄지가 종이 뒤에 가려지고 네 손가락이 날개를 따라 굽혀져 있다. 반대 손도 엄지·네 손가락이 종이 양쪽에서 자연스럽게 겹친다. 추가 손·분리된 손가락 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "계획의 측면 얼굴보다 앞 3/4에 가깝고 가슴 위보다 넓게 허리와 바지 윗부분이 보인다. 크림색 한쪽 어깨 크롭 탱크톱과 세이지색 바지가 분리되고 어깨·복부가 드러남. 방향·프레이밍 차이는 기록만 한다. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "sha256": "00046d59a3f0d5cfba938b1774a44b8f45a5543eaa2e9d5e35ca7315a33a6e20",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "꽃이 핀 정원에서 이브이 한 마리에게 열매를 내밀고 다른 손은 이브이 머리를 쓰다듬는다. 앞에는 열매 담긴 먹이 그릇이 있다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "얼굴 클로즈업 계획보다 넓게 무릎까지 담긴다. 고개를 숙여 눈길이 이브이로 향하고 눈썹이 안쪽으로 모인다. 민트색 짧은 탱크톱의 등·옆구리와 크림색 바지가 구분되며 다리 아랫부분은 바지와 바닥 자세에 가려진다."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명과 이브이 한 마리가 서로 분리됨."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 아래 손은 엄지·검지로 열매를 잡고 나머지 세 손가락은 아래로 굽혀 겹친다. 뒤쪽 손의 손등과 굽힌 네 손가락은 이브이 귀 사이에 놓이고 엄지는 털 뒤에 가려진다. 두 손이 각각 팔꿈치·팔뚝에서 연결되며 이브이 몸과 합쳐지지 않는다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "얼굴 클로즈업 계획보다 넓게 무릎까지 담긴다. 고개를 숙여 눈길이 이브이로 향하고 눈썹이 안쪽으로 모인다. 민트색 짧은 탱크톱의 등·옆구리와 크림색 바지가 구분되며 다리 아랫부분은 바지와 바닥 자세에 가려진다. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "sha256": "e946c699e4ce6b122415ee7d0fde882ff30f7dd65f8f8ab895be2c767f84a94d",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "크림색 반묶음과 커튼 앞머리, 부드러운 턱선·수평 아몬드 눈·활 모양 윗입술. 화염레오의 올라간 눈꼬리·뾰족한 턱보다 부드럽고, 쉐이미의 크고 둥근 눈보다 길고 가늘며 마디네의 짧은 눈썹·짧은 얼굴과도 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "진열된 옷과 화장대가 보이는 피팅룸에서 쪼그려 앉아 발목 팔찌의 잠금 장치를 양손으로 맞춘다. 옆에 아이보리 플랫 슈즈가 놓인다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "연분홍 브라렛과 하이컷 브리프가 불투명하게 가려야 할 곳을 덮는다. 기하학적 스트랩과 옆구리 컷아웃, 한쪽 올린 무릎·반대쪽 굽힌 다리와 발 두 개가 구분된다. 확대에서 각 발가락 다섯을 확인."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 엄지와 검지가 작은 팔찌 잠금 고리를 집고, 나머지 세 손가락은 손바닥 쪽으로 자연스럽게 굽혀 겹친다. 두 팔이 어깨·팔꿈치·손목을 거쳐 각 손까지 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "연분홍 브라렛과 하이컷 브리프가 불투명하게 가려야 할 곳을 덮는다. 기하학적 스트랩과 옆구리 컷아웃, 한쪽 올린 무릎·반대쪽 굽힌 다리와 발 두 개가 구분된다. 확대에서 각 발가락 다섯을 확인. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "actual_comparison_images": [
+      "모아머",
+      "마디네",
+      "쉐이미",
+      "레오꼬"
+    ],
+    "evidence": "진열된 옷과 화장대가 보이는 피팅룸에서 쪼그려 앉아 발목 팔찌의 잠금 장치를 양손으로 맞춘다. 옆에 아이보리 플랫 슈즈가 놓인다. | 햇살 드는 낮은 작업대에서 작은 종이학을 양손으로 접는다. 앞에는 완성된 학 여러 개와 종이가 놓여 있다. | 꽃이 핀 정원에서 이브이 한 마리에게 열매를 내밀고 다른 손은 이브이 머리를 쓰다듬는다. 앞에는 열매 담긴 먹이 그릇이 있다. 장소·활동·옷 실루엣·몸 방향이 실제로 구분됨. 비교 대상의 수영장·카메라 촬영·발레·산장 열쇠·고리 던지기·라테 서빙과 주 활동이 겹치지 않음.",
+    "look_check": "generated_images/exec-c5706748-eef6-433d-9715-93c0f69abc8f.png — 가까운 컷 0장(점수 245 미만)\n     283  꼬몽울_glossy_promo_f_casual3.webp\n     292  가디안_glossy_promo_f_casual3.webp\n     292  비비용_glossy_promo_f_casual1.webp\ngenerated_images/exec-886060df-b621-497b-ae2e-a8329a43fbc5.png — 가까운 컷 2장(점수 245 미만)\n     236  버터플_glossy_promo_f_casual3.webp\n     241  두코_glossy_promo_f_casual3.webp\n     257  가디안_glossy_promo_f_casual3.webp\ngenerated_images/exec-31b23bb9-4eb0-4b33-b848-a49d6144a325.png — 가까운 컷 0장(점수 245 미만)\n     253  딥상어동_glossy_promo_f_casual1.webp\n     276  야느와르몽_glossy_promo_f_casual3.webp\n     279  주리비얀_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}
