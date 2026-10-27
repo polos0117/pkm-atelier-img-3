@@ -1,0 +1,112 @@
+{
+  "status": "ready_for_publication",
+  "card": "냐오불",
+  "anchor": {
+    "card": "냐오불",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-e508b11c-430f-4998-94eb-1ead42e3b0f9.png",
+    "original_sha256": "16dfa7c78d06c1c87a4d5690c7971a0f2c24f4a1d520695f9031ea1f16b8794a",
+    "identity_or_form_reference": [],
+    "prompt": "light-correction-prompt.txt",
+    "ui": "light-correction-ui.json",
+    "output": {
+      "file": "냐오불_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "226345a1259d99857783b73e2674a60ceb93b9a1cb6fe03e9677195ab6070f05"
+    }
+  },
+  "face_reason": "작은 고양이의 귀와 가는 눈을 작은 턱과 올라간 눈매로 옮긴다.",
+  "face_comparison": [
+    "모크나이퍼",
+    "나몰빼미",
+    "빼미스로우"
+  ],
+  "observed": "Heart-shaped face with tapered chin, upturned sharp amber eyes and fuller lower lip differs from the long narrow Decidueye face and round-cheek Rowlet. Short black/red wolf cut remains distinct.",
+  "hands": "Both open palms show one thumb and four long separated fingers. Earlier curled-hand image rejected.",
+  "generated": 9,
+  "requested": 9,
+  "face_design": {
+    "name": "냐오불",
+    "en": "Litten",
+    "line": "냐오불",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "small delicate nose",
+      "lips": "fuller lower lip"
+    },
+    "why": "작은 고양이의 귀와 가는 눈을 작은 턱과 올라간 눈매로 옮긴다.",
+    "cues": [
+      "‘short, pointed ears’ → 눈꼬리 각도 올라간 눈꼬리"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 사이가 넓은 → 눈 하나 너비 안팎, 입술 얇은 입술 → 아랫입술이 더 도톰한",
+    "hair": {
+      "hairstyle": "wolf cut",
+      "hair length": "short",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘large tuft’·키 0.4m에서 층감이 강한 울프컷(층 낸 컷) · 짧은 머리 · 끝을 불규칙하게 친 앞머리",
+    "hair_cues": [
+      "‘large tuft’ → 헤어스타일 층감이 강한 울프컷",
+      "키 0.4m → 머리 길이 짧은 머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "냐오불",
+    "en": "Litten",
+    "color": "red",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "two red stripes"
+      },
+      {
+        "part": "fur",
+        "detail": "primarily black fur"
+      },
+      {
+        "part": "nose",
+        "detail": "tiny, black nose"
+      },
+      {
+        "part": "muzzle",
+        "detail": "short muzzle"
+      },
+      {
+        "part": "ear",
+        "detail": "short, pointed ears"
+      },
+      {
+        "part": "tuft",
+        "detail": "large tuft"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Litten_%28Pok%C3%A9mon%29",
+    "revision": 4630065,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "336bc89dcd91aecf4cd5953720c226f32622b09ef2c9f1c99bbff30b881f8b12",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed."
+}

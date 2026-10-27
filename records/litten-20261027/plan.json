@@ -1,0 +1,332 @@
+{
+  "session": "decidueye-litten-20261027-91ea",
+  "batch": {
+    "session": "decidueye-litten-20261027-91ea",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "냐오불",
+        "species": "litten-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "magician_assistant",
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "orient": "over_shoulder",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "half_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_cablecar",
+            "expr": "curious",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_flowercrown",
+            "expr": "laughing_open",
+            "pose": "turning_back",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "homewear",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "vest"
+          ],
+          "orient": [
+            "over_shoulder"
+          ],
+          "frame": [
+            "chest_up"
+          ]
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "magician_assistant",
+      "garments": [
+        "skirt",
+        "vest"
+      ],
+      "orient": "over_shoulder",
+      "frame": "chest_up",
+      "pose": "carrying_something",
+      "expr": "half_smile",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "example_text": "a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat; presenting a prop magic box with one open hand on a theater stage",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A warm follow-spot illuminates a velvet-covered prop box beside the theater curtains, with tiny points of light glittering over its brass corners.",
+          "reason": "Specific local objects/time supplement the chosen example: A warm follow-spot illuminates a velvet-covered prop box beside the theater curtains, with tiny points of light glittering over its brass corners."
+        },
+        {
+          "field": "outfit",
+          "content": "A red sequined leotard-style top is layered with an asymmetric black tailcoat-cut vest and a short split skirt; side cutouts and a single-shoulder construction reveal the waist and shoulders. Fitted gloves and a miniature top hat complete the stage costume.",
+          "reason": "Planned skirt,vest and side cutouts, one-shoulder cut are expressed through A red sequined leotard-style top is layered with an asymmetric black tailcoat-cut vest and a short split skirt; side cutouts and a single-shoulder construction reveal the waist and shoulders. Fitted gloves and a miniature top hat complete the stage costume."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced is matched to A warm follow-spot illuminates a velvet-covered prop box beside the theater curtains, with tiny points of light glittering over its brass corners.",
+        "source_influence": "strong is reflected in A red sequined leotard-style top is layered with an asymmetric black tailcoat-cut vest and a short split skirt; side cutouts and a single-shoulder construction reveal the waist and shoulders. Fitted gloves and a miniature top hat complete the stage costume.",
+        "separates_preference": "prefer separates corresponds to skirt,vest"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "travel_exploration",
+      "ex": "travel_cablecar",
+      "expr": "curious",
+      "pose": "perched_seat",
+      "orient": "looking_away",
+      "frame": "face_close",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "Gazing out of a cable car window over a misty valley, one hand on the window rail and a small daypack on the seat.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning light slides through the cable-car window, with mountain ridges receding into blue haze beyond the glass.",
+          "reason": "Specific local objects/time supplement the chosen example: Morning light slides through the cable-car window, with mountain ridges receding into blue haze beyond the glass."
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal short overalls have an asymmetric single shoulder strap and curved side cutouts over a fitted red bandeau.",
+          "reason": "Planned overalls and one-shoulder cut, side cutouts are expressed through Charcoal short overalls have an asymmetric single shoulder strap and curved side cutouts over a fitted red bandeau."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to Morning light slides through the cable-car window, with mountain ridges receding into blue haze beyond the glass.",
+        "source_influence": "balanced is reflected in Charcoal short overalls have an asymmetric single shoulder strap and curved side cutouts over a fitted red bandeau.",
+        "separates_preference": "balanced corresponds to overalls"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_flowercrown",
+      "expr": "laughing_open",
+      "pose": "turning_back",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "action",
+      "example_text": "Weaving a crown of fresh flowers at a spring flower-festival workshop table.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Weaving fresh daisies and marigolds into a spring crown, she gathers the pliant stems over a pale wooden workshop table.",
+          "reason": "Specific local objects/time supplement the chosen example: Weaving fresh daisies and marigolds into a spring crown, she gathers the pliant stems over a pale wooden workshop table."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless red bandeau sits beneath black overall shorts with a cropped bib and a folded-down upper panel, exposing shoulders, waist sides and thighs; simple ankle boots complete the outfit.",
+          "reason": "Planned overalls and cropped hem, strapless top are expressed through A strapless red bandeau sits beneath black overall shorts with a cropped bib and a folded-down upper panel, exposing shoulders, waist sides and thighs; simple ankle boots complete the outfit."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active is matched to Weaving fresh daisies and marigolds into a spring crown, she gathers the pliant stems over a pale wooden workshop table.",
+        "source_influence": "balanced is reflected in A strapless red bandeau sits beneath black overall shorts with a cropped bib and a folded-down upper panel, exposing shoulders, waist sides and thighs; simple ankle boots complete the outfit.",
+        "separates_preference": "balanced corresponds to overalls"
+      }
+    }
+  ],
+  "check": "Planner check and reservation stamp verification passed before submission.",
+  "reservation_commit": "a1c9f3c2f35dfdd715db9dd4e258fa2730ecea55",
+  "kept_semantics": "Unchanged reserved selections were retained during replanning; kept is not a claim that an image existed at planning time.",
+  "compared_actual_images": [
+    "나몰빼미 casual1-3",
+    "빼미스로우 casual1-3",
+    "드레디어 casual1-3",
+    "모크나이퍼 casual1-3"
+  ],
+  "storage_method": "Shared Git blob:none objects, task branches/worktrees and sparse metadata. Omitted image names read from Git trees; no placeholder image bytes."
+}
