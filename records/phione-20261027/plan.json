@@ -1,0 +1,438 @@
+{
+  "session": "cresselia-phione-20261027-5571",
+  "batch": {
+    "session": "cresselia-phione-20261027-5571",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "크레세리아",
+        "species": "cresselia-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "sport_cotton",
+            "expr": "sensual",
+            "pose": "sitting_floor",
+            "orient": "reclining",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_tart",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "front",
+            "frame": "three_quarter",
+            "pose": "preparing_food",
+            "expr": "relieved",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_parade",
+            "expr": "surprised",
+            "pose": "stretching",
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [
+            "front"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "피오네",
+        "species": "phione-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "gown_fitting",
+            "expr": "confident",
+            "pose": "hands_in_hair",
+            "orient": "low_angle",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "roller_disco",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "contrapposto",
+            "expr": "pensive",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "spa_wellness",
+            "ex": "jjimjilbang",
+            "expr": "flustered",
+            "pose": "holding_cup",
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "robe"
+            ],
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "high_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "bridal",
+      "ex": "gown_fitting",
+      "expr": "confident",
+      "pose": "hands_in_hair",
+      "orient": "low_angle",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "halter neck"
+      ],
+      "lead": "place",
+      "example_text": "standing on a fitting platform in an open-back wedding gown while the bodice is pinned, a long mirror beside her",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The bridal atelier has a circular fitting platform, a long mirror edged with warm bulbs and pinned fitting marks along the gown bodice.",
+          "reason": "Adds the specific setting absent from the example: The bridal atelier has a circular fitting platform, a long mirror edged with warm bulbs and pinned fitting marks along the gown bodice."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque pearl-blue halter wedding dress with an open back and high thigh slit, exposing her back and leg.",
+          "reason": "Specifies planned garments, material and exposed areas: An opaque pearl-blue halter wedding dress with an open back and high thigh slit, exposing her back and leg."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: The bridal atelier has a circular fitting platform, a long mirror edged with warm bulbs and pinned fitting marks along the gown bodice.",
+        "source_influence": "subtle is carried by this cut's material and color: An opaque pearl-blue halter wedding dress with an open back and high thigh slit, exposing her back and leg.",
+        "separates_preference": "balanced fits this cut's construction: dress"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "roller_disco",
+      "garments": [
+        "trousers"
+      ],
+      "orient": "high_angle",
+      "frame": "full_body",
+      "pose": "contrapposto",
+      "expr": "pensive",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "mini length"
+      ],
+      "lead": "place",
+      "example_text": "1970s satin hot pants and a tube top on roller skates, gliding through a roller disco",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The roller rink has a curved rail and a checkerboard floor reflecting violet and aqua light beneath a mirrored disco ball.",
+          "reason": "Adds the specific setting absent from the example: The roller rink has a curved rail and a checkerboard floor reflecting violet and aqua light beneath a mirrored disco ball."
+        },
+        {
+          "field": "outfit",
+          "content": "A white tube top and blue satin hot pants cut as mini-length short trousers with small side cutouts, exposing her shoulders, waist and thighs, plus white roller skates.",
+          "reason": "Specifies planned garments, material and exposed areas: A white tube top and blue satin hot pants cut as mini-length short trousers with small side cutouts, exposing her shoulders, waist and thighs, plus white roller skates."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: The roller rink has a curved rail and a checkerboard floor reflecting violet and aqua light beneath a mirrored disco ball.",
+        "source_influence": "strong is carried by this cut's material and color: A white tube top and blue satin hot pants cut as mini-length short trousers with small side cutouts, exposing her shoulders, waist and thighs, plus white roller skates.",
+        "separates_preference": "prefer separates fits this cut's construction: trousers"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "spa_wellness",
+      "ex": "jjimjilbang",
+      "expr": "flustered",
+      "pose": "holding_cup",
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "robe"
+      ],
+      "expose": [
+        "mini length",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "in matching bathhouse loungewear with a towel folded into a small sheep-ear headband, sipping a sweet rice drink on a heated floor",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber light warms the salt-brick lounge and its heated floor, with condensation forming on a clear cup of sweet rice drink.",
+          "reason": "Adds the specific setting absent from the example: Amber light warms the salt-brick lounge and its heated floor, with condensation forming on a clear cup of sweet rice drink."
+        },
+        {
+          "field": "outfit",
+          "content": "Matching pale-blue bathhouse loungewear beneath a mini-length wrap robe worn with an off-shoulder neckline, exposing her shoulders and thighs; a cotton towel makes the sheep-ear headband.",
+          "reason": "Specifies planned garments, material and exposed areas: Matching pale-blue bathhouse loungewear beneath a mini-length wrap robe worn with an off-shoulder neckline, exposing her shoulders and thighs; a cotton towel makes the sheep-ear headband."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: Amber light warms the salt-brick lounge and its heated floor, with condensation forming on a clear cup of sweet rice drink.",
+        "source_influence": "subtle is carried by this cut's material and color: Matching pale-blue bathhouse loungewear beneath a mini-length wrap robe worn with an off-shoulder neckline, exposing her shoulders and thighs; a cotton towel makes the sheep-ear headband.",
+        "separates_preference": "balanced fits this cut's construction: robe"
+      }
+    }
+  ],
+  "check": "Planner check --fresh passed; reservation stamps verified.",
+  "reservation_commit": "e69e27cb1de9dd49a4640acfe063622e48ffa43d",
+  "tool": "built-in image_gen",
+  "storage_method": "Shared blob:none Git repositories, isolated sparse worktrees. Filename-only inventory scans use temporary /dev/null links representing exact tracked HEAD paths; actual comparison WebPs and required UI metadata are materialized. Inventory links are never staged or published.",
+  "replans": [
+    {
+      "slot": "casual2",
+      "scene": "swimwear/oring_bikini",
+      "count": 1,
+      "request_id": "51d570d1-2f31-4b32-b0b3-5bf7f31ebf58",
+      "reason": "Output moderation_blocked sexual",
+      "resolution": "Distinct retro roller-disco scene planned and reserved, rejected request not repeated."
+    },
+    {
+      "slot": "casual2",
+      "scene": "retro_glamour/roller_disco",
+      "count": 1,
+      "reason": "Chest-up request rendered thigh-up; roller skates and clear glide activity not visible.",
+      "resolution": "Planner reselected full_body with high_angle; final image contains two skates and a paused glide."
+    }
+  ]
+}

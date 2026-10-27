@@ -1,0 +1,123 @@
+{
+  "card": "피오네",
+  "anchor": {
+    "card": "피오네",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selection and captured prompt; built-in image_gen",
+    "original_session_only": "/workspace/scratch/5571d80c47c0/generated_images/exec-1af5942b-c9d7-42b7-a531-4d66e21c299c.png",
+    "original_sha256": "c26988e87e0bb62669905b4808d9d6e768675b11f07937956ba93e9088d05ba4",
+    "references": [],
+    "output": {
+      "file": "피오네_light_glossy_promo_f.webp",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1c4f93b6688b5ed7e911e96394c42fde0884300252351aa1f83b28bff63cbdc4"
+    }
+  },
+  "face_design": {
+    "name": "피오네",
+    "en": "Phione",
+    "line": "피오네",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "short rounded brows",
+      "nose character": "small delicate nose",
+      "lips": "small mouth"
+    },
+    "why": "둥근 머리와 작은 해양 몸을 둥근 볼과 부드러운 타원 눈으로 해석한다.",
+    "cues": [
+      "‘round head’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘round head’ → 얼굴 길이 짧은 얼굴",
+      "‘round head’ → 얼굴 폭 넓은 얼굴",
+      "‘round head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘round head’ → 눈매 큰 눈",
+      "‘round head’ → 눈썹 짧고 둥근"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 짧고 둥근 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 굵은 곱슬 → 잔곱슬 / 아프로",
+    "hair": {
+      "hairstyle": "tight curls",
+      "hair length": "short",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘round head’·키 0.4m에서 잔곱슬 / 아프로(웨이브·곱슬) · 짧은 머리 · 커튼뱅",
+    "hair_cues": [
+      "‘round head’ → 헤어스타일 잔곱슬 / 아프로",
+      "키 0.4m → 머리 길이 짧은 머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "피오네",
+    "en": "Phione",
+    "color": "blue",
+    "shape": "arms",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "two blue, circular markings"
+      },
+      {
+        "part": "gem",
+        "detail": "red, oval gem"
+      },
+      {
+        "part": "iris",
+        "detail": "gray irises"
+      },
+      {
+        "part": "line",
+        "detail": "thin black line"
+      },
+      {
+        "part": "head",
+        "detail": "round head"
+      },
+      {
+        "part": "body",
+        "detail": "tiny body"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Phione_%28Pok%C3%A9mon%29",
+    "revision": 4613560,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "4c6fa3e969f8fdc66a1a987bb77837d6e123af61adec3ecc28185cb477963c00",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_reason": "둥근 머리와 작은 해양 몸을 둥근 볼과 부드러운 타원 눈으로 해석한다.",
+  "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, downturned outer corners, average spacing; short rounded brows; small delicate nose; small mouth.",
+  "comparison_characters": [
+    "비비용",
+    "레지기가스",
+    "기라티나",
+    "레오꼬",
+    "크레세리아"
+  ],
+  "face_comparison": "Short wide rounded face, round cheeks and small mouth with short blue tight curls; distinct from Cresselia's elongated oval face, prominent nose and very long straight hair, and the recent long-haired anchors.",
+  "family": "Neither has a normal evolution family; Phione compared with available Manaphy design if image exists.",
+  "batches": [
+    "approved anchor",
+    "heavy and mobility",
+    "three corresponding overdrives",
+    "three independent casuals"
+  ],
+  "published": false,
+  "manifest": "classification.json"
+}
