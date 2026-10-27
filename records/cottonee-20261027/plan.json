@@ -1,0 +1,539 @@
+{
+  "session": "cottonee-whimsicott-8904998",
+  "batch": {
+    "session": "cottonee-whimsicott-8904998",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "소미안",
+        "species": "cottonee-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "side_sitting",
+            "expr": "pensive",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "cold_plunge",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "standing_formal",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "bridal_shower",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "carrying_something",
+            "expr": "relieved",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "spa_wellness",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "reclining",
+            "low_angle",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "엘풍",
+        "species": "whimsicott-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "velvet_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "leaning_wall",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "flapper_party",
+            "expr": "flustered",
+            "pose": "hand_on_hip",
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "biker_cafe",
+            "expr": "smug",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "jacket",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "plunge_onepiece",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "reclining",
+      "frame": "environmental",
+      "pose": "side_sitting",
+      "expr": "pensive",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "strapless top"
+      ],
+      "lead": "action",
+      "example_text": "a one-piece swimsuit with a deep plunging V neckline and a secure wide band at the waist",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "plunge_onepiece",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "reclining",
+          "frame": "environmental",
+          "pose": "side_sitting",
+          "expr": "pensive",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "strapless top"
+          ],
+          "lead": "action"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She settles beside the pool steps at a white-stone garden pool, with pale leaves reflected in the afternoon water.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: She settles beside the pool steps at a white-stone garden pool, with pale leaves reflected in the afternoon water."
+        },
+        {
+          "field": "outfit",
+          "content": "A leaf-green strapless plunge one-piece swimsuit with a deeply folded center neckline and a tiny cotton-white piping detail.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A leaf-green strapless plunge one-piece swimsuit with a deeply folded center neckline and a tiny cotton-white piping detail."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for She settles beside the pool steps at a white-stone garden pool, with pale leaves reflected in the afternoon water.",
+        "source_influence": "strong implemented by A leaf-green strapless plunge one-piece swimsuit with a deeply folded center neckline and a tiny cotton-white piping detail.",
+        "separates_preference": "balanced follows the actual garment construction swimsuit"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "spa_wellness",
+      "ex": "cold_plunge",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "low_angle",
+      "frame": "face_close",
+      "pose": "standing_formal",
+      "expr": "confident",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "in a sporty swimsuit stepping down into a cold plunge tub after the sauna, breath sharp",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 2,
+          "cat": "spa_wellness",
+          "ex": "cold_plunge",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "low_angle",
+          "frame": "face_close",
+          "pose": "standing_formal",
+          "expr": "confident",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "halter neck"
+          ],
+          "lead": "light"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool dawn light glints on cedar and turquoise water at an outdoor cold-plunge tub.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Cool dawn light glints on cedar and turquoise water at an outdoor cold-plunge tub."
+        },
+        {
+          "field": "outfit",
+          "content": "A jade halter swimsuit with high-cut leg openings and creamy folded edging at the neckline.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A jade halter swimsuit with high-cut leg openings and creamy folded edging at the neckline."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for Cool dawn light glints on cedar and turquoise water at an outdoor cold-plunge tub.",
+        "source_influence": "strong implemented by A jade halter swimsuit with high-cut leg openings and creamy folded edging at the neckline.",
+        "separates_preference": "balanced follows the actual garment construction swimsuit"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "bridal",
+      "ex": "bridal_shower",
+      "garments": [
+        "dress"
+      ],
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "pose": "carrying_something",
+      "expr": "relieved",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "in a white off-shoulder mini dress and a sash, opening a gift box at a bridal shower table",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 3,
+          "cat": "bridal",
+          "ex": "bridal_shower",
+          "garments": [
+            "dress"
+          ],
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "pose": "carrying_something",
+          "expr": "relieved",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A flower-filled conservatory with a lace-covered bridal-shower table; her hands lift a loosened cream lid from the green-ribboned gift box on the table.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: A flower-filled conservatory with a lace-covered bridal-shower table; her hands lift a loosened cream lid from the green-ribboned gift box on the table."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory off-shoulder mini dress with petal-shaped hems and a soft green ribbon at the waist.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: An ivory off-shoulder mini dress with petal-shaped hems and a soft green ribbon at the waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced for A flower-filled conservatory with a lace-covered bridal-shower table; her hands lift a loosened cream lid from the green-ribboned gift box on the table.",
+        "source_influence": "balanced implemented by An ivory off-shoulder mini dress with petal-shaped hems and a soft green ribbon at the waist.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    }
+  ],
+  "check": "Planner batch check passed; reservation stamp verify passed before generation.",
+  "reservation_commit": "489b74c4fb5bfd492715ca84d7b421d8323ea904",
+  "compared_actual_images": [
+    "휠구 casual1–3",
+    "펜드라 casual1–3",
+    "화염레오 casual1–3",
+    "플라베베 casual1–3"
+  ],
+  "storage": "Shared blob:none Git metadata in /workspace/shared-git; task branch and sparse worktrees; inventory symlinks excluded from all publication manifests.",
+  "revisions": [
+    {
+      "slot": "casual3",
+      "reason": "Original output carried a closed wrapped gift, but selected bridal_shower example requires opening a gift box. Removed conflicting carrying instruction through actual UI; retained all planner selections.",
+      "prior_original_sha256": "b709982c71bf666e03a42f7d8d74dc882b77ce261c8465a5a0653b39ee8a2d19",
+      "changed_field": "scene",
+      "final_scene": "A flower-filled conservatory with a lace-covered bridal-shower table; her hands lift a loosened cream lid from the green-ribboned gift box on the table.",
+      "references": "Original light anchor only",
+      "result": "Opened box, raised lid and tissue visible; rechecked both hands."
+    }
+  ]
+}

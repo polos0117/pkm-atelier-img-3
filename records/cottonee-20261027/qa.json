@@ -1,0 +1,331 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Leaf-shaped slim green/white plates over fitted white undersuit; sky garden islands."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Both palms open, face toward camera; standing full body; head and two boots inside frame."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Broad layered leaf shoulder/chest/hip/shin plates with thicker gold rims."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Same sage hair and green eyes; full body and both boots visible; silhouette wider than light."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Long tapered shoulder/hip vanes and exposed ring thrusters at hips and boots."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Slender armor and hovering crossed legs; both feet visible, no weapon or helmet."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Seated on a folded pale mat beside white-stone garden pool and steps, afternoon light reflecting from water."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Green deep-V one-piece, shoulders and thighs bare; gaze angled down with lips held lightly apart; both knees folded to the same side. Selected reclining/environmental framing became upright side-sit and a nearer view; swimsuit uses fine straps instead of strapless construction. Foot tips meet right border; recorded without regeneration under rules."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Mat-supporting palm has thumb and four fingers; face-side hand has curled thumb below and four bent fingers. Two feet lie side by side; toe tips partly clipped at right edge.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Two thighs connect to two bent knees and folded shins; two adjacent feet, no third lower limb. Border clipping recorded."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Light plates separate to expose luminous green woven internal frame."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Camera, face size, arm/leg pose and scene match closed light; original green irises retained."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Tapered mobility fins separate, revealing bright green inner lattices and ring thrusters."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Same hovering leg position and camera as mobility; both gloves and boots readable."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Standing immersed in a cedar cold-plunge tub outdoors, water droplets on skin and cold pale morning sky."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "High-cut pale green halter one-piece exposes shoulders, side waist and upper thighs; low camera and chin slightly raised. face_close became a thigh-to-head crop; recorded, not regenerated."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left hand curls over cedar rim: four finger outlines, thumb partly behind rim/crop. Screen-right lowered hand has fingertips partly submerged; remaining digits hidden by perspective/water, no extra hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect naturally at shoulders and elbows; both thighs continue into water with lower legs occluded."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Heavy layered shoulder, hip and shin leaves hinge apart around green internal framing."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Same planted feet and open palms as heavy; no new cannon, weapon or helmet."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open glove: one thumb and four fingers. Screen-right downward glove: one thumb extends outward, four curved fingers, some overlap in depth; no detached hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Pale sage-green half-up hair with curtain fringe, wide-set green eyes, soft rounded jaw and bow-shaped lips stay consistent with light anchor."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Lifts the cream box lid at the flower-filled bridal-shower table, revealing green tissue and a golden gift inside."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "White off-shoulder petal mini dress with green waist ribbon, bare shoulders and thighs; high-angle camera and upturned green-eyed face; box visibly open. Sash absent and frame includes thighs; recorded as allowed detail differences."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-right upper hand curls over lid rim: thumb and four fingers with overlap. Screen-left lower hand pinches tissue paper: thumb opposing four curled fingers, partly obscured by tissue.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Two arms extend from correct shoulders through elbows to separate hand actions at lid and tissue; thighs below mini dress continue out of frame."
+      }
+    }
+  ],
+  "diversity": {
+    "compared_actual_images": [
+      "휠구",
+      "펜드라",
+      "화염레오",
+      "플라베베"
+    ],
+    "evidence": "Actual three scenes differ: seated wide garden-pool moment, wet cedar cold-plunge low-angle torso view, and high-angle flower-filled bridal shower carrying a gift. Recent comparison images show restaurant noodles, pirate telescope, nightlife gown, lantern festival, paper origami, Eevee feeding, bath/lingerie and motorcycle maintenance; none duplicates this complete sequence.",
+    "look_check": "generated_images/exec-1d86f6bf-1e57-4a77-8cb6-5dd28671b1e2.png — 가까운 컷 0장(점수 245 미만)\n     283  파비코_glossy_promo_f_casual2.webp\n     283  해루미_glossy_promo_f_casual1.webp\n     284  두르쿤_glossy_promo_f_casual3.webp\ngenerated_images/exec-1ed0f2fa-63f3-4d6e-8aa3-ce0e7657df62.png — 가까운 컷 0장(점수 245 미만)\n     272  야나키_glossy_promo_f_casual2.webp\n     273  대짱이_glossy_promo_f_casual1.webp\n     274  덩쿠리_glossy_promo_f_casual3.webp\ngenerated_images/exec-b9e11460-97fb-449b-b97d-3139083c2b8b.png — 가까운 컷 0장(점수 245 미만)\n     257  타만타_glossy_promo_f_casual2.webp\n     266  이상해씨_glossy_promo_f_casual1.webp\n     268  파르빗_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

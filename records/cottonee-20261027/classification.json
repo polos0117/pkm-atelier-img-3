@@ -1,0 +1,248 @@
+[
+  {
+    "card": "소미안",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+    "original_sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "소미안_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "821981850ac7901f7abcfdc7ca11060056912b687effdd613a2be713717abc69"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-e0f32d2d-980f-45ea-abd7-46a657217262.png",
+    "original_sha256": "1a545421ed5e29d57be8a64a5ffec99f357aaccb5058d5b354db9c73f33b822e",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "소미안_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "919613ed1814cb8b6d165704c4e808e92f541b360f88641c5309d098884b743c"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-079a8dc8-b161-4c55-96c3-fc5aee8ee494.png",
+    "original_sha256": "2a61055f7f13017210a14a276889b5304cdd00f65f658ce9e4d3601fdcd14e33",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "소미안_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0df2bcd6a7b1c3295972c2f6211ed6c2cb1c237f91a3753af98c6744011cf671"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-1d86f6bf-1e57-4a77-8cb6-5dd28671b1e2.png",
+    "original_sha256": "1845f4df7e119c865567e6ad5d67d68c3867a14a0182a64734a962a2f89b0a04",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "소미안_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1b1c228819a2210c465015935efd292f3d447210f9e59afef8e409c901329f8a"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-641d6f72-f099-4911-bc81-ed15bc842ace.png",
+    "original_sha256": "0c1a41021ef31006b001cc86a12e6d0302fb414a8d0a5005fdfbef37efb97b49",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "소미안_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "8d7d9ff7b92cd7aa6efe57b13f90438be7c1ec135985bc92d779ad599848e6e4"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-e7f5258d-e00f-43c1-a6b7-19385624f19f.png",
+    "original_sha256": "03d4526bff6c01908ce9d3e1da97d4a2f0e36bd54461fe62b860399f22f645bd",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-079a8dc8-b161-4c55-96c3-fc5aee8ee494.png",
+        "sha256": "2a61055f7f13017210a14a276889b5304cdd00f65f658ce9e4d3601fdcd14e33"
+      },
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "소미안_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "ea024fb9cc6c0b539f1dc35a3f2b96bb01eca854115760a1076b64ac4f9b24a6"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-1ed0f2fa-63f3-4d6e-8aa3-ce0e7657df62.png",
+    "original_sha256": "c5ea7d149d60f9452b50b5b23516e97c77151270ef38f4830dc6560488067134",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "소미안_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "6766b7b2946977d48aae625c84391ffe473ca20c1f5bfd134fa809ad0bdce270"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-f2fe70e4-bbcd-4fc8-8e31-3282b0f33f15.png",
+    "original_sha256": "e881433cffa83312096cb0e02467c4cf3fc57073cc99ec8245f71d4366bc1d8b",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-e0f32d2d-980f-45ea-abd7-46a657217262.png",
+        "sha256": "1a545421ed5e29d57be8a64a5ffec99f357aaccb5058d5b354db9c73f33b822e"
+      },
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "소미안_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "7652a02b25221a16a88e1916150c74393fe9ad02314b88fd0b5994b5f8fb8fa9"
+    }
+  },
+  {
+    "card": "소미안",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-b9e11460-97fb-449b-b97d-3139083c2b8b.png",
+    "original_sha256": "46727cb10cb6e28b0bb291bfab39e55a6d4a72b9054d6fa749b5566a28420a02",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-55072aec-5374-466a-8438-da431e32ba27.png",
+        "sha256": "d6973cbdace97f957dba4f5d0185e5c7e157085451a164e0856f30dc2a5e24d5"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "소미안_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "2c86482a70978682dc335772febb89d1ae1311abdc74ba0b9a45196efaf9c0e2"
+    }
+  }
+]
