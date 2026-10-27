@@ -1,0 +1,111 @@
+{
+  "card": "마디네",
+  "anchor": {
+    "card": "마디네",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html UI state and unchanged captured prompt; built-in image_gen",
+    "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-8423704f-ea60-47d9-b512-1aae1ea476b0.png",
+    "original_sha256": "54eb0ec023406c0f0580e025d6bfb982026c781276d677e654efede9521117c1",
+    "references": [],
+    "output": {
+      "file": "마디네_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1b630b1edabae7b5974235e1057b33631097909267f45ed09c9e1bff8132d9b3"
+    }
+  },
+  "face_reason": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다.",
+  "source_evidence": {
+    "name": "마디네",
+    "en": "Venipede",
+    "color": "red",
+    "shape": "armor",
+    "features": [
+      {
+        "part": "marking",
+        "detail": "black markings"
+      },
+      {
+        "part": "leg",
+        "detail": "stubby black legs"
+      },
+      {
+        "part": "ridge",
+        "detail": "prominent ridge"
+      },
+      {
+        "part": "eye",
+        "detail": "round, heavy-lidded eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Venipede_%28Pok%C3%A9mon%29",
+    "revision": 4624807,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "72ba4f38fc239b89cd6b4f4883daa23ea8d864df1f2fc6f9b98d1907fcef3088",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "마디네",
+    "en": "Venipede",
+    "line": "마디네",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "thick low brows",
+      "nose character": "small delicate nose",
+      "lips": "thin lips"
+    },
+    "why": "지네의 둥근 마디와 날카로운 뿔을 둥근 얼굴 안의 선명한 눈매로 해석한다.",
+    "cues": [
+      "키 0.4m → 얼굴 길이 짧은 얼굴",
+      "몸 형태 armor → 눈썹 굵고 눈 가까이 낮은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 굵고 눈 가까이 낮은 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 짧고 가벼운 픽시컷 → 옆/뒤를 밀어낸 언더컷",
+    "hair": {
+      "hairstyle": "undercut",
+      "hair length": "short",
+      "bangs": "asymmetric bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "몸 형태 armor에서 옆/뒤를 밀어낸 언더컷(짧은 컷) · 짧은 머리 · 좌우 길이가 다른 앞머리",
+    "hair_cues": [
+      "몸 형태 armor → 헤어스타일 옆/뒤를 밀어낸 언더컷",
+      "키 0.4m → 머리 길이 짧은 머리"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; narrow eyes, medium size, level outer corners, average spacing; thick low brows; small delicate nose; thin lips.",
+  "compared_characters": [
+    "두르보",
+    "두르쿤",
+    "쉐이미",
+    "아르세우스",
+    "다크라이"
+  ],
+  "batches": [
+    "anchor accepted",
+    "heavy and mobility accepted",
+    "three same-pose overdrives accepted",
+    "three independent casuals accepted"
+  ],
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "originals": "session only; original hashes and final WebP hashes in classification.json"
+}

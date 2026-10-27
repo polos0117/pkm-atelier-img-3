@@ -1,0 +1,48 @@
+{
+  "card": "마디네",
+  "slot": "casual1",
+  "user_request": "마디네 일상1번에 가방 들고있는 손의 구도가 이상해. 육안으로 확인 후 수정해줘.",
+  "base_commit": "0513ddebe6fd707fe29ca92109cccdfcc2bf0114",
+  "previous_published_sha256": "840804cd61960a57097dcb6b01697b519c37f82942439522ff98303b887cf8a8",
+  "observed_issue": "화면 왼쪽에서 배낭 끈을 잡는 손의 손목이 옆으로 심하게 꺾여 있고, 끈 뒤 위팔·팔꿈치 연결이 읽히지 않는다.",
+  "edit_scope": "같은 장면의 배낭 끈을 잡는 팔·손과 인접 끈만 부분 수정",
+  "mode": "built-in image_gen; precise-object-edit",
+  "reference_roles": [
+    {
+      "path": "generated_images/exec-0206756b-efb0-4f00-bb26-645f37dad0d4.png",
+      "role": "edit target, approved casual1 scene"
+    },
+    {
+      "path": "generated_images/exec-8423704f-ea60-47d9-b512-1aae1ea476b0.png",
+      "role": "identity reference only"
+    }
+  ],
+  "original_generator_ui": "../../casual1-ui.json",
+  "plan_changes": "none; original scene, wardrobe and selected controls retained",
+  "status": "accepted_for_publication",
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "수정 전후를 나란히 확대 검수: 배낭 쪽 손의 손목이 아래팔과 가까운 축으로 펴지고, 팔꿈치가 몸 옆으로 접힌다. 손은 검은 어깨 끈을 엄지와 나머지 손가락으로 감싼다. 끈·몸통 뒤로 위팔 일부와 손가락 끝이 가려지며 별도 손이나 셋째 팔은 없다. 열쇠 쪽 손과 팔, 얼굴·웃는 표정·머리·의상·산장·카메라 프레이밍은 유지된다.",
+  "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-ce9346f6-0d70-4654-bb1b-9ab9fc755e08.png",
+  "original_sha256": "d35dd1954724d627e815fae22989fd3174fd3bec718eeceb2ca15d7669cbdfe9",
+  "output": {
+    "file": "마디네_glossy_promo_f_casual1.webp",
+    "format": "WebP",
+    "size": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6,
+    "sha256": "47ba6c69280b31b75a4da3c2119997ac72c5cbd158b239b58c0be68c340dd903"
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "배낭 쪽 손의 엄지와 네 손가락은 끈을 감싸며 끝 일부가 가려짐. 손목·아래팔 연결을 확대 확인. 열쇠 쪽 손은 원본과 같고 두 손 모두 팔 끝에 연결됨.",
+    "overlay_checked": false,
+    "manual_original_and_crops_checked": true,
+    "note": "수정 전후를 나란히 확대 검수: 배낭 쪽 손의 손목이 아래팔과 가까운 축으로 펴지고, 팔꿈치가 몸 옆으로 접힌다. 손은 검은 어깨 끈을 엄지와 나머지 손가락으로 감싼다. 끈·몸통 뒤로 위팔 일부와 손가락 끝이 가려지며 별도 손이나 셋째 팔은 없다. 열쇠 쪽 손과 팔, 얼굴·웃는 표정·머리·의상·산장·카메라 프레이밍은 유지된다."
+  }
+}

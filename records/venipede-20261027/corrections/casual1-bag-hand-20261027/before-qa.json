@@ -1,0 +1,341 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "54eb0ec023406c0f0580e025d6bfb982026c781276d677e654efede9521117c1",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 어깨·팔뚝·정강이의 얇은 판 한 겹."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "47095d7f53e43d7c9c5b4477ae749ad51ea33bd32470c76d9870b737d196ef0e",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 어깨와 허리·정강이에 겹겹 판이 더해져 실루엣이 두꺼워짐."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "19414ad029f667e0bd7b875212657be301f310bc3cb5a32aa80f13c23e4587b6",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 어깨·허리의 판이 뒤로 갈라지며 원형 관절 센서가 보임."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "c530a253e0b194ca2773ea02607bd63a6865db58285f81cc7c8150d64b37fd7a",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 해당 닫힌 폼과 같은 자세·발 위치·얼굴 크기로 판 사이가 열리며 연두색 내부 프레임과 빛이 드러난다."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "73fa91408a1168e1780ce13cf6cb2f7290f8f87ba42d7cc672d6d72e305602e2",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 해당 닫힌 폼과 같은 자세·발 위치·얼굴 크기로 판 사이가 열리며 연두색 내부 프레임과 빛이 드러난다."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "0d63531ef0c2b85102d82e0783c43ac0d28a43f2bb671b414ae940fd4b95b384",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "적색 분절 판과 검은 슈트, 붉은 산업시설 배경. 해당 닫힌 폼과 같은 자세·발 위치·얼굴 크기로 판 사이가 열리며 연두색 내부 프레임과 빛이 드러난다."
+        },
+        "composition_and_expression": {
+          "match": true,
+          "evidence": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양쪽 장갑 손에 엄지와 네 손가락이 굽혀 겹침. 손 두 개가 손목에 붙고 제3의 손은 없다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본 및 손 확대 시트 검수. 두 팔과 두 다리가 어깨·골반에서 이어지고 발 두 개가 지면에 닿는다. 얼굴·머리·체형은 최초 경장과 동일. 개방에서 새 무기나 헬멧은 없음. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "a51d0148647b8f449625e633494787b51c47fdf342c136151fb76708b5442d7b",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "산이 보이는 목재 산장 카운터에서 나무 열쇠를 집는다. 한쪽 어깨에 등산 배낭이 걸려 있다."
+        },
+        "composition_and_expression": {
+          "match": null,
+          "evidence": "요청한 허리 위보다 넓게 허벅지까지 보임. 몸은 뒤 3/4로 돌고 얼굴은 카메라 쪽으로 돌아오며 웃는 입이 열려 있다. 붉은 미니 오버롤과 흰 상의가 분리됨."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 손은 배낭 끈을 잡아 다섯 손가락이 굽혀 겹치고, 화면 오른쪽 손은 열쇠를 집으며 엄지와 네 손가락이 자연스럽게 굽는다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "요청한 허리 위보다 넓게 허벅지까지 보임. 몸은 뒤 3/4로 돌고 얼굴은 카메라 쪽으로 돌아오며 웃는 입이 열려 있다. 붉은 미니 오버롤과 흰 상의가 분리됨. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "fd27af6fa9384fc533b5c6e545882d04b0bd62509b919f4a7ed99fc0caa3d090",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "등불이 켜진 축제 노점에서 파란 병을 향해 빨간 고리를 겨누고 다른 손에 고리 묶음을 들고 있다."
+        },
+        "composition_and_expression": {
+          "match": null,
+          "evidence": "계획의 가슴 위보다 넓게 무릎까지 담겼다. 기대 누운 방향 대신 앉아 앞으로 기울어진 자세, 호기심 표정 대신 집중한 눈. 노점 활동과 오버롤은 일치; 구도·표정 차이는 기록만 함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "가까운 손은 고리를 쥐어 손가락이 겹쳐 보이며, 무릎 쪽 손은 엄지가 고리 위·나머지 손가락이 아래에 모인다. 두 손 모두 각 팔 끝에 연결됨.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "계획의 가슴 위보다 넓게 무릎까지 담겼다. 기대 누운 방향 대신 앉아 앞으로 기울어진 자세, 호기심 표정 대신 집중한 눈. 노점 활동과 오버롤은 일치; 구도·표정 차이는 기록만 함. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "6691d3ddfefa0ca07e8588a3329c20f313817055d48871c67503f72db2a0e6f1",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 넓은 얼굴 안의 가늘고 낮은 눈매, 굵은 낮은 눈썹, 작은 코와 얇은 입술. 모아머의 부드러운 열린 아몬드 눈·긴 아치 눈썹과 다르고, 쉐이미·아르세우스의 긴 윤곽 및 다크라이의 긴 턱선과도 구분된다. 최초 경장의 머리색·머리 형태 유지."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "크림색 카운터와 케이크 진열장 앞에서 고양이 귀 머리띠와 자주색 앞치마 드레스를 입고 라테를 내민다."
+        },
+        "composition_and_expression": {
+          "match": null,
+          "evidence": "목을 과하게 틀지 않고 정면으로 웃으며 서 있다. 교차한 두 다리가 각각 발목과 구두로 이어진다. 트레이 대신 컵을 직접 잡음; 주요 라테 서빙 활동은 유지."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점이 맞은 주인공은 한 명이며 몸에 붙은 다른 사람이나 분리된 팔다리는 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본과 WebP를 Pillow로 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "컵 양쪽 손 두 개. 화면 왼쪽 손은 네 손가락이 컵 앞을 감싸고 엄지는 뒤로 가려짐. 화면 오른쪽 손도 손잡이 주변에 손가락이 굽혀 겹침.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "목을 과하게 틀지 않고 정면으로 웃으며 서 있다. 교차한 두 다리가 각각 발목과 구두로 이어진다. 트레이 대신 컵을 직접 잡음; 주요 라테 서빙 활동은 유지. 프레임 밖이나 의상·소품 뒤의 손가락·다리 부분은 가려짐으로 판단하며 보이는 것으로 꾸며 세지 않음."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "actual_comparison_images": [
+      "두르보",
+      "두르쿤",
+      "쉐이미",
+      "아르세우스",
+      "다크라이"
+    ],
+    "observations": "산장 카운터의 뒤돌아선 열쇠 받기, 축제 노점의 앉은 고리 던지기, 카페 정면 전신의 라테 서빙이 다르다. 첫 두 장은 오버롤이지만 붉은 배낭 여행복과 검은 축제 반바지·할터 블라우스, 몸 방향·팔 동작·카메라 범위가 구분된다. 비교 시트의 해변·독서·소파 휴식·기타 연주와도 주 활동이 구분된다.",
+    "look_check_file": "venipede-look.txt"
+  }
+}

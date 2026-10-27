@@ -107,5 +107,13 @@
   "generated": 9,
   "requested": 9,
   "status": "ready_for_publication",
-  "originals": "session only; original hashes and final WebP hashes in classification.json"
+  "originals": "session only; original hashes and final WebP hashes in classification.json",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "reason": "user requested bag-gripping hand/arm anatomy repair",
+      "record": "corrections/casual1-bag-hand-20261027/correction.json",
+      "output_sha256": "47ba6c69280b31b75a4da3c2119997ac72c5cbd158b239b58c0be68c340dd903"
+    }
+  ]
 }
