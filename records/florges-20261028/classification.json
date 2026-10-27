@@ -1,0 +1,252 @@
+[
+  {
+    "card": "플라제스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "플라제스_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e2190501d7a34969ac753697c91fddaa5e41d4f2c12183e90c722ed164eed2c0",
+      "git_blob": "2a43120231474db14a10dc02bb6752aa5d827f6a"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "929c5bbc60515b3f5e24c55b0279db309e39f9c7fad533c8160abe99f1c53379",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "플라제스_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b60e839d3592576ff5589cf905959bfba85cbfee9d61c347efcf40f2b2f5b4e6",
+      "git_blob": "26373d68454960fa13a6f28e7d8c63f5c2190d8d"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "c030bf2bf96e8c92e07046fcfe9068482f39cbef91905c26a643e9a945120047",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "플라제스_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "6267730d74958014887a2c4dbe5fcc178ad0ee1426e16a3cd5dabb9ad9cebacf",
+      "git_blob": "046d94474d13d6f3674fdecbe912c68dc8bbb28d"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "a0e828546d6687b680caf01d8b311cd4b62369d754fc703bb9b7b9b2b148f0b1",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "플라제스_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "9bd87d9ffeaf15147bf2e6772e92378328b47293cfef7b0644aa5b553a1d636c",
+      "git_blob": "d9f81dd3baf3794b9a5bea55a370227045a357ad"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "3fc6c4cb066584e5190023caa5e373d5e481b15cb5570765a6ba2cbe62e43b1f",
+    "references": [
+      {
+        "sha256": "929c5bbc60515b3f5e24c55b0279db309e39f9c7fad533c8160abe99f1c53379"
+      },
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "플라제스_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "47371a4f866d91a5de78d64df68d7d1f80cc816e07f0127bb1485e17650a41b7",
+      "git_blob": "698ce023b7d782ee033544e62096ffe788fa2304"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "0a8dd80e9b0c189c21b5011c690670419504e6aba7738dc3a9594ebea7cdf519",
+    "references": [
+      {
+        "sha256": "c030bf2bf96e8c92e07046fcfe9068482f39cbef91905c26a643e9a945120047"
+      },
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "플라제스_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b1521fd76dbde718924b2d2603b98c35f5b82bc9a395da44e26209874c92676f",
+      "git_blob": "a43852e443715e0b0e47ac63db06689c8f9dd8e9"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "aa91eb8062e47d6ed59eed0acf2e8e5c6f9a1813407fe6aa80034d7d019b9edb",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "플라제스_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "2c2c476ea174fad7a7d10270d3e85d9fe8cbe7c837afdc2f23f184468bed224e",
+      "git_blob": "b74acb7f5f492233eef3ab862d25bcd92581a0cb"
+    }
+  },
+  {
+    "card": "플라제스",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "41f153b3702621584321aa570541233754cfe6b9eef61d2c8fcbb2a2682117d5",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      },
+      {
+        "sha256": "40c2e8394a80b43fe08373ca61fbbc73825fd7badd385752b6e21bbf1fe5a980",
+        "role": "edit target"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "플라제스_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "cedc966cb68e3d49190c849f309c0347890bb07b0a895b2e04260ed2c1f688a4",
+      "git_blob": "8f9f500e4dd3f2944db2e87f22e0a1b68e77dfbf"
+    },
+    "partial_edit_prompt": "casual2-edit-prompt.txt"
+  },
+  {
+    "card": "플라제스",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "eb76a4b7309065f694bc2dcd1a87d6c88dca7228c8938b71c264ef819503ae7b",
+    "references": [
+      {
+        "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "플라제스_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "0e7d3d9fc91de6711defdcb96c88b1fa5e13420a4b23ccc3b700ab0347bbd6e8",
+      "git_blob": "2dd825cb67f3574e3bbec2c4dfe262c198a8f5b5"
+    }
+  }
+]

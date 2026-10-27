@@ -1,0 +1,40 @@
+{
+  "stage": "generated_and_reviewed",
+  "generated": 9,
+  "requested": 9,
+  "light": {
+    "card": "플라제스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "플라제스_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e2190501d7a34969ac753697c91fddaa5e41d4f2c12183e90c722ed164eed2c0",
+      "git_blob": "2a43120231474db14a10dc02bb6752aa5d827f6a"
+    }
+  },
+  "face_rationale": "A sharp jaw, angled brows, defined nose and thin lips distinguish the long-lived garden guardian from the rounded Floette face.",
+  "face_source": "data/face-design.json; data/source-appearance.json; docs/CHARACTER_FACE_DESIGNS.md",
+  "final_face_line": "FACE (her own structure, not the style's default face): sharp face, balanced length, medium width; balanced jawline; almond eyes, medium size, level outer corners, average spacing; angled brows; prominent defined nose; thin lips.",
+  "compared_characters": [
+    "플라베베",
+    "형사구스",
+    "턱지충이",
+    "전지충이",
+    "플라엣테"
+  ],
+  "original_policy": "PNG session-only; only hashes, UI, prompts, QA and WebP published",
+  "manifest": "classification.json"
+}

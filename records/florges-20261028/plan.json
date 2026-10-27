@@ -1,0 +1,569 @@
+{
+  "session": "floette-florges-20261028-9f79",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "플라제스",
+      "species": "florges-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "satellite_operator",
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "orient": "crouching",
+          "frame": "waist_up",
+          "pose": "one_knee_up",
+          "expr": "relieved",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "open back",
+            "mini length"
+          ],
+          "lead": "action",
+          "example_text": "Example scene: Pokémon migration researcher comparing seasonal habitat maps and observation photographs at a research station.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "She compares the wetland routes on a habitat map with a pair of migration photographs spread across a low research table; early light enters the field station.",
+              "reason": "Specify wetland-route comparison and research-table layout for the migration-study example."
+            },
+            {
+              "field": "outfit",
+              "content": "A short open-back research apron with white piping and dark green tailored culotte trousers cropped high on the thighs; the apron has a mini-length hem.",
+              "reason": "Implements planned garments apron,trousers with open back,mini length for satellite_operator."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool exposes no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "one_knee_up defines a held state during satellite_operator.",
+            "source_influence": "balanced colour and ornament treatment in A short open-back research apron with white piping and dark green tailored culotte trousers cropped high on the thighs; the apron has a mini-length hem.",
+            "separates_preference": "apron,trousers defines the satellite_operator silhouette."
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "everyday_sensual",
+          "ex": "mirror_selfie",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "side",
+          "frame": "three_quarter",
+          "pose": "hands_in_hair",
+          "expr": "calm",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail",
+          "example_text": "Example scene: checking her outfit in a full-length mirror, phone raised",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A slim green phone reflects the afternoon window light; a freestanding mirror rests against a pale dressing-room wall.",
+              "reason": "Specify the mirror, phone and window-light setting for the outfit-check activity."
+            },
+            {
+              "field": "outfit",
+              "content": "A white off-shoulder wide-leg jumpsuit with deep outer-thigh slits and leaf-green piping.",
+              "reason": "Implements planned garments jumpsuit with high thigh slit,off-shoulder neckline for mirror_selfie."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool exposes no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "hands_in_hair defines a held state during mirror_selfie.",
+            "source_influence": "balanced colour and ornament treatment in A white off-shoulder wide-leg jumpsuit with deep outer-thigh slits and leaf-green piping.",
+            "separates_preference": "jumpsuit defines the mirror_selfie silhouette."
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "deco_lounge",
+          "garments": [
+            "dress"
+          ],
+          "orient": "high_angle",
+          "frame": "chest_up",
+          "pose": "contrapposto",
+          "expr": "playful",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "side cutouts"
+          ],
+          "lead": "place",
+          "example_text": "Example scene: a 1920s bias-cut satin lounge gown, lighting a candle in an Art Deco hotel lounge",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A brass candleholder stands beside a geometric inlay screen in an Art Deco hotel lounge; dusk turns the tall windows blue.",
+              "reason": "Specify geometric screen, candleholder and dusk windows for the lounge candle-lighting activity."
+            },
+            {
+              "field": "outfit",
+              "content": "A pale rose bias-cut satin lounge gown with a plunging neckline and curved side cutouts, with a small green leaf brooch at the waist.",
+              "reason": "Implements planned garments dress with plunging neckline,side cutouts for deco_lounge."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool exposes no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "contrapposto defines a held state during deco_lounge.",
+            "source_influence": "strong colour and ornament treatment in A pale rose bias-cut satin lounge gown with a plunging neckline and curved side cutouts, with a small green leaf brooch at the waist.",
+            "separates_preference": "dress defines the deco_lounge silhouette."
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2,
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "jumpsuit"
+        ],
+        "orient": [
+          "crouching",
+          "side",
+          "high_angle"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "floette-florges-20261028-9f79",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "플라엣테",
+        "species": "floette-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_curry",
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "orient": "seated_twist",
+            "frame": "chest_up",
+            "pose": "perched_seat",
+            "expr": "focused",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "orient": "leaning_forward",
+            "frame": "full_body",
+            "pose": "kneeling",
+            "expr": "provocative",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "over_shoulder",
+            "frame": "environmental",
+            "pose": "side_sitting",
+            "expr": "proud",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "blouse",
+            "shorts",
+            "slip"
+          ],
+          "orient": [
+            "seated_twist",
+            "leaning_forward",
+            "over_shoulder"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "플라제스",
+        "species": "florges-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "satellite_operator",
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "one_knee_up",
+            "expr": "relieved",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "mini length"
+            ],
+            "lead": "action",
+            "example_text": "Example scene: Pokémon migration researcher comparing seasonal habitat maps and observation photographs at a research station.",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She compares the wetland routes on a habitat map with a pair of migration photographs spread across a low research table; early light enters the field station.",
+                "reason": "Specify wetland-route comparison and research-table layout for the migration-study example."
+              },
+              {
+                "field": "outfit",
+                "content": "A short open-back research apron with white piping and dark green tailored culotte trousers cropped high on the thighs; the apron has a mini-length hem.",
+                "reason": "Implements planned garments apron,trousers with open back,mini length for satellite_operator."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool exposes no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "one_knee_up defines a held state during satellite_operator.",
+              "source_influence": "balanced colour and ornament treatment in A short open-back research apron with white piping and dark green tailored culotte trousers cropped high on the thighs; the apron has a mini-length hem.",
+              "separates_preference": "apron,trousers defines the satellite_operator silhouette."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "mirror_selfie",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "side",
+            "frame": "three_quarter",
+            "pose": "hands_in_hair",
+            "expr": "calm",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail",
+            "example_text": "Example scene: checking her outfit in a full-length mirror, phone raised",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A slim green phone reflects the afternoon window light; a freestanding mirror rests against a pale dressing-room wall.",
+                "reason": "Specify the mirror, phone and window-light setting for the outfit-check activity."
+              },
+              {
+                "field": "outfit",
+                "content": "A white off-shoulder wide-leg jumpsuit with deep outer-thigh slits and leaf-green piping.",
+                "reason": "Implements planned garments jumpsuit with high thigh slit,off-shoulder neckline for mirror_selfie."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool exposes no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "hands_in_hair defines a held state during mirror_selfie.",
+              "source_influence": "balanced colour and ornament treatment in A white off-shoulder wide-leg jumpsuit with deep outer-thigh slits and leaf-green piping.",
+              "separates_preference": "jumpsuit defines the mirror_selfie silhouette."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "deco_lounge",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "pose": "contrapposto",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "side cutouts"
+            ],
+            "lead": "place",
+            "example_text": "Example scene: a 1920s bias-cut satin lounge gown, lighting a candle in an Art Deco hotel lounge",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A brass candleholder stands beside a geometric inlay screen in an Art Deco hotel lounge; dusk turns the tall windows blue.",
+                "reason": "Specify geometric screen, candleholder and dusk windows for the lounge candle-lighting activity."
+              },
+              {
+                "field": "outfit",
+                "content": "A pale rose bias-cut satin lounge gown with a plunging neckline and curved side cutouts, with a small green leaf brooch at the waist.",
+                "reason": "Implements planned garments dress with plunging neckline,side cutouts for deco_lounge."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool exposes no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "contrapposto defines a held state during deco_lounge.",
+              "source_influence": "strong colour and ornament treatment in A pale rose bias-cut satin lounge gown with a plunging neckline and curved side cutouts, with a small green leaf brooch at the waist.",
+              "separates_preference": "dress defines the deco_lounge silhouette."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron",
+            "jumpsuit"
+          ],
+          "orient": [
+            "crouching",
+            "side",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed by planner before reserve; verify stamps passed",
+  "reservation_commit": "a870aae2f139006695f9cd23e38e5ebaaeafe0ef",
+  "generation_tool": "built-in image_gen",
+  "corrections": [
+    {
+      "prompt_file": "casual2-edit-prompt.txt",
+      "prompt": "Edit target: the second reference image, the off-duty mirror outfit-check scene. Supporting identity reference: the first image, her approved LIGHT card. Preserve her identity, white half-up hair, face, age, outfit, mirror, room, framing, lighting and overall composition. Correct only the floating smartphone and its arm connection: the far arm on screen right bends naturally forward from her shoulder so its hand holds the green smartphone upright beside the mirror, with fingers naturally wrapped around the phone and the thumb visible on its side. Her near hand on screen left remains gathering her hair. Exactly two connected human arms. The phone must be visibly supported by the hand; keep a natural shoulder-elbow-wrist chain. Keep the reflection consistent with the corrected pose. One standalone vertical 2:3 image, 1024x1536.",
+      "reason": "Original phone floated unattached beside mirror.",
+      "references": [
+        {
+          "role": "identity reference",
+          "sha256": "550e85bacb07ac2449baf96f0bd28a1c2013701b6c3a66acc232ac47d2cd9a9d"
+        },
+        {
+          "role": "edit target",
+          "sha256": "40c2e8394a80b43fe08373ca61fbbc73825fd7badd385752b6e21bbf1fe5a980"
+        }
+      ],
+      "unchanged_ui": true
+    }
+  ]
+}
