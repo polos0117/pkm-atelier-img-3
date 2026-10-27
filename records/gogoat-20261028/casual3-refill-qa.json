@@ -1,0 +1,30 @@
+{
+  "slot": "casual3",
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "d6efbdb6db26f0f590dde819fcb31bbd5301dd7991f82be9ba3484bae157e9cb",
+  "observations": [
+    "Same long brown shaggy hair, amber eyes and adult facial identity.",
+    "Black-and-silver layered vest, lace cuffs, shorts, platform boots and soundcheck equipment establish the selected live-house styling.",
+    "She sits cross-legged on the cushion with two coherent arms and legs; one hand supports her cheek while the other rests on the crossed shins.",
+    "Chest-up selection rendered as full seated figure; recorded without regeneration."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Lower hand shows four fingers plus the thumb along its outer edge; cheek-supporting hand has naturally overlapped digits partly occluded by the face and hair.",
+    "overlay_checked": false,
+    "note": "Original and enlarged hand crops inspected; no detached hand or extra limb observed."
+  },
+  "diversity_comparison": {
+    "compared": [
+      "고고트 casual2",
+      "메이클 casual1",
+      "메이클 casual2",
+      "메이클 casual3 refill"
+    ],
+    "evidence": "Seated listening pose, black-and-silver styling and speaker/guitar equipment differ from raised-arm crimson circus preparation and Skiddo shoreline, street parcel and runway scenes.",
+    "casual_look": "passed; nearest existing cut score 309 > 215."
+  }
+}

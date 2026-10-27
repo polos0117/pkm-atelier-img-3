@@ -1,0 +1,178 @@
+{
+  "user_request": "고고트 일상도 다른 계획서로 다시 만들어줘",
+  "reservation_commit": "7ca47a2d1a8654461b563433a54f1861662f44dd",
+  "check": "passed; stamps verified",
+  "batch": {
+    "session": "skiddo-gogoat-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고고트",
+        "species": "gogoat-20261028",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "fantasy_costume",
+            "ex": "angel_devil",
+            "expr": "smug",
+            "pose": "sitting_floor",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "An autumn costume lounge has velvet floor cushions around a low table; she sorts folded party invitations beneath amber paper lanterns.",
+                "reason": "Adds an invitation-sorting activity and low table for the party costume example."
+              },
+              {
+                "field": "outfit",
+                "content": "A red satin mini dress with an asymmetric one-shoulder bodice and a draped off-shoulder neckline on the opposite side, a small horn headband, a ribbon tail prop and one white feathered wing prop over a shoulder.",
+                "reason": "Specifies asymmetric shoulder draping for the planned dress while preserving the example costume props."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "Held moment sorting invitations.",
+              "source_influence": "Costume motif echoes horns and the species palette.",
+              "separates_preference": "One-piece satin dress."
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "visual_kei",
+            "garments": [
+              "shorts",
+              "vest"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "half_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ],
+            "lead": "place",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Black acoustic panels and stacked speaker cases frame a low rehearsal platform; she listens to the soundcheck before taking the stage.",
+                "reason": "Adds a soundcheck listening moment and rehearsal equipment absent from the outfit-led example."
+              },
+              {
+                "field": "outfit",
+                "content": "A cropped black-and-silver brocade vest over an opaque off-shoulder black top, tailored shorts and lace cuffs; forest-green leaf stitching accents the vest lapels.",
+                "reason": "Defines the planned shorts and vest, opaque shoulder-cut top, lace cuffs and green embroidery."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool has no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "A paused moment listening to a soundcheck.",
+              "source_influence": "Forest-green leaf lapels keep source cues visible in the stage outfit.",
+              "separates_preference": "Shorts and vest are separate tailored garments."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shorts",
+            "vest"
+          ],
+          "orient": [
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "change_reason": "Different event settings, outfit silhouettes and activities replace the bridal dressing-room and rooftop-party plans.",
+  "generated_slots": [
+    "casual3"
+  ],
+  "blocked_slots": [
+    "casual1"
+  ],
+  "original_failures_preserved": [
+    "casual1-failure.json",
+    "casual3-failure.json",
+    "casual1-refill-failure.json"
+  ]
+}

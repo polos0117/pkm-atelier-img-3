@@ -1,16 +1,43 @@
 {
   "stage": "casual_partial",
-  "casual_generated": 1,
+  "casual_generated": 2,
   "casual_requested": 3,
   "uploaded_slots": [
-    "casual2"
+    "casual2",
+    "casual3"
   ],
   "blocked_slots": [
-    "casual1",
-    "casual3"
+    "casual1"
   ],
   "other_form_scope": "Existing local forms preserved; not resumed or uploaded.",
   "identity_reference_sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
   "identity_reference_session_only": "/workspace/scratch/7a533e57c7c1/generated_images/exec-049535cb-4425-4e23-afcb-deb3ad33ec54.png",
-  "manifest": "classification.json"
+  "manifest": "classification.json",
+  "last_refill_manifest": {
+    "card": "고고트",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "User requested different plans for missing casual cuts; actual prompt.html selections; built-in image_gen",
+    "original_sha256": "d6efbdb6db26f0f590dde819fcb31bbd5301dd7991f82be9ba3484bae157e9cb",
+    "reference": {
+      "sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
+      "session_only": true,
+      "role": "Approved light identity"
+    },
+    "prompt": "casual3-refill-prompt.txt",
+    "ui": "casual3-refill-ui.json",
+    "output": {
+      "file": "고고트_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "65d7d0646177f9369163dbbfad7a3dde64809af915296e50629c08a6d47b1297",
+      "git_blob": "03d249f0355f5ad2792fb6e509e247797d8d2ac2"
+    }
+  }
 }
