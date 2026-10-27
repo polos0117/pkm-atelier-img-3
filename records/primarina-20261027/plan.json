@@ -1,0 +1,270 @@
+{
+  "session": "primarina-5aa5977f-20261027",
+  "batch": {
+    "session": "primarina-5aa5977f-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "누리레느",
+        "species": "primarina-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "veil_wind",
+            "expr": "relieved",
+            "pose": "kneeling",
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "wildcard",
+            "ex": "rooftop_cinema",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "chest_up",
+            "pose": "arms_crossed",
+            "expr": "nostalgic",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "santa_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "pose": "perched_seat",
+            "expr": "focused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "partner_care",
+            "traditional",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "looking_away",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "bridal",
+      "ex": "veil_wind",
+      "expr": "relieved",
+      "pose": "kneeling",
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress",
+        "slip"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "halter neck"
+      ],
+      "lead": "action",
+      "inputs": {
+        "scene": "Gathering the wind-stretched veil beside a low driftwood arch; pale foam curls around the sand.",
+        "outfit": "An ivory satin slip wedding dress with an asymmetric one-shoulder bodice and a fine halter strap, bare shoulders and upper back; a faint blue wave stitch trims the hem."
+      },
+      "input_reasons": {
+        "scene": "Adds driftwood arch and foam to the beach veil activity.",
+        "outfit": "Chooses ivory satin and asymmetric shoulder/halter structure for the slip wedding dress.",
+        "axes": "Holding a veil is a paused action; only blue hem stitching makes the source subtle, with a one-piece slip silhouette."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "camera_reason": "Image tool has no explicit size argument; shared portrait size was entered in the generator camera field.",
+      "selection_source": "Planner selected and locked all options; no manual option edits.",
+      "random_changes": []
+    },
+    {
+      "cut": 2,
+      "cat": "wildcard",
+      "ex": "rooftop_cinema",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "looking_away",
+      "frame": "chest_up",
+      "pose": "arms_crossed",
+      "expr": "nostalgic",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "inputs": {
+        "scene": "A paper popcorn tub rests beside her on a canvas chair as she watches the rooftop projection under string lights.",
+        "outfit": "Cream short overalls with an asymmetric one-shoulder strap and a halter neckline, exposing her shoulders and upper back; fine pale-blue topstitching."
+      },
+      "input_reasons": {
+        "scene": "The example is only a venue title, so watching a projected movie with nearby popcorn defines the rooftop activity.",
+        "outfit": "Chooses cream short overalls with an asymmetric strap and halter construction for the planner overalls silhouette.",
+        "axes": "Crossed arms while viewing a projection are mostly posed; pale-blue stitching is subtle, and overalls remain one garment."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "camera_reason": "Image tool has no explicit size argument; shared portrait size was entered in the generator camera field.",
+      "selection_source": "Planner selected and locked all options; no manual option edits.",
+      "random_changes": []
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "santa_party",
+      "garments": [
+        "dress"
+      ],
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "pose": "perched_seat",
+      "expr": "focused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "inputs": {
+        "scene": "Hanging a frosted glass bauble on a low fir branch beside the velvet party settee, with warm fairy lights behind the tree.",
+        "outfit": "A fur-trimmed scarlet velvet mini dress with a strapless plunging sweetheart bodice, secure opaque lining, Santa hat and tall white boots; shoulders, collarbones and thighs remain bare."
+      },
+      "input_reasons": {
+        "scene": "Adds a low fir branch, frosted glass ornament and party settee without changing the ornament-hanging activity.",
+        "outfit": "Adds scarlet velvet, secure lining, strapless sweetheart shape and white boots to the Santa mini dress.",
+        "axes": "Holding an ornament at the branch is a paused action; ice-blue hair and pearl-white trims balance the source with the red costume, a single dress."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "camera_reason": "Image tool has no explicit size argument; shared portrait size was entered in the generator camera field.",
+      "selection_source": "Planner selected and locked all options; no manual option edits.",
+      "random_changes": []
+    }
+  ],
+  "check": "Planner batch check passed with current remote Git filename inventory; reservation stamp verified.",
+  "reservation_commit": "80083d17cd86104d57413ace7844b8caa154e76f",
+  "revisions": [
+    {
+      "slots": [
+        2,
+        3
+      ],
+      "reason": "Initial concurrent generation batch returned output moderation_blocked without identifying the failing slot. No usable result/path for either pending slot. Kept completed cut1 and all forms.",
+      "old_plan": "attempts/initial-plan.json",
+      "avoided": [
+        "night_taxi",
+        "rodeo_cowgirl"
+      ],
+      "new_examples": [
+        "rooftop_cinema",
+        "santa_party"
+      ],
+      "report": "attempts/batch-error.json"
+    }
+  ],
+  "compared_actual_images": [
+    "누리공 casual1–3",
+    "키요공 casual1–3",
+    "어흥염 casual1–3"
+  ],
+  "diversity_result": "Veil handling on sand, crossed-arm rooftop cinema seating, and two-handed tree decorating have different activities, silhouettes and scenery. Overalls differ from the comparison garments; no repeated three-cut sequence.",
+  "look_check": "generated_images/exec-9098f7fa-1586-4365-8df1-040a37481d77.png — 가까운 컷 0장(점수 245 미만)\n     280  히드런_glossy_promo_f_casual3.webp\n     293  딜리버드_glossy_promo_f_casual2.webp\n     295  푸크린_glossy_promo_f_casual2.webp\ngenerated_images/exec-f36720f7-b528-498d-b504-345fc63598ac.png — 가까운 컷 0장(점수 245 미만)\n     253  해피너스_glossy_promo_f_casual3.webp\n     266  꼬부기_glossy_promo_f_casual1.webp\n     278  다부니_glossy_promo_f_casual3.webp\ngenerated_images/exec-4f331060-150c-4b7d-96db-6aec0e9b67bb.png — 가까운 컷 0장(점수 245 미만)\n     284  분떠도리_glossy_promo_f_casual2.webp\n     290  보송송_glossy_promo_f_casual2.webp\n     293  얼루기_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+}

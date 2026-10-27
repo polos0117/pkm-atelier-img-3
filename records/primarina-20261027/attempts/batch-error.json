@@ -1,0 +1,10 @@
+{
+  "slots": [
+    "casual2",
+    "casual3"
+  ],
+  "status": "batch_failed_no_result_returned",
+  "error": "HTTP 400 moderation_blocked; output safety_violations=[sexual]",
+  "request_id": "88afaf03-fce1-4201-a69c-b9d5ec312dc0",
+  "note": "Batch Promise.all rejected without identifying the failing slot. Neither slot returned a usable result or path; no result was assigned or published. Completed seven results remain unchanged. New scenes selected through planner for both unavailable slots."
+}

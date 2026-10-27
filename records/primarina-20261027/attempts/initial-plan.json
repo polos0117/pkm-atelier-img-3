@@ -1,0 +1,121 @@
+{
+ "session": "primarina-5aa5977f-20261027",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "누리레느",
+   "species": "primarina-20261027",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "bridal",
+     "ex": "veil_wind",
+     "garments": [
+      "dress",
+      "slip"
+     ],
+     "orient": "rear_3q",
+     "frame": "waist_up",
+     "pose": "kneeling",
+     "expr": "relieved",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "cat": "nightlife",
+     "ex": "night_taxi",
+     "garments": [
+      "dress"
+     ],
+     "orient": "looking_away",
+     "frame": "chest_up",
+     "pose": "arms_crossed",
+     "expr": "candid",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "plunging neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "adult_roleplay",
+     "ex": "rodeo_cowgirl",
+     "garments": [
+      "vest"
+     ],
+     "orient": "reclining",
+     "frame": "three_quarter",
+     "pose": "perched_seat",
+     "expr": "focused",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "partner_care",
+     "traditional",
+     "bridal",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "slip",
+     "vest"
+    ],
+    "orient": [
+     "rear_3q",
+     "looking_away",
+     "reclining"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+  "card": "누리레느",
+  "reviewer": "gpt",
+  "method": "Original images plus enlarged hand/foot crops and side-by-side comparison; no anatomy-model result claimed.",
+  "cuts": [
+    {
+      "slot": "light",
+      "image_sha256": "0a2d056959933fcc5efdee96a5fc9ffa1f254fc579a36c4797073a9bba98eeed",
+      "accepted": true,
+      "observations": "A single slim white-and-blue armor layer covers chest, forearms, hip and shins. Long pale blue waves and pink translucent fin edges flow to the left. Two connected arms, two separate armored legs and both heeled boots remain inside the portrait.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "A single slim white-and-blue armor layer covers chest, forearms, hip and shins. Long pale blue waves and pink translucent fin edges flow to the left. Two connected arms, two separate armored legs and both heeled boots remain inside the portrait."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "ec78b8e16d8a02f5275f68792b6fb8c212c32d05ebb31ac6daafc7a0468a8f86",
+      "accepted": true,
+      "observations": "Stacked broad shoulder, forearm, hip and shin plates enlarge the silhouette without changing the underlying woman. The open crown and temple armor leave her bangs, eyes and jaw visible. Two arms join their original shoulders and both legs reach separate boots.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "Stacked broad shoulder, forearm, hip and shin plates enlarge the silhouette without changing the underlying woman. The open crown and temple armor leave her bangs, eyes and jaw visible. Two arms join their original shoulders and both legs reach separate boots."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "0a612a41bfa1666d4e5bc5a134956ac3115a64f61f380d7005488e5dfc35f9a7",
+      "accepted": true,
+      "observations": "Swept fin panels and oval blue propulsion elements fan from the shoulders, hips and calves. Her slim torso and long pale blue waves remain the same as light. Two arms and two boots remain visible, with no separate creature or weapon.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "Swept fin panels and oval blue propulsion elements fan from the shoulders, hips and calves. Her slim torso and long pale blue waves remain the same as light. Two arms and two boots remain visible, with no separate creature or weapon."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "5c852a1de2a5d90567b494da93594e4b7b11dff629607f6d44eb22d61a40bbb4",
+      "accepted": true,
+      "observations": "She kneels on wet sand beside a driftwood flower arch at sunset, looking over the near shoulder while holding a wind-pulled veil. The ivory satin bridal slip has an open back and halter tie. Both shins and feet are visible behind the bent knees. Her two forearms converge at the veil grip; some fingers are hidden by the overlapping grip and fabric.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Two hands overlap at the veil grip. Near knuckles and curled fingers read naturally; the far thumb and fingertips are partly hidden by fabric and the near hand. No detached third hand.",
+        "note": "She kneels on wet sand beside a driftwood flower arch at sunset, looking over the near shoulder while holding a wind-pulled veil. The ivory satin bridal slip has an open back and halter tie. Both shins and feet are visible behind the bent knees. Her two forearms converge at the veil grip; some fingers are hidden by the overlapping grip and fabric."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She kneels on wet sand beside a driftwood flower arch at sunset, looking over the near shoulder while holding a wind-pulled veil. The ivory satin bridal slip has an open back and halter tie. Both shins and feet are visible behind the bent knees. Her two forearms converge at the veil grip; some fingers are hidden by the overlapping grip and fabric."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "Ivory bridal slip, open upper back and shoulders, with exposed legs in kneeling pose."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "Selected waist-up, but the result includes kneeling legs and feet."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Rear three-quarter torso is present, with profile/three-quarter face looking back. Eyes are open and mouth softly parted rather than half-closed relief."
+      },
+      "deviations_policy": "Framing, expression, orientation and small garment/motif deviations are record-only under IMAGE_RULES; no unrelated replacement generated."
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "3c9c778b8be8853863d2259c8944dc88b9b4d5b8042d4eb30eeed52cc10b1704",
+      "accepted": true,
+      "observations": "Blue water light shows through separated light-form panel seams at torso, forearms, hip and shins. The same crossed-leg pose, raised hand, extended hand and waterfront architecture remain. Eye colour stays pale blue.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "Blue water light shows through separated light-form panel seams at torso, forearms, hip and shins. The same crossed-leg pose, raised hand, extended hand and waterfront architecture remain. Eye colour stays pale blue."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "f866302c0fc0a1e10056379a95705c12cf7ce4eb5d0db15450e33f71eae6b739",
+      "accepted": true,
+      "observations": "The broad stacked heavy plates open to expose bright blue inner frame channels at shoulder, pelvis and lower legs. Crown, face, body scale and background remain in the heavy-card position.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "The broad stacked heavy plates open to expose bright blue inner frame channels at shoulder, pelvis and lower legs. Crown, face, body scale and background remain in the heavy-card position."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "85b84add30a7170917baca55e50eed1a6aab7c37434052261c3fea7a7c383752",
+      "accepted": true,
+      "observations": "The swept fin panels spread and their exposed channels emit water-like blue light. The propulsor shapes and thin silhouette remain mobility equipment. The camera, raised hand and leg crossing align with the closed card.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Screen-left open glove has five blue silhouette digits: one upper thumb and four downward fingers. The extra silver finger-shaped projection is removed; the raised glove has five digits with some overlap.",
+        "note": "The swept fin panels spread and their exposed channels emit water-like blue light. The propulsor shapes and thin silhouette remain mobility equipment. The camera, raised hand and leg crossing align with the closed card."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "5051bfef544992ce3a83cf61e57ecb52a420537515fe1c8f94706a7b433ed9c8",
+      "accepted": true,
+      "observations": "She sits in a canvas cinema chair under rooftop string lights, with a projection screen and popcorn to her side. Cream short overalls cover a blue halter knit. The crossed forearms connect to opposite shoulders; the hand on the upper arm shows one thumb and four fingers while the lower hand is partly hidden at her waist. Two crossed thighs appear at the crop.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Upper hand: thumb plus four nails/fingers visible on the upper arm. Lower hand: digits partly hidden against the crossed arm and waist. No additional hand.",
+        "note": "She sits in a canvas cinema chair under rooftop string lights, with a projection screen and popcorn to her side. Cream short overalls cover a blue halter knit. The crossed forearms connect to opposite shoulders; the hand on the upper arm shows one thumb and four fingers while the lower hand is partly hidden at her waist. Two crossed thighs appear at the crop."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She sits in a canvas cinema chair under rooftop string lights, with a projection screen and popcorn to her side. Cream short overalls cover a blue halter knit. The crossed forearms connect to opposite shoulders; the hand on the upper arm shows one thumb and four fingers while the lower hand is partly hidden at her waist. Two crossed thighs appear at the crop."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "Cream overalls, halter knit and bare shoulders/thighs; an added blue knit layer and small pearl hair ornament are recorded as minor garment/motif deviations."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "Selected chest-up, but the result includes lap and crossed thighs."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Crossed-arm seated pose is present; eyes look toward the camera instead of clearly away, and mouth is softly parted rather than visibly nostalgic."
+      },
+      "deviations_policy": "Framing, expression, orientation and small garment/motif deviations are record-only under IMAGE_RULES; no unrelated replacement generated."
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "effa6325296b7d0a247c16ce0098487bf5925ca4085689c57354d254fe9575d9",
+      "accepted": true,
+      "observations": "She sits on a red velvet settee beside a fir tree, holding the bauble string with one hand and supporting the glass sphere with the other. Both elbows and forearms connect normally. Red velvet fur-trimmed mini dress, Santa hat and two tall white boots are visible. Her shoulders and upper thighs stay bare.",
+      "identity": {
+        "match": true,
+        "evidence": "Pale blue eyes, long chin, curtain bangs and very long light-blue/pink waves match the first light character."
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "overlay_checked": false,
+        "hands": "Raised hand pinches the string with thumb/index while the other fingers curl behind. Supporting hand: thumb and fingers partly overlap the glass sphere. No extra digit or third hand.",
+        "note": "She sits on a red velvet settee beside a fir tree, holding the bauble string with one hand and supporting the glass sphere with the other. Both elbows and forearms connect normally. Red velvet fur-trimmed mini dress, Santa hat and two tall white boots are visible. Her shoulders and upper thighs stay bare."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Final source and WebP are both 1024x1536 portrait."
+      },
+      "count": {
+        "match": true,
+        "evidence": "One featured adult woman; no companion or second person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She sits on a red velvet settee beside a fir tree, holding the bauble string with one hand and supporting the glass sphere with the other. Both elbows and forearms connect normally. Red velvet fur-trimmed mini dress, Santa hat and two tall white boots are visible. Her shoulders and upper thighs stay bare."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "Opaque red mini dress and Santa styling expose shoulders, neckline and upper thighs."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "Selected above-knee crop, but the result extends along both tall boots."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Seated on the settee, torso upright rather than reclined; eyes concentrate on the ornament and mouth is slightly parted."
+      },
+      "deviations_policy": "Framing, expression, orientation and small garment/motif deviations are record-only under IMAGE_RULES; no unrelated replacement generated."
+    }
+  ],
+  "diversity_comparison": {
+    "compared": [
+      "누리공 casual1–3",
+      "키요공 casual1–3",
+      "어흥염 casual1–3"
+    ],
+    "evidence": "New set has a beach veil action, a canvas-chair movie watch with folded arms, and an ornament-hanging action beside a fir. Older comparison scenes show salon dressing, cafe trays, berry shopping, stage curtains, waterfall swimsuit, wine-lounge sitting, festival sitting, mirror dressing and astronaut costume. The new activities and overall three-cut sequence are visibly different.",
+    "look_check": "generated_images/exec-9098f7fa-1586-4365-8df1-040a37481d77.png — 가까운 컷 0장(점수 245 미만)\n     280  히드런_glossy_promo_f_casual3.webp\n     293  딜리버드_glossy_promo_f_casual2.webp\n     295  푸크린_glossy_promo_f_casual2.webp\ngenerated_images/exec-f36720f7-b528-498d-b504-345fc63598ac.png — 가까운 컷 0장(점수 245 미만)\n     253  해피너스_glossy_promo_f_casual3.webp\n     266  꼬부기_glossy_promo_f_casual1.webp\n     278  다부니_glossy_promo_f_casual3.webp\ngenerated_images/exec-4f331060-150c-4b7d-96db-6aec0e9b67bb.png — 가까운 컷 0장(점수 245 미만)\n     284  분떠도리_glossy_promo_f_casual2.webp\n     290  보송송_glossy_promo_f_casual2.webp\n     293  얼루기_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "canonical_face_comparison": "Popplio has a broad short blue bob and round cheeks; Brionne has a shorter, rounder chin and more open eyes. Litten and Torracat have compact tapered faces and sharper upward eyes; Incineroar has stronger sharply angled red-brown eyes. Primarina has a longer lower face, softly downturned almond eyes and pale blue waves."
+}

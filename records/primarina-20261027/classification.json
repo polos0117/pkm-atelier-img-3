@@ -1,0 +1,393 @@
+[
+  {
+    "card": "누리레느",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+      "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16",
+      "prompt": "light-prompt.txt",
+      "ui": "light-ui.json",
+      "references": []
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-bb22bdbc-da82-498e-96c9-4f9c684f70ae.png",
+    "original_sha256": "0a2d056959933fcc5efdee96a5fc9ffa1f254fc579a36c4797073a9bba98eeed",
+    "output": {
+      "file": "누리레느_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "8b7ca10d1b3e61b3c01e8949c893245c188c7dc12c0a9c32a1b22d0242780c70"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-ce6ae7f3-7d08-427c-b630-b20203456955.png",
+        "sha256": "a10c36a998225346b42a869b4898a7ed20912189bf87b8ca61a96aeec1bfb089",
+        "prompt": "attempts/light-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+        "accepted": false
+      },
+      {
+        "attempt": "attempt2",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-bb22bdbc-da82-498e-96c9-4f9c684f70ae.png",
+        "sha256": "0a2d056959933fcc5efdee96a5fc9ffa1f254fc579a36c4797073a9bba98eeed",
+        "prompt": "attempts/light-edit2-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-ce6ae7f3-7d08-427c-b630-b20203456955.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-66a06426-4b0e-4b8f-94eb-2ccbe245ece3.png",
+      "sha256": "50e037699049d9d34d927ce0c79b59fe6b1f339eb62742f3eab098b78909f2df",
+      "prompt": "heavy-prompt.txt",
+      "ui": "heavy-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-50079d08-3517-4850-8e9b-5d3526e01940.png",
+    "original_sha256": "ec78b8e16d8a02f5275f68792b6fb8c212c32d05ebb31ac6daafc7a0468a8f86",
+    "output": {
+      "file": "누리레느_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "58c27de06a8995a1e46bea5510208d33ab571039a882c86b66661c28284f501c"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-aac8b555-f98a-4e7c-9405-2006f8c1f5c2.png",
+        "sha256": "6682cbc2880306c67de2af9b0beb14d6458b34aea03f625c9b3f64a8b3b7c627",
+        "prompt": "attempts/heavy-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-66a06426-4b0e-4b8f-94eb-2ccbe245ece3.png",
+        "accepted": false
+      },
+      {
+        "attempt": "attempt2",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-50079d08-3517-4850-8e9b-5d3526e01940.png",
+        "sha256": "ec78b8e16d8a02f5275f68792b6fb8c212c32d05ebb31ac6daafc7a0468a8f86",
+        "prompt": "attempts/heavy-edit2-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-aac8b555-f98a-4e7c-9405-2006f8c1f5c2.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-0f22708a-479f-42e7-aba4-d0d96054201a.png",
+      "sha256": "79de5f107f360bf103e00ff5a67545dcb5edcdea63b0237e0a7d757a05d57a27",
+      "prompt": "mobility-prompt.txt",
+      "ui": "mobility-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-1800aaa3-d2a1-42e9-97f3-1ca7cfb62e14.png",
+    "original_sha256": "0a612a41bfa1666d4e5bc5a134956ac3115a64f61f380d7005488e5dfc35f9a7",
+    "output": {
+      "file": "누리레느_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "7809421195981579be744736f87739907682bb94a8865cfea440e54f84787e4a"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-14861fec-a8fe-4c3c-b05c-a57124bbe1cd.png",
+        "sha256": "65f7d67a1cb54712d9f771f6b68a8347943c523c00f555cd02866a1832089048",
+        "prompt": "attempts/mobility-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-0f22708a-479f-42e7-aba4-d0d96054201a.png",
+        "accepted": false
+      },
+      {
+        "attempt": "attempt2",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-1800aaa3-d2a1-42e9-97f3-1ca7cfb62e14.png",
+        "sha256": "0a612a41bfa1666d4e5bc5a134956ac3115a64f61f380d7005488e5dfc35f9a7",
+        "prompt": "attempts/mobility-edit2-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-14861fec-a8fe-4c3c-b05c-a57124bbe1cd.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-97d7385a-8a93-41a7-8eee-dbf316aae313.png",
+      "sha256": "55c725b4699f4e1dae402d3365dec43350b50d05504715f3b6cc4eeb9f6244c2",
+      "prompt": "light_overdrive-prompt.txt",
+      "ui": "light_overdrive-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c7f4c214-b967-4f37-89cb-fe75fb2f2265.png",
+    "original_sha256": "3c9c778b8be8853863d2259c8944dc88b9b4d5b8042d4eb30eeed52cc10b1704",
+    "output": {
+      "file": "누리레느_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1e7e88183631d32be620266330adc0f187279ca47a58a754c4e4848169de24c8"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-dc9261bf-ad9b-4f0c-83a2-ce2d46b3c4e4.png",
+        "sha256": "7b915614ed5533ae653d66a29e1b94a4e99aea9b9ade6f5721a5babf1c0bc282",
+        "prompt": "attempts/light_overdrive-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-97d7385a-8a93-41a7-8eee-dbf316aae313.png",
+        "accepted": false
+      },
+      {
+        "attempt": "attempt2",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c7f4c214-b967-4f37-89cb-fe75fb2f2265.png",
+        "sha256": "3c9c778b8be8853863d2259c8944dc88b9b4d5b8042d4eb30eeed52cc10b1704",
+        "prompt": "attempts/light_overdrive-edit2-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-dc9261bf-ad9b-4f0c-83a2-ce2d46b3c4e4.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-02c24454-6488-438e-ae2d-5b254acd152f.png",
+      "sha256": "1bfb12d232b7a91be7b2976d1f7ea51302ecf5232274f0af01a2a9f0d4721467",
+      "prompt": "heavy_overdrive-prompt.txt",
+      "ui": "heavy_overdrive-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-66a06426-4b0e-4b8f-94eb-2ccbe245ece3.png",
+          "sha256": "50e037699049d9d34d927ce0c79b59fe6b1f339eb62742f3eab098b78909f2df"
+        },
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-d3233337-032d-4892-b6fe-3d76f1484b42.png",
+    "original_sha256": "f866302c0fc0a1e10056379a95705c12cf7ce4eb5d0db15450e33f71eae6b739",
+    "output": {
+      "file": "누리레느_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "40fba761d5fa2cc31b91bf5a4d75871e0a3d9d409775519eb57e9ea5310edfa0"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-f6ed40cc-52f8-44eb-80f3-a1d2dedad148.png",
+        "sha256": "188daa763086fac8f1a29ab9cca52bdfd8b68921473ba05d77cae76d9f86c197",
+        "prompt": "attempts/heavy_overdrive-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-02c24454-6488-438e-ae2d-5b254acd152f.png",
+        "accepted": false
+      },
+      {
+        "attempt": "attempt2",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-d3233337-032d-4892-b6fe-3d76f1484b42.png",
+        "sha256": "f866302c0fc0a1e10056379a95705c12cf7ce4eb5d0db15450e33f71eae6b739",
+        "prompt": "attempts/heavy_overdrive-edit2-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-f6ed40cc-52f8-44eb-80f3-a1d2dedad148.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-746d3d4c-a2d1-4c86-b847-e3124d1785fa.png",
+      "sha256": "e6398eee8b4064ff0c2982e71c6938ba3ee7f9ea7c3da9cb353d43317f85b601",
+      "prompt": "mobility_overdrive-prompt.txt",
+      "ui": "mobility_overdrive-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-0f22708a-479f-42e7-aba4-d0d96054201a.png",
+          "sha256": "79de5f107f360bf103e00ff5a67545dcb5edcdea63b0237e0a7d757a05d57a27"
+        },
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-4b6ff99a-5051-4447-bf67-aaee2baf4fcb.png",
+    "original_sha256": "85b84add30a7170917baca55e50eed1a6aab7c37434052261c3fea7a7c383752",
+    "output": {
+      "file": "누리레느_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "5178a04d10bab7eddcfe333f62a83d85908cef17e25c97f61dd1ad7563b46143"
+    },
+    "local_edits": [
+      {
+        "attempt": "attempt1",
+        "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-4b6ff99a-5051-4447-bf67-aaee2baf4fcb.png",
+        "sha256": "85b84add30a7170917baca55e50eed1a6aab7c37434052261c3fea7a7c383752",
+        "prompt": "attempts/mobility_overdrive-edit1-prompt.txt",
+        "reference": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-746d3d4c-a2d1-4c86-b847-e3124d1785fa.png",
+        "accepted": true
+      }
+    ]
+  },
+  {
+    "card": "누리레느",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-9098f7fa-1586-4365-8df1-040a37481d77.png",
+      "sha256": "5c852a1de2a5d90567b494da93594e4b7b11dff629607f6d44eb22d61a40bbb4",
+      "prompt": "casual1-prompt.txt",
+      "ui": "casual1-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-9098f7fa-1586-4365-8df1-040a37481d77.png",
+    "original_sha256": "5c852a1de2a5d90567b494da93594e4b7b11dff629607f6d44eb22d61a40bbb4",
+    "output": {
+      "file": "누리레느_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0602baec2c2caf85fc59dcd0d0aa177f2415599d367da503a7d9f1914a6f8c05"
+    }
+  },
+  {
+    "card": "누리레느",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-f36720f7-b528-498d-b504-345fc63598ac.png",
+      "sha256": "5051bfef544992ce3a83cf61e57ecb52a420537515fe1c8f94706a7b433ed9c8",
+      "prompt": "casual2-prompt.txt",
+      "ui": "casual2-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-f36720f7-b528-498d-b504-345fc63598ac.png",
+    "original_sha256": "5051bfef544992ce3a83cf61e57ecb52a420537515fe1c8f94706a7b433ed9c8",
+    "output": {
+      "file": "누리레느_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "6363f6d1b0790e0399e4c96756173049473eb9cb3d71c9cc895ae29f3f765ffe"
+    }
+  },
+  {
+    "card": "누리레느",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen; localized glove anatomy correction on form slots",
+    "creation": {
+      "session_path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-4f331060-150c-4b7d-96db-6aec0e9b67bb.png",
+      "sha256": "effa6325296b7d0a247c16ce0098487bf5925ca4085689c57354d254fe9575d9",
+      "prompt": "casual3-prompt.txt",
+      "ui": "casual3-ui.json",
+      "references": [
+        {
+          "path": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-c27c3df8-9395-44fd-bdf6-e9f133dac498.png",
+          "sha256": "e9864fe5df6b9bba0f5a017e61e5c5d982c58624efb41c4e92dd02ff9f0afb16"
+        }
+      ]
+    },
+    "original_session_only": "/workspace/scratch/5aa5977f2fe3/generated_images/exec-4f331060-150c-4b7d-96db-6aec0e9b67bb.png",
+    "original_sha256": "effa6325296b7d0a247c16ce0098487bf5925ca4085689c57354d254fe9575d9",
+    "output": {
+      "file": "누리레느_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "a8a2bd46a7b817829abab1e50160c96fad877a3290826972fea1a3046d82191c"
+    }
+  }
+]
