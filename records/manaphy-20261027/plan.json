@@ -1,0 +1,410 @@
+{
+  "session": "manaphy-darkrai-20261027-cf2320",
+  "batch": {
+    "session": "manaphy-darkrai-20261027-cf2320",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마나피",
+        "species": "manaphy-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "sailor_stage",
+            "expr": "serious",
+            "pose": "mid_action",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "forest_spirit",
+            "expr": "smug",
+            "pose": "standing_formal",
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "travel_exploration",
+            "ex": "travel_ruins",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "leaning_wall",
+            "expr": "curious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "다크라이",
+        "species": "darkrai-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_ferry",
+            "expr": "curious",
+            "pose": "adjusting_bag",
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "belly_dance",
+            "expr": "laughing",
+            "pose": "leaning_wall",
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt"
+            ],
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "expr": "mischievous",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "sailor_stage",
+      "expr": "serious",
+      "pose": "mid_action",
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "skirt"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "cropped hem"
+      ],
+      "lead": "action",
+      "example_text": "a sailor stage costume — a sailor-collar cropped top, a pleated mini skirt and a small cap; saluting playfully on a harbour-set stage (no real navy insignia)",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Rehearsing a harbour revue finale beside a painted lighthouse flat, with a cobalt theatrical curtain and warm footlights.",
+          "reason": "Adds the specific setting absent from the example: Rehearsing a harbour revue finale beside a painted lighthouse flat, with a cobalt theatrical curtain and warm footlights."
+        },
+        {
+          "field": "outfit",
+          "content": "White cotton sailor-collar crop top with a dropped shoulder neckline and navy piping, a navy pleated mini skirt and small tilted cap. The cropped hem reveals her midriff, with a tiny ruby clasp at the collar.",
+          "reason": "Specifies planned garments, material and exposed areas: White cotton sailor-collar crop top with a dropped shoulder neckline and navy piping, a navy pleated mini skirt and small tilted cap. The cropped hem reveals her midriff, with a tiny ruby clasp at the collar."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active follows the activity: Rehearsing a harbour revue finale beside a painted lighthouse flat, with a cobalt theatrical curtain and warm footlights.",
+        "source_influence": "strong is carried by this cut's material and color: White cotton sailor-collar crop top with a dropped shoulder neckline and navy piping, a navy pleated mini skirt and small tilted cap. The cropped hem reveals her midriff, with a tiny ruby clasp at the collar.",
+        "separates_preference": "prefer separates fits this cut's construction: crop_top, skirt"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "fantasy_costume",
+      "ex": "forest_spirit",
+      "expr": "smug",
+      "pose": "standing_formal",
+      "orient": "over_shoulder",
+      "frame": "face_close",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "plunging neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "example_text": "a forest spirit costume — a moss-green draped gown with a flower crown and trailing ivy, in a misty garden shoot",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Early morning silver light filters through garden mist behind a weathered stone arch used for the costume photo shoot.",
+          "reason": "Adds the specific setting absent from the example: Early morning silver light filters through garden mist behind a weathered stone arch used for the costume photo shoot."
+        },
+        {
+          "field": "outfit",
+          "content": "Moss-green silk draped gown with a plunging neckline and a one-shoulder cut, revealing the collarbone and opposite shoulder; small white blossoms and fine trailing ivy form the crown.",
+          "reason": "Specifies planned garments, material and exposed areas: Moss-green silk draped gown with a plunging neckline and a one-shoulder cut, revealing the collarbone and opposite shoulder; small white blossoms and fine trailing ivy form the crown."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: Early morning silver light filters through garden mist behind a weathered stone arch used for the costume photo shoot.",
+        "source_influence": "balanced is carried by this cut's material and color: Moss-green silk draped gown with a plunging neckline and a one-shoulder cut, revealing the collarbone and opposite shoulder; small white blossoms and fine trailing ivy form the crown.",
+        "separates_preference": "balanced fits this cut's construction: dress"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "travel_exploration",
+      "ex": "travel_ruins",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "pose": "leaning_wall",
+      "expr": "curious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "Checking a brass compass among sun-bleached desert ruins, a light scarf around her shoulders and a canteen at her hip.",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Ochre sandstone columns and worn geometric carvings surround a shaded niche at the edge of a dry desert court.",
+          "reason": "Adds the specific setting absent from the example: Ochre sandstone columns and worn geometric carvings surround a shaded niche at the edge of a dry desert court."
+        },
+        {
+          "field": "outfit",
+          "content": "Sand-colored linen jumpsuit with a plunging neckline and a softly dropped off-shoulder edge, revealing the collarbones and one shoulder; a fine pale scarf hangs loosely behind her neck.",
+          "reason": "Specifies planned garments, material and exposed areas: Sand-colored linen jumpsuit with a plunging neckline and a softly dropped off-shoulder edge, revealing the collarbones and one shoulder; a fine pale scarf hangs loosely behind her neck."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: Ochre sandstone columns and worn geometric carvings surround a shaded niche at the edge of a dry desert court.",
+        "source_influence": "balanced is carried by this cut's material and color: Sand-colored linen jumpsuit with a plunging neckline and a softly dropped off-shoulder edge, revealing the collarbones and one shoulder; a fine pale scarf hangs loosely behind her neck.",
+        "separates_preference": "balanced fits this cut's construction: jumpsuit"
+      }
+    }
+  ],
+  "check": "Planner check --fresh passed; reservation stamps verified.",
+  "reservation_commit": "b902cd6d672ae3a7b8467a2e2cc89f23ccf8f038",
+  "tool": "built-in image_gen",
+  "storage_method": "Shared blob:none Git repositories, isolated sparse worktrees. Filename-only inventory scans use temporary /dev/null links representing exact tracked HEAD paths; actual comparison WebPs and required UI metadata are materialized. Inventory links are never staged or published.",
+  "replans": [
+    {
+      "slot": "casual3",
+      "reason": "Festival scene twice showed holding lantern instead of circle dance, because on_tiptoe asks to reach a higher object. Planner avoided that pose and selected desert ruins and a compass; completed casual1 and casual2 kept.",
+      "attempts_original_sha256": [
+        "d8814c967368d0ae202e7ec4bf9e8ab522d08c15494cb4f907fe99997c99b581",
+        "929889a21fdfb36427734c0a979d66a9953f3bfce63b938dce148d25fd446304"
+      ]
+    }
+  ]
+}
