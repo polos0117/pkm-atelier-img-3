@@ -1,0 +1,45 @@
+{
+  "stage": "reviewed",
+  "generated": 9,
+  "requested": 9,
+  "light": {
+    "card": "악비르",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "383884f102cc2678a34a3d4e9cb99d8f769e7aa55af32499954cdc7b45faffda",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "악비르_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "351d54b40dca23b0c4269040eceec8139bdd1af22a4203630bff06b42ab93dc6",
+      "git_blob": "77d7fc687df063375eb5ab4e5b0367238e38a4e1"
+    }
+  },
+  "face_source": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "face_reason": "Triangular spikes and black eye-band cues are interpreted as a broad angular human jaw, narrow wide-set eyes and angled brows. Asymmetric swept bangs and low bun carry the tan/black palette. Compared with Sandile, Floette, Florges and Pancham: stronger jaw and narrower eyes distinguish this face.",
+  "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, wide width; angular defined jaw; narrow eyes, medium size, level outer corners, wide-set; angled brows; balanced nose; wide mouth.",
+  "compared_characters": [
+    "깜눈크",
+    "플라엣테",
+    "플라제스",
+    "판짱"
+  ],
+  "original_policy": "PNG remains session-only; public records retain hashes, prompt, UI and QA.",
+  "manifest": "classification.json"
+}

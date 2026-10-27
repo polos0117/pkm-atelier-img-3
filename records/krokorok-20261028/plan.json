@@ -1,0 +1,666 @@
+{
+  "session": "krokorok-krookodile-20261028",
+  "batch": {
+    "session": "krokorok-krookodile-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "악비르",
+        "species": "krokorok-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "camisole_wrap",
+            "garments": [
+              "shorts",
+              "skirt",
+              "tank"
+            ],
+            "orient": "high_angle",
+            "frame": "face_close",
+            "pose": "leaning_wall",
+            "expr": "sleepy",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She takes a short break between folding the morning laundry in her sunlit apartment.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 camisole_wrap 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A sand-colored thin-strap halter camisole and black lounge shorts sit beneath a mini wrap skirt tied at the hip, leaving shoulders and thighs bare; a narrow dark stripe follows the hem.",
+                "reason": "계획기의 shorts, skirt, tank와 mini length, halter neck를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "camisole_wrap의 leaning_wall 동작 정도를 계획기가 선택했다.",
+              "source_influence": "camisole_wrap에서 의상 본래 실루엣을 유지하며 strong 범위의 원작색을 남긴다.",
+              "separates_preference": "shorts, skirt, tank 의상의 결합 구조에 따른 prefer separates 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "knit_lingerie",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "cross_legged",
+            "expr": "mischievous",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "place",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A linen daybed fills a warm terracotta window alcove, with a knitted throw and a small wooden side table.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 knit_lingerie 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "Soft ochre ribbed jersey forms the relaxed cropped top and matching high-cut briefs, with black seam piping and a bare midriff.",
+                "reason": "계획기의 crop_top, lingerie_set와 high-cut leg, bare midriff를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "knit_lingerie의 cross_legged 동작 정도를 계획기가 선택했다.",
+              "source_influence": "knit_lingerie에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+              "separates_preference": "crop_top, lingerie_set 의상의 결합 구조에 따른 balanced 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "rooftop_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "pose": "turning_back",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Amber string lights glow above the roof garden as evening clouds reflect in the glass towers.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 rooftop_party 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "The black satin mini dress has one shoulder strap, an open back and a high thigh slit, with a single small bronze geometric earring.",
+                "reason": "계획기의 dress와 high thigh slit, one-shoulder cut를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "rooftop_party의 turning_back 동작 정도를 계획기가 선택했다.",
+              "source_influence": "rooftop_party에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+              "separates_preference": "dress 의상의 결합 구조에 따른 balanced 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "homewear",
+            "traditional",
+            "nightlife",
+            "spa_wellness",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "tank",
+            "lingerie_set"
+          ],
+          "orient": [
+            "high_angle",
+            "reclining",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "악비아르",
+        "species": "krookodile-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "spa_wellness",
+            "ex": "spa_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "side",
+            "frame": "environmental",
+            "pose": "arms_crossed",
+            "expr": "wistful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "boho_crochet",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "mid_action",
+            "expr": "flustered",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "orient": "looking_away",
+            "frame": "chest_up",
+            "pose": "on_tiptoe",
+            "expr": "soft_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "trousers",
+            "traditional"
+          ],
+          "orient": [
+            "side",
+            "turning_midmotion",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "character": {
+    "card": "악비르",
+    "species": "krokorok-20261028",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "homewear",
+        "ex": "camisole_wrap",
+        "garments": [
+          "shorts",
+          "skirt",
+          "tank"
+        ],
+        "orient": "high_angle",
+        "frame": "face_close",
+        "pose": "leaning_wall",
+        "expr": "sleepy",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "mini length",
+          "halter neck"
+        ],
+        "lead": "action",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "She takes a short break between folding the morning laundry in her sunlit apartment.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 camisole_wrap 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "A sand-colored thin-strap halter camisole and black lounge shorts sit beneath a mini wrap skirt tied at the hip, leaving shoulders and thighs bare; a narrow dark stripe follows the hem.",
+            "reason": "계획기의 shorts, skirt, tank와 mini length, halter neck를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "camisole_wrap의 leaning_wall 동작 정도를 계획기가 선택했다.",
+          "source_influence": "camisole_wrap에서 의상 본래 실루엣을 유지하며 strong 범위의 원작색을 남긴다.",
+          "separates_preference": "shorts, skirt, tank 의상의 결합 구조에 따른 prefer separates 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      },
+      {
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "knit_lingerie",
+        "garments": [
+          "crop_top",
+          "lingerie_set"
+        ],
+        "orient": "reclining",
+        "frame": "waist_up",
+        "pose": "cross_legged",
+        "expr": "mischievous",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high-cut leg",
+          "bare midriff"
+        ],
+        "lead": "place",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "A linen daybed fills a warm terracotta window alcove, with a knitted throw and a small wooden side table.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 knit_lingerie 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "Soft ochre ribbed jersey forms the relaxed cropped top and matching high-cut briefs, with black seam piping and a bare midriff.",
+            "reason": "계획기의 crop_top, lingerie_set와 high-cut leg, bare midriff를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "knit_lingerie의 cross_legged 동작 정도를 계획기가 선택했다.",
+          "source_influence": "knit_lingerie에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+          "separates_preference": "crop_top, lingerie_set 의상의 결합 구조에 따른 balanced 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      },
+      {
+        "cut": 3,
+        "cat": "nightlife",
+        "ex": "rooftop_party",
+        "garments": [
+          "dress"
+        ],
+        "orient": "leaning_forward",
+        "frame": "three_quarter",
+        "pose": "turning_back",
+        "expr": "laughing_open",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "light",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Amber string lights glow above the roof garden as evening clouds reflect in the glass towers.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 rooftop_party 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "The black satin mini dress has one shoulder strap, an open back and a high thigh slit, with a single small bronze geometric earring.",
+            "reason": "계획기의 dress와 high thigh slit, one-shoulder cut를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "rooftop_party의 turning_back 동작 정도를 계획기가 선택했다.",
+          "source_influence": "rooftop_party에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+          "separates_preference": "dress 의상의 결합 구조에 따른 balanced 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2
+        ],
+        "two": false,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "homewear",
+        "traditional",
+        "nightlife",
+        "spa_wellness",
+        "bridal",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "tank",
+        "lingerie_set"
+      ],
+      "orient": [
+        "high_angle",
+        "reclining",
+        "leaning_forward"
+      ],
+      "frame": []
+    }
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "homewear",
+      "ex": "camisole_wrap",
+      "garments": [
+        "shorts",
+        "skirt",
+        "tank"
+      ],
+      "orient": "high_angle",
+      "frame": "face_close",
+      "pose": "leaning_wall",
+      "expr": "sleepy",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "halter neck"
+      ],
+      "lead": "action",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She takes a short break between folding the morning laundry in her sunlit apartment.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 camisole_wrap 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A sand-colored thin-strap halter camisole and black lounge shorts sit beneath a mini wrap skirt tied at the hip, leaving shoulders and thighs bare; a narrow dark stripe follows the hem.",
+          "reason": "계획기의 shorts, skirt, tank와 mini length, halter neck를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "camisole_wrap의 leaning_wall 동작 정도를 계획기가 선택했다.",
+        "source_influence": "camisole_wrap에서 의상 본래 실루엣을 유지하며 strong 범위의 원작색을 남긴다.",
+        "separates_preference": "shorts, skirt, tank 의상의 결합 구조에 따른 prefer separates 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "knit_lingerie",
+      "garments": [
+        "crop_top",
+        "lingerie_set"
+      ],
+      "orient": "reclining",
+      "frame": "waist_up",
+      "pose": "cross_legged",
+      "expr": "mischievous",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A linen daybed fills a warm terracotta window alcove, with a knitted throw and a small wooden side table.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 knit_lingerie 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "Soft ochre ribbed jersey forms the relaxed cropped top and matching high-cut briefs, with black seam piping and a bare midriff.",
+          "reason": "계획기의 crop_top, lingerie_set와 high-cut leg, bare midriff를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "knit_lingerie의 cross_legged 동작 정도를 계획기가 선택했다.",
+        "source_influence": "knit_lingerie에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+        "separates_preference": "crop_top, lingerie_set 의상의 결합 구조에 따른 balanced 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "nightlife",
+      "ex": "rooftop_party",
+      "garments": [
+        "dress"
+      ],
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "pose": "turning_back",
+      "expr": "laughing_open",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber string lights glow above the roof garden as evening clouds reflect in the glass towers.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 rooftop_party 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "The black satin mini dress has one shoulder strap, an open back and a high thigh slit, with a single small bronze geometric earring.",
+          "reason": "계획기의 dress와 high thigh slit, one-shoulder cut를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "rooftop_party의 turning_back 동작 정도를 계획기가 선택했다.",
+        "source_influence": "rooftop_party에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+        "separates_preference": "dress 의상의 결합 구조에 따른 balanced 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    }
+  ],
+  "check": "passed; planner reservation stamps verified",
+  "reservation_commit": "af42a6177b77b2ffb913a3ced8b761333355773a",
+  "extras": [
+    {
+      "scene": "She takes a short break between folding the morning laundry in her sunlit apartment.",
+      "outfit": "A sand-colored thin-strap halter camisole and black lounge shorts sit beneath a mini wrap skirt tied at the hip, leaving shoulders and thighs bare; a narrow dark stripe follows the hem."
+    },
+    {
+      "scene": "A linen daybed fills a warm terracotta window alcove, with a knitted throw and a small wooden side table.",
+      "outfit": "Soft ochre ribbed jersey forms the relaxed cropped top and matching high-cut briefs, with black seam piping and a bare midriff."
+    },
+    {
+      "scene": "Amber string lights glow above the roof garden as evening clouds reflect in the glass towers.",
+      "outfit": "The black satin mini dress has one shoulder strap, an open back and a high thigh slit, with a single small bronze geometric earring."
+    }
+  ],
+  "generation_tool": "built-in image_gen",
+  "storage_method": "Shared bare Git plus isolated sparse worktrees; unrelated img paths indexed by filename without image blobs."
+}
