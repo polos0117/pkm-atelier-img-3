@@ -54,5 +54,112 @@
       "sha256": "65d7d0646177f9369163dbbfad7a3dde64809af915296e50629c08a6d47b1297",
       "git_blob": "03d249f0355f5ad2792fb6e509e247797d8d2ac2"
     }
+  },
+  {
+    "card": "고고트",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Previously generated built-in image_gen output; existing original prompt/UI preserved; user now explicitly requests upload of all generated forms.",
+    "original_sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "고고트_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "9c48f6fd5c3850fb9c3bbdda14b342172a945500919385777b14f025a3dcf40b",
+      "git_blob": "733790004068b15c756b13cd74ea4570cd8fe062"
+    }
+  },
+  {
+    "card": "고고트",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Previously generated built-in image_gen output; existing original prompt/UI preserved; user now explicitly requests upload of all generated forms.",
+    "original_sha256": "c5a3ab1da20ba8a0e01b2be6501762bdcb3748c76746390a5e7ce91dff995206",
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "고고트_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "5ff0229b928315972d95aa40def107d4962b423b045d5b212a170b4c2d8f9057",
+      "git_blob": "91abb1ff20dd811c9ca4fac8cdf0fbe93cd1b6d8"
+    }
+  },
+  {
+    "card": "고고트",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Previously generated built-in image_gen output; existing original prompt/UI preserved; user now explicitly requests upload of all generated forms.",
+    "original_sha256": "ee269a212262c896263c675bc3598899724763affd4e09788dfae8b30648f6d4",
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "고고트_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "6e86cb0c47fb6d478de47d2656e2ae2f016f90ea1d1ae45deb6ac7d454f5f0aa",
+      "git_blob": "ffff76dc89defc7b4009b0a11755aeeb3e635782"
+    }
+  },
+  {
+    "card": "고고트",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Previously generated built-in image_gen output; existing original prompt/UI preserved; user now explicitly requests upload of all generated forms.",
+    "original_sha256": "6855d3f300a07b19554a97fd14fbade5be78a4e86bd7fae5e815697593c1e87b",
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "고고트_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "bae723bdad2ccd31621f315e92248919af1395b3adb82438c82761f6b0c2e1f9",
+      "git_blob": "94fda61b2b389c958d73144affb8ef69134b14c6"
+    }
   }
 ]

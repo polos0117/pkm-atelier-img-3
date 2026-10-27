@@ -1,0 +1,76 @@
+{
+  "user_request": "고고트 폼 이미지도 만든건 다 올려줘",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
+      "observations": "Single close-fitting armor layer, leafy collar, curved horn circlet, long brown shaggy hair and both feet in frame.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left relaxed full-finger glove shows a thumb and four curved digits, some overlapping. Screen-right glove touches the temple, with fingertips partly hidden by hair.",
+        "overlay_checked": false,
+        "note": "Four original images, full-body contact sheet and enlarged hand crops inspected; arm/leg connections and joint direction coherent."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "c5a3ab1da20ba8a0e01b2be6501762bdcb3748c76746390a5e7ce91dff995206",
+      "observations": "Broad stacked plates thicken chest, hips, shoulders, forearms and greaves while preserving the light identity and body size.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left relaxed full-finger glove shows a thumb and four curved digits, some overlapping. Screen-right glove touches the temple, with fingertips partly hidden by hair.",
+        "overlay_checked": false,
+        "note": "Four original images, full-body contact sheet and enlarged hand crops inspected; arm/leg connections and joint direction coherent."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "ee269a212262c896263c675bc3598899724763affd4e09788dfae8b30648f6d4",
+      "observations": "Swept panels and compact thrusters form an airy silhouette while preserving the face and pose.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left relaxed full-finger glove shows a thumb and four curved digits, some overlapping. Screen-right glove touches the temple, with fingertips partly hidden by hair.",
+        "overlay_checked": false,
+        "note": "Four original images, full-body contact sheet and enlarged hand crops inspected; arm/leg connections and joint direction coherent."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "6855d3f300a07b19554a97fd14fbade5be78a4e86bd7fae5e815697593c1e87b",
+      "observations": "Light-form plates open along seams; green inner-frame glow and leaves appear; camera, stance and glove shapes stay consistent.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left relaxed full-finger glove shows a thumb and four curved digits, some overlapping. Screen-right glove touches the temple, with fingertips partly hidden by hair.",
+        "overlay_checked": false,
+        "note": "Four original images, full-body contact sheet and enlarged hand crops inspected; arm/leg connections and joint direction coherent."
+      }
+    }
+  ],
+  "face_comparison": {
+    "reference": "light is the identity anchor",
+    "compared_characters": [
+      "메이클",
+      "플라베베",
+      "형사구스",
+      "턱지충이",
+      "전지충이"
+    ],
+    "evidence": "Long shaggy brown hair, long arched brows, small delicate nose and even lips distinguish Gogoat from medium-haired Skiddo and the earlier comparison sheet; heavy/mobility preserve this face."
+  }
+}
