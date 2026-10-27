@@ -1,0 +1,261 @@
+{
+ "session": "regigigas-giratina-20261027",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "레지기가스",
+   "species": "regigigas-20261027",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "dance_stage",
+     "ex": "cabaret_showgirl",
+     "expr": "focused",
+     "pose": "turning_back",
+     "orient": "looking_down",
+     "frame": "waist_up",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "leggings"
+     ],
+     "expose": [
+      "open back",
+      "halter neck"
+     ],
+     "lead": "light"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "lifeguard_event",
+     "expr": "sleepy",
+     "pose": "cross_legged",
+     "orient": "side",
+     "frame": "three_quarter",
+     "lens": "portrait85",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ],
+     "expose": [
+      "high-cut leg",
+      "strapless top"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "shoreline_walk",
+     "expr": "half_smile",
+     "pose": "mid_stride",
+     "orient": "looking_away",
+     "frame": "full_body",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "swimsuit"
+     ],
+     "expose": [
+      "bare midriff",
+      "plunging neckline"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  },
+  {
+   "card": "기라티나",
+   "species": "giratina-20261027",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "cat": "active",
+     "ex": "roller_skating",
+     "expr": "nostalgic",
+     "pose": "on_tiptoe",
+     "orient": "reaching_up",
+     "frame": "chest_up",
+     "lens": "wide24",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "shorts"
+     ],
+     "expose": [
+      "cropped hem",
+      "off-shoulder neckline"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "bridal",
+     "ex": "veil_wind",
+     "garments": [
+      "dress",
+      "slip"
+     ],
+     "orient": "leaning_forward",
+     "frame": "environmental",
+     "pose": "sitting",
+     "expr": "wistful",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "mini length"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "lingerie",
+     "ex": "sport_cotton",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "pose": "contrapposto",
+     "expr": "sensual",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "open back",
+      "high-cut leg"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "slip"
+    ],
+    "orient": [
+     "leaning_forward",
+     "leaning_back"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

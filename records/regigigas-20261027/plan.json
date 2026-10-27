@@ -1,0 +1,428 @@
+{
+  "session": "regigigas-giratina-20261027",
+  "batch": {
+    "session": "regigigas-giratina-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "레지기가스",
+        "species": "regigigas-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "dance_stage",
+            "ex": "cabaret_showgirl",
+            "expr": "focused",
+            "pose": "turning_back",
+            "orient": "looking_down",
+            "frame": "waist_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "open back",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "lifeguard_event",
+            "expr": "sleepy",
+            "pose": "cross_legged",
+            "orient": "side",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "mod_mini",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "dance_step",
+            "expr": "wistful",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "halter neck"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "기라티나",
+        "species": "giratina-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "active",
+            "ex": "roller_skating",
+            "expr": "nostalgic",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "bridal",
+            "ex": "veil_wind",
+            "expr": "wistful",
+            "pose": "sitting",
+            "orient": "leaning_forward",
+            "frame": "environmental",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "sport_cotton",
+            "expr": "sensual",
+            "pose": "contrapposto",
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "open back",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "dance_stage",
+      "ex": "cabaret_showgirl",
+      "expr": "focused",
+      "pose": "turning_back",
+      "orient": "looking_down",
+      "frame": "waist_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "expose": [
+        "open back",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "a cabaret showgirl costume — a sparkling structured bodice, a feathered headpiece and a large feather fan; descending a backstage stair before the show",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm amber footlights shine through burgundy curtains around the backstage stair before tonight’s performance.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: Warm amber footlights shine through burgundy curtains around the backstage stair before tonight’s performance."
+        },
+        {
+          "field": "outfit",
+          "content": "A black-and-gold sparkling halter crop top with a structured bodice and open back, fitted high-waisted black leggings, a feathered headpiece and a large feather fan; the halter exposes her shoulders and the open back exposes her shoulder blades.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A black-and-gold sparkling halter crop top with a structured bodice and open back, fitted high-waisted black leggings, a feathered headpiece and a large feather fan; the halter exposes her shoulders and the open back exposes her shoulder blades."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active: Warm amber footlights shine through burgundy curtains around the backstage stair before tonight’s performance.",
+        "source_influence": "balanced: limited to the colour and trim of A black-and-gold sparkling halter crop top with a structured bodice and open back, fitted high-waisted black leggings, a feathered headpiece and a large feather fan; the halter exposes her shoulders and the open back exposes her shoulder blades.",
+        "separates_preference": "prefer separates: planner garment set crop_top,leggings implemented in the captured outfit field."
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "lifeguard_event",
+      "expr": "sleepy",
+      "pose": "cross_legged",
+      "orient": "side",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "a lifeguard event costume — a red one-piece-style costume with a whistle on a cord and a rescue buoy prop; posing beside a prop lifeguard tower",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A summer parade float carries the prop lifeguard tower through a festival avenue, with striped bunting and red rescue equipment.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: A summer parade float carries the prop lifeguard tower through a festival avenue, with striped bunting and red rescue equipment."
+        },
+        {
+          "field": "outfit",
+          "content": "A red strapless high-cut one-piece swimsuit event costume with a whistle cord and rescue buoy prop; small golden geometric seams echo her colours, while the strapless neckline exposes her shoulders and high-cut legs expose her thighs.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A red strapless high-cut one-piece swimsuit event costume with a whistle cord and rescue buoy prop; small golden geometric seams echo her colours, while the strapless neckline exposes her shoulders and high-cut legs expose her thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed: A summer parade float carries the prop lifeguard tower through a festival avenue, with striped bunting and red rescue equipment.",
+        "source_influence": "strong: limited to the colour and trim of A red strapless high-cut one-piece swimsuit event costume with a whistle cord and rescue buoy prop; small golden geometric seams echo her colours, while the strapless neckline exposes her shoulders and high-cut legs expose her thighs.",
+        "separates_preference": "balanced: planner garment set swimsuit implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "retro_glamour",
+      "ex": "mod_mini",
+      "garments": [
+        "dress"
+      ],
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "pose": "dance_step",
+      "expr": "wistful",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "halter neck"
+      ],
+      "lead": "detail",
+      "example_text": "a 1960s mod shift mini dress with geometric colour blocks and go-go boots, dancing on a checkerboard floor",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A mirrored disco ball scatters small warm spots across the 1960s dance studio.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: A mirrored disco ball scatters small warm spots across the 1960s dance studio."
+        },
+        {
+          "field": "outfit",
+          "content": "A halter-neck 1960s shift mini dress with ivory, gold and charcoal geometric colour blocks, an open back and white go-go boots; its halter exposes her shoulders and the back opening exposes her shoulder blades.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A halter-neck 1960s shift mini dress with ivory, gold and charcoal geometric colour blocks, an open back and white go-go boots; its halter exposes her shoulders and the back opening exposes her shoulder blades."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active: A mirrored disco ball scatters small warm spots across the 1960s dance studio.",
+        "source_influence": "balanced: limited to the colour and trim of A halter-neck 1960s shift mini dress with ivory, gold and charcoal geometric colour blocks, an open back and white go-go boots; its halter exposes her shoulders and the back opening exposes her shoulder blades.",
+        "separates_preference": "balanced: planner garment set dress implemented in the captured outfit field."
+      }
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation stamps verified",
+  "reservation_commit": "3dc3cdc9cca17cbcbb15205bdbda546e09e7a098",
+  "tool": "built-in image_gen",
+  "generator": "Actual prompt.html rendered in Chromium; exact output unchanged",
+  "storage_method": "Shared partial Git + isolated sparse worktrees. Genuine Git tree filename membership is represented by temporary /dev/null links for the filename-only ledger scan; unrelated image originals were not downloaded. Real UI metadata and actual comparison WebPs were read. Links are never published.",
+  "replans": [
+    {
+      "slot": "casual3",
+      "reason": "shoreline_walk output declined by image generation safety system; no image returned",
+      "rejected_prompt_file": "rejected-casual3-prompt.txt",
+      "replacement": "Planner reselected retro_glamour/mod_mini with dress; materially different dance-fashion scene. Exact new UI and prompt captured.",
+      "plan_before": "plan-before-rejection.json"
+    }
+  ]
+}
