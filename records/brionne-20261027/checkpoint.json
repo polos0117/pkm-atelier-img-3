@@ -2,7 +2,7 @@
   "card": "키요공",
   "generated": 9,
   "requested": 9,
-  "status": "ready_for_publication",
+  "status": "registered_complete",
   "anchor": {
     "card": "키요공",
     "slot": "light",
@@ -101,5 +101,23 @@
     "status": "extracted"
   },
   "face_comparison": "Compared rendered anchors with 어흥염, 깜눈크, 냐오히트 and each other. Popplio has shorter round cheeks, open rounded eyes and a small round nose; Brionne has a longer oval cheek/jaw line, almond eyes, a more defined nose and bow upper lip. Their human facial structure stays distinct in the same glossy style.",
-  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed."
+  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed.",
+  "publication": {
+    "image_commit": "db8642ef59942e74ebeccab6f222f409668ca130",
+    "thumbnail_commit": "3fc67ae6f712ba4f56a6f32b55cc7250874b9748",
+    "code_registration_commit": "b30af6f98bde281fec8ada03772c6ef13a3710ce",
+    "registered_files": [
+      "키요공_glossy_promo_f_casual1.webp",
+      "키요공_glossy_promo_f_casual2.webp",
+      "키요공_glossy_promo_f_casual3.webp",
+      "키요공_heavy_glossy_promo_f.webp",
+      "키요공_heavy_overdrive_glossy_promo_f.webp",
+      "키요공_light_glossy_promo_f.webp",
+      "키요공_light_overdrive_glossy_promo_f.webp",
+      "키요공_mobility_glossy_promo_f.webp",
+      "키요공_mobility_overdrive_glossy_promo_f.webp"
+    ],
+    "verified": "Remote main image bytes match recorded SHA256 for all18; all18 target thumbnails exist on remote main; data/img.json contains6forms+3casuals per card, shard2.",
+    "workflow_note": "Thumbnail runs failed on pre-existing unrelated 빼미스로우_heavy_overdrive_glossy_promo_f.webp. Target thumbnails generated via unchanged standard make-thumbs.py build() and committed. Existing file preserved. Automatic registration succeeded."
+  }
 }
