@@ -1,0 +1,229 @@
+{
+  "character": "턱지충이",
+  "characters": [
+    {
+      "card": "턱지충이",
+      "species": "grubbin-20261028",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "idol_stage",
+          "expr": "wistful",
+          "pose": "dance_step",
+          "orient": "looking_away",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "jacket",
+            "skirt"
+          ],
+          "expose": [
+            "halter neck",
+            "open back"
+          ],
+          "lead": "detail"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_fishing",
+          "expr": "mischievous",
+          "pose": "carrying_something",
+          "orient": "three_quarter_back",
+          "frame": "chest_up",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "overalls"
+          ],
+          "expose": [
+            "halter neck",
+            "off-shoulder neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 3,
+          "cat": "subculture_fashion",
+          "ex": "yami_kawaii",
+          "garments": [
+            "dress"
+          ],
+          "orient": "front",
+          "frame": "waist_up",
+          "pose": "hand_on_hip",
+          "expr": "sleepy",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high thigh slit"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "front"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "idol_stage",
+      "expr": "wistful",
+      "pose": "dance_step",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "expose": [
+        "halter neck",
+        "open back"
+      ],
+      "lead": "detail"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_fishing",
+      "expr": "mischievous",
+      "pose": "carrying_something",
+      "orient": "three_quarter_back",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "halter neck",
+        "off-shoulder neckline"
+      ],
+      "lead": "light"
+    },
+    {
+      "cut": 3,
+      "cat": "subculture_fashion",
+      "ex": "yami_kawaii",
+      "garments": [
+        "dress"
+      ],
+      "orient": "front",
+      "frame": "waist_up",
+      "pose": "hand_on_hip",
+      "expr": "sleepy",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high thigh slit"
+      ],
+      "lead": "detail"
+    }
+  ],
+  "check": "Planner check passed against complete filename inventories; reservation stamp valid.",
+  "attempts": [
+    {
+      "slot": "casual1",
+      "example": "cage_back",
+      "outcome": "moderation_blocked sexual; no output"
+    },
+    {
+      "slot": "casual1",
+      "example": "oring_bikini",
+      "outcome": "moderation_blocked sexual; no output"
+    },
+    {
+      "slot": "casual3",
+      "example": "jazz_kick",
+      "outcome": "Generated original retained in session only; high-kick activity missing; replanned yami_kawaii"
+    }
+  ]
+}
