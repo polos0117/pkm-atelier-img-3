@@ -1,0 +1,105 @@
+{
+  "card": "키요공",
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "anchor": {
+    "card": "키요공",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/7a46e2853aaf/generated_images/exec-037dd334-5931-4dfb-937d-0abc57468c23.png",
+    "original_sha256": "f9710e0238acfba07f5a958c4e38eeec2981de8f8e6705fc3ac640f6ee43a0a5",
+    "identity_or_form_reference": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "키요공_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "940e96b1accd312e81d2416410ec330874bea8511622399d22be7c01f84aa5fc"
+    }
+  },
+  "face_design": {
+    "name": "키요공",
+    "en": "Brionne",
+    "line": "누리공",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "prominent defined nose",
+      "lips": "bow-shaped upper lip"
+    },
+    "why": "춤추는 물개의 리본 같은 곡선을 타원 얼굴와 곡선 입술로 구분한다.",
+    "cues": [
+      "몸 형태 fish → 얼굴형 균형 잡힌 타원형",
+      "몸 형태 fish → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 크고 또렷한 코",
+    "hair": {
+      "hairstyle": "wavy",
+      "hair length": "medium",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "몸 형태 fish에서 웨이브 헤어(웨이브·곱슬) · 중간 길이 · 커튼뱅 — 누리공에서 이어 더 공들인 묶음",
+    "hair_cues": [
+      "몸 형태 fish → 헤어스타일 웨이브 헤어"
+    ]
+  },
+  "source_evidence": {
+    "name": "키요공",
+    "en": "Brionne",
+    "color": "blue",
+    "shape": "fish",
+    "features": [
+      {
+        "part": "tip",
+        "detail": "white tip"
+      },
+      {
+        "part": "nose",
+        "detail": "spherical pink nose"
+      },
+      {
+        "part": "segment",
+        "detail": "first segment"
+      },
+      {
+        "part": "snout",
+        "detail": "long, conical snout"
+      },
+      {
+        "part": "eye",
+        "detail": "large dark eyes"
+      },
+      {
+        "part": "pupil",
+        "detail": "pinkish pupils"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Brionne_%28Pok%C3%A9mon%29",
+    "revision": 4630118,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "97a0128aec14ff3aec59041939dee440beb7b0eeb2ae25e053742704172af75e",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_comparison": "Compared rendered anchors with 어흥염, 깜눈크, 냐오히트 and each other. Popplio has shorter round cheeks, open rounded eyes and a small round nose; Brionne has a longer oval cheek/jaw line, almond eyes, a more defined nose and bow upper lip. Their human facial structure stays distinct in the same glossy style.",
+  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed."
+}
