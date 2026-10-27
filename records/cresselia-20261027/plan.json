@@ -1,0 +1,433 @@
+{
+  "session": "cresselia-phione-20261027-5571",
+  "batch": {
+    "session": "cresselia-phione-20261027-5571",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "크레세리아",
+        "species": "cresselia-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "sport_cotton",
+            "expr": "sensual",
+            "pose": "sitting_floor",
+            "orient": "reclining",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_tart",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "front",
+            "frame": "three_quarter",
+            "pose": "preparing_food",
+            "expr": "relieved",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_parade",
+            "expr": "surprised",
+            "pose": "stretching",
+            "orient": "over_shoulder",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [
+            "front"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "피오네",
+        "species": "phione-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "gown_fitting",
+            "garments": [
+              "dress"
+            ],
+            "orient": "low_angle",
+            "frame": "environmental",
+            "pose": "hands_in_hair",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "oring_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "contrapposto",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "spa_wellness",
+            "ex": "jjimjilbang",
+            "garments": [
+              "robe"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "holding_cup",
+            "expr": "flustered",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini",
+            "robe"
+          ],
+          "orient": [
+            "low_angle",
+            "turning_midmotion",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "sport_cotton",
+      "expr": "sensual",
+      "pose": "sitting_floor",
+      "orient": "reclining",
+      "frame": "waist_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "plunging neckline",
+        "high-cut leg"
+      ],
+      "lead": "light",
+      "example_text": "a sporty cotton lingerie set with plain wide bands, on a bright bedroom morning",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm morning light comes through sheer curtains beside a pale lavender floor cushion and a low upholstered bed.",
+          "reason": "Adds the specific setting absent from the example: Warm morning light comes through sheer curtains beside a pale lavender floor cushion and a low upholstered bed."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque pale-yellow cotton lingerie set with wide bands, a plunging crossover neckline and high-cut bottoms exposing her upper chest and upper thighs.",
+          "reason": "Specifies planned garments, material and exposed areas: An opaque pale-yellow cotton lingerie set with wide bands, a plunging crossover neckline and high-cut bottoms exposing her upper chest and upper thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: Warm morning light comes through sheer curtains beside a pale lavender floor cushion and a low upholstered bed.",
+        "source_influence": "balanced is carried by this cut's material and color: An opaque pale-yellow cotton lingerie set with wide bands, a plunging crossover neckline and high-cut bottoms exposing her upper chest and upper thighs.",
+        "separates_preference": "balanced fits this cut's construction: lingerie_set"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_tart",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "front",
+      "frame": "three_quarter",
+      "pose": "preparing_food",
+      "expr": "relieved",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "Lifting a freshly baked berry tart out of a warm oven with padded mitts in a sunny home kitchen.",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A white-tiled home kitchen has a wide oven door opening below a sunlit butcher-block counter, with a cooling rack ready beside it.",
+          "reason": "Adds the specific setting absent from the example: A white-tiled home kitchen has a wide oven door opening below a sunlit butcher-block counter, with a cooling rack ready beside it."
+        },
+        {
+          "field": "outfit",
+          "content": "A one-shoulder pale-pink apron over an opaque strapless cream top and navy shorts, exposing one shoulder and her collarbones.",
+          "reason": "Specifies planned garments, material and exposed areas: A one-shoulder pale-pink apron over an opaque strapless cream top and navy shorts, exposing one shoulder and her collarbones."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: A white-tiled home kitchen has a wide oven door opening below a sunlit butcher-block counter, with a cooling rack ready beside it.",
+        "source_influence": "subtle is carried by this cut's material and color: A one-shoulder pale-pink apron over an opaque strapless cream top and navy shorts, exposing one shoulder and her collarbones.",
+        "separates_preference": "prefer separates fits this cut's construction: apron, shorts"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_parade",
+      "expr": "surprised",
+      "pose": "stretching",
+      "orient": "over_shoulder",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "expose": [
+        "strapless top",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "Riding a flower-decked parade float and tossing petals toward the street below.",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A shallow basket of pink petals rests on the float rail, with loose petals scattering over a sunlit avenue decorated with paper flowers.",
+          "reason": "Adds the specific setting absent from the example: A shallow basket of pink petals rests on the float rail, with loose petals scattering over a sunlit avenue decorated with paper flowers."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless sky-blue short jumpsuit with an open back and delicate yellow piping, exposing her shoulders and back.",
+          "reason": "Specifies planned garments, material and exposed areas: A strapless sky-blue short jumpsuit with an open back and delicate yellow piping, exposing her shoulders and back."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active follows the activity: A shallow basket of pink petals rests on the float rail, with loose petals scattering over a sunlit avenue decorated with paper flowers.",
+        "source_influence": "balanced is carried by this cut's material and color: A strapless sky-blue short jumpsuit with an open back and delicate yellow piping, exposing her shoulders and back.",
+        "separates_preference": "balanced fits this cut's construction: jumpsuit"
+      }
+    }
+  ],
+  "check": "Planner check --fresh passed; reservation stamps verified.",
+  "reservation_commit": "b370b3c92326bf6d84504d4c923a7a5954e7e9f1",
+  "tool": "built-in image_gen",
+  "storage_method": "Shared blob:none Git repositories, isolated sparse worktrees. Filename-only inventory scans use temporary /dev/null links representing exact tracked HEAD paths; actual comparison WebPs and required UI metadata are materialized. Inventory links are never staged or published.",
+  "replans": [
+    {
+      "slot": "Cresselia casual2",
+      "reason": "Beach bridal output rejected; no repeat of rejected scene. Planner selected a distinct berry-tart baking scene; completed casual1 and casual3 kept. Phione casuals were not generated yet and were replanned as a batch."
+    }
+  ]
+}

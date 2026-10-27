@@ -1,0 +1,118 @@
+{
+  "card": "크레세리아",
+  "anchor": {
+    "card": "크레세리아",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selection and captured prompt; built-in image_gen",
+    "original_session_only": "/workspace/scratch/5571d80c47c0/generated_images/exec-04981be6-5813-4cc4-804f-0dd02e3d067d.png",
+    "original_sha256": "68a22d819748025767e0714925be952b16c2de112fa2e1a782f3195d939f38c7",
+    "references": [],
+    "output": {
+      "file": "크레세리아_light_glossy_promo_f.webp",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "8073228958452ace32abf81294822760021a76005e6539f6d0b40eea0b7d9d9a"
+    }
+  },
+  "face_design": {
+    "name": "크레세리아",
+    "en": "Cresselia",
+    "line": "크레세리아",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "prominent defined nose",
+      "lips": "medium lips"
+    },
+    "why": "초승달과 길게 흐르는 곡선을 타원 얼굴과 완만한 긴 눈매로 옮긴다.",
+    "cues": [
+      "에스퍼 타입 → 눈매 아몬드형 눈",
+      "‘pointed, beak-like snout’ → 코 크고 또렷한 코"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 보통 → 크고 또렷한 코",
+    "hair": {
+      "hairstyle": "straight",
+      "hair length": "very long",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "몸 형태 squiggle에서 곧은 생머리(곧은 결) · 매우 긴 머리 · 옆으로 넘긴 앞머리",
+    "hair_cues": [
+      "몸 형태 squiggle → 헤어스타일 곧은 생머리",
+      "몸 형태 squiggle → 머리 길이 매우 긴 머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "크레세리아",
+    "en": "Cresselia",
+    "color": "yellow",
+    "shape": "squiggle",
+    "features": [
+      {
+        "part": "wing",
+        "detail": "pink wings"
+      },
+      {
+        "part": "body",
+        "detail": "blue, swan-like body"
+      },
+      {
+        "part": "underside",
+        "detail": "yellow underside"
+      },
+      {
+        "part": "snout",
+        "detail": "pointed, beak-like snout"
+      },
+      {
+        "part": "protrusion",
+        "detail": "pointed, tail-like protrusion"
+      },
+      {
+        "part": "eye",
+        "detail": "pink eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Cresselia_%28Pok%C3%A9mon%29",
+    "revision": 4610758,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "3c8196f5514d89dbb355906a88c28bc6b2d1ee30fb6eec31573fddc8f3167606",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_reason": "초승달과 길게 흐르는 곡선을 타원 얼굴과 완만한 긴 눈매로 옮긴다.",
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; almond eyes, medium size, downturned outer corners, average spacing; long arched brows; prominent defined nose; medium lips.",
+  "comparison_characters": [
+    "비비용",
+    "레지기가스",
+    "기라티나",
+    "레오꼬"
+  ],
+  "face_comparison": "Long oval face, tapered lower face, downturned almond eyes and defined nose; distinct from Vivillon's round open eyes, Regigigas' fuller lower face and Giratina's stronger upward eye shape.",
+  "family": "Neither has a normal evolution family; Phione compared with available Manaphy design if image exists.",
+  "batches": [
+    "approved anchor",
+    "heavy and mobility",
+    "three corresponding overdrives",
+    "three independent casuals"
+  ],
+  "published": false,
+  "manifest": "classification.json"
+}

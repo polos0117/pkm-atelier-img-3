@@ -1,0 +1,271 @@
+{
+ "session": "cresselia-phione-20261027-5571",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "크레세리아",
+   "species": "cresselia-20261027",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "lingerie",
+     "ex": "sport_cotton",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "reclining",
+     "frame": "waist_up",
+     "pose": "sitting_floor",
+     "expr": "sensual",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "high-cut leg"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "cat": "bridal",
+     "ex": "veil_wind",
+     "garments": [
+      "dress",
+      "slip"
+     ],
+     "orient": "low_angle",
+     "frame": "three_quarter",
+     "pose": "contrapposto",
+     "expr": "relieved",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "festivals_contests",
+     "ex": "fest_parade",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "over_shoulder",
+     "frame": "full_body",
+     "pose": "stretching",
+     "expr": "surprised",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "open back"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "lingerie_set",
+     "slip",
+     "jumpsuit"
+    ],
+    "orient": [
+     "reclining",
+     "low_angle",
+     "over_shoulder"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "피오네",
+   "species": "phione-20261027",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "food_berries",
+     "ex": "food_tart",
+     "garments": [
+      "apron",
+      "shorts"
+     ],
+     "orient": "front",
+     "frame": "environmental",
+     "pose": "preparing_food",
+     "expr": "determined",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "side cutouts",
+      "mini length"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "cat": "swimwear",
+     "ex": "pool_float",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "turning_midmotion",
+     "frame": "chest_up",
+     "pose": "standing_relaxed",
+     "expr": "confident",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "bare midriff"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "cat": "spa_wellness",
+     "ex": "jjimjilbang",
+     "garments": [
+      "robe"
+     ],
+     "orient": "profile_close",
+     "frame": "waist_up",
+     "pose": "holding_cup",
+     "expr": "pensive",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "strapless top"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "apron",
+     "robe"
+    ],
+    "orient": [
+     "front",
+     "turning_midmotion",
+     "profile_close"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
