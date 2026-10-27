@@ -122,11 +122,13 @@
   },
   "latest_correction": {
     "slot": "casual2",
-    "status": "prepared_for_same_filename_replacement",
+    "status": "published_verified",
     "source_png_sha256": "c09f7700c3e179138e36f0d7f728a42cacf15d4bdd479737c40fb06459a1eab2",
     "webp_sha256": "2909d0503c27b5b0c13266f3c35f914ccf711e9058b36bd6d498b431487026bd",
     "thumbnail_sha256": "87b5daaba18123ff06e45cb5e8093c7424e6f1da59edecc9b5105c4673fec856",
     "file": "키요공_glossy_promo_f_casual2.webp",
-    "reason": "User-requested different composition repairs arm/shoulder connection."
+    "reason": "User-requested different composition repairs arm/shoulder connection.",
+    "image_commit": "0a14389a241ee3808869f4537b7b51fbe1f7c799",
+    "verification": "Source and thumbnail SHA256 verified directly from remote main; source1024x1536, thumbnail341x512; same existing dex casual2 filename and shard2 retained."
   }
 }
