@@ -1,0 +1,104 @@
+{
+  "card": "누리공",
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "anchor": {
+    "card": "누리공",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/7a46e2853aaf/generated_images/exec-54854be5-7a9c-400b-8b9d-594a1a9c4cf8.png",
+    "original_sha256": "6308c9347394f43fff86e06e6898abe0070c162570a4d14c0358a49de7bb0fca",
+    "identity_or_form_reference": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "누리공_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "46e74fa8b6e41933d27b10883753a94a3b26c4e73de8414d7a173fe2bf2b7f57"
+    }
+  },
+  "face_design": {
+    "name": "누리공",
+    "en": "Popplio",
+    "line": "누리공",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "feathered full brows",
+      "nose character": "rounded soft tip",
+      "lips": "fuller lower lip"
+    },
+    "why": "물개의 둥근 코와 거품의 곡선을 둥근 볼과 둥근 사람 코끝으로 옮긴다.",
+    "cues": [
+      "‘large eyes’ → 눈매 큰 눈",
+      "몸 형태 fish → 눈 간격 눈 사이가 넓은",
+      "‘light blue ruff’ → 눈썹 숱 많고 결이 보이는",
+      "몸 형태 fish → 입술 아랫입술이 더 도톰한"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 숱 많고 결이 보이는, 입술 도톰한 입술 → 아랫입술이 더 도톰한 [머리] 도감 바로 옆 다른 계열과 헤어스타일이 겹쳐 층감이 강한 울프컷 → 층을 살린 레이어드",
+    "hair": {
+      "hairstyle": "layered",
+      "hair length": "short",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘light blue ruff’·키 0.4m에서 층을 살린 레이어드(층 낸 컷) · 짧은 머리 · 커튼뱅",
+    "hair_cues": [
+      "‘light blue ruff’ → 헤어스타일 층을 살린 레이어드",
+      "키 0.4m → 머리 길이 짧은 머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "누리공",
+    "en": "Popplio",
+    "color": "blue",
+    "shape": "fish",
+    "features": [
+      {
+        "part": "whisker",
+        "detail": "black whiskers"
+      },
+      {
+        "part": "ruff",
+        "detail": "light blue ruff"
+      },
+      {
+        "part": "snout",
+        "detail": "long, white snout"
+      },
+      {
+        "part": "nose",
+        "detail": "round, pink nose"
+      },
+      {
+        "part": "eye",
+        "detail": "large eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Popplio_%28Pok%C3%A9mon%29",
+    "revision": 4630066,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "a1cec208445427726ee149b88d1278b7de8e193c1ed4d58f97def520890dcc5a",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_comparison": "Compared rendered anchors with 어흥염, 깜눈크, 냐오히트 and each other. Popplio has shorter round cheeks, open rounded eyes and a small round nose; Brionne has a longer oval cheek/jaw line, almond eyes, a more defined nose and bow upper lip. Their human facial structure stays distinct in the same glossy style.",
+  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed."
+}

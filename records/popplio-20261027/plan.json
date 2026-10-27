@@ -1,0 +1,444 @@
+{
+  "session": "popplio-brionne-7a46",
+  "batch": {
+    "session": "popplio-brionne-7a46",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "누리공",
+        "species": "popplio-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "retro_pinup",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "on_tiptoe",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "homewear",
+            "ex": "breakfast_bed",
+            "garments": [
+              "robe"
+            ],
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "gentle",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "food_berries",
+            "ex": "food_juice",
+            "garments": [
+              "apron",
+              "skirt"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "partner_care",
+            "food_berries",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe",
+            "apron"
+          ],
+          "orient": [
+            "reaching_up",
+            "front_3q",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "키요공",
+        "species": "brionne-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "floating_panel",
+            "expr": "unimpressed",
+            "pose": "squatting",
+            "orient": "side",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "waterfall_pool",
+            "expr": "soft_smile",
+            "pose": "hands_in_hair",
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "cocktail_mini",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "sitting",
+            "expr": "cold_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "partner_care",
+            "source_editorial",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "high_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "retro_pinup",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "reaching_up",
+      "frame": "waist_up",
+      "pose": "on_tiptoe",
+      "expr": "provocative",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "a 1950s pin-up lingerie set with a structured bra and high-waisted bottoms",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A chrome vanity lamp shines beside a coral satin curtain in a vintage dressing studio; she adjusts the raised lamp shade.",
+          "reason": "Specific objects, light and activity added to this example: A chrome vanity lamp shines beside a coral satin curtain in a vintage dressing studio; she adjusts the raised lamp shade."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque navy satin 1950s lingerie set has a structured strapless bra, high-waisted briefs and an open-back clasp, exposing shoulders and upper back; tiny pale-blue scallops edge the satin.",
+          "reason": "The planned lingerie_set use strapless top, open back through this design: An opaque navy satin 1950s lingerie set has a structured strapless bra, high-waisted briefs and an open-back clasp, exposing shoulders and upper back; tiny pale-blue scallops edge the satin."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active is matched to A chrome vanity lamp shines beside a coral satin curtain in a vintage dressing studio; she adjusts the raised lamp shade.",
+        "source_influence": "subtle is reflected in An opaque navy satin 1950s lingerie set has a structured strapless bra, high-waisted briefs and an open-back clasp, exposing shoulders and upper back; tiny pale-blue scallops edge the satin.",
+        "separates_preference": "balanced corresponds to lingerie_set"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "homewear",
+      "ex": "breakfast_bed",
+      "garments": [
+        "robe"
+      ],
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "pose": "carrying_something",
+      "expr": "gentle",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "sitting up in bed in satin pyjamas with a breakfast tray across her lap",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning sunlight crosses pale-blue linen and a pink ceramic cup on her breakfast tray.",
+          "reason": "Specific objects, light and activity added to this example: Morning sunlight crosses pale-blue linen and a pink ceramic cup on her breakfast tray."
+        },
+        {
+          "field": "outfit",
+          "content": "A light-blue satin robe with a loose off-shoulder neckline and a high thigh slit rests over a matching satin camisole and sleep shorts; the shoulders and upper legs stay visible.",
+          "reason": "The planned robe use high thigh slit, off-shoulder neckline through this design: A light-blue satin robe with a loose off-shoulder neckline and a high thigh slit rests over a matching satin camisole and sleep shorts; the shoulders and upper legs stay visible."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced is matched to Morning sunlight crosses pale-blue linen and a pink ceramic cup on her breakfast tray.",
+        "source_influence": "strong is reflected in A light-blue satin robe with a loose off-shoulder neckline and a high thigh slit rests over a matching satin camisole and sleep shorts; the shoulders and upper legs stay visible.",
+        "separates_preference": "balanced corresponds to robe"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_juice",
+      "garments": [
+        "apron",
+        "skirt"
+      ],
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "pose": "one_knee_up",
+      "expr": "surprised",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example_text": "Pouring fresh berry juice from a pitcher into a glass at a small roadside juice stand.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A low roadside juice counter sits beneath striped yellow canvas, its small pouring shelf beside a bowl of berries.",
+          "reason": "Specific objects, light and activity added to this example: A low roadside juice counter sits beneath striped yellow canvas, its small pouring shelf beside a bowl of berries."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped cream apron with side cutouts is paired with a separate flared navy mini skirt, exposing her waist and thighs.",
+          "reason": "The planned apron,skirt use cropped hem, side cutouts through this design: A cropped cream apron with side cutouts is paired with a separate flared navy mini skirt, exposing her waist and thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; required 1024×1536 portrait specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to A low roadside juice counter sits beneath striped yellow canvas, its small pouring shelf beside a bowl of berries.",
+        "source_influence": "subtle is reflected in A cropped cream apron with side cutouts is paired with a separate flared navy mini skirt, exposing her waist and thighs.",
+        "separates_preference": "prefer separates corresponds to apron,skirt"
+      }
+    }
+  ],
+  "check": "Planner check and stamp verification passed before casual submissions.",
+  "reservation_commit": "e63c733b2289158d799703401cce7f693fad5ca4",
+  "compared_actual_images": [
+    "어흥염 casual1-3",
+    "깜눈크 casual1-3",
+    "냐오히트 casual1-3"
+  ],
+  "storage_method": "Shared Git blob:none objects, task branch/worktree and sparse necessary metadata. Omitted image names read from Git trees; no image placeholders.",
+  "replanning_reason": "Before generation excluded burkini_modest: its coverage conflicts with planned neckline and high-cut exposure. Brionne casual3 bridal result blocked; planner changed that slot to private_evening/cocktail_mini with slots1-2 preserved. Revised reservation commit 338ee2dd0359b4b66dbc2109068d88eed96dce4b."
+}
