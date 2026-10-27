@@ -1,0 +1,35 @@
+{
+  "card": "기라티나",
+  "status": "9 accepted, QA complete, ready to publish",
+  "generated_accepted": 9,
+  "requested": 9,
+  "canonical": {
+    "card": "기라티나",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local generator UI, exact prompt and built-in image_gen",
+    "source": "/workspace/scratch/ecadd5c38be7/generated_images/exec-29f11105-748e-4248-a8e5-e160be490253.png",
+    "original_sha256": "d950cc4906d0d70f59fd31b44b623d8d83537b90ef3e8130aa2e37273bdfcc0a",
+    "source_session_only": true,
+    "references": [],
+    "output": {
+      "file": "기라티나_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "sha256": "b3bb39516fa6c948c58093e251b00c5baa1d01997197b851c33e0776a3440fc5"
+    }
+  },
+  "face_reason": "Actual face is longer and narrower than Regigigas with more extended chin, lower longer nose, small narrow eye and wider mouth. Palkia has a high ponytail and more tapered shorter jaw, Heatran has a stronger angular cheek/eye shape, Vivillon a smaller soft jaw and larger eye. Canonical Giratina one-eye bangs and crown braid preserved; structure compared separately from hair and horns.",
+  "compared_characters": [
+    "레지기가스",
+    "펄기아",
+    "히드런",
+    "비비용"
+  ],
+  "prompts": "Adjacent *-prompt.txt and *-ui.json",
+  "originals": "Session-only; hashes in classification; no original PNG published."
+}

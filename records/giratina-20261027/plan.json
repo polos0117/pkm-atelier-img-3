@@ -1,0 +1,318 @@
+{
+  "session": "regigigas-giratina-20261027",
+  "batch": {
+    "session": "regigigas-giratina-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "기라티나",
+        "species": "giratina-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "active",
+            "ex": "roller_skating",
+            "expr": "nostalgic",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "fashion_test_engineer",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "sitting",
+            "expr": "half_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "majorette",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "mid_stride",
+            "expr": "provocative",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "trousers",
+            "jacket"
+          ],
+          "orient": [
+            "leaning_back",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "active",
+      "ex": "roller_skating",
+      "expr": "nostalgic",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "chest_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "shorts"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "in roller skates, crop top and high-waisted shorts, balancing as she glides slowly",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Violet rink lights sparkle across a polished indoor roller-skating floor as she practices a slow glide on quad skates.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: Violet rink lights sparkle across a polished indoor roller-skating floor as she practices a slow glide on quad skates."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal off-shoulder crop top with a wine-red hem, high-waisted cream mini shorts and burgundy quad skates; the neckline bares her shoulders and the cropped hem bares her waist.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A charcoal off-shoulder crop top with a wine-red hem, high-waisted cream mini shorts and burgundy quad skates; the neckline bares her shoulders and the cropped hem bares her waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active: Violet rink lights sparkle across a polished indoor roller-skating floor as she practices a slow glide on quad skates.",
+        "source_influence": "subtle: limited to the colour and trim of A charcoal off-shoulder crop top with a wine-red hem, high-waisted cream mini shorts and burgundy quad skates; the neckline bares her shoulders and the cropped hem bares her waist.",
+        "separates_preference": "prefer separates: planner garment set crop_top,shorts implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "fashion_test_engineer",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "sitting",
+      "expr": "half_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "Poké Ball case designer comparing shell finishes and fitting sample parts at a Pokémon craft studio bench.",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Afternoon light glints across brushed metal and lacquer sample tiles arranged on a cork-lined work surface.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: Afternoon light glints across brushed metal and lacquer sample tiles arranged on a cork-lined work surface."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped short-sleeved ivory off-shoulder shirt with a charcoal collar trim, tailored wine-red trousers and black ankle boots; the neckline exposes her shoulders and the cropped hem exposes her waist.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A cropped short-sleeved ivory off-shoulder shirt with a charcoal collar trim, tailored wine-red trousers and black ankle boots; the neckline exposes her shoulders and the cropped hem exposes her waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed: Afternoon light glints across brushed metal and lacquer sample tiles arranged on a cork-lined work surface.",
+        "source_influence": "strong: limited to the colour and trim of A cropped short-sleeved ivory off-shoulder shirt with a charcoal collar trim, tailored wine-red trousers and black ankle boots; the neckline exposes her shoulders and the cropped hem exposes her waist.",
+        "separates_preference": "prefer separates: planner garment set shirt,trousers implemented in the captured outfit field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "majorette",
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "mid_stride",
+      "expr": "provocative",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "example_text": "a marching majorette costume — a plumed shako hat, a braided short jacket without real insignia, a pleated mini skirt and white boots; twirling a baton at a parade",
+      "selection_source": "Planner chose all values; query loaded and locked them in actual Chromium UI. No hand-selected overrides.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A seaside parade avenue is lined with pennants and pastel shopfronts under clear midday skies.",
+          "reason": "The selected example lacks these specific props, time or concrete activity: A seaside parade avenue is lined with pennants and pastel shopfronts under clear midday skies."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped wine-red braided parade jacket with short sleeves, an ivory pleated mini skirt, a plumed shako and white boots; its short hem bares her midriff and the mini skirt bares her thighs.",
+          "reason": "The selected example leaves material, colour and cut open; planner garment/exposure implemented as: A cropped wine-red braided parade jacket with short sleeves, an ivory pleated mini skirt, a plumed shako and white boots; its short hem bares her midriff and the mini skirt bares her thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in image tool has no size argument; repository requires 1024×1536."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active: A seaside parade avenue is lined with pennants and pastel shopfronts under clear midday skies.",
+        "source_influence": "strong: limited to the colour and trim of A cropped wine-red braided parade jacket with short sleeves, an ivory pleated mini skirt, a plumed shako and white boots; its short hem bares her midriff and the mini skirt bares her thighs.",
+        "separates_preference": "prefer separates: planner garment set jacket,skirt implemented in the captured outfit field."
+      }
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation stamps verified",
+  "reservation_commit": "75bfa48fd2d88d1d909e7a580233d785350e45a7",
+  "tool": "built-in image_gen",
+  "generator": "Actual prompt.html rendered in Chromium; exact output unchanged",
+  "storage_method": "Shared partial Git + isolated sparse worktrees. Genuine Git tree filename membership is represented by temporary /dev/null links for the filename-only ledger scan; unrelated image originals were not downloaded. Real UI metadata and actual comparison WebPs were read. Links are never published.",
+  "replans": [
+    {
+      "slot": "casual2",
+      "reason": "First bridal result omitted holding veil; same-setting retry was declined by image tool safety system.",
+      "first_unaccepted_original_sha256": "50ff74164b553b3d59947eef9972e4f61d3437e461552b7bfd8ccb6cf2f40e46",
+      "rejected_prompt_file": "rejected-casual2-prompt.txt",
+      "new_scene": "occupation_sensual/fashion_test_engineer: craft studio shell-finish comparison. Exact new actual UI and output recorded."
+    },
+    {
+      "slot": "casual3",
+      "reason": "sport_cotton output declined by image safety system; no image returned",
+      "rejected_prompt_file": "rejected-casual3-prompt.txt",
+      "new_scene": "adult_roleplay/majorette: parade event fashion with baton. Exact new UI and output recorded."
+    }
+  ]
+}
