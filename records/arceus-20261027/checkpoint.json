@@ -1,0 +1,76 @@
+{
+  "card": "아르세우스",
+  "anchor": {
+    "card": "아르세우스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selection and captured prompt; built-in image_gen",
+    "original_session_only": "/workspace/scratch/1b7339ef00a6/generated_images/exec-6ac8c450-8e6d-41bd-8939-9b2f0e2a1f1a.png",
+    "original_sha256": "2c9f098f7825e0a552d406fc3726e75d01301ddf0641ffd2b2cab009d8ad5aa0",
+    "references": [],
+    "output": {
+      "file": "아르세우스_light_glossy_promo_f.webp",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "57c5fa27b1bfc8e689a3e41e4f9f46c531cf131839eb1f4a622a502bb7f6b137"
+    }
+  },
+  "face_design": {
+    "name": "아르세우스",
+    "en": "Arceus",
+    "line": "아르세우스",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "broad low bridge",
+      "lips": "thin lips"
+    },
+    "why": "고리의 대칭과 신성한 긴 실루엣을 정돈된 긴 얼굴과 고요한 눈매로 해석한다.",
+    "cues": [
+      "키 3.2m → 얼굴형 길고 세련된 얼굴형",
+      "키 3.2m → 얼굴 길이 긴 얼굴",
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은",
+      "무게 320kg → 코 콧대가 낮고 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 길고 코끝이 내려온 → 콧대가 낮고 넓은",
+    "hair": {
+      "hairstyle": "ringlet curls",
+      "hair length": "very long",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘four green jewels’·키 3.2m에서 세로로 말린 드릴 컬(웨이브·곱슬) · 매우 긴 머리 · 커튼뱅",
+    "hair_cues": [
+      "‘four green jewels’ → 헤어스타일 세로로 말린 드릴 컬",
+      "키 3.2m → 머리 길이 매우 긴 머리"
+    ]
+  },
+  "face_reason": "고리의 대칭과 신성한 긴 실루엣을 정돈된 긴 얼굴과 고요한 눈매로 해석한다.",
+  "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; almond eyes, medium size, downturned outer corners, wide-set; straight medium brows; broad low bridge nose; thin lips.",
+  "comparison_characters": [
+    "피오네",
+    "마나피",
+    "다크라이",
+    "쉐이미"
+  ],
+  "face_comparison": "Elongated narrower face, long chin, straight brows, thin lips and downward almond eyes; noticeably longer facial structure than Shaymin, Phione and Manaphy. White-gold long curls distinguish her from Darkrai long asymmetric black hair.",
+  "family": "Neither species has a normal evolution family; forms share the original light anchor.",
+  "published": false,
+  "tool": "built-in image_gen",
+  "manifest": "classification.json"
+}

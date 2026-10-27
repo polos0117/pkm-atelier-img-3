@@ -1,0 +1,215 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "cuts": [
+    {
+      "slot": "light",
+      "image_sha256": "2c9f098f7825e0a552d406fc3726e75d01301ddf0641ffd2b2cab009d8ad5aa0",
+      "accepted": true,
+      "observations": "Long narrow face, golden almond eyes and pale flowing curls above white, charcoal and gold slim armor; screen-right palm has five separated fingers, lowered hand curls naturally; two armored legs end in separate boots.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Long narrow face, golden almond eyes and pale flowing curls above white, charcoal and gold slim armor; screen-right palm has five separated fingers, lowered hand curls naturally; two armored legs end in separate boots."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Long narrow face, golden almond eyes and pale flowing curls above white, charcoal and gold slim armor; screen-right palm has five separated fingers, lowered hand curls naturally; two armored legs end in separate boots."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "d1697a4def5c9c4319a49434f49c283e380cf8fb09d859e427094ba1bf738df3",
+      "accepted": true,
+      "observations": "Thick layered shoulder, hip and shin plates enlarge armor silhouette; face is unobstructed below the open crown helmet, two arms and two legs remain attached.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Thick layered shoulder, hip and shin plates enlarge armor silhouette; face is unobstructed below the open crown helmet, two arms and two legs remain attached."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Thick layered shoulder, hip and shin plates enlarge armor silhouette; face is unobstructed below the open crown helmet, two arms and two legs remain attached."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "206713b65ca95f8a4be54a8d0645cd5998c96b87df2b8929591dcbafd8a467e2",
+      "accepted": true,
+      "observations": "Split white-gold swept panels and circular propulsion elements open the shoulder, hip and calf silhouette while keeping the face and body.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Split white-gold swept panels and circular propulsion elements open the shoulder, hip and calf silhouette while keeping the face and body."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Split white-gold swept panels and circular propulsion elements open the shoulder, hip and calf silhouette while keeping the face and body."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "4229636702fba85e717f6ee536eefcd999b106bb25fa8f0645a9a1d51e41978a",
+      "accepted": true,
+      "observations": "Light plates separate from their dark underframe with white-gold light in the gaps; same forward palm, camera height, leg crossing and background as the light image.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Light plates separate from their dark underframe with white-gold light in the gaps; same forward palm, camera height, leg crossing and background as the light image."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Light plates separate from their dark underframe with white-gold light in the gaps; same forward palm, camera height, leg crossing and background as the light image."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "5d7e87d652a601f7073c5d5d2c07b90088461c49b0a8cb8be07986f277e76a85",
+      "accepted": true,
+      "observations": "Stacked plates swing outward and bright inner mechanisms show at chest, hip and limbs; full body and hand placement match the heavy card.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Stacked plates swing outward and bright inner mechanisms show at chest, hip and limbs; full body and hand placement match the heavy card."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Stacked plates swing outward and bright inner mechanisms show at chest, hip and limbs; full body and hand placement match the heavy card."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "3a901fd6b7ceaa79e3c088064fc141e0bd785bf675119d8046d2580955c5f1c2",
+      "accepted": true,
+      "observations": "Fanned panels spread wider with glowing circular thrusters and exposed frames; same outstretched hand, face and crossed boots as mobility.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Fanned panels spread wider with glowing circular thrusters and exposed frames; same outstretched hand, face and crossed boots as mobility."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Fanned panels spread wider with glowing circular thrusters and exposed frames; same outstretched hand, face and crossed boots as mobility."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "bb2c195f6c272ff94f5bb5ff6075f1d07a380053d971595f76baf4ef0bb5733f",
+      "accepted": true,
+      "observations": "Backstage instrument cases and amber lamps surround her white guitar. Two arms terminate at the picking hand and fret hand; the strings and neck hide some fingertips. Leather mini skirt, ivory vest, choker and exposed side waist read clearly. She plays rather than turns a tuning peg; the activity remains guitar handling on the backstage set, noted as a small action deviation. Frame is head to thigh rather than face close-up.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "Backstage instrument cases and amber lamps surround her white guitar. Two arms terminate at the picking hand and fret hand; the strings and neck hide some fingertips. Leather mini skirt, ivory vest, choker and exposed side waist read clearly. She plays rather than turns a tuning peg; the activity remains guitar handling on the backstage set, noted as a small action deviation. Frame is head to thigh rather than face close-up."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": false,
+        "evidence": "Backstage instrument cases and amber lamps surround her white guitar. Two arms terminate at the picking hand and fret hand; the strings and neck hide some fingertips. Leather mini skirt, ivory vest, choker and exposed side waist read clearly. She plays rather than turns a tuning peg; the activity remains guitar handling on the backstage set, noted as a small action deviation. Frame is head to thigh rather than face close-up."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "438c1a5e69332450068e0b8cdc8e3894f92dfd2ff9c15893a149fda4277f7df1",
+      "accepted": true,
+      "observations": "She leans back on a teak resort rail in a lined white ring-linked bikini; one palm supports her on the rail and the other hand reaches into hair beside her head. Exactly two upper arms and two forearms connect normally, with the hair obscuring digits of the raised hand. Two thighs descend below the crop.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "She leans back on a teak resort rail in a lined white ring-linked bikini; one palm supports her on the rail and the other hand reaches into hair beside her head. Exactly two upper arms and two forearms connect normally, with the hair obscuring digits of the raised hand. Two thighs descend below the crop."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "She leans back on a teak resort rail in a lined white ring-linked bikini; one palm supports her on the rail and the other hand reaches into hair beside her head. Exactly two upper arms and two forearms connect normally, with the hair obscuring digits of the raised hand. Two thighs descend below the crop."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "d268cf145affc2aec9e5d5c05ebaae779a48952cbbe68ff459d7215618d379a8",
+      "accepted": true,
+      "observations": "She sits on a velvet nightclub sofa with crossed knees and two sandal-clad feet visible; one hand holds a glass and the other supports her on the cushion. Open laughing mouth, two connected arms, one-shoulder sequins and slit skirt are visible. Background clubgoers are blurred, low-detail shapes rather than second featured subjects.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; exposed glove palm shows one thumb and four fingers. Casual hand grips were checked in enlarged crops; guitar/glass/hair hide some digits.",
+        "overlay_checked": false,
+        "note": "She sits on a velvet nightclub sofa with crossed knees and two sandal-clad feet visible; one hand holds a glass and the other supports her on the cushion. Open laughing mouth, two connected arms, one-shoulder sequins and slit skirt are visible. Background clubgoers are blurred, low-detail shapes rather than second featured subjects."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same elongated face, gold eyes, pale curtain bangs and very long white-gold curls."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "She sits on a velvet nightclub sofa with crossed knees and two sandal-clad feet visible; one hand holds a glass and the other supports her on the cushion. Open laughing mouth, two connected arms, one-shoulder sequins and slit skirt are visible. Background clubgoers are blurred, low-detail shapes rather than second featured subjects."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "compared": [
+      "피오네",
+      "마나피",
+      "다크라이",
+      "쉐이미"
+    ],
+    "observations": "Guitar-playing beside backstage cases, a supported resort railing bikini pose, and crossed-leg laughing on a velvet nightclub sofa differ in garment and hand action from the recent wedding, skating, cafe, sailor, desert compass, lake and perfume scenes. The club setting shares evening colors with Phione skating but differs in seated pose, full one-shoulder dress and glass/sofa layout. Shaymin camera, kneeling towel and rug-reading scenes also differ in activity and body silhouette.",
+    "casual_look": "Passed; no near-duplicate below threshold."
+  },
+  "skipped": []
+}

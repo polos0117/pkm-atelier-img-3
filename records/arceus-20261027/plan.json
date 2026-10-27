@@ -1,0 +1,395 @@
+{
+  "session": "shaymin-arceus-20261027",
+  "batch": {
+    "session": "shaymin-arceus-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "쉐이미",
+        "species": "shaymin-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "gala_red_carpet",
+            "ex": "photo_wall",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_forward",
+            "frame": "face_close",
+            "pose": "taking_photo",
+            "expr": "soft_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "bandeau_bikini",
+            "expr": "candid",
+            "pose": "kneeling",
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini",
+              "crop_top"
+            ],
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "adult_librarian",
+            "expr": "proud",
+            "pose": "one_knee_up",
+            "orient": "looking_down",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "cardigan",
+              "skirt"
+            ],
+            "expose": [
+              "strapless top",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "subculture_fashion",
+            "nightlife",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "아르세우스",
+        "species": "arceus-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "rock_backstage",
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "orient": "side",
+            "frame": "face_close",
+            "pose": "playing_instrument",
+            "expr": "bored",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "oring_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "leaning_furniture",
+            "expr": "amused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "vip_booth",
+            "garments": [
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "pose": "perched_seat",
+            "expr": "laughing_open",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "subculture_fashion",
+            "nightlife"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "vest"
+          ],
+          "orient": [
+            "side",
+            "leaning_back",
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "subculture_fashion",
+      "ex": "rock_backstage",
+      "garments": [
+        "skirt",
+        "vest"
+      ],
+      "orient": "side",
+      "frame": "face_close",
+      "pose": "playing_instrument",
+      "expr": "bored",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "rock — a leather mini skirt, a cropped vest and a choker, tuning a guitar backstage",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A strip of amber rehearsal light falls across stacked black instrument cases, with a coiled cable at her boots.",
+          "reason": "Adds the specific setting absent from the example: A strip of amber rehearsal light falls across stacked black instrument cases, with a coiled cable at her boots."
+        },
+        {
+          "field": "outfit",
+          "content": "A black leather mini skirt and cropped ivory vest over an asymmetrical one-shoulder top with side cutouts expose one shoulder, side waist and thighs; a slim gold choker completes the rock styling.",
+          "reason": "Specifies planned garments, material and exposed areas: A black leather mini skirt and cropped ivory vest over an asymmetrical one-shoulder top with side cutouts expose one shoulder, side waist and thighs; a slim gold choker completes the rock styling."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: A strip of amber rehearsal light falls across stacked black instrument cases, with a coiled cable at her boots.",
+        "source_influence": "balanced is carried by this cut's material and color: A black leather mini skirt and cropped ivory vest over an asymmetrical one-shoulder top with side cutouts expose one shoulder, side waist and thighs; a slim gold choker completes the rock styling.",
+        "separates_preference": "prefer separates fits this cut's construction: skirt, vest"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "oring_bikini",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "pose": "leaning_furniture",
+      "expr": "amused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "a bikini whose top and bottom are joined at the centre and hips by polished metal rings",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A sea-facing resort terrace has a teak rail and shimmering turquoise water below in late afternoon.",
+          "reason": "Adds the specific setting absent from the example: A sea-facing resort terrace has a teak rail and shimmering turquoise water below in late afternoon."
+        },
+        {
+          "field": "outfit",
+          "content": "A fully lined white bikini has a strapless top and matching bottoms linked by polished gold rings at the centre and hips, exposing shoulders and midriff.",
+          "reason": "Specifies planned garments, material and exposed areas: A fully lined white bikini has a strapless top and matching bottoms linked by polished gold rings at the centre and hips, exposing shoulders and midriff."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: A sea-facing resort terrace has a teak rail and shimmering turquoise water below in late afternoon.",
+        "source_influence": "subtle is carried by this cut's material and color: A fully lined white bikini has a strapless top and matching bottoms linked by polished gold rings at the centre and hips, exposing shoulders and midriff.",
+        "separates_preference": "balanced fits this cut's construction: bikini"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "nightlife",
+      "ex": "vip_booth",
+      "garments": [
+        "dress"
+      ],
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "pose": "perched_seat",
+      "expr": "laughing_open",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "lounging in a velvet VIP booth in a one-shoulder sequin dress, a bucket of ice beside her",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She settles into a curved velvet booth beside an ice bucket and a small amber drink, under violet nightclub lights.",
+          "reason": "Adds the specific setting absent from the example: She settles into a curved velvet booth beside an ice bucket and a small amber drink, under violet nightclub lights."
+        },
+        {
+          "field": "outfit",
+          "content": "A charcoal one-shoulder sequin mini dress has a high thigh slit and gold-edged hem, exposing one shoulder and both thighs.",
+          "reason": "Specifies planned garments, material and exposed areas: A charcoal one-shoulder sequin mini dress has a high thigh slit and gold-edged hem, exposing one shoulder and both thighs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: She settles into a curved velvet booth beside an ice bucket and a small amber drink, under violet nightclub lights.",
+        "source_influence": "balanced is carried by this cut's material and color: A charcoal one-shoulder sequin mini dress has a high thigh slit and gold-edged hem, exposing one shoulder and both thighs.",
+        "separates_preference": "balanced fits this cut's construction: dress"
+      }
+    }
+  ],
+  "check": "Planner check --fresh passed; reservation stamps verified.",
+  "reservation_commit": "61103594e651c995d26455380b7e616fe1e3ac0f",
+  "tool": "built-in image_gen",
+  "storage_method": "Shared blob:none Git repositories, isolated sparse worktrees. Filename-only inventory scans use temporary /dev/null links representing exact tracked HEAD paths; actual comparison WebPs and required UI metadata are materialized. Inventory links are never staged or published.",
+  "replans": []
+}
