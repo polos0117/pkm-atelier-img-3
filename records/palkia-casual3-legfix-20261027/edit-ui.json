@@ -1,0 +1,106 @@
+{
+  "card": "펄기아",
+  "slot": "casual3",
+  "operation": "User-directed anatomical edit, not a new lifestyle plan",
+  "original_generator_storage": {
+    "last": "펄기아",
+    "cards": {
+      "펄기아": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "exhausted",
+            "pose": "side_sitting",
+            "orient": "reclining",
+            "scene": "A paint-stained brush holder rests beside a finished canvas while she sorts used brushes and tidies the studio after closing.",
+            "outfit": "An oversized white artist shirt draped off one shoulder and tied below the shoulder blades to leave an open back, paired with short plum studio shorts; her shoulder and upper back are exposed.",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "wildcard",
+            "catCustom": "",
+            "ex": "art_studio",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "Use case: precise-object-edit.\nImage 1 is the edit target, the art-studio illustration. Image 2 is the approved original woman; use it only to preserve her face, hair and adult identity, never its armor.\n\nCorrect the lower-body anatomy in Image 1. It has an extra compressed flesh-coloured leg-like form lying on the floor beneath the foreground calf and feet. Remove that entire stray limb and replace the confusing folded-leg pose with a simple, clearly readable seated pose.\nKeep the same adult woman, lavender-white high ponytail and bangs, violet eyes, face, body proportions, paint-spattered white artist shirt, plum shorts, two arms and hands sorting brushes beside the brush holder, finished painting, studio and warm window light.\n\nSeat her on a low, solid rectangular wooden artist's seat (a simple box-shaped seat with no exposed chair legs). Adjust her seated body angle naturally to a front-side three-quarter view so both legs can be followed separately. Exactly TWO thighs emerge from the shorts, each leads to its own visible knee, then its own lower leg descending toward the floor, then one ankle and one bare foot. Both feet rest flat on the paint-covered floor cloth, a small clear gap between the ankles and feet. Both knees bend comfortably over the seat edge. No leg folds behind or underneath her hips, no crossed legs, no hidden extra calf under another leg. Replace all old flesh-shaped remnants below the legs with ordinary flat paint-stained cloth and floor. Keep the feet naturally proportioned with five toes each.\nMake the pelvis and torso align comfortably with this new seated pose; retain her face, hairstyle, outfit and brush-sorting activity. Exactly two connected arms, two hands, two connected legs and two feet total. Keep hair and loose shirt fabric away from the knees and ankles so the two leg chains remain readable.\n\nFull-body vertical portrait at 1024x1536, with the complete head, hands and both feet inside the frame. Same glossy illustration style, one woman, no new people, no armor, no text or watermark.\n",
+  "source": "Actual built-in image_gen edit submission",
+  "user_request": "펄기아 일상3번에 발 쪽에 다른 뭉개진 다리가 추가로 보여. 육안으로 확인하고 수정해줘"
+}

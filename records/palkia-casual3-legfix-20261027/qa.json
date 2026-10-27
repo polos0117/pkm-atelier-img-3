@@ -1,0 +1,45 @@
+{
+  "card": "펄기아",
+  "slot": "casual3",
+  "reviewer": "gpt",
+  "accepted": true,
+  "previous_public_sha256": "0b419099563b75be082659dc8bdb711e15ae20dd099b5aab7a6a46cee1952766",
+  "original_sha256": "a049df95b72840650f6b01f232cbb464ef5d3b398f5ce18383d0aa5f332131c2",
+  "new_public_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
+  "previous_review_erratum": "Original QA accepted a folded-leg pose with an extra flesh-coloured leg-like form below the feet. User identified it; that original approval is now withdrawn.",
+  "checks": {
+    "near_leg": {
+      "match": true,
+      "evidence": "Near thigh emerges from plum shorts at the seat, follows to one separate rounded knee, then one calf descends toward the foreground ankle and one complete foot on the floor cloth."
+    },
+    "far_leg": {
+      "match": true,
+      "evidence": "Far thigh is visible above the seat edge, leads to its own knee on image right, then a separate calf and ankle ending in the farther foot. A background gap separates the lower legs."
+    },
+    "feet": {
+      "match": true,
+      "evidence": "Exactly two feet, five toes on each counted in separate enlarged source crops. Both feet lie flat on ordinary cloth. No skin-coloured cylinder, duplicate ankle or extra foot remains beneath them."
+    },
+    "hands_arms": {
+      "match": true,
+      "evidence": "Two hands remain at the brush holder, each connected to a sleeve/forearm. One thumb and four fingers per hand, partly occluded by brushes and cup; no new arm or hand."
+    },
+    "identity_scene": {
+      "match": true,
+      "evidence": "Same adult face, violet eyes, lavender-white ponytail, paint-spattered artist shirt, plum shorts, brush sorting, canvas and warm studio window. Low solid painted wooden box supports the new seated pose; no chair legs can be confused with human limbs."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Original and WebP reopened at 1024×1536."
+    }
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe absent, established earlier in this conversation; enlarged visual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One thumb and four fingers each; digits behind brush/cup marked occluded.",
+    "feet": "Two feet, five toes each. Both thigh-knee-calf-ankle-foot chains inspected separately.",
+    "overlay_checked": false,
+    "note": "Whole body and enlarged lower-body, near-foot, far-foot and hand crops inspected."
+  }
+}

@@ -2,7 +2,7 @@
   "card": "펄기아",
   "reviewer": "gpt",
   "tool": "built-in image_gen",
-  "accepted": true,
+  "accepted": false,
   "compared_characters": [
     "타격귀",
     "던지미",
@@ -312,7 +312,7 @@
       "slot": "casual3",
       "file": "펄기아_glossy_promo_f_casual3.webp",
       "image_sha256": "c0e883b0fcc1e0c7ae72a11df7a0fe125261da3358105887c968e8cac4aa1831",
-      "accepted": true,
+      "accepted": false,
       "observations": "Paint-spattered shirt knotted behind back, plum shorts, brush holder and finished canvas. She sorts brushes while sitting with both bent knees toward one side and two feet together. Bare shoulder, upper back and thighs visible. Actual head turns over shoulder and is more alert than exhausted; body is side-sitting rather than reclining, and full body is shown rather than planned three-quarter: deviations recorded.",
       "checks": {
         "identity": {
@@ -324,8 +324,9 @@
           "evidence": "Pillow reopened original and WebP, 1024×1536 each."
         },
         "anatomy": {
-          "match": true,
-          "evidence": "Brush hand has thumb partly behind brush and four curled fingers; container hand fingers partly occluded by brush holder. Two bare feet, five toes on near foot; far foot toes partly overlapped. Ankles and knees connect naturally."
+          "match": false,
+          "evidence": "Brush hand has thumb partly behind brush and four curled fingers; container hand fingers partly occluded by brush holder. Two bare feet, five toes on near foot; far foot toes partly overlapped. Ankles and knees connect naturally.",
+          "correction": "Prior visual acceptance withdrawn; extra lower-leg shape was missed."
         },
         "people": {
           "match": true,
@@ -343,7 +344,12 @@
         "hands": "Brush hand has thumb partly behind brush and four curled fingers; container hand fingers partly occluded by brush holder. Two bare feet, five toes on near foot; far foot toes partly overlapped. Ankles and knees connect naturally.",
         "overlay_checked": false,
         "note": "Paint-spattered shirt knotted behind back, plum shorts, brush holder and finished canvas. She sorts brushes while sitting with both bent knees toward one side and two feet together. Bare shoulder, upper back and thighs visible. Actual head turns over shoulder and is more alert than exhausted; body is side-sitting rather than reclining, and full body is shown rather than planned three-quarter: deviations recorded."
-      }
+      },
+      "historical_accepted": true,
+      "erratum": "Extra leg-like form under foreground calf/feet confirmed after user report.",
+      "superseded_by": "records/palkia-casual3-legfix-20261027/qa.json"
     }
-  ]
+  ],
+  "historical_accepted": true,
+  "erratum": "Original batch review missed anatomy defects. Current replacement QA is linked from checkpoint.json."
 }
