@@ -86,8 +86,12 @@
       "record": "records/palkia-casual3-proportionfix-20261027",
       "old_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
       "new_sha256": "b744e09f28345172ec9799f62b216c5e6677255a8386ecf157f922f37f9ea907",
-      "status": "visually_accepted_publication_pending",
-      "reason": "User rejected seated proportions; regenerated upright full-body studio composition"
+      "status": "registered_complete",
+      "reason": "User rejected seated proportions; regenerated upright full-body studio composition",
+      "image_commit": "54d91fa61ffc3617f5c36615e82cf1e719326ab9",
+      "thumbnail_commit": "9e1fe63ea49f480e0f415d198cc6997ec020e863",
+      "verified_code_head": "31fbb03406eebd7cbb02ab5b7099c82b0344ab82",
+      "verification": "records/palkia-casual3-proportionfix-20261027/verification.json"
     }
   ],
   "qa_errata": [
@@ -101,6 +105,12 @@
       "rejected_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
       "note": "Prior Y2K replacement had three arms, incorrectly approved. Its QA accepted flag is now false. Current frontal correction was inspected as two continuous arm chains.",
       "active_record": "records/palkia-casual1-twoarms-20261027"
+    },
+    {
+      "slot": "casual3",
+      "rejected_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
+      "note": "Seated legfix review missed an elongated upper body and compressed lower body; user rejected. Rebuilt as standing artist scene and reviewed full proportions separately from limb counts.",
+      "active_record": "records/palkia-casual3-proportionfix-20261027"
     }
   ]
 }
