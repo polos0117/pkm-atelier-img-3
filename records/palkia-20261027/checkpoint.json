@@ -76,8 +76,18 @@
       "record": "records/palkia-casual3-legfix-20261027",
       "old_sha256": "0b419099563b75be082659dc8bdb711e15ae20dd099b5aab7a6a46cee1952766",
       "new_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
+      "status": "published_but_rejected_by_user_proportions",
+      "reason": "Extra lower-leg-like form beneath folded calves/feet; replaced with a leg-separated box-seated pose",
+      "image_commit": "d3b191f57c4bcfa785814c5b6aef9a0abef99f43",
+      "qa_status": "rejected_after_user_report_short_legs"
+    },
+    {
+      "slot": "casual3",
+      "record": "records/palkia-casual3-proportionfix-20261027",
+      "old_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
+      "new_sha256": "b744e09f28345172ec9799f62b216c5e6677255a8386ecf157f922f37f9ea907",
       "status": "visually_accepted_publication_pending",
-      "reason": "Extra lower-leg-like form beneath folded calves/feet; replaced with a leg-separated box-seated pose"
+      "reason": "User rejected seated proportions; regenerated upright full-body studio composition"
     }
   ],
   "qa_errata": [

@@ -1,0 +1,21 @@
+{
+  "card": "펄기아",
+  "slot": "casual3",
+  "operation": "User-directed anatomy correction with complete composition rebuild; existing art_studio activity retained",
+  "user_request": [
+    "위에 그림 신체구도가 이상해. 상체에 비해 하체가 너무 짧아.",
+    "다른 계획으로 수정해서 재생성해줘."
+  ],
+  "prior_composition": "Rejected seated-on-box pose with oversized upper body and short lower body",
+  "new_composition": "Standing full-body beside a worktable, separate nearly straight legs; normal camera perspective; brush sorting",
+  "identity_reference": "canonical light image only; rejected seated target excluded to avoid copying proportions",
+  "scene_change": "No new lifestyle slot or example. Same art studio, painting tools and activity. User correction supersedes original seated pose/crop.",
+  "wardrobe": "Opaque artist shirt, plum high-waisted shorts and white low-top sneakers",
+  "acceptance": [
+    "balanced adult upper/lower proportions",
+    "two continuous arms and hands",
+    "two continuous legs and shoes, no flesh remnants",
+    "identity preserved"
+  ],
+  "planner_note": "The unmodified planner cannot retain both existing full_body casual1 and environmental casual2 while assigning a third full-body framing; no planner output or reservation was fabricated. This record documents the authorized anatomy correction to the existing slot."
+}

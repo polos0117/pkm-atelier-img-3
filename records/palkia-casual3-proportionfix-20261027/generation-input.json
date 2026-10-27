@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image_gen",
+  "intent": "New composition for existing casual3 anatomy correction",
+  "prompt_file": "regeneration-prompt.txt",
+  "prompt_sha256": "9ef047ecbbaf35164fc27c89232f837c81102e3f01cbf9b843a44bc8c22c6d67",
+  "references": [
+    {
+      "role": "canonical identity only",
+      "path": "generated_images/exec-c56a2e1e-db41-4bd4-96f7-50ef5651724c.png",
+      "sha256": "64c0e9f901d35a50c96681693088e9d04716e60f029a2575e0d2b0c079b81aa3"
+    }
+  ],
+  "original_ui": "../palkia-20261027/casual3-ui.json",
+  "actual_changes": {
+    "pose": "standing rather than side_sitting or box_seated",
+    "framing": "full body instead of three_quarter",
+    "camera": "neutral height 50mm instead of seated angle",
+    "footwear": "white low-top sneakers"
+  },
+  "source": "Actual submitted manual correction prompt. No generator UI selections or planner reservation claimed."
+}

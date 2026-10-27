@@ -1,0 +1,27 @@
+{
+  "card": "펄기아",
+  "slot": "casual3",
+  "accepted": true,
+  "reviewer": "gpt",
+  "original_sha256": "b0def693e5b0f49ec517501ee552686d308872c44f312088227bf08e505a39f4",
+  "new_public_sha256": "b744e09f28345172ec9799f62b216c5e6677255a8386ecf157f922f37f9ea907",
+  "previous_review_erratum": "Seated legfix was incorrectly accepted after counting limbs without reviewing upper/lower body proportions. That acceptance is withdrawn.",
+  "checks": {
+    "proportions": "Whole figure inspected: shoulder-to-crotch no longer dominates; pelvic height is balanced, thighs and lower legs have comparable uncompressed lengths. Both knees and ankles sit naturally in a standing pose.",
+    "leg_chains": "Two separate shorts-to-thigh-to-knee-to-calf-to-ankle-to-shoe chains; no extra flesh forms, folded calves or duplicate feet.",
+    "arm_chains": "Image left sleeve, forearm and brush hand form one chain. Image right sleeve, downward forearm and hand at canvas edge form the second. No third arm.",
+    "identity": "Face, violet eyes, long lavender-white high ponytail and adult physique compared with canonical light.",
+    "scene": "Same painting studio activity with new standing composition; canvas, paint-stained shirt and plum shorts retained. Far hand rests at canvas edge rather than table edge, a harmless scene variation.",
+    "framing": "Head, both hands and both shoes fully in frame; portrait 1024x1536.",
+    "similarity": "casual-look check all three cuts passed, nearest other character 239, failure threshold 215."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe absent, verified earlier in this session; enlarged visual review used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Brush hand: thumb and curved fingers connected to grip; rear digits partly occluded by brush/other fingers. Resting hand: thumb and two long fingers clearly visible; remaining fingers occluded by hand/edge. No visible extra digits or detached hands. Occluded fingers not claimed counted.",
+    "feet": "Two complete sneakers and two separate ankles. Toes covered by shoes.",
+    "overlay_checked": false,
+    "note": "Full original plus enlarged brush hand, resting hand, hip-knee-ankle-shoe region inspected. Overall proportions reviewed separately from limb count."
+  }
+}

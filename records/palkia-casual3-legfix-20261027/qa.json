@@ -2,7 +2,7 @@
   "card": "펄기아",
   "slot": "casual3",
   "reviewer": "gpt",
-  "accepted": true,
+  "accepted": false,
   "previous_public_sha256": "0b419099563b75be082659dc8bdb711e15ae20dd099b5aab7a6a46cee1952766",
   "original_sha256": "a049df95b72840650f6b01f232cbb464ef5d3b398f5ce18383d0aa5f332131c2",
   "new_public_sha256": "14fd2e12042d20012ce8eddd391ca0a748a22a461e57fe693b7504fa41824491",
@@ -41,5 +41,8 @@
     "feet": "Two feet, five toes each. Both thigh-knee-calf-ankle-foot chains inspected separately.",
     "overlay_checked": false,
     "note": "Whole body and enlarged lower-body, near-foot, far-foot and hand crops inspected."
-  }
+  },
+  "historical_accepted": true,
+  "user_rejection": "상체에 비해 하체가 너무 짧아. Overall upper/lower body proportion was missed in the previous review.",
+  "superseded_by": "records/palkia-casual3-proportionfix-20261027/qa.json"
 }
