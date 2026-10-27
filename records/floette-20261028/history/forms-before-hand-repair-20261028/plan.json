@@ -1,0 +1,302 @@
+{
+  "session": "floette-casual2-refill-20261028-9f79",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "플라엣테",
+      "species": "floette-20261028",
+      "refill": true,
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "food_berries",
+          "ex": "food_curry",
+          "expr": "focused",
+          "pose": "perched_seat",
+          "orient": "seated_twist",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "blouse",
+            "shorts"
+          ],
+          "expose": [
+            "side cutouts",
+            "off-shoulder neckline"
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "private_evening",
+          "ex": "tea_ceremony_night",
+          "garments": [
+            "dress",
+            "robe"
+          ],
+          "orient": "crouching",
+          "frame": "full_body",
+          "pose": "kneeling",
+          "expr": "provocative",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "open back"
+          ],
+          "lead": "action",
+          "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "She places a porcelain teacup beside the teapot on a low lacquered table; a paper lantern casts soft evening light beside a moonlit garden window.",
+              "reason": "The evening tea example does not specify the exact porcelain placement, low lacquered table, lantern lighting or moonlit garden window."
+            },
+            {
+              "field": "outfit",
+              "content": "A yellow satin evening dress with a deep draped neckline and open back, accompanied by a light ivory robe slipped loosely below her shoulders; black piping and a small flower clasp echo her colours.",
+              "reason": "Implements the planned dress and robe, plunging neckline and open back using yellow satin, an ivory drape and a restrained floral colour echo."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The built-in image tool exposes no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "mostly posed captures a held moment placing the teacup beside its pot.",
+            "source_influence": "balanced keeps yellow/black colour echoes and one floral clasp in evening clothing.",
+            "separates_preference": "balanced allows a one-piece dress with a loosely worn robe."
+          }
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "cabin_crew_retro",
+          "expr": "proud",
+          "pose": "side_sitting",
+          "orient": "over_shoulder",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "jacket",
+            "shorts"
+          ],
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "food_berries",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "nightlife",
+          "bridal",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "robe"
+        ],
+        "orient": [
+          "crouching"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "floette-casual2-refill-20261028-9f79",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "플라엣테",
+        "species": "floette-20261028",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_curry",
+            "expr": "focused",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "expose": [
+              "side cutouts",
+              "off-shoulder neckline"
+            ]
+          },
+          {
+            "cut": 2,
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
+            "garments": [
+              "dress",
+              "robe"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "kneeling",
+            "expr": "provocative",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "action",
+            "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She places a porcelain teacup beside the teapot on a low lacquered table; a paper lantern casts soft evening light beside a moonlit garden window.",
+                "reason": "The evening tea example does not specify the exact porcelain placement, low lacquered table, lantern lighting or moonlit garden window."
+              },
+              {
+                "field": "outfit",
+                "content": "A yellow satin evening dress with a deep draped neckline and open back, accompanied by a light ivory robe slipped loosely below her shoulders; black piping and a small flower clasp echo her colours.",
+                "reason": "Implements the planned dress and robe, plunging neckline and open back using yellow satin, an ivory drape and a restrained floral colour echo."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool exposes no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "mostly posed captures a held moment placing the teacup beside its pot.",
+              "source_influence": "balanced keeps yellow/black colour echoes and one floral clasp in evening clothing.",
+              "separates_preference": "balanced allows a one-piece dress with a loosely worn robe."
+            }
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "expr": "proud",
+            "pose": "side_sitting",
+            "orient": "over_shoulder",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "jacket",
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "food_berries",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe"
+          ],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "Planner check passed; reservation stamp verified before generation",
+  "reservation_commit": "42bc9c2b832c0705f644a996f21a7a1fd5d9b0df",
+  "generation_tool": "built-in image_gen",
+  "refill": {
+    "requested_slot": "casual2",
+    "reason": "User requested a different plan for this one ungenerated slot.",
+    "kept_slots": [
+      1,
+      3
+    ],
+    "previous_records": "history/casual2-before-refill-20261028/",
+    "avoid": [
+      "cat=lingerie",
+      "ex=babydoll",
+      "orient=reclining"
+    ],
+    "planning_changes": [
+      {
+        "field": "orient",
+        "from": "reclining",
+        "to": "crouching",
+        "reason": "A reclining body orientation conflicts with arranging tea utensils at a low table; planner recalculated the pose to kneeling."
+      }
+    ],
+    "submitted_prompt": "casual2-prompt.txt"
+  }
+}

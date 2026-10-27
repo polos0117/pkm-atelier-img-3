@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen partial edit",
+  "prompt": "Image 1 is the edit target: Floette HEAVY card. Image 2 is the corrected LIGHT card and supplies the exact natural hand shape to copy. In Image 1, correct ONLY the malformed forward-reaching hand on screen left. Replace its six-finger fan with the relaxed loose fist shown in Image 2: four fingers gently curled together into the palm in one natural row, one thumb resting outside across them, five digits total with natural occlusion. Match that glove and hand pose at Image 1's existing hand position and scale, attached naturally to its wrist. Keep the HEAVY armor, cuff, helmet, other hand, face, hair, body, pose, background, camera, full-body framing and lighting of Image 1 unchanged. Remove duplicate fingertips and finger-like glove flaps; do not expose every fingertip inside the fist. Output one 1024x1536 image.",
+  "references": [
+    {
+      "role": "HEAVY edit target",
+      "sha256": "62c404bacd8bdb3f58d226f4e7d3429de6ae8acdc78330aeaefa0f71790b0a72"
+    },
+    {
+      "role": "corrected LIGHT hand reference",
+      "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+    }
+  ],
+  "original_ui": "heavy-ui.json",
+  "original_prompt": "heavy-prompt.txt",
+  "reason": "User identified six malformed fingers in the forward hand; prior visual count was wrong.",
+  "accepted_hand": "relaxed loose fist with natural occlusion"
+}

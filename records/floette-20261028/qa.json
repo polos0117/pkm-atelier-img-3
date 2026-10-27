@@ -3,113 +3,137 @@
     "light": {
       "identity": {
         "match": true,
-        "evidence": "Golden eyes, curtain bangs, very long blonde half-up hair and compact rounded face match the light anchor."
-      },
-      "single_figure": {
-        "match": true,
-        "evidence": "One detailed adult woman; no creature or second person."
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
       },
       "format": {
         "match": true,
-        "evidence": "Decoded WebP is 1024x1536."
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe is not installed",
+        "tool": "unavailable: mediapipe not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "Near gloved palm has thumb and four separated fingers; far gloved hand has overlapping fingers, naturally partly hidden.",
+        "hands": "Forward hand has one thumb and four naturally curled fingers with natural occlusion; no duplicated white or black glove fingers. Far black-gloved hand has one thumb across palm and four fingers, some overlapping.",
         "overlay_checked": false,
-        "note": "Two continuous shoulder-elbow-wrist chains and two separate armored legs and boots."
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
       },
-      "observed": {
-        "armor": "Thicker shoulder, hip and shin stacks distinguish heavy from slim light armor; opened states retain camera, sash, hands and feet with pink inner seams.",
-        "scene": "",
-        "wardrobe": "",
-        "deviations": ""
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward loose fist replaces the malformed fan."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Full head and both boots visible; wrist cuff and surrounding armor remain continuous."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Original slim LIGHT plates preserved."
       }
     },
     "heavy": {
       "identity": {
         "match": true,
-        "evidence": "Golden eyes, curtain bangs, very long blonde half-up hair and compact rounded face match the light anchor."
-      },
-      "single_figure": {
-        "match": true,
-        "evidence": "One detailed adult woman; no creature or second person."
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
       },
       "format": {
         "match": true,
-        "evidence": "Decoded WebP is 1024x1536."
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe is not installed",
+        "tool": "unavailable: mediapipe not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "Near gloved palm has thumb and four separated fingers; far gloved hand has overlapping fingers, naturally partly hidden.",
+        "hands": "Forward hand has one thumb and four naturally curled fingers with natural occlusion; no duplicated white or black glove fingers. Far black-gloved hand has one thumb across palm and four fingers, some overlapping.",
         "overlay_checked": false,
-        "note": "Two continuous shoulder-elbow-wrist chains and two separate armored legs and boots."
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
       },
-      "observed": {
-        "armor": "Thicker shoulder, hip and shin stacks distinguish heavy from slim light armor; opened states retain camera, sash, hands and feet with pink inner seams.",
-        "scene": "",
-        "wardrobe": "",
-        "deviations": ""
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward loose fist replaces the malformed fan."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Full head and both boots visible; wrist cuff and surrounding armor remain continuous."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Original overlapping HEAVY plates and helmet preserved."
       }
     },
     "light_overdrive": {
       "identity": {
         "match": true,
-        "evidence": "Golden eyes, curtain bangs, very long blonde half-up hair and compact rounded face match the light anchor."
-      },
-      "single_figure": {
-        "match": true,
-        "evidence": "One detailed adult woman; no creature or second person."
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
       },
       "format": {
         "match": true,
-        "evidence": "Decoded WebP is 1024x1536."
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe is not installed",
+        "tool": "unavailable: mediapipe not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "Near gloved palm has thumb and four separated fingers; far gloved hand has overlapping fingers, naturally partly hidden.",
+        "hands": "Forward hand has one thumb and four naturally curled fingers with natural occlusion; no duplicated white or black glove fingers. Far black-gloved hand has one thumb across palm and four fingers, some overlapping.",
         "overlay_checked": false,
-        "note": "Two continuous shoulder-elbow-wrist chains and two separate armored legs and boots."
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
       },
-      "observed": {
-        "armor": "Thicker shoulder, hip and shin stacks distinguish heavy from slim light armor; opened states retain camera, sash, hands and feet with pink inner seams.",
-        "scene": "",
-        "wardrobe": "",
-        "deviations": "Opened plate gaps are modest; pose and identity retained."
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward loose fist replaces the malformed fan."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Closed and opened counterparts retain hand location, stance, camera and framing; pink light remains between opened plates."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Original slim LIGHT plates preserved."
       }
     },
     "heavy_overdrive": {
       "identity": {
         "match": true,
-        "evidence": "Golden eyes, curtain bangs, very long blonde half-up hair and compact rounded face match the light anchor."
-      },
-      "single_figure": {
-        "match": true,
-        "evidence": "One detailed adult woman; no creature or second person."
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
       },
       "format": {
         "match": true,
-        "evidence": "Decoded WebP is 1024x1536."
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe is not installed",
+        "tool": "unavailable: mediapipe not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "Near gloved palm has thumb and four separated fingers; far gloved hand has overlapping fingers, naturally partly hidden.",
+        "hands": "Forward hand has one thumb and four naturally curled fingers with natural occlusion; no duplicated white or black glove fingers. Far black-gloved hand has one thumb across palm and four fingers, some overlapping.",
         "overlay_checked": false,
-        "note": "Two continuous shoulder-elbow-wrist chains and two separate armored legs and boots."
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
       },
-      "observed": {
-        "armor": "Thicker shoulder, hip and shin stacks distinguish heavy from slim light armor; opened states retain camera, sash, hands and feet with pink inner seams.",
-        "scene": "",
-        "wardrobe": "",
-        "deviations": "Opened plate gaps are modest; pose and identity retained."
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward loose fist replaces the malformed fan."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Closed and opened counterparts retain hand location, stance, camera and framing; pink light remains between opened plates."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Original overlapping HEAVY plates and helmet preserved."
       }
     },
     "casual1": {
@@ -209,27 +233,100 @@
         "Hair flower ornament remains prominent; allowed retained source ornament.",
         "Some toe tips meet the left edge; allowed minor clipping."
       ]
+    },
+    "mobility": {
+      "identity": {
+        "match": true,
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward cupped glove has one thumb, one extended index and three curled fingers; far black glove has one thumb and four fingers in a relaxed spread. No duplicate fingertip.",
+        "overlay_checked": false,
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
+      },
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward palm is gently cupped, with a readable thumb and four fingers."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Full head and both boots visible; wrist cuff and surrounding armor remain continuous."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Swept shoulder/hip/calf fins and compact round thrusters identify MOBILITY."
+      }
+    },
+    "mobility_overdrive": {
+      "identity": {
+        "match": true,
+        "evidence": "Gold eyes, compact face, blonde curtain bangs and very long half-up hair retain LIGHT identity."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Decoded WEBP 1024x1536, nonempty; source and output hashes recorded."
+      },
+      "single_figure": {
+        "match": true,
+        "evidence": "One armored adult woman in full view; no second person or creature."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Forward cupped glove has one thumb, one extended index and three curled fingers; far black glove has one thumb and four fingers in a relaxed spread. No duplicate fingertip.",
+        "overlay_checked": false,
+        "note": "All six full images and both hands enlarged together. Both wrists continue into forearms, two legs reach separate boots; no detached or extra limb."
+      },
+      "hand_pose": {
+        "match": true,
+        "evidence": "Forward palm is gently cupped, with a readable thumb and four fingers."
+      },
+      "pair_alignment": {
+        "match": true,
+        "evidence": "Closed and opened counterparts retain hand location, stance, camera and framing; pink light remains between opened plates."
+      },
+      "armor": {
+        "match": true,
+        "evidence": "Swept shoulder/hip/calf fins and compact round thrusters identify MOBILITY."
+      }
     }
   },
   "diversity": {
     "look_check": "All three casual images checked; new casual2 has no near-identical image below threshold (nearest scores 265,269,270).",
     "visual_review": "Cooking at camp stove in blouse/shorts, kneeling to arrange tea in satin dress/robe, and side-seated aviation cabaret costume differ in setting, activity, clothing layers and hand placement. Tea room scene also differs from Florges research maps, standing mirror and candle-lighting scenes."
   },
-  "skipped": [
-    {
-      "slot": "mobility",
-      "cause": "image_gen output safety rejection sexual",
-      "request_id": "e0ebb229-e32d-493f-8df0-1e3987e0190d",
-      "attempts": 1
-    },
-    {
-      "slot": "mobility_overdrive",
-      "cause": "missing approved mobility reference; not submitted"
-    }
-  ],
+  "skipped": [],
   "refill_history": {
     "previous_casual2_rejection_preserved": "history/casual2-before-refill-20261028/qa.json",
     "current_slot": "casual2",
+    "accepted": true
+  },
+  "forms_hand_repair": {
+    "reason": "User reported six malformed forward fingers; earlier anatomy pass was incorrect.",
+    "existing_edited": [
+      "light",
+      "heavy",
+      "light_overdrive",
+      "heavy_overdrive"
+    ],
+    "missing_generated": [
+      "mobility",
+      "mobility_overdrive"
+    ],
+    "qa_method": "Original resolution review plus enlarged twelve-hand grid; natural occlusion allowed.",
+    "prior_records": "history/forms-before-hand-repair-20261028/",
     "accepted": true
   }
 }

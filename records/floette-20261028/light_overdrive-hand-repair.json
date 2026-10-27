@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen partial edit",
+  "prompt": "Image 1 is the edit target: Floette LIGHT OPENED card. Image 2 is her corrected closed LIGHT card. Correct ONLY the forward-reaching malformed hand on screen left in Image 1 by matching the natural relaxed loose fist in Image 2 at the same position and scale. Four fingers gently curl together into one coherent palm, and one thumb rests naturally outside them; five digits total with natural fingertip occlusion. Preserve the OPENED armor state, pink light, drifting particles, wrist cuff, other hand, face, gold eye colour, hair, pose, body, background, camera and framing of Image 1 exactly. The corrected hand must align with Image 2 so the closed/opened pair switches cleanly. No duplicated fingertips, claws or finger-like glove flaps. One standalone 1024x1536 image.",
+  "references": [
+    {
+      "role": "OPENED edit target",
+      "sha256": "99fb6ce2503f4f37e9000c2801a5dbfa41eca45b6811b228ce972d34618bb923"
+    },
+    {
+      "role": "corrected closed hand reference",
+      "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+    }
+  ],
+  "original_ui": "light_overdrive-ui.json",
+  "original_prompt": "light_overdrive-prompt.txt",
+  "reason": "User identified six malformed fingers in the forward hand; prior visual count was wrong.",
+  "accepted_hand": "relaxed loose fist with natural occlusion"
+}

@@ -1,17 +1,27 @@
 {
-  "stage": "generated_and_reviewed_partial",
-  "generated": 7,
+  "stage": "generated_and_reviewed",
+  "generated": 9,
   "requested": 9,
   "light": {
     "card": "플라엣테",
     "slot": "light",
     "style": "glossy_promo",
     "gender": "f",
-    "basis": "Actual prompt.html UI rendered in Chromium; built-in image_gen",
-    "original_sha256": "dbb0e0886657c496e24b0309ba46f609e33f9a6547d3c6a32737050fd1e990fe",
-    "references": [],
-    "prompt": "light-prompt.txt",
-    "ui": "light-ui.json",
+    "basis": "Actual generator UI for new missing forms; built-in image_gen partial edit for existing forms",
+    "original_sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e",
+    "references": [
+      {
+        "role": "original LIGHT edit target",
+        "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a"
+      },
+      {
+        "role": "second pass edit target",
+        "sha256": "a49374e58c5ee50202dbaa68d12ab9402b5af8b8d0e75cd8a39da0226f48235b"
+      }
+    ],
+    "prompt": "light-hand-repair-prompt.txt",
+    "ui": "light-hand-repair.json",
+    "operation": "authorized hand correction",
     "output": {
       "file": "플라엣테_light_glossy_promo_f.webp",
       "size": [
@@ -21,8 +31,8 @@
       "format": "WEBP",
       "quality": 85,
       "method": 6,
-      "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a",
-      "git_blob": "d8aaf25ff859ece3cb28179dfd4de9910df09443"
+      "sha256": "3ca834f7caf2dbf1d45dfa3b5b5ce150fd902995b3c68079afc673a1f41009c7",
+      "git_blob": "6bf81e4aa2d666101dcf14703968088e4c78496b"
     }
   },
   "face_rationale": "Compact rounded jaw and small delicate nose interpret the small single-flower guardian; long half-up hair echoes its leaf and shared evolution family.",
@@ -41,9 +51,12 @@
     "session": "floette-casual2-refill-20261028-9f79",
     "original_sha256": "d35ce71f1b8b82b4343c491afc3536684f479603c3f0f34923545fe638b60f5c",
     "output_sha256": "45e9411c6e0853cf8b1a55c4b75988c9567c10717f268bbe3cacf149964856df",
-    "remaining_slots": [
-      "mobility",
-      "mobility_overdrive"
-    ]
+    "remaining_slots": []
+  },
+  "latest_forms_repair": {
+    "generated": 6,
+    "edited_existing": 4,
+    "generated_missing": 2,
+    "remaining_slots": []
   }
 }

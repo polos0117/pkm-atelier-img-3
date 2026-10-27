@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen partial edit",
+  "prompt": "Image 1 is the edit target: Floette HEAVY OPENED card. Image 2 is her corrected closed HEAVY card. Correct ONLY the malformed forward-reaching hand on screen left in Image 1. Match the natural relaxed loose fist of Image 2 at the existing position and scale: four fingers gently curled together into one coherent palm and one thumb resting naturally outside across them. Five digits total with natural occlusion, no duplicate fingertips or finger-like glove flaps. Preserve every thick HEAVY plate and its OPENED state, all pink light and particles, the wrist cuff, other hand, gold eyes, face, hair, body, pose, background, camera and full-body framing of Image 1 unchanged. The hand should align with the corrected closed HEAVY card for a clean closed/opened switch. One standalone 1024x1536 image.",
+  "references": [
+    {
+      "role": "OPENED edit target",
+      "sha256": "7141d14da3cd0e4f19a28a86c64589b791e965c8a94d3660a76a2233bfcb7763"
+    },
+    {
+      "role": "corrected closed hand reference",
+      "sha256": "7f106d8566368396e0a745f2551ca924924a63f96ff8fb06ea7e4aabfee2b80f"
+    }
+  ],
+  "original_ui": "heavy_overdrive-ui.json",
+  "original_prompt": "heavy_overdrive-prompt.txt",
+  "reason": "User identified six malformed fingers in the forward hand; prior visual count was wrong.",
+  "accepted_hand": "relaxed loose fist with natural occlusion"
+}

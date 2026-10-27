@@ -298,5 +298,115 @@
       }
     ],
     "submitted_prompt": "casual2-prompt.txt"
+  },
+  "forms_repair": {
+    "user_request": "경장부터 고기동 개방까지 6장 있는 이미지는 수정하고 없는 이미지는 재생성해서 다시 올려줘.",
+    "generation_tool": "built-in image_gen",
+    "slots": [
+      {
+        "slot": "light",
+        "operation": "authorized hand correction",
+        "before_sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a",
+        "after_sha256": "3ca834f7caf2dbf1d45dfa3b5b5ce150fd902995b3c68079afc673a1f41009c7",
+        "prompt": "light-hand-repair-prompt.txt",
+        "references": [
+          {
+            "role": "original LIGHT edit target",
+            "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a"
+          },
+          {
+            "role": "second pass edit target",
+            "sha256": "a49374e58c5ee50202dbaa68d12ab9402b5af8b8d0e75cd8a39da0226f48235b"
+          }
+        ]
+      },
+      {
+        "slot": "heavy",
+        "operation": "authorized hand correction",
+        "before_sha256": "62c404bacd8bdb3f58d226f4e7d3429de6ae8acdc78330aeaefa0f71790b0a72",
+        "after_sha256": "a3e031bfb7f813e92f59d88cb31e68d5a8811ce1cd8ef8b70df8c60577ca1c2f",
+        "prompt": "heavy-hand-repair-prompt.txt",
+        "references": [
+          {
+            "role": "HEAVY edit target",
+            "sha256": "62c404bacd8bdb3f58d226f4e7d3429de6ae8acdc78330aeaefa0f71790b0a72"
+          },
+          {
+            "role": "corrected LIGHT hand reference",
+            "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+          }
+        ]
+      },
+      {
+        "slot": "mobility",
+        "operation": "new missing form",
+        "before_sha256": null,
+        "after_sha256": "baa6708d5591dc77a959ff6f9d8d9d82c3b2a34e1165c8c81f30e37a089b5a94",
+        "prompt": "mobility-prompt.txt",
+        "references": [
+          {
+            "role": "corrected LIGHT identity reference",
+            "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+          }
+        ]
+      },
+      {
+        "slot": "light_overdrive",
+        "operation": "authorized hand correction",
+        "before_sha256": "99fb6ce2503f4f37e9000c2801a5dbfa41eca45b6811b228ce972d34618bb923",
+        "after_sha256": "d6833c22832dd91eaa9ba7243d6229176e25010108723a985758e6420e4a560e",
+        "prompt": "light_overdrive-hand-repair-prompt.txt",
+        "references": [
+          {
+            "role": "OPENED edit target",
+            "sha256": "99fb6ce2503f4f37e9000c2801a5dbfa41eca45b6811b228ce972d34618bb923"
+          },
+          {
+            "role": "corrected closed hand reference",
+            "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+          }
+        ]
+      },
+      {
+        "slot": "heavy_overdrive",
+        "operation": "authorized hand correction",
+        "before_sha256": "7141d14da3cd0e4f19a28a86c64589b791e965c8a94d3660a76a2233bfcb7763",
+        "after_sha256": "c93dec911c327f7fb65757591d52e385afabc6bd022c2bf85c6d3d8759b376ae",
+        "prompt": "heavy_overdrive-hand-repair-prompt.txt",
+        "references": [
+          {
+            "role": "OPENED edit target",
+            "sha256": "7141d14da3cd0e4f19a28a86c64589b791e965c8a94d3660a76a2233bfcb7763"
+          },
+          {
+            "role": "corrected closed hand reference",
+            "sha256": "7f106d8566368396e0a745f2551ca924924a63f96ff8fb06ea7e4aabfee2b80f"
+          }
+        ]
+      },
+      {
+        "slot": "mobility_overdrive",
+        "operation": "new missing form",
+        "before_sha256": null,
+        "after_sha256": "ed125f2ff051d548a25b15b25d6da45ce6643d81fe5a881a0b5d3ecb95268cac",
+        "prompt": "mobility_overdrive-prompt.txt",
+        "references": [
+          {
+            "role": "new closed MOBILITY reference",
+            "sha256": "1b6bc6192c6bb9e70828e2bb3200620e1caa3791223a4d91dbd6d06817a97974"
+          },
+          {
+            "role": "corrected LIGHT face reference",
+            "sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e"
+          }
+        ]
+      }
+    ],
+    "preserved_casual_slots": [
+      "casual1",
+      "casual2",
+      "casual3"
+    ],
+    "history": "history/forms-before-hand-repair-20261028/"
   }
 }

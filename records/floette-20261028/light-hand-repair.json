@@ -1,0 +1,31 @@
+{
+  "mode": "built-in image_gen partial edit",
+  "prompt": "Edit only the forward-reaching hand on screen left in this Floette LIGHT card. Its five fingers are still bent into an awkward claw. Replace ONLY this hand shape with a soft, relaxed loose fist: the four fingers gently curl together into the palm, their knuckles in one natural row, and the thumb rests naturally outside across the index and middle fingers. Keep the wrist straight and connected to the forearm; keep the hand size and existing reach position. The loose fist should read as a normal comfortable human hand, not a claw, an open fan or a mechanical gripper. Preserve the close-fitting white glove with black back, and keep all armor, wrist cuff, other hand, face, hair, body, pose, background, framing, camera and lighting unchanged. Natural finger occlusion inside the loose fist is required; do not force five separate fingertips into view. One standalone 1024x1536 image.",
+  "references": [
+    {
+      "role": "original LIGHT edit target",
+      "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a"
+    },
+    {
+      "role": "second pass edit target",
+      "sha256": "a49374e58c5ee50202dbaa68d12ab9402b5af8b8d0e75cd8a39da0226f48235b"
+    }
+  ],
+  "original_ui": "light-ui.json",
+  "original_prompt": "light-prompt.txt",
+  "reason": "User identified six malformed fingers in the forward hand; prior visual count was wrong.",
+  "accepted_hand": "relaxed loose fist with natural occlusion",
+  "attempts": [
+    {
+      "prompt": "Edit the attached Floette LIGHT card. Correct ONLY the forward-reaching gloved hand on screen left, around x=23%, y=28%. Replace the malformed six-finger fan with a natural adult human hand: one thumb and exactly four fingers, five digits total, each attached once to one coherent palm. Use a relaxed half-open palm with a gentle natural finger curve; make the thumb anatomically oppose the other four fingers and make all knuckles, finger lengths and wrist alignment believable. Remove every duplicate finger and finger-like glove flap. Keep the same white palm and black glove design and gold wrist cuff. Keep the hand at its existing position and scale, with the wrist continuous with the forearm. Preserve her face, hair, eyes, body proportions, pose, other hand, full armor, sash, background, camera, framing and lighting exactly. One standalone 1024x1536 image; no additional limbs or people.",
+      "result_sha256": "a49374e58c5ee50202dbaa68d12ab9402b5af8b8d0e75cd8a39da0226f48235b",
+      "accepted": false,
+      "reason": "Five digits, but joints still form an awkward claw."
+    },
+    {
+      "prompt": "Edit only the forward-reaching hand on screen left in this Floette LIGHT card. Its five fingers are still bent into an awkward claw. Replace ONLY this hand shape with a soft, relaxed loose fist: the four fingers gently curl together into the palm, their knuckles in one natural row, and the thumb rests naturally outside across the index and middle fingers. Keep the wrist straight and connected to the forearm; keep the hand size and existing reach position. The loose fist should read as a normal comfortable human hand, not a claw, an open fan or a mechanical gripper. Preserve the close-fitting white glove with black back, and keep all armor, wrist cuff, other hand, face, hair, body, pose, background, framing, camera and lighting unchanged. Natural finger occlusion inside the loose fist is required; do not force five separate fingertips into view. One standalone 1024x1536 image.",
+      "result_sha256": "162e05c7a8fc2774ddd47192b59d3b7bbff8f6f32e34ca999f3990029933704e",
+      "accepted": true
+    }
+  ]
+}
