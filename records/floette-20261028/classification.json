@@ -159,5 +159,34 @@
       "sha256": "64928d867625dad79d85d6c9f3920c964b1671855abe9e375d40e441cf8636d4",
       "git_blob": "75a8feacd2a6b0fdf63a18f2e561d49eeec10b74"
     }
+  },
+  {
+    "card": "플라엣테",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium from planner query; built-in image_gen",
+    "original_sha256": "d35ce71f1b8b82b4343c491afc3536684f479603c3f0f34923545fe638b60f5c",
+    "references": [
+      {
+        "file": "플라엣테_light_glossy_promo_f.webp",
+        "sha256": "18211dbcd849494f23769b67813413cf9f8f81811df6126a4dd7ad0a06f18e2a",
+        "role": "approved LIGHT identity reference"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "플라엣테_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "45e9411c6e0853cf8b1a55c4b75988c9567c10717f268bbe3cacf149964856df",
+      "git_blob": "f054fdf5ccfc9c3ed254866231b26662203c839c"
+    }
   }
 ]

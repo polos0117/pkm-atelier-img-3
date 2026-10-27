@@ -1,6 +1,6 @@
 {
   "stage": "generated_and_reviewed_partial",
-  "generated": 6,
+  "generated": 7,
   "requested": 9,
   "light": {
     "card": "플라엣테",
@@ -35,5 +35,15 @@
     "전지충이"
   ],
   "original_policy": "PNG session-only; only hashes, UI, prompts, QA and WebP published",
-  "manifest": "classification.json"
+  "manifest": "classification.json",
+  "latest_refill": {
+    "slot": "casual2",
+    "session": "floette-casual2-refill-20261028-9f79",
+    "original_sha256": "d35ce71f1b8b82b4343c491afc3536684f479603c3f0f34923545fe638b60f5c",
+    "output_sha256": "45e9411c6e0853cf8b1a55c4b75988c9567c10717f268bbe3cacf149964856df",
+    "remaining_slots": [
+      "mobility",
+      "mobility_overdrive"
+    ]
+  }
 }

@@ -1,70 +1,45 @@
 {
-  "session": "floette-florges-20261028-9f79",
+  "session": "floette-casual2-refill-20261028-9f79",
   "planner": "tools/casual-plan.cjs",
   "characters": [
     {
       "card": "플라엣테",
       "species": "floette-20261028",
+      "refill": true,
       "cuts": [
         {
+          "kept": true,
           "cut": 1,
           "cat": "food_berries",
           "ex": "food_curry",
-          "garments": [
-            "blouse",
-            "shorts"
-          ],
+          "expr": "focused",
+          "pose": "perched_seat",
           "orient": "seated_twist",
           "frame": "chest_up",
-          "pose": "perched_seat",
-          "expr": "focused",
           "lens": "natural50",
-          "aspect": "2:3",
           "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
             "action_level": "mostly posed",
             "source_influence": "strong",
             "separates_preference": "prefer separates"
           },
+          "garments": [
+            "blouse",
+            "shorts"
+          ],
           "expose": [
             "side cutouts",
             "off-shoulder neckline"
-          ],
-          "lead": "action",
-          "example_text": "Example scene: Stirring a pot of berry curry over a camp stove at an outdoor cooking site, a ladle in one hand and a bowl ready in the other.",
-          "direct_inputs": [
-            {
-              "field": "scene",
-              "content": "She stirs until the berry pieces blend into the curry; afternoon sun catches the enamel bowl and the camp-stove steam.",
-              "reason": "Add the recipe preparation detail and afternoon steam lighting absent from the campsite example."
-            },
-            {
-              "field": "outfit",
-              "content": "A yellow off-shoulder blouse with curved side cutouts and black tailored shorts; white petal embroidery trims the neckline.",
-              "reason": "Implements planned garments blouse,shorts with side cutouts,off-shoulder neckline for food_curry."
-            },
-            {
-              "field": "camera",
-              "content": "Vertical 2:3 portrait (1024×1536).",
-              "reason": "The image tool exposes no size control."
-            }
-          ],
-          "axis_reason": {
-            "action_level": "perched_seat defines a held state during food_curry.",
-            "source_influence": "strong colour and ornament treatment in A yellow off-shoulder blouse with curved side cutouts and black tailored shorts; white petal embroidery trims the neckline.",
-            "separates_preference": "blouse,shorts defines the food_curry silhouette."
-          }
+          ]
         },
         {
           "cut": 2,
-          "cat": "lingerie",
-          "ex": "babydoll",
+          "cat": "private_evening",
+          "ex": "tea_ceremony_night",
           "garments": [
-            "lingerie_set",
-            "slip"
+            "dress",
+            "robe"
           ],
-          "orient": "leaning_forward",
+          "orient": "crouching",
           "frame": "full_body",
           "pose": "kneeling",
           "expr": "provocative",
@@ -78,201 +53,130 @@
             "separates_preference": "balanced"
           },
           "expose": [
-            "high-cut leg",
-            "bare midriff"
+            "plunging neckline",
+            "open back"
           ],
-          "lead": "light",
-          "example_text": "Example scene: a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+          "lead": "action",
+          "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
           "direct_inputs": [
             {
               "field": "scene",
-              "content": "Warm bedside lamplight touches the pale linen bed as she smooths a fold of the bedspread.",
-              "reason": "Add bedside lamp and bedspread activity to the outfit-only babydoll example."
+              "content": "She places a porcelain teacup beside the teapot on a low lacquered table; a paper lantern casts soft evening light beside a moonlit garden window.",
+              "reason": "The evening tea example does not specify the exact porcelain placement, low lacquered table, lantern lighting or moonlit garden window."
             },
             {
               "field": "outfit",
-              "content": "An ivory babydoll slip with narrow straps, an empire waist and flared split hem over a yellow high-cut lingerie set; small waist cutouts reveal her midriff while opaque fabric provides full intimate coverage.",
-              "reason": "Implements planned garments lingerie_set,slip with high-cut leg,bare midriff for babydoll."
+              "content": "A yellow satin evening dress with a deep draped neckline and open back, accompanied by a light ivory robe slipped loosely below her shoulders; black piping and a small flower clasp echo her colours.",
+              "reason": "Implements the planned dress and robe, plunging neckline and open back using yellow satin, an ivory drape and a restrained floral colour echo."
             },
             {
               "field": "camera",
               "content": "Vertical 2:3 portrait (1024×1536).",
-              "reason": "The image tool exposes no size control."
+              "reason": "The built-in image tool exposes no size control."
             }
           ],
           "axis_reason": {
-            "action_level": "kneeling defines a held state during babydoll.",
-            "source_influence": "balanced colour and ornament treatment in An ivory babydoll slip with narrow straps, an empire waist and flared split hem over a yellow high-cut lingerie set; small waist cutouts reveal her midriff while opaque fabric provides full intimate coverage.",
-            "separates_preference": "lingerie_set,slip defines the babydoll silhouette."
+            "action_level": "mostly posed captures a held moment placing the teacup beside its pot.",
+            "source_influence": "balanced keeps yellow/black colour echoes and one floral clasp in evening clothing.",
+            "separates_preference": "balanced allows a one-piece dress with a loosely worn robe."
           }
         },
         {
+          "kept": true,
           "cut": 3,
           "cat": "adult_roleplay",
           "ex": "cabin_crew_retro",
-          "garments": [
-            "jacket"
-          ],
+          "expr": "proud",
+          "pose": "side_sitting",
           "orient": "over_shoulder",
           "frame": "environmental",
-          "pose": "side_sitting",
-          "expr": "proud",
           "lens": "portrait85",
-          "aspect": "2:3",
           "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
             "action_level": "mostly posed",
             "source_influence": "strong",
             "separates_preference": "prefer separates"
           },
+          "garments": [
+            "jacket",
+            "shorts"
+          ],
           "expose": [
             "cropped hem",
             "strapless top"
-          ],
-          "lead": "place",
-          "example_text": "Example scene: a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf",
-          "direct_inputs": [
-            {
-              "field": "scene",
-              "content": "An aviation-themed cabaret dressing lounge has curved cabin windows and velvet banquettes; she rests a small boarding folio beside her.",
-              "reason": "Place the retro costume in a cabaret dressing lounge with a boarding folio."
-            },
-            {
-              "field": "outfit",
-              "content": "A cropped fitted cabin-crew jacket worn open over a yellow strapless top and black high-waisted shorts, with a pillbox hat and narrow neck scarf.",
-              "reason": "Implements planned garments jacket with cropped hem,strapless top for cabin_crew_retro."
-            },
-            {
-              "field": "camera",
-              "content": "Vertical 2:3 portrait (1024×1536).",
-              "reason": "The image tool exposes no size control."
-            }
-          ],
-          "axis_reason": {
-            "action_level": "side_sitting defines a held state during cabin_crew_retro.",
-            "source_influence": "strong colour and ornament treatment in A cropped fitted cabin-crew jacket worn open over a yellow strapless top and black high-waisted shorts, with a pillbox hat and narrow neck scarf.",
-            "separates_preference": "jacket defines the cabin_crew_retro silhouette."
-          }
+          ]
         }
       ],
       "why": {
         "required": {
-          "slots": [
-            2,
-            3
-          ],
-          "two": true,
+          "slots": [],
+          "two": false,
           "prev": [
-            1
+            2
           ]
         },
         "low": [
-          "occupation_basic",
-          "occupation_sensual",
-          "everyday_basic",
-          "everyday_sensual",
-          "partner_care",
-          "travel_exploration",
           "food_berries",
-          "festivals_contests",
-          "hobbies_leisure",
-          "active",
-          "source_editorial",
           "homewear",
           "private_evening",
           "traditional",
           "nightlife",
-          "dance_stage",
-          "spa_wellness",
-          "fantasy_costume",
           "bridal",
-          "gala_red_carpet",
           "wildcard"
         ]
       },
       "claims": {
         "garment": [
-          "blouse",
-          "shorts",
-          "slip"
+          "robe"
         ],
         "orient": [
-          "seated_twist",
-          "leaning_forward",
-          "over_shoulder"
+          "crouching"
         ],
         "frame": []
       }
     }
   ],
   "batch": {
-    "session": "floette-florges-20261028-9f79",
+    "session": "floette-casual2-refill-20261028-9f79",
     "planner": "tools/casual-plan.cjs",
     "characters": [
       {
         "card": "플라엣테",
         "species": "floette-20261028",
+        "refill": true,
         "cuts": [
           {
+            "kept": true,
             "cut": 1,
             "cat": "food_berries",
             "ex": "food_curry",
-            "garments": [
-              "blouse",
-              "shorts"
-            ],
+            "expr": "focused",
+            "pose": "perched_seat",
             "orient": "seated_twist",
             "frame": "chest_up",
-            "pose": "perched_seat",
-            "expr": "focused",
             "lens": "natural50",
-            "aspect": "2:3",
             "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
               "action_level": "mostly posed",
               "source_influence": "strong",
               "separates_preference": "prefer separates"
             },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
             "expose": [
               "side cutouts",
               "off-shoulder neckline"
-            ],
-            "lead": "action",
-            "example_text": "Example scene: Stirring a pot of berry curry over a camp stove at an outdoor cooking site, a ladle in one hand and a bowl ready in the other.",
-            "direct_inputs": [
-              {
-                "field": "scene",
-                "content": "She stirs until the berry pieces blend into the curry; afternoon sun catches the enamel bowl and the camp-stove steam.",
-                "reason": "Add the recipe preparation detail and afternoon steam lighting absent from the campsite example."
-              },
-              {
-                "field": "outfit",
-                "content": "A yellow off-shoulder blouse with curved side cutouts and black tailored shorts; white petal embroidery trims the neckline.",
-                "reason": "Implements planned garments blouse,shorts with side cutouts,off-shoulder neckline for food_curry."
-              },
-              {
-                "field": "camera",
-                "content": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "The image tool exposes no size control."
-              }
-            ],
-            "axis_reason": {
-              "action_level": "perched_seat defines a held state during food_curry.",
-              "source_influence": "strong colour and ornament treatment in A yellow off-shoulder blouse with curved side cutouts and black tailored shorts; white petal embroidery trims the neckline.",
-              "separates_preference": "blouse,shorts defines the food_curry silhouette."
-            }
+            ]
           },
           {
             "cut": 2,
-            "cat": "lingerie",
-            "ex": "babydoll",
+            "cat": "private_evening",
+            "ex": "tea_ceremony_night",
             "garments": [
-              "lingerie_set",
-              "slip"
+              "dress",
+              "robe"
             ],
-            "orient": "leaning_forward",
+            "orient": "crouching",
             "frame": "full_body",
             "pose": "kneeling",
             "expr": "provocative",
@@ -286,268 +190,113 @@
               "separates_preference": "balanced"
             },
             "expose": [
-              "high-cut leg",
-              "bare midriff"
+              "plunging neckline",
+              "open back"
             ],
-            "lead": "light",
-            "example_text": "Example scene: a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+            "lead": "action",
+            "example_text": "in a quiet evening room in an elegant robe-like dress, arranging tea cups and utensils",
             "direct_inputs": [
               {
                 "field": "scene",
-                "content": "Warm bedside lamplight touches the pale linen bed as she smooths a fold of the bedspread.",
-                "reason": "Add bedside lamp and bedspread activity to the outfit-only babydoll example."
+                "content": "She places a porcelain teacup beside the teapot on a low lacquered table; a paper lantern casts soft evening light beside a moonlit garden window.",
+                "reason": "The evening tea example does not specify the exact porcelain placement, low lacquered table, lantern lighting or moonlit garden window."
               },
               {
                 "field": "outfit",
-                "content": "An ivory babydoll slip with narrow straps, an empire waist and flared split hem over a yellow high-cut lingerie set; small waist cutouts reveal her midriff while opaque fabric provides full intimate coverage.",
-                "reason": "Implements planned garments lingerie_set,slip with high-cut leg,bare midriff for babydoll."
+                "content": "A yellow satin evening dress with a deep draped neckline and open back, accompanied by a light ivory robe slipped loosely below her shoulders; black piping and a small flower clasp echo her colours.",
+                "reason": "Implements the planned dress and robe, plunging neckline and open back using yellow satin, an ivory drape and a restrained floral colour echo."
               },
               {
                 "field": "camera",
                 "content": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "The image tool exposes no size control."
+                "reason": "The built-in image tool exposes no size control."
               }
             ],
             "axis_reason": {
-              "action_level": "kneeling defines a held state during babydoll.",
-              "source_influence": "balanced colour and ornament treatment in An ivory babydoll slip with narrow straps, an empire waist and flared split hem over a yellow high-cut lingerie set; small waist cutouts reveal her midriff while opaque fabric provides full intimate coverage.",
-              "separates_preference": "lingerie_set,slip defines the babydoll silhouette."
+              "action_level": "mostly posed captures a held moment placing the teacup beside its pot.",
+              "source_influence": "balanced keeps yellow/black colour echoes and one floral clasp in evening clothing.",
+              "separates_preference": "balanced allows a one-piece dress with a loosely worn robe."
             }
           },
           {
+            "kept": true,
             "cut": 3,
             "cat": "adult_roleplay",
             "ex": "cabin_crew_retro",
-            "garments": [
-              "jacket"
-            ],
+            "expr": "proud",
+            "pose": "side_sitting",
             "orient": "over_shoulder",
             "frame": "environmental",
-            "pose": "side_sitting",
-            "expr": "proud",
             "lens": "portrait85",
-            "aspect": "2:3",
             "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
               "action_level": "mostly posed",
               "source_influence": "strong",
               "separates_preference": "prefer separates"
             },
+            "garments": [
+              "jacket",
+              "shorts"
+            ],
             "expose": [
               "cropped hem",
               "strapless top"
-            ],
-            "lead": "place",
-            "example_text": "Example scene: a retro cabin crew costume with a fitted jacket, pillbox hat, and neck scarf",
-            "direct_inputs": [
-              {
-                "field": "scene",
-                "content": "An aviation-themed cabaret dressing lounge has curved cabin windows and velvet banquettes; she rests a small boarding folio beside her.",
-                "reason": "Place the retro costume in a cabaret dressing lounge with a boarding folio."
-              },
-              {
-                "field": "outfit",
-                "content": "A cropped fitted cabin-crew jacket worn open over a yellow strapless top and black high-waisted shorts, with a pillbox hat and narrow neck scarf.",
-                "reason": "Implements planned garments jacket with cropped hem,strapless top for cabin_crew_retro."
-              },
-              {
-                "field": "camera",
-                "content": "Vertical 2:3 portrait (1024×1536).",
-                "reason": "The image tool exposes no size control."
-              }
-            ],
-            "axis_reason": {
-              "action_level": "side_sitting defines a held state during cabin_crew_retro.",
-              "source_influence": "strong colour and ornament treatment in A cropped fitted cabin-crew jacket worn open over a yellow strapless top and black high-waisted shorts, with a pillbox hat and narrow neck scarf.",
-              "separates_preference": "jacket defines the cabin_crew_retro silhouette."
-            }
-          }
-        ],
-        "why": {
-          "required": {
-            "slots": [
-              2,
-              3
-            ],
-            "two": true,
-            "prev": [
-              1
             ]
-          },
-          "low": [
-            "occupation_basic",
-            "occupation_sensual",
-            "everyday_basic",
-            "everyday_sensual",
-            "partner_care",
-            "travel_exploration",
-            "food_berries",
-            "festivals_contests",
-            "hobbies_leisure",
-            "active",
-            "source_editorial",
-            "homewear",
-            "private_evening",
-            "traditional",
-            "nightlife",
-            "dance_stage",
-            "spa_wellness",
-            "fantasy_costume",
-            "bridal",
-            "gala_red_carpet",
-            "wildcard"
-          ]
-        },
-        "claims": {
-          "garment": [
-            "blouse",
-            "shorts",
-            "slip"
-          ],
-          "orient": [
-            "seated_twist",
-            "leaning_forward",
-            "over_shoulder"
-          ],
-          "frame": []
-        }
-      },
-      {
-        "card": "플라제스",
-        "species": "florges-20261028",
-        "cuts": [
-          {
-            "cut": 1,
-            "cat": "occupation_basic",
-            "ex": "satellite_operator",
-            "garments": [
-              "apron",
-              "trousers"
-            ],
-            "orient": "crouching",
-            "frame": "waist_up",
-            "pose": "one_knee_up",
-            "expr": "relieved",
-            "lens": "documentary35",
-            "aspect": "2:3",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly posed",
-              "source_influence": "balanced",
-              "separates_preference": "prefer separates"
-            },
-            "expose": [
-              "open back",
-              "mini length"
-            ],
-            "lead": "action"
-          },
-          {
-            "cut": 2,
-            "cat": "everyday_sensual",
-            "ex": "mirror_selfie",
-            "garments": [
-              "jumpsuit"
-            ],
-            "orient": "side",
-            "frame": "three_quarter",
-            "pose": "hands_in_hair",
-            "expr": "calm",
-            "lens": "natural50",
-            "aspect": "2:3",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly posed",
-              "source_influence": "balanced",
-              "separates_preference": "balanced"
-            },
-            "expose": [
-              "high thigh slit",
-              "off-shoulder neckline"
-            ],
-            "lead": "detail"
-          },
-          {
-            "cut": 3,
-            "cat": "retro_glamour",
-            "ex": "deco_lounge",
-            "garments": [
-              "dress"
-            ],
-            "orient": "high_angle",
-            "frame": "chest_up",
-            "pose": "contrapposto",
-            "expr": "playful",
-            "lens": "telephoto135",
-            "aspect": "2:3",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly posed",
-              "source_influence": "strong",
-              "separates_preference": "balanced"
-            },
-            "expose": [
-              "plunging neckline",
-              "side cutouts"
-            ],
-            "lead": "place"
           }
         ],
         "why": {
           "required": {
-            "slots": [
-              3
-            ],
+            "slots": [],
             "two": false,
             "prev": [
-              2,
-              3
+              2
             ]
           },
           "low": [
-            "occupation_basic",
-            "occupation_sensual",
-            "everyday_basic",
-            "everyday_sensual",
-            "partner_care",
-            "travel_exploration",
             "food_berries",
-            "festivals_contests",
-            "hobbies_leisure",
-            "active",
-            "source_editorial",
             "homewear",
             "private_evening",
             "traditional",
             "nightlife",
-            "dance_stage",
-            "spa_wellness",
-            "fantasy_costume",
             "bridal",
-            "gala_red_carpet",
             "wildcard"
           ]
         },
         "claims": {
           "garment": [
-            "apron",
-            "jumpsuit"
+            "robe"
           ],
           "orient": [
-            "crouching",
-            "side",
-            "high_angle"
+            "crouching"
           ],
           "frame": []
         }
       }
     ]
   },
-  "check": "passed by planner before reserve; verify stamps passed",
-  "reservation_commit": "a870aae2f139006695f9cd23e38e5ebaaeafe0ef",
-  "generation_tool": "built-in image_gen"
+  "check": "Planner check passed; reservation stamp verified before generation",
+  "reservation_commit": "42bc9c2b832c0705f644a996f21a7a1fd5d9b0df",
+  "generation_tool": "built-in image_gen",
+  "refill": {
+    "requested_slot": "casual2",
+    "reason": "User requested a different plan for this one ungenerated slot.",
+    "kept_slots": [
+      1,
+      3
+    ],
+    "previous_records": "history/casual2-before-refill-20261028/",
+    "avoid": [
+      "cat=lingerie",
+      "ex=babydoll",
+      "orient=reclining"
+    ],
+    "planning_changes": [
+      {
+        "field": "orient",
+        "from": "reclining",
+        "to": "crouching",
+        "reason": "A reclining body orientation conflicts with arranging tea utensils at a low table; planner recalculated the pose to kneeling."
+      }
+    ],
+    "submitted_prompt": "casual2-prompt.txt"
+  }
 }
