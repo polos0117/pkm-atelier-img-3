@@ -2,7 +2,7 @@
   "card": "어흥염",
   "generated": 9,
   "requested": 9,
-  "status": "ready_for_publication",
+  "status": "complete",
   "anchor": {
     "card": "어흥염",
     "slot": "light",
@@ -104,5 +104,28 @@
     "status": "extracted"
   },
   "face_comparison": "Compared rendered anchor with 빼미스로우, 나몰빼미, 드레디어: narrower eyes and angled brows, broad separation, oval cheeks distinguish Torracat; Incineroar uses a heavier jaw and sharper lifted eye corners. No style change.",
-  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed."
+  "original_policy": "PNG bytes remain in this session; hashes, exact prompts/UI, QA and final WebP committed.",
+  "publication": {
+    "image_repository": "polos0117/pkm-atelier-img-3",
+    "image_commit": "2bd44194be84ea3f3f2126803b1410b464a1a4d2",
+    "thumbnail_commit": "d4e0c374a80997c25beb0fb98a39ee572a79a683",
+    "method": "Connected GitHub Git data API, normal fast-forward ref update with force=false and expected current HEAD; CLI git push had no credentials.",
+    "remote_originals_verified": 9,
+    "remote_thumbnails_verified": 9,
+    "thumbnail_fallback": "Global workflow failed reading unrelated existing 빼미스로우_heavy_overdrive_glossy_promo_f.webp; generated only target thumbnails through standard make-thumbs.py build, preserving other files.",
+    "code_repository": "polos0117/pkm-atelier",
+    "registration_verified_at_commit": "ede4b03f1459edbf38befb9edabd30ca33bb393c",
+    "registered_slots": 9,
+    "registered_files": [
+      "어흥염_light_glossy_promo_f.webp",
+      "어흥염_heavy_glossy_promo_f.webp",
+      "어흥염_mobility_glossy_promo_f.webp",
+      "어흥염_light_overdrive_glossy_promo_f.webp",
+      "어흥염_heavy_overdrive_glossy_promo_f.webp",
+      "어흥염_mobility_overdrive_glossy_promo_f.webp",
+      "어흥염_glossy_promo_f_casual1.webp",
+      "어흥염_glossy_promo_f_casual2.webp",
+      "어흥염_glossy_promo_f_casual3.webp"
+    ]
+  }
 }
