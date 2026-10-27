@@ -1,0 +1,412 @@
+{
+  "session": "leavanny-venipede-20261027-61171040",
+  "batch_initial": {
+    "session": "leavanny-venipede-20261027-61171040",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "모아머",
+        "species": "leavanny-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "cage_back",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "leaning_wall",
+            "expr": "smug",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "sorceress_robe",
+            "garments": [
+              "dress",
+              "robe"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "taking_photo",
+            "expr": "serious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "dance_stage",
+            "ex": "ballet_stage",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "mid_action",
+            "expr": "mischievous",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings"
+          ],
+          "orient": [
+            "profile_close",
+            "over_shoulder",
+            "rear_3q"
+          ],
+          "frame": [
+            "face_close"
+          ]
+        }
+      },
+      {
+        "card": "마디네",
+        "species": "venipede-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_lodge",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "mid_stride",
+            "expr": "laughing_open",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_ringtoss",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "sitting",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cat_cafe",
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "orient": "front",
+            "frame": "environmental",
+            "pose": "holding_cup",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "turning_midmotion",
+            "reclining",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "pool_float",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "pose": "hand_on_hip",
+      "expr": "calm",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "example_text": "lounging on a large inflatable ring in a swimsuit in a sunny pool, a drink in one hand",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A pale mint pool float rocks beside a sunlit mosaic edge, with a folded towel and lemonade on the deck.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: A pale mint pool float rocks beside a sunlit mosaic edge, with a folded towel and lemonade on the deck."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque forest-green halter swimsuit has a high-cut leg and a clean waist cutout exposing the midriff, with subtle leaf-vein piping.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: An opaque forest-green halter swimsuit has a high-cut leg and a clean waist cutout exposing the midriff, with subtle leaf-vein piping."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows this particular action: A pale mint pool float rocks beside a sunlit mosaic edge, with a folded towel and lemonade on the deck.",
+        "source_influence": "strong appears in the colours and fabric choices: An opaque forest-green halter swimsuit has a high-cut leg and a clean waist cutout exposing the midriff, with subtle leaf-vein piping.",
+        "separates_preference": "balanced follows the garment construction swimsuit"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "fantasy_costume",
+      "ex": "sorceress_robe",
+      "garments": [
+        "dress",
+        "robe"
+      ],
+      "orient": "over_shoulder",
+      "frame": "face_close",
+      "pose": "taking_photo",
+      "expr": "serious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "a sorceress costume — an off-shoulder velvet robe gown with a jeweled belt and a crystal staff prop, posing at a fantasy photoshoot",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A small crystal staff prop glints beside the camera as she checks a fantasy portrait on its rear screen during the photoshoot.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: A small crystal staff prop glints beside the camera as she checks a fantasy portrait on its rear screen during the photoshoot."
+        },
+        {
+          "field": "outfit",
+          "content": "The strapless velvet dress is wrapped in an off-shoulder robe gown in deep plum, with a jeweled belt and folded neckline framing bare shoulders.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: The strapless velvet dress is wrapped in an off-shoulder robe gown in deep plum, with a jeweled belt and folded neckline framing bare shoulders."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows this particular action: A small crystal staff prop glints beside the camera as she checks a fantasy portrait on its rear screen during the photoshoot.",
+        "source_influence": "balanced appears in the colours and fabric choices: The strapless velvet dress is wrapped in an off-shoulder robe gown in deep plum, with a jeweled belt and folded neckline framing bare shoulders.",
+        "separates_preference": "balanced follows the garment construction dress, robe"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "dance_stage",
+      "ex": "ballet_stage",
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "mid_action",
+      "expr": "mischievous",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "a ballet stage costume — a fitted bodice, a short stiff tutu and satin pointe shoes; stretching at the rehearsal barre",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A maple rehearsal barre spans a bright dance studio with tall arched windows and a scuffed pale floor.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: A maple rehearsal barre spans a bright dance studio with tall arched windows and a scuffed pale floor."
+        },
+        {
+          "field": "outfit",
+          "content": "A one-shoulder cropped fitted ballet bodice and sage dance leggings meet a short stiff ivory tutu at the waist; satin pointe shoes complete the stage costume, with shoulder and midriff exposed.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: A one-shoulder cropped fitted ballet bodice and sage dance leggings meet a short stiff ivory tutu at the waist; satin pointe shoes complete the stage costume, with shoulder and midriff exposed."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active follows this particular action: A maple rehearsal barre spans a bright dance studio with tall arched windows and a scuffed pale floor.",
+        "source_influence": "balanced appears in the colours and fabric choices: A one-shoulder cropped fitted ballet bodice and sage dance leggings meet a short stiff ivory tutu at the waist; satin pointe shoes complete the stage costume, with shoulder and midriff exposed.",
+        "separates_preference": "prefer separates follows the garment construction crop_top, leggings"
+      }
+    }
+  ],
+  "initial_check": "casual-plan and casual-ledger check --fresh passed; original stamped reservation c25f7373ce9f8f80f81ba830eff7d8c2adc4b993",
+  "replan": {
+    "reason": "Initial lingerie output blocked by safety system (sexual), no output returned; that prompt was not repeated. A materially different pool lifestyle scene was selected by planner refill, preserving accepted casual2 and casual3.",
+    "check": "PLAN-refill passed",
+    "reservation_commit": "9c282a8c4dbc5b8da91c67ce5080527c12289c96",
+    "request_id": "8d7c180f-562c-9384-9cbd-ab02a639a33b"
+  },
+  "tool": "built-in image_gen",
+  "storage": "Shared blob:none Git data with separate branches and sparse worktrees. Genuine UI metadata and requested comparison thumbnails only. Temporary /dev/null links represent exact Git tree filenames for membership-only ledger/name checks; they are not real image payloads and are never staged or uploaded."
+}

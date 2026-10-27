@@ -1,0 +1,123 @@
+{
+  "card": "모아머",
+  "anchor": {
+    "card": "모아머",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html UI state and unchanged captured prompt; built-in image_gen",
+    "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-1854642a-f951-4999-ae5b-7a759292d809.png",
+    "original_sha256": "105342eeafa0b701e324cf9b45b5582dc12ca22766c9fbf4398b3220c0547396",
+    "references": [],
+    "output": {
+      "file": "모아머_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "63b151647bf96ffd15836bd76dc9e8052e8917e994af5b3b27ac92f884731584"
+    }
+  },
+  "face_reason": "짧고 넓은 둥근 윤곽, 수평 아몬드 눈, 작은 입과 둥근 코끝. 두르보의 열린 둥근 눈과 두르쿤의 길고 또렷한 코보다 얼굴이 짧고 입이 작다. 쉐이미·아르세우스의 길고 가는 얼굴 및 다크라이의 날카로운 윤곽과 구분된다.",
+  "source_evidence": {
+    "name": "모아머",
+    "en": "Leavanny",
+    "color": "yellow",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "leaf",
+        "detail": "green leaf"
+      },
+      {
+        "part": "blade",
+        "detail": "arm blades"
+      },
+      {
+        "part": "segment",
+        "detail": "dark green, thick segments"
+      },
+      {
+        "part": "head",
+        "detail": "large, round head"
+      },
+      {
+        "part": "antennae",
+        "detail": "long antennae"
+      },
+      {
+        "part": "abdomen",
+        "detail": "long abdomen"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Leavanny_%28Pok%C3%A9mon%29",
+    "revision": 4611055,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "7f244b392dcd67d8ea06c7e0368a31f521f6f5b13006273b77c08ecb8e25779c",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "모아머",
+    "en": "Leavanny",
+    "line": "두르보",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "rounded soft tip",
+      "lips": "small mouth"
+    },
+    "why": "",
+    "cues": [
+      "‘large, round head’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘large, round head’ → 얼굴 길이 짧은 얼굴",
+      "‘large, round head’ → 얼굴 폭 넓은 얼굴",
+      "‘large, round head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘large, round head’ → 코 코끝이 둥근",
+      "‘large, round head’ → 입술 입이 작은"
+    ],
+    "adjusted": "같은 계열 두르보와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 짧고 둥근 → 길고 바깥 아치가 선명한, 입술 윗입술이 활 모양인 → 입이 작은 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 트윈테일 → 양쪽 동그란 번",
+    "hair": {
+      "hairstyle": "space buns",
+      "hair length": "long",
+      "bangs": "straight bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘large, round head’·‘long antennae’에서 양쪽 동그란 번(올림머리) · 긴 머리 · 일자 앞머리 — 두르쿤에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘large, round head’ → 헤어스타일 양쪽 동그란 번",
+      "‘long antennae’ → 머리 길이 긴 머리"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; almond eyes, medium size, level outer corners, average spacing; long arched brows; rounded soft tip nose; small mouth.",
+  "compared_characters": [
+    "두르보",
+    "두르쿤",
+    "쉐이미",
+    "아르세우스",
+    "다크라이"
+  ],
+  "batches": [
+    "anchor accepted",
+    "heavy and mobility accepted",
+    "three same-pose overdrives accepted",
+    "three independent casuals accepted"
+  ],
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "originals": "session only; original hashes and final WebP hashes in classification.json"
+}
