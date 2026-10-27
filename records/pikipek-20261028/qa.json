@@ -1,0 +1,265 @@
+{
+  "card": "콕코구리",
+  "reviewer": "gpt",
+  "method": "Full-resolution originals, enlarged hand/foot crops and side-by-side recent images. No model anatomy result claimed.",
+  "cuts": [
+    {
+      "slot": "light",
+      "sha256": "96bce5bc82a841402e0c0cdfaeb8565027da014e13586e0a12092fbf27cecda5",
+      "accepted": true,
+      "observations": "Slim white chest and shin plates over black undersuit, short split black-white hair, red crest, gray eyes; two arms reach opposite sides and two legs stand on separate pointed boots.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Slim white chest and shin plates over black undersuit, short split black-white hair, red crest, gray eyes; two arms reach opposite sides and two legs stand on separate pointed boots."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "mobility",
+      "sha256": "89ebf81906a66123d372b49ae9c34862e3859a02b183430f679c570909974d88",
+      "accepted": true,
+      "observations": "Thin long feather plates fan behind shoulder and hip with red oval propulsion lights, preserving the slim body and the light face. Both hands and boots remain visible.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Thin long feather plates fan behind shoulder and hip with red oval propulsion lights, preserving the slim body and the light face. Both hands and boots remain visible."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "heavy",
+      "sha256": "c9a47b729fc7d2e28692dc4416207a9ff1a75733e6dc61ff03d10c36f6a8be12",
+      "accepted": true,
+      "observations": "Broad stacked shoulder/forearm/hip/shin plates and open crown helmet enlarge only the armor. Face, gray eyes, short hair and body size match light.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Broad stacked shoulder/forearm/hip/shin plates and open crown helmet enlarge only the armor. Face, gray eyes, short hair and body size match light."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "sha256": "aa04eac4c96a8e4bf7615171dd1f011cd324bc500f630bac51d1384051d43bdb",
+      "accepted": true,
+      "observations": "Light panels lift along seams with gold inner frame channels; head, reaching hand, feet and skyline match the closed light card. Gray irises remain visible.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Light panels lift along seams with gold inner frame channels; head, reaching hand, feet and skyline match the closed light card. Gray irises remain visible."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "sha256": "474db989fa310309c30caf2d07e23c1372057f8ebba261d9aeafabdd774f6442",
+      "accepted": true,
+      "observations": "Heavy shoulder, forearm, hip and shin layers hinge out above gold mechanical framework. The crown, palm reach, stance and scenery align with heavy.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Heavy shoulder, forearm, hip and shin layers hinge out above gold mechanical framework. The crown, palm reach, stance and scenery align with heavy."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "sha256": "b560ef6cd5f1991bbe60a87d94e7f1f36cf0dcfb429105db62c5d5aa326ff70b",
+      "accepted": true,
+      "observations": "Mobility feather plates spread around exposed gold circular propulsion cores. Shoulder/hip silhouettes expand while the original arm reach, legs, face scale and city view remain aligned.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near glove has one raised thumb and four separate fingers. Far glove is foreshortened: three hanging fingers and a sideways thumb are clear; the remaining finger overlaps behind. Both wrists connect normally.",
+        "overlay_checked": false,
+        "note": "Mobility feather plates spread around exposed gold circular propulsion cores. Shoulder/hip silhouettes expand while the original arm reach, legs, face scale and city view remain aligned."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      }
+    },
+    {
+      "slot": "casual1",
+      "sha256": "28dd56da3998584a1dece5e5b538ea92793e498824df30e3e45a02a8fcf05fc4",
+      "accepted": true,
+      "observations": "She side-sits on a red striped towel on the sunny boardwalk, holding a red-white-black beach ball. Both bent legs connect at the hips and knees, with two separate bare feet. The white swimsuit has a broad open back and a side waist cutout.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Supporting palm has thumb and four fingers spread on the towel; ball hand has partly overlapping fingers and thumb on the ball. Two feet each show five toes in enlarged crop.",
+        "overlay_checked": false,
+        "note": "She side-sits on a red striped towel on the sunny boardwalk, holding a red-white-black beach ball. Both bent legs connect at the hips and knees, with two separate bare feet. The white swimsuit has a broad open back and a side waist cutout."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She side-sits on a red striped towel on the sunny boardwalk, holding a red-white-black beach ball. Both bent legs connect at the hips and knees, with two separate bare feet. The white swimsuit has a broad open back and a side waist cutout."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "She side-sits on a red striped towel on the sunny boardwalk, holding a red-white-black beach ball. Both bent legs connect at the hips and knees, with two separate bare feet. The white swimsuit has a broad open back and a side waist cutout."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "Environmental frame became a close seated figure, though boardwalk, umbrellas and sea remain."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Back three-quarter torso and over-shoulder face, with a small proud smile."
+      },
+      "deviations_policy": "Framing/expression/posture variations and retained crest recorded under IMAGE_RULES; required activity, wardrobe and identity are present."
+    },
+    {
+      "slot": "casual2",
+      "sha256": "aa913e4b2ff1b783728323744c4915083fecf440b5b874da720bee9988549024",
+      "accepted": true,
+      "observations": "She jogs toward the viewer on a tree-lined park track with tennis fencing behind. Bent elbows and two loose fists match running. Black one-shoulder cropped top and white leggings expose the shoulder and waist.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two loose fists have curled fingers and thumbs lying across/along the curled fingers; some fingertip surfaces are hidden inside each fist. Both forearms join elbows without a detached hand.",
+        "overlay_checked": false,
+        "note": "She jogs toward the viewer on a tree-lined park track with tennis fencing behind. Bent elbows and two loose fists match running. Black one-shoulder cropped top and white leggings expose the shoulder and waist."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She jogs toward the viewer on a tree-lined park track with tennis fencing behind. Bent elbows and two loose fists match running. Black one-shoulder cropped top and white leggings expose the shoulder and waist."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "She jogs toward the viewer on a tree-lined park track with tennis fencing behind. Bent elbows and two loose fists match running. Black one-shoulder cropped top and white leggings expose the shoulder and waist."
+      },
+      "framing": {
+        "match": false,
+        "evidence": "Selected face-close became a head-to-thigh running crop with both hands visible."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Determined furrowed brows, closed mouth and forward-facing running body."
+      },
+      "deviations_policy": "Framing/expression/posture variations and retained crest recorded under IMAGE_RULES; required activity, wardrobe and identity are present."
+    },
+    {
+      "slot": "casual3",
+      "sha256": "92c4680aecbdf79f0553ba7bce32c7b3091dc86c70dc9521c4a3576a032d8aa1",
+      "accepted": true,
+      "observations": "She stands at a magenta-lit bar with one hand on the counter and the other lifting a citrus drink. Ivory one-shoulder backless cropped top, leather mini skirt and ankle boots are visible; both legs join the pelvis and end at separate boots.",
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py returned exit 3 because mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Counter hand rests with digits overlapping in side view. Raised hand holds the glass with thumb/index and curled remaining digits, partly hidden by the bowl; no third hand or extra digit.",
+        "overlay_checked": false,
+        "note": "She stands at a magenta-lit bar with one hand on the counter and the other lifting a citrus drink. Ivory one-shoulder backless cropped top, leather mini skirt and ankle boots are visible; both legs join the pelvis and end at separate boots."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Compact rounded jaw, large gray eyes, short feathered black-and-white hair and red crest remain from the first light anchor."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Original PNG and new WebP are 1024x1536."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She stands at a magenta-lit bar with one hand on the counter and the other lifting a citrus drink. Ivory one-shoulder backless cropped top, leather mini skirt and ankle boots are visible; both legs join the pelvis and end at separate boots."
+      },
+      "clothing_exposure": {
+        "match": true,
+        "evidence": "She stands at a magenta-lit bar with one hand on the counter and the other lifting a citrus drink. Ivory one-shoulder backless cropped top, leather mini skirt and ankle boots are visible; both legs join the pelvis and end at separate boots."
+      },
+      "framing": {
+        "match": true,
+        "evidence": "Full body including both ankle boots is present."
+      },
+      "expression_orientation": {
+        "match": false,
+        "evidence": "Torso turns away while the face looks back; calm closed mouth, no broad grin."
+      },
+      "deviations_policy": "Framing/expression/posture variations and retained crest recorded under IMAGE_RULES; required activity, wardrobe and identity are present."
+    }
+  ],
+  "diversity": {
+    "compared": [
+      "누리레느 casual1-3",
+      "키요공 casual1-3",
+      "누리공 casual1-3"
+    ],
+    "evidence": "Ball-holding side seat, forward running fists and a standing bar drink use different activities, body silhouettes and clothing. Recent blue-haired sets use a veil, movie seating, ornaments, mirror/waterfall/wine scenes and curtain/tray/festival seating. New set does not repeat their three-scene sequence.",
+    "look_check": "pkm-atelier-img-3/img/콕코구리_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     318  마자용_glossy_promo_f_casual1.webp\n     318  크랩_glossy_promo_f_casual2.webp\n     319  어니부기_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/콕코구리_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     265  겟핸보숭_glossy_promo_f_casual2.webp\n     274  파르빗_glossy_promo_f_casual3.webp\n     276  버섯모_glossy_promo_f_casual2.webp\npkm-atelier-img-3/img/콕코구리_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     264  미뇽_glossy_promo_f_casual1.webp\n     267  스라크_glossy_promo_f_casual3.webp\n     281  썬더_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

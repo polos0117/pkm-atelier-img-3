@@ -1,0 +1,248 @@
+{
+ "session": "pikipek-trumbeak-484475",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "콕코구리",
+   "species": "pikipek-20261028",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "dance_stage",
+     "ex": "flamenco",
+     "garments": [
+      "dress"
+     ],
+     "orient": "front",
+     "frame": "face_close",
+     "pose": "mid_action",
+     "expr": "mischievous",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "cat": "lingerie",
+     "ex": "cage_back",
+     "garments": [
+      "crop_top",
+      "lingerie_set"
+     ],
+     "orient": "turning_midmotion",
+     "frame": "full_body",
+     "pose": "hand_on_hip",
+     "expr": "pensive",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "cat": "swimwear",
+     "ex": "oring_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "low_angle",
+     "frame": "waist_up",
+     "pose": "leaning_wall",
+     "expr": "candid",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "strapless top"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2,
+      3
+     ],
+     "two": true,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "everyday_sensual",
+     "food_berries",
+     "festivals_contests",
+     "active",
+     "private_evening",
+     "subculture_fashion",
+     "dance_stage"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "crop_top",
+     "lingerie_set",
+     "bikini"
+    ],
+    "orient": [
+     "front",
+     "turning_midmotion",
+     "low_angle"
+    ],
+    "frame": [
+     "face_close"
+    ]
+   }
+  },
+  {
+   "card": "크라파",
+   "species": "trumbeak-20261028",
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "subculture_fashion",
+     "ex": "skater_bowl",
+     "garments": [
+      "shorts",
+      "sweater"
+     ],
+     "orient": "over_shoulder",
+     "frame": "environmental",
+     "pose": "arms_crossed",
+     "expr": "bored",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "cat": "retro_glamour",
+     "ex": "pinup_beachball",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "pose": "sitting",
+     "expr": "proud",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "halter neck"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "cat": "active",
+     "ex": "light_jog",
+     "garments": [
+      "leggings",
+      "tank"
+     ],
+     "orient": "rear_3q",
+     "frame": "full_body",
+     "pose": "mid_stride",
+     "expr": "determined",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "mini length"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "everyday_sensual",
+     "food_berries",
+     "festivals_contests",
+     "active",
+     "private_evening",
+     "subculture_fashion"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "sweater",
+     "leggings",
+     "tank"
+    ],
+    "orient": [
+     "over_shoulder",
+     "leaning_forward",
+     "rear_3q"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

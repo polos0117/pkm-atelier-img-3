@@ -1,0 +1,412 @@
+{
+  "session": "pikipek-trumbeak-484475",
+  "batch": {
+    "session": "pikipek-trumbeak-484475",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "콕코구리",
+        "species": "pikipek-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "pinup_beachball",
+            "expr": "proud",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "active",
+            "ex": "light_jog",
+            "expr": "determined",
+            "pose": "mid_stride",
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "neon_bar",
+            "expr": "calm",
+            "pose": "contrapposto",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "크라파",
+        "species": "trumbeak-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "sport_cotton",
+            "expr": "playful",
+            "pose": "standing_formal",
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "beach_volley",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "sitting_floor",
+            "expr": "candid",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_dance",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "pinup_beachball",
+      "expr": "proud",
+      "pose": "side_sitting",
+      "orient": "three_quarter_back",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "inputs": {
+        "scene": "A sun-warmed boardwalk curves past weathered white benches, with pale umbrellas and glinting surf beyond the railing.",
+        "outfit": "An opaque white 1950s high-waisted swimsuit with black feather-edged piping, an open back and small side cutouts exposing the waist; red piping follows the shoulder straps."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for pinup_beachball: A sun-warmed boardwalk curves past weathered white benches, with pale umbrellas and glinting surf beyond the railing.",
+        "outfit": "Applies planned swimsuit and open back,side cutouts through An opaque white 1950s high-waisted swimsuit with black feather-edged piping, an open back and small side cutouts exposing the waist; red piping follows the shoulder straps.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "pinup_beachball activity and side_sitting selected by planner",
+        "source_influence": "strong accents within swimsuit",
+        "separates_preference": "swimsuit garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "active",
+      "ex": "light_jog",
+      "expr": "determined",
+      "pose": "mid_stride",
+      "orient": "front",
+      "frame": "face_close",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "inputs": {
+        "scene": "Early sun filters through rows of young trees while she jogs along a park track beside red clay tennis courts.",
+        "outfit": "A black cropped athletic top with an asymmetrical off-shoulder neckline and white ankle-length leggings; the open shoulder line and gap above the waistband expose shoulders and midriff."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for light_jog: Early sun filters through rows of young trees while she jogs along a park track beside red clay tennis courts.",
+        "outfit": "Applies planned crop_top,leggings and off-shoulder neckline,bare midriff through A black cropped athletic top with an asymmetrical off-shoulder neckline and white ankle-length leggings; the open shoulder line and gap above the waistband expose shoulders and midriff.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "light_jog activity and mid_stride selected by planner",
+        "source_influence": "strong accents within crop_top,leggings",
+        "separates_preference": "crop_top,leggings garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "nightlife",
+      "ex": "neon_bar",
+      "expr": "calm",
+      "pose": "contrapposto",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt"
+      ],
+      "expose": [
+        "cropped hem",
+        "one-shoulder cut"
+      ],
+      "lead": "action",
+      "inputs": {
+        "scene": "Lifting a sparkling citrus drink from the counter beneath magenta neon tubes; rain droplets shine on the windows beyond.",
+        "outfit": "An ivory backless satin top with a cropped one-shoulder cut, paired with a black leather mini skirt and slim ankle boots; the shoulder, waist and upper thighs are bare."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for neon_bar: Lifting a sparkling citrus drink from the counter beneath magenta neon tubes; rain droplets shine on the windows beyond.",
+        "outfit": "Applies planned skirt and cropped hem,one-shoulder cut through An ivory backless satin top with a cropped one-shoulder cut, paired with a black leather mini skirt and slim ankle boots; the shoulder, waist and upper thighs are bare.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "neon_bar activity and contrapposto selected by planner",
+        "source_influence": "balanced accents within skirt",
+        "separates_preference": "skirt garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    }
+  ],
+  "check": "Planner check passed using Git filename inventory rather than unrelated image downloads; verify 2 reservation stamps valid",
+  "reservation_commit": "345db1fdb097174202693b733a119173adc9b258",
+  "comparison": [
+    "누리레느",
+    "키요공",
+    "누리공"
+  ],
+  "revisions": [
+    {
+      "reason": "Initial batch returned moderation_blocked and no slot identity or usable result. Later four non-rejected responses were not returned to the terminated orchestration. No unknown response represented as completed.",
+      "record": "attempts/batch-error.json",
+      "avoided_examples": [
+        "flamenco",
+        "cage_back",
+        "oring_bikini"
+      ],
+      "new_examples": [
+        "pinup_beachball",
+        "light_jog",
+        "neon_bar"
+      ]
+    }
+  ]
+}
