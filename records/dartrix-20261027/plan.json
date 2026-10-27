@@ -1,0 +1,545 @@
+{
+  "session": "rowlet-dartrix-bed93-20261027",
+  "batch": {
+    "session": "rowlet-dartrix-bed93-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "나몰빼미",
+        "species": "rowlet-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "witch_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "front",
+            "frame": "full_body",
+            "pose": "leaning_furniture",
+            "expr": "proud",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "disco_halter",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "pose": "sitting",
+            "expr": "soft_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "yoga_flow",
+            "garments": [
+              "leggings",
+              "tank"
+            ],
+            "orient": "front_3q",
+            "frame": "face_close",
+            "pose": "one_knee_up",
+            "expr": "exhausted",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "nightlife",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings",
+            "tank"
+          ],
+          "orient": [
+            "front",
+            "seated_twist",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "빼미스로우",
+        "species": "dartrix-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "elite_paramedic",
+            "garments": [
+              "uniform"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "kneeling",
+            "expr": "calm",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "lace_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "full_body",
+            "pose": "arms_crossed",
+            "expr": "cold_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "commute_train",
+            "garments": [
+              "blouse",
+              "jacket",
+              "skirt"
+            ],
+            "orient": "side",
+            "frame": "three_quarter",
+            "pose": "adjusting_bag",
+            "expr": "candid",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "homewear",
+            "nightlife",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "uniform",
+            "blouse",
+            "skirt"
+          ],
+          "orient": [
+            "crouching",
+            "leaning_forward",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "elite_paramedic",
+      "garments": [
+        "uniform"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "kneeling",
+      "expr": "calm",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "Pokémon Center care supervisor organizing blankets and care trays in a clean treatment room, wearing an original practical uniform.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 1,
+          "cat": "occupation_sensual",
+          "ex": "elite_paramedic",
+          "garments": [
+            "uniform"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "kneeling",
+          "expr": "calm",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "side cutouts",
+            "strapless top"
+          ],
+          "lead": "place"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Inside the bright treatment room, stacks of folded cream blankets sit beside green-edged care trays; she aligns a freshly folded blanket on the lower shelf.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: Inside the bright treatment room, stacks of folded cream blankets sit beside green-edged care trays; she aligns a freshly folded blanket on the lower shelf."
+        },
+        {
+          "field": "outfit",
+          "content": "An original cream-and-forest-green care uniform pairs a structured strapless top with small side waist cutouts and tailored shorts, practical pockets and flat closed-toe shoes.",
+          "reason": "Specifies planned uniform with side cutouts, strapless top through the described construction: An original cream-and-forest-green care uniform pairs a structured strapless top with small side waist cutouts and tailored shorts, practical pockets and flat closed-toe shoes."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed supports Inside the bright treatment room, stacks of folded cream blankets sit beside green-edged care trays; she aligns a freshly folded blanket on the lower shelf.",
+        "source_influence": "subtle reflected in An original cream-and-forest-green care uniform pairs a structured strapless top with small side waist cutouts and tailored shorts, practical pockets and flat closed-toe shoes.",
+        "separates_preference": "prefer separates corresponds to uniform"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "lace_set",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "pose": "arms_crossed",
+      "expr": "cold_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "a black lace lingerie set with a longline top, high-waisted bottoms, and geometric lace trim",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 2,
+          "cat": "lingerie",
+          "ex": "lace_set",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "pose": "arms_crossed",
+          "expr": "cold_smile",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "halter neck"
+          ],
+          "lead": "light"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Soft morning light falls through sheer bedroom curtains onto a full-length mirror and walnut dressing table.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: Soft morning light falls through sheer bedroom curtains onto a full-length mirror and walnut dressing table."
+        },
+        {
+          "field": "outfit",
+          "content": "A black lace lingerie set has a longline plunging halter top, high-waisted bottoms and geometric lace trim; opaque cup and bottom linings provide complete coverage.",
+          "reason": "Specifies planned lingerie_set with plunging neckline, halter neck through the described construction: A black lace lingerie set has a longline plunging halter top, high-waisted bottoms and geometric lace trim; opaque cup and bottom linings provide complete coverage."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed supports Soft morning light falls through sheer bedroom curtains onto a full-length mirror and walnut dressing table.",
+        "source_influence": "subtle reflected in A black lace lingerie set has a longline plunging halter top, high-waisted bottoms and geometric lace trim; opaque cup and bottom linings provide complete coverage.",
+        "separates_preference": "balanced corresponds to lingerie_set"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "commute_train",
+      "garments": [
+        "blouse",
+        "jacket",
+        "skirt"
+      ],
+      "orient": "side",
+      "frame": "three_quarter",
+      "pose": "adjusting_bag",
+      "expr": "candid",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "mini length",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "example_text": "commuting on a train in a blazer, blouse and skirt, holding a strap and her bag",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 3,
+          "cat": "everyday_basic",
+          "ex": "commute_train",
+          "garments": [
+            "blouse",
+            "jacket",
+            "skirt"
+          ],
+          "orient": "side",
+          "frame": "three_quarter",
+          "pose": "adjusting_bag",
+          "expr": "candid",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "mini length",
+            "bare midriff"
+          ],
+          "lead": "detail"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The woven shoulder-bag strap is being settled before boarding, with silver train doors and green platform lights behind her.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: The woven shoulder-bag strap is being settled before boarding, with silver train doors and green platform lights behind her."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped cream blouse and short brown jacket worn open pair with a green mini skirt, leaving the midriff and legs exposed; a slim leaf-shaped bag clasp carries the motif.",
+          "reason": "Specifies planned blouse,jacket,skirt with mini length, bare midriff through the described construction: A cropped cream blouse and short brown jacket worn open pair with a green mini skirt, leaving the midriff and legs exposed; a slim leaf-shaped bag clasp carries the motif."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        },
+        {
+          "field": "custom",
+          "content": "Image 1 is the identity reference. Image 2 is the edit target. Preserve every part of image 2 including both arm positions and the naturally lowered hand. Correct only the raised hand and the bag strap beside it: put the actual brown shoulder-bag strap into the raised hand, with her thumb and curled fingers visibly gripping the strap near the shoulder. The strap must form one continuous band from the existing bag through that grip and over her shoulder, rather than being hidden behind her arm. Keep exactly five natural fingers on this hand and change nothing else.",
+          "reason": "Targeted correction to implement the existing example activity while preserving all other scene content."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced supports The woven shoulder-bag strap is being settled before boarding, with silver train doors and green platform lights behind her.",
+        "source_influence": "strong reflected in A cropped cream blouse and short brown jacket worn open pair with a green mini skirt, leaving the midriff and legs exposed; a slim leaf-shaped bag clasp carries the motif.",
+        "separates_preference": "prefer separates corresponds to blouse,jacket,skirt"
+      }
+    }
+  ],
+  "check": "Planner batch check and reservation stamp verification passed before generation.",
+  "reservation_commit": "f485844f1bfb0cc4e50bcd0e5645472489af0137",
+  "compared_actual_images": [
+    "치릴리 casual1-3",
+    "드레디어 casual1-3",
+    "엘풍 casual1-3",
+    "나몰빼미 casual1-3"
+  ],
+  "storage_method": "Shared blob:none Git repository; isolated task worktrees and sparse files. Omitted image directory names are read directly from current Git trees for planner/registration checks; only target/comparison image bytes downloaded."
+}

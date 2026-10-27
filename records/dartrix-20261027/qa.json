@@ -1,0 +1,272 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "image_sha256": "72d9a77c96ab2b1d7e626756ed9c9008da436609a4c206109aa54c2314335673",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Single close-fitting brown/white/green armor layer; feather collar drapes from shoulders, orange claw shapes are gauntlet guards. Full standing body with two feet and face turned toward camera."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands have thumb plus four fingers; index/ring/little fingertips partly overlap in downward curved pose; no duplicate hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "a1b9a55363d96c7090d2681a59a785b725f25b928239facfe19d1ba7825b348c",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Thicker double rims over breastplate, broad forearm shells, stacked pelvis/thigh/knee/shin plates increase silhouette while oval face and long feathered brown/green hair stay fixed."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two connected gloved hands with five digits each, some distal fingers overlap in relaxed curl; thumbs sit toward palm interior.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "29a1d84995f22509c1e474e454d54df5f52d1d9f04fc19981e3b75eca1b0b86d",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Thin layered feather-shaped shoulder/hip/shin fins spread outward, gold circular insets, inner joints remain narrow and free. Both arms spread slightly and two legs remain distinct."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left hand one thumb and four fingers spread; screen-right hand five with two short fingers foreshortened; gloves remain continuous.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "8d66eae808f6f28b228d2f5a305fa20e8fed916202e40b2d29545a79fcacbe17",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Same standing pose, body size and camera as light; seams and feather panels hinge open, green interior structure and glow visible. Amber-brown eyes unchanged; no new weapon."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both relaxed gloved hands remain five digits with shorter fingers partially overlapping; glowing seams do not create extra fingers.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "dddf02f04827c24a68e68b676321fb2d7015005566cdc8bdb5f9995b4bbb51b6",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Broad heavy armor and pose are preserved; layered shoulder/forearm/hip/shin panels open into green framework while upper breastplate remains recognizable."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands, each one thumb plus four fingers in partially curled pose; elbows and wrists attached without disconnected skin patches.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "9175183dd23341f442e8fa66b711972918360c1ba6301a6f7a46b80c4a2d0a86",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Same spread-arm mobility composition; existing feather fins hinge farther apart and circular insets glow green, no helmet or weapon added."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left open hand five digits, screen-right relaxed hand five with ring/little partly overlapping. No extra hands in the effects.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "2f2da1910f7e7d7763602ce51c4233330ac47cec5f971427abcc65a2d8372d92",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "She kneels beside low shelf arranging cream blankets in a bright care room with trays, bottles and beds. Cream/green strapless uniform top, side waist opening and shorts expose back/shoulders/thighs. Camera is closer and more behind than environmental/crouching selection; face visible over shoulder."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two arms extend naturally to separate wrists on blanket; nearest hand four fingers across towel edge and inner thumb above it; far hand fingertips partly occluded by towel/near hand. Two bent knees and two shod feet connect normally.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "304c285a3f3893300c5e4f551a8f27c4875d4fa20ad569a089d1a564f2c47ca5",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "One woman stands with crossed arms in black lined lace longline halter set and high-waist bottoms; sunlight through curtain, walnut dressing table. Mirror shows her own back reflection without an independent face. Slight lean and closed small smile; full body with both bare feet visible."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand resting on upper arm has four fingers and thumb partly hidden by arm; other crossed hand mostly hidden under opposite elbow. Both bare feet five toes with perspective overlap; no additional limb.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "50d82484c66c4486ed5079f4bebad96cdb686ce84bb4c5dbd80375ff5333a5c8",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Oval face with low eyelids, thin lips, amber-brown eyes, brown feathered hair with green inner lengths match original light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Side-facing commuter at train doors with green platform light, cropped cream blouse, open brown jacket and green mini skirt. Raised hand grips continuous actual bag strap; other sleeve/forearm runs down screen-right to relaxed hand beside skirt. Midriff/thighs exposed."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One adult main woman. Original and final WebP both opened at 1024x1536. casual2 mirror is a physical reflection of same woman; no second person."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Raised grip has thumb over strap and four curved fingers partly overlapping; lowered hand thumb nail visible and four bent fingers separate. Both arms now visibly connected shoulder-sleeve-elbow-forearm-wrist; earlier detached bag-side hand removed by moving the same hand to connected arm.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Shoulder/elbow/wrist and hip/knee/ankle chains checked on original and enlarged crops. No detached or duplicated limb in final."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "compared_actual_images": [
+      "치릴리 casual1-3",
+      "드레디어 casual1-3",
+      "엘풍 casual1-3",
+      "나몰빼미 casual1-3"
+    ],
+    "evidence": "Care scene kneels in uniform arranging folded blankets at a shelf; lace scene stands with crossed arms by bedroom mirror; commute scene uses side three-quarter crop with shoulder bag and jacket/skirt at train. Rowlet uses standing witch costume, seated disco jumpsuit, seated floor yoga. Petilil/Lilligant/Whimsicott comparison contact sheet inspected; no repeated three-scene combination or matching posture/outfit/background layout.",
+    "look_check": "Passed; nearest score 287, cutoff 215."
+  },
+  "variances": [
+    "casual1 is tighter and more rear three-quarter than planned environmental crouching orientation; primary activity and visible face remain.",
+    "casual2 own mirror reflection visible; it is not another character."
+  ]
+}

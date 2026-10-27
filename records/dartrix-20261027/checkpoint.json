@@ -1,0 +1,124 @@
+{
+  "card": "빼미스로우",
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "anchor": {
+    "card": "빼미스로우",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-8e587e24-53b6-4009-84d8-6a51d517e0a7.png",
+    "original_sha256": "72d9a77c96ab2b1d7e626756ed9c9008da436609a4c206109aa54c2314335673",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "빼미스로우_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "aef259c8fd1d78ade6da83aebf1a5fad958960e823bf8f71b3c946ccb645d040"
+    }
+  },
+  "face_reason": "정돈된 깃과 가려진 시선을 타원 얼굴와 낮은 눈꺼풀로 구분한다.",
+  "face_design": {
+    "name": "빼미스로우",
+    "en": "Dartrix",
+    "line": "나몰빼미",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "drooping",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "straight slender bridge",
+      "lips": "thin lips"
+    },
+    "why": "정돈된 깃과 가려진 시선을 타원 얼굴와 낮은 눈꺼풀로 구분한다.",
+    "cues": [
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운",
+      "‘stubby beak’ → 코 곧고 가는 콧대"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 곧고 가는 콧대",
+    "hair": {
+      "hairstyle": "feathered",
+      "hair length": "medium",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘dark brown feathers’·몸 형태 wings에서 끝을 가볍게 친 페더컷(층 낸 컷) · 중간 길이 · 옆으로 넘긴 앞머리 — 나몰빼미에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘dark brown feathers’ → 헤어스타일 끝을 가볍게 친 페더컷"
+    ]
+  },
+  "source_evidence": {
+    "name": "빼미스로우",
+    "en": "Dartrix",
+    "color": "brown",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "leaf",
+        "detail": "two green leaves"
+      },
+      {
+        "part": "beak",
+        "detail": "stubby beak"
+      },
+      {
+        "part": "feather",
+        "detail": "dark brown feathers"
+      },
+      {
+        "part": "jaw",
+        "detail": "white upper jaw"
+      },
+      {
+        "part": "talon",
+        "detail": "orange-brown talons"
+      },
+      {
+        "part": "iris",
+        "detail": "dark irises"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Dartrix_%28Pok%C3%A9mon%29",
+    "revision": 4630134,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "b95c9e48f68086a2183a67ff0a5daa7e92340111be1773bdfc48ab50c7944163",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; drooping eyes, medium size, downturned outer corners, close-set; long arched brows; straight slender bridge nose; thin lips.",
+  "compared_characters": [
+    "치릴리",
+    "드레디어",
+    "엘풍",
+    "나몰빼미",
+    "빼미스로우"
+  ],
+  "comparison_observation": "Rowlet has compact round cheeks, open eyes and small curved mouth; Dartrix has a longer oval face, low eyelids and thin lips. Petilil has narrower tapered lower face, Lilligant a longer face and more uplifted eyes, Whimsicott a broader smile. Compared actual light images and face crops.",
+  "original_policy": "Only source hashes, exact prompts/UI, QA and final WebP are committed; PNG remains in this session.",
+  "corrections": [
+    {
+      "slot": "casual3",
+      "attempt1_sha256": "0b331fecf0220e3b5bb8fcb8e63b2fcaff2e349b922b7e5e6b6e62dcff37bad7",
+      "reason": "Bag-side hand lacked anatomically plausible arm connection. Moved that hand to a naturally lowered arm on screen-right.",
+      "attempt2_sha256": "4dec8c978803841398f93859ebbc38798fe3ba6691ad164d80fcba9b8133fea3",
+      "second_correction": "Raised hand drifted toward hair; restored actual continuous bag strap inside that grip.",
+      "final_sha256": "50d82484c66c4486ed5079f4bebad96cdb686ce84bb4c5dbd80375ff5333a5c8"
+    }
+  ]
+}
