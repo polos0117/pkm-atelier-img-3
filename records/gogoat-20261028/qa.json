@@ -1,0 +1,41 @@
+{
+  "images": [
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "f2b8e4523236c3056b8c2f82b7e039ef3e10f6c1c973187acf22c5264502de52",
+      "observations": [
+        "Long shaggy brown hair, amber eyes and facial structure match the light identity.",
+        "Crimson ringmaster tailcoat, shorts and top hat remain recognizable while she adjusts pennant rope under the canopy.",
+        "Both raised arms connect through shoulders and elbows to the rope grip; near hand partly touches top border.",
+        "Planned waist-up framing rendered to upper thighs; framing difference recorded without regeneration."
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands inspected in enlarged crop. Screen-left hand wraps rope with thumb and curled digits, upper contours partly clipped. Screen-right thumb and four flexed digits overlap the rope naturally.",
+        "overlay_checked": false,
+        "note": "No detached hands or third arm observed; lower legs outside requested crop."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "actual_images_compared": [
+      "메이클 casual1",
+      "메이클 casual2",
+      "메이클 casual3 refill",
+      "플라베베",
+      "형사구스",
+      "턱지충이",
+      "전지충이"
+    ],
+    "evidence": "Raised rope-adjustment activity and crimson tailcoat differ from Skiddo shoreline, street parcel and seated runway scenes, and from earlier reading/desk/lounging comparisons.",
+    "casual_look": "passed; nearest comparison score 306 > 215."
+  },
+  "blocked": [
+    "casual1",
+    "casual3"
+  ]
+}

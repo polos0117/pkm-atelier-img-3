@@ -1,0 +1,478 @@
+{
+  "scope": "casual only; no form generation or uploads",
+  "reservation_commit": "243d2175cdcbb3e9e785567940ccc916324793a2",
+  "character": {
+    "card": "고고트",
+    "species": "gogoat-20261028",
+    "cuts": [
+      {
+        "kept": true,
+        "cut": 1,
+        "cat": "bridal",
+        "ex": "bridal_lace",
+        "expr": "nostalgic",
+        "pose": "turning_back",
+        "orient": "front",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "plunging neckline",
+          "open back"
+        ],
+        "lead": "place",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "A tall dressing-room mirror stands beside an ivory stool and a folded ceremony bouquet; late morning light crosses the parquet.",
+            "reason": "Adds the mirror, stool, parquet and late-morning lighting absent from the dressing-room example."
+          },
+          {
+            "field": "outfit",
+            "content": "An opaque-lined white lace bridal lingerie set with a short veil, a plunging neckline and an open-back fastening; tiny leaf embroidery borders the waist.",
+            "reason": "Specifies opaque lining, leaf embroidery and the planned neckline/back fastening for the bridal styling."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "Built-in image tool exposes no explicit size parameter."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "A gentle turn before the ceremony is the selected active moment.",
+          "source_influence": "Leaf embroidery provides a noticeable source motif in the bridal set.",
+          "separates_preference": "A coordinated bridal set follows the balanced selection."
+        }
+      },
+      {
+        "kept": true,
+        "cut": 2,
+        "cat": "adult_roleplay",
+        "ex": "circus_ringmaster",
+        "expr": "laughing",
+        "pose": "stretching",
+        "orient": "reaching_up",
+        "frame": "waist_up",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shorts",
+          "uniform"
+        ],
+        "expose": [
+          "cropped hem",
+          "side cutouts"
+        ],
+        "lead": "light",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Warm rehearsal lamps shine through the tent canopy as she reaches to adjust an overhead pennant cord.",
+            "reason": "Makes the styling preparation an overhead pennant adjustment, matching the chosen reaching-up pose."
+          },
+          {
+            "field": "outfit",
+            "content": "A crimson cropped ringmaster uniform tailcoat with side waist cutouts over a fitted opaque bodice, black high-waist shorts, high boots and a small top hat.",
+            "reason": "Defines the cropped and side-cut uniform tailoring, shorts and hat colours absent from the costume example."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "Built-in image tool exposes no explicit size parameter."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "The hands actively adjust the overhead pennant cord.",
+          "source_influence": "The costume colours lead; a small accent echoes the source.",
+          "separates_preference": "Shorts and tailored costume bodice establish separate top and bottom."
+        }
+      },
+      {
+        "kept": true,
+        "cut": 3,
+        "cat": "nightlife",
+        "ex": "rooftop_party",
+        "expr": "laughing_open",
+        "pose": "cross_legged",
+        "orient": "reclining",
+        "frame": "chest_up",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "off-shoulder neckline"
+        ],
+        "lead": "action",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Raising her glass to the first city lights, she relaxes into the curved rooftop banquette beneath a strand of warm bulbs.",
+            "reason": "Adds the curved banquette and early city-light toast to the rooftop example."
+          },
+          {
+            "field": "outfit",
+            "content": "An emerald backless mini dress with a one-shoulder strap and a draped off-shoulder neckline on the opposite side; understated bronze leaf stitching follows the fabric.",
+            "reason": "Defines emerald fabric, asymmetric shoulder draping and bronze stitching for the party dress."
+          },
+          {
+            "field": "camera",
+            "content": "Vertical 2:3 portrait (1024×1536).",
+            "reason": "Built-in image tool exposes no explicit size parameter."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "A held toast while resting on the banquette.",
+          "source_influence": "Emerald fabric and leaf stitching clearly echo the source palette.",
+          "separates_preference": "A one-piece party dress follows the balanced selection."
+        }
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [],
+        "two": false,
+        "prev": [
+          1,
+          3
+        ]
+      },
+      "low": [
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "nightlife",
+        "bridal",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [],
+      "orient": [],
+      "frame": []
+    }
+  },
+  "planner": "tools/casual-plan.cjs",
+  "check": "passed; stamps verified",
+  "batch": {
+    "session": "skiddo-gogoat-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고고트",
+        "species": "gogoat-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "expr": "nostalgic",
+            "pose": "turning_back",
+            "orient": "front",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "place",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A tall dressing-room mirror stands beside an ivory stool and a folded ceremony bouquet; late morning light crosses the parquet.",
+                "reason": "Adds the mirror, stool, parquet and late-morning lighting absent from the dressing-room example."
+              },
+              {
+                "field": "outfit",
+                "content": "An opaque-lined white lace bridal lingerie set with a short veil, a plunging neckline and an open-back fastening; tiny leaf embroidery borders the waist.",
+                "reason": "Specifies opaque lining, leaf embroidery and the planned neckline/back fastening for the bridal styling."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Built-in image tool exposes no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "A gentle turn before the ceremony is the selected active moment.",
+              "source_influence": "Leaf embroidery provides a noticeable source motif in the bridal set.",
+              "separates_preference": "A coordinated bridal set follows the balanced selection."
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Warm rehearsal lamps shine through the tent canopy as she reaches to adjust an overhead pennant cord.",
+                "reason": "Makes the styling preparation an overhead pennant adjustment, matching the chosen reaching-up pose."
+              },
+              {
+                "field": "outfit",
+                "content": "A crimson cropped ringmaster uniform tailcoat with side waist cutouts over a fitted opaque bodice, black high-waist shorts, high boots and a small top hat.",
+                "reason": "Defines the cropped and side-cut uniform tailoring, shorts and hat colours absent from the costume example."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Built-in image tool exposes no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "The hands actively adjust the overhead pennant cord.",
+              "source_influence": "The costume colours lead; a small accent echoes the source.",
+              "separates_preference": "Shorts and tailored costume bodice establish separate top and bottom."
+            }
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "rooftop_party",
+            "expr": "laughing_open",
+            "pose": "cross_legged",
+            "orient": "reclining",
+            "frame": "chest_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Raising her glass to the first city lights, she relaxes into the curved rooftop banquette beneath a strand of warm bulbs.",
+                "reason": "Adds the curved banquette and early city-light toast to the rooftop example."
+              },
+              {
+                "field": "outfit",
+                "content": "An emerald backless mini dress with a one-shoulder strap and a draped off-shoulder neckline on the opposite side; understated bronze leaf stitching follows the fabric.",
+                "reason": "Defines emerald fabric, asymmetric shoulder draping and bronze stitching for the party dress."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "Built-in image tool exposes no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "A held toast while resting on the banquette.",
+              "source_influence": "Emerald fabric and leaf stitching clearly echo the source palette.",
+              "separates_preference": "A one-piece party dress follows the balanced selection."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "nightlife",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "메이클",
+        "species": "skiddo-20261028",
+        "refill": true,
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "rashguard_set",
+            "expr": "candid",
+            "pose": "standing_formal",
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "halter neck",
+              "high-cut leg"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "cyber_street",
+            "expr": "unimpressed",
+            "pose": "carrying_something",
+            "orient": "profile_close",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ]
+          },
+          {
+            "cut": 3,
+            "cat": "gala_red_carpet",
+            "ex": "front_row",
+            "garments": [
+              "dress"
+            ],
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  }
+}
