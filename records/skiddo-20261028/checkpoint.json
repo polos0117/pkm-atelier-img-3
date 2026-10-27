@@ -1,0 +1,45 @@
+{
+  "stage": "reviewed_partial",
+  "generated": 8,
+  "requested": 9,
+  "light": {
+    "card": "메이클",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "메이클_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "62aa6a6c3818499c4e3ccf4a25a04e048ff37996b1eccbe59abc12552100c93e",
+      "git_blob": "7e6f4e8118f46604fed32a73aa18b70c52389bde"
+    }
+  },
+  "face_source": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "face_reason": "Angular jaw and brows interpret pointed horns; medium shaggy hair echoes the leafy mane and brown fur.",
+  "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; angular defined jaw; almond eyes, medium size, level outer corners, wide-set; angled brows; rounded soft tip nose; bow-shaped upper lip.",
+  "compared_characters": [
+    "플라베베",
+    "형사구스",
+    "턱지충이",
+    "전지충이"
+  ],
+  "original_policy": "PNG remains session-only; records preserve hashes and exact prompts.",
+  "blocked_slots": [
+    "casual3"
+  ],
+  "manifest": "classification.json"
+}

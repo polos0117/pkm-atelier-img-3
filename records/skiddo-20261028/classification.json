@@ -1,0 +1,220 @@
+[
+  {
+    "card": "메이클",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "메이클_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "62aa6a6c3818499c4e3ccf4a25a04e048ff37996b1eccbe59abc12552100c93e",
+      "git_blob": "7e6f4e8118f46604fed32a73aa18b70c52389bde"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "859250c043aaf5c323a9f6d6ddf0a8f6add1d6442da40e3843f5e443a6bb085d",
+    "references": [
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "메이클_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "cc997855677e3b86061d34fc123b19b3ac4b2cb5bed5692166b7a16b060c914e",
+      "git_blob": "335748b840357c473cf5672cb74a4c71c90ca1a8"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "6a5f0395a9f5937421f462b17e1a636712e215824a30ec46eca39f256293112a",
+    "references": [
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "메이클_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "5d8aa703d941c252e16c9722e631c3e712d0fdae7c783a10a187ba8a0357d512",
+      "git_blob": "9e2475fa3588768cf55c811eaab7e07683249cc6"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "b51f2283fa09dba38a02a642412ad01cc8d8320ff23641dc0c706f4495e0cfe3",
+    "references": [
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "메이클_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "476935a3106af2652e1694825291932e41d4d42c772712160944a0b7ab95cd26",
+      "git_blob": "1138b29b48192ab601e2ed61b7930ac55e878a38"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "59decda1084fe1e59347f2382259ad184c4bb209973ace7e509fb78007f6ee37",
+    "references": [
+      {
+        "sha256": "859250c043aaf5c323a9f6d6ddf0a8f6add1d6442da40e3843f5e443a6bb085d"
+      },
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "메이클_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "882fd5f608c8bd43a1ee457a47c34cfb9c3ab362142ce9cf4a7e2ec7bd2d016b",
+      "git_blob": "f2ca532e2fda0beec60325707acc0a870c4d15a1"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "4fd6fc535a0cf2516d7bd50ec0678f1d85834bd7a0d9cd02d490c383f0121a44",
+    "references": [
+      {
+        "sha256": "6a5f0395a9f5937421f462b17e1a636712e215824a30ec46eca39f256293112a"
+      },
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "메이클_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "653a87f4f0681f3df47aafae50478ae725921454dc570ab8070d4ec503f2b51e",
+      "git_blob": "f7068fc8fb880c327fb9bbe548e6066bccfd2b38"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "1b101380b615115cd6d670ce3ee3a6c7500207a818f78aadb29fc3d33c479bd1",
+    "references": [
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "메이클_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "300203913fb828cb60fe7a3ec2553b02763cc1dfe5a45598c7b69756ef125a30",
+      "git_blob": "1eb724baa29a9ecfa8780fe274cbb7a213007a0f"
+    }
+  },
+  {
+    "card": "메이클",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and built-in image_gen",
+    "original_sha256": "9f16afb1a013beb38c5a82aa518410b156c5d09c55023a40ef8bcd37d723bda5",
+    "references": [
+      {
+        "sha256": "709dfb2ca32886e311248ae86ea170e8665857f786c7338c9a2ee583285c6fe5"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "메이클_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d6e43899e48cb3177a58e34fc341b31b45f4f718201b9f6072d44b34871cfae7",
+      "git_blob": "7858b2622ffc4e16b8088e91b81528f3cfdbfd0e"
+    }
+  }
+]

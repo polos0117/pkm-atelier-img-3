@@ -1,0 +1,388 @@
+{
+  "session": "skiddo-gogoat-20261028",
+  "batch": {
+    "session": "skiddo-gogoat-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "메이클",
+        "species": "skiddo-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "rashguard_set",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "standing_formal",
+            "expr": "candid",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "high-cut leg"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "cyber_street",
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "orient": "profile_close",
+            "frame": "face_close",
+            "pose": "carrying_something",
+            "expr": "unimpressed",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "heritage_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "sitting_floor",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "crop_top",
+            "skirt"
+          ],
+          "orient": [
+            "rear_3q",
+            "profile_close",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "고고트",
+        "species": "gogoat-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "front",
+            "frame": "three_quarter",
+            "pose": "turning_back",
+            "expr": "nostalgic",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "pose": "stretching",
+            "expr": "laughing",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "rooftop_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "uniform"
+          ],
+          "orient": [
+            "front",
+            "reaching_up",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "character": {
+    "card": "메이클",
+    "species": "skiddo-20261028",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "rashguard_set",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "rear_3q",
+        "frame": "full_body",
+        "pose": "standing_formal",
+        "expr": "candid",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "halter neck",
+          "high-cut leg"
+        ],
+        "lead": "detail"
+      },
+      {
+        "cut": 2,
+        "cat": "source_editorial",
+        "ex": "cyber_street",
+        "garments": [
+          "crop_top",
+          "skirt"
+        ],
+        "orient": "profile_close",
+        "frame": "face_close",
+        "pose": "carrying_something",
+        "expr": "unimpressed",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "strapless top"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 3,
+        "cat": "private_evening",
+        "ex": "heritage_evening",
+        "garments": [
+          "dress"
+        ],
+        "orient": "looking_down",
+        "frame": "environmental",
+        "pose": "sitting_floor",
+        "expr": "pensive",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "high thigh slit",
+          "mini length"
+        ],
+        "lead": "place"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1
+        ],
+        "two": false,
+        "prev": [
+          3
+        ]
+      },
+      "low": [
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "bridal",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "swimsuit",
+        "crop_top",
+        "skirt"
+      ],
+      "orient": [
+        "rear_3q",
+        "profile_close",
+        "looking_down"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed; stamp verification passed",
+  "reservation_commit": "f85924842878b2a9a9a1386eb9059fcd75943510",
+  "extras": [
+    {
+      "scene": "A pair of swim fins lies beside her on a sunlit tidal terrace; wind lifts spray from the turquoise shallows.",
+      "outfit": "An ivory zip-front rashguard ends above the waist and opens over a green halter swimsuit with a high-cut leg; the matching swim bottoms are fully lined."
+    },
+    {
+      "scene": "Carrying a small reflective parcel through a rain-lit elevated shopping lane, she passes cyan and amber light strips.",
+      "outfit": "A graphite strapless crop top with a single asymmetric shoulder band and a copper mini skirt, with tiny green seam accents."
+    },
+    {
+      "scene": "A timber reception room opens onto a moonlit rock garden; she rests beside a low lacquer tray after the formal gathering.",
+      "outfit": "An indigo silk wrap dress with subtle traditional geometric embroidery, a mini-length hem and a deep overlapping thigh slit, worn with a narrow ceremonial sash."
+    }
+  ],
+  "generation_tool": "built-in image_gen"
+}
