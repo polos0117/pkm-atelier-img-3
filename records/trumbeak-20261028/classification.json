@@ -1,0 +1,257 @@
+[
+  {
+    "card": "크라파",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+    "original_sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "크라파_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "8bb05dc63cbf170fc0a27987359a0728b63875b3a2b0954b48e5245738edfe41"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-9a2fd10b-6dfd-4396-9901-e819a517a84b.png",
+    "original_sha256": "1598fbc0f19511ece39a8e3a5df2ac57eae605423b4975737c8a673aa2126de9",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "크라파_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "37c990acdb616e66153b15261b9455ef8f792f74fd18000f1651b5baee143cc1"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-56b550ce-37e7-40ee-9e70-a69f59ec34ce.png",
+    "original_sha256": "cfad6a62c8b67363c577d0cf86a6662e76c65c904bd9f41221e0463720389d07",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "크라파_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "014c8508fb1602ed94aa0ce92481cc06ab0ae07f30fbf75813ff0dafffe5352f"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-0fc88256-394b-4fd2-a2cd-12e81fb941b4.png",
+    "original_sha256": "d9a1519aa739affcc20babe08a2a995e616938b3d20f3ad3e07f64e037966043",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "크라파_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "0a8235cfb2a01d468382f285b14b83db48f2bc8d9d17d191de1388af81de0fc9"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-c4decbad-17c4-4cd8-8f8f-926f16c52bfa.png",
+    "original_sha256": "3b0092fc0b82b61369ccb30d7f50b59a794324a63bbb0f0d2b35fa7057de97b3",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-9a2fd10b-6dfd-4396-9901-e819a517a84b.png",
+        "sha256": "1598fbc0f19511ece39a8e3a5df2ac57eae605423b4975737c8a673aa2126de9"
+      },
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "크라파_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "f40b5e5c173b6e8b979b99f8861d76f87a92d481f1fdcaf093604c8bc06ffe43"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-4b792d43-cb03-44b0-8019-96d5b326cc42.png",
+    "original_sha256": "6ac8c818422b212086c0b2f31bcee16290f51712620617e19edef83da8e7ca0f",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-56b550ce-37e7-40ee-9e70-a69f59ec34ce.png",
+        "sha256": "cfad6a62c8b67363c577d0cf86a6662e76c65c904bd9f41221e0463720389d07"
+      },
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "크라파_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1a2e3f96a82302bc8f92266511b7f6dfed3eb9ccde97f82ca53e3070ed687711"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-233c393d-b83d-46ee-af2d-b5985c091b5a.png",
+    "original_sha256": "6694db1bdaa6838ea5c622068a068e8cf318eabf280f6fab457241c0b6db45d8",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "크라파_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "54cc7eb6c0ff0684ee8f92a4d894ab73ee1be75dda7365632bf6a6bb47f969c9"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-4ceb3d77-4385-443a-99d5-5627d3e60744.png",
+    "original_sha256": "4ad74d6edd33a6f02a0e6d7a663455ebcce8a6e6561fb508ad5b1386e051d50e",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "크라파_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "9010508013a00d919ed75756624be9a83d42874e470995dadbcc22b300222328"
+    }
+  },
+  {
+    "card": "크라파",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI rendered in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/484475b8d23c/generated_images/exec-c4432c68-cba0-4d72-8ce4-897ca84539e9.png",
+    "original_sha256": "2ac733f305a3277b4533c016d4b41d1c5f9a3dc036c4c2393e1692093a6ed743",
+    "references": [
+      {
+        "path": "/workspace/scratch/484475b8d23c/generated_images/exec-167e0fd5-7253-468a-bb30-bd314b732d4e.png",
+        "sha256": "ab33a4c2fd17292994a07b95bde43a3bbace8396a6222ab3fc6e639511a58805"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "크라파_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "47b42f640ad442905f7cbc1efd44fd1ac1b281736a2cfb93797a4505cb15f3b3"
+    }
+  }
+]

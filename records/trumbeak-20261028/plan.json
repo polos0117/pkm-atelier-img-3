@@ -1,0 +1,395 @@
+{
+  "session": "pikipek-trumbeak-484475",
+  "batch": {
+    "session": "pikipek-trumbeak-484475",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "콕코구리",
+        "species": "pikipek-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "pinup_beachball",
+            "expr": "proud",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "active",
+            "ex": "light_jog",
+            "expr": "determined",
+            "pose": "mid_stride",
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "neon_bar",
+            "expr": "calm",
+            "pose": "contrapposto",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt"
+            ],
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "크라파",
+        "species": "trumbeak-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "sport_cotton",
+            "expr": "playful",
+            "pose": "standing_formal",
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "beach_volley",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "sitting_floor",
+            "expr": "candid",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_dance",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "sport_cotton",
+      "expr": "playful",
+      "pose": "standing_formal",
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "action",
+      "inputs": {
+        "scene": "Smoothing a fresh cotton fold at the waistband while pale morning light crosses a linen-covered bed and a vase of daisies.",
+        "outfit": "An opaque charcoal sporty cotton lingerie set with broad supportive bands, a secure strapless top and high-cut briefs; ivory binding leaves the shoulders, waist and upper thighs bare."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for sport_cotton: Smoothing a fresh cotton fold at the waistband while pale morning light crosses a linen-covered bed and a vase of daisies.",
+        "outfit": "Applies planned lingerie_set and high-cut leg,strapless top through An opaque charcoal sporty cotton lingerie set with broad supportive bands, a secure strapless top and high-cut briefs; ivory binding leaves the shoulders, waist and upper thighs bare.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "sport_cotton activity and standing_formal selected by planner",
+        "source_influence": "subtle accents within lingerie_set",
+        "separates_preference": "lingerie_set garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    },
+    {
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "beach_volley",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "seated_twist",
+      "frame": "waist_up",
+      "pose": "sitting_floor",
+      "expr": "candid",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "action",
+      "inputs": {
+        "scene": "Receiving the volleyball beside the net on firm pale sand; wind lifts loose grains along the court boundary.",
+        "outfit": "A securely fitted opaque coral sporty bikini with a broad strapless bandeau and high-cut matching bottoms, white seam binding and bare shoulders and upper thighs."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for beach_volley: Receiving the volleyball beside the net on firm pale sand; wind lifts loose grains along the court boundary.",
+        "outfit": "Applies planned bikini and high-cut leg,strapless top through A securely fitted opaque coral sporty bikini with a broad strapless bandeau and high-cut matching bottoms, white seam binding and bare shoulders and upper thighs.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "beach_volley activity and sitting_floor selected by planner",
+        "source_influence": "strong accents within bikini",
+        "separates_preference": "bikini garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_dance",
+      "expr": "laughing",
+      "pose": "stretching",
+      "orient": "leaning_forward",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "expose": [
+        "high thigh slit",
+        "side cutouts"
+      ],
+      "lead": "detail",
+      "inputs": {
+        "scene": "A round paper fan catches the lantern glow at her side as drumbeats mark the festival rhythm.",
+        "outfit": "An ivory festival jumpsuit with black feather-shaped trim, narrow side cutouts and high thigh slits in the wide legs; the waist edges and upper thighs remain exposed, with a coral sash."
+      },
+      "camera": "Vertical 2:3 portrait (1024×1536).",
+      "input_reasons": {
+        "scene": "Adds specific location/activity detail for fest_dance: A round paper fan catches the lantern glow at her side as drumbeats mark the festival rhythm.",
+        "outfit": "Applies planned jumpsuit and high thigh slit,side cutouts through An ivory festival jumpsuit with black feather-shaped trim, narrow side cutouts and high thigh slits in the wide legs; the waist edges and upper thighs remain exposed, with a coral sash.",
+        "camera": "Image generation tool has no separate size control; portrait size entered in generator camera field."
+      },
+      "axis_reasons": {
+        "action_level": "fest_dance activity and stretching selected by planner",
+        "source_influence": "strong accents within jumpsuit",
+        "separates_preference": "jumpsuit garment construction"
+      },
+      "manual_selection_changes": [],
+      "selection_source": "casual-plan.cjs; actual UI loaded from planner URL with locked choices"
+    }
+  ],
+  "check": "Planner check passed using Git filename inventory rather than unrelated image downloads; verify 2 reservation stamps valid",
+  "reservation_commit": "345db1fdb097174202693b733a119173adc9b258",
+  "comparison": [
+    "누리레느",
+    "키요공",
+    "누리공"
+  ]
+}
