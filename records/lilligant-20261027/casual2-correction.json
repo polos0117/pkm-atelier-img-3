@@ -1,0 +1,20 @@
+{
+  "slot": "casual2",
+  "reason": "Garden aisle walking activity absent from first result; first result picked up a petal",
+  "initial_original_sha256": "6646697745c5c98be0e7a59bd4db95cf55a603394c8aa23ebf6507f26fd51b83",
+  "corrected_original_sha256": "8cb2e1a6bb5f4cacf17fe31075cca300aceaa751516be2fb2b0559c858ba0473",
+  "submitted_prompt": "casual2-correction-prompt.txt",
+  "references": [
+    {
+      "role": "canonical light identity",
+      "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+    },
+    {
+      "role": "edit target",
+      "sha256": "6646697745c5c98be0e7a59bd4db95cf55a603394c8aa23ebf6507f26fd51b83"
+    }
+  ],
+  "selection_changes": [],
+  "replanning_note": "A planner attempt keeping 1 and 3 failed SOURCE-composition check; reservation unchanged and verified. Corrected original scene activity with original selected settings.",
+  "original_policy": "PNG originals session-only, no original uploaded."
+}

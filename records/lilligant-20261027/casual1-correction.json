@@ -1,0 +1,20 @@
+{
+  "slot": "casual1",
+  "reason": "Binoculars must be used to look at marsh birds; first result looked at camera",
+  "initial_original_sha256": "60ae7adfdc1a4854f3ffda014af0959b8c43aa0d3179e22a9083d6f9519bcd49",
+  "corrected_original_sha256": "d72dce3e171347b4b3cfe14495ff77ed0e3c0f5d7476eac17d83678633a03736",
+  "submitted_prompt": "casual1-correction-prompt.txt",
+  "references": [
+    {
+      "role": "canonical light identity",
+      "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+    },
+    {
+      "role": "edit target",
+      "sha256": "60ae7adfdc1a4854f3ffda014af0959b8c43aa0d3179e22a9083d6f9519bcd49"
+    }
+  ],
+  "selection_changes": [],
+  "replanning_note": "Same selected scene and outfit; only head/gaze/binocular alignment corrected.",
+  "original_policy": "PNG originals session-only, no original uploaded."
+}

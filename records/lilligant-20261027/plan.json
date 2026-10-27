@@ -1,0 +1,588 @@
+{
+  "session": "petilil-lilligant-a822",
+  "batch": {
+    "session": "petilil-lilligant-a822",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "치릴리",
+        "species": "petilil-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "velvet_set",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "pose": "side_sitting",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "salsa_spin",
+            "garments": [
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "face_close",
+            "pose": "dance_step",
+            "expr": "mischievous",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "fantasy_costume",
+            "ex": "fairy_wings",
+            "garments": [
+              "dress"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "mid_action",
+            "expr": "serious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "active",
+            "dance_stage",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "lingerie_set"
+          ],
+          "orient": [
+            "low_angle",
+            "profile_close",
+            "over_shoulder"
+          ],
+          "frame": [
+            "face_close"
+          ]
+        }
+      },
+      {
+        "card": "드레디어",
+        "species": "lilligant-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_birdwatch",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_back",
+            "frame": "environmental",
+            "pose": "standing_formal",
+            "expr": "amused",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "bridal",
+            "ex": "garden_aisle",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "chest_up",
+            "pose": "bending_over",
+            "expr": "gentle",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "yacht_deck",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "cross_legged",
+            "expr": "pensive",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "active",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "bikini"
+          ],
+          "orient": [
+            "leaning_back",
+            "looking_down",
+            "reclining"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_birdwatch",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "leaning_back",
+      "frame": "environmental",
+      "pose": "standing_formal",
+      "expr": "amused",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "Watching the far side of a marsh through compact binoculars from a reed-lined observation hide, a field notebook on the ledge.",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 1,
+          "cat": "hobbies_leisure",
+          "ex": "hobby_birdwatch",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "leaning_back",
+          "frame": "environmental",
+          "pose": "standing_formal",
+          "expr": "amused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "plunging neckline"
+          ],
+          "lead": "action"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning sunlight stripes the reed hide, and distant waterbirds gather on the marsh beyond the wooden observation slit.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Morning sunlight stripes the reed hide, and distant waterbirds gather on the marsh beyond the wooden observation slit."
+        },
+        {
+          "field": "outfit",
+          "content": "A pale-green halter jumpsuit with a plunging neckline and open back, with fine dark-green leaf stitching along its fitted waist.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A pale-green halter jumpsuit with a plunging neckline and open back, with fine dark-green leaf stitching along its fitted waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for Morning sunlight stripes the reed hide, and distant waterbirds gather on the marsh beyond the wooden observation slit.",
+        "source_influence": "balanced implemented by A pale-green halter jumpsuit with a plunging neckline and open back, with fine dark-green leaf stitching along its fitted waist.",
+        "separates_preference": "balanced follows the actual garment construction jumpsuit"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "bridal",
+      "ex": "garden_aisle",
+      "garments": [
+        "dress"
+      ],
+      "orient": "looking_down",
+      "frame": "chest_up",
+      "pose": "bending_over",
+      "expr": "gentle",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "mini length"
+      ],
+      "lead": "detail",
+      "example_text": "walking alone down a garden aisle under a flower arch in a flowing gown, the train trailing on the petals",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 2,
+          "cat": "bridal",
+          "ex": "garden_aisle",
+          "garments": [
+            "dress"
+          ],
+          "orient": "looking_down",
+          "frame": "chest_up",
+          "pose": "bending_over",
+          "expr": "gentle",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "mini length"
+          ],
+          "lead": "detail"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A silk train edged with leaf embroidery trails over ivory petals along the stone path; late-afternoon light warms the garden.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: A silk train edged with leaf embroidery trails over ivory petals along the stone path; late-afternoon light warms the garden."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory one-shoulder mini wedding dress with a long flowing detachable train, exposing one shoulder and both legs; scarlet floral embroidery accents the waist.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: An ivory one-shoulder mini wedding dress with a long flowing detachable train, exposing one shoulder and both legs; scarlet floral embroidery accents the waist."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced for A silk train edged with leaf embroidery trails over ivory petals along the stone path; late-afternoon light warms the garden.",
+        "source_influence": "strong implemented by An ivory one-shoulder mini wedding dress with a long flowing detachable train, exposing one shoulder and both legs; scarlet floral embroidery accents the waist.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "yacht_deck",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "reclining",
+      "frame": "waist_up",
+      "pose": "cross_legged",
+      "expr": "pensive",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "halter neck"
+      ],
+      "lead": "place",
+      "example_text": "sunbathing in a bikini on the cushioned foredeck of a moored yacht, leaning back on her hands",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "yacht_deck",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "reclining",
+          "frame": "waist_up",
+          "pose": "cross_legged",
+          "expr": "pensive",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "halter neck"
+          ],
+          "lead": "place"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The teak foredeck faces a sheltered turquoise cove, with cream cushions and a folded sea-green towel beside her.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: The teak foredeck faces a sheltered turquoise cove, with cream cushions and a folded sea-green towel beside her."
+        },
+        {
+          "field": "outfit",
+          "content": "A dark-green high-cut halter bikini with tiny scarlet blossom embroidery and gold hardware.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A dark-green high-cut halter bikini with tiny scarlet blossom embroidery and gold hardware."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for The teak foredeck faces a sheltered turquoise cove, with cream cushions and a folded sea-green towel beside her.",
+        "source_influence": "strong implemented by A dark-green high-cut halter bikini with tiny scarlet blossom embroidery and gold hardware.",
+        "separates_preference": "balanced follows the actual garment construction bikini"
+      }
+    }
+  ],
+  "check": "Planner batch check passed; reservation stamp verify passed before generation.",
+  "reservation_commit": "3c01616",
+  "compared_actual_images": [
+    "비비용 light/casual1–3",
+    "엘풍 light/casual1–3",
+    "휠구 light/casual1–3"
+  ],
+  "storage": "Shared blob:none Git metadata in /workspace/shared-git; task branch and sparse worktrees; inventory symlinks excluded from all publication manifests.",
+  "corrections": [
+    {
+      "slot": "casual1",
+      "reason": "Binoculars must be used to look at marsh birds; first result looked at camera",
+      "initial_original_sha256": "60ae7adfdc1a4854f3ffda014af0959b8c43aa0d3179e22a9083d6f9519bcd49",
+      "corrected_original_sha256": "d72dce3e171347b4b3cfe14495ff77ed0e3c0f5d7476eac17d83678633a03736",
+      "submitted_prompt": "casual1-correction-prompt.txt",
+      "references": [
+        {
+          "role": "canonical light identity",
+          "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+        },
+        {
+          "role": "edit target",
+          "sha256": "60ae7adfdc1a4854f3ffda014af0959b8c43aa0d3179e22a9083d6f9519bcd49"
+        }
+      ],
+      "selection_changes": [],
+      "replanning_note": "Same selected scene and outfit; only head/gaze/binocular alignment corrected.",
+      "original_policy": "PNG originals session-only, no original uploaded."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Garden aisle walking activity absent from first result; first result picked up a petal",
+      "initial_original_sha256": "6646697745c5c98be0e7a59bd4db95cf55a603394c8aa23ebf6507f26fd51b83",
+      "corrected_original_sha256": "8cb2e1a6bb5f4cacf17fe31075cca300aceaa751516be2fb2b0559c858ba0473",
+      "submitted_prompt": "casual2-correction-prompt.txt",
+      "references": [
+        {
+          "role": "canonical light identity",
+          "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+        },
+        {
+          "role": "edit target",
+          "sha256": "6646697745c5c98be0e7a59bd4db95cf55a603394c8aa23ebf6507f26fd51b83"
+        }
+      ],
+      "selection_changes": [],
+      "replanning_note": "A planner attempt keeping 1 and 3 failed SOURCE-composition check; reservation unchanged and verified. Corrected original scene activity with original selected settings.",
+      "original_policy": "PNG originals session-only, no original uploaded."
+    }
+  ],
+  "kept_without_changes": [
+    "casual3"
+  ],
+  "replan_attempt": {
+    "outcome": "failed; no reservation change",
+    "error": "SOURCE influence composition matched Whimsicott while keeping completed cuts 1 and 3",
+    "resolution": "Corrected only activities in original scenes with unchanged planned choices."
+  }
+}

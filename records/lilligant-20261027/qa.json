@@ -1,0 +1,330 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "One woman stands in a sunlit floral white arcade with one hand lowered and the other lifted near her shoulder."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Scarlet white-speckled flower and gold stamen headpiece, pale-green leaf skirt over fitted ivory/green armor; both boots inside frame."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Lowered open glove: thumb plus four fingers; raised hand: five gloved digits with overlaps. Two connected arms and legs.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same woman and floral arcade, feet set in a stable standing pose."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Thick stacked plates cover shoulders, chest, pelvis, thighs and shins; open-face crown helmet preserves bangs and jaw."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on lowered hand, five on raised hand near shoulder. Wrists and elbows remain connected.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "One leg lifted slightly across the other, in the same bright arcade."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Scarlet and pale-green leaf fins fan outward/back from shoulders and hips with gold circular propulsion accents."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands show five digits with raised-hand perspective overlap. Two legs cross naturally without duplicated feet.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same light camera, standing posture, scale and floral arcade."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Light plate seams hinge open to reveal green luminous internal structure; warm olive-gold eyes retained."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Original lowered five-digit palm and raised gloved hand unchanged; no detached limb.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same heavy camera, standing pose and foot placements."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Thick overlapping plates hinge apart, exposing green inner ribs and cores; no weapon added."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Lowered hand thumb plus four fingers, raised hand five overlapping gloved digits.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Same mobility camera and lifted crossed-leg pose."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "Existing leaf fins spread on their hinges, exposing bright green circular cores while face and armor layout remain recognizable."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both hands retain five gloved digits. Crossed legs trace from hips through knees to two separate boots.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Looking through binoculars at marsh birds from the open window of a reed-lined wooden hide; field notebook lies on the ledge."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Pale-green open-back halter jumpsuit, leaf stitching and separate legs, shoulders/back visible. Corrected head to side profile and aligned eye to eyepiece. Upright stance rather than selected leaning-back orientation."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand four fingers curled over binocular barrel and thumb beneath; far hand supports underside with fingers partly hidden by device and near hand. Two arms, natural elbows; sandal toes partially covered by straps.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Walking alone forward along the petal-covered garden aisle under a floral arch, holding the train lightly at her side."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Ivory short bridal dress with long embroidered train, scarlet waist flower and veil; bare shoulders and legs. Downward gentle gaze. Upright walk and full-body crop replace selected bending-over/chest-up as activity correction; recorded."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Cloth-holding hand: thumb and index visible, remaining fingers partly occluded by fabric. Relaxed hanging hand: five naturally flexed digits with correct thumb side; two walking legs, five toes partly visible within each flowered sandal.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Tall pale-olive messy bun with curtain bangs, oval face, gently downturned warm olive-gold almond eyes, small delicate nose and straight even lips remain consistent with light anchor. Visually compared with Petilil rounded face and recent Vivillon, Whimsicott and Whirlipede."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "Paused sunbathing cross-legged on cream yacht foredeck cushions, turquoise cove and moored yachts behind."
+        },
+        "wardrobe_expression_frame": {
+          "match": false,
+          "evidence": "Dark-green high-cut halter bikini with small scarlet floral embroidery, bare midriff/legs/shoulders. Pensive downward gaze; upright cross-legged pose rather than reclining; wider than waist-up selection."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "One complete main woman; no second face/body competing with her."
+        },
+        "size": {
+          "match": true,
+          "evidence": "Opened original PNG and final WebP; both 1024×1536."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near lap hand: thumb plus four fingers resting on leg. Other hand on cushion: five digits, partly overlapping in oblique view. Front foot five toes; rear foot partly occluded by crossed shin, no additional foot.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Both arms connect through shoulder/elbow/wrist; both legs connect through hip/knee/ankle; no detached duplicate limb."
+      }
+    }
+  ],
+  "diversity": {
+    "compared_actual_images": [
+      "비비용",
+      "엘풍",
+      "휠구"
+    ],
+    "evidence": "Three scenes differ as standing birdwatching in a wooden marsh hide, walking bridal dress with a trailing train under a floral garden arch, and cross-legged sunbathing on a yacht foredeck. The jumpsuit back silhouette, moving train and seated bikini contour differ from one another and from Petilil dressing room, salsa dance and fairy studio scenes; compared with recent cafe, telescope and static glamour images.",
+    "look_check": "pkm-atelier-img-3/img/드레디어_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     265  샤로다_glossy_promo_f_casual2.webp\n     288  데기라스_glossy_promo_f_casual2.webp\n     289  둥실라이드_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/드레디어_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     261  아보크_glossy_promo_f_casual1.webp\n     263  로파파_glossy_promo_f_casual2.webp\n     264  구구_glossy_promo_f_casual2.webp\npkm-atelier-img-3/img/드레디어_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     299  잎새코_glossy_promo_f_casual2.webp\n     302  아이스크_glossy_promo_f_casual1.webp\n     313  히드런_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

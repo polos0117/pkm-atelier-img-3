@@ -1,0 +1,252 @@
+[
+  {
+    "card": "드레디어",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+    "original_sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "드레디어_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "98a1b106855f5b357de1b0af8be0ac4d77fc690d3904e7b3144128c9d01a801b"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-f3007e97-eec2-46a8-bbb0-be474e1f1d27.png",
+    "original_sha256": "00aebead24945581c4bd9ceeb0b66bf5d39c42dbbbdeb624a4cec9930a84bf44",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "드레디어_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "15b26680626070f3c6f6facfa9cd82feac6c93d43ce8cb7c619a72cbce0aae11"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-eed045ec-ac18-44b7-a7d9-6c75455bc122.png",
+    "original_sha256": "f03cfbeb4f5ceca9cbf500e47af332425fc3eaf8c62e8f6cc2ed1e8bac8336b5",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "드레디어_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "afe98e082141438f5ea5e9bb63fee6a53feb13a3ad36a6f8d6abbc63161eb124"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-6a3666ba-3e5b-4661-8c54-5e86f856a909.png",
+    "original_sha256": "ed58420c497e410a5e968c07723701904df5be74a09f960ee9e8045c123a43f1",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "드레디어_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1e1248a622cc3462cce203cb8e52295a46666ac558bddcf20de7e8a8e799b2fb"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-334d3b89-d6c6-40dd-807f-3db3de695780.png",
+    "original_sha256": "7155b6c3ff194f1b70d14b3986803c1f3913dabdd100c5703d4d9a5d51833777",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-f3007e97-eec2-46a8-bbb0-be474e1f1d27.png",
+        "sha256": "00aebead24945581c4bd9ceeb0b66bf5d39c42dbbbdeb624a4cec9930a84bf44"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "드레디어_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "f6cc79fefd77cc5a0630b73ce259842a51130e6af8293e98eddfdafced034db0"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-069d25c8-ae06-4cdc-9791-67374da2ef6a.png",
+    "original_sha256": "4b26caeefe8612e1e5201f1bd1498afeeef8a6966a5f726286efb6c180fa81df",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-eed045ec-ac18-44b7-a7d9-6c75455bc122.png",
+        "sha256": "f03cfbeb4f5ceca9cbf500e47af332425fc3eaf8c62e8f6cc2ed1e8bac8336b5"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "드레디어_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "89ff9bdd13980f5f9a7fe304df6d282a12a27408a971b89c3fdae5d8e4819af5"
+    }
+  },
+  {
+    "card": "드레디어",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-fb88f0d2-4abb-4048-b28c-71ec3693edf9.png",
+    "original_sha256": "d72dce3e171347b4b3cfe14495ff77ed0e3c0f5d7476eac17d83678633a03736",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      },
+      {
+        "role": "edit target",
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-cd84e854-9be0-4ba4-a730-4be0751ca166.png",
+        "sha256": "60ae7adfdc1a4854f3ffda014af0959b8c43aa0d3179e22a9083d6f9519bcd49"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "드레디어_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "8fd679f091cb9a4c9fe9654a46a76c93c51d72221d53b4cc23961de2594830ca"
+    },
+    "correction_record": "casual1-correction.json"
+  },
+  {
+    "card": "드레디어",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-dcf56ae0-7e99-4d9d-8ac0-09081bfe9eab.png",
+    "original_sha256": "8cb2e1a6bb5f4cacf17fe31075cca300aceaa751516be2fb2b0559c858ba0473",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      },
+      {
+        "role": "edit target",
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-a485117f-f27a-4170-aa7b-cbea075fa9d5.png",
+        "sha256": "6646697745c5c98be0e7a59bd4db95cf55a603394c8aa23ebf6507f26fd51b83"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "드레디어_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "12305056ba31b22504390234ed6a757e23c466bbd39377ddde7be019c16a1120"
+    },
+    "correction_record": "casual2-correction.json"
+  },
+  {
+    "card": "드레디어",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/a822cfc74231/generated_images/exec-72b37d4d-ea43-4570-a6d6-4894c3566978.png",
+    "original_sha256": "ccb0542c535ce8ec24557cc33e1a9f99b7658196af77b2247e5cad019c80803f",
+    "references": [
+      {
+        "path": "/workspace/scratch/a822cfc74231/generated_images/exec-2b4ee56c-710d-403e-9a12-c8424bbe3faf.png",
+        "sha256": "634c21cd1cf53c88668058276e68ac64c577f19145fc95fefad393ed82a923b0"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "드레디어_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0d5915f7b03908f8561b18eed4f88ee0e935d43bf1de384ea470c25544047195"
+    }
+  }
+]
