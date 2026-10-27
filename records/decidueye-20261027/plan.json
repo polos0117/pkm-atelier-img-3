@@ -1,0 +1,452 @@
+{
+  "session": "decidueye-litten-20261027-91ea",
+  "batch": {
+    "session": "decidueye-litten-20261027-91ea",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "모크나이퍼",
+        "species": "decidueye-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "gala_red_carpet",
+            "ex": "museum_gala",
+            "expr": "wistful",
+            "pose": "standing_relaxed",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "karaoke_room",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "high_angle",
+            "frame": "face_close",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "paddle_board",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "turning_back",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "festivals_contests",
+            "homewear",
+            "nightlife",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "냐오불",
+        "species": "litten-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "rodeo_cowgirl",
+            "expr": "focused",
+            "pose": "squatting",
+            "orient": "over_shoulder",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_cablecar",
+            "expr": "curious",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_flowercrown",
+            "expr": "laughing_open",
+            "pose": "turning_back",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "cropped hem",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "gala_red_carpet",
+      "ex": "museum_gala",
+      "expr": "wistful",
+      "pose": "standing_relaxed",
+      "orient": "three_quarter_back",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "at a gala in a grand museum hall in a backless column gown, a marble statue behind her",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A pearl clasp fastens a folded gala programme beneath the marble statue; warm spotlights pick out carved stone and bronze display rails.",
+          "reason": "Specific local objects/time supplement the chosen example: A pearl clasp fastens a folded gala programme beneath the marble statue; warm spotlights pick out carved stone and bronze display rails."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory silk column dress has a strapless neckline, a deeply open back and a thigh-high side slit; a fine dark-green waistband traces its fitted shape.",
+          "reason": "Planned dress and high thigh slit, strapless top are expressed through An ivory silk column dress has a strapless neckline, a deeply open back and a thigh-high side slit; a fine dark-green waistband traces its fitted shape."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to A pearl clasp fastens a folded gala programme beneath the marble statue; warm spotlights pick out carved stone and bronze display rails.",
+        "source_influence": "subtle is reflected in An ivory silk column dress has a strapless neckline, a deeply open back and a thigh-high side slit; a fine dark-green waistband traces its fitted shape.",
+        "separates_preference": "balanced corresponds to dress"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "nightlife",
+      "ex": "karaoke_room",
+      "expr": "laughing",
+      "pose": "stretching",
+      "orient": "high_angle",
+      "frame": "face_close",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "singing into a microphone in a private karaoke room in an off-shoulder sequin top and shorts, coloured lights spinning",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Magenta and teal club lights ripple over the upholstered booth while a disco ball scatters flecks across the ceiling.",
+          "reason": "Specific local objects/time supplement the chosen example: Magenta and teal club lights ripple over the upholstered booth while a disco ball scatters flecks across the ceiling."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped off-shoulder emerald sequin top leaves her waist and collarbones visible above fitted black shorts.",
+          "reason": "Planned shorts and cropped hem, off-shoulder neckline are expressed through A cropped off-shoulder emerald sequin top leaves her waist and collarbones visible above fitted black shorts."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        },
+        {
+          "field": "custom",
+          "content": "The second reference is the edit target; the first reference fixes her identity. Restore the example activity missing from the second image: she is singing into a handheld microphone. Lower only her screen-left arm so its elbow rests naturally beside her torso and its hand holds the microphone near her open mouth. Keep the screen-right arm raised in the existing stretch, with that hand behind the head. Exactly two arms and two hands; the microphone hand has one thumb and four fingers wrapped naturally around the handle. Preserve the target face, crop, camera, expression, outfit, lighting and karaoke booth.",
+          "reason": "Restores the microphone/singing activity missing from initial result while retaining the same target image."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active is matched to Magenta and teal club lights ripple over the upholstered booth while a disco ball scatters flecks across the ceiling.",
+        "source_influence": "balanced is reflected in A cropped off-shoulder emerald sequin top leaves her waist and collarbones visible above fitted black shorts.",
+        "separates_preference": "prefer separates corresponds to shorts"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "paddle_board",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "turning_back",
+      "expr": "playful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "action",
+      "example_text": "standing on a paddleboard in a swimsuit on a calm bay, the paddle mid-stroke",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Steering around a reed-fringed islet, she passes sunlit ripples and smooth pale stones in the sheltered bay.",
+          "reason": "Specific local objects/time supplement the chosen example: Steering around a reed-fringed islet, she passes sunlit ripples and smooth pale stones in the sheltered bay."
+        },
+        {
+          "field": "outfit",
+          "content": "A dark-green performance swimsuit has a high-cut leg and a low open back secured by broad shoulder straps, with a narrow burnt-orange side stripe.",
+          "reason": "Planned swimsuit and high-cut leg, open back are expressed through A dark-green performance swimsuit has a high-cut leg and a low open back secured by broad shoulder straps, with a narrow burnt-orange side stripe."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active is matched to Steering around a reed-fringed islet, she passes sunlit ripples and smooth pale stones in the sheltered bay.",
+        "source_influence": "balanced is reflected in A dark-green performance swimsuit has a high-cut leg and a low open back secured by broad shoulder straps, with a narrow burnt-orange side stripe.",
+        "separates_preference": "balanced corresponds to swimsuit"
+      }
+    }
+  ],
+  "check": "Planner check and reservation stamp verification passed before submission.",
+  "reservation_commit": "03dd283cb1b46ad98e06bf7d2cb486a4aae37bf1",
+  "kept_semantics": "Unchanged reserved selections were retained during replanning; kept is not a claim that an image existed at planning time.",
+  "compared_actual_images": [
+    "나몰빼미 casual1-3",
+    "빼미스로우 casual1-3",
+    "드레디어 casual1-3"
+  ],
+  "storage_method": "Shared Git blob:none objects, task branches/worktrees and sparse metadata. Omitted image names read from Git trees; no placeholder image bytes."
+}
