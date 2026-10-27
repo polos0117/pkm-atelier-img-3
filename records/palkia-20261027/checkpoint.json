@@ -45,5 +45,15 @@
     "latest_code_pages": "success",
     "prior_code_pages_500": "Superseded by successful new deployment 40423240152"
   },
-  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images"
+  "anatomy_tool": "unavailable: mediapipe absent; enlarged manual inspection completed for all nine images",
+  "replacements": [
+    {
+      "slot": "casual1",
+      "record": "records/palkia-casual1-replan-20261027",
+      "old_sha256": "d7aa0efe575e362a03ee54cff0a0024c71f69a7344fc59a48e5069751eff116d",
+      "new_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
+      "reason": "User requested a new generation plan after anatomical edit was blocked",
+      "status": "visually accepted; publication pending"
+    }
+  ]
 }

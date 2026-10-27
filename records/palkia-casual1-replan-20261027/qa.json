@@ -1,0 +1,58 @@
+{
+  "card": "펄기아",
+  "slot": "casual1",
+  "reviewer": "gpt",
+  "accepted": true,
+  "source_sha256": "11ef9b97cafce0bd98f92ca000fb6ca34d0c4d8224af78ee3679fbbf3a9d92b8",
+  "previous_public_sha256": "d7aa0efe575e362a03ee54cff0a0024c71f69a7344fc59a48e5069751eff116d",
+  "new_public_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
+  "user_authorization": "펄기아는 새로 생성 계획 만들어서 이미지 교체해줘.",
+  "supersedes": "Cafe image had an impossible neckline-emerging forearm; previous QA did not trace entire arm chains. Partial edit returned moderation_blocked with no output. This is a new planned scene, not a rephrased edit.",
+  "checks": {
+    "arms": {
+      "match": true,
+      "evidence": "Two arms only: near visible shoulder and upper arm descend beside the torso, then forearm continues down behind hip to the lowered hand. The phone arm bends at the far side of torso; its upper arm/shoulder are partly occluded by torso, forearm continues to the phone wrist. No third upper arm or detached hand is present and no hand emerges between the chest."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "Lowered hand thumb and four naturally curved fingers counted in enlarged crop; phone hand has one thumb behind phone edge and four gripping fingers, partly occluded by phone. Both wrists connect to forearms."
+    },
+    "legs_feet": {
+      "match": true,
+      "evidence": "Two crossed but connected legs, each ending in an ankle-strapped platform sandal. Five toes on near foot, some far toes hidden by sandal strap; no disconnected foot."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lavender-white very long high ponytail, straight bangs, violet eyes, facial structure and adult proportions preserved from light-form reference."
+    },
+    "scene_activity": {
+      "match": true,
+      "evidence": "Open silver flip phone held near shoulder at indoor circular water fountain; tiled mall and glass skylight visible."
+    },
+    "outfit": {
+      "match": true,
+      "evidence": "Opaque white butterfly halter crop top, low-rise lilac mini skirt, silver platform sandals. Midriff and thighs visible. Top has more open back than free-text specification; no armor."
+    },
+    "pose_orientation": {
+      "match": false,
+      "evidence": "Selected mid-turn/relaxed stand resulted in a rear three-quarter body turn with head looking back. Record-only deviation; the shoulder-to-hand chains were separately inspected."
+    },
+    "framing": {
+      "match": true,
+      "evidence": "Complete head, both hands, both sandals inside 1024×1536 portrait."
+    },
+    "people_brand": {
+      "match": true,
+      "evidence": "One detailed woman; only small indistinct shoppers in background. No identifiable brand logo or readable promotional lettering."
+    }
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe not installed, command exited 3 earlier in same task",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One thumb and four fingers each, some phone-side digits partly occluded. Enlarged whole arm chains, both hands and feet reviewed.",
+    "overlay_checked": false,
+    "note": "Manual tracing checked shoulder/upper arm/elbow/forearm/wrist/hand rather than hand counts alone."
+  },
+  "diversity_comparison": "New full-body mall/fountain two-piece Y2K fashion and open flip phone differ from retained rainy parcel pickup/hoodie-leggings and seated art-studio brush sorting/shirt-shorts. Actual recent Regigigas burlesque, lifeguard and disco scenes; Giratina roller-disco, bar stool and marching scenes; Cresselia bedroom, kitchen and parade balcony thumbnails were visually compared. Setting, task and outfit silhouette differ, and no repetitive near match was found."
+}

@@ -1,0 +1,160 @@
+{
+  "session": "palkia-casual1-replacement-20261027",
+  "planner": "lib/casual-plan.js via thin replacement wrapper; unmodified planner and ledger validation",
+  "replacement": true,
+  "characters": [
+    {
+      "card": "펄기아",
+      "species": "palkia-20261027",
+      "refill": true,
+      "replacement_slots": [
+        1
+      ],
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "retro_glamour",
+          "ex": "y2k_lowrise",
+          "garments": [
+            "skirt"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "pose": "standing_relaxed",
+          "expr": "mischievous",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "cropped hem"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "everyday_basic",
+          "ex": "parcel_pickup",
+          "garments": [
+            "leggings",
+            "sweater"
+          ],
+          "orient": "low_angle",
+          "frame": "environmental",
+          "pose": "bending_over",
+          "expr": "laughing_open",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "cropped hem"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "wildcard",
+          "ex": "art_studio",
+          "garments": [
+            "shirt"
+          ],
+          "orient": "reclining",
+          "frame": "three_quarter",
+          "pose": "side_sitting",
+          "expr": "exhausted",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "reason": "User explicitly requested a new generation plan to replace casual1 after its anatomy edit returned moderation_blocked. Existing registered casual2/3 are kept. CLI has no complete-slot replacement flag, so the same exported planner is given its supported kept/refill inputs; no repository code or checks changed.",
+  "reservation_commit": "d57aa960d8a9677c1f6f11dc27390f23353d7184",
+  "direct_inputs": [
+    {
+      "field": "scene",
+      "content": "She has just opened a compact silver flip phone beside the circular fountain inside a bright shopping mall with tiled walkways and a glass skylight.",
+      "reason": "The example does not specify phone material, fountain architecture or shopping-mall lighting."
+    },
+    {
+      "field": "outfit",
+      "content": "A pearl-white opaque butterfly-front halter crop top with a closed neckline, a low-rise lilac mini skirt and silver platform sandals. The cropped hem and low waist expose her midriff and the mini skirt exposes her thighs.",
+      "reason": "The example leaves fabric colour and bodice coverage open; opaque closed neckline provides ordinary mall fashion while retaining the planned cropped hem and mini skirt."
+    },
+    {
+      "field": "camera",
+      "content": "Vertical 2:3 portrait (1024×1536).",
+      "reason": "Image tool has no size field; 1024×1536 is required."
+    }
+  ],
+  "checks": "Unmodified casual-ledger.py check --fresh passed before reservation; stamp verified."
+}

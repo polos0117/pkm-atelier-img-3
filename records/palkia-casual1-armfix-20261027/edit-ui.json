@@ -1,0 +1,106 @@
+{
+  "card": "펄기아",
+  "slot": "casual1",
+  "operation": "User-directed local anatomy edit with built-in image_gen, not a new lifestyle scene plan",
+  "original_generator_storage": {
+    "last": "펄기아",
+    "cards": {
+      "펄기아": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "mischievous",
+            "pose": "holding_cup",
+            "orient": "profile_close",
+            "scene": "The cafe serving counter has violet ceramic saucers and warm pendant lights during an afternoon themed event.",
+            "outfit": "A lilac frilled apron dress with a plunging neckline and a high thigh slit, a cat-ear headband and a bow choker; the neckline exposes her upper chest and the slit exposes one thigh.",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "catCustom": "",
+            "ex": "cat_cafe",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "prompt": "Use case: precise-object-edit.\nImage 1 is the edit target, the cafe illustration. Image 2 is the approved light-form woman, used only to preserve her identity.\nCorrect the arm construction in Image 1. There is an impossible forearm and hand rising from the neckline between her chest and the raised cup, while another arm lies across the counter. Rebuild the arms as exactly two coherent shoulder-to-hand chains.\nKeep the same adult woman, face, lavender hair and high ponytail, eyes, cat-ear headband, lilac frilled apron dress, body proportions, cafe, counter, warm lighting, painting style and portrait composition. Change the arms and lower the cup only as needed for this correction.\nPlace the latte cup on its saucer on the counter at lower-chest/counter height. The near arm, from the clearly visible shoulder on the left side of the image, drops naturally to one elbow and continues into a visible forearm resting on the counter; its single hand lies relaxed and flat on the counter to the left of the cup. The far arm on the right side of the image has a normal upper arm and a lowered elbow, with its one forearm and hand reaching forward to hold the cup handle while the cup stays on the saucer. Keep the two arm paths separated and easy to trace. Skin between the neckline and the cup is her torso only, with no hand or forearm emerging from it. Exactly two shoulders, two upper arms, two elbows, two forearms, two wrists and two hands total. Each visible hand has one correctly placed thumb and four fingers.\nPreserve 1024x1536 portrait resolution. One woman; no added people, text or watermark.",
+  "user_request": "펄기아 일상 1번 가슴 사이에서 나오는 손, 히드런 일상 2번 등 뒤 귀걸이 손 구도를 확인하고 수정해 재반영",
+  "prior_qa_correction": "Previous review counted hands but missed the shoulder-elbow-wrist continuity defect."
+}
