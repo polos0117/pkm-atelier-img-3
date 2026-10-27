@@ -1,0 +1,158 @@
+{
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229",
+      "observations": "Adult woman with black-and-white double buns and long loose hair, brown eyes and rounded jaw. White close-fitting shoulder, forearm, hip and shin armor over black suit; two low relaxed fists and both boots visible.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both gloved hands form loose fists with thumb outside curled fingers; some fingertips are hidden within the curl. Enlarged hand crops also checked against the corresponding opened card.",
+        "overlay_checked": false,
+        "note": "Two connected arms and two connected legs; feet planted separately, no extra limb observed."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "c8ec45b22505f8a01d8a2c5b9e9f27dbd3778510ff53bd2e8527b3a41d5e3ad7",
+      "observations": "Same woman and lowered fist stance. Broad stacked shoulder, forearm, pelvis and leg plates produce a heavier silhouette; face and hair buns remain exposed.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both original loose gloved fists retained; thumbs oppose curled fingers, with naturally hidden fingertips. Enlarged hand crops also checked against the corresponding opened card.",
+        "overlay_checked": false,
+        "note": "Shoulder-to-wrist and hip-to-boot chains stay continuous; no detached hand observed."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "2104dbb39b12b58a671d29f2f7c54347f70bb9c8c6e8c5df74f81886716689f7",
+      "observations": "Same face, long double-bun hair and low fists. White swept fins and compact thrusters fan from shoulders, hips and calves with gaps; slim temple sensor fins appear.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two relaxed gloved fists; thumb sides and curled index segments remain readable, other fingertips occluded. Enlarged hand crops also checked against the corresponding opened card.",
+        "overlay_checked": false,
+        "note": "Two arms and legs retain the anchor proportions and stance; external armor fins are costume parts, not limbs."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "55f63650728b3963d49bbe4020f1e02faeb39c57fc25d03a0a0697980289c8d7",
+      "observations": "Light-card plates lift at shoulder, forearm, hip and shin seams with orange force light showing the inner frame. Same double-bun face, low hand positions and planted feet; brows tighten while brown eyes keep their color.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "The anchor’s two loosely curled full-finger gloves are retained. Each thumb lies opposite curled finger segments; hidden fingertips remain occluded. Enlarged crops checked.",
+        "overlay_checked": false,
+        "note": "Two continuous shoulder-elbow-wrist chains, two continuous hip-knee-boot chains. No detached hand, extra limb or new weapon observed."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "558d1098a371e878b76bdcbd03fcd273c44408002a4625cdf64b0149a57f6523",
+      "observations": "Stacked white plates hinge away from the chest, shoulders and legs with wide glowing gaps; same heavy-form face, silhouette scale and lowered fists.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "The anchor’s two loosely curled full-finger gloves are retained. Each thumb lies opposite curled finger segments; hidden fingertips remain occluded. Enlarged crops checked.",
+        "overlay_checked": false,
+        "note": "Two continuous shoulder-elbow-wrist chains, two continuous hip-knee-boot chains. No detached hand, extra limb or new weapon observed."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "76eee69698f78d3813f1e3a995469cdb5556ca6b84a65d6dae9eb3ca37195f67",
+      "observations": "Swept fins spread and compact thruster covers open with orange force light; camera, head angle, hands and standing leg placement match the mobility card.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "The anchor’s two loosely curled full-finger gloves are retained. Each thumb lies opposite curled finger segments; hidden fingertips remain occluded. Enlarged crops checked.",
+        "overlay_checked": false,
+        "note": "Two continuous shoulder-elbow-wrist chains, two continuous hip-knee-boot chains. No detached hand, extra limb or new weapon observed."
+      },
+      "selection_match": "Matched; observed small differences recorded without regeneration."
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "7559040a0b033986a4cb6426e282aeddd3f3ae474ab5cbe1fe9fdfd37b5cb8d4",
+      "observations": "Ivory satin dress with draped low back and dark piping on a vintage film staircase. She rests at the gold railing beside a crystal finial, with one hand near her chin.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Chin hand has relaxed downward fingers, with thumb and parts of the fingers hidden behind the curl; railing hand rests with fingertips overlapping the rail.",
+        "overlay_checked": false,
+        "note": "Both arms attach through natural shoulder/elbow/wrist bends. Lower legs are outside the crop."
+      },
+      "selection_match": "Waist-up/leaning-back choices rendered as a wider thigh-up, turned railing pose. Cowl back, neckline and short front hem remain visible; minor pose/framing differences recorded."
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "4f133bd2cfcef4a5b53cc4c532fe8b1a0bc0840e64b370f3f18179480215bb9a",
+      "observations": "Hardware-store aisle with small fittings; crouching woman compares two brass drawer knobs. Cropped open-back ivory work shirt, charcoal jeans and black canvas shoes; same hair and face.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Upper hand grips a knob with thumb opposing curled fingers; lower hand supports a second knob with finger pads, partly occluded by brass.",
+        "overlay_checked": false,
+        "note": "Both arms connect naturally; two bent legs and separate sneakers form a plausible balanced squat."
+      },
+      "selection_match": "The three-quarter framing rendered as a wider view including both shoes; main activity and garments match."
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "9e319b99fa49cbe8469bd7fd6ce7e82e9fba0bd10e243fc950372c8dd5ca29de",
+      "observations": "Reed-screen resort cabana and blue water, open book beside the daybed. Black bandeau bikini and open ivory gauze cover-up; she holds a chilled lime drink. Same double buns, long hair and face.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Cup hand has four fingers around the glass with thumb hidden behind it; the other hand rests behind the book/cover-up and is occluded rather than forced into view.",
+        "overlay_checked": false,
+        "note": "Two arms with natural elbow bends; both thighs overlap in seated foreshortening, with lower legs outside the crop. No detached hand observed."
+      },
+      "selection_match": "Chest-up choice rendered as a wider seated thigh crop. Main cabana, book, swimwear and drink activity match; smaller pose/framing differences recorded."
+    }
+  ],
+  "diversity_comparison": {
+    "actual_images_compared": [
+      "메이클",
+      "플라제스",
+      "플라엣테",
+      "판짱"
+    ],
+    "evidence": "Compared actual recent contact sheet and Pancham trio. Railing pose in a cowl-back satin dress, balanced hardware-store squat in shirt/jeans, and cabana drink in swimwear use distinct settings, activity, garment construction and silhouette. The first resembles an evening fashion mood, but staircase/railing support, single bias-cut dress and hand-to-chin action differ from the screen/long two-piece-skirt view."
+  },
+  "casual_look": "PASS against saved index; nearest scores 273, 261, 300. Combined six-image batch check also passed, covering direct comparison with Pancham."
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "card": "부란다",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "부란다_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "7667c420b074e830633ecd201bffa9d642326ae5b01c051b7747015e84e2e9b0",
+      "git_blob": "c9cb8b27a3d53e309db72283c91ad6fd9d5af73e"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "c8ec45b22505f8a01d8a2c5b9e9f27dbd3778510ff53bd2e8527b3a41d5e3ad7",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "부란다_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "ded93c3120f8df2ce73a85622059c342844ea78b44f264b95ab77ac89ab7e322",
+      "git_blob": "8188812f9d6cb5eb9cbcdcfb2582f8ba917f7989"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "2104dbb39b12b58a671d29f2f7c54347f70bb9c8c6e8c5df74f81886716689f7",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "부란다_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b7f831345e63d5d53529ce0716e8b96c0b69e28b7c5e673b296fd57d62bbe2ea",
+      "git_blob": "3db5d9ca980d42080320127a51d0f6e457cc4656"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "55f63650728b3963d49bbe4020f1e02faeb39c57fc25d03a0a0697980289c8d7",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "부란다_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "2ac45f8e64c3e412170677da4d28171b69bd0630deaf4f867abc61b27eaf2c66",
+      "git_blob": "b33e1a0ed64e772000134ff76adf0a99f398f2c5"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "558d1098a371e878b76bdcbd03fcd273c44408002a4625cdf64b0149a57f6523",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "c8ec45b22505f8a01d8a2c5b9e9f27dbd3778510ff53bd2e8527b3a41d5e3ad7"
+      },
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "부란다_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d50c39dc5ba397fe4f794317dad1c1324193a19e11415e7e9036252942653238",
+      "git_blob": "807a559a7b264a57c27c7c378d5a6d09bc275479"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "76eee69698f78d3813f1e3a995469cdb5556ca6b84a65d6dae9eb3ca37195f67",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "2104dbb39b12b58a671d29f2f7c54347f70bb9c8c6e8c5df74f81886716689f7"
+      },
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "부란다_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "553db4d1f8932ada15321f7fe59e2f7f418c45c608fa847eba6c714dcdc5d409",
+      "git_blob": "dff1ef192ca1268822bccb3aa27a0168e9094cb7"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "7559040a0b033986a4cb6426e282aeddd3f3ae474ab5cbe1fe9fdfd37b5cb8d4",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "부란다_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "fcec6bbc3564a2ccaac5c9739d1277a248f0b69f9234f21b423effadbb49de47",
+      "git_blob": "95fc3a96fee1fddfb997eaa9519d83bfb9830ee6"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "4f133bd2cfcef4a5b53cc4c532fe8b1a0bc0840e64b370f3f18179480215bb9a",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "부란다_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "5a54b42c8760207bddfdb7be35fad7ddee23fa66fb80c3c0b29998e355f5a344",
+      "git_blob": "47e08be04a4ce61c84fbc14afed79a551363f338"
+    }
+  },
+  {
+    "card": "부란다",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "9e319b99fa49cbe8469bd7fd6ce7e82e9fba0bd10e243fc950372c8dd5ca29de",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "28d7d1a02ee8a9671e383c9bf345435b886235b01e590439cb4c14c36d65c229"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "부란다_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "2fa10ee8c104654c925942d9f22172f897afc53cead8671f3789ebadf2cdc9cc",
+      "git_blob": "9a7d814443f81cf3ab373a7f1496861caedf28e4"
+    }
+  }
+]
