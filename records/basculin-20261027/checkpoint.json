@@ -1,0 +1,107 @@
+{
+  "card": "배쓰나이",
+  "generated": 9,
+  "requested": 9,
+  "status": "QA complete; published in the commit containing this checkpoint",
+  "anchor": {
+    "card": "배쓰나이",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual local Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/39ce70e48af5/generated_images/exec-d5710007-5eed-458e-ab78-cda240b9b40e.png",
+    "original_sha256": "4cb0fa1f682d48eef083ce0241e34c0ee21a0c1ad942be5738a7335a3a4ecb7e",
+    "identity_or_form_reference": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "배쓰나이_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "213a7f21ba75e1fdd816e7652ea261539f39f8ef21b9a5836293de1a13ce00fb"
+    }
+  },
+  "face_design": {
+    "name": "배쓰나이",
+    "en": "Basculin",
+    "line": "배쓰나이",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "angled brows",
+      "nose character": "prominent defined nose",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 fish → 얼굴형 균형 잡힌 타원형",
+      "‘four spike-like protrusions’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "몸 형태 fish → 눈 간격 눈 사이가 넓은",
+      "‘four spike-like protrusions’ → 눈썹 바깥에서 꺾이는 사선",
+      "‘four spike-like protrusions’ → 코 크고 또렷한 코"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 코 작고 여린 코 → 크고 또렷한 코",
+    "hair": {
+      "hairstyle": "wavy",
+      "hair length": "medium",
+      "bangs": "choppy bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘white dorsal fin’·‘four spike-like protrusions’·몸 형태 fish에서 웨이브 헤어(웨이브·곱슬) · 중간 길이 · 끝을 불규칙하게 친 앞머리",
+    "hair_cues": [
+      "‘white dorsal fin’ → 헤어스타일 웨이브 헤어",
+      "‘four spike-like protrusions’ → 앞머리 끝을 불규칙하게 친 앞머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "배쓰나이",
+    "en": "Basculin",
+    "color": "green",
+    "shape": "fish",
+    "features": [
+      {
+        "part": "fin",
+        "detail": "white dorsal fin"
+      },
+      {
+        "part": "dot",
+        "detail": "three black dots"
+      },
+      {
+        "part": "protrusion",
+        "detail": "four spike-like protrusions"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Basculin_%28Pok%C3%A9mon%29",
+    "revision": 4626363,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "d691c1b5e1d10ee19e6c83095e4936f0bdfe8d592ac7a61009c1a89c599b1a9f",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed.",
+  "face_review": {
+    "source": "data/face-design.json faces 550 and source-appearance entries 550",
+    "reason": "Angular plate/spike cues give defined jaw and angled brows; fish cue widens eye spacing. The result has a longer jaw/nose and narrower almond eyes than the recent owl faces.",
+    "compared": [
+      "모크나이퍼 light",
+      "나몰빼미 light",
+      "빼미스로우 light"
+    ],
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; angular defined jaw; almond eyes, medium size, level outer corners, wide-set; angled brows; prominent defined nose; full lips."
+  },
+  "transport_recovery": "Heavy image returned during environment disconnect. Original PNG bytes recovered from the exact built-in result without regeneration."
+}

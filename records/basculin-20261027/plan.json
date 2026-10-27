@@ -1,0 +1,447 @@
+{
+  "session": "basculin-sandile-39ce-20261027",
+  "batch": {
+    "session": "basculin-sandile-39ce-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "배쓰나이",
+        "species": "basculin-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "garments": [
+              "slip"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "standing_formal",
+            "expr": "pensive",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_stargazing",
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "leaning_furniture",
+            "expr": "amused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "gala_red_carpet",
+            "ex": "charity_auction",
+            "garments": [
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "side_sitting",
+            "expr": "serious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "active",
+            "dance_stage",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "tank"
+          ],
+          "orient": [
+            "reclining"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "깜눈크",
+        "species": "sandile-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "dance_stage",
+            "ex": "dance_mirror",
+            "garments": [
+              "shorts"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "dance_step",
+            "expr": "sleepy",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "star_goddess",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_forward",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "mischievous",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "crochet_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "mid_action",
+            "expr": "wistful",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "active",
+            "dance_stage",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "chemise_silk",
+      "garments": [
+        "slip"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "standing_formal",
+      "expr": "pensive",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "mini length"
+      ],
+      "lead": "detail",
+      "example_text": "a knee-skimming silk chemise slip with a lace hem and an opaque lining",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A pearl comb rests on the vanity in her dressing room; she pauses beside it before her evening routine.",
+          "reason": "Specific local objects/time supplement the chosen example: A pearl comb rests on the vanity in her dressing room; she pauses beside it before her evening routine."
+        },
+        {
+          "field": "outfit",
+          "content": "Ivory silk with charcoal lace and an opaque lining; the knee-skimming slip has a plunging neckline and a short lace hem that shows her lower legs.",
+          "reason": "Planned slip and plunging neckline, mini length are expressed through Ivory silk with charcoal lace and an opaque lining; the knee-skimming slip has a plunging neckline and a short lace hem that shows her lower legs."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to A pearl comb rests on the vanity in her dressing room; she pauses beside it before her evening routine.",
+        "source_influence": "subtle is reflected in Ivory silk with charcoal lace and an opaque lining; the knee-skimming slip has a plunging neckline and a short lace hem that shows her lower legs.",
+        "separates_preference": "balanced corresponds to slip"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_stargazing",
+      "garments": [
+        "tank",
+        "trousers"
+      ],
+      "orient": "low_angle",
+      "frame": "face_close",
+      "pose": "leaning_furniture",
+      "expr": "amused",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "Adjusting a small telescope on a rooftop at night to look at the stars, a thermos beside the tripod.",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool moonlight picks out the telescope adjustment knob and the distant city roofs.",
+          "reason": "Specific local objects/time supplement the chosen example: Cool moonlight picks out the telescope adjustment knob and the distant city roofs."
+        },
+        {
+          "field": "outfit",
+          "content": "A black open-back cropped tank bares her waist above white wide-legged trousers.",
+          "reason": "Planned tank,trousers and bare midriff, open back are expressed through A black open-back cropped tank bares her waist above white wide-legged trousers."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced is matched to Cool moonlight picks out the telescope adjustment knob and the distant city roofs.",
+        "source_influence": "balanced is reflected in A black open-back cropped tank bares her waist above white wide-legged trousers.",
+        "separates_preference": "prefer separates corresponds to tank,trousers"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "gala_red_carpet",
+      "ex": "charity_auction",
+      "garments": [
+        "dress"
+      ],
+      "orient": "reclining",
+      "frame": "waist_up",
+      "pose": "side_sitting",
+      "expr": "serious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "raising a bidding paddle at a charity auction in a strapless satin gown and long gloves",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "manual_changes_to_choices": [],
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The auction salon has curved velvet banquettes and small brass lamps beside the bidding seats.",
+          "reason": "Specific local objects/time supplement the chosen example: The auction salon has curved velvet banquettes and small brass lamps beside the bidding seats."
+        },
+        {
+          "field": "outfit",
+          "content": "A white strapless satin gown has an off-shoulder folded neckline, charcoal side panels and long black gloves.",
+          "reason": "Planned dress and off-shoulder neckline, strapless top are expressed through A white strapless satin gown has an off-shoulder folded neckline, charcoal side panels and long black gloves."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the required 1024×1536 portrait is specified here."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is matched to The auction salon has curved velvet banquettes and small brass lamps beside the bidding seats.",
+        "source_influence": "balanced is reflected in A white strapless satin gown has an off-shoulder folded neckline, charcoal side panels and long black gloves.",
+        "separates_preference": "balanced corresponds to dress"
+      }
+    }
+  ],
+  "check": "Planner check and reservation stamp verification passed before submission.",
+  "reservation_commit": "ecb172912651a6bbf2077f5c3ec194f5233df2b0",
+  "kept_semantics": "Unchanged reserved selections were retained during replanning; kept is not a claim that an image existed at planning time.",
+  "compared_actual_images": [
+    "모크나이퍼 casual1-3",
+    "나몰빼미 casual1-3",
+    "빼미스로우 casual1-3"
+  ],
+  "storage_method": "Shared Git blob:none objects, task branches/worktrees and sparse metadata. Omitted image names read from Git trees; no placeholder image bytes."
+}

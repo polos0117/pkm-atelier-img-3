@@ -1,0 +1,229 @@
+{
+  "light": {
+    "identity": {
+      "match": true,
+      "evidence": "White fin edges and three black dots on the breast/leg plates; black-and-white wavy hair, defined jaw and grey almond eyes. Both legs descend separately to pointed boots on rock; both arms end in separate black gloves."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. White fin edges and three black dots on the breast/leg plates; black-and-white wavy hair, defined jaw and grey almond eyes. Both legs descend separately to pointed boots on rock; both arms end in separate black gloves."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "casual1": {
+    "identity": {
+      "match": true,
+      "evidence": "Ivory silk and charcoal lace chemise by an illuminated dressing mirror, pearl comb visible on vanity. Hair-touching hand has a visible thumb and curled digits partly occluded by hair; opposite arm continues below crop."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": "lower legs outside selected crop",
+      "hands": "Hair-touching hand: thumb and four curled fingers, distal segments partly hidden in hair; other hand outside crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Ivory silk and charcoal lace chemise by an illuminated dressing mirror, pearl comb visible on vanity. Hair-touching hand has a visible thumb and curled digits partly occluded by hair; opposite arm continues below crop."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    },
+    "orientation": {
+      "match": false,
+      "evidence": "Face is a front three-quarter view rather than a tight side profile."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Crop extends below the hips rather than chest-up."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Lowered brow and slightly parted neutral mouth read thoughtful."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Silk chemise dressing-room portrait with mirror and pearl comb."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Deep neckline, bare shoulder and lace side opening visible; chest is lined."
+    }
+  },
+  "casual2": {
+    "identity": {
+      "match": true,
+      "evidence": "Rooftop at night with telescope and city lights; one hand adjusts its knob and the other supports her on the railing. Black cropped open-back tank and white trousers replace the armor."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": "lower legs outside selected crop",
+      "hands": "Knob hand: thumb beside control with index on top, other three fingers curl around knob; support hand partly occluded by railing, fingertips occluded.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Rooftop at night with telescope and city lights; one hand adjusts its knob and the other supports her on the railing. Black cropped open-back tank and white trousers replace the armor."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "Low camera looks upward toward her turned face."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "The view includes hips and upper legs, broader than face_close."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Closed mouth lifts slightly at one corner and brows relax."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "Her hand is on the telescope adjustment knob, tripod visible."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Open back, bare shoulders and midriff remain visible."
+    }
+  },
+  "light_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Same standing pose, scale and rocks as light; fins lift from the inner blue water-lit structure. Eyes stay grey and fingers remain black without effect overlap."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Same standing pose, scale and rocks as light; fins lift from the inner blue water-lit structure. Eyes stay grey and fingers remain black without effect overlap."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "mobility": {
+    "identity": {
+      "match": true,
+      "evidence": "Long streamlined fins and blue emitters along shoulders, hips and shins; the face remains unobscured and both gloved hands remain attached at the wrist."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Long streamlined fins and blue emitters along shoulders, hips and shins; the face remains unobscured and both gloved hands remain attached at the wrist."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "heavy": {
+    "identity": {
+      "match": true,
+      "evidence": "Shoulders, forearms and thighs have stacked broader shell layers; the same wavy hair, facial planes and black gloves remain. The stance keeps two distinct knees and boots."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Shoulders, forearms and thighs have stacked broader shell layers; the same wavy hair, facial planes and black gloves remain. The stance keeps two distinct knees and boots."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "casual3": {
+    "identity": {
+      "match": true,
+      "evidence": "On a red velvet auction seat, she raises a bidding paddle in one long black glove; the other glove rests on the seat. Strapless white satin gown bares shoulders and thigh."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": "lower legs outside selected crop",
+      "hands": "Paddle hand: thumb crosses handle and four fingers curl around it; resting hand has four fingers on cushion and inner thumb partly hidden.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. On a red velvet auction seat, she raises a bidding paddle in one long black glove; the other glove rests on the seat. Strapless white satin gown bares shoulders and thigh."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    },
+    "orientation": {
+      "match": true,
+      "evidence": "Torso leans against the velvet seat while pelvis points across frame."
+    },
+    "framing": {
+      "match": false,
+      "evidence": "Upper thighs are included below the waist."
+    },
+    "expression": {
+      "match": true,
+      "evidence": "Neutral mouth and lowered inner brows suggest concentration."
+    },
+    "activity": {
+      "match": true,
+      "evidence": "A bidding paddle is held up in the auction salon."
+    },
+    "exposure": {
+      "match": true,
+      "evidence": "Strapless neckline and high slit show shoulders and thigh."
+    }
+  },
+  "mobility_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Streamlined plates flare from the emitter channels; shoulder/hip nodes brighten cyan. Hand positions, hair outline and boot positions follow mobility."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Streamlined plates flare from the emitter channels; shoulder/hip nodes brighten cyan. Hand positions, hair outline and boot positions follow mobility."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "heavy_overdrive": {
+    "identity": {
+      "match": true,
+      "evidence": "Stacked shoulder and thigh shells separate with blue light in the gaps; head angle, hand positions, rock and boots follow heavy."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both full-finger gloves: one thumb and four fingers on each hand; one set is foreshortened/curled. No detached extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand details visually inspected. Stacked shoulder and thigh shells separate with blue light in the gaps; head angle, hand positions, rock and boots follow heavy."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Pillow verified 1024×1536 RGB WebP; PNG sha256 retained in classification."
+    }
+  },
+  "diversity": {
+    "pass": true,
+    "evidence": "Vanity/chemise/hair touch; rooftop/tank and trousers/telescope adjustment; red auction seating/strapless gown/bidding paddle are distinct activities and silhouettes. Compared actual casuals of 모크나이퍼, 나몰빼미, 빼미스로우. No near duplicate in casual-look wasm check.",
+    "nonblocking": "Framing and orientation deviations above are recorded under IMAGE_RULES, not regenerated."
+  }
+}
