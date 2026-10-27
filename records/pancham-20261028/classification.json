@@ -1,0 +1,274 @@
+[
+  {
+    "card": "판짱",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "판짱_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "ee56a3457b7d5481ec1e06f06fce0cb7115dc0e834bdccab599af601a8d7163f",
+      "git_blob": "25b3cabe9d0a63ecb0fde423707f60fc30b39132"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "44b0754569584d9ffa253c475c9c530a13d3f905145b70e06555d22889a9e623",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "판짱_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "513a64398120d72e74917e70ea36363aad2a5bfcde0b763301f250da5252441f",
+      "git_blob": "ff2f34224c4522b649e5b435abff03817e13ec6a"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "47bf55238501675598bb743dfda9f39e83eee324bac940254810e771ada92628",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "판짱_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "0f9ca6fd4ef7352c2d3bc1b8bd536e7f257645a6c6a0909c1f885e20350b5bbe",
+      "git_blob": "65db1ba7044285ebac6056949e4909537e0b361c"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "79166a38dcdccb695e733c81d8f527f0c84c60c95f72464a14665ae6a3d647eb",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "판짱_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d54f4c011ac8c5bebf0f23deaa3f78668d3466b722e1ae0ecb98341939ca4e19",
+      "git_blob": "69271ff7319907a88a104d8e93beb2fe0816a8b9"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "9f8976f2ba734ac25ede4ed22474590d764b63656c7b2bbfd7ec1d21bcd3c135",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "44b0754569584d9ffa253c475c9c530a13d3f905145b70e06555d22889a9e623"
+      },
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "판짱_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "84d3cd46266cfb00d4b4dd022943ccfa3e330acd247329600e5466b78ff872f9",
+      "git_blob": "702937017f43bb9a3ddd319f615bea107da12c17"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "d34de35c2775e39283337cc5f708f200c7c75c9b29f82de90971a1d84f30f034",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "47bf55238501675598bb743dfda9f39e83eee324bac940254810e771ada92628"
+      },
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "판짱_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "28c4e600e36688d1323b5444dc5bce5324bd8d3b10ef5954a4a523a8b6a70470",
+      "git_blob": "d31a94113d67e048c846364046d2978ef9d599ca"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "01be1c7cab1b2a2515001eae5e31861850d52a2434038739765cb474235568d2",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "판짱_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "56b4a09b72daf58c5043e5e627bfa47c2f8b8f95e8ce7710eb14f7344f2f91ba",
+      "git_blob": "42bec4cc6986279b8cb3d08818df199f2e7168d8"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "3084e827a71381e3c6efe48013269296b836fb1ee74398bc0a7319e203a98646",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "판짱_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "95e3f2a136c1bf99c9317adb22f572c1cefa345b9c0d7bece72af626dfa1205a",
+      "git_blob": "6a42394eac908ed424c1f28fdf04409890d8c443"
+    }
+  },
+  {
+    "card": "판짱",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "b9dae975ed0bbdf80cc522a80aa1dd0d7ac4c11f40ed9b3cee5f7e5634aa1846",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "판짱_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "4d2e3ed94c9f80b84b38098d64eccddd35d2054ba3237a5ad22b50fe4a763469",
+      "git_blob": "133159ea3f658a5d3258067202d18ec70fd69114"
+    }
+  }
+]

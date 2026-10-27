@@ -1,0 +1,435 @@
+{
+  "session": "pancham-pangoro-20261028-4ece",
+  "batch": {
+    "session": "pancham-pangoro-20261028-4ece",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "판짱",
+        "species": "pancham-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "hanbok_slip",
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "traditional"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "full_body",
+            "pose": "standing_relaxed",
+            "expr": "sensual",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high thigh slit",
+              "cropped hem"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "track_sprint",
+            "garments": [
+              "crop_top"
+            ],
+            "orient": "leaning_forward",
+            "frame": "face_close",
+            "pose": "mid_stride",
+            "expr": "determined",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_ribbon",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "environmental",
+            "pose": "hand_on_hip",
+            "expr": "curious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "traditional",
+            "overalls"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "leaning_forward",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "부란다",
+        "species": "pangoro-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "hollywood_bias",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "amused",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_basic",
+            "ex": "hardware_store",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "front_3q",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "serious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "cabana_daybed",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "low_angle",
+            "frame": "chest_up",
+            "pose": "holding_cup",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "bikini"
+          ],
+          "orient": [
+            "leaning_back",
+            "front_3q",
+            "low_angle"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "character": {
+    "card": "판짱",
+    "species": "pancham-20261028",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "lingerie",
+        "ex": "hanbok_slip",
+        "garments": [
+          "lingerie_set",
+          "skirt",
+          "traditional"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "full_body",
+        "pose": "standing_relaxed",
+        "expr": "sensual",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "high thigh slit",
+          "cropped hem"
+        ],
+        "lead": "detail"
+      },
+      {
+        "cut": 2,
+        "cat": "active",
+        "ex": "track_sprint",
+        "garments": [
+          "crop_top"
+        ],
+        "orient": "leaning_forward",
+        "frame": "face_close",
+        "pose": "mid_stride",
+        "expr": "determined",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "bare midriff",
+          "strapless top"
+        ],
+        "lead": "action"
+      },
+      {
+        "cut": 3,
+        "cat": "festivals_contests",
+        "ex": "fest_ribbon",
+        "garments": [
+          "overalls"
+        ],
+        "orient": "turning_midmotion",
+        "frame": "environmental",
+        "pose": "hand_on_hip",
+        "expr": "curious",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "halter neck",
+          "side cutouts"
+        ],
+        "lead": "light"
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          1
+        ],
+        "two": false,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "nightlife",
+        "dance_stage",
+        "spa_wellness",
+        "fantasy_costume",
+        "bridal",
+        "gala_red_carpet",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "traditional",
+        "overalls"
+      ],
+      "orient": [
+        "three_quarter_back",
+        "leaning_forward",
+        "turning_midmotion"
+      ],
+      "frame": []
+    }
+  },
+  "check": "passed; planner stamp verification passed",
+  "reservation_commit": "f1a86f61b9373d840d58bd72e89f4bb03cff5553",
+  "extras": [
+    {
+      "scene": "A jade knot ornament rests beside a paper folding screen in a sunlit dressing studio; she pauses beside the screen after arranging the fabric.",
+      "outfit": "Ivory opaque wrapped lingerie top with a cropped hem and a black high-waisted traditional skirt with a high thigh slit; the construction leaves her midriff and one leg visible.",
+      "reasons": {
+        "scene": "예시는 옷만 정하므로 종이 병풍과 매듭 장식이 있는 드레싱 스튜디오를 보충했다.",
+        "outfit": "속적삼·속치마의 짧은 랩 상의와 풍성한 치마를 유지하며 예약의 cropped hem과 high thigh slit을 구체화했다."
+      }
+    },
+    {
+      "scene": "Preparing for a sprint at the starting line, she is surrounded by red track lanes in crisp morning light.",
+      "outfit": "A supportive ivory strapless sports crop top and fitted black sprint briefs leave her shoulders and midriff visible; a small green seam detail echoes the leaf motif.",
+      "reasons": {
+        "scene": "스타트 예시의 활동을 유지하고 붉은 트랙과 아침 빛을 추가했다.",
+        "outfit": "예시의 크롭톱·브리프를 유지하며 예약한 strapless top과 bare midriff를 구조로 적었다."
+      }
+    },
+    {
+      "scene": "Late afternoon light falls across a backstage preparation tent, bringing out the weave of the decorative ribbons and their accessory case.",
+      "outfit": "Ivory halter short overalls with side cutouts reveal her shoulders and the sides of her waist; black woven edging keeps the outfit practical for the festival.",
+      "reasons": {
+        "scene": "리본 비교 탁자를 바꾸지 않고 준비 텐트의 오후 빛과 직물 질감을 보충했다.",
+        "outfit": "예시에 없는 옷을 예약한 overalls·halter neck·side cutouts로 정해 한 벌 실루엣을 만들었다."
+      }
+    }
+  ],
+  "generation_tool": "built-in image_gen",
+  "metadata_view": "Committed image filenames indexed via git ls-tree; image bytes only materialized for visual comparison and this task."
+}

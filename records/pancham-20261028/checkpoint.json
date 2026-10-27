@@ -1,0 +1,44 @@
+{
+  "stage": "reviewed",
+  "generated": 9,
+  "requested": 9,
+  "light": {
+    "card": "판짱",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html selections verified; built-in image_gen with exact saved prompt",
+    "original": {
+      "sha256": "3d38068c5e2f39e1929384b0f102f1108b1d63a7d17d595f2d43a1009dbcd8f9",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "판짱_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "ee56a3457b7d5481ec1e06f06fce0cb7115dc0e834bdccab599af601a8d7163f",
+      "git_blob": "25b3cabe9d0a63ecb0fde423707f60fc30b39132"
+    }
+  },
+  "face_source": [
+    "data/face-design.json",
+    "data/source-appearance.json"
+  ],
+  "face_reason": "Broad oval face, low heavy brows and a high ponytail reinterpret the upright fighting panda; rounded eyes and small nose retain a confident young adult look.",
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, wide width; wide heavy chin; open rounded eyes, medium size, level outer corners, average spacing; thick low brows; small delicate nose; full lips.",
+  "compared_characters": [
+    "메이클",
+    "플라제스",
+    "플라엣테"
+  ],
+  "original_policy": "PNG remains in this session only. Public records preserve hashes, prompt, UI and QA.",
+  "manifest": "classification.json"
+}
