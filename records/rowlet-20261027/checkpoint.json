@@ -1,0 +1,133 @@
+{
+  "card": "나몰빼미",
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "anchor": {
+    "card": "나몰빼미",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+    "original_sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4",
+    "references": [],
+    "prompt": "light-correction-prompt.txt",
+    "ui": "light-correction-ui.json",
+    "output": {
+      "file": "나몰빼미_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0be5e442276e6b06697f00601f1df86d7e7c03ad2427649f0a0eaf14eb178433"
+    }
+  },
+  "face_reason": "작은 부엉이의 둥근 얼굴과 잎 장식을 둥근 볼과 짧은 코로 옮긴다.",
+  "face_design": {
+    "name": "나몰빼미",
+    "en": "Rowlet",
+    "line": "나몰빼미",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "compact",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "large",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "fine soft arches",
+      "nose character": "straight slender bridge",
+      "lips": "small mouth"
+    },
+    "why": "작은 부엉이의 둥근 얼굴과 잎 장식을 둥근 볼과 짧은 코로 옮긴다.",
+    "cues": [
+      "‘round body’ → 얼굴형 짧고 응축된 얼굴형",
+      "‘round body’ → 얼굴 길이 짧은 얼굴",
+      "‘round body’ → 얼굴 폭 넓은 얼굴",
+      "‘round body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "‘round body’ → 눈매 큰 눈",
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 짧고 응축된 얼굴형, 코 작고 여린 코 → 곧고 가는 콧대",
+    "hair": {
+      "hairstyle": "feathered",
+      "hair length": "short",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "몸 형태 wings에서 끝을 가볍게 친 페더컷(층 낸 컷) · 짧은 머리 · 옆으로 넘긴 앞머리",
+    "hair_cues": [
+      "몸 형태 wings → 헤어스타일 끝을 가볍게 친 페더컷",
+      "키 0.3m → 머리 길이 짧은 머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "나몰빼미",
+    "en": "Rowlet",
+    "color": "brown",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "beak",
+        "detail": "stubby beak"
+      },
+      {
+        "part": "leaf",
+        "detail": "additional leaves"
+      },
+      {
+        "part": "owl",
+        "detail": "young owl"
+      },
+      {
+        "part": "disc",
+        "detail": "white underside and facial disc"
+      },
+      {
+        "part": "body",
+        "detail": "round body"
+      },
+      {
+        "part": "leg",
+        "detail": "short legs"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Rowlet_%28Pok%C3%A9mon%29",
+    "revision": 4630058,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "fe27f55603a1891c0af46018ae76994e55bdd08cc7de088a4d61fbe77e72afba",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): compact face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, close-set; fine soft arches; straight slender bridge nose; small mouth.",
+  "compared_characters": [
+    "치릴리",
+    "드레디어",
+    "엘풍",
+    "나몰빼미",
+    "빼미스로우"
+  ],
+  "comparison_observation": "Rowlet has compact round cheeks, open eyes and small curved mouth; Dartrix has a longer oval face, low eyelids and thin lips. Petilil has narrower tapered lower face, Lilligant a longer face and more uplifted eyes, Whimsicott a broader smile. Compared actual light images and face crops.",
+  "original_policy": "Only source hashes, exact prompts/UI, QA and final WebP are committed; PNG remains in this session.",
+  "corrections": [
+    {
+      "slot": "light",
+      "reason": "Six digits in initial screen-left hand; corrected to one thumb plus four fingers before locking anchor.",
+      "rejected_original_sha256": "83c080d9382d824e9cd6ac5ed459f285eb5750de72e6ee63d63287720a4909a2",
+      "accepted_original_sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+    },
+    {
+      "slot": "casual1",
+      "reason": "Initial hand held hat instead of pumpkin lantern specified by example. Targeted edit lowered this arm and placed lantern in the hand.",
+      "rejected_original_sha256": "b942f1860a48705a1a98b7a9c385b628c39ead7a127e4fb84d8e21fb8d3314c7",
+      "accepted_original_sha256": "93201810141d3a24a68bc068edd51775841731889e2e656979953ae25dbd6692"
+    }
+  ]
+}

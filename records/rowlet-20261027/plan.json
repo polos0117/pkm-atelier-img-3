@@ -1,0 +1,542 @@
+{
+  "session": "rowlet-dartrix-bed93-20261027",
+  "batch": {
+    "session": "rowlet-dartrix-bed93-20261027",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "나몰빼미",
+        "species": "rowlet-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "witch_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "front",
+            "frame": "full_body",
+            "pose": "leaning_furniture",
+            "expr": "proud",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "disco_halter",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "pose": "sitting",
+            "expr": "soft_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "yoga_flow",
+            "garments": [
+              "leggings",
+              "tank"
+            ],
+            "orient": "front_3q",
+            "frame": "face_close",
+            "pose": "one_knee_up",
+            "expr": "exhausted",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "nightlife",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings",
+            "tank"
+          ],
+          "orient": [
+            "front",
+            "seated_twist",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "빼미스로우",
+        "species": "dartrix-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "elite_paramedic",
+            "garments": [
+              "uniform"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "kneeling",
+            "expr": "calm",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "lace_set",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "full_body",
+            "pose": "arms_crossed",
+            "expr": "cold_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "everyday_basic",
+            "ex": "commute_train",
+            "garments": [
+              "blouse",
+              "jacket",
+              "skirt"
+            ],
+            "orient": "side",
+            "frame": "three_quarter",
+            "pose": "adjusting_bag",
+            "expr": "candid",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "homewear",
+            "nightlife",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "uniform",
+            "blouse",
+            "skirt"
+          ],
+          "orient": [
+            "crouching",
+            "leaning_forward",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "witch_party",
+      "garments": [
+        "dress"
+      ],
+      "orient": "front",
+      "frame": "full_body",
+      "pose": "leaning_furniture",
+      "expr": "proud",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "side cutouts",
+        "high thigh slit"
+      ],
+      "lead": "place",
+      "example_text": "a Halloween witch party costume — a tall pointed hat, a lace-up bodice short dress and striped stockings; holding a pumpkin lantern at a costume party",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "witch_party",
+          "garments": [
+            "dress"
+          ],
+          "orient": "front",
+          "frame": "full_body",
+          "pose": "leaning_furniture",
+          "expr": "proud",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "high thigh slit"
+          ],
+          "lead": "place"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A theatrical woodland arch and carved oak console decorate the Halloween party entrance; she welcomes arriving guests beside the console.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: A theatrical woodland arch and carved oak console decorate the Halloween party entrance; she welcomes arriving guests beside the console."
+        },
+        {
+          "field": "outfit",
+          "content": "A chocolate-brown witch-party dress has paired side cutouts and a high thigh slit; cream lining and leaf-green velvet edging echo her palette.",
+          "reason": "Specifies planned dress with side cutouts, high thigh slit through the described construction: A chocolate-brown witch-party dress has paired side cutouts and a high thigh slit; cream lining and leaf-green velvet edging echo her palette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        },
+        {
+          "field": "custom",
+          "content": "Image 1 is the identity reference; image 2 is the scene to edit. Preserve the exact woman, outfit, setting, camera and framing from image 2. Correct only her activity: the raised hand on the right of the screen must lower naturally beside her waist and hold the handle of a small pumpkin lantern, with the lantern hanging clearly below the hand. Keep her other hand resting on the console. Exactly two arms and two hands, with natural shoulder-elbow-wrist connections.",
+          "reason": "Targeted correction to implement the existing example activity while preserving all other scene content."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced supports A theatrical woodland arch and carved oak console decorate the Halloween party entrance; she welcomes arriving guests beside the console.",
+        "source_influence": "subtle reflected in A chocolate-brown witch-party dress has paired side cutouts and a high thigh slit; cream lining and leaf-green velvet edging echo her palette.",
+        "separates_preference": "balanced corresponds to dress"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "disco_halter",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "seated_twist",
+      "frame": "three_quarter",
+      "pose": "sitting",
+      "expr": "soft_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "open back"
+      ],
+      "lead": "action",
+      "example_text": "a 1970s lurex halter jumpsuit with flared legs, under a mirror ball on a lit disco floor",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 2,
+          "cat": "retro_glamour",
+          "ex": "disco_halter",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "seated_twist",
+          "frame": "three_quarter",
+          "pose": "sitting",
+          "expr": "soft_smile",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Pausing between dances at the edge of the lit dance floor, she rests on a low velvet lounge seat beneath the mirror ball.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: Pausing between dances at the edge of the lit dance floor, she rests on a low velvet lounge seat beneath the mirror ball."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory lurex disco halter jumpsuit has flared legs, an open back and loose off-shoulder draped bands below the bare shoulders; bronze piping and green satin waist ties finish the silhouette.",
+          "reason": "Specifies planned jumpsuit with off-shoulder neckline, open back through the described construction: An ivory lurex disco halter jumpsuit has flared legs, an open back and loose off-shoulder draped bands below the bare shoulders; bronze piping and green satin waist ties finish the silhouette."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed supports Pausing between dances at the edge of the lit dance floor, she rests on a low velvet lounge seat beneath the mirror ball.",
+        "source_influence": "balanced reflected in An ivory lurex disco halter jumpsuit has flared legs, an open back and loose off-shoulder draped bands below the bare shoulders; bronze piping and green satin waist ties finish the silhouette.",
+        "separates_preference": "balanced corresponds to jumpsuit"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "active",
+      "ex": "yoga_flow",
+      "garments": [
+        "leggings",
+        "tank"
+      ],
+      "orient": "front_3q",
+      "frame": "face_close",
+      "pose": "one_knee_up",
+      "expr": "exhausted",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "example_text": "flowing through a yoga pose on a mat in a fitted yoga set",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random": {
+        "planner_values": {
+          "cut": 3,
+          "cat": "active",
+          "ex": "yoga_flow",
+          "garments": [
+            "leggings",
+            "tank"
+          ],
+          "orient": "front_3q",
+          "frame": "face_close",
+          "pose": "one_knee_up",
+          "expr": "exhausted",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "cropped hem"
+          ],
+          "lead": "light"
+        },
+        "manually_changed_choices": []
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning light passes through the studio's tall frosted windows after a yoga sequence; a pale exercise mat is visible in the soft background.",
+          "reason": "Adds the objects, local time and concrete activity missing from the selected example: Morning light passes through the studio's tall frosted windows after a yoga sequence; a pale exercise mat is visible in the soft background."
+        },
+        {
+          "field": "outfit",
+          "content": "Warm-brown high-waisted leggings and a cropped ivory tank leave the midriff and shoulders bare; narrow green piping traces the seams.",
+          "reason": "Specifies planned leggings,tank with bare midriff, cropped hem through the described construction: Warm-brown high-waisted leggings and a cropped ivory tank leave the midriff and shoulders bare; narrow green piping traces the seams."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; exact 2:3 dimensions required."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed supports Morning light passes through the studio's tall frosted windows after a yoga sequence; a pale exercise mat is visible in the soft background.",
+        "source_influence": "subtle reflected in Warm-brown high-waisted leggings and a cropped ivory tank leave the midriff and shoulders bare; narrow green piping traces the seams.",
+        "separates_preference": "prefer separates corresponds to leggings,tank"
+      }
+    }
+  ],
+  "check": "Planner batch check and reservation stamp verification passed before generation.",
+  "reservation_commit": "f485844f1bfb0cc4e50bcd0e5645472489af0137",
+  "compared_actual_images": [
+    "치릴리 casual1-3",
+    "드레디어 casual1-3",
+    "엘풍 casual1-3"
+  ],
+  "storage_method": "Shared blob:none Git repository; isolated task worktrees and sparse files. Omitted image directory names are read directly from current Git trees for planner/registration checks; only target/comparison image bytes downloaded."
+}

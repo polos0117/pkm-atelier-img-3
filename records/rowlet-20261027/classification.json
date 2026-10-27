@@ -1,0 +1,252 @@
+[
+  {
+    "card": "나몰빼미",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+    "original_sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4",
+    "references": [],
+    "prompt": "light-correction-prompt.txt",
+    "ui": "light-correction-ui.json",
+    "output": {
+      "file": "나몰빼미_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0be5e442276e6b06697f00601f1df86d7e7c03ad2427649f0a0eaf14eb178433"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-59a51146-c858-4eeb-8dd3-428786885962.png",
+    "original_sha256": "15fb29bd24ddba2d599fed5890bd65abbe07a3ce96c16df073e3de1a2e8db047",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "나몰빼미_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "374500c7e23ed1a1316cedd10b104c28f26c30f7e732aaafd126efa19e4e5ebe"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-a66c5b7b-2fce-4dff-9db9-b75ff2553f8c.png",
+    "original_sha256": "796c93dcba80d4ae883e75e90dcbba2c55330cc0c175b7423b9af25774790aca",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "나몰빼미_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "b45a7804cca47debf1f8552bfa60e4a4bd9466116cbd29efb873e378738dfd93"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-7c807171-514b-4e81-8f3b-1d6e51141e45.png",
+    "original_sha256": "09a2dce0ce870601c11fb50bf4c77d53c44d6960dcba3971700b8e56789dd734",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "나몰빼미_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1b17127fc008ab17885ec5182c2ff342bf2ad42e780014a5c85c34281ee7ea58"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-5b9fcc38-052a-4030-804b-ab49f1c8c15a.png",
+    "original_sha256": "42e3e91c05564f17563979933e31da0e7358f273ea33b0588b5e9faa28503b19",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-59a51146-c858-4eeb-8dd3-428786885962.png",
+        "sha256": "15fb29bd24ddba2d599fed5890bd65abbe07a3ce96c16df073e3de1a2e8db047"
+      },
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "나몰빼미_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "97bbc4d8fa55b571f786a14be60c3c9f7792705dc097bfc996d90405417bb920"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-fb6474ab-2788-4fb7-9646-f591cf7b17a4.png",
+    "original_sha256": "7c272a9ee1d039e82cc981d5fcee4fe24e3b7e87608e6bc6a59a27de39d1a9c1",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-a66c5b7b-2fce-4dff-9db9-b75ff2553f8c.png",
+        "sha256": "796c93dcba80d4ae883e75e90dcbba2c55330cc0c175b7423b9af25774790aca"
+      },
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "나몰빼미_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "0a63691ec57e453743b08304c8a1da6a9376fc7601d357b26cdcc7f0451a454b"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-9c60beff-07e5-4b1d-8325-13a9201afbea.png",
+    "original_sha256": "93201810141d3a24a68bc068edd51775841731889e2e656979953ae25dbd6692",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      },
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-2d2bf9f6-d275-4b56-81f0-e9a024b8b6be.png",
+        "sha256": "b942f1860a48705a1a98b7a9c385b628c39ead7a127e4fb84d8e21fb8d3314c7"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "나몰빼미_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "b6cc7fc9aaf2085195e539e0d2bb10050fbcfe0c5dcce838a1fc94f1373b6dae"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-7fca5ad4-58fb-4b4d-aecf-f75856e28e22.png",
+    "original_sha256": "e7cd36fc2974ccdefd5d8a35255b3f3e59ec4398c9374a70e48d578acc29a6e5",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "나몰빼미_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "11ed94936241957f1af375a95ea3b63e3c6e3268c27be70d8b98eb925c96452d"
+    }
+  },
+  {
+    "card": "나몰빼미",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI selections and output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/bed93b01199b/generated_images/exec-5c109c61-4a45-440e-ae6e-cf5efe0483de.png",
+    "original_sha256": "980498263f957cb2a1bd06cedf170248ce314e47310cbc59704901227612987e",
+    "references": [
+      {
+        "path": "/workspace/scratch/bed93b01199b/generated_images/exec-12e3fc9e-ed24-44cf-96f8-c2437c6e2fa1.png",
+        "sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "나몰빼미_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "bbf502e4afcb0ef2bbbf2f4fef04fa9081aa81386c01a108f52b885172201348"
+    }
+  }
+]

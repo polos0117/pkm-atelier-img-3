@@ -1,0 +1,272 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "image_sha256": "b720edb69b1aa008a96422bdb24c3d9bba77d69d33858116298fe8eacc926af4",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "White and bronze slim single-layer plates around shoulders/forearms/hips/shins; leaf motifs remain trim, one bent leg and one extended leg inside frame."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left palm shows one upright thumb and four separated fingers after correction; opposite hand has five digits in foreshortening, with ring/pinky partly overlapping.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "15fb29bd24ddba2d599fed5890bd65abbe07a3ce96c16df073e3de1a2e8db047",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Broader layered shoulder shells, breastplate rims, pelvis and thick thigh/shin plates visibly enlarge armor while body and face stay consistent."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near palm has thumb plus four fingers; far hand five with short fingers overlapping in depth; both wrists continuous.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "796c93dcba80d4ae883e75e90dcbba2c55330cc0c175b7423b9af25774790aca",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Thin feather-shaped plates spread from shoulders/hips/shins, with circular thrust-like gold insets and exposed flexible inner suit."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand thumb and four fingers separated; far hand five digits, including small partly occluded little finger.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "09a2dce0ce870601c11fb50bf4c77d53c44d6960dcba3971700b8e56789dd734",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Same lifted knee, outstretched palm and framing as light; shoulder/forearm/hip/shin seams open to green inner structure. Brown eye color preserved."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near palm five digits; far fingers remain attached, one thumb plus four fingers with overlapping ring/pinky.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "42e3e91c05564f17563979933e31da0e7358f273ea33b0588b5e9faa28503b19",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Heavy plate silhouettes and the same limb placement preserved; layered panels hinge outward, green light and mechanical gaps visible without added weapon."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near palm five; far hand five with overlapping two shorter fingers. Green light stays away from finger edges.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "7c272a9ee1d039e82cc981d5fcee4fe24e3b7e87608e6bc6a59a27de39d1a9c1",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "Spread mobility fins unfold farther on hinges; existing round insets glow green; face, body scale and camera remain aligned with closed form."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near palm five; far hand five with partly overlapping ring/little fingers; no detached floating hand.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "93201810141d3a24a68bc068edd51775841731889e2e656979953ae25dbd6692",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "One woman stands at carved console in witch hat, laced brown dress with side openings/slit and stockings; screen-left hand rests on console, other holds pumpkin lantern after targeted edit. Shoulders/waist/leg exposure visible."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Console hand flattened with four fingers foreshortened and thumb on inner side; lantern hand thumb plus four curved fingers around handle, partially occluded by grip.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "e7cd36fc2974ccdefd5d8a35255b3f3e59ec4398c9374a70e48d578acc29a6e5",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "She sits on red velvet at mirrored disco floor, ivory metallic halter jumpsuit, draped upper-arm bands, shoulders and side/back exposed; soft smile and seated turned torso. Crop is closer than planned three-quarter and flared trouser hems are below image."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "One hand under cheek with fingertips partly covered by hair, thumb and curled finger arcs visible; resting hand on knee has four long fingers and partly hidden thumb.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "980498263f957cb2a1bd06cedf170248ce314e47310cbc59704901227612987e",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "Short cream feathered cut, amber eyes, compact rounded cheeks and small mouth agree with corrected light anchor."
+        },
+        "form_or_activity_and_wardrobe": {
+          "match": true,
+          "evidence": "She rests on yoga mat after exercise in cropped white tank and brown leggings; one knee raised, other leg folded, head resting on hand, tired eyelids and parted lips. Body crop wider than face_close, recorded as variance."
+        },
+        "single_subject_and_size": {
+          "match": true,
+          "evidence": "One connected adult woman, original and final WebP both opened at 1024x1536; no second face/body."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: anatomy-check.py exit 3; No module named mediapipe",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hand on ankle has four fingers and thumb on inner edge; cheek hand curled fingers partly occluded. Front foot five toes; folded foot partly behind hand, no detached third foot.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "Continuous shoulder-elbow-wrist and hip-knee-ankle chains. No extra arm/leg or detached hand/foot."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "compared_actual_images": [
+      "치릴리 casual1-3",
+      "드레디어 casual1-3",
+      "엘풍 casual1-3"
+    ],
+    "evidence": "Witch scene stands with lantern beside carved console; disco scene uses halter flared jumpsuit seated on upholstered bench; yoga uses cropped sports separates and floor mat, one knee raised. Compared with Petilil dance/lingerie/fairy fitting, Lilligant binoculars/wedding/boat swimwear, and Whimsicott champagne/dance/biker scenes. Disco shares nightlife light with some comparisons but seated jumpsuit silhouette and hands differ; no repeated three-scene layout.",
+    "look_check": "Passed; closest score 233 (acceptance cutoff 215), no near-identical cut."
+  },
+  "variances": [
+    "casual1 stockings are patterned rather than striped; dress has long side drape.",
+    "casual2 crop closer than selected three-quarter.",
+    "casual3 wider than selected face_close."
+  ]
+}
