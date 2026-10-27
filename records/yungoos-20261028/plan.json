@@ -1,0 +1,418 @@
+{
+  "session": "toucannon-yungoos-72e9",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "왕큰부리",
+      "species": "toucannon-20261028",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "simple_cooking",
+          "expr": "laughing_open",
+          "pose": "one_knee_up",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "open back",
+            "off-shoulder neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "traditional",
+          "ex": "dirndl_modern",
+          "garments": [
+            "apron",
+            "blouse",
+            "skirt",
+            "traditional"
+          ],
+          "orient": "profile_close",
+          "frame": "face_close",
+          "pose": "cross_legged",
+          "expr": "curious",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "off-shoulder neckline"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "rodeo_cowgirl",
+          "expr": "pensive",
+          "pose": "turning_back",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "blouse",
+          "traditional"
+        ],
+        "orient": [
+          "profile_close"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "영구스",
+      "species": "yungoos-20261028",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "spa_robe_lounge",
+          "expr": "sensual",
+          "pose": "pouring_drink",
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "robe",
+            "swimsuit"
+          ],
+          "expose": [
+            "plunging neckline",
+            "halter neck"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "retro_glamour",
+          "ex": "jetset_pool",
+          "expr": "amused",
+          "pose": "standing_relaxed",
+          "orient": "over_shoulder",
+          "frame": "three_quarter",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "open back",
+            "high-cut leg"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "gala_red_carpet",
+          "ex": "gala_dinner",
+          "garments": [
+            "dress"
+          ],
+          "orient": "rear_3q",
+          "frame": "chest_up",
+          "pose": "leaning_furniture",
+          "expr": "serious",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "side cutouts"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "dress"
+        ],
+        "orient": [
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "spa_wellness",
+      "ex": "spa_robe_lounge",
+      "garments": [
+        "robe",
+        "swimsuit"
+      ],
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "pose": "pouring_drink",
+      "expr": "sensual",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "halter neck"
+      ],
+      "lead": "action",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She pours chamomile tea from a small ceramic pot into a cup on a low stone table, with steam rising through the morning light.",
+          "reason": "예시가 정하지 않은 조명·장소 세부와 작업 도구를 spa_robe_lounge 장면에 맞춰 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "A tawny plush robe falls open over a yellow halter swimsuit with a plunging neckline, revealing her shoulders and upper chest.",
+          "reason": "예시가 정하지 않은 계획의 옷 종류·드러내는 구조와 색·재질를 spa_robe_lounge 장면에 맞춰 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "spa_robe_lounge의 활동을 pouring_drink 자세로 수행",
+        "source_influence": "영구스의 원작 특징은 balanced 선택값에 맞춰 의상 색과 작은 무늬로 반영",
+        "separates_preference": "robe, swimsuit의 옷 구조를 유지"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "jetset_pool",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "pose": "standing_relaxed",
+      "expr": "amused",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "high-cut leg"
+      ],
+      "lead": "detail",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cat-eye sunglasses catch the turquoise pool reflections beside cream canvas parasols and a mosaic pool edge.",
+          "reason": "예시가 정하지 않은 조명·장소 세부와 작업 도구를 jetset_pool 장면에 맞춰 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "An espresso-brown one-piece swimsuit with a yellow waist stripe, an open back and high-cut legs; the matching scarf has a small geometric print.",
+          "reason": "예시가 정하지 않은 계획의 옷 종류·드러내는 구조와 색·재질를 jetset_pool 장면에 맞춰 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "jetset_pool의 활동을 standing_relaxed 자세로 수행",
+        "source_influence": "영구스의 원작 특징은 strong 선택값에 맞춰 의상 색과 작은 무늬로 반영",
+        "separates_preference": "swimsuit의 옷 구조를 유지"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    },
+    {
+      "cut": 3,
+      "cat": "gala_red_carpet",
+      "ex": "gala_dinner",
+      "garments": [
+        "dress"
+      ],
+      "orient": "rear_3q",
+      "frame": "chest_up",
+      "pose": "leaning_furniture",
+      "expr": "serious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She responds to the host's toast amid pale floral centerpieces; the dining room glows with amber pendant lamps.",
+          "reason": "갈라 디너 예시에 없는 건배의 계기인 주최자의 축사·꽃과 펜던트 조명을 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "A copper silk evening dress with side cutouts, a mini front hem and an open back.",
+          "reason": "계획의 dress·mini length·side cutouts를 따르고 예시의 열린 등을 유지하며 구리빛 실크 색·재질을 구체화"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "식탁 건배의 잔을 드는 가벼운 움직임이라 balanced",
+        "source_influence": "갈색·노랑 팔레트 중 따뜻한 구리빛만 실크 색으로 남겨 원작과 조화",
+        "separates_preference": "원피스 실크 드레스라 balanced"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    }
+  ],
+  "check": "계획 통과 — 2명",
+  "reservation_commit": "04dba8de7e5711fa26217a6fffedd466f8da7ced",
+  "generator": "Actual Chromium prompt.html UI; built-in image_gen",
+  "revisions": [
+    {
+      "slot": "casual3",
+      "reason": "output moderation_blocked, no image returned",
+      "excluded": "dance_stage/flamenco",
+      "request_id": "ab35278e-35ab-4f99-90d6-71bc7f60ecc4",
+      "next": "gala_red_carpet/gala_dinner",
+      "kept": [
+        1,
+        2
+      ]
+    }
+  ]
+}
