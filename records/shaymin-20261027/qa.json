@@ -1,0 +1,214 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "cuts": [
+    {
+      "slot": "light",
+      "image_sha256": "c18ef39cdb61bf03abcec2c82366b015e2d68bee0a944135f04678a681d974ba",
+      "accepted": true,
+      "observations": "Green eyes, compact rounded cheeks, long silver half-up hair with pink-green tips; screen-left palm spreads five fingers, the opposite hand extends from the lowered forearm; both boots fully visible.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Green eyes, compact rounded cheeks, long silver half-up hair with pink-green tips; screen-left palm spreads five fingers, the opposite hand extends from the lowered forearm; both boots fully visible."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Green eyes, compact rounded cheeks, long silver half-up hair with pink-green tips; screen-left palm spreads five fingers, the opposite hand extends from the lowered forearm; both boots fully visible."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "26896ce442b418371b15817d0f3a8ed057b2770ed7a562c075f9de0854be89c5",
+      "accepted": true,
+      "observations": "Broad overlapping shoulder, hip and shin plates increase the silhouette without increasing the body; both arms and crossing legs remain attached.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Broad overlapping shoulder, hip and shin plates increase the silhouette without increasing the body; both arms and crossing legs remain attached."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Broad overlapping shoulder, hip and shin plates increase the silhouette without increasing the body; both arms and crossing legs remain attached."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "828efdd1af12eb831525a8c3930aa27c4a8a82f7bb9dc686dea67778657d46dc",
+      "accepted": true,
+      "observations": "Swept leaf panels and small lit propulsion pods flank shoulders, hips and calves; both hands and two legs remain distinct.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Swept leaf panels and small lit propulsion pods flank shoulders, hips and calves; both hands and two legs remain distinct."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Swept leaf panels and small lit propulsion pods flank shoulders, hips and calves; both hands and two legs remain distinct."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "2a0ac92692aaf11748d5141d7ebc1cf823b3174a1877c531eceb9418f8acf84c",
+      "accepted": true,
+      "observations": "Slim light plates separate at chest, waist and limbs over luminous green inner frame; camera, forward palm and crossing boots match the light card.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Slim light plates separate at chest, waist and limbs over luminous green inner frame; camera, forward palm and crossing boots match the light card."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Slim light plates separate at chest, waist and limbs over luminous green inner frame; camera, forward palm and crossing boots match the light card."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "3a2d6c4c917d052dd27510d8d8a38c32ce64bff9eee9bd3612b3418c96143c27",
+      "accepted": true,
+      "observations": "Stacked outer plates lift away and green inner frame shows between them; shoulder/hip width, forward palm and feet match the heavy card.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Stacked outer plates lift away and green inner frame shows between them; shoulder/hip width, forward palm and feet match the heavy card."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Stacked outer plates lift away and green inner frame shows between them; shoulder/hip width, forward palm and feet match the heavy card."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "4d859b60934d2847e5c9c09d3125a82aab4ef025f2141603f9e34679f01ee831",
+      "accepted": true,
+      "observations": "Leaf panels fan wider with open green thrusters; same pose, frame, head and boot placement as the mobility card.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Visible open glove palm has one thumb and four fingers; opposite fingers follow the lowered wrist with partial overlap.",
+        "overlay_checked": false,
+        "note": "Leaf panels fan wider with open green thrusters; same pose, frame, head and boot placement as the mobility card."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "Leaf panels fan wider with open green thrusters; same pose, frame, head and boot placement as the mobility card."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "29151006e543d8ca5434d999aac5cb3633cac83631504c7d5f2ad4b7288725e4",
+      "accepted": true,
+      "observations": "She leans toward a camera in a sparkling pink dress at the flash-lit gala; two connected forearms support the camera, one hand around the grip and the other under the lens; some digits are obscured by the camera. Face is three-quarter rather than close-up; no hand-on-hip because the chosen photography pose occupied both hands.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands connected to their wrists; visible digits checked in enlarged crops; camera/book/towel occludes some digits as described.",
+        "overlay_checked": false,
+        "note": "She leans toward a camera in a sparkling pink dress at the flash-lit gala; two connected forearms support the camera, one hand around the grip and the other under the lens; some digits are obscured by the camera. Face is three-quarter rather than close-up; no hand-on-hip because the chosen photography pose occupied both hands."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": false,
+        "evidence": "She leans toward a camera in a sparkling pink dress at the flash-lit gala; two connected forearms support the camera, one hand around the grip and the other under the lens; some digits are obscured by the camera. Face is three-quarter rather than close-up; no hand-on-hip because the chosen photography pose occupied both hands."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "adfa0533d234dbec8cbf6e2dca89ab71934a8c355961f5eb2407898f75c2bd5b",
+      "accepted": true,
+      "observations": "She kneels beside the beach towel in a lined coral bandeau bikini; both hands touch the towel and two shins extend behind her to two separate feet. Palm contact obscures some fingertips. She looks at the viewer instead of candidly away; this is recorded only.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands connected to their wrists; visible digits checked in enlarged crops; camera/book/towel occludes some digits as described.",
+        "overlay_checked": false,
+        "note": "She kneels beside the beach towel in a lined coral bandeau bikini; both hands touch the towel and two shins extend behind her to two separate feet. Palm contact obscures some fingertips. She looks at the viewer instead of candidly away; this is recorded only."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "She kneels beside the beach towel in a lined coral bandeau bikini; both hands touch the towel and two shins extend behind her to two separate feet. Palm contact obscures some fingertips. She looks at the viewer instead of candidly away; this is recorded only."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "3f96fe0528cd324fb1cd81a8ba20c3d90273425743aa07f9200d0db361a02b4a",
+      "accepted": true,
+      "observations": "She sits on a rug among bookshelves, one knee raised and the other leg folded; two bare feet are visible, one hand supports her cheek and the other holds an open book. Cardigan slips from shoulders above a short skirt; glasses and bookshelf setting read clearly.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands connected to their wrists; visible digits checked in enlarged crops; camera/book/towel occludes some digits as described.",
+        "overlay_checked": false,
+        "note": "She sits on a rug among bookshelves, one knee raised and the other leg folded; two bare feet are visible, one hand supports her cheek and the other holds an open book. Cardigan slips from shoulders above a short skirt; glasses and bookshelf setting read clearly."
+      },
+      "identity": {
+        "match": true,
+        "evidence": "Same broad cheeks, green eyes, very long pale half-up hair and pink-green strands."
+      },
+      "composition": {
+        "match": true,
+        "evidence": "She sits on a rug among bookshelves, one knee raised and the other leg folded; two bare feet are visible, one hand supports her cheek and the other holds an open book. Cardigan slips from shoulders above a short skirt; glasses and bookshelf setting read clearly."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "compared": [
+      "피오네",
+      "마나피",
+      "다크라이"
+    ],
+    "observations": "Camera held at gala, two hands flattening a beach towel while kneeling, and folded-leg reading on a rug differ from Phione wedding/skating/cafe, Manaphy sailor/bridal/desert compass, and Darkrai lake/costume dance/perfume counter in activity, clothing and silhouette. All three have distinct backgrounds and garment structures.",
+    "casual_look": "Passed; no near-duplicate below threshold."
+  },
+  "skipped": []
+}
