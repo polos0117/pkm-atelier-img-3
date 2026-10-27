@@ -1,0 +1,498 @@
+{
+  "session": "gpt-charjabug-vikavolt-20261028",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "전지충이",
+      "species": "charjabug-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "dance_stage",
+          "ex": "mermaid_show",
+          "garments": [
+            "skirt"
+          ],
+          "orient": "low_angle",
+          "frame": "face_close",
+          "pose": "mid_action",
+          "expr": "flustered",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "bare midriff"
+          ],
+          "lead": "detail",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Pearl strands on the aquarium stage catch turquoise spotlights during her performance.",
+              "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "The scale-sequined bodice has a one-shoulder cut and a bare midriff above a flowing chiffon wrap skirt in bronze and pale gold.",
+              "reason": "Implements planned garments skirt and exposure one-shoulder cut,bare midriff in dance_stage/mermaid_show."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "mid_action supplies the movement or resting state for mermaid_show",
+            "source_influence": "balanced colour echoes in The scale-sequined bodice has a one-shoulder cut and a bare midriff above a flowing chiffon wrap skirt in bronze and pale gold.",
+            "separates_preference": "skirt specifies the silhouette in mermaid_show"
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "fantasy_costume",
+          "ex": "cosplay_photozone",
+          "garments": [
+            "coat"
+          ],
+          "orient": "front_3q",
+          "frame": "full_body",
+          "pose": "taking_photo",
+          "expr": "soft_smile",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "mini length"
+          ],
+          "lead": "light",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Late-afternoon convention light mixes with the circular studio lamps during the costume photo session.",
+              "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "An original cropped fantasy coat with a short shoulder cape is worn open over a fitted amber bodice and mini-length skirt, leaving waist and thighs visible.",
+              "reason": "Implements planned garments coat and exposure cropped hem,mini length in fantasy_costume/cosplay_photozone."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "taking_photo supplies the movement or resting state for cosplay_photozone",
+            "source_influence": "subtle colour echoes in An original cropped fantasy coat with a short shoulder cape is worn open over a fitted amber bodice and mini-length skirt, leaving waist and thighs visible.",
+            "separates_preference": "coat specifies the silhouette in cosplay_photozone"
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "cage_back",
+          "garments": [
+            "crop_top",
+            "lingerie_set"
+          ],
+          "orient": "reclining",
+          "frame": "environmental",
+          "pose": "sitting",
+          "expr": "cold_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "high-cut leg"
+          ],
+          "lead": "action",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "She relaxes on a curved chaise in a walnut-panelled dressing suite after a costume fitting.",
+              "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+            },
+            {
+              "field": "outfit",
+              "content": "A dark brown lingerie set pairs a plunging crop-top bralette, geometric crossed back straps and high-cut briefs; satin trim echoes the gold tones.",
+              "reason": "Implements planned garments crop_top,lingerie_set and exposure plunging neckline,high-cut leg in lingerie/cage_back."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "sitting supplies the movement or resting state for cage_back",
+            "source_influence": "balanced colour echoes in A dark brown lingerie set pairs a plunging crop-top bralette, geometric crossed back straps and high-cut briefs; satin trim echoes the gold tones.",
+            "separates_preference": "crop_top,lingerie_set specifies the silhouette in cage_back"
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "everyday_sensual",
+          "travel_exploration",
+          "food_berries",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "dance_stage",
+          "fantasy_costume"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "coat"
+        ],
+        "orient": [
+          "low_angle",
+          "front_3q",
+          "reclining"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "gpt-charjabug-vikavolt-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "전지충이",
+        "species": "charjabug-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "dance_stage",
+            "ex": "mermaid_show",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "mid_action",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "detail",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Pearl strands on the aquarium stage catch turquoise spotlights during her performance.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "The scale-sequined bodice has a one-shoulder cut and a bare midriff above a flowing chiffon wrap skirt in bronze and pale gold.",
+                "reason": "Implements planned garments skirt and exposure one-shoulder cut,bare midriff in dance_stage/mermaid_show."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "mid_action supplies the movement or resting state for mermaid_show",
+              "source_influence": "balanced colour echoes in The scale-sequined bodice has a one-shoulder cut and a bare midriff above a flowing chiffon wrap skirt in bronze and pale gold.",
+              "separates_preference": "skirt specifies the silhouette in mermaid_show"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "cosplay_photozone",
+            "garments": [
+              "coat"
+            ],
+            "orient": "front_3q",
+            "frame": "full_body",
+            "pose": "taking_photo",
+            "expr": "soft_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late-afternoon convention light mixes with the circular studio lamps during the costume photo session.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "An original cropped fantasy coat with a short shoulder cape is worn open over a fitted amber bodice and mini-length skirt, leaving waist and thighs visible.",
+                "reason": "Implements planned garments coat and exposure cropped hem,mini length in fantasy_costume/cosplay_photozone."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "taking_photo supplies the movement or resting state for cosplay_photozone",
+              "source_influence": "subtle colour echoes in An original cropped fantasy coat with a short shoulder cape is worn open over a fitted amber bodice and mini-length skirt, leaving waist and thighs visible.",
+              "separates_preference": "coat specifies the silhouette in cosplay_photozone"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "cage_back",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She relaxes on a curved chaise in a walnut-panelled dressing suite after a costume fitting.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "A dark brown lingerie set pairs a plunging crop-top bralette, geometric crossed back straps and high-cut briefs; satin trim echoes the gold tones.",
+                "reason": "Implements planned garments crop_top,lingerie_set and exposure plunging neckline,high-cut leg in lingerie/cage_back."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "sitting supplies the movement or resting state for cage_back",
+              "source_influence": "balanced colour echoes in A dark brown lingerie set pairs a plunging crop-top bralette, geometric crossed back straps and high-cut briefs; satin trim echoes the gold tones.",
+              "separates_preference": "crop_top,lingerie_set specifies the silhouette in cage_back"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "dance_stage",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat"
+          ],
+          "orient": [
+            "low_angle",
+            "front_3q",
+            "reclining"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "투구뿌논",
+        "species": "vikavolt-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "oring_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "on_tiptoe",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_footbath",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "face_close",
+            "pose": "leaning_wall",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "emo_gig",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "arms_crossed",
+            "expr": "bored",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "source_editorial",
+            "homewear",
+            "private_evening"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "turning_midmotion",
+            "looking_away",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve; verify stamps passed",
+  "reservation_commit": "190ba7dfe30a4c59a88c91cbbb7df84240cb7ba6",
+  "generation_tool": "built-in image_gen"
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "generated_and_reviewed",
+  "generated": 9,
+  "requested": 9,
+  "light": {
+    "card": "전지충이",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/99f062680599/generated_images/exec-d7aae0f3-3cd3-45ae-ba55-3b74560787b9.png",
+    "original_sha256": "9acc34716daa4af86f9196bb2958673b9f177774d5a5907199f8021cacabf88b",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "전지충이_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "75eb5175b94d9801fc31cd1e061a6a509d095e64b117aab0ac465f273956ecc0",
+      "git_blob": "b7163618a2bc277ea09027f3a72214fb07169631"
+    }
+  },
+  "face_rationale": "각진 배터리 마디와 네모 입을 각진 윤곽과 정돈된 입술로 구분한다.",
+  "face_source": "data/face-design.json + data/source-appearance.json + docs/CHARACTER_FACE_DESIGNS.md",
+  "final_face_line": "FACE (her own structure, not the style's default face): angular face, long length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, close-set; straight medium brows; small delicate nose; thin lips.",
+  "compared_characters": [
+    "턱지충이",
+    "형사구스",
+    "영구스"
+  ],
+  "original_policy": "PNG session-only; only hashes and WebP published",
+  "anatomy_tool": "unavailable: mediapipe not installed",
+  "manifest": "classification.json"
+}
