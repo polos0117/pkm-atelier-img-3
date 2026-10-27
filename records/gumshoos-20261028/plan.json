@@ -1,0 +1,341 @@
+{
+  "character": "형사구스",
+  "reference": "/workspace/scratch/c1f2512cad1e/generated_images/exec-f2f94340-7faf-42cb-bdc7-636fada41144.png",
+  "batch": {
+    "session": "gumshoos-grubbin-c1f251",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "형사구스",
+        "species": "gumshoos-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "partner_care",
+            "ex": "care_nap",
+            "expr": "half_smile",
+            "pose": "reading_book",
+            "orient": "front_3q",
+            "frame": "face_close",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "pinup_car",
+            "expr": "confident",
+            "pose": "squatting",
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_sensual",
+            "ex": "night_dispatch",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "looking_down",
+            "frame": "full_body",
+            "pose": "checking_map",
+            "expr": "smug",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "subculture_fashion"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt"
+          ],
+          "orient": [
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "턱지충이",
+        "species": "grubbin-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_market",
+            "garments": [
+              "blouse",
+              "skirt"
+            ],
+            "orient": "front",
+            "frame": "waist_up",
+            "pose": "adjusting_bag",
+            "expr": "wistful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "occupation_basic",
+            "ex": "wind_turbine_tech",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "perched_seat",
+            "expr": "flustered",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cabin_crew_retro",
+            "garments": [
+              "jacket"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "three_quarter",
+            "pose": "mid_action",
+            "expr": "provocative",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "subculture_fashion",
+            "dance_stage",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls",
+            "jacket"
+          ],
+          "orient": [
+            "front",
+            "reclining",
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "partner_care",
+      "ex": "care_nap",
+      "expr": "half_smile",
+      "pose": "reading_book",
+      "orient": "front_3q",
+      "frame": "face_close",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "expose": [
+        "mini length",
+        "one-shoulder cut"
+      ],
+      "lead": "detail"
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "pinup_car",
+      "expr": "confident",
+      "pose": "squatting",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "expose": [
+        "high thigh slit",
+        "strapless top"
+      ],
+      "lead": "light"
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_sensual",
+      "ex": "night_dispatch",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "looking_down",
+      "frame": "full_body",
+      "pose": "checking_map",
+      "expr": "smug",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "side cutouts"
+      ],
+      "lead": "detail"
+    }
+  ],
+  "reservation": "records/casual-reservations/gumshoos-grubbin-c1f251.json",
+  "check": "planner check and reservation stamp passed",
+  "blocked_attempts": [
+    {
+      "slot": "casual3",
+      "example": "thermal_spa",
+      "result": "moderation_blocked sexual; no image returned",
+      "replanned": "occupation_sensual/night_dispatch"
+    }
+  ],
+  "ui_capture": "Actual local prompt.html rendered in Chromium",
+  "post_generation_check": {
+    "result": "1 sequencing deviation",
+    "detail": "Required-category slot 2 matches prior character; initial sparse filename inventory excluded quoted Korean filenames. Filename inventory fixed before Grubbin planning. Generated images preserved, no silent pass recorded."
+  }
+}
