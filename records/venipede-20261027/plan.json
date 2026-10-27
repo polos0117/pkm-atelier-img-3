@@ -1,0 +1,406 @@
+{
+  "session": "leavanny-venipede-20261027-61171040",
+  "batch_initial": {
+    "session": "leavanny-venipede-20261027-61171040",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "모아머",
+        "species": "leavanny-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "cage_back",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "leaning_wall",
+            "expr": "smug",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "sorceress_robe",
+            "garments": [
+              "dress",
+              "robe"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "taking_photo",
+            "expr": "serious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "dance_stage",
+            "ex": "ballet_stage",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "mid_action",
+            "expr": "mischievous",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "fantasy_costume",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings"
+          ],
+          "orient": [
+            "profile_close",
+            "over_shoulder",
+            "rear_3q"
+          ],
+          "frame": [
+            "face_close"
+          ]
+        }
+      },
+      {
+        "card": "마디네",
+        "species": "venipede-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_lodge",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "mid_stride",
+            "expr": "laughing_open",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "cropped hem"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "festivals_contests",
+            "ex": "fest_ringtoss",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "sitting",
+            "expr": "curious",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "cat_cafe",
+            "garments": [
+              "apron",
+              "dress"
+            ],
+            "orient": "front",
+            "frame": "environmental",
+            "pose": "holding_cup",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "turning_midmotion",
+            "reclining",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "travel_exploration",
+      "ex": "travel_lodge",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "mid_stride",
+      "expr": "laughing_open",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "example_text": "Receiving a wooden room key at the front counter of a mountain lodge, her hiking pack still on one shoulder.",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late afternoon sun washes the cedar lodge counter; a wooden room key has just been laid within reach beside the guest register.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: Late afternoon sun washes the cedar lodge counter; a wooden room key has just been laid within reach beside the guest register."
+        },
+        {
+          "field": "outfit",
+          "content": "Rust-red cropped bib overalls have a mini short hem and side waist openings, worn over a fitted sleeveless ivory bandeau; a compact hiking pack hangs from one shoulder.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: Rust-red cropped bib overalls have a mini short hem and side waist openings, worn over a fitted sleeveless ivory bandeau; a compact hiking pack hangs from one shoulder."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active follows this particular action: Late afternoon sun washes the cedar lodge counter; a wooden room key has just been laid within reach beside the guest register.",
+        "source_influence": "balanced appears in the colours and fabric choices: Rust-red cropped bib overalls have a mini short hem and side waist openings, worn over a fitted sleeveless ivory bandeau; a compact hiking pack hangs from one shoulder.",
+        "separates_preference": "balanced follows the garment construction overalls"
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "festivals_contests",
+      "ex": "fest_ringtoss",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "reclining",
+      "frame": "chest_up",
+      "pose": "sitting",
+      "expr": "curious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "halter neck"
+      ],
+      "lead": "action",
+      "example_text": "Aiming a ring at the bottles of a festival ring-toss stall, one eye narrowed in concentration.",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She steadies a single red wooden ring toward the nearest cobalt bottle at the festival stall as paper lanterns glow overhead.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: She steadies a single red wooden ring toward the nearest cobalt bottle at the festival stall as paper lanterns glow overhead."
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal mini overalls with a low bib are worn over an off-shoulder halter blouse in dusty rose; bare shoulders and upper legs contrast with the dark canvas.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: Charcoal mini overalls with a low bib are worn over an off-shoulder halter blouse in dusty rose; bare shoulders and upper legs contrast with the dark canvas."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows this particular action: She steadies a single red wooden ring toward the nearest cobalt bottle at the festival stall as paper lanterns glow overhead.",
+        "source_influence": "balanced appears in the colours and fabric choices: Charcoal mini overalls with a low bib are worn over an off-shoulder halter blouse in dusty rose; bare shoulders and upper legs contrast with the dark canvas.",
+        "separates_preference": "balanced follows the garment construction overalls"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "cat_cafe",
+      "garments": [
+        "apron",
+        "dress"
+      ],
+      "orient": "front",
+      "frame": "environmental",
+      "pose": "holding_cup",
+      "expr": "laughing",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high thigh slit"
+      ],
+      "lead": "place",
+      "example_text": "a cat cafe event costume — a cat-ear headband, a bow choker and a frilled apron dress; serving a latte at a themed cafe",
+      "selection_source": "Planner selection loaded through generator query and locked controls in actual Chromium UI; no manual option overrides.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A cafe pop-up stage uses a curved cream counter and terracotta tile; her latte rests on a small serving tray.",
+          "reason": "Adds the particular objects, light and local setting missing from this example: A cafe pop-up stage uses a curved cream counter and terracotta tile; her latte rests on a small serving tray."
+        },
+        {
+          "field": "outfit",
+          "content": "A plum frilled apron over a cream dress with a plunging neckline and high thigh slit, plus a bow choker and cat-ear headband, makes the themed event costume; the apron is short enough to show the slit.",
+          "reason": "Uses this cut’s planned garment types and exposure structure: A plum frilled apron over a cream dress with a plunging neckline and high thigh slit, plus a bow choker and cat-ear headband, makes the themed event costume; the apron is short enough to show the slit."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows this particular action: A cafe pop-up stage uses a curved cream counter and terracotta tile; her latte rests on a small serving tray.",
+        "source_influence": "subtle appears in the colours and fabric choices: A plum frilled apron over a cream dress with a plunging neckline and high thigh slit, plus a bow choker and cat-ear headband, makes the themed event costume; the apron is short enough to show the slit.",
+        "separates_preference": "balanced follows the garment construction apron, dress"
+      }
+    }
+  ],
+  "initial_check": "casual-plan and casual-ledger check --fresh passed; original stamped reservation c25f7373ce9f8f80f81ba830eff7d8c2adc4b993",
+  "replan": null,
+  "tool": "built-in image_gen",
+  "storage": "Shared blob:none Git data with separate branches and sparse worktrees. Genuine UI metadata and requested comparison thumbnails only. Temporary /dev/null links represent exact Git tree filenames for membership-only ledger/name checks; they are not real image payloads and are never staged or uploaded."
+}
