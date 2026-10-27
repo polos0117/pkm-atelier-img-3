@@ -441,5 +441,24 @@
     "누리공 casual1-3"
   ],
   "storage_method": "Shared Git blob:none objects, task branch/worktree and sparse necessary metadata. Omitted image names read from Git trees; no image placeholders.",
-  "replanning_reason": "Before generation excluded burkini_modest: its coverage conflicts with planned neckline and high-cut exposure. Brionne casual3 bridal result blocked; planner changed that slot to private_evening/cocktail_mini with slots1-2 preserved. Revised reservation commit 338ee2dd0359b4b66dbc2109068d88eed96dce4b."
+  "replanning_reason": "Before generation excluded burkini_modest: its coverage conflicts with planned neckline and high-cut exposure. Brionne casual3 bridal result blocked; planner changed that slot to private_evening/cocktail_mini with slots1-2 preserved. Revised reservation commit 338ee2dd0359b4b66dbc2109068d88eed96dce4b.",
+  "corrections": [
+    {
+      "slot": "casual2",
+      "requested": "다른 구도로 재시도해줘",
+      "scope": "Keep character, outfit and waterfall; replace composition to resolve anatomy error.",
+      "prior_plan_kept_for_history": true,
+      "current_ui": "casual2-ui.json",
+      "current_prompt": "casual2-prompt.txt",
+      "changed_choices": {
+        "orient": "front_3q",
+        "pose": "mid_action",
+        "frame": "environmental",
+        "scene": "In a rocky waterfall pool beside a mossy basalt ledge, she tidies the loose hair ends near her shoulder with one hand while her other hand rests on the nearby ledge. Afternoon sunlight filters through waterfall spray.",
+        "camera": "Vertical 2:3 portrait (1024×1536). Eye-level camera across the pool, with space around both shoulders and elbows so the arm connections are readable.",
+        "custom": "User-requested replacement composition for an anatomy error. The torso and pelvis turn together toward the camera in a front three-quarter view. One hand tidies hair ends beside the shoulder at collarbone height; the other rests on a reachable rock at waist height. Both upper arms stay below shoulder level. Show two continuous shoulder-to-elbow-to-wrist connections; no arm or hand emerges from the head or hair. Keep the existing white and pink swimsuit and the waterfall setting."
+      },
+      "choice_authority": "User explicitly requested a different composition; original stamped batch reservation preserved as historical plan."
+    }
+  ]
 }

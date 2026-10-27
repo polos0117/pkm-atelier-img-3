@@ -208,36 +208,27 @@
     "casual2": {
       "identity": {
         "match": true,
-        "evidence": "Blue-gray wavy hair, pink strands, blue eyes, oval cheeks and bow upper lip preserved."
-      },
-      "figure": {
-        "match": true,
-        "evidence": "One adult woman, no rival focal figure or recognizable brand."
+        "evidence": "Same blue-gray/pink wavy hair, blue eyes and oval face; same white/pink one-piece and waterfall."
       },
       "anatomy": {
-        "tool": "unavailable: mediapipe module not installed; checker exited3",
+        "tool": "unavailable: mediapipe module not installed",
         "arms": 2,
         "legs": 2,
-        "hands": "Two raised upper arms connect to two elbows and hands on hair; fingertips partly hidden in hair. Two thighs enter water; feet submerged.",
+        "hands": "Hair hand has naturally bent fingers, thumb partially hidden by hair. Ledge hand has four aligned fingers along rock with inner thumb partly occluded by palm/rock; no detached duplicate.",
         "overlay_checked": false,
-        "note": "No extra arm, detached hand, duplicate leg or reversed joint; hidden digits recorded as occluded."
-      },
-      "format": {
-        "match": true,
-        "evidence": "Verified actual1024x1536 WebP,quality85 method6."
+        "note": "Original and enlarged arm crops checked. Near shoulder connects visibly through upper arm to elbow then wrist on rock; far upper arm descends beside torso to elbow, forearm rises to hair ends. No hand or arm in middle/top of hair. Two thighs enter water; lower legs/feet submerged."
       },
       "activity": {
         "match": true,
-        "evidence": "Rocky waterfall pool, hands push back wet hair; white/pink one-piece exposes back and upper thighs."
-      },
-      "exposure": {
-        "match": true,
-        "evidence": "Rocky waterfall pool, hands push back wet hair; white/pink one-piece exposes back and upper thighs."
+        "evidence": "Tidies hair ends with one hand while resting other on reachable basalt ledge, waterfall pool behind."
       },
       "pose_orientation_frame": {
-        "match": false,
-        "evidence": "Rear three-quarter body, natural quarter-turn head; water reaches mid-thigh rather than waist.",
-        "disposition": "record_only"
+        "match": true,
+        "evidence": "Front-three-quarter torso/pelvis turn together, both elbows below shoulder level; eye-level camera, frame extends into water around thighs."
+      },
+      "format": {
+        "match": true,
+        "evidence": "Actual WebP1024x1536 and thumbnail341x512."
       }
     },
     "casual3": {
@@ -292,6 +283,53 @@
   "diversity": {
     "match": true,
     "evidence": "Studio couture crouch, waterfall hair-tidying and velvet-chair cocktail scene differ in location, activity, clothes and body silhouette. Compared recent 어흥염/깜눈크/냐오히트 and Popplio trio visually.",
-    "look_check": "generated_images/exec-0239f821-990d-4fa2-9ded-a99a6e10cef5.png — 가까운 컷 0장(점수 245 미만)\n     327  해피너스_glossy_promo_f_casual1.webp\n     331  니드퀸_glossy_promo_f_casual3.webp\n     333  직구리_glossy_promo_f_casual1.webp\ngenerated_images/exec-ac393e82-9cf7-427c-a988-70cd14ebcc1c.png — 가까운 컷 0장(점수 245 미만)\n     280  실쿤_glossy_promo_f_casual3.webp\n     284  토대부기_glossy_promo_f_casual1.webp\n     287  대검귀_glossy_promo_f_casual2.webp\ngenerated_images/exec-9ff5c748-5576-44db-8e84-8d2d0a591881.png — 가까운 컷 0장(점수 245 미만)\n     311  쥬레곤_glossy_promo_f_casual3.webp\n     321  레오꼬_glossy_promo_f_casual3.webp\n     326  로파파_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
-  }
+    "look_check": "generated_images/exec-0239f821-990d-4fa2-9ded-a99a6e10cef5.png — 가까운 컷 0장(점수 245 미만)\n     327  해피너스_glossy_promo_f_casual1.webp\n     331  니드퀸_glossy_promo_f_casual3.webp\n     333  직구리_glossy_promo_f_casual1.webp\ngenerated_images/exec-0a36c948-db5f-4b03-920e-be6ac5a0f1d3.png — 가까운 컷 0장(점수 245 미만)\n     255  버터플_glossy_promo_f_casual2.webp\n     262  플라베베_glossy_promo_f_casual3.webp\n     272  도나리_glossy_promo_f_casual1.webp\ngenerated_images/exec-9ff5c748-5576-44db-8e84-8d2d0a591881.png — 가까운 컷 0장(점수 245 미만)\n     311  쥬레곤_glossy_promo_f_casual3.webp\n     321  레오꼬_glossy_promo_f_casual3.webp\n     326  로파파_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "corrections": [
+    {
+      "slot": "casual2",
+      "reason": "User identified an arm apparently emerging from middle of hair. Earlier visual review missed the shoulder connection error.",
+      "prior_review_retracted": {
+        "identity": {
+          "match": true,
+          "evidence": "Blue-gray wavy hair, pink strands, blue eyes, oval cheeks and bow upper lip preserved."
+        },
+        "figure": {
+          "match": true,
+          "evidence": "One adult woman, no rival focal figure or recognizable brand."
+        },
+        "anatomy": {
+          "tool": "unavailable: mediapipe module not installed; checker exited3",
+          "arms": 2,
+          "legs": 2,
+          "hands": "Two raised upper arms connect to two elbows and hands on hair; fingertips partly hidden in hair. Two thighs enter water; feet submerged.",
+          "overlay_checked": false,
+          "note": "No extra arm, detached hand, duplicate leg or reversed joint; hidden digits recorded as occluded."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Verified actual1024x1536 WebP,quality85 method6."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "Rocky waterfall pool, hands push back wet hair; white/pink one-piece exposes back and upper thighs."
+        },
+        "exposure": {
+          "match": true,
+          "evidence": "Rocky waterfall pool, hands push back wet hair; white/pink one-piece exposes back and upper thighs."
+        },
+        "pose_orientation_frame": {
+          "match": false,
+          "evidence": "Rear three-quarter body, natural quarter-turn head; water reaches mid-thigh rather than waist.",
+          "disposition": "record_only"
+        }
+      },
+      "user_authorization": "다른 구도로 재시도해줘",
+      "result": "New front-three-quarter body, both upper arms lowered; one hand tidies hair ends and other rests on adjacent rock.",
+      "before_webp_sha256": "e0a26215a1d22cfadaeaddd9545b811a5f7cc1f2ef5eee5c19f240d99045e094",
+      "after_webp_sha256": "2909d0503c27b5b0c13266f3c35f914ccf711e9058b36bd6d498b431487026bd",
+      "blocked_edits": 2,
+      "successful_replacement_generations": 1
+    }
+  ]
 }
