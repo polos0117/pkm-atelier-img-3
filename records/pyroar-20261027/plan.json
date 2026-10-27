@@ -1,0 +1,414 @@
+{
+  "session": "pyroar-flabebe-20261027-2c6e",
+  "batch": {
+    "session": "pyroar-flabebe-20261027-2c6e",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "화염레오",
+        "species": "pyroar-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "rainy_return",
+            "expr": "cold_smile",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "expose": [
+              "side cutouts",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "swing_dress",
+            "expr": "sleepy",
+            "pose": "stretching",
+            "orient": "high_angle",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "open back",
+              "high thigh slit"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "occupation_basic",
+            "ex": "industrial_inspector",
+            "garments": [
+              "shirt",
+              "shorts"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "cross_legged",
+            "expr": "gentle",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "shorts"
+          ],
+          "orient": [
+            "seated_twist"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "플라베베",
+        "species": "flab-b-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "cage_back",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "squatting",
+            "expr": "playful",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_origami",
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "standing_relaxed",
+            "expr": "wistful",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_feeding",
+            "expr": "determined",
+            "pose": "gentle_pat",
+            "orient": "looking_down",
+            "frame": "face_close",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "tank",
+              "trousers"
+            ],
+            "expose": [
+              "open back",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "hobbies_leisure",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "tank"
+          ],
+          "orient": [
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "rainy_return",
+      "expr": "cold_smile",
+      "pose": "arms_crossed",
+      "orient": "looking_away",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "blouse",
+        "shorts"
+      ],
+      "expose": [
+        "side cutouts",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "coming in from the rain and slipping off a damp raincoat in the entryway, hair slightly wet",
+      "selection_source": "Planner-generated query loaded through actual prompt.html UI, all planner controls locked; no manual option changes.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool rainlight reaches the tiled entryway; her damp ochre raincoat hangs loosely off her upper arms as she slips free of it.",
+          "reason": "This example omits this concrete local light, object and activity detail: Cool rainlight reaches the tiled entryway; her damp ochre raincoat hangs loosely off her upper arms as she slips free of it."
+        },
+        {
+          "field": "outfit",
+          "content": "A russet halter blouse with narrow side cutouts and tailored dark-brown shorts leaves her shoulders, side waist and thighs visible.",
+          "reason": "This cut uses the planned garment types and exposure construction: A russet halter blouse with narrow side cutouts and tailored dark-brown shorts leaves her shoulders, side waist and thighs visible."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is applied to Cool rainlight reaches the tiled entryway; her damp ochre raincoat hangs loosely off her upper arms as she slips free of it.",
+        "source_influence": "strong is represented through A russet halter blouse with narrow side cutouts and tailored dark-brown shorts leaves her shoulders, side waist and thighs visible.",
+        "separates_preference": "prefer separates follows the construction of blouse, shorts"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "swing_dress",
+      "expr": "sleepy",
+      "pose": "stretching",
+      "orient": "high_angle",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "open back",
+        "high thigh slit"
+      ],
+      "lead": "detail",
+      "example_text": "a 1940s swing dress with a sweetheart neckline, mid-twirl at a swing dance hall",
+      "selection_source": "Planner-generated query loaded through actual prompt.html UI, all planner controls locked; no manual option changes.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The ivory hem of her skirt fans across the parquet during the turn, with amber stage lamps and a small bandstand behind her.",
+          "reason": "This example omits this concrete local light, object and activity detail: The ivory hem of her skirt fans across the parquet during the turn, with amber stage lamps and a small bandstand behind her."
+        },
+        {
+          "field": "outfit",
+          "content": "A red 1940s sweetheart swing dress has an open back and a deep thigh slit within its flared skirt, finished with brown dance heels.",
+          "reason": "This cut uses the planned garment types and exposure construction: A red 1940s sweetheart swing dress has an open back and a deep thigh slit within its flared skirt, finished with brown dance heels."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active is applied to The ivory hem of her skirt fans across the parquet during the turn, with amber stage lamps and a small bandstand behind her.",
+        "source_influence": "strong is represented through A red 1940s sweetheart swing dress has an open back and a deep thigh slit within its flared skirt, finished with brown dance heels.",
+        "separates_preference": "balanced follows the construction of dress"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "occupation_basic",
+      "ex": "industrial_inspector",
+      "garments": [
+        "shirt",
+        "shorts"
+      ],
+      "orient": "seated_twist",
+      "frame": "waist_up",
+      "pose": "cross_legged",
+      "expr": "gentle",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "example_text": "Pokémon reserve caretaker checking a habitat gate and replenishing shaded water bowls with practical gloves.",
+      "selection_source": "Planner-generated query loaded through actual prompt.html UI, all planner controls locked; no manual option changes.",
+      "random_changes": "none",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A galvanized water pitcher rests beside the shaded bowls near the timber habitat gate; her gloved hand checks its latch before she tops up the nearest bowl.",
+          "reason": "This example omits this concrete local light, object and activity detail: A galvanized water pitcher rests beside the shaded bowls near the timber habitat gate; her gloved hand checks its latch before she tops up the nearest bowl."
+        },
+        {
+          "field": "outfit",
+          "content": "An ochre cropped utility shirt with tailored side cutouts and dark-brown keeper shorts exposes the side waist, midriff and thighs; close-fitting work gloves and ankle boots complete the outfit.",
+          "reason": "This cut uses the planned garment types and exposure construction: An ochre cropped utility shirt with tailored side cutouts and dark-brown keeper shorts exposes the side waist, midriff and thighs; close-fitting work gloves and ankle boots complete the outfit."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed is applied to A galvanized water pitcher rests beside the shaded bowls near the timber habitat gate; her gloved hand checks its latch before she tops up the nearest bowl.",
+        "source_influence": "subtle is represented through An ochre cropped utility shirt with tailored side cutouts and dark-brown keeper shorts exposes the side waist, midriff and thighs; close-fitting work gloves and ankle boots complete the outfit.",
+        "separates_preference": "prefer separates follows the construction of shirt, shorts"
+      }
+    }
+  ],
+  "check": "Corrected complete Git tree filename inventory, fresh planner and casual-ledger check passed; stamped reservation verified before replacement generation",
+  "reservation_commit": "7f5ac57852b38df1883398eaf388edc324c6a59b",
+  "revisions": {
+    "reservation_commit": "7f5ac57852b38df1883398eaf388edc324c6a59b",
+    "initial_reservation_commit": "bfd9bcd33d44ba9c8956e5faec2f5639013999bd",
+    "inventory_correction": "The initial filename inventory did not decode Git's quoted Korean paths, omitting most membership links. This was found before publication. Inventory was rebuilt using NUL-delimited UTF-8 Git tree names; fresh ledger validation was rerun with all available UI/import metadata. Replacements were planned and reserved before new generation.",
+    "pyroar_casual3": "Initial hotel earring scene replaced with reserve caretaker to provide an orientation not used by comparison characters; original prompt/UI retained under attempts/initial.",
+    "flabebe_casual1": "Initial open-shirt lingerie result was blocked by the image safety system (output sexual, request 697316b2-1f81-4ef0-bc58-8df568eafb7b), no output returned. A different example and setting were selected by the planner, without lowering fixed axes.",
+    "flabebe_casual2": "Initial disco scene was preserved in the session, but replaced because the mandatory-category position duplicated Pyroar after full inventory correction. Planner selected origami while keeping companion care.",
+    "unused_plans": "Intermediate planner results failed checks or had incompatible garment/example combinations (satin pajamas with slip; ao dai with lingerie/skirt/trousers), so were excluded through --avoid and never submitted for generation.",
+    "git_publication": "Shell Git has no push credential. Connected GitHub Git-data tools create one additive commit per character and update main with force=false and expected current head; local worktree commits remain preserved."
+  },
+  "tool": "built-in image_gen",
+  "storage": "Shared blob:none Git object data, separate task branches and sparse worktrees. Only UI/import metadata needed for fresh ledger calculations and selected comparison thumbnails fetched. Membership-only /dev/null links represent exact remote image names; never staged or uploaded."
+}

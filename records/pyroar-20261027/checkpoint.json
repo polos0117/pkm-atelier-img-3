@@ -1,0 +1,117 @@
+{
+  "card": "화염레오",
+  "anchor": {
+    "card": "화염레오",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html UI and captured unmodified prompt; built-in image_gen",
+    "original_session_path": "/workspace/scratch/2c6e4110460a/generated_images/exec-a0db37dd-64cc-4da2-a2ca-88eb804ebfe6.png",
+    "original_sha256": "e5a1d711d64228889511c4d9d8bec0692064968b0367a148a156e045ff8b0561",
+    "references": [],
+    "output": {
+      "file": "화염레오_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "950c153a554c313c5ad8b22b3839154ee77be368923cf056deb16212e57064e9"
+    }
+  },
+  "face_reason": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다.",
+  "source_evidence": {
+    "name": "화염레오",
+    "en": "Pyroar",
+    "color": "brown",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "stripe",
+        "detail": "dark brown stripe"
+      },
+      {
+        "part": "mane",
+        "detail": "large, predominantly red mane"
+      },
+      {
+        "part": "leg",
+        "detail": "light brown legs"
+      },
+      {
+        "part": "nose",
+        "detail": "dark brown nose"
+      },
+      {
+        "part": "tip",
+        "detail": "tail tip"
+      },
+      {
+        "part": "fur",
+        "detail": "light brown fur"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Pyroar_%28Pok%C3%A9mon%29",
+    "revision": 4611265,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "efce25ef06c77e9a832691abf9852e09dc0146b400fa2cd7daca669ad9d4bd4f",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "화염레오",
+    "en": "Pyroar",
+    "line": "레오꼬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "feathered full brows",
+      "nose character": "small delicate nose",
+      "lips": "thin lips"
+    },
+    "why": "",
+    "cues": [
+      "불꽃 타입 → 눈꼬리 각도 올라간 눈꼬리",
+      "‘large, predominantly red mane’ → 눈썹 숱 많고 결이 보이는"
+    ],
+    "adjusted": "같은 계열 레오꼬와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 사이가 넓은 → 눈 하나 너비 안팎, 눈썹 길고 바깥 아치가 선명한 → 숱 많고 결이 보이는, 코 보통 → 작고 여린 코 [머리] 진화 계열의 머리 잇기 규칙에 맞추려고 층감이 강한 울프컷 → 포니테일",
+    "hair": {
+      "hairstyle": "ponytail",
+      "hair length": "long",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "노말 타입에서 포니테일(묶은 꼬리) · 긴 머리 · 옆으로 넘긴 앞머리 — 레오꼬에서 이어 같은 묶음",
+    "hair_cues": [
+      "노말 타입 → 헤어스타일 포니테일"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, average spacing; feathered full brows; small delicate nose; thin lips.",
+  "compared_characters": [
+    "모아머",
+    "마디네",
+    "쉐이미",
+    "레오꼬"
+  ],
+  "batches": [
+    "anchor accepted",
+    "heavy and mobility accepted",
+    "three matching-composition overdrives accepted",
+    "three casuals accepted"
+  ],
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "originals": "PNG session only; original and final WebP hashes retained in classification.json"
+}

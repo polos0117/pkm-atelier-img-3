@@ -1,0 +1,340 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "sha256": "e5a1d711d64228889511c4d9d8bec0692064968b0367a148a156e045ff8b0561",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 어깨·팔뚝·허리·정강이의 슬림한 갑판 한 겹."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "sha256": "2ea5a334db58a012d60423850e14340b8a54a7071dde10b65c55b8afa256f4ee",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 주황빛 불꽃가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "sha256": "efe3061ea8a7901ff6cbf49f230c9bd7c076e2e3c84e9c14c2b625edde853a30",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 어깨·팔·허벅지·정강이에 두껍고 넓은 판이 겹쳐 큰 외곽선을 형성."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "sha256": "f435dca101468f8ce0f8c30d25f1c83fa8df0f8cd1f298c3fbee1167ae741989",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 어깨·허리·종아리 판이 뒤로 갈라져 열린 윤곽과 추진 장치를 형성."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "sha256": "d8140062231ae71f12f5e21ec98ab51a149a6cbe1b38da428b7827a0fd69a081",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 주황빛 불꽃가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "sha256": "002a6cc1940107a2c09c106d531803bb0ca10b1c8686bd1d7e77fd8e68883f17",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "황갈색 판과 검은 슈트, 어깨를 감싸는 붉은 갈기 깃, 폐허의 불꽃 배경. 양 팔은 아래로 내려 두 손이 손목에 연결되고, 양 다리의 무릎·발목·굽이 각각 이어진다. 해당 닫힌 폼과 얼굴 크기·몸통·양발 위치가 같은 구도에서 판 이음새가 열려 내부 프레임과 주황빛 불꽃가 드러남."
+        },
+        "framing_expression_wardrobe": {
+          "match": true,
+          "evidence": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑 손은 엄지가 몸통 쪽에 있고 긴 검지와 굽힌 세 손가락이 보인다. 화면 오른쪽 장갑 손도 엄지와 네 손가락이 굽혀 겹치며 각각 손목 끝에 붙어 있다. 검수 확대 화면에서 제3의 손이나 겹친 손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "전신 원본과 양손 확대를 육안 대조. 얼굴·머리·체형은 경장 기준을 유지하며, 개방에도 추가 무기·헬멧이 없음. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "sha256": "fa9f34c492cc8ba0f4323e6ded48e4badf12afdf91d71bf14a0e6530ecb75255",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "빗줄기가 보이는 현관에서 젖은 황갈색 우비를 팔에 걸치고 팔짱을 낀다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "적갈색 홀터 블라우스의 어깨와 옆구리 컷아웃, 짧은 갈색 바지와 양 다리·샌들이 보인다. 활동은 우비를 벗는 도중의 멈춘 순간."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "위쪽 손의 손등과 네 손가락·손톱이 우비 위에 놓이고 엄지는 뒤로 가려짐. 아래쪽 손은 반대 팔과 우비 아래 가려짐. 두 어깨에서 팔꿈치·팔뚝으로 연결되는 팔 둘을 확인.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "적갈색 홀터 블라우스의 어깨와 옆구리 컷아웃, 짧은 갈색 바지와 양 다리·샌들이 보인다. 활동은 우비를 벗는 도중의 멈춘 순간. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "sha256": "fc747ccc0f96e8d19579614dac5dba462923dcdf0a88b4dcbac0370382f96acf",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "목재 댄스홀에서 붉은 스윙 드레스 자락이 돌며 펼쳐지고, 뒤에 악기와 작은 밴드 무대가 보인다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "위에서 내려다보는 각도와 무거운 눈꺼풀, 벌어진 입술이 읽힌다. 가슴 위 계획보다 넓게 허벅지까지 보이며, 팔을 뻗은 회전 동작과 드레스 주름으로 스윙 활동이 보인다. 배경 연주자는 작고 초점이 흐린 형체다."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 팔이 어깨에서 위로 뻗고 손은 프레임 밖에 가려져 손가락 수는 확인 불가. 추가 팔·손 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "위에서 내려다보는 각도와 무거운 눈꺼풀, 벌어진 입술이 읽힌다. 가슴 위 계획보다 넓게 허벅지까지 보이며, 팔을 뻗은 회전 동작과 드레스 주름으로 스윙 활동이 보인다. 배경 연주자는 작고 초점이 흐린 형체다. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "sha256": "74ac23bd43bdd61f7fca050af8ce951c646dbd067932b7f71f88d2059f3b1f3a",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황갈색·붉은 긴 포니테일, 높이 올라간 가는 눈꼬리와 좁은 턱, 결이 보이는 눈썹. 레오꼬의 둥글고 어린 인상보다 성숙한 날카로운 눈매이며 모아머의 수평 눈·마디네의 짧은 윤곽·쉐이미의 열린 눈과 구분된다."
+        },
+        "scene_and_activity": {
+          "match": true,
+          "evidence": "보호구역 목재 울타리 문 옆 그늘에서 금속 물통을 기울여 큰 물그릇에 물을 채운다."
+        },
+        "framing_expression_wardrobe": {
+          "match": null,
+          "evidence": "황갈색 크롭 작업 셔츠와 갈색 쇼츠, 장갑과 부츠. 옆구리 컷아웃과 복부·허벅지가 드러나며 양 다리는 방석 위에서 서로 교차한다. 계획의 허리 위보다 넓게 양 무릎과 부츠가 보인다. 두 다리의 허벅지·정강이·부츠 연결을 확인했다."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "주인공 한 명, 분리된 팔다리·중복 얼굴 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "원본 PNG와 WebP를 Pillow로 열어 1024×1536 확인"
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "물통의 위 손잡이를 잡은 장갑 손은 엄지와 굽힌 네 손가락이 손잡이 주변에 겹치며, 아래 손은 통 아래쪽을 받쳐 손가락이 용기 뒤로 일부 가려진다. 두 손 모두 팔뚝·손목에서 자연스럽게 이어진다.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "황갈색 크롭 작업 셔츠와 갈색 쇼츠, 장갑과 부츠. 옆구리 컷아웃과 복부·허벅지가 드러나며 양 다리는 방석 위에서 서로 교차한다. 계획의 허리 위보다 넓게 양 무릎과 부츠가 보인다. 두 다리의 허벅지·정강이·부츠 연결을 확인했다. 프레임 밖·옷 뒤의 손가락이나 다리 부분은 가려짐으로 판정하며 보이는 것으로 꾸며 세지 않음."
+      }
+    }
+  ],
+  "diversity_comparison": {
+    "actual_comparison_images": [
+      "모아머",
+      "마디네",
+      "쉐이미",
+      "레오꼬"
+    ],
+    "evidence": "빗줄기가 보이는 현관에서 젖은 황갈색 우비를 팔에 걸치고 팔짱을 낀다. | 목재 댄스홀에서 붉은 스윙 드레스 자락이 돌며 펼쳐지고, 뒤에 악기와 작은 밴드 무대가 보인다. | 보호구역 목재 울타리 문 옆 그늘에서 금속 물통을 기울여 큰 물그릇에 물을 채운다. 장소·활동·옷 실루엣·몸 방향이 실제로 구분됨. 비교 대상의 수영장·카메라 촬영·발레·산장 열쇠·고리 던지기·라테 서빙과 주 활동이 겹치지 않음.",
+    "look_check": "generated_images/exec-0612e8d4-422c-4bdf-8b59-175c1325fbf7.png — 가까운 컷 1장(점수 245 미만)\n     241  우츠보트_glossy_promo_f_casual2.webp\n     258  껍질몬_glossy_promo_f_casual3.webp\n     258  데구리_glossy_promo_f_casual1.webp\ngenerated_images/exec-5e058107-9d05-445c-a517-a2482a1580d7.png — 가까운 컷 0장(점수 245 미만)\n     306  체리꼬_glossy_promo_f_casual3.webp\n     317  앱솔_glossy_promo_f_casual2.webp\n     322  랑딸랑_glossy_promo_f_casual1.webp\ngenerated_images/exec-c231adea-3c7c-454c-ab43-80b01ee5c414.png — 가까운 컷 0장(점수 245 미만)\n     308  갱도라_glossy_promo_f_casual2.webp\n     314  왕눈해_glossy_promo_f_casual3.webp\n     315  코코리_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}
