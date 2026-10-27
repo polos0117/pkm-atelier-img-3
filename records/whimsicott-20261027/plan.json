@@ -1,0 +1,791 @@
+{
+  "session": "cottonee-whimsicott-8904998",
+  "batch": {
+    "session": "cottonee-whimsicott-8904998",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "소미안",
+        "species": "cottonee-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "side_sitting",
+            "expr": "pensive",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "cold_plunge",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "standing_formal",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "bridal_shower",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "carrying_something",
+            "expr": "relieved",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "spa_wellness",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "reclining",
+            "low_angle",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "엘풍",
+        "species": "whimsicott-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "velvet_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "leaning_wall",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "flapper_party",
+            "expr": "flustered",
+            "pose": "hand_on_hip",
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "biker_cafe",
+            "expr": "smug",
+            "pose": "perched_seat",
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "jacket",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "private_evening",
+      "ex": "velvet_evening",
+      "garments": [
+        "dress"
+      ],
+      "orient": "rear_3q",
+      "frame": "full_body",
+      "pose": "leaning_wall",
+      "expr": "provocative",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "example_text": "a heavy velvet evening dress with its deep sheen",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "cut": 1,
+          "cat": "private_evening",
+          "ex": "velvet_evening",
+          "garments": [
+            "dress"
+          ],
+          "orient": "rear_3q",
+          "frame": "full_body",
+          "pose": "leaning_wall",
+          "expr": "provocative",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "one-shoulder cut"
+          ],
+          "lead": "light"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm amber evening light glows across the walnut panels and gathered velvet curtains beside a tall sitting-room window.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Warm amber evening light glows across the walnut panels and gathered velvet curtains beside a tall sitting-room window."
+        },
+        {
+          "field": "outfit",
+          "content": "An olive velvet one-shoulder evening dress with a high thigh slit and a narrow satin waist drape.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: An olive velvet one-shoulder evening dress with a high thigh slit and a narrow satin waist drape."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced for Warm amber evening light glows across the walnut panels and gathered velvet curtains beside a tall sitting-room window.",
+        "source_influence": "balanced implemented by An olive velvet one-shoulder evening dress with a high thigh slit and a narrow satin waist drape.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "flapper_party",
+      "expr": "flustered",
+      "pose": "hand_on_hip",
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "strapless top"
+      ],
+      "lead": "action",
+      "example_text": "a 1920s flapper fringe dress with a dropped waist and a beaded headband, mid-Charleston step at a speakeasy party",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "kept": true,
+          "cut": 2,
+          "cat": "retro_glamour",
+          "ex": "flapper_party",
+          "expr": "flustered",
+          "pose": "hand_on_hip",
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "strapless top"
+          ],
+          "lead": "action"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An art-deco speakeasy dance floor with amber lamps; the Charleston step has one foot turning inward and the other stepping out, swinging the dress fringe.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: An art-deco speakeasy dance floor with amber lamps; the Charleston step has one foot turning inward and the other stepping out, swinging the dress fringe."
+        },
+        {
+          "field": "outfit",
+          "content": "An asymmetrical strapless emerald flapper dress with a single shoulder-draped bead strand, bare shoulders and collarbones.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: An asymmetrical strapless emerald flapper dress with a single shoulder-draped bead strand, bare shoulders and collarbones."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for An art-deco speakeasy dance floor with amber lamps; the Charleston step has one foot turning inward and the other stepping out, swinging the dress fringe.",
+        "source_influence": "subtle implemented by An asymmetrical strapless emerald flapper dress with a single shoulder-draped bead strand, bare shoulders and collarbones.",
+        "separates_preference": "balanced follows the actual garment construction dress"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "subculture_fashion",
+      "ex": "biker_cafe",
+      "expr": "smug",
+      "pose": "perched_seat",
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "jacket",
+        "trousers"
+      ],
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "light",
+      "example_text": "biker — a fitted leather riding jacket open over a bandeau top, leather trousers and boots, beside a motorcycle at a roadside cafe",
+      "source": "Planner query opened in actual prompt.html UI in Chromium; random selections and all locks captured in UI file; no choice values manually changed.",
+      "random": {
+        "planned_values": {
+          "kept": true,
+          "cut": 3,
+          "cat": "subculture_fashion",
+          "ex": "biker_cafe",
+          "expr": "smug",
+          "pose": "perched_seat",
+          "orient": "looking_away",
+          "frame": "three_quarter",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "crop_top",
+            "jacket",
+            "trousers"
+          ],
+          "expose": [
+            "cropped hem",
+            "open back"
+          ],
+          "lead": "light"
+        },
+        "manual_selection_changes": []
+      },
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Blue morning light pours through a roadside biker cafe window, illuminating chrome motorcycle parts outside.",
+          "reason": "Adds the activity objects, local setting, time or light specific to this cut: Blue morning light pours through a roadside biker cafe window, illuminating chrome motorcycle parts outside."
+        },
+        {
+          "field": "outfit",
+          "content": "A short open olive biker jacket, a backless cropped cream top, and brown trousers; the cropped layers reveal the waist and the top's open back.",
+          "reason": "Implements planned garment and exposure construction with these materials and colors: A short open olive biker jacket, a backless cropped cream top, and brown trousers; the cropped layers reveal the waist and the top's open back."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no explicit size parameter; project requires exact 2:3 dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed for Blue morning light pours through a roadside biker cafe window, illuminating chrome motorcycle parts outside.",
+        "source_influence": "strong implemented by A short open olive biker jacket, a backless cropped cream top, and brown trousers; the cropped layers reveal the waist and the top's open back.",
+        "separates_preference": "prefer separates follows the actual garment construction crop_top,jacket,trousers"
+      }
+    }
+  ],
+  "check": "Planner batch check passed; reservation stamp verify passed before generation.",
+  "reservation_commit": "489b74c4fb5bfd492715ca84d7b421d8323ea904",
+  "compared_actual_images": [
+    "휠구 casual1–3",
+    "펜드라 casual1–3",
+    "화염레오 casual1–3",
+    "플라베베 casual1–3"
+  ],
+  "storage": "Shared blob:none Git metadata in /workspace/shared-git; task branch and sparse worktrees; inventory symlinks excluded from all publication manifests.",
+  "reservation_commits": [
+    "489b74c4fb5bfd492715ca84d7b421d8323ea904",
+    "d8c1157755dcccc429fa751e2e31aa0fd6a6736e"
+  ],
+  "initial_batch": {
+    "session": "cottonee-whimsicott-8904998",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "소미안",
+        "species": "cottonee-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "side_sitting",
+            "expr": "pensive",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "cold_plunge",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "standing_formal",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "bridal_shower",
+            "garments": [
+              "dress"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "carrying_something",
+            "expr": "relieved",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "spa_wellness",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "reclining",
+            "low_angle",
+            "high_angle"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "엘풍",
+        "species": "whimsicott-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "breakfast_bed",
+            "garments": [
+              "slip"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "leaning_furniture",
+            "expr": "provocative",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "flapper_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "flustered",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "strapless top"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "biker_cafe",
+            "garments": [
+              "crop_top",
+              "jacket",
+              "trousers"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "perched_seat",
+            "expr": "smug",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip",
+            "jacket"
+          ],
+          "orient": [
+            "rear_3q",
+            "turning_midmotion",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "revisions": [
+    {
+      "slot": "casual1",
+      "status": "moderation_blocked on initial homewear/breakfast_bed, no output file",
+      "replan": "Planner --avoid 엘풍:1:ex=breakfast_bed --keep 엘풍:2,3; selected private_evening/velvet_evening. All fixed intensity values preserved, no filter-oriented rewording of blocked scene.",
+      "actual_result": "Olive velvet full gown, sunset window, champagne flute."
+    },
+    {
+      "slot": "casual2",
+      "reason": "Original paused at doorway instead of Charleston dance. Removed conflicting pause instruction through actual UI, retaining all planner choices.",
+      "prior_original_sha256": "fb1de022b2e9af4341371ef8b12eeb911ac07733d34917e552ea19ec84223169",
+      "changed_field": "scene",
+      "new_scene": "An art-deco speakeasy dance floor with amber lamps; the Charleston step has one foot turning inward and the other stepping out, swinging the dress fringe.",
+      "result": "Torso turning and swinging fringe present; feet below frame, recorded."
+    }
+  ]
+}

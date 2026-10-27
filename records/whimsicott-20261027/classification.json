@@ -1,0 +1,248 @@
+[
+  {
+    "card": "엘풍",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+    "original_sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "엘풍_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "79cf50b04dd05dff9b3ee72ee5c8ba9c874ccc173e3ece6326f66b81ab65454a"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-9c8ba08d-9458-405c-8bcf-f7e3440d7d2c.png",
+    "original_sha256": "533f1ac5f05b45a53e21dfde69f141408b7ac14f1a7239197eb8d0cb35520a9d",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "엘풍_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "d4b1b3904219da53b6c709a8bb1264c07c295729b231c5727ad867d2570f508f"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-248c7931-b0aa-4828-96e8-7ce5de424799.png",
+    "original_sha256": "d8aa285716a7a6c2362967b3a5c24f4e0afba599365bd00d43e0ee193768f2f5",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "엘풍_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "525ffc831ac1b4300f0955184d53d76aa58b0b61aea9123554b779ff683c46de"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-e63c4df8-c7c1-4657-8436-76d0a5afac5d.png",
+    "original_sha256": "00add36a623b4af8cdebf84e54f4b1e321690ce526e68c2f2eca2bed8b054c20",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "엘풍_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "a2b2864552bfd102fddcfedb6dddee30c3ae2ec73053f4e7370d41e9a5056fec"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-f43ca44a-d16c-430e-81ea-2a36adce9e81.png",
+    "original_sha256": "1ee13c3cc3e6367cf56d608fbe362a6e0e2bc870d3a1602337038a8eb5caeac1",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-248c7931-b0aa-4828-96e8-7ce5de424799.png",
+        "sha256": "d8aa285716a7a6c2362967b3a5c24f4e0afba599365bd00d43e0ee193768f2f5"
+      },
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "엘풍_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "08de4cc68d2d5635206e822cf6003cb1fec5701200f85aa9d904f057b2713e11"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-a5a5a55a-622e-4c6c-8b1c-0c1898eb84d7.png",
+    "original_sha256": "7231b6b6d682d36a69bde044dbab111f776985f79a76f745da07abbc45dcd190",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-e63c4df8-c7c1-4657-8436-76d0a5afac5d.png",
+        "sha256": "00add36a623b4af8cdebf84e54f4b1e321690ce526e68c2f2eca2bed8b054c20"
+      },
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "엘풍_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "abc41e0b17b1fea53ba44a51df34ef52f14f24ad8715d12c564c3a8943f669a3"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-84d333f8-964a-4235-8136-7bba577bd6b0.png",
+    "original_sha256": "45ca6a13dbf7fde69537efd714ab1c1db7c9d7dde710bcd7015dd5d436399cac",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "엘풍_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "4207b0a5d0e5b6dfe8ffd5177d65aab7c3a6b1c15926474b45083488086cb3e8"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-d50b9a99-126d-48a8-91e3-f1f3131d7caa.png",
+    "original_sha256": "dd94ff4350d39e3960227ecd35848a1c44615b02f4d77aca415ba5776ecb9c96",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "엘풍_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "dfc60208667e913ca7153ff615168d1811a76a84d05daf4730de13776a4acf18"
+    }
+  },
+  {
+    "card": "엘풍",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "basis": "Actual Chromium prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/8904998bc358/generated_images/exec-dac499e6-c4e4-48ac-973b-62e8d8148090.png",
+    "original_sha256": "04525a9648ca546cd22de897448acfee76f2a929ef449928916eecbbee3656f4",
+    "references": [
+      {
+        "path": "/workspace/scratch/8904998bc358/generated_images/exec-44f3801d-5315-4d04-b89d-934671c0a8e3.png",
+        "sha256": "684fd9b2844218e1a4ebed55e929db4296b0001982341bf8da076700f0238e87"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "엘풍_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "141a8eebc166cf44bd3e12a9db65107c4e0fe0e683a98929f09e01b22b141db1"
+    }
+  }
+]
