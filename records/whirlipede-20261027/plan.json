@@ -1,0 +1,409 @@
+{
+  "session": "whirlipede-scolipede-0569",
+  "initial_batch_and_final_cuts": {
+    "session": "whirlipede-scolipede-0569",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "휠구",
+        "species": "whirlipede-20261027",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "food_berries",
+            "ex": "food_noodles",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "eating",
+            "expr": "surprised",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "power_glam",
+            "expr": "half_smile",
+            "pose": "turning_back",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "action",
+            "aspect": "2:3"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "pirate_captain",
+            "expr": "focused",
+            "pose": "looking_through",
+            "orient": "side",
+            "frame": "waist_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat"
+            ],
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "light",
+            "aspect": "2:3"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "food_berries",
+            "active",
+            "homewear",
+            "private_evening",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "apron"
+          ],
+          "orient": [
+            "three_quarter_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "펜드라",
+        "species": "scolipede-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "ceramic_plate",
+            "expr": "unimpressed",
+            "pose": "sitting_floor",
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "action",
+            "aspect": "2:3"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "traditional",
+            "ex": "aodai_daily",
+            "expr": "nostalgic",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "lingerie_set",
+              "skirt",
+              "trousers"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "detail",
+            "aspect": "2:3"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "front_lace_corset",
+            "expr": "sensual",
+            "pose": "contrapposto",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "light",
+            "aspect": "2:3"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "everyday_basic",
+            "active",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "food_berries",
+      "ex": "food_noodles",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "three_quarter",
+      "pose": "eating",
+      "expr": "surprised",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "halter neck"
+      ],
+      "lead": "action",
+      "example_text": "Eating a bowl of noodles with chopsticks at a steamy night food-stall counter.",
+      "source": "Planner-generated query rendered by actual local prompt.html UI; selections and random locks captured, no manual choice edits.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She tastes a strand of noodles with wooden chopsticks beside a steaming bowl at a street-food stall, with ceramic bowls and afternoon market awnings behind her.",
+          "reason": "Adds this cut's concrete activity, objects and local setting: She tastes a strand of noodles with wooden chopsticks beside a steaming bowl at a street-food stall, with ceramic bowls and afternoon market awnings behind her."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped violet halter apron over a fitted ivory top, paired with charcoal high-waisted shorts, leaving the shoulders and waist visible; red circular embroidery trims the apron pocket.",
+          "reason": "Follows this cut's planned garment and exposure construction: A cropped violet halter apron over a fitted ivory top, paired with charcoal high-waisted shorts, leaving the shoulders and waist visible; red circular embroidery trims the apron pocket."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size setting; exact project portrait dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced matches She tastes a strand of noodles with wooden chopsticks beside a steaming bowl at a street-food stall, with ceramic bowls and afternoon market awnings behind her.",
+        "source_influence": "strong is implemented in A cropped violet halter apron over a fitted ivory top, paired with charcoal high-waisted shorts, leaving the shoulders and waist visible; red circular embroidery trims the apron pocket.",
+        "separates_preference": "prefer separates follows apron,shorts"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "power_glam",
+      "expr": "half_smile",
+      "pose": "turning_back",
+      "orient": "front_3q",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "aspect": "2:3",
+      "example_text": "an 1980s sequined mini dress with strong padded shoulders in a neon nightclub",
+      "source": "Planner-generated query rendered by actual local prompt.html UI; selections and random locks captured, no manual choice edits.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She moves from the glowing dance floor toward the entry arch, with magenta and cyan light bands reflected across the floor.",
+          "reason": "Adds this cut's concrete activity, objects and local setting: She moves from the glowing dance floor toward the entry arch, with magenta and cyan light bands reflected across the floor."
+        },
+        {
+          "field": "outfit",
+          "content": "A graphite sequined mini dress with padded off-shoulder sleeves and a high thigh slit, edged with muted violet sequins.",
+          "reason": "Follows this cut's planned garment and exposure construction: A graphite sequined mini dress with padded off-shoulder sleeves and a high thigh slit, edged with muted violet sequins."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size setting; exact project portrait dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active matches She moves from the glowing dance floor toward the entry arch, with magenta and cyan light bands reflected across the floor.",
+        "source_influence": "subtle is implemented in A graphite sequined mini dress with padded off-shoulder sleeves and a high thigh slit, edged with muted violet sequins.",
+        "separates_preference": "balanced follows dress"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "pirate_captain",
+      "expr": "focused",
+      "pose": "looking_through",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "coat"
+      ],
+      "expose": [
+        "cropped hem",
+        "halter neck"
+      ],
+      "lead": "light",
+      "aspect": "2:3",
+      "example_text": "a pirate captain party costume — a cropped brocade coat over a cinched waist, a tricorn hat and tall boots; raising a prop spyglass on a ship-deck stage set (props only, no weapons)",
+      "source": "Planner-generated query rendered by actual local prompt.html UI; selections and random locks captured, no manual choice edits.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm stage lamps illuminate the wood planks and painted night-sea backdrop of the theatre ship deck; the raised prop spyglass is brass.",
+          "reason": "Adds this cut's concrete activity, objects and local setting: Warm stage lamps illuminate the wood planks and painted night-sea backdrop of the theatre ship deck; the raised prop spyglass is brass."
+        },
+        {
+          "field": "outfit",
+          "content": "A short purple brocade coat worn open over a black halter bodice, with a cropped hem revealing the waist and upper chest; a tricorn and tall boots complete the theatrical costume.",
+          "reason": "Follows this cut's planned garment and exposure construction: A short purple brocade coat worn open over a black halter bodice, with a cropped hem revealing the waist and upper chest; a tricorn and tall boots complete the theatrical costume."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Tool has no size setting; exact project portrait dimensions."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced matches Warm stage lamps illuminate the wood planks and painted night-sea backdrop of the theatre ship deck; the raised prop spyglass is brass.",
+        "source_influence": "subtle is implemented in A short purple brocade coat worn open over a black halter bodice, with a cropped hem revealing the waist and upper chest; a tricorn and tall boots complete the theatrical costume.",
+        "separates_preference": "prefer separates follows coat"
+      }
+    }
+  ],
+  "check": "Initial two-character batch passed. Only failed Whirlipede casual1 was replanned separately with the other reserved cuts retained; single-character replacement plan passed and reservation stamps verified.",
+  "reservation_commits": [
+    "544a9cd881d16c83d82f9ddbce366fd82b1c4ab5",
+    "7723713cda4a9a689ad2f15da0d794301606234b",
+    "db4aae45bd65a17141642b5c0beb91a4539fcdde"
+  ],
+  "revisions": [
+    {
+      "slot": "whirlipede/casual1",
+      "blocked": [
+        "homewear/breakfast_bed",
+        "food_berries/food_juice"
+      ],
+      "final": "food_berries/food_noodles",
+      "reason": "Image tool returned moderation_blocked; distinct activities replanned, no same-scene prompt rewording."
+    }
+  ],
+  "storage": "Shared blob:none Git data; separate sparse task worktrees; only planner UI/import metadata and selected comparison images fetched. Exact filename inventory links are excluded from staging."
+}

@@ -1,0 +1,105 @@
+{
+  "card": "휠구",
+  "anchor": {
+    "card": "휠구",
+    "slot": "light",
+    "style": "glossy_promo",
+    "basis": "actual prompt.html UI output; built-in image_gen",
+    "original_session_path": "/workspace/scratch/0569198be9cf/generated_images/exec-1095c94a-6beb-438c-a8be-e0dc92262238.png",
+    "original_sha256": "c2fac47386144d136e8bea6307a0e40502ede5e38102b322ae8176a780b3c4ac",
+    "references": [],
+    "output": {
+      "file": "휠구_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "294f0775620ed7ccd99e6db215507a691676657843dbd5f82cdf27b1faf98451"
+    }
+  },
+  "face_reason": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조.",
+  "source_evidence": {
+    "name": "휠구",
+    "en": "Whirlipede",
+    "color": "gray",
+    "shape": "ball",
+    "features": [
+      {
+        "part": "feeler",
+        "detail": "purple, horn-like feelers"
+      },
+      {
+        "part": "stripe",
+        "detail": "dark gray stripes"
+      },
+      {
+        "part": "shell",
+        "detail": "hard, segmented shell"
+      },
+      {
+        "part": "ring",
+        "detail": "red rings"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Whirlipede_%28Pok%C3%A9mon%29",
+    "revision": 4624808,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "1aa49842978da0ad091f965fe1f7101a2b8617bade7c0d17d05eba67f02bc1fe",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_design": {
+    "name": "휠구",
+    "en": "Whirlipede",
+    "line": "마디네",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "narrow",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "straight slender bridge",
+      "lips": "thin lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 ball → 얼굴형 부드럽고 둥근 얼굴형",
+      "몸 형태 ball → 얼굴 길이 짧은 얼굴",
+      "몸 형태 ball → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "몸 형태 ball → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 크기 작은 눈 → 보통",
+    "hair": {
+      "hairstyle": "twin tail",
+      "hair length": "long",
+      "bangs": "asymmetric bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘purple, horn-like feelers’에서 트윈테일(묶은 꼬리) · 긴 머리 · 좌우 길이가 다른 앞머리 — 마디네에서 이어 더 공들인 묶음",
+    "hair_cues": [
+      "‘purple, horn-like feelers’ → 헤어스타일 트윈테일",
+      "‘purple, horn-like feelers’ → 머리 길이 긴 머리"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, narrow width; soft rounded jaw; narrow eyes, medium size, level outer corners, wide-set; straight medium brows; straight slender bridge nose; thin lips.",
+  "compared_characters": [
+    "마디네",
+    "모아머",
+    "화염레오",
+    "플라베베"
+  ],
+  "generated": 9,
+  "requested": 9,
+  "status": "ready_for_publication",
+  "originals": "Session PNG only; SHA256 recorded, no raw PNG committed."
+}

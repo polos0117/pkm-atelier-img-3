@@ -1,0 +1,331 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "slots": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치. 대응 닫힌 폼과 같은 카메라·자세·인물 크기에서 판이 벌어져 내부 프레임과 녹색 광채가 드러남. 새 무기나 헬멧 없음."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치. 대응 닫힌 폼과 같은 카메라·자세·인물 크기에서 판이 벌어져 내부 프레임과 녹색 광채가 드러남. 새 무기나 헬멧 없음."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라색 판과 검은 슈트, 붉은 고리 도장과 어깨를 감싸는 분절 망토. 폐허와 보라색 소용돌이 배경에 두 발로 선 전신. 경장은 한 겹, 중장은 어깨·허벅지·정강이에 넓은 겹판, 고기동은 뒤로 갈라진 판과 추진 장치. 대응 닫힌 폼과 같은 카메라·자세·인물 크기에서 판이 벌어져 내부 프레임과 녹색 광채가 드러남. 새 무기나 헬멧 없음."
+        },
+        "wardrobe_expression_frame": {
+          "match": true,
+          "evidence": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양팔은 어깨에서 팔꿈치·손목으로 각각 이어진다. 화면 왼쪽 장갑 손은 엄지가 안쪽으로 벌어지고 네 손가락은 아래로 굽혀 겹친다. 화면 오른쪽 손은 손바닥 쪽으로 손가락이 굽으며 엄지와 검지 사이가 구분된다. 접힌 손가락의 일부는 겹쳐 가려짐. 발은 양쪽 부츠 속에 각각 이어지고 중복 팔다리 없음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "원본 전체와 손·발 확대에서 인물·관절·팔다리 연결을 대조함. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "노점의 나무 의자에 앉아 젓가락으로 면을 들어 맛본다. 국수 그릇·김·시장 차양이 보임."
+        },
+        "wardrobe_expression_frame": {
+          "match": null,
+          "evidence": "홀터 앞치마와 흰 상의, 검정 반바지, 드러난 어깨와 허리·허벅지. 후면 3/4 몸통에서 얼굴은 어깨 너머로 보이며, 눈을 크게 뜨고 입을 벌린 놀란 표정. 다리는 앉아서 굽히고 하단 일부는 프레임 밖 가려짐."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "오른손 엄지와 검지·중지가 젓가락을 잡고 약지·소지는 굽혀 겹침. 다른 손은 그릇 옆 화면 가장자리에 손가락 끝 일부만 보이며 팔은 몸통 뒤에 가려짐. 두 팔의 어깨 위치와 앞쪽 팔꿈치·손목 연결을 확인.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "홀터 앞치마와 흰 상의, 검정 반바지, 드러난 어깨와 허리·허벅지. 후면 3/4 몸통에서 얼굴은 어깨 너머로 보이며, 눈을 크게 뜨고 입을 벌린 놀란 표정. 다리는 앉아서 굽히고 하단 일부는 프레임 밖 가려짐. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "보라·분홍 네온과 미러볼이 있는 댄스홀 입구에서 한 손에 클러치를 들고 몸을 돌린다."
+        },
+        "wardrobe_expression_frame": {
+          "match": null,
+          "evidence": "숯색 스팽글 미니 드레스, 패드가 들어간 오프숄더 소매와 허벅지 슬릿·맨등, 두 다리와 하이힐이 전신으로 보임. 선택한 앞 3/4·환경 중심보다 뒤 3/4·전신으로 나와 기록만 남김. 고개는 어깨 너머로 자연스럽게 돌아가며 한쪽 입꼬리가 올라간다."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "내린 손은 엄지가 안쪽으로 굽고 나머지 네 손가락이 아래로 벌어진다. 클러치를 잡은 손은 엄지가 반대면에 가려지고 네 손가락이 겉면에 놓인다. 두 손은 각 팔 끝에 붙음.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "숯색 스팽글 미니 드레스, 패드가 들어간 오프숄더 소매와 허벅지 슬릿·맨등, 두 다리와 하이힐이 전신으로 보임. 선택한 앞 3/4·환경 중심보다 뒤 3/4·전신으로 나와 기록만 남김. 고개는 어깨 너머로 자연스럽게 돌아가며 한쪽 입꼬리가 올라간다. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "보랏빛 긴 트윈테일과 비대칭 앞머리, 좁고 짧은 둥근 윤곽·수평으로 가는 눈·얇은 입술. 마디네의 붉은 짧은 머리와 좁은 눈 간격, 모아머의 긴 윤곽, 화염레오의 올라간 눈꼬리, 플라베베의 열린 아몬드 눈과 육안 대조."
+        },
+        "scene_activity": {
+          "match": true,
+          "evidence": "돛줄·목재 갑판·밤바다 배경의 연극 세트에서 황동 망원경을 눈에 대고 본다."
+        },
+        "wardrobe_expression_frame": {
+          "match": null,
+          "evidence": "보라색 짧은 브로케이드 코트와 검정 홀터 보디스·삼각모자. 어깨와 허리·허벅지가 드러나고 옆얼굴의 집중한 눈과 입이 읽힘. 계획한 허리 위보다 넓게 허벅지까지 담겼으며 하단 다리는 가려짐."
+        },
+        "single_subject": {
+          "match": true,
+          "evidence": "초점과 크기가 같은 두번째 인물, 중복 얼굴·몸통이 없음."
+        },
+        "size": {
+          "match": true,
+          "evidence": "PNG와 WebP를 각각 열어 1024×1536 확인."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "앞쪽 손은 망원경 위에 네 손가락이 걸리고 엄지는 원통 아래 가려진다. 눈 가까운 손은 엄지와 검지가 원통을 감싸고 나머지 손가락이 원통 뒤에 겹쳐 가려짐. 두 팔이 앞으로 굽어 각 손목으로 이어짐.",
+        "overlay_checked": false,
+        "manual_original_and_crops_checked": true,
+        "note": "보라색 짧은 브로케이드 코트와 검정 홀터 보디스·삼각모자. 어깨와 허리·허벅지가 드러나고 옆얼굴의 집중한 눈과 입이 읽힘. 계획한 허리 위보다 넓게 허벅지까지 담겼으며 하단 다리는 가려짐. 가려진 손가락·다리는 가려짐으로 기록."
+      }
+    }
+  ],
+  "diversity": {
+    "compared_actual_images": [
+      "마디네",
+      "모아머",
+      "화염레오",
+      "플라베베"
+    ],
+    "evidence": "노점의 나무 의자에 앉아 젓가락으로 면을 들어 맛본다. 국수 그릇·김·시장 차양이 보임. | 보라·분홍 네온과 미러볼이 있는 댄스홀 입구에서 한 손에 클러치를 들고 몸을 돌린다. | 돛줄·목재 갑판·밤바다 배경의 연극 세트에서 황동 망원경을 눈에 대고 본다. 세 장의 실제 활동·배경·옷 실루엣을 나란히 대조. 최근 캐릭터의 수영장·카메라·발레·고리 던지기·카페·재봉·급식과 구분됨.",
+    "look_check": "generated_images/exec-1c233c9a-bf40-459d-a25f-a3c3e1830db4.png — 가까운 컷 0장(점수 245 미만)\n     260  가보리_glossy_promo_f_casual2.webp\n     273  덩쿠리_glossy_promo_f_casual1.webp\n     274  파르셀_glossy_promo_f_casual1.webp\ngenerated_images/exec-a44f5bc6-782b-41ad-bc5b-8eab0d8df1f7.png — 가까운 컷 0장(점수 245 미만)\n     290  화염레오_glossy_promo_f_casual1.webp\n     297  고우스트_glossy_promo_f_casual2.webp\n     309  썬더_glossy_promo_f_casual3.webp\ngenerated_images/exec-769471b4-69e1-4256-8194-9e0575aaeee0.png — 가까운 컷 0장(점수 245 미만)\n     300  엘레이드_glossy_promo_f_casual2.webp\n     310  야나프_glossy_promo_f_casual1.webp\n     311  샤비_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}
