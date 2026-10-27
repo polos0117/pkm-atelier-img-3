@@ -1,0 +1,24 @@
+{
+  "card": "왕큰부리",
+  "stage": "qa_complete_ready_to_publish",
+  "generated": 9,
+  "requested": 9,
+  "original_policy": "session_only",
+  "force_push": false,
+  "existing_deletions": false,
+  "canonical": {
+    "path": "/workspace/scratch/72e9bf902c64/generated_images/exec-77354948-cbc6-4b80-8ca2-c1882b0f85ff.png",
+    "sha256": "23d70a5cd7ea1ddf0b3b662b9ea3f071506560d5102493767b212ca8690b8fcf"
+  },
+  "face_reason": "원작 깃털과 부리의 선을 긴 페더컷·좁고 올라간 눈꼬리·곧은 콧대로 해석한 종별 설계가 반영됨. 검은 머리와 주황·노랑 띠는 의상 팔레트로 이어짐.",
+  "face_source": "data/face-design.json faces.733; data/source-appearance.json; actual light prompt FACE/HAIR lines",
+  "compared_characters": [
+    "콕코구리",
+    "크라파",
+    "누리레느"
+  ],
+  "face_comparison": "콕코구리의 짧은 검은 머리와 작은 얼굴, 크라파의 중간 길이 페더컷·가느다란 턱, 누리레느의 둥근 눈·청색 머리와 대조. 왕큰부리는 긴 검은 페더컷·폭 있는 타원 얼굴·좁은 올라간 눈꼬리와 두꺼운 입술로 구분됨.",
+  "manifest": "classification.json",
+  "anatomy_tool": "unavailable: mediapipe not installed",
+  "visual_inspection": "full images plus enlarged hands and feet"
+}

@@ -1,0 +1,211 @@
+{
+  "reviewer": "gpt",
+  "tool_mode": "built-in image_gen",
+  "compared_characters": [
+    "콕코구리",
+    "크라파",
+    "누리레느"
+  ],
+  "diversity_comparison": "직접 나란히 본 최근 컷은 콕코구리 해변·조깅·바, 크라파 침실·배구·등불축제, 누리레느 결혼·영화·크리스마스. 이번은 주방 요리·디른들 마을 축제·로데오 무대이며 의상은 앞치마와 바지·전통 치마·카우걸 조끼와 반바지, 앉은 자세 둘도 무릎 세움과 책상다리·상체 각도·구도로 구분. 카우걸은 서서 밧줄을 돌린다.",
+  "casual_look": "pkm-atelier-img-3/img/왕큰부리_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     276  꼬마돌_glossy_promo_f_casual2.webp\n     281  크랩_glossy_promo_f_casual2.webp\n     288  가디안_glossy_promo_f_casual3.webp\npkm-atelier-img-3/img/왕큰부리_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     272  괴력몬_glossy_promo_f_casual2.webp\n     275  잎새코_glossy_promo_f_casual2.webp\n     281  켄호로우_glossy_promo_f_casual1.webp\npkm-atelier-img-3/img/왕큰부리_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     271  삐_glossy_promo_f_casual3.webp\n     274  암스타_glossy_promo_f_casual1.webp\n     276  냄새꼬_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "aa2edda7eb075e008832d4e5f69a6ef9cd1c15b7e71c34e7aa13aaedb4c79a0e",
+      "accepted": true,
+      "observations": "바위 위에 선 2:3 전신. 긴 검은 페더컷과 황금빛 눈, 타원 얼굴과 올라간 좁은 눈매. 양팔은 어깨에서 장갑 손까지 이어지고 양다리는 골반에서 장화까지 이어짐.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "바위 위에 선 2:3 전신. 긴 검은 페더컷과 황금빛 눈, 타원 얼굴과 올라간 좁은 눈매. 양팔은 어깨에서 장갑 손까지 이어지고 양다리는 골반에서 장화까지 이어짐."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "바위 위에 선 2:3 전신. 긴 검은 페더컷과 황금빛 눈, 타원 얼굴과 올라간 좁은 눈매. 양팔은 어깨에서 장갑 손까지 이어지고 양다리는 골반에서 장화까지 이어짐."
+      }
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "e081a178eb66cfa5477902aff148e499f401f6bcc61b831a5c181ec5fc32dc39",
+      "accepted": true,
+      "observations": "경장의 얼굴·머리·체형을 유지. 어깨·전완·골반·정강이에 판이 겹쳐 중장 실루엣을 형성. 양손은 아래로 느슨하게 굽힘.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "경장의 얼굴·머리·체형을 유지. 어깨·전완·골반·정강이에 판이 겹쳐 중장 실루엣을 형성. 양손은 아래로 느슨하게 굽힘."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "경장의 얼굴·머리·체형을 유지. 어깨·전완·골반·정강이에 판이 겹쳐 중장 실루엣을 형성. 양손은 아래로 느슨하게 굽힘."
+      }
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "d638140b47f7b1d7305ae0af9e4448a8a0840fd469f943e7698c58d379c6975e",
+      "accepted": true,
+      "observations": "경장의 얼굴·머리·팔레트 유지. 허리·다리의 분리된 얇은 판과 어깨·발목 추진부가 고기동을 구분. 두 발이 떠 있으며 양다리 연결은 정상.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "경장의 얼굴·머리·팔레트 유지. 허리·다리의 분리된 얇은 판과 어깨·발목 추진부가 고기동을 구분. 두 발이 떠 있으며 양다리 연결은 정상."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "경장의 얼굴·머리·팔레트 유지. 허리·다리의 분리된 얇은 판과 어깨·발목 추진부가 고기동을 구분. 두 발이 떠 있으며 양다리 연결은 정상."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "2ac1e4383ee87c5f4808a12519e0cb523e130511c0015610fdd06b2d87d6f1f8",
+      "accepted": true,
+      "observations": "경장과 머리·장갑 손·발 위치 및 바위·수평선 구도 일치. 원래 외판 사이가 벌어져 금빛 내부 프레임 노출. 눈 색 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "경장과 머리·장갑 손·발 위치 및 바위·수평선 구도 일치. 원래 외판 사이가 벌어져 금빛 내부 프레임 노출. 눈 색 유지."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "경장과 머리·장갑 손·발 위치 및 바위·수평선 구도 일치. 원래 외판 사이가 벌어져 금빛 내부 프레임 노출. 눈 색 유지."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "8e35498b4f57659ec30592906f06987c4a9d9e8263d4de10e10d269466b457c1",
+      "accepted": true,
+      "observations": "중장과 같은 포즈·카메라·장갑 손·발 위치. 겹친 어깨·전완·허벅지·정강이 외판 사이로 금빛 프레임과 힌지 노출. 무기 추가 없음.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "중장과 같은 포즈·카메라·장갑 손·발 위치. 겹친 어깨·전완·허벅지·정강이 외판 사이로 금빛 프레임과 힌지 노출. 무기 추가 없음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "중장과 같은 포즈·카메라·장갑 손·발 위치. 겹친 어깨·전완·허벅지·정강이 외판 사이로 금빛 프레임과 힌지 노출. 무기 추가 없음."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "c965b0213f5028683a0c98b50d91332fda1b6837b64ccbd1fad9ca162da0b5d6",
+      "accepted": true,
+      "observations": "고기동과 같은 공중 포즈와 인물 크기. 어깨와 다리 외판이 부채처럼 열려 내부 골격과 금빛 공기 흐름이 드러남. 두 손은 빛에 가리지 않음.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "고기동과 같은 공중 포즈와 인물 크기. 어깨와 다리 외판이 부채처럼 열려 내부 골격과 금빛 공기 흐름이 드러남. 두 손은 빛에 가리지 않음."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 모두 장갑 안에서 손가락 다섯 구조. 엄지와 나머지 손가락이 느슨하게 굽혀져 일부 끝이 겹침; 가려진 손가락을 억지로 세지 않음.",
+        "overlay_checked": false,
+        "note": "고기동과 같은 공중 포즈와 인물 크기. 어깨와 다리 외판이 부채처럼 열려 내부 골격과 금빛 공기 흐름이 드러남. 두 손은 빛에 가리지 않음."
+      }
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "0f9d8786b0c43c475faa2fe5f40a630b9406c01a3f5d301e11f91f20720a9821",
+      "accepted": true,
+      "observations": "햇살 든 주방 바닥에서 한 무릎을 세우고 웃으며 냄비를 나무주걱으로 젓는다. 흰 어깨 드러낸 앞치마·검정 바지, 허리 뒤 끈과 옆구리 노출. 팔 둘·접힌 다리 둘·맨발 둘이 연결됨.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "햇살 든 주방 바닥에서 한 무릎을 세우고 웃으며 냄비를 나무주걱으로 젓는다. 흰 어깨 드러낸 앞치마·검정 바지, 허리 뒤 끈과 옆구리 노출. 팔 둘·접힌 다리 둘·맨발 둘이 연결됨."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "무릎 위 손은 엄지와 네 손가락이 자연스럽게 늘어짐. 주걱 손은 검지를 펴고 나머지 손가락·엄지로 손잡이를 잡아 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "햇살 든 주방 바닥에서 한 무릎을 세우고 웃으며 냄비를 나무주걱으로 젓는다. 흰 어깨 드러낸 앞치마·검정 바지, 허리 뒤 끈과 옆구리 노출. 팔 둘·접힌 다리 둘·맨발 둘이 연결됨."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "1e69b96cd110edff615341362fc6adac8cddf98126a9552058498797eba9d29d",
+      "accepted": true,
+      "observations": "알프스 마을과 아코디언 배경. 크림 어깨 드러낸 블라우스·녹색 디른들 몸판·녹빛 앞치마를 입고 다리를 교차해 앉아 소리를 듣는다. 한 손은 턱 옆에 느슨하게 접고 다른 손은 발목에 얹음. 요청 face_close보다 넓은 무릎·발까지 담긴 구도는 기록만 함.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "알프스 마을과 아코디언 배경. 크림 어깨 드러낸 블라우스·녹색 디른들 몸판·녹빛 앞치마를 입고 다리를 교차해 앉아 소리를 듣는다. 한 손은 턱 옆에 느슨하게 접고 다른 손은 발목에 얹음. 요청 face_close보다 넓은 무릎·발까지 담긴 구도는 기록만 함."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "턱 옆 손은 엄지·검지 곡선과 접힌 나머지 손가락이 서로 가림. 발목 손은 네 손가락과 가려진 엄지. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "알프스 마을과 아코디언 배경. 크림 어깨 드러낸 블라우스·녹색 디른들 몸판·녹빛 앞치마를 입고 다리를 교차해 앉아 소리를 듣는다. 한 손은 턱 옆에 느슨하게 접고 다른 손은 발목에 얹음. 요청 face_close보다 넓은 무릎·발까지 담긴 구도는 기록만 함."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "bf7882e30921d469d1e05020d8e0e4e47ce27a712b9772c94fea393432765bee",
+      "accepted": true,
+      "observations": "목조 무대 위 카우걸이 부드러운 밧줄을 머리 위로 돌림. 아이보리 크롭 조끼·청반바지·장화. 팔 둘 모두 어깨에서 팔꿈치·장갑 손까지 연속됨. 뒤 3/4 비중이 선택 side보다 큼, 얼굴은 뒤돌아 카메라로 보임.",
+      "identity": {
+        "match": true,
+        "evidence": "긴 검은 페더컷·주황 한 줄·황금색 눈·타원 얼굴과 입술 구조가 경장과 이어짐"
+      },
+      "activity": {
+        "match": true,
+        "evidence": "목조 무대 위 카우걸이 부드러운 밧줄을 머리 위로 돌림. 아이보리 크롭 조끼·청반바지·장화. 팔 둘 모두 어깨에서 팔꿈치·장갑 손까지 연속됨. 뒤 3/4 비중이 선택 side보다 큼, 얼굴은 뒤돌아 카메라로 보임."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "밧줄을 잡은 양손은 장갑 주먹, 굽힌 손가락과 엄지는 줄을 감싸며 일부 가림. 양 손목 정상.",
+        "overlay_checked": false,
+        "note": "목조 무대 위 카우걸이 부드러운 밧줄을 머리 위로 돌림. 아이보리 크롭 조끼·청반바지·장화. 팔 둘 모두 어깨에서 팔꿈치·장갑 손까지 연속됨. 뒤 3/4 비중이 선택 side보다 큼, 얼굴은 뒤돌아 카메라로 보임."
+      }
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "session": "toucannon-yungoos-72e9",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "왕큰부리",
+      "species": "toucannon-20261028",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "simple_cooking",
+          "expr": "laughing_open",
+          "pose": "one_knee_up",
+          "orient": "crouching",
+          "frame": "environmental",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "open back",
+            "off-shoulder neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "traditional",
+          "ex": "dirndl_modern",
+          "garments": [
+            "apron",
+            "blouse",
+            "skirt",
+            "traditional"
+          ],
+          "orient": "profile_close",
+          "frame": "face_close",
+          "pose": "cross_legged",
+          "expr": "curious",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "off-shoulder neckline"
+          ],
+          "lead": "action"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "adult_roleplay",
+          "ex": "rodeo_cowgirl",
+          "expr": "pensive",
+          "pose": "turning_back",
+          "orient": "side",
+          "frame": "full_body",
+          "lens": "wide24",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "traditional"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "blouse",
+          "traditional"
+        ],
+        "orient": [
+          "profile_close"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "영구스",
+      "species": "yungoos-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "spa_robe_lounge",
+          "garments": [
+            "robe",
+            "swimsuit"
+          ],
+          "orient": "high_angle",
+          "frame": "waist_up",
+          "pose": "pouring_drink",
+          "expr": "sensual",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "halter neck"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "retro_glamour",
+          "ex": "jetset_pool",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "over_shoulder",
+          "frame": "three_quarter",
+          "pose": "standing_relaxed",
+          "expr": "amused",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "high-cut leg"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "dance_stage",
+          "ex": "flamenco",
+          "garments": [
+            "dress"
+          ],
+          "orient": "low_angle",
+          "frame": "chest_up",
+          "pose": "hand_on_hip",
+          "expr": "confident",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high thigh slit",
+            "one-shoulder cut"
+          ],
+          "lead": "place"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "robe"
+        ],
+        "orient": [
+          "high_angle",
+          "over_shoulder",
+          "low_angle"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "simple_cooking",
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "one_knee_up",
+      "expr": "laughing_open",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm breakfast light falls across a tiled kitchen nook; she is stirring a small saucepan on a portable induction hob.",
+          "reason": "예시가 정하지 않은 조명·장소 세부와 작업 도구를 simple_cooking 장면에 맞춰 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "A white off-shoulder apron tunic with an open back tied at the waist, paired with charcoal trousers.",
+          "reason": "예시가 정하지 않은 계획의 옷 종류·드러내는 구조와 색·재질를 simple_cooking 장면에 맞춰 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "simple_cooking의 활동을 one_knee_up 자세로 수행",
+        "source_influence": "왕큰부리의 원작 특징은 subtle 선택값에 맞춰 의상 색과 작은 무늬로 반영",
+        "separates_preference": "apron, trousers의 옷 구조를 유지"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    },
+    {
+      "cut": 2,
+      "cat": "traditional",
+      "ex": "dirndl_modern",
+      "garments": [
+        "apron",
+        "blouse",
+        "skirt",
+        "traditional"
+      ],
+      "orient": "profile_close",
+      "frame": "face_close",
+      "pose": "cross_legged",
+      "expr": "curious",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She pauses to listen to an accordion melody at an Alpine village harvest gathering; timber balconies and autumn flowers soften behind her.",
+          "reason": "디른들 예시는 옷만 정하므로 수확 축제에서 아코디언을 듣는 활동·장소를 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "A forest-green modern dirndl with a cropped cream off-shoulder blouse, a pleated skirt and a rust-orange apron.",
+          "reason": "계획의 전통복·블라우스·치마·앞치마 구성을 유지하고 크롭 단과 어깨를 드러내는 구조 및 숲빛·크림·녹빛 색을 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "축제 소리를 듣는 정지한 순간이므로 mostly posed",
+        "source_influence": "전통 디른들이 먼저 읽히게 종족 장식 없이 따뜻한 앞치마 색만 은은하게 반영",
+        "separates_preference": "블라우스·치마·앞치마가 분리된 의상이라 prefer separates"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "rodeo_cowgirl",
+      "garments": [
+        "vest"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "turning_back",
+      "expr": "pensive",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A soft cotton prop lasso traces a loop above the wooden barn-dance stage during the costume rehearsal.",
+          "reason": "예시가 정하지 않은 조명·장소 세부와 작업 도구를 rodeo_cowgirl 장면에 맞춰 보충"
+        },
+        {
+          "field": "outfit",
+          "content": "The fringed cropped vest is ivory suede with a narrow orange trim, exposing the waist above dark denim shorts.",
+          "reason": "예시가 정하지 않은 계획의 옷 종류·드러내는 구조와 색·재질를 rodeo_cowgirl 장면에 맞춰 보충"
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "이미지 도구에 별도 크기 항목이 없으므로 생성기 camera 칸에서 규격을 지정"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "rodeo_cowgirl의 활동을 turning_back 자세로 수행",
+        "source_influence": "왕큰부리의 원작 특징은 balanced 선택값에 맞춰 의상 색과 작은 무늬로 반영",
+        "separates_preference": "vest의 옷 구조를 유지"
+      },
+      "planner_selected": true,
+      "manual_choice_changes": []
+    }
+  ],
+  "check": "계획 통과 — 2명",
+  "reservation_commit": "41f2f16fe7aaa6712d04f82445b73970e97937a2",
+  "generator": "Actual Chromium prompt.html UI; built-in image_gen",
+  "revisions": [
+    {
+      "slot": "casual2",
+      "reason": "output moderation_blocked in gala scene, no image returned",
+      "excluded": "afterparty_stairs",
+      "next": "travel_footbath"
+    },
+    {
+      "slot": "casual2",
+      "reason": "output moderation_blocked in independent travel scene, no image returned",
+      "excluded": "travel_exploration and gala_red_carpet categories",
+      "next": "traditional/dirndl_modern",
+      "request_id": "ef3dc6bd-3ff2-402f-afd3-0a73c6529f7e"
+    }
+  ]
+}
