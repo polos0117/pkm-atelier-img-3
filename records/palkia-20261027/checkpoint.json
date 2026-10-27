@@ -57,7 +57,16 @@
       "image_commit": "0c58f4cc01b8245617636504aaf518cd4cf05737",
       "thumbnail_commit": "05c0676e2366e786f144f15237fd87aad1874430",
       "verified_code_head": "3d37e4b601f7584454601b91584af546164594af",
-      "verification": "records/palkia-casual1-replan-20261027/verification.json"
+      "verification": "records/palkia-casual1-replan-20261027/verification.json",
+      "qa_status": "rejected_after_user_report_three_arms"
+    },
+    {
+      "slot": "casual1",
+      "record": "records/palkia-casual1-twoarms-20261027",
+      "old_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
+      "new_sha256": "3fe94a1a8b8664fbd8f8ca81d465059342f46ac733667f109fb406b549e2c331",
+      "reason": "User confirmed three arms in prior Y2K replacement; frontal two-arm correction",
+      "status": "visually_accepted_publication_pending"
     }
   ],
   "qa_errata": [

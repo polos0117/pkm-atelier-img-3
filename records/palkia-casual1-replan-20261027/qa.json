@@ -2,7 +2,7 @@
   "card": "펄기아",
   "slot": "casual1",
   "reviewer": "gpt",
-  "accepted": true,
+  "accepted": false,
   "source_sha256": "11ef9b97cafce0bd98f92ca000fb6ca34d0c4d8224af78ee3679fbbf3a9d92b8",
   "previous_public_sha256": "d7aa0efe575e362a03ee54cff0a0024c71f69a7344fc59a48e5069751eff116d",
   "new_public_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
@@ -10,8 +10,9 @@
   "supersedes": "Cafe image had an impossible neckline-emerging forearm; previous QA did not trace entire arm chains. Partial edit returned moderation_blocked with no output. This is a new planned scene, not a rephrased edit.",
   "checks": {
     "arms": {
-      "match": true,
-      "evidence": "Two arms only: near visible shoulder and upper arm descend beside the torso, then forearm continues down behind hip to the lowered hand. The phone arm bends at the far side of torso; its upper arm/shoulder are partly occluded by torso, forearm continues to the phone wrist. No third upper arm or detached hand is present and no hand emerges between the chest."
+      "match": false,
+      "evidence": "Two arms only: near visible shoulder and upper arm descend beside the torso, then forearm continues down behind hip to the lowered hand. The phone arm bends at the far side of torso; its upper arm/shoulder are partly occluded by torso, forearm continues to the phone wrist. No third upper arm or detached hand is present and no hand emerges between the chest.",
+      "correction": "Previous two-arm finding withdrawn: the image contains three arms."
     },
     "hands": {
       "match": true,
@@ -54,5 +55,8 @@
     "overlay_checked": false,
     "note": "Manual tracing checked shoulder/upper arm/elbow/forearm/wrist/hand rather than hand counts alone."
   },
-  "diversity_comparison": "New full-body mall/fountain two-piece Y2K fashion and open flip phone differ from retained rainy parcel pickup/hoodie-leggings and seated art-studio brush sorting/shirt-shorts. Actual recent Regigigas burlesque, lifeguard and disco scenes; Giratina roller-disco, bar stool and marching scenes; Cresselia bedroom, kitchen and parade balcony thumbnails were visually compared. Setting, task and outfit silhouette differ, and no repetitive near match was found."
+  "diversity_comparison": "New full-body mall/fountain two-piece Y2K fashion and open flip phone differ from retained rainy parcel pickup/hoodie-leggings and seated art-studio brush sorting/shirt-shorts. Actual recent Regigigas burlesque, lifeguard and disco scenes; Giratina roller-disco, bar stool and marching scenes; Cresselia bedroom, kitchen and parade balcony thumbnails were visually compared. Setting, task and outfit silhouette differ, and no repetitive near match was found.",
+  "historical_accepted": true,
+  "erratum": "Confirmed three arms after user correction. Previous arm-chain observations were incorrect.",
+  "superseded_by": "records/palkia-casual1-twoarms-20261027/qa.json"
 }

@@ -1,0 +1,44 @@
+{
+  "card": "펄기아",
+  "slot": "casual1",
+  "accepted": true,
+  "reviewer": "gpt",
+  "previous_public_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
+  "original_sha256": "5c394b17ce610a5ed9e7a343de85c3ff9949968a662eb5425dee72b977237d19",
+  "new_public_sha256": "3fe94a1a8b8664fbd8f8ca81d465059342f46ac733667f109fb406b549e2c331",
+  "previous_review_error": "The Y2K replacement was incorrectly approved with three arms. That approval is withdrawn in the preceding qa.json. No occlusion explanation is used to justify the extra arm.",
+  "checks": {
+    "right_arm_image_left": {
+      "match": true,
+      "evidence": "Visible shoulder at image left continues downward into one upper arm, one elbow at waist level, one forearm and one wrist with bracelet, ending in one relaxed hand beside thigh. The entire outer silhouette is visible with mall background beside it."
+    },
+    "left_arm_image_right": {
+      "match": true,
+      "evidence": "Opposite shoulder continues into one upper arm alongside the torso, one elbow beside waist, then forearm extends outward to one wrist and hand holding phone. No additional upper arm descends behind torso."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "Exactly two hands; each has one thumb and four fingers. Empty hand digits are visible and naturally curved; phone-side thumb is partly occluded by the device and four fingers wrap it. Both hands were enlarged separately."
+    },
+    "legs_feet": {
+      "match": true,
+      "evidence": "Two connected legs, two ankles and two complete platform sandals; five toes visible on each foot, with sandal straps partly overlapping far foot."
+    },
+    "identity_scene": {
+      "match": true,
+      "evidence": "Same adult face, violet eyes, lavender high ponytail, white butterfly halter top, lilac mini skirt, sandals, mall skylight and fountain. Torso now faces camera; phone lowered to waist. Both hands remain outside the torso."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Original and converted WebP opened at 1024×1536."
+    }
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe absent, confirmed in preceding task; visual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "One thumb and four fingers on each; phone thumb partly hidden by device. No third hand or arm.",
+    "overlay_checked": false,
+    "note": "Full image, both complete shoulder-to-hand paths, both hands and both feet inspected in enlarged source crops."
+  }
+}

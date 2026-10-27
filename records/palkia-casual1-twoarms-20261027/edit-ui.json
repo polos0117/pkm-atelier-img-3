@@ -1,0 +1,107 @@
+{
+  "card": "펄기아",
+  "slot": "casual1",
+  "operation": "User-requested anatomical correction, not a new lifestyle scene plan",
+  "original_generator_storage": {
+    "last": "펄기아",
+    "cards": {
+      "펄기아": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "mischievous",
+            "pose": "standing_relaxed",
+            "orient": "turning_midmotion",
+            "scene": "She has just opened a compact silver flip phone beside the circular fountain inside a bright shopping mall with tiled walkways and a glass skylight.",
+            "outfit": "A pearl-white opaque butterfly-front halter crop top with a closed neckline, a low-rise lilac mini skirt and silver platform sandals. The cropped hem and low waist expose her midriff and the mini skirt exposes her thighs.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "retro_glamour",
+            "catCustom": "",
+            "ex": "y2k_lowrise",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "source": "Manual edit instructions and actual built-in image_gen submission",
+  "prompt": "Use case: precise-object-edit.\nImage 1 is the edit target, the Y2K mall fountain illustration. It incorrectly contains three arms. Image 2 is the approved original woman; use it only for face, hair and body identity, never its armor.\n\nCorrect the anatomy by REPLACING the entire current arm arrangement and turning her torso squarely toward the camera. Do not preserve the rear-facing torso or any of its old arm shapes.\nKeep the same adult woman, face, violet eyes, lavender-white high ponytail and bangs, pearl-white opaque butterfly halter crop top, lilac low-rise mini skirt, silver platform sandals, mall fountain, skylight, glossy illustration finish and full-body 1024x1536 portrait framing.\n\nNew pose: a simple front-facing fashion stance, with both shoulders clearly visible at equal height, chest and pelvis facing the viewer. There are exactly TWO arms. Her anatomical right arm, on the LEFT side of the image, descends from its visible shoulder to its elbow, wrist and one relaxed hand beside her right thigh. Her anatomical left arm, on the RIGHT side of the image, has its upper arm beside the torso, a clearly visible elbow, and a gently bent forearm ending in one hand holding the open flip phone at WAIST height. Keep a narrow visible background gap between each arm and the torso so both complete shoulder-to-hand chains can be followed. Neither arm crosses her chest or passes behind her back. No arm or hand emerges from her neckline, waist, ribs or back. Remove the old third arm entirely. Sweep her long hair behind the shoulders and away from both elbows. Remove the shoulder bag so straps do not obscure either shoulder or arm. Her legs stand comfortably with two complete feet visible.\nOne thumb and four fingers on each hand, natural elbows and wrists. Fully opaque clothing, natural adult proportions, one woman, no extra limbs, no added text or logos.\n",
+  "user_request": "새로 제출한 펄기아도 팔이 세개잖아.",
+  "intent": "Front-facing torso and two fully traceable arm chains; existing scene and outfit retained"
+}
