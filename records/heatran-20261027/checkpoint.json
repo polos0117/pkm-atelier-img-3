@@ -53,7 +53,18 @@
       "old_sha256": "8ffc41a29deed943d7325e1840d8098bb619eccbed0254bffd78cde0e952831c",
       "new_sha256": "3bc1f1833f08ddb44432d5b6b9bca9adcf419901d1cdefb16c065907abd8ae3c",
       "reason": "Rear-reaching earring arm had no believable shoulder-elbow connection",
-      "status": "visually accepted; publication pending"
+      "status": "registered_complete",
+      "image_commit": "432fa6855f456fd71ddd4ef838a6569a7ffb8eac",
+      "thumbnail_commit": "da867c3e4f11d31c8c0d795e2bd81412897c7481",
+      "verified_code_head": "3d37e4b601f7584454601b91584af546164594af",
+      "verification": "records/heatran-casual2-armfix-20261027/verification.json"
+    }
+  ],
+  "qa_errata": [
+    {
+      "slot": "casual2",
+      "note": "Original manual review accepted an invalid arm connection; superseded by user-requested replacement and full arm-chain inspection. Original QA is retained as history.",
+      "active_record": "records/heatran-casual2-armfix-20261027"
     }
   ]
 }

@@ -53,7 +53,18 @@
       "old_sha256": "d7aa0efe575e362a03ee54cff0a0024c71f69a7344fc59a48e5069751eff116d",
       "new_sha256": "71af979a1b01e470b5a65bdaf21db0c172c9fb1964e6a072f53d435c26b2dd1f",
       "reason": "User requested a new generation plan after anatomical edit was blocked",
-      "status": "visually accepted; publication pending"
+      "status": "registered_complete",
+      "image_commit": "0c58f4cc01b8245617636504aaf518cd4cf05737",
+      "thumbnail_commit": "05c0676e2366e786f144f15237fd87aad1874430",
+      "verified_code_head": "3d37e4b601f7584454601b91584af546164594af",
+      "verification": "records/palkia-casual1-replan-20261027/verification.json"
+    }
+  ],
+  "qa_errata": [
+    {
+      "slot": "casual1",
+      "note": "Original manual review accepted an invalid arm connection; superseded by user-requested replacement and full arm-chain inspection. Original QA is retained as history.",
+      "active_record": "records/palkia-casual1-replan-20261027"
     }
   ]
 }
