@@ -1,0 +1,495 @@
+{
+  "session": "gpt-charjabug-vikavolt-20261028",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "투구뿌논",
+      "species": "vikavolt-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "oring_bikini",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "waist_up",
+          "pose": "on_tiptoe",
+          "expr": "surprised",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "strapless top"
+          ],
+          "lead": "place",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A tidal rock pool opens toward the blue sea; she tests the shallow water beside a wave-washed ledge.",
+              "reason": "The ring-bikini example describes garment only; supplies rocky tidal pool and testing shallow water activity."
+            },
+            {
+              "field": "outfit",
+              "content": "A cobalt ring-linked bikini combines a strapless bandeau with a detachable halter neck tie and high-cut bottoms; shoulders and abdomen are bare.",
+              "reason": "The ring-bikini example leaves colour and neckline open; supplies cobalt, strapless bandeau and detachable halter tie from the planned exposure pair."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "on_tiptoe supplies the movement or resting state for oring_bikini",
+            "source_influence": "subtle colour echoes in A cobalt ring-linked bikini combines a strapless bandeau with a detachable halter neck tie and high-cut bottoms; shoulders and abdomen are bare.",
+            "separates_preference": "bikini specifies the silhouette in oring_bikini"
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "travel_exploration",
+          "ex": "travel_footbath",
+          "garments": [
+            "overalls"
+          ],
+          "orient": "looking_away",
+          "frame": "face_close",
+          "pose": "leaning_wall",
+          "expr": "gentle",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "open back"
+          ],
+          "lead": "light",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Morning light filters through the wooden roof, and steam lifts from the stone footbath as she rests her feet in the water.",
+              "reason": "The footbath example supplies roof and towel but not morning shafts or rising steam."
+            },
+            {
+              "field": "outfit",
+              "content": "Indigo overalls have rolled trouser hems, an open back and an asymmetrical one-shoulder bib, showing shoulder and upper back; yellow stitching traces their seams.",
+              "reason": "The footbath example mentions trouser hems but no overall bib or back cut; adds planned one-shoulder open-back indigo overalls and yellow seams."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "leaning_wall supplies the movement or resting state for travel_footbath",
+            "source_influence": "strong colour echoes in Indigo overalls have rolled trouser hems, an open back and an asymmetrical one-shoulder bib, showing shoulder and upper back; yellow stitching traces their seams.",
+            "separates_preference": "overalls specifies the silhouette in travel_footbath"
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "subculture_fashion",
+          "ex": "emo_gig",
+          "garments": [
+            "trousers"
+          ],
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "pose": "arms_crossed",
+          "expr": "bored",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "mini length"
+          ],
+          "lead": "action",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "She waits by the low stage barrier between songs, listening to the amplified guitar sound.",
+              "reason": "The emo-gig example gives the venue and clothes but no current activity; adds waiting and listening at the stage barrier."
+            },
+            {
+              "field": "outfit",
+              "content": "A fitted striped long-sleeve top has a mini-length hem exposing the midriff above low-rise skinny trousers, with a studded belt and checkered sneakers.",
+              "reason": "The emo example fixes long sleeves and jeans but not crop length; adds mini hem and low-rise trousers to expose the planned midriff."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "The image tool has no size control."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "arms_crossed supplies the movement or resting state for emo_gig",
+            "source_influence": "subtle colour echoes in A fitted striped long-sleeve top has a mini-length hem exposing the midriff above low-rise skinny trousers, with a studded belt and checkered sneakers.",
+            "separates_preference": "trousers specifies the silhouette in emo_gig"
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "everyday_sensual",
+          "travel_exploration",
+          "food_berries",
+          "source_editorial",
+          "homewear",
+          "private_evening"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "overalls"
+        ],
+        "orient": [
+          "turning_midmotion",
+          "looking_away",
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "gpt-charjabug-vikavolt-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "전지충이",
+        "species": "charjabug-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "dance_stage",
+            "ex": "mermaid_show",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "mid_action",
+            "expr": "flustered",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "cosplay_photozone",
+            "garments": [
+              "coat"
+            ],
+            "orient": "front_3q",
+            "frame": "full_body",
+            "pose": "taking_photo",
+            "expr": "soft_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "cage_back",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "sitting",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "dance_stage",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat"
+          ],
+          "orient": [
+            "low_angle",
+            "front_3q",
+            "reclining"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "투구뿌논",
+        "species": "vikavolt-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "oring_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "pose": "on_tiptoe",
+            "expr": "surprised",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "place",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A tidal rock pool opens toward the blue sea; she tests the shallow water beside a wave-washed ledge.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "A cobalt ring-linked bikini combines a strapless bandeau with a detachable halter neck tie and high-cut bottoms; shoulders and abdomen are bare.",
+                "reason": "Implements planned garments bikini and exposure halter neck,strapless top in swimwear/oring_bikini."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "on_tiptoe supplies the movement or resting state for oring_bikini",
+              "source_influence": "subtle colour echoes in A cobalt ring-linked bikini combines a strapless bandeau with a detachable halter neck tie and high-cut bottoms; shoulders and abdomen are bare.",
+              "separates_preference": "bikini specifies the silhouette in oring_bikini"
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "travel_exploration",
+            "ex": "travel_footbath",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "face_close",
+            "pose": "leaning_wall",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "open back"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Morning light filters through the wooden roof, and steam lifts from the stone footbath as she rests her feet in the water.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "Indigo overalls have rolled trouser hems, an open back and an asymmetrical one-shoulder bib, showing shoulder and upper back; yellow stitching traces their seams.",
+                "reason": "Implements planned garments overalls and exposure one-shoulder cut,open back in travel_exploration/travel_footbath."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "leaning_wall supplies the movement or resting state for travel_footbath",
+              "source_influence": "strong colour echoes in Indigo overalls have rolled trouser hems, an open back and an asymmetrical one-shoulder bib, showing shoulder and upper back; yellow stitching traces their seams.",
+              "separates_preference": "overalls specifies the silhouette in travel_footbath"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "emo_gig",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "leaning_back",
+            "frame": "three_quarter",
+            "pose": "arms_crossed",
+            "expr": "bored",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She waits by the low stage barrier between songs, listening to the amplified guitar sound.",
+                "reason": "The example names the costume or venue but does not specify this scene-specific light and activity detail."
+              },
+              {
+                "field": "outfit",
+                "content": "A fitted striped long-sleeve top has a mini-length hem exposing the midriff above low-rise skinny trousers, with a studded belt and checkered sneakers.",
+                "reason": "Implements planned garments trousers and exposure bare midriff,mini length in subculture_fashion/emo_gig."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The image tool has no size control."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "arms_crossed supplies the movement or resting state for emo_gig",
+              "source_influence": "subtle colour echoes in A fitted striped long-sleeve top has a mini-length hem exposing the midriff above low-rise skinny trousers, with a studded belt and checkered sneakers.",
+              "separates_preference": "trousers specifies the silhouette in emo_gig"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "source_editorial",
+            "homewear",
+            "private_evening"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "turning_midmotion",
+            "looking_away",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed before reserve; verify stamps passed",
+  "reservation_commit": "190ba7dfe30a4c59a88c91cbbb7df84240cb7ba6",
+  "generation_tool": "built-in image_gen"
+}

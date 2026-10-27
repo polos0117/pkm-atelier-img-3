@@ -1,0 +1,41 @@
+{
+  "stage": "generated_and_reviewed",
+  "generated": 9,
+  "requested": 9,
+  "light": {
+    "card": "투구뿌논",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI in Chromium; built-in image_gen",
+    "original_session_only": "/workspace/scratch/99f062680599/generated_images/exec-f7b2d542-01e6-49ba-9c96-a0f2a25a6c59.png",
+    "original_sha256": "3891151f5e9f9e4e995d06aab9a4f90303d4dd5e39fce160ff8959057e24197f",
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "투구뿌논_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "81ddc7a73ee1ba271833b80be0904a1e2fa138f28cc600d053eb1896baf30a16",
+      "git_blob": "2743cf7f58a247e10b4887f40163372b729f2c78"
+    }
+  },
+  "face_rationale": "Blue carapace and large angular spike inform broad square jaw and angled brows; the wide flat wings inform long windswept hair. A short nose and almond eyes distinguish this adult from the long narrow-eyed battery form.",
+  "face_source": "data/face-design.json + data/source-appearance.json + docs/CHARACTER_FACE_DESIGNS.md",
+  "final_face_line": "FACE (her own structure, not the style's default face): angular face, balanced length, medium width; square broad jaw; almond eyes, medium size, level outer corners, average spacing; angled brows; short nose with upturned tip; thin lips.",
+  "compared_characters": [
+    "턱지충이",
+    "형사구스",
+    "영구스",
+    "전지충이"
+  ],
+  "original_policy": "PNG session-only; only hashes and WebP published",
+  "anatomy_tool": "unavailable: mediapipe not installed",
+  "manifest": "classification.json"
+}
