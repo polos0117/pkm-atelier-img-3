@@ -1,0 +1,110 @@
+{
+  "card": "다크라이",
+  "anchor": {
+    "card": "다크라이",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selection and captured prompt; built-in image_gen",
+    "original_session_only": "/workspace/scratch/cf2320b4ff1f/generated_images/exec-5343a68c-a67e-4202-9e31-e0da6a2c346f.png",
+    "original_sha256": "acd1dde2e05a47f5f7ed1c2cb3fcae6955b33bf5acb86928b976e607c8b51fce",
+    "references": [],
+    "output": {
+      "file": "다크라이_light_glossy_promo_f.webp",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "efc85b6733536f407e191415fd7c5524cde0b46b9beb3af93c87257a06c3e390"
+    }
+  },
+  "face_design": {
+    "name": "다크라이",
+    "en": "Darkrai",
+    "line": "다크라이",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "elongated",
+      "face length": "long",
+      "face width": "narrow",
+      "jaw & chin": "balanced jawline",
+      "eye shape": "drooping",
+      "eye size": "medium",
+      "eye tilt": "downturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "balanced nose",
+      "lips": "thin lips"
+    },
+    "why": "어둠 속에 흐르는 머리와 악몽의 절제된 긴장을 긴 얼굴 및 낮은 눈꺼풀로 해석한다.",
+    "cues": [],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 턱끝이 길고 턱선이 또렷한 → 보통, 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 좌우 길이가 다른 비대칭컷 → 한쪽만 밀고 나머지는 긴 머리",
+    "hair": {
+      "hairstyle": "side-shaved long hair",
+      "hair length": "very long",
+      "bangs": "asymmetric bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "악 타입에서 한쪽만 밀고 나머지는 긴 머리(층 낸 컷) · 매우 긴 머리 · 좌우 길이가 다른 앞머리",
+    "hair_cues": [
+      "악 타입 → 헤어스타일 한쪽만 밀고 나머지는 긴 머리",
+      "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+    ]
+  },
+  "source_evidence": {
+    "name": "다크라이",
+    "en": "Darkrai",
+    "color": "black",
+    "shape": "humanoid",
+    "features": [
+      {
+        "part": "hand",
+        "detail": "black, claw-like hands"
+      },
+      {
+        "part": "head",
+        "detail": "small head"
+      },
+      {
+        "part": "arm",
+        "detail": "skinny arms"
+      },
+      {
+        "part": "eye",
+        "detail": "teal eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Darkrai_%28Pok%C3%A9mon%29",
+    "revision": 4633090,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "56398e3043deacc7bfe6d820d4f28968d0141757ffcd696b191a2a2e9afb42a9",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_reason": "어둠 속에 흐르는 머리와 악몽의 절제된 긴장을 긴 얼굴 및 낮은 눈꺼풀로 해석한다.",
+  "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; balanced jawline; drooping eyes, medium size, downturned outer corners, close-set; straight medium brows; balanced nose; thin lips.",
+  "comparison_characters": [
+    "두르쿤",
+    "던지미",
+    "비비용",
+    "레오꼬",
+    "레지기가스",
+    "피오네",
+    "마나피"
+  ],
+  "face_comparison": "Long narrow face, close-set downward eyes, straight brows and thin lips; asymmetric long hair with a shaved side. Distinct from Manaphy and Phione rounder open eyes and short blue hair, and the wider faces in the recent anchors.",
+  "family": "Manaphy was compared visually with published Phione; neither has a normal evolution family.",
+  "batches": [
+    "approved anchor",
+    "heavy and mobility",
+    "three corresponding overdrives",
+    "three independent casuals"
+  ],
+  "published": false,
+  "manifest": "classification.json"
+}

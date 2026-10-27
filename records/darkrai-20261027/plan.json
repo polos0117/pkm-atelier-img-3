@@ -1,0 +1,400 @@
+{
+  "session": "manaphy-darkrai-20261027-cf2320",
+  "batch": {
+    "session": "manaphy-darkrai-20261027-cf2320",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마나피",
+        "species": "manaphy-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "sailor_stage",
+            "expr": "serious",
+            "pose": "mid_action",
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "forest_spirit",
+            "expr": "smug",
+            "pose": "standing_formal",
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "travel_exploration",
+            "ex": "travel_ruins",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "leaning_wall",
+            "expr": "curious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "active",
+            "private_evening",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "다크라이",
+        "species": "darkrai-20261027",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "travel_exploration",
+            "ex": "travel_ferry",
+            "expr": "curious",
+            "pose": "adjusting_bag",
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "mini length",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "belly_dance",
+            "expr": "laughing",
+            "pose": "leaning_wall",
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt"
+            ],
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "expr": "mischievous",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "slip"
+            ],
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "travel_exploration",
+      "ex": "travel_ferry",
+      "expr": "curious",
+      "pose": "adjusting_bag",
+      "orient": "front_3q",
+      "frame": "chest_up",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "mini length",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "example_text": "Leaning on the rail of a harbor ferry deck with a travel bag at her feet, watching an island coastline approach.",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A weathered ferry deck crosses a slate-blue channel toward pine-covered island cliffs in clear morning light.",
+          "reason": "Adds the specific setting absent from the example: A weathered ferry deck crosses a slate-blue channel toward pine-covered island cliffs in clear morning light."
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal denim mini-length overall shorts over a short ivory bandeau, with open side panels showing the bare midriff and legs. A burgundy canvas travel bag rests nearby.",
+          "reason": "Specifies planned garments, material and exposed areas: Charcoal denim mini-length overall shorts over a short ivory bandeau, with open side panels showing the bare midriff and legs. A burgundy canvas travel bag rests nearby."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: A weathered ferry deck crosses a slate-blue channel toward pine-covered island cliffs in clear morning light.",
+        "source_influence": "strong is carried by this cut's material and color: Charcoal denim mini-length overall shorts over a short ivory bandeau, with open side panels showing the bare midriff and legs. A burgundy canvas travel bag rests nearby.",
+        "separates_preference": "balanced fits this cut's construction: overalls"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "dance_stage",
+      "ex": "belly_dance",
+      "expr": "laughing",
+      "pose": "leaning_wall",
+      "orient": "front",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt"
+      ],
+      "expose": [
+        "halter neck",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "example_text": "a belly dance costume with a coin-trimmed bra top and a low-slung chiffon skirt, swirling a veil on a lamp-lit stage",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An aubergine silk veil catches the amber light of pierced brass lamps and curves across the small theatre stage.",
+          "reason": "Adds the specific setting absent from the example: An aubergine silk veil catches the amber light of pierced brass lamps and curves across the small theatre stage."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque black halter bra top edged with silver coins, with narrow straps leaving shoulders bare, and a low-slung burgundy chiffon skirt over opaque dance shorts.",
+          "reason": "Specifies planned garments, material and exposed areas: An opaque black halter bra top edged with silver coins, with narrow straps leaving shoulders bare, and a low-slung burgundy chiffon skirt over opaque dance shorts."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced follows the activity: An aubergine silk veil catches the amber light of pierced brass lamps and curves across the small theatre stage.",
+        "source_influence": "balanced is carried by this cut's material and color: An opaque black halter bra top edged with silver coins, with narrow straps leaving shoulders bare, and a low-slung burgundy chiffon skirt over opaque dance shorts.",
+        "separates_preference": "prefer separates fits this cut's construction: skirt"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "chemise_silk",
+      "expr": "mischievous",
+      "pose": "side_sitting",
+      "orient": "three_quarter_back",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "slip"
+      ],
+      "expose": [
+        "plunging neckline",
+        "high thigh slit"
+      ],
+      "lead": "action",
+      "example_text": "a knee-skimming silk chemise slip with a lace hem and an opaque lining",
+      "selection_source": "Planner query loaded actual Chromium prompt UI values and randomLocks; free text entered using form controls.",
+      "random": "Planner picks; no manual selection override.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Resting on a curved velvet bench beside an open balcony in a moonlit dressing suite, with her hands relaxed together on her lap.",
+          "reason": "Adds the specific setting absent from the example: Resting on a curved velvet bench beside an open balcony in a moonlit dressing suite, with her hands relaxed together on her lap."
+        },
+        {
+          "field": "outfit",
+          "content": "Opaque garnet silk knee-skimming chemise slip with a plunging neckline, fine lace hem and a high thigh slit, revealing collarbones and one thigh.",
+          "reason": "Specifies planned garments, material and exposed areas: Opaque garnet silk knee-skimming chemise slip with a plunging neckline, fine lace hem and a high thigh slit, revealing collarbones and one thigh."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Built-in tool has no size argument; project requires this exact size."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed follows the activity: Resting on a curved velvet bench beside an open balcony in a moonlit dressing suite, with her hands relaxed together on her lap.",
+        "source_influence": "strong is carried by this cut's material and color: Opaque garnet silk knee-skimming chemise slip with a plunging neckline, fine lace hem and a high thigh slit, revealing collarbones and one thigh.",
+        "separates_preference": "balanced fits this cut's construction: slip"
+      }
+    }
+  ],
+  "check": "Planner check --fresh passed; reservation stamps verified.",
+  "reservation_commit": "b902cd6d672ae3a7b8467a2e2cc89f23ccf8f038",
+  "tool": "built-in image_gen",
+  "storage_method": "Shared blob:none Git repositories, isolated sparse worktrees. Filename-only inventory scans use temporary /dev/null links representing exact tracked HEAD paths; actual comparison WebPs and required UI metadata are materialized. Inventory links are never staged or published.",
+  "replans": []
+}
