@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_publication",
+  "status": "complete",
   "card": "모크나이퍼",
   "anchor": {
     "card": "모크나이퍼",
@@ -110,5 +110,45 @@
     "formScope": "base/species overview",
     "status": "extracted"
   },
-  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed."
+  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed.",
+  "attempt_originals": {
+    "light_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-2fcffedc-a8fa-4c03-9360-4945d8e76dc5.png",
+      "sha256": "827754caa840fcb1454b82ac98b463242e1d78d608e4c26e48fc49ea10cdd17d"
+    },
+    "heavy_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-85c1048b-a3c5-457c-a5cb-3df0ad6ac6e6.png",
+      "sha256": "a508a9fa012d7a2f7a23aea2c41a4c64faab0ec2a7ab224ed7f186fb0c4ce94d"
+    },
+    "mobility_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-e32debf7-bcd5-438f-a240-3cdfa8d6bc49.png",
+      "sha256": "d889204882c1454816274bfb1057dcf757d6b9fd6494bd4c7dbffc97c1062a79"
+    },
+    "light_overdrive_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-2c0046c3-3e45-43be-bf39-835863e059fc.png",
+      "sha256": "5bc1e5c0be45c4b5c0387141db1cc753d9f6808532d8fceb1e7521ec80e99028"
+    },
+    "heavy_overdrive_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-34149843-5b64-41a9-9d34-b6dff26f5a29.png",
+      "sha256": "ab6c9bdb6bfec5f45b05557bb71bf01eab7a8c5e575f8a1dd05f8457d89ee09a"
+    },
+    "mobility_overdrive_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-51b8cc13-8ba9-4408-8937-89c619fee697.png",
+      "sha256": "e8fea98d6e60d5f8246f4dff71f5e3cafb58101dcd9db7f8250a32d2d535c404"
+    },
+    "casual2_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-18851055-1068-4a81-a8fa-4b44b2ea8e8e.png",
+      "sha256": "993403eeca744a4298ba67024d1a51a7c7f6c6fb77c077bce27cc4810fc6c76f"
+    }
+  },
+  "publication": {
+    "images_commit": "77a27025821b7238736742190c6159e64b6d2941",
+    "image_repair_commit": "6efb73a08d71aebc9cff3645f6053ce8d530dd4a",
+    "thumbnails_commit": "e0c4320c0ab27d4c6ef599470ef15c0019e89d04",
+    "remote_blob_verification": "All 18 full-size images and 18 thumbnails match local Git blob hashes.",
+    "registration": "9/9 registered in remote main",
+    "workflow_note": "Global thumbnail workflow blocked by pre-existing invalid Dartrix heavy_overdrive file. This task used official make-thumbs.py on its 18 files, leaving existing other-character work unchanged.",
+    "code_commit": "75585a6e1ce019253fb1c1b62ae906e70573446d",
+    "main_update": "non-forced fast-forward via connected GitHub tools; other work preserved"
+  }
 }

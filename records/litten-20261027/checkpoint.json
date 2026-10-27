@@ -1,5 +1,5 @@
 {
-  "status": "ready_for_publication",
+  "status": "complete",
   "card": "냐오불",
   "anchor": {
     "card": "냐오불",
@@ -108,5 +108,29 @@
     "formScope": "base/species overview",
     "status": "extracted"
   },
-  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed."
+  "original_policy": "PNG source bytes remain in this session; hashes, exact prompts/UI, QA and final WebP are committed.",
+  "attempt_originals": {
+    "light_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-f8f8dc0b-10b3-422b-b088-73bdbcd47a9f.png",
+      "sha256": "ac96eddec9198f110a5099d481dfe5102ba3e4500ac04a255708cfb040f3e830"
+    },
+    "light_first_correction": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-287f283f-a360-45d9-8edd-31f32c3b5b33.png",
+      "sha256": "5a8e8ce4342188769a0bb9fc2639b66638616d5510ee2c5ec3c2a08fb71f5757"
+    },
+    "casual1_rodeo_initial": {
+      "session_path": "/workspace/scratch/91ea6c058b6a/generated_images/exec-d76edce8-f955-4348-a39b-c26a89d64c1b.png",
+      "sha256": "2001c067711d821a5a170b398773040e0854d38e40e9926eb2010b5793e8c839"
+    }
+  },
+  "publication": {
+    "images_commit": "e0c4320c0ab27d4c6ef599470ef15c0019e89d04",
+    "image_repair_commit": null,
+    "thumbnails_commit": "e0c4320c0ab27d4c6ef599470ef15c0019e89d04",
+    "remote_blob_verification": "All 18 full-size images and 18 thumbnails match local Git blob hashes.",
+    "registration": "9/9 registered in remote main",
+    "workflow_note": "Global thumbnail workflow blocked by pre-existing invalid Dartrix heavy_overdrive file. This task used official make-thumbs.py on its 18 files, leaving existing other-character work unchanged.",
+    "code_commit": "75585a6e1ce019253fb1c1b62ae906e70573446d",
+    "main_update": "non-forced fast-forward via connected GitHub tools; other work preserved"
+  }
 }
