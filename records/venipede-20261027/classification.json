@@ -163,18 +163,18 @@
     "slot": "casual1",
     "style": "glossy_promo",
     "gender": "f",
-    "basis": "Original generator scene and choices preserved; user-requested localized hand/arm edit using built-in image_gen. Exact edit prompt and before-state archived under corrections/casual1-bag-hand-20261027.",
-    "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-ce9346f6-0d70-4654-bb1b-9ab9fc755e08.png",
-    "original_sha256": "d35dd1954724d627e815fae22989fd3174fd3bec718eeceb2ca15d7669cbdfe9",
+    "basis": "User rejected prior wrist-only repair. Whole backpack arm pose rebuilt in front of torso with built-in image_gen. Original scene/UI retained; exact prompt and before-state under corrections/casual1-arm-pose-20261027-v2.",
+    "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-628e095e-93aa-47af-92ab-0879542b1bd3.png",
+    "original_sha256": "66be139d79481585d0b96b4ce5df6fc6a893aa40f604682a15940f742dc8451d",
     "references": [
       {
-        "path": "/workspace/scratch/61171040e6ea/generated_images/exec-0206756b-efb0-4f00-bb26-645f37dad0d4.png",
-        "role": "edit target",
-        "sha256": "a51d0148647b8f449625e633494787b51c47fdf342c136151fb76708b5442d7b"
+        "path": "/workspace/scratch/61171040e6ea/generated_images/exec-ce9346f6-0d70-4654-bb1b-9ab9fc755e08.png",
+        "role": "edit target rejected by user for arm geometry",
+        "sha256": "d35dd1954724d627e815fae22989fd3174fd3bec718eeceb2ca15d7669cbdfe9"
       },
       {
         "path": "/workspace/scratch/61171040e6ea/generated_images/exec-8423704f-ea60-47d9-b512-1aae1ea476b0.png",
-        "role": "identity reference",
+        "role": "approved identity reference",
         "sha256": "54eb0ec023406c0f0580e025d6bfb982026c781276d677e654efede9521117c1"
       }
     ],
@@ -187,7 +187,7 @@
       "format": "WebP",
       "quality": 85,
       "method": 6,
-      "sha256": "47ba6c69280b31b75a4da3c2119997ac72c5cbd158b239b58c0be68c340dd903"
+      "sha256": "312f7efc88691b1c9e920827cb70e8c928bf35038de3460d4b85c34e6317a90f"
     }
   },
   {

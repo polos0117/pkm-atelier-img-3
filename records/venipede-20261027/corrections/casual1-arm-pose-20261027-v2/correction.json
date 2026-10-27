@@ -1,0 +1,50 @@
+{
+  "card": "마디네",
+  "slot": "casual1",
+  "user_request": "아니 손목이 문제가 아니라 저구도에선 왼팔이 저렇게 꺾일수가 없어. 다시 수정해줘",
+  "base_commit": "edfa6689b5f7dc4b261eeda5256d02caf3c7353d",
+  "previous_published_sha256": "47ba6c69280b31b75a4da3c2119997ac72c5cbd158b239b58c0be68c340dd903",
+  "previous_correction_rejected_by_user": "손목만 고쳤으나 몸통 회전에서 가방 쪽 팔 전체의 관절 경로가 여전히 불가능함.",
+  "edit_scope": "등 뒤 가방 쪽의 기존 팔·손·팔꿈치 구도를 없애고 몸 앞에서 끈을 잡는 팔 경로로 다시 구성",
+  "mode": "built-in image_gen; precise-object-edit",
+  "original_generator_ui": "../../casual1-ui.json",
+  "plan_changes": "same scene and wardrobe; local arm pose rebuilt as expressly requested",
+  "status": "accepted_for_publication",
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "원본·전신 수정본·상체 비교·손 확대를 육안 검수. 카메라에 가까운 어깨에서 위팔이 아래로 이어지고 몸 옆 팔꿈치에서 아래팔이 가슴 앞쪽으로 접혀 어깨 끈을 쥔다. 이전 배낭 옆의 뒤로 꺾인 팔·손·팔꿈치는 사라졌다. 다른 팔은 몸 앞 반대편에서 카운터 열쇠로 이어지며 몸통에 일부 가려진다. 팔 두 개와 손 두 개가 구분되고 별도 손이나 남은 팔 조각이 없다. 얼굴·표정·머리·몸통 회전·의상·배낭·산장·열쇠 받기 장면은 유지됨.",
+  "source_session_only": "/workspace/scratch/61171040e6ea/generated_images/exec-628e095e-93aa-47af-92ab-0879542b1bd3.png",
+  "original_sha256": "66be139d79481585d0b96b4ce5df6fc6a893aa40f604682a15940f742dc8451d",
+  "references": [
+    {
+      "path": "/workspace/scratch/61171040e6ea/generated_images/exec-ce9346f6-0d70-4654-bb1b-9ab9fc755e08.png",
+      "role": "edit target rejected by user for arm geometry",
+      "sha256": "d35dd1954724d627e815fae22989fd3174fd3bec718eeceb2ca15d7669cbdfe9"
+    },
+    {
+      "path": "/workspace/scratch/61171040e6ea/generated_images/exec-8423704f-ea60-47d9-b512-1aae1ea476b0.png",
+      "role": "approved identity reference",
+      "sha256": "54eb0ec023406c0f0580e025d6bfb982026c781276d677e654efede9521117c1"
+    }
+  ],
+  "output": {
+    "file": "마디네_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "312f7efc88691b1c9e920827cb70e8c928bf35038de3460d4b85c34e6317a90f"
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed; anatomy-check.py exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "가슴 앞 끈을 잡는 손의 손등과 엄지·접힌 네 손가락의 윤곽 확인. 손가락 끝 일부는 끈 뒤로 가려짐. 카운터 쪽 손은 열쇠를 향하고 손가락이 분리됨. 두 손은 각각 아래팔에 연결됨.",
+    "overlay_checked": false,
+    "manual_original_and_crops_checked": true,
+    "note": "원본·전신 수정본·상체 비교·손 확대를 육안 검수. 카메라에 가까운 어깨에서 위팔이 아래로 이어지고 몸 옆 팔꿈치에서 아래팔이 가슴 앞쪽으로 접혀 어깨 끈을 쥔다. 이전 배낭 옆의 뒤로 꺾인 팔·손·팔꿈치는 사라졌다. 다른 팔은 몸 앞 반대편에서 카운터 열쇠로 이어지며 몸통에 일부 가려진다. 팔 두 개와 손 두 개가 구분되고 별도 손이나 남은 팔 조각이 없다. 얼굴·표정·머리·몸통 회전·의상·배낭·산장·열쇠 받기 장면은 유지됨."
+  }
+}
