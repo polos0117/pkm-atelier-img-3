@@ -1,0 +1,32 @@
+{
+  "accepted": true,
+  "reviewer": "gpt",
+  "source_original_sha256": "eb43370b72b43448e24e3f6ff5372718e5be161a71808838bd0f13917e1a2974",
+  "output_sha256": "775d4fd2505515b3b9104838aa76cea6d4e56d72479a72cb6943e9f4e9a01dc0",
+  "identity": {
+    "match": true,
+    "observed": "Same rounded face, blue eyes, short blue curls and bridal hair ornament. Gown embroidery, veil, leg pose, both shoes, fitting platform and room retained."
+  },
+  "arm_correction": {
+    "match": true,
+    "observed": "Picture-left shoulder connects to upper arm slanting down, elbow visibly below shoulder, forearm returning upward to hair beside ear. Picture-right arm now descends beside waist and holds dress fabric at thigh; no forearm rises from chest."
+  },
+  "anatomy": {
+    "tool": "unavailable: mediapipe is absent (No module named mediapipe)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Hair hand has a visible thumb and four curled finger forms, with tips partly hidden by curls. Fabric-gripping hand has thumb separated from curled fingers; fabric and perspective occlude some fingertips. Both wrists connect continuously to the correct forearm. Both legs lead to two separate heels.",
+    "overlay_checked": false,
+    "note": "Inspected full image and separate enlarged near-arm, far-arm/hand and mirror crops. Elbows bend in natural direction; no detached third hand. Upper arms are traceable, with far shoulder partially occluded naturally by torso angle."
+  },
+  "mirror": {
+    "match": true,
+    "observed": "Mirror shows one arm lowered holding the gown; the hair-touching arm lies on the far side in the reflected angle and is largely hidden. No old raised elbow remains in mirror."
+  },
+  "composition": {
+    "match": true,
+    "observed": "One adult protagonist and her coherent reflection, full head and both shoes inside 1024×1536. Same bridal fitting location."
+  },
+  "remaining_recorded_deviations": "Small variations in curls, facial gaze and lace placement from generative edit; identity and dress construction retained.",
+  "look_check": "/workspace/scratch/5571d80c47c0/generated_images/exec-3e256b66-dc00-40ec-a87a-244050b8f0d2.png — 가까운 컷 0장(점수 245 미만)\n     300  눈설왕_glossy_promo_f_casual2.webp\n     301  메가니움_glossy_promo_f_casual3.webp\n     304  두르보_glossy_promo_f_casual3.webp\n/workspace/scratch/5571d80c47c0/phione-armfix-img/img/피오네_glossy_promo_f_casual2.webp — 가까운 컷 1장(점수 245 미만)\n     237  주뱃_glossy_promo_f_casual1.webp\n     275  뚜벅쵸_glossy_promo_f_casual1.webp\n     275  라이코_glossy_promo_f_casual1.webp\n/workspace/scratch/5571d80c47c0/phione-armfix-img/img/피오네_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     283  메가니움_glossy_promo_f_casual3.webp\n     285  아이스크_glossy_promo_f_casual3.webp\n     292  꼬부기_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+}

@@ -1,0 +1,27 @@
+{
+  "card": "피오네",
+  "slot": "casual1",
+  "style": "glossy_promo",
+  "gender": "f",
+  "operation": "user-authorized replacement in existing shard 2, same filename",
+  "tool": "built-in image_gen edit",
+  "reason": "Unnatural raised arm shoulder-to-elbow connection, confirmed visually",
+  "old_output_sha256": "eab0ed62b0b76e6bfb45934303111dd9ef930aece64a3aa43e0b7960aebc6ff4",
+  "new_output": {
+    "file": "피오네_glossy_promo_f_casual1.webp",
+    "format": "WebP",
+    "pixels": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6,
+    "sha256": "775d4fd2505515b3b9104838aa76cea6d4e56d72479a72cb6943e9f4e9a01dc0"
+  },
+  "generated_original_session_only": "/workspace/scratch/5571d80c47c0/generated_images/exec-3e256b66-dc00-40ec-a87a-244050b8f0d2.png",
+  "generated_original_sha256": "eb43370b72b43448e24e3f6ff5372718e5be161a71808838bd0f13917e1a2974",
+  "prompt": "edit-prompt.txt",
+  "inputs": "edit-inputs.json",
+  "qa": "qa.json",
+  "historical_records": "Original phione-20261027 prompts/UI/QA are preserved unchanged; this repair record supersedes only casual1 image bytes."
+}

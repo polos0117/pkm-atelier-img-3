@@ -1,0 +1,22 @@
+{
+  "user_request": "피오네 일상1 머리를 만지는 팔의 구도가 이상함. 육안 확인 후 수정.",
+  "mode": "built-in image_gen edit; user-requested anatomical pose correction",
+  "published_target": {
+    "repository": "polos0117/pkm-atelier-img-3",
+    "path": "img/피오네_glossy_promo_f_casual1.webp",
+    "sha256": "eab0ed62b0b76e6bfb45934303111dd9ef930aece64a3aa43e0b7960aebc6ff4"
+  },
+  "references": [
+    {
+      "role": "edit target",
+      "session_only_path": "/workspace/scratch/5571d80c47c0/generated_images/exec-0639d45b-6484-4e8b-81a5-b4aad004961e.png",
+      "sha256": "7b7f9632a38699eea79f3d97b48570fe0d6edb08eda479a30b1c80d70bf8cc48"
+    },
+    {
+      "role": "identity anchor only",
+      "session_only_path": "/workspace/scratch/5571d80c47c0/generated_images/exec-1af5942b-c9d7-42b7-a531-4d66e21c299c.png",
+      "sha256": "c26988e87e0bb62669905b4808d9d6e768675b11f07937956ba93e9088d05ba4"
+    }
+  ],
+  "before_visual_review": "Picture-right forearm rises from an obscured upper arm near chest; shoulder-to-elbow path is not readable. Near raised arm has an extreme shoulder turn. Correct with one low elbow/hand beside ear and the other arm lowered beside waist."
+}
