@@ -1,0 +1,116 @@
+{
+  "card": "레오꼬",
+  "anchor": {
+    "card": "레오꼬",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact captured output; built-in image_gen",
+    "source_session_only": "/workspace/scratch/33b918e792a9/generated_images/exec-411e24f1-305a-4222-8684-f9b4e033154b.png",
+    "original_sha256": "e16a89493e87a60f1072a7b897f0006abe50f858ccdfd010d773adf2cd941c5e",
+    "references": [],
+    "output": {
+      "file": "레오꼬_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d93794b4a8565170c288a96ef2ce868f59c630142c164f824914a5cfca44448c"
+    }
+  },
+  "face_design": {
+    "name": "레오꼬",
+    "en": "Litleo",
+    "line": "레오꼬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "heart-shaped",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "wide-set eyes",
+      "eyebrows": "long arched brows",
+      "nose character": "balanced nose",
+      "lips": "medium lips"
+    },
+    "why": "",
+    "cues": [
+      "불꽃 타입 → 눈꼬리 각도 올라간 눈꼬리",
+      "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 입술 얇은 입술 → 보통",
+    "hair": {
+      "hairstyle": "ponytail",
+      "hair length": "medium",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "노말 타입에서 포니테일(묶은 꼬리) · 중간 길이 · 옆으로 넘긴 앞머리",
+    "hair_cues": [
+      "노말 타입 → 헤어스타일 포니테일"
+    ]
+  },
+  "source_evidence": {
+    "name": "레오꼬",
+    "en": "Litleo",
+    "color": "brown",
+    "shape": "quadruped",
+    "features": [
+      {
+        "part": "paw",
+        "detail": "pale brown paws"
+      },
+      {
+        "part": "nose",
+        "detail": "reddish-orange nose"
+      },
+      {
+        "part": "tip",
+        "detail": "tail tip"
+      },
+      {
+        "part": "muzzle",
+        "detail": "short, rounded muzzle"
+      },
+      {
+        "part": "ear",
+        "detail": "round ears"
+      },
+      {
+        "part": "eye",
+        "detail": "black eyes"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Litleo_%28Pok%C3%A9mon%29",
+    "revision": 4611067,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "e511a602dd48591b8c36b8a5be1ed39ab46d056f7031f4b36ebc1acfd6963834",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "face_reason": "Litleo's rounded muzzle is translated as a human balanced nose and medium mouth, compact lion face as a tapered chin, fire temperament as sharp rising almond eyes; ponytail echoes the small raised forelock.",
+  "final_face_line": "FACE (her own structure, not the style's default face): heart-shaped face, balanced length, medium width; narrow tapered chin; sharp eyes, medium size, upturned outer corners, wide-set; long arched brows; balanced nose; medium lips.",
+  "actual_comparison": [
+    "히드런",
+    "펄기아",
+    "두르쿤",
+    "비비용"
+  ],
+  "face_comparison": "Compared rendered faces with hair/ornaments mentally excluded: Vivillon has larger rounder eyes and softer jaw than the recent long-faced anchors; Litleo has sharply rising almond eyes, a narrow chin and smaller mouth, distinct from Vivillon's wider open eyes.",
+  "batches": [
+    "anchor approved",
+    "heavy and mobility approved",
+    "three matched-pose overdrives approved",
+    "three independent casuals checked"
+  ],
+  "published": false,
+  "manifest": "classification.json"
+}
