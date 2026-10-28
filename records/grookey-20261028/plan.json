@@ -1,0 +1,591 @@
+{
+  "session": "grookey-single-20261028-4fc8",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "흥나숭",
+      "species": "grookey-20261028",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "homewear",
+          "ex": "after_bath",
+          "expr": "mischievous",
+          "pose": "leaning_wall",
+          "orient": "over_shoulder",
+          "frame": "waist_up",
+          "lens": "telephoto135",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "expose": [
+            "off-shoulder neckline",
+            "bare midriff"
+          ],
+          "lead": "place",
+          "example_text": "after a bath in a cotton camisole and shorts, drying her hair with a towel",
+          "ui_storage": {
+            "expr": "mischievous",
+            "pose": "leaning_wall",
+            "orient": "over_shoulder",
+            "scene": "A terracotta-tiled washroom doorway opens into a sunlit bedroom, with a mint linen towel and a wicker laundry basket.",
+            "outfit": "An ivory cotton tank camisole with a dropped off-shoulder neckline and cropped hem, paired with sage sleep shorts; her shoulders and midriff remain visible.",
+            "frame": "waist_up",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "homewear",
+            "ex": "after_bath",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "Towel drying is gentle movement, so balanced action; one sage accent keeps source subtle; camisole and shorts are separate garments.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "A terracotta-tiled washroom doorway opens into a sunlit bedroom, with a mint linen towel and a wicker laundry basket.",
+              "reason": "The bath example lacks room architecture and time of day; added terracotta doorway and morning bedroom light."
+            },
+            {
+              "field": "outfit",
+              "text": "An ivory cotton tank camisole with a dropped off-shoulder neckline and cropped hem, paired with sage sleep shorts; her shoulders and midriff remain visible.",
+              "reason": "The example fixes cotton camisole and shorts but not color or neckline; applied planned off-shoulder and cropped construction."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+            }
+          ]
+        },
+        {
+          "cut": 2,
+          "cat": "occupation_basic",
+          "ex": "test_engineer",
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "pose": "sitting_floor",
+          "expr": "proud",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "bare midriff"
+          ],
+          "lead": "place",
+          "example_text": "Poké Ball repair artisan using precision tools to adjust a ball latch on a padded workbench.",
+          "ui_storage": {
+            "expr": "proud",
+            "pose": "sitting_floor",
+            "orient": "leaning_back",
+            "scene": "A low green-felt repair bench and padded wall backrest fill a terracotta workshop alcove. A brass microdriver in one hand engages the tiny screw inside an opened ball latch while her other hand steadies the red-and-white ball on the bench.",
+            "outfit": "A cropped moss-green work apron with an off-shoulder neckline, fitted opaque bodice and copper piping, paired with charcoal trousers; her shoulders and midriff are visible.",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_basic",
+            "ex": "test_engineer",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "A held screw adjustment is mostly posed; green/copper workwear gives balanced source cues; apron and trousers are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "A low green-felt repair bench and padded wall backrest fill a terracotta workshop alcove. A brass microdriver in one hand engages the tiny screw inside an opened ball latch while her other hand steadies the red-and-white ball on the bench.",
+              "reason": "The example names precision tools without specifying hand contact. After a result only held a ball, specified microdriver engaging latch screw and a second hand steadying its shell."
+            },
+            {
+              "field": "outfit",
+              "text": "A cropped moss-green work apron with an off-shoulder neckline, fitted opaque bodice and copper piping, paired with charcoal trousers; her shoulders and midriff are visible.",
+              "reason": "Workwear has no fixed garment in example; planned cropped apron and trousers expose shoulders and waist while supporting repair work."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+            }
+          ]
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "diner_counter",
+          "garments": [
+            "blouse",
+            "skirt"
+          ],
+          "orient": "high_angle",
+          "frame": "chest_up",
+          "pose": "arms_crossed",
+          "expr": "soft_smile",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "cropped hem"
+          ],
+          "lead": "light",
+          "example_text": "a 1950s wiggle skirt and a fitted cropped blouse, perched on a chrome diner stool with a milkshake",
+          "ui_storage": {
+            "expr": "soft_smile",
+            "pose": "arms_crossed",
+            "orient": "high_angle",
+            "scene": "Morning sunlight stripes a red-and-cream diner counter; a strawberry milkshake in a fluted glass sits beside the chrome stool.",
+            "outfit": "A cherry-red one-shoulder cropped blouse with tiny cream polka dots and one sage button, paired with a navy high-waisted 1950s wiggle skirt; one shoulder and a slim band of midriff are visible.",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "retro_glamour",
+            "ex": "diner_counter",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "Paused folded arms by a milkshake use mostly posed action; a sage button is subtle source influence; blouse and skirt are separate garments.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "Morning sunlight stripes a red-and-cream diner counter; a strawberry milkshake in a fluted glass sits beside the chrome stool.",
+              "reason": "The diner example has no time, palette or drink flavor; added morning light, red-cream counter and strawberry milkshake."
+            },
+            {
+              "field": "outfit",
+              "text": "A cherry-red one-shoulder cropped blouse with tiny cream polka dots and one sage button, paired with a navy high-waisted 1950s wiggle skirt; one shoulder and a slim band of midriff are visible.",
+              "reason": "The example fixes cropped blouse and wiggle skirt; added one-shoulder construction, polka dots, navy skirt and one sage button."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+            }
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "homewear"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "apron",
+          "trousers",
+          "blouse"
+        ],
+        "orient": [
+          "leaning_back",
+          "high_angle"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "homewear",
+      "ex": "after_bath",
+      "expr": "mischievous",
+      "pose": "leaning_wall",
+      "orient": "over_shoulder",
+      "frame": "waist_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts",
+        "tank"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "example_text": "after a bath in a cotton camisole and shorts, drying her hair with a towel",
+      "ui_storage": {
+        "expr": "mischievous",
+        "pose": "leaning_wall",
+        "orient": "over_shoulder",
+        "scene": "A terracotta-tiled washroom doorway opens into a sunlit bedroom, with a mint linen towel and a wicker laundry basket.",
+        "outfit": "An ivory cotton tank camisole with a dropped off-shoulder neckline and cropped hem, paired with sage sleep shorts; her shoulders and midriff remain visible.",
+        "frame": "waist_up",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "homewear",
+        "ex": "after_bath",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "Towel drying is gentle movement, so balanced action; one sage accent keeps source subtle; camisole and shorts are separate garments.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A terracotta-tiled washroom doorway opens into a sunlit bedroom, with a mint linen towel and a wicker laundry basket.",
+          "reason": "The bath example lacks room architecture and time of day; added terracotta doorway and morning bedroom light."
+        },
+        {
+          "field": "outfit",
+          "text": "An ivory cotton tank camisole with a dropped off-shoulder neckline and cropped hem, paired with sage sleep shorts; her shoulders and midriff remain visible.",
+          "reason": "The example fixes cotton camisole and shorts but not color or neckline; applied planned off-shoulder and cropped construction."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "occupation_basic",
+      "ex": "test_engineer",
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "orient": "leaning_back",
+      "frame": "three_quarter",
+      "pose": "sitting_floor",
+      "expr": "proud",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "bare midriff"
+      ],
+      "lead": "place",
+      "example_text": "Poké Ball repair artisan using precision tools to adjust a ball latch on a padded workbench.",
+      "ui_storage": {
+        "expr": "proud",
+        "pose": "sitting_floor",
+        "orient": "leaning_back",
+        "scene": "A low green-felt repair bench and padded wall backrest fill a terracotta workshop alcove. A brass microdriver in one hand engages the tiny screw inside an opened ball latch while her other hand steadies the red-and-white ball on the bench.",
+        "outfit": "A cropped moss-green work apron with an off-shoulder neckline, fitted opaque bodice and copper piping, paired with charcoal trousers; her shoulders and midriff are visible.",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_basic",
+        "ex": "test_engineer",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "A held screw adjustment is mostly posed; green/copper workwear gives balanced source cues; apron and trousers are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A low green-felt repair bench and padded wall backrest fill a terracotta workshop alcove. A brass microdriver in one hand engages the tiny screw inside an opened ball latch while her other hand steadies the red-and-white ball on the bench.",
+          "reason": "The example names precision tools without specifying hand contact. After a result only held a ball, specified microdriver engaging latch screw and a second hand steadying its shell."
+        },
+        {
+          "field": "outfit",
+          "text": "A cropped moss-green work apron with an off-shoulder neckline, fitted opaque bodice and copper piping, paired with charcoal trousers; her shoulders and midriff are visible.",
+          "reason": "Workwear has no fixed garment in example; planned cropped apron and trousers expose shoulders and waist while supporting repair work."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "retro_glamour",
+      "ex": "diner_counter",
+      "garments": [
+        "blouse",
+        "skirt"
+      ],
+      "orient": "high_angle",
+      "frame": "chest_up",
+      "pose": "arms_crossed",
+      "expr": "soft_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "cropped hem"
+      ],
+      "lead": "light",
+      "example_text": "a 1950s wiggle skirt and a fitted cropped blouse, perched on a chrome diner stool with a milkshake",
+      "ui_storage": {
+        "expr": "soft_smile",
+        "pose": "arms_crossed",
+        "orient": "high_angle",
+        "scene": "Morning sunlight stripes a red-and-cream diner counter; a strawberry milkshake in a fluted glass sits beside the chrome stool.",
+        "outfit": "A cherry-red one-shoulder cropped blouse with tiny cream polka dots and one sage button, paired with a navy high-waisted 1950s wiggle skirt; one shoulder and a slim band of midriff are visible.",
+        "frame": "chest_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "retro_glamour",
+        "ex": "diner_counter",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "Paused folded arms by a milkshake use mostly posed action; a sage button is subtle source influence; blouse and skirt are separate garments.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Morning sunlight stripes a red-and-cream diner counter; a strawberry milkshake in a fluted glass sits beside the chrome stool.",
+          "reason": "The diner example has no time, palette or drink flavor; added morning light, red-cream counter and strawberry milkshake."
+        },
+        {
+          "field": "outfit",
+          "text": "A cherry-red one-shoulder cropped blouse with tiny cream polka dots and one sage button, paired with a navy high-waisted 1950s wiggle skirt; one shoulder and a slim band of midriff are visible.",
+          "reason": "The example fixes cropped blouse and wiggle skirt; added one-shoulder construction, polka dots, navy skirt and one sage button."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; the shared project rule requires an explicit 1024x1536 camera line."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; verify stamp passed before generation",
+  "reservation_commits": [
+    "481bfc60346d4035ac22c0ec7eab2c6466d982f7",
+    "1969c77247a9895567118bd24970edc89076b6db"
+  ],
+  "workflow_adjustment": "Batch planning could not satisfy new garment rule. Planned/reserved each character in turn without weakening validation; both plans checked against the other reservation.",
+  "replans": [
+    {
+      "slots": [
+        2,
+        3
+      ],
+      "reason": "casual2 lacked jazz kick; casual3 terminal sexual safety rejection with no output. Rejected prompt not retried; replaced with different nonsexual workwear/diner scenes."
+    },
+    {
+      "slot": 2,
+      "reason": "First repair output only held ball. Added actual microdriver-latch contact to scene UI, kept all planner settings and original light reference."
+    }
+  ],
+  "visual_comparison": {
+    "cards": [
+      "암팰리스",
+      "트리미앙",
+      "냐스퍼"
+    ],
+    "result": "Source images reviewed alongside current three cuts. Towel-drying back view, floor-level ball repair, and folded-arm diner portrait differ in place, task, garment silhouette and composition from each other and those recent cuts."
+  }
+}

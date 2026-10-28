@@ -1,0 +1,66 @@
+{
+  "stage": "9_of_9_accepted_ready_to_publish",
+  "approved_identity": {
+    "slot": "light",
+    "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-c0a75eaf-2030-4360-8293-d0fbb1802216.png",
+    "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a",
+    "file": "흥나숭_light_glossy_promo_f.webp",
+    "sha256": "a4eddb72e0b78d215f15dc68b9893185c968be13e2731e36872d31f65bdf82ad",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "status": "accepted",
+    "reference_slot": null
+  },
+  "face_design": {
+    "name": "흥나숭",
+    "en": "Grookey",
+    "line": "흥나숭",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "compact",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "large",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "fine soft arches",
+      "nose character": "small delicate nose",
+      "lips": "wide mouth"
+    },
+    "why": "작은 원숭이의 리듬과 둥근 윤곽을 둥근 볼과 열린 눈으로 해석한다.",
+    "cues": [
+      "키 0.3m → 얼굴형 짧고 응축된 얼굴형",
+      "키 0.3m → 얼굴 길이 짧은 얼굴"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 짧고 응축된 얼굴형 [머리] 헤어스타일 상한(8%·보브 4%)에 닿아 단정한 보브컷 → 잔곱슬 / 아프로",
+    "hair": {
+      "hairstyle": "tight curls",
+      "hair length": "short",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "키 0.3m에서 잔곱슬 / 아프로(웨이브·곱슬) · 짧은 머리 · 커튼뱅",
+    "hair_cues": [
+      "키 0.3m → 머리 길이 짧은 머리"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): compact face, short length, wide width; soft rounded jaw; almond eyes, large size, level outer corners, average spacing; fine soft arches; small delicate nose; wide mouth.",
+  "compared_characters": [
+    "채키몽",
+    "암팰리스",
+    "트리미앙",
+    "냐스퍼"
+  ],
+  "face_comparison": "Grookey short broad rounded jaw and open large eyes differ from Thwackey angular jaw/narrow eyes, Crustle long angular red-haired face, Furfrou long silver-haired face and Espurr smaller violet features.",
+  "source_evidence": "data/source-appearance.json entries.810 and docs/CHARACTER_FACE_DESIGNS.md #810",
+  "generated_accepted": 9,
+  "requested": 9,
+  "remote_image_commit": null,
+  "originals": "Session only; SHA256 and final WebP recorded. Not promised recoverable from another session."
+}

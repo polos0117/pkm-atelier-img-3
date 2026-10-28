@@ -1,0 +1,190 @@
+{
+  "card": "흥나숭",
+  "style": "glossy_promo",
+  "method": "built-in image_gen",
+  "source_retention": "session_only_sha256_recorded",
+  "images": [
+    {
+      "slot": "light",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-c0a75eaf-2030-4360-8293-d0fbb1802216.png",
+      "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a",
+      "file": "흥나숭_light_glossy_promo_f.webp",
+      "sha256": "a4eddb72e0b78d215f15dc68b9893185c968be13e2731e36872d31f65bdf82ad",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": null
+    },
+    {
+      "slot": "heavy",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-a560dbbe-b7ea-4632-85fc-29a52a582f10.png",
+      "source_sha256": "aaee5699679867b0cffebd2302e393b6d18f1261af87f02fef3f60b17468642c",
+      "file": "흥나숭_heavy_glossy_promo_f.webp",
+      "sha256": "6c8c416ff6844c21c3125faf23b8325c20660c674ebfb4e5c2aec2c4b6c9a8f6",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "mobility",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-86c74311-cd18-4d99-acb9-095bca2c874b.png",
+      "source_sha256": "b21a7c65c5b46357cb365a7055a3e5c5f7cde154bc7aaddb7153a6864e5972ff",
+      "file": "흥나숭_mobility_glossy_promo_f.webp",
+      "sha256": "a884920519a3512027afbd62fcb331c7c9cea0bdb1299357c80d2d5b32532aab",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-19566769-5421-456e-9c5c-d918b3245027.png",
+      "source_sha256": "e9e4000672f3097a90ff1c6be2b457a77d065a0d7fc792189e4c21dcd576cd7b",
+      "file": "흥나숭_light_overdrive_glossy_promo_f.webp",
+      "sha256": "3df70694c84853e61609f81f897f43530322721968290859744b1b21c7cd2bd6",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-430a707c-e6f3-47d3-8935-df0c8d02976e.png",
+      "source_sha256": "d0e87b3158320207b7f058750b336e4a7d6e9ea927f4fd3fc9d443d24e782c07",
+      "file": "흥나숭_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "0dcc4d3d209d9aba2d5ee0132b4d88bc30a74dc0b797855a132d9b7f95456b30",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "heavy",
+      "references": [
+        {
+          "slot": "heavy",
+          "source_sha256": "aaee5699679867b0cffebd2302e393b6d18f1261af87f02fef3f60b17468642c"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-8139f1c3-175f-4450-a76f-e3bf77dc16ff.png",
+      "source_sha256": "f808a1a6e040ef2c91279605edc97b4d57c270347d747031d944fded07dc8def",
+      "file": "흥나숭_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "35e5bb9ae29b4ef9046e84aa5697672ef79b78aa7d43d4585f4f7c3a22d2e6b4",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "mobility",
+      "references": [
+        {
+          "slot": "mobility",
+          "source_sha256": "b21a7c65c5b46357cb365a7055a3e5c5f7cde154bc7aaddb7153a6864e5972ff"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "casual1",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-9947634e-8046-48da-963d-1090854a5de2.png",
+      "source_sha256": "bf67de7904a44af4460a22cc5adbb23415b97269fee3292e97ad8ec71a1fadd1",
+      "file": "흥나숭_glossy_promo_f_casual1.webp",
+      "sha256": "07aa28cb94f4cb357aab2d42b2472704dd6ab371cef97245333f19fc2bb727e5",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "casual2",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-feff23df-8e35-44f6-b1b3-45254ed36fcc.png",
+      "source_sha256": "a7640b259be4eac522c6f9a827b5053d48d8803f6aaab0b96d30aa9e2c6a1484",
+      "file": "흥나숭_glossy_promo_f_casual2.webp",
+      "sha256": "7bcafea605684b6aed1822c22e8ddda3852accc84b6f2334358c52c51fdc9cc3",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    },
+    {
+      "slot": "casual3",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-ca757df4-ead5-4b45-9cf9-6e92562ad814.png",
+      "source_sha256": "66a44feedd02eddf4824b19a5cb54b9ec7faad74e111441e59437d484ec4bdf2",
+      "file": "흥나숭_glossy_promo_f_casual3.webp",
+      "sha256": "a40deda3df5c3f655574e08170fb72b3c00c62668affaf3612853771d8eb7e60",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "da9b51a2bb0f231380dc6ca82f77191d8823413d1c1a9ed4f4fe7c5a3faabf0a"
+        }
+      ]
+    }
+  ]
+}
