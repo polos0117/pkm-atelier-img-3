@@ -1,0 +1,93 @@
+{
+  "card": "트리미앙",
+  "status": "registered_complete",
+  "generated": 9,
+  "requested": 9,
+  "tool": "built-in image_gen",
+  "image_commit": "83cfd3a5250fffeb33c54d21ee19bd67c8f83337",
+  "thumbnail_commit": "071a7d2",
+  "registration_commit": "92f3c09c4473744ec539c408f4ad17f2e9d29ff0",
+  "main_update": "GitHub connector; force:false, expected parent checked; fast-forward only",
+  "remote_validation": {
+    "webp_blob_hashes_match_local": 9,
+    "thumbnails_present": 9,
+    "registered_same_filenames": 9,
+    "where": 2
+  },
+  "actions": {
+    "thumbs": {
+      "run_id": 40621389554,
+      "conclusion": "success"
+    },
+    "registration": {
+      "run_id": 40621649114,
+      "conclusion": "success"
+    },
+    "warnings": "기존 이미지 규격 경고와 공통 Node.js 20/의존성 폐기 예정 경고만. 새 9장은 모두 1024×1536."
+  },
+  "original_png": "session_only; not uploaded",
+  "source_and_webp_hashes": "classification.json",
+  "anatomy": "mediapipe unavailable; eye-count and enlarged hand/foot inspection recorded in qa.json",
+  "daily_record_supplement": [
+    {
+      "cut": 1,
+      "example_text": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband, mid-move in a mirrored studio",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_record": "계획기가 결정함. UI 랜덤 사용·수동 선택 변경 없음."
+    },
+    {
+      "cut": 2,
+      "example_text": "sitting on a grand staircase after the gala in a satin gown, heels in one hand, the train pooled around her",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_record": "계획기가 결정함. UI 랜덤 사용·수동 선택 변경 없음."
+    },
+    {
+      "cut": 3,
+      "example_text": "waiting in the queue outside a club at night in a short faux-fur jacket over a slip mini dress",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_record": "계획기가 결정함. UI 랜덤 사용·수동 선택 변경 없음."
+    }
+  ]
+}
