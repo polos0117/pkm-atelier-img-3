@@ -1,0 +1,288 @@
+{
+  "reviewer": "gpt",
+  "reviewed_at": "2026-10-28T22:51:47.086509+00:00",
+  "cuts": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "5020418716cd34d7d3cb37e88c1d92a27cef1a35bb41eb1863a2c691c0c2df44",
+      "identity": {
+        "match": true,
+        "evidence": "Long straight white hair, cool blue eyes and oval face with broad jaw; white/ice-blue armor and small fur trims with paw markings. Two arms and legs, fitted dark gloves, both boots inside the frame."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Long straight white hair, cool blue eyes and oval face with broad jaw; white/ice-blue armor and small fur trims with paw markings. Two arms and legs, fitted dark gloves, both boots inside the frame."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "85e6a46202b0bbac84ddec1e04b4ac6702cfb89c5030e4df8a8da91bc149a6f9",
+      "identity": {
+        "match": true,
+        "evidence": "Same blue eyes, jaw and long white hair; layered white shoulder, chest, hip and shin plates visibly thicken the silhouette. Open facial crown guards and fur rims preserve the identity."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same blue eyes, jaw and long white hair; layered white shoulder, chest, hip and shin plates visibly thicken the silhouette. Open facial crown guards and fur rims preserve the identity."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "c9470ad99ac8ab12ee86065581bb2e71244cdd89f8eb9194f4ed216190060518",
+      "identity": {
+        "match": true,
+        "evidence": "Same face and hair; swept white panels around compact blue shoulder, hip and calf thrusters, slim temple fins and free joints. No giant wings or separate weapon."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same face and hair; swept white panels around compact blue shoulder, hip and calf thrusters, slim temple fins and free joints. No giant wings or separate weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "9582a66fab48c920198a9ed83e92690b1c9cf9e9e194da55cc9ed993fb553237",
+      "identity": {
+        "match": true,
+        "evidence": "Same ice-mountain camera and standing pose as light; orange fighting-energy lines become visible under opened white plates. Existing blue accents remain."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same ice-mountain camera and standing pose as light; orange fighting-energy lines become visible under opened white plates. Existing blue accents remain."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "596eb23da6a6a8d4373158260ba90156f9ca1f6346bbd13020f463392e196eda",
+      "identity": {
+        "match": true,
+        "evidence": "Same heavy silhouette, camera and scale. Broad plates split along seams showing orange internal light; open-face crown and gloves unchanged."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same heavy silhouette, camera and scale. Broad plates split along seams showing orange internal light; open-face crown and gloves unchanged."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "d442591f74486c484ce8fcef3c9200ede94722439287ba0166ae0ea11c264005",
+      "identity": {
+        "match": true,
+        "evidence": "Same mobility camera, face, boots and pose. Swept panels open around orange cores while original blue panel accents remain."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same mobility camera, face, boots and pose. Swept panels open around orange cores while original blue panel accents remain."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two fitted dark gloves connect to wrists. Screen-left hand has four curled fingers and a separate inward thumb; screen-right hand has four relaxed overlapping fingers and opposed thumb. Plates cover the back of the hands, not extra digits. Both knees and boots connect normally.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "51756ee166f77c3218b1841310cd3a15971cf25acc57d2445df48881af09b6f3",
+      "identity": {
+        "match": true,
+        "evidence": "At a snow-mountain lodge window she knits pale blue fabric with two wooden needles. Back-three-quarter torso and head turned toward camera; raised brows and parted lips. Backless white knit mini garment has pale-blue side cutouts and pompom ties. Framing includes seated hips and thighs rather than chest-up. Clothing reads as a knit romper/dress silhouette; lower construction is obscured by the seated pose."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted framing/expression/clothing deviations",
+        "evidence": "At a snow-mountain lodge window she knits pale blue fabric with two wooden needles. Back-three-quarter torso and head turned toward camera; raised brows and parted lips. Backless white knit mini garment has pale-blue side cutouts and pompom ties. Framing includes seated hips and thighs rather than chest-up. Clothing reads as a knit romper/dress silhouette; lower construction is obscured by the seated pose."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Needle-holding hands join wrists. Upper thumb/index pinch the needle with three curled fingers behind; nearer hand has thumb against the wood and four fingers curving around yarn/needle, partly occluded. Lower legs are outside crop.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "ed90fbc8a5d86f8a7536437cc0a7b0b5a33dba6e9e672824ddf2723abefa3bc4",
+      "identity": {
+        "match": true,
+        "evidence": "Seated on a bakery bench beside berry tarts, she brings a forkful of tart to her lips. White cropped apron-style top and pale blue shorts expose shoulders, midriff and thighs. Knees cross, torso twists and blue eyes glance aside. Both feet in fur-trimmed slides are visible; shoulders have narrow apron straps in addition to dropped ruffles."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted framing/expression/clothing deviations",
+        "evidence": "Seated on a bakery bench beside berry tarts, she brings a forkful of tart to her lips. White cropped apron-style top and pale blue shorts expose shoulders, midriff and thighs. Knees cross, torso twists and blue eyes glance aside. Both feet in fur-trimmed slides are visible; shoulders have narrow apron straps in addition to dropped ruffles."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Fork hand has opposed thumb/index and three curled overlapping fingers. Bench-resting hand has partly hidden fingertips under the hand edge/fur. Two arms and two crossed legs connect; both visible feet have five toes, sandal straps obscure toe bases.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "e93db07d43a21e05526369cc5f7508310b8d3a9a8e556029509c4d4ae9ae0d03",
+      "identity": {
+        "match": true,
+        "evidence": "Sunny festival craft field has fabric pennants, rugs, stalls and string lights. White lined crochet halter top and pale blue low-rise flared jeans expose shoulders, side waist and midriff. A small paw pattern remains. Low camera looks up at her standing with one hand behind her head and the other lowered. Relaxed small smile and blue eyes face the viewer. Framing is full-height and figure-dominant rather than a distant environmental view; one hand is occluded by hair."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted framing/expression/clothing deviations",
+        "evidence": "Sunny festival craft field has fabric pennants, rugs, stalls and string lights. White lined crochet halter top and pale blue low-rise flared jeans expose shoulders, side waist and midriff. A small paw pattern remains. Low camera looks up at her standing with one hand behind her head and the other lowered. Relaxed small smile and blue eyes face the viewer. Framing is full-height and figure-dominant rather than a distant environmental view; one hand is occluded by hair."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (exit 3); visual inspection performed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Lower bare hand has four curved fingers and an opposed thumb, some fingers overlap; enlarged crop shows no detached or duplicated digit. Raised hand is hidden behind hair/head, and its forearm and elbow connect naturally. Two legs connect under flared jeans; toe tips partly hidden by hems and grass.",
+        "overlay_checked": false,
+        "note": "Reviewed full-size output and hand/foot crops; occlusion/crop is described rather than claiming every finger was visible."
+      },
+      "visible_text_logo": {
+        "match": true,
+        "evidence": "No readable brand, logo, title, speech balloon or watermark visible."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Pillow reopened PNG and final WebP as 1024x1536."
+      }
+    }
+  ],
+  "casual_diversity": {
+    "compared_cards": [
+      "뜨아거",
+      "냐오닉스",
+      "단칼빙",
+      "오기지게"
+    ],
+    "evidence": "Compared actual recent published images and both current triptychs side by side. Skateboard maintenance/kneeling, rink/overhead stretch, desert terrace/standing differ from lodge knitting/back view, bakery tasting/seated and sunny festival/standing in flared jeans. Clothing silhouettes and activities are distinct. Cropped exposed shoulders recur, but setting/action/framing combinations differ.",
+    "passed": true
+  },
+  "face_comparison": "Compared the actual recent anchors and current light images. Crabrawler has purple undercut, angular broad jaw and amber eyes; Crabominable has long straight white hair, blue eyes and oval broad jaw. These remain consistent across their follow-ups.",
+  "casual_look": {
+    "passed": true,
+    "nearest_scores": [
+      248,
+      244,
+      239
+    ],
+    "threshold": 215
+  },
+  "conversion_notes": "Heavy overdrive initial local WebP was 0 bytes; regenerated WebP from preserved PNG with quality 85 method 6, then reopened and decoded all 9 final files before publication."
+}

@@ -1,0 +1,468 @@
+{
+  "card": "모단단게",
+  "session": "crabrawler-crabominable-20261029-6505",
+  "created_at": "2026-10-28T22:51:47.086509+00:00",
+  "generation_mode": "built-in image_gen",
+  "batch_plan": {
+    "session": "crabrawler-crabominable-20261029-6505",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "오기지게",
+        "species": "crabrawler-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "skater_bowl",
+            "expr": "bored",
+            "pose": "kneeling",
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "sweater"
+            ],
+            "expose": [
+              "halter neck",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "roller_disco",
+            "expr": "proud",
+            "pose": "stretching",
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "trousers"
+            ],
+            "expose": [
+              "halter neck",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "desert_resort",
+            "expr": "gentle",
+            "pose": "hand_on_hip",
+            "orient": "front_3q",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "lingerie",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "모단단게",
+        "species": "crabominable-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_knitting",
+            "expr": "curious",
+            "pose": "carrying_something",
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "jumpsuit"
+            ],
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "food_berries",
+            "ex": "food_tart",
+            "expr": "candid",
+            "pose": "perched_seat",
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "boho_crochet",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "low_angle",
+            "frame": "environmental",
+            "pose": "contrapposto",
+            "expr": "half_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "lingerie",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "hobbies_leisure",
+      "ex": "hobby_knitting",
+      "expr": "curious",
+      "pose": "carrying_something",
+      "orient": "three_quarter_back",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "jumpsuit"
+      ],
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "Knitting a soft scarf on a window seat, a ball of yarn resting in a basket at her side.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_selection": "Planner selected all keys; no manual key substitution",
+      "axis_reasons": {
+        "action_level": "Knitting needs small continuing hand movements.",
+        "source_influence": "White knit, pale blue yarn and fur evoke the ice/fur motif.",
+        "separates_preference": "jumpsuit is the planner-selected clothing structure for this scene."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Soft winter daylight falls across a mountain-lodge craft corner; she works pale blue yarn into a small knitted scarf with two wooden needles.",
+          "reason": "The example leaves the light and immediate tool/prop surroundings unspecified."
+        },
+        {
+          "field": "outfit",
+          "content": "A white mini-length jumpsuit with an open back and ice-blue-edged side cutouts, leaving shoulders and upper thighs visible.",
+          "reason": "Specifies the planner clothing kinds jumpsuit and exposure structures open back, side cutouts in this scene."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "food_berries",
+      "ex": "food_tart",
+      "expr": "candid",
+      "pose": "perched_seat",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "example_text": "Lifting a freshly baked berry tart out of a warm oven with padded mitts in a sunny home kitchen.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_selection": "Planner selected all keys; no manual key substitution",
+      "axis_reasons": {
+        "action_level": "Tart tasting is a seated pause.",
+        "source_influence": "Pale blue shorts retain a color link without armor.",
+        "separates_preference": "apron+shorts is the planner-selected clothing structure for this scene."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She tastes a small berry tart at a low bakery tasting table; a few whole berries and a linen napkin sit beside the plate.",
+          "reason": "The example leaves the room or table materials and small props unspecified."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped off-shoulder ivory apron-style top with pale blue shorts; bare shoulders, midriff and thighs are visible.",
+          "reason": "Specifies the planner clothing kinds apron, shorts and exposure structures cropped hem, off-shoulder neckline in this scene."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "retro_glamour",
+      "ex": "boho_crochet",
+      "garments": [
+        "trousers"
+      ],
+      "orient": "low_angle",
+      "frame": "environmental",
+      "pose": "contrapposto",
+      "expr": "half_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "a 1970s crochet halter top with low-rise flared jeans at a sunny festival field",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_selection": "Planner selected all keys; no manual key substitution",
+      "axis_reasons": {
+        "action_level": "Standing at the festival is a posed fashion moment.",
+        "source_influence": "Pale blue jeans and small paw pattern retain the original color and marking cues.",
+        "separates_preference": "trousers is the planner-selected clothing structure for this scene."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon sunlight warms a summer festival field, with woven craft stalls, string pennants and a small wooden music stage in the background.",
+          "reason": "The example leaves the lighting, architecture and rehearsal-set details unspecified."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque lined ivory crochet halter top with an open back and small side waist cutouts, paired with low-rise ice-blue flared jeans and a woven brown belt.",
+          "reason": "Specifies the planner clothing kinds trousers and exposure structures open back, side cutouts in this scene."
+        }
+      ]
+    }
+  ],
+  "verification": "planner check and reservation stamp verification passed",
+  "original_png": "Session only; only sha256 hashes are committed",
+  "replan": {
+    "slot": "casual3",
+    "history": [
+      {
+        "scene": "noir_detective",
+        "result": "image retained in session, similarity score 206 below threshold 215, not selected"
+      },
+      {
+        "scene": "cat_cafe",
+        "result": "moderation_blocked, no image returned; no retry of that request"
+      },
+      {
+        "scene": "boho_crochet",
+        "result": "new nonsexual 1970s festival scene, standing low angle, lined halter top and flared jeans; planner-reserved; similarity check passed, nearest score 239"
+      }
+    ],
+    "failure_records": "attempts/",
+    "preserved_other_cuts": [
+      1,
+      2
+    ]
+  }
+}
