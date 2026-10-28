@@ -1,0 +1,283 @@
+[
+  {
+    "card": "암팰리스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-c71c03da-f7a0-471e-a392-40b57619c070.png",
+      "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "암팰리스_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "796bc25c732eb62b9359251199a4db9127ea19a345080c43509301c2ff90bbd2",
+      "git_blob": "8700c93416abc52a6001f69f80a4d6c40ad64466"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-1e24f6f0-c59e-4fa5-8032-579532d9506c.png",
+      "sha256": "8167540b55a8b0d4752ae3f18a877cbed8ffee232f439880d23531102b08496d",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "암팰리스_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "f8c690b169efaaa0e5804669b00493048e6a3dd032deaa90231e7c480e7c32fd",
+      "git_blob": "67fd3098ae88b0ccd1b90f63a428ae26e6ce234a"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-09bca51e-e0d1-424c-99e9-63b828421af1.png",
+      "sha256": "90caaadcac5ded22c212d583ba29c95d4dfb74e815829253105d2c91589f621a",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "암팰리스_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "01eac2c5675da91d1d7a24e56c729ddc7cb129567be741ffcf25dafd537631a3",
+      "git_blob": "7b1454d3e249fec4fbc7d4adc5e39f2b19e0e44e"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-19cfd0f3-7277-4ba2-a94b-bdc802ba71f1.png",
+      "sha256": "8459b895bb444492e1794b890a9aecc5569f569723279761d533ed030c2b5c38",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "암팰리스_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e1ac0cd39ccb00bf2c4035f223746a603df8e078b3374d18d7af1074a6ecbbb4",
+      "git_blob": "9dc567684158d117ded72489ea85b2b17b3ae2dc"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-e2bf3467-f790-40b7-9a7a-553158e56046.png",
+      "sha256": "f57b62c952afbf5e00a51c7fc233ac809f9a9656cd25160ae0babba08cfbfe81",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "8167540b55a8b0d4752ae3f18a877cbed8ffee232f439880d23531102b08496d"
+      },
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "암팰리스_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "cc72890c013226d8222db48e063853535a28186a27a56a2bd0d2e949a9d1d125",
+      "git_blob": "7a494bdcc93ee8b28d06925b84d655a62b0e9d65"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-4ea8ea5f-39b1-4f31-b5cd-e714455ebde7.png",
+      "sha256": "110a488e26cd3e9c02e4151f7482b77dbaf2c4e8f613cc50736f46e7c3ec4de1",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "90caaadcac5ded22c212d583ba29c95d4dfb74e815829253105d2c91589f621a"
+      },
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "암팰리스_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1e08ccf6e03bb891f4595d8a95f91eff66f3355c13326bab5b222b3e2c0f0f55",
+      "git_blob": "04368cc5d1286359347a9892cd362ff9cbb218b4"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-72d389b5-a8b8-43dd-9190-2620a5a968e9.png",
+      "sha256": "c5bca7f704adaace25349ebbbed8831ab94c8c297977147a73dd7c12806b8270",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "암팰리스_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e9cc76b5be25cc8c29fa58828cbb329d3ca3ff26db3145a572329424ffc8e27b",
+      "git_blob": "a0b16a4db391c89949f93cfbdab952734e92d16e"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-4b5edd34-f679-490f-a5d1-a124bf2d3b6b.png",
+      "sha256": "8fd274cf58b50f5599d0e9360549ad70cb4f7713b09ceb36c7542615f05125d4",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "암팰리스_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "025d91b609855451b02135c61d343e96d9b690273226779e01470048df78d716",
+      "git_blob": "f0a453b0b4b64b3650bf73d7a7c635079657ef5d"
+    }
+  },
+  {
+    "card": "암팰리스",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual local prompt.html UI selection and exact saved output; built-in image_gen",
+    "original": {
+      "session_path": "/workspace/scratch/1bdb4d59f63b/generated_images/exec-ce9b9bbd-87d1-47da-acab-3c6745914bb6.png",
+      "sha256": "9d3ecfc8e614b1008fed0c0276f5b3ed80c057d4ab854a2fc173822b5c8a75fd",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "암팰리스_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b503caea7d661dd26070aaa6f30722f02e16bf0d2a7c1f2422c9ae86f1eae358",
+      "git_blob": "a207001f4eeed22bca128ed9adc242a141f9e8bf"
+    }
+  }
+]

@@ -1,0 +1,392 @@
+{
+  "session": "crustle-20261028-1bdb",
+  "batch": {
+    "session": "crustle-20261028-1bdb",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "암팰리스",
+        "species": "crustle-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "traditional",
+            "ex": "hanbok_daily",
+            "expr": "determined",
+            "pose": "standing_relaxed",
+            "orient": "side",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "expose": [
+              "high thigh slit",
+              "cropped hem"
+            ],
+            "lead": "place",
+            "example_text": "a modern daily hanbok — a short cropped jeogori-style top with a goreum tie over a simplified mid-length chima skirt",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "At a hanok craft exhibition, she studies a carved granite tea bowl displayed beside a paper lattice window.",
+                "reason": "생활한복 예시는 장소나 활동을 정하지 않아 한옥 공예 전시와 석제 찻사발 관찰을 정했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A vermilion modern-hanbok set combines a cropped jeogori with a wrap skirt slit high on the thigh, leaving the midriff and one leg visible; the collar has a small angular charcoal weave.",
+                "reason": "계획기의 traditional·skirt와 cropped hem·high thigh slit를 짧은 저고리와 트임 치마의 구조·색으로 구체화했다."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "전시물인 돌 찻사발을 살펴보며 멈춘 순간이라 mostly posed다.",
+              "source_influence": "생활한복의 구조를 유지하면서 적색과 각진 암회색 직조로 바위·붉은 갑각 모티프를 강하게 남긴다.",
+              "separates_preference": "저고리와 치마 두 벌로 나뉘는 생활한복 구성이라 prefer separates다."
+            },
+            "random_selection": {
+              "method": "casual-plan.cjs",
+              "manual_choice_changes": false,
+              "locked": "all planner choices as captured in randomLocks"
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "noir_detective",
+            "expr": "pensive",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "expose": [
+              "strapless top",
+              "open back"
+            ],
+            "lead": "detail",
+            "example_text": "a noir detective costume — a short belted trench-style coat, a fedora and gloves over a fitted dress; examining a prop magnifying glass on a smoky set lit like a film still",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A brass-rimmed prop magnifying glass catches an amber desk lamp beside a rain-streaked studio window.",
+                "reason": "누아르 영화 세트 예시에 없는 돋보기의 황동 테두리·책상등·빗물 맺힌 창문을 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A tobacco trench-style coat is belted loosely open over a wine-red strapless, open-back fitted dress, exposing the shoulders and upper back; the fedora and close-fitting gloves are charcoal.",
+                "reason": "계획의 coat·dress를 짧은 트렌치와 와인색 드레스로 정하고 strapless top·open back을 드레스 재단으로 구현했다."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "의자에서 돋보기를 검사하는 정지 동작이라 mostly posed다.",
+              "source_influence": "붉은 드레스·암회색 모자·각진 황동 장식으로 원작 팔레트를 남기되 탐정 코스튬의 재단을 유지한다.",
+              "separates_preference": "드레스 한 벌에 코트를 겹치는 예시라 별도 상하의를 강제하지 않는 balanced다."
+            },
+            "random_selection": {
+              "method": "casual-plan.cjs",
+              "manual_choice_changes": false,
+              "locked": "all planner choices as captured in randomLocks"
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_brushing",
+            "garments": [
+              "overalls"
+            ],
+            "orient": "looking_away",
+            "frame": "environmental",
+            "pose": "gentle_pat",
+            "expr": "relieved",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "detail",
+            "example_text": "Gently brushing a Pokémon companion on a grooming mat, with a towel and a small brush basket nearby.",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A small Eevee sheds a few tufts of fur under a sunlit laundry-room window.",
+                "reason": "돌봄 예시에 동료 종과 방이 없어 작은 이브이 한 마리와 햇볕 드는 세탁실·털을 정했다."
+              },
+              {
+                "field": "outfit",
+                "content": "Washed charcoal short overalls with a halter bib, cropped hems and an open back leave the shoulders, back and thighs visible; the brass fasteners are simple.",
+                "reason": "계획의 overalls를 짧은 멜빵바지로 정하고 cropped hem·open back을 짧은 밑단과 홀터 앞판·열린 등으로 반영했다."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "이브이의 털을 부드럽게 빗는 작은 연속 동작이므로 balanced다.",
+              "source_influence": "생활 세탁실 장면에서는 장갑 모티프를 빼고 암회색 데님 한 가지 색만 남기는 subtle이다.",
+              "separates_preference": "멜빵 앞판과 바지가 연결된 한 벌이므로 balanced다."
+            },
+            "random_selection": {
+              "method": "casual-plan.cjs",
+              "manual_choice_changes": false,
+              "locked": "all planner choices as captured in randomLocks"
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "traditional"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls"
+          ],
+          "orient": [
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "hanbok_daily",
+      "expr": "determined",
+      "pose": "standing_relaxed",
+      "orient": "side",
+      "frame": "face_close",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "expose": [
+        "high thigh slit",
+        "cropped hem"
+      ],
+      "lead": "place",
+      "example_text": "a modern daily hanbok — a short cropped jeogori-style top with a goreum tie over a simplified mid-length chima skirt",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At a hanok craft exhibition, she studies a carved granite tea bowl displayed beside a paper lattice window.",
+          "reason": "생활한복 예시는 장소나 활동을 정하지 않아 한옥 공예 전시와 석제 찻사발 관찰을 정했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A vermilion modern-hanbok set combines a cropped jeogori with a wrap skirt slit high on the thigh, leaving the midriff and one leg visible; the collar has a small angular charcoal weave.",
+          "reason": "계획기의 traditional·skirt와 cropped hem·high thigh slit를 짧은 저고리와 트임 치마의 구조·색으로 구체화했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "전시물인 돌 찻사발을 살펴보며 멈춘 순간이라 mostly posed다.",
+        "source_influence": "생활한복의 구조를 유지하면서 적색과 각진 암회색 직조로 바위·붉은 갑각 모티프를 강하게 남긴다.",
+        "separates_preference": "저고리와 치마 두 벌로 나뉘는 생활한복 구성이라 prefer separates다."
+      },
+      "random_selection": {
+        "method": "casual-plan.cjs",
+        "manual_choice_changes": false,
+        "locked": "all planner choices as captured in randomLocks"
+      }
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "noir_detective",
+      "expr": "pensive",
+      "pose": "sitting",
+      "orient": "high_angle",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "coat",
+        "dress"
+      ],
+      "expose": [
+        "strapless top",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "a noir detective costume — a short belted trench-style coat, a fedora and gloves over a fitted dress; examining a prop magnifying glass on a smoky set lit like a film still",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A brass-rimmed prop magnifying glass catches an amber desk lamp beside a rain-streaked studio window.",
+          "reason": "누아르 영화 세트 예시에 없는 돋보기의 황동 테두리·책상등·빗물 맺힌 창문을 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A tobacco trench-style coat is belted loosely open over a wine-red strapless, open-back fitted dress, exposing the shoulders and upper back; the fedora and close-fitting gloves are charcoal.",
+          "reason": "계획의 coat·dress를 짧은 트렌치와 와인색 드레스로 정하고 strapless top·open back을 드레스 재단으로 구현했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "의자에서 돋보기를 검사하는 정지 동작이라 mostly posed다.",
+        "source_influence": "붉은 드레스·암회색 모자·각진 황동 장식으로 원작 팔레트를 남기되 탐정 코스튬의 재단을 유지한다.",
+        "separates_preference": "드레스 한 벌에 코트를 겹치는 예시라 별도 상하의를 강제하지 않는 balanced다."
+      },
+      "random_selection": {
+        "method": "casual-plan.cjs",
+        "manual_choice_changes": false,
+        "locked": "all planner choices as captured in randomLocks"
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_brushing",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "looking_away",
+      "frame": "environmental",
+      "pose": "gentle_pat",
+      "expr": "relieved",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "Gently brushing a Pokémon companion on a grooming mat, with a towel and a small brush basket nearby.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A small Eevee sheds a few tufts of fur under a sunlit laundry-room window.",
+          "reason": "돌봄 예시에 동료 종과 방이 없어 작은 이브이 한 마리와 햇볕 드는 세탁실·털을 정했다."
+        },
+        {
+          "field": "outfit",
+          "content": "Washed charcoal short overalls with a halter bib, cropped hems and an open back leave the shoulders, back and thighs visible; the brass fasteners are simple.",
+          "reason": "계획의 overalls를 짧은 멜빵바지로 정하고 cropped hem·open back을 짧은 밑단과 홀터 앞판·열린 등으로 반영했다."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "내장 이미지 도구에 크기 인자가 없어 생성기 카메라 칸으로 필수 2:3을 지정했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "이브이의 털을 부드럽게 빗는 작은 연속 동작이므로 balanced다.",
+        "source_influence": "생활 세탁실 장면에서는 장갑 모티프를 빼고 암회색 데님 한 가지 색만 남기는 subtle이다.",
+        "separates_preference": "멜빵 앞판과 바지가 연결된 한 벌이므로 balanced다."
+      },
+      "random_selection": {
+        "method": "casual-plan.cjs",
+        "manual_choice_changes": false,
+        "locked": "all planner choices as captured in randomLocks"
+      }
+    }
+  ],
+  "check": "planner check passed, reservation stamp verify passed",
+  "reservation_commits": [
+    "ab6f529a1d57e77af49dcae540cd12750765c21b",
+    "d23f9f9af85b0c52d471c6d6f583955f0db2fefc"
+  ],
+  "generation_tool": "built-in image_gen",
+  "attempts": [
+    {
+      "slot": "casual3",
+      "paths": [
+        "attempts/casual3-gala-1",
+        "attempts/casual3-gala-2"
+      ],
+      "reason": "Both images stood on the stairs with shoes worn. Required sitting/holding shoes activity absent.",
+      "changed_inputs": "Final stamped plan avoids afterparty_stairs and leaning_furniture and keeps cuts 1,2."
+    }
+  ],
+  "storage_method": "Reused shared partial Git data and separate sparse worktrees; old image bytes downloaded only for three recent comparison subjects."
+}

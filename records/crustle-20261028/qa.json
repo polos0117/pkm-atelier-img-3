@@ -1,0 +1,248 @@
+{
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "7d3d0703efa039dc26c615ea1b9f9044c43a114e4dd1ecd187792e04d54ad368",
+      "observations": "석재 회색과 적색 띠, 어깨를 덮는 바위 망토, 긴 일자 앞머리와 붉은 안쪽 머리색. 전신 양발이 바닥에 이어진다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 장갑손은 엄지와 구부린 네 손가락이 보인다. 오른쪽 손은 엄지와 겹친 네 손가락, 손목 연결이 자연스럽다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "석재 회색과 적색 띠, 어깨를 덮는 바위 망토, 긴 일자 앞머리와 붉은 안쪽 머리색. 전신 양발이 바닥에 이어진다."
+        }
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "8167540b55a8b0d4752ae3f18a877cbed8ffee232f439880d23531102b08496d",
+      "observations": "경장의 얼굴·머리·골반 크기를 유지하고 흉복부·허벅지·정강이 장갑에 두꺼운 겹과 테두리가 추가됐다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 네 손가락과 엄지가 정상이며 팔꿈치부터 손목까지 끊김이 없다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "경장의 얼굴·머리·골반 크기를 유지하고 흉복부·허벅지·정강이 장갑에 두꺼운 겹과 테두리가 추가됐다."
+        }
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "90caaadcac5ded22c212d583ba29c95d4dfb74e815829253105d2c91589f621a",
+      "observations": "어깨와 종아리의 석재 패널이 뒤로 펼쳐지고 작은 추진기가 보인다. 경장의 얼굴과 긴 머리가 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑의 엄지는 몸 안쪽이며 나머지 네 손가락은 자연스럽게 구부러진다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "어깨와 종아리의 석재 패널이 뒤로 펼쳐지고 작은 추진기가 보인다. 경장의 얼굴과 긴 머리가 유지된다."
+        }
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "8459b895bb444492e1794b890a9aecc5569f569723279761d533ed030c2b5c38",
+      "observations": "경장과 발·손·얼굴 위치가 유지된다. 얇은 판 이음새가 열리며 연두색 내부 빛이 비친다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "일반 경장의 손 모양을 유지한다. 양손 엄지와 겹친 네 손가락이 장갑 속에 이어져 있다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "경장과 발·손·얼굴 위치가 유지된다. 얇은 판 이음새가 열리며 연두색 내부 빛이 비친다."
+        }
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "f57b62c952afbf5e00a51c7fc233ac809f9a9656cd25160ae0babba08cfbfe81",
+      "observations": "중장의 두꺼운 판이 경첩으로 벌어지고 틈 안쪽에서 연두색 빛이 나온다. 기존 장갑과 발 위치가 유지된다. 망토 윗판이 화면 위에 조금 걸려 기록만 한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "두 손의 엄지 위치와 네 손가락 굴곡을 일반 중장과 비교했으며 추가 손은 없다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "중장의 두꺼운 판이 경첩으로 벌어지고 틈 안쪽에서 연두색 빛이 나온다. 기존 장갑과 발 위치가 유지된다. 망토 윗판이 화면 위에 조금 걸려 기록만 한다."
+        }
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "110a488e26cd3e9c02e4151f7482b77dbaf2c4e8f613cc50736f46e7c3ec4de1",
+      "observations": "고기동의 펼친 패널과 추진기 덮개가 더 열리고 연두 발광이 강해졌다. 새 무기 없이 같은 손과 얼굴·발 위치가 유지된다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "일반 고기동과 양손의 손가락 수·손목 연결이 같다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "고기동의 펼친 패널과 추진기 덮개가 더 열리고 연두 발광이 강해졌다. 새 무기 없이 같은 손과 얼굴·발 위치가 유지된다."
+        }
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "c5bca7f704adaace25349ebbbed8831ab94c8c297977147a73dd7c12806b8270",
+      "observations": "한옥 창가에서 돌 사발을 살피며 가장자리에 손끝을 댄다. 붉은 저고리의 고름·짧은 밑단·트임 치마와 중간 허리가 보인다. 갑옷은 없다. 요청 face_close보다 넓은 허벅지 프레임, 90도 측면보다 앞 3/4, 힘준 표정보다 조용히 내려다본 표정으로 나왔다. 소매는 길게 생성됐다. 모두 기록만 하는 차이다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "아래로 내린 손은 네 손가락이 분리되고 엄지는 옷 뒤로 일부 가려진다. 사발 손은 엄지와 세 손가락이 보이며 나머지 한 손가락 끝은 사발 뒤에 가려진다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "한옥 창가에서 돌 사발을 살피며 가장자리에 손끝을 댄다. 붉은 저고리의 고름·짧은 밑단·트임 치마와 중간 허리가 보인다. 갑옷은 없다. 요청 face_close보다 넓은 허벅지 프레임, 90도 측면보다 앞 3/4, 힘준 표정보다 조용히 내려다본 표정으로 나왔다. 소매는 길게 생성됐다. 모두 기록만 하는 차이다."
+        }
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "8fd274cf58b50f5599d0e9360549ad70cb4f7713b09ceb36c7542615f05125d4",
+      "observations": "모자·장갑·트렌치 코스튬으로 가죽 의자에 앉아 돋보기를 살핀다. 빗물 창·책상등과 연기가 보여 누아르 세트가 읽힌다. 와인색 드레스와 어깨·다리가 드러나며 위에서 찍은 전신이다. 서류의 작은 가짜 글자와 피부의 광택은 기록만 한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "돋보기 손은 네 손가락이 손잡이를 감싸며 엄지는 뒤쪽으로 걸린다. 턱의 다른 손은 접힌 손가락과 손등이 보이며 엄지 일부는 턱에 가려진다. 양팔은 각각 소매·어깨로 이어진다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "모자·장갑·트렌치 코스튬으로 가죽 의자에 앉아 돋보기를 살핀다. 빗물 창·책상등과 연기가 보여 누아르 세트가 읽힌다. 와인색 드레스와 어깨·다리가 드러나며 위에서 찍은 전신이다. 서류의 작은 가짜 글자와 피부의 광택은 기록만 한다."
+        }
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "reviewer": "gpt",
+      "image_sha256": "9d3ecfc8e614b1008fed0c0276f5b3ed80c057d4ab854a2fc173822b5c8a75fd",
+      "observations": "세탁실 바닥 매트에서 작은 이브이 한 마리를 빗질한다. 수건·빗 바구니·세탁기와 떨어진 털이 보인다. 짧은 암회색 멜빵바지와 열린 옆·등, 어깨·허벅지가 보인다. 손으로 빗는 활동이 반영됐다. environmental보다 무릎 중심으로 가까우며 looking_away보다 카메라 쪽을 향한다. 장면은 구분되므로 기록만 한다.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; anatomy-check.py exited 3 when canonical image was checked",
+        "arms": 2,
+        "legs": 2,
+        "hands": "빗을 잡은 손은 네 손가락이 둥글게 감기고 엄지가 위에 걸린다. 이브이 머리의 손은 네 손가락이 털에 닿으며 엄지는 털 뒤에 일부 가려진다. 양다리는 무릎으로 접혀 연결되고 뒤쪽 발가락은 일부 가려진다.",
+        "overlay_checked": false,
+        "note": "원본과 확대 진단 크롭에서 어깨·팔꿈치·손목·골반·무릎 연결, 엄지 방향과 중복 손 여부를 확인했다. 가려진 손가락은 관찰했다고 적지 않는다."
+      },
+      "selection_match": {
+        "identity": {
+          "match": true,
+          "evidence": "긴 일자 앞머리, 적색 안쪽 머리, 수평으로 좁은 눈과 넓은 하관이 경장과 이어진다."
+        },
+        "scene_or_form": {
+          "match": true,
+          "evidence": "세탁실 바닥 매트에서 작은 이브이 한 마리를 빗질한다. 수건·빗 바구니·세탁기와 떨어진 털이 보인다. 짧은 암회색 멜빵바지와 열린 옆·등, 어깨·허벅지가 보인다. 손으로 빗는 활동이 반영됐다. environmental보다 무릎 중심으로 가까우며 looking_away보다 카메라 쪽을 향한다. 장면은 구분되므로 기록만 한다."
+        }
+      }
+    }
+  ],
+  "casual_look": {
+    "exit_code": 0,
+    "result": "통과 — 거의 같은 일상컷 없음",
+    "nearest_scores": [
+      284,
+      281,
+      278
+    ],
+    "rejection_threshold": 215
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "돌살이",
+      "마라카치",
+      "불비달마"
+    ],
+    "images_compared": 9,
+    "observations": "최근 실제 9장을 나란히 보았다. 수영장·무대·화장대·야외 촬영·세탁 장면과 비교해, 이번은 한옥에서 사발을 살피는 서기, 위에서 본 누아르 의자의 돋보기 검사, 바닥에서 이브이 빗질이 활동·공간·옷·시점으로 구분된다. 불비달마의 세탁실 장면과는 니트+운동복으로 바구니를 드는 서기 대 멜빵바지로 바닥에서 동료를 빗는 장면으로 다르다. 갈라 실패 두 장은 채택하지 않았다."
+  }
+}
