@@ -1,0 +1,478 @@
+{
+  "session": "sprigatito-floragato-20261029-987b",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "나오하",
+      "species": "sprigatito-20261029",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "hanbok_errand",
+          "expr": "laughing_open",
+          "pose": "cross_legged",
+          "orient": "reclining",
+          "frame": "environmental",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt",
+            "traditional"
+          ],
+          "expose": [
+            "open back",
+            "off-shoulder neckline"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "fantasy_costume",
+          "ex": "moon_priestess",
+          "garments": [
+            "dress"
+          ],
+          "orient": "low_angle",
+          "frame": "waist_up",
+          "pose": "perched_seat",
+          "expr": "wistful",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "off-shoulder neckline"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "lingerie",
+          "ex": "sport_cotton",
+          "garments": [
+            "lingerie_set"
+          ],
+          "orient": "leaning_back",
+          "frame": "three_quarter",
+          "pose": "sitting",
+          "expr": "provocative",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "bare midriff"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "travel_exploration",
+          "festivals_contests",
+          "fantasy_costume",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "lingerie_set"
+        ],
+        "orient": [
+          "low_angle",
+          "leaning_back"
+        ],
+        "frame": []
+      }
+    },
+    {
+      "card": "나로테",
+      "species": "floragato-20261029",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "traditional",
+          "ex": "boubou_flow",
+          "garments": [
+            "robe"
+          ],
+          "orient": "profile_close",
+          "frame": "face_close",
+          "pose": "bending_over",
+          "expr": "focused",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "high thigh slit"
+          ],
+          "lead": "place",
+          "scene": "Ochre courtyard walls surround a textile-dye workshop; she studies a folded indigo fabric swatch resting on a low worktable.",
+          "outfit": "A flowing jade boubou-style robe in indigo-edged silk with an open back and high thigh slit, exposing her upper back and one leg; pink flower embroidery follows the fabric border.",
+          "example_text": "a flowing West African boubou — a wide, floor-length embroidered robe with matching head wrap",
+          "axes_reasons": {
+            "action_level": "Inspecting and lifting an indigo cloth swatch is gentle movement, hence balanced.",
+            "source_influence": "Sage cloth and pink flower embroidery provide selected source echoes, hence balanced.",
+            "separates_preference": "The flowing boubou robe is a single loose garment, hence balanced."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Ochre courtyard walls surround a textile-dye workshop; she studies a folded indigo fabric swatch resting on a low worktable.",
+              "reason": "The daily hanbok example supplies clothes but no concrete errand activity: parcel sorting and market light establish her break."
+            },
+            {
+              "field": "outfit",
+              "content": "A flowing jade boubou-style robe in indigo-edged silk with an open back and high thigh slit, exposing her upper back and one leg; pink flower embroidery follows the fabric border.",
+              "reason": "The example leaves palette, shoulder opening and skirt length unspecified; the planned open-backed off-shoulder construction is specified."
+            }
+          ],
+          "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+          "manual_selection_changes": [],
+          "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+        },
+        {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "retro_astronaut",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "leaning_forward",
+          "frame": "chest_up",
+          "pose": "leaning_wall",
+          "expr": "laughing",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "side cutouts"
+          ],
+          "lead": "action",
+          "scene": "She pauses during a sci-fi party costume-photo session, with a silver foil backdrop and red footlights around the cardboard rocket.",
+          "outfit": "The fitted white retro jumpsuit has silver trim, a plunging neckline and open side cutouts showing her collarbones and waist; mint piping adds a small color accent.",
+          "example_text": "a retro space-age costume — a fitted white jumpsuit with silver trim, a clear bubble helmet held under one arm and moon boots; posing beside a cardboard rocket set at a sci-fi party (invented patches, no real agency marks)",
+          "axes_reasons": {
+            "action_level": "She is pausing and posing with a bubble helmet at the costume-photo set, hence balanced.",
+            "source_influence": "The example dictates white and silver space-age costume colors; only mint piping echoes the source, hence subtle.",
+            "separates_preference": "The example specifies one fitted jumpsuit, hence balanced."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "She pauses during a sci-fi party costume-photo session, with a silver foil backdrop and red footlights around the cardboard rocket.",
+              "reason": "The moon-priestess example has no specific terrace or seat: the pond, crescent marble and lanterns establish the portrait setting."
+            },
+            {
+              "field": "outfit",
+              "content": "The fitted white retro jumpsuit has silver trim, a plunging neckline and open side cutouts showing her collarbones and waist; mint piping adds a small color accent.",
+              "reason": "The example leaves fabric colors and neckline unspecified; the planned halter and dropped shoulder dress shape is specified."
+            }
+          ],
+          "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+          "manual_selection_changes": [],
+          "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_play",
+          "garments": [
+            "overalls"
+          ],
+          "orient": "looking_down",
+          "frame": "full_body",
+          "pose": "gentle_pat",
+          "expr": "pensive",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "cropped hem",
+            "one-shoulder cut"
+          ],
+          "lead": "detail",
+          "scene": "A soft peach toy ball rolls over the grass toward one small Sprigatito companion, who crouches ready to pounce beside a terracotta planter.",
+          "outfit": "Short pale-mint one-shoulder overalls with a cropped hem expose her shoulder, upper side and legs; the cotton fabric has tiny pink stitched dots.",
+          "example_text": "Rolling a soft toy ball toward a playful Pokémon companion in an enclosed grassy courtyard.",
+          "axes_reasons": {
+            "action_level": "Toy play and a gentle companion pat are light activity, hence balanced.",
+            "source_influence": "Mint cotton with pink stitching echoes the plant palette without recreating armor, hence balanced.",
+            "separates_preference": "The planned short overalls are one garment, hence balanced."
+          },
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A soft peach toy ball rolls over the grass toward one small Sprigatito companion, who crouches ready to pounce beside a terracotta planter.",
+              "reason": "The cotton set example supplies the clothes but no location: the fitting-studio bench and swatches establish her off-duty pause."
+            },
+            {
+              "field": "outfit",
+              "content": "Short pale-mint one-shoulder overalls with a cropped hem expose her shoulder, upper side and legs; the cotton fabric has tiny pink stitched dots.",
+              "reason": "The example leaves color, opacity and leg cut unspecified; mint opaque cotton, binding and the planned high-cut construction are specified."
+            }
+          ],
+          "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+          "manual_selection_changes": [],
+          "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "partner_care",
+          "travel_exploration",
+          "traditional",
+          "fantasy_costume",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit",
+          "overalls"
+        ],
+        "orient": [
+          "profile_close",
+          "leaning_forward",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "traditional",
+      "ex": "boubou_flow",
+      "garments": [
+        "robe"
+      ],
+      "orient": "profile_close",
+      "frame": "face_close",
+      "pose": "bending_over",
+      "expr": "focused",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "high thigh slit"
+      ],
+      "lead": "place",
+      "scene": "Ochre courtyard walls surround a textile-dye workshop; she studies a folded indigo fabric swatch resting on a low worktable.",
+      "outfit": "A flowing jade boubou-style robe in indigo-edged silk with an open back and high thigh slit, exposing her upper back and one leg; pink flower embroidery follows the fabric border.",
+      "example_text": "a flowing West African boubou — a wide, floor-length embroidered robe with matching head wrap",
+      "axes_reasons": {
+        "action_level": "Inspecting and lifting an indigo cloth swatch is gentle movement, hence balanced.",
+        "source_influence": "Sage cloth and pink flower embroidery provide selected source echoes, hence balanced.",
+        "separates_preference": "The flowing boubou robe is a single loose garment, hence balanced."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Ochre courtyard walls surround a textile-dye workshop; she studies a folded indigo fabric swatch resting on a low worktable.",
+          "reason": "The traditional example names boubou clothing without an activity; inspecting a folded dye swatch establishes a plausible workshop task."
+        },
+        {
+          "field": "outfit",
+          "content": "A flowing jade boubou-style robe in indigo-edged silk with an open back and high thigh slit, exposing her upper back and one leg; pink flower embroidery follows the fabric border.",
+          "reason": "The example does not specify its textile color or planned openings: jade silk, indigo edging, an open back and high slit supply those details."
+        }
+      ],
+      "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+      "manual_selection_changes": [],
+      "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "retro_astronaut",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "pose": "leaning_wall",
+      "expr": "laughing",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "scene": "She pauses during a sci-fi party costume-photo session, with a silver foil backdrop and red footlights around the cardboard rocket.",
+      "outfit": "The fitted white retro jumpsuit has silver trim, a plunging neckline and open side cutouts showing her collarbones and waist; mint piping adds a small color accent.",
+      "example_text": "a retro space-age costume — a fitted white jumpsuit with silver trim, a clear bubble helmet held under one arm and moon boots; posing beside a cardboard rocket set at a sci-fi party (invented patches, no real agency marks)",
+      "axes_reasons": {
+        "action_level": "She is pausing and posing with a bubble helmet at the costume-photo set, hence balanced.",
+        "source_influence": "The example dictates white and silver space-age costume colors; only mint piping echoes the source, hence subtle.",
+        "separates_preference": "The example specifies one fitted jumpsuit, hence balanced."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She pauses during a sci-fi party costume-photo session, with a silver foil backdrop and red footlights around the cardboard rocket.",
+          "reason": "The retro astronaut example already provides a cardboard rocket and party; the added photo-session action, foil and red footlights specify this one event."
+        },
+        {
+          "field": "outfit",
+          "content": "The fitted white retro jumpsuit has silver trim, a plunging neckline and open side cutouts showing her collarbones and waist; mint piping adds a small color accent.",
+          "reason": "The white-and-silver jumpsuit is retained; the plan asks for a plunging neckline and side cutouts, while mint piping supplies a small source-color echo."
+        }
+      ],
+      "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+      "manual_selection_changes": [],
+      "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_play",
+      "garments": [
+        "overalls"
+      ],
+      "orient": "looking_down",
+      "frame": "full_body",
+      "pose": "gentle_pat",
+      "expr": "pensive",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "cropped hem",
+        "one-shoulder cut"
+      ],
+      "lead": "detail",
+      "scene": "A soft peach toy ball rolls over the grass toward one small Sprigatito companion, who crouches ready to pounce beside a terracotta planter.",
+      "outfit": "Short pale-mint one-shoulder overalls with a cropped hem expose her shoulder, upper side and legs; the cotton fabric has tiny pink stitched dots.",
+      "example_text": "Rolling a soft toy ball toward a playful Pokémon companion in an enclosed grassy courtyard.",
+      "axes_reasons": {
+        "action_level": "Toy play and a gentle companion pat are light activity, hence balanced.",
+        "source_influence": "Mint cotton with pink stitching echoes the plant palette without recreating armor, hence balanced.",
+        "separates_preference": "The planned short overalls are one garment, hence balanced."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A soft peach toy ball rolls over the grass toward one small Sprigatito companion, who crouches ready to pounce beside a terracotta planter.",
+          "reason": "The toy-play example gives the action and courtyard but no companion species; one small Sprigatito and a peach ball make that task specific."
+        },
+        {
+          "field": "outfit",
+          "content": "Short pale-mint one-shoulder overalls with a cropped hem expose her shoulder, upper side and legs; the cotton fabric has tiny pink stitched dots.",
+          "reason": "The example names no clothes: planned one-shoulder short overalls with pink stitching establish a distinct outfit and the requested exposed regions."
+        }
+      ],
+      "selection_source": "tools/casual-plan.cjs; loaded through generated query into actual browser controls",
+      "manual_selection_changes": [],
+      "random": "Planner-owned selections; no UI random draw or manual choice substitutions"
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "submitted_prompts": "*-prompt.txt; exact actual UI output without rewriting",
+    "generated": 9,
+    "requested": 9,
+    "style": "glossy_promo",
+    "adult": "Light UI apparent age 20s; all later images reference that adult woman."
+  },
+  "replanning": [],
+  "validation": {
+    "ledger": "Planner check passed and reservation stamp verify passed before casual generation",
+    "reservation_commits": [
+      "93d37a0299c9d9c38709d34ad0a14e7961c3ee1a",
+      "b7f045b4efe45b4caee90955463d3848400ddf46"
+    ],
+    "casual_look": "generated_images/exec-d8a67aa7-c8d0-47d3-8beb-c0746cce4acd.png — 가까운 컷 0장(점수 245 미만)\n     295  보스로라_glossy_promo_f_casual1.webp\n     298  피죤_glossy_promo_f_casual2.webp\n     312  샤비_glossy_promo_f_casual2.webp\ngenerated_images/exec-ac7ff64b-e907-4d3a-9283-81a860e4ca21.png — 가까운 컷 0장(점수 245 미만)\n     276  껍질몬_glossy_promo_f_casual3.webp\n     278  앱솔_glossy_promo_f_casual2.webp\n     282  레지아이스_glossy_promo_f_casual2.webp\ngenerated_images/exec-505a7966-3f3e-4c8e-bf01-30a09152c63d.png — 가까운 컷 2장(점수 245 미만)\n     236  타만타_glossy_promo_f_casual2.webp\n     239  크랩_glossy_promo_f_casual2.webp\n     248  주리비얀_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n",
+    "comparison_characters": [
+      "누겔레온",
+      "인텔리레온",
+      "탐리스",
+      "나오하"
+    ],
+    "visual_diversity": "Viewed current originals beside recent registered casual images and the Sprigatito batch. The bent-over dye-workshop robe, laughing helmet-holding space-age costume, and crouched companion-ball-play overalls differ in activity, silhouette, framing and expression. The garden appears in companion play but its crouched figure, toy and companion distinguish it from Sprigatito parcel sorting and the moonlit portrait."
+  }
+}

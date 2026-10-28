@@ -1,0 +1,363 @@
+{
+  "card": "나로테",
+  "anchor": {
+    "card": "나로테",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual prompt.html UI selection and emitted prompt",
+    "reference_slot": null,
+    "reference_sha256": null,
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-448c8784-1df6-40d4-b4c7-971e06b8ef83.png",
+      "sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "committed": false
+    },
+    "output": {
+      "file": "나로테_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "9e855856d042accdb5632e570dc1bd4b4b24a6fada474cf38b82819e4906609b"
+    },
+    "prompt_file": "light-prompt.txt",
+    "ui_file": "light-ui.json"
+  },
+  "face_design": {
+    "name": "나로테",
+    "en": "Floragato",
+    "line": "나오하",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "long chin with defined jaw",
+      "eye shape": "sharp",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "long arched brows",
+      "nose character": "small delicate nose",
+      "lips": "thin lips"
+    },
+    "why": "날렵해진 고양이와 장난스러운 꽃의 연출을 타원 얼굴와 올라간 긴 눈으로 구분한다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+      "‘long light green fur’ → 턱선 · 턱끝 턱끝이 길고 턱선이 또렷한",
+      "‘long light green fur’ → 눈썹 길고 바깥 아치가 선명한",
+      "‘small pink nose’ → 코 작고 여린 코"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 턱끝이 길고 턱선이 또렷한, 눈꼬리 각도 올라간 눈꼬리 → 수평",
+    "hair": {
+      "hairstyle": "half-up",
+      "hair length": "medium",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘green fur-like leaves’·‘hard, round, visible pink flower bud’·풀 타입에서 반묶음(묶은 꼬리) · 중간 길이 · 커튼뱅 — 나오하에서 이어 더 공들인 묶음",
+    "hair_cues": [
+      "‘green fur-like leaves’ → 헤어스타일 반묶음"
+    ]
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; long chin with defined jaw; sharp eyes, medium size, level outer corners, average spacing; long arched brows; small delicate nose; thin lips.",
+  "face_choice_reason": "날렵해진 고양이와 장난스러운 꽃의 연출을 타원 얼굴와 올라간 긴 눈으로 구분한다.",
+  "face_sources": [
+    "data/face-design.json#907",
+    "data/source-appearance.json#907"
+  ],
+  "actually_compared": [
+    "누겔레온",
+    "인텔리레온",
+    "탐리스",
+    "나오하"
+  ],
+  "face_comparison": "Floragato has a longer oval jaw, sharper narrow eyes, longer arched brows and thinner lips than Sprigatito, whose chin and overall face are shorter and softer. Medium half-up hair strengthens but does not replace the facial distinction. Recent blue-haired characters are longer and cooler-eyed; Skwovet has a rounder cheek and smile.",
+  "created": "2026-10-28T16:57:22.634696+00:00",
+  "bundles": {
+    "light": [
+      "light"
+    ],
+    "forms": [
+      "heavy",
+      "mobility"
+    ],
+    "overdrive": [
+      "light_overdrive",
+      "heavy_overdrive",
+      "mobility_overdrive"
+    ],
+    "casual": [
+      "casual1",
+      "casual2",
+      "casual3"
+    ]
+  },
+  "assets": [
+    {
+      "card": "나로테",
+      "slot": "light",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": null,
+      "reference_sha256": null,
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-448c8784-1df6-40d4-b4c7-971e06b8ef83.png",
+        "sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_light_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "9e855856d042accdb5632e570dc1bd4b4b24a6fada474cf38b82819e4906609b"
+      },
+      "prompt_file": "light-prompt.txt",
+      "ui_file": "light-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "heavy",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-b58b8069-c07d-4054-89e6-6aeea93f4228.png",
+        "sha256": "611b9465d6694f4fb6d1f73f35125201d417e13e6fb3e5c4c9658d95f0293219",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_heavy_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "b60811f8494ba44ee601a719350506b65bc0dd5712b5c5936700b39350f2ed58"
+      },
+      "prompt_file": "heavy-prompt.txt",
+      "ui_file": "heavy-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "mobility",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-3209af11-6bae-4e0c-81f2-fb8a82be200e.png",
+        "sha256": "6dea3a45e067976c9cc1f13a48bbb94bc391b5404de652759ce32dd76ab5891d",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_mobility_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "7500150447f3490d84ec0ddc49832db899df3ae4c78e9f7f8601f80abcb4264f"
+      },
+      "prompt_file": "mobility-prompt.txt",
+      "ui_file": "mobility-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "light_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-4ad1937a-a774-4dab-83dc-aaa805085e48.png",
+        "sha256": "d54792bb0fd152d17ea35dfe6457bf9b96a6381149f3f5e88e0f488f2c84c02e",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_light_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "c4829ae48ed1e8a2a71239435a747351320f65c94c42f6de3949f4b0a9f1d588"
+      },
+      "prompt_file": "light_overdrive-prompt.txt",
+      "ui_file": "light_overdrive-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "heavy_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "heavy",
+      "reference_sha256": "611b9465d6694f4fb6d1f73f35125201d417e13e6fb3e5c4c9658d95f0293219",
+      "secondary_reference": "light",
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-a8c11d60-f2d1-42ec-bceb-1778ddd26b49.png",
+        "sha256": "95a49af75991f2fe05886cf888bfc2d8b560f42b222d9e4781f699ce6c1aec9e",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_heavy_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "5ea3881453f6251a2730059f261d43ed98aec840456e508ff8a2edb79f0d4e2f"
+      },
+      "prompt_file": "heavy_overdrive-prompt.txt",
+      "ui_file": "heavy_overdrive-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "mobility_overdrive",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "mobility",
+      "reference_sha256": "6dea3a45e067976c9cc1f13a48bbb94bc391b5404de652759ce32dd76ab5891d",
+      "secondary_reference": "light",
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-0627e5d6-094a-449d-8295-19b925c7286b.png",
+        "sha256": "2260f8c7bb253c5b566557a6b94f94a15a56b3750940143453beceac6fb39163",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_mobility_overdrive_glossy_promo_f.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "37360d70123889c23aafcc7fca6291db749df3dc9ded82579816a185f39fbdbd"
+      },
+      "prompt_file": "mobility_overdrive-prompt.txt",
+      "ui_file": "mobility_overdrive-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-d8a67aa7-c8d0-47d3-8beb-c0746cce4acd.png",
+        "sha256": "14b168435b339c06d2e663c6d85e2521b8a84d5ab6ce560506d5f723041c67c7",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_glossy_promo_f_casual1.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "28c92ab99f4af13d91a8ffde44fe92df4f52b8f480e24013885d88ec80375593"
+      },
+      "prompt_file": "casual1-prompt.txt",
+      "ui_file": "casual1-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "casual2",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-ac7ff64b-e907-4d3a-9283-81a860e4ca21.png",
+        "sha256": "105d727b473ee11023a6b094f284485cd036d1602e25b4bc1f6fb7b36bfc61be",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_glossy_promo_f_casual2.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "669757c19d32bd9a99e1103da8e3f7a589a9009ad5ade2f222641a6787a568aa"
+      },
+      "prompt_file": "casual2-prompt.txt",
+      "ui_file": "casual2-ui.json"
+    },
+    {
+      "card": "나로테",
+      "slot": "casual3",
+      "style": "glossy_promo",
+      "gender": "f",
+      "basis": "actual prompt.html UI selection and emitted prompt",
+      "reference_slot": "light",
+      "reference_sha256": "91105ee0c75d353ae221d8e28de3dce02b94fe45caf9476d34d43758015c2e8a",
+      "secondary_reference": null,
+      "original": {
+        "session_path": "/workspace/scratch/987b42e16730/generated_images/exec-505a7966-3f3e-4c8e-bf01-30a09152c63d.png",
+        "sha256": "9278174182d95949124ca74f28a33c647a705ecb65497f8bdf5383f25cb0f296",
+        "committed": false
+      },
+      "output": {
+        "file": "나로테_glossy_promo_f_casual3.webp",
+        "size": [
+          1024,
+          1536
+        ],
+        "format": "WEBP",
+        "quality": 85,
+        "method": 6,
+        "sha256": "a5ba4733ff85e7ac76f8cf06515f72ccef87f1adb979e8c62770cae98897923c"
+      },
+      "prompt_file": "casual3-prompt.txt",
+      "ui_file": "casual3-ui.json"
+    }
+  ],
+  "publication": {
+    "target_repository": "polos0117/pkm-atelier-img-3",
+    "target_branch": "main",
+    "method": "GitHub connected API non-forced fast-forward (local git push lacks credentials)",
+    "status": "reviewed; publish this complete character in one commit; thumbnails and dex registration are workflow-owned"
+  },
+  "original_recovery": "PNG originals are session-local only and not guaranteed in another session; committed WebP is the durable anchor after publication."
+}
