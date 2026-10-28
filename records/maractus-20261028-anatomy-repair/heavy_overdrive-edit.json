@@ -1,0 +1,41 @@
+{
+  "card": "마라카치",
+  "slot": "heavy_overdrive",
+  "filename": "마라카치_heavy_overdrive_glossy_promo_f.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/마라카치_heavy_overdrive_glossy_promo_f.webp",
+  "before_sha256": "98f695a97427b05f18038fed277e377d462b13f68825199c083e8f2129951281",
+  "prompt": "Use case: precise-object-edit. This is an anatomical repair of the supplied existing illustration, not a new character or costume. Image 1 is the exact edit target.\n\nRebuild BOTH black-gloved hands from the wrist outward with natural human anatomy. The foreground reaching hand at screen left must be a relaxed open hand in slight three-quarter view, with four gently curved fingers grouped naturally and one separate opposable thumb on the correct radial side of the palm. Use normal knuckles, webbing, tapered finger lengths and believable wrist alignment; remove the stretched starfish-like spread. The raised hand near the top must have four fingers extending together diagonally up-left in a gentle natural curve, middle finger longest and little finger shortest, plus one natural thumb alongside the palm. No fingertip touches another fingertip and no finger forms a loop. Keep both wrists at their existing positions; small changes of hand angle are allowed to make the anatomy convincing.\n\nKeep her exact facial identity, expression, hair shape and length, body proportions, costume construction and colors, every armor plate and current closed/open state, lighting, background, camera and framing unchanged outside the requested anatomical region. Keep the same premium glossy anime rendering. No added people or props, no labels or text. Output a single 1024×1536 portrait. Do not merely copy the malformed hands or limb contours from the input; redraw the requested anatomy correctly.\nImage 2 is a repaired hand-anatomy reference only: match its two natural hand poses at Image 1’s wrists. All armor, open/closed state and other details stay exactly as Image 1.",
+  "status": "accepted after enlarged visual review",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-c3e218f9-962a-4e59-b9e8-c662800e5d24.png",
+  "source_sha256": "1e7cdabcdfa86eeb0e7b2f090822522a8d4077ca2a73282d245a8159680d2fcd",
+  "after_sha256": "6781e8cdf035791c5b6edd927cbcf995b5fa8d72d1e822c9be011b9834747f8e",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/마라카치_heavy_overdrive_glossy_promo_f.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Both hand silhouettes and their knuckle origins were redrawn; original face, braid, plates, desert scene and closed/open form preserved. Checked against original and corresponding closed/open partner at full size and enlarged hand crops.",
+  "anatomy": {
+    "tool": "note",
+    "tool_flags": [
+      {
+        "level": "note",
+        "what": "faint_body",
+        "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+      }
+    ],
+    "tool_hand_detection_count": 0,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Foreground: one broad thumb arises from the thenar base, one index reaches forward and three shorter fingers bend at their own knuckles into the palm; no finger sprouts from another. Raised: thumb is separate below the four finger group; slightly bent fingers share a normal palm, with partial overlap of the far digits. Both wrists continue into forearms without the original twisted loop.",
+    "overlay_checked": true,
+    "note": "Both hand silhouettes and their knuckle origins were redrawn; original face, braid, plates, desert scene and closed/open form preserved. Checked against original and corresponding closed/open partner at full size and enlarged hand crops."
+  }
+}

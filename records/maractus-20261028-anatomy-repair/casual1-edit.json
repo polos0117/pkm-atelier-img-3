@@ -1,0 +1,35 @@
+{
+  "card": "마라카치",
+  "slot": "casual1",
+  "filename": "마라카치_glossy_promo_f_casual1.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/마라카치_glossy_promo_f_casual1.webp",
+  "before_sha256": "b381d3230ef6c4d337efcb182d7da381974ee4601dc48419cb42b92609738ee2",
+  "prompt": "Use case: precise-object-edit. This is an anatomical repair of the supplied existing illustration, not a new character or costume. Image 1 is the exact edit target.\n\nCorrect the pelvis and BOTH LEGS into a physically possible seated pose on this same mat. One knee stays raised in front of the pelvis with its foot flat on the mat. The other thigh must visibly emerge from its proper hip socket toward the front/side of the body; its knee bends naturally and the shin folds across the front of her seated body, with the foot in front of her, never emerging from behind the buttocks. Clearly establish a continuous hip-to-thigh-to-knee-to-shin-to-ankle chain for each leg, natural human leg lengths, two distinct feet, and weight resting on the seated pelvis. Reposition the lower body enough to achieve this; retain the upper-body look-back attitude, face, bikini, hairstyle, parasol and terrace. Also ensure the visible hand has normal fingers.\n\nKeep her exact facial identity, expression, hair shape and length, body proportions, costume construction and colors, every armor plate and current closed/open state, lighting, background, camera and framing unchanged outside the requested anatomical region. Keep the same premium glossy anime rendering. No added people or props, no labels or text. Output a single 1024×1536 portrait. Do not merely copy the malformed hands or limb contours from the input; redraw the requested anatomy correctly.\nImage 2 is her approved character image for facial and hair identity only; do not copy its armor, standing pose or background.",
+  "status": "accepted after enlarged visual review",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-625a1ccf-7f39-4a9b-87b8-c287a46964f6.png",
+  "source_sha256": "5dc04ad3e030bcfbbc06f6680a415bbb9add00c4c09a3b9e7d85af81b947e30a",
+  "after_sha256": "e4f0422c002adac874a98781b23602c1a79e7424b280aa0930de5b18ccb2c2a8",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/마라카치_glossy_promo_f_casual1.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Near thigh visibly begins at hip and travels forward to the screen-right knee; shin folds across the front to the screen-left foot. Far leg travels to a raised knee and then down to a planted foot. Seated pelvis rests on mat; no leg or foot emerges behind buttocks. Full skeleton overlay checked.",
+  "anatomy": {
+    "tool": "ok",
+    "tool_flags": [],
+    "tool_hand_detection_count": 2,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Visible hand rests under chin with four naturally curled finger contours and thumb partly occluded; other hand hidden by torso. Two feet: near foot has five toes; far toes partially overlap perspective.",
+    "overlay_checked": true,
+    "note": "Near thigh visibly begins at hip and travels forward to the screen-right knee; shin folds across the front to the screen-left foot. Far leg travels to a raised knee and then down to a planted foot. Seated pelvis rests on mat; no leg or foot emerges behind buttocks. Full skeleton overlay checked."
+  }
+}

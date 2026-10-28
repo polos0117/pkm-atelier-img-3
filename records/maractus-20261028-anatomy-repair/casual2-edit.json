@@ -1,0 +1,43 @@
+{
+  "card": "마라카치",
+  "slot": "casual2",
+  "filename": "마라카치_glossy_promo_f_casual2.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/마라카치_glossy_promo_f_casual2.webp",
+  "before_sha256": "7b392a3b0d2a82905d9b420c92f8776c4de01be3925515d9f7d192b7eec0450a",
+  "prompt": "Edit ONLY the raised bare hand at the top-right of this illustration. Completely replace its pinched circular gesture with a simple graceful OPEN hand, palm facing slightly toward the viewer. Show FOUR separate fingers extended together diagonally upward-left, with a small natural space between each: middle longest, index and ring slightly shorter, little shortest. Add ONE opposable thumb opening gently to the side from the base of the palm. Five digits total. Every finger starts at a separate knuckle, bends only naturally, and no fingertip touches any other finger or thumb. No loop, no pinching, no crossed fingers. Lower the hand a little so the whole hand and fingertips remain inside the frame. Keep the wrist softly aligned with the forearm. Everything else must be unchanged: exact woman, face, hair, dance step, elbow, lower hand, clothes, mirror studio, light, framing and colors. Preserve glossy style and 1024×1536.",
+  "status": "accepted after enlarged visual review",
+  "attempt": 2,
+  "edit_target": "/workspace/scratch/1e2fc55a8169/generated_images/exec-278becd4-17fd-47cf-bf86-91b0f91d5c61.png",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-1eecd649-0e43-42a4-9e7d-d8154c13ac10.png",
+  "source_sha256": "18f4ec21b595d4b0b66e816ae95b1ae6a9fa25f97a28aadfbcfea7c0bb4ddcd0",
+  "after_sha256": "2610f06d040ccc25eb098c87e1c41df69dab89ad5047a08ebd58e241cc0e7235",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/마라카치_glossy_promo_f_casual2.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Removed raised pinching loop and changed to a simple five-digit open dance hand; original face, clothes, step and mirror studio preserved. Tool labels raised right hand as left; manual overlay review confirms back-facing torso, right shoulder/elbow/wrist and palm with thumb toward radial/head side. No extra or reversed joint is visible.",
+  "anatomy": {
+    "tool": "check",
+    "tool_flags": [
+      {
+        "level": "check",
+        "what": "flipped_hand",
+        "msg": "오른팔 끝의 손이 왼손으로 보인다 — 엄지가 반대쪽인 뒤집힌 손(손등이 보이면 모델이 헷갈리기도 한다)"
+      }
+    ],
+    "tool_hand_detection_count": 2,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Raised hand: four separate extended fingers (middle longest, little shortest) and one thumb opening from palm base; all tips inside frame. Lower hand: four down-curved fingers and one separate thumb. Both wrists align with their forearms.",
+    "overlay_checked": true,
+    "note": "Removed raised pinching loop and changed to a simple five-digit open dance hand; original face, clothes, step and mirror studio preserved. Tool labels raised right hand as left; manual overlay review confirms back-facing torso, right shoulder/elbow/wrist and palm with thumb toward radial/head side. No extra or reversed joint is visible."
+  }
+}

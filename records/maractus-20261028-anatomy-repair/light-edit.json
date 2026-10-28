@@ -1,0 +1,43 @@
+{
+  "card": "마라카치",
+  "slot": "light",
+  "filename": "마라카치_light_glossy_promo_f.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/마라카치_light_glossy_promo_f.webp",
+  "before_sha256": "4bb1664c85a731a0f2c5ce70414a4437a733072dca4b27cf8895760f442f7336",
+  "prompt": "Edit only the overhead black-gloved hand near the top of this supplied illustration. The lower reaching hand is already corrected; leave it untouched. Replace the upper pinching/circular finger gesture with a simple relaxed five-digit hand: four fingers extend together diagonally up-left in a gentle natural curve, middle finger longest, index and ring slightly shorter, little finger shortest; one thumb rests naturally along the side of the palm, separate from the four fingers. No finger forms a loop or touches another fingertip. Keep a believable palm and aligned wrist, and keep the entire hand inside the frame. Preserve absolutely everything else: exact face, expression, hair, armor plates, body, lower hand, feet, desert scene, light and camera. Same 1024×1536 glossy illustration.",
+  "status": "accepted after enlarged visual review",
+  "attempt": 2,
+  "edit_target": "/workspace/scratch/1e2fc55a8169/generated_images/exec-9eaa521b-e8bb-4b9b-b24d-5647defdf3b5.png",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-92e3785f-3f12-44e3-b48e-ab88aab92eda.png",
+  "source_sha256": "882d784df1b6d3b290cec8fc0eacec8c7fb8ba0d6707e86acc5c96326b8b7663",
+  "after_sha256": "b6008dd196d255100e0e3c00494a3781d7ea0fba3cd3b26bfb26059f3fcada5f",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/마라카치_light_glossy_promo_f.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Both hand silhouettes and their knuckle origins were redrawn; original face, braid, plates, desert scene and closed/open form preserved. Checked against original and corresponding closed/open partner at full size and enlarged hand crops.",
+  "anatomy": {
+    "tool": "note",
+    "tool_flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "tool_hand_detection_count": 0,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Foreground: one broad thumb arises from the thenar base, one index reaches forward and three shorter fingers bend at their own knuckles into the palm; no finger sprouts from another. Raised: thumb is separate below the four finger group; slightly bent fingers share a normal palm, with partial overlap of the far digits. Both wrists continue into forearms without the original twisted loop.",
+    "overlay_checked": true,
+    "note": "Both hand silhouettes and their knuckle origins were redrawn; original face, braid, plates, desert scene and closed/open form preserved. Checked against original and corresponding closed/open partner at full size and enlarged hand crops."
+  }
+}
