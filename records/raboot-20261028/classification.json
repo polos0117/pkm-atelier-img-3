@@ -1,0 +1,191 @@
+{
+  "card": "래비풋",
+  "style": "glossy_promo",
+  "basis": "Actual generator UI, built-in image_gen",
+  "images": [
+    {
+      "slot": "light",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-3b7156c6-bed8-48f0-b668-1392cb087749.png",
+      "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+      "output": "래비풋_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d",
+      "reference_slot": null,
+      "references": []
+    },
+    {
+      "slot": "heavy",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-6236aebd-3558-47f2-a7d9-e0019b7dc773.png",
+      "source_sha256": "1832091f16c686597c777fb9d5bc26832f1e8340a6c2b3362cb47470ccc11187",
+      "output": "래비풋_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "3fc672d9180ee2fbaeefb076c204426f0ebee93d2d29b8e33ce70badecef8f7c",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "mobility",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-8fa2bda2-9370-4898-828f-1046afbdb5c7.png",
+      "source_sha256": "f803427b81fc791a09e4d774bb64c20fd8e9ad64330935c4796268a69a903eec",
+      "output": "래비풋_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "a577828c02512f4c9398e8e8b81ac743faae81d81547aad2130ed4d17c9b8286",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-ea9aebfb-42ae-41f0-819a-097a4729b4ea.png",
+      "source_sha256": "7e6708ba8d8af1016cd1bda6aa4354525fce1d9e7abbe9385526a2e710f8282d",
+      "output": "래비풋_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "2577593e7522b5fa51eec82f34aa9669883aa056dcf8cb312c037f5b60f1fd97",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-e557d478-a9a8-4f79-bec0-1915182482bb.png",
+      "source_sha256": "eec05b4f2a34adf5f8cbec4efca454ae7c38bec546789992ac0cfca6670638d3",
+      "output": "래비풋_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "97fa47525d5379153012d4b49b2f6d30b243ed9244ea334471f1683431c8dcea",
+      "reference_slot": "heavy",
+      "references": [
+        {
+          "slot": "heavy",
+          "source_sha256": "1832091f16c686597c777fb9d5bc26832f1e8340a6c2b3362cb47470ccc11187",
+          "webp_sha256": "3fc672d9180ee2fbaeefb076c204426f0ebee93d2d29b8e33ce70badecef8f7c"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-5ec93848-c69f-466e-8cc0-32344e6036ce.png",
+      "source_sha256": "e0ea8f3b9b7c4c7298b5102ee800289affd3aeb6780bf579c5d5bc3db23c6363",
+      "output": "래비풋_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "1cb1b83fc01b29d27e8c501d8bca916af17f9d40aad76a4fff9137d1bf43ac6c",
+      "reference_slot": "mobility",
+      "references": [
+        {
+          "slot": "mobility",
+          "source_sha256": "f803427b81fc791a09e4d774bb64c20fd8e9ad64330935c4796268a69a903eec",
+          "webp_sha256": "a577828c02512f4c9398e8e8b81ac743faae81d81547aad2130ed4d17c9b8286"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "casual1",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-f3351b8f-e10a-4a05-8037-b4f35367a1d9.png",
+      "source_sha256": "1ae62d6f1a34382e9ae6270a2f918556c796cf5e48b9d769696f4c60699f1351",
+      "output": "래비풋_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "8e325c4b74b34b301d6cac5ec842bef93adcbb99bc65ef43930ad4579379573d",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "casual2",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-76bec95d-51fb-4bb9-b5d3-de206368a0e5.png",
+      "source_sha256": "a31883c8590d72732278ffafc14f9ebeef6e02ef9a62a38f7230ad9cc4f82691",
+      "output": "래비풋_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "25260447311336158f6eec35155ae5bb3c87adad4fcf28ebf9540fcd16a0e5f1",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    },
+    {
+      "slot": "casual3",
+      "source": "/workspace/scratch/56983af5c2bd/generated_images/exec-207b129d-6955-4924-a810-b79885797f73.png",
+      "source_sha256": "af492cf94a22f40997105f52d50e62122a2bb6b018387ac191736ab5502a37c8",
+      "output": "래비풋_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "394b9267eb778e802c6bfb3550d83df515b763183fdd1b59845d5df03a4598d1",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+          "webp_sha256": "fa9c66577419cc27fc562d3a43f149809d6f424928aa29cffc3e2b03bdbd0b7d"
+        }
+      ]
+    }
+  ]
+}

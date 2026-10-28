@@ -1,0 +1,219 @@
+{
+  "card": "래비풋",
+  "reviewer": "gpt",
+  "style": "glossy_promo",
+  "face_reason": "옷깃에 감춘 절제된 시선을 낮은 윗눈꺼풀과 타원 얼굴로 구분한다.",
+  "face_evidence": [
+    "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+    "‘thick, fluffy fur’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+    "‘thick, fluffy fur’ → 눈썹 짧고 둥근",
+    "‘small yellow nose’ → 코 작고 여린 코"
+  ],
+  "hair_reason": "‘long ears’에서 트윈테일(묶은 꼬리) · 중간 길이 · 옆으로 넘긴 앞머리 — 염버니에서 이어 더 공들인 묶음",
+  "compared_characters": [
+    "냐스퍼",
+    "흥나숭",
+    "채키몽"
+  ],
+  "family_comparison": "Repository designs checked for Scorbunny/Raboot/Cinderace. Raboot has a rounded jaw, medium downturned eyes and thin lips, distinct from Grookey’s broader bright eyes, Thwackey’s more angular narrow face, and Espurr’s small rounder eye/face proportions. Existing Scorbunny image was not yet available at the inspected remote ref; no visual comparison to that unpublished image is claimed.",
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "84202a459061154f501612a71b19771104aadb1291cea26b76b6b535f6e528d8",
+      "accepted": true,
+      "observations": "Adult woman with a softly rounded oval face, medium drooping amber eyes, thin lips and gray-blonde twin tails. Slim white/gray/yellow plates over charcoal undersuit; two arms and legs join the torso and both boots fit the frame. The upper hair ornament slightly touches the edge.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "1832091f16c686597c777fb9d5bc26832f1e8340a6c2b3362cb47470ccc11187",
+      "accepted": true,
+      "observations": "Same face, twin tails and body; broad stacked shoulder, chest, abdomen, hip and shin plates visibly enlarge the armor silhouette. Crown panels stay open around her face.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "f803427b81fc791a09e4d774bb64c20fd8e9ad64330935c4796268a69a903eec",
+      "accepted": true,
+      "observations": "Same character with separated swept shoulder, hip and calf fins and compact orange thrusters. Readable joints and a thinner body outline than heavy.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "7e6708ba8d8af1016cd1bda6aa4354525fce1d9e7abbe9385526a2e710f8282d",
+      "accepted": true,
+      "observations": "Same camera, stance, extended hand, feet and sash as light. Thin forearm, hip and shin plates lift at glowing orange seams and expose dark inner hinges.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "eec05b4f2a34adf5f8cbec4efca454ae7c38bec546789992ac0cfca6670638d3",
+      "accepted": true,
+      "observations": "Same camera, stance and open crown as heavy. Layered shoulder, forearm, hip and shin plates open over bright orange internal mechanisms.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "e0ea8f3b9b7c4c7298b5102ee800289affd3aeb6780bf579c5d5bc3db23c6363",
+      "accepted": true,
+      "observations": "Same camera, stance and panel groups as mobility. Swept plates and thruster covers spread farther, showing orange inner frames and wider gaps.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended glove has five distinct digits with the thumb on its natural inner side. Far hand is loosely curled with overlapping digit parts occluded; both wrists connect normally. Both boots connect to shins; knees bend naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "1ae62d6f1a34382e9ae6270a2f918556c796cf5e48b9d769696f4c60699f1351",
+      "accepted": true,
+      "observations": "At a violet-lit live-house barrier she wears a cropped studded leather jacket, torn charcoal tee and tartan miniskirt. One hand rests over the rail and the other is behind her head; amused toothy grin. Actual low-angle thigh crop differs from reserved face close-up and front three-quarter. This is a recorded framing/pose deviation, not a relabelled selection.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Rail hand: four hanging fingers and thumb on the inner side; raised hand is occluded by hair. Lower legs and feet outside crop. Two connected forearms, no detached hand.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "a31883c8590d72732278ffafc14f9ebeef6e02ef9a62a38f7230ad9cc4f82691",
+      "accepted": true,
+      "observations": "A red/yellow/charcoal costume swimsuit, whistle, rescue buoy, tower steps and theatrical lights establish the lifeguard-themed stage. One hand is on her hip and one supports the buoy. Side waist cutouts, shoulders and legs remain exposed. Two complete feet with five toes each. Pose is held rather than visibly turning, recorded as a minor motion deviation.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Hip hand has four aligned bent fingers, thumb partly hidden by waist contact. Buoy hand wraps the prop with partially occluded digits. Both feet show five toes; knees and ankles turn naturally.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "af492cf94a22f40997105f52d50e62122a2bb6b018387ac191736ab5502a37c8",
+      "accepted": true,
+      "observations": "Rear three-quarter view in a pearl-gray one-shoulder satin dress with a high thigh slit. She lowers a brass key toward the porcelain tray on a marble console beside an amber lamp and rain-streaked windows. Profile and near eye remain visible; both heeled feet connect naturally. Twin tails partly overlap from this angle.",
+      "identity_match": true,
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Key hand pinches between thumb and index; the other three fingers curl naturally. The hanging far hand is partly hidden by the dress, with visible fingers joined to its wrist. Both ankles connect into heels.",
+        "overlay_checked": false,
+        "manual_enlarged_review": true,
+        "note": "Only visible digits/joints counted; hidden digit parts are occluded."
+      },
+      "size": [
+        1024,
+        1536
+      ],
+      "text_people": "One recognizable woman, no real-world logo or readable brand."
+    }
+  ],
+  "diversity_comparison": {
+    "against": [
+      "냐스퍼 casual1-3",
+      "흥나숭 casual1-3",
+      "채키몽 casual1-3"
+    ],
+    "observed": "Actual nine comparison images inspected. Raboot’s rail-side punk outfit, full-body lifeguard stage costume and rear-facing satin/key scene differ in activity, setting and silhouette. Unlike the comparison beach, bath, fabric-market, diner, cafe, maintenance, station and dressing scenes, they show a live-house barrier, staged rescue-tower prop, and rain-lit home console. The satin scene shares an evening-fashion genre but differs in rear view, long hem and key-lowering task."
+  },
+  "anatomy_limit": "Automated checker exited 3 because mediapipe is unavailable. Manual original-size and enlarged hand/foot inspection performed; no automated pass claimed."
+}

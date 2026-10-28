@@ -1,0 +1,42 @@
+{
+  "card": "래비풋",
+  "storage": {
+    "last": "래비풋",
+    "cards": {
+      "래비풋": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "motifs": "",
+        "headFeature": "",
+        "formOverride": "",
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  },
+  "prompt": "INPUT: text only — no reference image is needed; do not reuse earlier conversation images. For the image tool, omit referenced_image_paths and num_last_images_to_include.\n\nSOURCE: Raboot (래비풋), fire type.\n\nPALETTE: yellow, gray.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nSUBJECT: A female mecha personification character with Raboot as her motif — the creature reimagined as an armored adult woman, not a mascot costume or a creature suit: her plates, undersuit, hair and ornaments carry its palette, markings and shapes. She wears its features as costume; nothing is carried, mounted or put on display. Her skin is human skin.\n\nWEAR: the small tail becomes a long sash hanging from the back of her belt, in the same shape and colors; the collar becomes a feathered or ruffled collar and trim; the long ears become a headpiece or hair ornament of the same shape.\n\nFACE (her own structure, not the style's default face): oval face, balanced length, medium width; soft rounded jaw; drooping eyes, medium size, downturned outer corners, average spacing; short rounded brows; small delicate nose; thin lips.\n\nHAIR: medium twin tail, side-swept bangs.\n\nFORM — LIGHT: one close-fitting armor layer: slim plates at the shoulders, forearms, hips and shins over a fitted undersuit, joints free, a slim readable outline. No helmet; at most a slim headband or temple sensor.\n\nOUTPUT: one dynamic action image that is also this form's card art. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). Default stance is a standing, card-ready pose; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nIDENTITY (chosen details override the automatic look)\napparent age: 20s — adult woman in her twenties\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Gloves are full-finger and close-fitting; plates, water, sparks and effects stay off the fingers.",
+  "capture_method": "Actual generator UI selections; local engine serialization verified against visible prompt output.",
+  "references": []
+}

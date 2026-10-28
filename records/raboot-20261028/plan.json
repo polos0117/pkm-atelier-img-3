@@ -1,0 +1,551 @@
+{
+  "card": "래비풋",
+  "batch_plan": {
+    "session": "raboot-cinderace-5698",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "에이스번",
+        "species": "cinderace-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "pose": "one_knee_up",
+            "expr": "half_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "tango_solo",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "stretching",
+            "expr": "smug",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "garments": [
+              "slip"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "calm",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "looking_away",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "래비풋",
+        "species": "raboot-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "punk_gig",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "front_3q",
+            "frame": "face_close",
+            "pose": "contrapposto",
+            "expr": "playful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "lifeguard_event",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "hand_on_hip",
+            "expr": "sensual",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "one_shoulder_satin",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "pensive",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "spa_wellness",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jacket"
+          ],
+          "orient": [
+            "front_3q",
+            "turning_midmotion",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "reservation_session": "raboot-cinderace-5698",
+  "reservation_at": "2026-10-28T00:09:49-05:00",
+  "reservation_commit": "b78d2d11738406ba00a59e8711d326bb859a8daf",
+  "check": "passed, stamped reservation verified",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "subculture_fashion",
+      "ex": "punk_gig",
+      "expr": "playful",
+      "pose": "contrapposto",
+      "orient": "front_3q",
+      "frame": "face_close",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "punk — a studded leather jacket over a ripped plain tee, a tartan mini skirt and combat boots, at the barrier of a small live house",
+      "ui": {
+        "expr": "playful",
+        "pose": "contrapposto",
+        "orient": "front_3q",
+        "scene": "Low ceiling beams and a steel safety rail catch violet stage light; a guitar amplifier stack glows softly behind her.",
+        "outfit": "The black leather jacket ends above the waist and slips below one shoulder; the torn charcoal tee exposes the midriff above a gray-and-yellow tartan mini skirt.",
+        "frame": "face_close",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 1,
+        "cat": "subculture_fashion",
+        "ex": "punk_gig",
+        "garments": [
+          "jacket",
+          "skirt"
+        ],
+        "expose": [
+          "cropped hem",
+          "off-shoulder neckline"
+        ],
+        "lead": "place"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Low ceiling beams and a steel safety rail catch violet stage light; a guitar amplifier stack glows softly behind her.",
+          "reason": "Adds violet concert lighting and an amplifier behind the live-house barrier."
+        },
+        {
+          "field": "outfit",
+          "content": "The black leather jacket ends above the waist and slips below one shoulder; the torn charcoal tee exposes the midriff above a gray-and-yellow tartan mini skirt.",
+          "reason": "Specifies a short dropped-shoulder jacket and exposed waist not fixed by the punk example."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024×1536 output is stated here."
+        }
+      ],
+      "axes_reason": "A paused concert moment; gray/yellow tartan provides balanced source cues; separate jacket and skirt.",
+      "random_values": "Planner values, unchanged. All thirteen controls locked by the planner URL."
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "lifeguard_event",
+      "expr": "sensual",
+      "pose": "hand_on_hip",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "bare midriff",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "a lifeguard event costume — a red one-piece-style costume with a whistle on a cord and a rescue buoy prop; posing beside a prop lifeguard tower",
+      "ui": {
+        "expr": "sensual",
+        "pose": "hand_on_hip",
+        "orient": "turning_midmotion",
+        "scene": "Warm rehearsal spotlights illuminate a boardwalk-themed stage set with painted waves and weathered wooden steps.",
+        "outfit": "The opaque red costume swimsuit has charcoal side panels, yellow piping and linked waist cutouts exposing the side midriff, with bare shoulders and legs.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 2,
+        "cat": "adult_roleplay",
+        "ex": "lifeguard_event",
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "bare midriff",
+          "side cutouts"
+        ],
+        "lead": "light"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm rehearsal spotlights illuminate a boardwalk-themed stage set with painted waves and weathered wooden steps.",
+          "reason": "Adds rehearsal lighting and painted waves to establish a stage event."
+        },
+        {
+          "field": "outfit",
+          "content": "The opaque red costume swimsuit has charcoal side panels, yellow piping and linked waist cutouts exposing the side midriff, with bare shoulders and legs.",
+          "reason": "Adds charcoal/yellow source panels and linked waist cutouts to the red costume swimsuit."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024×1536 output is stated here."
+        }
+      ],
+      "axes_reason": "A held costume presentation; strong source color panels; one-piece construction.",
+      "random_values": "Planner values, unchanged. All thirteen controls locked by the planner URL."
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "one_shoulder_satin",
+      "expr": "pensive",
+      "pose": "standing_relaxed",
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "detail",
+      "example_text": "a one-shoulder satin evening dress",
+      "ui": {
+        "expr": "pensive",
+        "pose": "standing_relaxed",
+        "orient": "rear_3q",
+        "scene": "A brass apartment key meets a porcelain tray on a marble console beneath a shaded amber lamp; rain streaks the tall windows.",
+        "outfit": "Pearl-gray satin falls from one shoulder into a long evening dress with a high thigh slit and a warm gold diagonal trim.",
+        "frame": "environmental",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 3,
+        "cat": "private_evening",
+        "ex": "one_shoulder_satin",
+        "garments": [
+          "dress"
+        ],
+        "expose": [
+          "high thigh slit",
+          "one-shoulder cut"
+        ],
+        "lead": "detail"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A brass apartment key meets a porcelain tray on a marble console beneath a shaded amber lamp; rain streaks the tall windows.",
+          "reason": "Example names only a dress: adds key-lowering activity at a rain-lit home console."
+        },
+        {
+          "field": "outfit",
+          "content": "Pearl-gray satin falls from one shoulder into a long evening dress with a high thigh slit and a warm gold diagonal trim.",
+          "reason": "Adds pearl-gray fabric, gold trim and thigh slit to the one-shoulder dress."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; required vertical 1024×1536 output is stated here."
+        }
+      ],
+      "axes_reason": "A held key-lowering moment; balanced gray/gold source cues; one-piece dress.",
+      "random_values": "Planner values, unchanged. All thirteen controls locked by the planner URL."
+    }
+  ],
+  "replanning": "Initial batches failed new garment condition. Excluded repeated dress-dominant categories at Raboot slots 1 and 3 via planner --avoid. No failed plan was used to generate images."
+}
