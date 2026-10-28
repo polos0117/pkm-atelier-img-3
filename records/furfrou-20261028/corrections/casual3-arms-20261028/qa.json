@@ -1,0 +1,35 @@
+{
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "451e58dd0d5e76a8a4ab18ed096a2aed150a22eef1ec14e6441fa7e17b5155d4",
+  "checks": {
+    "arms": {
+      "match": true,
+      "evidence": "Exactly two shoulder-to-hand chains: viewer-left visible shoulder descends through white fur sleeve to one lowered hand holding the bag at lower-left; viewer-right bent arm continues through one elbow and one rising forearm to the hand supporting the chin. The former transverse forearm and bag hand across the knees are gone."
+    },
+    "hands": {
+      "match": true,
+      "evidence": "Two hands total. Lower-left bag hand has a thumb beside four flexed fingers, with part of the chain occluding fingertips. Chin hand is partly hidden by the face; visible fingers and wrist do not branch."
+    },
+    "legs": {
+      "match": true,
+      "evidence": "Two thighs and bent lower legs remain continuously joined; sandal-clad feet overlap naturally, no added limb."
+    },
+    "identity_and_scene": {
+      "match": true,
+      "evidence": "White twin tails, red eyes, face, black side-cutout mini dress, white fur jacket, crouch, neon queue ropes and wet pavement remain consistent with the target."
+    },
+    "format": {
+      "match": true,
+      "evidence": "Source PNG and decoded WebP both 1024×1536."
+    }
+  },
+  "anatomy": {
+    "tool": "unavailable: No module named mediapipe; anatomy-check.py returned exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Two hands. Bag hand: thumb + four flexed fingers with partial chain occlusion. Chin hand: partial face occlusion; no inferred hidden finger count.",
+    "overlay_checked": false,
+    "note": "Original size and separate enlarged shoulder/elbow/wrist/hand crops visually inspected. This corrects the earlier review that missed the branching cross-knee arm."
+  }
+}

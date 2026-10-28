@@ -493,5 +493,30 @@
   "check": "2-character combined plan passed before reserve; stamp verify passed",
   "reservation_commit": "a4dea23af78fbdb4b8bc1831750471802ca71c21",
   "generation_tool": "built-in image_gen",
-  "planner_adjustment": "첫 캐릭터가 남은 새 방향 값을 모두 쓰지 않도록 계획기 --avoid 트리미앙::orient=turning_midmotion; 보수적 수영복 예시와 노출 조건 충돌을 피하도록 두 종 ex=burkini_modest 제외. 선택값은 계획기가 결정."
+  "planner_adjustment": "첫 캐릭터가 남은 새 방향 값을 모두 쓰지 않도록 계획기 --avoid 트리미앙::orient=turning_midmotion; 보수적 수영복 예시와 노출 조건 충돌을 피하도록 두 종 ex=burkini_modest 제외. 선택값은 계획기가 결정.",
+  "correction_history": [
+    {
+      "slot": "casual3",
+      "reason": "User reported a third/branching arm",
+      "changed_input": {
+        "field": "custom",
+        "content": "LOCAL ANATOMY CORRECTION ONLY. Image 1 is the existing off-duty picture to edit; Image 2 is the approved light-form identity reference only. Preserve Image 1 face, hair, expression, clothes, neon club background, crouching legs, lighting and full-body crop. Rebuild only the two shoulder-to-hand chains so there are exactly two arms and two hands. Her left arm on the viewer-right supports her chin: one upper arm from that shoulder, one elbow, one forearm and one hand under her chin. Her right arm on the viewer-left descends from the visible shoulder to its own elbow at her left image edge, continues down outside the bent knee, and its single hand holds the handbag chain beside the viewer-left knee; move the handbag to that lower-left side. Erase the old cross-knee forearm and old bag-holding hand on the viewer-right completely, restoring the uninterrupted thigh, dress and jacket behind them. Separate the two arms clearly, with no branching arm, duplicated wrist or detached hand. Keep all other parts of Image 1 unchanged.",
+        "reason": "The transverse bag arm branched visually into the chin-support arm. Reposition the bag to the opposite outer side and rebuild two unambiguous arm chains."
+      },
+      "references": [
+        {
+          "role": "edit target casual3",
+          "path": "/workspace/scratch/09b3413e4615/generated_images/exec-59a8a5ab-9037-46dd-ad09-d01a598ce905.png",
+          "sha256": "6faebd35696caa96dc11fedf088b8c8f3b44a9c80abe19fd737b26f985fcc2df"
+        },
+        {
+          "role": "approved identity light",
+          "path": "/workspace/scratch/09b3413e4615/generated_images/exec-c4fe3368-dbc1-440b-9662-10843e8b3f01.png",
+          "sha256": "d6edd85efe0cc7c7eb54db3401c9a1a6a953b1ddf6ca2d7c3f83c86728985dea"
+        }
+      ],
+      "record": "corrections/casual3-arms-20261028/correction.json",
+      "planner_choices_changed": false
+    }
+  ]
 }

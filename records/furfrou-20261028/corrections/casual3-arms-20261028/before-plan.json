@@ -1,0 +1,497 @@
+{
+  "session": "furfrou-espurr-20261028-09b3",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "트리미앙",
+      "species": "furfrou-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "retro_glamour",
+          "ex": "aerobics_80s",
+          "garments": [
+            "leggings"
+          ],
+          "orient": "seated_twist",
+          "frame": "waist_up",
+          "pose": "side_sitting",
+          "expr": "serious",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "halter neck",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A cassette player and striped exercise mat catch the late-afternoon light during a floor-stretch segment of the class.",
+              "reason": "카세트와 매트·오후빛·바닥 스트레칭 구간은 예시가 정하지 않아 보충."
+            },
+            {
+              "field": "outfit",
+              "content": "A black-and-ice-blue halter leotard has an off-shoulder neckline with short dropped sleeves; glossy silver leggings, knitted leg warmers and a narrow headband complete the ensemble.",
+              "reason": "예시는 레오타드·타이츠만 정함. 계획의 leggings와 halter/off-shoulder를 은색 레깅스·내린 소매 구조로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "바닥 스트레칭을 잠시 멈춘 구간으로 상체와 지지손이 안정됨.",
+            "source_influence": "balanced — A black-and-ice-blue halter leotard has an off-shoulder neckline with short dropped sleeves; glossy silver leggings, knitted leg warmers and a narrow headband complete the ensemble.",
+            "separates_preference": "prefer separates — leggings 의 실제 조합을 따름."
+          }
+        },
+        {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "afterparty_stairs",
+          "garments": [
+            "dress"
+          ],
+          "orient": "looking_down",
+          "frame": "face_close",
+          "pose": "leaning_furniture",
+          "expr": "confident",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "high thigh slit"
+          ],
+          "lead": "action",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Resting after the last dance, she gathers the satin train beside the marble banister while holding her removed heels.",
+              "reason": "예시는 갈라 뒤 계단과 구두만 정함. 춤이 끝난 휴식 시점과 난간 옆 트레인 정리를 보충."
+            },
+            {
+              "field": "outfit",
+              "content": "Her pearl-white satin mini gown has a long detachable train and a high thigh slit, with a small ice-blue crystal clasp at the waist.",
+              "reason": "예시의 새틴 가운은 유지하고 계획의 mini length와 high thigh slit을 탈착 트레인이 달린 짧은 가운으로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "춤 뒤 가운 자락과 구두를 정리하는 작은 움직임이 있는 휴식.",
+            "source_influence": "strong — Her pearl-white satin mini gown has a long detachable train and a high thigh slit, with a small ice-blue crystal clasp at the waist.",
+            "separates_preference": "balanced — dress 의 실제 조합을 따름."
+          }
+        },
+        {
+          "cut": 3,
+          "cat": "nightlife",
+          "ex": "club_queue",
+          "garments": [
+            "dress",
+            "jacket",
+            "slip"
+          ],
+          "orient": "crouching",
+          "frame": "three_quarter",
+          "pose": "squatting",
+          "expr": "candid",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "strapless top"
+          ],
+          "lead": "light",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Violet neon washes the rain-dark pavement and velvet queue ropes outside the club entrance.",
+              "reason": "예시는 밤 클럽 앞 줄만 정함. 젖은 노면·보라 네온·벨벳 로프의 현장 빛을 보충."
+            },
+            {
+              "field": "outfit",
+              "content": "A black strapless slip mini dress has ice-blue piping around side cutouts; the short white faux-fur jacket rests low around her elbows, revealing the shoulders and side waist.",
+              "reason": "예시의 짧은 재킷·슬립 미니를 유지하고 계획의 side cutouts·strapless top을 옆절개·스트랩리스 구조로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "입장 대기 중 낮게 웅크린 정지 순간.",
+            "source_influence": "balanced — A black strapless slip mini dress has ice-blue piping around side cutouts; the short white faux-fur jacket rests low around her elbows, revealing the shoulders and side waist.",
+            "separates_preference": "balanced — dress,jacket,slip 의 실제 조합을 따름."
+          }
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "leggings",
+          "slip"
+        ],
+        "orient": [
+          "seated_twist",
+          "looking_down"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "furfrou-espurr-20261028-09b3",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "트리미앙",
+        "species": "furfrou-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "aerobics_80s",
+            "garments": [
+              "leggings"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "side_sitting",
+            "expr": "serious",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A cassette player and striped exercise mat catch the late-afternoon light during a floor-stretch segment of the class.",
+                "reason": "카세트와 매트·오후빛·바닥 스트레칭 구간은 예시가 정하지 않아 보충."
+              },
+              {
+                "field": "outfit",
+                "content": "A black-and-ice-blue halter leotard has an off-shoulder neckline with short dropped sleeves; glossy silver leggings, knitted leg warmers and a narrow headband complete the ensemble.",
+                "reason": "예시는 레오타드·타이츠만 정함. 계획의 leggings와 halter/off-shoulder를 은색 레깅스·내린 소매 구조로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "바닥 스트레칭을 잠시 멈춘 구간으로 상체와 지지손이 안정됨.",
+              "source_influence": "balanced — A black-and-ice-blue halter leotard has an off-shoulder neckline with short dropped sleeves; glossy silver leggings, knitted leg warmers and a narrow headband complete the ensemble.",
+              "separates_preference": "prefer separates — leggings 의 실제 조합을 따름."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "afterparty_stairs",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "face_close",
+            "pose": "leaning_furniture",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "high thigh slit"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Resting after the last dance, she gathers the satin train beside the marble banister while holding her removed heels.",
+                "reason": "예시는 갈라 뒤 계단과 구두만 정함. 춤이 끝난 휴식 시점과 난간 옆 트레인 정리를 보충."
+              },
+              {
+                "field": "outfit",
+                "content": "Her pearl-white satin mini gown has a long detachable train and a high thigh slit, with a small ice-blue crystal clasp at the waist.",
+                "reason": "예시의 새틴 가운은 유지하고 계획의 mini length와 high thigh slit을 탈착 트레인이 달린 짧은 가운으로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "춤 뒤 가운 자락과 구두를 정리하는 작은 움직임이 있는 휴식.",
+              "source_influence": "strong — Her pearl-white satin mini gown has a long detachable train and a high thigh slit, with a small ice-blue crystal clasp at the waist.",
+              "separates_preference": "balanced — dress 의 실제 조합을 따름."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "club_queue",
+            "garments": [
+              "dress",
+              "jacket",
+              "slip"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "candid",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Violet neon washes the rain-dark pavement and velvet queue ropes outside the club entrance.",
+                "reason": "예시는 밤 클럽 앞 줄만 정함. 젖은 노면·보라 네온·벨벳 로프의 현장 빛을 보충."
+              },
+              {
+                "field": "outfit",
+                "content": "A black strapless slip mini dress has ice-blue piping around side cutouts; the short white faux-fur jacket rests low around her elbows, revealing the shoulders and side waist.",
+                "reason": "예시의 짧은 재킷·슬립 미니를 유지하고 계획의 side cutouts·strapless top을 옆절개·스트랩리스 구조로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "입장 대기 중 낮게 웅크린 정지 순간.",
+              "source_influence": "balanced — A black strapless slip mini dress has ice-blue piping around side cutouts; the short white faux-fur jacket rests low around her elbows, revealing the shoulders and side waist.",
+              "separates_preference": "balanced — dress,jacket,slip 의 실제 조합을 따름."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings",
+            "slip"
+          ],
+          "orient": [
+            "seated_twist",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "냐스퍼",
+        "species": "espurr-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "transformation_drape",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "mid_action",
+            "expr": "unimpressed",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "hammam",
+            "garments": [
+              "robe"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "standing_formal",
+            "expr": "sleepy",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "turning_back",
+            "expr": "amused",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "2-character combined plan passed before reserve; stamp verify passed",
+  "reservation_commit": "a4dea23af78fbdb4b8bc1831750471802ca71c21",
+  "generation_tool": "built-in image_gen",
+  "planner_adjustment": "첫 캐릭터가 남은 새 방향 값을 모두 쓰지 않도록 계획기 --avoid 트리미앙::orient=turning_midmotion; 보수적 수영복 예시와 노출 조건 충돌을 피하도록 두 종 ex=burkini_modest 제외. 선택값은 계획기가 결정."
+}

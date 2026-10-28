@@ -1,0 +1,51 @@
+{
+  "card": "트리미앙",
+  "slot": "casual3",
+  "kind": "user-requested local anatomy correction",
+  "user_request": "트리미앙 일상3번에 얼굴을 받치는 손과 가방을 들고있는 손이 겹쳐서 팔이 3개가 됐어. 수정해줘.",
+  "old_image": {
+    "file": "트리미앙_glossy_promo_f_casual3.webp",
+    "sha256": "ecceb57f9439e8b2c9dc23e49be260906444f776184964e3996028eef93c93b7",
+    "git_blob": "df4aff26cc3cc0ea9592ba6bb40b0ed1a0a1f533",
+    "original_record": "before-classification.json"
+  },
+  "source": {
+    "path": "/workspace/scratch/09b3413e4615/generated_images/exec-7c17c103-3e37-4df5-b58b-2e4c8fad7988.png",
+    "sha256": "451e58dd0d5e76a8a4ab18ed096a2aed150a22eef1ec14e6441fa7e17b5155d4",
+    "session_only": true
+  },
+  "output": {
+    "file": "트리미앙_glossy_promo_f_casual3.webp",
+    "sha256": "4e9c9ce0ad5546d428300a77ab5fc0f0cbafcb23ef87427df4b1b6d2f934bdaa",
+    "git_blob": "20f24eb72bea7960d2cd04dd7c6f014e342db797",
+    "size": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6
+  },
+  "references": [
+    {
+      "role": "edit target casual3",
+      "path": "/workspace/scratch/09b3413e4615/generated_images/exec-59a8a5ab-9037-46dd-ad09-d01a598ce905.png",
+      "sha256": "6faebd35696caa96dc11fedf088b8c8f3b44a9c80abe19fd737b26f985fcc2df"
+    },
+    {
+      "role": "approved identity light",
+      "path": "/workspace/scratch/09b3413e4615/generated_images/exec-c4fe3368-dbc1-440b-9662-10843e8b3f01.png",
+      "sha256": "d6edd85efe0cc7c7eb54db3401c9a1a6a953b1ddf6ca2d7c3f83c86728985dea"
+    }
+  ],
+  "changed_input": {
+    "field": "custom",
+    "content": "LOCAL ANATOMY CORRECTION ONLY. Image 1 is the existing off-duty picture to edit; Image 2 is the approved light-form identity reference only. Preserve Image 1 face, hair, expression, clothes, neon club background, crouching legs, lighting and full-body crop. Rebuild only the two shoulder-to-hand chains so there are exactly two arms and two hands. Her left arm on the viewer-right supports her chin: one upper arm from that shoulder, one elbow, one forearm and one hand under her chin. Her right arm on the viewer-left descends from the visible shoulder to its own elbow at her left image edge, continues down outside the bent knee, and its single hand holds the handbag chain beside the viewer-left knee; move the handbag to that lower-left side. Erase the old cross-knee forearm and old bag-holding hand on the viewer-right completely, restoring the uninterrupted thigh, dress and jacket behind them. Separate the two arms clearly, with no branching arm, duplicated wrist or detached hand. Keep all other parts of Image 1 unchanged.",
+    "reason": "The transverse bag arm branched visually into the chin-support arm. Reposition the bag to the opposite outer side and rebuild two unambiguous arm chains."
+  },
+  "prompt": "prompt.txt",
+  "ui": "ui.json",
+  "qa": "qa.json",
+  "previous_qa": "before-qa.json",
+  "original_png_policy": "session_only; no PNG uploaded",
+  "publish_parent": "628740be26e19a79cd11163854efa19865b5a272"
+}

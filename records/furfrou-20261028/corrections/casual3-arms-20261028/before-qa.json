@@ -1,0 +1,134 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generated": 9,
+  "requested": 9,
+  "accepted": true,
+  "cuts": {
+    "light": {
+      "image_sha256": "d6edd85efe0cc7c7eb54db3401c9a1a6a953b1ddf6ca2d7c3f83c86728985dea",
+      "accepted": true,
+      "observations": "긴 흰 트윈테일·붉은 눈·긴 중안부가 식별됨. 가는 어깨/전완/골반/하퇴 판, 두 팔을 내린 전신. 머리카락 끝이 왼쪽 테두리에 걸림만 기록.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "heavy": {
+      "image_sha256": "d31047f0714c14d9cac8b7685fd86d05378d5be76419cc126927d2333dd10062",
+      "accepted": true,
+      "observations": "얼굴·머리 길이·정면 3/4 시선 유지. 어깨와 허벅지·정강이에 넓고 두꺼운 흰 겹판 및 얼굴이 열린 측두 보호판. 무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "mobility": {
+      "image_sha256": "20e31b3caab65db52a26bbbe86112be04e8062ce6f97539c0ee2f6ed4c2f38fe",
+      "accepted": true,
+      "observations": "어깨·허리·종아리의 판 사이에 공기 틈과 작은 푸른 추진구가 보이며 경장 얼굴·검정 장갑 유지.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "df605372f5a30726d1274e740662c8537f28532697363f60fde75d2e628e0f77",
+      "accepted": true,
+      "observations": "경장과 발의 위치·상체 기울기·인물 크기가 같고 어깨/팔/골반/하퇴의 기존 이음새가 들리며 백금색 내부빛이 보임.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "29a3e32aa07c3a1eb3ddcee934a840b8a77af1e8139c37e26158c68c133cb45f",
+      "accepted": true,
+      "observations": "중장과 머리 장식·얼굴·벌어진 다리 위치가 같음. 기존 겹판의 틈이 넓어지고 황금 내부 프레임이 드러남; 새 무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "70b3f48d86716b7bed0f2b3c330f5c26e48e0bb3331e1747632917c565ca7adf",
+      "accepted": true,
+      "observations": "고기동과 같은 다리 간격·팔 위치·얼굴. 원래 핀과 추진구 덮개가 더 벌어지고 금빛 내부가 보여 일반↔개방 쌍으로 읽힘.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 검정 밀착 장갑. 엄지 방향과 굽힌 손가락 겹침을 확대 확인; 부분 가림은 추정해 수를 부여하지 않음. 추가 손·역관절·떨어진 사지 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual1": {
+      "image_sha256": "49be1cae02260b32732d60512e5ff38ebf8591e32bda98ae04e701a874fea64f",
+      "accepted": true,
+      "observations": "매트 위 접힌 두 무릎·옆으로 앉은 골반, 은색 레깅스와 레그워머·검정/하늘색 레오타드, 카세트와 운동실 거울. 한 손은 매트를 지지하고 다른 손은 머리 옆. 어깨/팔·상부 가슴 노출이 유지됨. 거울은 흐릿한 뒤통수 반사이며 두 번째 얼굴 없음.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "매트 지지손은 엄지와 네 손가락이 자연스럽게 이어짐; 머리 옆 손은 머리에 일부 가려져 전부 세지 못함. 접힌 두 하퇴와 발의 연결이 자연스러움.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual2": {
+      "image_sha256": "5f61d9362585ce59b55bc13492497f56f09e6f794439fadd588b63230463a728",
+      "accepted": true,
+      "observations": "흰 새틴 미니 가운과 긴 트레인·크리스털 장식, 대리석 계단에 앉아 한 손에 구두를 들고 다른 손은 턱을 받침. 어깨·다리가 드러남. 눈이 아래보다 카메라 쪽이고 face_close 대신 넓은 크롭·표정이 부드러움은 기록만 함. 배경 행사 인물은 얼굴을 읽을 수 없는 흐림.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "구두 끈을 쥔 손은 엄지와 굽힌 네 손가락의 겹침이 보임. 턱 지지손 일부는 턱 아래에 가려짐. 서로 교차한 다리 둘이 골반에 연결되고 발은 아래 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual3": {
+      "image_sha256": "6faebd35696caa96dc11fedf088b8c8f3b44a9c80abe19fd737b26f985fcc2df",
+      "accepted": true,
+      "observations": "클럽 밖 네온·로프 줄 앞에서 무릎을 접어 낮게 웅크림. 검정 옆절개 슬립 미니와 팔꿈치 아래 흰 퍼 재킷, 한 손은 턱·다른 손은 가방 체인을 잡음. 어깨/옆 허리가 열려 있음. 스트랩리스 대신 가는 스트랩·전신으로 넓어진 프레임은 기록만 함. 배경 사람은 흐린 실루엣.",
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted and returned 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "체인 잡은 손은 엄지·굴곡한 네 손가락이 보임. 턱 받친 손은 얼굴에 일부 가림. 두 무릎·발목·샌들 발가락은 자연스럽게 겹치며 추가 발 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 갑옷/겹침으로 가린 손가락은 가려짐으로 기록."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "돌살이",
+      "마라카치",
+      "불비달마"
+    ],
+    "observed": "세 컷 모두 낮은 자세지만 1은 매트에 접은 다리와 운동복·카세트, 2는 계단에 다리를 뻗고 새틴 트레인·구두, 3은 네온 대기줄에서 발로 지지하는 쪼그림·미니드레스·퍼 재킷으로 활동과 의상 실루엣이 구분됨. 최근 돌살이의 수영장 튜브/마녀/코르셋, 마라카치의 테라스/연습실/야외촬영, 불비달마의 빨래/벨벳/스파와 배경뿐 아니라 주 활동·손의 소품도 다름. 2·3의 턱 지지손은 비슷하지만 전체 실루엣은 계단 착석과 낮은 쪼그림으로 구분됨."
+  }
+}
