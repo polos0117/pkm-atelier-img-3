@@ -1,0 +1,168 @@
+{
+ "date": "2026-10-28",
+ "author": "claude",
+ "atelier": "pkm",
+ "id": "umbreon",
+ "form": "base",
+ "state": "react",
+ "plan": "polos0117.github.io dot.html — 공용 도트 공방",
+ "generation": {
+  "file": "sprites/umbreon/raw/umbreon_base_react_gen1.png",
+  "sha256": "e15303ceff4b8ba0eacc8c06d3d4d1702e3dc4651baf7fe9ed56d7abcdf7b12c",
+  "by": "gpt",
+  "received_as": "umbreon_base_react_gen1.png",
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "medium",
+  "size": "2160x3840",
+  "usage": {
+   "input_tokens": 3438,
+   "input_tokens_details": {
+    "image_tokens": 2988,
+    "text_tokens": 450
+   },
+   "output_tokens": 865,
+   "output_tokens_details": {
+    "image_tokens": 865,
+    "text_tokens": 0
+   },
+   "total_tokens": 4303
+  },
+  "seconds": 31.3,
+  "attachments": [
+   "still_x6",
+   "canonical"
+  ],
+  "prompt": "Pixel art sprite sheet of the EXACT same character as attached image 1 — a finished pixel-art sprite.\nCopy it pixel for pixel in style: same very large chunky pixels, same 16-colour palette, same dark outline,\nsame proportions (about 4 heads tall), same face. Long black hair with two tall black ears tipped with yellow rings, pale skin and yellow eyes, a sleek black bodysuit with glowing yellow rings on the thighs and upper arms and a yellow ring on the forehead, long black gloves, black armoured heeled boots with yellow rings, a long black tail with a yellow ring.\nKeep decoration as simple as image 1 — do not add new details. Image 2 is only a colour and face reference; do not copy its painterly style.\n\nSheet layout: portrait canvas 2160 x 3840, 4 frames in a 2 x 2 grid (cell 1080 x 1920), read left to right, top to bottom.\nIn every cell the character is the same size (about 125 pixels tall on the sprite's own pixel grid, each sprite pixel\ndrawn as a crisp 13 x 13 square), centred horizontally, with both feet on the same baseline near the bottom of the cell.\nEvery frame faces the same direction as described below. Hard edges only: no anti-aliasing, no blur, no gradients, no dithering noise.\nTransparent background. No grid lines, no cell borders, no numbers, no labels, no text, no ground, no shadow, no motion lines, no extra characters.\n\nREACT animation when selected, 4 frames. Starts and ends in the image 1 pose.\nframe 1 = image 1 pose; frame 2 = turns head and body toward the viewer with a small pleased expression;\nframe 3 = a small greeting that suits the character (a light bow, a curtsy or a small wave), knees slightly bent, body 2-3 pixels lower;\nframe 4 = rising back halfway toward the image 1 pose. Feet stay on the baseline."
+ },
+ "cleaned": {
+  "file": "sprites/umbreon/umbreon_base_react_4k.png",
+  "sha1": "4a8e82684063",
+  "tool": "polos0117.github.io dot.html (rust/dot-core — book-atelier 파이썬 도구와 같은 셈)",
+  "args": [
+   "--frames",
+   "4",
+   "--grid",
+   "2x2",
+   "--palette",
+   "sprites/umbreon/umbreon_base_still_4k.png",
+   "--rows",
+   "235",
+   "--speck",
+   "150",
+   "--cell",
+   "192x256"
+  ],
+  "cell": [
+   192,
+   256
+  ],
+  "frames": 4,
+  "foot_y": 254,
+  "colours": 24,
+  "frame": [
+   {
+    "box_px": [
+     112,
+     24,
+     1032,
+     1904
+    ],
+    "pitch": 7.97,
+    "size": [
+     115,
+     236
+    ],
+    "anchor_x": 51.02,
+    "dropped_specks": 0,
+    "at": [
+     45,
+     18
+    ]
+   },
+   {
+    "box_px": [
+     1192,
+     24,
+     2087,
+     1904
+    ],
+    "pitch": 7.97,
+    "size": [
+     112,
+     235
+    ],
+    "anchor_x": 48.34,
+    "dropped_specks": 0,
+    "at": [
+     48,
+     19
+    ]
+   },
+   {
+    "box_px": [
+     224,
+     1928,
+     1096,
+     3800
+    ],
+    "pitch": 7.97,
+    "size": [
+     109,
+     222
+    ],
+    "anchor_x": 41.58,
+    "dropped_specks": 0,
+    "at": [
+     54,
+     32
+    ]
+   },
+   {
+    "box_px": [
+     1192,
+     1928,
+     2097,
+     3800
+    ],
+    "pitch": 7.97,
+    "size": [
+     114,
+     235
+    ],
+    "anchor_x": 50.19,
+    "dropped_specks": 0,
+    "at": [
+     46,
+     19
+    ]
+   }
+  ]
+ },
+ "playback": {
+  "order": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "ms": [
+   120,
+   180,
+   320,
+   200
+  ]
+ },
+ "canvas": "2160x3840",
+ "cell": [
+  192,
+  256
+ ],
+ "flip": {
+  "allowed": true
+ },
+ "references": {
+  "canonical": "img/블래키_light_glossy_promo_f.webp",
+  "still_x6": "sprites/umbreon/umbreon_base_still_4k.png (최근접 6배)"
+ },
+ "why": "사용자 \"삼국지는 빼고 공방별로 2개씩 더 만들어줘\"(2026-10-28) — 이 공방 그림 중 내가 고른 한 장. book 의 4K 와 같은 길(2160×3840 · 원본 격자 그대로 · 칸 192×256 · dot 0.5), 본보기는 book 앨리스 4K 정지 6배"
+}
