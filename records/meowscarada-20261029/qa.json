@@ -1,0 +1,265 @@
+{
+  "card": "마스카나",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "476ac0e88e3f757243a9e02d9bd9d1e1578216446bacc4c176111d0fbf113bb4",
+      "image_sha256": "0b34a260a0a389a74dd7e3ecb175d35c2037d51102c8d09cb9ae7bbcfc5d2440",
+      "observations": "One adult woman with full head and boot tips inside frame. Long half-up dark green hair, narrow elongated face and fuchsia collar. Slim closed armor; relaxed palms.",
+      "identity_reference": [],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "685bef2fd97a60de440b5261eb03e0a17f3d8ffc5fabf2d465cf8a3d7f308e60",
+      "image_sha256": "ae12595024935ac30e6041dc9a43bb05925d6a733ca47841bd4c74c8462daacb",
+      "observations": "Same narrow face and half-up hair; broad layered rims visibly cover shoulders, forearms, thighs and shins. Camera matches anchor.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "dbd07f079ef20d628056dc42fbd033a6bc73402080cb50137aa08bccc37fa84b",
+      "image_sha256": "7de01f9693ea947f95aa6192c0b37aa0b4af47a767730c4cc9532833bcebd59e",
+      "observations": "Same face and proportions. Thin swept panels and compact green thruster discs at hips and calves. Two human arms and legs distinguishable from costume panels.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "2678088bc80239c6ec41e0d7546df6771bdc76eba1229774129c077b054ff5c4",
+      "image_sha256": "15d551760edb405f34f89d1d40571c14a6459dc45d157fb24740888d09f49598",
+      "observations": "Light armor seams separate with green internal light; camera, pose, body size and face align with closed light.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "dfa667baabe9ddaa7bb95f907556386898234811bd5864dcfdca5c7af4216c8c",
+      "image_sha256": "b0ad024548e32438af1b3a2a3397f6497a94f8775ecc5bf0356227bc6043cb2a",
+      "observations": "Heavy layered shell follows the closed heavy composition, with green light in opened seams; no new weapon.",
+      "identity_reference": [
+        "heavy",
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "bcbdd190e09837243b1402fe9d7e1db64285fcfb209ce12561623eec21017e21",
+      "image_sha256": "3f5be6bc3516f6144c49772cb0f007336a5e8b3c95a0465e4ebdef39eb9428d0",
+      "observations": "Swept mobility panels open with bright green cores; same body pose and camera as closed mobility.",
+      "identity_reference": [
+        "mobility",
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Palm hand: thumb and four fingers distinguishable, some curled. Opposite relaxed gloved hand: visible fingers overlap, remaining digits naturally occluded; wrists attach to forearms and thumbs oppose fingers.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "fe4db6936b3bb85b3e12e0e2a0512fbead4f50927a4948639a4615c8619a8736",
+      "image_sha256": "b723010d4df7b7256384f944f6c29c3089686013e226e3a216299835c1096967",
+      "observations": "Seated on service-room floor with two separate legs and shoes visible. One hand holds clipboard, one index points to lit connections; cleaned steel trays establish equipment task. Strapless top, cropped work trousers and short apron are distinct from dresses.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Clipboard hand shows four overlapping fingers with thumb behind clipboard. Pointing hand has extended index, flexed digits and opposing thumb; no detached hand.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "kept": true,
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "hv_battery_tech",
+          "expr": "playful",
+          "pose": "sitting_floor",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "action"
+        },
+        "observed": "Seated on service-room floor with two separate legs and shoes visible. One hand holds clipboard, one index points to lit connections; cleaned steel trays establish equipment task. Strapless top, cropped work trousers and short apron are distinct from dresses."
+      }
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "ca2a27b8f5241ff87d4b9e63388198dbce3e0c2f43f93261ce28fa8dd5536eb0",
+      "image_sha256": "372d2e0c41c730c68e0bb2a8a718aae985f4b6cb999e3958d30512d094a4620f",
+      "observations": "Looks back on red-carpeted stairs, lifting glossy gown fabric in visible hand. Short-front long-train gown, bare back and shoulders; distant audience stays blurred. The standing pause follows the selected pose; frame is closer than planned three-quarter and staircase climb is read as a paused step.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Gown hand has four fingers with thumb hidden behind fabric; opposite hand and most of its forearm are occluded by body and hair.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "festival_steps",
+          "garments": [
+            "dress"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "pose": "standing_relaxed",
+          "expr": "cold_smile",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "place"
+        },
+        "observed": "Looks back on red-carpeted stairs, lifting glossy gown fabric in visible hand. Short-front long-train gown, bare back and shoulders; distant audience stays blurred. The standing pause follows the selected pose; frame is closer than planned three-quarter and staircase climb is read as a paused step."
+      }
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "354d04d7f16bb4f05631ae958737758ddfe3f508fb0665a732efc0caccb3dfbf",
+      "image_sha256": "6ba76707445199c2788120467c7697b8bcdd4def730a37fd8d6f42371520e89a",
+      "observations": "Swing-dance setting and turning flared skirt with cream underskirt are visible; torso turns back toward camera. One hand is partly at left edge, the other falls outside right frame. Result is wider than selected waist-up and does not visibly lean on furniture; record-only pose/framing deviations. No recognizable brand.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Left-edge visible hand is partly cropped; fingers overlap naturally on skirt. Other wrist reaches right frame edge and its hand is out of frame.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "swing_dress",
+          "garments": [
+            "dress"
+          ],
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "pose": "leaning_furniture",
+          "expr": "sensual",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "open back"
+          ],
+          "lead": "action"
+        },
+        "observed": "Swing-dance setting and turning flared skirt with cream underskirt are visible; torso turns back toward camera. One hand is partly at left edge, the other falls outside right frame. Result is wider than selected waist-up and does not visibly lean on furniture; record-only pose/framing deviations. No recognizable brand."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬"
+    ],
+    "method": "Actual full images viewed side by side; labels or prompt differences alone were not used.",
+    "observations": "Equipment-floor seated work has trousers/apron and visible shoes; gala image has a gathered long train on stairs; dance image has a shorter flared cream-edged skirt in motion. Gala and swing share a back-looking angle but differ in skirt outline, stance and activity. Recent family images show kimono/costume/partner care and Rookidee telescope/pool/boutique scenes, without this three-cut combination.",
+    "similarity_check": "tools/casual-look.cjs check passed; no near-duplicate under required threshold."
+  }
+}

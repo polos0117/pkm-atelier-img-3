@@ -1,0 +1,697 @@
+{
+  "batch_plan": {
+    "session": "meowscarada-fuecoco-20261029-9f53",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마스카나",
+        "species": "meowscarada-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "hv_battery_tech",
+            "expr": "playful",
+            "pose": "sitting_floor",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "expose": [
+              "strapless top",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "festival_steps",
+            "garments": [
+              "dress"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "standing_relaxed",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "swing_dress",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "sensual",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "active",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "three_quarter_back",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "뜨아거",
+        "species": "fuecoco-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "paddle_board",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "test_pilot_brief",
+            "expr": "confident",
+            "pose": "mid_action",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_parade",
+            "expr": "nostalgic",
+            "pose": "mid_stride",
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "characters": [
+    {
+      "card": "마스카나",
+      "species": "meowscarada-20261029",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "occupation_basic",
+          "ex": "hv_battery_tech",
+          "expr": "playful",
+          "pose": "sitting_floor",
+          "orient": "seated_twist",
+          "frame": "environmental",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "apron",
+            "trousers"
+          ],
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "gala_red_carpet",
+          "ex": "festival_steps",
+          "garments": [
+            "dress"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "pose": "standing_relaxed",
+          "expr": "cold_smile",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "strapless top",
+            "mini length"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "retro_glamour",
+          "ex": "swing_dress",
+          "garments": [
+            "dress"
+          ],
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "pose": "leaning_furniture",
+          "expr": "sensual",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "open back"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "travel_exploration",
+          "festivals_contests",
+          "active",
+          "gala_red_carpet"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [
+          "three_quarter_back",
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "occupation_basic",
+      "ex": "hv_battery_tech",
+      "expr": "playful",
+      "pose": "sitting_floor",
+      "orient": "seated_twist",
+      "frame": "environmental",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "apron",
+        "trousers"
+      ],
+      "expose": [
+        "strapless top",
+        "mini length"
+      ],
+      "lead": "action",
+      "actual_scene_settings": {
+        "expr": "playful",
+        "pose": "sitting_floor",
+        "orient": "seated_twist",
+        "scene": "Checking the green status lights along the low care-station panel; polished steel trays catch the cool service-room illumination.",
+        "outfit": "A strapless green work top with a short dark utility apron over tailored cropped trousers; the abbreviated apron ends high at the hips, leaving shoulders and collarbones exposed.",
+        "frame": "environmental",
+        "lens": "portrait85",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_basic",
+        "catCustom": "",
+        "ex": "hv_battery_tech",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: Pokémon Center equipment attendant checking care-station connections and arranging cleaned trays in a service room.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "The service connection check is a paused task; seated work makes mostly posed appropriate.",
+        "source_influence": "Green work top and diamond closures carry her motif without armor.",
+        "separates_preference": "Separate strapless top, apron and cropped trousers make the technical role legible."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Checking the green status lights along the low care-station panel; polished steel trays catch the cool service-room illumination.",
+          "reason": "Selected example does not specify the precise work-room lighting and tray details; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless green work top with a short dark utility apron over tailored cropped trousers; the abbreviated apron ends high at the hips, leaving shoulders and collarbones exposed.",
+          "reason": "Selected example does not specify the precise work-room lighting and tray details; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "gala_red_carpet",
+      "ex": "festival_steps",
+      "garments": [
+        "dress"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "three_quarter",
+      "pose": "standing_relaxed",
+      "expr": "cold_smile",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "mini length"
+      ],
+      "lead": "place",
+      "actual_scene_settings": {
+        "expr": "cold_smile",
+        "pose": "standing_relaxed",
+        "orient": "three_quarter_back",
+        "scene": "The broad velvet staircase rises toward cinema spotlights and polished brass balustrades.",
+        "outfit": "A strapless deep-green gala gown with a short sculpted front hem and a sweeping long rear train, baring the shoulders and legs; smooth satin defines a formal silhouette.",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "gala_red_carpet",
+        "catCustom": "",
+        "ex": "festival_steps",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: climbing a grand red-carpeted staircase at a film festival in a gown with a long train",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "The gown is held on film-festival steps; a standing red-carpet pause is mostly posed.",
+        "source_influence": "Formal satin silhouette leads; source identity is only a green palette echo.",
+        "separates_preference": "A single gala gown with a train is the chosen example, so balanced does not force separates."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "The broad velvet staircase rises toward cinema spotlights and polished brass balustrades.",
+          "reason": "Selected example does not specify the local lighting and background materials; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless deep-green gala gown with a short sculpted front hem and a sweeping long rear train, baring the shoulders and legs; smooth satin defines a formal silhouette.",
+          "reason": "Selected example does not specify the garment cut, materials and source color accents; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "retro_glamour",
+      "ex": "swing_dress",
+      "garments": [
+        "dress"
+      ],
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "pose": "leaning_furniture",
+      "expr": "sensual",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "open back"
+      ],
+      "lead": "action",
+      "actual_scene_settings": {
+        "expr": "sensual",
+        "pose": "leaning_furniture",
+        "orient": "rear_3q",
+        "scene": "Spinning through warm pools of light on a polished dance floor with a piano alcove beyond.",
+        "outfit": "A knee-length green 1940s swing dress with a sweetheart halter neckline, an open back and a full flared skirt; cream piping follows the bodice seams.",
+        "frame": "waist_up",
+        "lens": "wide24",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "retro_glamour",
+        "catCustom": "",
+        "ex": "swing_dress",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: a 1940s swing dress with a sweetheart neckline, mid-twirl at a swing dance hall",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "The skirt turns through the dance floor; balanced allows motion while retaining a readable fashion pose.",
+        "source_influence": "Green fabric and a restrained cream trim echo the source through cloth rather than armor.",
+        "separates_preference": "A continuous vintage swing dress needs one flared silhouette."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Spinning through warm pools of light on a polished dance floor with a piano alcove beyond.",
+          "reason": "Selected example does not specify the local lighting and background materials; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A knee-length green 1940s swing dress with a sweetheart halter neckline, an open back and a full flared skirt; cream piping follows the bodice seams.",
+          "reason": "Selected example does not specify the garment cut, materials and source color accents; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    }
+  ],
+  "planner_check": "passed with --fresh and Git inventory adapter",
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/meowscarada-fuecoco-20261029-9f53.json",
+  "inventory_adapter": "os.listdir(img) is expanded from current Git tree filenames for sparse checkout. No image bytes or past originals are copied for inventory. Actual comparison images were selectively checked out. No repository scripts/tests changed.",
+  "diversity_comparison": {
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬"
+    ],
+    "method": "Actual full images viewed side by side; labels or prompt differences alone were not used.",
+    "observations": "Equipment-floor seated work has trousers/apron and visible shoes; gala image has a gathered long train on stairs; dance image has a shorter flared cream-edged skirt in motion. Gala and swing share a back-looking angle but differ in skirt outline, stance and activity. Recent family images show kimono/costume/partner care and Rookidee telescope/pool/boutique scenes, without this three-cut combination.",
+    "similarity_check": "tools/casual-look.cjs check passed; no near-duplicate under required threshold."
+  },
+  "replan_note": "Meowscarada skater attempts lacked selected action; lingerie request returned moderation_blocked with no file. Both were replaced through official planner with gala and nonsexual swing dress. Original attempts and tool failure are preserved as text/hash only."
+}
