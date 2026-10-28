@@ -1,0 +1,417 @@
+{
+  "batch_plan": {
+    "session": "greedent-rookidee-20261029-bf56",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "요씽리스",
+        "species": "greedent-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "mod_mini",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "chest_up",
+            "pose": "turning_back",
+            "expr": "sleepy",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "hinoki_bath",
+            "expr": "relieved",
+            "pose": "sitting_floor",
+            "orient": "seated_twist",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "halter neck",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "grunge_records",
+            "expr": "unimpressed",
+            "pose": "hand_on_hip",
+            "orient": "turning_midmotion",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "shirt",
+              "slip"
+            ],
+            "expose": [
+              "mini length",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "partner_care",
+            "travel_exploration",
+            "source_editorial",
+            "traditional",
+            "spa_wellness",
+            "fantasy_costume",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "파라꼬",
+        "species": "rookidee-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "pirate_captain",
+            "expr": "amused",
+            "pose": "looking_through",
+            "orient": "looking_away",
+            "frame": "chest_up",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat"
+            ],
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "poolside_bar",
+            "expr": "surprised",
+            "pose": "holding_cup",
+            "orient": "high_angle",
+            "frame": "full_body",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "source_editorial",
+            "ex": "heritage_couture",
+            "expr": "flustered",
+            "pose": "arms_crossed",
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "partner_care",
+            "travel_exploration",
+            "source_editorial",
+            "traditional",
+            "fantasy_costume",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "pirate_captain",
+      "expr": "amused",
+      "pose": "looking_through",
+      "orient": "looking_away",
+      "frame": "chest_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "coat"
+      ],
+      "expose": [
+        "cropped hem",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "a pirate captain party costume — a cropped brocade coat over a cinched waist, a tricorn hat and tall boots; raising a prop spyglass on a ship-deck stage set (props only, no weapons)",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Checking the far painted horizon through the stage spyglass during a nautical costume rehearsal under cool blue spotlights.",
+          "reason": "The selected example does not specify these local lighting, set and prop details; additions keep its main place and activity. Cut 1: pirate_captain"
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped navy brocade coat frames a white fitted bodice and a mini skirt above tall gray boots; the cropped hem reveals the waist and the mini length exposes the thighs.",
+          "reason": "Adds the planner’s prescribed garment construction and exposure pair, color and materials without replacing the selected outfit. Cut 1: pirate_captain"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced matches the selected activity pirate_captain and pose looking_through",
+        "source_influence": "balanced implemented in the specific outfit: A cropped navy brocade coat frames a white fitted bodice and a mini skirt above tall gray boots; the cropped hem reveals the waist and the mini length exposes the thighs.",
+        "separates_preference": "prefer separates follows coat"
+      },
+      "selection_method": "Unmodified planner selections; actual UI locked by its generator query. Kept flags preserve reserved choices and do not claim prior publication."
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "swimwear",
+      "ex": "poolside_bar",
+      "expr": "surprised",
+      "pose": "holding_cup",
+      "orient": "high_angle",
+      "frame": "full_body",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "light",
+      "example_text": "in swimwear at a poolside bar, a cold drink on the counter",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Bright midday water reflections ripple across the stone counter while she lifts her iced citrus drink.",
+          "reason": "The selected example does not specify these local lighting, set and prop details; additions keep its main place and activity. Cut 2: poolside_bar"
+        },
+        {
+          "field": "outfit",
+          "content": "A cobalt-and-white strapless bikini has high-cut bottoms and small black feather-shaped printed accents; both pieces are opaque and securely fitted.",
+          "reason": "Adds the planner’s prescribed garment construction and exposure pair, color and materials without replacing the selected outfit. Cut 2: poolside_bar"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced matches the selected activity poolside_bar and pose holding_cup",
+        "source_influence": "strong implemented in the specific outfit: A cobalt-and-white strapless bikini has high-cut bottoms and small black feather-shaped printed accents; both pieces are opaque and securely fitted.",
+        "separates_preference": "balanced follows bikini"
+      },
+      "selection_method": "Unmodified planner selections; actual UI locked by its generator query. Kept flags preserve reserved choices and do not claim prior publication."
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "source_editorial",
+      "ex": "heritage_couture",
+      "expr": "flustered",
+      "pose": "arms_crossed",
+      "orient": "over_shoulder",
+      "frame": "face_close",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "side cutouts"
+      ],
+      "lead": "detail",
+      "example_text": "couture that keeps the structure and fastenings of a traditional dress, recoloured in her source Pokémon's palette",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded indigo silk sample sits on a display plinth in a couture atelier; cool skylight emphasizes the pleated textiles.",
+          "reason": "The selected example does not specify these local lighting, set and prop details; additions keep its main place and activity. Cut 3: heritage_couture"
+        },
+        {
+          "field": "outfit",
+          "content": "A navy couture dress combines a traditional crossed collar, white feather-like pleated edging, a high thigh slit and side cutouts exposing the waist.",
+          "reason": "Adds the planner’s prescribed garment construction and exposure pair, color and materials without replacing the selected outfit. Cut 3: heritage_couture"
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed matches the selected activity heritage_couture and pose arms_crossed",
+        "source_influence": "balanced implemented in the specific outfit: A navy couture dress combines a traditional crossed collar, white feather-like pleated edging, a high thigh slit and side cutouts exposing the waist.",
+        "separates_preference": "balanced follows dress"
+      },
+      "selection_method": "Unmodified planner selections; actual UI locked by its generator query. Kept flags preserve reserved choices and do not claim prior publication."
+    }
+  ],
+  "reservation_commit": "494fadbf579e7a38c84e941f9357473a2bcadc9c",
+  "validation": "Planner check and stamped reservation verify passed. Actual Git ls-tree image filenames supplied to the ledger in a session-only adapter; required UI text only checked out.",
+  "comparison_characters": [
+    "탐리스",
+    "인텔리레온",
+    "누겔레온"
+  ],
+  "original_png_policy": "Session only. Publish WebP, original hashes, prompt, UI and QA; never original PNG/JPG."
+}

@@ -1,0 +1,276 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "image_sha256": "89ae3c45dd859d2f553ac21852abd22d645e28922dc5819a04a78b26ce967ab1",
+    "accepted": true,
+    "observations": {
+      "design": "Adult woman with compact soft jaw, narrow level gray eyes, thin lips and short feathered black hair with a white front streak. Black slim armor and white angular markings, feather collar and split featherlike sash. Both hands, boots and head fit in the frame. Background birds are environmental and do not overlap her body.",
+      "hands": "Two relaxed black gloves hang at her sides; thumbs oppose four curled fingers on each hand. Both arms connect to shoulders, and two legs terminate in boots."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two relaxed black gloves hang at her sides; thumbs oppose four curled fingers on each hand. Both arms connect to shoulders, and two legs terminate in boots.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "face_reason": "Rookidee’s compact bird silhouette and black feather tufts are interpreted as a compact human face, straight narrow eyes and a short feathered haircut; the bird beak is not copied onto a human face.",
+    "source_appearance": {
+      "name": "파라꼬",
+      "en": "Rookidee",
+      "color": "blue",
+      "shape": "wings",
+      "features": [
+        {
+          "part": "marking",
+          "detail": "white markings"
+        },
+        {
+          "part": "feather",
+          "detail": "black feathers"
+        },
+        {
+          "part": "leg",
+          "detail": "small gray legs"
+        },
+        {
+          "part": "tuft",
+          "detail": "few tufts"
+        },
+        {
+          "part": "eye",
+          "detail": "red eyes"
+        },
+        {
+          "part": "toe",
+          "detail": "two toes"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Rookidee_%28Pok%C3%A9mon%29",
+      "revision": 4632339,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "8822e51005be17588b87ae3ef803761b0f735b4a7bc04417fc02817304169443",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "face_design": {
+      "name": "파라꼬",
+      "en": "Rookidee",
+      "line": "파라꼬",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "compact",
+        "face length": "balanced",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "narrow",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "feathered full brows",
+        "nose character": "balanced nose",
+        "lips": "thin lips"
+      },
+      "why": "",
+      "cues": [
+        "키 0.2m → 얼굴형 짧고 응축된 얼굴형",
+        "‘few tufts’ → 눈썹 숱 많고 결이 보이는"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 균형 잡힌 타원형 → 짧고 응축된 얼굴형, 눈 간격 눈 사이가 가까운 → 눈 하나 너비 안팎, 눈썹 중간 두께의 직선 → 숱 많고 결이 보이는",
+      "hair": {
+        "hairstyle": "feathered",
+        "hair length": "short",
+        "bangs": "side-swept bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘black feathers’·‘few tufts’·몸 형태 wings에서 끝을 가볍게 친 페더컷(층 낸 컷) · 짧은 머리 · 옆으로 넘긴 앞머리",
+      "hair_cues": [
+        "‘black feathers’ → 헤어스타일 끝을 가볍게 친 페더컷",
+        "키 0.2m → 머리 길이 짧은 머리"
+      ]
+    },
+    "final_face_line": "FACE (her own structure, not the style's default face): compact face, balanced length, medium width; soft rounded jaw; narrow eyes, medium size, level outer corners, average spacing; feathered full brows; balanced nose; thin lips.",
+    "compared_characters": [
+      "탐리스",
+      "인텔리레온",
+      "누겔레온"
+    ],
+    "comparison": "The compact face, level narrow gray eyes, thin lips and short feathered black hair contrast with Greedent’s soft round face, Skwovet’s wider bright-eyed face, and the elongated faces of the two blue-haired water characters.",
+    "family_comparison": "No existing 파크로우 or 아머까오 canonical found in the current target records; source face/hair design data consulted. Rookidee is explicitly a human adult in her twenties."
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "image_sha256": "99c000a34d44f8ce6eeb0c89c19089a2aee270b9dfedd761775c837bcb77415b",
+    "accepted": true,
+    "observations": {
+      "design": "Broad overlapping silver shoulder shells, layered forearms, chest rims, thigh and shin plates increase the silhouette. The same short hair, exposed face and feather collar remain.",
+      "hands": "Both black gloves remain by the hips, naturally curled with fingers overlapping. No extra hand appears between the layered forearm armor; two legs and complete boots are visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both black gloves remain by the hips, naturally curled with fingers overlapping. No extra hand appears between the layered forearm armor; two legs and complete boots are visible.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "image_sha256": "5c62dd710403065319523e7694b603afe1e30dab7e3490ea429fa537534f0062",
+    "accepted": true,
+    "observations": {
+      "design": "Separated long featherlike fins at shoulders, hips and calves surround compact blue thrusters. Exposed undersuit preserves a slim outline and the canonical face and hair remain.",
+      "hands": "Both gloves are clear of the blue effect trails, with thumbs and four curled fingers each. The two boots remain inside the frame."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both gloves are clear of the blue effect trails, with thumbs and four curled fingers each. The two boots remain inside the frame.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "85b3d84a86483e91c310486d4caf0d517b8d26411e7d3454dc2fe50f4ea88538",
+    "accepted": true,
+    "observations": {
+      "design": "Same light framing, planted feet and face location; thin plate seams open to blue light at shoulder, chest sides, hips and shins. No new helmet or weapon.",
+      "hands": "Both lowered gloves remain connected to wrists and clear of the blue trails; five digits with partial overlap on each. Two enclosed feet."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both lowered gloves remain connected to wrists and clear of the blue trails; five digits with partial overlap on each. Two enclosed feet.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "12c90bec46f67a7fd11a634c162d526a80b19b2ae52db53b67c2e337b2786269",
+    "accepted": true,
+    "observations": {
+      "design": "The heavy pose and camera are preserved, while the large silver plates separate over blue internal channels. Original shoulder and shin shells remain identifiable.",
+      "hands": "Two black gloves with naturally curled digits remain beside the hips, separated from the armor and effects. Both knees bend naturally over two complete boots."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two black gloves with naturally curled digits remain beside the hips, separated from the armor and effects. Both knees bend naturally over two complete boots.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "25b891818ce4ecdf1dba39c7d6c88b962a0d4de34e093b73b3a40b5b991d19aa",
+    "accepted": true,
+    "observations": {
+      "design": "Existing feather fins fan open around brighter blue propulsion cores. Pose, face scale, body orientation and platform remain aligned with mobility; a few outer fins approach the left frame edge.",
+      "hands": "Two black gloves remain below the forearm panels, five overlapping digits each, with no detached hand. Two legs and both boots are visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two black gloves remain below the forearm panels, five overlapping digits each, with no detached hand. Two legs and both boots are visible.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "image_sha256": "881b939cf6aa036703cd9c16aca2abe17f3e67d2fc46e16d7af071f6e287a718",
+    "accepted": true,
+    "observations": {
+      "activity": "She looks through a brass prop spyglass on a nautical deck stage under blue spotlights, with ropes and lanterns behind her. One eye closes against the eyepiece.",
+      "apparel": "Navy cropped brocade coat, white bodice, short layered skirt, tall boots and tricorn hat. Waist and upper thighs remain exposed. Ornate fabric and metal costume trim carry more source motif than the single accent requested; recorded as a minor styling difference.",
+      "orientation": "Torso front-three-quarter and head turned sideways toward the spyglass; crop reaches upper thighs rather than chest-up.",
+      "expression": "One eye is closed against the scope and the mouth curls upward into an amused smile.",
+      "hands": "One full-finger glove wraps near the eyepiece, four fingers over the tube and thumb hidden below; the other glove supports the tube from underneath, fingers partly hidden by the cylinder. Two arms join at shoulders; legs continue below crop."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One full-finger glove wraps near the eyepiece, four fingers over the tube and thumb hidden below; the other glove supports the tube from underneath, fingers partly hidden by the cylinder. Two arms join at shoulders; legs continue below crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images and the Greedent trio compared; nautical spyglass rehearsal, daytime poolside drink and a couture face close-up have distinct activities, silhouettes and camera scales.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     297  휠구_glossy_promo_f_casual3.webp\n     300  인텔리레온_glossy_promo_f_casual3.webp\n     304  주뱃_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     280  헌테일_glossy_promo_f_casual2.webp\n     281  무스틈니_glossy_promo_f_casual1.webp\n     281  버터플_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     277  마나피_glossy_promo_f_casual3.webp\n     277  메깅_glossy_promo_f_casual1.webp\n     278  메탕_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "image_sha256": "479cf137555f6fffc782e049aa04ee4b9feea8331b287feffc06b2b118f8fa31",
+    "accepted": true,
+    "observations": {
+      "activity": "She holds a tall iced citrus drink beside a marble poolside bar; blue water, bar tools, citrus basket and bright reflected sunlight establish the daytime scene.",
+      "apparel": "Opaque cobalt and white strapless bikini with high-cut bottoms and black feather print. Shoulder, waist and thighs exposed; chest and pelvis covered.",
+      "orientation": "High camera looks down as she raises her face; full body and both bare feet are in frame.",
+      "expression": "Eyes widen and the mouth forms a small open oval, matching surprise.",
+      "hands": "Lower hand wraps the drink with thumb hidden behind the glass and four fingers on its front. Upper hand curls around the garnish/straw, with thumb and four fingers visible at different depths. Two crossed legs end in two feet with five toes each."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Lower hand wraps the drink with thumb hidden behind the glass and four fingers on its front. Upper hand curls around the garnish/straw, with thumb and four fingers visible at different depths. Two crossed legs end in two feet with five toes each.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images and the Greedent trio compared; nautical spyglass rehearsal, daytime poolside drink and a couture face close-up have distinct activities, silhouettes and camera scales.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     297  휠구_glossy_promo_f_casual3.webp\n     300  인텔리레온_glossy_promo_f_casual3.webp\n     304  주뱃_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     280  헌테일_glossy_promo_f_casual2.webp\n     281  무스틈니_glossy_promo_f_casual1.webp\n     281  버터플_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     277  마나피_glossy_promo_f_casual3.webp\n     277  메깅_glossy_promo_f_casual1.webp\n     278  메탕_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "image_sha256": "604354a249c224bc1dff16b68b8f8b835865d4ccc299a39029c91c24987fcf54",
+    "accepted": true,
+    "observations": {
+      "activity": "She poses in a couture atelier with folded indigo fabric on a display plinth, clothing rails and dress forms under a glass skylight. The dress forms have no heads or faces and are display objects.",
+      "apparel": "Navy crossed-collar gown with white featherlike pleating, side cutouts and a high thigh slit; back, waist and thigh visible. No armor.",
+      "orientation": "Torso and hips face away with head looking over the near shoulder; framing reaches the thighs instead of face-close.",
+      "expression": "Cheeks pink, brows slightly drawn and lips parted convey flustered.",
+      "hands": "Near hand rests on the opposite upper arm: four visible fingers with nails and thumb curled behind the upper arm. Other forearm crosses beneath it and its hand is hidden by the torso. Lower legs are outside the crop."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand rests on the opposite upper arm: four visible fingers with nails and thumb curled behind the upper arm. Other forearm crosses beneath it and its hand is hidden by the torso. Lower legs are outside the crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images and the Greedent trio compared; nautical spyglass rehearsal, daytime poolside drink and a couture face close-up have distinct activities, silhouettes and camera scales.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     297  휠구_glossy_promo_f_casual3.webp\n     300  인텔리레온_glossy_promo_f_casual3.webp\n     304  주뱃_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     280  헌테일_glossy_promo_f_casual2.webp\n     281  무스틈니_glossy_promo_f_casual1.webp\n     281  버터플_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/파라꼬_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     277  마나피_glossy_promo_f_casual3.webp\n     277  메깅_glossy_promo_f_casual1.webp\n     278  메탕_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  }
+}
