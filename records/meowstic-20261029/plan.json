@@ -1,0 +1,451 @@
+{
+  "card": "냐오닉스",
+  "species": "meowstic",
+  "session": "meowstic-honedge-20261029-d616",
+  "batch_plan": {
+    "session": "meowstic-honedge-20261029-d616",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "냐오닉스",
+        "species": "meowstic-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "slip_dress",
+            "expr": "serious",
+            "pose": "one_knee_up",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "power_glam",
+            "garments": [
+              "dress"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "soft_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "sailor_stage",
+            "expr": "smug",
+            "pose": "on_tiptoe",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "lingerie",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "단칼빙",
+        "species": "honedge-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_knitting",
+            "garments": [
+              "blouse",
+              "shorts"
+            ],
+            "orient": "over_shoulder",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "swimwear",
+            "ex": "waterfall_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "front_3q",
+            "frame": "full_body",
+            "pose": "hands_in_hair",
+            "expr": "candid",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "active",
+            "ex": "archery_draw",
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "orient": "looking_down",
+            "frame": "face_close",
+            "pose": "side_sitting",
+            "expr": "exhausted",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "blouse",
+            "shorts",
+            "leggings"
+          ],
+          "orient": [
+            "over_shoulder"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "private_evening",
+      "ex": "slip_dress",
+      "expr": "serious",
+      "pose": "one_knee_up",
+      "orient": "looking_away",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress",
+        "slip"
+      ],
+      "expose": [
+        "plunging neckline",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "an evening in a thin-strapped satin slip dress that flows along the body",
+      "scene": "Tall rain-streaked apartment windows overlook the evening city; she rests with a porcelain teacup and a closed book nearby.",
+      "outfit": "Pearl-blue satin slip dress with a deep plunging neckline, one narrow shoulder strap and the other shoulder bare; the short hem leaves her legs visible.",
+      "aspect": "2:3",
+      "actual_storage_file": "casual1-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Tall rain-streaked apartment windows overlook the evening city; she rests with a porcelain teacup and a closed book nearby.",
+          "reason": "Adds the concrete window lounge and tea break not determined by the example."
+        },
+        {
+          "field": "outfit",
+          "content": "Pearl-blue satin slip dress with a deep plunging neckline, one narrow shoulder strap and the other shoulder bare; the short hem leaves her legs visible.",
+          "reason": "Specifies pearl satin and neckline construction from the planned garment/exposure guidance, which the example leaves partly unspecified."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "The rug pause and tea is a held moment.",
+        "source_influence": "Pearl blue is a color echo in ordinary satin.",
+        "separates_preference": "One-piece slip/dress uses balanced."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "power_glam",
+      "garments": [
+        "dress"
+      ],
+      "orient": "crouching",
+      "frame": "waist_up",
+      "pose": "squatting",
+      "expr": "soft_smile",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "halter neck"
+      ],
+      "lead": "action",
+      "example_text": "an 1980s sequined mini dress with strong padded shoulders in a neon nightclub",
+      "scene": "She adjusts a jeweled bracelet beside the neon nightclub dance floor, under geometric ceiling panels.",
+      "outfit": "A cobalt sequined halter mini dress with strong padded shoulder flourishes and a high thigh slit, styled with bold geometric earrings.",
+      "actual_storage_file": "casual2-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She adjusts a jeweled bracelet beside the neon nightclub dance floor, under geometric ceiling panels.",
+          "reason": "Adds the concrete bracelet-adjustment activity not determined by the example."
+        },
+        {
+          "field": "outfit",
+          "content": "A cobalt sequined halter mini dress with strong padded shoulder flourishes and a high thigh slit, styled with bold geometric earrings.",
+          "reason": "Specifies cobalt sequins and slit construction from the planned garment/exposure guidance, which the example leaves partly unspecified."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Bracelet styling is a held fashion moment.",
+        "source_influence": "Blue satin and silver jewellery echo the palette without armor.",
+        "separates_preference": "One-piece slip/dress uses balanced."
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "sailor_stage",
+      "expr": "smug",
+      "pose": "on_tiptoe",
+      "orient": "high_angle",
+      "frame": "three_quarter",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "skirt"
+      ],
+      "expose": [
+        "bare midriff",
+        "cropped hem"
+      ],
+      "lead": "action",
+      "example_text": "a sailor stage costume — a sailor-collar cropped top, a pleated mini skirt and a small cap; saluting playfully on a harbour-set stage (no real navy insignia)",
+      "scene": "She performs the playful salute during a harbour-themed musical rehearsal under crisp theatre spotlights.",
+      "outfit": "An ivory sailor-collar crop top and cobalt pleated mini skirt with a short cap and silver trim; the cropped hem leaves the midriff bare.",
+      "aspect": "2:3",
+      "actual_storage_file": "casual3-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She performs the playful salute during a harbour-themed musical rehearsal under crisp theatre spotlights.",
+          "reason": "Adds the concrete theatre rehearsal lighting not determined by the example."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory sailor-collar crop top and cobalt pleated mini skirt with a short cap and silver trim; the cropped hem leaves the midriff bare.",
+          "reason": "Specifies white-blue trim and cropped hem from the planned garment/exposure guidance, which the example leaves partly unspecified."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "A salute is the theatre performance activity.",
+        "source_influence": "Strong blue-white collar and tiny gem emphasize the source palette.",
+        "separates_preference": "Crop top and skirt are separate garments."
+      }
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "submitted": "Exact *-prompt.txt emitted by actual UI",
+    "generated": 9,
+    "requested": 9,
+    "adult": "Light apparent age UI 20s; later slots use the adult light anchor"
+  },
+  "validation": {
+    "ledger": "Planner check and stamp verify passed; remote reservation published before generation",
+    "casual_look": "generated_images/exec-e7377468-5dde-4d0a-9539-618f10e78fe3.png — 가까운 컷 0장(점수 245 미만)\n     273  치렁_glossy_promo_f_casual1.webp\n     274  플라엣테_glossy_promo_f_casual2.webp\n     277  아차모_glossy_promo_f_casual3.webp\ngenerated_images/exec-083f8e25-3e48-4c9d-93a3-9776598b6f4f.png — 가까운 컷 0장(점수 245 미만)\n     285  트리미앙_glossy_promo_f_casual3.webp\n     296  뮤츠_glossy_promo_f_casual1.webp\n     296  피오네_glossy_promo_f_casual2.webp\ngenerated_images/exec-549d88b2-8655-4e29-bb02-f131d0c19a57.png — 가까운 컷 0장(점수 245 미만)\n     270  앱솔_glossy_promo_f_casual2.webp\n     294  암스타_glossy_promo_f_casual2.webp\n     300  라티오스_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n",
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬"
+    ],
+    "visual_diversity": "Actual recent nine casual images were viewed beside these results. The indoor rainy rug lounge, cobalt nightclub bracelet styling and harbour theatre salute differ in setting, clothing and concrete activity. First two are both low seated poses but have distinct knee arrangement, camera, task and clothing silhouette."
+  },
+  "replanning": [
+    {
+      "slot": "casual2",
+      "old": "lingerie/garter_set",
+      "result": "moderation_blocked; no output file",
+      "record": "attempts/casual2-rejected/tool-failure.json",
+      "new": "retro_glamour/power_glam",
+      "substantive_change": "Removed underwear styling and private fashion fitting; new sequined mini dress in a neon nightclub with bracelet adjustment. No wording-only retry. Planner reservation updated before new call."
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "card": "냐오닉스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": null,
+    "reference_sha256": null,
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-cf6e4a42-bde6-4e9d-b482-b94e80517c9a.png",
+      "sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_light_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "5b2a2267f0ceb7489b3d39fcb25a2b65192f4b3f83e9b0521fd35ccbe2fa0764"
+    },
+    "prompt_file": "light-prompt.txt",
+    "ui_file": "light-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-2bdf122c-3ac4-480f-b2f9-3cbbaa328e1b.png",
+      "sha256": "9c3716072ba3e252e358ee585b0e995a4169dab594edb75f40e0b938db36a27e",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_heavy_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d6070e76d1a87eb79685fa8abf02898842a376205d95afe531f4fb7e2db11ea1"
+    },
+    "prompt_file": "heavy-prompt.txt",
+    "ui_file": "heavy-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-dcb06728-6ab0-4536-b1ee-b99c2b211ce7.png",
+      "sha256": "90e62f8d021f1c73d1eefe60fa9b0b040193f4f3807002585c1b4de553a8f37f",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_mobility_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b1011080baa2b98ed513bc00ca8e60e2aa2da7be38482dfbe3bc03481db8e166"
+    },
+    "prompt_file": "mobility-prompt.txt",
+    "ui_file": "mobility-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-356aebef-ddab-4633-a55e-1234a4779b31.png",
+      "sha256": "141b8858dc0931060e343b6d8eab188017bcccc505cf3ec2041e9bb9b90ca552",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_light_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "8b6b495cd923fe10bd48eea0b8c90264781b2f81b88e5f8272456fec9b8de413"
+    },
+    "prompt_file": "light_overdrive-prompt.txt",
+    "ui_file": "light_overdrive-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "heavy",
+    "reference_sha256": "9c3716072ba3e252e358ee585b0e995a4169dab594edb75f40e0b938db36a27e",
+    "secondary_reference": "light",
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-f187e70a-8a80-4fd0-8a5c-7455b39c74f6.png",
+      "sha256": "8e380e1d9c206b5f087db73d12582ba67be790f6e2e7875047397b173520cfed",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_heavy_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "bddd4604e00e69401a0bbf509e9687e5327cf739f752c57591945044b949cdbb"
+    },
+    "prompt_file": "heavy_overdrive-prompt.txt",
+    "ui_file": "heavy_overdrive-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "mobility",
+    "reference_sha256": "90e62f8d021f1c73d1eefe60fa9b0b040193f4f3807002585c1b4de553a8f37f",
+    "secondary_reference": "light",
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-0a9e65b3-e7b3-4afb-a4c3-aa0b601f188a.png",
+      "sha256": "bf6e9b3dc8cc907719334fa64fdf97830aa6c26b35aac2666f1df2a6bc4f406c",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_mobility_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "11952d62ab73ce69572c55a04970b1a728bd28268685cd0be81890c5afa887f6"
+    },
+    "prompt_file": "mobility_overdrive-prompt.txt",
+    "ui_file": "mobility_overdrive-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-e7377468-5dde-4d0a-9539-618f10e78fe3.png",
+      "sha256": "6b6911201e905b19dff976222c36fc427d05d788cfcb811e1265a974466b8be1",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_glossy_promo_f_casual1.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "b3c4353f6f5ec9b3fa5f12012431d940f5db983b58f002db3f9f4d2adf36a5e2"
+    },
+    "prompt_file": "casual1-prompt.txt",
+    "ui_file": "casual1-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-083f8e25-3e48-4c9d-93a3-9776598b6f4f.png",
+      "sha256": "36fcdd91995b39baca349732ec1d58431888bcb3e7bc29f95efe9ca30a214dcb",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_glossy_promo_f_casual2.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "04704811baedc135358cb45ab25d17b2ea46eab93c94f47bb56c513dc5f85b29"
+    },
+    "prompt_file": "casual2-prompt.txt",
+    "ui_file": "casual2-ui.json"
+  },
+  {
+    "card": "냐오닉스",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "fa8fe30f19e8f368abaeadbcb257b501f1e2be44ca6806415b34544cf3bcd9e8",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-549d88b2-8655-4e29-bb02-f131d0c19a57.png",
+      "sha256": "bee9ff83651430ae07aecfe7960882f864baf0ea63b8b076e26e07a93daf9a24",
+      "committed": false
+    },
+    "output": {
+      "file": "냐오닉스_glossy_promo_f_casual3.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "533b35d79e2e0db9e4417f6221bc7ed1694e6168c5065e240d129bb584b2eccb"
+    },
+    "prompt_file": "casual3-prompt.txt",
+    "ui_file": "casual3-ui.json"
+  }
+]
