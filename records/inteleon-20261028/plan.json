@@ -1,0 +1,399 @@
+{
+  "batch_plan": {
+    "session": "inteleon-skwovet-20261028-f7b473",
+    "characters": [
+      {
+        "species": "inteleon-20261028",
+        "card": "인텔리레온",
+        "at": "2026-10-28T02:59:26-05:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "veil_wind",
+            "expr": "soft_smile",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "light",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "karaoke_room",
+            "expr": "smug",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts"
+            ],
+            "expose": [
+              "bare midriff",
+              "off-shoulder neckline"
+            ],
+            "lead": "action",
+            "kept": true
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "moonlit_pool",
+            "expr": "candid",
+            "pose": "standing_formal",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "stamp": "f9b0adabc8356ebaf855f592a15fdc6e488c6f243b71cde7ba98970576352c84"
+      },
+      {
+        "species": "skwovet-20261028",
+        "card": "탐리스",
+        "at": "2026-10-28T02:45:24-05:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "high_shelf",
+            "expr": "mischievous",
+            "pose": "carrying_something",
+            "orient": "side",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "light",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "retro_pinup",
+            "expr": "proud",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "side cutouts",
+              "high-cut leg"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "one_shoulder_lounge",
+            "expr": "half_smile",
+            "pose": "contrapposto",
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "trousers"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "action",
+            "kept": true
+          }
+        ],
+        "stamp": "e34e8ce6597ebe5ce1931066f8eb765e9d17a232d7b487198cedd7b3eb8849e4"
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "bridal",
+      "ex": "veil_wind",
+      "expr": "soft_smile",
+      "pose": "side_sitting",
+      "orient": "three_quarter_back",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress",
+        "slip"
+      ],
+      "expose": [
+        "high thigh slit",
+        "plunging neckline"
+      ],
+      "lead": "light",
+      "kept": true,
+      "aspect": "2:3",
+      "example_text": "in a simple slip wedding dress on a beach at sunset, holding a long veil as the wind pulls it out",
+      "submitted_prompt_file": "casual1-prompt.txt",
+      "ui": "casual1-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "The bride holds the veil in a paused seaside pose.",
+        "source_influence": "Blue satin retains several water-palette cues within an independent bridal outfit.",
+        "separates_preference": "A slip wedding dress is one continuous garment."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Pearl light from low clouds glances across wet tidal sand; a weathered driftwood log lies beside the surf.",
+          "reason": "The example names beach and sunset but no nearby terrain or light diffusion, so tidal reflections and driftwood are supplied."
+        },
+        {
+          "field": "outfit",
+          "content": "The ice-blue satin slip dress has a plunging neckline and a high thigh slit, with a pearl clasp holding the sheer ivory veil.",
+          "reason": "The example leaves the slip dress color, fabric, neckline and slit unspecified, so ice-blue satin and its cut are defined."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536). Place the hand gripping the veil against the bright horizon so the cloth grip is readable.",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size. The bright horizon makes the veil grip readable after two outputs hid the hands."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "nightlife",
+      "ex": "karaoke_room",
+      "expr": "smug",
+      "pose": "mid_action",
+      "orient": "front_3q",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shorts"
+      ],
+      "expose": [
+        "bare midriff",
+        "off-shoulder neckline"
+      ],
+      "lead": "action",
+      "kept": true,
+      "aspect": "2:3",
+      "example_text": "singing into a microphone in a private karaoke room in an off-shoulder sequin top and shorts, coloured lights spinning",
+      "submitted_prompt_file": "casual2-prompt.txt",
+      "ui": "casual2-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "The microphone song is already underway.",
+        "source_influence": "Silver-blue fabric is a restrained color echo without species ornaments.",
+        "separates_preference": "The sequined crop top and satin shorts are separate garments."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She rolls the microphone's volume ring between two fingers during her song; violet ceiling spots reflect on a lacquered table.",
+          "reason": "The example supplies singing and the room but no precise finger task or reflective furniture, so the microphone ring and table are specified."
+        },
+        {
+          "field": "outfit",
+          "content": "The silver-blue sequined top ends above the navel, while the black satin shorts have a scalloped upper-thigh hem.",
+          "reason": "The example fixes a sequined top and shorts but not their hems and colors, so crop length and scalloped satin hems are specified."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "moonlit_pool",
+      "expr": "candid",
+      "pose": "standing_formal",
+      "orient": "looking_down",
+      "frame": "three_quarter",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "bikini"
+      ],
+      "expose": [
+        "halter neck",
+        "bare midriff"
+      ],
+      "lead": "light",
+      "aspect": "2:3",
+      "example_text": "in swimwear at an outdoor pool at night, lit by underwater lamps and moonlight",
+      "submitted_prompt_file": "casual3-prompt.txt",
+      "ui": "casual3-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "The swimmer pauses after a lane swim.",
+        "source_influence": "Blue/ivory bathing fabrics echo the canonical water colors.",
+        "separates_preference": "The example permits the chosen conventional two-piece swimsuit."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool silver pool lamps trace the tiled edge; she pauses beside a floating lane rope after finishing a swim.",
+          "reason": "The outdoor-night-pool example does not define the moment after swimming or a prop, so a lane rope and finished-swim pause are supplied."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque sapphire halter bikini has a secure sports cut and simple ivory piping, leaving her shoulders and midriff bare.",
+          "reason": "The example says swimwear without a construction, so an opaque sports-cut halter bikini with ivory piping is chosen."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "reservation_commit": "1328bfb182cfeb4e68c5f2ebcb31db33fb4fb6df",
+  "check": "Planner check and stamped reservation verify passed before generation. Skwovet created under 522da229; Inteleon safe replacement under 1328bfb1.",
+  "inventory_method": "Shared partial Git plus sparse worktrees. Authoritative Git ls-tree image filenames supplied to the ledger via a session-only listdir adapter. Only required UI text and actual recent comparison images downloaded; no placeholder image bytes.",
+  "adjustments": [
+    "Novel garment constraints required excluding examples whose fixed garment types were all already used.",
+    "Initial Inteleon longline-bra/slip garment mismatch and Skwovet aerobics/seated-pose mismatch replanned before generation.",
+    "Inteleon lingerie output was terminal moderation_blocked; no retry of that request. A distinct nonsexual night-swimming scene was planned, stamped and published instead."
+  ],
+  "comparison_images": [
+    "크라파",
+    "투구뿌논",
+    "영구스"
+  ],
+  "original_png_policy": "session_only; original sha256, prompts, UI, QA and WebP published, no source PNG/JPG."
+}

@@ -1,0 +1,33 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "source_sha256": "9089637ece7839abcf490437e923f5cf040ed8b88370f7bcff124c1d37ecbe43",
+      "source_session_only": true,
+      "accepted": false,
+      "reason": "Veil grip not visible; the example activity could not be verified.",
+      "prompt": "casual1-initial-prompt.txt",
+      "ui": "casual1-initial-ui.json"
+    },
+    {
+      "attempt": 2,
+      "source_sha256": "cb715bba731d93c85da976a8854c3acda9390fe92b9fa8363c490becab705533",
+      "source_session_only": true,
+      "accepted": false,
+      "reason": "Veil grip not visible; the example activity could not be verified.",
+      "prompt": "casual1-initial-prompt.txt",
+      "ui": "casual1-initial-ui.json"
+    }
+  ],
+  "final_adjustment": {
+    "field": "camera",
+    "text": "Place the hand gripping the veil against the bright horizon so the cloth grip is readable.",
+    "reason": "Make the hand/veil contact readable against a bright area; all planner choices unchanged.",
+    "references": [
+      {
+        "sha256": "3ca4454687697cab6964808d421b15002ca0c0f20a537a52167b229cc434ac28",
+        "role": "canonical light only"
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "image_sha256": "3ca4454687697cab6964808d421b15002ca0c0f20a537a52167b229cc434ac28",
+    "accepted": true,
+    "observations": {
+      "design": "One slender woman in blue, black and silver close-fitting plates, diamond chest marking and white fin headpiece; narrow long face, small level eyes, defined chin and waved blue hair. Both boots and the head fit inside the frame.",
+      "hands": "Both black gloved hands hang by the hips; thumb and four fingers are present on each, some fingertips overlap in the curled pose."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both black gloved hands hang by the hips; thumb and four fingers are present on each, some fingertips overlap in the curled pose.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "face_reason": "비밀 요원의 길고 가는 선을 긴 중안부와 절제된 긴 눈으로 해석한다.",
+    "face_evidence": {
+      "name": "인텔리레온",
+      "en": "Inteleon",
+      "color": "blue",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "crest",
+          "detail": "thin, wavy, fin-like crest"
+        },
+        {
+          "part": "patch",
+          "detail": "white diamond-shaped patch"
+        },
+        {
+          "part": "iris",
+          "detail": "yellow irises"
+        },
+        {
+          "part": "lid",
+          "detail": "black lower lid"
+        },
+        {
+          "part": "arm",
+          "detail": "slender arms"
+        },
+        {
+          "part": "head",
+          "detail": "blue head"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Inteleon_%28Pok%C3%A9mon%29",
+      "revision": 4611012,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "896669564f20a2b2c0ad8db85e4ea49651b5738ab888cd29bf494a34cd51edf1",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "final_face_line": "FACE (her own structure, not the style's default face): elongated face, long length, narrow width; long chin with defined jaw; narrow eyes, small size, level outer corners, average spacing; long arched brows; long nose with low tip; fuller lower lip.",
+    "compared_characters": [
+      "크라파",
+      "투구뿌논",
+      "영구스"
+    ],
+    "family_comparison": "Actual 울머기 and 누겔레온 canonicals compared: Inteleon has a longer/narrower face, smaller level eyes and a sharper chin. Skwovet has a compact broad face, round amber eyes and short curls. Species/family source design data consulted; no claim of a visual Greedent comparison."
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "image_sha256": "7ca6ebdcface3fe478704c77e75c842cc8511d5e335b8c91aa97e02acf98b168",
+    "accepted": true,
+    "observations": {
+      "design": "Thicker overlapping blue/silver breast, abdomen, thigh and shoulder plates enlarge the armored silhouette; eyes, jaw and swept hair remain exposed.",
+      "hands": "Two black gloves at the hip sides; five digits per hand, with several fingers overlapping in the relaxed curl."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two black gloves at the hip sides; five digits per hand, with several fingers overlapping in the relaxed curl.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "image_sha256": "80a2ae852c976a3e4e6b312b04931adccc52a05a1347aa82965c8fc385d59cc7",
+    "accepted": true,
+    "observations": {
+      "design": "Split shoulder, hip and calf fins sweep outward with visible air gaps and compact blue circular propulsion units; the slim black torso remains exposed between panels.",
+      "hands": "Two gloved hands remain beside the hips, with no effect covering the fingers; thumb and four fingers on each, partly overlapping."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloved hands remain beside the hips, with no effect covering the fingers; thumb and four fingers on each, partly overlapping.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "e331399c4a39095c4271a611e867100fd31e1f746b0f9c9b095d2fac8aeadbff",
+    "accepted": true,
+    "observations": {
+      "design": "The same crossed-leg stance, face size and cathedral camera as light. Thin plate seams spread to expose blue flowing waterlight at the shoulders, waist and legs.",
+      "hands": "The same two gloves remain attached to forearms; digits overlap naturally and no detached third hand appears."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "The same two gloves remain attached to forearms; digits overlap naturally and no detached third hand appears.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "d837ab87d51f8b9f4995ee7aae45ece89314f59a37cac12c8188cfdf6304b0f0",
+    "accepted": true,
+    "observations": {
+      "design": "The same heavy pose and broad armor plates; layered rims separate over the chest, abdomen, arms and shins to reveal blue water channels. No new weapon or helmet.",
+      "hands": "Two black gloves at the hips; five digits each, some flexed behind neighboring fingers, thumbs on the inner edges."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two black gloves at the hips; five digits each, some flexed behind neighboring fingers, thumbs on the inner edges.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "0dd31afa8ef014062c9a96b297cdce5bd34e72b7d53d69c818ad7280744ff8f3",
+    "accepted": true,
+    "observations": {
+      "design": "The same mobility framing and split fins; the existing fan panels open farther and show blue waterlight between their edges.",
+      "hands": "Two gloves below the forearm panels; fingers are kept clear of effects and partly flexed, with no extra hand."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloves below the forearm panels; fingers are kept clear of effects and partly flexed, with no extra hand.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "image_sha256": "2cc20d7542e97072e3dd80986f39d4dd50e66cba18dc78a05f6f2126cb4dcb88",
+    "accepted": true,
+    "observations": {
+      "activity": "A single bride side-sits on wet sand at a sunset sea; her visible near hand pinches the long veil above her lap and the sheer cloth streams left in the breeze.",
+      "apparel": "Pale blue satin wedding slip, deep open back and thigh slit, ivory jeweled veil; no armor. Shoulders, back and legs are exposed; chest and pelvis are covered.",
+      "orientation": "Back and pelvis face away at a rear three-quarter angle; head turns over the near shoulder in three-quarter profile. The crop is closer than environmental.",
+      "expression": "Lips are slightly parted rather than fully closed; eyelids softly lowered. This is recorded as a minor expression difference.",
+      "hands": "One near hand has four curled fingers and an opposing thumb around the veil. Far hand is behind the torso/drape. Both folded legs and two feet with five toes each are visible.",
+      "diversity": "Compared with 크라파·투구뿌논·영구스 actual casual sheets: the long bridal veil, folded side-sit and rear view at the surf differ from their pool, tea, gala, bath and stage cuts. Within this trio it contrasts with standing karaoke shorts and a pool-side bathing scene."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One near hand has four curled fingers and an opposing thumb around the veil. Far hand is behind the torso/drape. Both folded legs and two feet with five toes each are visible.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "Compared with 크라파·투구뿌논·영구스 actual casual sheets: the long bridal veil, folded side-sit and rear view at the surf differ from their pool, tea, gala, bath and stage cuts. Within this trio it contrasts with standing karaoke shorts and a pool-side bathing scene.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-8024bfd2-6159-4d33-a9c2-f9d29c6ac85e.png — 가까운 컷 0장(점수 245 미만)\n     268  마크탕_glossy_promo_f_casual2.webp\n     270  누오_glossy_promo_f_casual1.webp\n     277  두르보_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-a1956e20-f757-42d3-a43a-542c2bdf2321.png — 가까운 컷 0장(점수 245 미만)\n     258  둥실라이드_glossy_promo_f_casual2.webp\n     288  뮤츠_glossy_promo_f_casual1.webp\n     290  초라기_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-cbe0397c-4d30-4a51-9c83-debe7ed3b789.png — 가까운 컷 0장(점수 245 미만)\n     259  대굴레오_glossy_promo_f_casual1.webp\n     260  쌍검자비_glossy_promo_f_casual1.webp\n     267  나옹마_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "image_sha256": "e6466be1eb7ec31af0461b333291fc198b5cdc5fc5ef9052028353b3a2e64233",
+    "accepted": true,
+    "observations": {
+      "activity": "She sings into a microphone in a private room with dark sofa, mirrored ball, violet lamps and moving colored light. Fingers wrap the microphone body and its lower control ring.",
+      "apparel": "Off-shoulder silver sequined crop top and black satin scalloped shorts; shoulders, midriff and upper thighs remain visible.",
+      "orientation": "Torso and hips turn together toward a front three-quarter angle; the complete woman and both high-heeled feet fit inside the frame.",
+      "expression": "One corner of the mouth is raised and slightly parted at the microphone; eyelids are lowered.",
+      "hands": "Upper hand grips the microphone, lower hand touches its collar; visible fingers are slender and naturally curled, inner fingers and thumbs partly occluded by the cylindrical microphone. Two legs, five toes per exposed sandal foot.",
+      "diversity": "Actual recent sheets have no karaoke microphone or this sequined shorts silhouette. The standing front-three-quarter performance differs from this character’s folded bridal rear view and lower-gaze pool moment."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Upper hand grips the microphone, lower hand touches its collar; visible fingers are slender and naturally curled, inner fingers and thumbs partly occluded by the cylindrical microphone. Two legs, five toes per exposed sandal foot.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "Actual recent sheets have no karaoke microphone or this sequined shorts silhouette. The standing front-three-quarter performance differs from this character’s folded bridal rear view and lower-gaze pool moment.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-8024bfd2-6159-4d33-a9c2-f9d29c6ac85e.png — 가까운 컷 0장(점수 245 미만)\n     268  마크탕_glossy_promo_f_casual2.webp\n     270  누오_glossy_promo_f_casual1.webp\n     277  두르보_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-a1956e20-f757-42d3-a43a-542c2bdf2321.png — 가까운 컷 0장(점수 245 미만)\n     258  둥실라이드_glossy_promo_f_casual2.webp\n     288  뮤츠_glossy_promo_f_casual1.webp\n     290  초라기_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-cbe0397c-4d30-4a51-9c83-debe7ed3b789.png — 가까운 컷 0장(점수 245 미만)\n     259  대굴레오_glossy_promo_f_casual1.webp\n     260  쌍검자비_glossy_promo_f_casual1.webp\n     267  나옹마_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "image_sha256": "d4e116a9c214cf71ac92499bb421438958180182a219f31804cc0e504a1d8f85",
+    "accepted": true,
+    "observations": {
+      "activity": "She pauses in a night outdoor pool beside a floating blue-white lane rope; one hand rests on the rope and the other holds a white towel at her shoulder. Pool lamps and distant terrace lights reflect on the water.",
+      "apparel": "Opaque blue halter bikini with secure ivory-edged cups and bottoms; shoulders, midriff and thighs exposed, intimate areas covered.",
+      "orientation": "Three-quarter length crop, frontal torso with head and gaze lowered toward the lane rope; knees/feet are under water/outside the crop.",
+      "expression": "Lips are parted and the eyebrows relax while her eyes look down; more subdued than the selected candid expression.",
+      "hands": "Lane-rope hand has four extended/curled fingers with thumb occluded behind the grip. Towel hand has four fingers crossing the towel and thumb tucked behind. Two arms attach naturally; legs are cropped below the knees.",
+      "diversity": "Unlike 투구뿌논’s raised-arm splashing pool image, this shows a downward gaze, towel and lane-rope support in a quiet night pause. It differs from the same woman’s veil side-sit and full-body karaoke action."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Long narrow face, level narrow eyes, defined chin and blue swept waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Lane-rope hand has four extended/curled fingers with thumb occluded behind the grip. Towel hand has four fingers crossing the towel and thumb tucked behind. Two arms attach naturally; legs are cropped below the knees.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "Unlike 투구뿌논’s raised-arm splashing pool image, this shows a downward gaze, towel and lane-rope support in a quiet night pause. It differs from the same woman’s veil side-sit and full-body karaoke action.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-8024bfd2-6159-4d33-a9c2-f9d29c6ac85e.png — 가까운 컷 0장(점수 245 미만)\n     268  마크탕_glossy_promo_f_casual2.webp\n     270  누오_glossy_promo_f_casual1.webp\n     277  두르보_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-a1956e20-f757-42d3-a43a-542c2bdf2321.png — 가까운 컷 0장(점수 245 미만)\n     258  둥실라이드_glossy_promo_f_casual2.webp\n     288  뮤츠_glossy_promo_f_casual1.webp\n     290  초라기_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-cbe0397c-4d30-4a51-9c83-debe7ed3b789.png — 가까운 컷 0장(점수 245 미만)\n     259  대굴레오_glossy_promo_f_casual1.webp\n     260  쌍검자비_glossy_promo_f_casual1.webp\n     267  나옹마_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  }
+}
