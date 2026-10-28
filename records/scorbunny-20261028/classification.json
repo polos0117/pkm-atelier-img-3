@@ -1,0 +1,199 @@
+{
+  "card": "염버니",
+  "style": "glossy_promo",
+  "images": [
+    {
+      "slot": "light",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-c932aefb-f1e8-4960-823c-e5117cfa8ad8.png",
+      "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+      "source_session_only": true,
+      "file": "염버니_light_glossy_promo_f.webp",
+      "sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": null,
+      "references": []
+    },
+    {
+      "slot": "heavy",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-2670a15a-7ef8-49bb-9eb2-0146dd3d068a.png",
+      "source_sha256": "a3e20d0499ad63f8bec080877b08de42f2697f6f5d4590a52e74e6d5e5d9daad",
+      "source_session_only": true,
+      "file": "염버니_heavy_glossy_promo_f.webp",
+      "sha256": "4a2980a1a0cb915aac8b5bad1f1b1da4208ba610cfd120bd81be15326c452111",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "mobility",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-62c67e73-1c8c-4a08-8ea4-919404f75c42.png",
+      "source_sha256": "6df3f6869e5035728f9f8c12bac068c434f8b2025e19f91ca68bb0027dd07841",
+      "source_session_only": true,
+      "file": "염버니_mobility_glossy_promo_f.webp",
+      "sha256": "b7693f638b9a74567c83cc97339c043d1aa38604921763e18b9478fe25da2a7c",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-4b33658f-142c-4d72-a580-41cd539de62b.png",
+      "source_sha256": "056943628a113a1aa2fbc1c880c4a36d9f126d4f455cd5d5b8768e861e9f643f",
+      "source_session_only": true,
+      "file": "염버니_light_overdrive_glossy_promo_f.webp",
+      "sha256": "65899b3a1c3bafb897d18baa1ad41546e8c01ce27c9ce2acef2cd77ae7e10bb7",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-7938ae23-271c-4419-90f7-b3ea0f59cdcc.png",
+      "source_sha256": "e6e0f5d7181d91d507d760e88e61d6931386225e1e1a31625f0ac551f2047f01",
+      "source_session_only": true,
+      "file": "염버니_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "3e4f7347a9d5a6f95f8281e8a3567e3b2b63d64c0c39f0c13bd97a376830132e",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "heavy",
+      "references": [
+        {
+          "slot": "heavy",
+          "source_sha256": "a3e20d0499ad63f8bec080877b08de42f2697f6f5d4590a52e74e6d5e5d9daad",
+          "webp_sha256": "4a2980a1a0cb915aac8b5bad1f1b1da4208ba610cfd120bd81be15326c452111"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-5c9619c1-827e-45d5-9c77-c953d4b6d487.png",
+      "source_sha256": "2c6db85d6924165492e95de6d219b1ec30107cc381324d59e1da8d345a1c6874",
+      "source_session_only": true,
+      "file": "염버니_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "c013baf99a3675c965d138368e87b4544df78245ad353460186de8a569ce8e54",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "mobility",
+      "references": [
+        {
+          "slot": "mobility",
+          "source_sha256": "6df3f6869e5035728f9f8c12bac068c434f8b2025e19f91ca68bb0027dd07841",
+          "webp_sha256": "b7693f638b9a74567c83cc97339c043d1aa38604921763e18b9478fe25da2a7c"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "casual1",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-0a63e680-5486-4919-ae0a-dc0c45fb867c.png",
+      "source_sha256": "1e5d8e43f0ddb414abfd1007070c16c251a0b41b1f5bea1ae3efeda59530b059",
+      "source_session_only": true,
+      "file": "염버니_glossy_promo_f_casual1.webp",
+      "sha256": "6232e373b3af60abeb092e08b79990c7ee6fd4963883b99031ec3efe546e8621",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "casual2",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-efbd8f71-84e9-4ae2-999b-2a46c3e172a4.png",
+      "source_sha256": "65cc1f7a144efbd80a413c2e8e977e68390cd1c6fc3311ff59e4da19811484e6",
+      "source_session_only": true,
+      "file": "염버니_glossy_promo_f_casual2.webp",
+      "sha256": "ca0a0ac00bae2b7cc8bc6f6e55d77b90667c3da7bde1bc0264974f87fb49aba6",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    },
+    {
+      "slot": "casual3",
+      "source": "/workspace/scratch/26bdc7a1adc0/generated_images/exec-d23c2081-13d4-482d-9d97-73d4fc50016f.png",
+      "source_sha256": "5c02b5ae05a1248ba887af0250561bf6e4280e8f1383e4a9f4a28e4b231814ac",
+      "source_session_only": true,
+      "file": "염버니_glossy_promo_f_casual3.webp",
+      "sha256": "83f75ec6d8546659292901551d7f387678d0e4a7368794212c54f888855f52fe",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "1e2cfef365a4258f715d766c192c5816e614ecebf36d6b29bed59b47a84551e6",
+          "webp_sha256": "a5676351a12c8260d24c671061fb68fd87078721b76a2418e80f13f4d9bad9f4"
+        }
+      ]
+    }
+  ]
+}

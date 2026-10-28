@@ -1,0 +1,597 @@
+{
+  "card": "염버니",
+  "batch_plan": {
+    "session": "rillaboom-scorbunny-26bd",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고릴타",
+        "species": "rillaboom-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "deep_dive_specialist",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "focused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "satin_teddy",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "side",
+            "frame": "waist_up",
+            "pose": "perched_seat",
+            "expr": "provocative",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "dance_stage",
+            "ex": "tango_solo",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "on_tiptoe",
+            "expr": "laughing",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "dress"
+          ],
+          "orient": [
+            "reclining",
+            "side",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "염버니",
+        "species": "scorbunny-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "cutout_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "sitting",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "light_jog",
+            "garments": [
+              "leggings",
+              "tank"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "mid_stride",
+            "expr": "exhausted",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "front",
+            "frame": "face_close",
+            "pose": "kneeling",
+            "expr": "nostalgic",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings"
+          ],
+          "orient": [
+            "seated_twist",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "final_reserved_plan": {
+    "species": "scorbunny-20261028",
+    "card": "염버니",
+    "at": "2026-10-27T23:23:30-05:00",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "swimwear",
+        "ex": "cutout_onepiece",
+        "expr": "cold_smile",
+        "pose": "sitting",
+        "orient": "seated_twist",
+        "frame": "full_body",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "swimsuit"
+        ],
+        "expose": [
+          "open back",
+          "plunging neckline"
+        ],
+        "lead": "action",
+        "kept": true
+      },
+      {
+        "cut": 2,
+        "cat": "active",
+        "ex": "light_jog",
+        "expr": "exhausted",
+        "pose": "mid_stride",
+        "orient": "looking_down",
+        "frame": "environmental",
+        "lens": "telephoto135",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "leggings",
+          "tank"
+        ],
+        "expose": [
+          "one-shoulder cut",
+          "off-shoulder neckline"
+        ],
+        "lead": "detail",
+        "kept": true
+      },
+      {
+        "cut": 3,
+        "cat": "subculture_fashion",
+        "ex": "gothic_lolita",
+        "expr": "bored",
+        "pose": "kneeling",
+        "orient": "front",
+        "frame": "face_close",
+        "lens": "natural50",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "skirt",
+          "sweater"
+        ],
+        "expose": [
+          "open back",
+          "one-shoulder cut"
+        ],
+        "lead": "place"
+      }
+    ],
+    "stamp": "4ef4a73ed86036bfcad405f46f6f74ed130e04d14dfb2dad79f129ba6f152975"
+  },
+  "reservation_session": "rillaboom-scorbunny-26bd",
+  "reservation_at": "2026-10-27T23:23:30-05:00",
+  "planner_check": "passed by tools/casual-plan.cjs; stamped reservation verified",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "cutout_onepiece",
+      "expr": "cold_smile",
+      "pose": "sitting",
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "open back",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "kept": true,
+      "example_text": "a fully lined one-piece swimsuit with large cut-outs at the sides of the waist",
+      "ui": {
+        "expr": "cold_smile",
+        "pose": "sitting",
+        "orient": "seated_twist",
+        "scene": "Resting after a swim on the curved poolside bench, small droplets glitter on the pale stone in clear afternoon sun.",
+        "outfit": "An opaque white cut-out one-piece with orange edging, an open back and a plunging neckline.",
+        "frame": "full_body",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "swimwear",
+        "ex": "cutout_onepiece"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Resting after a swim on the curved poolside bench, small droplets glitter on the pale stone in clear afternoon sun.",
+          "reason": "Adds the specific lighting and nearby objects used by this cutout_onepiece setting: Resting after a swim on the curved poolside bench, small droplets glitter on the pale stone in clear afternoon sun."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque white cut-out one-piece with orange edging, an open back and a plunging neckline.",
+          "reason": "Specifies the reserved swimsuit construction and open back, plunging neckline for this cutout_onepiece scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed matches the held/active moment in a fully lined one-piece swimsuit with large cut-outs at the sides of the waist",
+        "source_influence": "subtle uses the particular clothing colors and accents in An opaque white cut-out one-piece with orange edging, an open back and a plunging neckline.",
+        "separates_preference": "balanced matches swimsuit"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    },
+    {
+      "cut": 2,
+      "cat": "active",
+      "ex": "light_jog",
+      "expr": "exhausted",
+      "pose": "mid_stride",
+      "orient": "looking_down",
+      "frame": "environmental",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "leggings",
+        "tank"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "kept": true,
+      "example_text": "jogging lightly along a quiet park path in running wear, an easy stride and compact arm swing",
+      "ui": {
+        "expr": "exhausted",
+        "pose": "mid_stride",
+        "orient": "looking_down",
+        "scene": "Dew beads on a trail marker beside the riverside running path; apricot dawn light reaches the water.",
+        "outfit": "A white one-shoulder tank with a dropped off-shoulder neckline exposing shoulder and collarbones, paired with orange cropped leggings.",
+        "frame": "environmental",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "active",
+        "ex": "light_jog"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Dew beads on a trail marker beside the riverside running path; apricot dawn light reaches the water.",
+          "reason": "Adds the specific lighting and nearby objects used by this light_jog setting: Dew beads on a trail marker beside the riverside running path; apricot dawn light reaches the water."
+        },
+        {
+          "field": "outfit",
+          "content": "A white one-shoulder tank with a dropped off-shoulder neckline exposing shoulder and collarbones, paired with orange cropped leggings.",
+          "reason": "Specifies the reserved leggings, tank construction and one-shoulder cut, off-shoulder neckline for this light_jog scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly active matches the held/active moment in jogging lightly along a quiet park path in running wear, an easy stride and compact arm swing",
+        "source_influence": "balanced uses the particular clothing colors and accents in A white one-shoulder tank with a dropped off-shoulder neckline exposing shoulder and collarbones, paired with orange cropped leggings.",
+        "separates_preference": "prefer separates matches leggings, tank"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    },
+    {
+      "cut": 3,
+      "cat": "subculture_fashion",
+      "ex": "gothic_lolita",
+      "expr": "bored",
+      "pose": "kneeling",
+      "orient": "front",
+      "frame": "face_close",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "sweater"
+      ],
+      "expose": [
+        "open back",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "gothic lolita — a black-and-white lace jumper skirt with a bonnet, at a rose-garden tea salon",
+      "ui": {
+        "expr": "bored",
+        "pose": "kneeling",
+        "orient": "front",
+        "scene": "At a rose-garden tea salon, wrought-iron lattice casts petal-shaped shadows across a marble table with a porcelain rose-tea service.",
+        "outfit": "Black-and-white opaque lace jumper skirt with a bonnet, paired with a cream cropped sweater cut across one shoulder and open at the upper back.",
+        "frame": "face_close",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "subculture_fashion",
+        "ex": "gothic_lolita"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At a rose-garden tea salon, wrought-iron lattice casts petal-shaped shadows across a marble table with a porcelain rose-tea service.",
+          "reason": "Adds the specific lighting and nearby objects used by this gothic_lolita setting: At a rose-garden tea salon, wrought-iron lattice casts petal-shaped shadows across a marble table with a porcelain rose-tea service."
+        },
+        {
+          "field": "outfit",
+          "content": "Black-and-white opaque lace jumper skirt with a bonnet, paired with a cream cropped sweater cut across one shoulder and open at the upper back.",
+          "reason": "Specifies the reserved skirt, sweater construction and open back, one-shoulder cut for this gothic_lolita scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed matches the held/active moment in gothic lolita — a black-and-white lace jumper skirt with a bonnet, at a rose-garden tea salon",
+        "source_influence": "balanced uses the particular clothing colors and accents in Black-and-white opaque lace jumper skirt with a bonnet, paired with a cream cropped sweater cut across one shoulder and open at the upper back.",
+        "separates_preference": "prefer separates matches skirt, sweater"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    }
+  ],
+  "execution": "Actual UI selections and unmodified visible prompt; built-in image_gen, one call per final slot; no CLI image API.",
+  "replanning": "Excluded full-cover swimwear conflicting with planned garment construction. Bridal output blocked once with no file; retained failure and re-planned a substantively different public subculture tea-salon scene."
+}
