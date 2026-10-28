@@ -1,0 +1,48 @@
+{
+  "card": "누겔레온",
+  "slot": "casual1",
+  "user_request": "누겔리온 일상1번이 고개가 너무 과하게 돌아갔어. 자연스럽게 옆모습으로 나오도록 수정해줘.",
+  "operation": "User-requested partial edit of the existing published casual1; not a newly planned scene.",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "role": "edit target",
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-07f61e2d-c16d-492a-8555-e896927be1b2.png",
+      "sha256": "ca620e299c2903a181bce81316c4906f2e5668fe8a8835a5e2b92118aebf561a",
+      "session_only": true
+    },
+    {
+      "role": "canonical identity only",
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+      "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+      "session_only": true
+    }
+  ],
+  "original_ui": "records/drizzile-20261028/casual1-ui.json",
+  "original_prompt": "records/drizzile-20261028/casual1-prompt.txt",
+  "edit_prompt": "edit-prompt.txt",
+  "override": "Natural left-facing side profile toward the car and hands, with relaxed neck alignment. All original planner settings remain preserved as historical inputs.",
+  "previous_publication": {
+    "image_commit": "0d26e9e1bdd2fd15fa4a2421df68c80d37698185",
+    "git_blob": "e3c0d2003e133ce1a738b4c3d08379e82df2c968",
+    "sha256": "e9696d92d0a1f14dccc94fcff3f8a7a58840346f9555a01190386d024c831020"
+  },
+  "source": {
+    "path": "/workspace/scratch/d1225f08870c/generated_images/exec-cb0adc2a-787e-4ab7-9ed0-cd3f4935cac8.png",
+    "sha256": "c4aa470d0ee9cc482f5d474634065b9ac0f5f521ece90c2cfebb405fb751ce44",
+    "session_only": true
+  },
+  "output": {
+    "file": "누겔레온_glossy_promo_f_casual1.webp",
+    "format": "WebP",
+    "size": [
+      1024,
+      1536
+    ],
+    "quality": 85,
+    "method": 6,
+    "sha256": "2944790f72a7862c5155b018c2601d7a8090a4e140ab83afd7a7a1b443ba9109",
+    "git_blob": "852841e4b115d485bc8a0d7174e9087ae20e5800"
+  },
+  "rule_basis": "IMAGE_RULES.md: a user-requested correction attaches canonical light image and the target casual cut; replace at the existing shard and filename; preserve past records."
+}
