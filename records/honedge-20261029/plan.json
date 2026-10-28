@@ -1,0 +1,439 @@
+{
+  "card": "단칼빙",
+  "species": "honedge",
+  "session": "meowstic-honedge-20261029-d616",
+  "batch_plan": {
+    "session": "meowstic-honedge-20261029-d616",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "냐오닉스",
+        "species": "meowstic-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "slip_dress",
+            "expr": "serious",
+            "pose": "one_knee_up",
+            "orient": "looking_away",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "plunging neckline",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "power_glam",
+            "garments": [
+              "dress"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "soft_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "sailor_stage",
+            "expr": "smug",
+            "pose": "on_tiptoe",
+            "orient": "high_angle",
+            "frame": "three_quarter",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "expose": [
+              "bare midriff",
+              "cropped hem"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "lingerie",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "단칼빙",
+        "species": "honedge-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "rodeo_cowgirl",
+            "garments": [
+              "vest"
+            ],
+            "orient": "over_shoulder",
+            "frame": "chest_up",
+            "pose": "dance_step",
+            "expr": "mischievous",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "tango_solo",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "standing_formal",
+            "expr": "determined",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "active",
+            "ex": "archery_draw",
+            "expr": "exhausted",
+            "pose": "side_sitting",
+            "orient": "looking_down",
+            "frame": "face_close",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "crop_top",
+              "leggings"
+            ],
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "hobbies_leisure",
+            "active",
+            "dance_stage",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "over_shoulder",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "rodeo_cowgirl",
+      "garments": [
+        "vest"
+      ],
+      "orient": "over_shoulder",
+      "frame": "chest_up",
+      "pose": "dance_step",
+      "expr": "mischievous",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "a rodeo cowgirl costume — a fringed cropped vest, a western hat, short denim and cowboy boots; twirling a soft prop lasso on a barn-dance stage",
+      "scene": "Silver star appliques catch the rehearsal lights on a barn-dance stage with wooden rails and painted canyon flats.",
+      "outfit": "A navy fringed cropped suede vest over an opaque ivory off-shoulder fitted top with side cutouts; dark short denim, a western hat and stage cowboy boots finish the costume.",
+      "actual_storage_file": "casual1-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Silver star appliques catch the rehearsal lights on a barn-dance stage with wooden rails and painted canyon flats.",
+          "reason": "The example has a barn stage but leaves the set dressing and light unspecified; silver stars, canyon flats and rehearsal lamps make this production specific."
+        },
+        {
+          "field": "outfit",
+          "content": "A navy fringed cropped suede vest over an opaque ivory off-shoulder fitted top with side cutouts; dark short denim, a western hat and stage cowboy boots finish the costume.",
+          "reason": "The example leaves material, colors and top construction open; navy suede fringe, ivory off-shoulder side cutouts and short denim implement the selected garments and exposure."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Rope and dance-step motion is a stage performance, so mostly active.",
+        "source_influence": "Navy fringe and silver star details provide visible palette echoes without armor, so balanced.",
+        "separates_preference": "Vest, fitted top and short denim are distinct garments, so prefer separates."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "dance_stage",
+      "ex": "tango_solo",
+      "garments": [
+        "dress"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "standing_formal",
+      "expr": "determined",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "practising a solo tango ocho in a backless high-slit dance dress on a wooden milonga floor",
+      "scene": "Her skirt ruffles catch amber ceiling light across the polished wooden milonga floor, surrounded by red perimeter chairs.",
+      "outfit": "An opaque burgundy backless tango mini dress with a deep V neckline, a high slit in the asymmetric ruffled hem and secure dance shoes.",
+      "actual_storage_file": "casual2-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Her skirt ruffles catch amber ceiling light across the polished wooden milonga floor, surrounded by red perimeter chairs.",
+          "reason": "The example supplies tango and wooden floor; amber ceiling lamps, surrounding red chairs and moving ruffles describe the particular milonga without changing its activity."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque burgundy backless tango mini dress with a deep V neckline, a high slit in the asymmetric ruffled hem and secure dance shoes.",
+          "reason": "The example leaves color and front neckline open; opaque burgundy, a V neckline and asymmetric ruffles implement the planned dress silhouette."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "The standing tango step is captured at a held beat, so mostly posed.",
+        "source_influence": "Burgundy dancewear has very little of the source palette, so subtle.",
+        "separates_preference": "The backless slit dance dress is one piece, so balanced."
+      }
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "active",
+      "ex": "archery_draw",
+      "expr": "exhausted",
+      "pose": "side_sitting",
+      "orient": "looking_down",
+      "frame": "face_close",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "expose": [
+        "strapless top",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "example_text": "in a fitted archery top with an arm guard, holding a bow at full draw, perfectly still",
+      "scene": "She aims toward the straw target down a daylight outdoor archery lane; a few fallen leaves dot the grass.",
+      "outfit": "A strapless fitted navy archery crop top with an arm guard and high-waisted charcoal leggings; bare shoulders and midriff distinguish the athletic separates.",
+      "aspect": "2:3",
+      "actual_storage_file": "casual3-ui.json",
+      "selection_source": "planner query loaded through actual browser controls; all planner locks retained",
+      "random": "Planner-owned selection; no manual UI random draws",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She aims toward the straw target down a daylight outdoor archery lane; a few fallen leaves dot the grass.",
+          "reason": "The example supplies the drawn bow and arm guard; straw target, daylight lane and fallen leaves establish its aiming direction and setting."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless fitted navy archery crop top with an arm guard and high-waisted charcoal leggings; bare shoulders and midriff distinguish the athletic separates.",
+          "reason": "The example leaves colors, neckline and lower garment open; navy strapless top, charcoal leggings and an arm guard implement the selected athletic separates."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She holds the drawn bow at the aiming pause, so mostly posed.",
+        "source_influence": "Plain navy athletic wear carries a restrained color echo, so subtle.",
+        "separates_preference": "Crop top and leggings are separate garments, so prefer separates."
+      }
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "submitted": "Exact *-prompt.txt emitted by actual UI",
+    "generated": 9,
+    "requested": 9,
+    "adult": "Light apparent age UI 20s; later slots use the adult light anchor"
+  },
+  "validation": {
+    "ledger": "Planner check and stamp verify passed; remote reservation published before generation",
+    "casual_look": "generated_images/exec-e6ece1c6-a38e-4864-8cc7-be059a16d4ac.png — 가까운 컷 0장(점수 245 미만)\n     290  무우마직_glossy_promo_f_casual3.webp\n     299  삐_glossy_promo_f_casual1.webp\n     313  로토스_glossy_promo_f_casual1.webp\ngenerated_images/exec-5f735f51-8e43-4cae-b247-75cc6a4e7e01.png — 가까운 컷 0장(점수 245 미만)\n     258  고우스트_glossy_promo_f_casual2.webp\n     268  로젤리아_glossy_promo_f_casual3.webp\n     273  물짱이_glossy_promo_f_casual2.webp\ngenerated_images/exec-b9f0867f-bdaa-463d-bf3c-9568f68479fa.png — 가까운 컷 0장(점수 245 미만)\n     320  히포포타스_glossy_promo_f_casual1.webp\n     329  뿔카노_glossy_promo_f_casual3.webp\n     330  덩쿠리_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n",
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬"
+    ],
+    "visual_diversity": "Window-seat knitting, rocky waterfall portrait and close archery aiming use distinct environments, tasks, outfits and framing; compared with recent nine casual images and all three Meowstic cuts."
+  },
+  "replanning": [
+    {
+      "slot": "casual1",
+      "old": "hobbies_leisure/hobby_knitting",
+      "result": "moderation_blocked; no image returned",
+      "request_id": "a58d20a5-f845-4218-a964-030ab352c494",
+      "record": "attempts/casual1-rejected/tool-failure.json",
+      "new": "adult_roleplay/rodeo_cowgirl",
+      "substantive_change": "Window-seat knitting and cutout blouse replaced with barn-dance theatre, cowgirl costume and soft prop lasso. New activity, setting and outfit."
+    },
+    {
+      "slot": "casual2",
+      "old": "swimwear/waterfall_pool",
+      "result": "moderation_blocked; no image returned",
+      "request_id": "2e955d8f-0847-4d9a-8340-43cac623eb69",
+      "record": "attempts/casual2-rejected/tool-failure.json",
+      "new": "dance_stage/tango_solo",
+      "substantive_change": "Waterfall/swimsuit scene removed; new solo tango practice in a burgundy dance dress on a wooden milonga floor. Planner reselection, no wording-only retry."
+    }
+  ]
+}

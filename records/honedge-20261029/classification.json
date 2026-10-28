@@ -1,0 +1,254 @@
+[
+  {
+    "card": "단칼빙",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": null,
+    "reference_sha256": null,
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-d997826d-0167-4184-9cc8-f0c672c6e0f7.png",
+      "sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_light_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1bbb717f60509ae8d5539c8726ce44f043d170be78e49f5792740c181ae93228"
+    },
+    "prompt_file": "light-prompt.txt",
+    "ui_file": "light-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-57e0dc93-4883-4645-8f63-dd9ea7bf0cdb.png",
+      "sha256": "c1e17ffdf1de1710df7b7ba1fd95e99c4725751166af4065545b7dede56cb48a",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_heavy_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "26ac260bcf921df4c87af85dd459d7533a2d67dd139749fd3eec7ec7d9d12625"
+    },
+    "prompt_file": "heavy-prompt.txt",
+    "ui_file": "heavy-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-803388d5-dc1a-4036-a29b-4e1097c57cc7.png",
+      "sha256": "7b16826ab759320d47d568072566c7371ae5cc90411957b131eadb1959b45420",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_mobility_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "e1b246fcc6afe75483128c61dacd9f3b84bf1973979d9fb6a2069a333d3d3e22"
+    },
+    "prompt_file": "mobility-prompt.txt",
+    "ui_file": "mobility-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-ae8449ab-4f87-40ed-aec7-1bf0f070a241.png",
+      "sha256": "1d9f02d26ad79d9471c5fefee425c3f3e5d261597890f145d018d38851687e9c",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_light_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "847a31fd6ec1c3c63feeb45444e923cc75483625d5d50fb630acaa4ad73f6402"
+    },
+    "prompt_file": "light_overdrive-prompt.txt",
+    "ui_file": "light_overdrive-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "heavy",
+    "reference_sha256": "c1e17ffdf1de1710df7b7ba1fd95e99c4725751166af4065545b7dede56cb48a",
+    "secondary_reference": "light",
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-e6d74079-316b-4f4d-9b3f-054daaa98e0f.png",
+      "sha256": "6449743a1f9034ee3c52b5e94fb92de70666af76e9cac6cb159b80747e2bf235",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_heavy_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "db601c032ac00b43a55dd5abd4df7bc05c26d21f528f12a2d6548b9a906f42d8"
+    },
+    "prompt_file": "heavy_overdrive-prompt.txt",
+    "ui_file": "heavy_overdrive-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "mobility",
+    "reference_sha256": "7b16826ab759320d47d568072566c7371ae5cc90411957b131eadb1959b45420",
+    "secondary_reference": "light",
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-678247d4-e241-482e-9e0e-3e56400b885c.png",
+      "sha256": "fca4900a4a5859b57375914e8c306332a3828a739f28c00f13cd6a6e588c15fc",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_mobility_overdrive_glossy_promo_f.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "d3d41fbaf27052dd9130e0385065c247614891567c9d69717b07d2176a2a9ef4"
+    },
+    "prompt_file": "mobility_overdrive-prompt.txt",
+    "ui_file": "mobility_overdrive-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-e6ece1c6-a38e-4864-8cc7-be059a16d4ac.png",
+      "sha256": "60345dbf191b1b3248e7e630f691c402f6e0ac3c3c296c07fc8d73d1a8fc6c2b",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_glossy_promo_f_casual1.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "70a1a4375dcd8e41d4439c4d1ac435dfb84bc6accc666f5f9f420aac98229f9a"
+    },
+    "prompt_file": "casual1-prompt.txt",
+    "ui_file": "casual1-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-5f735f51-8e43-4cae-b247-75cc6a4e7e01.png",
+      "sha256": "89ec3a423725af0f50fb24ad385ee2a35d3bdd6af3027c24e0d8535995dabe21",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_glossy_promo_f_casual2.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "ea9f9b6ffcd2e193824b787d32ab3934bd4ac087b8cb78f32c060f6472a18a9a"
+    },
+    "prompt_file": "casual2-prompt.txt",
+    "ui_file": "casual2-ui.json"
+  },
+  {
+    "card": "단칼빙",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "actual Chromium prompt.html control selection and emitted prompt",
+    "reference_slot": "light",
+    "reference_sha256": "2f897f7ef4464529eac0a71dfcb9336a41f9bae3a6a905cdab371404dbc9478c",
+    "secondary_reference": null,
+    "original": {
+      "session_path": "/workspace/scratch/d61652d55a5b/generated_images/exec-b9f0867f-bdaa-463d-bf3c-9568f68479fa.png",
+      "sha256": "de336b9a128e6979ff303a11e3ea156021a8e4594acdfc3f58c72645dc320c7e",
+      "committed": false
+    },
+    "output": {
+      "file": "단칼빙_glossy_promo_f_casual3.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "12c67a98d5baebf35a25beb7f02fbe08fd69b4109ed81e906f60858ee2b6b04a"
+    },
+    "prompt_file": "casual3-prompt.txt",
+    "ui_file": "casual3-ui.json"
+  }
+]
