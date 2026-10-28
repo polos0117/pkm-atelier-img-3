@@ -1,0 +1,32 @@
+{
+  "card": "냐스퍼",
+  "status": "registered_complete",
+  "generated": 9,
+  "requested": 9,
+  "tool": "built-in image_gen",
+  "image_commit": "fcf1289b49aafa53d533c3770ea9c886b8eaf316",
+  "thumbnail_commit": "1ad123d6c6f8f4b361bf9084cd65d4db6d446da8",
+  "registration_commit": "f49af5158327890cc2b8ebc334e3869cd099a1ce",
+  "main_update": "GitHub connector; force:false, expected parent checked; fast-forward only",
+  "remote_validation": {
+    "webp_blob_hashes_match_local": 9,
+    "thumbnails_present": 9,
+    "registered_same_filenames": 9,
+    "where": 2
+  },
+  "actions": {
+    "thumbs": {
+      "run_id": 40622897443,
+      "conclusion": "success"
+    },
+    "registration": {
+      "run_id": 40623136665,
+      "conclusion": "success"
+    },
+    "warnings": "기존 이미지 규격 경고와 공통 Node.js 20/의존성 폐기 예정 경고만. 새 9장은 모두 1024×1536."
+  },
+  "original_png": "session_only; not uploaded",
+  "source_and_webp_hashes": "classification.json",
+  "anatomy": "mediapipe unavailable; eye-count and enlarged hand/foot inspection recorded in qa.json",
+  "prompts_and_daily_choices": "*-prompt.txt, *-ui.json, plan.json"
+}
