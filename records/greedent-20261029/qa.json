@@ -1,0 +1,279 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "image_sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+    "accepted": true,
+    "observations": {
+      "design": "Single adult woman, rounded short face, full lips and voluminous medium brown curls; cream slim plates over brown undersuit, orange rims and large patterned tail-shaped sash. Both boots and all hair fit inside the frame.",
+      "hands": "Her lowered right glove shows a thumb and four curled fingers. Her raised left hand rests behind the hair, with fingers partly hidden by curls. Two arms attach at the shoulders; both legs attach at the hips."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Her lowered right glove shows a thumb and four curled fingers. Her raised left hand rests behind the hair, with fingers partly hidden by curls. Two arms attach at the shoulders; both legs attach at the hips.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "face_reason": "Greedent’s rounded tan/brown volume is interpreted as a short soft jaw, round eyes and full lips; voluminous brown afro interprets its soft abundant fur. The human face remains distinct from the creature.",
+    "source_appearance": {
+      "name": "요씽리스",
+      "en": "Greedent",
+      "color": "brown",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "tail",
+          "detail": "huge tail"
+        },
+        {
+          "part": "body",
+          "detail": "tan and brown plump body"
+        },
+        {
+          "part": "nose",
+          "detail": "orange nose"
+        },
+        {
+          "part": "fur",
+          "detail": "light brown fur"
+        },
+        {
+          "part": "tooth",
+          "detail": "buck tooth"
+        },
+        {
+          "part": "limb",
+          "detail": "stumpy limbs"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Greedent_%28Pok%C3%A9mon%29",
+      "revision": 4627002,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "84ab6c552042c51763c38159931e8361d999e11974b73d8afc69f842a10e6daf",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "face_design": {
+      "name": "요씽리스",
+      "en": "Greedent",
+      "line": "탐리스",
+      "how": "draft",
+      "registered": false,
+      "face": {
+        "face shape": "softly rounded",
+        "face length": "short",
+        "face width": "medium",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "large",
+        "eye size": "medium",
+        "eye tilt": "level outer corners",
+        "eye spacing": "close-set eyes",
+        "eyebrows": "short rounded brows",
+        "nose character": "rounded soft tip",
+        "lips": "full lips"
+      },
+      "why": "",
+      "cues": [
+        "‘tan and brown plump body’ → 얼굴형 부드럽고 둥근 얼굴형",
+        "‘tan and brown plump body’ → 얼굴 길이 짧은 얼굴",
+        "‘tan and brown plump body’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+        "‘tan and brown plump body’ → 눈매 큰 눈",
+        "‘tan and brown plump body’ → 눈썹 짧고 둥근",
+        "‘tan and brown plump body’ → 코 코끝이 둥근"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴 폭 넓은 얼굴 → 보통, 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운, 눈썹 가늘고 완만한 곡선 → 짧고 둥근 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 잔곱슬 / 아프로 → 둥글게 부풀린 아프로",
+      "hair": {
+        "hairstyle": "afro",
+        "hair length": "medium",
+        "bangs": "curtain bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘tan and brown plump body’에서 둥글게 부풀린 아프로(웨이브·곱슬) · 중간 길이 · 커튼뱅 — 탐리스에서 이어 같은 묶음",
+      "hair_cues": [
+        "‘tan and brown plump body’ → 헤어스타일 둥글게 부풀린 아프로"
+      ]
+    },
+    "final_face_line": "FACE (her own structure, not the style's default face): softly rounded face, short length, medium width; soft rounded jaw; open rounded eyes, medium size, level outer corners, close-set; short rounded brows; rounded soft tip nose; full lips.",
+    "compared_characters": [
+      "탐리스",
+      "인텔리레온",
+      "누겔레온"
+    ],
+    "comparison": "Greedent has a fuller rounded jaw, fuller lips and a wider curly head silhouette than Skwovet, with rounder eyes and softer nose than the two blue-haired water characters.",
+    "family_comparison": "Actual published 탐리스 light compared; softer fuller lips and rounded mature face, large medium afro rather than short curls. No existing Greedent canonical was present."
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "image_sha256": "58ac158bf252a90f9d5a841e5d7f19fb8e46f596d7964838eeb63735706e7773",
+    "accepted": true,
+    "observations": {
+      "design": "Overlapping shoulder shells, layered forearms, broad thighs and reinforced shins create a larger silhouette while retaining the same rounded face, curls, colors and tail-shaped sash.",
+      "hands": "Lowered right glove has five naturally curled digits; the raised left glove is largely hidden behind her hair. Both boots stay fully visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Lowered right glove has five naturally curled digits; the raised left glove is largely hidden behind her hair. Both boots stay fully visible.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "image_sha256": "b66a492380a48cf63870c8d0b75dbd27241db313382f5b8b8108c801a093161e",
+    "accepted": true,
+    "observations": {
+      "design": "Separated pointed shoulder, hip and calf fins surround circular orange propulsion units, with air gaps between panels. Face, curled hair and standing pose match the canonical.",
+      "hands": "One lowered gloved hand, with thumb and four curled fingers; other glove touches the rear of her hair and is partially occluded. No additional limb appears among the fins."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One lowered gloved hand, with thumb and four curled fingers; other glove touches the rear of her hair and is partially occluded. No additional limb appears among the fins.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "afad5cedf4807164c42baab1b8a1a270d3becaa124f14bb98f5c76f20e2a8673",
+    "accepted": true,
+    "observations": {
+      "design": "The light pose, camera and scale remain aligned. Thin shoulder, breast, hip and shin plates open along existing seams and emit golden light. No new weapon or helmet.",
+      "hands": "Lowered glove remains distinct from sparks; five digits with natural overlapping curl. Raised hand remains behind the hair. Two legs end in the same two enclosed boots."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Lowered glove remains distinct from sparks; five digits with natural overlapping curl. Raised hand remains behind the hair. Two legs end in the same two enclosed boots.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "775702247b1189688c5e064525ac5105e778130893bf8a32d7e9b3ab25de4150",
+    "accepted": true,
+    "observations": {
+      "design": "The heavy silhouette and pose are preserved; existing large shells peel apart around shoulders, arms, hips and knees, exposing gold-lit interior structures.",
+      "hands": "The lowered right glove is clear of effects, with thumb and four partly curled fingers; the left hand is hidden behind curls as in the base. Two connected arms and legs."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "The lowered right glove is clear of effects, with thumb and four partly curled fingers; the left hand is hidden behind curls as in the base. Two connected arms and legs.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "179175871ea2a825e3445f5a9ff513c59c37868e4166778842a78c9e21b8fcff",
+    "accepted": true,
+    "observations": {
+      "design": "The same split fins and circular thrusters open wider, exposing brighter gold interiors. Face position, torso angle, feet and background stay matched to mobility.",
+      "hands": "Two gloves remain at the same locations as mobility; five curled digits on the lowered hand, raised digits partially concealed by hair. Thruster effects do not merge into fingers."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two gloves remain at the same locations as mobility; five curled digits on the lowered hand, raised digits partially concealed by hair. Thruster effects do not merge into fingers.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "image_sha256": "2f95909b507442ae3d83a57c130c81d17cf062df5c1653a0b833230018a9190b",
+    "accepted": true,
+    "observations": {
+      "activity": "She turns over one shoulder on a checkerboard dance floor beside a chrome jukebox; warm globe lamps and geometric panels establish a 1960s interior. The torso turn reads as a paused dance movement; feet are below the crop.",
+      "apparel": "Opaque orange/ivory/cocoa geometric one-shoulder mini dress, with upper thighs and shoulder exposed; white go-go boots partly enter the lower edge.",
+      "orientation": "Back and one flank face the camera, with head turned roughly a quarter turn, cheek and far eye partially occluded. Frame reaches thighs rather than the planned chest-up crop.",
+      "expression": "Half-lowered eyelids and slightly parted lips; alert gaze rather than fully sleepy.",
+      "hands": "Near right hand hangs by the jukebox with five relaxed curved digits. Far arm follows the other side of her torso and its hand is hidden. Legs extend below the frame."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near right hand hangs by the jukebox with five relaxed curved digits. Far arm follows the other side of her torso and its hand is hidden. Legs extend below the frame.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images compared: their archive reach, dressing-room pinup, fabric folding, bridal shoreline, karaoke, lane-rope pool, car wash, telephone and cooking differ from the mod dance floor, cedar tub and vinyl selection trio.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     278  레오꼬_glossy_promo_f_casual3.webp\n     287  근육몬_glossy_promo_f_casual3.webp\n     296  바오프_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     283  레디바_glossy_promo_f_casual1.webp\n     286  초염몽_glossy_promo_f_casual2.webp\n     287  쁘사이저_glossy_promo_f_casual2.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     255  입치트_glossy_promo_f_casual1.webp\n     261  마그마_glossy_promo_f_casual3.webp\n     263  아르코_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "image_sha256": "28292bd62eb383e964b1ed916b0030083e3b9f6f7bbb2724d339b72f101d8c81",
+    "accepted": true,
+    "observations": {
+      "activity": "She sits in a cedar tub beside a mountain-inn window; snow-covered peaks, steam and an orange folded towel are visible. One forearm rests on the rim and her other hand touches beside her ear.",
+      "apparel": "Opaque rust/caramel halter one-piece with deep neckline; shoulders, thighs and legs are exposed while chest and pelvis stay covered. Small gold original hairband remains, recorded as allowed ornament carryover.",
+      "orientation": "Torso mostly frontal with seated hips angled; both lower legs extend toward the foreground through water. More frontal than the selected seated twist.",
+      "expression": "Relaxed brows, half-open eyes and parted mouth convey relief.",
+      "hands": "Near-ear hand has curled fingers partly hidden by hair. Rim hand shows thumb and fingertips, some beyond the right edge. Two legs and two feet are present under ripples; toes visible with partial water occlusion."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near-ear hand has curled fingers partly hidden by hair. Rim hand shows thumb and fingertips, some beyond the right edge. Two legs and two feet are present under ripples; toes visible with partial water occlusion.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images compared: their archive reach, dressing-room pinup, fabric folding, bridal shoreline, karaoke, lane-rope pool, car wash, telephone and cooking differ from the mod dance floor, cedar tub and vinyl selection trio.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     278  레오꼬_glossy_promo_f_casual3.webp\n     287  근육몬_glossy_promo_f_casual3.webp\n     296  바오프_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     283  레디바_glossy_promo_f_casual1.webp\n     286  초염몽_glossy_promo_f_casual2.webp\n     287  쁘사이저_glossy_promo_f_casual2.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     255  입치트_glossy_promo_f_casual1.webp\n     261  마그마_glossy_promo_f_casual3.webp\n     263  아르코_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "image_sha256": "4f8c760f43ca572a9c2841fb34820f59ef02e48975037d963e7d9a2eaeeae6c9",
+    "accepted": true,
+    "observations": {
+      "activity": "In a second-hand record store she holds a vinyl sleeve over wooden bins, while the opposite hand rests on her hip. Window light, densely packed records and hanging lamps make the location distinct.",
+      "apparel": "Cocoa satin mini slip dress with one shoulder exposed, plaid flannel tied at the waist; no armor. The thigh slit and bare shoulder remain visible.",
+      "orientation": "Front-three-quarter torso with hips turned toward the record bins; crop reaches thighs instead of the chosen waist-up.",
+      "expression": "Level brows, narrowed eyes and closed, unsmiling lips approximate unimpressed.",
+      "hands": "Hip hand shows thumb and four fingers lying along the waist. Sleeve hand has thumb on the near face and fingers curling behind the sleeve, naturally occluded. Legs continue below crop."
+    },
+    "anatomy": {
+      "tool": "unavailable: anatomy-check.py exited 3; mediapipe is not installed.",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Hip hand shows thumb and four fingers lying along the waist. Sleeve hand has thumb on the near face and fingers curling behind the sleeve, naturally occluded. Legs continue below crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot inspection; obscured and cropped anatomy is identified rather than asserted visible."
+    },
+    "diversity_comparison": {
+      "compared_characters": [
+        "탐리스",
+        "인텔리레온",
+        "누겔레온"
+      ],
+      "evidence": "Actual recent images compared: their archive reach, dressing-room pinup, fabric folding, bridal shoreline, karaoke, lane-rope pool, car wash, telephone and cooking differ from the mod dance floor, cedar tub and vinyl selection trio.",
+      "numeric_check": "/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     278  레오꼬_glossy_promo_f_casual3.webp\n     287  근육몬_glossy_promo_f_casual3.webp\n     296  바오프_glossy_promo_f_casual1.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     283  레디바_glossy_promo_f_casual1.webp\n     286  초염몽_glossy_promo_f_casual2.webp\n     287  쁘사이저_glossy_promo_f_casual2.webp\n/workspace/scratch/bf56da1f1ca6/work/pkm-atelier-img-3/img/요씽리스_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     255  입치트_glossy_promo_f_casual1.webp\n     261  마그마_glossy_promo_f_casual3.webp\n     263  아르코_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  }
+}

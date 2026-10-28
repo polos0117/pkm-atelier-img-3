@@ -1,0 +1,303 @@
+[
+  {
+    "card": "요씽리스",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+      "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7"
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "요씽리스_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "16d95742bd72d3f7fb3084f9fff4054916bf37ba89047950ee264744aa7d5249",
+      "git_blob": "3713a6caf5d39d94b5b98fe76a01f9f053cea3c9"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-faf83161-34af-4da7-94b4-2245307d4b72.png",
+      "sha256": "58ac158bf252a90f9d5a841e5d7f19fb8e46f596d7964838eeb63735706e7773"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "요씽리스_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "857ea4a973abaafe47b81dd5fee8f5148f84500571608c5d1e6617d27d8ade62",
+      "git_blob": "64d83821d24a440f6dbb708dda8d17a6b435788f"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-32cc8e10-53c0-4250-84ed-fddb143ea3e6.png",
+      "sha256": "b66a492380a48cf63870c8d0b75dbd27241db313382f5b8b8108c801a093161e"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "요씽리스_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "39c1471ebae74ce1730b6afc0bfd4d61352f597fb6a50d9332af0160363bec64",
+      "git_blob": "54269c0ee56db43099e006d6781e44c0cdad5b3a"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-7550865f-384a-4bce-be89-59bc05ae517a.png",
+      "sha256": "afad5cedf4807164c42baab1b8a1a270d3becaa124f14bb98f5c76f20e2a8673"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "요씽리스_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "ac736c4ea0bae1c1177556c42bdb91e1f40da48ad68363da7cd1bc6583672acf",
+      "git_blob": "1351b2cab1ac215b73922f807bb9de145485a762"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-711b8f0f-878e-42da-9bfa-ed01bb380fe4.png",
+      "sha256": "775702247b1189688c5e064525ac5105e778130893bf8a32d7e9b3ab25de4150"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-faf83161-34af-4da7-94b4-2245307d4b72.png",
+        "sha256": "58ac158bf252a90f9d5a841e5d7f19fb8e46f596d7964838eeb63735706e7773",
+        "session_only": true
+      },
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "요씽리스_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "1246cd0f610b8502fd7b761f76924f0ff24e13074a1f3d413f0caf81183795bb",
+      "git_blob": "98497aec131c385d1867503a2e984a5622a60058"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-06f682d8-8615-482d-85a6-3a83e531d58c.png",
+      "sha256": "179175871ea2a825e3445f5a9ff513c59c37868e4166778842a78c9e21b8fcff"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-32cc8e10-53c0-4250-84ed-fddb143ea3e6.png",
+        "sha256": "b66a492380a48cf63870c8d0b75dbd27241db313382f5b8b8108c801a093161e",
+        "session_only": true
+      },
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "요씽리스_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "42cd79187aeb51fa19f1ef6050d4cd1041ac91c36e4ff0625c4a14c480f34208",
+      "git_blob": "21e9509b31eb4240ec065337f71c8619adfda654"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-5759148f-e8ea-4e7b-9ac0-7d2f33b53156.png",
+      "sha256": "2f95909b507442ae3d83a57c130c81d17cf062df5c1653a0b833230018a9190b"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "요씽리스_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "9f01bbded181611423f2229c422a6db37dd41e529eaff1e2d951c6edadcf8e25",
+      "git_blob": "c1b244794afb9baaf4bba5e9895d4192597d22dd"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-ec541be4-808f-4d98-bb75-2ef090f14fe5.png",
+      "sha256": "28292bd62eb383e964b1ed916b0030083e3b9f6f7bbb2724d339b72f101d8c81"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "요씽리스_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "dbe5b99ded29cc586fa0d6e219b74db426f62b1349645cbaacd7863d060cf5ae",
+      "git_blob": "6944f210e378f62b9d9a7eaf2b889c036dd87234"
+    }
+  },
+  {
+    "card": "요씽리스",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI in Chromium; its output submitted unchanged to built-in image_gen.",
+    "source": {
+      "session_only": true,
+      "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-abde42d5-841a-492f-979d-2f25487db3d1.png",
+      "sha256": "4f8c760f43ca572a9c2841fb34820f59ef02e48975037d963e7d9a2eaeeae6c9"
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/bf56da1f1ca6/generated_images/exec-f29359d2-0398-45ef-a715-de9d96d07232.png",
+        "sha256": "f040900eff148be778d60d46ee75f3a38d80ff38449dcabb2e1fdb6c77796ca7",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "요씽리스_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "6323af44a986f9ce9754118433f12cb07c4ca41b95f7f1b4fb8fca7e7cdae318",
+      "git_blob": "2aa6218d54b23aa8f64ebacd375b91213cebfe3a"
+    }
+  }
+]

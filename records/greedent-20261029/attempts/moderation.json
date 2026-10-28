@@ -1,0 +1,23 @@
+{
+  "attempts": [
+    {
+      "slot": "casual1",
+      "scene": "open_shirt_lingerie",
+      "status": "moderation_blocked",
+      "request_id": "a89d9c9a-ed18-4b80-9c64-d599e09495c3",
+      "image_returned": false,
+      "prompt": "casual1-blocked/prompt.txt",
+      "ui": "casual1-blocked/ui.json"
+    },
+    {
+      "slot": "casual1",
+      "scene": "sailor_stage",
+      "status": "moderation_blocked",
+      "request_id": "4487f45d-cc75-4f32-96ea-251421871b98",
+      "image_returned": false,
+      "prompt": "casual1-stage-blocked/prompt.txt",
+      "ui": "casual1-stage-blocked/ui.json"
+    }
+  ],
+  "resolution": "No retry of either rejected request. Planner selected a distinct general 1960s mod-fashion scene; stamped reservation published before the successful generation."
+}
