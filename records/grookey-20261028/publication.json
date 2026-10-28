@@ -1,0 +1,24 @@
+{
+  "status": "registered_complete",
+  "date": "2026-10-28",
+  "image_commit": "69e64e7443c0d6722e5b9764d13a95a8b0980bc1",
+  "repair_commit": "bd09e569ee8ec70cb0cfeb978294a73682ec9a7a",
+  "thumbnail_commit": "573a84a94674c4a3c647b6b1a844241d431680ed",
+  "dex_commit": "7aca789e02c02e789430c19954ae5e4cd0a26c43",
+  "verified": {
+    "originals": 9,
+    "matching_git_blobs": 9,
+    "thumbnails": 9,
+    "registered_slots": 9
+  },
+  "publication_method": "Connected GitHub Git Data API; parent=current main, force:false, expected_sha lease. CLI git push had no credentials; no force push or history rewrite.",
+  "thumbnail_workflow": {
+    "id": 40631252078,
+    "conclusion": "success"
+  },
+  "record_reference": "classification.json, qa.json, plan.json; original PNGs session-only",
+  "discarded_output_sha256": {
+    "exec-3969be9f-5de8-442f-b5a6-d095eb3bb9a4.png": "6558a987605f71597dbe134b110da80d824cfc4356f1e888d4c769eb8c9faf0b",
+    "exec-f86cc8d0-4e34-49c5-a196-eba1697768f6.png": "9458b471e4cf0deb8c975f08f3e270b1e532caf760c2bb8a676ca72ee2cad78a"
+  }
+}
