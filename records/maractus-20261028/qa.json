@@ -1,0 +1,294 @@
+{
+  "card": "마라카치",
+  "reviewer": "gpt",
+  "tool_mode": "built-in image_gen",
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "16777838168611c3852bcb344db2eb360bcdfdd78e618e650392689e3f560dff",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Green slim torso plates, pink petal shoulder and hip edges, yellow pointed guards; two feet fully visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Extended near palm has four spread fingers and opposing thumb; raised far hand has curled middle/ring/little fingers, index and opposing thumb.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Green slim torso plates, pink petal shoulder and hip edges, yellow pointed guards; two feet fully visible.",
+      "reference": []
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "05ced097e5f68cabb893327cd9eb180b393a4b6dbfe81b712704cc6f41e99940",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Broad overlapping rimmed shoulder, forearm, pelvis and shin plates enlarge the outline; face and braid unchanged."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Same open near hand and raised far hand; four fingers and one thumb on each hand, with far curled digits overlapping.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Broad overlapping rimmed shoulder, forearm, pelvis and shin plates enlarge the outline; face and braid unchanged.",
+      "reference": [
+        "light"
+      ]
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "01ddf33328f089ead38329ac66656a4c6a262d7c7bb643904c5b4cb813385610",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Swept separate shoulder, hip and calf panels have visible gaps and compact round thrusters; underlying green braid and body retained."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both wrists connected; near hand five spread digits, far hand bent fingers and opposed thumb.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Swept separate shoulder, hip and calf panels have visible gaps and compact round thrusters; underlying green braid and body retained.",
+      "reference": [
+        "light"
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "05ea31bdcfdb35d00f47ef4e31890a37ac8f4b9ae41b976f63fb9d69c6b6b32d",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Original desert stance, head scale and hand locations retained; slim plates lift at hinges, exposing luminous green inner seams."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near five-digit open palm and far raised bent-finger hand retained; light stays off fingers.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Original desert stance, head scale and hand locations retained; slim plates lift at hinges, exposing luminous green inner seams.",
+      "reference": [
+        "light"
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "5c893975eb87583df5851e1dea49759b11692c7d9514c7a30e1a7f426ac10763",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Same thick heavy plates hinge outward with green-lit air gaps; no added weapon or helmet."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near five-digit palm and curled raised far hand retained; no detached hands.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Same thick heavy plates hinge outward with green-lit air gaps; no added weapon or helmet.",
+      "reference": [
+        "heavy"
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "20e5ddc377c5db1c348b7de63c3e497fd2e86571f23834eb5d23ea2db442c582",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Same card camera and stance; swept panels spread further and circular thruster covers open with green light."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near four fingers plus opposing thumb; raised far hand partly overlapping braid but continuous to wrist.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Same card camera and stance; swept panels spread further and circular thruster covers open with green light.",
+      "reference": [
+        "mobility"
+      ]
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "7e97be86adaafe5bfb5e4187127f907d2abe2aad517debedef36ee40c5558bca",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Striped parasol and tiled coastal terrace; she sits on a mat with one raised knee in olive/pink high-waisted halter bikini, back and legs visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand curls below chin: four curled finger contours with thumb partly occluded; far hand hidden behind torso. Two connected legs, five toes on exposed near foot; far toes partly occluded.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Striped parasol and tiled coastal terrace; she sits on a mat with one raised knee in olive/pink high-waisted halter bikini, back and legs visible.",
+      "reference": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "One brow lifts; mouth opens in asymmetric tooth-showing grin."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "Rear three-quarter seated body and raised knee match; subject fills most of frame rather than environmental long shot. Record only."
+      },
+      "clothing": {
+        "match": true,
+        "evidence": "High waistband, open back halter straps and high leg openings visible; pink/yellow flower hair ornament remains. Record retained ornament."
+      }
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "1f522ce3ff0d8f0f10efaaac63a6dd175e59b7e70c4b2cb82e0772e37f2b8969",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "Mirrored oak-floor dance studio and speaker; raised arm and offset stepping legs, white halter jersey top and olive cargo skirt. Shoulders/back/midriff visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Lower hand has four descending fingers with curved little finger and opposed thumb. Upper hand shows opposing thumb and curled fingers; one fingertip slightly clips top edge.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "Mirrored oak-floor dance studio and speaker; raised arm and offset stepping legs, white halter jersey top and olive cargo skirt. Shoulders/back/midriff visible.",
+      "reference": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "Relaxed lowered eyelids and closed neutral mouth."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "Back-facing torso turns head above near shoulder; body extends to feet rather than chosen face close-up. Small upper fingertip and foreground shoe crop recorded."
+      },
+      "clothing": {
+        "match": true,
+        "evidence": "Cargo skirt pockets and straps, white halter top, trainers; shoulders, back and midriff exposed."
+      },
+      "people": {
+        "match": true,
+        "evidence": "Far left blurred mirror reflection has no readable face or details; same reflected dancer, no competing person."
+      }
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "2de6e05dbcedbf246d181b5f3bed367bd53c1a806b1c50b3205b2a09e35e0162",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded original and WebP are 1024×1536."
+      },
+      "identity_and_form": {
+        "match": true,
+        "evidence": "White cliff and sea at sunset; camera held in both hands, veil blowing, ivory off-shoulder slit bridal dress and white sandals. Shoulders and legs visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; anatomy-check.py returned exit 3. Full originals and enlarged hand/foot crops inspected manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Shutter hand shows four fingers around grip, thumb behind camera. Lens hand fingers wrap underside and thumb opposes behind lens. Two legs connect; near toes partly hidden by sandals.",
+        "overlay_checked": false,
+        "note": "No blocking joint, limb count or digit defect observed."
+      },
+      "observations": "White cliff and sea at sunset; camera held in both hands, veil blowing, ivory off-shoulder slit bridal dress and white sandals. Shoulders and legs visible.",
+      "reference": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "Faint closed-lip smile and soft brows."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Torso supported against stone ledge; complete head and sandals visible; both hands on camera."
+      },
+      "clothing": {
+        "match": false,
+        "evidence": "Opaque bridal bodice, off-shoulder straps, high side opening and train; skirt is longer and more flowing than planned mini length. Record only; shoulder and leg exposure retained."
+      },
+      "text": {
+        "match": true,
+        "evidence": "Tiny camera label is unreadable invented marking; no recognizable brand."
+      }
+    }
+  ],
+  "skipped": [],
+  "face_comparison": {
+    "characters": [
+      "달막화",
+      "불비달마",
+      "악비아르"
+    ],
+    "evidence": "마라카치는 길게 모인 턱, 수평 아몬드 눈매와 작은 활 모양 입. 달막화의 둥근 볼·큰 눈·넓은 미소, 불비달마의 넓은 하관·도톰한 입, 악비아르의 좁고 날카로운 눈매와 구분된다.",
+    "reason": "노란 가시의 각진 선을 턱과 눈썹에, 꽃의 둥근 중심을 작고 선명한 코·활 모양 윗입술에 해석. 왕관형 긴 땋은 머리는 꽃잎의 방사형 둘레와 연결한다."
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "달막화",
+      "불비달마",
+      "악비아르"
+    ],
+    "actual_images_checked": "Their casual1–3 originals, plus this character casual1–3 side by side.",
+    "evidence": "Seated retro bikini on a lido, active dance step in jersey/cargo separates, and supported bridal camera pose on a sea cliff differ in task, place, garment silhouette and stance. Recent comparisons are hotel packing, rave bracelet adjustment, parade baton, laundry, curtain tie, spa towel, standing spa, textile market and kimono seat; no full repeated combination.",
+    "casual_look": "../pkm-atelier-img-3/img/마라카치_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     290  깜지곰_glossy_promo_f_casual1.webp\n     291  윤겔라_glossy_promo_f_casual3.webp\n     293  게을킹_glossy_promo_f_casual2.webp\n../pkm-atelier-img-3/img/마라카치_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     254  도토링_glossy_promo_f_casual3.webp\n     258  나무돌이_glossy_promo_f_casual2.webp\n     258  삐_glossy_promo_f_casual3.webp\n../pkm-atelier-img-3/img/마라카치_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     253  푸크린_glossy_promo_f_casual1.webp\n     262  식스테일_glossy_promo_f_casual1.webp\n     267  두르보_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

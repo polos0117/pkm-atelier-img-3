@@ -1,0 +1,443 @@
+{
+  "session": "maractus-dwebble-20261028-1e2fc55a",
+  "card": "마라카치",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "retro_highwaist",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "pose": "one_knee_up",
+      "expr": "playful",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "open back"
+      ],
+      "lead": "detail",
+      "example_text": "a 1950s pin-up bikini with a high-waisted bottom above the navel and a halter top"
+    },
+    {
+      "cut": 2,
+      "cat": "dance_stage",
+      "ex": "kpop_practice",
+      "garments": [
+        "skirt"
+      ],
+      "orient": "over_shoulder",
+      "frame": "face_close",
+      "pose": "dance_step",
+      "expr": "calm",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "halter neck",
+        "strapless top"
+      ],
+      "lead": "place",
+      "example_text": "a cropped jersey top and cargo mini skirt, hitting a sharp choreography pose in a practice room"
+    },
+    {
+      "cut": 3,
+      "cat": "bridal",
+      "ex": "self_wedding_shoot",
+      "garments": [
+        "dress"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "taking_photo",
+      "expr": "gentle",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "a solo bridal photoshoot on a windy sea cliff in a slit wedding gown, the veil lifting in the wind"
+    }
+  ],
+  "batch_plan": {
+    "session": "maractus-dwebble-20261028-1e2fc55a",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마라카치",
+        "species": "maractus-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "retro_highwaist",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "one_knee_up",
+            "expr": "playful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "detail",
+            "example_text": "a 1950s pin-up bikini with a high-waisted bottom above the navel and a halter top"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "kpop_practice",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "dance_step",
+            "expr": "calm",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "place",
+            "example_text": "a cropped jersey top and cargo mini skirt, hitting a sharp choreography pose in a practice room"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "self_wedding_shoot",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "taking_photo",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "light",
+            "example_text": "a solo bridal photoshoot on a windy sea cliff in a slit wedding gown, the veil lifting in the wind"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "hobbies_leisure",
+            "traditional",
+            "dance_stage",
+            "fantasy_costume",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "rear_3q",
+            "over_shoulder",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "돌살이",
+        "species": "dwebble-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "pool_float",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "holding_cup",
+            "expr": "surprised",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "angel_devil",
+            "garments": [
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "contrapposto",
+            "expr": "curious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "one-shoulder cut"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "front_lace_corset",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "sensual",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "hobbies_leisure",
+            "traditional",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "profile_close",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "Planner check passed before reserve; verify passed with matching stamps.",
+  "reservation_commit": "c98d4dc59f9d54f818da1ec42a87eb7e5c073308",
+  "selection_method": "Planner selections entered and locked in actual Preact editor; no manual scene-choice changes.",
+  "inputs": [
+    {
+      "slot": "casual1",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "A red-and-cream striped parasol casts sharp midday shadows across a tiled lido terrace.",
+          "reason": "Striped parasol and midday lido light supply location/lighting absent from the era-only bikini example."
+        },
+        {
+          "field": "outfit",
+          "content": "Pink and olive high-waisted bikini with high-cut leg openings and an open-back halter top; yellow piping echoes flower stamens.",
+          "reason": "Specifies the planned high-cut/open-back construction, palette and yellow edging absent from the example."
+        }
+      ],
+      "axes_reason": "Held seated pin-up moment uses mostly posed; pink/olive/yellow are several source color cues for balanced influence; two-piece bikini has balanced scene-led separates.",
+      "random_draws": "Planner chose these values; no separate UI random draws or manual replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    },
+    {
+      "slot": "casual2",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "The mirrored rehearsal studio has pale oak flooring and cool ceiling strips; a portable speaker sits beside the wall.",
+          "reason": "Adds oak flooring, cool ceiling strips and speaker to the practice-room example."
+        },
+        {
+          "field": "outfit",
+          "content": "A white jersey halter crop top with an opaque strapless bandeau base and an olive cargo mini skirt, worn with trainers; shoulders, upper back and midriff remain visible.",
+          "reason": "Adds jersey halter/bandeau construction and cargo color while keeping the example crop top and cargo skirt."
+        }
+      ],
+      "axes_reason": "A sharp dance step uses mostly active; single olive accent is subtle influence; separate top and skirt use prefer separates.",
+      "random_draws": "Planner chose these values; no separate UI random draws or manual replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    },
+    {
+      "slot": "casual3",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "Late-afternoon rim light turns the chalk-white cliff golden, with a sea breeze lifting salt spray below the ledge.",
+          "reason": "Adds late-afternoon cliff rim light and salt spray to the sea-cliff bridal example."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory off-shoulder mini wedding dress with a side slit and short chiffon train exposes shoulders and legs; delicate white sandals complete the outfit.",
+          "reason": "Adds the planned off-shoulder/mini construction, ivory fabric and sandals, retaining a side slit and train."
+        }
+      ],
+      "axes_reason": "Wind and camera handling use balanced movement; white bridal clothes with restrained green foliage keep subtle influence; a single dress uses balanced separates.",
+      "random_draws": "Planner chose these values; no separate UI random draws or manual replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    }
+  ]
+}
