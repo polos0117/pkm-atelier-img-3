@@ -1,0 +1,64 @@
+{
+  "stage": "9_of_9_accepted_ready_to_publish",
+  "approved_identity": {
+    "slot": "light",
+    "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-b28ee71a-3d68-4cb5-97bc-350e2d084a43.png",
+    "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9",
+    "file": "채키몽_light_glossy_promo_f.webp",
+    "sha256": "e4fe913c92328f9cf37f1005076fa3495d8106492f2253650e8abaf0cc2d26c7",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "status": "accepted",
+    "reference_slot": null
+  },
+  "face_design": {
+    "name": "채키몽",
+    "en": "Thwackey",
+    "line": "흥나숭",
+    "how": "species",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "small delicate nose",
+      "lips": "wide mouth"
+    },
+    "why": "드럼의 반복 리듬과 성장한 원숭이 윤곽을 타원 얼굴와 선명한 눈매로 구분한다.",
+    "cues": [
+      "몸 형태 upright → 얼굴형 균형 잡힌 타원형",
+      "‘several sharp teeth’ → 턱선 · 턱끝 각지고 또렷한 턱"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 각지고 또렷한 턱, 눈 간격 눈 하나 너비 안팎 → 눈 사이가 가까운 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 반묶음 → 잔곱슬 / 아프로",
+    "hair": {
+      "hairstyle": "tight curls",
+      "hair length": "medium",
+      "bangs": "curtain bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "원작 단서가 적어 분포가 빈 쪽에서 잔곱슬 / 아프로(웨이브·곱슬) · 중간 길이 · 커튼뱅 — 흥나숭에서 이어 같은 묶음",
+    "hair_cues": []
+  },
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; angular defined jaw; narrow eyes, medium size, level outer corners, close-set; straight medium brows; small delicate nose; wide mouth.",
+  "compared_characters": [
+    "흥나숭",
+    "암팰리스",
+    "트리미앙",
+    "냐스퍼"
+  ],
+  "face_comparison": "Defined oval angular jaw and narrow close-set eyes differ from Grookey short wide round face and larger eyes; medium curls are longer and more lifted. Other compared characters have different jaw, eyes and hair shapes.",
+  "source_evidence": "data/source-appearance.json entries.811 and docs/CHARACTER_FACE_DESIGNS.md #811",
+  "generated_accepted": 9,
+  "requested": 9,
+  "remote_image_commit": null,
+  "originals": "Session only; original hashes and final WebP recorded. Not promised available in another session."
+}

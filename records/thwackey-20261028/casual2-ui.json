@@ -1,0 +1,254 @@
+{
+  "fields": [
+    {
+      "checked": false,
+      "id": "search",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "id": "group",
+      "type": "select-one",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "id": "source",
+      "type": "select-one",
+      "value": "채키몽"
+    },
+    {
+      "checked": false,
+      "id": "style",
+      "type": "select-one",
+      "value": "glossy_promo"
+    },
+    {
+      "checked": false,
+      "id": "motifs",
+      "type": "text",
+      "value": ""
+    },
+    {
+      "checked": false,
+      "id": "expression",
+      "type": "select-one",
+      "value": "wistful"
+    },
+    {
+      "checked": false,
+      "id": "category",
+      "type": "select-one",
+      "value": "retro_glamour"
+    },
+    {
+      "checked": false,
+      "id": "example",
+      "type": "select-one",
+      "value": "y2k_lowrise"
+    },
+    {
+      "checked": false,
+      "id": "pose",
+      "type": "select-one",
+      "value": "bending_over"
+    },
+    {
+      "checked": false,
+      "id": "orientation",
+      "type": "select-one",
+      "value": "leaning_forward"
+    },
+    {
+      "checked": false,
+      "id": "frame",
+      "type": "select-one",
+      "value": "full_body"
+    },
+    {
+      "checked": false,
+      "id": "lens",
+      "type": "select-one",
+      "value": "documentary35"
+    },
+    {
+      "checked": false,
+      "id": "aspect",
+      "type": "select-one",
+      "value": "2:3"
+    },
+    {
+      "checked": false,
+      "id": "camera",
+      "type": "text",
+      "value": "Vertical 2:3 portrait (1024×1536)."
+    },
+    {
+      "checked": false,
+      "id": "scene",
+      "type": "textarea",
+      "value": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium."
+    },
+    {
+      "checked": false,
+      "id": "outfit",
+      "type": "textarea",
+      "value": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent."
+    },
+    {
+      "checked": false,
+      "id": "custom",
+      "type": "textarea",
+      "value": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image."
+    },
+    {
+      "checked": false,
+      "id": "axis-overall_intensity",
+      "type": "select-one",
+      "value": "strong"
+    },
+    {
+      "checked": false,
+      "id": "axis-skin_exposure",
+      "type": "select-one",
+      "value": "bold"
+    },
+    {
+      "checked": false,
+      "id": "axis-action_level",
+      "type": "select-one",
+      "value": "balanced"
+    },
+    {
+      "checked": false,
+      "id": "axis-source_influence",
+      "type": "select-one",
+      "value": "subtle"
+    },
+    {
+      "checked": false,
+      "id": "axis-separates_preference",
+      "type": "select-one",
+      "value": "prefer separates"
+    }
+  ],
+  "locks": [
+    {
+      "label": "표정 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "일상 갈래 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "장면 예시 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "자세 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "방향 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "프레이밍 · 담는 범위 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "화각 · 렌즈 느낌 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "화면 비율 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "전체 강도 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "피부 노출 정도 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "액션 비중 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "SOURCE 영향도 랜덤 잠금 해제",
+      "pressed": "true"
+    },
+    {
+      "label": "분리형 의상 선호 랜덤 잠금 해제",
+      "pressed": "true"
+    }
+  ],
+  "prompt": "CHARACTER: the same woman as the attached image — Thwackey (채키몽) personified, grass type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her. Everyday clothing chosen for the scene; her species shows only as a small accessory, a motif on the clothing or a color echo — never armor, never a creature costume. Scene, outfit, pose and camera follow the settings below.\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as the scene settings below describe; that outfit must read at first glance, keeping its own recognisable colours and parts. Her source may add one small accent at most — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as the scene settings below describe, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nSCENE (chosen):\nExpression: gaze softened and directed slightly upward or away, faint sad smile, inner brows raised\nPose: Bend forward slightly to examine or reach a low object with a balanced stance.\nOrientation: torso leaning forward with supported balance\nScene: She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.\nOutfit and props: A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.\nCategory: Build the cut around one past decade's glamour fashion, as the example names it — its silhouette, fabrics, hair-styling cues and set dressing — worn by the same adult woman in a believable scene with a concrete action. Real construction details carry the era (bias cut, dropped waist, high waist, structured bra, wiggle skirt, lurex, leg warmers), not costume-shop pastiche. Use the bold, flattering exposure that era itself would show — high-waisted swimsuits, playsuits, slips, mini dresses — in fully opaque, secure garments; keep her own haircut and colours.\nExample scene: a Y2K low-rise mini skirt, a butterfly halter top and platform sandals, posing with a flip phone at a mall fountain\nNote: Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nCamera: Vertical 2:3 portrait (1024×1536).\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: balanced — a readable moment of gentle movement, not a ratio of multiple images\nsource_influence: subtle — one restrained source-color accent or small accessory\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands.\n\nHAND TASK: her hands act naturally for the pose and scene; any idle hand rests in a relaxed, anatomically plausible position. Natural occlusion is allowed; do not force every hand or finger into view.",
+  "storage": {
+    "last": "채키몽",
+    "cards": {
+      "채키몽": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "light",
+        "baseForm": "light",
+        "params": {},
+        "scenes": {
+          "casual": {
+            "expr": "wistful",
+            "pose": "bending_over",
+            "orient": "leaning_forward",
+            "scene": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.",
+            "outfit": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.",
+            "aspect": "2:3",
+            "cat": "retro_glamour",
+            "ex": "y2k_lowrise",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "capture_method": "Actual UI control values and pressed lock buttons, transcribed to storage schema; prompt is unmodified UI output.",
+  "card": "채키몽",
+  "references": [
+    {
+      "slot": "light",
+      "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+    }
+  ],
+  "correction_reference": {
+    "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-01aa63b2-9ec3-4f54-aa68-db81804692c9.png",
+    "sha256": "b3fd9a66c25d18aa33769c66a811363e6d487c51cf0a87ac585164c1e4dc6697",
+    "role": "Second attached image, garment correction target; first attachment remained approved light."
+  }
+}

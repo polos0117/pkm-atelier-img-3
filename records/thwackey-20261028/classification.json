@@ -1,0 +1,195 @@
+{
+  "card": "채키몽",
+  "style": "glossy_promo",
+  "method": "built-in image_gen",
+  "source_retention": "session_only_sha256_recorded",
+  "images": [
+    {
+      "slot": "light",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-b28ee71a-3d68-4cb5-97bc-350e2d084a43.png",
+      "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9",
+      "file": "채키몽_light_glossy_promo_f.webp",
+      "sha256": "e4fe913c92328f9cf37f1005076fa3495d8106492f2253650e8abaf0cc2d26c7",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": null
+    },
+    {
+      "slot": "heavy",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-61a0e2a9-32aa-4820-af81-4eb492d89715.png",
+      "source_sha256": "4521abc3060f15fcf7eba2121bc1b9945d0bb39e651db5c5976616d6585a3307",
+      "file": "채키몽_heavy_glossy_promo_f.webp",
+      "sha256": "91c244521abbd1100fb03a28aa5c8a3bf6eacf9b56af7a0b106513d36eada40a",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "mobility",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-ee1861f5-6bac-4610-933f-13e17a4fd7db.png",
+      "source_sha256": "f168b46fd3336927ae0d8218f0636c09bc96c9dec3934c9a12df612ed3470339",
+      "file": "채키몽_mobility_glossy_promo_f.webp",
+      "sha256": "8087c32263d547f14d7837ed52bf40e29795c5d0394e6e12cd56c303019a2a1f",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-b8a34b32-fca5-47e5-8d4b-79364d2237d8.png",
+      "source_sha256": "d7b52ad8ac9af47f41e8cb377e60b6495a4b1ad7c6ec02cba33aede03fe127ea",
+      "file": "채키몽_light_overdrive_glossy_promo_f.webp",
+      "sha256": "db46737a314acbabc50fd27e49e4cf25a7379a628ad62f8896e02a97160bccde",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-f6758c9e-2215-4b4b-b469-03a8a141a4d9.png",
+      "source_sha256": "01924cba45df8c2ea0cd586d499705cf2f3cec45227e805d8ff9950a9afe2ee1",
+      "file": "채키몽_heavy_overdrive_glossy_promo_f.webp",
+      "sha256": "01311eef200e2c82872fccbbfc35a9c0d6379e4eff773647162324b9e21aed21",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "heavy",
+      "references": [
+        {
+          "slot": "heavy",
+          "source_sha256": "4521abc3060f15fcf7eba2121bc1b9945d0bb39e651db5c5976616d6585a3307"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-18ab5a0a-61e9-41fd-bd41-7ece2c701e50.png",
+      "source_sha256": "f151243fb45b4cd524c1134a81ebe76f8f0b986ed51f729cee061067e060f97d",
+      "file": "채키몽_mobility_overdrive_glossy_promo_f.webp",
+      "sha256": "82fc116e0d92589b3158aa4d73cd3502f479524be9177eba1c374063998fc98a",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "mobility",
+      "references": [
+        {
+          "slot": "mobility",
+          "source_sha256": "f168b46fd3336927ae0d8218f0636c09bc96c9dec3934c9a12df612ed3470339"
+        },
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "casual1",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-73e2fed7-6e8c-429a-86d6-e213adde6c87.png",
+      "source_sha256": "b1f4405273292f132da30c667a9d55f5dbb2bfe44096632200e91fda5a2226e9",
+      "file": "채키몽_glossy_promo_f_casual1.webp",
+      "sha256": "4e24da2bce204d2976d3140431c311102431e3f178fc228b840edaf908e3513c",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    },
+    {
+      "slot": "casual2",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-a3c56758-ca70-434c-9817-df403bc89298.png",
+      "source_sha256": "2d0afaea7094730f9d052364ab4f2684a9f270732083d5f8acff8fc5c9a618c1",
+      "file": "채키몽_glossy_promo_f_casual2.webp",
+      "sha256": "b6e7609b4a704192ef7b476b968376aaf5b210a3eb560957b3e56802cdbdb994",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ],
+      "correction_reference": {
+        "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-01aa63b2-9ec3-4f54-aa68-db81804692c9.png",
+        "sha256": "b3fd9a66c25d18aa33769c66a811363e6d487c51cf0a87ac585164c1e4dc6697",
+        "role": "Second attached image, garment correction target; first attachment remained approved light."
+      }
+    },
+    {
+      "slot": "casual3",
+      "source": "/workspace/scratch/4fc815c0b7ce/generated_images/exec-62da6f4e-fa17-4167-b594-e56f2f4efd32.png",
+      "source_sha256": "0ee2e111054f96cd788e2c490fdc29419d39bfca06cd85010cb642840068e2bd",
+      "file": "채키몽_glossy_promo_f_casual3.webp",
+      "sha256": "d41ae0e51a5b2ded5a50fbd8d5c38217a471e80a947cc02917311bf4eb8cace6",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "status": "accepted",
+      "reference_slot": "light",
+      "references": [
+        {
+          "slot": "light",
+          "source_sha256": "2c0ec627cc12de21e1f4959ca67e1051cd86ab7507424758140e19523ac167c9"
+        }
+      ]
+    }
+  ]
+}

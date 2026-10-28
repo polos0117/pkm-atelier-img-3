@@ -1,0 +1,586 @@
+{
+  "session": "thwackey-single-20261028-4fc8",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "채키몽",
+      "species": "thwackey-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "adult_roleplay",
+          "ex": "cat_cafe",
+          "garments": [
+            "apron",
+            "dress"
+          ],
+          "orient": "low_angle",
+          "frame": "environmental",
+          "pose": "holding_cup",
+          "expr": "flustered",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "mini length",
+            "side cutouts"
+          ],
+          "lead": "light",
+          "ui_storage": {
+            "expr": "flustered",
+            "pose": "holding_cup",
+            "orient": "low_angle",
+            "scene": "Afternoon window light crosses a pop-up cafe costume showcase; a ceramic latte cup and saucer accompany a serving tray beside the demonstration counter.",
+            "outfit": "A sage-green mini dress with a fitted opaque bodice and two small waist cutouts, a short brown frilled apron, dark-green ribbon trim and flat cream shoes; legs and narrow sides of the waist are visible.",
+            "frame": "environmental",
+            "lens": "wide24",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "adult_roleplay",
+            "ex": "cat_cafe",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "example_text": "a cat cafe event costume — a cat-ear headband, a bow choker and a frilled apron dress; serving a latte at a themed cafe",
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "Carrying latte and saucer is balanced action; green/brown trims provide strong source cues; dress with apron remains one main outfit.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "Afternoon window light crosses a pop-up cafe costume showcase; a ceramic latte cup and saucer accompany a serving tray beside the demonstration counter.",
+              "reason": "Cafe example has no time, set or serving surface; specified afternoon light and a pop-up costume showcase counter."
+            },
+            {
+              "field": "outfit",
+              "text": "A sage-green mini dress with a fitted opaque bodice and two small waist cutouts, a short brown frilled apron, dark-green ribbon trim and flat cream shoes; legs and narrow sides of the waist are visible.",
+              "reason": "Applied planned mini dress, apron and waist cutouts with sage/brown/dark-green palette while replacing rejected swimsuit concept entirely."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+            }
+          ]
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "retro_glamour",
+          "ex": "y2k_lowrise",
+          "expr": "wistful",
+          "pose": "bending_over",
+          "orient": "leaning_forward",
+          "frame": "full_body",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt"
+          ],
+          "expose": [
+            "mini length",
+            "halter neck"
+          ],
+          "lead": "action",
+          "ui_storage": {
+            "expr": "wistful",
+            "pose": "bending_over",
+            "orient": "leaning_forward",
+            "scene": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.",
+            "outfit": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.",
+            "frame": "full_body",
+            "lens": "documentary35",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.",
+            "aspect": "2:3",
+            "cat": "retro_glamour",
+            "ex": "y2k_lowrise",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "example_text": "a Y2K low-rise mini skirt, a butterfly halter top and platform sandals, posing with a flip phone at a mall fountain",
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "Opening a phone and leaning gently use balanced action; small green charm keeps source subtle; halter and denim skirt are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.",
+              "reason": "Mall fountain example lacks specific phone construction and handling; specified opening a pearl-pink clamshell hinge."
+            },
+            {
+              "field": "outfit",
+              "text": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.",
+              "reason": "Example fixes Y2K skirt, butterfly halter and platforms; added lilac/indigo/white materials, secure lining and one green charm."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+            },
+            {
+              "field": "custom",
+              "text": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.",
+              "reason": "First Y2K result rendered shorts. Partial correction applies selected skirt to second attachment while preserving scene; no planned selector changed."
+            }
+          ]
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "everyday_basic",
+          "ex": "station_wait",
+          "expr": "laughing_open",
+          "pose": "adjusting_bag",
+          "orient": "profile_close",
+          "frame": "face_close",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "coat"
+          ],
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "place",
+          "ui_storage": {
+            "expr": "laughing_open",
+            "pose": "adjusting_bag",
+            "orient": "profile_close",
+            "scene": "A glass-roofed station platform glows with cool morning reflections after rain; a round departure clock and a chestnut travel bag establish the trip.",
+            "outfit": "A cropped light-green coat with dark-green band details, worn open over an ivory strapless top; its short hem exposes a narrow band of waist and the open neckline leaves collarbones bare.",
+            "frame": "face_close",
+            "lens": "natural50",
+            "camera": "Vertical 2:3 portrait (1024×1536).",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "ex": "station_wait",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "randomLocks": {
+              "expr": true,
+              "cat": true,
+              "ex": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          },
+          "example_text": "waiting at a station in a coat and casual outfit, checking her bag and the time",
+          "random_selection": {
+            "source": "casual-plan.cjs",
+            "manual_selection_changes": []
+          },
+          "axis_reason": "Adjusting a bag strap uses balanced action; coat palette and band trim use strong source cues; coat and inner top are separates.",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "text": "A glass-roofed station platform glows with cool morning reflections after rain; a round departure clock and a chestnut travel bag establish the trip.",
+              "reason": "Station example has no weather or architecture; added rain reflections, glass roof and round clock as trip cues."
+            },
+            {
+              "field": "outfit",
+              "text": "A cropped light-green coat with dark-green band details, worn open over an ivory strapless top; its short hem exposes a narrow band of waist and the open neckline leaves collarbones bare.",
+              "reason": "Planned cropped open coat and strapless layer expose collarbones/waist; green bands keep selected strong source influence."
+            },
+            {
+              "field": "camera",
+              "text": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+            }
+          ]
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": true,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_sensual",
+          "everyday_basic",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "cat_cafe",
+      "garments": [
+        "apron",
+        "dress"
+      ],
+      "orient": "low_angle",
+      "frame": "environmental",
+      "pose": "holding_cup",
+      "expr": "flustered",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "ui_storage": {
+        "expr": "flustered",
+        "pose": "holding_cup",
+        "orient": "low_angle",
+        "scene": "Afternoon window light crosses a pop-up cafe costume showcase; a ceramic latte cup and saucer accompany a serving tray beside the demonstration counter.",
+        "outfit": "A sage-green mini dress with a fitted opaque bodice and two small waist cutouts, a short brown frilled apron, dark-green ribbon trim and flat cream shoes; legs and narrow sides of the waist are visible.",
+        "frame": "environmental",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "adult_roleplay",
+        "ex": "cat_cafe",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_text": "a cat cafe event costume — a cat-ear headband, a bow choker and a frilled apron dress; serving a latte at a themed cafe",
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "Carrying latte and saucer is balanced action; green/brown trims provide strong source cues; dress with apron remains one main outfit.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "Afternoon window light crosses a pop-up cafe costume showcase; a ceramic latte cup and saucer accompany a serving tray beside the demonstration counter.",
+          "reason": "Cafe example has no time, set or serving surface; specified afternoon light and a pop-up costume showcase counter."
+        },
+        {
+          "field": "outfit",
+          "text": "A sage-green mini dress with a fitted opaque bodice and two small waist cutouts, a short brown frilled apron, dark-green ribbon trim and flat cream shoes; legs and narrow sides of the waist are visible.",
+          "reason": "Applied planned mini dress, apron and waist cutouts with sage/brown/dark-green palette while replacing rejected swimsuit concept entirely."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "y2k_lowrise",
+      "expr": "wistful",
+      "pose": "bending_over",
+      "orient": "leaning_forward",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt"
+      ],
+      "expose": [
+        "mini length",
+        "halter neck"
+      ],
+      "lead": "action",
+      "ui_storage": {
+        "expr": "wistful",
+        "pose": "bending_over",
+        "orient": "leaning_forward",
+        "scene": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.",
+        "outfit": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.",
+        "aspect": "2:3",
+        "cat": "retro_glamour",
+        "ex": "y2k_lowrise",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_text": "a Y2K low-rise mini skirt, a butterfly halter top and platform sandals, posing with a flip phone at a mall fountain",
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "Opening a phone and leaning gently use balanced action; small green charm keeps source subtle; halter and denim skirt are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "She clicks open the hinge of a pearl-pink clamshell phone beside a low fountain rim in a sunlit mall atrium.",
+          "reason": "Mall fountain example lacks specific phone construction and handling; specified opening a pearl-pink clamshell hinge."
+        },
+        {
+          "field": "outfit",
+          "text": "A lilac butterfly halter top with a securely lined bodice, a low-rise indigo denim mini skirt and white platform sandals expose shoulders, midriff and legs; a tiny green phone charm provides one color accent.",
+          "reason": "Example fixes Y2K skirt, butterfly halter and platforms; added lilac/indigo/white materials, secure lining and one green charm."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+        },
+        {
+          "field": "custom",
+          "text": "Partial correction of the second attached image: replace only its denim shorts with a low-rise denim mini skirt with one continuous hem. Preserve the existing scene and all other details of that image.",
+          "reason": "First Y2K result rendered shorts. Partial correction applies selected skirt to second attachment while preserving scene; no planned selector changed."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "everyday_basic",
+      "ex": "station_wait",
+      "expr": "laughing_open",
+      "pose": "adjusting_bag",
+      "orient": "profile_close",
+      "frame": "face_close",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "coat"
+      ],
+      "expose": [
+        "cropped hem",
+        "strapless top"
+      ],
+      "lead": "place",
+      "ui_storage": {
+        "expr": "laughing_open",
+        "pose": "adjusting_bag",
+        "orient": "profile_close",
+        "scene": "A glass-roofed station platform glows with cool morning reflections after rain; a round departure clock and a chestnut travel bag establish the trip.",
+        "outfit": "A cropped light-green coat with dark-green band details, worn open over an ivory strapless top; its short hem exposes a narrow band of waist and the open neckline leaves collarbones bare.",
+        "frame": "face_close",
+        "lens": "natural50",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "everyday_basic",
+        "ex": "station_wait",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "randomLocks": {
+          "expr": true,
+          "cat": true,
+          "ex": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_text": "waiting at a station in a coat and casual outfit, checking her bag and the time",
+      "random_selection": {
+        "source": "casual-plan.cjs",
+        "manual_selection_changes": []
+      },
+      "axis_reason": "Adjusting a bag strap uses balanced action; coat palette and band trim use strong source cues; coat and inner top are separates.",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "text": "A glass-roofed station platform glows with cool morning reflections after rain; a round departure clock and a chestnut travel bag establish the trip.",
+          "reason": "Station example has no weather or architecture; added rain reflections, glass roof and round clock as trip cues."
+        },
+        {
+          "field": "outfit",
+          "text": "A cropped light-green coat with dark-green band details, worn open over an ivory strapless top; its short hem exposes a narrow band of waist and the open neckline leaves collarbones bare.",
+          "reason": "Planned cropped open coat and strapless layer expose collarbones/waist; green bands keep selected strong source influence."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size parameter; project rule requires explicit 1024x1536 camera line."
+        }
+      ]
+    }
+  ],
+  "check": "casual-ledger.py check --fresh passed; reservation stamp verified before generation",
+  "reservation_commits": [
+    "37fc2e1ba727c86dd466adc244f6481b4b4440a7",
+    "27138bf37d14718aeff7a3d6fa62079b544cc0b4"
+  ],
+  "kept_note": "kept cuts were protected generated selections, not claimed as already remotely registered at replan time.",
+  "replans": [
+    {
+      "slot": 1,
+      "reason": "Swimsuit event request terminal moderation_blocked with no output. Did not retry it; replaced swimsuit/pool-stage scenario with nonsexual opaque apron-dress cafe event, different activity, setting and viewpoint. Sailor-stage draft was not submitted."
+    },
+    {
+      "slot": 2,
+      "reason": "First result rendered denim shorts. Attached approved light first and rejected Y2K target second for localized continuous skirt-hem correction."
+    }
+  ],
+  "visual_comparison": {
+    "cards": [
+      "흥나숭",
+      "암팰리스",
+      "트리미앙",
+      "냐스퍼"
+    ],
+    "result": "Reviewed all current casual cuts side by side and recent actual images. Low-view latte/apron display, full-body phone-at-fountain fashion and bag/clock station portrait differ in activity, clothes, framing and silhouette; do not reproduce previous casual sequence."
+  }
+}
