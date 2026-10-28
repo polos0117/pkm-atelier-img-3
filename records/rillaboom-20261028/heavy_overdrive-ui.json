@@ -1,0 +1,53 @@
+{
+  "card": "고릴타",
+  "storage": {
+    "last": "고릴타",
+    "cards": {
+      "고릴타": {
+        "style": "glossy_promo",
+        "identityMode": "reference",
+        "form": "overdrive",
+        "baseForm": "heavy",
+        "faceDesignOn": true,
+        "params": {
+          "apparent age": "20s"
+        },
+        "motifs": "",
+        "headFeature": "",
+        "formOverride": "",
+        "mode": "action",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "axes": {},
+            "action": {},
+            "randomLocks": {}
+          }
+        }
+      }
+    }
+  },
+  "prompt": "INPUT: attach this character's heavy-form card image (the closed state). If a second image fits, add her approved light-form image for the face.\n\nSOURCE: Rillaboom (고릴타), grass type.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nOUTPUT: the OPENED (overdrive) state of the attached image. Keep its camera, pose, framing, subject scale, face, hair, body and every armor piece exactly. Change only this: the stacked outer plates swing away from the inner layer on their hinges, leaving wide air gaps, revealing the inner frame, and a green glow with drifting leaves and pollen sparks shows through the gaps, lighting the undersides of the opened plates; her eyes keep their color with only a glint of that light, and her expression tightens with the strain. No new armor, no new helmet, no weapon. The pair must read as the same picture before and after she opens up.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: keep both hands as in the attached image; the glow and spray stay off the fingers.",
+  "capture_method": "Actual generator UI selections; local engine serialization verified against visible prompt output.",
+  "references": [
+    {
+      "slot": "heavy",
+      "source_sha256": "e35902d34c01796be436cd4076352dbc30741e26866298eebf442ecb8486a54e",
+      "webp_sha256": "7524446dab2f58e23422d523582c64280af2a640bba1b9252dc6dabee3ee318d"
+    },
+    {
+      "slot": "light",
+      "source_sha256": "0acda4310572210fb8fbf9c751775d831bfa6d21fe8b2f865c8e271ac71a212c",
+      "webp_sha256": "aabd0193a37da497b625219a71529d00a4a91dd1210a72177a50ff218a36f496"
+    }
+  ]
+}

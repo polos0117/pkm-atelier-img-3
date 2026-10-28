@@ -1,0 +1,595 @@
+{
+  "card": "고릴타",
+  "batch_plan": {
+    "session": "rillaboom-scorbunny-26bd",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고릴타",
+        "species": "rillaboom-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "occupation_sensual",
+            "ex": "deep_dive_specialist",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "focused",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "satin_teddy",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "side",
+            "frame": "waist_up",
+            "pose": "perched_seat",
+            "expr": "provocative",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "dance_stage",
+            "ex": "tango_solo",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "on_tiptoe",
+            "expr": "laughing",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "shirt",
+            "dress"
+          ],
+          "orient": [
+            "reclining",
+            "side",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "염버니",
+        "species": "scorbunny-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "cutout_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "seated_twist",
+            "frame": "full_body",
+            "pose": "sitting",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "active",
+            "ex": "light_jog",
+            "garments": [
+              "leggings",
+              "tank"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "mid_stride",
+            "expr": "exhausted",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "front",
+            "frame": "face_close",
+            "pose": "kneeling",
+            "expr": "nostalgic",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings"
+          ],
+          "orient": [
+            "seated_twist",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "final_reserved_plan": {
+    "species": "rillaboom-20261028",
+    "card": "고릴타",
+    "at": "2026-10-27T23:17:17-05:00",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "occupation_sensual",
+        "ex": "deep_dive_specialist",
+        "expr": "focused",
+        "pose": "cross_legged",
+        "orient": "reclining",
+        "frame": "chest_up",
+        "lens": "wide24",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "garments": [
+          "shirt",
+          "trousers"
+        ],
+        "expose": [
+          "mini length",
+          "side cutouts"
+        ],
+        "lead": "place",
+        "kept": true
+      },
+      {
+        "cut": 2,
+        "cat": "lingerie",
+        "ex": "satin_teddy",
+        "expr": "provocative",
+        "pose": "perched_seat",
+        "orient": "side",
+        "frame": "waist_up",
+        "lens": "portrait85",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "lingerie_set"
+        ],
+        "expose": [
+          "high-cut leg",
+          "plunging neckline"
+        ],
+        "lead": "detail",
+        "kept": true
+      },
+      {
+        "cut": 3,
+        "cat": "festivals_contests",
+        "ex": "fest_illumination",
+        "expr": "laughing",
+        "pose": "holding_cup",
+        "orient": "low_angle",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "garments": [
+          "overalls"
+        ],
+        "expose": [
+          "mini length",
+          "side cutouts"
+        ],
+        "lead": "place"
+      }
+    ],
+    "stamp": "72e9af9400f472da2a2a1b2c1c072a80b74ee86ad650b9ae40aee5ff657bab84"
+  },
+  "reservation_session": "rillaboom-scorbunny-26bd",
+  "reservation_at": "2026-10-27T23:23:30-05:00",
+  "planner_check": "passed by tools/casual-plan.cjs; stamped reservation verified",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "occupation_sensual",
+      "ex": "deep_dive_specialist",
+      "expr": "focused",
+      "pose": "cross_legged",
+      "orient": "reclining",
+      "frame": "chest_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "kept": true,
+      "example_text": "Water-Pokémon dive researcher checking mask straps and a waterproof observation slate at a shoreline research base.",
+      "ui": {
+        "expr": "focused",
+        "pose": "cross_legged",
+        "orient": "reclining",
+        "scene": "At the shoreline research base's shaded teak deck, late-morning reflections ripple across a waterproof observation slate propped beside her while her fingers adjust a diving-mask strap.",
+        "outfit": "A forest-green cropped short-sleeve shirt has side waist cutouts; tailored orange mini-length short trousers leave her thighs bare.",
+        "frame": "chest_up",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "occupation_sensual",
+        "ex": "deep_dive_specialist"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At the shoreline research base's shaded teak deck, late-morning reflections ripple across a waterproof observation slate propped beside her while her fingers adjust a diving-mask strap.",
+          "reason": "Adds the specific lighting and nearby objects used by this deep_dive_specialist setting: At the shoreline research base's shaded teak deck, late-morning reflections ripple across a waterproof observation slate propped beside her while her fingers adjust a diving-mask strap."
+        },
+        {
+          "field": "outfit",
+          "content": "A forest-green cropped short-sleeve shirt has side waist cutouts; tailored orange mini-length short trousers leave her thighs bare.",
+          "reason": "Specifies the reserved shirt, trousers construction and mini length, side cutouts for this deep_dive_specialist scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed matches the held/active moment in Water-Pokémon dive researcher checking mask straps and a waterproof observation slate at a shoreline research base.",
+        "source_influence": "strong uses the particular clothing colors and accents in A forest-green cropped short-sleeve shirt has side waist cutouts; tailored orange mini-length short trousers leave her thighs bare.",
+        "separates_preference": "prefer separates matches shirt, trousers"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "satin_teddy",
+      "expr": "provocative",
+      "pose": "perched_seat",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "detail",
+      "kept": true,
+      "example_text": "a satin teddy — a single-piece lingerie garment from neckline to hip in one smooth deep colour",
+      "ui": {
+        "expr": "provocative",
+        "pose": "perched_seat",
+        "orient": "side",
+        "scene": "A folded emerald satin sash rests on a velvet dressing-room ottoman under warm amber vanity bulbs.",
+        "outfit": "Deep forest-green opaque satin teddy with high-cut legs, a plunging neckline and slender orange piping.",
+        "frame": "waist_up",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "lingerie",
+        "ex": "satin_teddy"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A folded emerald satin sash rests on a velvet dressing-room ottoman under warm amber vanity bulbs.",
+          "reason": "Adds the specific lighting and nearby objects used by this satin_teddy setting: A folded emerald satin sash rests on a velvet dressing-room ottoman under warm amber vanity bulbs."
+        },
+        {
+          "field": "outfit",
+          "content": "Deep forest-green opaque satin teddy with high-cut legs, a plunging neckline and slender orange piping.",
+          "reason": "Specifies the reserved lingerie_set construction and high-cut leg, plunging neckline for this satin_teddy scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "mostly posed matches the held/active moment in a satin teddy — a single-piece lingerie garment from neckline to hip in one smooth deep colour",
+        "source_influence": "balanced uses the particular clothing colors and accents in Deep forest-green opaque satin teddy with high-cut legs, a plunging neckline and slender orange piping.",
+        "separates_preference": "balanced matches lingerie_set"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    },
+    {
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_illumination",
+      "expr": "laughing",
+      "pose": "holding_cup",
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "mini length",
+        "side cutouts"
+      ],
+      "lead": "place",
+      "example_text": "Strolling under a tunnel of winter illumination lights, holding a warm drink in gloved hands.",
+      "ui": {
+        "expr": "laughing",
+        "pose": "holding_cup",
+        "orient": "low_angle",
+        "scene": "At the covered winter riverfront promenade, white-and-amber illumination arches over frosted paving; steam rises from a small ceramic berry-tea cup.",
+        "outfit": "Forest-green mini overalls with side waist cutouts, a fitted orange bandeau beneath, thin cream full-finger gloves and light canvas shoes.",
+        "frame": "three_quarter",
+        "lens": "portrait85",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        },
+        "cat": "festivals_contests",
+        "ex": "fest_illumination"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "At the covered winter riverfront promenade, white-and-amber illumination arches over frosted paving; steam rises from a small ceramic berry-tea cup.",
+          "reason": "Adds the specific lighting and nearby objects used by this fest_illumination setting: At the covered winter riverfront promenade, white-and-amber illumination arches over frosted paving; steam rises from a small ceramic berry-tea cup."
+        },
+        {
+          "field": "outfit",
+          "content": "Forest-green mini overalls with side waist cutouts, a fitted orange bandeau beneath, thin cream full-finger gloves and light canvas shoes.",
+          "reason": "Specifies the reserved overalls construction and mini length, side cutouts for this fest_illumination scene."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool exposes no size control; state the required vertical 1024×1536 output in the camera field."
+        }
+      ],
+      "axes_reason": {
+        "action_level": "balanced matches the held/active moment in Strolling under a tunnel of winter illumination lights, holding a warm drink in gloved hands.",
+        "source_influence": "strong uses the particular clothing colors and accents in Forest-green mini overalls with side waist cutouts, a fitted orange bandeau beneath, thin cream full-finger gloves and light canvas shoes.",
+        "separates_preference": "balanced matches overalls"
+      },
+      "random_values": "Planner chose all values; no manual random draw; UI values transcribed as selected.",
+      "changes": "Planner --avoid used for incompatible scene controls; final stamped values preserved."
+    }
+  ],
+  "execution": "Actual UI selections and unmodified visible prompt; built-in image_gen, one call per final slot; no CLI image API.",
+  "replanning": "Excluded kneeling and tiptoe reaching for solo tango; planner selected winter illumination scene. No image was submitted for abandoned tango."
+}
