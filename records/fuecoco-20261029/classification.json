@@ -1,0 +1,266 @@
+[
+  {
+    "card": "뜨아거",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in light-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-bc7b5d55-ff60-4fd6-adee-26fbcfc884a1.png",
+      "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a",
+      "session_only": true
+    },
+    "references": [],
+    "output": {
+      "file": "뜨아거_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "50ee4da1900d3c862edcbd0e2f0c2fa4035e7af95dd59bef7467fe2b717268e3",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in heavy-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-f7ab03b0-4112-4019-9586-51afdaaf024c.png",
+      "sha256": "24d157b2777ae1e70487cf9be0746aa9f601407f2102b99644be1fe0dc2e0d1b",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "1ca5bccf700a0aa3c08a120b3b2928ea89cbd253d5db0f5e6ec7419af6c8f10f",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in mobility-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-1f73ab03-c51c-4873-ad5a-921739982cd9.png",
+      "sha256": "52184c63a8f4e384f147954bd37d9bd0202612a64fb815481bfc86d76542de32",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "29ed3390f8b2b5353de3b964e5d6f8fe4e85932b7f605962fac74be4c1829e16",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in light_overdrive-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-7cd88112-1ba1-4b21-b3dd-2643c271a1b1.png",
+      "sha256": "13bc7649ed955a2efaf15aa72004755c03e52917a887e927fc44ffac32751058",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "871d2b3fe3410b76d401ac24e569ed222eb737ba12e9b8a57e35d34bf498bd36",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in heavy_overdrive-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-4c69093f-3808-488c-bd7e-d632d230f457.png",
+      "sha256": "a90d62aff5b969f08700b02c7bba284178209665d2a2b8c9c4b3831c5fa99fbf",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "heavy",
+        "sha256": "24d157b2777ae1e70487cf9be0746aa9f601407f2102b99644be1fe0dc2e0d1b"
+      },
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "de073344dde63dd533a23bd21c14577725d71261c88c3c4f815dd73c9fbe47c7",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in mobility_overdrive-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-143ca3ce-3749-4950-9274-033aa56d827f.png",
+      "sha256": "72eeec7f3d58d3e5e593778204b8c40d70474285498854ab0440d65c317c73a5",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "mobility",
+        "sha256": "52184c63a8f4e384f147954bd37d9bd0202612a64fb815481bfc86d76542de32"
+      },
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "b0bd6eed70c415a75e6e65d9e9018780a9203532358f6f583c81aacbcd8ef62f",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in casual1-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-583dd5a1-c2c1-4a30-b6d3-20d9e45e3d02.png",
+      "sha256": "000146c5e73c47feae07d520162b8e2af04a21b7bef0ed52995c099db397be8f",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "7482d9ac602c739f7dd3551915f8e3b95903b6707ca663b9790e1136e94a75a3",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in casual3-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-ea8ece4f-1dac-4afe-ae98-cd271f751c68.png",
+      "sha256": "d07da80471ea26a962c0fbdf326adf8fa754fb8e976253fad29a9965efdcfa54",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "06a7dc4774fd2b469240fb9d9766167c9327ea97699cdb1bf13f012a7d18e5bc",
+      "quality": 85,
+      "method": 6
+    }
+  },
+  {
+    "card": "뜨아거",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual Chromium #style selection captured in casual2-ui.json",
+    "source": {
+      "session_path": "/workspace/scratch/9f530958a888/generated_images/exec-c12e44f5-c5a5-4a82-b356-54ff3f4fe126.png",
+      "sha256": "870eb5763f4e0a968bcaa95868d48239436c010810a1c7753102d70f2a76e93d",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a"
+      }
+    ],
+    "output": {
+      "file": "뜨아거_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "sha256": "af878a40189a0ea5e5c9b3415d5d26122874a672673e9ac238063e7a10919c35",
+      "quality": 85,
+      "method": 6
+    }
+  }
+]

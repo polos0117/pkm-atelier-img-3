@@ -1,0 +1,267 @@
+{
+  "card": "뜨아거",
+  "slots": {
+    "light": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a",
+      "image_sha256": "50ee4da1900d3c862edcbd0e2f0c2fa4035e7af95dd59bef7467fe2b717268e3",
+      "observations": "One clearly adult human woman with short tousled red/gold hair, broad round face and red/cream slim armor. Head and boot tips inside margins. Two arms and legs attach naturally; open palm has five digits.",
+      "identity_reference": [],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "heavy": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "24d157b2777ae1e70487cf9be0746aa9f601407f2102b99644be1fe0dc2e0d1b",
+      "image_sha256": "1ca5bccf700a0aa3c08a120b3b2928ea89cbd253d5db0f5e6ec7419af6c8f10f",
+      "observations": "Same face, hair and body size. Thick broad red/gold overlapping plates across shoulders, forearms, pelvis, thighs and shins; open-face temple/crown pieces leave face readable.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "mobility": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "52184c63a8f4e384f147954bd37d9bd0202612a64fb815481bfc86d76542de32",
+      "image_sha256": "29ed3390f8b2b5353de3b964e5d6f8fe4e85932b7f605962fac74be4c1829e16",
+      "observations": "Same adult anchor identity; thin swept red panels and compact orange thrusters at shoulders, hips and calves. Human silhouette remains readable with no giant wings or weapons.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "light_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "13bc7649ed955a2efaf15aa72004755c03e52917a887e927fc44ffac32751058",
+      "image_sha256": "871d2b3fe3410b76d401ac24e569ed222eb737ba12e9b8a57e35d34bf498bd36",
+      "observations": "Same camera, stance and scale as light. Opened red plate seams expose orange fire light; no new weapon.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "heavy_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "a90d62aff5b969f08700b02c7bba284178209665d2a2b8c9c4b3831c5fa99fbf",
+      "image_sha256": "de073344dde63dd533a23bd21c14577725d71261c88c3c4f815dd73c9fbe47c7",
+      "observations": "Same heavy arrangement and composition, with lifted rims and orange light in layer gaps.",
+      "identity_reference": [
+        "heavy",
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "mobility_overdrive": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "72eeec7f3d58d3e5e593778204b8c40d70474285498854ab0440d65c317c73a5",
+      "image_sha256": "b0bd6eed70c415a75e6e65d9e9018780a9203532358f6f583c81aacbcd8ef62f",
+      "observations": "Swept mobility panels keep camera and body pose; thrusters and opening seams glow orange.",
+      "identity_reference": [
+        "mobility",
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Open near hand has five distinct digits (one opposing thumb, four fingers); far hand is a loose fist with folded digits naturally overlapping. Both wrists and elbows are attached correctly.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      }
+    },
+    "casual1": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "000146c5e73c47feae07d520162b8e2af04a21b7bef0ed52995c099db397be8f",
+      "image_sha256": "7482d9ac602c739f7dd3551915f8e3b95903b6707ca663b9790e1136e94a75a3",
+      "observations": "Both hands grip paddle shaft at different heights on a visible board in a calm turquoise bay; red two-piece swimsuit exposes midriff/back. Face is toward camera in a side body angle. Image reaches upper thighs instead of chest-up; pose/frame deviations are record-only. Feet and lower legs are outside crop.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Upper shaft hand is partly cut at left frame edge with fingers wrapped around paddle; lower hand shows curled fingers and opposing thumb. Two separate arms connect to shoulders.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "kept": true,
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "paddle_board",
+          "expr": "calm",
+          "pose": "leaning_furniture",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        "observed": "Both hands grip paddle shaft at different heights on a visible board in a calm turquoise bay; red two-piece swimsuit exposes midriff/back. Face is toward camera in a side body angle. Image reaches upper thighs instead of chest-up; pose/frame deviations are record-only. Feet and lower legs are outside crop."
+      }
+    },
+    "casual3": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "d07da80471ea26a962c0fbdf326adf8fa754fb8e976253fad29a9965efdcfa54",
+      "image_sha256": "06a7dc4774fd2b469240fb9d9766167c9327ea97699cdb1bf13f012a7d18e5bc",
+      "observations": "On a flower-decked float with petal basket, one hand tossing petals over the rail. Orange one-shoulder top and red festival skirt remain distinct from swimwear and vest. Face-close selection resulted in a much wider thigh crop; gaze and expression are softer/hopeful than nostalgic. These are recorded deviations; hands are visible with natural petal occlusion and depth blur.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Petal-tossing hand is deliberately depth-blurred with fingers separated behind petals, partly obscured. Basket hand fingers drape over rim, thumb and some fingertips naturally hidden by flowers/rim. Both wrists join forearms.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "kept": true,
+          "cut": 3,
+          "cat": "festivals_contests",
+          "ex": "fest_parade",
+          "expr": "nostalgic",
+          "pose": "mid_stride",
+          "orient": "front",
+          "frame": "face_close",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt",
+            "tank"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        },
+        "observed": "On a flower-decked float with petal basket, one hand tossing petals over the rail. Orange one-shoulder top and red festival skirt remain distinct from swimwear and vest. Face-close selection resulted in a much wider thigh crop; gaze and expression are softer/hopeful than nostalgic. These are recorded deviations; hands are visible with natural petal occlusion and depth blur."
+      }
+    },
+    "casual2": {
+      "reviewer": "gpt",
+      "accepted": true,
+      "source_sha256": "870eb5763f4e0a968bcaa95868d48239436c010810a1c7753102d70f2a76e93d",
+      "image_sha256": "af878a40189a0ea5e5c9b3415d5d26122874a672673e9ac238063e7a10919c35",
+      "observations": "At arena broadcast desk with match notes and headset, turning toward camera; two feet/legs fully visible. Red cropped vest and cream skirt fit scene. Split-ball emblems on headset, cup and screens were removed by targeted edit; tiny screen glyphs remain fictional/unreadable. Crowd is distant blurred silhouettes.",
+      "identity_reference": [
+        "light"
+      ],
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (attempt logged; IMAGE_RULES manual visual fallback)",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Headset hand has thumb/index touching microphone and other digits flexed; clipboard hand has four fingers against board, thumb on far side. No extra hand.",
+        "overlay_checked": false,
+        "note": "Full-resolution original and enlarged hand crops reviewed; no extra/detached limb observed. Cropped or occluded parts are not asserted to be fully visible."
+      },
+      "selection_comparison": {
+        "planned": {
+          "kept": true,
+          "cut": 2,
+          "cat": "occupation_sensual",
+          "ex": "test_pilot_brief",
+          "expr": "confident",
+          "pose": "mid_action",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt",
+            "vest"
+          ],
+          "expose": [
+            "cropped hem",
+            "side cutouts"
+          ],
+          "lead": "light"
+        },
+        "observed": "At arena broadcast desk with match notes and headset, turning toward camera; two feet/legs fully visible. Red cropped vest and cream skirt fit scene. Split-ball emblems on headset, cup and screens were removed by targeted edit; tiny screen glyphs remain fictional/unreadable. Crowd is distant blurred silhouettes."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬",
+      "마스카나"
+    ],
+    "method": "Actual full images viewed side by side; labels or prompt differences alone were not used.",
+    "observations": "Paddleboard water activity, full-body arena commentator work and face-close floral parade differ in setting, task, clothing and crop; unlike Meowscarada equipment-floor and evening dress scenes.",
+    "similarity_check": "tools/casual-look.cjs check passed; no near-duplicate under required threshold."
+  }
+}

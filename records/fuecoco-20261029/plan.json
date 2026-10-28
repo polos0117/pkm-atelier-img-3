@@ -1,0 +1,816 @@
+{
+  "batch_plan": {
+    "session": "meowscarada-fuecoco-20261029-9f53",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마스카나",
+        "species": "meowscarada-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "occupation_basic",
+            "ex": "hv_battery_tech",
+            "expr": "playful",
+            "pose": "sitting_floor",
+            "orient": "seated_twist",
+            "frame": "environmental",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "apron",
+              "trousers"
+            ],
+            "expose": [
+              "strapless top",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "festival_steps",
+            "garments": [
+              "dress"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "standing_relaxed",
+            "expr": "cold_smile",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "mini length"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "retro_glamour",
+            "ex": "swing_dress",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "sensual",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "active",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "three_quarter_back",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "뜨아거",
+        "species": "fuecoco-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "paddle_board",
+            "expr": "calm",
+            "pose": "leaning_furniture",
+            "orient": "side",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "swimsuit"
+            ],
+            "expose": [
+              "bare midriff",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "occupation_sensual",
+            "ex": "test_pilot_brief",
+            "expr": "confident",
+            "pose": "mid_action",
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "vest"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "festivals_contests",
+            "ex": "fest_parade",
+            "expr": "nostalgic",
+            "pose": "mid_stride",
+            "orient": "front",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "skirt",
+              "tank"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "characters": [
+    {
+      "card": "뜨아거",
+      "species": "fuecoco-20261029",
+      "cuts": [
+        {
+          "kept": true,
+          "cut": 1,
+          "cat": "swimwear",
+          "ex": "paddle_board",
+          "expr": "calm",
+          "pose": "leaning_furniture",
+          "orient": "side",
+          "frame": "chest_up",
+          "lens": "natural50",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "swimsuit"
+          ],
+          "expose": [
+            "bare midriff",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "occupation_sensual",
+          "ex": "test_pilot_brief",
+          "expr": "confident",
+          "pose": "mid_action",
+          "orient": "turning_midmotion",
+          "frame": "full_body",
+          "lens": "portrait85",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt",
+            "vest"
+          ],
+          "expose": [
+            "cropped hem",
+            "side cutouts"
+          ],
+          "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "festivals_contests",
+          "ex": "fest_parade",
+          "expr": "nostalgic",
+          "pose": "mid_stride",
+          "orient": "front",
+          "frame": "face_close",
+          "lens": "documentary35",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "skirt",
+            "tank"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [],
+        "orient": [],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "paddle_board",
+      "expr": "calm",
+      "pose": "leaning_furniture",
+      "orient": "side",
+      "frame": "chest_up",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "bare midriff",
+        "open back"
+      ],
+      "lead": "place",
+      "actual_scene_settings": {
+        "expr": "calm",
+        "pose": "leaning_furniture",
+        "orient": "side",
+        "scene": "In a sheltered turquoise bay, tiny ripples spread out from the paddle blade beside the board.",
+        "outfit": "A red two-piece swimsuit with a backless halter top and high-waisted briefs, leaving the midriff and back exposed.",
+        "frame": "chest_up",
+        "lens": "natural50",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "paddle_board",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: standing on a paddleboard in a swimsuit on a calm bay, the paddle mid-stroke",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "A paddle stroke supplies natural moderate movement in the calm bay.",
+        "source_influence": "Red swim fabric is a subtle color echo without species ornaments.",
+        "separates_preference": "A matched two-piece swimsuit follows the selected swimsuit silhouette."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "In a sheltered turquoise bay, tiny ripples spread out from the paddle blade beside the board.",
+          "reason": "Selected example does not specify the local lighting and background materials; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A red two-piece swimsuit with a backless halter top and high-waisted briefs, leaving the midriff and back exposed.",
+          "reason": "Selected example does not specify the garment cut, materials and source color accents; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "occupation_sensual",
+      "ex": "test_pilot_brief",
+      "expr": "confident",
+      "pose": "mid_action",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "vest"
+      ],
+      "expose": [
+        "cropped hem",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "actual_scene_settings": {
+        "expr": "confident",
+        "pose": "mid_action",
+        "orient": "turning_midmotion",
+        "scene": "Warm arena spotlights reflect along the broadcast desk while match diagrams glow on the small monitor beside her notes.",
+        "outfit": "A bright red cropped commentator vest with side cutouts and a cream short skirt, baring the waist and upper thighs; a compact headset is the working accessory.",
+        "frame": "full_body",
+        "lens": "portrait85",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "occupation_sensual",
+        "catCustom": "",
+        "ex": "test_pilot_brief",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: Pokémon battle commentator checking a headset and reviewing match notes at an arena broadcast desk.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "Checking headset and match notes makes an active working moment.",
+        "source_influence": "Red and cream vest-and-skirt colors keep the source recognizable without armor.",
+        "separates_preference": "A cropped vest and separate skirt make the commentator costume distinct."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Warm arena spotlights reflect along the broadcast desk while match diagrams glow on the small monitor beside her notes.",
+          "reason": "Selected example does not specify the local lighting and background materials; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A bright red cropped commentator vest with side cutouts and a cream short skirt, baring the waist and upper thighs; a compact headset is the working accessory.",
+          "reason": "Selected example does not specify the garment cut, materials and source color accents; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "festivals_contests",
+      "ex": "fest_parade",
+      "expr": "nostalgic",
+      "pose": "mid_stride",
+      "orient": "front",
+      "frame": "face_close",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "skirt",
+        "tank"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "actual_scene_settings": {
+        "expr": "nostalgic",
+        "pose": "mid_stride",
+        "orient": "front",
+        "scene": "Petals spill past the flower-covered float rail as bright morning light catches the passing streamers.",
+        "outfit": "A one-shoulder orange tank with an off-shoulder neckline and a short red festival skirt, leaving one shoulder and the legs exposed.",
+        "frame": "face_close",
+        "lens": "documentary35",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "festivals_contests",
+        "catCustom": "",
+        "ex": "fest_parade",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: Riding a flower-decked parade float and tossing petals toward the street below.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner-generated values, no manual selection edits.",
+      "axes_reasons": {
+        "action_level": "Tossing petals from a moving parade float provides the selected active scene.",
+        "source_influence": "Warm red/orange fabric is a small source echo in the close framing.",
+        "separates_preference": "A tank and separate festival skirt follow the plan."
+      },
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Petals spill past the flower-covered float rail as bright morning light catches the passing streamers.",
+          "reason": "Selected example does not specify the local lighting and background materials; this supplies those details while retaining its activity and clothing type."
+        },
+        {
+          "field": "outfit",
+          "content": "A one-shoulder orange tank with an off-shoulder neckline and a short red festival skirt, leaving one shoulder and the legs exposed.",
+          "reason": "Selected example does not specify the garment cut, materials and source color accents; this supplies those details while retaining its activity and clothing type."
+        }
+      ]
+    }
+  ],
+  "planner_check": "passed with --fresh and Git inventory adapter",
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/meowscarada-fuecoco-20261029-9f53.json",
+  "inventory_adapter": "os.listdir(img) is expanded from current Git tree filenames for sparse checkout. No image bytes or past originals are copied for inventory. Actual comparison images were selectively checked out. No repository scripts/tests changed.",
+  "diversity_comparison": {
+    "compared_characters": [
+      "나로테",
+      "나오하",
+      "파라꼬",
+      "마스카나"
+    ],
+    "method": "Actual full images viewed side by side; labels or prompt differences alone were not used.",
+    "observations": "Paddleboard water activity, full-body arena commentator work and face-close floral parade differ in setting, task, clothing and crop; unlike Meowscarada equipment-floor and evening dress scenes.",
+    "similarity_check": "tools/casual-look.cjs check passed; no near-duplicate under required threshold."
+  },
+  "replan_note": "Fuecoco settings unchanged. Casual2 had a targeted cleanup of recognizable split-ball emblems with target+canonical attached; repair prompt and UI context are stored separately.",
+  "partial_edits": [
+    {
+      "storage": {
+        "last": "뜨아거",
+        "cards": {
+          "뜨아거": {
+            "style": "glossy_promo",
+            "identityMode": "create",
+            "form": "light",
+            "baseForm": "light",
+            "motifs": "",
+            "formOverride": "",
+            "headFeature": "",
+            "faceDesignOn": true,
+            "params": {},
+            "locks": {},
+            "mode": "casual",
+            "scenes": {
+              "action": {
+                "expr": "",
+                "pose": "",
+                "orient": "",
+                "scene": "",
+                "outfit": "",
+                "frame": "",
+                "lens": "",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "everyday_basic",
+                "catCustom": "",
+                "ex": "",
+                "exCustom": "",
+                "axes": {},
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {}
+              },
+              "casual": {
+                "expr": "confident",
+                "pose": "mid_action",
+                "orient": "turning_midmotion",
+                "scene": "Warm arena spotlights reflect along the broadcast desk while match diagrams glow on the small monitor beside her notes.",
+                "outfit": "A bright red cropped commentator vest with side cutouts and a cream short skirt, baring the waist and upper thighs; a compact headset is the working accessory.",
+                "frame": "full_body",
+                "lens": "portrait85",
+                "camera": "",
+                "custom": "",
+                "aspect": "2:3",
+                "cat": "occupation_sensual",
+                "catCustom": "",
+                "ex": "test_pilot_brief",
+                "exCustom": "",
+                "axes": {
+                  "overall_intensity": "strong",
+                  "skin_exposure": "bold",
+                  "action_level": "mostly active",
+                  "source_influence": "strong",
+                  "separates_preference": "prefer separates"
+                },
+                "action": {
+                  "category": "",
+                  "example": "",
+                  "timing": "",
+                  "equipment": "",
+                  "power": "",
+                  "effects": "",
+                  "speed": "",
+                  "environment": ""
+                },
+                "randomLocks": {
+                  "cat": true,
+                  "ex": true,
+                  "expr": true,
+                  "pose": true,
+                  "orient": true,
+                  "frame": true,
+                  "lens": true,
+                  "aspect": true,
+                  "axes.overall_intensity": true,
+                  "axes.skin_exposure": true,
+                  "axes.action_level": true,
+                  "axes.source_influence": true,
+                  "axes.separates_preference": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "scene_settings_changed": false,
+      "original_generator_prompt_file": "casual2-prompt.txt",
+      "actual_edit_prompt_file": "casual2-repair-prompt.txt",
+      "edit_target_sha256": "f62f52a500dd28fe61671f5df5ff3d61d8ce6f50e8f60c41f5695225dea9edfc",
+      "canonical_reference_sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a",
+      "result_sha256": "870eb5763f4e0a968bcaa95868d48239436c010810a1c7753102d70f2a76e93d",
+      "reason": "Precise logo cleanup under IMAGE_RULES partial-edit exception; initial UI stays unchanged and is not fabricated as a new UI interaction."
+    }
+  ]
+}

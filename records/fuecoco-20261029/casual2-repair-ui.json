@@ -1,0 +1,105 @@
+{
+  "storage": {
+    "last": "뜨아거",
+    "cards": {
+      "뜨아거": {
+        "style": "glossy_promo",
+        "identityMode": "create",
+        "form": "light",
+        "baseForm": "light",
+        "motifs": "",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "locks": {},
+        "mode": "casual",
+        "scenes": {
+          "action": {
+            "expr": "",
+            "pose": "",
+            "orient": "",
+            "scene": "",
+            "outfit": "",
+            "frame": "",
+            "lens": "",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "everyday_basic",
+            "catCustom": "",
+            "ex": "",
+            "exCustom": "",
+            "axes": {},
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {}
+          },
+          "casual": {
+            "expr": "confident",
+            "pose": "mid_action",
+            "orient": "turning_midmotion",
+            "scene": "Warm arena spotlights reflect along the broadcast desk while match diagrams glow on the small monitor beside her notes.",
+            "outfit": "A bright red cropped commentator vest with side cutouts and a cream short skirt, baring the waist and upper thighs; a compact headset is the working accessory.",
+            "frame": "full_body",
+            "lens": "portrait85",
+            "camera": "",
+            "custom": "",
+            "aspect": "2:3",
+            "cat": "occupation_sensual",
+            "catCustom": "",
+            "ex": "test_pilot_brief",
+            "exCustom": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "action": {
+              "category": "",
+              "example": "",
+              "timing": "",
+              "equipment": "",
+              "power": "",
+              "effects": "",
+              "speed": "",
+              "environment": ""
+            },
+            "randomLocks": {
+              "cat": true,
+              "ex": true,
+              "expr": true,
+              "pose": true,
+              "orient": true,
+              "frame": true,
+              "lens": true,
+              "aspect": true,
+              "axes.overall_intensity": true,
+              "axes.skin_exposure": true,
+              "axes.action_level": true,
+              "axes.source_influence": true,
+              "axes.separates_preference": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "scene_settings_changed": false,
+  "original_generator_prompt_file": "casual2-prompt.txt",
+  "actual_edit_prompt_file": "casual2-repair-prompt.txt",
+  "edit_target_sha256": "f62f52a500dd28fe61671f5df5ff3d61d8ce6f50e8f60c41f5695225dea9edfc",
+  "canonical_reference_sha256": "fdebcc5848efd68bc800a3dee1570df2763bd7efaaab0a08f726cac6d1e06c6a",
+  "result_sha256": "870eb5763f4e0a968bcaa95868d48239436c010810a1c7753102d70f2a76e93d",
+  "reason": "Precise logo cleanup under IMAGE_RULES partial-edit exception; initial UI stays unchanged and is not fabricated as a new UI interaction."
+}
