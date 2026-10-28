@@ -1,0 +1,676 @@
+{
+  "card": "에이스번",
+  "original_batch_plan": {
+    "session": "raboot-cinderace-5698",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "에이스번",
+        "species": "cinderace-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "chest_up",
+            "pose": "one_knee_up",
+            "expr": "half_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "high-cut leg"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "tango_solo",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "stretching",
+            "expr": "smug",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "garments": [
+              "slip"
+            ],
+            "orient": "crouching",
+            "frame": "waist_up",
+            "pose": "squatting",
+            "expr": "calm",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "looking_away",
+            "crouching"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "래비풋",
+        "species": "raboot-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "subculture_fashion",
+            "ex": "punk_gig",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "front_3q",
+            "frame": "face_close",
+            "pose": "contrapposto",
+            "expr": "playful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "lifeguard_event",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "hand_on_hip",
+            "expr": "sensual",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "private_evening",
+            "ex": "one_shoulder_satin",
+            "garments": [
+              "dress"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "standing_relaxed",
+            "expr": "pensive",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "spa_wellness",
+            "fantasy_costume",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jacket"
+          ],
+          "orient": [
+            "front_3q",
+            "turning_midmotion",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "final_plan": {
+    "session": "raboot-cinderace-5698",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "에이스번",
+        "species": "cinderace-20261028",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "winter_lodge",
+            "expr": "nostalgic",
+            "pose": "one_knee_up",
+            "orient": "three_quarter_back",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "coat",
+              "leggings",
+              "sweater"
+            ],
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "hobbies_leisure",
+            "ex": "hobby_boardgame",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "half_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "bare midriff"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "yacht_deck",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "stretching",
+            "expr": "smug",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "hobbies_leisure",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top",
+            "shorts",
+            "bikini"
+          ],
+          "orient": [
+            "looking_away",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "reservation_session": "raboot-cinderace-5698",
+  "reservation_at": "2026-10-28T00:40:58-05:00",
+  "reservation_commit": "8252e84bc4d7bc0f1bed0aab2418b8f4c499fb88",
+  "check": "passed; stamped reservation verified before generation",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "subculture_fashion",
+      "ex": "punk_gig",
+      "expr": "playful",
+      "pose": "contrapposto",
+      "orient": "front_3q",
+      "frame": "face_close",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "jacket",
+        "skirt"
+      ],
+      "expose": [
+        "cropped hem",
+        "off-shoulder neckline"
+      ],
+      "lead": "place",
+      "example_text": "in a winter lodge in a knit sweater and leggings, hanging up her coat and holding a hot drink",
+      "ui": {
+        "expr": "nostalgic",
+        "pose": "one_knee_up",
+        "orient": "three_quarter_back",
+        "scene": "Inside a cedar lodge, low wooden coat pegs line the stone hearth; cinnamon steam rises from a ceramic mug while snow gathers on the window ledge.",
+        "outfit": "A short rust wool coat with horn buttons accompanies a cream strapless cropped knit sweater and charcoal leggings; the cropped sweater leaves shoulders and midriff visible.",
+        "frame": "waist_up",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 1,
+        "cat": "wildcard",
+        "ex": "winter_lodge",
+        "garments": [
+          "coat",
+          "leggings",
+          "sweater"
+        ],
+        "expose": [
+          "strapless top",
+          "bare midriff"
+        ],
+        "lead": "place"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Inside a cedar lodge, low wooden coat pegs line the stone hearth; cinnamon steam rises from a ceramic mug while snow gathers on the window ledge.",
+          "reason": "Adds low coat pegs, cinnamon steam, a stone hearth and snowy window details to the winter-lodge example."
+        },
+        {
+          "field": "outfit",
+          "content": "A short rust wool coat with horn buttons accompanies a cream strapless cropped knit sweater and charcoal leggings; the cropped sweater leaves shoulders and midriff visible.",
+          "reason": "Specifies a short rust coat, cropped strapless cream knit and charcoal leggings; waist and shoulders remain visible."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; states the required vertical 1024×1536 output."
+        }
+      ],
+      "axes_reason": "Paused winter arrival and mug holding; restrained rust tone gives subtle source influence; coat, sweater and leggings are separates.",
+      "random_values": "Planner values retained, all thirteen controls locked by planner URL; no manual selection edits."
+    },
+    {
+      "cut": 2,
+      "cat": "adult_roleplay",
+      "ex": "lifeguard_event",
+      "expr": "sensual",
+      "pose": "hand_on_hip",
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "swimsuit"
+      ],
+      "expose": [
+        "bare midriff",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "Moving a game piece across a wooden board game at a cozy table, weighing her next move.",
+      "ui": {
+        "expr": "half_smile",
+        "pose": "side_sitting",
+        "orient": "looking_away",
+        "scene": "Round carved game tokens and a small wooden score track sit on a low table by an open garden screen; dappled green light falls across the tatami.",
+        "outfit": "A strapless cropped navy rib-knit top with a white chevron band and red-orange piping pairs with cream tailored shorts, exposing the shoulders, midriff and thighs.",
+        "frame": "three_quarter",
+        "lens": "wide24",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 2,
+        "cat": "hobbies_leisure",
+        "ex": "hobby_boardgame",
+        "garments": [
+          "knit_top",
+          "shorts"
+        ],
+        "expose": [
+          "strapless top",
+          "bare midriff"
+        ],
+        "lead": "detail"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Round carved game tokens and a small wooden score track sit on a low table by an open garden screen; dappled green light falls across the tatami.",
+          "reason": "Adds round wooden tokens, a score track, a low table, tatami and dappled garden light absent from the board-game example."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless cropped navy rib-knit top with a white chevron band and red-orange piping pairs with cream tailored shorts, exposing the shoulders, midriff and thighs.",
+          "reason": "Specifies a navy/white/orange chevron knit top and cream shorts with shoulders and waist exposed."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; states the required vertical 1024×1536 output."
+        }
+      ],
+      "axes_reason": "The token placement is a held decision moment; strong source palette is in knit bands; top and shorts are separates.",
+      "random_values": "Planner values retained, all thirteen controls locked by planner URL; no manual selection edits."
+    },
+    {
+      "cut": 3,
+      "cat": "private_evening",
+      "ex": "one_shoulder_satin",
+      "expr": "pensive",
+      "pose": "standing_relaxed",
+      "orient": "rear_3q",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress"
+      ],
+      "expose": [
+        "high thigh slit",
+        "one-shoulder cut"
+      ],
+      "lead": "detail",
+      "example_text": "sunbathing in a bikini on the cushioned foredeck of a moored yacht, leaning back on her hands",
+      "ui": {
+        "expr": "smug",
+        "pose": "stretching",
+        "orient": "leaning_back",
+        "scene": "Sailing pennants flutter above the cushioned teak foredeck, with a chilled citrus drink on a small tray and turquoise marina water beyond the rail.",
+        "outfit": "An opaque ivory halter bikini has narrow charcoal binding, a high-cut leg line and soft yellow ties.",
+        "frame": "chest_up",
+        "lens": "telephoto135",
+        "camera": "Vertical 2:3 portrait (1024×1536).",
+        "custom": "",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {},
+        "randomLocks": {
+          "expression": true,
+          "category": true,
+          "example": true,
+          "pose": true,
+          "orientation": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "overall_intensity": true,
+          "skin_exposure": true,
+          "action_level": true,
+          "source_influence": true,
+          "separates_preference": true
+        },
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "yacht_deck",
+        "garments": [
+          "bikini"
+        ],
+        "expose": [
+          "high-cut leg",
+          "halter neck"
+        ],
+        "lead": "action"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Sailing pennants flutter above the cushioned teak foredeck, with a chilled citrus drink on a small tray and turquoise marina water beyond the rail.",
+          "reason": "Adds fluttering pennants, a citrus drink and marina-water detail to the cushioned yacht foredeck."
+        },
+        {
+          "field": "outfit",
+          "content": "An opaque ivory halter bikini has narrow charcoal binding, a high-cut leg line and soft yellow ties.",
+          "reason": "Specifies opaque ivory halter construction, charcoal binding, high leg line and a restrained yellow tie accent."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size argument; states the required vertical 1024×1536 output."
+        }
+      ],
+      "axes_reason": "Gentle upper-back stretching supplies the active moment; only yellow ties echo source color; swimwear construction uses balanced separates.",
+      "random_values": "Planner values retained, all thirteen controls locked by planner URL; no manual selection edits."
+    }
+  ],
+  "replanning": "One bridal-lace generation was rejected with no returned file. Preserved original UI/prompt/failure. Replanned away from bridal, lingerie and roleplay into winter lodge, board-game hobby and yacht swimwear. Before submission, excluded fully covered swimwear inconsistent with the planned garment cuts and tiptoe-reaching/stretching poses inconsistent with game activity. Kept the already generated winter-lodge slot unchanged; no image generated for discarded dance or intermediate candidates."
+}
