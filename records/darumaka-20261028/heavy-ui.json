@@ -1,0 +1,97 @@
+{
+  "source": "actual prompt.html UI selections reproduced with the repository engine; final output visually compared before submission",
+  "storage": {
+    "mech": "달막화",
+    "sourceName": "Darumaka",
+    "series": "fire",
+    "sourceAppearance": {
+      "name": "달막화",
+      "en": "Darumaka",
+      "color": "red",
+      "shape": "humanoid",
+      "features": [
+        {
+          "part": "tail",
+          "detail": "stubby tail"
+        },
+        {
+          "part": "face",
+          "detail": "orange face"
+        },
+        {
+          "part": "eyebrow",
+          "detail": "curly yellow eyebrows"
+        },
+        {
+          "part": "line",
+          "detail": "curvy yellow line"
+        },
+        {
+          "part": "arm",
+          "detail": "short arms"
+        },
+        {
+          "part": "hand",
+          "detail": "orange hands"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Darumaka_%28Pok%C3%A9mon%29",
+      "revision": 4610783,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "226c2f1a0e0fae24287026f63870b3edb69783a3fae031c3b49ae5e072aee05b",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "faceDesign": {
+      "name": "달막화",
+      "en": "Darumaka",
+      "line": "달막화",
+      "how": "species",
+      "registered": false,
+      "face": {
+        "face shape": "softly rounded",
+        "face length": "short",
+        "face width": "wide",
+        "jaw & chin": "soft rounded jaw",
+        "eye shape": "almond",
+        "eye size": "large",
+        "eye tilt": "level outer corners",
+        "eye spacing": "average eye spacing",
+        "eyebrows": "feathered full brows",
+        "nose character": "rounded soft tip",
+        "lips": "wide mouth"
+      },
+      "why": "달마의 둥근 체적과 힘 있는 이목구비를 둥근 볼과 굵은 눈썹으로 해석한다.",
+      "cues": [
+        "‘curly yellow eyebrows’ → 눈썹 숱 많고 결이 보이는"
+      ],
+      "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 굵고 눈 가까이 낮은 → 숱 많고 결이 보이는",
+      "hair": {
+        "hairstyle": "ringlet curls",
+        "hair length": "medium",
+        "bangs": "side-swept bangs"
+      },
+      "hair_locked": false,
+      "hair_why": "‘curly yellow eyebrows’에서 세로로 말린 드릴 컬(웨이브·곱슬) · 중간 길이 · 옆으로 넘긴 앞머리",
+      "hair_cues": [
+        "‘curly yellow eyebrows’ → 헤어스타일 세로로 말린 드릴 컬"
+      ]
+    },
+    "faceDesignOn": true,
+    "style": "glossy_promo",
+    "params": {
+      "apparent age": "20s"
+    },
+    "outputMode": "action",
+    "identityMode": "reference",
+    "form": "heavy",
+    "baseForm": "light",
+    "camera": "Vertical 2:3 portrait (1024×1536).",
+    "mode": "action",
+    "scenes": {
+      "action": {}
+    }
+  },
+  "prompt": "INPUT: the attached image is the approved character; keep her.\n\nSOURCE: Darumaka (달막화), fire type.\n\nSTYLE: Premium glossy anime-mecha promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized hard-surface detail. Match the face and armor at the same polished rendering intensity.\n\nFORM — HEAVY: plates over plates: a second, thicker layer of broad plates with thick rims over the chest, abdomen, pelvis, shoulders, forearms, thighs and shins, so the outline is visibly larger. An open-face helmet may cover the crown and temples; eyes, bangs and jaw stay clear. Her body inside keeps its size; no weapon, no cannon.\n\nOUTPUT: the HEAVY form of the woman in the attached image, as a new card image. Keep her face, eye and hair colors, haircut, skin tone, body proportions, palette and the species features she wears as costume; change only her armor, as FORM says. Vertical 2:3 frame, full body with head and feet inside the frame and clear margins, no foreground occlusion, face toward the camera (front or three-quarter, never a back view). A new card-ready pose is fine; motion, effects and setting may be dramatic while her design stays readable.\n\nChosen settings below override the default stance and camera; her identity and form stay fixed.\nCamera: Vertical 2:3 portrait (1024×1536).\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands. Her hands keep the same gloves or bare hands as in the attached image; effects stay off the fingers."
+}

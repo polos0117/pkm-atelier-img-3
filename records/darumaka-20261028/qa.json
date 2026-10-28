@@ -1,0 +1,333 @@
+{
+  "card": "달막화",
+  "reviewer": "gpt",
+  "tool_mode": "built-in image_gen",
+  "images": [
+    {
+      "slot": "light",
+      "image_sha256": "6d557948f5cd46d072c3274e970875e646ca4a5cf40d04d7ce4144e6bab0e2be",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Single segmented close-fitting plate layer, joints free; standing with two bent arms."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "heavy",
+      "image_sha256": "f3543f473e0de7ccd7fc4565e47408de0fedac11df14e77c38bdc942ea5c08ff",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Broad rimmed plates overlap shoulders, chest, hips, thighs and shins."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "mobility",
+      "image_sha256": "0d79100c4d9a2049bba1ae2c5bd74ace50f5a41fc0d499208da61e46ac67875b",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Swept paired shoulder, hip and calf panels, visible air gaps and compact thrusters."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "light_overdrive",
+      "image_sha256": "ea58a3db8744eb70f3459b38b47fcc5da1e228429982ef9c6e1d59110de804c9",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Matching closed-form pose and volcanic backdrop retained; plates hinge apart to expose orange-lit inner frame. Hands stay at same positions."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "heavy_overdrive",
+      "image_sha256": "2549212cebab5bf6277331b9a63d2f57fe2655946d9252c4d03e285c66bd84d3",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Matching closed-form pose and volcanic backdrop retained; plates hinge apart to expose orange-lit inner frame. Hands stay at same positions."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "mobility_overdrive",
+      "image_sha256": "24400aee15bf627dc7f18195bb902b605d24dd9a3448646a2a1b78ac41e3fc2a",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange-yellow spirals and red-gold ringlet-haired person."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Matching closed-form pose and volcanic backdrop retained; plates hinge apart to expose orange-lit inner frame. Hands stay at same positions."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Front three-quarter body, complete head and both boots in frame."
+      },
+      "expression": {
+        "match": true,
+        "evidence": "Amber irises unchanged; smile tightens in opening."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left and screen-right fists each show four curled gloved fingers and an opposing thumb; two wrists connect to forearms, no extra hands.",
+        "overlay_checked": false,
+        "note": "No blocking anatomy defect observed."
+      },
+      "observations": "No blocking anatomy defect observed."
+    },
+    {
+      "slot": "casual1",
+      "image_sha256": "5dfac13ac935d472812be2b6b319da15c17294e8dc7917976190291861e7a077",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Orange off-shoulder satin evening dress, opaque bodice; bare shoulders and crossed legs."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "Lipstick goes into an open clutch on her lap; bed, bench and city window identify the hotel."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Reclines on bench, full seated body with both shoes."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "Small closed smile and direct amber eyes; softer than the planned provocative look."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Clutch hand: four downward fingers; thumb partly occluded at lipstick. Other hand hidden at far side of torso.",
+        "overlay_checked": false,
+        "note": "Tiny unreadable cosmetic label; expression deviation recorded."
+      },
+      "observations": "Tiny unreadable cosmetic label; expression deviation recorded."
+    },
+    {
+      "slot": "casual2",
+      "image_sha256": "2180de1e102f5546e8f9405a0bb5318abae313c496a864807c00c704981602d2",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Metallic halter crop top, cargo mini skirt and beaded bracelets; waist and thighs bare."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "She adjusts a beaded bracelet clasp under outdoor festival lasers, with distant faceless crowd."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "Front three-quarter torso; thigh crop instead of selected chest-up."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "Closed asymmetric half-smile, eyes slightly aside."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two overlapping hands: pinching thumb and index, remaining fingers curled at clasp and wrist; contact naturally occludes some digits.",
+        "overlay_checked": false,
+        "note": "Wider crop; record only."
+      },
+      "observations": "Wider crop; record only."
+    },
+    {
+      "slot": "casual3",
+      "image_sha256": "08971779f950b72dfc118dc7e31494fdd39a9dde20d0434c4bfe0992551621de",
+      "accepted": true,
+      "dimensions": {
+        "match": true,
+        "evidence": "Decoded image is 1024×1536."
+      },
+      "identity_wardrobe": {
+        "match": true,
+        "evidence": "Asymmetric braided jacket, pleated mini skirt, shako and white boots; shoulder, side waist and thighs visible."
+      },
+      "scene_activity": {
+        "match": true,
+        "evidence": "White-gloved hand grips baton low at parade start; pennants and distant faceless spectators."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Low crouch with separate bent legs and both boots; top feather tip clipped."
+      },
+      "expression": {
+        "match": false,
+        "evidence": "Closed serious mouth, steady eyes toward screen right."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; anatomy-check.py reports exit 3. Full original and enlarged hand crops manually inspected.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Baton hand: four curled fingers and opposing thumb. Resting glove on knee: four descending fingers and thumb at side.",
+        "overlay_checked": false,
+        "note": "Plume slightly clipped; baton motion slight."
+      },
+      "observations": "Plume slightly clipped; baton motion slight."
+    }
+  ],
+  "skipped": [],
+  "face_comparison": {
+    "cards": [
+      "달막화",
+      "불비달마",
+      "악비르",
+      "악비아르",
+      "고고트"
+    ],
+    "evidence": "Darumaka: shorter round cheeks, large almond eyes and wider smile. Darmanitan: fuller lips, broader lower face and lower thicker brows. Recent crocodile and grass anchors: sharper tapered lower faces and narrower eyes."
+  },
+  "diversity": {
+    "casual_look": "All three passed: no score below 245, no within-character near duplicate.",
+    "recent_comparison": [
+      "악비아르 casual1-3",
+      "악비르 casual1-3",
+      "고고트 casual1-2"
+    ],
+    "evidence": "Hotel clutch packing in long satin dress, rave bracelet fastening in metallic separates, crouched parade baton costume, laundry in cardigan, curtain tying in velvet separates, and kneeling spa robe differ in task, place, silhouette and pose. Recent comparison images show standing spa, textile market, seated tea, outdoor dress and seated rock outfit, with no repeated full combination."
+  }
+}
