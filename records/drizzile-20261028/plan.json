@@ -1,0 +1,470 @@
+{
+  "batch_plan": {
+    "session": "sobble-drizzile-20261028-d122",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "울머기",
+        "species": "sobble-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "garments": [
+              "slip"
+            ],
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "calm",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "cabaret_showgirl",
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "magician_assistant",
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "dance_stage",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip",
+            "uniform"
+          ],
+          "orient": [
+            "over_shoulder",
+            "high_angle",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "누겔레온",
+        "species": "drizzile-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "pinup_car",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "kneeling",
+            "expr": "serious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "high thigh slit"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "shoe_bench",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_forward",
+            "frame": "face_close",
+            "pose": "dressing_up",
+            "expr": "curious",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "food_berries",
+            "ex": "food_bento",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "preparing_food",
+            "expr": "gentle",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "apron"
+          ],
+          "orient": [
+            "leaning_forward",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "retro_glamour",
+      "ex": "pinup_car",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "kneeling",
+      "expr": "serious",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "high thigh slit"
+      ],
+      "lead": "detail",
+      "example_text": "a 1950s halter playsuit, leaning against the fender of a classic convertible",
+      "submitted_prompt_file": "casual1-prompt.txt",
+      "ui": "casual1-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "The held pose by the fender is largely stationary, supporting mostly posed.",
+        "source_influence": "Blue playsuit is the only restrained costume echo, supporting subtle.",
+        "separates_preference": "The retro playsuit is a single short jumpsuit, supporting balanced."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "An ivory steering wheel and chrome door mirror catch late afternoon light; a coral convertible is parked beside a coastal overlook.",
+          "reason": "The convertible example leaves the vehicle color and setting unspecified; coastal scenery, chrome and coral paint distinguish this scene."
+        },
+        {
+          "field": "outfit",
+          "content": "A dusky-blue halter playsuit jumpsuit with bare shoulders, a sculpted off-shoulder neckline and high thigh slits at the sides of its short legs; cream piping gives it a 1950s finish.",
+          "reason": "The halter playsuit example does not fix fabric colors or leg openings; cream piping and side slits implement the planner exposure structure."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "everyday_sensual",
+      "ex": "shoe_bench",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "leaning_forward",
+      "frame": "face_close",
+      "pose": "dressing_up",
+      "expr": "curious",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "strapless top",
+        "plunging neckline"
+      ],
+      "lead": "action",
+      "example_text": "sitting on the entryway bench to tie her shoes before going out",
+      "submitted_prompt_file": "casual2-prompt.txt",
+      "ui": "casual2-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "Fastening footwear is gentle movement within a seated moment, supporting balanced.",
+        "source_influence": "Cobalt clothing and water-drop trim provide a stronger source echo than the retro cut, supporting strong.",
+        "separates_preference": "The strapless top and wide legs form one jumpsuit, supporting balanced."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Morning errands are next; a leather satchel rests beside the entryway bench beneath rain-cleared window light.",
+          "reason": "The shoe-bench example lacks destination context and light; morning errands, satchel and clear post-rain light supply those details."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless cobalt jumpsuit with a plunging notched neckline and long wide legs, in matte cotton with a tiny water-drop zipper pull.",
+          "reason": "The entryway example provides no outfit; the planner jumpsuit becomes a strapless notched-front garment with wide legs, distinct from the short playsuit."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "food_berries",
+      "ex": "food_bento",
+      "garments": [
+        "apron",
+        "shorts"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "preparing_food",
+      "expr": "gentle",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "side cutouts",
+        "one-shoulder cut"
+      ],
+      "lead": "place",
+      "example_text": "Packing rice balls and sliced berries into a two-tier lunchbox at a morning kitchen table.",
+      "submitted_prompt_file": "casual3-prompt.txt",
+      "ui": "casual3-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "Packing food is a calm ongoing hand task, supporting balanced.",
+        "source_influence": "Indigo-blue apron and striped accents retain a clear source palette, supporting strong.",
+        "separates_preference": "Apron and shorts are separate pieces, supporting prefer separates."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Green glazed tiles and a narrow window above the sink brighten the compact kitchen; a bamboo mat and a shallow berry dish sit beside the lunchbox.",
+          "reason": "The morning lunchbox example does not describe the kitchen surfaces or nearby utensils; green tiles, window, bamboo mat and berry dish make the place concrete."
+        },
+        {
+          "field": "outfit",
+          "content": "A one-shoulder indigo apron with side cutouts over pale-blue mini shorts, edged with slim cream stripes; her outer shoulder and waist stay visible.",
+          "reason": "The food-packing example has no garment specification; the planned apron and shorts are given asymmetric construction, side cutouts and short hem."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "check": "tools/casual-ledger.py check --fresh passed against latest Git inventory and actual UI text; no image placeholder files used",
+  "reservation_commit": "0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081",
+  "inventory_method": "Sparse checkouts contain required casual UI text only. Git ls-tree -z supplies the authoritative image filename inventory to the ledger without downloading unrelated image bytes. Actual recent comparison images downloaded and visually reviewed.",
+  "planning_adjustments": "Excluded examples whose fixed garment kinds all already occur in the comparison window after novel-garment validation failed; excluded Sobble bridal/retro combinations repeating a slip silhouette and Drizzile roller-disco mismatch. Final choices generated and stamped by the unmodified planner.",
+  "comparison_images": [
+    "염버니",
+    "래비풋",
+    "에이스번"
+  ],
+  "original_png_policy": "session_only; only original SHA256 and text records are published"
+}

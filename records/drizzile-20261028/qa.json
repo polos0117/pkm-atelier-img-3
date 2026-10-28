@@ -1,0 +1,316 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "image_sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Close-fitting silver and blue armor with a curled blue sash and a narrow face-opening headband.",
+      "overdrive": "Closed armor; reference for the corresponding opened form.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    },
+    "face_reason": "가늘어진 도마뱀의 선과 낮은 시선을 타원 얼굴와 낮은 눈꺼풀로 구분한다.",
+    "face_evidence": {
+      "name": "누겔레온",
+      "en": "Drizzile",
+      "color": "blue",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "tail",
+          "detail": "chameleon tail"
+        },
+        {
+          "part": "belly",
+          "detail": "white belly"
+        },
+        {
+          "part": "dot",
+          "detail": "blue dot"
+        },
+        {
+          "part": "balloon",
+          "detail": "water balloons"
+        },
+        {
+          "part": "line",
+          "detail": "thin line"
+        },
+        {
+          "part": "structure",
+          "detail": "three hairlike structures"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Drizzile_%28Pok%C3%A9mon%29",
+      "revision": 4610817,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "fb1c579082f47e11ea5b6b57a76fae480764cf53a9d776adc19ee4213353e5b6",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "final_face_line": "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; balanced jawline; drooping eyes, medium size, downturned outer corners, wide-set; straight medium brows; balanced nose; thin lips.",
+    "compared_characters": [
+      "고릴타",
+      "염버니",
+      "채키몽"
+    ],
+    "family_comparison": "울머기 and 누겔레온 canonical originals compared: larger rounded eyes and shorter curled hair versus lowered eyes, longer oval face and longer side waves; 인텔리레온 source data consulted, no published canonical image found."
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "image_sha256": "b4a450449c1037629f7f8193b1b247dca917251e7ad8c23188f59a67678b97c6",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Layered silver shoulder shells, deeper forearm guards and thicker shin armor; the same slim body remains.",
+      "overdrive": "Closed armor; reference for the corresponding opened form.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "image_sha256": "2114ef37626cc695b9d6cdd34e3d868d9e1cd6a3e8d8340c13d4cd3a9d2c57b9",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Fine swept-back plate blades with oval blue nodes at shoulders, hips and shins.",
+      "overdrive": "Closed armor; reference for the corresponding opened form.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "7bd69cd346b58b4ab8b8ab3af583f1c02b59424a3798788f3030e3d92ee0aca2",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Close-fitting silver and blue armor with a curled blue sash and a narrow face-opening headband.",
+      "overdrive": "Plate seams lift outward, revealing strong blue water-like light; face, pose, boots and background match the closed light image. No added weapon.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "caa94cea364d268f1e751530d9ef8f6d8fb20b74f6ec0fe2c78a12b9572460bc",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Layered silver shoulder shells, deeper forearm guards and thicker shin armor; the same slim body remains.",
+      "overdrive": "Plate seams lift outward, revealing strong blue water-like light; face, pose, boots and background match the closed heavy image. No added weapon.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "8ebce90c7ca1687af97aa193a08223092c8d02403774df3e65584a57fe1dd725",
+    "accepted": true,
+    "observations": {
+      "composition": "One adult woman; head and both boot tips inside the portrait. The near arm extends toward the camera and the far arm rests to the side; both legs connect naturally to the hips.",
+      "design": "Fine swept-back plate blades with oval blue nodes at shoulders, hips and shins.",
+      "overdrive": "Plate seams lift outward, revealing strong blue water-like light; face, pose, boots and background match the closed mobility image. No added weapon.",
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "deviations": "Drizzile canonical hair is longer than the medium-length proposal and is preserved in later images."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Near hand: five distinct gloved digits including the opposed thumb; far hand: five smaller gloved digits, with natural overlap. Both hands join the wrists. Enlarged crops checked.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "image_sha256": "ca620e299c2903a181bce81316c4906f2e5668fe8a8835a5e2b92118aebf561a",
+    "accepted": true,
+    "observations": {
+      "scene": "She kneels beside a coral vintage convertible at a coastal overlook, leaning against the bodywork while holding a cloth at the mirror. Added cloth and cleaning action were generated, not requested.",
+      "expression_pose_orientation_framing": "Bent knees and both shoes are visible; body turns toward the car and face looks back instead of a strict crouching front view. Lowered eyelids and closed lips keep a serious expression.",
+      "outfit_exposure": "Blue halter short-leg playsuit with cream piping and side thigh openings; shoulders, back and thighs visible.",
+      "hands": "Two hands overlap around a cloth near the mirror; the near hand has a visible thumb and flexed fingers, far fingertips partly covered by the cloth. No disconnected fingers or extra arm. Both knees, shins and shoes connect normally.",
+      "diversity": "Outdoor kneeling beside a convertible and a short romper distinguish this from the long indoor jumpsuit and kitchen apron. Recent comparison cuts contain no car and no similar full-body kneeling composition.",
+      "axes_reason": {
+        "action_level": "The held pose by the fender is largely stationary, supporting mostly posed.",
+        "source_influence": "Blue playsuit is the only restrained costume echo, supporting subtle.",
+        "separates_preference": "The retro playsuit is a single short jumpsuit, supporting balanced."
+      },
+      "input_reasons": {
+        "scene": "The convertible example leaves the vehicle color and setting unspecified; coastal scenery, chrome and coral paint distinguish this scene.",
+        "outfit": "The halter playsuit example does not fix fabric colors or leg openings; cream piping and side slits implement the planner exposure structure."
+      }
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two hands overlap around a cloth near the mirror; the near hand has a visible thumb and flexed fingers, far fingertips partly covered by the cloth. No disconnected fingers or extra arm. Both knees, shins and shoes connect normally.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "염버니",
+        "래비풋",
+        "에이스번"
+      ],
+      "evidence": "Outdoor kneeling beside a convertible and a short romper distinguish this from the long indoor jumpsuit and kitchen apron. Recent comparison cuts contain no car and no similar full-body kneeling composition."
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "image_sha256": "da98e786ec55262afd30ed5d008b838b41b88f7826a43c32b8c95cdc842dcbfe",
+    "accepted": true,
+    "observations": {
+      "scene": "She sits on an entry bench beside a leather bag and adjusts a shoe ankle strap before going out. The shoe task is fastening a buckle rather than tying laces.",
+      "expression_pose_orientation_framing": "Torso leans forward; one hand touches an earring, the other fastens the sandal. Face is curious with parted lips. The generated frame includes knees and one foot instead of face-close, recorded as framing drift.",
+      "outfit_exposure": "Cobalt strapless jumpsuit with deep notched neckline and long wide trouser legs; shoulders and upper chest visible.",
+      "hands": "Ear hand: thumb and curved fingers partly overlap at the earring. Shoe hand: thumb and index pinch the strap, the other fingers curl behind it. Both arms connect. One visible foot has five toes; the second foot is hidden beyond the trouser leg/crop.",
+      "diversity": "The indoor seated long-leg silhouette and ankle-fastening task differ from the outdoor short playsuit and standing apron. Recent seated leisure images involve games or drinks, not shoe fastening.",
+      "axes_reason": {
+        "action_level": "Fastening footwear is gentle movement within a seated moment, supporting balanced.",
+        "source_influence": "Cobalt clothing and water-drop trim provide a stronger source echo than the retro cut, supporting strong.",
+        "separates_preference": "The strapless top and wide legs form one jumpsuit, supporting balanced."
+      },
+      "input_reasons": {
+        "scene": "The shoe-bench example lacks destination context and light; morning errands, satchel and clear post-rain light supply those details.",
+        "outfit": "The entryway example provides no outfit; the planner jumpsuit becomes a strapless notched-front garment with wide legs, distinct from the short playsuit."
+      }
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Ear hand: thumb and curved fingers partly overlap at the earring. Shoe hand: thumb and index pinch the strap, the other fingers curl behind it. Both arms connect. One visible foot has five toes; the second foot is hidden beyond the trouser leg/crop.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "염버니",
+        "래비풋",
+        "에이스번"
+      ],
+      "evidence": "The indoor seated long-leg silhouette and ankle-fastening task differ from the outdoor short playsuit and standing apron. Recent seated leisure images involve games or drinks, not shoe fastening."
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "image_sha256": "f023002a410e6ea837ea1523ac76f32cee001d485be2e8d8b14f0ba2aeb1eeec",
+    "accepted": true,
+    "observations": {
+      "scene": "At a green-tiled kitchen counter she places rice into an open wooden lunchbox; rice balls and cut berries are visibly packed in two stacked boxes.",
+      "expression_pose_orientation_framing": "Side-on standing body and lowered head show attention to the food, with a soft smile. Both feet are inside the full-body frame.",
+      "outfit_exposure": "Indigo apron over pale-blue mini shorts, with visible side waist and thighs. The apron has two straps rather than the selected one-shoulder detail, a clothing-detail drift.",
+      "hands": "One hand holds a wooden paddle with four curled fingers and thumb partly overlapping its handle; the other cradles rice with flexed fingers partly occluded by the food. Two arms, two legs, two slippered feet; no extra limb.",
+      "diversity": "Standing side-on cooking in a kitchen and a long split apron outline differ from the car kneel and seated wide-leg jumpsuit. Recent compared pool, concert, tabletop leisure and running scenes have no cooking counter or rice task.",
+      "axes_reason": {
+        "action_level": "Packing food is a calm ongoing hand task, supporting balanced.",
+        "source_influence": "Indigo-blue apron and striped accents retain a clear source palette, supporting strong.",
+        "separates_preference": "Apron and shorts are separate pieces, supporting prefer separates."
+      },
+      "input_reasons": {
+        "scene": "The morning lunchbox example does not describe the kitchen surfaces or nearby utensils; green tiles, window, bamboo mat and berry dish make the place concrete.",
+        "outfit": "The food-packing example has no garment specification; the planned apron and shorts are given asymmetric construction, side cutouts and short hem."
+      }
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Lowered eyelids, slender oval face and long side-swept blue waves remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py exited 3",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand holds a wooden paddle with four curled fingers and thumb partly overlapping its handle; the other cradles rice with flexed fingers partly occluded by the food. Two arms, two legs, two slippered feet; no extra limb.",
+      "overlay_checked": false,
+      "note": "Original image and enlarged hands reviewed. No detached hand or extra limb observed. Hidden parts are identified in observations."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "염버니",
+        "래비풋",
+        "에이스번"
+      ],
+      "evidence": "Standing side-on cooking in a kitchen and a long split apron outline differ from the car kneel and seated wide-leg jumpsuit. Recent compared pool, concert, tabletop leisure and running scenes have no cooking counter or rice task."
+    }
+  }
+}

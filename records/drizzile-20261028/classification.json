@@ -1,0 +1,303 @@
+[
+  {
+    "card": "누겔레온",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+      "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "누겔레온_light_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "bc41dd2bc5de4b3f56370d4a61d85fd09cdc0b03ef0f824c951400d45534d85c",
+      "git_blob": "1f9787c045ed2cd3afe8831e69c74cb6bd10eeb9"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-6747080b-e818-4b56-9bb0-2b8409f909d3.png",
+      "sha256": "b4a450449c1037629f7f8193b1b247dca917251e7ad8c23188f59a67678b97c6",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "누겔레온_heavy_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "72e05108439fd8a74b957e94b3fcbe49fe779cba0f96fdaddeb435a4f363ad31",
+      "git_blob": "fe63a6302bd29e538f61dceab5e40632faaf0fc7"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-a9330328-89b2-44c8-985a-2f9c73c936d3.png",
+      "sha256": "2114ef37626cc695b9d6cdd34e3d868d9e1cd6a3e8d8340c13d4cd3a9d2c57b9",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "누겔레온_mobility_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "35b93bee676ceb9e22e86345dbb4ef2f0c30e9896449a7e5181b3347f6d27463",
+      "git_blob": "b294dfaa3b287397b25c061dbb06b034a808b925"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-56fae6c2-c587-4594-81ee-aafdbece9f1d.png",
+      "sha256": "7bd69cd346b58b4ab8b8ab3af583f1c02b59424a3798788f3030e3d92ee0aca2",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "누겔레온_light_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "17a16cf66d6df416581d33d8a0f9bcaf2dca89eeecba15edf379771ce5e2252a",
+      "git_blob": "5ac9ab9f2821c7e70c2e3c4286c87e2b6ad1832e"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-4690008c-27e2-490f-9f29-8a4a1d00b944.png",
+      "sha256": "caa94cea364d268f1e751530d9ef8f6d8fb20b74f6ec0fe2c78a12b9572460bc",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-6747080b-e818-4b56-9bb0-2b8409f909d3.png",
+        "sha256": "b4a450449c1037629f7f8193b1b247dca917251e7ad8c23188f59a67678b97c6",
+        "session_only": true
+      },
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "누겔레온_heavy_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "81082ce9bcf56599ed662df65c46380a06f871652431c94aa2c296dfb832d72f",
+      "git_blob": "e80cf0c2865f603861f32f1f67cd7c2bf44e0eed"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-a14f97e8-4627-4bc9-9f03-07856df06e54.png",
+      "sha256": "8ebce90c7ca1687af97aa193a08223092c8d02403774df3e65584a57fe1dd725",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-a9330328-89b2-44c8-985a-2f9c73c936d3.png",
+        "sha256": "2114ef37626cc695b9d6cdd34e3d868d9e1cd6a3e8d8340c13d4cd3a9d2c57b9",
+        "session_only": true
+      },
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "누겔레온_mobility_overdrive_glossy_promo_f.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "8bf095f0897afc52df703554e8d256cad7bab075ce1a4987de4fd9daf0458292",
+      "git_blob": "ee163393aae6615a853f22482a7fbfddc0b1707d"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-07f61e2d-c16d-492a-8555-e896927be1b2.png",
+      "sha256": "ca620e299c2903a181bce81316c4906f2e5668fe8a8835a5e2b92118aebf561a",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "누겔레온_glossy_promo_f_casual1.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "e9696d92d0a1f14dccc94fcff3f8a7a58840346f9555a01190386d024c831020",
+      "git_blob": "e3c0d2003e133ce1a738b4c3d08379e82df2c968"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-2ae1a5a2-a601-4aa5-ac5c-f8f135df6f0d.png",
+      "sha256": "da98e786ec55262afd30ed5d008b838b41b88f7826a43c32b8c95cdc842dcbfe",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "누겔레온_glossy_promo_f_casual2.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "4e66e072fb326735174e5c8dfbd8976ca14d99acf6a96ef48862d47e5d58f23c",
+      "git_blob": "d7afb35d0e60f65e3a02e25c86dbcd5715487d12"
+    }
+  },
+  {
+    "card": "누겔레온",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual Chromium generator UI selection; built-in image_gen; submitted prompt is captured output unchanged",
+    "source": {
+      "path": "/workspace/scratch/d1225f08870c/generated_images/exec-0b1a695d-79cc-4b33-af41-038ce968e882.png",
+      "sha256": "f023002a410e6ea837ea1523ac76f32cee001d485be2e8d8b14f0ba2aeb1eeec",
+      "session_only": true
+    },
+    "references": [
+      {
+        "path": "/workspace/scratch/d1225f08870c/generated_images/exec-d0084edd-b655-4796-ba71-20d0777e9c16.png",
+        "sha256": "3d80b9d7d7e810e6f4371549b4f163d2d76c27785ddc70abcc4f24182ee8ea12",
+        "session_only": true
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "누겔레온_glossy_promo_f_casual3.webp",
+      "format": "WebP",
+      "size": [
+        1024,
+        1536
+      ],
+      "quality": 85,
+      "method": 6,
+      "sha256": "ca4cc48151a744801f92d882e3289fb4964dafcb0e3bb2940e65fd9204b99645",
+      "git_blob": "693ec7733ee6d1cb75f7d2e56e21a8968f695743"
+    }
+  }
+]
