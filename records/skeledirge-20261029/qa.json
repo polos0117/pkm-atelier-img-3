@@ -1,0 +1,277 @@
+{
+  "reviewer": "gpt",
+  "reviewed_at": "2026-10-28T23:22:01.248020+00:00",
+  "cuts": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "d38324a48291936f4fc3db6f65b1834ff9eed5c1a7d99f6e62127078387a03e2",
+      "identity": {
+        "match": true,
+        "evidence": "Thin red, white and black plates leave joints free; full figure and boots visible. Human face and fitted dark gloves; no separate creature."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Thin red, white and black plates leave joints free; full figure and boots visible. Human face and fitted dark gloves; no separate creature."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "ce3ae09e3fce7e4696e526fbd1c86e0a976cd78e97d0c4a93619178727884670",
+      "identity": {
+        "match": true,
+        "evidence": "Layered shoulder, chest, forearm and thigh plates enlarge the armor outline while face, hair and body remain the same. Open-face temple guards; both boots visible."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Layered shoulder, chest, forearm and thigh plates enlarge the armor outline while face, hair and body remain the same. Open-face temple guards; both boots visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "16ddfff33cfb58f247e0c59b85e30912e490d7d67f577d6032f75f642b3545f3",
+      "identity": {
+        "match": true,
+        "evidence": "Thin shoulder, hip and calf panels sweep apart around compact glowing thrusters. Free joints and slim silhouette, no giant wings or separate weapon."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Thin shoulder, hip and calf panels sweep apart around compact glowing thrusters. Free joints and slim silhouette, no giant wings or separate weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "49c85c385d5ac9fc0c9383542882026d0adee016de3153a2363dad0c5a82fac1",
+      "identity": {
+        "match": true,
+        "evidence": "Same light pose, framing, camera and subject scale. Existing thin plates open along seams to reveal warm orange internal light; face and glove style preserved."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same light pose, framing, camera and subject scale. Existing thin plates open along seams to reveal warm orange internal light; face and glove style preserved."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "48dbcd048dda3fe57d38b0789508075066fd08277497de936a695d574559ea56",
+      "identity": {
+        "match": true,
+        "evidence": "Same heavy pose, camera and subject scale; layered shoulder, torso, forearm and thigh plates hinge open around orange cores. No new helmet or weapon."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same heavy pose, camera and subject scale; layered shoulder, torso, forearm and thigh plates hinge open around orange cores. No new helmet or weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "23960d568181ad47b1dd481cb47571e76e9bf326b964933e115a3d1fb761b045",
+      "identity": {
+        "match": true,
+        "evidence": "Same mobility pose, swept panels, camera and scale; internal covers open with warm orange type light. No new silhouette components or weapons."
+      },
+      "scene_outfit_pose": {
+        "match": true,
+        "evidence": "Same mobility pose, swept panels, camera and scale; internal covers open with warm orange type light. No new silhouette components or weapons."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Both dark gloves connect to forearms. Four slightly curled fingers and opposed thumbs, with some finger tips overlapping in the relaxed pose. Two legs join hips and knees; boots stay in frame.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "73351861e98eeb871f9de90aa3dc9d5fc0c1aadf2eb7dd8e3e8f9829f0b3ddc1",
+      "identity": {
+        "match": true,
+        "evidence": "Courtyard Halloween lanterns, autumn leaves and pumpkin displays; burgundy/plum velvet witch-party dress with a low neckline and high slit, large pointed hat and lace sleeve ruffles. She holds a pumpkin lantern by its handle and looks upward to the side with relaxed parted lips. Framing reaches upper thighs rather than chest-up; soft ruffles replace fitted elbow sleeves."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted deviations",
+        "evidence": "Courtyard Halloween lanterns, autumn leaves and pumpkin displays; burgundy/plum velvet witch-party dress with a low neckline and high slit, large pointed hat and lace sleeve ruffles. She holds a pumpkin lantern by its handle and looks upward to the side with relaxed parted lips. Framing reaches upper thighs rather than chest-up; soft ruffles replace fitted elbow sleeves."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Lantern hand has an opposed thumb and four fingers curled over the handle; nails and finger tips overlap naturally. Lower hand is partly hidden by dress at the edge. Both visible arms trace to shoulders; legs below crop.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "1cd290a560db100b55fbf96140803bc1e04ac0f99842255796eab6b3d1cb9ffa",
+      "identity": {
+        "match": true,
+        "evidence": "Warm dressing room with gilded mirror and a high red curtain tie. She stretches both arms toward the cord and rises onto her toes in a wine longline bra set with ivory embroidery and high-waist bottoms. Torso turns rear-three-quarter, face looks back naturally. Both feet and connected legs are fully shown; a soft mirror reflection repeats her back without another independent character."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted deviations",
+        "evidence": "Warm dressing room with gilded mirror and a high red curtain tie. She stretches both arms toward the cord and rises onto her toes in a wine longline bra set with ivory embroidery and high-waist bottoms. Torso turns rear-three-quarter, face looks back naturally. Both feet and connected legs are fully shown; a soft mirror reflection repeats her back without another independent character."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Two hands pinch and release the curtain cord with opposed thumb/index grips, remaining fingers partly hidden by the knot. Wrists and elbows connect in a normal raised-arm arc. Two feet have five toes each with overlap in the pointed rear foot; ankles and knees connect.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "25a303cd508eae4028304cb65b50016ec633e38232e64835993a4406eb544dd0",
+      "identity": {
+        "match": true,
+        "evidence": "Tiled stair landing, metal railing and window daylight. She sits in charcoal overall shorts and an ivory bandeau, one hand rests on the step while the other adjusts an earphone. High camera and amused lifted mouth; crop includes bent thighs rather than face close-up. Open side/back construction and short hems remain visible."
+      },
+      "scene_outfit_pose": {
+        "match": "with noted deviations",
+        "evidence": "Tiled stair landing, metal railing and window daylight. She sits in charcoal overall shorts and an ivory bandeau, one hand rests on the step while the other adjusts an earphone. High camera and amused lifted mouth; crop includes bent thighs rather than face close-up. Open side/back construction and short hems remain visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool exited 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Earphone hand uses thumb/index near the earlobe with other fingers folded behind. Step-resting hand has four fingers laid forward and thumb inward beside index; no duplicated digit. Two thighs join the seated pelvis, lower legs outside crop.",
+        "overlay_checked": false,
+        "note": "Reviewed full image and enlarged hand/foot crops; hidden fingers are recorded as occluded."
+      },
+      "size": {
+        "match": true,
+        "evidence": "Reopened PNG and WebP at 1024x1536."
+      },
+      "text_logo": {
+        "match": true,
+        "evidence": "No readable brand, title, logo or watermark visible."
+      }
+    }
+  ],
+  "casual_diversity": {
+    "compared_cards": [
+      "냐오닉스",
+      "단칼빙",
+      "모단단게",
+      "악뜨거"
+    ],
+    "evidence": "Actual published comparison images were reviewed beside the current triptych. Current scenes use different environments, activities, garment outlines and body angles; background/color changes alone were not counted. See per-image observations.",
+    "passed": true
+  }
+}

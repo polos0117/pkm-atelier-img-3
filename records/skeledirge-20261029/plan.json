@@ -1,0 +1,438 @@
+{
+  "card": "라우드본",
+  "session": "crocalor-skeledirge-20261029-07a8",
+  "batch_plan": {
+    "session": "crocalor-skeledirge-20261029-07a8",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "악뜨거",
+        "species": "crocalor-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "expr": "sleepy",
+            "pose": "turning_back",
+            "orient": "side",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "club_queue",
+            "expr": "flustered",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "jacket",
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "honeymoon_suite",
+            "expr": "relieved",
+            "pose": "cross_legged",
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "strapless top",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "travel_exploration",
+            "homewear",
+            "nightlife",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "라우드본",
+        "species": "skeledirge-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "adult_roleplay",
+            "ex": "witch_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "standing_relaxed",
+            "expr": "wistful",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "longline_bra",
+            "expr": "provocative",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "bare midriff",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "stair_landing",
+            "expr": "amused",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "frame": "face_close",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "adult_roleplay",
+      "ex": "witch_party",
+      "garments": [
+        "dress"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "chest_up",
+      "pose": "standing_relaxed",
+      "expr": "wistful",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "high thigh slit"
+      ],
+      "lead": "place",
+      "example_text": "a Halloween witch party costume — a tall pointed hat, a lace-up bodice short dress and striped stockings; holding a pumpkin lantern at a costume party",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "Standing at a waterfall pool is a paused moment.",
+        "source_influence": "A plum velvet witch-party dress with a low V neckline and a high thigh slit, a soft pointed hat and a narrow copper belt; fitted sleeves end above her elbows and a tiny ivory geometric brooch rests at the collar.",
+        "separates_preference": "Planner garments: dress"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A courtyard Halloween party has amber paper lanterns, autumn leaves and a small theatrical smoke machine; she holds a lantern by its handle while pausing beside a decorative pumpkin display.",
+          "reason": "Specifies the waterfall pool light and immediate surroundings."
+        },
+        {
+          "field": "outfit",
+          "content": "A plum velvet witch-party dress with a low V neckline and a high thigh slit, a soft pointed hat and a narrow copper belt; fitted sleeves end above her elbows and a tiny ivory geometric brooch rests at the collar.",
+          "reason": "Specifies dress with plunging neckline, high thigh slit for this scene."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "longline_bra",
+      "expr": "provocative",
+      "pose": "on_tiptoe",
+      "orient": "reaching_up",
+      "frame": "full_body",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "bare midriff",
+        "plunging neckline"
+      ],
+      "lead": "detail",
+      "example_text": "a longline bra set with a wide supportive underband and matching high-waisted bottoms",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "Reaching for a curtain tie is an active dressing-room task.",
+        "source_influence": "A deep wine longline bra lingerie set with a wide supportive underband, plunging neckline and matching high-waisted bottoms; the midriff remains visible between them and the fabric carries subtle ivory geometric embroidery.",
+        "separates_preference": "Planner garments: lingerie_set"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "The orange silk curtain tie is caught above her and she reaches to free it in a softly lit dressing room.",
+          "reason": "Provides a reachable curtain tie for the planned upward hand action."
+        },
+        {
+          "field": "outfit",
+          "content": "A deep wine longline bra lingerie set with a wide supportive underband, plunging neckline and matching high-waisted bottoms; the midriff remains visible between them and the fabric carries subtle ivory geometric embroidery.",
+          "reason": "Specifies lingerie_set with bare midriff, plunging neckline for this scene."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "everyday_sensual",
+      "ex": "stair_landing",
+      "expr": "amused",
+      "pose": "sitting",
+      "orient": "high_angle",
+      "frame": "face_close",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "overalls"
+      ],
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "action",
+      "example_text": "pausing on a stair landing with one hand on the railing",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "A pause at the stair railing is a still moment.",
+        "source_influence": "Charcoal cropped-hem overall shorts with an open back and a fitted ivory bandeau underneath, leaving the shoulders, back and upper thighs visible; a tiny copper flame-shaped ear stud.",
+        "separates_preference": "Planner garments: overalls"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Pausing beside the railing while listening to music through small wireless earphones, on a tiled stair landing lit by a narrow window.",
+          "reason": "Adds a small listening activity and the stair materials absent from the example."
+        },
+        {
+          "field": "outfit",
+          "content": "Charcoal cropped-hem overall shorts with an open back and a fitted ivory bandeau underneath, leaving the shoulders, back and upper thighs visible; a tiny copper flame-shaped ear stud.",
+          "reason": "Specifies overalls with cropped hem, open back for this scene."
+        }
+      ]
+    }
+  ],
+  "validation": "Planner check, stamped reservation verification and casual-look check passed.",
+  "generation": "built-in image_gen; one call per requested image",
+  "replan": {
+    "card": "라우드본",
+    "cut": 1,
+    "stages": [
+      "Full-cover burkini conflicted with exposure structures; planner selected waterfall_pool before generation.",
+      "Waterfall output was moderation_blocked without an image; failure and original prompt preserved. Planner selected a separate witch-party fashion scene, retaining accepted casual2/3."
+    ],
+    "heavy_open_correction": "First output was a rejected two-panel comparison; single heavy closed reference plus actual generator custom input requested a standalone opened card. Failed output hash preserved under attempts."
+  },
+  "source": "Source palette/motifs verified against linked Bulbapedia Biology sections and corrected in source-appearance.json. Initial Crocalor prompt used the longer source correction preserved in its UI/prompt; descriptors were later shortened to the repository word budget."
+}
