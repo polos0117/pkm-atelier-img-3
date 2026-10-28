@@ -1,0 +1,292 @@
+{
+  "card": "돌살이",
+  "reviewer": "gpt",
+  "tool_mode": "built-in image_gen",
+  "images": [
+    {
+      "slot": "light",
+      "accepted": true,
+      "image_sha256": "dfe816536c42c3f0edc057a85f99bc28b1dd67f8db8cdb47628ed189acc19513",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Orange close-fitting plates and rough gray domed shoulder mantle over black suit; two gloved fists beside waist and complete boots; no extra digits in the accepted third attempt."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": []
+    },
+    {
+      "slot": "heavy",
+      "accepted": true,
+      "image_sha256": "7b46f73cccbac7c090c92b3cfa62619876df6cf5e6487d0abe820d6dec4780a1",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Thick second rimmed layer covers shoulders, chest, abdomen, pelvis, forearms and shins; broad stone plates enlarge outline. Face and short orange blunt hair retained."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ]
+    },
+    {
+      "slot": "mobility",
+      "accepted": true,
+      "image_sha256": "1ab3a2a47c9c6ff483ed5c842a0b179e2f5dc93375d3668cbf655c31c8b17a90",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Stone-textured panels split into swept shoulder/hip/calf fans with open gaps and compact orange thrusters; same person and stance."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ]
+    },
+    {
+      "slot": "light_overdrive",
+      "accepted": true,
+      "image_sha256": "ded3a0a2f73ce1f37961c4994b25dc13bba333282edc8d02b821b89eb6a121de",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Same sunset camera and fist stance; thin plates lift at seams revealing lime-green frame; brown eyes retain color with green glint."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ]
+    },
+    {
+      "slot": "heavy_overdrive",
+      "accepted": true,
+      "image_sha256": "8c59028987b1e784dabf09961f05b3b532937e1978aa734acf5dac00d8590072",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Same heavy-form stance and scale; large shoulder and torso plate stacks hinge apart with broad green-lit air gaps; no new weapon."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "heavy"
+      ]
+    },
+    {
+      "slot": "mobility_overdrive",
+      "accepted": true,
+      "image_sha256": "4bdcdd3c196f6f57eacef72280803562a9f7d5e297d60141e6f5bd0099bab6ff",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Same mobility camera and fists; swept panel fans spread and thruster covers open with wing-like lime light; no physical new wings."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Each connected gloved fist has four curled finger knuckles and a single opposing thumb; bent digit tips naturally overlap. Both wrists and elbows remain continuous.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "mobility"
+      ]
+    },
+    {
+      "slot": "casual1",
+      "accepted": true,
+      "image_sha256": "c1d6c5a94971188cc346d37ffc6e9f1d05b07d0d81931b636f1d228fe6723c1b",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Striped inflatable ring in clear mosaic-tile pool; both hands hold citrus drink. Rust one-piece swimsuit has high leg openings, open back and side cutout; shoulders, back and hips visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near thumb opposes fingers wrapped around glass; four finger contours overlap cup edge. Far hand supports glass behind it, with remaining digits naturally occluded. Two arms join shoulders and wrists.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "Raised brow and widened brown eyes, small round open mouth."
+      },
+      "pose_orientation_framing": {
+        "match": true,
+        "evidence": "Rear three-quarter torso, head turns over near shoulder, drink in both hands; legs partly cropped by three-quarter frame and ring."
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "Orange one-piece with black straps/belt and open side/back; high-cut hip construction visible."
+      }
+    },
+    {
+      "slot": "casual2",
+      "accepted": true,
+      "image_sha256": "deef392fb13a57f2648d07f571997a11a66880ed3b8c4fd54c5e3ea0e183311e",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Candlelit stone Halloween hall with violet lights, velvet curtain and pumpkins; hand pinches pearl clasp at neck. Horn headband and satin party dress; bare shoulder and back visible."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Index and thumb pinch pearl clasp; middle, ring and little fingers curl toward palm. Far arm is hidden behind body and draped fabric. No detached hand.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "One brow raised, attentive open eyes, slightly parted mouth."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "Torso side/back, face turns into three-quarter rather than strict side profile; crop extends below waist. Record only."
+      },
+      "wardrobe": {
+        "match": false,
+        "evidence": "Satin dress, horns, black neck straps and open shoulder/back remain; orange replaces specified red, white wing prop is absent, sheer draped sleeve added. Same dress type and exposure; record costume-detail deviation."
+      },
+      "people": {
+        "match": true,
+        "evidence": "Distant party silhouettes have no readable faces or body contact."
+      }
+    },
+    {
+      "slot": "casual3",
+      "accepted": true,
+      "image_sha256": "84fd7c2c4591dcee9719c0a6dcb4daaaedf573f21e3c5a3b235ebac88f0129b0",
+      "dimensions": {
+        "match": true,
+        "evidence": "Original and WebP decode to 1024×1536."
+      },
+      "identity_and_scene": {
+        "match": true,
+        "evidence": "Dressing-room console, arched mirror, clothes rack and open jewelry case; hand holds pearl earring at ear. Opaque ivory front-laced corset and high-waisted bottoms expose shoulders and a midriff strip."
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe absent; same environment anatomy-check.py returned exit 3. Full originals plus enlarged hand crops reviewed manually.",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Index and thumb touch earring clasp; middle, ring and little fingers curl with separate knuckle contours. Other forearm reaches console; hand is occluded by open jewelry case.",
+        "overlay_checked": false,
+        "note": "No blocking limb, joint or digit defect in the accepted result."
+      },
+      "references": [
+        "light"
+      ],
+      "expression": {
+        "match": true,
+        "evidence": "Heavy lids, smooth brow and slightly parted relaxed lips."
+      },
+      "pose_orientation_framing": {
+        "match": false,
+        "evidence": "Leans forward with other arm supported at console; earring hand raised rather than hip, crop reaches upper thighs rather than chest-up. Record only."
+      },
+      "wardrobe": {
+        "match": true,
+        "evidence": "Opaque ivory cups and front black laces; short corset ends above bottoms with visible midriff. No intimate areas exposed."
+      }
+    }
+  ],
+  "skipped": [],
+  "face_comparison": {
+    "characters": [
+      "마라카치",
+      "달막화",
+      "불비달마"
+    ],
+    "reason": "돌집의 둥근 덩어리를 중간 폭 타원 얼굴에, 단단한 갑각 선을 넓은 턱에, 작은 중심 몸과 타원 눈을 가까운 갈색 눈·작은 입에 해석한다. 짧고 직선적인 머리는 갑각의 단단한 외곽선에 대응한다.",
+    "evidence": "돌살이는 둥근 타원 눈의 수직 폭, 가까운 눈 간격, 작은 무표정 입과 넓게 남는 하관. 마라카치의 긴 턱·아몬드 눈·활 모양 입, 달막화의 둥근 볼·넓은 미소, 불비달마의 넓고 도톰한 입술과 구분된다.",
+    "family_check": "Crustle has no registered image. Its face design retains oval face/square jaw and straight blunt bangs, with wider face, narrower eyes, thicker low brows, broad nose and wide mouth; Dwebble remains separate."
+  },
+  "rejected_attempts": [
+    {
+      "path": "attempts/light-1",
+      "reason": "Six digits on open hand."
+    },
+    {
+      "path": "attempts/light-2",
+      "reason": "Six digits persisted and armor changed during local correction."
+    }
+  ],
+  "diversity_comparison": {
+    "compared_characters": [
+      "마라카치",
+      "불비달마",
+      "달막화"
+    ],
+    "actual_images_checked": "Nine recent casual originals and these three originals side by side.",
+    "evidence": "Pool ring drink in a one-piece, clasp check at Halloween entrance in satin costume, and pearl-earring selection at a dressing console in ivory corset differ in task, location, outfit silhouette and composition. Maractus seated retro bikini shares broad swimwear theme but differs in construction, mat vs water ring, drink action and crop. Recent laundry, curtain, spa, hotel, rave and parade scenes do not repeat these combinations.",
+    "casual_look": "../pkm-atelier-img-3/img/돌살이_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     296  야도킹_glossy_promo_f_casual1.webp\n     298  푸크린_glossy_promo_f_casual2.webp\n     303  레디바_glossy_promo_f_casual1.webp\n../pkm-atelier-img-3/img/돌살이_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     273  쟝고_glossy_promo_f_casual2.webp\n     291  달막화_glossy_promo_f_casual2.webp\n     291  데구리_glossy_promo_f_casual1.webp\n../pkm-atelier-img-3/img/돌살이_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     269  꼴깍몬_glossy_promo_f_casual3.webp\n     286  줄뮤마_glossy_promo_f_casual2.webp\n     289  엘레이드_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

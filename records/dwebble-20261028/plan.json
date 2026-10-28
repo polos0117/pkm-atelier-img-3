@@ -1,0 +1,460 @@
+{
+  "session": "maractus-dwebble-20261028-1e2fc55a",
+  "card": "돌살이",
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "swimwear",
+      "ex": "pool_float",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "three_quarter",
+      "pose": "holding_cup",
+      "expr": "surprised",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "side cutouts"
+      ],
+      "lead": "light",
+      "example_text": "lounging on a large inflatable ring in a swimsuit in a sunny pool, a drink in one hand"
+    },
+    {
+      "cut": 2,
+      "cat": "fantasy_costume",
+      "ex": "angel_devil",
+      "garments": [
+        "dress"
+      ],
+      "orient": "profile_close",
+      "frame": "waist_up",
+      "pose": "contrapposto",
+      "expr": "curious",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "halter neck",
+        "one-shoulder cut"
+      ],
+      "lead": "action",
+      "example_text": "an angel-and-devil party costume — a red satin mini dress with a small horn headband and a tail prop, one white feathered wing prop over her shoulder, at a Halloween party"
+    },
+    {
+      "cut": 3,
+      "cat": "lingerie",
+      "ex": "front_lace_corset",
+      "garments": [
+        "lingerie_set"
+      ],
+      "orient": "leaning_forward",
+      "frame": "chest_up",
+      "pose": "hand_on_hip",
+      "expr": "sensual",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "bare midriff",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "a front-lacing corset over matching high-waisted lingerie bottoms"
+    }
+  ],
+  "batch_plan": {
+    "session": "maractus-dwebble-20261028-1e2fc55a",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "마라카치",
+        "species": "maractus-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "retro_highwaist",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "rear_3q",
+            "frame": "environmental",
+            "pose": "one_knee_up",
+            "expr": "playful",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "kpop_practice",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "dance_step",
+            "expr": "calm",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "strapless top"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "self_wedding_shoot",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "taking_photo",
+            "expr": "gentle",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "hobbies_leisure",
+            "traditional",
+            "dance_stage",
+            "fantasy_costume",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "bikini"
+          ],
+          "orient": [
+            "rear_3q",
+            "over_shoulder",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "돌살이",
+        "species": "dwebble-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "pool_float",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "three_quarter_back",
+            "frame": "three_quarter",
+            "pose": "holding_cup",
+            "expr": "surprised",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "light",
+            "example_text": "lounging on a large inflatable ring in a swimsuit in a sunny pool, a drink in one hand"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "angel_devil",
+            "garments": [
+              "dress"
+            ],
+            "orient": "profile_close",
+            "frame": "waist_up",
+            "pose": "contrapposto",
+            "expr": "curious",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "one-shoulder cut"
+            ],
+            "lead": "action",
+            "example_text": "an angel-and-devil party costume — a red satin mini dress with a small horn headband and a tail prop, one white feathered wing prop over her shoulder, at a Halloween party"
+          },
+          {
+            "cut": 3,
+            "cat": "lingerie",
+            "ex": "front_lace_corset",
+            "garments": [
+              "lingerie_set"
+            ],
+            "orient": "leaning_forward",
+            "frame": "chest_up",
+            "pose": "hand_on_hip",
+            "expr": "sensual",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "plunging neckline"
+            ],
+            "lead": "place",
+            "example_text": "a front-lacing corset over matching high-waisted lingerie bottoms"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "partner_care",
+            "travel_exploration",
+            "hobbies_leisure",
+            "traditional",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "three_quarter_back",
+            "profile_close",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "Planner check passed before reserve; verify passed before casual generation.",
+  "reservation_commit": "c98d4dc59f9d54f818da1ec42a87eb7e5c073308",
+  "selection_method": "Planner choices entered and locked in actual Preact editor; no manual choice substitutions.",
+  "replan": {
+    "avoid": "돌살이:1:ex=burkini_modest",
+    "reason": "Covered-swimwear example conflicts with required high-cut/side-cutout exposure construction; planner selected pool_float before any Dwebble casual generation."
+  },
+  "inputs": [
+    {
+      "slot": "casual1",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "Afternoon sunlight sparkles through the ice in a citrus drink; mosaic tiles show through clear turquoise water beneath a red-and-cream striped inflatable ring.",
+          "reason": "Adds afternoon light through drink ice, pool mosaic and striped ring colors absent from the pool-float example."
+        },
+        {
+          "field": "outfit",
+          "content": "A rust-orange one-piece swimsuit has high-cut legs and secure side cutouts, with a narrow charcoal belt detail; its open sides reveal the waist and upper hips.",
+          "reason": "Specifies planned high-cut legs and side cutouts with rust/charcoal construction absent from the generic swimsuit example."
+        }
+      ],
+      "axes_reason": "Floating and holding a drink is balanced movement; rust and charcoal give multiple source palette cues for balanced influence; a one-piece uses balanced separates.",
+      "random_draws": "Planner selected these values; no separate UI random draws or replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    },
+    {
+      "slot": "casual2",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "She checks the pearl clasp of her costume beside a velvet entrance arch at a Halloween masquerade; violet spotlights cross the candlelit stone hall.",
+          "reason": "Adds a clasp-checking activity and velvet arch, violet light and stone hall to the Halloween-event example."
+        },
+        {
+          "field": "outfit",
+          "content": "A narrow charcoal waist belt and orange seam piping accent the dress; its diagonal halter neckline leaves one shoulder and upper back bare.",
+          "reason": "Adds charcoal belt/orange piping and the planned diagonal halter/one-shoulder construction without changing dress category."
+        }
+      ],
+      "axes_reason": "A paused clasp check is mostly posed; charcoal/orange accents give balanced source influence; the single party dress uses balanced separates.",
+      "random_draws": "Planner selected these values; no separate UI random draws or replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    },
+    {
+      "slot": "casual3",
+      "direct_inputs": [
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The built-in image tool has no size field; the common 2:3 instruction is required by IMAGE_RULES."
+        },
+        {
+          "field": "scene",
+          "content": "A limestone dressing-room console holds an open jewelry case beside an arched mirror; she selects a pearl earring before an evening-fashion shoot.",
+          "reason": "The corset example names no setting or activity; adds dressing console, open jewelry box and pearl-earring selection before an editorial shoot."
+        },
+        {
+          "field": "outfit",
+          "content": "Ivory opaque satin with black lacing and one amber stitch accent shapes a secure plunging corset neckline; the shortline hem leaves a narrow midriff gap above the matching high-waisted bottoms.",
+          "reason": "Adds ivory opaque satin, black lace color, secure neckline and planned midriff gap to the front-laced corset example."
+        }
+      ],
+      "axes_reason": "Earring selection at the console is a held styling moment, mostly posed; one amber stitch is subtle source influence; coordinated corset and bottoms use balanced scene-led separates.",
+      "random_draws": "Planner selected these values; no separate UI random draws or replacements.",
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      }
+    }
+  ],
+  "light_retry": {
+    "attempts": [
+      "attempts/light-1",
+      "attempts/light-2"
+    ],
+    "accepted_attempt": 3,
+    "new_ui_inputs": {
+      "action-category": "ready",
+      "action-example": "ready_guard",
+      "custom": "Both gloved hands are closed into compact natural fists held beside her waist."
+    },
+    "reason": "Two open-hand results had six digits; new text-only light generation using readable guard and compact fists."
+  }
+}
