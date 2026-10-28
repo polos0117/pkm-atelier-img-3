@@ -1,0 +1,441 @@
+{
+  "card": "악뜨거",
+  "session": "crocalor-skeledirge-20261029-07a8",
+  "batch_plan": {
+    "session": "crocalor-skeledirge-20261029-07a8",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "악뜨거",
+        "species": "crocalor-20261029",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "babydoll",
+            "expr": "sleepy",
+            "pose": "turning_back",
+            "orient": "side",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set",
+              "slip"
+            ],
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "club_queue",
+            "expr": "flustered",
+            "pose": "arms_crossed",
+            "orient": "looking_away",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "jacket",
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "mini length"
+            ],
+            "lead": "action"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "bridal",
+            "ex": "honeymoon_suite",
+            "expr": "relieved",
+            "pose": "cross_legged",
+            "orient": "reclining",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "strapless top",
+              "off-shoulder neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "travel_exploration",
+            "homewear",
+            "nightlife",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      },
+      {
+        "card": "라우드본",
+        "species": "skeledirge-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "swimwear",
+            "ex": "waterfall_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "hands_in_hair",
+            "expr": "surprised",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "halter neck"
+            ],
+            "lead": "place"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "longline_bra",
+            "expr": "provocative",
+            "pose": "on_tiptoe",
+            "orient": "reaching_up",
+            "frame": "full_body",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "bare midriff",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "everyday_sensual",
+            "ex": "stair_landing",
+            "expr": "amused",
+            "pose": "sitting",
+            "orient": "high_angle",
+            "frame": "face_close",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": true,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit"
+          ],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "kept": true,
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "babydoll",
+      "expr": "sleepy",
+      "pose": "turning_back",
+      "orient": "side",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set",
+        "slip"
+      ],
+      "expose": [
+        "high-cut leg",
+        "plunging neckline"
+      ],
+      "lead": "place",
+      "example_text": "a babydoll lingerie slip with narrow shoulder straps, an empire waist, and a softly flared hem",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "Turning to inspect the soft slip drape is the planned movement.",
+        "source_influence": "A burnt-orange satin babydoll lingerie slip with a low V neckline, narrow straps and a softly flared short hem, paired with matching high-cut lingerie bottoms; fine yellow square embroidery follows the empire seam.",
+        "separates_preference": "Planner garments: lingerie_set, slip"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A sunlit dressing alcove with a standing mirror and honey-colored wood; she checks the soft drape of the slip before bed.",
+          "reason": "Sets the light, furniture and immediate activity absent from the brief example."
+        },
+        {
+          "field": "outfit",
+          "content": "A burnt-orange satin babydoll lingerie slip with a low V neckline, narrow straps and a softly flared short hem, paired with matching high-cut lingerie bottoms; fine yellow square embroidery follows the empire seam.",
+          "reason": "Specifies lingerie_set, slip with high-cut leg, plunging neckline for this scene."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 2,
+      "cat": "nightlife",
+      "ex": "club_queue",
+      "expr": "flustered",
+      "pose": "arms_crossed",
+      "orient": "looking_away",
+      "frame": "face_close",
+      "lens": "portrait85",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress",
+        "jacket",
+        "slip"
+      ],
+      "expose": [
+        "high thigh slit",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "waiting in the queue outside a club at night in a short faux-fur jacket over a slip mini dress",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "Waiting with crossed arms is a still pause.",
+        "source_influence": "A black silk slip mini dress with a high thigh slit under a short white faux-fur jacket worn open, leaving her neckline and upper thighs exposed; warm copper earrings.",
+        "separates_preference": "Planner garments: dress, jacket, slip"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Waiting for the velvet rope to open, with red marquee reflections on the wet pavement.",
+          "reason": "Adds the waiting detail and wet-pavement lighting absent from the club example."
+        },
+        {
+          "field": "outfit",
+          "content": "A black silk slip mini dress with a high thigh slit under a short white faux-fur jacket worn open, leaving her neckline and upper thighs exposed; warm copper earrings.",
+          "reason": "Specifies dress, jacket, slip with high thigh slit, mini length for this scene."
+        }
+      ]
+    },
+    {
+      "kept": true,
+      "cut": 3,
+      "cat": "bridal",
+      "ex": "honeymoon_suite",
+      "expr": "relieved",
+      "pose": "cross_legged",
+      "orient": "reclining",
+      "frame": "three_quarter",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "dress",
+        "slip"
+      ],
+      "expose": [
+        "strapless top",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "example_text": "on the balcony of a honeymoon suite in a silk slip dress, a breeze off the sea, a glass in hand",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_selection": "Planner-selected keys; no manual key substitution",
+      "axes_reasons": {
+        "action_level": "Seated glass-holding is a still balcony moment.",
+        "source_influence": "An ivory silk slip dress with a strapless bodice and a soft off-shoulder draped neckline, bare shoulders and a short flowing hem; a narrow terracotta ribbon at the waist.",
+        "separates_preference": "Planner garments: dress, slip"
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late golden light reaches the sea-facing balcony and catches the glass in her hand.",
+          "reason": "Adds the golden time of day and balcony lighting absent from the suite example."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory silk slip dress with a strapless bodice and a soft off-shoulder draped neckline, bare shoulders and a short flowing hem; a narrow terracotta ribbon at the waist.",
+          "reason": "Specifies dress, slip with strapless top, off-shoulder neckline for this scene."
+        }
+      ]
+    }
+  ],
+  "validation": "Planner check, stamped reservation verification and casual-look check passed.",
+  "generation": "built-in image_gen; one call per requested image",
+  "replan": {
+    "card": "라우드본",
+    "cut": 1,
+    "avoided": "burkini_modest",
+    "reason": "Full-cover sleeves/legs/hood conflict with planner high-cut/halter exposure; planner selected waterfall_pool before generation."
+  },
+  "source": "Source palette/motifs verified against linked Bulbapedia Biology sections and corrected in source-appearance.json. Initial Crocalor prompt used the longer source correction preserved in its UI/prompt; descriptors were later shortened to the repository word budget."
+}
