@@ -1,0 +1,677 @@
+{
+  "session": "krokorok-krookodile-20261028",
+  "batch": {
+    "session": "krokorok-krookodile-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "악비르",
+        "species": "krokorok-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "homewear",
+            "ex": "camisole_wrap",
+            "garments": [
+              "shorts",
+              "skirt",
+              "tank"
+            ],
+            "orient": "high_angle",
+            "frame": "face_close",
+            "pose": "leaning_wall",
+            "expr": "sleepy",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "mini length",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "knit_lingerie",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "reclining",
+            "frame": "waist_up",
+            "pose": "cross_legged",
+            "expr": "mischievous",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "rooftop_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "leaning_forward",
+            "frame": "three_quarter",
+            "pose": "turning_back",
+            "expr": "laughing_open",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "homewear",
+            "traditional",
+            "nightlife",
+            "spa_wellness",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "tank",
+            "lingerie_set"
+          ],
+          "orient": [
+            "high_angle",
+            "reclining",
+            "leaning_forward"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "악비아르",
+        "species": "krookodile-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "spa_wellness",
+            "ex": "spa_pool",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "side",
+            "frame": "environmental",
+            "pose": "arms_crossed",
+            "expr": "wistful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "bare midriff"
+            ],
+            "lead": "detail",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Maroon mosaic tiles glisten beside a basalt-lined thermal pool, with pale steam drifting toward the dusk sky.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 spa_pool 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A deep burgundy swimsuit has a plunging neckline and a broad waist cutout exposing the midriff, edged in charcoal.",
+                "reason": "계획기의 swimsuit와 plunging neckline, bare midriff를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "spa_pool의 arms_crossed 동작 정도를 계획기가 선택했다.",
+              "source_influence": "spa_pool에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+              "separates_preference": "swimsuit 의상의 결합 구조에 따른 balanced 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "boho_crochet",
+            "garments": [
+              "trousers"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "full_body",
+            "pose": "mid_action",
+            "expr": "flustered",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "side cutouts"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "She moves between woven festival banners as the afternoon breeze carries dust across the grassy field.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 boho_crochet 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "The rust crochet halter top has an open back and side cutouts, paired with low-rise indigo flared jeans and tan platform sandals.",
+                "reason": "계획기의 trousers와 open back, side cutouts를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "boho_crochet의 mid_action 동작 정도를 계획기가 선택했다.",
+              "source_influence": "boho_crochet에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+              "separates_preference": "trousers 의상의 결합 구조에 따른 prefer separates 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "hanbok_coverup",
+            "garments": [
+              "skirt",
+              "traditional"
+            ],
+            "orient": "looking_away",
+            "frame": "chest_up",
+            "pose": "on_tiptoe",
+            "expr": "soft_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "high thigh slit",
+              "off-shoulder neckline"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Early sun filters through a bamboo canopy beside a coastal plunge pool as she adjusts the cover-up sash.",
+                "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 hanbok_coverup 장면에 더했다."
+              },
+              {
+                "field": "outfit",
+                "content": "A black swimsuit sits beneath a burgundy hanbok-line cover-up whose high-waisted flowing skirt has a high thigh slit; its loose off-shoulder neckline leaves the shoulders and collarbones visible.",
+                "reason": "계획기의 skirt, traditional와 high thigh slit, off-shoulder neckline를 의상의 재질·구조로 구체화했다."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "hanbok_coverup의 on_tiptoe 동작 정도를 계획기가 선택했다.",
+              "source_influence": "hanbok_coverup에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+              "separates_preference": "skirt, traditional 의상의 결합 구조에 따른 prefer separates 선택이다."
+            },
+            "camera_input": {
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "trousers",
+            "traditional"
+          ],
+          "orient": [
+            "side",
+            "turning_midmotion",
+            "looking_away"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "character": {
+    "card": "악비아르",
+    "species": "krookodile-20261028",
+    "cuts": [
+      {
+        "cut": 1,
+        "cat": "spa_wellness",
+        "ex": "spa_pool",
+        "garments": [
+          "swimsuit"
+        ],
+        "orient": "side",
+        "frame": "environmental",
+        "pose": "arms_crossed",
+        "expr": "wistful",
+        "lens": "telephoto135",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "plunging neckline",
+          "bare midriff"
+        ],
+        "lead": "detail",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Maroon mosaic tiles glisten beside a basalt-lined thermal pool, with pale steam drifting toward the dusk sky.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 spa_pool 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "A deep burgundy swimsuit has a plunging neckline and a broad waist cutout exposing the midriff, edged in charcoal.",
+            "reason": "계획기의 swimsuit와 plunging neckline, bare midriff를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "spa_pool의 arms_crossed 동작 정도를 계획기가 선택했다.",
+          "source_influence": "spa_pool에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+          "separates_preference": "swimsuit 의상의 결합 구조에 따른 balanced 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      },
+      {
+        "cut": 2,
+        "cat": "retro_glamour",
+        "ex": "boho_crochet",
+        "garments": [
+          "trousers"
+        ],
+        "orient": "turning_midmotion",
+        "frame": "full_body",
+        "pose": "mid_action",
+        "expr": "flustered",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "open back",
+          "side cutouts"
+        ],
+        "lead": "action",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "She moves between woven festival banners as the afternoon breeze carries dust across the grassy field.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 boho_crochet 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "The rust crochet halter top has an open back and side cutouts, paired with low-rise indigo flared jeans and tan platform sandals.",
+            "reason": "계획기의 trousers와 open back, side cutouts를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "boho_crochet의 mid_action 동작 정도를 계획기가 선택했다.",
+          "source_influence": "boho_crochet에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+          "separates_preference": "trousers 의상의 결합 구조에 따른 prefer separates 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      },
+      {
+        "cut": 3,
+        "cat": "swimwear",
+        "ex": "hanbok_coverup",
+        "garments": [
+          "skirt",
+          "traditional"
+        ],
+        "orient": "looking_away",
+        "frame": "chest_up",
+        "pose": "on_tiptoe",
+        "expr": "soft_smile",
+        "lens": "documentary35",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "high thigh slit",
+          "off-shoulder neckline"
+        ],
+        "lead": "light",
+        "direct_inputs": [
+          {
+            "field": "scene",
+            "content": "Early sun filters through a bamboo canopy beside a coastal plunge pool as she adjusts the cover-up sash.",
+            "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 hanbok_coverup 장면에 더했다."
+          },
+          {
+            "field": "outfit",
+            "content": "A black swimsuit sits beneath a burgundy hanbok-line cover-up whose high-waisted flowing skirt has a high thigh slit; its loose off-shoulder neckline leaves the shoulders and collarbones visible.",
+            "reason": "계획기의 skirt, traditional와 high thigh slit, off-shoulder neckline를 의상의 재질·구조로 구체화했다."
+          }
+        ],
+        "axis_reasons": {
+          "action_level": "hanbok_coverup의 on_tiptoe 동작 정도를 계획기가 선택했다.",
+          "source_influence": "hanbok_coverup에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+          "separates_preference": "skirt, traditional 의상의 결합 구조에 따른 prefer separates 선택이다."
+        },
+        "camera_input": {
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+        }
+      }
+    ],
+    "why": {
+      "required": {
+        "slots": [
+          2,
+          3
+        ],
+        "two": true,
+        "prev": [
+          2
+        ]
+      },
+      "low": [
+        "occupation_basic",
+        "occupation_sensual",
+        "everyday_basic",
+        "everyday_sensual",
+        "partner_care",
+        "travel_exploration",
+        "food_berries",
+        "festivals_contests",
+        "hobbies_leisure",
+        "active",
+        "source_editorial",
+        "homewear",
+        "private_evening",
+        "traditional",
+        "nightlife",
+        "dance_stage",
+        "spa_wellness",
+        "bridal",
+        "gala_red_carpet",
+        "wildcard"
+      ]
+    },
+    "claims": {
+      "garment": [
+        "trousers",
+        "traditional"
+      ],
+      "orient": [
+        "side",
+        "turning_midmotion",
+        "looking_away"
+      ],
+      "frame": []
+    }
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "spa_wellness",
+      "ex": "spa_pool",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "side",
+      "frame": "environmental",
+      "pose": "arms_crossed",
+      "expr": "wistful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "bare midriff"
+      ],
+      "lead": "detail",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Maroon mosaic tiles glisten beside a basalt-lined thermal pool, with pale steam drifting toward the dusk sky.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 spa_pool 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A deep burgundy swimsuit has a plunging neckline and a broad waist cutout exposing the midriff, edged in charcoal.",
+          "reason": "계획기의 swimsuit와 plunging neckline, bare midriff를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "spa_pool의 arms_crossed 동작 정도를 계획기가 선택했다.",
+        "source_influence": "spa_pool에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+        "separates_preference": "swimsuit 의상의 결합 구조에 따른 balanced 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "boho_crochet",
+      "garments": [
+        "trousers"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "full_body",
+      "pose": "mid_action",
+      "expr": "flustered",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She moves between woven festival banners as the afternoon breeze carries dust across the grassy field.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 boho_crochet 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "The rust crochet halter top has an open back and side cutouts, paired with low-rise indigo flared jeans and tan platform sandals.",
+          "reason": "계획기의 trousers와 open back, side cutouts를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "boho_crochet의 mid_action 동작 정도를 계획기가 선택했다.",
+        "source_influence": "boho_crochet에서 의상 본래 실루엣을 유지하며 subtle 범위의 원작색을 남긴다.",
+        "separates_preference": "trousers 의상의 결합 구조에 따른 prefer separates 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "hanbok_coverup",
+      "garments": [
+        "skirt",
+        "traditional"
+      ],
+      "orient": "looking_away",
+      "frame": "chest_up",
+      "pose": "on_tiptoe",
+      "expr": "soft_smile",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "high thigh slit",
+        "off-shoulder neckline"
+      ],
+      "lead": "light",
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Early sun filters through a bamboo canopy beside a coastal plunge pool as she adjusts the cover-up sash.",
+          "reason": "예시가 정하지 않은 구체적인 장소·시간·주변 사물 및 활동을 hanbok_coverup 장면에 더했다."
+        },
+        {
+          "field": "outfit",
+          "content": "A black swimsuit sits beneath a burgundy hanbok-line cover-up whose high-waisted flowing skirt has a high thigh slit; its loose off-shoulder neckline leaves the shoulders and collarbones visible.",
+          "reason": "계획기의 skirt, traditional와 high thigh slit, off-shoulder neckline를 의상의 재질·구조로 구체화했다."
+        }
+      ],
+      "axis_reasons": {
+        "action_level": "hanbok_coverup의 on_tiptoe 동작 정도를 계획기가 선택했다.",
+        "source_influence": "hanbok_coverup에서 의상 본래 실루엣을 유지하며 balanced 범위의 원작색을 남긴다.",
+        "separates_preference": "skirt, traditional 의상의 결합 구조에 따른 prefer separates 선택이다."
+      },
+      "camera_input": {
+        "content": "Vertical 2:3 portrait (1024×1536).",
+        "reason": "Image tool has no size control; enforce required 2:3 in generator camera field."
+      }
+    }
+  ],
+  "check": "passed; planner reservation stamps verified",
+  "reservation_commit": "af42a6177b77b2ffb913a3ced8b761333355773a",
+  "extras": [
+    {
+      "scene": "Maroon mosaic tiles glisten beside a basalt-lined thermal pool, with pale steam drifting toward the dusk sky.",
+      "outfit": "A deep burgundy swimsuit has a plunging neckline and a broad waist cutout exposing the midriff, edged in charcoal."
+    },
+    {
+      "scene": "She moves between woven festival banners as the afternoon breeze carries dust across the grassy field.",
+      "outfit": "The rust crochet halter top has an open back and side cutouts, paired with low-rise indigo flared jeans and tan platform sandals."
+    },
+    {
+      "scene": "Early sun filters through a bamboo canopy beside a coastal plunge pool as she adjusts the cover-up sash.",
+      "outfit": "A black swimsuit sits beneath a burgundy hanbok-line cover-up whose high-waisted flowing skirt has a high thigh slit; its loose off-shoulder neckline leaves the shoulders and collarbones visible."
+    }
+  ],
+  "generation_tool": "built-in image_gen",
+  "storage_method": "Shared bare Git plus isolated sparse worktrees; unrelated img paths indexed by filename without image blobs."
+}

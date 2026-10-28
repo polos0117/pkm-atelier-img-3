@@ -1,0 +1,274 @@
+[
+  {
+    "card": "악비아르",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20",
+      "session_only": true
+    },
+    "references": [],
+    "prompt": "light-prompt.txt",
+    "ui": "light-ui.json",
+    "output": {
+      "file": "악비아르_light_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "16181db0aa6ab893ceedc01420b753a66714156cff9e94c43d46f6c675355cf2",
+      "git_blob": "e6e0a75b94b243daa94e2cf4f93ecbf0c35caf81"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "5fcd14a8fc2b8ec467f5c3868a091c3608ef7c725c777b16b52f62f2fd829bdf",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "heavy-prompt.txt",
+    "ui": "heavy-ui.json",
+    "output": {
+      "file": "악비아르_heavy_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "22f7bacda415378af76f07d120cfc8153e279da3084c70864417c9907a0c17f0",
+      "git_blob": "d34b88588a174a80188c85771609b74ae410fc86"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "93e2193d097e56697cd2fe67b8c52f767f02ece9e36edb9111677852888e1895",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "mobility-prompt.txt",
+    "ui": "mobility-ui.json",
+    "output": {
+      "file": "악비아르_mobility_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "299a1b584d47fb69622c90e697709d522d80066ad316f70a008d89b6cb3bc641",
+      "git_blob": "7759464923c0cbfcaab173ffe6ab2081f36249b3"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "116f780e339941c4d157f68f92addbfefbdfdf49bcf59050bd6b7a535ecef909",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "light_overdrive-prompt.txt",
+    "ui": "light_overdrive-ui.json",
+    "output": {
+      "file": "악비아르_light_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "8f7f84fee4c9b617c3da99bcd6004a8c04f5f0146ab1866e13bbad0f9bc7a42f",
+      "git_blob": "e82e8454669d14c9d497ca802d797e982c0d49db"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "dc68091db39d8db431ca6c7977067d485a25e6eaca54da665066771cc83d85aa",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "5fcd14a8fc2b8ec467f5c3868a091c3608ef7c725c777b16b52f62f2fd829bdf"
+      },
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "heavy_overdrive-prompt.txt",
+    "ui": "heavy_overdrive-ui.json",
+    "output": {
+      "file": "악비아르_heavy_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "3b9937a29ad24e117b0b237aa7b71d4f98d3114eb1128fedc5cd74a373ccb306",
+      "git_blob": "b88c50d042507c9fa262d12503d61bae7a188636"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "3c7cddee96627f69e3b3abc584a370839b39131f0a61064c366b2eae51f2ac25",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "93e2193d097e56697cd2fe67b8c52f767f02ece9e36edb9111677852888e1895"
+      },
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "mobility_overdrive-prompt.txt",
+    "ui": "mobility_overdrive-ui.json",
+    "output": {
+      "file": "악비아르_mobility_overdrive_glossy_promo_f.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "998d4a9a1988165d324b22a86b4ad92490be7f10110f03b08a0fefc6bbec3023",
+      "git_blob": "7c63438df0ce09d75f4f35a628c94ec01f18f4e0"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "2d16f13d33d8904d7ea446af67ea6ea9ccff2e2b852e2c0456f75d650d7ccfd7",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "casual1-prompt.txt",
+    "ui": "casual1-ui.json",
+    "output": {
+      "file": "악비아르_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "c14a9fa3f85ccf6a26ed4ef94bc52e1fe734ef8483f9f14a26739f208f8d0499",
+      "git_blob": "53e8bf0d52c40c5217be22c8985947ab92796aa8"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "6430bb6c207265e62e6309b1698408540427194817628de2651146b7f9166ffa",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "casual2-prompt.txt",
+    "ui": "casual2-ui.json",
+    "output": {
+      "file": "악비아르_glossy_promo_f_casual2.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "7b17614a84d7393f77dea63cf5fde3f9836034243520c27e01c4eeff10fc9e12",
+      "git_blob": "3fbf332fdb9e97b1a99344ae2767d37b3328af98"
+    }
+  },
+  {
+    "card": "악비아르",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "Actual prompt.html UI selections and exact saved output; built-in image_gen",
+    "original": {
+      "sha256": "c58e7635bcb49c6b76f045c21ace07b405815c6646526b3f51ead67a4bf05a89",
+      "session_only": true
+    },
+    "references": [
+      {
+        "sha256": "0fe34f6535025a3cdff14984f4b687e0ba10e4c7fd6c30a0c0dbc01ce13bcd20"
+      }
+    ],
+    "prompt": "casual3-prompt.txt",
+    "ui": "casual3-ui.json",
+    "output": {
+      "file": "악비아르_glossy_promo_f_casual3.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "8bf373e774eb6e848c893e51aae303f11cd5bbfc45e1125202fb61938e947e85",
+      "git_blob": "91423aaefa80b81d4b3741f264f4949b347bc8e0"
+    }
+  }
+]
