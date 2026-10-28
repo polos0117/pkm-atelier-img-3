@@ -1,0 +1,398 @@
+{
+  "batch_plan": {
+    "session": "inteleon-skwovet-20261028-f7b473",
+    "characters": [
+      {
+        "species": "inteleon-20261028",
+        "card": "인텔리레온",
+        "at": "2026-10-28T02:59:26-05:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "bridal",
+            "ex": "veil_wind",
+            "expr": "soft_smile",
+            "pose": "side_sitting",
+            "orient": "three_quarter_back",
+            "frame": "environmental",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "light",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "nightlife",
+            "ex": "karaoke_room",
+            "expr": "smug",
+            "pose": "mid_action",
+            "orient": "front_3q",
+            "frame": "full_body",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts"
+            ],
+            "expose": [
+              "bare midriff",
+              "off-shoulder neckline"
+            ],
+            "lead": "action",
+            "kept": true
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "moonlit_pool",
+            "expr": "candid",
+            "pose": "standing_formal",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "telephoto135",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "bikini"
+            ],
+            "expose": [
+              "halter neck",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "stamp": "f9b0adabc8356ebaf855f592a15fdc6e488c6f243b71cde7ba98970576352c84"
+      },
+      {
+        "species": "skwovet-20261028",
+        "card": "탐리스",
+        "at": "2026-10-28T02:45:24-05:00",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "high_shelf",
+            "expr": "mischievous",
+            "pose": "carrying_something",
+            "orient": "side",
+            "frame": "face_close",
+            "lens": "documentary35",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "knit_top",
+              "trousers"
+            ],
+            "expose": [
+              "cropped hem",
+              "open back"
+            ],
+            "lead": "light",
+            "kept": true
+          },
+          {
+            "cut": 2,
+            "cat": "retro_glamour",
+            "ex": "retro_pinup",
+            "expr": "proud",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "wide24",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "lingerie_set"
+            ],
+            "expose": [
+              "side cutouts",
+              "high-cut leg"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "one_shoulder_lounge",
+            "expr": "half_smile",
+            "pose": "contrapposto",
+            "orient": "front",
+            "frame": "environmental",
+            "lens": "natural50",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "trousers"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "strapless top"
+            ],
+            "lead": "action",
+            "kept": true
+          }
+        ],
+        "stamp": "e34e8ce6597ebe5ce1931066f8eb765e9d17a232d7b487198cedd7b3eb8849e4"
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "high_shelf",
+      "expr": "mischievous",
+      "pose": "carrying_something",
+      "orient": "side",
+      "frame": "face_close",
+      "lens": "documentary35",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "knit_top",
+        "trousers"
+      ],
+      "expose": [
+        "cropped hem",
+        "open back"
+      ],
+      "lead": "light",
+      "kept": true,
+      "aspect": "2:3",
+      "example_text": "reaching for a storage box on a high kitchen shelf, shown from an eye-level three-quarter view",
+      "submitted_prompt_file": "casual1-prompt.txt",
+      "ui": "casual1-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "Taking a box from a shelf is gentle household motion.",
+        "source_influence": "Cinnamon knit is one restrained color cue.",
+        "separates_preference": "The cropped knit and tailored trousers are separate."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Late-afternoon amber light crosses walnut cupboards; the storage box is wrapped in russet fabric with a small brass handle.",
+          "reason": "The shelf example leaves light, cupboard material and box construction open; amber light, walnut and a brass-handled fabric box complete it."
+        },
+        {
+          "field": "outfit",
+          "content": "A cinnamon knit top has a cropped hem and an open-back panel, paired with cream tailored trousers.",
+          "reason": "The example specifies no clothing, so the planner’s knit-top/trousers pair is made into a cropped open-back knit with cream trousers."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "retro_glamour",
+      "ex": "retro_pinup",
+      "expr": "proud",
+      "pose": "stretching",
+      "orient": "reaching_up",
+      "frame": "waist_up",
+      "lens": "wide24",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "lingerie_set"
+      ],
+      "expose": [
+        "side cutouts",
+        "high-cut leg"
+      ],
+      "lead": "detail",
+      "aspect": "2:3",
+      "example_text": "a 1950s pin-up lingerie set with a structured bra and high-waisted bottoms",
+      "submitted_prompt_file": "casual2-prompt.txt",
+      "ui": "casual2-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "An upper-back stretch is underway in the vintage dressing studio.",
+        "source_influence": "Rust dots only subtly echo the brown source palette.",
+        "separates_preference": "The era-specific example explicitly defines the matching structured set."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A cream satin ribbon rests on a cherrywood vanity beside a round bulb-lit mirror; she prepares for a vintage fashion studio shoot.",
+          "reason": "The lingerie example is only a garment title, so a vintage studio preparation activity, bulb-lit vanity and satin ribbon establish the scene."
+        },
+        {
+          "field": "outfit",
+          "content": "The opaque rust-and-ivory structured lingerie set has side cutouts at the waist and high-cut legs, with tiny woven polka dots.",
+          "reason": "The example defines the era and structure but not palette and pattern, so opaque rust/ivory fabric, dots and the planned cutouts are supplied."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "homewear",
+      "ex": "one_shoulder_lounge",
+      "expr": "half_smile",
+      "pose": "contrapposto",
+      "orient": "front",
+      "frame": "environmental",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "trousers"
+      ],
+      "expose": [
+        "off-shoulder neckline",
+        "strapless top"
+      ],
+      "lead": "action",
+      "kept": true,
+      "aspect": "2:3",
+      "example_text": "a one-shoulder lounge set — top covering one shoulder and matching soft pants",
+      "submitted_prompt_file": "casual3-prompt.txt",
+      "ui": "casual3-ui.json",
+      "randomLocks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Unmodified planner and stamped reservation; no manual selection changes.",
+      "axes_reason": {
+        "action_level": "The towel is held in a paused fold over the basket.",
+        "source_influence": "Copper and cream keep several warm source color cues.",
+        "separates_preference": "Draped lounge top and long soft trousers are separate garments."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "She sorts folded tea towels into a wicker basket by an open balcony door, with potted herbs on the sill.",
+          "reason": "The lounge-set example has no activity, so sorting folded towels at a balcony basket supplies an ordinary home task."
+        },
+        {
+          "field": "outfit",
+          "content": "Soft copper lounge trousers sit below a cream one-shoulder top draped over a strapless inner band, leaving both shoulders and the collarbones visible.",
+          "reason": "The example leaves colors and drape open; copper trousers and a cream draped top over an inner band define those details."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size argument, so the generator camera field supplies 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "reservation_commit": "1328bfb182cfeb4e68c5f2ebcb31db33fb4fb6df",
+  "check": "Planner check and stamped reservation verify passed before generation. Skwovet created under 522da229; Inteleon safe replacement under 1328bfb1.",
+  "inventory_method": "Shared partial Git plus sparse worktrees. Authoritative Git ls-tree image filenames supplied to the ledger via a session-only listdir adapter. Only required UI text and actual recent comparison images downloaded; no placeholder image bytes.",
+  "adjustments": [
+    "Fixed-clothing examples already common in the recent window excluded for novel-garment validation.",
+    "The aerobics example did not match the planned seated pose, so the unmodified planner chose a different retro example before any casual generation."
+  ],
+  "comparison_images": [
+    "크라파",
+    "투구뿌논",
+    "영구스"
+  ],
+  "original_png_policy": "session_only; original sha256, prompts, UI, QA and WebP published, no source PNG/JPG."
+}

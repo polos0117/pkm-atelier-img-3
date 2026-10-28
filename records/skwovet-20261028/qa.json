@@ -1,0 +1,265 @@
+{
+  "light": {
+    "reviewer": "gpt",
+    "image_sha256": "ad77035751b728b1b80f736c6ff8a7a91af58b5769a37f53e2956fa5ec6dd881",
+    "accepted": true,
+    "observations": {
+      "design": "A single adult woman with a broad compact face, rounded amber eyes, soft jaw and short chestnut curls. Thin orange/cream plates over a brown suit, ear-shaped ornaments and a fluffy belt sash. Complete head, both hands and feet visible.",
+      "hands": "Foreground right palm has thumb plus four separated fingers; opposite hand likewise has five digits. Two boots, one forward and one lifted behind."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Foreground right palm has thumb plus four separated fingers; opposite hand likewise has five digits. Two boots, one forward and one lifted behind.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "face_reason": "The small rounded squirrel and fluffy volume are translated into a compact wide human face, soft jaw and rounded eyes; the large fluffy tail suggests short springy curls. This is a design interpretation, not a claim about official human features.",
+    "face_evidence": {
+      "name": "탐리스",
+      "en": "Skwovet",
+      "color": "brown",
+      "shape": "upright",
+      "features": [
+        {
+          "part": "tail",
+          "detail": "large fluffy tail"
+        },
+        {
+          "part": "nose",
+          "detail": "orange nose"
+        },
+        {
+          "part": "ear",
+          "detail": "similar ears"
+        }
+      ],
+      "source": "https://bulbapedia.bulbagarden.net/wiki/Skwovet_%28Pok%C3%A9mon%29",
+      "revision": 4626999,
+      "retrieved": "2026-09-20",
+      "sourceTextHash": "58cd7752fd1acd656536f13c9166275eab3ecf0838e5ccb35b909084d159d505",
+      "method": "text-descriptor-extraction-v1",
+      "formScope": "base/species overview",
+      "status": "extracted"
+    },
+    "final_face_line": "FACE (her own structure, not the style's default face): compact face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; balanced nose; medium lips.",
+    "compared_characters": [
+      "크라파",
+      "투구뿌논",
+      "영구스"
+    ],
+    "family_comparison": "Actual 울머기 and 누겔레온 canonicals compared: Inteleon has a longer/narrower face, smaller level eyes and a sharper chin. Skwovet has a compact broad face, round amber eyes and short curls. Species/family source design data consulted; no claim of a visual Greedent comparison."
+  },
+  "heavy": {
+    "reviewer": "gpt",
+    "image_sha256": "2a76275ad26db9e8d85498fe908c9f5974df091dc4a40d1f0a698bdfbece3b80",
+    "accepted": true,
+    "observations": {
+      "design": "Thick stacked orange/cream plates broaden shoulders, chest, pelvis, thighs and shins; open side head guards leave the curly hair, rounded eyes and jaw clear.",
+      "hands": "Foreground right palm shows five digits; far hand shows thumb and four fingers. Both boots now touch the ground; limb proportions remain adult."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Foreground right palm shows five digits; far hand shows thumb and four fingers. Both boots now touch the ground; limb proportions remain adult.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "mobility": {
+    "reviewer": "gpt",
+    "image_sha256": "e74b90a90685660c6372649e1d85aadde5897f5088a63792085825007be69f2e",
+    "accepted": true,
+    "observations": {
+      "design": "Swept split plates fan at shoulders, hips and calves with small orange thrusters; joints remain open. The woman lifts a bent leg in a springing pose.",
+      "hands": "Both five-finger gloves remain clear of thruster light, the near palm foreshortened naturally. Two feet, one at lower left and the other toward the right."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both five-finger gloves remain clear of thruster light, the near palm foreshortened naturally. Two feet, one at lower left and the other toward the right.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "light_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "6c18f7f97d785adfe2e60b8b4795a1330d2d8a5f634794919ca682204cd86d86",
+    "accepted": true,
+    "observations": {
+      "design": "Light pose and framing preserved; the slim orange armor plates lift at seams and expose golden light at arms, torso and legs. Mouth is a broader smile than the closed form.",
+      "hands": "Two five-finger gloves match the light layout; no glowing effect crosses their fingers. Two legs remain joined at hips and knees."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two five-finger gloves match the light layout; no glowing effect crosses their fingers. Two legs remain joined at hips and knees.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "heavy_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "528dba640f5ece3db682fc7e3091e16cad40e7c40456030fd680f486597e343b",
+    "accepted": true,
+    "observations": {
+      "design": "Heavy two-feet-planted camera preserved; the thick layered rims articulate apart, revealing warm golden channels throughout the broad plates.",
+      "hands": "Foreground hand has five fingers including opposing thumb; far hand is likewise five-fingered. Both feet planted and intact."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Foreground hand has five fingers including opposing thumb; far hand is likewise five-fingered. Both feet planted and intact.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "mobility_overdrive": {
+    "reviewer": "gpt",
+    "image_sha256": "85f88a68e25573310eb3810caf0338ba6a588ebe8edfd2125f432ce1f02b299a",
+    "accepted": true,
+    "observations": {
+      "design": "Mobility springing pose and camera preserved; the swept fan panels open at their own seams with bright golden flow, without a new cannon or weapon.",
+      "hands": "Two five-finger gloves, near palm spread and far palm lower; two boots, one partially toward the lower edge."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Two five-finger gloves, near palm spread and far palm lower; two boots, one partially toward the lower edge.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    }
+  },
+  "casual1": {
+    "reviewer": "gpt",
+    "image_sha256": "e8cc48ce44e43d7267e181652ff0f5c822d53ec53611678dcdb5f4a78df4c5bd",
+    "accepted": true,
+    "observations": {
+      "activity": "She reaches up to grasp a rust fabric box with brass handle on a high walnut kitchen shelf; cups and crockery establish the kitchen.",
+      "apparel": "Copper cropped knit with a large tied open-back panel and cream trousers. Exposed back and waist remain visible.",
+      "orientation": "Rear three-quarter torso and face turned toward the viewer, with both hands at the shelf; the result is wider than the selected face-close and differs from strict side profile.",
+      "expression": "One eyebrow is raised and lips form a small asymmetric smile; bright amber eyes remain rounded.",
+      "hands": "Both hands contact the box; near hand’s thumb and index are visible while remaining fingers curve behind the box edge. Far fingers similarly disappear behind the box; no floating finger. Legs continue outside the crop.",
+      "diversity": "Actual recent comparison images show pool, stage, bath and gala activities; none show a raised two-handed kitchen-box task. Within this trio it contrasts with the stretching studio fashion scene and full-body towel sorting."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Both hands contact the box; near hand’s thumb and index are visible while remaining fingers curve behind the box edge. Far fingers similarly disappear behind the box; no floating finger. Legs continue outside the crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "Actual recent comparison images show pool, stage, bath and gala activities; none show a raised two-handed kitchen-box task. Within this trio it contrasts with the stretching studio fashion scene and full-body towel sorting.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-3c97a18e-5efa-4334-8297-bff5ca4fb9c0.png — 가까운 컷 0장(점수 245 미만)\n     290  둔타_glossy_promo_f_casual3.webp\n     328  불비달마_glossy_promo_f_casual2.webp\n     329  왕구리_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-c5c443ff-bbff-4319-9ba1-91948b9000a0.png — 가까운 컷 0장(점수 245 미만)\n     279  흉내내_glossy_promo_f_casual1.webp\n     280  두두_glossy_promo_f_casual1.webp\n     280  플라이곤_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-38f9d2c0-9a2c-49bb-98a9-65b4380e45f3.png — 가까운 컷 0장(점수 245 미만)\n     254  베이리프_glossy_promo_f_casual2.webp\n     261  고지_glossy_promo_f_casual2.webp\n     266  코코리_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual2": {
+    "reviewer": "gpt",
+    "image_sha256": "2624eafc1ecd6121f216e9697a753a0d600e97c93db2357959d611db60fc99fd",
+    "accepted": true,
+    "observations": {
+      "activity": "In a vintage fashion studio beside bulb mirrors, a cherrywood vanity and satin ribbon, she gently stretches with both arms bent over her head.",
+      "apparel": "Opaque rust/ivory dotted structured bra and high-waisted bottoms with small side cutouts. Shoulders, waist and upper legs visible, intimate areas covered.",
+      "orientation": "Arms stretch upward and backward, torso slightly angled; the result extends below the planned waist-up crop.",
+      "expression": "Chin raised, eyebrows steady and a faint confident closed-lip smile.",
+      "hands": "One hand is partly visible behind the raised upper arm with fingertips curling naturally; the other is behind the head/hair. Do not claim five visible fingers for either hidden hand. Two arms connect through shoulders; legs extend beyond the crop.",
+      "diversity": "Rounded warm curls, dotted high-waist vintage tailoring and the overhead stretch differ from the actual recent pool/tea/stage/gala scenes, as well as the kitchen raised box and home towel folding in this trio."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "One hand is partly visible behind the raised upper arm with fingertips curling naturally; the other is behind the head/hair. Do not claim five visible fingers for either hidden hand. Two arms connect through shoulders; legs extend beyond the crop.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "Rounded warm curls, dotted high-waist vintage tailoring and the overhead stretch differ from the actual recent pool/tea/stage/gala scenes, as well as the kitchen raised box and home towel folding in this trio.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-3c97a18e-5efa-4334-8297-bff5ca4fb9c0.png — 가까운 컷 0장(점수 245 미만)\n     290  둔타_glossy_promo_f_casual3.webp\n     328  불비달마_glossy_promo_f_casual2.webp\n     329  왕구리_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-c5c443ff-bbff-4319-9ba1-91948b9000a0.png — 가까운 컷 0장(점수 245 미만)\n     279  흉내내_glossy_promo_f_casual1.webp\n     280  두두_glossy_promo_f_casual1.webp\n     280  플라이곤_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-38f9d2c0-9a2c-49bb-98a9-65b4380e45f3.png — 가까운 컷 0장(점수 245 미만)\n     254  베이리프_glossy_promo_f_casual2.webp\n     261  고지_glossy_promo_f_casual2.webp\n     266  코코리_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  },
+  "casual3": {
+    "reviewer": "gpt",
+    "image_sha256": "ad96ffed179433b27f2b67fe44dd73962b607645001b58b294b1823339f0d757",
+    "accepted": true,
+    "observations": {
+      "activity": "She folds a striped tea towel into a wicker basket at an open balcony door; potted herbs and sunlit shelves surround the work table.",
+      "apparel": "Cream draped shoulder top over an opaque inner band and loose copper lounge trousers. Bare collarbones and waist; one shoulder is covered instead of the requested two bare shoulders, a clothing-detail variation recorded here.",
+      "orientation": "Complete body shown with torso toward camera and weight resting on one leg, both bare feet visible; hands engage the towel.",
+      "expression": "A small asymmetric closed smile, eyes looking slightly to one side.",
+      "hands": "Each hand naturally grasps a towel edge; thumb plus four fingers on each, with some fingertips hidden by cloth. Both bare feet show five toes, with trousers hiding ankles.",
+      "diversity": "The standing full-length loose trouser silhouette and towel-sorting action differ from recent pool, bath, gala and stage images; this trio’s other cuts are a shelf reach and cropped overhead fashion stretch."
+    },
+    "identity": {
+      "match": true,
+      "evidence": "Compact wide face, rounded amber eyes, soft chin and short chestnut curls remain visible."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed; anatomy-check.py reports unavailable (exit 3).",
+      "arms": 2,
+      "legs": 2,
+      "hands": "Each hand naturally grasps a towel edge; thumb plus four fingers on each, with some fingertips hidden by cloth. Both bare feet show five toes, with trousers hiding ankles.",
+      "overlay_checked": false,
+      "note": "Original and enlarged hand/foot crops visually checked. Hidden or cropped parts are identified above, not counted as fully visible."
+    },
+    "diversity_comparison": {
+      "compared": [
+        "크라파",
+        "투구뿌논",
+        "영구스"
+      ],
+      "evidence": "The standing full-length loose trouser silhouette and towel-sorting action differ from recent pool, bath, gala and stage images; this trio’s other cuts are a shelf reach and cropped overhead fashion stretch.",
+      "numeric_check": "/workspace/scratch/f7b4731ca1c1/generated_images/exec-3c97a18e-5efa-4334-8297-bff5ca4fb9c0.png — 가까운 컷 0장(점수 245 미만)\n     290  둔타_glossy_promo_f_casual3.webp\n     328  불비달마_glossy_promo_f_casual2.webp\n     329  왕구리_glossy_promo_f_casual1.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-c5c443ff-bbff-4319-9ba1-91948b9000a0.png — 가까운 컷 0장(점수 245 미만)\n     279  흉내내_glossy_promo_f_casual1.webp\n     280  두두_glossy_promo_f_casual1.webp\n     280  플라이곤_glossy_promo_f_casual2.webp\n/workspace/scratch/f7b4731ca1c1/generated_images/exec-38f9d2c0-9a2c-49bb-98a9-65b4380e45f3.png — 가까운 컷 0장(점수 245 미만)\n     254  베이리프_glossy_promo_f_casual2.webp\n     261  고지_glossy_promo_f_casual2.webp\n     266  코코리_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+    }
+  }
+}
