@@ -1,0 +1,210 @@
+{
+  "card": "꾸왁스",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "White and teal slim armor, oval face and rounded teal eyes; full head and boots within margins. Two arms and two legs connect naturally.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "Broad layered shoulder, hip and shin plates retain the anchor face, stance and body scale.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "Swept thin panels and compact circular thrusters at shoulders, hips and calves; face visible and human limbs distinct from panels.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "Light seams open to blue water-like inner light. Same camera, open palm and crossed leg stance; teal eyes remain teal.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "Heavy layered shell opens at shoulders, hips and shins, exposing blue inner structure. Same pose, framing and face as heavy closed.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "Seated on snowy hot-spring stone edge in a teal one-piece, torso away and head in a natural partial look-back. Visible near hand rests on wet stone; far arm and lower legs occluded. Wider than selected face-close; snowy stone and steam establish the chosen place.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand shows four long fingers and a short thumb along the stone; far hand hidden by torso. Wrist connects naturally to forearm.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "rotenburo_edge",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "over_shoulder",
+          "frame": "face_close",
+          "pose": "perched_seat",
+          "expr": "pensive",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "bare midriff"
+          ],
+          "lead": "action"
+        },
+        "observed": "Seated on snowy hot-spring stone edge in a teal one-piece, torso away and head in a natural partial look-back. Visible near hand rests on wet stone; far arm and lower legs occluded. Wider than selected face-close; snowy stone and steam establish the chosen place."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "Seated backstage on equipment cases, reading an open fashion programme. Cropped one-shoulder top and separate skirt expose midriff and legs; both hands hold pages, crossed legs end in two separate sandals. Full body and reading match; torso leans only slightly.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Programme hand at image left shows four fingers across the cover with thumb behind; image-right grip shows thumb and folded fingers overlapping its edge. No detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 2,
+          "cat": "source_editorial",
+          "ex": "runway",
+          "garments": [
+            "crop_top",
+            "skirt"
+          ],
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "pose": "reading_book",
+          "expr": "unimpressed",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "cropped hem"
+          ],
+          "lead": "place"
+        },
+        "observed": "Seated backstage on equipment cases, reading an open fashion programme. Cropped one-shoulder top and separate skirt expose midriff and legs; both hands hold pages, crossed legs end in two separate sandals. Full body and reading match; torso leans only slightly."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "Teal crochet bandeau bikini, beach mat on sunlit resort furniture, body facing away and laughing face looking naturally over shoulder. Hands rest and brush at the mat. Framing reaches hips rather than selected waist-up.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand extends toward frame edge, fingertips partly cropped. Far hand rests beyond near forearm; visible fingers overlap in shallow perspective. Both wrists attach to arms.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "crochet_bikini",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "pose": "mid_action",
+          "expr": "laughing",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "strapless top"
+          ],
+          "lead": "detail"
+        },
+        "observed": "Teal crochet bandeau bikini, beach mat on sunlit resort furniture, body facing away and laughing face looking naturally over shoulder. Hands rest and brush at the mat. Framing reaches hips rather than selected waist-up."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "Existing swept fins open with blue inner cores and water light. Same camera, palm, head and crossed boots as closed mobility; no new weapon.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "comparison_characters": [
+      "바랜드",
+      "릴리요",
+      "릴링"
+    ],
+    "visual_observations": "Snowy stone-edge rest, backstage reading with crossed legs and a two-piece skirt outfit, and sunlit standing resort mat activity differ in place, task, dress structure and stance. Cuts 1 and 3 share look-back direction but differ in body posture and one-piece versus crochet bikini. Similarity tool passed all three.",
+    "similarity_check": "generated_images/exec-9bb042c8-9ddd-4b2f-9ba3-d3b4109a4c93.png — 가까운 컷 0장(점수 245 미만)\n     252  미라몽_glossy_promo_f_casual1.webp\n     261  픽시_glossy_promo_f_casual1.webp\n     262  치렁_glossy_promo_f_casual1.webp\ngenerated_images/exec-3ca5bccb-9373-4f4e-a2ed-1167b68adcf6.png — 가까운 컷 0장(점수 245 미만)\n     272  레지스틸_glossy_promo_f_casual3.webp\n     282  비구술_glossy_promo_f_casual2.webp\n     284  메이클_glossy_promo_f_casual3.webp\ngenerated_images/exec-9836aea8-7889-4c28-a082-c7b4df2c4a69.png — 가까운 컷 0장(점수 245 미만)\n     280  두빅굴_glossy_promo_f_casual3.webp\n     290  암스타_glossy_promo_f_casual2.webp\n     295  대짱이_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

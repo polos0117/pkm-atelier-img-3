@@ -1,0 +1,703 @@
+{
+  "batch_plan": {
+    "session": "quaxly-quaxwell-20261029-c3fa",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "꾸왁스",
+        "species": "quaxly-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "spa_wellness",
+            "ex": "rotenburo_edge",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "over_shoulder",
+            "frame": "face_close",
+            "pose": "perched_seat",
+            "expr": "pensive",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "source_editorial",
+            "ex": "runway",
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "orient": "leaning_back",
+            "frame": "full_body",
+            "pose": "reading_book",
+            "expr": "unimpressed",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "cropped hem"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "crochet_bikini",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "rear_3q",
+            "frame": "waist_up",
+            "pose": "mid_action",
+            "expr": "laughing",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "open back",
+              "strapless top"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              2
+            ]
+          },
+          "low": [
+            "partner_care",
+            "travel_exploration",
+            "source_editorial",
+            "homewear",
+            "traditional",
+            "spa_wellness",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "crop_top",
+            "skirt",
+            "bikini"
+          ],
+          "orient": [
+            "over_shoulder",
+            "leaning_back",
+            "rear_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "아꾸왁",
+        "species": "quaxwell-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "fantasy_costume",
+            "ex": "elf_costume",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "one_knee_up",
+            "expr": "cold_smile",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "santa_party",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "pose": "side_sitting",
+            "expr": "sensual",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "high thigh slit"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "late_night_kitchen",
+            "garments": [
+              "shorts"
+            ],
+            "orient": "profile_close",
+            "frame": "face_close",
+            "pose": "eating",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "partner_care",
+            "travel_exploration",
+            "homewear",
+            "traditional",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "coat"
+          ],
+          "orient": [
+            "crouching",
+            "looking_down",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "characters": [
+    {
+      "card": "꾸왁스",
+      "species": "quaxly-20261029",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "spa_wellness",
+          "ex": "rotenburo_edge",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "over_shoulder",
+          "frame": "face_close",
+          "pose": "perched_seat",
+          "expr": "pensive",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "bare midriff"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "source_editorial",
+          "ex": "runway",
+          "garments": [
+            "crop_top",
+            "skirt"
+          ],
+          "orient": "leaning_back",
+          "frame": "full_body",
+          "pose": "reading_book",
+          "expr": "unimpressed",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "cropped hem"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "crochet_bikini",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "rear_3q",
+          "frame": "waist_up",
+          "pose": "mid_action",
+          "expr": "laughing",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "open back",
+            "strapless top"
+          ],
+          "lead": "detail"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1,
+            2
+          ]
+        },
+        "low": [
+          "partner_care",
+          "travel_exploration",
+          "source_editorial",
+          "homewear",
+          "traditional",
+          "spa_wellness",
+          "fantasy_costume"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "swimsuit",
+          "crop_top",
+          "skirt",
+          "bikini"
+        ],
+        "orient": [
+          "over_shoulder",
+          "leaning_back",
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "spa_wellness",
+      "ex": "rotenburo_edge",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "over_shoulder",
+      "frame": "face_close",
+      "pose": "perched_seat",
+      "expr": "pensive",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "bare midriff"
+      ],
+      "lead": "action",
+      "actual_scene_settings": {
+        "expr": "pensive",
+        "pose": "perched_seat",
+        "orient": "over_shoulder",
+        "scene": "Resting beside warm mineral steam as snowflakes settle on dark volcanic stone.",
+        "outfit": "A teal high-cut swimsuit with a small open waist panel and cream edging.",
+        "frame": "face_close",
+        "lens": "natural50",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "spa_wellness",
+        "catCustom": "",
+        "ex": "rotenburo_edge",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: sitting on the stone edge of an open-air hot spring in a swimsuit, feet in the steaming water, snow on the rocks",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Resting beside warm mineral steam as snowflakes settle on dark volcanic stone.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: Resting beside warm mineral steam as snowflakes settle on dark volcanic stone."
+        },
+        {
+          "field": "outfit",
+          "content": "A teal high-cut swimsuit with a small open waist panel and cream edging.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A teal high-cut swimsuit with a small open waist panel and cream edging."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Sitting at the hot-spring edge is a held resting moment.",
+        "source_influence": "The teal suit carries only a restrained color echo.",
+        "separates_preference": "One-piece swimwear needs a continuous silhouette."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "source_editorial",
+      "ex": "runway",
+      "garments": [
+        "crop_top",
+        "skirt"
+      ],
+      "orient": "leaning_back",
+      "frame": "full_body",
+      "pose": "reading_book",
+      "expr": "unimpressed",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "strong",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "cropped hem"
+      ],
+      "lead": "place",
+      "actual_scene_settings": {
+        "expr": "unimpressed",
+        "pose": "reading_book",
+        "orient": "leaning_back",
+        "scene": "At a fashion-show backstage bench beside the runway, she reads the show programme before her entrance; cool spotlights skim the polished floor.",
+        "outfit": "A one-shoulder cropped satin top and separate short pleated skirt in pearl white and teal, with a small wave brooch.",
+        "frame": "full_body",
+        "lens": "wide24",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "source_editorial",
+        "catCustom": "",
+        "ex": "runway",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: a runway walk in an editorial outfit whose silhouette and tailoring read clearly",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "At a fashion-show backstage bench beside the runway, she reads the show programme before her entrance; cool spotlights skim the polished floor.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: At a fashion-show backstage bench beside the runway, she reads the show programme before her entrance; cool spotlights skim the polished floor."
+        },
+        {
+          "field": "outfit",
+          "content": "A one-shoulder cropped satin top and separate short pleated skirt in pearl white and teal, with a small wave brooch.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A one-shoulder cropped satin top and separate short pleated skirt in pearl white and teal, with a small wave brooch."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Reading while waiting backstage gives a small active task within a posed fashion setting.",
+        "source_influence": "White and teal satin plus the wave brooch make the source motif legible.",
+        "separates_preference": "Cropped top and separate skirt follow the planner's two-piece garment shape."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "crochet_bikini",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "rear_3q",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "laughing",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "open back",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "actual_scene_settings": {
+        "expr": "laughing",
+        "pose": "mid_action",
+        "orient": "rear_3q",
+        "scene": "A rolled beach mat rests beside her as she brushes sand from its weave on a sunlit resort deck.",
+        "outfit": "A fully lined teal crochet bikini with a strapless bandeau top and open-back fastening.",
+        "frame": "waist_up",
+        "lens": "telephoto135",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "crochet_bikini",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly active",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: a fully lined crochet-knit bikini in a sunny resort colour",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "A rolled beach mat rests beside her as she brushes sand from its weave on a sunlit resort deck.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: A rolled beach mat rests beside her as she brushes sand from its weave on a sunlit resort deck."
+        },
+        {
+          "field": "outfit",
+          "content": "A fully lined teal crochet bikini with a strapless bandeau top and open-back fastening.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A fully lined teal crochet bikini with a strapless bandeau top and open-back fastening."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Brushing sand from the rolled mat gives a modest ongoing hand action.",
+        "source_influence": "Teal crochet and a wave-like clasp repeat the source through fashion details.",
+        "separates_preference": "The matched bikini is a coordinated swimwear set."
+      }
+    }
+  ],
+  "planner_check": "passed against full Git-backed metadata inventory",
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/quaxly-quaxwell-20261029-c3fa.json",
+  "diversity_comparison": {
+    "comparison_characters": [
+      "바랜드",
+      "릴리요",
+      "릴링"
+    ],
+    "visual_observations": "Snowy stone-edge rest, backstage reading with crossed legs and a two-piece skirt outfit, and sunlit standing resort mat activity differ in place, task, dress structure and stance. Cuts 1 and 3 share look-back direction but differ in body posture and one-piece versus crochet bikini. Similarity tool passed all three.",
+    "similarity_check": "generated_images/exec-9bb042c8-9ddd-4b2f-9ba3-d3b4109a4c93.png — 가까운 컷 0장(점수 245 미만)\n     252  미라몽_glossy_promo_f_casual1.webp\n     261  픽시_glossy_promo_f_casual1.webp\n     262  치렁_glossy_promo_f_casual1.webp\ngenerated_images/exec-3ca5bccb-9373-4f4e-a2ed-1167b68adcf6.png — 가까운 컷 0장(점수 245 미만)\n     272  레지스틸_glossy_promo_f_casual3.webp\n     282  비구술_glossy_promo_f_casual2.webp\n     284  메이클_glossy_promo_f_casual3.webp\ngenerated_images/exec-9836aea8-7889-4c28-a082-c7b4df2c4a69.png — 가까운 컷 0장(점수 245 미만)\n     280  두빅굴_glossy_promo_f_casual3.webp\n     290  암스타_glossy_promo_f_casual2.webp\n     295  대짱이_glossy_promo_f_casual1.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "inventory": "Existing shared Git object database reused. Only target images checked out. Historical UI metadata read virtually by Git blob, without a duplicate records checkout."
+}
