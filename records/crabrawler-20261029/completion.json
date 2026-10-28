@@ -1,0 +1,61 @@
+{
+  "card": "오기지게",
+  "completed_at": "2026-10-28T23:02:57.668322+00:00",
+  "status": "registered_complete",
+  "image_commit": "397ec4e2c8ee45938fe6e68a9c1609a74be0fde2",
+  "registration_commit": "0b108b6c452bfc9714712f82b800be130fb4c782",
+  "thumbnail_commit": "d1e267f346f0ea2a16239dd3f021039b33490478",
+  "verification": {
+    "originals_identical": 9,
+    "thumbnails_valid": 9,
+    "registered": 9,
+    "where_correct": 9,
+    "missing_thumbnails": []
+  },
+  "anchor": {
+    "card": "오기지게",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "classification_basis": "Actual generator UI selection; prompt preserved verbatim",
+    "original_session_path": "/workspace/scratch/650595de1f39/generated_images/exec-8f26fd8e-66ea-467e-b953-18247f344a00.png",
+    "original_sha256": "646cecd70f7bc17bf1c799cbde5ff560a6a0744cdf42a913a478a168f74111bf",
+    "output": "오기지게_light_glossy_promo_f.webp",
+    "output_sha256": "96d1ab772c738975616dfc1ac345067b8d2b6b3efeb14ea421182b94ee69e591",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "encoding": {
+      "quality": 85,
+      "method": 6
+    },
+    "references": []
+  },
+  "actual_submitted_design_lines": [
+    "WEAR: the long, pompadour-like, yellow antenna becomes slim antenna-like hair ornaments; the purple shell becomes a dome-backed mantle over her shoulders and upper back, its rim framing both shoulders.",
+    "FACE (her own structure, not the style's default face): angular face, balanced length, wide width; wide heavy chin; almond eyes, large size, level outer corners, close-set; thick low brows; small delicate nose; wide mouth.",
+    "HAIR: medium undercut, no bangs."
+  ],
+  "design_sources": [
+    "pkm-atelier/data/face-design.json: 739",
+    "pkm-atelier/data/source-appearance.json",
+    "pkm-atelier/docs/CHARACTER_FACE_DESIGNS.md",
+    "light-ui.json",
+    "light-prompt.txt"
+  ],
+  "rationale_reviewed_at_completion": "Boxing claw mass and raised antenna cues were interpreted by the repository design as a wide angular jaw and low thick brows; the generated anchor retains a long almond eye and compact mouth.",
+  "actual_face_comparison": {
+    "compared": [
+      "뜨아거",
+      "냐오닉스",
+      "단칼빙",
+      "모단단게"
+    ],
+    "method": "Actual light images were compared side by side, including cropped face/neck views. Crops are session QA only, not newly generated comparison sheets.",
+    "observation": "Crabrawler has a wider angular lower face, elongated almond eyes, thick low brows and a narrow central nose. Crabominable has a longer oval cheek contour, a broad but softer jaw, more open eyes and a smaller upper-lip arc. Recent Meowstic has rounder eyes and a small pointed chin; Honedge has narrower eyes and a longer straight nose/face; Fuecoco has a round shorter face and broad open mouth. Hair and ornaments were not used as the sole distinguishing evidence."
+  },
+  "anatomy": "Automatic checker unavailable (mediapipe absent); all nine were inspected visually, including full-size hand/foot crops. Detailed occlusion and finger observations are in qa.json.",
+  "workflow": "Thumbnail and registration workflows succeeded. Remaining annotations concern pre-existing style sample sizes and Actions Node runtime deprecation, not these new assets."
+}

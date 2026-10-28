@@ -1,0 +1,61 @@
+{
+  "card": "모단단게",
+  "completed_at": "2026-10-28T23:02:57.668322+00:00",
+  "status": "registered_complete",
+  "image_commit": "786870c36ac31a32cba3115402d97c89ac0a4b4c",
+  "registration_commit": "39b34502d45400f7da00b9e303afbeaa939ef508",
+  "thumbnail_commit": "51e194a3863bb5b8cc7a582e262c98cd0e5e91bc",
+  "verification": {
+    "originals_identical": 9,
+    "thumbnails_valid": 9,
+    "registered": 9,
+    "where_correct": 9,
+    "missing_thumbnails": []
+  },
+  "anchor": {
+    "card": "모단단게",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "classification_basis": "Actual generator UI selection; prompt preserved verbatim",
+    "original_session_path": "/workspace/scratch/650595de1f39/generated_images/exec-934caebc-74ba-4eff-8c07-8e127e773afb.png",
+    "original_sha256": "5020418716cd34d7d3cb37e88c1d92a27cef1a35bb41eb1863a2c691c0c2df44",
+    "output": "모단단게_light_glossy_promo_f.webp",
+    "output_sha256": "d9bdf913b672f44c44f796a7e20559a69d5595674a7f4f9bcfd96a699a436842",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "encoding": {
+      "quality": 85,
+      "method": 6
+    },
+    "references": []
+  },
+  "actual_submitted_design_lines": [
+    "WEAR: its markings (light blue stripes; pawprint-shaped marking) become painted lines and patterns on her plates and undersuit.",
+    "FACE (her own structure, not the style's default face): oval face, balanced length, medium width; square broad jaw; open rounded eyes, medium size, level outer corners, average spacing; thick low brows; small delicate nose; medium lips.",
+    "HAIR: long blunt cut, no bangs."
+  ],
+  "design_sources": [
+    "pkm-atelier/data/face-design.json: 740",
+    "pkm-atelier/data/source-appearance.json",
+    "pkm-atelier/docs/CHARACTER_FACE_DESIGNS.md",
+    "light-ui.json",
+    "light-prompt.txt"
+  ],
+  "rationale_reviewed_at_completion": "Repository draft translates the broad furred armor-shaped body and blunt square teeth into a broad jaw, level eyes and low thick brows. This is a human interpretation, not an official face; the actual white-haired oval-faced anchor is now authoritative.",
+  "actual_face_comparison": {
+    "compared": [
+      "뜨아거",
+      "냐오닉스",
+      "단칼빙",
+      "오기지게"
+    ],
+    "method": "Actual light images were compared side by side, including cropped face/neck views. Crops are session QA only, not newly generated comparison sheets.",
+    "observation": "Crabrawler has a wider angular lower face, elongated almond eyes, thick low brows and a narrow central nose. Crabominable has a longer oval cheek contour, a broad but softer jaw, more open eyes and a smaller upper-lip arc. Recent Meowstic has rounder eyes and a small pointed chin; Honedge has narrower eyes and a longer straight nose/face; Fuecoco has a round shorter face and broad open mouth. Hair and ornaments were not used as the sole distinguishing evidence."
+  },
+  "anatomy": "Automatic checker unavailable (mediapipe absent); all nine were inspected visually, including full-size hand/foot crops. Detailed occlusion and finger observations are in qa.json.",
+  "workflow": "Thumbnail and registration workflows succeeded. Remaining annotations concern pre-existing style sample sizes and Actions Node runtime deprecation, not these new assets."
+}
