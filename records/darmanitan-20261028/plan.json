@@ -1,0 +1,459 @@
+{
+  "card": "불비달마",
+  "batch_plan": {
+    "session": "darumaka-darmanitan-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "달막화",
+        "species": "darumaka-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "private_evening",
+            "ex": "hotel_evening",
+            "garments": [
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "environmental",
+            "pose": "perched_seat",
+            "expr": "provocative",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "off-shoulder neckline"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "cat": "subculture_fashion",
+            "ex": "raver_kandi",
+            "garments": [
+              "crop_top",
+              "skirt"
+            ],
+            "orient": "front_3q",
+            "frame": "chest_up",
+            "pose": "dressing_up",
+            "expr": "half_smile",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "majorette",
+            "garments": [
+              "jacket",
+              "skirt"
+            ],
+            "orient": "crouching",
+            "frame": "full_body",
+            "pose": "squatting",
+            "expr": "focused",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "side cutouts"
+            ],
+            "lead": "detail"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "food_berries",
+            "hobbies_leisure",
+            "private_evening",
+            "dance_stage",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "skirt",
+            "jacket"
+          ],
+          "orient": [
+            "reclining",
+            "front_3q",
+            "crouching"
+          ],
+          "frame": [
+            "environmental",
+            "full_body"
+          ]
+        }
+      },
+      {
+        "card": "불비달마",
+        "species": "darmanitan-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_sensual",
+            "ex": "laundry_soft",
+            "garments": [
+              "cardigan"
+            ],
+            "orient": "low_angle",
+            "frame": "face_close",
+            "pose": "folding_cloth",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "bare midriff",
+              "one-shoulder cut"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "lingerie",
+            "ex": "velvet_set",
+            "garments": [
+              "crop_top",
+              "lingerie_set"
+            ],
+            "orient": "reaching_up",
+            "frame": "three_quarter",
+            "pose": "on_tiptoe",
+            "expr": "cold_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "strapless top"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "wildcard",
+            "ex": "futuristic_spa",
+            "garments": [
+              "robe"
+            ],
+            "orient": "front",
+            "frame": "waist_up",
+            "pose": "kneeling",
+            "expr": "nostalgic",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "open back"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_sensual",
+            "partner_care",
+            "food_berries",
+            "hobbies_leisure",
+            "dance_stage",
+            "fantasy_costume",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "cardigan"
+          ],
+          "orient": [
+            "low_angle",
+            "reaching_up",
+            "front"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_sensual",
+      "ex": "laundry_soft",
+      "garments": [
+        "cardigan"
+      ],
+      "orient": "low_angle",
+      "frame": "face_close",
+      "pose": "folding_cloth",
+      "expr": "smug",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "bare midriff",
+        "one-shoulder cut"
+      ],
+      "lead": "light",
+      "example_text": "folding laundry at home in soft loungewear, a cardigan slipping loosely off one shoulder",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "text": "Morning light filters through a laundry-room window onto a basket of warm cotton; she folds a soft towel on the counter.",
+          "reason": "Adds the concrete time, lighting and objects for laundry_soft while preserving its activity."
+        },
+        {
+          "field": "outfit",
+          "text": "A cropped ivory cardigan slipped off one shoulder over a soft red lounge bralette and matching short lounge bottoms, revealing her waist and shoulder.",
+          "reason": "Specifies the assigned cardigan silhouette and bare midriff / one-shoulder cut."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size field; set the required portrait ratio in the camera input."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Matches the folding_cloth moment during laundry_soft",
+        "source_influence": "subtle source presence through the described clothing colour and motif for laundry_soft",
+        "separates_preference": "Follows the cardigan construction."
+      },
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_generated": true,
+      "ui_url": "https://polos0117.github.io/pkm-atelier/prompt.html?mech=%EB%B6%88%EB%B9%84%EB%8B%AC%EB%A7%88&casual=%7B%22cat%22%3A%22everyday_sensual%22%2C%22ex%22%3A%22laundry_soft%22%2C%22expr%22%3A%22smug%22%2C%22pose%22%3A%22folding_cloth%22%2C%22orient%22%3A%22low_angle%22%2C%22frame%22%3A%22face_close%22%2C%22lens%22%3A%22natural50%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22balanced%22%2C%22source_influence%22%3A%22subtle%22%2C%22separates_preference%22%3A%22prefer%20separates%22%7D%7D"
+    },
+    {
+      "cut": 2,
+      "cat": "lingerie",
+      "ex": "velvet_set",
+      "garments": [
+        "crop_top",
+        "lingerie_set"
+      ],
+      "orient": "reaching_up",
+      "frame": "three_quarter",
+      "pose": "on_tiptoe",
+      "expr": "cold_smile",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "strapless top"
+      ],
+      "lead": "detail",
+      "example_text": "a deep-coloured velvet lingerie set of a bralette and high-waisted bottoms",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "text": "A heavy velvet curtain at the dressing-room window catches warm lamplight; she draws its tie toward the high hook with one hand.",
+          "reason": "Adds the concrete time, lighting and objects for velvet_set while preserving its activity."
+        },
+        {
+          "field": "outfit",
+          "text": "A deep burgundy velvet lingerie set with a strapless bustier crop top, a secure plunging neckline and opaque high-waisted bottoms, accented by fine tan piping.",
+          "reason": "Specifies the assigned crop_top+lingerie_set silhouette and plunging neckline / strapless top."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size field; set the required portrait ratio in the camera input."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Matches the on_tiptoe moment during velvet_set",
+        "source_influence": "balanced source presence through the described clothing colour and motif for velvet_set",
+        "separates_preference": "Follows the crop_top+lingerie_set construction."
+      },
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_generated": true,
+      "ui_url": "https://polos0117.github.io/pkm-atelier/prompt.html?mech=%EB%B6%88%EB%B9%84%EB%8B%AC%EB%A7%88&casual=%7B%22cat%22%3A%22lingerie%22%2C%22ex%22%3A%22velvet_set%22%2C%22expr%22%3A%22cold_smile%22%2C%22pose%22%3A%22on_tiptoe%22%2C%22orient%22%3A%22reaching_up%22%2C%22frame%22%3A%22three_quarter%22%2C%22lens%22%3A%22wide24%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22mostly%20active%22%2C%22source_influence%22%3A%22balanced%22%2C%22separates_preference%22%3A%22balanced%22%7D%7D"
+    },
+    {
+      "cut": 3,
+      "cat": "wildcard",
+      "ex": "futuristic_spa",
+      "garments": [
+        "robe"
+      ],
+      "orient": "front",
+      "frame": "waist_up",
+      "pose": "kneeling",
+      "expr": "nostalgic",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "open back"
+      ],
+      "lead": "action",
+      "example_text": "in a futuristic spa in a robe or towel wrap, arranging her things",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "text": "She arranges a folded towel and a small glass moisturizer jar on the low ledge of a futuristic spa treatment alcove, surrounded by cyan luminous panels.",
+          "reason": "Adds the concrete time, lighting and objects for futuristic_spa while preserving its activity."
+        },
+        {
+          "field": "outfit",
+          "text": "A red spa robe with a securely wrapped front, an open back and a high thigh slit; its opaque fabric is bordered in warm ivory.",
+          "reason": "Specifies the assigned robe silhouette and high thigh slit / open back."
+        },
+        {
+          "field": "camera",
+          "text": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size field; set the required portrait ratio in the camera input."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Matches the kneeling moment during futuristic_spa",
+        "source_influence": "strong source presence through the described clothing colour and motif for futuristic_spa",
+        "separates_preference": "Follows the robe construction."
+      },
+      "locked": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "planner_generated": true,
+      "ui_url": "https://polos0117.github.io/pkm-atelier/prompt.html?mech=%EB%B6%88%EB%B9%84%EB%8B%AC%EB%A7%88&casual=%7B%22cat%22%3A%22wildcard%22%2C%22ex%22%3A%22futuristic_spa%22%2C%22expr%22%3A%22nostalgic%22%2C%22pose%22%3A%22kneeling%22%2C%22orient%22%3A%22front%22%2C%22frame%22%3A%22waist_up%22%2C%22lens%22%3A%22telephoto135%22%2C%22aspect%22%3A%222%3A3%22%2C%22axes%22%3A%7B%22overall_intensity%22%3A%22strong%22%2C%22skin_exposure%22%3A%22bold%22%2C%22action_level%22%3A%22mostly%20posed%22%2C%22source_influence%22%3A%22strong%22%2C%22separates_preference%22%3A%22balanced%22%7D%7D"
+    }
+  ],
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/darumaka-darmanitan-20261028.json",
+  "reservation_commit": "280a93201a0a658af142fad945a3dbd2e11a2f7a",
+  "check": "passed; stamped reservation verified",
+  "generator": "prompt.html actual UI; repository engine output matched before submission",
+  "tool": "built-in image_gen"
+}
