@@ -1,0 +1,543 @@
+{
+  "session": "furfrou-espurr-20261028-09b3",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "냐스퍼",
+      "species": "espurr-20261028",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "source_editorial",
+          "ex": "transformation_drape",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "turning_midmotion",
+          "frame": "chest_up",
+          "pose": "mid_action",
+          "expr": "unimpressed",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "plunging neckline"
+          ],
+          "lead": "detail",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "A fan of folded silver fabric changes shape as she draws its edges through a pleating ring in a fashion-construction studio.",
+              "reason": "예시는 변형 드레이프 구조라는 제목뿐이므로 주름 링에 천을 통과시켜 접는 구체적 패션 제작 활동을 정함."
+            },
+            {
+              "field": "outfit",
+              "content": "A charcoal one-shoulder jumpsuit has a plunging asymmetrical neckline and soft folded panels across the hip, finished with one tiny violet seam tab.",
+              "reason": "계획의 jumpsuit·one-shoulder·plunging neckline을 비대칭 점프슈트와 접힌 골반 패널로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "주름 천을 링으로 당기는 손동작이 주 활동.",
+            "source_influence": "subtle — A charcoal one-shoulder jumpsuit has a plunging asymmetrical neckline and soft folded panels across the hip, finished with one tiny violet seam tab.",
+            "separates_preference": "balanced — jumpsuit 의 실제 조합을 따름."
+          },
+          "example_text": "a drape that folds and unfolds across the body, echoing how her Pokémon changes shape",
+          "locks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "random_record": "계획기가 결정한 값. UI 랜덤 사용과 선택값 수동 변경 없음."
+        },
+        {
+          "cut": 2,
+          "cat": "spa_wellness",
+          "ex": "hammam",
+          "garments": [
+            "robe"
+          ],
+          "orient": "front_3q",
+          "frame": "environmental",
+          "pose": "standing_formal",
+          "expr": "sleepy",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "halter neck",
+            "high thigh slit"
+          ],
+          "lead": "action",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "Pausing between rinses on the warm marble slab, she lets a little water trickle from her hand into the brass bowl beside her.",
+              "reason": "예시는 따뜻한 대리석·황동 그릇만 정함. 손에 남은 물을 그릇에 떨어뜨리는 헹굼 휴식 활동을 보충."
+            },
+            {
+              "field": "outfit",
+              "content": "A grey-and-lilac striped cotton peshtemal is secured as a halter wrap robe, with an open side slit rising high on the thigh and an exposed shoulder line.",
+              "reason": "예시의 줄무늬 면 페슈테말을 유지하고 계획 robe·halter neck·high thigh slit을 고정된 홀터 랩 구조로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "마블 슬랩에서 물을 떨구는 짧은 휴식 동작.",
+            "source_influence": "subtle — A grey-and-lilac striped cotton peshtemal is secured as a halter wrap robe, with an open side slit rising high on the thigh and an exposed shoulder line.",
+            "separates_preference": "balanced — robe 의 실제 조합을 따름."
+          },
+          "example_text": "wrapped in a striped cotton peshtemal on the warm marble slab of a domed hammam, a brass bowl beside her",
+          "locks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "random_record": "계획기가 결정한 값. UI 랜덤 사용과 선택값 수동 변경 없음."
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "plunge_onepiece",
+          "garments": [
+            "swimsuit"
+          ],
+          "orient": "rear_3q",
+          "frame": "full_body",
+          "pose": "turning_back",
+          "expr": "amused",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly active",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "open back"
+          ],
+          "lead": "light",
+          "direct_inputs": [
+            {
+              "field": "scene",
+              "content": "The setting sun turns the lagoon shallows copper as she walks toward the waterline, lifting one hand to brush away sea spray.",
+              "reason": "예시는 수영복 의상만 제시하므로 해질녘 석호·물가로 걷기·물보라 털기 활동을 정함."
+            },
+            {
+              "field": "outfit",
+              "content": "A charcoal swimsuit with violet edges has the example's deep plunge and wide secure waist band, plus a high-cut leg and an open back; pale sandals rest near the shore.",
+              "reason": "예시의 깊은 V와 넓은 허리밴드를 유지하고 계획 high-cut leg·open back을 허벅지 절개와 등판 구조로 구현."
+            },
+            {
+              "field": "camera",
+              "content": "Vertical 2:3 portrait (1024×1536).",
+              "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+            }
+          ],
+          "axis_reason": {
+            "action_level": "물가로 걸으며 물보라를 털어내는 진행 동작.",
+            "source_influence": "strong — A charcoal swimsuit with violet edges has the example's deep plunge and wide secure waist band, plus a high-cut leg and an open back; pale sandals rest near the shore.",
+            "separates_preference": "balanced — swimsuit 의 실제 조합을 따름."
+          },
+          "example_text": "a one-piece swimsuit with a deep plunging V neckline and a secure wide band at the waist",
+          "locks": {
+            "cat": true,
+            "ex": true,
+            "expr": true,
+            "pose": true,
+            "orient": true,
+            "frame": true,
+            "lens": true,
+            "aspect": true,
+            "axes.overall_intensity": true,
+            "axes.skin_exposure": true,
+            "axes.action_level": true,
+            "axes.source_influence": true,
+            "axes.separates_preference": true
+          },
+          "random_record": "계획기가 결정한 값. UI 랜덤 사용과 선택값 수동 변경 없음."
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            1
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "travel_exploration",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "turning_midmotion"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "batch": {
+    "session": "furfrou-espurr-20261028-09b3",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "트리미앙",
+        "species": "furfrou-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "aerobics_80s",
+            "garments": [
+              "leggings"
+            ],
+            "orient": "seated_twist",
+            "frame": "waist_up",
+            "pose": "side_sitting",
+            "expr": "serious",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "halter neck",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "gala_red_carpet",
+            "ex": "afterparty_stairs",
+            "garments": [
+              "dress"
+            ],
+            "orient": "looking_down",
+            "frame": "face_close",
+            "pose": "leaning_furniture",
+            "expr": "confident",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "mini length",
+              "high thigh slit"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "nightlife",
+            "ex": "club_queue",
+            "garments": [
+              "dress",
+              "jacket",
+              "slip"
+            ],
+            "orient": "crouching",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "candid",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "strapless top"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "gala_red_carpet"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "leggings",
+            "slip"
+          ],
+          "orient": [
+            "seated_twist",
+            "looking_down"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "냐스퍼",
+        "species": "espurr-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "source_editorial",
+            "ex": "transformation_drape",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "turning_midmotion",
+            "frame": "chest_up",
+            "pose": "mid_action",
+            "expr": "unimpressed",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "plunging neckline"
+            ],
+            "lead": "detail",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "A fan of folded silver fabric changes shape as she draws its edges through a pleating ring in a fashion-construction studio.",
+                "reason": "예시는 변형 드레이프 구조라는 제목뿐이므로 주름 링에 천을 통과시켜 접는 구체적 패션 제작 활동을 정함."
+              },
+              {
+                "field": "outfit",
+                "content": "A charcoal one-shoulder jumpsuit has a plunging asymmetrical neckline and soft folded panels across the hip, finished with one tiny violet seam tab.",
+                "reason": "계획의 jumpsuit·one-shoulder·plunging neckline을 비대칭 점프슈트와 접힌 골반 패널로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "주름 천을 링으로 당기는 손동작이 주 활동.",
+              "source_influence": "subtle — A charcoal one-shoulder jumpsuit has a plunging asymmetrical neckline and soft folded panels across the hip, finished with one tiny violet seam tab.",
+              "separates_preference": "balanced — jumpsuit 의 실제 조합을 따름."
+            }
+          },
+          {
+            "cut": 2,
+            "cat": "spa_wellness",
+            "ex": "hammam",
+            "garments": [
+              "robe"
+            ],
+            "orient": "front_3q",
+            "frame": "environmental",
+            "pose": "standing_formal",
+            "expr": "sleepy",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "halter neck",
+              "high thigh slit"
+            ],
+            "lead": "action",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Pausing between rinses on the warm marble slab, she lets a little water trickle from her hand into the brass bowl beside her.",
+                "reason": "예시는 따뜻한 대리석·황동 그릇만 정함. 손에 남은 물을 그릇에 떨어뜨리는 헹굼 휴식 활동을 보충."
+              },
+              {
+                "field": "outfit",
+                "content": "A grey-and-lilac striped cotton peshtemal is secured as a halter wrap robe, with an open side slit rising high on the thigh and an exposed shoulder line.",
+                "reason": "예시의 줄무늬 면 페슈테말을 유지하고 계획 robe·halter neck·high thigh slit을 고정된 홀터 랩 구조로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "마블 슬랩에서 물을 떨구는 짧은 휴식 동작.",
+              "source_influence": "subtle — A grey-and-lilac striped cotton peshtemal is secured as a halter wrap robe, with an open side slit rising high on the thigh and an exposed shoulder line.",
+              "separates_preference": "balanced — robe 의 실제 조합을 따름."
+            }
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "plunge_onepiece",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "rear_3q",
+            "frame": "full_body",
+            "pose": "turning_back",
+            "expr": "amused",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "open back"
+            ],
+            "lead": "light",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "The setting sun turns the lagoon shallows copper as she walks toward the waterline, lifting one hand to brush away sea spray.",
+                "reason": "예시는 수영복 의상만 제시하므로 해질녘 석호·물가로 걷기·물보라 털기 활동을 정함."
+              },
+              {
+                "field": "outfit",
+                "content": "A charcoal swimsuit with violet edges has the example's deep plunge and wide secure waist band, plus a high-cut leg and an open back; pale sandals rest near the shore.",
+                "reason": "예시의 깊은 V와 넓은 허리밴드를 유지하고 계획 high-cut leg·open back을 허벅지 절개와 등판 구조로 구현."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "이미지 도구에 별도 크기 입력이 없어 camera에 규정 비율 한 문장만 추가."
+              }
+            ],
+            "axis_reason": {
+              "action_level": "물가로 걸으며 물보라를 털어내는 진행 동작.",
+              "source_influence": "strong — A charcoal swimsuit with violet edges has the example's deep plunge and wide secure waist band, plus a high-cut leg and an open back; pale sandals rest near the shore.",
+              "separates_preference": "balanced — swimsuit 의 실제 조합을 따름."
+            }
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "travel_exploration",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "turning_midmotion"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "2-character combined plan passed before reserve; stamp verify passed",
+  "reservation_commit": "a4dea23af78fbdb4b8bc1831750471802ca71c21",
+  "generation_tool": "built-in image_gen",
+  "planner_adjustment": "첫 캐릭터가 남은 새 방향 값을 모두 쓰지 않도록 계획기 --avoid 트리미앙::orient=turning_midmotion; 보수적 수영복 예시와 노출 조건 충돌을 피하도록 두 종 ex=burkini_modest 제외. 선택값은 계획기가 결정."
+}

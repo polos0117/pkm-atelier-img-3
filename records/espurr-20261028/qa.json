@@ -1,0 +1,260 @@
+{
+  "reviewer": "gpt",
+  "tool": "built-in image_gen",
+  "generated": 9,
+  "requested": 9,
+  "accepted": true,
+  "cuts": {
+    "light": {
+      "image_sha256": "1f39cc6e5d98f285d983b66a11a7924527f85aafcd947306daf3ac172955da36",
+      "accepted": true,
+      "observations": "보라 눈·짧은 회은색 곱슬·작은 코·둥근 하관. 몸통은 앞 3/4, 한 팔은 카메라 쪽에 펼치고 반대 팔은 옆으로 내려 전신으로 보임. 회색 경장과 흰 러플 깃·허리 뒤 부드러운 자락이 원작 무늬를 의상으로 이어감.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "보라 눈·짧은 회은색 곱슬·작은 코·둥근 하관. 몸통은 앞 3/4, 한 팔은 카메라 쪽에 펼치고 반대 팔은 옆으로 내려 전신으로 보임. 회색 경장과 흰 러플 깃·허리 뒤 부드러운 자락이 원작 무늬를 의상으로 이어감."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "heavy": {
+      "image_sha256": "bb7db3e25a7f5b3120916ac0b6703358cd102d9f002a306d1524e00f411fa17b",
+      "accepted": true,
+      "observations": "같은 얼굴·머리·펼친 검정 장갑 손 유지. 어깨·복부·골반·허벅지·정강이의 판이 두껍게 겹치며 측두 보호판으로 중장이 읽힘. 몸통 내부 비율 유지, 새 무기 없음.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "같은 얼굴·머리·펼친 검정 장갑 손 유지. 어깨·복부·골반·허벅지·정강이의 판이 두껍게 겹치며 측두 보호판으로 중장이 읽힘. 몸통 내부 비율 유지, 새 무기 없음."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "mobility": {
+      "image_sha256": "91534c75e958a143e0fad5af588322d63d08c21430a3da54244f095b67f98d88",
+      "accepted": true,
+      "observations": "기준 얼굴·단발·펼친 손 유지. 팔·허리·하퇴 판이 뒤로 펼쳐지고 원형 보라 추진구가 보여 경장과 실루엣 구분. 거대 날개·무기 없음.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "기준 얼굴·단발·펼친 손 유지. 팔·허리·하퇴 판이 뒤로 펼쳐지고 원형 보라 추진구가 보여 경장과 실루엣 구분. 거대 날개·무기 없음."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "light_overdrive": {
+      "image_sha256": "2c81d07ee38a813b486c8299b48b7ea7446c0abc48697aa5e0587f5f96a87ea5",
+      "accepted": true,
+      "observations": "경장과 펼친 손·발 위치·카메라 크기가 같고 어깨·전완·허리·하퇴의 이음새가 들림. 내부 자홍빛과 둥근 빛고리가 보여 개방 전후 쌍으로 읽힘.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "경장과 펼친 손·발 위치·카메라 크기가 같고 어깨·전완·허리·하퇴의 이음새가 들림. 내부 자홍빛과 둥근 빛고리가 보여 개방 전후 쌍으로 읽힘."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "heavy_overdrive": {
+      "image_sha256": "810bf848ba8267386286d75c601762f53846f0b0007e71716b57fa9bd395b34a",
+      "accepted": true,
+      "observations": "중장의 두꺼운 겹판·측두 보호판·다리 위치 유지. 겹판이 층 사이에서 더 벌어지고 보라빛 내부 프레임이 보임. 새 판·투구·무기 추가 없음.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "중장의 두꺼운 겹판·측두 보호판·다리 위치 유지. 겹판이 층 사이에서 더 벌어지고 보라빛 내부 프레임이 보임. 새 판·투구·무기 추가 없음."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "mobility_overdrive": {
+      "image_sha256": "e306978a152768e528e7994e4aeb35188d779543b464fe470aeb922b309a86bd",
+      "accepted": true,
+      "observations": "고기동의 펼친 판과 추진구 위치를 유지하며 덮개가 더 열리고 고리 빛이 확장. 몸통·얼굴·손·발 구도는 일반 폼과 이어짐.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "고기동의 펼친 판과 추진구 위치를 유지하며 덮개가 더 열리고 고리 빛이 확장. 몸통·얼굴·손·발 구도는 일반 폼과 이어짐."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "카메라 쪽 펼친 손에 엄지와 네 손가락이 연결되고, 옆 손도 다섯 손가락으로 이어짐. 같은 검정 밀착 장갑. 원본/확대에서 여분의 손·역관절·끊긴 팔 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual1": {
+      "image_sha256": "fd97dbf9d961c982bb933c09f6e59683ea67468702790b78c0df2d47e54cf780",
+      "accepted": true,
+      "observations": "패션 제작실에 재단 마네킹, 천·패턴 그림이 있고 양손으로 링에 모인 은색 주름 천을 조작. 검정 비대칭 원숄더 의상·보라 탭과 경장 단발/보라 눈 유지. 아래쪽은 랩 드레스 같은 자락으로 보이며 점프슈트의 다리 분리는 크롭 밖이라 확정할 수 없음. chest_up보다 넓은 담김·정면 쪽 시선은 기록.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "패션 제작실에 재단 마네킹, 천·패턴 그림이 있고 양손으로 링에 모인 은색 주름 천을 조작. 검정 비대칭 원숄더 의상·보라 탭과 경장 단발/보라 눈 유지. 아래쪽은 랩 드레스 같은 자락으로 보이며 점프슈트의 다리 분리는 크롭 밖이라 확정할 수 없음. chest_up보다 넓은 담김·정면 쪽 시선은 기록."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "위 손은 링을 잡은 엄지와 굽힌 손가락의 자연스런 겹침, 아래 손은 은색 천을 잡고 일부 손가락이 주름에 가려짐. 보이는 관절·엄지 방향 정상. 다리 전체는 프레임 밖.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual2": {
+      "image_sha256": "8c6d2c71e9a6516eeda010d79f28fd721eed5f214eb619a675160da293c8592a",
+      "accepted": true,
+      "observations": "줄무늬 면 페슈테말을 홀터 랩으로 단단히 묶고 대리석 바닥에 서서 황동 대야로 한 손의 물방울을 떨어뜨림. 반대 손은 머리 옆, 두 다리·맨발이 몸에 자연스럽게 연결. 어깨·옆 허벅지 노출·돔형 석조 목욕장 환경이 보이고 가려야 할 부위는 면천으로 덮임.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "줄무늬 면 페슈테말을 홀터 랩으로 단단히 묶고 대리석 바닥에 서서 황동 대야로 한 손의 물방울을 떨어뜨림. 반대 손은 머리 옆, 두 다리·맨발이 몸에 자연스럽게 연결. 어깨·옆 허벅지 노출·돔형 석조 목욕장 환경이 보이고 가려야 할 부위는 면천으로 덮임."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "물방울을 떨구는 손의 엄지와 접힌 네 손가락이 연결됨. 머리 옆 손은 머리에 일부 가림. 양발을 확대해 발가락과 발목 연결을 확인, 추가 발 없음.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    },
+    "casual3": {
+      "image_sha256": "6f06c2b0b746c008c5468b7f6ade3ccd7e9b924d36f1d461cacb79f29655d0b4",
+      "accepted": true,
+      "observations": "석호 해안에서 물을 향해 한 발을 옮기며 뒤 3/4 몸통과 어깨 너머 얼굴. 검정·보라 하이컷 원피스의 넓은 허리밴드와 열린 등, 손으로 머리 옆 물보라를 정리. 파도·노을·해변 샌들이 구체 활동을 뒷받침. 실제 얼굴 회전이 지시의 1/4보다 크지만 목·어깨 연결은 자연스러워 기록만 함.",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧고 둥근 얼굴·보라 눈·회은색 단발 곱슬이 경장과 이어짐."
+        },
+        "format": {
+          "match": true,
+          "evidence": "Pillow로 1024×1536 원본·WebP 실제 열림 확인."
+        },
+        "scene_and_form": {
+          "match": true,
+          "evidence": "석호 해안에서 물을 향해 한 발을 옮기며 뒤 3/4 몸통과 어깨 너머 얼굴. 검정·보라 하이컷 원피스의 넓은 허리밴드와 열린 등, 손으로 머리 옆 물보라를 정리. 파도·노을·해변 샌들이 구체 활동을 뒷받침. 실제 얼굴 회전이 지시의 1/4보다 크지만 목·어깨 연결은 자연스러워 기록만 함."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: No module named mediapipe; anatomy-check.py attempted, exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "내린 손의 엄지·네 손가락 굴곡은 자연스럽고 머리 옆 손은 머리카락에 일부 가림. 걸음 중 뒷발 발바닥과 지지발 발목이 자연스럽게 이어지며 발가락은 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대를 눈으로 확인. 프레임/천/머리로 가려진 손가락은 가려짐으로 기록."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "트리미앙",
+      "돌살이",
+      "마라카치"
+    ],
+    "observed": "1의 주름 천 제작은 양손이 앞에서 링과 천을 조작하는 상반신·점프슈트/랩 자락, 2는 석조 하맘의 줄무늬 랩과 물방울을 떨어뜨리는 전신 정면 3/4, 3은 해변의 수영복·걸음·뒤 3/4이다. 세 장의 의상 구조·활동·방향이 구분되고, 트리미앙의 바닥운동/갈라 계단/클럽 웅크림과 다름. 돌살이의 튜브에 앉기·마녀·코르셋, 마라카치의 테라스/춤연습/야외촬영과도 손 활동·옷 실루엣·주변 공간이 함께 다름."
+  }
+}
