@@ -1,0 +1,471 @@
+{
+  "batch_plan": {
+    "session": "sobble-drizzile-20261028-d122",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "울머기",
+        "species": "sobble-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "chemise_silk",
+            "garments": [
+              "slip"
+            ],
+            "orient": "over_shoulder",
+            "frame": "three_quarter",
+            "pose": "squatting",
+            "expr": "calm",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "plunging neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "dance_stage",
+            "ex": "cabaret_showgirl",
+            "garments": [
+              "crop_top",
+              "shorts"
+            ],
+            "orient": "high_angle",
+            "frame": "waist_up",
+            "pose": "leaning_furniture",
+            "expr": "determined",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "cat": "adult_roleplay",
+            "ex": "magician_assistant",
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "orient": "profile_close",
+            "frame": "chest_up",
+            "pose": "carrying_something",
+            "expr": "confident",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "open back",
+              "mini length"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "everyday_sensual",
+            "travel_exploration",
+            "food_berries",
+            "dance_stage",
+            "bridal"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "slip",
+            "uniform"
+          ],
+          "orient": [
+            "over_shoulder",
+            "high_angle",
+            "profile_close"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "누겔레온",
+        "species": "drizzile-20261028",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "retro_glamour",
+            "ex": "pinup_car",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "kneeling",
+            "expr": "serious",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "high thigh slit"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 2,
+            "cat": "everyday_sensual",
+            "ex": "shoe_bench",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "leaning_forward",
+            "frame": "face_close",
+            "pose": "dressing_up",
+            "expr": "curious",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 3,
+            "cat": "food_berries",
+            "ex": "food_bento",
+            "garments": [
+              "apron",
+              "shorts"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "preparing_food",
+            "expr": "gentle",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "side cutouts",
+              "one-shoulder cut"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit",
+            "apron"
+          ],
+          "orient": [
+            "leaning_forward",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "chemise_silk",
+      "garments": [
+        "slip"
+      ],
+      "orient": "over_shoulder",
+      "frame": "three_quarter",
+      "pose": "squatting",
+      "expr": "calm",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high thigh slit",
+        "plunging neckline"
+      ],
+      "lead": "detail",
+      "example_text": "a knee-skimming silk chemise slip with a lace hem and an opaque lining",
+      "submitted_prompt_file": "casual1-prompt.txt",
+      "ui": "casual1-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "A paused ribbon-sorting moment supports mostly posed.",
+        "source_influence": "Only pale blue echoes Sobble, consistent with subtle.",
+        "separates_preference": "The knee-skimming chemise is one garment, so balanced fits."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "A satin ribbon rests across the edge of a low cedar drawer; she places its folded end into a small divided tray in a softly lit dressing room.",
+          "reason": "The chemise example names only the garment; the ribbon drawer task supplies a concrete dressing-room activity compatible with the low pose."
+        },
+        {
+          "field": "outfit",
+          "content": "A pale-blue silk slip with an opaque lining, a plunging neckline and a high thigh slit, keeping the knee-skimming lace hem.",
+          "reason": "The chemise example lacks color, neckline and slit placement; these details implement the planner slit and neckline exposure choices."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 2,
+      "cat": "dance_stage",
+      "ex": "cabaret_showgirl",
+      "garments": [
+        "crop_top",
+        "shorts"
+      ],
+      "orient": "high_angle",
+      "frame": "waist_up",
+      "pose": "leaning_furniture",
+      "expr": "determined",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "halter neck"
+      ],
+      "lead": "light",
+      "example_text": "a cabaret showgirl costume — a sparkling structured bodice, a feathered headpiece and a large feather fan; descending a backstage stair before the show",
+      "submitted_prompt_file": "casual2-prompt.txt",
+      "ui": "casual2-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "Stepping down while steadying on a banister is gentle movement, supporting balanced.",
+        "source_influence": "Blue and yellow costume feathers echo the source more than the plain chemise, supporting balanced.",
+        "separates_preference": "The halter bodice and shorts are distinct pieces, supporting prefer separates."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Amber dressing bulbs illuminate a burgundy velvet stair runner just before the evening curtain call.",
+          "reason": "The backstage-stair example does not fix the light or stair materials; amber bulbs and velvet runner establish evening theater lighting."
+        },
+        {
+          "field": "outfit",
+          "content": "A blue-and-silver sequined halter crop top shaped as a structured bodice and matching high-waisted shorts, with a yellow-edged feather headpiece and a broad feather fan; the cropped hem leaves her midriff visible.",
+          "reason": "The showgirl example leaves the lower garment and neckline unspecified; the planner crop top and shorts become a halter bodice and matching shorts."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    },
+    {
+      "cut": 3,
+      "cat": "adult_roleplay",
+      "ex": "magician_assistant",
+      "garments": [
+        "shorts",
+        "uniform"
+      ],
+      "orient": "profile_close",
+      "frame": "chest_up",
+      "pose": "carrying_something",
+      "expr": "confident",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "open back",
+        "mini length"
+      ],
+      "lead": "action",
+      "example_text": "a stage magician's assistant costume — a sequined fitted leotard-style top, a short tailcoat, gloves and a small top hat; presenting a prop magic box with one open hand on a theater stage",
+      "submitted_prompt_file": "casual3-prompt.txt",
+      "ui": "casual3-ui.json",
+      "actual_random_locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "selection_method": "Planner chose the values; no manual random draw or post-result alteration. Published stamped reservation 0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081.",
+      "axes_reason": {
+        "action_level": "Handling a prop lid during rehearsal is a small ongoing task, supporting balanced.",
+        "source_influence": "The black-silver uniform keeps source identity mainly in blue hair and a small ornament, supporting subtle.",
+        "separates_preference": "Top, shorts and tailcoat are separate costume pieces, supporting prefer separates."
+      },
+      "direct_inputs": [
+        {
+          "field": "scene",
+          "content": "Rehearsal begins under amber footlights, with burgundy theater wings surrounding a small carved prop table.",
+          "reason": "The magician example does not specify rehearsal timing, theater wings or table details; these add stage context without changing the box presentation."
+        },
+        {
+          "field": "outfit",
+          "content": "A black-and-silver stage uniform with a sequined open-back top, mini shorts, a short tailcoat whose narrow divided tails reveal the back opening, fitted gloves and a small top hat.",
+          "reason": "The costume example leaves back construction and lower garment length unspecified; the planner mini shorts and open back are integrated with the required tailcoat."
+        },
+        {
+          "field": "camera",
+          "content": "Vertical 2:3 portrait (1024×1536).",
+          "reason": "The image tool has no size parameter; the generator camera field supplies the required 1024×1536 portrait size."
+        }
+      ]
+    }
+  ],
+  "check": "tools/casual-ledger.py check --fresh passed against latest Git inventory and actual UI text; no image placeholder files used",
+  "reservation_commit": "0b81ee8a972a94c9bf471d8b8f794ae8e9b1a081",
+  "inventory_method": "Sparse checkouts contain required casual UI text only. Git ls-tree -z supplies the authoritative image filename inventory to the ledger without downloading unrelated image bytes. Actual recent comparison images downloaded and visually reviewed.",
+  "planning_adjustments": "Excluded examples whose fixed garment kinds all already occur in the comparison window after novel-garment validation failed; excluded Sobble bridal/retro combinations repeating a slip silhouette and Drizzile roller-disco mismatch. Final choices generated and stamped by the unmodified planner.",
+  "comparison_images": [
+    "염버니",
+    "래비풋",
+    "에이스번"
+  ],
+  "original_png_policy": "session_only; only original SHA256 and text records are published"
+}
