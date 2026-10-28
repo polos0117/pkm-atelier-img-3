@@ -1,14 +1,13 @@
 {
-  "stage": "forms_and_casual_partial",
-  "casual_generated": 2,
+  "stage": "casual_complete_forms_partial",
+  "casual_generated": 3,
   "casual_requested": 3,
   "uploaded_slots": [
+    "casual1",
     "casual2",
     "casual3"
   ],
-  "blocked_slots": [
-    "casual1"
-  ],
+  "blocked_slots": [],
   "other_form_scope": "User explicitly requested upload of all existing generated forms. No new generation was performed.",
   "identity_reference_sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
   "identity_reference_session_only": "/workspace/scratch/7a533e57c7c1/generated_images/exec-049535cb-4425-4e23-afcb-deb3ad33ec54.png",
@@ -72,6 +71,32 @@
       "method": 6,
       "sha256": "9c48f6fd5c3850fb9c3bbdda14b342172a945500919385777b14f025a3dcf40b",
       "git_blob": "733790004068b15c756b13cd74ea4570cd8fe062"
+    }
+  },
+  "latest_casual1": {
+    "card": "고고트",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "basis": "User-requested new everyday plan; actual prompt.html form controls; built-in image_gen",
+    "original_sha256": "a1f709b2e445959a34559806085c558c04b6984395fe094eab5f0b5c36ec9c1b",
+    "reference": {
+      "sha256": "d9a09031ef0d7778887de5f4d4618d41a663cee1fac6e954ffd6b199aa018913",
+      "role": "approved light identity"
+    },
+    "prompt": "casual1-refill-prompt.txt",
+    "ui": "casual1-refill-ui.json",
+    "output": {
+      "file": "고고트_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "48379c20e12b2c0aac3aeb8a3b735cc74b578efadc43a4a048493263027cb1bf",
+      "git_blob": "0a805afa4d2ef372b9632061a18e3953ac6b2767"
     }
   }
 }

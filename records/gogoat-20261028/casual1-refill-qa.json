@@ -1,0 +1,32 @@
+{
+  "slot": "casual1",
+  "reviewer": "gpt",
+  "accepted": true,
+  "image_sha256": "a1f709b2e445959a34559806085c558c04b6984395fe094eab5f0b5c36ec9c1b",
+  "observations": [
+    "Long brown shaggy hair, amber eyes and adult face match the approved light identity.",
+    "Opaque sage-green short jumpsuit, map, open suitcase and folded clothes establish a daytime travel-packing activity.",
+    "Two arms connect naturally; screen-left hand holds the folded map and screen-right hand rests on the suitcase clothes.",
+    "Two separate legs extend from the hips to sandal-clad feet. No extra arm, hand or leg observed.",
+    "Three-quarter framing and downward gaze selected; output includes the full seated figure and a gaze closer to the camera. These differences are recorded without regeneration."
+  ],
+  "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Map hand shows four fingers with thumb behind the map. Suitcase hand shows thumb and fingers partly occluded by folded clothes. Hands and feet reviewed in enlarged crops.",
+    "overlay_checked": false,
+    "note": "Natural occlusion retained; toe shapes and limb connections reviewed."
+  },
+  "diversity_comparison": {
+    "compared": [
+      "고고트 casual2",
+      "고고트 casual3",
+      "메이클 casual1",
+      "메이클 casual2",
+      "메이클 casual3"
+    ],
+    "evidence": "Daytime packing, green one-piece romper and legs extended in front differ from the raised-arm crimson ringmaster and cross-legged black-and-silver live-house scene.",
+    "casual_look": "passed; nearest existing cut score 315 > 215."
+  }
+}

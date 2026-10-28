@@ -1,0 +1,145 @@
+{
+  "user_request": "일상은 계획서 새로 만들어서 재생성해줘.",
+  "scope": "Missing Gogoat casual1 only; existing casual2 and casual3 retained.",
+  "reservation_commit": "aaeddd4c691649a63f78e029783c21a62091a4a3",
+  "batch": {
+    "session": "skiddo-gogoat-20261028",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "고고트",
+        "species": "gogoat-20261028",
+        "refill": true,
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "wildcard",
+            "ex": "retro_motel",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "pose": "sitting_floor",
+            "expr": "smug",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "mini length"
+            ],
+            "lead": "place",
+            "example_text": "Example scene: in a retro motel room in vintage-style clothes, sorting a suitcase",
+            "direct_inputs": [
+              {
+                "field": "scene",
+                "content": "Late-morning sunlight crosses the patterned travel rug in a vintage roadside motel room; she sorts folded route maps and clothes into an open suitcase beside her packed day bag.",
+                "reason": "Adds morning daylight, route maps and the packing activity detail to the retro motel-room suitcase example."
+              },
+              {
+                "field": "outfit",
+                "content": "A sage-green one-shoulder short jumpsuit with a secure high diagonal neckline and opaque mid-thigh shorts, a chestnut belt, tiny leaf stitching and practical flat sandals.",
+                "reason": "Defines the planned short jumpsuit with its one-shoulder cut, opaque fabric, sage palette and travel footwear."
+              },
+              {
+                "field": "camera",
+                "content": "Vertical 2:3 portrait (1024×1536).",
+                "reason": "The built-in image tool exposes no explicit size parameter."
+              }
+            ],
+            "axis_reasons": {
+              "action_level": "A held moment while checking a map during suitcase packing.",
+              "source_influence": "Sage green, chestnut accessories and small leaf stitching echo the source.",
+              "separates_preference": "A one-piece short jumpsuit follows the balanced selection."
+            }
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "circus_ringmaster",
+            "expr": "laughing",
+            "pose": "stretching",
+            "orient": "reaching_up",
+            "frame": "waist_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "uniform"
+            ],
+            "expose": [
+              "cropped hem",
+              "side cutouts"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "subculture_fashion",
+            "ex": "visual_kei",
+            "expr": "half_smile",
+            "pose": "cross_legged",
+            "orient": "front",
+            "frame": "chest_up",
+            "lens": "natural50",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "vest"
+            ],
+            "expose": [
+              "off-shoulder neckline",
+              "cropped hem"
+            ]
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              2,
+              3
+            ]
+          },
+          "low": [
+            "occupation_sensual",
+            "partner_care",
+            "hobbies_leisure",
+            "traditional",
+            "bridal",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "looking_down"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "check": "passed; stamps verified",
+  "prior_attempt_preserved": "attempts/casual1-fantasy/",
+  "previous_failures_retained": true
+}
