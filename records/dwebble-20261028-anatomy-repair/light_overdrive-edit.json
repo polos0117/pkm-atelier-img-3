@@ -1,0 +1,41 @@
+{
+  "card": "돌살이",
+  "slot": "light_overdrive",
+  "filename": "돌살이_light_overdrive_glossy_promo_f.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/돌살이_light_overdrive_glossy_promo_f.webp",
+  "before_sha256": "03231f46d69741678768c6c1a3b70df495f95291841e4284673fa7973b3fa16b",
+  "prompt": "Use case: precise-object-edit. This is an anatomical repair of the supplied existing illustration, not a new character or costume. Image 1 is the exact edit target.\n\nReplace BOTH clenched fists with anatomically correct RELAXED OPEN hands hanging naturally beside her hips. This change of hand pose is required: do not retain the fists. Keep the existing arms and wrists in place. The backs of the gloved hands face the viewer, palms toward her thighs; four fingers extend downward together with a gentle natural bend, index/middle/ring/little at different proportional lengths, and one thumb lies separately along the inner side. Five digits per hand, normal separate knuckle origins, normal finger webbing and aligned wrists. No splayed starfish, no pinching circles, no fist or circular thumb curl. Make the hand silhouette clearly different from the original fists while keeping natural size and the same fitted black gloves.\n\nKeep her exact facial identity, expression, hair shape and length, body proportions, costume construction and colors, every armor plate and current closed/open state, lighting, background, camera and framing unchanged outside the requested anatomical region. Keep the same premium glossy anime rendering. No added people or props, no labels or text. Output a single 1024×1536 portrait. Do not merely copy the malformed hands or limb contours from the input; redraw the requested anatomy correctly.\nImage 2 is the approved repaired hand-pose reference only. Match its relaxed five-digit hanging hands at Image 1’s existing wrists; keep Image 1’s armor configuration and open/closed state.",
+  "status": "accepted after enlarged visual review",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-ef8f9dff-f6e5-4621-b0e4-238442826b93.png",
+  "source_sha256": "31d5bd71c0619e5d17e4da79eb50f77795d1686d43f347531447ac1212cf0149",
+  "after_sha256": "9385ac07b9f2e7681184914ff0399ac88490b5e00224e25ffd12a3997f0f5b51",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/돌살이_light_overdrive_glossy_promo_f.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Both old fists were replaced with relaxed open hanging hands so the finger roots and thumbs are readable. Original face, orange hair, plate layout, stone texture, sunset and closed/open state preserved. Full-size and enlarged hand crops checked side by side across all six forms.",
+  "anatomy": {
+    "tool": "note",
+    "tool_flags": [
+      {
+        "level": "note",
+        "what": "bodies",
+        "msg": "몸이 2 개로 잡혔다 — 거울·그림자·겹친 팔다리. 두 번째 인물이 있나 본다"
+      }
+    ],
+    "tool_hand_detection_count": 0,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Each hand now hangs relaxed: four gloved fingers originate separately along the knuckle row and curve downward, with partial finger overlap in side view. One shorter thumb separates from the index at the radial palm edge. Fingertips taper with different lengths; no pinching loop, extra ray or reverse-bent joint. Both wrists align with forearms.",
+    "overlay_checked": true,
+    "note": "Both old fists were replaced with relaxed open hanging hands so the finger roots and thumbs are readable. Original face, orange hair, plate layout, stone texture, sunset and closed/open state preserved. Full-size and enlarged hand crops checked side by side across all six forms."
+  }
+}

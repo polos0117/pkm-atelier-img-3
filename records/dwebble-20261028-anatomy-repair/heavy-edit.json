@@ -1,0 +1,46 @@
+{
+  "card": "돌살이",
+  "slot": "heavy",
+  "filename": "돌살이_heavy_glossy_promo_f.webp",
+  "request": "User explicitly requested correction and reupload of anatomically unnatural hands/legs after visual review.",
+  "mode": "built-in image_gen local edit",
+  "selection_source": "Direct user anatomical repair; original generator style, character and scene settings retained.",
+  "target": "/workspace/scratch/1e2fc55a8169/pkm-atelier-img-3/img/돌살이_heavy_glossy_promo_f.webp",
+  "before_sha256": "e0187a4439ccf7ac25c850762dbb6de15bfc359154cb20122873df91ef465e37",
+  "prompt": "Use case: precise-object-edit. This is an anatomical repair of the supplied existing illustration, not a new character or costume. Image 1 is the exact edit target.\n\nReplace BOTH clenched fists with anatomically correct RELAXED OPEN hands hanging naturally beside her hips. This change of hand pose is required: do not retain the fists. Keep the existing arms and wrists in place. The backs of the gloved hands face the viewer, palms toward her thighs; four fingers extend downward together with a gentle natural bend, index/middle/ring/little at different proportional lengths, and one thumb lies separately along the inner side. Five digits per hand, normal separate knuckle origins, normal finger webbing and aligned wrists. No splayed starfish, no pinching circles, no fist or circular thumb curl. Make the hand silhouette clearly different from the original fists while keeping natural size and the same fitted black gloves.\n\nKeep her exact facial identity, expression, hair shape and length, body proportions, costume construction and colors, every armor plate and current closed/open state, lighting, background, camera and framing unchanged outside the requested anatomical region. Keep the same premium glossy anime rendering. No added people or props, no labels or text. Output a single 1024×1536 portrait. Do not merely copy the malformed hands or limb contours from the input; redraw the requested anatomy correctly.\nImage 2 is the approved repaired hand-pose reference only. Match its relaxed five-digit hanging hands at Image 1’s existing wrists; keep Image 1’s armor configuration and open/closed state.",
+  "status": "accepted after enlarged visual review",
+  "original_session_path": "/workspace/scratch/1e2fc55a8169/generated_images/exec-eba1e658-2094-4f43-b0e2-928b3f43c0f5.png",
+  "source_sha256": "1da92dc654be90619ed4b10d068a02db0aa90d7123dcca63a83bcc0f5b68ad2a",
+  "after_sha256": "3dc5e3ee53c3f5601ba912090da222f738837a2d592671119fe1a2084fc531f4",
+  "staged_webp": "/workspace/scratch/1e2fc55a8169/work/repair/final/돌살이_heavy_glossy_promo_f.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "webp_quality": 85,
+  "webp_method": 6,
+  "accepted": true,
+  "reviewer": "gpt",
+  "observations": "Both old fists were replaced with relaxed open hanging hands so the finger roots and thumbs are readable. Original face, orange hair, plate layout, stone texture, sunset and closed/open state preserved. Full-size and enlarged hand crops checked side by side across all six forms. The model placed the torso skeleton on a small chest/hip armor patch; its loose_hand distance warning is based on that incorrect body skeleton. The enlarged original shows the hand attached to its actual wrist and forearm.",
+  "anatomy": {
+    "tool": "check",
+    "tool_flags": [
+      {
+        "level": "note",
+        "what": "faint_body",
+        "msg": "몸을 문턱을 낮춰 찾았다 — 뼈대가 흐려 팔다리 길이·각도는 안 본다"
+      },
+      {
+        "level": "check",
+        "what": "loose_hand",
+        "msg": "손 하나가 어느 팔 끝에도 안 붙었다(가까운 왼손목에서 어깨너비의 21.6 배) — 셋째 손·떨어진 손 · 뼈대가 흐려 더 확실치 않다"
+      }
+    ],
+    "tool_hand_detection_count": 1,
+    "arms": 2,
+    "legs": 2,
+    "hands": "Each hand now hangs relaxed: four gloved fingers originate separately along the knuckle row and curve downward, with partial finger overlap in side view. One shorter thumb separates from the index at the radial palm edge. Fingertips taper with different lengths; no pinching loop, extra ray or reverse-bent joint. Both wrists align with forearms.",
+    "overlay_checked": true,
+    "note": "Both old fists were replaced with relaxed open hanging hands so the finger roots and thumbs are readable. Original face, orange hair, plate layout, stone texture, sunset and closed/open state preserved. Full-size and enlarged hand crops checked side by side across all six forms. The model placed the torso skeleton on a small chest/hip armor patch; its loose_hand distance warning is based on that incorrect body skeleton. The enlarged original shows the hand attached to its actual wrist and forearm."
+  }
+}
