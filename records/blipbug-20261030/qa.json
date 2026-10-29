@@ -1,0 +1,139 @@
+{
+ "reviewer": "gpt",
+ "compared_characters": [
+  "아머까오",
+  "퍼퓨돈",
+  "타랜툴라"
+ ],
+ "face_reason": "두루지벌레의 작은 입·눈썹 같은 표식을 의상 선으로 옮긴 설계표를 prompt-pack이 직접 반영. 동그란 눈·짧은 푸른 픽시 컷으로 비교 대상의 긴 머리·백금색 머리와 구분된다. 얼굴 문장은 light-prompt.txt 그대로.",
+ "face_basis": "data/face-design.json 두루지벌레; generated light is canonical",
+ "diversity_comparison": "최근 아머까오·퍼퓨돈·타랜툴라 실제 경장과 일상 9장을 comparison.jpg로 대조. 현관에서 이브이 브러싱/호수 측면 수영/검은 벨벳 드레스로 사진 부스 벤치 휴식은 이전 잔 들기·머리 묶기·호텔 조식·트랙·캠핑 구도와 구분. 이번 세 장도 코트와 머플러/코럴 비키니/검정 고스 드레스, 무릎 접음/상반신 물 동작/전신 벤치로 분명히 다르다.",
+ "images": [
+  {
+   "slot": "light",
+   "image_sha256": "a5cc16985bebea30eb8e073e79e65e67eadf10672476e642c523bdfb12b267aa",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "heavy",
+   "image_sha256": "371c446ccfb79827cb32c212ea38d926388d0ad8132a9113f3220c2159800279",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "mobility",
+   "image_sha256": "64268d852880256937850e08449e19eb8f404594a8c6302591321466b375dae2",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "image_sha256": "fe66a0751091b35adcf6a77924d481815745bbb4fbfe50dbcf2c7394d73f3838",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함. 닫힘과 카메라·자세·크기 유지, 내부 연두색 광채와 열린 판.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "image_sha256": "3efcc2c49b1a3e5a8542a8d47cea04fce1adb97105b8cfcf8df783a71308c440",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함. 닫힘과 카메라·자세·크기 유지, 내부 연두색 광채와 열린 판.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "image_sha256": "6d69baac5450dd8b325460dac4ce5c447c86cc0548517940371488318e9acebb",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함. 닫힘과 카메라·자세·크기 유지, 내부 연두색 광채와 열린 판.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 내려온 장갑손: 다섯 손가락 구조, 손가락 겹침. 화면 오른쪽 관자놀이 손: 굽힌 손가락 일부가 머리에 가려짐. 분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "casual1",
+   "image_sha256": "32eb82b037792ce3e97e2185db881ccc8f2a18aaed4ea58baaf1f9bbf24110f8",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "브러시손: 구부린 네 손가락이 보이고 엄지는 손잡이 뒤 가림. 턱 옆 손: 접힌 손가락 부분 가림. 팔 둘 연결.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  },
+  {
+   "slot": "casual2",
+   "image_sha256": "cf04cb41976c2a3e5d6f351f1cd1e52d54662da0f483811e31d9ff41cd2d353f",
+   "accepted": true,
+   "observations": "손가락 수와 하체는 가림 때문에 확인 불가. 보이는 어깨·위팔 연결은 자연스러움. 측면 수면 컷으로 채택.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "측면 수영의 가까운 팔은 프레임 왼쪽으로 자연스럽게 이어짐; 손은 프레임 밖. 반대 손·팔과 하체는 수면/몸통에 가림.",
+    "overlay_checked": false,
+    "note": "손가락 수와 하체는 가림 때문에 확인 불가. 보이는 어깨·위팔 연결은 자연스러움. 측면 수면 컷으로 채택."
+   }
+  },
+  {
+   "slot": "casual3",
+   "image_sha256": "297ebce74f89140d4373299c174d5e0cc34262dbb45de097b5006b5014f292f7",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "벤치 손: 손가락 겹침으로 일부 가려짐. 무릎 손: 네 긴 손가락과 엄지 구조 확인. 손목과 팔 연결 정상.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어짐. 손·발 확대 확인. 머리 위 작은 모발 끝이 가장자리에 닿는 정도는 기록만 함."
+   }
+  }
+ ]
+}

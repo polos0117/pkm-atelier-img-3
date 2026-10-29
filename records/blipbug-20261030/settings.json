@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "card": "두루지벌레",
+ "no": 824,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/e8b14e9f0a26/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A small brush with a smooth wooden handle; her companion is one small Eevee, on the dry mat beneath the porch roof. Rain beads along the railing.",
+   "outfit": "A long oatmeal wool coat with tailored side cutouts and an open-back inset, worn open over a short cream underdress, with a loose knitted scarf; the open front reveals her legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "브러싱 동료 한 마리와 비를 피한 마른 자리를 특정한다.",
+    "outfit": "롱 울 코트·니트 머플러를 유지하고 예약의 옆 트임과 열린 등을 구조로 반영한다."
+   },
+   "guide": {
+    "path": "in_pokemon / partner_porch / care_brushing / everyday / long_coat_scarf",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_porch",
+      "ko": "지붕 있는 현관",
+      "en": "a covered porch on a rainy day, umbrellas resting by the door",
+      "group": "동료 포켓몬과 함께"
+     },
+     "act": {
+      "key": "care_brushing",
+      "ko": "브러싱 시간",
+      "en": "gently brushing her Pokémon companion on a grooming mat",
+      "pose_family": "무릎·쪼그림"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "long_coat_scarf",
+      "ko": "롱코트 + 머플러",
+      "en": "a long wool coat and a knitted scarf"
+     }
+    },
+    "garments": [
+     "coat"
+    ],
+    "expose": [
+     "side cutouts",
+     "open back"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "The lake curves around pale granite shelves, with late-morning sunlight making clear ribbons beneath the water.",
+   "outfit": "A high-waisted coral bikini with a supportive deeply dipped halter top and high-cut leg openings, fully lined and secure for swimming.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호수 수면 아래 빛과 암반을 구체화한다.",
+    "outfit": "예약의 클래식 비키니를 유지하고 하이컷과 깊은 목선을 반영한다."
+   },
+   "guide": {
+    "path": "now / travel_lake / swim / swimwear / classic_bikini",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lake",
+      "ko": "호숫가",
+      "en": "a lakeside of flat rocks and still water",
+      "group": "여행지"
+     },
+     "act": {
+      "key": "swim",
+      "ko": "수영하기",
+      "en": "swimming through the water mid-stroke",
+      "pose_family": "움직임"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "classic_bikini",
+      "ko": "클래식 비키니",
+      "en": "a high-waisted bikini with a supportive halter top"
+     }
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "She has just finished a photo session; the booth bench has plum vinyl upholstery and a curtain with a chrome rail.",
+   "outfit": "A black velvet halter-neck dress with a corset belt, detached lace sleeves and a short flared skirt, with a fitted lingerie lining fully concealed beneath the velvet.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "휴식 직전 사진 촬영과 벤치 재질을 보충한다.",
+    "outfit": "벨벳 드레스와 코르셋 벨트·레이스 소매를 유지하며 홀터형 오픈 숄더로 예약의 목선을 반영한다."
+   },
+   "guide": {
+    "path": "release / arcade_photo / rest_seat / subculture / romantic_goth",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "arcade_photo",
+      "ko": "스티커 사진기",
+      "en": "an arcade photo-sticker booth under bright ring lights",
+      "group": "오락실·사진 부스"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "romantic_goth",
+      "ko": "로맨틱 고스",
+      "en": "romantic goth — a black velvet dress with a corset belt and lace sleeves"
+     }
+    },
+    "garments": [
+     "dress",
+     "lingerie_set"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

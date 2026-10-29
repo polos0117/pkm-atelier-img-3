@@ -1,0 +1,409 @@
+{
+ "batch_plan": {
+  "session": "blipbug-dottler-e8b14e",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "두루지벌레",
+    "species": "blipbug-20261030",
+    "cuts": [
+     {
+      "cut": 1,
+      "era": "in_pokemon",
+      "place": "partner_porch",
+      "act": "care_brushing",
+      "ofam": "everyday",
+      "item": "long_coat_scarf",
+      "garments": [
+       "coat"
+      ],
+      "orient": "crouching",
+      "frame": "three_quarter",
+      "pose": "one_knee_up",
+      "expr": "amused",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "side cutouts",
+       "open back"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 2,
+      "era": "now",
+      "place": "travel_lake",
+      "act": "swim",
+      "ofam": "swimwear",
+      "item": "classic_bikini",
+      "garments": [
+       "bikini"
+      ],
+      "orient": "side",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "provocative",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "plunging neckline"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "era": "release",
+      "place": "arcade_photo",
+      "act": "rest_seat",
+      "ofam": "subculture",
+      "item": "romantic_goth",
+      "garments": [
+       "dress",
+       "lingerie_set"
+      ],
+      "orient": "seated_twist",
+      "frame": "full_body",
+      "pose": "sitting",
+      "expr": "bored",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "halter neck",
+       "strapless top"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2
+      ],
+      "two": false,
+      "prev": [
+       1
+      ]
+     },
+     "low": [
+      "arcade",
+      "studio",
+      "water",
+      "sports",
+      "night",
+      "evening",
+      "travel",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "coat",
+      "bikini",
+      "dress",
+      "lingerie_set"
+     ],
+     "orient": [
+      "crouching",
+      "side",
+      "seated_twist"
+     ],
+     "frame": [
+      "three_quarter"
+     ]
+    }
+   },
+   {
+    "card": "레돔벌레",
+    "species": "dottler-20261030",
+    "cuts": [
+     {
+      "cut": 1,
+      "era": "in_pokemon",
+      "place": "work_shop",
+      "act": "shift_break",
+      "ofam": "work",
+      "item": "curator_cardigan",
+      "garments": [
+       "cardigan",
+       "trousers"
+      ],
+      "orient": "looking_away",
+      "frame": "face_close",
+      "pose": "",
+      "expr": "wistful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "mini length",
+       "side cutouts"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "era": "now",
+      "place": "stage_contest",
+      "act": "backstage_ready",
+      "ofam": "roleplay",
+      "item": "adult_maid",
+      "garments": [
+       "apron"
+      ],
+      "orient": "high_angle",
+      "frame": "chest_up",
+      "pose": "",
+      "expr": "laughing",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "bare midriff",
+       "cropped hem"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "era": "now",
+      "place": "water_pool",
+      "act": "wet_hair",
+      "ofam": "retro",
+      "item": "roller_disco",
+      "garments": [
+       "trousers"
+      ],
+      "orient": "three_quarter_back",
+      "frame": "environmental",
+      "pose": "turning_back",
+      "expr": "pensive",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "strong",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "off-shoulder neckline",
+       "halter neck"
+      ],
+      "lead": "action"
+     }
+    ],
+    "why": {
+     "required": {
+      "slots": [
+       2,
+       3
+      ],
+      "two": true,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "studio",
+      "water",
+      "sports",
+      "night",
+      "evening",
+      "work",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "cardigan",
+      "trousers",
+      "apron"
+     ],
+     "orient": [
+      "looking_away",
+      "high_angle",
+      "three_quarter_back"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "casual_plan": [
+  {
+   "cut": 1,
+   "era": "in_pokemon",
+   "place": "partner_porch",
+   "act": "care_brushing",
+   "ofam": "everyday",
+   "item": "long_coat_scarf",
+   "garments": [
+    "coat"
+   ],
+   "orient": "crouching",
+   "frame": "three_quarter",
+   "pose": "one_knee_up",
+   "expr": "amused",
+   "lens": "natural50",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "subtle",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "side cutouts",
+    "open back"
+   ],
+   "lead": "detail",
+   "manual_inputs": {
+    "scene": "A small brush with a smooth wooden handle; her companion is one small Eevee, on the dry mat beneath the porch roof. Rain beads along the railing.",
+    "outfit": "A long oatmeal wool coat with tailored side cutouts and an open-back inset, worn open over a short cream underdress, with a loose knitted scarf; the open front reveals her legs."
+   },
+   "manual_why": {
+    "scene": "브러싱 동료 한 마리와 비를 피한 마른 자리를 특정한다.",
+    "outfit": "롱 울 코트·니트 머플러를 유지하고 예약의 옆 트임과 열린 등을 구조로 반영한다."
+   },
+   "axes_reason": {
+    "action_level": "동작 care_brushing에 맞춘 계획기 선택: mostly posed",
+    "source_influence": "장면 partner_porch의 작은 소품·장신구 범위: subtle",
+    "separates_preference": "의상 long_coat_scarf의 실루엣: prefer separates"
+   },
+   "chosen_path": "\nPlace: a covered porch on a rainy day, umbrellas resting by the door\nActivity: gently brushing her Pokémon companion on a grooming mat\nOutfit: A long oatmeal wool coat with tailored side cutouts and an open-back inset, worn open over a short cream underdress, with a loose knitted scarf; the open front reveals her legs.\nPose: Sit on a mat with one knee raised and that foot flat on the floor, the other leg folded flat in front, and an arm resting on the raised knee; both feet in view.\nOrientation: low crouch with flexed knees and hips\nFraming: Three-quarter portrait framing from the head to just above the knees, with the scene's hand action readable.\nLens / perspective: 50mm-equivalent natural perspective with balanced proportions and modest depth compression.\nExpression: crinkled lower eyelids, closed-lip smile pushing the cheeks up, brows relaxed\nScene note: A small brush with a smooth wooden handle; her companion is one small Eevee, on the dry mat beneath the porch roof. Rain beads along the railing.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\n"
+  },
+  {
+   "cut": 2,
+   "era": "now",
+   "place": "travel_lake",
+   "act": "swim",
+   "ofam": "swimwear",
+   "item": "classic_bikini",
+   "garments": [
+    "bikini"
+   ],
+   "orient": "side",
+   "frame": "waist_up",
+   "pose": "mid_action",
+   "expr": "provocative",
+   "lens": "portrait85",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "high-cut leg",
+    "plunging neckline"
+   ],
+   "lead": "place",
+   "manual_inputs": {
+    "scene": "The lake curves around pale granite shelves, with late-morning sunlight making clear ribbons beneath the water.",
+    "outfit": "A high-waisted coral bikini with a supportive deeply dipped halter top and high-cut leg openings, fully lined and secure for swimming."
+   },
+   "manual_why": {
+    "scene": "호수 수면 아래 빛과 암반을 구체화한다.",
+    "outfit": "예약의 클래식 비키니를 유지하고 하이컷과 깊은 목선을 반영한다."
+   },
+   "axes_reason": {
+    "action_level": "동작 swim에 맞춘 계획기 선택: mostly active",
+    "source_influence": "장면 travel_lake의 작은 소품·장신구 범위: strong",
+    "separates_preference": "의상 classic_bikini의 실루엣: balanced"
+   },
+   "chosen_path": "\nPlace: a lakeside of flat rocks and still water\nActivity: swimming through the water mid-stroke\nOutfit: A high-waisted coral bikini with a supportive deeply dipped halter top and high-cut leg openings, fully lined and secure for swimming.\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: side body profile, approximately 90 degrees to camera\nFraming: Waist-up framing showing the head, torso and relevant hand gesture; place essential props inside this crop.\nLens / perspective: 85mm-equivalent short-telephoto perspective from a suitable distance, with gentle background compression.\nExpression: direct challenging gaze under lowered lids, one brow raised, mouth corner tugged in a slight smirk\nScene note: The lake curves around pale granite shelves, with late-morning sunlight making clear ribbons beneath the water.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\n"
+  },
+  {
+   "cut": 3,
+   "era": "release",
+   "place": "arcade_photo",
+   "act": "rest_seat",
+   "ofam": "subculture",
+   "item": "romantic_goth",
+   "garments": [
+    "dress",
+    "lingerie_set"
+   ],
+   "orient": "seated_twist",
+   "frame": "full_body",
+   "pose": "sitting",
+   "expr": "bored",
+   "lens": "documentary35",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "subtle",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "halter neck",
+    "strapless top"
+   ],
+   "lead": "action",
+   "manual_inputs": {
+    "scene": "She has just finished a photo session; the booth bench has plum vinyl upholstery and a curtain with a chrome rail.",
+    "outfit": "A black velvet halter-neck dress with a corset belt, detached lace sleeves and a short flared skirt, with a fitted lingerie lining fully concealed beneath the velvet."
+   },
+   "manual_why": {
+    "scene": "휴식 직전 사진 촬영과 벤치 재질을 보충한다.",
+    "outfit": "벨벳 드레스와 코르셋 벨트·레이스 소매를 유지하며 홀터형 오픈 숄더로 예약의 목선을 반영한다."
+   },
+   "axes_reason": {
+    "action_level": "동작 rest_seat에 맞춘 계획기 선택: mostly posed",
+    "source_influence": "장면 arcade_photo의 작은 소품·장신구 범위: subtle",
+    "separates_preference": "의상 romantic_goth의 실루엣: balanced"
+   },
+   "chosen_path": "\nPlace: an arcade photo-sticker booth under bright ring lights\nActivity: resting on a seat for a moment, catching her breath\nOutfit: A black velvet halter-neck dress with a corset belt, detached lace sleeves and a short flared skirt, with a fitted lingerie lining fully concealed beneath the velvet.\nPose: Sit naturally on a chair or bench with supported feet and readable hands.\nOrientation: seated with supported pelvis and a natural torso twist\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nExpression: lidded half-open eyes looking away, slack mouth, brows flat and unengaged\nScene note: She has just finished a photo session; the booth bench has plum vinyl upholstery and a curtain with a chrome rail.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\n"
+  }
+ ],
+ "reservation_commit": "ea48fbf4fea10e17df21f4460d1622527b00f514",
+ "validation": "Planner check and stamped reservation verify passed. Authoritative origin/main Git filenames supplied to ledger through session-only inventory adapter; only needed metadata and comparison image bytes materialized.",
+ "comparison_characters": [
+  "아머까오",
+  "퍼퓨돈",
+  "타랜툴라"
+ ],
+ "original_png_policy": "session only; original hashes recorded; no original PNG published"
+}
