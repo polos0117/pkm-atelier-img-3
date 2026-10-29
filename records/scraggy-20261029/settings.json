@@ -1,0 +1,265 @@
+{
+ "version": 1,
+ "card": "곤율랭",
+ "no": 559,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/7b790182da3c/scraggy-pack/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "The rubbery pelt becomes a loose mustard-yellow fold-over waist wrap and articulated side chaps over the fitted suit; the small red scale becomes a compact angular red hair ornament",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "body type": "toned",
+    "hair color": "orange",
+    "eye color": "amber"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A blue-glazed spice jar comes free of its woven cradle among berry baskets; amber afternoon sunlight passes through indigo market awnings.",
+   "outfit": "A formal cobalt-blue silk Indian sari, pleated at the waist with its pallu over one shoulder, and an ivory fitted one-shoulder choli with small side cutouts at the waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "트리의 진열대 구경에는 꺼내 보는 물건과 시간·차양 색이 없어 향신료 단지와 오후 장터 빛을 보충한다.",
+    "outfit": "선택한 사리의 드레이프·주름·촐리 구조를 유지하면서 계획의 한쪽 어깨와 옆선 드러내기를 촐리 구조로 구체화한다."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_market / browse_shelf / traditional / sari_formal",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_market",
+      "ko": "포켓몬 세계 장터",
+      "en": "a market street of a Pokémon-world town with awnings and baskets of goods",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "browse_shelf",
+      "ko": "진열대 구경",
+      "en": "browsing a shelf and pulling one item out for a closer look",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "sari_formal",
+      "ko": "사리",
+      "en": "a formal Indian sari — a long silk drape pleated at the waist with the pallu over one shoulder and a fitted choli"
+     }
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Her travel sketchbook has a mustard leather cover, a red angular clasp and a pressed-leaf bookmark; late-morning daylight falls across a walnut café table.",
+   "outfit": "1970s plum satin hot pants and a cream tube top with a narrow halter tie and a cropped hem exposing the midriff.",
+   "camera": "",
+   "custom": "PARTIAL REPAIR: the first attached image identifies her face; the second attached image is the edit target. Keep the second image composition, character, clothes, café and book unchanged. Remove only the extra hand supporting her chin and its attached forearm. Keep the two existing book hands: the lower hand holds the cover, and the hand at the right edge turns a page. There are exactly two arms and two hands after repair.",
+   "why": {
+    "scene": "책 읽기 문장에 책·책갈피의 종류와 카페 시간대가 없어 스케치북·원작색 표지와 잠금쇠·오전 빛을 보충한다.",
+    "outfit": "선택한 70년대 새틴 핫팬츠와 튜브톱을 유지하며 계획의 배 드러내기와 홀터 목선을 가는 목끈·짧은 기장으로 구현한다.",
+    "custom": "초기 일상2 결과에 책을 잡는 손·페이지 넘기는 손과 별도로 턱을 받치는 세 번째 손과 아래팔이 생겼다. 경장과 해당 컷을 첨부해 그 여분 손·아래팔만 제거하는 부분 수정이다."
+   },
+   "guide": {
+    "path": "now / street_cafe / read_book / retro / roller_disco",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_cafe",
+      "ko": "카페",
+      "en": "a neighbourhood café with a counter and window seats",
+      "group": "거리·도시"
+     },
+     "act": {
+      "key": "read_book",
+      "ko": "책 읽기",
+      "en": "reading an unlettered book, one page about to turn",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "roller_disco",
+      "ko": "70년대 롤러 디스코",
+      "en": "1970s satin hot pants and a tube top"
+     }
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "bare midriff",
+     "halter neck"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Cyan cabinet light meets the warm glow from a 2010-era arcade doorway; the coin is brass, and a small red scale-shaped key fob hangs from the cabinet shelf.",
+   "outfit": "A fitted cropped oxblood leather riding jacket worn open over a white strapless bandeau crop top, black leather trousers and ankle boots.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "오락기 조작 문장에는 첫 등장 시기의 조명·동전 재질·주변 모티프가 없어 2010년 무렵 출입구와 황동 동전·작은 열쇠고리를 보충한다.",
+    "outfit": "선택한 열린 가죽 재킷·반도톱·가죽 바지·부츠를 그대로 유지하고 계획의 짧은 기장과 스트랩리스 노출을 명시한다."
+   },
+   "guide": {
+    "path": "release / arcade_hall / play_cabinet / subculture / biker",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow",
+      "group": "오락실·사진 부스"
+     },
+     "act": {
+      "key": "play_cabinet",
+      "ko": "오락기 한 판",
+      "en": "leaning into an upright cabinet, one hand on the stick and a coin between two fingers",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "biker",
+      "ko": "바이커",
+      "en": "biker — a fitted leather riding jacket open over a bandeau top, leather trousers and boots"
+     }
+    },
+    "garments": [
+     "crop_top",
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "cropped hem",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

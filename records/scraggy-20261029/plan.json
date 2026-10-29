@@ -1,0 +1,316 @@
+{
+  "session": "scraggy-7b790182-20261029",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+    {
+      "card": "곤율랭",
+      "species": "scraggy-20261029",
+      "cuts": [
+        {
+          "cut": 1,
+          "era": "in_pokemon",
+          "place": "pw_market",
+          "act": "browse_shelf",
+          "ofam": "traditional",
+          "item": "sari_formal",
+          "garments": [
+            "traditional"
+          ],
+          "orient": "three_quarter_back",
+          "frame": "three_quarter",
+          "pose": "standing_formal",
+          "expr": "soft_smile",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "side cutouts"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "era": "now",
+          "place": "street_cafe",
+          "act": "read_book",
+          "ofam": "retro",
+          "item": "roller_disco",
+          "garments": [
+            "trousers"
+          ],
+          "orient": "seated_twist",
+          "frame": "waist_up",
+          "pose": "",
+          "expr": "serious",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "halter neck"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "era": "release",
+          "place": "arcade_hall",
+          "act": "play_cabinet",
+          "ofam": "subculture",
+          "item": "biker",
+          "garments": [
+            "crop_top",
+            "jacket",
+            "trousers"
+          ],
+          "orient": "rear_3q",
+          "frame": "environmental",
+          "pose": "contrapposto",
+          "expr": "smug",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "strapless top"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            2
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "arcade",
+          "studio",
+          "water",
+          "travel",
+          "pokeworld",
+          "work",
+          "partner",
+          "berry"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "traditional",
+          "trousers",
+          "crop_top",
+          "jacket"
+        ],
+        "orient": [
+          "three_quarter_back",
+          "seated_twist",
+          "rear_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "selection": {
+        "cut": 1,
+        "era": "in_pokemon",
+        "place": "pw_market",
+        "act": "browse_shelf",
+        "ofam": "traditional",
+        "item": "sari_formal",
+        "garments": [
+          "traditional"
+        ],
+        "orient": "three_quarter_back",
+        "frame": "three_quarter",
+        "pose": "standing_formal",
+        "expr": "soft_smile",
+        "lens": "natural50",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "expose": [
+          "one-shoulder cut",
+          "side cutouts"
+        ],
+        "lead": "action"
+      },
+      "manual_inputs": {
+        "scene": "A blue-glazed spice jar comes free of its woven cradle among berry baskets; amber afternoon sunlight passes through indigo market awnings.",
+        "outfit": "A formal cobalt-blue silk Indian sari, pleated at the waist with its pallu over one shoulder, and an ivory fitted one-shoulder choli with small side cutouts at the waist."
+      },
+      "manual_why": {
+        "scene": "트리의 진열대 구경에는 꺼내 보는 물건과 시간·차양 색이 없어 향신료 단지와 오후 장터 빛을 보충한다.",
+        "outfit": "선택한 사리의 드레이프·주름·촐리 구조를 유지하면서 계획의 한쪽 어깨와 옆선 드러내기를 촐리 구조로 구체화한다."
+      },
+      "tree_lines": [
+        "Place: a market street of a Pokémon-world town with awnings and baskets of goods",
+        "Activity: browsing a shelf and pulling one item out for a closer look",
+        "Outfit: A formal cobalt-blue silk Indian sari, pleated at the waist with its pallu over one shoulder, and an ivory fitted one-shoulder choli with small side cutouts at the waist."
+      ],
+      "axes_reason": {
+        "action_level": "장터 단지를 들어 살피는 정지 순간",
+        "source_influence": "사리 옷 자체는 원작 색과 독립이며 작은 장식만",
+        "separates_preference": "사리 전체 드레이프가 한 의상으로 읽히므로 balanced"
+      }
+    },
+    {
+      "cut": 2,
+      "selection": {
+        "cut": 2,
+        "era": "now",
+        "place": "street_cafe",
+        "act": "read_book",
+        "ofam": "retro",
+        "item": "roller_disco",
+        "garments": [
+          "trousers"
+        ],
+        "orient": "seated_twist",
+        "frame": "waist_up",
+        "pose": "",
+        "expr": "serious",
+        "lens": "portrait85",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "bare midriff",
+          "halter neck"
+        ],
+        "lead": "detail"
+      },
+      "manual_inputs": {
+        "scene": "Her travel sketchbook has a mustard leather cover, a red angular clasp and a pressed-leaf bookmark; late-morning daylight falls across a walnut café table.",
+        "outfit": "1970s plum satin hot pants and a cream tube top with a narrow halter tie and a cropped hem exposing the midriff.",
+        "custom": "PARTIAL REPAIR: the first attached image identifies her face; the second attached image is the edit target. Keep the second image composition, character, clothes, café and book unchanged. Remove only the extra hand supporting her chin and its attached forearm. Keep the two existing book hands: the lower hand holds the cover, and the hand at the right edge turns a page. There are exactly two arms and two hands after repair."
+      },
+      "manual_why": {
+        "scene": "책 읽기 문장에 책·책갈피의 종류와 카페 시간대가 없어 스케치북·원작색 표지와 잠금쇠·오전 빛을 보충한다.",
+        "outfit": "선택한 70년대 새틴 핫팬츠와 튜브톱을 유지하며 계획의 배 드러내기와 홀터 목선을 가는 목끈·짧은 기장으로 구현한다.",
+        "custom": "초기 일상2 결과에 책을 잡는 손·페이지 넘기는 손과 별도로 턱을 받치는 세 번째 손과 아래팔이 생겼다. 경장과 해당 컷을 첨부해 그 여분 손·아래팔만 제거하는 부분 수정이다."
+      },
+      "tree_lines": [
+        "Place: a neighbourhood café with a counter and window seats",
+        "Activity: reading an unlettered book, one page about to turn",
+        "Outfit: 1970s plum satin hot pants and a cream tube top with a narrow halter tie and a cropped hem exposing the midriff."
+      ],
+      "axes_reason": {
+        "action_level": "카페에서 책 페이지를 넘기는 정지 순간",
+        "source_influence": "책 표지·잠금쇠에만 원작색",
+        "separates_preference": "튜브톱과 핫팬츠가 분리된 70년대 의상이므로 separates"
+      }
+    },
+    {
+      "cut": 3,
+      "selection": {
+        "cut": 3,
+        "era": "release",
+        "place": "arcade_hall",
+        "act": "play_cabinet",
+        "ofam": "subculture",
+        "item": "biker",
+        "garments": [
+          "crop_top",
+          "jacket",
+          "trousers"
+        ],
+        "orient": "rear_3q",
+        "frame": "environmental",
+        "pose": "contrapposto",
+        "expr": "smug",
+        "lens": "wide24",
+        "aspect": "2:3",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "prefer separates"
+        },
+        "expose": [
+          "cropped hem",
+          "strapless top"
+        ],
+        "lead": "light"
+      },
+      "manual_inputs": {
+        "scene": "Cyan cabinet light meets the warm glow from a 2010-era arcade doorway; the coin is brass, and a small red scale-shaped key fob hangs from the cabinet shelf.",
+        "outfit": "A fitted cropped oxblood leather riding jacket worn open over a white strapless bandeau crop top, black leather trousers and ankle boots."
+      },
+      "manual_why": {
+        "scene": "오락기 조작 문장에는 첫 등장 시기의 조명·동전 재질·주변 모티프가 없어 2010년 무렵 출입구와 황동 동전·작은 열쇠고리를 보충한다.",
+        "outfit": "선택한 열린 가죽 재킷·반도톱·가죽 바지·부츠를 그대로 유지하고 계획의 짧은 기장과 스트랩리스 노출을 명시한다."
+      },
+      "tree_lines": [
+        "Place: an arcade hall of upright cabinets whose screens show only coloured glow",
+        "Activity: leaning into an upright cabinet, one hand on the stick and a coin between two fingers",
+        "Outfit: A fitted cropped oxblood leather riding jacket worn open over a white strapless bandeau crop top, black leather trousers and ankle boots."
+      ],
+      "axes_reason": {
+        "action_level": "동전을 들고 게임기를 준비하는 정지 순간",
+        "source_influence": "빨간 비늘 열쇠고리가 기기 옆에서 원작을 분명히 드러냄",
+        "separates_preference": "재킷·반도톱·가죽 바지가 분리되어 separates"
+      }
+    }
+  ],
+  "reservation": {
+    "session": "scraggy-7b790182-20261029",
+    "commit": "1fd97e5d22c3a0aab50123c5cf01b0f07dcf8e51",
+    "verified": true,
+    "planner_validation": "tools/casual-plan.cjs reserve completed after check passed"
+  },
+  "replanning": {
+    "excluded": [
+      "cut1 group=arcade",
+      "cut2 place=fx_castle",
+      "cut2 item=aerobics_80s",
+      "cut3 item=emo"
+    ],
+    "reason": "옷자락을 들거나 끌며 계단을 걷는 문장과 레오타드가 충돌하고, 이모 긴소매 톱과 계획의 스트랩리스가 충돌하여 생성 전 계획기로 다시 정함."
+  },
+  "partial_repair": {
+    "cut": 2,
+    "references": [
+      "37e60c2c35b0a5ee5f4af17098e8537f45eb9c6e8b28737803a9d02f1024fb55",
+      "3b63990e60a939ce65239bd21fb3bc561886b0ddc7b67237dc99e840e5f8ee6d"
+    ],
+    "changed_input": "custom",
+    "reason": "책을 든 두 손 외에 턱 받치는 손과 아래팔이 추가됨. 총 세 손."
+  }
+}

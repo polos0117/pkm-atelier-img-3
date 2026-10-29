@@ -1,0 +1,327 @@
+{
+  "card": "곤율랭",
+  "reviewer": "gpt",
+  "generator_code": "d8839d6",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "image_sha256": "37e60c2c35b0a5ee5f4af17098e8537f45eb9c6e8b28737803a9d02f1024fb55",
+      "observations": "성인 여성 한 명, 주황색 올림머리와 비대칭 앞머리, 호박색 눈, 노랑 허리 랩과 분할 측면 장갑. 머리부터 두 발까지 여백 안에 있음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 손 엄지와 굽힌 네 손가락, 오른쪽 손 엄지와 굽힌 네 손가락. 일부 손가락이 겹침. 손 크롭 확대 확인.",
+        "overlay_checked": false,
+        "note": "양쪽 손목이 아래팔에 이어짐. 추가 팔다리나 부러진 관절 보이지 않음. 손끝 일부가 노출된 장갑은 프롬프트와 다른 세부로 기록."
+      },
+      "face_reason": "곤율랭의 느슨한 피부와 큰 입을 타원형 윤곽·둥근 턱·도톰한 입술, 악 타입을 사선 눈썹으로 해석한 종별 설계를 적용.",
+      "compared_characters": [
+        "맛보돈",
+        "웨이니발",
+        "아꾸왁"
+      ],
+      "face_comparison": "맛보돈의 짧고 둥근 얼굴과 작은 입, 웨이니발의 길고 좁은 눈매, 아꾸왁의 가는 입술과 비교. 곤율랭은 폭 보통 타원 윤곽·큰 눈·도톰한 입술로 구별. 곤율거니는 등록 이미지가 없어 계열 이미지 비교 불가.",
+      "file": "곤율랭_light_glossy_promo_f.webp",
+      "webp_sha256": "c7b48c8f4e08a18a413f08ef4bb7f80ef754c48930c26aab07dc7cebc569f12d",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": []
+    },
+    "heavy": {
+      "accepted": true,
+      "image_sha256": "17d417becad965163b04d20682f519f3ce2ccbef1e571e8a4a09ee9c035a7de4",
+      "observations": "경장과 같은 얼굴·주황 올림머리·호박 눈. 어깨·골반·허벅지·정강이에 두꺼운 겹장갑과 얼굴 개방형 두관이 추가되고 인체 크기는 유지됨. 양발까지 화면 안.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 양쪽 손에 각각 엄지와 굽힌 네 손가락. 일부 겹침은 확대 크롭으로 확인. 손목이 아래팔에 이어지며 손가락에 이펙트가 걸리지 않음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_heavy_glossy_promo_f.webp",
+      "webp_sha256": "40acbae4c75301ecab84f0f31129bc92443c4de9ec49343bc44ec3eb9113322e",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light"
+      ]
+    },
+    "mobility": {
+      "accepted": true,
+      "image_sha256": "62bdf90c51fcd05c2d429c7114ecdf1ce4e6bfb338bb1b5f26862697c106d783",
+      "observations": "경장과 같은 얼굴·몸. 어깨·골반·종아리 패널이 뒤로 분할 전개되고 작은 추진기와 관자놀이 센서가 보임. 거대 날개나 무장 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 양쪽 손에 각각 엄지와 굽힌 네 손가락. 일부 겹침은 확대 크롭으로 확인. 손목이 아래팔에 이어지며 손가락에 이펙트가 걸리지 않음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_mobility_glossy_promo_f.webp",
+      "webp_sha256": "77f6f5d63155940a28316ab2341cd03cb30086f2d93180b7c39c393c95532648",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light"
+      ]
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "image_sha256": "4ecd25fbb41e7899fb2fcd43d2c39445e7aa3a2c6bfba6e36705d6bb053d0c09",
+      "observations": "경장의 어깨·전완·허리·정강이 판이 이음새에서 떠오르고 보라색 내부 프레임이 드러남. 머리·몸·발 위치와 배경이 닫힘 그림과 대응. 눈은 호박색 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 양쪽 손에 각각 엄지와 굽힌 네 손가락. 일부 겹침은 확대 크롭으로 확인. 손목이 아래팔에 이어지며 손가락에 이펙트가 걸리지 않음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_light_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "a624e570483e5397e4eee66e7b1b83dcd52e8f33a5c4869236c9fc515f011629",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light",
+        "light"
+      ]
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "image_sha256": "2be1fb534c1c981f547152747e241f76512d67445c62cbc1eef69b44c2a2abb3",
+      "observations": "중장의 겹판 사이로 넓은 틈과 보라 내부 프레임이 드러남. 얼굴 개방형 두관·발 위치·체형과 카메라가 중장과 대응. 눈은 호박색 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 양쪽 손에 각각 엄지와 굽힌 네 손가락. 일부 겹침은 확대 크롭으로 확인. 손목이 아래팔에 이어지며 손가락에 이펙트가 걸리지 않음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_heavy_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "523364e4075cba811e4c80c49689cf408c7a81143a4da1b3767dd9f4f22468ce",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "heavy",
+        "light"
+      ]
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "image_sha256": "5090ccd19b139e9a9b87cf07fa9d24094afeb3909e0972ef155739fb135b8340",
+      "observations": "고기동의 분할 패널과 추진기 덮개가 더 열리고 보라 빛과 검은 불씨가 보임. 같은 자세·카메라·주황 머리·호박 눈 유지.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 양쪽 손에 각각 엄지와 굽힌 네 손가락. 일부 겹침은 확대 크롭으로 확인. 손목이 아래팔에 이어지며 손가락에 이펙트가 걸리지 않음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_mobility_overdrive_glossy_promo_f.webp",
+      "webp_sha256": "ad1a6681e658aafac92376657d2661e2624162825bae24a31f1aaddd769caeca",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "mobility",
+        "light"
+      ]
+    },
+    "casual1": {
+      "accepted": true,
+      "image_sha256": "fbd38c26f1b5e44c621aad6b7d0ab0331e97133f7e72b7ac51a6cac512b14d69",
+      "observations": "코발트 사리와 아이보리 촐리를 입고 장터 선반의 파란 단지를 한 손으로 잡음. 뒤 3/4 몸통, 어깨 너머 3/4 얼굴, 부드러운 입꼬리. 노출된 어깨·등·옆허리와 사리 주름이 보임. 아래팔이 손목과 연결됨.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "단지를 잡는 손의 엄지·검지·중지·약지 확인, 소지는 단지 옆과 가려 겹침. 반대 손은 몸과 사리에 가림. 추가 손 없음.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_glossy_promo_f_casual1.webp",
+      "webp_sha256": "bbe9d2d99519a480071da0666716df2e6d8a73a15f7e544d7113c65c0bce83c0",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light"
+      ]
+    },
+    "casual2": {
+      "accepted": true,
+      "image_sha256": "ceaea5dc79710913e80320a6b1a81aa48c03ca446abf5f8dab2c0a8909f2062b",
+      "observations": "크림 홀터 튜브톱과 자주 핫팬츠, 카페 나무 탁자에서 겨자색 표지의 책을 읽음. 두 손만 남아 하나는 표지를 잡고 하나는 페이지를 넘김. 턱과 목 아래에 추가 손·아래팔 없음. 낮은 눈썹과 닫힌 입으로 진지한 표정.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "표지 손의 네 손가락 확인, 엄지는 책 뒤 가림. 페이지 손은 가장자리에서 손가락 일부와 손톱이 보이고 나머지는 종이·프레임에 가림. 턱 받침 손과 아래팔 제거됨.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_glossy_promo_f_casual2.webp",
+      "webp_sha256": "a6ee1dc0934f799b8355dedd5e2633255d3f2b71b63f2703a9a7bba498cf5281",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light"
+      ]
+    },
+    "casual3": {
+      "accepted": true,
+      "image_sha256": "1a9dbcd3dd8e25c67291b74e34094a3a6fbb3e121f950faf70cb2521d5680a22",
+      "observations": "짧은 적갈색 재킷·흰 반도톱·검은 가죽 바지·부츠로 오락기 앞에 서서 한 손으로 조이스틱, 다른 손으로 동전을 잡음. 두 발이 바닥에 지지되고 골반이 한쪽으로 기울어짐. 얼굴은 어깨 너머, 화면은 추상 색광.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed",
+        "arms": 2,
+        "legs": 2,
+        "hands": "동전 손은 엄지·검지로 집고 나머지 세 손가락을 굽힘. 조이스틱 손은 엄지와 굽힌 네 손가락이 손잡이 둘레에 이어짐. 양쪽 손목이 각 아래팔에 연결.",
+        "overlay_checked": false,
+        "note": "어깨·팔꿈치·손목 연결과 몸통·골반 연결을 원본 및 확대 크롭으로 확인. 일상1은 사리와 크롭에 다리 일부, 일상2는 크롭에 하체가 가려짐."
+      },
+      "file": "곤율랭_glossy_promo_f_casual3.webp",
+      "webp_sha256": "ac29be72a4d1b3fc5079e01fdb116e706c7468aca1a742a6beb09549c7fda882",
+      "size": [
+        1024,
+        1536
+      ],
+      "references": [
+        "light"
+      ]
+    }
+  },
+  "diversity_comparison": {
+    "compared_characters": [
+      "맛보돈",
+      "웨이니발",
+      "아꾸왁"
+    ],
+    "observations": "이번 세 장은 서 있는 장터 사리의 무릎 위 구도, 앉은 카페 독서의 허리 위 구도, 전신 오락기 조작의 환경 구도. 활동·옷 구조·실루엣이 구별됨. 맛보돈의 벨벳 의자·숲 의상·동료 돌봄, 웨이니발의 불꽃놀이·시장 직물·온천 데크, 아꾸왁의 무대 춤·크리스마스·냉장고 장면 실제 이미지와 비교해 주 활동·의상·소품 배치가 다름.",
+    "look_check": {
+      "crowd_below": 245,
+      "cuts": [
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/7b790182da3c/generated_images/exec-87f50508-3275-481a-a4d9-4a6afa4b9591.png",
+          "near": [
+            [
+              "포푸니_glossy_promo_f_casual1.webp",
+              304
+            ],
+            [
+              "링곰_glossy_promo_f_casual3.webp",
+              315
+            ],
+            [
+              "루주라_glossy_promo_f_casual2.webp",
+              317
+            ],
+            [
+              "부란다_glossy_promo_f_casual2.webp",
+              317
+            ],
+            [
+              "루주라_glossy_promo_f_casual1.webp",
+              321
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/7b790182da3c/generated_images/exec-33caf40d-5401-4a79-b4cc-9542ae6d5b34.png",
+          "near": [
+            [
+              "깨비드릴조_glossy_promo_f_casual3.webp",
+              301
+            ],
+            [
+              "뿔카노_glossy_promo_f_casual3.webp",
+              303
+            ],
+            [
+              "깜지곰_glossy_promo_f_casual1.webp",
+              306
+            ],
+            [
+              "가디안_glossy_promo_f_casual3.webp",
+              310
+            ],
+            [
+              "디그다_glossy_promo_f_casual3.webp",
+              310
+            ]
+          ],
+          "same_as_own": []
+        },
+        {
+          "crowd": 0,
+          "duplicate_of": [],
+          "file": "/workspace/scratch/7b790182da3c/generated_images/exec-83c7478e-f1e0-41e1-b3f9-e460c6802372.png",
+          "near": [
+            [
+              "겟핸보숭_glossy_promo_f_casual3.webp",
+              314
+            ],
+            [
+              "고라파덕_glossy_promo_f_casual3.webp",
+              318
+            ],
+            [
+              "릴링_glossy_promo_f_casual2.webp",
+              323
+            ],
+            [
+              "자포코일_glossy_promo_f_casual1.webp",
+              334
+            ],
+            [
+              "줄뮤마_glossy_promo_f_casual1.webp",
+              335
+            ]
+          ],
+          "same_as_own": []
+        }
+      ],
+      "dup_below": 215,
+      "ok": true
+    }
+  },
+  "notes": [
+    "일상1 얼굴이 계획의 자연스러운 돌아보기보다 카메라 쪽으로 더 향함. 목·어깨 연결은 유지되어 방향 차이로 기록.",
+    "일상2 허리 위보다 허벅지 윗부분까지 조금 더 담김. 크롭 차이로 기록.",
+    "경장의 작은 붉은 머리 장식이 일상1·2에 남음. 인물 유지·장갑 없음 확인 후 장식 잔존으로 기록.",
+    "확대 손 크롭은 세션 검수용이며 원본 PNG와 함께 공개 저장소에 올리지 않음."
+  ],
+  "attempts": [
+    {
+      "slot": "casual2",
+      "accepted": false,
+      "image_sha256": "3b63990e60a939ce65239bd21fb3bc561886b0ddc7b67237dc99e840e5f8ee6d",
+      "reason": "책을 든 두 손 외에 턱 받치는 손과 아래팔이 추가됨. 총 세 손.",
+      "resolution": "경장과 초기 일상2를 첨부해 여분 턱 받침 손과 아래팔만 제거. 최종 이미지에서 두 손 확인."
+    }
+  ]
+}
