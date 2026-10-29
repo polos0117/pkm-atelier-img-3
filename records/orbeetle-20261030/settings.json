@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "card": "이올브",
+ "no": 826,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/70aae27abc9a/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late-morning sun flashes over the foamy shore; a pale striped windbreak marks the beach aerobics gathering.",
+   "outfit": "An ivory 1980s halter-neck high-cut aerobics leotard over shiny pale-lilac tights with leg warmers and a headband, plus a very short wrap skirt; shoulders and upper thighs remain visibly outlined.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "해변 활동의 시간대와 에어로빅 모임 흔적만 보충",
+    "outfit": "기본 에어로빅 구성에 계획의 홀터·미니 기장과 색·소재를 반영"
+   },
+   "guide": {
+    "path": "now / water_beach / stroll / retro / aerobics_80s",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_beach",
+      "ko": "해변",
+      "en": "a sunny beach with wet sand and shallow surf",
+      "group": "물가"
+     },
+     "act": {
+      "key": "stroll",
+      "ko": "천천히 거닐기",
+      "en": "strolling through the place at an easy pace",
+      "pose_family": "걷기"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "aerobics_80s",
+      "ko": "80년대 에어로빅",
+      "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+     }
+    },
+    "garments": [
+     "leggings"
+    ],
+    "expose": [
+     "halter neck",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "Welcoming visitors beside a lantern-covered entrance arch; a tiny seven-dot badge decorates her lanyard.",
+   "outfit": "A cream event-staff costume with a fitted strapless vest, neat side cutouts, name-tag ribbon and lanyard, paired with tailored shorts; shoulders and waist are exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "손님 맞는 축제 입구와 소형 주변 모티프를 구체화",
+    "outfit": "행사 스태프 베스트를 유지하며 계획의 스트랩리스와 옆구리 개구부 반영"
+   },
+   "guide": {
+    "path": "release / stage_festival / event_greet / roleplay / event_staff",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "stage_festival",
+      "ko": "축제 거리",
+      "en": "a festival street of lanterns, food stalls and paper decorations",
+      "group": "무대·행사"
+     },
+     "act": {
+      "key": "event_greet",
+      "ko": "행사장에서 손님 맞기",
+      "en": "greeting guests at the venue with a bright smile",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "event_staff",
+      "ko": "이벤트 스태프",
+      "en": "an event staff costume with a fitted vest, name-tag ribbon and lanyard"
+     }
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "strapless top",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Warm evening fluorescent light reflects off the round washer windows; a stack of clean towels rests on the folding table.",
+   "outfit": "A pale sage cropped zip hoodie over a white halter top and charcoal leggings; the open hoodie neckline and short hem reveal collarbones and midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "세탁소의 저녁빛과 접을 수건을 구체화",
+    "outfit": "선택된 후디·레깅스 구성에서 계획의 홀터와 짧은 상의 기장을 일상복으로 표현"
+   },
+   "guide": {
+    "path": "now / street_laundromat / laundry_fold / everyday / hoodie_leggings",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_laundromat",
+      "ko": "빨래방",
+      "en": "a coin laundromat late at night, rows of round machine doors",
+      "group": "거리·도시"
+     },
+     "act": {
+      "key": "laundry_fold",
+      "ko": "빨래 개기",
+      "en": "folding laundry into neat piles",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "hoodie_leggings",
+      "ko": "후디 + 레깅스",
+      "en": "a cropped hoodie and leggings"
+     }
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "halter neck",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
