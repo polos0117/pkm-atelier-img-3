@@ -1,0 +1,141 @@
+{
+ "storage": {
+  "last": "데스마스",
+  "cards": {
+   "데스마스": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "unimpressed",
+      "pose": "turning_back",
+      "orient": "rear_3q",
+      "scene": "An arcade hall has a row of violet-lit cabinets and worn checkerboard floor tiles, in 2010.",
+      "outfit": "An emo fitted striped long-sleeve top with a wide off-shoulder neckline and a cropped hem, studded belt, low-rise skinny jeans and checkered sneakers, revealing shoulders and midriff.",
+      "frame": "full_body",
+      "lens": "wide24",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "act": true,
+       "ofam": true,
+       "frame": true,
+       "item": true,
+       "lens": true,
+       "pose": true,
+       "orient": true,
+       "expr": true,
+       "aspect": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true
+      },
+      "era": "release",
+      "place": "arcade_hall",
+      "act": "rhythm_game",
+      "ofam": "subculture",
+      "item": "emo",
+      "preset": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Yamask (데스마스) personified, ghost type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Era, place, activity, outfit, pose and camera follow SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; the Framing in SCENE sets how much of her shows.\n\nERA: set this scene in the real world around 2010, when her Pokémon first appeared. Clothing, hair, devices and interiors of that time, keeping two or three recognisable parts of the chosen outfit; no smartphones or modern devices that did not exist then. Period everyday fashion only, not her armor.\n\nSCREENS: any monitor, cabinet, handheld, box or poster shows only abstract colored light, simple shapes or blank art — no recognisable game, character, logo, title or interface, no readable text.\n\nSCENE (chosen):\nPlace: an arcade hall of upright cabinets whose screens show only coloured glow\nActivity: mid-step on a rhythm game's glowing floor panels\nOutfit: An emo fitted striped long-sleeve top with a wide off-shoulder neckline and a cropped hem, studded belt, low-rise skinny jeans and checkered sneakers, revealing shoulders and midriff.\nPose: Pause mid-step and turn the head and shoulders gently back over one shoulder — a quarter turn at most, face in three-quarter or profile — without twisting the torso unnaturally.\nOrientation: rear three-quarter view showing back and one flank; the head turns no more than a quarter turn, face in profile or three-quarter\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nExpression: flat level brows, half-lidded deadpan stare, mouth in a straight unmoved line\nScene note: An arcade hall has a row of violet-lit cabinets and worn checkerboard floor tiles, in 2010.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: prefer separates — prefer separate top and bottom unless outfit is explicitly specified\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands.\n\nHAND TASK: her hands act naturally for the pose and scene; any idle hand rests in a relaxed, anatomically plausible position. Natural occlusion is allowed; do not force every hand or finger into view.",
+ "plan": {
+  "cut": 3,
+  "era": "release",
+  "place": "arcade_hall",
+  "act": "rhythm_game",
+  "ofam": "subculture",
+  "item": "emo",
+  "garments": [
+   "trousers"
+  ],
+  "orient": "rear_3q",
+  "frame": "full_body",
+  "pose": "turning_back",
+  "expr": "unimpressed",
+  "lens": "wide24",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly active",
+   "source_influence": "balanced",
+   "separates_preference": "prefer separates"
+  },
+  "expose": [
+   "off-shoulder neckline",
+   "bare midriff"
+  ],
+  "lead": "place"
+ },
+ "manual_inputs": {
+  "scene": "An arcade hall has a row of violet-lit cabinets and worn checkerboard floor tiles, in 2010.",
+  "outfit": "An emo fitted striped long-sleeve top with a wide off-shoulder neckline and a cropped hem, studded belt, low-rise skinny jeans and checkered sneakers, revealing shoulders and midriff."
+ },
+ "manual_why": {
+  "scene": "리듬게임 선택에 없는 2010년 바닥과 기기 배치를 보충함.",
+  "outfit": "이모의 긴소매·스키니진을 유지하며 어깨선과 크롭 밑단으로 두 부위를 드러냄."
+ }
+}

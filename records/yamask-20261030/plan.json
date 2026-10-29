@@ -1,0 +1,273 @@
+{
+ "session": "yamask-cofagrigus-ccfac583",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "데스마스",
+   "species": "yamask-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "now",
+     "place": "home_bath",
+     "act": "mask_rest",
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "garments": [
+      "tank"
+     ],
+     "orient": "high_angle",
+     "frame": "environmental",
+     "pose": "lying_side",
+     "expr": "",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "era": "fantasy",
+     "place": "fx_spa",
+     "act": "soak",
+     "ofam": "bath",
+     "item": "bath_yukata",
+     "garments": [
+      "traditional"
+     ],
+     "orient": "side",
+     "frame": "face_close",
+     "pose": "",
+     "expr": "wistful",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "era": "release",
+     "place": "arcade_hall",
+     "act": "rhythm_game",
+     "ofam": "subculture",
+     "item": "emo",
+     "garments": [
+      "trousers"
+     ],
+     "orient": "rear_3q",
+     "frame": "full_body",
+     "pose": "turning_back",
+     "expr": "unimpressed",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "bare midriff"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "tank",
+     "traditional",
+     "trousers"
+    ],
+    "orient": [
+     "high_angle",
+     "side",
+     "rear_3q"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "데스니칸",
+   "species": "cofagrigus-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "in_pokemon",
+     "place": "pw_lodge",
+     "act": "inn_counter",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "orient": "looking_away",
+     "frame": "three_quarter",
+     "pose": "leaning_wall",
+     "expr": "laughing",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "strapless top"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "work_league",
+     "act": "shift_break",
+     "ofam": "work",
+     "item": "workshop_apron",
+     "garments": [
+      "apron",
+      "shirt"
+     ],
+     "orient": "low_angle",
+     "frame": "chest_up",
+     "pose": "",
+     "expr": "focused",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "side cutouts"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "travel_lake",
+     "act": "picnic",
+     "ofam": "swimwear",
+     "item": "plunge_onepiece",
+     "garments": [
+      "swimsuit"
+     ],
+     "orient": "seated_twist",
+     "frame": "waist_up",
+     "pose": "",
+     "expr": "soft_smile",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "halter neck"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "shirt",
+     "swimsuit"
+    ],
+    "orient": [
+     "looking_away",
+     "low_angle",
+     "seated_twist"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+[
+ {
+  "slot": "light",
+  "file": "데스마스_light_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-e1e96594-ed28-470a-9649-77d3c2e25603.png",
+  "source_sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4",
+  "sha256": "7dd7c9bc8e0c2ecfb845fab48f57933e6040b37230e9d090c2c0443c6d880040",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": []
+ },
+ {
+  "slot": "heavy",
+  "file": "데스마스_heavy_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-7b61ba99-e1f6-4f0a-b1a2-6dd0671b4983.png",
+  "source_sha256": "ad3deacb28ff800135b3fd1ecb17e843b7637d2536976e9a0c0e0fc6b04fb182",
+  "sha256": "819a4940c0609fd6f98b717303f1a1c4e79fd866f825934a0adadc7e1a5395f2",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "mobility",
+  "file": "데스마스_mobility_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-387e416b-8ea1-48e8-9796-0446ab7e3d06.png",
+  "source_sha256": "91fb8ead547dcbb1062dd17e7aebddda54af7ecf8d26a08a1a28965099089bd7",
+  "sha256": "5735b7a3631d524fd8cf83dc91773dfc9d5f1d7d2b2cf043f696a874537bc639",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "light_overdrive",
+  "file": "데스마스_light_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-9a78fe99-548d-4bf3-bb01-0b9cdc77e82b.png",
+  "source_sha256": "f56feca694027defc2f6b821721476faba7fd4f8fa5cbfc8051e4900aa939ae4",
+  "sha256": "2f70a37f7f8ca68fc01d84370588716b6399dd482ea7b04fdcfa110f27ba2110",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "heavy_overdrive",
+  "file": "데스마스_heavy_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-91fe4eaa-b337-4b6f-9ceb-247c4f9d54bc.png",
+  "source_sha256": "408d602f3d044ddd3a3a47d6e0aa7b94b889141964463322866a3baab9fbe401",
+  "sha256": "87640dcf34c76b6bb4ae467ceb6b4d0b178cf1ea5b23024958823db6e80f690a",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "heavy",
+    "sha256": "ad3deacb28ff800135b3fd1ecb17e843b7637d2536976e9a0c0e0fc6b04fb182"
+   },
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "mobility_overdrive",
+  "file": "데스마스_mobility_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-8c431d70-7ae0-49fb-a546-f732f91827dc.png",
+  "source_sha256": "fab733bcc9ed680dbf8ce064b6d26dfa0688453d2ec7f265e5ae3888b0a2f51e",
+  "sha256": "47cf4ea1d660aed8a95884c5f349b21ce7f289543e68ec1dbd1964ae06d34d67",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "mobility",
+    "sha256": "91fb8ead547dcbb1062dd17e7aebddda54af7ecf8d26a08a1a28965099089bd7"
+   },
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "casual1",
+  "file": "데스마스_glossy_promo_f_casual1.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-882899ae-5791-4580-9fe3-0adfb54e84e3.png",
+  "source_sha256": "d0b136c6e9ce6c7e34e677b4f7dbeb6f06e7b021d899e41c80d91f0be41aaa27",
+  "sha256": "46b52a312ef60a7a2863bedf64a72637ba1b651fa78c7c9a32881c8de5dc420f",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "casual2",
+  "file": "데스마스_glossy_promo_f_casual2.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-9bc3fa9b-bcbc-4d3b-a622-fe94b5df908c.png",
+  "source_sha256": "8f08c62de370ef0cf4a386449c4ffcc696951f265481c4d022f0760baa432727",
+  "sha256": "0f4551d0b1be01ab6eb76e55405b3c2b9f057f92f438d1bb45dffab74081bdc6",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ },
+ {
+  "slot": "casual3",
+  "file": "데스마스_glossy_promo_f_casual3.webp",
+  "source_path": "/workspace/scratch/ccfac5834543/generated_images/exec-bd00a834-2131-402d-b5c0-b0d75135a15c.png",
+  "source_sha256": "87ca7accd71e246362a497a1ce534299ef201af0194dc83444d08318cb32f12d",
+  "sha256": "eb9b4e659bb52fb58d865222f60720f0580d6baffd0d75326a95f6313929be06",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4"
+   }
+  ]
+ }
+]

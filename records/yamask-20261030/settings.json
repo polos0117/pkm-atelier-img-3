@@ -1,0 +1,256 @@
+{
+ "version": 1,
+ "card": "데스마스",
+ "no": 562,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/ccfac5834543/packs/PLAN-v2.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "a small antique-gold funerary mask relief forms the breastplate, with black tapered draped waist panels and red teardrop jewels; fine gold seams trace the dark armor",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A ceramic bowl of rose petals rests beside the washbasin in late afternoon light; a small gold oval trinket lies beside it.",
+   "outfit": "A kebaya-inspired floral lace top over an opaque fitted camisole, cut at the waist, with a matching opaque mini-length wrap skirt showing midriff and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "화장대 기본 문장에 없는 오후 빛과 장신구 위치만 더함.",
+    "outfit": "크바야와 캐미솔 구조를 유지하며 계획의 크롭·미니 기장으로 허리와 다리를 드러냄."
+   },
+   "guide": {
+    "path": "now / home_bath / mask_rest / lingerie / kebaya_lace",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_bath",
+      "ko": "욕실",
+      "en": "a bright bathroom with a mirror, tiles and folded towels",
+      "group": "집"
+     },
+     "act": {
+      "key": "mask_rest",
+      "ko": "팩 하고 쉬기",
+      "en": "resting with a clay mask on her face",
+      "pose_family": "눕기·기대 눕기"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "kebaya_lace",
+      "ko": "크바야 응용 레이스",
+      "en": "a kebaya-inspired sheer lace top with floral embroidery over a fitted camisole"
+     }
+    },
+    "garments": [
+     "tank"
+    ],
+    "expose": [
+     "mini length",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Warm water laps against the curved white rim under lavender light, with stars visible through a skylight.",
+   "outfit": "A light cotton bath yukata with a soft sash, an open upper back and a high thigh slit, securely wrapped across chest and hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "탕에 몸 담그기 활동을 바꾸지 않고 물결과 천창 빛만 보충함.",
+    "outfit": "유카타 종류를 유지하며 계획의 등 파임과 허벅지 슬릿을 구체화함."
+   },
+   "guide": {
+    "path": "fantasy / fx_spa / soak / bath / bath_yukata",
+    "tree": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_spa",
+      "ko": "미래풍 스파",
+      "en": "a futuristic spa of white curves and soft light",
+      "group": "환상 무대"
+     },
+     "act": {
+      "key": "soak",
+      "ko": "탕에 몸 담그기",
+      "en": "soaking in the warm water, arms resting on the rim, steam rising",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     }
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "An arcade hall has a row of violet-lit cabinets and worn checkerboard floor tiles, in 2010.",
+   "outfit": "An emo fitted striped long-sleeve top with a wide off-shoulder neckline and a cropped hem, studded belt, low-rise skinny jeans and checkered sneakers, revealing shoulders and midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "리듬게임 선택에 없는 2010년 바닥과 기기 배치를 보충함.",
+    "outfit": "이모의 긴소매·스키니진을 유지하며 어깨선과 크롭 밑단으로 두 부위를 드러냄."
+   },
+   "guide": {
+    "path": "release / arcade_hall / rhythm_game / subculture / emo",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow",
+      "group": "오락실·사진 부스"
+     },
+     "act": {
+      "key": "rhythm_game",
+      "ko": "리듬 게임 발판",
+      "en": "mid-step on a rhythm game's glowing floor panels",
+      "pose_family": "움직임"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "emo",
+      "ko": "이모",
+      "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+     }
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "bare midriff"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

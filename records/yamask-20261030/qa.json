@@ -1,0 +1,141 @@
+{
+ "reviewer": "gpt",
+ "card": "데스마스",
+ "compared_characters": [
+  "빠르모트",
+  "빠모트",
+  "빠모"
+ ],
+ "face_reason": "종별 얼굴 설계의 타원형·보통 턱·수평 열린 눈과 긴 포니테일을 사용. 최근 세 종의 짧고 밝은 머리·작은 얼굴 윤곽과 비교해 구별됨. 계열 데스니칸은 둥근 얼굴·올라간 눈·각진 눈썹으로 설계되어 있음.",
+ "face_source": "data/face-design.json[562], data/source-appearance.json[562]",
+ "diversity_comparison": "빠르모트의 시장·호숫가·메이드 축제, 빠모트의 페리·사진 정리·스케치, 빠모의 콘서트·바·카페 실제 이미지와 비교. 이번 컷은 욕실 옆누움·스파 얼굴 근접·오락실 등3/4 전신으로 장소·활동·실루엣·구도가 구분됨.",
+ "casual_look": "passed: all closest distances >=305 (threshold 245)",
+ "slots": [
+  {
+   "slot": "light",
+   "image_sha256": "9d31c341f9391bed252e71434705c5c21c32468a416e1cd216f0c361ed02ead4",
+   "accepted": true,
+   "observations": "타원형 얼굴·한쪽 눈을 덮는 긴 앞머리·검정 포니테일과 금빛 가면 흉갑. 양팔·양다리와 부츠가 몸에 연결됨.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "heavy",
+   "image_sha256": "ad3deacb28ff800135b3fd1ecb17e843b7637d2536976e9a0c0e0fc6b04fb182",
+   "accepted": true,
+   "observations": "경장과 같은 얼굴·머리. 어깨·허리·정강이에 넓은 겹판과 두꺼운 테두리가 추가됨.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "mobility",
+   "image_sha256": "91fb8ead547dcbb1062dd17e7aebddda54af7ecf8d26a08a1a28965099089bd7",
+   "accepted": true,
+   "observations": "경장과 같은 얼굴. 어깨·허리·종아리 패널이 분할되어 뒤로 벌어지고 추진부가 보임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "image_sha256": "f56feca694027defc2f6b821721476faba7fd4f8fa5cbfc8051e4900aa939ae4",
+   "accepted": true,
+   "observations": "경장과 카메라·발 위치·손 자세가 같음. 얇은 판의 틈과 보랏빛 내측 프레임이 드러남.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "image_sha256": "408d602f3d044ddd3a3a47d6e0aa7b94b889141964463322866a3baab9fbe401",
+   "accepted": true,
+   "observations": "중장과 같은 자세·구도, 겹판이 떠서 판 사이 보랏빛이 드러남. 무기 추가 없음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "image_sha256": "fab733bcc9ed680dbf8ce064b6d26dfa0688453d2ec7f265e5ae3888b0a2f51e",
+   "accepted": true,
+   "observations": "고기동과 같은 자세·구도, 펼친 패널과 추진부 덮개에서 보랏빛이 드러남.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 일부 끝마디는 굽힘으로 겹쳐 가려짐; 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual1",
+   "image_sha256": "d0b136c6e9ce6c7e34e677b4f7dbeb6f06e7b021d899e41c80d91f0be41aaa27",
+   "accepted": true,
+   "observations": "욕실 세면대 옆 긴 의자에 옆으로 누워 팩하며 쉬는 장면. 흰 크바야 레이스·크롭 캐미솔·분홍 미니 랩스커트, 두 발과 양팔이 자연스럽게 연결됨.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 지지 손은 엄지와 네 손가락, 얼굴 받치는 손은 굽혀 일부 가려짐. 팔 두 개가 각각 어깨·팔꿈치에서 이어짐.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual2",
+   "image_sha256": "8f08c62de370ef0cf4a386449c4ffcc696951f265481c4d022f0760baa432727",
+   "accepted": true,
+   "observations": "스파의 물·증기·별빛 배경과 어깨를 드러낸 유카타. 얼굴을 크게 담았으나 선택한 90도 측면보다 3/4 쪽이고 어깨 아래도 일부 보임. 프레이밍·방향 차이는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 선택한 얼굴 근접 프레임 아래에 가려짐. 보이는 어깨와 팔의 연결 자연스러움.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual3",
+   "image_sha256": "87ca7accd71e246362a497a1ce534299ef201af0194dc83444d08318cb32f12d",
+   "accepted": true,
+   "observations": "빛나는 리듬게임 발판 위에 한 발을 든 2010년 오락실 장면. 줄무늬 오프숄더 크롭 긴소매·스키니진·체크 운동화. 등 3/4에서 고개를 자연스럽게 돌림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 모두 다섯 손가락, 화면 왼손 일부 끝마디는 자연스럽게 겹침. 엄지 방향과 손목 연결 정상.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  }
+ ]
+}
