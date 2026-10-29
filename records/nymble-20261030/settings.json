@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "콩알뚜기",
+ "no": 919,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/684f7a8f390d/PLAN-nymble-v2.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The climbing wall has steep overhangs, chalked holds and a padded ochre floor in clear afternoon light.",
+   "outfit": "A cobalt one-shoulder athletic crop top and fitted rust climbing shorts, with the asymmetrical shoulder and midriff exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "암벽의 경사와 초크 자국·안전 매트의 구체적 모습만 보충.",
+    "outfit": "자동 운동복 칸에 계획의 크롭톱·반바지와 한쪽 어깨·배 노출을 구체화."
+   },
+   "guide": {
+    "path": "now / sports_wall / water_break / active",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_wall",
+      "ko": "실내 암벽",
+      "en": "an indoor climbing wall of coloured holds",
+      "group": "운동"
+     },
+     "act": {
+      "key": "water_break",
+      "ko": "물 마시며 숨 고르기",
+      "en": "catching her breath with a water bottle",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     }
+    },
+    "garments": [
+     "crop_top",
+     "shorts"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "cropped hem"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "The warm paper parcel is folded around a berry pastry, with wicker berry baskets filling the stall counter.",
+   "outfit": "Fitted faded-blue denim short overalls over a cropped open-back top; the mini-length shorts reveal the thighs and the back remains visible through the open sides.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "노점에서 사는 음식이 무엇인지 종이 포장과 열매 페이스트리로 구체화.",
+    "outfit": "멜빵바지와 크롭톱 종류를 유지하고 미니 길이·등 노출을 짧은 멜빵과 오픈백 상의로 반영."
+   },
+   "guide": {
+    "path": "in_pokemon / berry_market / buy_food / everyday / overalls",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_market",
+      "ko": "마을 열매 시장",
+      "en": "a village market stall piled with fresh berries",
+      "group": "나무열매·요리"
+     },
+     "act": {
+      "key": "buy_food",
+      "ko": "노점 음식 사기",
+      "en": "buying a paper-wrapped snack at a stall",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "overalls",
+      "ko": "멜빵바지",
+      "en": "fitted denim overalls over a cropped top"
+     }
+    },
+    "garments": [
+     "crop_top",
+     "overalls"
+    ],
+    "expose": [
+     "mini length",
+     "open back"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "A small brass teapot and two ceramic cups rest on a tiled side table beneath the marble dome.",
+   "outfit": "A fully lined burgundy one-shoulder swimsuit with a light cotton yukata worn open over it; the yukata has a high thigh slit.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "차 따르기에 쓰는 주전자·찻잔과 타일 탁자를 구체화.",
+    "outfit": "수영복 위 열린 유카타 종류를 유지하고 계획의 한쪽 어깨·높은 옆트임을 반영."
+   },
+   "guide": {
+    "path": "release / spa_hammam / tea_robe / swimwear / yukata_over",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "spa_hammam",
+      "ko": "하맘",
+      "en": "a domed marble hammam with warm stone slabs and brass bowls",
+      "group": "목욕·스파"
+     },
+     "act": {
+      "key": "tea_robe",
+      "ko": "차 따르기",
+      "en": "pouring herbal tea, relaxed and unhurried",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "yukata_over",
+      "ko": "수영복 위 유카타",
+      "en": "swimwear with a light yukata worn open over it"
+     }
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "high thigh slit",
+     "one-shoulder cut"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

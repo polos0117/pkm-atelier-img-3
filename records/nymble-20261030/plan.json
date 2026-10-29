@@ -1,0 +1,130 @@
+{
+ "session": "spidops-nymble-20261030-684f",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "콩알뚜기",
+   "species": "nymble-20261030",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "era": "now",
+     "place": "sports_wall",
+     "act": "water_break",
+     "ofam": "active",
+     "item": "",
+     "expr": "determined",
+     "pose": "",
+     "orient": "low_angle",
+     "frame": "face_close",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "shorts"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "cropped hem"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "berry_market",
+     "act": "buy_food",
+     "ofam": "everyday",
+     "item": "overalls",
+     "expr": "curious",
+     "pose": "standing_formal",
+     "orient": "leaning_forward",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "expose": [
+      "mini length",
+      "open back"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "era": "release",
+     "place": "spa_hammam",
+     "act": "tea_robe",
+     "ofam": "swimwear",
+     "item": "yukata_over",
+     "garments": [
+      "traditional"
+     ],
+     "orient": "leaning_back",
+     "frame": "three_quarter",
+     "pose": "side_sitting",
+     "expr": "sensual",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "traditional"
+    ],
+    "orient": [
+     "leaning_back"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

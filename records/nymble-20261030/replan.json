@@ -1,0 +1,62 @@
+{
+  "slot": "casual3",
+  "previous": {
+    "kept": true,
+    "cut": 3,
+    "era": "now",
+    "place": "evening_penthouse",
+    "act": "sofa_lounge",
+    "ofam": "lingerie",
+    "item": "bralette_highwaist",
+    "expr": "mischievous",
+    "pose": "lying_side",
+    "orient": "looking_down",
+    "frame": "three_quarter",
+    "lens": "natural50",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+    },
+    "garments": [
+      "crop_top"
+    ],
+    "expose": [
+      "halter neck",
+      "bare midriff"
+    ],
+    "lead": "light"
+  },
+  "reason": "Image tool rejected penthouse lingerie lounge output (moderation_blocked, sexual); no result returned, no same-prompt retry. Replanned a different activity and wardrobe family with planner, preserving accepted casual1 and casual2.",
+  "new": {
+    "cut": 3,
+    "era": "release",
+    "place": "spa_hammam",
+    "act": "tea_robe",
+    "ofam": "swimwear",
+    "item": "yukata_over",
+    "garments": [
+      "traditional"
+    ],
+    "orient": "leaning_back",
+    "frame": "three_quarter",
+    "pose": "side_sitting",
+    "expr": "sensual",
+    "lens": "portrait85",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+    ],
+    "lead": "detail"
+  }
+}
