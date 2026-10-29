@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "card": "타랜툴라",
+ "no": 917,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/c95d852f7a62/PLAN-v3.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late-afternoon fountain reflections flicker across the glass railings; a small silk-thread charm hangs from her shopping bag.",
+   "outfit": "A coral 1950s halter playsuit with a short fitted hem and a low open back, showing shoulders, upper back and thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "쇼핑몰의 분수 반사와 가방의 작은 실 장식을 보충한다.",
+    "outfit": "50년대 플레이수트의 미니 기장과 열린 등을 지정한다."
+   },
+   "guide": {
+    "path": "now / sports_studio / water_break / active",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor",
+      "group": "운동"
+     },
+     "act": {
+      "key": "water_break",
+      "ko": "물 마시며 숨 고르기",
+      "en": "catching her breath with a water bottle",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     }
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Raindrops collect on the broad wooden window sill beside a spool-shaped ceramic vase; blue hills fade into the rain.",
+   "outfit": "A cropped sea-blue kebaya blouse worn open at the shoulders over an opaque strapless top, paired with a wrapped cream batik skirt; collarbones and midriff show.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "빗방울과 산장 창틀·실타래 화병으로 장면을 구체화한다.",
+    "outfit": "크바야 블라우스를 유지하면서 튜브톱과 짧은 길이로 예약 노출을 구현한다."
+   },
+   "guide": {
+    "path": "in_pokemon / berry_market / buy_food / everyday / overalls",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_market",
+      "ko": "마을 열매 시장",
+      "en": "a village market stall piled with fresh berries",
+      "group": "나무열매·요리"
+     },
+     "act": {
+      "key": "buy_food",
+      "ko": "노점 음식 사기",
+      "en": "buying a paper-wrapped snack at a stall",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "overalls",
+      "ko": "멜빵바지",
+      "en": "fitted denim overalls over a cropped top"
+     }
+    },
+    "garments": [
+     "crop_top",
+     "overalls"
+    ],
+    "expose": [
+     "cropped hem",
+     "open back"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "A clean camping blanket is spread beside berry crates; sunlight cuts through the canopy above the campsite table.",
+   "outfit": "A burnt-orange off-shoulder athletic jumpsuit with a high side thigh opening over securely fitted inner shorts, exposing collarbones, shoulders and one thigh.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "야영 조리장 정리 활동의 천과 열매 상자·빛을 더한다.",
+    "outfit": "운동 점프슈트로 정하고 예약의 어깨 목선과 높은 허벅지 트임을 구체화한다."
+   },
+   "guide": {
+    "path": "now / street_mall / rest_seat / retro / pinup_bikini",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_mall",
+      "ko": "쇼핑몰",
+      "en": "a shopping mall atrium with a fountain and glass railings",
+      "group": "거리·도시"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_bikini",
+      "ko": "50년대 핀업 비키니",
+      "en": "a 1950s pin-up bikini with a high-waisted bottom and a halter top"
+     }
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+  "card": "타랜툴라",
+  "canonical": {
+    "slot": "light",
+    "card": "타랜툴라",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack actual selection",
+    "original_sha256": "8d5db5928110d4fc3799d4036c724660b31488d4a843e202bf61999bfd4ebcd5",
+    "original_session_only": true,
+    "file": "img/타랜툴라_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "sha256": "d078aa26e49056bd7d2f8418756b1411bff04103b8b09a1f5568db17fe8e1750",
+    "reference_sha256": [],
+    "prompt_sha256": "16cb5a8d01fb2f11dc4d1d5d30ca38ae16352a42e4f1860b0dbeb2bc3e7aa1e4"
+  },
+  "face_design": {
+    "name": "타랜툴라",
+    "en": "Tarountula",
+    "line": "타랜툴라",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "narrow tapered chin",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "angled brows",
+      "nose character": "small delicate nose",
+      "lips": "thin lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 armor → 얼굴형 각지고 선명한 얼굴형"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 넓고 각진 사각 턱 → 아래로 갈수록 좁아지는 턱끝",
+    "hair": {
+      "hairstyle": "pixie cut",
+      "hair length": "short",
+      "bangs": "straight bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "키 0.3m에서 짧고 가벼운 픽시컷(짧은 컷) · 짧은 머리 · 일자 앞머리",
+    "hair_cues": [
+      "키 0.3m → 헤어스타일 짧고 가벼운 픽시컷",
+      "키 0.3m → 머리 길이 짧은 머리"
+    ]
+  },
+  "source": {
+    "name": "타랜툴라",
+    "en": "Tarountula",
+    "color": "white",
+    "shape": "armor",
+    "features": [
+      {
+        "part": "thread",
+        "detail": "large white thread ball"
+      },
+      {
+        "part": "leg",
+        "detail": "eight thin dark-tipped legs"
+      },
+      {
+        "part": "body",
+        "detail": "lime-green spider body"
+      },
+      {
+        "part": "pattern",
+        "detail": "white facial markings"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Tarountula_%28Pok%C3%A9mon%29",
+    "revision": 4611432,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "b2c35ff83fd76ace49de13b7540aa2a6fbb019c3ef0784ae3c63b3cca2f6b6e0",
+    "method": "source-checked-correction",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "compared_images": [
+    "곤율랭",
+    "파크로우",
+    "아머까오",
+    "퍼퓨돈"
+  ],
+  "face_comparison": "긴 검은 포니테일의 퍼퓨돈과 달리 짧은 흰 머리와 황록색 눈·각진 얼굴과 가는 턱으로 구분했다. 최근 3종과도 얼굴과 헤어가 다르다.",
+  "generation": "built-in imagegen; nine calls for nine final assets",
+  "diversity": "쇼핑몰의 엄지 올리기 확대·비 오는 산장의 크바야 휴식·야영지 담요 접기 전신으로 장소·활동·옷·구도가 구분된다. 최근 3종 비교 시 야시장·서가·무대·바와 겹치지 않으며 퍼퓨돈의 머리 묶기·조식·트랙 장면과도 다르다.",
+  "plan_check": "passed with complete Git image inventory adapter; initial ungenerated plan replaced after source-axis composition conflict",
+  "publication": "pending image commit, workflow thumbnails and registration"
+}

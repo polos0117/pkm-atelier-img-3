@@ -1,0 +1,270 @@
+{
+ "session": "oinkologne-tarountula-c95d",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "퍼퓨돈",
+   "species": "oinkologne-20261029",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "in_pokemon",
+     "place": "pw_room",
+     "act": "hair_tie",
+     "ofam": "homewear",
+     "item": "sleep_shirt",
+     "garments": [
+      "shirt"
+     ],
+     "orient": "low_angle",
+     "frame": "face_close",
+     "pose": "",
+     "expr": "candid",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "evening_hotel",
+     "act": "breakfast_bed",
+     "ofam": "lingerie",
+     "item": "slip_lingerie",
+     "garments": [
+      "slip"
+     ],
+     "orient": "front",
+     "frame": "full_body",
+     "pose": "",
+     "expr": "flustered",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "era": "release",
+     "place": "studio_art",
+     "act": "late_coffee",
+     "ofam": "everyday",
+     "item": "hoodie_leggings",
+     "garments": [
+      "leggings",
+      "sweater"
+     ],
+     "orient": "rear_3q",
+     "frame": "waist_up",
+     "pose": "",
+     "expr": "mischievous",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "mini length"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "sports",
+     "night",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "shirt",
+     "slip",
+     "leggings",
+     "sweater"
+    ],
+    "orient": [
+     "low_angle",
+     "front",
+     "rear_3q"
+    ],
+    "frame": [
+     "face_close"
+    ]
+   }
+  },
+  {
+   "card": "타랜툴라",
+   "species": "tarountula-20261029",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "now",
+     "place": "sports_studio",
+     "act": "water_break",
+     "ofam": "active",
+     "item": "",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "over_shoulder",
+     "frame": "environmental",
+     "pose": "standing_formal",
+     "expr": "exhausted",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "berry_market",
+     "act": "buy_food",
+     "ofam": "everyday",
+     "item": "overalls",
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "pose": "leaning_wall",
+     "expr": "pensive",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "cropped hem",
+      "open back"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "street_mall",
+     "act": "rest_seat",
+     "ofam": "retro",
+     "item": "pinup_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "front_3q",
+     "frame": "full_body",
+     "pose": "finger_to_lips",
+     "expr": "proud",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "sports",
+     "night",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "jumpsuit",
+     "crop_top",
+     "overalls",
+     "bikini"
+    ],
+    "orient": [
+     "over_shoulder",
+     "leaning_forward",
+     "front_3q"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
