@@ -1,0 +1,42 @@
+{
+  "card": "빠모",
+  "accepted_slots": [
+    "light",
+    "heavy",
+    "heavy_overdrive",
+    "light_overdrive",
+    "mobility",
+    "mobility_overdrive",
+    "casual2",
+    "casual3",
+    "casual1"
+  ],
+  "canonical_light": {
+    "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/light.png",
+    "original_sha256": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66",
+    "output": "빠모_light_glossy_promo_f.webp",
+    "output_sha256": "a9dbd7c301ff030ccc921412eb8fe1e15de859da77b8a6461f9ee0206e4f760b",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "references": {},
+    "prompt_sha256": "2b5c1e682246785c45ba0d1d50b3592cf49866bda4dd2fdb64d81de6e3c78250"
+  },
+  "publication": "Ready for one character commit to main; 9 WebP images plus records.",
+  "original_scope": "Original PNG files are session-only and not committed; records retain SHA256.",
+  "updated": "2026-10-29T21:55:35.539663+00:00",
+  "face_reason": "작은 체적과 둥근 털 윤곽을 짧고 넓은 성인 얼굴·부드러운 턱·둥근 코끝·넓은 눈 간격으로 해석.",
+  "face_source": "data/source-appearance.json entry 921; data/face-design.json entry 921",
+  "final_face_line": "FACE (her own structure, not the style's default face): compact face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, wide-set; fine soft arches; rounded soft tip nose; medium lips.",
+  "compared_characters": [
+    "콩알뚜기",
+    "심보러",
+    "이올브"
+  ],
+  "reservation_commit": "f6354128ef8db7e21fcabb0ead8bd3baa8304368",
+  "generation_stages": "casual1 uses the refill plan; casual2 and casual3 retain initial full-axis UI and prompt bytes. Archived initial plan and settings in attempts/casual1-original."
+}

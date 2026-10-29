@@ -1,0 +1,139 @@
+{
+ "session": "b223-exleg-pawmi-20261030",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "빠모",
+   "species": "pawmi-20261030",
+   "refill": true,
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "now",
+     "place": "street_cafe",
+     "act": "bead_craft",
+     "ofam": "retro",
+     "item": "deco_gown",
+     "garments": [
+      "dress"
+     ],
+     "orient": "over_shoulder",
+     "frame": "three_quarter",
+     "pose": "cross_legged",
+     "expr": "serious",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "one-shoulder cut"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": null,
+     "ex": null,
+     "era": "release",
+     "place": "night_bar",
+     "act": "toast",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "expr": "mischievous",
+     "pose": null,
+     "orient": "looking_down",
+     "frame": "chest_up",
+     "lens": "telephoto135",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "plunging neckline",
+      "one-shoulder cut"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": null,
+     "ex": null,
+     "era": "now",
+     "place": "home_entry",
+     "act": "dress_up",
+     "ofam": "everyday",
+     "item": "sundress_cardigan",
+     "expr": "nostalgic",
+     "pose": "hand_on_hip",
+     "orient": "turning_midmotion",
+     "frame": "waist_up",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "cardigan",
+      "dress"
+     ],
+     "expose": [
+      "high thigh slit",
+      "side cutouts"
+     ]
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "home",
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "dress"
+    ],
+    "orient": [
+     "over_shoulder"
+    ],
+    "frame": [
+     "three_quarter"
+    ]
+   }
+  }
+ ]
+}

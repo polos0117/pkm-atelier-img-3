@@ -1,0 +1,224 @@
+{
+  "reviewer": "gpt",
+  "images": {
+    "light": {
+      "status": "accepted",
+      "identity": "짧은 주황 레이어드·비대칭 앞머리와 크림색 한 줄, 금빛 눈, 짧고 넓은 둥근 턱·넓은 눈 간격. 콩알뚜기의 긴 회색 트윈테일·심보러의 가늘고 긴 얼굴·이올브의 뾰족한 턱과 구분.",
+      "form": "크림·주황 단일 얇은 장갑, 초록 귀 모양 장식과 전기빛. 관절과 양다리는 사람 구조.",
+      "framing": "전신과 두 발이 모두 프레임 안. 머리 장식 끝은 상단 테두리에 조금 걸림.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 네 손가락과 반대쪽 엄지로 다섯. 오른쪽 주먹은 접힌 네 손가락과 엄지. 양팔·양발 정상 연결.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 직접 확인. 장갑은 손끝 색이 크림색으로 분할되어 보임."
+      }
+    },
+    "heavy": {
+      "status": "accepted",
+      "identity": "주황 짧은 머리·넓은 눈 간격·둥근 턱과 금빛 눈 유지.",
+      "form": "가슴·허리·골반·어깨·허벅지·정강이에 두 겹 넓은 장갑과 굵은 테두리.",
+      "framing": "머리·양손·양발이 프레임 안.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 네 손가락과 엄지, 화면 오른쪽 접힌 주먹은 네 손가락과 엄지.",
+        "overlay_checked": false,
+        "note": "원본과 두 손 확대 확인. 팔·다리는 몸통에서 자연스럽게 연결."
+      }
+    },
+    "heavy_overdrive": {
+      "status": "accepted",
+      "identity": "정본의 얼굴·눈 본색과 머리·체형 유지.",
+      "opened": "원래 폼과 같은 카메라·서 있는 자세·인물 크기, 어깨·팔·허리·다리 판의 힌지와 내부 프레임이 드러남. 황백색 전기빛이 틈에서 나오며 새 무기·헬멧 없음.",
+      "framing": "두 발과 양손이 프레임 안.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손 다섯, 오른쪽 주먹 네 손가락과 엄지. 펼친 손 아래 주황 판은 손가락이 아닌 장갑 판.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 대조. 두 다리가 골반과 정상 연결되고 발이 바닥에 자연스럽게 닿음."
+      }
+    },
+    "light_overdrive": {
+      "status": "accepted",
+      "identity": "정본의 얼굴·머리·눈 본색 유지.",
+      "opened": "얇은 경장 판이 작은 힌지로 들리고 황백색 전기빛이 내부 프레임에서 드러남.",
+      "pair": "닫힌 폼과 카메라·포즈·구도·인물 크기 일치. 새 무기·헬멧 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지와 네 손가락, 오른쪽 주먹은 접힌 네 손가락과 엄지.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대 확인, 양발이 화면 안이고 몸통부터 다리·발 연결 자연스러움."
+      }
+    },
+    "mobility": {
+      "status": "accepted",
+      "identity": "짧은 주황 머리·금빛 눈·둥근 턱·넓은 눈 간격 유지.",
+      "form": "어깨·골반·종아리의 얇게 갈라진 판이 후방으로 펼쳐지고 소형 추진기, 관절 자유.",
+      "framing": "머리부터 양발까지 완전한 전신.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 네 손가락과 엄지, 오른쪽 네 손가락을 접은 주먹과 엄지.",
+        "overlay_checked": false,
+        "note": "원본과 확대에서 손가락·팔 연결 확인. 양발·두 다리 자연스러움."
+      }
+    },
+    "mobility_overdrive": {
+      "status": "accepted",
+      "identity": "짧은 주황 레이어드·금빛 눈·둥근 얼굴 유지.",
+      "opened": "고기동의 갈라진 판들이 더 넓게 힌지로 열려 황백색 전기빛과 내부 추진기 프레임을 보여줌.",
+      "pair": "닫힘과 카메라·포즈·인물 크기 일치. 새 헬멧·무기 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 네 손가락과 엄지로 다섯, 오른쪽 접힌 네 손가락과 엄지.",
+        "overlay_checked": false,
+        "note": "원본과 손 확대에서 확인. 두 다리와 양발이 화면 안에서 정상 연결."
+      }
+    },
+    "casual2": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧은 주황 머리·크림 한 줄·금빛 눈·둥근 턱 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "네온이 비치는 바 카운터에서 탄산 음료 잔을 들어 건배."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "코발트 실크 로브를 한쪽 어깨 아래로 내려 은색 깊은 목선의 슬립을 드러냄."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "턱을 조금 내리고 눈동자가 잔 쪽 아래를 향함."
+        },
+        "framing": {
+          "match": "partial",
+          "evidence": "가슴 위 선택보다 조금 넓어 상복부까지 보임 — 기록만."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "한 눈썹이 조금 올라가고 입꼬리를 한쪽으로 올린 미소."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": "어깨와 보이는 한 팔 정상 연결; 반대 팔은 프레임 밖",
+        "legs": "프레임 밖",
+        "hands": "잔을 든 손은 엄지가 잔 오른쪽을 받치고 검지·중지·약지가 앞을 감싸며 새끼손가락 일부는 손바닥 뒤에 가려짐. 여분 손 없음.",
+        "overlay_checked": false,
+        "note": "원본과 잔 손 확대에서 확인. 잔 손이 팔에서 자연스럽게 이어짐."
+      }
+    },
+    "casual3": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "짧은 주황 레이어드와 크림색 앞머리, 금빛 눈·둥근 턱 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "현관의 긴 거울에 몸을 돌려 옷매무새를 보고 있으며 벤치 위 공연 티켓·가방·신발이 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "아이보리 선드레스 옆구리 트임과 열린 짧은 가디건, 어깨·쇄골·옆구리 노출."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "몸통은 거울 쪽으로 돌고 머리카락·가디건이 움직임을 따른다."
+        },
+        "framing": {
+          "match": "partial",
+          "evidence": "허리 위 선택보다 넓어 치마 위쪽까지 보임 — 기록만."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "눈썹 안쪽이 조금 올라가고 닫힌 입술에 옅은 미소."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": "crop 밖",
+        "hands": "허리에 둔 손은 네 손가락이 펼쳐지고 엄지는 허리 뒤에 가려짐. 귀 옆 손은 엄지·검지로 머리카락을 살짝 잡고 나머지 세 손가락은 접혀 머리 뒤 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대 확인. 거울 가장자리에 보이는 얼굴·어깨는 동일 인물의 반사이며 추가 팔 없음."
+      }
+    },
+    "casual1": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "주황 짧은 레이어드·크림색 앞머리와 금빛 눈·둥근 턱 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "햇빛 드는 카페 공예 테이블에서 비즈와 실로 장신구를 만듦. 비즈 분류함·실패·램프·카운터가 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "청록색 바이어스 새틴 가운의 한쪽 어깨·등·목선. 천은 불투명하고 가슴·골반을 가림."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "등을 카메라 쪽으로 두고 가까운 어깨 위로 얼굴을 약 1/4 돌림. 목과 어깨 연결 자연스러움."
+        },
+        "framing": {
+          "match": "partial",
+          "evidence": "무릎 위 선택보다 넓어 접힌 다리와 발 일부까지 보임 — 기록만."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "수평으로 낮은 눈썹, 다문 입과 집중한 눈매."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 손은 엄지·검지로 비즈를 잡고 나머지 세 손가락은 손바닥 쪽에 접힘. 오른쪽 손은 엄지·검지가 실을 잡고 세 손가락은 뒤로 접혀 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본과 양손·발 확대 확인. 발 하나는 다섯 발가락, 다른 발은 반대 무릎과 가운 아래 가림. 양다리는 교차해 연결."
+      }
+    }
+  },
+  "face_reason": "작은 체적과 둥근 털 윤곽을 짧고 넓은 성인 얼굴·부드러운 턱·둥근 코끝·넓은 눈 간격으로 해석.",
+  "compared_characters": [
+    "콩알뚜기",
+    "심보러",
+    "이올브"
+  ],
+  "canonical": "light",
+  "diversity_comparison": {
+    "compared_actual_characters": [
+      "콩알뚜기",
+      "심보러",
+      "이올브",
+      "엑스레그"
+    ],
+    "viewed": "최근 3명 일상 9장과 이번 배치 엑스레그 3장 및 빠모 3장 실물 시트를 대조.",
+    "evidence": "카페의 등 방향 교차 앉기·비즈 공예·청록 가운, 네온 바의 근접 건배·은색 슬립과 푸른 로브, 현관 거울 앞 허리에 손·아이보리 선드레스와 니트 가디건으로 구분. 엑스레그의 잔디 동료 돌봄·훈련장 콘 정리·우주행사 손 인사와도 활동·옷·구도가 다르다.",
+    "casual_look": "통과: 점수 245 미만 중복 없음. 최소 252."
+  },
+  "replanning": {
+    "slot": "casual1",
+    "reason": "Original spa output was moderation_blocked (sexual); no output file returned.",
+    "changes": "Replaced the spa/swimwear concept with a nonsexual cafe bead-crafting scene in an opaque 1920s satin gown. Finished casual2 and casual3 prompt/UI remain the originally submitted bytes.",
+    "reservation": "f6354128ef8db7e21fcabb0ead8bd3baa8304368"
+  }
+}

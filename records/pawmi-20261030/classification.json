@@ -1,0 +1,160 @@
+{
+  "card": "빠모",
+  "style": "glossy_promo",
+  "basis": "tools/prompt-pack.cjs; exact generated prompt and UI snapshots",
+  "images": {
+    "light": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/light.png",
+      "original_sha256": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66",
+      "output": "빠모_light_glossy_promo_f.webp",
+      "output_sha256": "a9dbd7c301ff030ccc921412eb8fe1e15de859da77b8a6461f9ee0206e4f760b",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {},
+      "prompt_sha256": "2b5c1e682246785c45ba0d1d50b3592cf49866bda4dd2fdb64d81de6e3c78250"
+    },
+    "heavy": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/heavy.png",
+      "original_sha256": "1056e61b751c44a2c7cf60f75c5714b8bdd75b7e6265cffac2ff66addafd0e06",
+      "output": "빠모_heavy_glossy_promo_f.webp",
+      "output_sha256": "d00b7a075c3ec291760ea2f856fa54656f6cda070a6cda3a00a3c97205ddbf8d",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "8a8e07f776eaa88399ef382048889513d598ed0216b871d1428a1c8a09d17692"
+    },
+    "heavy_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/heavy_overdrive.png",
+      "original_sha256": "428e70cd0248aca3088cb4385f4c760b7656d9956fc674f58315363fad1be1f2",
+      "output": "빠모_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "48842f42aebc533ce4f7000d5442683904257faf74ba135963cc044b83a0b8da",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "heavy": "1056e61b751c44a2c7cf60f75c5714b8bdd75b7e6265cffac2ff66addafd0e06",
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "f775371305f6cf2a5f7e2a377aa4f7b6f4d59d1960db3d561b8739ddbedc5832"
+    },
+    "light_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/light_overdrive.png",
+      "original_sha256": "3ea1c19412f31d361b787e371b88d0bacaf1e9a291ee8b95ab5bcd9b6d5a5e4e",
+      "output": "빠모_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "a2f5e27a64528d81d6369609ea7a44caef4dcf2309390d2803c51db202114557",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "1b0d4602a1f9c69eaf01fae22d470487c5c0b98db6428617fa87c22f72f9fc59"
+    },
+    "mobility": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/mobility.png",
+      "original_sha256": "64f90394c946478f67ae0c049c2e926e0ceca52e9b6139881dc89dad9a3b9076",
+      "output": "빠모_mobility_glossy_promo_f.webp",
+      "output_sha256": "a4949b56284fb688d916f3cdecb2dbf8a52b4682177c23640f0232b251396cbb",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "e2715f3d11324dc90e37e483ec3563b86d57e5c339f75a2c01c16d21beca5db3"
+    },
+    "mobility_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/mobility_overdrive.png",
+      "original_sha256": "6a526c43236b51caa882dc443a1652d68b0ff1d3b54b0192d6f283a490b26704",
+      "output": "빠모_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "a974a674d27145b1669ad0554229890043cab7d07724cfc3b12e595b448ac83c",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "mobility": "64f90394c946478f67ae0c049c2e926e0ceca52e9b6139881dc89dad9a3b9076",
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "a474be72a2cd18953b3359e9347b7220f04da8a2f425cb938cdc8fdab259840a"
+    },
+    "casual2": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/casual2.png",
+      "original_sha256": "3171f910a06b1a39a580d5d6d8dd19a5f9a0fd0b1785275291f330e0b2e5c802",
+      "output": "빠모_glossy_promo_f_casual2.webp",
+      "output_sha256": "1ba250372efc6b7a91bb899f9982e1ce1929721c3d9ac41e6eb8662e5ac990bc",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "32917231a595c0733bc4748ff7e0604d34160caf8ad6590b521cac29b5ff5dbc"
+    },
+    "casual3": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/casual3.png",
+      "original_sha256": "904b7a19b72490b50ed6d04e1d6966f606e28d59bb9e7bcfc1a8e5e72564a3cf",
+      "output": "빠모_glossy_promo_f_casual3.webp",
+      "output_sha256": "5edf4a4719cd4b025ea1a1e4c12fb6b8b7c4f19b3a8484609072c8b70082a005",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "b602c1c9465f42b78008eb003583c2ff950740cf8e0fded0ea5a95392dade88e"
+    },
+    "casual1": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/pawmi/casual1.png",
+      "original_sha256": "04a139707ac5ced1567fab40e3c69e8c1851f89564d4a140242d98e452bf9cdc",
+      "output": "빠모_glossy_promo_f_casual1.webp",
+      "output_sha256": "e99256dd7c924e3fa88726cc5cd3d40e0a4b85cf9be41e301918ac41f5d72a2e",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "6fdfcf1a79f4ccf9bd42e4a9ca3a99ee320f3c7792360d4b35748cf748266e66"
+      },
+      "prompt_sha256": "a0dac2f38d40cc61593a44c201959d4f637a038b95e091b8bc32c28ff347aeff"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "casual1": [
+    {
+      "attempt": 1,
+      "status": "call rejected without returned result",
+      "error_detail": "Promise rejected in functions cell 46; exception detail was not retained by orchestrator. No returned object or matching local PNG exists.",
+      "output_files": []
+    },
+    {
+      "attempt": 2,
+      "status": "moderation_blocked",
+      "category": "sexual",
+      "request_id": "39d4b319-4b5f-49f7-b63a-d865ccbb964e",
+      "output_files": []
+    },
+    {
+      "attempt": 3,
+      "status": "success; accepted after image review",
+      "substantive_changes": "Spa swimwear scene replaced with a café bead-crafting activity in an opaque 1920s satin gown; a new tree path, outfit, pose/orientation and setting are used. Finished casual2/3 preserved.",
+      "reservation_commit": "f6354128ef8db7e21fcabb0ead8bd3baa8304368",
+      "output_sha256": "04a139707ac5ced1567fab40e3c69e8c1851f89564d4a140242d98e452bf9cdc"
+    }
+  ],
+  "casual3": [
+    {
+      "attempt": 1,
+      "status": "call rejected without returned result",
+      "error_detail": "Promise rejected in functions cell 46; exception detail was not retained by orchestrator. No returned object or matching local PNG exists.",
+      "output_files": []
+    },
+    {
+      "attempt": 2,
+      "status": "success; accepted after image review",
+      "output_sha256": "904b7a19b72490b50ed6d04e1d6966f606e28d59bb9e7bcfc1a8e5e72564a3cf"
+    }
+  ]
+}
