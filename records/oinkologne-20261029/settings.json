@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "card": "퍼퓨돈",
+ "no": 916,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/c95d852f7a62/PLAN-v3.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A spiral hair elastic rests between her fingertips; early sunlight warms the oval mirror and travel satchel.",
+   "outfit": "A loose ivory off-shoulder sleep shirt with an asymmetric one-shoulder opening and cropped hem, showing shoulder, collarbones and waist; soft matching sleep shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "거울 활동에 사용할 머리끈과 아침빛을 보충한다.",
+    "outfit": "잠옷 셔츠를 유지하고 예약의 한쪽 어깨와 짧은 밑단을 구체화한다."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_room / hair_tie / homewear / sleep_shirt",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_room",
+      "ko": "포켓몬 세계 내 방",
+      "en": "her own room in a small house of a Pokémon-world town, a shelf of travel gear by the window",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "hair_tie",
+      "ko": "거울 앞 머리 묶기",
+      "en": "tying her hair up in front of a mirror",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     }
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Tall windows frame the misty skyline at sunrise; the breakfast tray holds a croissant, strawberries and a small porcelain cup.",
+   "outfit": "An opaque raspberry satin bias-cut slip, its narrow straps meeting a delicate halter neckline, with a high thigh slit showing collarbones and one thigh.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호텔 조식의 음식과 창밖 새벽 풍경을 보충한다.",
+    "outfit": "슬립 종류를 유지하며 예약의 홀터와 슬릿으로 노출 부위를 정한다."
+   },
+   "guide": {
+    "path": "now / evening_hotel / breakfast_bed / lingerie / slip_lingerie",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_hotel",
+      "ko": "호텔 방",
+      "en": "a hotel suite with a city view and an open suitcase",
+      "group": "저녁 자리"
+     },
+     "act": {
+      "key": "breakfast_bed",
+      "ko": "침대에서 아침",
+      "en": "sitting up in bed with a breakfast tray across her lap",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "slip_lingerie",
+      "ko": "란제리 슬립",
+      "en": "a bias-cut satin slip with narrow straps and a straight hem"
+     }
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "high thigh slit",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "A ribbon of morning mist hangs beyond the running lanes; her towel and water bottle sit on the track edge.",
+   "outfit": "A teal one-shoulder sports bra with a wide off-shoulder opening, paired with fitted plum leggings; shoulder, collarbones and midriff are exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "트랙 몸풀기에 아침 안개와 운동 소품을 더한다.",
+    "outfit": "예약의 스포츠 브라·레깅스를 유지하고 한쪽 어깨와 넓은 목선을 구체화한다."
+   },
+   "guide": {
+    "path": "release / studio_art / late_coffee / everyday / hoodie_leggings",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables",
+      "group": "화실·공방"
+     },
+     "act": {
+      "key": "late_coffee",
+      "ko": "야근 커피",
+      "en": "late at night with her feet up on the chair, coffee held in both hands",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "hoodie_leggings",
+      "ko": "후디 + 레깅스",
+      "en": "a cropped hoodie and leggings"
+     }
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "mini length"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

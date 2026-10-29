@@ -1,0 +1,246 @@
+{
+  "light": {
+    "accepted": true,
+    "observations": "검은 얇은 장갑의 좁은 어깨·허리 윤곽, 긴 검은 포니테일과 분홍 안감 귀 장식. 두 부츠가 바닥에 닿고 양팔은 내려져 있다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "heavy": {
+    "accepted": true,
+    "observations": "어깨·복부·골반·정강이에 두꺼운 겹판이 추가되어 경장보다 폭이 넓다. 눈·앞머리·턱은 드러난다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "mobility": {
+    "accepted": true,
+    "observations": "어깨·엉덩이·종아리의 날렵한 분할판과 원형 추진기가 바깥으로 벌어진다. 경장의 얼굴·머리·몸 크기가 유지된다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "light_overdrive": {
+    "accepted": true,
+    "observations": "어깨와 허벅지·정강이 판의 틈이 열려 금백색 내부 프레임이 보인다. 경장과 얼굴 위치·발 위치·배경 다리가 일치한다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "heavy_overdrive": {
+    "accepted": true,
+    "observations": "겹판이 힌지로 들려 넓은 틈에 금백색 프레임이 보인다. 중장과 같은 장갑 부품·두 부츠·양손 위치이다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "mobility_overdrive": {
+    "accepted": true,
+    "observations": "어깨의 분할판·추진기 덮개가 더 열려 금백색 빛이 보인다. 고기동과 얼굴·팔·다리와 배경이 맞물린다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "양손은 내려진 편안한 장갑 손. 보이는 손가락은 해부학적으로 이어지고, 굽힌 손가락 일부는 서로 겹쳐 가려짐. 추가 손가락이나 떨어진 손 없음.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    }
+  },
+  "casual1": {
+    "accepted": true,
+    "observations": "거울 앞에서 머리끈으로 포니테일을 묶는다. 아이보리 잠옷의 어깨·쇄골이 보이고 시선은 오른쪽으로 빠지며 입술이 살짝 벌어진다. 선택보다 가슴 아래까지 넓게 담겼으나 기록 대상이다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "화면 왼쪽 손은 머리끈을 잡는 엄지·검지가 보이며 나머지는 머리카락에 가려짐. 반대 손은 머리 뒤에 가려짐; 양팔은 양어깨에서 이어진다.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    },
+    "chosen": {
+      "kept": true,
+      "cut": 1,
+      "era": "in_pokemon",
+      "place": "pw_room",
+      "act": "hair_tie",
+      "ofam": "homewear",
+      "item": "sleep_shirt",
+      "expr": "candid",
+      "pose": "",
+      "orient": "low_angle",
+      "frame": "face_close",
+      "lens": "telephoto135",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "garments": [
+        "shirt"
+      ],
+      "expose": [
+        "one-shoulder cut",
+        "cropped hem"
+      ],
+      "lead": "detail"
+    },
+    "scene_outfit_camera_expression": {
+      "match": "일부 크롭·방향 차이 기록",
+      "evidence": "거울 앞에서 머리끈으로 포니테일을 묶는다. 아이보리 잠옷의 어깨·쇄골이 보이고 시선은 오른쪽으로 빠지며 입술이 살짝 벌어진다. 선택보다 가슴 아래까지 넓게 담겼으나 기록 대상이다."
+    }
+  },
+  "casual2": {
+    "accepted": true,
+    "observations": "도시 일출이 보이는 호텔 침대에서 무릎 위 조식 트레이와 찻잔을 든다. 라즈베리 홀터 슬립과 긴 슬릿, 붉어진 볼·비껴가는 눈, 교차한 두 다리가 보인다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "화면 왼쪽 손은 접시 위에 엄지와 네 손가락이 자연스럽게 놓이고, 오른쪽 손은 컵 손잡이를 잡아 일부 손가락이 가려짐. 발가락 다섯씩, 다리 두 개가 교차한다.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    },
+    "chosen": {
+      "kept": true,
+      "cut": 2,
+      "era": "now",
+      "place": "evening_hotel",
+      "act": "breakfast_bed",
+      "ofam": "lingerie",
+      "item": "slip_lingerie",
+      "expr": "flustered",
+      "pose": "",
+      "orient": "front",
+      "frame": "full_body",
+      "lens": "natural50",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "garments": [
+        "slip"
+      ],
+      "expose": [
+        "high thigh slit",
+        "halter neck"
+      ],
+      "lead": "place"
+    },
+    "scene_outfit_camera_expression": {
+      "match": "일부 크롭·방향 차이 기록",
+      "evidence": "도시 일출이 보이는 호텔 침대에서 무릎 위 조식 트레이와 찻잔을 든다. 라즈베리 홀터 슬립과 긴 슬릿, 붉어진 볼·비껴가는 눈, 교차한 두 다리가 보인다."
+    }
+  },
+  "casual3": {
+    "accepted": true,
+    "observations": "트랙·관중석 앞에서 런지로 무릎을 굽히고 두 손을 앞 무릎에 놓는다. 청록 한쪽 어깨 스포츠 브라와 자두색 레깅스, 땀·처진 눈꺼풀·벌어진 입이 보인다. 선택보다 넓은 크롭과 머리 장식 잔존은 기록 대상이다.",
+    "identity": {
+      "match": true,
+      "evidence": "갈색 처진 눈매, 긴 검은 포니테일과 커튼뱅·동일한 턱선과 체형이 이어진다."
+    },
+    "anatomy": {
+      "tool": "unavailable: mediapipe is not installed",
+      "arms": 2,
+      "legs": 2,
+      "hands": "두 손이 무릎 위에 겹쳐 놓임. 앞 손 네 손가락과 엄지 방향이 자연스럽고 뒤 손 일부는 앞 손에 가려짐. 양쪽 손목은 각각 아래팔로 이어진다.",
+      "overlay_checked": false,
+      "note": "원본 크기와 손 확대에서 어깨→팔꿈치→손목을 각각 확인. 일상 크롭 밖 팔다리는 판단 범위에서 제외."
+    },
+    "chosen": {
+      "cut": 3,
+      "era": "now",
+      "place": "sports_track",
+      "act": "warmup",
+      "ofam": "active",
+      "item": "sports_bra_leggings",
+      "garments": [
+        "crop_top",
+        "leggings"
+      ],
+      "orient": "turning_midmotion",
+      "frame": "waist_up",
+      "pose": "mid_action",
+      "expr": "exhausted",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "off-shoulder neckline"
+      ],
+      "lead": "place"
+    },
+    "scene_outfit_camera_expression": {
+      "match": "일부 크롭·방향 차이 기록",
+      "evidence": "트랙·관중석 앞에서 런지로 무릎을 굽히고 두 손을 앞 무릎에 놓는다. 청록 한쪽 어깨 스포츠 브라와 자두색 레깅스, 땀·처진 눈꺼풀·벌어진 입이 보인다. 선택보다 넓은 크롭과 머리 장식 잔존은 기록 대상이다."
+    }
+  }
+}
