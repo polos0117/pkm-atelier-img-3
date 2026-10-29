@@ -1,0 +1,141 @@
+{
+ "storage": {
+  "last": "곤율거니",
+  "cards": {
+   "곤율거니": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "confident",
+      "pose": "mid_action",
+      "orient": "over_shoulder",
+      "scene": "Moonlight catches the ripples and rising steam between the smooth mountain stones.",
+      "outfit": "A fully lined navy sporty one-piece swimsuit with a high neckline, racerback, open back panel and high-cut legs.",
+      "frame": "chest_up",
+      "lens": "telephoto135",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "act": true,
+       "ofam": true,
+       "frame": true,
+       "item": true,
+       "lens": true,
+       "pose": true,
+       "orient": true,
+       "expr": true,
+       "aspect": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true
+      },
+      "era": "in_pokemon",
+      "place": "pw_bath",
+      "act": "swim",
+      "ofam": "swimwear",
+      "item": "sport_onepiece",
+      "preset": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Scrafty (곤율거니) personified, dark / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Era, place, activity, outfit, pose and camera follow SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; the Framing in SCENE sets how much of her shows.\n\nCROP: a chest-up shot — the bottom edge crosses just below her bust; waist, hips and legs are out of frame. This crop wins over every other line — pose, outfit, props and activity details apply only to the part that shows, and the outfit reads through its visible neckline, straps, fabric and colour. The lens sets perspective only, never how much of her shows. Do not widen the shot to fit them in. An arm or leg that crosses the edge runs naturally on past it — never cut off, shortened or fading out inside the image.\n\nWORLD: this scene happens inside the Pokémon world, as if she simply lives there — its towns, routes, buildings, props, light and weather show the world. No Pokémon unless SCENE names her companion, no known trainers or characters, no logos, no text.\n\nSCENE (chosen):\nPlace: an outdoor hot spring of a Pokémon-world mountain town, steam over smooth rocks\nActivity: swimming breaststroke, her head and shoulders above the water\nOutfit: A fully lined navy sporty one-piece swimsuit with a high neckline, racerback, open back panel and high-cut legs.\nPose: Capture the selected activity already in progress with a readable natural gesture.\nOrientation: body turned away, head looking back over one shoulder — a quarter turn at most, face in three-quarter or profile with the chin above that shoulder\nFraming: Chest-up framing focused on the face, shoulders and expression with a small amount of setting.\nLens / perspective: 135mm-equivalent telephoto perspective from farther away, with compressed background depth and unchanged anatomy.\nExpression: level brow, direct unhurried gaze, chin slightly raised, mouth closed and composed\nScene note: Moonlight catches the ripples and rising steam between the smooth mountain stones.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more shoulder, neckline and upper-back exposure inside the crop; cover the chest\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: balanced — her species shows as one accessory and one object in the scene; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; the part of that outfit inside the crop must read at first glance in its own colours. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nLOOK-BACK: her back is toward the camera, so her head turns at most a quarter turn over one shoulder — the face shows in profile or three-quarter view, never full-front on a back-facing torso. Her chin sits just above the near shoulder, the far eye and cheek may be partly hidden, the side of the neck shows the turn and the shoulder line continues behind the head; her eyes, not her whole face, swing toward the camera.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands.\n\nHAND TASK: her hands act naturally for the pose and scene; any idle hand rests in a relaxed, anatomically plausible position. Natural occlusion is allowed; do not force every hand or finger into view.",
+ "plan": {
+  "cut": 1,
+  "era": "in_pokemon",
+  "place": "pw_bath",
+  "act": "swim",
+  "ofam": "swimwear",
+  "item": "sport_onepiece",
+  "garments": [
+   "swimsuit"
+  ],
+  "orient": "over_shoulder",
+  "frame": "chest_up",
+  "pose": "mid_action",
+  "expr": "confident",
+  "lens": "telephoto135",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly active",
+   "source_influence": "balanced",
+   "separates_preference": "balanced"
+  },
+  "expose": [
+   "high-cut leg",
+   "open back"
+  ],
+  "lead": "light"
+ },
+ "manual_inputs": {
+  "scene": "Moonlight catches the ripples and rising steam between the smooth mountain stones.",
+  "outfit": "A fully lined navy sporty one-piece swimsuit with a high neckline, racerback, open back panel and high-cut legs."
+ },
+ "manual_why": {
+  "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+  "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+ }
+}

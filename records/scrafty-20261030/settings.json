@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "곤율거니",
+ "no": 560,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/4b3dc4424e8f/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Moonlight catches the ripples and rising steam between the smooth mountain stones.",
+   "outfit": "A fully lined navy sporty one-piece swimsuit with a high neckline, racerback, open back panel and high-cut legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_bath / swim / swimwear / sport_onepiece",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_bath",
+      "ko": "포켓몬 세계 온천",
+      "en": "an outdoor hot spring of a Pokémon-world mountain town, steam over smooth rocks",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "swim",
+      "ko": "수영하기",
+      "en": "swimming breaststroke, her head and shoulders above the water",
+      "pose_family": "움직임"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "sport_onepiece",
+      "ko": "스포티 원피스",
+      "en": "a sporty one-piece swimsuit with a racerback and a high neckline"
+     }
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "An ivory veil trails along polished stone steps beside a brass handrail.",
+   "outfit": "A simple ivory satin slip wedding dress with a long veil, a plunging neckline and a high thigh slit, with secure opaque coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "fantasy / fx_castle / opera_stairs / bridal / slip_wedding",
+    "tree": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_castle",
+      "ko": "성 계단",
+      "en": "the grand staircase of an old castle",
+      "group": "환상 무대"
+     },
+     "act": {
+      "key": "opera_stairs",
+      "ko": "계단 오르기",
+      "en": "climbing a grand staircase, lifting her hem",
+      "pose_family": "걷기"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     }
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Cedar posts and a stone footbath border the tiled village walkway.",
+   "outfit": "A deep teal formal Indian silk sari with waist pleats and its pallu over one shoulder, paired with an asymmetric off-shoulder fitted choli exposing the other shoulder and midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "now / spa_footbath / stroll / traditional / sari_formal",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "spa_footbath",
+      "ko": "온천 마을 족욕",
+      "en": "a hot-spring town footbath under a wooden roof",
+      "group": "목욕·스파"
+     },
+     "act": {
+      "key": "stroll",
+      "ko": "천천히 거닐기",
+      "en": "strolling through the place at an easy pace",
+      "pose_family": "걷기"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "sari_formal",
+      "ko": "사리",
+      "en": "a formal Indian sari — a long silk drape pleated at the waist with the pallu over one shoulder and a fitted choli"
+     }
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "off-shoulder neckline"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

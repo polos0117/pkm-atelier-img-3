@@ -1,0 +1,142 @@
+{
+ "storage": {
+  "last": "곤율거니",
+  "cards": {
+   "곤율거니": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "sensual",
+      "pose": "",
+      "orient": "turning_midmotion",
+      "scene": "An ivory veil trails along polished stone steps beside a brass handrail.",
+      "outfit": "A simple ivory satin slip wedding dress with a long veil, a plunging neckline and a high thigh slit, with secure opaque coverage.",
+      "frame": "full_body",
+      "lens": "documentary35",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "balanced"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "act": true,
+       "ofam": true,
+       "frame": true,
+       "item": true,
+       "lens": true,
+       "pose": true,
+       "orient": true,
+       "expr": true,
+       "aspect": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true
+      },
+      "era": "fantasy",
+      "place": "fx_castle",
+      "act": "opera_stairs",
+      "ofam": "bridal",
+      "item": "slip_wedding",
+      "preset": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Scrafty (곤율거니) personified, dark / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Era, place, activity, outfit, pose and camera follow SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; the Framing in SCENE sets how much of her shows.\n\nSETTING: a stylised stage, editorial or fantasy set, not bound to a real year — still one real adult woman in a believable space, no creatures.\n\nSCENE (chosen):\nPlace: the grand staircase of an old castle\nActivity: climbing a grand staircase, lifting her hem\nOutfit: A simple ivory satin slip wedding dress with a long veil, a plunging neckline and a high thigh slit, with secure opaque coverage.\nOrientation: mid-turn body motion, with her clothing and hair following the turn\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 35mm-equivalent environmental perspective balancing the woman and the setting with moderate depth.\nExpression: heavy-lidded eyes, lips slightly parted and relaxed, brow smooth, chin a little lowered\nScene note: An ivory veil trails along polished stone steps beside a brass handrail.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly active — an active mid-action moment compatible with the selected pose\nsource_influence: subtle — her species shows only as one small accessory; the outfit keeps its own colours and patterns\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands.\n\nHAND TASK: her hands act naturally for the pose and scene; any idle hand rests in a relaxed, anatomically plausible position. Natural occlusion is allowed; do not force every hand or finger into view.",
+ "plan": {
+  "cut": 2,
+  "era": "fantasy",
+  "place": "fx_castle",
+  "act": "opera_stairs",
+  "ofam": "bridal",
+  "item": "slip_wedding",
+  "garments": [
+   "dress",
+   "slip"
+  ],
+  "orient": "turning_midmotion",
+  "frame": "full_body",
+  "pose": "",
+  "expr": "sensual",
+  "lens": "documentary35",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly active",
+   "source_influence": "subtle",
+   "separates_preference": "balanced"
+  },
+  "expose": [
+   "plunging neckline",
+   "high thigh slit"
+  ],
+  "lead": "detail"
+ },
+ "manual_inputs": {
+  "scene": "An ivory veil trails along polished stone steps beside a brass handrail.",
+  "outfit": "A simple ivory satin slip wedding dress with a long veil, a plunging neckline and a high thigh slit, with secure opaque coverage."
+ },
+ "manual_why": {
+  "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+  "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+ }
+}

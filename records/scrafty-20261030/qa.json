@@ -1,0 +1,158 @@
+{
+ "reviewer": "gpt",
+ "style": "glossy_promo",
+ "face_reason": "곤율거니의 긴 타원 윤곽·낮은 바깥 눈꼬리·사선 눈썹·두툼한 입술을 적용했다. 붉은 올림머리와 길어진 얼굴로 곤율랭과 계열을 잇고, 두루지벌레의 둥근 눈과 레돔벌레의 짧은 윤곽과 구분했다.",
+ "compared_characters": [
+  "곤율랭",
+  "두루지벌레",
+  "레돔벌레"
+ ],
+ "diversity_comparison": {
+  "recent": [
+   "두루지벌레",
+   "타랜툴라",
+   "퍼퓨돈"
+  ],
+  "viewed": "packs/recent-casual-qa.jpg, 실제 기존 이미지 9장 모음",
+  "observations": "온천 수영은 두루지벌레 호수 수영과 물 장면이 겹치지만, 야간 증기·등쪽 어깨 회전·원피스 수영복으로 환경·옷·구도가 다르다. 웨딩은 계단을 오르는 전신 동작, 사리는 족욕 마을을 걷는 허벅지 구도로 기존 좌석·캠핑·숙소 장면과 구분된다.",
+  "casual_look": "pass; minimum distances 261,253,284"
+ },
+ "slots": {
+  "light": {
+   "image_sha256": "fd0a0000659671583870e540c5611456c468a2390593074ac7f82be190a785c0",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "heavy": {
+   "image_sha256": "5a5c5488760c9761bd75bd6ea1ef1ca32f560e3cc1bbf806d16d4e868349810d",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "mobility": {
+   "image_sha256": "c2d16d409cf94b29e85a74e1a7ba126cf3c4962c735f93a2f187c1147e0029cd",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "light_overdrive": {
+   "image_sha256": "4aba670957351c83008acbe998f752d248a710b5798f1510a90149168365ba46",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "heavy_overdrive": {
+   "image_sha256": "7ebf44fb0d3fcb73f38ccc3d494b9130f7d04f3a43098685100fd0798bfea6e5",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "mobility_overdrive": {
+   "image_sha256": "f87d58a3a6edd075141a5ba0ae823eb289ad37049dc5f4408a8e292a4743e061",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음.",
+    "눈에 보랏빛 글린트가 강하게 반사됨; 재생성 없이 기록."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑; 자연스럽게 말린 손가락과 엄지, 서로 겹쳐 가려지는 마디 있음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "casual1": {
+   "image_sha256": "e436922d48578b46ec49beca3b6c2e91c40d2bd7256677a2208568a3f8488c1f",
+   "accepted": true,
+   "observations": [
+    "온천 장소·수영복은 확인되나 평영 동작보다 물속에서 어깨를 돌린 순간으로 보임."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손과 다리는 수면 아래 가려짐; 보이는 양 상완은 어깨와 자연스럽게 연결.",
+    "overlay_checked": false,
+    "note": "온천 장소·수영복은 확인되나 평영 동작보다 물속에서 어깨를 돌린 순간으로 보임."
+   }
+  },
+  "casual2": {
+   "image_sha256": "ea25891c7c7bab5c4e6fdde44feced3098ab70dbf6cc93ae8d6da052a29eb141",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 각각 드레스 자락을 쥠. 다섯 손가락 구조, 일부 손끝은 천에 가려짐.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘 연결, 관절 방향 자연스러움, 떨어진 손 없음."
+   }
+  },
+  "casual3": {
+   "image_sha256": "51a272e4979026c4459de1d75142c7cbd78c5d41e5f460d8260ddc5167024f07",
+   "accepted": true,
+   "observations": [
+    "하체 하단은 계획된 프레임 밖, 보이는 팔다리 자연스럽게 연결."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 손은 자연스럽게 늘어뜨리고 오른쪽 손은 사리 자락을 쥠. 각 손 다섯 손가락 구조, 쥔 손의 일부는 천에 가려짐.",
+    "overlay_checked": false,
+    "note": "하체 하단은 계획된 프레임 밖, 보이는 팔다리 자연스럽게 연결."
+   }
+  }
+ }
+}
