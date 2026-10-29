@@ -1,0 +1,160 @@
+{
+  "card": "엑스레그",
+  "style": "glossy_promo",
+  "basis": "tools/prompt-pack.cjs; exact generated prompt and UI snapshots",
+  "images": {
+    "light": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/light.png",
+      "original_sha256": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd",
+      "output": "엑스레그_light_glossy_promo_f.webp",
+      "output_sha256": "bd61f5201500124f12490ef8b58ddd20c50298a8bb13d220ed0c8e92c67f5970",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {},
+      "prompt_sha256": "5dfb567be755a771606130e0cf0b4cdf7a16e7f7dcef2d12711df01f605088b9"
+    },
+    "heavy": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/heavy.png",
+      "original_sha256": "43278dd638fd7321905cb13fbe07632696f91c8da7e65728585ddf39062203e3",
+      "output": "엑스레그_heavy_glossy_promo_f.webp",
+      "output_sha256": "21175c0fefd8f75e9f54b55e3a3bbaabb210b379e5c468fe20f0432381ec98b7",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "832451161eff51a7d6218c30f9b2df4d492213112adf3f0f1b7ec0c7a574a3fb"
+    },
+    "mobility": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/mobility.png",
+      "original_sha256": "104d16b516d2ccca55ba72f68c477b3df19425807af5318b805f6d96d2a9c6b5",
+      "output": "엑스레그_mobility_glossy_promo_f.webp",
+      "output_sha256": "e1589c1fc36eae83b8db11ef3f744f7a7c2e32a484bb1098348e1a3e558ebcb5",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "3b7728d1cf41b1e6ae4f7a576e5861d5435820a9d54d4c74a530f99901c7d23f"
+    },
+    "light_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/light_overdrive.png",
+      "original_sha256": "1d2f41d8874cd509e87933a93983f9f856c11ee96fec69ab730fe1d6c14e48b2",
+      "output": "엑스레그_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "a0c5e0dfe7c92b35c07f20684c3ad36328b6c825c18b28f94352d9c3192067f1",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "282e8b9c43e95697c625ea0a9150da443dd285c6c9c0b26e868b58caacd8c77d"
+    },
+    "heavy_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/heavy_overdrive.png",
+      "original_sha256": "20118c27f00018e933d49e143eaf96328871cc6f4f23b2220b8ce7f8296aec96",
+      "output": "엑스레그_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "ea1428906ac52df48a017af2dc6e3b7b2ac7ffbd5c10a13c0b015b8dfd8ce4af",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "heavy": "43278dd638fd7321905cb13fbe07632696f91c8da7e65728585ddf39062203e3",
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "ce6eb6971c875b4c6374f018508d67739ab98a9f52f8d23cf8aa3b024d062d48"
+    },
+    "casual1": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/casual1.png",
+      "original_sha256": "d612d976322f536b7c9c03de3238904d40031007e10970f0290de4d04f991328",
+      "output": "엑스레그_glossy_promo_f_casual1.webp",
+      "output_sha256": "f4e3783b6109a622f79896cd7d5b5bd1362531368267bfe5c33580e08fe3d072",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "7889cd1662f852aad6943d2cb94821189b309b84f36bff6cbd599e7d9bd9adbf"
+    },
+    "mobility_overdrive": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/mobility_overdrive.png",
+      "original_sha256": "c6909e5228be3701603d4f7cf83b44ee54483af6d99ec6f369dcf34c92ed45cd",
+      "output": "엑스레그_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "ebea926a0b938ba99c978dcbb8b723b5e98ea15659836d0e2a51f6904b25314c",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "mobility": "104d16b516d2ccca55ba72f68c477b3df19425807af5318b805f6d96d2a9c6b5",
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "7185f8097e6faeaa41c89ae6bee0883933bfb7c00b96e6d647b5f824cfe15ac4"
+    },
+    "casual2": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/casual2.png",
+      "original_sha256": "9a44c34511c4e037c0601b9a849b82d8451642059a9c975e4c9bf4f2a3194626",
+      "output": "엑스레그_glossy_promo_f_casual2.webp",
+      "output_sha256": "c33d67f2986a625017a36bed56f69e5cf6732719d464063a089558aef0d31504",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "e4c76afd4f27f51490b678255023ddcadd844d5c4e923662eaf0bdf1504c42d0"
+    },
+    "casual3": {
+      "original": "/workspace/scratch/b223a0e63c99/originals/lokix/casual3.png",
+      "original_sha256": "9e30a230050edd585b694ffc1103cacbad97f9a07ec09c66777da86d8a4d6118",
+      "output": "엑스레그_glossy_promo_f_casual3.webp",
+      "output_sha256": "0cad0d49c4e561a713d17ea1bebf562b004d21be1c70e3dc6a1231b748526b33",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "fd87e1b9179b9bb298b1388d774358d822698efa6415ddad2a005dc0816d2edd"
+      },
+      "prompt_sha256": "eb059ed087479523cf25d35052e559bfa28061777b63326640a07dd6b8ff975e"
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "엑스레그",
+ "no": 920,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/b223a0e63c99/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A broad tree casts dappled afternoon shade across the picnic blanket; her companion is one small Nymble beside the feeding bowl.",
+   "outfit": "A loose off-shoulder lavender sleep shirt with a short hem and small side cutouts reveals a narrow band of midriff while keeping her torso securely covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "그늘의 시간대와 함께 그리는 동료를 콩알뚜기 한 마리로 명시.",
+    "outfit": "잠옷 셔츠 형태를 유지하며 계획의 배·옆구리 드러내기를 짧은 밑단과 옆 트임으로 구현."
+   },
+   "guide": {
+    "path": "in_pokemon / partner_lawn / care_feeding / homewear / sleep_shirt",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_lawn",
+      "ko": "그늘진 잔디밭",
+      "en": "a shaded lawn with a picnic blanket under a broad tree",
+      "group": "동료 포켓몬과 함께"
+     },
+     "act": {
+      "key": "care_feeding",
+      "ko": "간식 건네기",
+      "en": "offering a small berry treat to her Pokémon companion beside a feeding bowl",
+      "pose_family": "무릎·쪼그림"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     }
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "bare midriff",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A shallow basket holds chalk sticks and folded training cones in the late-afternoon light.",
+   "outfit": "Khaki work overalls with cropped short legs and a low open back over a fitted backless burgundy tank, worn with rubber boots.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "정리할 물건을 초크·훈련 콘으로 구체화.",
+    "outfit": "작업복·탱크·고무장화를 유지하며 짧은 밑단과 열린 등 구조를 반영."
+   },
+   "guide": {
+    "path": "in_pokemon / work_practice / tidy_tools / work / keeper_overalls",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_practice",
+      "ko": "배틀 연습장",
+      "en": "an outdoor battle practice field marked with cones and chalk lines",
+      "group": "포켓몬 직업 현장"
+     },
+     "act": {
+      "key": "tidy_tools",
+      "ko": "도구 정리",
+      "en": "tidying her tools and supplies at the end of a shift",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "keeper_overalls",
+      "ko": "사육 작업복",
+      "en": "work overalls over a fitted tank top and rubber boots"
+     }
+    },
+    "garments": [
+     "overalls",
+     "tank"
+    ],
+    "expose": [
+     "cropped hem",
+     "open back"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Welcoming arrivals during a space-flight costume convention reception, with a softly lit planet mural behind the photo zone.",
+   "outfit": "A white stylised uniform-inspired event costume: a strapless structured bodice with an off-shoulder lapel band and decorative epaulettes, paired with a navy skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "손님 맞이 활동의 무대를 우주 비행 테마 행사 입장으로 구체화.",
+    "outfit": "유니폼풍 라펠·견장을 유지하고 계획의 오프숄더·스트랩리스 구조를 결합."
+   },
+   "guide": {
+    "path": "now / stage_convention / event_greet / roleplay / uniform_inspired",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_convention",
+      "ko": "코스프레 행사",
+      "en": "a convention photo zone under ring lights",
+      "group": "무대·행사"
+     },
+     "act": {
+      "key": "event_greet",
+      "ko": "행사장에서 손님 맞기",
+      "en": "greeting guests at the venue with a bright smile",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     }
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
