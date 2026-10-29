@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "card": "심보러",
+ "no": 561,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/4b3dc4424e8f/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Raindrops on the taxi windows stretch the midnight traffic into bands of light.",
+   "outfit": "A strapless plum evening gown with a short opaque inner skirt visible through a sweeping high slit, beneath an open, short evening coat draped below the shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "release / night_taxi / heels_off / evening / opera_coat",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past",
+      "group": "밤 문화"
+     },
+     "act": {
+      "key": "heels_off",
+      "ko": "구두 벗고 쉬기",
+      "en": "sitting down after the night out, heels in one hand",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "opera_coat",
+      "ko": "가운 + 이브닝 코트",
+      "en": "a long gown under an evening coat"
+     }
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "strapless top",
+     "mini length"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A stoneware coffee mug warms her fingers while brushes and unfinished canvases surround the work chair.",
+   "outfit": "A loosely tied dove-grey short robe with a plunging neckline and small waist-side cutouts, its opaque wrap panels securely covering her chest and hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "now / studio_art / late_coffee / homewear / robe_morning",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables",
+      "group": "화실·공방"
+     },
+     "act": {
+      "key": "late_coffee",
+      "ko": "야근 커피",
+      "en": "late at night with her feet up on the chair, coffee held in both hands",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "robe_morning",
+      "ko": "아침 로브",
+      "en": "a loosely tied robe"
+     }
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Floor cushions and a loosely rolled sketch lie beside the low table.",
+   "outfit": "A fully opaque sage soft-cup bralette with wide straps, an open back and matching high-waisted bottoms, showing the midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택된 장소·주 활동을 유지하며 이 장면의 빛과 소품만 구체화한다.",
+    "outfit": "고른 옷 종류를 유지하며 계획된 두 노출 방식을 의복 구조로 구현한다."
+   },
+   "guide": {
+    "path": "now / home_living / floor_flop / lingerie / bralette_highwaist",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_living",
+      "ko": "거실",
+      "en": "her living room with a deep sofa, floor cushions and a low table",
+      "group": "집"
+     },
+     "act": {
+      "key": "floor_flop",
+      "ko": "바닥에 누워 웃기",
+      "en": "lying back on the floor after a long session, laughing at the ceiling",
+      "pose_family": "눕기·기대 눕기"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "bralette_highwaist",
+      "ko": "브라렛 + 하이웨이스트",
+      "en": "a soft-cup bralette with wide straps and matching high-waisted bottoms"
+     }
+    },
+    "garments": [
+     "crop_top"
+    ],
+    "expose": [
+     "bare midriff",
+     "open back"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

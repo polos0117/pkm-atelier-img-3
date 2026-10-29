@@ -1,0 +1,157 @@
+{
+ "reviewer": "gpt",
+ "style": "glossy_promo",
+ "face_reason": "심보러의 가시·각진 무늬와 날개형 체적을 각진 얼굴·가늘게 올라간 눈꼬리·가까운 눈 간격·가늘고 곧은 눈썹으로 옮겼다. 긴 흑발과 불규칙 앞머리를 유지하며, 곤율거니의 길고 낮은 눈매·두루지벌레의 둥근 눈·레돔벌레의 짧은 윤곽과 구분했다.",
+ "compared_characters": [
+  "곤율거니",
+  "두루지벌레",
+  "레돔벌레"
+ ],
+ "diversity_comparison": {
+  "recent": [
+   "두루지벌레",
+   "타랜툴라",
+   "퍼퓨돈"
+  ],
+  "also_compared": "곤율거니 이번 배치의 일상 3장",
+  "observations": "빗방울 맺힌 택시 안 얼굴 클로즈업, 붓과 캔버스 곁 의자에서 양손 커피, 거실 바닥에 누운 구도가 각각 구분된다. 최근 컷 중 커피잔을 드는 동작은 있으나 양손 컵·다리를 의자에 올린 측면 비중·화실·짧은 로브의 조합으로 구분된다. 이번 배치의 수영·계단·사리 걷기와도 활동과 의상 실루엣이 겹치지 않는다.",
+  "casual_look": "pass; minimum distances 281,274,335"
+ },
+ "slots": {
+  "light": {
+   "image_sha256": "389d9c3e5dc95b75968ecd16d88e62ee93e215feee67697c0579a6cdd89842ab",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "heavy": {
+   "image_sha256": "1cc4b46628f56d6fe181a9ffa1f23bb399583d568d424ed477324b9efd72881e",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "mobility": {
+   "image_sha256": "f346041bba871f27f26002e6393537f87989448fa891b313c4fa060578018325",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "light_overdrive": {
+   "image_sha256": "c0e1eba5d1ecc165e671da8e0cb33d1e099a8a7db9c9a93277299b89ff5a1a45",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "heavy_overdrive": {
+   "image_sha256": "a255b7fa2e4ee600f830b40455d721790ae54ce4e78b702e12fd4f82f7a23289",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "mobility_overdrive": {
+   "image_sha256": "79d2b64dd64378b63d1d8b6eac6d32e5ee1779999344d9dec9c1f3c207187027",
+   "accepted": true,
+   "observations": [
+    "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 장갑, 각 다섯 손가락 구조; 손끝을 느슨하게 굽히며 일부 마디가 겹침.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘이 자연스럽게 이어지고 관절 꺾임과 별도 손 없음."
+   }
+  },
+  "casual1": {
+   "image_sha256": "ef8db970e7f890a9b62fe0ea26d7e4d6d6f9b1a569f3464f8bc554109d1a11d1",
+   "accepted": true,
+   "observations": [
+    "택시 창문·비·도시 불빛·드레스 확인, 얼굴 클로즈업이라 구두 벗기 동작은 프레임 밖."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "얼굴 클로즈업 선택으로 양손·하체는 프레임 밖.",
+    "overlay_checked": false,
+    "note": "택시 창문·비·도시 불빛·드레스 확인, 얼굴 클로즈업이라 구두 벗기 동작은 프레임 밖."
+   }
+  },
+  "casual2": {
+   "image_sha256": "fc1178dda65f21c1d28ef711b510f3b7c9006e9914fca7b9cd2e3988a748d869",
+   "accepted": true,
+   "observations": [
+    "양팔이 어깨에서 손목을 거쳐 컵으로 연결, 다리 둘이 의자 위로 접힘."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "두 손이 한 머그를 감쌈. 각 손가락 다섯 구조, 엄지 일부는 컵과 손잡이에 가려짐.",
+    "overlay_checked": false,
+    "note": "양팔이 어깨에서 손목을 거쳐 컵으로 연결, 다리 둘이 의자 위로 접힘."
+   }
+  },
+  "casual3": {
+   "image_sha256": "9ddb3c5af1ede2b70a32c4ca1347d4de844ff1edc34059f8e862dfe1604c9d00",
+   "accepted": true,
+   "observations": [
+    "팔 둘이 어깨에서 자연스럽게 연결, 한 팔은 머리 뒤, 다른 팔은 옆으로 굽힘. 하체 하단 프레임 밖."
+   ],
+   "anatomy": {
+    "tool": "unavailable: mediapipe 미설치; 검사 도구 exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 손은 테두리에 일부 잘려 엄지와 굽힌 손가락 일부만 보임. 반대 손은 머리 뒤로 가려짐.",
+    "overlay_checked": false,
+    "note": "팔 둘이 어깨에서 자연스럽게 연결, 한 팔은 머리 뒤, 다른 팔은 옆으로 굽힘. 하체 하단 프레임 밖."
+   }
+  }
+ }
+}
