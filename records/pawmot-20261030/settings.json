@@ -1,0 +1,256 @@
+{
+ "version": 1,
+ "card": "빠르모트",
+ "no": 923,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f57212dc55fc/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Awnings shade wicker baskets of red and blue berries while cool morning light catches their woven edges.",
+   "outfit": "A long charcoal wool coat worn open with a loosely draped knitted scarf, over a cropped top with side cutouts and tailored short shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "시장 거닐기 장면에 아침빛과 열매 진열의 구체성만 보충.",
+    "outfit": "롱코트·머플러를 유지하고 안쪽 상의의 짧은 밑단·옆 트임과 반바지로 허리·다리를 드러냄."
+   },
+   "guide": {
+    "path": "in_pokemon / berry_market / stroll / everyday / long_coat_scarf",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_market",
+      "ko": "마을 열매 시장",
+      "en": "a village market stall piled with fresh berries",
+      "group": "나무열매·요리"
+     },
+     "act": {
+      "key": "stroll",
+      "ko": "천천히 거닐기",
+      "en": "strolling through the place at an easy pace",
+      "pose_family": "걷기"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "long_coat_scarf",
+      "ko": "롱코트 + 머플러",
+      "en": "a long wool coat and a knitted scarf"
+     }
+    },
+    "garments": [
+     "coat"
+    ],
+    "expose": [
+     "cropped hem",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A folded striped towel lies on a flat lakeside rock beside ripples lit by late sun.",
+   "outfit": "A fully lined cobalt bikini joined at the centre and hips by polished metal rings, with a secure top and high-cut bottoms leaving the midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호숫가 걸터앉기 활동에 바위 위 수건과 물결의 늦은 햇살만 보충.",
+    "outfit": "선택한 링 비키니를 유지하고 하이컷·배 노출을 명시."
+   },
+   "guide": {
+    "path": "now / travel_lake / dock_sit / swimwear / oring_bikini",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lake",
+      "ko": "호숫가",
+      "en": "a lakeside of flat rocks and still water",
+      "group": "여행지"
+     },
+     "act": {
+      "key": "dock_sit",
+      "ko": "걸터앉아 발 담그기",
+      "en": "sitting on the edge with her feet over the water",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "oring_bikini",
+      "ko": "링 장식 비키니",
+      "en": "a bikini joined at the centre and hips by polished metal rings"
+     }
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Paper lanterns glow above food stalls as a costume-event evening settles into dusk.",
+   "outfit": "A black-and-white adult maid event costume with a structured halter bodice, an open upper back, tiny puff sleeves sitting on the upper arms, and a full apron over a short skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "축제 휴식 활동에 코스튬 행사 맥락과 해질녘 조명만 보충.",
+    "outfit": "메이드의 몸판·퍼프 소매·앞치마를 유지하고 홀터와 열린 등 구조를 명시."
+   },
+   "guide": {
+    "path": "now / stage_festival / rest_seat / roleplay / adult_maid",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_festival",
+      "ko": "축제 거리",
+      "en": "a festival street of lanterns, food stalls and paper decorations",
+      "group": "무대·행사"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "adult_maid",
+      "ko": "메이드 코스튬",
+      "en": "a black-and-white maid costume with a structured bodice, puffed sleeves and a full apron"
+     }
+    },
+    "garments": [
+     "apron"
+    ],
+    "expose": [
+     "open back",
+     "halter neck"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

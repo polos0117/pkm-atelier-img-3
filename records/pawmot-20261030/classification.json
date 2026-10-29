@@ -1,0 +1,160 @@
+{
+  "card": "빠르모트",
+  "style": "glossy_promo",
+  "basis": "tools/prompt-pack.cjs; exact generated prompt and UI snapshots",
+  "images": {
+    "light": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/light.png",
+      "original_sha256": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178",
+      "output": "빠르모트_light_glossy_promo_f.webp",
+      "output_sha256": "4147d5cef9e34d69306fcc08dc6830f61b750b2c511b9b2882b16f904b7f40aa",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {},
+      "prompt_sha256": "a878978689b1463fa0966a2fa78c4c25cf3ae847bd94f194b3d738c62fe1b8e3"
+    },
+    "heavy": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/heavy.png",
+      "original_sha256": "d31096f2cd239903daa0833c5e2be28502f42fb796a48bd5301bc934a8556467",
+      "output": "빠르모트_heavy_glossy_promo_f.webp",
+      "output_sha256": "23c0fa919ecc779f6ecc9e39b4e6f7d711e09cf5f58b2dc2b6613d13f020c297",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "844f86ed0345224df28f860d9cda316e5f8ab9a48eecf1af482baee3e6f0aea7"
+    },
+    "mobility": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/mobility.png",
+      "original_sha256": "088f8033dbe97d0d1ff70f35760fb30e067e2edf4979b9b8d34c513f4a065e59",
+      "output": "빠르모트_mobility_glossy_promo_f.webp",
+      "output_sha256": "02ea3d188bd963fe65f053dce81a27b5aaee156be8f7f55e84abb86b06f0e92d",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "d7064f92161211918202a6d3245003670bba20436c26888744cdd110a60254db"
+    },
+    "light_overdrive": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/light_overdrive.png",
+      "original_sha256": "315a5fe86c37fdc27f0f4c2ceb87d037f1b659558a6d4632976bf677ec69f0a0",
+      "output": "빠르모트_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "769d141798f521dd8b61675ed77b2444e837fae8b30dbff0b0d7ca5a8a650e02",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "f6602fa4452299c29ba7ff2bbebeafaa500589a13aa6895fdf9e0f28079d0ff4"
+    },
+    "heavy_overdrive": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/heavy_overdrive.png",
+      "original_sha256": "a0021290dd4137d9aff2aecb5750e8434a396baebad378a69dec161ef2656a3e",
+      "output": "빠르모트_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "f380f6968a9679c5c9f54161b07a4d1954b286425750e3c87db40c12a6f1d1eb",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "heavy": "d31096f2cd239903daa0833c5e2be28502f42fb796a48bd5301bc934a8556467",
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "e0d6578ac09500358fb29edc26e7a7ae6f902e56e7b2769cd34a7cbc8fc8ce34"
+    },
+    "mobility_overdrive": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/mobility_overdrive.png",
+      "original_sha256": "41fead54eed5c02103b7b53f4689e68434c80c3892ecd95c2d58713e471a01ca",
+      "output": "빠르모트_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "f1fd4f03ee0ea63e8288e5d04abf45e6f17365416080db8f22e34021ad3028a5",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "mobility": "088f8033dbe97d0d1ff70f35760fb30e067e2edf4979b9b8d34c513f4a065e59",
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "778203edd208d85a9e4e36937c45ed728c52e8cea7d9580f1ebb5cc2c4a6ebf0"
+    },
+    "casual1": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/casual1.png",
+      "original_sha256": "972320a3b50f245318b00306dad545aba961a670ed6a73293062e7de3e8dc8d0",
+      "output": "빠르모트_glossy_promo_f_casual1.webp",
+      "output_sha256": "c8b6506454404121dbdc00a67f316ff71b70333dc0ab7ed17a2909afba01661b",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "e70cbf2ef4efb2b3a3d6b714242803aadd416909e581c46c680d647db5bd9d5e"
+    },
+    "casual2": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/casual2.png",
+      "original_sha256": "6335d65e11d12048cd3e0bda3470aa1e45e7b31f0c71ba9750413148a0d99f99",
+      "output": "빠르모트_glossy_promo_f_casual2.webp",
+      "output_sha256": "1165d48496d4dd0aa68372673da4e4fe7b5761921e28f7f7ea6024127be7271b",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "55a4b7eb0956b41ed569a5557ced3fc96a2cca1b9b887ca68f6ba9b5a69c3eba"
+    },
+    "casual3": {
+      "original": "/workspace/scratch/f57212dc55fc/originals/pawmot/casual3.png",
+      "original_sha256": "a78bc53355bc9a8b8fe921b9a6f829fb1e0787aaf7b26c4cbec113856891a588",
+      "output": "빠르모트_glossy_promo_f_casual3.webp",
+      "output_sha256": "6894ebc60f312cb7ed3c978c308abbfd7a97ce43d56874885e7ed8fb87419ba3",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "c8dd2bd00fc3431ffcf6adda76670cbfc075d1fc83fe89219ba45334e0c49178"
+      },
+      "prompt_sha256": "2921c44cdde39d02572ad6f199cfa1c971ee282c248519e4c1451b9f5e0c2861"
+    }
+  }
+}

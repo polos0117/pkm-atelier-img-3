@@ -1,0 +1,276 @@
+{
+ "session": "pawmo-pawmot-f572",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "빠모트",
+   "species": "pawmo-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "release",
+     "place": "travel_ferry",
+     "act": "look_out",
+     "ofam": "traditional",
+     "item": "kebaya_daily",
+     "garments": [
+      "blouse"
+     ],
+     "orient": "three_quarter_back",
+     "frame": "environmental",
+     "pose": "contrapposto",
+     "expr": "candid",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "home_living",
+     "act": "photo_sort",
+     "ofam": "lingerie",
+     "item": "back_strap",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "front_3q",
+     "frame": "full_body",
+     "pose": "one_knee_up",
+     "expr": "sleepy",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "strapless top"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "studio_art",
+     "act": "sketch",
+     "ofam": "homewear",
+     "item": "offshoulder_knit",
+     "garments": [
+      "knit_top",
+      "shorts"
+     ],
+     "orient": "reclining",
+     "frame": "three_quarter",
+     "pose": "perched_seat",
+     "expr": "amused",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "mini length",
+      "off-shoulder neckline"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "home",
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse",
+     "lingerie_set",
+     "knit_top",
+     "shorts"
+    ],
+    "orient": [
+     "three_quarter_back",
+     "front_3q",
+     "reclining"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "빠르모트",
+   "species": "pawmot-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "in_pokemon",
+     "place": "berry_market",
+     "act": "stroll",
+     "ofam": "everyday",
+     "item": "long_coat_scarf",
+     "garments": [
+      "coat"
+     ],
+     "orient": "profile_close",
+     "frame": "face_close",
+     "pose": "finger_to_lips",
+     "expr": "relieved",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "side cutouts"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "travel_lake",
+     "act": "dock_sit",
+     "ofam": "swimwear",
+     "item": "oring_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "leaning_forward",
+     "frame": "waist_up",
+     "pose": "thumbs_up",
+     "expr": "provocative",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "stage_festival",
+     "act": "rest_seat",
+     "ofam": "roleplay",
+     "item": "adult_maid",
+     "garments": [
+      "apron"
+     ],
+     "orient": "front",
+     "frame": "chest_up",
+     "pose": "",
+     "expr": "pensive",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "halter neck"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2,
+      3
+     ],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "coat",
+     "bikini",
+     "apron"
+    ],
+    "orient": [
+     "profile_close",
+     "leaning_forward",
+     "front"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

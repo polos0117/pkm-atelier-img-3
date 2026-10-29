@@ -1,0 +1,271 @@
+{
+  "card": "빠르모트",
+  "style": "glossy_promo",
+  "canonical": "light",
+  "face_reason": "원작의 털 갈기를 칼라와 울프컷·풍성한 눈썹으로 해석. 빠모트의 둥근 턱과 달리 넓고 각진 아래턱·가까운 눈·둥근 코끝을 사용하여 별개의 성인 얼굴로 구분.",
+  "face_source": [
+    "data/source-appearance.json#923",
+    "data/face-design.json#923"
+  ],
+  "compared_characters": [
+    "빠모",
+    "빠모트",
+    "엑스레그",
+    "훔처우"
+  ],
+  "images": {
+    "light": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "어깨 칼라와 한 겹 장갑, 검은 슈트·흰 흉갑과 황금 판, 길게 늘어진 허리 자락."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "heavy": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "두터운 어깨·팔뚝과 허벅지·정강이 겹판, 무릎의 큰 원형 관절."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "mobility": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "관절이 드러난 얇은 후방 스윕 판과 작은 원형 발광부, 슬림 부츠."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "light_overdrive": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "경장 판 이음새가 작게 열리고 안쪽 전격·프레임이 드러남."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "heavy_overdrive": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "중장 판이 층층이 열리며 무릎·팔꿈치 내부와 금빛 전격 노출."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "mobility_overdrive": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "중간 길이 황금 울프컷·짙은 금빛 눈·풍성한 눈썹·넓은 아래턱과 입술 유지."
+        },
+        "form": {
+          "match": true,
+          "evidence": "고기동의 얇은 판이 펼쳐져 발광 링과 전격을 보임. 새로운 무기나 헬멧 없음."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리와 양 부츠가 화면 안에 있고 얼굴은 카메라 쪽. 개방은 닫힌 폼의 팔·다리 위치와 배경 기둥이 유지됨."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼쪽 펼친 손은 엄지 하나와 네 손가락으로 다섯. 오른쪽 느슨한 주먹의 네 손가락은 접혀 일부 겹치며 엄지는 앞으로 내려옴.",
+        "overlay_checked": false,
+        "note": "원본과 양손 확대를 나란히 검토. 두 어깨에서 두 손목으로 이어지고 골반에서 두 부츠로 이어짐. 장갑은 관절을 가리지만 분리된 추가 손·발이 없음."
+      }
+    },
+    "casual1": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황금 울프컷과 풍성한 눈썹·금빛 눈, 넓은 턱·코끝·도톰한 입술 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "열매 바구니와 천막 시장이 얼굴 뒤로 보이며 손가락을 입술에 댐."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "짙은 회색 코트가 어깨에서 열리고 굵은 니트 머플러와 밝은 상의가 보임."
+        },
+        "orientation_expression_framing": {
+          "match": "partial",
+          "evidence": "얼굴 클로즈업이어서 걷는 다리·코트 길이는 프레임 밖. 측면 선택보다 앞 3/4이며 시선은 카메라로 돌아옴. 방향 차이는 기록만."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "세운 검지 하나·접힌 세 손가락·옆에 보이는 엄지로 다섯. 반대 손은 화면 밖.",
+        "overlay_checked": false,
+        "note": "입술 옆 손목이 코트 소매와 이어짐. 다른 팔과 양다리는 프레임 밖이라 보이지 않음."
+      }
+    },
+    "casual2": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황금 울프컷과 풍성한 눈썹·금빛 눈, 넓은 턱·코끝·도톰한 입술 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "잔잔한 호수·바위와 줄무늬 수건, 바위 끝에 앉아 엄지를 들어 올림."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "코발트 링 비키니의 중앙·골반 금속 링, 불투명한 가슴·골반 커버와 드러난 허리."
+        },
+        "orientation_expression_framing": {
+          "match": true,
+          "evidence": "상체가 약간 앞으로 기울며 양 허벅지 윗부분까지 보임. 발은 프레임 밖. 눈썹과 올라간 입꼬리의 자신 있는 표정."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "위로 든 엄지 하나와 접힌 네 손가락으로 다섯. 반대 손은 화면 아래 밖.",
+        "overlay_checked": false,
+        "note": "두 팔은 양 어깨에서 이어지고 두 허벅지가 골반 아래로 보임. 보이지 않는 발가락 수는 판정하지 않음."
+      }
+    },
+    "casual3": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "황금 울프컷과 풍성한 눈썹·금빛 눈, 넓은 턱·코끝·도톰한 입술 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "등불과 음식 노점의 축제 거리에서 앉아 쉬는 모습. 읽히는 인물 얼굴 없이 배경은 흐림."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "검정·흰색 메이드 홀터 몸판·프릴 소매·앞치마, 어깨와 목선 노출."
+        },
+        "orientation_expression_framing": {
+          "match": "partial",
+          "evidence": "가슴 위 선택보다 넓어 허리와 앞치마가 보임. 몸은 앞을 향하고 눈은 옆 아래로 흐르며 입은 힘을 뺌."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 화면 아래 밖. 손가락은 보이지 않아 세지 않음.",
+        "overlay_checked": false,
+        "note": "두 팔이 어깨에서 팔꿈치 방향으로 이어지고 프레임 밖으로 내려감. 하체는 가려짐. 얼굴·눈밑에 나이 주름 없음."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "actual_images": [
+      "훔처우 일상 1~3",
+      "엑스레그 일상 1~3",
+      "빠모 일상 1~3",
+      "이번 빠모트 일상 1~3",
+      "이번 빠르모트 일상 1~3"
+    ],
+    "evidence": "시장 머플러·코트의 손가락 입술 클로즈업, 호수 링 비키니의 엄지 인사 허리 위, 등불 축제 메이드 앞치마의 무표정 휴식 가슴 위로 활동·옷 실루엣·인물 크기가 갈림. 빠모트의 페리 전신·거실 사진 정리·화실 노트 작업과도 다름.",
+    "casual_look": "통과; 새 빠모트가 포함된 최신 색인으로 재검사. 거의 같은 일상컷 없음."
+  },
+  "axis_reasons": {
+    "casual1": "시장 산책 중 가벼운 움직임이어서 balanced, 작은 털 장신구와 열매 소품으로 source strong, 코트·머플러·안쪽 옷이 갈려 prefer separates.",
+    "casual2": "물가에 앉아 엄지로 답하는 가벼운 동작 balanced, 원작 영향은 소품 수준 balanced, 비키니 한 세트라 separates balanced.",
+    "casual3": "행사 사이 앉아 숨 돌리는 정지 순간 mostly posed, 머리핀과 행사 주변물의 원작 모티프 strong, 앞치마와 코스튬 겹침이라 prefer separates."
+  }
+}
