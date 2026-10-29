@@ -1,0 +1,140 @@
+{
+ "reviewer": "gpt",
+ "compared_characters": [
+  "아머까오",
+  "퍼퓨돈",
+  "타랜툴라",
+  "두루지벌레"
+ ],
+ "face_reason": "설계표의 각진 윤곽·작은 둥근 눈·가는 입술·짧은 트윈테일을 prompt-pack이 반영. 주황 트윈테일은 긴 흑발/백금 단발/푸른 픽시 컷의 비교 대상과 구분됨. 정본 light의 실제 얼굴·머리 유지 확인.",
+ "face_basis": "data/face-design.json 레돔벌레; light-prompt.txt 원문; 경장 생성 결과가 정본",
+ "diversity_comparison": "comparison.jpg의 최근 3종 일상 9장 및 두루지벌레 일상3장을 실제로 나란히 확인. 물품점 사색하는 얼굴 클로즈업/헤드셋 만지며 웃는 메이드의 위쪽 시점/수영장 레트로 핫팬츠의 전신 후면3/4는 장소·활동·옷 실루엣·구도가 구분된다. 최근 일상의 잔 들기/캠핑/조식/트랙 및 이번 배치의 코트 브러싱/호수 측면/벨벳 드레스 벤치와 겹치는 묶음 아님.",
+ "images": [
+  {
+   "slot": "light",
+   "image_sha256": "b0c3ade99d9cbcd998ec6fb4c0cc91ca6ea7d9970a776db95ed92eb8aca357c3",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림."
+   }
+  },
+  {
+   "slot": "heavy",
+   "image_sha256": "f34e6e6626d8bca34ac23f6e750cb245ceea08b56d08de7975298f290bb8a31a",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림."
+   }
+  },
+  {
+   "slot": "mobility",
+   "image_sha256": "7f782de5008d7baef43bbcbb54c6d125c7e01419e9f4e26ae96ab123cee1b7fd",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "image_sha256": "c7870fb1f53d3b65af5a6a21e89fda990f6c3a96082730d90e1d9bb53e69a9ea",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "image_sha256": "a5b64d973d13e5e09f295e44a6cf5392e9e65b3375f776f239e452300dcaf187",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "image_sha256": "8259cd2041b9cf493225e8cc1530861fd8aac2cbf31bec96d8e790430cd608f6",
+   "accepted": true,
+   "observations": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 장갑손: 엄지와 접힌 손가락의 다섯 손가락 구조가 읽히며 겹친 끝 일부 가림. 추가/분리 손 없음.",
+    "overlay_checked": false,
+    "note": "팔 둘·다리 둘과 손목·발목 연결 자연스러움; 원본과 확대 손·발 점검. 손끝은 일부 겹쳐 가림. 닫힘과 카메라·자세·인물 크기 유지. 장갑 이음새 개방과 내부 광채 확인."
+   }
+  },
+  {
+   "slot": "casual1",
+   "image_sha256": "c211cbafa5ea274fa243f4d37fbe72d6d934e86cfea1903939833a6e7183dc6a",
+   "accepted": true,
+   "observations": "얼굴·머리·목·양어깨 연결 확인. 팔·다리·손은 프레임 밖이라 전체 개수 육안 확인 대상 아님. 계획보다 쇄골 아래를 더 보여 준다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 얼굴 클로즈업 프레임 밖, 손가락 수 확인 불가.",
+    "overlay_checked": false,
+    "note": "얼굴·머리·목·양어깨 연결 확인. 팔·다리·손은 프레임 밖이라 전체 개수 육안 확인 대상 아님. 계획보다 쇄골 아래를 더 보여 준다."
+   }
+  },
+  {
+   "slot": "casual2",
+   "image_sha256": "2d6d7ea8e2d89d31af64a4f53c56d02e9b7c20a76a259d074dd2e065b8f98f1c",
+   "accepted": true,
+   "observations": "표정·헤드셋 활동·위쪽 시점은 맞음. 계획 가슴 위보다 넓게 허리와 치마까지 보이는 프레이밍 편차를 보존. 보이는 두 팔 연결 정상; 하체는 크롭 밖.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "헤드셋 손: 다섯 손가락과 엄지 방향 확인, 팔꿈치·위팔을 따라 어깨로 연결. 반대 손은 프레임 밖.",
+    "overlay_checked": false,
+    "note": "표정·헤드셋 활동·위쪽 시점은 맞음. 계획 가슴 위보다 넓게 허리와 치마까지 보이는 프레이밍 편차를 보존. 보이는 두 팔 연결 정상; 하체는 크롭 밖."
+   }
+  },
+  {
+   "slot": "casual3",
+   "image_sha256": "6d45cae32c59fd1be6f826aeb0c2acbece670083941dadf679a1dc2a7e8aaa0e",
+   "accepted": true,
+   "observations": "후면3/4에서 고개가 어깨 위로 자연스럽게 돌아 옆얼굴 보임. 두 다리·두 맨발 연결 정상, 뒤꿈치 위주라 발가락 일부 가림. 머리 끝 가장자리 접촉 기록.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe 없음",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 위 손은 머리카락을 잡아 손가락 일부 가림, 반대 손은 머리 뒤 가림. 양팔이 각 어깨에서 팔꿈치·손목으로 연결.",
+    "overlay_checked": false,
+    "note": "후면3/4에서 고개가 어깨 위로 자연스럽게 돌아 옆얼굴 보임. 두 다리·두 맨발 연결 정상, 뒤꿈치 위주라 발가락 일부 가림. 머리 끝 가장자리 접촉 기록."
+   }
+  }
+ ]
+}
