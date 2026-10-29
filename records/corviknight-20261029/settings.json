@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "아머까오",
+ "no": 823,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/3ea4a9736911/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Threading a small amber bead onto pale cord among ceramic dishes of beads; late afternoon window light crosses the craft table.",
+   "outfit": "An off-shoulder cropped knit top slipping from one shoulder, with a slim halter support tie and tailored lounge shorts, in soft peach.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Action-led note names the bead, cord and afternoon light at the craft table.",
+    "outfit": "Retains the knit and shorts while adding the planned cropped hem and halter support."
+   },
+   "guide": {
+    "path": "release / studio_art / bead_craft / homewear / offshoulder_knit",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables",
+      "group": "화실·공방"
+     },
+     "act": {
+      "key": "bead_craft",
+      "ko": "비즈 공예",
+      "en": "threading beads into a small charm with tidy craft tools",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "offshoulder_knit",
+      "ko": "오프숄더 니트",
+      "en": "an off-shoulder knit top slipping from one shoulder over shorts"
+     }
+    },
+    "garments": [
+     "knit_top",
+     "shorts"
+    ],
+    "expose": [
+     "cropped hem",
+     "halter neck"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Rooftop string lights arc above a low dance platform, with warm skyline windows beyond the rail.",
+   "outfit": "A silk robe worn open over an evening slip with a high thigh slit and secure side cutouts, in champagne and deep emerald.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Place-led note specifies the rooftop platform and skyline for the dance.",
+    "outfit": "The selected robe and slip retain the planned high slit and side cutouts."
+   },
+   "guide": {
+    "path": "now / night_rooftop / club_dance / evening / silk_robe_slip",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_rooftop",
+      "ko": "옥상 파티",
+      "en": "a city rooftop party under string lights",
+      "group": "밤 문화"
+     },
+     "act": {
+      "key": "club_dance",
+      "ko": "춤추기",
+      "en": "dancing to the beat, one hand raised",
+      "pose_family": "움직임"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "silk_robe_slip",
+      "ko": "슬립 위 실크 로브",
+      "en": "a silk robe over an evening slip"
+     }
+    },
+    "garments": [
+     "robe",
+     "slip"
+    ],
+    "expose": [
+     "high thigh slit",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Warm floor-lamp light pools beside the deep sofa and a low table with a small mug.",
+   "outfit": "A fully opaque babydoll slip with an empire waist, softly flared hem, a securely fitted strapless bodice and a deep V neckline held by an opaque inset, in pale rose.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Light-led note adds the living-room lamp and mug without changing the seated rest.",
+    "outfit": "Preserves the babydoll silhouette while using the planned strapless and plunging neckline with secure coverage."
+   },
+   "guide": {
+    "path": "now / home_living / rest_seat / lingerie / babydoll",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_living",
+      "ko": "거실",
+      "en": "her living room with a deep sofa, floor cushions and a low table",
+      "group": "집"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "babydoll",
+      "ko": "베이비돌",
+      "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+     }
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "strapless top",
+     "plunging neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

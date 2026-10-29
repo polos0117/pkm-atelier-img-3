@@ -1,0 +1,100 @@
+{
+  "design": {
+    "name": "아머까오",
+    "en": "Corviknight",
+    "line": "파라꼬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "angular",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "angular defined jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "thick low brows",
+      "nose character": "straight slender bridge",
+      "lips": "straight even lips"
+    },
+    "why": "",
+    "cues": [
+      "‘smooth and resemble plate armor’ → 얼굴형 각지고 선명한 얼굴형",
+      "‘smooth and resemble plate armor’ → 턱선 · 턱끝 각지고 또렷한 턱",
+      "‘smooth and resemble plate armor’ → 눈매 가늘고 날카로운 눈",
+      "‘smooth and resemble plate armor’ → 눈꼬리 각도 올라간 눈꼬리",
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운",
+      "‘smooth and resemble plate armor’ → 눈썹 굵고 눈 가까이 낮은"
+    ],
+    "adjusted": "같은 계열 파크로우와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 바깥에서 꺾이는 사선 → 굵고 눈 가까이 낮은, 입술 얇은 입술 → 굴곡 없이 곧은",
+    "hair": {
+      "hairstyle": "feathered",
+      "hair length": "long",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘scapular feathers’·몸 형태 wings에서 끝을 가볍게 친 페더컷(층 낸 컷) · 긴 머리 · 옆으로 넘긴 앞머리 — 파크로우에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘scapular feathers’ → 헤어스타일 끝을 가볍게 친 페더컷",
+      "키 2.2m → 머리 길이 긴 머리"
+    ]
+  },
+  "source": {
+    "name": "아머까오",
+    "en": "Corviknight",
+    "color": "purple",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "iris",
+        "detail": "red irises"
+      },
+      {
+        "part": "feather",
+        "detail": "scapular feathers"
+      },
+      {
+        "part": "armor",
+        "detail": "smooth and resemble plate armor"
+      },
+      {
+        "part": "pupil",
+        "detail": "white pupils"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Corviknight_%28Pok%C3%A9mon%29",
+    "revision": 4624786,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "c1d9dabbf26e3216a51dcb7040c8a7f02bc5331af25cfdb1a30528652a6e6559",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "canonical": {
+    "slot": "light",
+    "card": "아머까오",
+    "style": "glossy_promo",
+    "basis": "prompt-pack selection",
+    "reference": null,
+    "original_sha256": "68218eb6889a9246172307e8678e368cdcd46a0ca9268270e2df2a54dbff834a",
+    "output": {
+      "file": "아머까오_light_glossy_promo_f.webp",
+      "sha256": "64ad7670e812054758a255ce937c311e1d97274f2617f3545e33324136f0e897",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "prompt_sha256": "1dcd6279605145244b93f5a2dc9dc5601604b133d176b6e9fd4c71b147359d0c"
+  },
+  "comparison": [
+    "곤율랭",
+    "웨이니발",
+    "맛보돈",
+    "파라꼬",
+    "파크로우"
+  ],
+  "visual_findings": "Long feathered hair, angular jaw, low thicker brows and straight lips separate this canonical face from Corvisquire and the shorter/rounder Rookidee."
+}
