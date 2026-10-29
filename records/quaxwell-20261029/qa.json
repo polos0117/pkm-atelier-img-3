@@ -1,0 +1,169 @@
+{
+  "card": "아꾸왁",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "Dark blue feathered updo, longer face with tapered jaw and cool blue eyes. Slim white/navy plates, two arms and two legs, head crest and boots nearly reach frame edges.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "Layered thick white/navy/gold plates cover shoulders, forearms, hips and legs. Face and limbs remain the same; small top crest tip cropped.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "Feather-shaped panels sweep backward around compact round blue thrusters; body and face match light, no giant wing.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "Thin light plates open with blue water-like inner light; stance, camera and body scale retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "Layered heavy shell separates along seams and exposes dense inner frame; same figure silhouette and hand positions as heavy.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "Swept mobility plates pivot apart around glowing cores; blue eye color and closed-form camera retained.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Five digits on open palm; relaxed opposite fingers overlap naturally. Two wrists follow forearms; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "Seated sideways beside a decorated Christmas tree, raising an ornament to a branch with both hands. Red velvet mini dress, white fur trim, Santa hat and boots are clear. Bent legs fold to one side; closer crop and raised gaze deviate from selection but task is present.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Near hand has thumb opposing fingers around ornament loop; far hand stabilizes branch, its digits overlap the near fingers. Both forearms trace to separate elbows and shoulders.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "santa_party",
+          "garments": [
+            "dress"
+          ],
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "pose": "side_sitting",
+          "expr": "sensual",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "one-shoulder cut",
+            "high thigh slit"
+          ],
+          "lead": "place"
+        },
+        "observed": "Seated sideways beside a decorated Christmas tree, raising an ornament to a branch with both hands. Red velvet mini dress, white fur trim, Santa hat and boots are clear. Bent legs fold to one side; closer crop and raised gaze deviate from selection but task is present."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "At an open refrigerator in a dark kitchen, one hand lifts a strawberry to her mouth while the other holds a glass bowl. White cropped camisole and teal mini shorts expose midriff and legs. Face is three-quarter rather than profile and crop wider than selected face close.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Strawberry hand has thumb beneath fruit and four curled fingers; bowl hand has thumb across rim and fingers under bowl, with some occlusion behind glass.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 3,
+          "cat": "homewear",
+          "ex": "late_night_kitchen",
+          "garments": [
+            "shorts"
+          ],
+          "orient": "profile_close",
+          "frame": "face_close",
+          "pose": "eating",
+          "expr": "confident",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "bare midriff",
+            "mini length"
+          ],
+          "lead": "light"
+        },
+        "observed": "At an open refrigerator in a dark kitchen, one hand lifts a strawberry to her mouth while the other holds a glass bowl. White cropped camisole and teal mini shorts expose midriff and legs. Face is three-quarter rather than profile and crop wider than selected face close."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "comparison_characters": [
+      "바랜드",
+      "릴리요",
+      "릴링",
+      "꾸왁스"
+    ],
+    "visual_observations": "Christmas seated tree decorating and standing kitchen fruit snack differ in activity, place, outfit silhouette and framing. Completed Quaxly set shows snowy bathing, backstage reading and resort mat handling, without those two scenes. Third image is pending refill and not marked complete.",
+    "similarity_check": "generated_images/exec-51bc96de-a07f-4b93-bb58-d9432b69e7ee.png — 가까운 컷 0장(점수 245 미만)\n     287  가재군_glossy_promo_f_casual1.webp\n     293  하데리어_glossy_promo_f_casual3.webp\n     296  찌리리공_glossy_promo_f_casual3.webp\ngenerated_images/exec-ce5b2966-8fdf-41b7-be3a-4b1a61706996.png — 가까운 컷 0장(점수 245 미만)\n     284  가재장군_glossy_promo_f_casual2.webp\n     288  가재장군_glossy_promo_f_casual1.webp\n     294  뚜벅쵸_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}
