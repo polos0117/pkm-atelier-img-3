@@ -1,0 +1,160 @@
+{
+  "card": "트래피더",
+  "style": "glossy_promo",
+  "basis": "tools/prompt-pack.cjs; exact generated prompt and UI snapshots",
+  "images": {
+    "light": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/light.png",
+      "original_sha256": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e",
+      "output": "트래피더_light_glossy_promo_f.webp",
+      "output_sha256": "cab8e79e5fb61460132e040e35c3d5873b8bf28f802dc80b34217db5f384cf92",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {},
+      "prompt_sha256": "bbede5b3efb62a68c7ed4419e579271cbea0a49c25a5570a01329c5259e3efed"
+    },
+    "heavy": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/heavy.png",
+      "original_sha256": "2b08f45ac1417f66c0b5fcd7325af79c45dbe8d3b236f618aa53dc20ccd8a912",
+      "output": "트래피더_heavy_glossy_promo_f.webp",
+      "output_sha256": "fdbb47ef9a0c48a8c59d3200f75d3391e8489f35ea2399f3704a9b3fe18730ac",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "ecc905a7eee6fe090817424bd49ad3d0f63858de2e96c568e42de28ab65917e1"
+    },
+    "mobility": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/mobility.png",
+      "original_sha256": "4f987192d922c6ff60a26a36d34e4c56c9855add09276b9a131260f18c61dade",
+      "output": "트래피더_mobility_glossy_promo_f.webp",
+      "output_sha256": "ac988e5710d026b1a94fdf4a1f397979ae9ed46be15d303449c2fc886c6e3f09",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "90f692729509a8676771bf033930df1300664058b6b4ac6a6119722a5f5b223f"
+    },
+    "heavy_overdrive": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/heavy_overdrive.png",
+      "original_sha256": "a651c1efdf3b7dea61542732145a3f5d0e86061e004a503dc1ab60e9bad6beb1",
+      "output": "트래피더_heavy_overdrive_glossy_promo_f.webp",
+      "output_sha256": "5b34826f3eeb18601215e935ceb81037cf9ed20dbf10c5d88ecfdd76eb52dcb1",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "heavy": "2b08f45ac1417f66c0b5fcd7325af79c45dbe8d3b236f618aa53dc20ccd8a912",
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "7bd69a3979c7fa1ad08715a0057314a5e590f78c67805cb4aae4598c14516358"
+    },
+    "mobility_overdrive": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/mobility_overdrive.png",
+      "original_sha256": "aae7e974aca24a252f766760b203c078b755f679c4e667a8f9a149bd72811934",
+      "output": "트래피더_mobility_overdrive_glossy_promo_f.webp",
+      "output_sha256": "5ecdb326f7d529d4fad3122b4a2d49d8c61b0881b3b439f7ace9fb5d86c28c64",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "mobility": "4f987192d922c6ff60a26a36d34e4c56c9855add09276b9a131260f18c61dade",
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "32a743146c5dc845d05dcd10660d51950510a7b7011f33e142da35bbb0e8f5cf"
+    },
+    "light_overdrive": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/light_overdrive.png",
+      "original_sha256": "6d0016b659f4ab4b9fe0ca1ab5004e86df84028f20eb0bfa5e7bbe11227ae564",
+      "output": "트래피더_light_overdrive_glossy_promo_f.webp",
+      "output_sha256": "9e891886b0d3154da4e0f555bb930a787fc6276490456ca327bd2f61755039a2",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "e48ee9a5ccf3b456c0760aa3807a79461ce7eff25304701a7b4c8fa0b1cc1284"
+    },
+    "casual1": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/casual1.png",
+      "original_sha256": "aed61e521e4c3a5c9f97e249df0d3bd743fff989808d3b8ebdca29a4cef8c219",
+      "output": "트래피더_glossy_promo_f_casual1.webp",
+      "output_sha256": "839f152f6842794e463c638c9b4dd0bd4e33d3930b5d0b560c653f0989c07de7",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "bdd9f1a7fba50bc1610c6c5a77c8085fecdb0c8d34ce2c9e79b95be9d4baaa33"
+    },
+    "casual2": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/casual2.png",
+      "original_sha256": "4c4c7237fc7e06e6d2ce8dbaf341c065f9606afc72f26a100c07f8e035fef2bd",
+      "output": "트래피더_glossy_promo_f_casual2.webp",
+      "output_sha256": "b5d6c7eae81556c57e0713e3be5abf634abd25efce6079abd6cfe9c4422e0990",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "a7a6b5803f39824fa94021abcbdcc26a2c204b019af931370becacd1d8fb3661"
+    },
+    "casual3": {
+      "original": "/workspace/scratch/684f7a8f390d/originals/spidops/casual3.png",
+      "original_sha256": "4b2ee16da7eb6497c46b074fcf460ee135bf141c94ae13d90970d2f44a2407a5",
+      "output": "트래피더_glossy_promo_f_casual3.webp",
+      "output_sha256": "2162260e6ca88cd4be94db1975a07cef705310b68b33307215e305e3d86fb475",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WebP",
+      "quality": 85,
+      "method": 6,
+      "references": {
+        "light": "db07937f67c59226636ba513cedb8cf7068d910be20b7dd1f17d376507412d1e"
+      },
+      "prompt_sha256": "de7f4479d1ef582179b5a6bdc51692567a019db6760c8a50310d5feac30bca15"
+    }
+  }
+}

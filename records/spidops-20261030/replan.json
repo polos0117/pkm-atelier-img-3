@@ -1,0 +1,63 @@
+{
+  "slot": "casual3",
+  "previous": {
+    "cut": 3,
+    "era": "release",
+    "place": "spa_footbath",
+    "act": "stroll",
+    "ofam": "bath",
+    "item": "bath_yukata",
+    "garments": [
+      "traditional"
+    ],
+    "orient": "rear_3q",
+    "frame": "three_quarter",
+    "pose": "walking",
+    "expr": "sensual",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "high thigh slit",
+      "open back"
+    ],
+    "lead": "light"
+  },
+  "reason": "Image tool rejected hot-spring output (moderation_blocked, sexual); no image returned and no same-prompt retry. Replanned before generation with casual-plan --avoid act=stroll, preserving accepted casual1 and casual2.",
+  "new": {
+    "cut": 3,
+    "era": "fantasy",
+    "place": "fx_circus",
+    "act": "ringmaster",
+    "ofam": "costume",
+    "item": "sorceress_robe",
+    "garments": [
+      "dress",
+      "robe"
+    ],
+    "orient": "leaning_forward",
+    "frame": "three_quarter",
+    "pose": "leaning_wall",
+    "expr": "confident",
+    "lens": "telephoto135",
+    "aspect": "2:3",
+    "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+    },
+    "expose": [
+      "plunging neckline",
+      "high thigh slit"
+    ],
+    "lead": "action"
+  }
+}

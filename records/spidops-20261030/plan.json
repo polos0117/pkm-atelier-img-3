@@ -1,0 +1,246 @@
+{
+ "session": "spidops-nymble-20261030-684f",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "트래피더",
+   "species": "spidops-20261030",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "era": "now",
+     "place": "evening_hotel",
+     "act": "makeup",
+     "ofam": "lingerie",
+     "item": "babydoll",
+     "expr": "soft_smile",
+     "pose": "sitting",
+     "orient": "over_shoulder",
+     "frame": "full_body",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "slip"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "open back"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "pw_room",
+     "act": "couch_game",
+     "ofam": "homewear",
+     "item": "sleep_shirt",
+     "expr": "smug",
+     "pose": "",
+     "orient": "front",
+     "frame": "face_close",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shirt"
+     ],
+     "expose": [
+      "cropped hem",
+      "off-shoulder neckline"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "era": "fantasy",
+     "place": "fx_circus",
+     "act": "ringmaster",
+     "ofam": "costume",
+     "item": "sorceress_robe",
+     "garments": [
+      "dress",
+      "robe"
+     ],
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "pose": "leaning_wall",
+     "expr": "confident",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "plunging neckline",
+      "high thigh slit"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "evening",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "robe"
+    ],
+    "orient": [
+     "leaning_forward"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "콩알뚜기",
+   "species": "nymble-20261030",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "era": "now",
+     "place": "sports_wall",
+     "act": "water_break",
+     "ofam": "active",
+     "item": "",
+     "expr": "determined",
+     "pose": "",
+     "orient": "low_angle",
+     "frame": "face_close",
+     "lens": "telephoto135",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top",
+      "shorts"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "cropped hem"
+     ],
+     "lead": "place"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "era": "in_pokemon",
+     "place": "berry_market",
+     "act": "buy_food",
+     "ofam": "everyday",
+     "item": "overalls",
+     "expr": "curious",
+     "pose": "standing_formal",
+     "orient": "leaning_forward",
+     "frame": "environmental",
+     "lens": "documentary35",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "expose": [
+      "mini length",
+      "open back"
+     ],
+     "lead": "detail"
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "era": "now",
+     "place": "evening_penthouse",
+     "act": "sofa_lounge",
+     "ofam": "lingerie",
+     "item": "bralette_highwaist",
+     "expr": "mischievous",
+     "pose": "lying_side",
+     "orient": "looking_down",
+     "frame": "three_quarter",
+     "lens": "natural50",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "crop_top"
+     ],
+     "expose": [
+      "halter neck",
+      "bare midriff"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ]
+}

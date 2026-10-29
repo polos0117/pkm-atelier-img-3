@@ -1,0 +1,206 @@
+{
+  "card": "트래피더",
+  "tool": "built-in imagegen",
+  "images": {
+    "light": {
+      "status": "accepted",
+      "identity": "Compared directly with canonical light image",
+      "visual": "녹색 언더컷과 각진 턱, 한 겹의 슬림 녹색 장갑. 머리·양발이 프레임 안에 있고 팔 둘·다리 둘이 정상 연결.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 손바닥 안으로 느슨하게 굽혀 손가락 일부 중첩; 다섯 손가락 구조. 화면 오른손은 아래로 편안히 굽힌 다섯 손가락 구조; 장갑 때문에 마디 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "heavy": {
+      "status": "accepted",
+      "identity": "Compared directly with canonical light image",
+      "visual": "경장 정본의 얼굴·녹색 언더컷·체형 유지. 흉부·어깨·골반·대퇴·정강이에 두꺼운 판이 겹침. 전신과 양발 보존.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 경장과 같은 느슨한 장갑 손. 확대 대조에서 엄지와 네 손가락 구조 유지; 굽힌 손가락 일부 중첩.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "mobility": {
+      "status": "accepted",
+      "identity": "Compared directly with canonical light image",
+      "visual": "경장 정본의 얼굴·머리·체형 유지. 얇고 길게 분리된 판과 가벼운 실루엣, 전신 양발 보존. 분절 장갑은 신체의 추가 팔다리가 아님.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑과 손목 연결 정상. 엄지와 네 손가락 구조 유지하며 굽힌 손끝 일부 중첩.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "light_overdrive": {
+      "status": "accepted",
+      "identity": "Compared directly with corresponding closed form and canonical light; eye color preserved",
+      "visual": "경장 원본과 같은 카메라·포즈·인물 크기·손발 위치. 기존 얇은 어깨·전완·골반·정강이 판이 이음새에서 들리고 내부 틈에 연두색 빛.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "화면 왼손은 손바닥 안으로 느슨하게 굽혀 손가락 일부 중첩; 다섯 손가락 구조. 화면 오른손은 아래로 편안히 굽힌 다섯 손가락 구조; 장갑 때문에 마디 일부 가려짐.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "heavy_overdrive": {
+      "status": "accepted",
+      "identity": "Compared directly with corresponding closed form and canonical light; eye color preserved",
+      "visual": "중장 원본의 두꺼운 판·머리 장식·손발·배경 유지. 기존 판이 겹 사이에서 열리고 연두색 프레임과 날개 같은 빛이 드러남.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손은 경장과 같은 느슨한 장갑 손. 확대 대조에서 엄지와 네 손가락 구조 유지; 굽힌 손가락 일부 중첩.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "mobility_overdrive": {
+      "status": "accepted",
+      "identity": "Compared directly with corresponding closed form and canonical light; eye color preserved",
+      "visual": "고기동 원본의 길게 분리된 판이 같은 구도에서 조금 더 열림. 연결축과 내부 연두 발광을 확인; 새 무기·헬멧 없음.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed (No module named mediapipe); checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "양손 장갑과 손목 연결 정상. 엄지와 네 손가락 구조 유지하며 굽힌 손끝 일부 중첩.",
+        "overlay_checked": false,
+        "note": "원본 1024×1536과 손 확대에서 팔·다리 연결·엄지 방향·관절을 직접 확인."
+      }
+    },
+    "casual1": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 언더컷·눈색·각진 턱이 정본과 같음."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "금빛 화장대 앞 스툴에 앉아 한 손으로 귀걸이 잠금장치를 만짐. 열린 여행가방과 비 내리는 야경이 보임."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "아이보리 베이비돌 미니 슬립, 얇은 스트랩과 노출된 등·어깨·다리."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "몸통은 화장대 쪽, 고개는 가까운 어깨 위로 돌아 3/4 얼굴을 보임."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리·양발을 포함한 전신. 반대 손은 몸 앞에 가려짐."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "닫힌 입꼬리가 살짝 올라가고 눈매가 부드러움."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; checker exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "보이는 귀걸이 손은 엄지·검지로 잠금장치를 잡고 나머지 세 손가락은 접힘. 반대 손은 몸 앞에 가려져 손가락 수 확인 불가. 양발은 발끝을 내렸고 앞발 발가락 다섯, 뒷발 일부 겹침.",
+        "overlay_checked": false,
+        "note": "원본 크기와 보이는 손·발 확대에서 관절·추가 팔다리 여부를 직접 확인. 크롭·가림은 그대로 기록."
+      }
+    },
+    "casual2": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 옆가르마 언더컷·짙은 눈썹·녹색 눈 유지."
+        },
+        "activity": {
+          "match": "partial",
+          "evidence": "소파 등받이와 창가 여행 가방·지도 선반이 보임. 게임 손동작과 컨트롤러는 얼굴 클로즈업의 크롭 밖; 출력 CROP 줄이 활동 세부보다 우선함."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "산호색 오프숄더 셔츠의 목선·소매가 보임. 하의와 밑단은 크롭 밖."
+        },
+        "orientation": {
+          "match": true,
+          "evidence": "몸통은 카메라 쪽. 고개가 살짝 기울어짐."
+        },
+        "framing": {
+          "match": "partial",
+          "evidence": "얼굴과 머리를 중심으로 한 근접 사진이며 선택한 collarbone crop보다 가슴까지 조금 넓음 — 프레이밍 차이는 기록만."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "한쪽 입꼬리를 올리고 눈꺼풀을 조금 내린 표정."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; checker exit 3",
+        "arms": "visible shoulders continue naturally out of crop",
+        "legs": "outside selected crop",
+        "hands": "손·팔꿈치·다리는 의도된 얼굴 크롭 밖, 추가 손이 얼굴이나 몸에서 나오지 않음.",
+        "overlay_checked": false,
+        "note": "원본 크기와 보이는 손·발 확대에서 관절·추가 팔다리 여부를 직접 확인. 크롭·가림은 그대로 기록."
+      }
+    },
+    "casual3": {
+      "status": "accepted",
+      "checks": {
+        "identity": {
+          "match": true,
+          "evidence": "녹색 언더컷·녹색 눈·각진 턱과 성인 체형 유지."
+        },
+        "activity": {
+          "match": true,
+          "evidence": "줄무늬 서커스 천막 아래, 상체를 약간 숙이고 한 팔을 펼쳐 인사하며 다른 손에 수정 지팡이 소품."
+        },
+        "outfit": {
+          "match": true,
+          "evidence": "미드나이트 블루 벨벳 로브 가운, 보석 벨트와 깊은 목선·높은 옆트임. 어깨와 허벅지가 드러남."
+        },
+        "orientation": {
+          "match": "partial",
+          "evidence": "선택한 rear_3q와 달리 몸통이 카메라 쪽을 향해 숙여짐 — 방향 차이는 기록만."
+        },
+        "framing": {
+          "match": true,
+          "evidence": "머리부터 허벅지·아래 치맛자락까지. 발은 치맛자락과 프레임 밖."
+        },
+        "expression": {
+          "match": true,
+          "evidence": "입술을 조금 벌리고 눈썹을 낮춘 집중한 표정."
+        }
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe is not installed; checker exit 3",
+        "arms": 2,
+        "legs": "one thigh visible, other leg obscured by gown",
+        "hands": "화면 왼쪽 펼친 장갑 손은 엄지 하나와 네 손가락, 화면 오른쪽 지팡이 손은 접힌 네 손가락과 반대쪽 엄지 일부가 소품에 가려짐. 양팔은 어깨에서 정상 연결.",
+        "overlay_checked": false,
+        "note": "원본 크기와 보이는 손·발 확대에서 관절·추가 팔다리 여부를 직접 확인. 크롭·가림은 그대로 기록."
+      }
+    }
+  },
+  "diversity": {
+    "compared_actual_characters": [
+      "두루지벌레",
+      "타랜툴라",
+      "퍼퓨돈"
+    ],
+    "viewed": "Their nine downloaded casual images plus the current three images were viewed as contact sheets.",
+    "evidence": "이번 세 장은 등 방향의 화장대 전신 앉기, 소파의 얼굴 근접, 서커스에서 팔을 펼친 인사로 장소·활동·옷과 프레이밍이 구분된다. 최근 이미지의 식사 트레이·야외 수영·피팅룸·와인홀·등산 카페·캠핑 소풍과도 장면과 실루엣이 다름.",
+    "casual_look": "passed; no score below current tool threshold 245",
+    "reference": "casual-look.txt"
+  }
+}
