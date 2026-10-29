@@ -1,0 +1,248 @@
+[
+  {
+    "card": "웨이니발",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-cd343d66-b544-4313-8b6e-082efe662168.png",
+      "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e",
+      "session_only": true
+    },
+    "references": [],
+    "output": "웨이니발_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "92ba366e6c6819e5fe6be3a98cbcaffd925fc0545c803c7af87ca1ae6a79d3dd"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-a48e49e8-8e20-40e3-96ee-0c8a3cc9a903.png",
+      "sha256": "4bfed9de3272228bdb14a23b046981c23927d20c17050f98d84970ab6591205c",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "33bef14ce8cf3aa57fd4a3905ef49289d8ac7b2f5adbdf491faee0af113582ba"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-1e0f2016-c8ef-4716-80e7-9eb7f84161dc.png",
+      "sha256": "5bc8f97ad8cd5f4a52fd496bbb8afc941c18f44e37c7d653221a3747dbb0ac2f",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "ef74935f1a0171b1bf175025e3c28473861a21e0bb107d3b143f1d1ef15fb3e2"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-c26e1265-7391-4d67-80e0-1119e324593b.png",
+      "sha256": "749f9d5dddb824a670b4d0d51a3f180d461e9feef74561f00805c4ca9a862fe9",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "be3d44c988f2dc50c6f0c25f70b71fcdad521f4f2f0086335e7d7c33d277fde6"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-b1f7a94d-9fbd-4a32-9c56-a09e941fe8a2.png",
+      "sha256": "a5a82997523a58159de2aad0f4e00c6345aff18de0b208bdc147c1f9799def7f",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "heavy",
+        "sha256": "4bfed9de3272228bdb14a23b046981c23927d20c17050f98d84970ab6591205c"
+      },
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "303e915eee5816f15801cdb4dda2520cf0f3e9ed4803ebcb4713401748ae5447"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-e4bc85e2-3ce3-458d-b43f-ed3545693d46.png",
+      "sha256": "878bd3c116ac2469ea32b6a75c52d8295451d029ef6d3e9f95e86eda8a7d5ab2",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "mobility",
+        "sha256": "5bc8f97ad8cd5f4a52fd496bbb8afc941c18f44e37c7d653221a3747dbb0ac2f"
+      },
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "ee05d89f1cb8083ecd671698a45e27b502cd29ff95c248221be54966eb7b1735"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-65a4c36f-a36e-42d8-a27c-90caf5a2b051.png",
+      "sha256": "1c166f607d37e92924adb03a5779b7f5dc0a36898c1b932af3fc395d1f6581a8",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "8ceec37a77b4ff81539e170b4bca64a59413d3bb6ffe4fce4cd7cbf255f1aabe"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-8d01d475-b9a9-4cac-ba55-44fa96b291d3.png",
+      "sha256": "d0d88396a4b6001c8782a5cbe698bfe82e9149591fd8f17a957c88fac56aa59a",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "9773de050fb9aa55058a7dacf7446334e98327316ff970e8e376b374e34cc20e"
+  },
+  {
+    "card": "웨이니발",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-ddda1d87-1824-43d8-b37e-c1d7c62da84f.png",
+      "sha256": "bedd0320edeaad253478f5b545f6dbabe42206b576d7da1cdde883c4f65cb98c",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "8e706f4752c041cbfb91d15a80171e3b60791c3a5f5ebc3d520eac325d4d316e"
+      }
+    ],
+    "output": "웨이니발_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "91c38c74a0e74fd8eb8aee1ed3a78b827142075136151350df28c70d8ae253d9"
+  }
+]

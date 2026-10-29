@@ -1,0 +1,209 @@
+{
+  "card": "웨이니발",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "Single adult woman, head and both boot soles inside a 1024×1536 frame; two forearms attach to the shoulders and two legs to the pelvis. Long narrow face, defined chin, blue high ponytail and layered blue/orange feather trim; relaxed screen-left palm and curled screen-right hand. The crest tip touches the top border, recorded as minor clipping.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "Same face and hair as light. Overlapping gold-edged blue plates on shoulders, thighs and shins thicken the outline; face remains open. Two arms and legs; the glove positions remain natural.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "Same canonical person. Swept blue/orange hip and calf fins with compact blue thrusters leave joints free. Both boots remain in frame; no extra limb or giant wing.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the light card. Blue water light and visible internal joints appear inside hinged plate seams; iris color remains amber-blue without replacement glow. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the heavy card. Blue water light and visible internal joints appear inside hinged plate seams; iris color remains amber-blue without replacement glow. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the mobility card. Blue water light and visible internal joints appear inside hinged plate seams; iris color remains amber-blue without replacement glow. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: one outward thumb and four partly flexed fingers. Screen-right: relaxed curled digits, some overlapping in the side view. Both thumbs face the body appropriately; no detached or duplicated hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "Fireworks, lanterns and a riverside festival picnic are visible. She sits with both knees forward in an ivory halter jumpsuit; bare shoulders and large waist openings are visible. Raised eyebrows and parted mouth convey surprise. Output is full body rather than planned chest-up, and her face turns to the fireworks rather than directly front; logged as framing/orientation deviation. Two legs and sandal feet; one hand supports her on the mat at each side, with fingers partly cropped or behind cloth.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Fireworks, lanterns and a riverside festival picnic are visible. She sits with both knees forward in an ivory halter jumpsuit; bare shoulders and large waist openings are visible. Raised eyebrows and parted mouth convey surprise. Output is full body rather than planned chest-up, and her face turns to the fireworks rather than directly front; logged as framing/orientation deviation. Two legs and sandal feet; one hand supports her on the mat at each side, with fingers partly cropped or behind cloth.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "festival_daily",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "front",
+          "frame": "chest_up",
+          "pose": "sitting_floor",
+          "expr": "surprised",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "halter neck"
+          ],
+          "lead": "light"
+        },
+        "observed": "Fireworks, lanterns and a riverside festival picnic are visible. She sits with both knees forward in an ivory halter jumpsuit; bare shoulders and large waist openings are visible. Raised eyebrows and parted mouth convey surprise. Output is full body rather than planned chest-up, and her face turns to the fireworks rather than directly front; logged as framing/orientation deviation. Two legs and sandal feet; one hand supports her on the mat at each side, with fingers partly cropped or behind cloth."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "She crouches beside woven tassel baskets on a sunny Andean stone terrace with mountains beyond, holding one red tassel. Crimson skirt and a cream woven off-shoulder wrap expose shoulders and back; open laughing mouth matches the planned expression. The body shows a side/back three-quarter view with the face toward camera; one hand is hidden behind the torso, the visible hand has four curled fingers and a thumb around the tassel. Both bent legs and sandal feet join naturally.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "She crouches beside woven tassel baskets on a sunny Andean stone terrace with mountains beyond, holding one red tassel. Crimson skirt and a cream woven off-shoulder wrap expose shoulders and back; open laughing mouth matches the planned expression. The body shows a side/back three-quarter view with the face toward camera; one hand is hidden behind the torso, the visible hand has four curled fingers and a thumb around the tassel. Both bent legs and sandal feet join naturally.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 2,
+          "cat": "traditional",
+          "ex": "poncho_andes",
+          "garments": [
+            "skirt"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "squatting",
+          "expr": "laughing_open",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        "observed": "She crouches beside woven tassel baskets on a sunny Andean stone terrace with mountains beyond, holding one red tassel. Crimson skirt and a cream woven off-shoulder wrap expose shoulders and back; open laughing mouth matches the planned expression. The body shows a side/back three-quarter view with the face toward camera; one hand is hidden behind the torso, the visible hand has four curled fingers and a thumb around the tassel. Both bent legs and sandal feet join naturally."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "A steaming outdoor stone bath and cedar platform appear in winter morning light. She reclines on her side in a coral bandeau bikini and a loose hip towel; shoulders, abdomen and thigh stay visible. Her long blue ponytail and facial proportions match light. One elbow supports the chin and the other forearm rests on the platform. Four curled fingers on the low hand, thumb occluded; chin-hand fingers are hidden by jaw. Crop is below hips rather than strict waist-up, recorded.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "A steaming outdoor stone bath and cedar platform appear in winter morning light. She reclines on her side in a coral bandeau bikini and a loose hip towel; shoulders, abdomen and thigh stay visible. Her long blue ponytail and facial proportions match light. One elbow supports the chin and the other forearm rests on the platform. Four curled fingers on the low hand, thumb occluded; chin-hand fingers are hidden by jaw. Crop is below hips rather than strict waist-up, recorded.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "onsen_after",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "pose": "lying_side",
+          "expr": "cold_smile",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "strapless top"
+          ],
+          "lead": "action"
+        },
+        "observed": "A steaming outdoor stone bath and cedar platform appear in winter morning light. She reclines on her side in a coral bandeau bikini and a loose hip towel; shoulders, abdomen and thigh stay visible. Her long blue ponytail and facial proportions match light. One elbow supports the chin and the other forearm rests on the platform. Four curled fingers on the low hand, thumb occluded; chin-hand fingers are hidden by jaw. Crop is below hips rather than strict waist-up, recorded."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "comparison_characters": [
+      "라우드본",
+      "꾸왁스",
+      "아꾸왁"
+    ],
+    "visual_observations": "Compared actual images of 라우드본, 꾸왁스 and 아꾸왁, and all three new outputs side by side. This set uses a seated festival picnic in a halter jumpsuit, a crouched mountain textile market in woven separates, and a close side-reclining winter bath in a coral bikini. The two recent 온천 images have rear-facing upright bathing silhouettes; this close reclining frontal face and towel/platform layout are distinct. New activities, garment construction and body silhouettes differ.",
+    "similarity_check": "generated_images/exec-65a4c36f-a36e-42d8-a27c-90caf5a2b051.png — 가까운 컷 0장(점수 245 미만)\n     281  나옹_glossy_promo_f_casual3.webp\n     286  왕큰부리_glossy_promo_f_casual3.webp\n     287  로파파_glossy_promo_f_casual3.webp\ngenerated_images/exec-8d01d475-b9a9-4cac-ba55-44fa96b291d3.png — 가까운 컷 0장(점수 245 미만)\n     271  레디바_glossy_promo_f_casual3.webp\n     280  야도킹_glossy_promo_f_casual3.webp\n     281  크랩_glossy_promo_f_casual2.webp\ngenerated_images/exec-ddda1d87-1824-43d8-b37e-c1d7c62da84f.png — 가까운 컷 0장(점수 245 미만)\n     289  네오라이트_glossy_promo_f_casual1.webp\n     290  캐이시_glossy_promo_f_casual2.webp\n     291  두르쿤_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

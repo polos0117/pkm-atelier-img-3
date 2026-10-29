@@ -1,0 +1,709 @@
+{
+  "batch_plan": {
+    "session": "quaquaval-lechonk-20261029-5a45",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "웨이니발",
+        "species": "quaquaval-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "festival_daily",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "sitting_floor",
+            "expr": "surprised",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "traditional",
+            "ex": "poncho_andes",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "squatting",
+            "expr": "laughing_open",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "onsen_after",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "pose": "lying_side",
+            "expr": "cold_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "traditional",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "front",
+            "crouching",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "맛보돈",
+        "species": "lechonk-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "night_robe",
+            "garments": [
+              "lingerie_set",
+              "robe"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "elf_costume",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "calm",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_rain_shelter",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "gentle_pat",
+            "expr": "nostalgic",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe",
+            "coat",
+            "shirt",
+            "trousers"
+          ],
+          "orient": [
+            "low_angle",
+            "reclining",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "characters": [
+    {
+      "card": "웨이니발",
+      "species": "quaquaval-20261029",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "everyday_basic",
+          "ex": "festival_daily",
+          "garments": [
+            "jumpsuit"
+          ],
+          "orient": "front",
+          "frame": "chest_up",
+          "pose": "sitting_floor",
+          "expr": "surprised",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "side cutouts",
+            "halter neck"
+          ],
+          "lead": "light"
+        },
+        {
+          "cut": 2,
+          "cat": "traditional",
+          "ex": "poncho_andes",
+          "garments": [
+            "skirt"
+          ],
+          "orient": "crouching",
+          "frame": "environmental",
+          "pose": "squatting",
+          "expr": "laughing_open",
+          "lens": "natural50",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "off-shoulder neckline",
+            "open back"
+          ],
+          "lead": "place"
+        },
+        {
+          "cut": 3,
+          "cat": "swimwear",
+          "ex": "onsen_after",
+          "garments": [
+            "bikini"
+          ],
+          "orient": "front_3q",
+          "frame": "waist_up",
+          "pose": "lying_side",
+          "expr": "cold_smile",
+          "lens": "wide24",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "subtle",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "strapless top"
+          ],
+          "lead": "action"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            3
+          ],
+          "two": false,
+          "prev": [
+            2
+          ]
+        },
+        "low": [
+          "everyday_basic",
+          "partner_care",
+          "travel_exploration",
+          "traditional",
+          "fantasy_costume"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "jumpsuit"
+        ],
+        "orient": [
+          "front",
+          "crouching",
+          "front_3q"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "everyday_basic",
+      "ex": "festival_daily",
+      "garments": [
+        "jumpsuit"
+      ],
+      "orient": "front",
+      "frame": "chest_up",
+      "pose": "sitting_floor",
+      "expr": "surprised",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "side cutouts",
+        "halter neck"
+      ],
+      "lead": "light",
+      "actual_scene_settings": {
+        "expr": "surprised",
+        "pose": "sitting_floor",
+        "orient": "front",
+        "scene": "Golden fireworks illuminate a riverside neighborhood festival at night; she watches the first burst beside a picnic mat and paper lanterns.",
+        "outfit": "An ivory halter jumpsuit with broad side cutouts exposes her shoulders and waist; a small blue droplet ear stud is the only species ornament.",
+        "frame": "chest_up",
+        "lens": "documentary35",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "everyday_basic",
+        "catCustom": "",
+        "ex": "festival_daily",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: at a local daytime festival in a comfortable casual outfit, browsing food stalls",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Golden fireworks illuminate a riverside neighborhood festival at night; she watches the first burst beside a picnic mat and paper lanterns.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: Golden fireworks illuminate a riverside neighborhood festival at night; she watches the first burst beside a picnic mat and paper lanterns."
+        },
+        {
+          "field": "outfit",
+          "content": "An ivory halter jumpsuit with broad side cutouts exposes her shoulders and waist; a small blue droplet ear stud is the only species ornament.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: An ivory halter jumpsuit with broad side cutouts exposes her shoulders and waist; a small blue droplet ear stud is the only species ornament."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "She is seated watching a fireworks burst, so mostly posed fits the activity.",
+        "source_influence": "A blue droplet stud and nearby feather-shaped festival decoration provide balanced recognition.",
+        "separates_preference": "The ivory halter jumpsuit is a single garment, matching balanced separates."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "traditional",
+      "ex": "poncho_andes",
+      "garments": [
+        "skirt"
+      ],
+      "orient": "crouching",
+      "frame": "environmental",
+      "pose": "squatting",
+      "expr": "laughing_open",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "open back"
+      ],
+      "lead": "place",
+      "actual_scene_settings": {
+        "expr": "laughing_open",
+        "pose": "squatting",
+        "orient": "crouching",
+        "scene": "On a stone terrace above an Andean market, she selects woven tassels from a shallow craft basket; ochre masonry and distant mountain ridges surround the stall.",
+        "outfit": "A crimson woven skirt and a cream off-shoulder wrap top with an open back form the Andean textile ensemble, with geometric borders and a short fringed shawl gathered at her waist.",
+        "frame": "environmental",
+        "lens": "natural50",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "traditional",
+        "catCustom": "",
+        "ex": "poncho_andes",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: an Andean woven layer — a striped handwoven poncho or lliclla over a pollera skirt and a felt hat",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "On a stone terrace above an Andean market, she selects woven tassels from a shallow craft basket; ochre masonry and distant mountain ridges surround the stall.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: On a stone terrace above an Andean market, she selects woven tassels from a shallow craft basket; ochre masonry and distant mountain ridges surround the stall."
+        },
+        {
+          "field": "outfit",
+          "content": "A crimson woven skirt and a cream off-shoulder wrap top with an open back form the Andean textile ensemble, with geometric borders and a short fringed shawl gathered at her waist.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A crimson woven skirt and a cream off-shoulder wrap top with an open back form the Andean textile ensemble, with geometric borders and a short fringed shawl gathered at her waist."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Selecting a tassel from a basket is a small stationary crouched action.",
+        "source_influence": "The woven market remains the main scene, while small blue feather ornaments preserve balanced recognition.",
+        "separates_preference": "A skirt and independent wrap top create clear separates."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "swimwear",
+      "ex": "onsen_after",
+      "garments": [
+        "bikini"
+      ],
+      "orient": "front_3q",
+      "frame": "waist_up",
+      "pose": "lying_side",
+      "expr": "cold_smile",
+      "lens": "wide24",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "strapless top"
+      ],
+      "lead": "action",
+      "actual_scene_settings": {
+        "expr": "cold_smile",
+        "pose": "lying_side",
+        "orient": "front_3q",
+        "scene": "She cools off after her soak on a broad dry cedar resting platform beside the stone hot-spring basin; early winter steam rises through the blue morning light.",
+        "outfit": "A strapless coral bikini with high-cut bottoms is visible beneath a short bath towel wrapped loosely at her hips, leaving her shoulders, upper chest and part of her thigh uncovered.",
+        "frame": "waist_up",
+        "lens": "wide24",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "swimwear",
+        "catCustom": "",
+        "ex": "onsen_after",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "subtle",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: at an outdoor hot-spring bathing area after a soak, wrapped in a towel, steam and a stone basin around her",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "She cools off after her soak on a broad dry cedar resting platform beside the stone hot-spring basin; early winter steam rises through the blue morning light.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: She cools off after her soak on a broad dry cedar resting platform beside the stone hot-spring basin; early winter steam rises through the blue morning light."
+        },
+        {
+          "field": "outfit",
+          "content": "A strapless coral bikini with high-cut bottoms is visible beneath a short bath towel wrapped loosely at her hips, leaving her shoulders, upper chest and part of her thigh uncovered.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A strapless coral bikini with high-cut bottoms is visible beneath a short bath towel wrapped loosely at her hips, leaving her shoulders, upper chest and part of her thigh uncovered."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Cooling off after a bath is a stationary rest scene.",
+        "source_influence": "The coral swimsuit and winter bath dominate; only small retained ornaments provide subtle source influence.",
+        "separates_preference": "The bikini and towel form one bathing look with balanced separates."
+      }
+    }
+  ],
+  "planner_check": "passed against full Git-backed metadata inventory",
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/quaquaval-lechonk-20261029-5a45.json",
+  "diversity_comparison": {
+    "comparison_characters": [
+      "라우드본",
+      "꾸왁스",
+      "아꾸왁"
+    ],
+    "visual_observations": "Compared actual images of 라우드본, 꾸왁스 and 아꾸왁, and all three new outputs side by side. This set uses a seated festival picnic in a halter jumpsuit, a crouched mountain textile market in woven separates, and a close side-reclining winter bath in a coral bikini. The two recent 온천 images have rear-facing upright bathing silhouettes; this close reclining frontal face and towel/platform layout are distinct. New activities, garment construction and body silhouettes differ.",
+    "similarity_check": "generated_images/exec-65a4c36f-a36e-42d8-a27c-90caf5a2b051.png — 가까운 컷 0장(점수 245 미만)\n     281  나옹_glossy_promo_f_casual3.webp\n     286  왕큰부리_glossy_promo_f_casual3.webp\n     287  로파파_glossy_promo_f_casual3.webp\ngenerated_images/exec-8d01d475-b9a9-4cac-ba55-44fa96b291d3.png — 가까운 컷 0장(점수 245 미만)\n     271  레디바_glossy_promo_f_casual3.webp\n     280  야도킹_glossy_promo_f_casual3.webp\n     281  크랩_glossy_promo_f_casual2.webp\ngenerated_images/exec-ddda1d87-1824-43d8-b37e-c1d7c62da84f.png — 가까운 컷 0장(점수 245 미만)\n     289  네오라이트_glossy_promo_f_casual1.webp\n     290  캐이시_glossy_promo_f_casual2.webp\n     291  두르쿤_glossy_promo_f_casual3.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "inventory": "Existing shared Git object database reused. Only target images checked out. Historical UI metadata read virtually by Git blob, without a duplicate records checkout."
+}
