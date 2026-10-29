@@ -1,0 +1,248 @@
+[
+  {
+    "card": "맛보돈",
+    "slot": "light",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-94c5e6d1-9714-4ce3-907e-a1e4d487369a.png",
+      "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80",
+      "session_only": true
+    },
+    "references": [],
+    "output": "맛보돈_light_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "ad46874606e51216fd50c4f17289b3d1bec072747911f46deb981ded69d5b8f0"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "heavy",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-0ba7fa07-2fa0-49f7-b52d-e618ed6dddb6.png",
+      "sha256": "d3566ed6347fef0a88621f82e2a04f4024e15f072884101d72e972d5a4df7928",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_heavy_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "d53ac2d2b0e313a9f949abc7e4214c4a3ea201f0890e71b3ee4e75bce0ac5ccb"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "mobility",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-2e491b77-66d1-48ef-84a4-9e8ac0aa4c19.png",
+      "sha256": "0670b72239dc7c0cb4a5e54deeb7105b1178e5b8332e17929cdebfb4b8f8ab5c",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_mobility_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "a127ebe15df5a4fe0f04894491687d913f552a6acd1ccb24216f7f36fe525642"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "light_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-0a44c211-432e-4f92-b652-1843a6486d61.png",
+      "sha256": "2e21a634042a591546896065a8b2c4d3a300e12e4effd1fed38b1aff2ccdd970",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_light_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "a036469dd773bb2f12df72f04c64835b16f3be9fbeadc502e010d1fc524db236"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "heavy_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-4b8e5e04-1a39-4808-9bf1-4e6c31c8f346.png",
+      "sha256": "18a031df454bae02e3c1b81a22c842f0fbde9870683ead63f4b9aa92d9dcf071",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "heavy",
+        "sha256": "d3566ed6347fef0a88621f82e2a04f4024e15f072884101d72e972d5a4df7928"
+      },
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_heavy_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "e239f8b0ff7589a5c534bc0946428daa175d7753cdc43fb615d3b33d6c2c4536"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "mobility_overdrive",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-77ad3cc5-5e07-4ece-b4d4-c86f78e32139.png",
+      "sha256": "42c6c34eb5992a3c1ccf8e498b7ac9d564c86c85ed74c46aaaf38d43854151ca",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "mobility",
+        "sha256": "0670b72239dc7c0cb4a5e54deeb7105b1178e5b8332e17929cdebfb4b8f8ab5c"
+      },
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_mobility_overdrive_glossy_promo_f.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "b5d80e1582fae68a719721a6679938ee0a897899e4482a687a19fdf5e8d81635"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "casual2",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-ff546dc4-d628-404a-a124-12fbd698a8b7.png",
+      "sha256": "bd0ad07c7d78081e63c39bcbd79c57c39d7e0df1846c7e0ea1cbb0ba9a3d5519",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_glossy_promo_f_casual2.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "3dcb7da7f055ec6c9b23c462bc63f358bfd09b1c770b641c24f1883b1f9d8ac9"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "casual3",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-43d63944-f741-486a-a892-8a44d99b61b9.png",
+      "sha256": "4dd5ad32550970967818cd84172f5e0944924dc844fdfddcf78567872d7c6550",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_glossy_promo_f_casual3.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "60dbe93716e7e75271ae810d821282289beee21c4dd7baeba2b9d606f7786bf3"
+  },
+  {
+    "card": "맛보돈",
+    "slot": "casual1",
+    "style": "glossy_promo",
+    "gender": "f",
+    "style_basis": "Actual prompt.html style UI selection",
+    "source": {
+      "session_path": "/workspace/scratch/5a4598e2519e/generated_images/exec-f730c42d-916a-496e-a3a2-2a955debc6fc.png",
+      "sha256": "447fe0b297f044c6301629677860e9334012db49e3d8b5cc30370f983124ce40",
+      "session_only": true
+    },
+    "references": [
+      {
+        "slot": "light",
+        "sha256": "30b754d476c784bf334d3401839ca3966e094a9f8e85f1ac28f2f4e426f61d80"
+      }
+    ],
+    "output": "맛보돈_glossy_promo_f_casual1.webp",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WEBP",
+    "quality": 85,
+    "method": 6,
+    "sha256": "e0a06ad38257b8ee8ffb488017fe49a79496a8a634b850ccd59ded02eddb66d2"
+  }
+]

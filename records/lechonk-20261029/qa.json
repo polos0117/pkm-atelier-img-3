@@ -1,0 +1,213 @@
+{
+  "card": "맛보돈",
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "Single adult woman, head and both boot soles inside a 1024×1536 frame; two forearms attach to the shoulders and two legs to the pelvis. Soft short rounded face, brown eyes, short brown-black bob with pink ends. Pink-edged ear ornaments and spiral sash are costume; human face and skin. Both black gloves continue from the forearms.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "Same face and hair as light. Overlapping pink and black plates cover shoulders, hip guards, knees and shins; the torso stays human-sized and face remains open. Two arms and legs; the glove positions remain natural.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "Same canonical person. Split pink shoulder, hip and calf fins with compact pink thrusters leave air between plates and keep the knees free. Both boots remain in frame; no extra limb or giant wing.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the light card. Warm gold light and mechanical joints show beneath hinged pink and black panels; brown irises stay their original color. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the heavy card. Warm gold light and mechanical joints show beneath hinged pink and black panels; brown irises stay their original color. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "Same camera, body scale, head angle, two-hand pose and foot locations as the mobility card. Warm gold light and mechanical joints show beneath hinged pink and black panels; brown irises stay their original color. No weapon or new helmet appears.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Screen-left: thumb is on the body side and four curved finger silhouettes overlap naturally. Screen-right: thumb crosses the relaxed four fingers, with the rear digits partly occluded. Two wrists only; no detached hand.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "A warm lantern is raised at a fern-filled forest costume lounge. Leaf-trimmed green dress, short cream half-cape and pointed ear-tip accessories show the elf theme, shoulders and neckline exposed. She sits cross-legged with both feet visible; the output is full body rather than planned chest-up. Lantern hand has five curled/overlapping digits around the handle; opposite hand rests on the cushion with some fingers cropped at the border. Face, brown eyes and short bob remain the canonical person.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "A warm lantern is raised at a fern-filled forest costume lounge. Leaf-trimmed green dress, short cream half-cape and pointed ear-tip accessories show the elf theme, shoulders and neckline exposed. She sits cross-legged with both feet visible; the output is full body rather than planned chest-up. Lantern hand has five curled/overlapping digits around the handle; opposite hand rests on the cushion with some fingers cropped at the border. Face, brown eyes and short bob remain the canonical person.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 2,
+          "cat": "fantasy_costume",
+          "ex": "elf_costume",
+          "garments": [
+            "coat",
+            "dress"
+          ],
+          "orient": "reclining",
+          "frame": "chest_up",
+          "pose": "cross_legged",
+          "expr": "calm",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        },
+        "observed": "A warm lantern is raised at a fern-filled forest costume lounge. Leaf-trimmed green dress, short cream half-cape and pointed ear-tip accessories show the elf theme, shoulders and neckline exposed. She sits cross-legged with both feet visible; the output is full body rather than planned chest-up. Lantern hand has five curled/overlapping digits around the handle; opposite hand rests on the cushion with some fingers cropped at the border. Face, brown eyes and short bob remain the canonical person."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "Under a covered wet porch, she presses a towel onto exactly one small Lechonk companion; a resting transparent umbrella, rain and clay pots establish shelter. Cropped yellow tied shirt, short denim trouser shorts and sandals expose waist and legs. She crouches in profile, looking upward with a gentle expression rather than a pronounced nostalgic look. Both arms connect naturally; foreground hand has four fingers across the towel and thumb hidden along its fold, the far hand/forearm is largely hidden behind the near arm and companion. Two bent legs and two sandal feet.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "Under a covered wet porch, she presses a towel onto exactly one small Lechonk companion; a resting transparent umbrella, rain and clay pots establish shelter. Cropped yellow tied shirt, short denim trouser shorts and sandals expose waist and legs. She crouches in profile, looking upward with a gentle expression rather than a pronounced nostalgic look. Both arms connect naturally; foreground hand has four fingers across the towel and thumb hidden along its fold, the far hand/forearm is largely hidden behind the near arm and companion. Two bent legs and two sandal feet.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_rain_shelter",
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "orient": "side",
+          "frame": "full_body",
+          "pose": "gentle_pat",
+          "expr": "nostalgic",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "mini length"
+          ],
+          "lead": "light"
+        },
+        "observed": "Under a covered wet porch, she presses a towel onto exactly one small Lechonk companion; a resting transparent umbrella, rain and clay pots establish shelter. Cropped yellow tied shirt, short denim trouser shorts and sandals expose waist and legs. She crouches in profile, looking upward with a gentle expression rather than a pronounced nostalgic look. Both arms connect naturally; foreground hand has four fingers across the towel and thumb hidden along its fold, the far hand/forearm is largely hidden behind the near arm and companion. Two bent legs and two sandal feet."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "She sits on a patterned rug beside a red velvet chaise, wearing jade satin lingerie and an open ivory silk robe; abdomen and upper thighs are exposed. One knee is raised, one leg folds across the rug. One hand supports her cheek; the other rests on the folded thigh. The chin hand has one thumb and four downward curled fingers; thigh-hand fingers partly disappear under robe cloth. Both arms trace to shoulders. The frame includes slippers and more of the legs than the planned three-quarter crop; recorded.",
+      "anatomy": {
+        "tool": "unavailable: mediapipe not installed; tool invocation returned exit 3",
+        "arms": 2,
+        "legs": 2,
+        "hands": "She sits on a patterned rug beside a red velvet chaise, wearing jade satin lingerie and an open ivory silk robe; abdomen and upper thighs are exposed. One knee is raised, one leg folds across the rug. One hand supports her cheek; the other rests on the folded thigh. The chin hand has one thumb and four downward curled fingers; thigh-hand fingers partly disappear under robe cloth. Both arms trace to shoulders. The frame includes slippers and more of the legs than the planned three-quarter crop; recorded.",
+        "overlay_checked": false,
+        "note": "Original image and hand crops visually reviewed. Occluded or cropped parts recorded in observations."
+      },
+      "selection_comparison": {
+        "planned": {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "night_robe",
+          "garments": [
+            "lingerie_set",
+            "robe"
+          ],
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "pose": "one_knee_up",
+          "expr": "playful",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "side cutouts"
+          ],
+          "lead": "action"
+        },
+        "observed": "She sits on a patterned rug beside a red velvet chaise, wearing jade satin lingerie and an open ivory silk robe; abdomen and upper thighs are exposed. One knee is raised, one leg folds across the rug. One hand supports her cheek; the other rests on the folded thigh. The chin hand has one thumb and four downward curled fingers; thigh-hand fingers partly disappear under robe cloth. Both arms trace to shoulders. The frame includes slippers and more of the legs than the planned three-quarter crop; recorded."
+      }
+    }
+  },
+  "diversity_comparison": {
+    "comparison_characters": [
+      "라우드본",
+      "꾸왁스",
+      "아꾸왁",
+      "웨이니발"
+    ],
+    "visual_observations": "Compared actual images of 라우드본, 꾸왁스, 아꾸왁 and the three new Quaquaval scenes. Lechonk uses a raised-knee rug pose in a satin robe, a cross-legged lantern party costume, and a side crouch wiping a companion on a rainy porch. Although all are low/seated activities, leg arrangements, hand tasks, clothing silhouettes, lighting and subject placement differ visibly. The lantern-and-cape scene differs from the recent flamenco-stage gown and the porch care scene adds a single small companion, unlike the other reviewed outputs.",
+    "similarity_check": "generated_images/exec-f730c42d-916a-496e-a3a2-2a955debc6fc.png — 가까운 컷 0장(점수 245 미만)\n     288  빈티나_glossy_promo_f_casual1.webp\n     289  쉐이미_glossy_promo_f_casual3.webp\n     292  암트르_glossy_promo_f_casual3.webp\ngenerated_images/exec-ff546dc4-d628-404a-a124-12fbd698a8b7.png — 가까운 컷 0장(점수 245 미만)\n     260  왕큰부리_glossy_promo_f_casual2.webp\n     287  피콘_glossy_promo_f_casual1.webp\n     296  먹고자_glossy_promo_f_casual2.webp\ngenerated_images/exec-43d63944-f741-486a-a892-8a44d99b61b9.png — 가까운 컷 0장(점수 245 미만)\n     296  아이스크_glossy_promo_f_casual3.webp\n     299  메깅_glossy_promo_f_casual1.webp\n     300  통통코_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  }
+}

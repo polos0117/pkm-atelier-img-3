@@ -1,0 +1,735 @@
+{
+  "batch_plan": {
+    "session": "quaquaval-lechonk-20261029-5a45",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "웨이니발",
+        "species": "quaquaval-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "everyday_basic",
+            "ex": "festival_daily",
+            "garments": [
+              "jumpsuit"
+            ],
+            "orient": "front",
+            "frame": "chest_up",
+            "pose": "sitting_floor",
+            "expr": "surprised",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "side cutouts",
+              "halter neck"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 2,
+            "cat": "traditional",
+            "ex": "poncho_andes",
+            "garments": [
+              "skirt"
+            ],
+            "orient": "crouching",
+            "frame": "environmental",
+            "pose": "squatting",
+            "expr": "laughing_open",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "cat": "swimwear",
+            "ex": "onsen_after",
+            "garments": [
+              "bikini"
+            ],
+            "orient": "front_3q",
+            "frame": "waist_up",
+            "pose": "lying_side",
+            "expr": "cold_smile",
+            "lens": "wide24",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "strapless top"
+            ],
+            "lead": "action"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "everyday_basic",
+            "partner_care",
+            "travel_exploration",
+            "traditional",
+            "fantasy_costume"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "jumpsuit"
+          ],
+          "orient": [
+            "front",
+            "crouching",
+            "front_3q"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "맛보돈",
+        "species": "lechonk-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "cat": "lingerie",
+            "ex": "night_robe",
+            "garments": [
+              "lingerie_set",
+              "robe"
+            ],
+            "orient": "low_angle",
+            "frame": "three_quarter",
+            "pose": "one_knee_up",
+            "expr": "playful",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "cat": "fantasy_costume",
+            "ex": "elf_costume",
+            "garments": [
+              "coat",
+              "dress"
+            ],
+            "orient": "reclining",
+            "frame": "chest_up",
+            "pose": "cross_legged",
+            "expr": "calm",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "off-shoulder neckline"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "cat": "partner_care",
+            "ex": "care_rain_shelter",
+            "garments": [
+              "shirt",
+              "trousers"
+            ],
+            "orient": "side",
+            "frame": "full_body",
+            "pose": "gentle_pat",
+            "expr": "nostalgic",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "mini length"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1
+            ],
+            "two": false,
+            "prev": [
+              3
+            ]
+          },
+          "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
+            "partner_care",
+            "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
+            "homewear",
+            "private_evening",
+            "traditional",
+            "subculture_fashion",
+            "nightlife",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "robe",
+            "coat",
+            "shirt",
+            "trousers"
+          ],
+          "orient": [
+            "low_angle",
+            "reclining",
+            "side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "characters": [
+    {
+      "card": "맛보돈",
+      "species": "lechonk-20261029",
+      "cuts": [
+        {
+          "cut": 1,
+          "cat": "lingerie",
+          "ex": "night_robe",
+          "garments": [
+            "lingerie_set",
+            "robe"
+          ],
+          "orient": "low_angle",
+          "frame": "three_quarter",
+          "pose": "one_knee_up",
+          "expr": "playful",
+          "lens": "telephoto135",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "high-cut leg",
+            "side cutouts"
+          ],
+          "lead": "action"
+        },
+        {
+          "cut": 2,
+          "cat": "fantasy_costume",
+          "ex": "elf_costume",
+          "garments": [
+            "coat",
+            "dress"
+          ],
+          "orient": "reclining",
+          "frame": "chest_up",
+          "pose": "cross_legged",
+          "expr": "calm",
+          "lens": "portrait85",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "expose": [
+            "plunging neckline",
+            "off-shoulder neckline"
+          ],
+          "lead": "detail"
+        },
+        {
+          "cut": 3,
+          "cat": "partner_care",
+          "ex": "care_rain_shelter",
+          "garments": [
+            "shirt",
+            "trousers"
+          ],
+          "orient": "side",
+          "frame": "full_body",
+          "pose": "gentle_pat",
+          "expr": "nostalgic",
+          "lens": "documentary35",
+          "aspect": "2:3",
+          "axes": {
+            "overall_intensity": "strong",
+            "skin_exposure": "bold",
+            "action_level": "balanced",
+            "source_influence": "balanced",
+            "separates_preference": "prefer separates"
+          },
+          "expose": [
+            "cropped hem",
+            "mini length"
+          ],
+          "lead": "light"
+        }
+      ],
+      "why": {
+        "required": {
+          "slots": [
+            1
+          ],
+          "two": false,
+          "prev": [
+            3
+          ]
+        },
+        "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
+          "partner_care",
+          "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
+          "homewear",
+          "private_evening",
+          "traditional",
+          "subculture_fashion",
+          "nightlife",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
+        ]
+      },
+      "claims": {
+        "garment": [
+          "robe",
+          "coat",
+          "shirt",
+          "trousers"
+        ],
+        "orient": [
+          "low_angle",
+          "reclining",
+          "side"
+        ],
+        "frame": []
+      }
+    }
+  ],
+  "casual_plan": [
+    {
+      "cut": 1,
+      "cat": "lingerie",
+      "ex": "night_robe",
+      "garments": [
+        "lingerie_set",
+        "robe"
+      ],
+      "orient": "low_angle",
+      "frame": "three_quarter",
+      "pose": "one_knee_up",
+      "expr": "playful",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "high-cut leg",
+        "side cutouts"
+      ],
+      "lead": "action",
+      "actual_scene_settings": {
+        "expr": "playful",
+        "pose": "one_knee_up",
+        "orient": "low_angle",
+        "scene": "She pauses beside a velvet chaise during a relaxed evening at home, one slipper resting on a low footstool; a shaded amber lamp warms the room.",
+        "outfit": "A jade satin lingerie set with high-cut side openings sits beneath a loosely tied open ivory silk robe; the robe parts reveal her waist and upper thighs.",
+        "frame": "three_quarter",
+        "lens": "telephoto135",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "lingerie",
+        "catCustom": "",
+        "ex": "night_robe",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "balanced",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: a lingerie set worn under an open silk night robe with a tied sash",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "She pauses beside a velvet chaise during a relaxed evening at home, one slipper resting on a low footstool; a shaded amber lamp warms the room.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: She pauses beside a velvet chaise during a relaxed evening at home, one slipper resting on a low footstool; a shaded amber lamp warms the room."
+        },
+        {
+          "field": "outfit",
+          "content": "A jade satin lingerie set with high-cut side openings sits beneath a loosely tied open ivory silk robe; the robe parts reveal her waist and upper thighs.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A jade satin lingerie set with high-cut side openings sits beneath a loosely tied open ivory silk robe; the robe parts reveal her waist and upper thighs."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "The raised-knee lounge pose is still, so mostly posed fits the robe scene.",
+        "source_influence": "A small Lechonk-themed cushion provides balanced source recognition while the robe stays ivory and jade.",
+        "separates_preference": "Lingerie and robe read as one layered ensemble, matching balanced."
+      }
+    },
+    {
+      "cut": 2,
+      "cat": "fantasy_costume",
+      "ex": "elf_costume",
+      "garments": [
+        "coat",
+        "dress"
+      ],
+      "orient": "reclining",
+      "frame": "chest_up",
+      "pose": "cross_legged",
+      "expr": "calm",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "strong",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "off-shoulder neckline"
+      ],
+      "lead": "detail",
+      "actual_scene_settings": {
+        "expr": "calm",
+        "pose": "cross_legged",
+        "orient": "reclining",
+        "scene": "The brass lantern contains a warm amber glow; fern arrangements and gauzy tree silhouettes frame the forest-themed costume party lounge.",
+        "outfit": "A deep emerald leaf-trimmed short dress has a plunging neckline and bare shoulders; a cropped cream hooded coat shaped like a half-cape rests open, and delicate pointed ear-tip accessories complete the elf costume.",
+        "frame": "chest_up",
+        "lens": "portrait85",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "fantasy_costume",
+        "catCustom": "",
+        "ex": "elf_costume",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "mostly posed",
+          "source_influence": "strong",
+          "separates_preference": "balanced"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips, raising a lantern at a forest-themed costume party",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "The brass lantern contains a warm amber glow; fern arrangements and gauzy tree silhouettes frame the forest-themed costume party lounge.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: The brass lantern contains a warm amber glow; fern arrangements and gauzy tree silhouettes frame the forest-themed costume party lounge."
+        },
+        {
+          "field": "outfit",
+          "content": "A deep emerald leaf-trimmed short dress has a plunging neckline and bare shoulders; a cropped cream hooded coat shaped like a half-cape rests open, and delicate pointed ear-tip accessories complete the elf costume.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A deep emerald leaf-trimmed short dress has a plunging neckline and bare shoulders; a cropped cream hooded coat shaped like a half-cape rests open, and delicate pointed ear-tip accessories complete the elf costume."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Holding up the lantern while sitting cross-legged is primarily posed.",
+        "source_influence": "The strong setting is carried by the recognizable short bob and retained personal coloring within an elf party costume; no armor is carried over.",
+        "separates_preference": "Dress and cropped half-cape remain a unified costume, matching balanced."
+      }
+    },
+    {
+      "cut": 3,
+      "cat": "partner_care",
+      "ex": "care_rain_shelter",
+      "garments": [
+        "shirt",
+        "trousers"
+      ],
+      "orient": "side",
+      "frame": "full_body",
+      "pose": "gentle_pat",
+      "expr": "nostalgic",
+      "lens": "documentary35",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "balanced",
+        "source_influence": "balanced",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "cropped hem",
+        "mini length"
+      ],
+      "lead": "light",
+      "actual_scene_settings": {
+        "expr": "nostalgic",
+        "pose": "gentle_pat",
+        "orient": "side",
+        "scene": "Cool rain light spills beneath the covered wooden porch; she wipes a small Lechonk companion dry with a soft towel, beside a resting umbrella and wet clay pots.",
+        "outfit": "A cropped lemon linen shirt tied at the waist and tailored mini-length trouser shorts expose her midriff and legs; simple flat sandals suit the wet porch.",
+        "frame": "full_body",
+        "lens": "documentary35",
+        "camera": "",
+        "custom": "",
+        "aspect": "2:3",
+        "cat": "partner_care",
+        "catCustom": "",
+        "ex": "care_rain_shelter",
+        "exCustom": "",
+        "axes": {
+          "overall_intensity": "strong",
+          "skin_exposure": "bold",
+          "action_level": "balanced",
+          "source_influence": "balanced",
+          "separates_preference": "prefer separates"
+        },
+        "action": {
+          "category": "",
+          "example": "",
+          "timing": "",
+          "equipment": "",
+          "power": "",
+          "effects": "",
+          "speed": "",
+          "environment": ""
+        },
+        "randomLocks": {
+          "cat": true,
+          "ex": true,
+          "expr": true,
+          "pose": true,
+          "orient": true,
+          "frame": true,
+          "lens": true,
+          "aspect": true,
+          "axes.overall_intensity": true,
+          "axes.skin_exposure": true,
+          "axes.action_level": true,
+          "axes.source_influence": true,
+          "axes.separates_preference": true
+        }
+      },
+      "example_verbatim": "Example scene: Wiping rain from a Pokémon companion with a towel under a covered porch, umbrellas resting nearby.",
+      "locks": {
+        "cat": true,
+        "ex": true,
+        "expr": true,
+        "pose": true,
+        "orient": true,
+        "frame": true,
+        "lens": true,
+        "aspect": true,
+        "axes.overall_intensity": true,
+        "axes.skin_exposure": true,
+        "axes.action_level": true,
+        "axes.source_influence": true,
+        "axes.separates_preference": true
+      },
+      "random_values": "Planner generated; no manual selection changes",
+      "manual_inputs": [
+        {
+          "field": "scene",
+          "content": "Cool rain light spills beneath the covered wooden porch; she wipes a small Lechonk companion dry with a soft towel, beside a resting umbrella and wet clay pots.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: Cool rain light spills beneath the covered wooden porch; she wipes a small Lechonk companion dry with a soft towel, beside a resting umbrella and wet clay pots."
+        },
+        {
+          "field": "outfit",
+          "content": "A cropped lemon linen shirt tied at the waist and tailored mini-length trouser shorts expose her midriff and legs; simple flat sandals suit the wet porch.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A cropped lemon linen shirt tied at the waist and tailored mini-length trouser shorts expose her midriff and legs; simple flat sandals suit the wet porch."
+        }
+      ],
+      "axes_reasons": {
+        "action_level": "Wiping rain from the companion is an ongoing hand task, fitting balanced action.",
+        "source_influence": "The single Lechonk companion gives balanced source presence while everyday clothing stays yellow and denim.",
+        "separates_preference": "A separate tied shirt and shorts are clear separates."
+      }
+    }
+  ],
+  "planner_check": "passed against full Git-backed metadata inventory",
+  "reservation": "pkm-atelier-img-2/records/casual-reservations/quaquaval-lechonk-20261029-5a45.json",
+  "diversity_comparison": {
+    "comparison_characters": [
+      "라우드본",
+      "꾸왁스",
+      "아꾸왁",
+      "웨이니발"
+    ],
+    "visual_observations": "Compared actual images of 라우드본, 꾸왁스, 아꾸왁 and the three new Quaquaval scenes. Lechonk uses a raised-knee rug pose in a satin robe, a cross-legged lantern party costume, and a side crouch wiping a companion on a rainy porch. Although all are low/seated activities, leg arrangements, hand tasks, clothing silhouettes, lighting and subject placement differ visibly. The lantern-and-cape scene differs from the recent flamenco-stage gown and the porch care scene adds a single small companion, unlike the other reviewed outputs.",
+    "similarity_check": "generated_images/exec-f730c42d-916a-496e-a3a2-2a955debc6fc.png — 가까운 컷 0장(점수 245 미만)\n     288  빈티나_glossy_promo_f_casual1.webp\n     289  쉐이미_glossy_promo_f_casual3.webp\n     292  암트르_glossy_promo_f_casual3.webp\ngenerated_images/exec-ff546dc4-d628-404a-a124-12fbd698a8b7.png — 가까운 컷 0장(점수 245 미만)\n     260  왕큰부리_glossy_promo_f_casual2.webp\n     287  피콘_glossy_promo_f_casual1.webp\n     296  먹고자_glossy_promo_f_casual2.webp\ngenerated_images/exec-43d63944-f741-486a-a892-8a44d99b61b9.png — 가까운 컷 0장(점수 245 미만)\n     296  아이스크_glossy_promo_f_casual3.webp\n     299  메깅_glossy_promo_f_casual1.webp\n     300  통통코_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+  },
+  "inventory": "Existing shared Git object database reused. Only target images checked out. Historical UI metadata read virtually by Git blob, without a duplicate records checkout."
+}
