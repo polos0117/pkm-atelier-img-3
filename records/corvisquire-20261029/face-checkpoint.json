@@ -1,0 +1,99 @@
+{
+  "design": {
+    "name": "파크로우",
+    "en": "Corvisquire",
+    "line": "파라꼬",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "oval",
+      "face length": "balanced",
+      "face width": "medium",
+      "jaw & chin": "square broad jaw",
+      "eye shape": "narrow",
+      "eye size": "medium",
+      "eye tilt": "upturned outer corners",
+      "eye spacing": "close-set eyes",
+      "eyebrows": "straight medium brows",
+      "nose character": "straight slender bridge",
+      "lips": "thin lips"
+    },
+    "why": "",
+    "cues": [
+      "몸 형태 wings → 눈꼬리 각도 올라간 눈꼬리",
+      "몸 형태 wings → 눈 간격 눈 사이가 가까운",
+      "‘gray beak’ → 코 곧고 가는 콧대"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 턱선 · 턱끝 부드럽고 둥근 턱 → 넓고 각진 사각 턱",
+    "hair": {
+      "hairstyle": "feathered",
+      "hair length": "medium",
+      "bangs": "side-swept bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘breast feathers’·몸 형태 wings에서 끝을 가볍게 친 페더컷(층 낸 컷) · 중간 길이 · 옆으로 넘긴 앞머리 — 파라꼬에서 이어 같은 묶음",
+    "hair_cues": [
+      "‘breast feathers’ → 헤어스타일 끝을 가볍게 친 페더컷"
+    ]
+  },
+  "source": {
+    "name": "파크로우",
+    "en": "Corvisquire",
+    "color": "blue",
+    "shape": "wings",
+    "features": [
+      {
+        "part": "crest",
+        "detail": "mask-like crest"
+      },
+      {
+        "part": "beak",
+        "detail": "gray beak"
+      },
+      {
+        "part": "talon",
+        "detail": "black talons"
+      },
+      {
+        "part": "feather",
+        "detail": "breast feathers"
+      },
+      {
+        "part": "foot",
+        "detail": "three-toed feet"
+      }
+    ],
+    "source": "https://bulbapedia.bulbagarden.net/wiki/Corvisquire_%28Pok%C3%A9mon%29",
+    "revision": 4624785,
+    "retrieved": "2026-09-20",
+    "sourceTextHash": "dd720a60794677859246a6d70eb481c795ef45aaaab6d7099d3d1250415cf4ca",
+    "method": "text-descriptor-extraction-v1",
+    "formScope": "base/species overview",
+    "status": "extracted"
+  },
+  "canonical": {
+    "slot": "light",
+    "card": "파크로우",
+    "style": "glossy_promo",
+    "basis": "prompt-pack selection",
+    "reference": null,
+    "original_sha256": "f6f53713dc32c51849309a97af279da4348ec573ee5e08cb76a9c6100ed301af",
+    "output": {
+      "file": "파크로우_light_glossy_promo_f.webp",
+      "sha256": "e7baf5731eefe65dd04eda9dfd81781869369db3a1ed4ec44a8e86c81da917d5",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP"
+    },
+    "prompt_sha256": "6b2c63cf6e20be7bc30afb48f066942f369502582aa158360be68149aeb87b4d"
+  },
+  "comparison": [
+    "파라꼬",
+    "곤율랭",
+    "웨이니발",
+    "맛보돈"
+  ],
+  "visual_findings": "Canonical jaw is broader/squarer than 파라꼬, with straighter brows and narrower eyes; charcoal feathered hair remains an evolution-line cue."
+}

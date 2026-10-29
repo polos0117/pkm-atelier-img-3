@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "파크로우",
+ "no": 822,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/3ea4a9736911/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Harbor roof tiles descend toward tiny dock lights beneath a clear midnight sky; a slim telescope stands beside a stone parapet.",
+   "outfit": "A fully lined heritage-patterned one-piece swimsuit with matching woven trim, a plunging neckline and a low open back, in warm rust and cream.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Place-led note adds harbor lights, sky and telescope support without changing stargazing.",
+    "outfit": "Keeps the heritage swimsuit and adds the planned plunge and open-back construction."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_roof / stargaze / swimwear / heritage_pattern_swim",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_roof",
+      "ko": "항구 마을 지붕 테라스",
+      "en": "a rooftop terrace above a Pokémon-world harbor town",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "stargaze",
+      "ko": "별 보기",
+      "en": "adjusting a small telescope to look at the stars",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "heritage_pattern_swim",
+      "ko": "전통 문양 수영복",
+      "en": "a swimsuit in a heritage textile pattern with matching trim"
+     }
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A coil of twine, a grooming brush and metal scoops cover the shop counter beneath amber closing-time lamps.",
+   "outfit": "Short work overalls over a fitted asymmetric tank top with one shoulder strap resting off the shoulder, and rubber boots; the overall shorts end high on the thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Detail-led note specifies which shop tools are being put away and the closing-time light.",
+    "outfit": "The selected overalls and tank are shortened and asymmetric to express the planned off-shoulder neckline and mini length."
+   },
+   "guide": {
+    "path": "in_pokemon / work_shop / tidy_tools / work / keeper_overalls",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_shop",
+      "ko": "여행 물품점",
+      "en": "a wooden travel-supply shop counter with route maps and feed pouches",
+      "group": "포켓몬 직업 현장"
+     },
+     "act": {
+      "key": "tidy_tools",
+      "ko": "도구 정리",
+      "en": "tidying her tools and supplies at the end of a shift",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "keeper_overalls",
+      "ko": "사육 작업복",
+      "en": "work overalls over a fitted tank top and rubber boots"
+     }
+    },
+    "garments": [
+     "overalls",
+     "tank"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "mini length"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Bright contest spotlights sweep beyond the spectator seats; soft confetti colors reflect from the stage.",
+   "outfit": "A playful cropped one-shoulder uniform-inspired costume with crisp lapels and decorative epaulettes, a short pleated skirt and a bare waist, in ivory and forest green.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "Light-led note adds contest spotlights and distant confetti without changing seated applause.",
+    "outfit": "Keeps the chosen event uniform while revealing one shoulder and the midriff as planned."
+   },
+   "guide": {
+    "path": "now / stage_contest / cheer_seat / roleplay / uniform_inspired",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_contest",
+      "ko": "대회 무대",
+      "en": "a contest or tournament stage under spotlights",
+      "group": "무대·행사"
+     },
+     "act": {
+      "key": "cheer_seat",
+      "ko": "관중석 응원",
+      "en": "clapping from a seat in the stands",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     }
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "bare midriff"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

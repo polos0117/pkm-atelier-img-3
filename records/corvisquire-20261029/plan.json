@@ -1,0 +1,377 @@
+{
+  "batch": {
+    "session": "rook-corv-3ea4a973",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "파크로우",
+        "species": "corvisquire-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "era": "in_pokemon",
+            "place": "pw_roof",
+            "act": "stargaze",
+            "ofam": "swimwear",
+            "item": "heritage_pattern_swim",
+            "garments": [
+              "swimsuit"
+            ],
+            "orient": "high_angle",
+            "frame": "full_body",
+            "pose": "standing_relaxed",
+            "expr": "mischievous",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "plunging neckline",
+              "open back"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 2,
+            "era": "in_pokemon",
+            "place": "work_shop",
+            "act": "tidy_tools",
+            "ofam": "work",
+            "item": "keeper_overalls",
+            "garments": [
+              "overalls",
+              "tank"
+            ],
+            "orient": "looking_away",
+            "frame": "three_quarter",
+            "pose": "on_tiptoe",
+            "expr": "determined",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "off-shoulder neckline",
+              "mini length"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "era": "now",
+            "place": "stage_contest",
+            "act": "cheer_seat",
+            "ofam": "roleplay",
+            "item": "uniform_inspired",
+            "garments": [
+              "uniform"
+            ],
+            "orient": "leaning_back",
+            "frame": "chest_up",
+            "pose": "",
+            "expr": "",
+            "lens": "portrait85",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "bare midriff"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              1,
+              3
+            ],
+            "two": true,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "arcade",
+            "studio",
+            "water",
+            "night",
+            "evening",
+            "travel",
+            "pokeworld",
+            "work",
+            "partner",
+            "berry"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "swimsuit",
+            "overalls",
+            "tank",
+            "uniform"
+          ],
+          "orient": [
+            "high_angle",
+            "looking_away",
+            "leaning_back"
+          ],
+          "frame": []
+        }
+      },
+      {
+        "card": "아머까오",
+        "species": "corviknight-20261029",
+        "cuts": [
+          {
+            "cut": 1,
+            "era": "release",
+            "place": "studio_art",
+            "act": "bead_craft",
+            "ofam": "homewear",
+            "item": "offshoulder_knit",
+            "garments": [
+              "knit_top",
+              "shorts"
+            ],
+            "orient": "over_shoulder",
+            "frame": "waist_up",
+            "pose": "",
+            "expr": "gentle",
+            "lens": "telephoto135",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "halter neck"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "era": "now",
+            "place": "night_rooftop",
+            "act": "club_dance",
+            "ofam": "evening",
+            "item": "silk_robe_slip",
+            "garments": [
+              "robe",
+              "slip"
+            ],
+            "orient": "leaning_forward",
+            "frame": "face_close",
+            "pose": "",
+            "expr": "proud",
+            "lens": "natural50",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "place"
+          },
+          {
+            "cut": 3,
+            "era": "now",
+            "place": "home_living",
+            "act": "rest_seat",
+            "ofam": "lingerie",
+            "item": "babydoll",
+            "garments": [
+              "slip"
+            ],
+            "orient": "looking_down",
+            "frame": "environmental",
+            "pose": "finger_to_lips",
+            "expr": "half_smile",
+            "lens": "documentary35",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "strapless top",
+              "plunging neckline"
+            ],
+            "lead": "light"
+          }
+        ],
+        "why": {
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              1,
+              3
+            ]
+          },
+          "low": [
+            "arcade",
+            "studio",
+            "water",
+            "night",
+            "evening",
+            "travel",
+            "work",
+            "partner",
+            "berry"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "knit_top",
+            "slip"
+          ],
+          "orient": [
+            "over_shoulder",
+            "leaning_forward",
+            "looking_down"
+          ],
+          "frame": [
+            "face_close"
+          ]
+        }
+      }
+    ]
+  },
+  "casual_plan": [
+    {
+      "cut": 1,
+      "era": "in_pokemon",
+      "place": "pw_roof",
+      "act": "stargaze",
+      "ofam": "swimwear",
+      "item": "heritage_pattern_swim",
+      "garments": [
+        "swimsuit"
+      ],
+      "orient": "high_angle",
+      "frame": "full_body",
+      "pose": "standing_relaxed",
+      "expr": "mischievous",
+      "lens": "telephoto135",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "balanced",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "plunging neckline",
+        "open back"
+      ],
+      "lead": "place"
+    },
+    {
+      "cut": 2,
+      "era": "in_pokemon",
+      "place": "work_shop",
+      "act": "tidy_tools",
+      "ofam": "work",
+      "item": "keeper_overalls",
+      "garments": [
+        "overalls",
+        "tank"
+      ],
+      "orient": "looking_away",
+      "frame": "three_quarter",
+      "pose": "on_tiptoe",
+      "expr": "determined",
+      "lens": "natural50",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly active",
+        "source_influence": "subtle",
+        "separates_preference": "balanced"
+      },
+      "expose": [
+        "off-shoulder neckline",
+        "mini length"
+      ],
+      "lead": "detail"
+    },
+    {
+      "cut": 3,
+      "era": "now",
+      "place": "stage_contest",
+      "act": "cheer_seat",
+      "ofam": "roleplay",
+      "item": "uniform_inspired",
+      "garments": [
+        "uniform"
+      ],
+      "orient": "leaning_back",
+      "frame": "chest_up",
+      "pose": "",
+      "expr": "",
+      "lens": "portrait85",
+      "aspect": "2:3",
+      "axes": {
+        "overall_intensity": "strong",
+        "skin_exposure": "bold",
+        "action_level": "mostly posed",
+        "source_influence": "subtle",
+        "separates_preference": "prefer separates"
+      },
+      "expose": [
+        "one-shoulder cut",
+        "bare midriff"
+      ],
+      "lead": "light"
+    }
+  ],
+  "planner": "tools/casual-plan.cjs",
+  "session": "rook-corv-3ea4a973",
+  "reservation_commit": "eb1c973361b66abf0b9dd0b9e2a1474e25bc6dbe",
+  "sparse_planning": "Session-local ledger reader consults git ls-files -z img/ for tracked image names; images were not fetched for planning.",
+  "comparison": [
+    "곤율랭",
+    "웨이니발",
+    "맛보돈",
+    "파라꼬"
+  ],
+  "axis_reasons": {
+    "casual1": "Quiet telescope adjustment suits the selected restrained action; small feather jewelry is secondary to the swimsuit and harbor; the one-piece remains a single garment.",
+    "casual2": "Reaching and putting shop supplies away is work activity; feather detail is confined to nearby goods; dungaree shorts and tank remain visually separate.",
+    "casual3": "Seated applause is the central motion; small event pin carries the motif; cropped uniform pieces preserve the separate top/bottom silhouette."
+  }
+}
