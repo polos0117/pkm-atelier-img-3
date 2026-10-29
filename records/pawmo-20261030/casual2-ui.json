@@ -1,0 +1,141 @@
+{
+ "storage": {
+  "last": "빠모트",
+  "cards": {
+   "빠모트": {
+    "style": "glossy_promo",
+    "identityMode": "reference",
+    "form": "light",
+    "baseForm": "light",
+    "motifs": "",
+    "formOverride": "",
+    "headFeature": "",
+    "faceDesignOn": true,
+    "params": {},
+    "locks": {},
+    "mode": "casual",
+    "scenes": {
+     "action": {
+      "expr": "",
+      "pose": "",
+      "orient": "",
+      "scene": "",
+      "outfit": "",
+      "frame": "",
+      "lens": "",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "cat": "everyday_basic",
+      "catCustom": "",
+      "ex": "",
+      "exCustom": "",
+      "axes": {},
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {}
+     },
+     "casual": {
+      "expr": "sleepy",
+      "pose": "one_knee_up",
+      "orient": "front_3q",
+      "scene": "A camera, an open scrapbook and a fan of printed travel photographs lie across the low table in evening lamplight.",
+      "outfit": "An opaque plum lingerie set with a decorative strap arrangement across the upper back, a strapless structured top and matching high-waisted high-cut bottoms.",
+      "frame": "full_body",
+      "lens": "wide24",
+      "camera": "",
+      "custom": "",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "action": {
+       "category": "",
+       "example": "",
+       "timing": "",
+       "equipment": "",
+       "power": "",
+       "effects": "",
+       "speed": "",
+       "environment": ""
+      },
+      "randomLocks": {
+       "era": true,
+       "place": true,
+       "act": true,
+       "ofam": true,
+       "frame": true,
+       "item": true,
+       "lens": true,
+       "pose": true,
+       "orient": true,
+       "expr": true,
+       "aspect": true,
+       "axes.overall_intensity": true,
+       "axes.skin_exposure": true,
+       "axes.action_level": true,
+       "axes.source_influence": true,
+       "axes.separates_preference": true
+      },
+      "era": "now",
+      "place": "home_living",
+      "act": "photo_sort",
+      "ofam": "lingerie",
+      "item": "back_strap",
+      "preset": ""
+     }
+    }
+   }
+  }
+ },
+ "prompt": "CHARACTER: the same woman as the attached image — Pawmo (빠모트) personified, electric / fighting type. Keep her face, eye and hair colors, haircut, skin tone and body proportions; expression and hair motion may change.\n\nSTYLE: Premium glossy anime promotional key art with clean linework, vivid controlled color, dimensional 2.5D shading and dense but organized clothing and accessory detail. Render the face and outfit at the same polished intensity.\n\nOUTPUT: one standalone off-duty scene of her in the outfit chosen in SCENE; her species shows only through accessories and objects around her — never in the outfit's colours, patterns or cut, never armor, never a creature costume. Era, place, activity, outfit, pose and camera follow SCENE (chosen).\n\nFRAME: a vertical 2:3 (1024×1536) image. Compose the image for this frame; the Framing in SCENE sets how much of her shows.\n\nSCREENS: any monitor, cabinet, handheld, box or poster shows only abstract colored light, simple shapes or blank art — no recognisable game, character, logo, title or interface, no readable text.\n\nSCENE (chosen):\nPlace: her living room with a deep sofa, floor cushions and a low table\nActivity: sorting printed photographs beside a camera and a scrapbook\nOutfit: An opaque plum lingerie set with a decorative strap arrangement across the upper back, a strapless structured top and matching high-waisted high-cut bottoms.\nPose: Sit on a mat with one knee raised and that foot flat on the floor, the other leg folded flat in front, and an arm resting on the raised knee; both feet in view.\nOrientation: front three-quarter body turn of about 30-45 degrees; rotate torso and pelvis together\nFraming: Full-body framing: keep the complete head, hands and feet inside the frame with restrained margins.\nLens / perspective: 24mm-equivalent wide-angle impression with spacious environmental depth; use enough camera distance to avoid stretching the face or limbs.\nExpression: heavy drooping eyelids, unfocused gaze, softened slack mouth, brow low and relaxed\nScene note: A camera, an open scrapbook and a fan of printed travel photographs lie across the low table in evening lamplight.\noverall_intensity: strong — maximal styling presence within the scene; retain chosen exposure and anatomy\nskin_exposure: bold — more scene-appropriate shoulder, back, midriff or leg exposure; cover chest and pelvis\naction_level: mostly posed — a paused or held moment of the selected activity\nsource_influence: strong — her species is clearly recognizable through a few accessories and props in the scene, never through the outfit's colours, patterns or cut; no new armor or creature anatomy\nseparates_preference: balanced — choose either a one-piece outfit or separates to suit the scene\n\nWARDROBE: change her clothes completely. From the attached image take only her face, hair and body — not its armor, garment, layers, sash, tassels, jewelry, hair ornaments or background. Dress her exactly as SCENE describes; that outfit must read at first glance, keeping its own recognisable colours and parts. Do not carry the attached image's palette, patterns or trim into the outfit; her source belongs in accessories and props, never in the clothes — never restyle the chosen outfit into her own costume, genre or palette.\n\nANGLE: the attached image fixes who she is, not how she is posed or shot. Do not copy its head angle, head tilt, gaze direction, face size in frame, camera height or crop — turn her head, set her gaze and place the camera as SCENE describes, and let her face read naturally from that new angle (profile, three-quarter, looking down or away), with her features staying the same.\n\nONE FIGURE ONLY. No second character, no creature beside her, no text, no lettering, no logo, no watermark, no speech bubble, no frame border.\n\nANATOMY: natural adult proportions. No body-part enlargement, no extra limbs; her worn features are costume, never extra limbs.\n\nBODY: a normal human body — one head, two arms and two legs, each joined at its natural joint; elbows, knees and wrists bend the human way. Hands and feet may be partly hidden by the pose, what she holds or the frame.\n\nHANDS: natural human hands.\n\nHAND TASK: her hands act naturally for the pose and scene; any idle hand rests in a relaxed, anatomically plausible position. Natural occlusion is allowed; do not force every hand or finger into view.",
+ "plan": {
+  "cut": 2,
+  "era": "now",
+  "place": "home_living",
+  "act": "photo_sort",
+  "ofam": "lingerie",
+  "item": "back_strap",
+  "garments": [
+   "lingerie_set"
+  ],
+  "orient": "front_3q",
+  "frame": "full_body",
+  "pose": "one_knee_up",
+  "expr": "sleepy",
+  "lens": "wide24",
+  "aspect": "2:3",
+  "axes": {
+   "overall_intensity": "strong",
+   "skin_exposure": "bold",
+   "action_level": "mostly posed",
+   "source_influence": "strong",
+   "separates_preference": "balanced"
+  },
+  "expose": [
+   "high-cut leg",
+   "strapless top"
+  ],
+  "lead": "detail"
+ },
+ "manual_inputs": {
+  "scene": "A camera, an open scrapbook and a fan of printed travel photographs lie across the low table in evening lamplight.",
+  "outfit": "An opaque plum lingerie set with a decorative strap arrangement across the upper back, a strapless structured top and matching high-waisted high-cut bottoms."
+ },
+ "manual_why": {
+  "scene": "사진 정리 활동에 필요한 카메라·사진첩 위치와 저녁빛만 보충.",
+  "outfit": "선택한 백스트랩 세트를 유지하고 스트랩리스·하이컷 구조와 불투명 소재를 명시."
+ }
+}

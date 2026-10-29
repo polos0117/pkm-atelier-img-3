@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "빠모트",
+ "no": 922,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f57212dc55fc/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A white ferry rail frames a receding harbour of red-roof warehouses beneath a clear late-morning sky.",
+   "outfit": "An embroidered halter-cut kebaya blouse with a split cropped front showing a band of midriff, opaque lining across the bust, and a batik sarong.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "트리의 페리 갑판에 항구 풍경과 시간대만 보충.",
+    "outfit": "크바야와 사롱을 유지하며 예약된 홀터 목선·배 노출을 구조로 명시."
+   },
+   "guide": {
+    "path": "release / travel_ferry / look_out / traditional / kebaya_daily",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "travel_ferry",
+      "ko": "페리 갑판",
+      "en": "the rail of a harbour ferry deck in the wind",
+      "group": "여행지"
+     },
+     "act": {
+      "key": "look_out",
+      "ko": "창밖·풍경 바라보기",
+      "en": "looking out at the view, one hand resting on the nearest ledge",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "kebaya_daily",
+      "ko": "크바야",
+      "en": "a daily kebaya — a sheer embroidered fitted blouse over a batik sarong"
+     }
+    },
+    "garments": [
+     "blouse"
+    ],
+    "expose": [
+     "bare midriff",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A camera, an open scrapbook and a fan of printed travel photographs lie across the low table in evening lamplight.",
+   "outfit": "An opaque plum lingerie set with a decorative strap arrangement across the upper back, a strapless structured top and matching high-waisted high-cut bottoms.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "사진 정리 활동에 필요한 카메라·사진첩 위치와 저녁빛만 보충.",
+    "outfit": "선택한 백스트랩 세트를 유지하고 스트랩리스·하이컷 구조와 불투명 소재를 명시."
+   },
+   "guide": {
+    "path": "now / home_living / photo_sort / lingerie / back_strap",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "home_living",
+      "ko": "거실",
+      "en": "her living room with a deep sofa, floor cushions and a low table",
+      "group": "집"
+     },
+     "act": {
+      "key": "photo_sort",
+      "ko": "사진 고르기",
+      "en": "sorting printed photographs beside a camera and a scrapbook",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "back_strap",
+      "ko": "백스트랩",
+      "en": "a lingerie set with a decorative strap arrangement across the upper back"
+     }
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Afternoon light from the studio windows falls across jars of pencils and a landscape visible beyond the easels.",
+   "outfit": "A loose ivory off-shoulder knit top slipping from one shoulder over short denim lounge shorts with a mini hem.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "스케치 활동을 위한 창밖 풍경·연필과 오후빛만 보충.",
+    "outfit": "선택한 니트·쇼츠를 유지하고 한쪽 어깨와 미니 기장으로 노출 방식을 구현."
+   },
+   "guide": {
+    "path": "now / studio_art / sketch / homewear / offshoulder_knit",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables",
+      "group": "화실·공방"
+     },
+     "act": {
+      "key": "sketch",
+      "ko": "스케치하기",
+      "en": "sketching the scenery in a small notebook",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "offshoulder_knit",
+      "ko": "오프숄더 니트",
+      "en": "an off-shoulder knit top slipping from one shoulder over shorts"
+     }
+    },
+    "garments": [
+     "knit_top",
+     "shorts"
+    ],
+    "expose": [
+     "mini length",
+     "off-shoulder neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

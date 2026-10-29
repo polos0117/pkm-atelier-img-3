@@ -1,0 +1,44 @@
+{
+  "card": "빠모트",
+  "accepted_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "canonical_light": {
+    "original": "/workspace/scratch/f57212dc55fc/originals/pawmo/light.png",
+    "original_sha256": "b54adc0960b8a8acf4df2761464678c948c8cd4bc9f8a79b717b7114f4a6a86a",
+    "output": "빠모트_light_glossy_promo_f.webp",
+    "output_sha256": "7c930aad26ad4a00561cea9134575f4377a5194ac61666f3e12ec2b006505a46",
+    "size": [
+      1024,
+      1536
+    ],
+    "format": "WebP",
+    "quality": 85,
+    "method": 6,
+    "references": {},
+    "prompt_sha256": "001b5cef7d50f22d76ade477c1cbabf5e224b84998d83ced0f182cde5f3aa24a"
+  },
+  "publication": "QA complete; pending publication",
+  "original_scope": "Original PNG files are session-only and not committed; records retain SHA256.",
+  "updated": "2026-10-29T22:40:35.237591+00:00",
+  "reservation_commit": "de44cfafa791b0790376f1722061b70771fb12e7",
+  "face_reason": "원작의 둥근 체적을 짧고 넓은 타원형 얼굴·둥근 턱·수평 둥근 눈으로 해석. 빠모와 달리 넓은 볼·들린 짧은 코·도톰한 입술을 유지.",
+  "face_source": [
+    "data/source-appearance.json#922",
+    "data/face-design.json#922"
+  ],
+  "compared_characters": [
+    "빠모",
+    "훔처우",
+    "엑스레그"
+  ],
+  "final_face_line": "FACE (her own structure, not the style's default face): oval face, short length, wide width; soft rounded jaw; open rounded eyes, medium size, level outer corners, average spacing; fine soft arches; short nose with upturned tip; full lips."
+}
