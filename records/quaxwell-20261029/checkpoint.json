@@ -1,5 +1,5 @@
 {
-  "stage": "8 images generated, visually reviewed and converted",
+  "stage": "9 images generated, visually reviewed and converted",
   "canonical": {
     "card": "아꾸왁",
     "slot": "light",
@@ -241,6 +241,33 @@
       "quality": 85,
       "method": 6,
       "sha256": "bec4fb2fdb38727bea96a0ccf90b90f3925814f00a102338b3195bccc2cf6f25"
+    },
+    {
+      "card": "아꾸왁",
+      "slot": "casual1",
+      "style": "glossy_promo",
+      "gender": "f",
+      "style_basis": "Actual prompt.html style UI selection",
+      "source": {
+        "session_path": "/workspace/scratch/c3fa0447839a/generated_images/exec-db590341-e03e-443a-957e-1db34baf5367.png",
+        "sha256": "0d864d64ed0bd5488bcd1453a3db275a51fae3280ab5e2ff76af31ee5415bca5",
+        "session_only": true
+      },
+      "references": [
+        {
+          "slot": "light",
+          "sha256": "96537453d22b9235328eb27c4633d1b52665c60fa70908324bb9b038c3dffb0e"
+        }
+      ],
+      "output": "아꾸왁_glossy_promo_f_casual1.webp",
+      "size": [
+        1024,
+        1536
+      ],
+      "format": "WEBP",
+      "quality": 85,
+      "method": 6,
+      "sha256": "1dbccd73d05b463e873912b3a41693027f339e2c74b1dfeefe1767015403ac3a"
     }
   ],
   "face_line": "FACE (her own structure, not the style's default face): oval face, long length, narrow width; long chin with defined jaw; narrow eyes, medium size, level outer corners, average spacing; straight medium brows; balanced nose; fuller lower lip.",

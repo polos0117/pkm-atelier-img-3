@@ -4,5 +4,12 @@
     "result": "moderation_blocked at output; no file",
     "request_id": "1f8f8089-6a21-47a7-bf79-c5ea45c42819",
     "replan": "Official --avoid elf_costume with --keep 2,3 could not satisfy fresh ledger. Publish valid eight slots, then use documented --refill to fill registered missing slot."
+  },
+  {
+    "slot": "casual1",
+    "result": "success after official refill",
+    "example": "dance_stage/flamenco",
+    "check": "387-entry fresh ledger, passed",
+    "reservation_commit": "2344d8bfa1d75a6070f32a7ac9bc25ccd952821b"
   }
 ]

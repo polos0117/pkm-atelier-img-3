@@ -1,0 +1,126 @@
+{
+ "session": "quaxly-quaxwell-20261029-c3fa",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "아꾸왁",
+   "species": "quaxwell-20261029",
+   "refill": true,
+   "cuts": [
+    {
+     "cut": 1,
+     "cat": "dance_stage",
+     "ex": "flamenco",
+     "garments": [
+      "dress"
+     ],
+     "orient": "leaning_forward",
+     "frame": "environmental",
+     "pose": "leaning_wall",
+     "expr": "focused",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "mini length"
+     ],
+     "lead": "light"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "cat": "adult_roleplay",
+     "ex": "santa_party",
+     "expr": "sensual",
+     "pose": "side_sitting",
+     "orient": "looking_down",
+     "frame": "three_quarter",
+     "lens": "documentary35",
+     "axes": {
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "dress"
+     ],
+     "expose": [
+      "one-shoulder cut",
+      "high thigh slit"
+     ]
+    },
+    {
+     "kept": true,
+     "cut": 3,
+     "cat": "homewear",
+     "ex": "late_night_kitchen",
+     "expr": "confident",
+     "pose": "eating",
+     "orient": "profile_close",
+     "frame": "face_close",
+     "lens": "portrait85",
+     "axes": {
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "shorts",
+      "tank"
+     ],
+     "expose": [
+      "bare midriff",
+      "mini length"
+     ]
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "occupation_basic",
+     "occupation_sensual",
+     "everyday_basic",
+     "everyday_sensual",
+     "partner_care",
+     "travel_exploration",
+     "food_berries",
+     "festivals_contests",
+     "hobbies_leisure",
+     "active",
+     "source_editorial",
+     "homewear",
+     "private_evening",
+     "traditional",
+     "subculture_fashion",
+     "nightlife",
+     "dance_stage",
+     "spa_wellness",
+     "fantasy_costume",
+     "bridal",
+     "gala_red_carpet",
+     "wildcard"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [
+     "leaning_forward"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

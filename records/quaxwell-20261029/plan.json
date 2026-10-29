@@ -126,113 +126,119 @@
       {
         "card": "아꾸왁",
         "species": "quaxwell-20261029",
+        "refill": true,
         "cuts": [
           {
             "cut": 1,
-            "cat": "fantasy_costume",
-            "ex": "elf_costume",
+            "cat": "dance_stage",
+            "ex": "flamenco",
             "garments": [
-              "coat",
               "dress"
             ],
-            "orient": "crouching",
+            "orient": "leaning_forward",
             "frame": "environmental",
-            "pose": "one_knee_up",
-            "expr": "cold_smile",
-            "lens": "natural50",
-            "aspect": "2:3",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly posed",
-              "source_influence": "balanced",
-              "separates_preference": "balanced"
-            },
-            "expose": [
-              "off-shoulder neckline",
-              "halter neck"
-            ],
-            "lead": "detail"
-          },
-          {
-            "cut": 2,
-            "cat": "adult_roleplay",
-            "ex": "santa_party",
-            "garments": [
-              "dress"
-            ],
-            "orient": "looking_down",
-            "frame": "three_quarter",
-            "pose": "side_sitting",
-            "expr": "sensual",
-            "lens": "documentary35",
-            "aspect": "2:3",
-            "axes": {
-              "overall_intensity": "strong",
-              "skin_exposure": "bold",
-              "action_level": "mostly posed",
-              "source_influence": "strong",
-              "separates_preference": "balanced"
-            },
-            "expose": [
-              "one-shoulder cut",
-              "high thigh slit"
-            ],
-            "lead": "place"
-          },
-          {
-            "cut": 3,
-            "cat": "homewear",
-            "ex": "late_night_kitchen",
-            "garments": [
-              "shorts"
-            ],
-            "orient": "profile_close",
-            "frame": "face_close",
-            "pose": "eating",
-            "expr": "confident",
+            "pose": "leaning_wall",
+            "expr": "focused",
             "lens": "portrait85",
             "aspect": "2:3",
             "axes": {
               "overall_intensity": "strong",
               "skin_exposure": "bold",
               "action_level": "balanced",
-              "source_influence": "strong",
-              "separates_preference": "prefer separates"
+              "source_influence": "balanced",
+              "separates_preference": "balanced"
             },
             "expose": [
-              "bare midriff",
+              "halter neck",
               "mini length"
             ],
             "lead": "light"
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "cat": "adult_roleplay",
+            "ex": "santa_party",
+            "expr": "sensual",
+            "pose": "side_sitting",
+            "orient": "looking_down",
+            "frame": "three_quarter",
+            "lens": "documentary35",
+            "axes": {
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "dress"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "high thigh slit"
+            ]
+          },
+          {
+            "kept": true,
+            "cut": 3,
+            "cat": "homewear",
+            "ex": "late_night_kitchen",
+            "expr": "confident",
+            "pose": "eating",
+            "orient": "profile_close",
+            "frame": "face_close",
+            "lens": "portrait85",
+            "axes": {
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "shorts",
+              "tank"
+            ],
+            "expose": [
+              "bare midriff",
+              "mini length"
+            ]
           }
         ],
         "why": {
           "required": {
-            "slots": [
-              2
-            ],
+            "slots": [],
             "two": false,
             "prev": [
               3
             ]
           },
           "low": [
+            "occupation_basic",
+            "occupation_sensual",
+            "everyday_basic",
+            "everyday_sensual",
             "partner_care",
             "travel_exploration",
+            "food_berries",
+            "festivals_contests",
+            "hobbies_leisure",
+            "active",
+            "source_editorial",
             "homewear",
+            "private_evening",
             "traditional",
-            "fantasy_costume"
+            "subculture_fashion",
+            "nightlife",
+            "dance_stage",
+            "spa_wellness",
+            "fantasy_costume",
+            "bridal",
+            "gala_red_carpet",
+            "wildcard"
           ]
         },
         "claims": {
-          "garment": [
-            "coat"
-          ],
+          "garment": [],
           "orient": [
-            "crouching",
-            "looking_down",
-            "profile_close"
+            "leaning_forward"
           ],
           "frame": []
         }
@@ -243,113 +249,119 @@
     {
       "card": "아꾸왁",
       "species": "quaxwell-20261029",
+      "refill": true,
       "cuts": [
         {
           "cut": 1,
-          "cat": "fantasy_costume",
-          "ex": "elf_costume",
+          "cat": "dance_stage",
+          "ex": "flamenco",
           "garments": [
-            "coat",
             "dress"
           ],
-          "orient": "crouching",
+          "orient": "leaning_forward",
           "frame": "environmental",
-          "pose": "one_knee_up",
-          "expr": "cold_smile",
-          "lens": "natural50",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "mostly posed",
-            "source_influence": "balanced",
-            "separates_preference": "balanced"
-          },
-          "expose": [
-            "off-shoulder neckline",
-            "halter neck"
-          ],
-          "lead": "detail"
-        },
-        {
-          "cut": 2,
-          "cat": "adult_roleplay",
-          "ex": "santa_party",
-          "garments": [
-            "dress"
-          ],
-          "orient": "looking_down",
-          "frame": "three_quarter",
-          "pose": "side_sitting",
-          "expr": "sensual",
-          "lens": "documentary35",
-          "aspect": "2:3",
-          "axes": {
-            "overall_intensity": "strong",
-            "skin_exposure": "bold",
-            "action_level": "mostly posed",
-            "source_influence": "strong",
-            "separates_preference": "balanced"
-          },
-          "expose": [
-            "one-shoulder cut",
-            "high thigh slit"
-          ],
-          "lead": "place"
-        },
-        {
-          "cut": 3,
-          "cat": "homewear",
-          "ex": "late_night_kitchen",
-          "garments": [
-            "shorts"
-          ],
-          "orient": "profile_close",
-          "frame": "face_close",
-          "pose": "eating",
-          "expr": "confident",
+          "pose": "leaning_wall",
+          "expr": "focused",
           "lens": "portrait85",
           "aspect": "2:3",
           "axes": {
             "overall_intensity": "strong",
             "skin_exposure": "bold",
             "action_level": "balanced",
-            "source_influence": "strong",
-            "separates_preference": "prefer separates"
+            "source_influence": "balanced",
+            "separates_preference": "balanced"
           },
           "expose": [
-            "bare midriff",
+            "halter neck",
             "mini length"
           ],
           "lead": "light"
+        },
+        {
+          "kept": true,
+          "cut": 2,
+          "cat": "adult_roleplay",
+          "ex": "santa_party",
+          "expr": "sensual",
+          "pose": "side_sitting",
+          "orient": "looking_down",
+          "frame": "three_quarter",
+          "lens": "documentary35",
+          "axes": {
+            "action_level": "mostly posed",
+            "source_influence": "strong",
+            "separates_preference": "balanced"
+          },
+          "garments": [
+            "dress"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "high thigh slit"
+          ]
+        },
+        {
+          "kept": true,
+          "cut": 3,
+          "cat": "homewear",
+          "ex": "late_night_kitchen",
+          "expr": "confident",
+          "pose": "eating",
+          "orient": "profile_close",
+          "frame": "face_close",
+          "lens": "portrait85",
+          "axes": {
+            "action_level": "balanced",
+            "source_influence": "strong",
+            "separates_preference": "prefer separates"
+          },
+          "garments": [
+            "shorts",
+            "tank"
+          ],
+          "expose": [
+            "bare midriff",
+            "mini length"
+          ]
         }
       ],
       "why": {
         "required": {
-          "slots": [
-            2
-          ],
+          "slots": [],
           "two": false,
           "prev": [
             3
           ]
         },
         "low": [
+          "occupation_basic",
+          "occupation_sensual",
+          "everyday_basic",
+          "everyday_sensual",
           "partner_care",
           "travel_exploration",
+          "food_berries",
+          "festivals_contests",
+          "hobbies_leisure",
+          "active",
+          "source_editorial",
           "homewear",
+          "private_evening",
           "traditional",
-          "fantasy_costume"
+          "subculture_fashion",
+          "nightlife",
+          "dance_stage",
+          "spa_wellness",
+          "fantasy_costume",
+          "bridal",
+          "gala_red_carpet",
+          "wildcard"
         ]
       },
       "claims": {
-        "garment": [
-          "coat"
-        ],
+        "garment": [],
         "orient": [
-          "crouching",
-          "looking_down",
-          "profile_close"
+          "leaning_forward"
         ],
         "frame": []
       }
@@ -358,49 +370,48 @@
   "casual_plan": [
     {
       "cut": 1,
-      "cat": "fantasy_costume",
-      "ex": "elf_costume",
+      "cat": "dance_stage",
+      "ex": "flamenco",
       "garments": [
-        "coat",
         "dress"
       ],
-      "orient": "crouching",
+      "orient": "leaning_forward",
       "frame": "environmental",
-      "pose": "one_knee_up",
-      "expr": "cold_smile",
-      "lens": "natural50",
+      "pose": "leaning_wall",
+      "expr": "focused",
+      "lens": "portrait85",
       "aspect": "2:3",
       "axes": {
         "overall_intensity": "strong",
         "skin_exposure": "bold",
-        "action_level": "mostly posed",
+        "action_level": "balanced",
         "source_influence": "balanced",
         "separates_preference": "balanced"
       },
       "expose": [
-        "off-shoulder neckline",
-        "halter neck"
+        "halter neck",
+        "mini length"
       ],
-      "lead": "detail",
+      "lead": "light",
       "actual_scene_settings": {
-        "expr": "cold_smile",
-        "pose": "one_knee_up",
-        "orient": "crouching",
-        "scene": "A brass lantern illuminates moss and hanging fern fronds in the forest party set.",
-        "outfit": "A leaf-trimmed teal halter mini dress and an open cropped hooded coat cut as a half-cape, leaving shoulders and legs visible; small pointed ear tips.",
+        "expr": "focused",
+        "pose": "leaning_wall",
+        "orient": "leaning_forward",
+        "scene": "Amber theatre lights rake across a worn wooden dance floor and a wine-red stage curtain.",
+        "outfit": "A teal halter flamenco dress with a short front hem, layered ruffles and a flowing side flounce, paired with fitted dance heels.",
         "frame": "environmental",
-        "lens": "natural50",
+        "lens": "portrait85",
         "camera": "",
         "custom": "",
         "aspect": "2:3",
-        "cat": "fantasy_costume",
+        "cat": "dance_stage",
         "catCustom": "",
-        "ex": "elf_costume",
+        "ex": "flamenco",
         "exCustom": "",
         "axes": {
           "overall_intensity": "strong",
           "skin_exposure": "bold",
-          "action_level": "mostly posed",
+          "action_level": "balanced",
           "source_influence": "balanced",
           "separates_preference": "balanced"
         },
@@ -430,7 +441,7 @@
           "axes.separates_preference": true
         }
       },
-      "example_verbatim": "Example scene: an elf costume — a leaf-trimmed short dress, a hooded half-cape and pointed ear tips, raising a lantern at a forest-themed costume party",
+      "example_verbatim": "Example scene: a flamenco dress with a ruffled train and a fitted bodice, stamping a step with one arm raised on a tablao stage",
       "locks": {
         "cat": true,
         "ex": true,
@@ -450,46 +461,43 @@
       "manual_inputs": [
         {
           "field": "scene",
-          "content": "A brass lantern illuminates moss and hanging fern fronds in the forest party set.",
-          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: A brass lantern illuminates moss and hanging fern fronds in the forest party set."
+          "content": "Amber theatre lights rake across a worn wooden dance floor and a wine-red stage curtain.",
+          "reason": "Adds the concrete lighting, local props and task details missing from the selected example: Amber theatre lights rake across a worn wooden dance floor and a wine-red stage curtain."
         },
         {
           "field": "outfit",
-          "content": "A leaf-trimmed teal halter mini dress and an open cropped hooded coat cut as a half-cape, leaving shoulders and legs visible; small pointed ear tips.",
-          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A leaf-trimmed teal halter mini dress and an open cropped hooded coat cut as a half-cape, leaving shoulders and legs visible; small pointed ear tips."
+          "content": "A teal halter flamenco dress with a short front hem, layered ruffles and a flowing side flounce, paired with fitted dance heels.",
+          "reason": "Specifies the planner garment, exposure cuts, fabric and colors absent from the example: A teal halter flamenco dress with a short front hem, layered ruffles and a flowing side flounce, paired with fitted dance heels."
         }
       ],
       "axes_reasons": {
-        "action_level": "Blocked fantasy example; this cut will be officially replanned as a refill.",
-        "source_influence": "No accepted image for this slot.",
-        "separates_preference": "No accepted image for this slot."
+        "action_level": "A held flamenco step balances action with a readable dance silhouette.",
+        "source_influence": "Teal fabric and a restrained feather-like gold embroidery echo her source through stage clothing.",
+        "separates_preference": "The fitted bodice and ruffled train are one continuous dress."
       }
     },
     {
+      "kept": true,
       "cut": 2,
       "cat": "adult_roleplay",
       "ex": "santa_party",
-      "garments": [
-        "dress"
-      ],
+      "expr": "sensual",
+      "pose": "side_sitting",
       "orient": "looking_down",
       "frame": "three_quarter",
-      "pose": "side_sitting",
-      "expr": "sensual",
       "lens": "documentary35",
-      "aspect": "2:3",
       "axes": {
-        "overall_intensity": "strong",
-        "skin_exposure": "bold",
         "action_level": "mostly posed",
         "source_influence": "strong",
         "separates_preference": "balanced"
       },
+      "garments": [
+        "dress"
+      ],
       "expose": [
         "one-shoulder cut",
         "high thigh slit"
       ],
-      "lead": "place",
       "actual_scene_settings": {
         "expr": "sensual",
         "pose": "side_sitting",
@@ -574,30 +582,28 @@
       }
     },
     {
+      "kept": true,
       "cut": 3,
       "cat": "homewear",
       "ex": "late_night_kitchen",
-      "garments": [
-        "shorts"
-      ],
+      "expr": "confident",
+      "pose": "eating",
       "orient": "profile_close",
       "frame": "face_close",
-      "pose": "eating",
-      "expr": "confident",
       "lens": "portrait85",
-      "aspect": "2:3",
       "axes": {
-        "overall_intensity": "strong",
-        "skin_exposure": "bold",
         "action_level": "balanced",
         "source_influence": "strong",
         "separates_preference": "prefer separates"
       },
+      "garments": [
+        "shorts",
+        "tank"
+      ],
       "expose": [
         "bare midriff",
         "mini length"
       ],
-      "lead": "light",
       "actual_scene_settings": {
         "expr": "confident",
         "pose": "eating",
@@ -682,17 +688,17 @@
       }
     }
   ],
-  "planner_check": "passed against full Git-backed metadata inventory",
+  "planner_check": "Initial official planner/check passed with sparse records roots; a later fresh inventory identified that initial comparison omitted the unmaterialized img-3 records root. Corrected virtual directory inventory is now 387 entries. Actual latest character images were rechecked. Quaxwell missing casual1 was replanned through official refill and passed the full fresh ledger.",
   "reservation": "pkm-atelier-img-2/records/casual-reservations/quaxly-quaxwell-20261029-c3fa.json",
   "diversity_comparison": {
     "comparison_characters": [
-      "바랜드",
-      "릴리요",
-      "릴링",
+      "모단단게",
+      "악뜨거",
+      "라우드본",
       "꾸왁스"
     ],
-    "visual_observations": "Christmas seated tree decorating and standing kitchen fruit snack differ in activity, place, outfit silhouette and framing. Completed Quaxly set shows snowy bathing, backstage reading and resort mat handling, without those two scenes. Third image is pending refill and not marked complete.",
-    "similarity_check": "generated_images/exec-51bc96de-a07f-4b93-bb58-d9432b69e7ee.png — 가까운 컷 0장(점수 245 미만)\n     287  가재군_glossy_promo_f_casual1.webp\n     293  하데리어_glossy_promo_f_casual3.webp\n     296  찌리리공_glossy_promo_f_casual3.webp\ngenerated_images/exec-ce5b2966-8fdf-41b7-be3a-4b1a61706996.png — 가까운 컷 0장(점수 245 미만)\n     284  가재장군_glossy_promo_f_casual2.webp\n     288  가재장군_glossy_promo_f_casual1.webp\n     294  뚜벅쵸_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+    "visual_observations": "Standing flamenco with raised arm and long ruffled train, seated red Christmas mini dress decorating a tree, and standing white camisole/shorts kitchen snack differ in stance, task, silhouette and setting. Actual newest comparisons 모단단게/악뜨거/라우드본 and Quaxly were viewed; their snowy sewing/cafe/garden and warm party/gala/resting scenes do not repeat this combination. Similarity tool passes all three.",
+    "similarity_check": "generated_images/exec-db590341-e03e-443a-957e-1db34baf5367.png — 가까운 컷 0장(점수 245 미만)\n     284  로젤리아_glossy_promo_f_casual3.webp\n     295  비나방_glossy_promo_f_casual3.webp\n     301  단칼빙_glossy_promo_f_casual2.webp\ngenerated_images/exec-51bc96de-a07f-4b93-bb58-d9432b69e7ee.png — 가까운 컷 0장(점수 245 미만)\n     287  가재군_glossy_promo_f_casual1.webp\n     293  하데리어_glossy_promo_f_casual3.webp\n     296  찌리리공_glossy_promo_f_casual3.webp\ngenerated_images/exec-ce5b2966-8fdf-41b7-be3a-4b1a61706996.png — 가까운 컷 0장(점수 245 미만)\n     284  가재장군_glossy_promo_f_casual2.webp\n     288  가재장군_glossy_promo_f_casual1.webp\n     294  뚜벅쵸_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
   },
   "inventory": "Existing shared Git object database reused. Only target images checked out. Historical UI metadata read virtually by Git blob, without a duplicate records checkout."
 }
