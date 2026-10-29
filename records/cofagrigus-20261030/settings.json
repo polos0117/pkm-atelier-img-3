@@ -1,0 +1,259 @@
+{
+ "version": 1,
+ "card": "데스니칸",
+ "no": 563,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/ccfac5834543/packs/PLAN-v2.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "gold sarcophagus-shaped chest and shin plates with lapis-blue horizontal inlay bands, an angular gold brow ornament and red jewel accents; ebony curved filigree is engraved into the armor, never extra arms",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A small brass key and a folded cream towel wait on the inn counter under warm pendant lights.",
+   "outfit": "A silk robe worn open over a strapless evening slip with a secure plunging neckline and short hem, showing collarbones and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "여관 카운터의 손 주변 소품과 조명만 추가함.",
+    "outfit": "로브와 슬립을 유지하고 계획의 스트랩리스·깊은 목선을 안전하게 고정함."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_lodge / inn_counter / evening / silk_robe_slip",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_lodge",
+      "ko": "트레이너 숙소 휴게실",
+      "en": "a trainers' lodge lounge at night with a fireplace, a small bar counter and wooden tables",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "inn_counter",
+      "ko": "여관 카운터에 기대기",
+      "en": "leaning on the counter at night with a warm cup",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "silk_robe_slip",
+      "ko": "슬립 위 실크 로브",
+      "en": "a silk robe over an evening slip"
+     }
+    },
+    "garments": [
+     "robe",
+     "slip"
+    ],
+    "expose": [
+     "plunging neckline",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Taking a short break beneath the stadium canopy, she has a small padded tool case resting nearby.",
+   "outfit": "A sleeveless one-shoulder work shirt with side waist cutouts under a short canvas workshop apron, safety glasses pushed up, with tailored shorts showing shoulder and side waist.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "리그 업무 휴식의 도구 보관 위치와 캐노피를 보충함.",
+    "outfit": "작업 셔츠·앞치마를 유지하며 한쪽 어깨와 허리 컷아웃을 계획대로 구체화함."
+   },
+   "guide": {
+    "path": "in_pokemon / work_league / shift_break / work / workshop_apron",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_league",
+      "ko": "리그 경기장",
+      "en": "a Pokémon League arena with a reception desk, a marked battle court and a commentary desk",
+      "group": "포켓몬 직업 현장"
+     },
+     "act": {
+      "key": "shift_break",
+      "ko": "일 사이 숨 돌리기",
+      "en": "pausing between tasks with a warm mug, her tools set down beside her",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "workshop_apron",
+      "ko": "공방 앞치마",
+      "en": "a work shirt under a canvas workshop apron, safety glasses pushed up"
+     }
+    },
+    "garments": [
+     "apron",
+     "shirt"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "A lake shore picnic blanket is spread beside a wicker basket and sliced peaches in late-summer sunshine.",
+   "outfit": "A halter-neck one-piece swimsuit with a deep plunging V, secure wide waistband and high-cut legs, showing shoulders and thighs with opaque coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호숫가 피크닉에 없는 계절빛과 음식만 보충함.",
+    "outfit": "원피스 수영복의 깊은 V와 허리밴드를 유지하고 홀터·하이컷으로 어깨와 허벅지를 드러냄."
+   },
+   "guide": {
+    "path": "now / travel_lake / picnic / swimwear / plunge_onepiece",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_lake",
+      "ko": "호숫가",
+      "en": "a lakeside of flat rocks and still water",
+      "group": "여행지"
+     },
+     "act": {
+      "key": "picnic",
+      "ko": "소풍",
+      "en": "having a small picnic on a blanket with fruit and a basket",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "plunge_onepiece",
+      "ko": "딥 플런지 원피스",
+      "en": "a one-piece swimsuit with a deep plunging V and a secure wide waistband"
+     }
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

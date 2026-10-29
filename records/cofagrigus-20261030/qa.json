@@ -1,0 +1,142 @@
+{
+ "reviewer": "gpt",
+ "card": "데스니칸",
+ "compared_characters": [
+  "데스마스",
+  "빠르모트",
+  "빠모트",
+  "빠모"
+ ],
+ "face_reason": "종별 얼굴 설계의 둥근 얼굴·둥근 턱·날카롭고 올라간 눈·각진 눈썹을 사용. 데스마스의 타원형 얼굴·수평 열린 눈과 비교. 최근 세 종의 짧은 밝은 머리·눈 윤곽과도 구별됨.",
+ "face_source": "data/face-design.json[563], data/source-appearance.json[563]",
+ "diversity_comparison": "최근 빠르모트·빠모트·빠모 실제 일상 9장과 데스마스 일상 3장을 비교. 여관에서 웃으며 컵을 든 무릎 위, 경기장 작업 휴식 가슴 위, 호숫가 흰 수영복 피크닉으로 의상 실루엣·장소·활동을 구분함.",
+ "casual_look": "passed; closest 228,285,269; four nearby images below 245 reported for casual1, none below failure threshold 215",
+ "slots": [
+  {
+   "slot": "light",
+   "image_sha256": "d6c89fba73c185e2fda882340add2899f421d47d39b491a2ea30876b18321acc",
+   "accepted": true,
+   "observations": "둥근 턱선·올라간 눈꼬리·검정 사이드 포니테일. 금색 석관형 흉갑과 청금석 띠·붉은 보석. 팔 둘·다리 둘이 몸에 자연스럽게 이어지고 부츠가 프레임 안에 있음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "heavy",
+   "image_sha256": "d3d603435233bdc5ec3503772c296656663ef76bc1274eaf4e018e19664ff5bb",
+   "accepted": true,
+   "observations": "경장과 같은 인물. 넓은 어깨·허리·정강이 겹판으로 실루엣이 두꺼워짐.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "mobility",
+   "image_sha256": "04206e9f0b3dc9c0d098b124a25384c6a9bcbcfea22247c86430694dceb2f53c",
+   "accepted": true,
+   "observations": "경장과 같은 인물. 어깨·허리·종아리 분할 패널이 후방으로 펼쳐지고 소형 추진부가 보임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "light_overdrive",
+   "image_sha256": "e57059fad9b1de765d34748e0b664847af94130f3ada1e48c8757eef86c801a2",
+   "accepted": true,
+   "observations": "경장과 같은 구도·자세·발 위치. 판 이음새에서 보랏빛 프레임이 드러남. 눈 주변의 보랏빛 반사가 강해 기본 호박색보다 보라색으로 읽힐 수 있음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "heavy_overdrive",
+   "image_sha256": "dd471500c5a279b86ce76edeab10658ebbc35b776d36c8b9f7a3e0f03ea6d9b3",
+   "accepted": true,
+   "observations": "중장 구도·자세 유지, 겹판이 벌어져 내부 프레임이 드러남. 무기나 새 헬멧은 없음. 눈에 보랏빛이 강하게 반사됨.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "mobility_overdrive",
+   "image_sha256": "ad9282440b68a2bcd7f2dfd71b927f06009c931bdb85b41378b45767c31ee146",
+   "accepted": true,
+   "observations": "고기동 구도·자세 유지, 추진부 덮개와 분할 패널이 더 열림. 눈 주변 보랏빛 반사가 강함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 엄지와 굽힌 손가락을 확대 확인. 각 손은 다섯 손가락 구조이며 굽힘으로 일부 끝마디는 겹쳐 가려짐. 떨어진 손·추가 팔 없음.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual1",
+   "image_sha256": "623ccf7027090f6bb4c1d9f4331864573cb92f3d6d1d5afaa1431c32d9476f92",
+   "accepted": true,
+   "observations": "밤 여관 라운지 카운터에 기대 웃으며 따뜻한 컵을 듦. 크림 실크 로브·짧은 슬립으로 어깨와 다리를 드러냄. 선택한 스트랩리스 대신 얇은 끈이 생긴 의상 세부 차이는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "컵을 든 손은 엄지와 손잡이를 감싼 네 손가락, 반대 손은 네 손가락이 보이고 엄지는 손바닥 뒤로 가려짐. 손목·팔꿈치 연결 정상.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual2",
+   "image_sha256": "4263143ee2345ea443a3b61210f45e744f4a6aa99b5d10eb37d931d848099b78",
+   "accepted": true,
+   "observations": "리그 경기장의 도구 케이스 앞에서 머그로 휴식. 작업 셔츠·캔버스 앞치마·올려쓴 보안경이 보임. 한쪽 어깨가 드러나고 팔 두 개가 자연스럽게 이어짐. 원작 장신구 일부가 남았고 배경에 둥근 몬스터볼 도형이 있음.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "머그 손잡이에 감긴 네 손가락이 보이고 엄지는 손잡이 반대쪽 가려짐. 반대 손은 프레임 아래, 양팔 연결 자연스러움.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  },
+  {
+   "slot": "casual3",
+   "image_sha256": "883e4f492a25d0adcd526c96e2a3fcf102e34b8ad7f40c61ca03df90f550c6de",
+   "accepted": true,
+   "observations": "호숫가 과일 바구니·담요 위 피크닉. 흰 홀터 원피스 수영복으로 어깨와 허벅지가 드러남. 복숭아를 든 손은 다섯 손가락 구조, 다른 손은 몸을 지지하며 프레임 밖으로 이어짐. 허리 위 선택보다 넓게 담긴 차이는 기록만 함.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "복숭아를 감싼 손은 엄지와 네 손가락, 반대 팔은 담요 방향으로 프레임 밖까지 자연스럽게 이어지며 손은 가려짐.",
+    "overlay_checked": false,
+    "note": "생성 원본과 손·발 확대 시트를 시각 확인. 가려진 부위는 관찰 불가로 구분."
+   }
+  }
+ ]
+}
