@@ -1,0 +1,275 @@
+{
+ "session": "tirtouga-carracosta-6470",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "프로토가",
+   "species": "tirtouga-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "in_pokemon",
+     "place": "work_train",
+     "act": "shift_break",
+     "ofam": "work",
+     "item": "keeper_overalls",
+     "garments": [
+      "overalls",
+      "tank"
+     ],
+     "orient": "looking_away",
+     "frame": "environmental",
+     "pose": "on_tiptoe",
+     "expr": "gentle",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "arcade_hall",
+     "act": "rest_seat",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "orient": "front_3q",
+     "frame": "chest_up",
+     "pose": "thumbs_up",
+     "expr": "laughing",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "side cutouts",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "water_beach",
+     "act": "water_break",
+     "ofam": "retro",
+     "item": "pinup_lingerie",
+     "garments": [
+      "lingerie_set"
+     ],
+     "orient": "reaching_up",
+     "frame": "waist_up",
+     "pose": "",
+     "expr": "flustered",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "plunging neckline"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2,
+      3
+     ],
+     "two": true,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "street",
+     "arcade",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "stage",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "overalls",
+     "uniform",
+     "lingerie_set"
+    ],
+    "orient": [
+     "front_3q",
+     "reaching_up"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "늑골라",
+   "species": "carracosta-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "in_pokemon",
+     "place": "partner_garden",
+     "act": "care_play",
+     "ofam": "everyday",
+     "item": "sweater_leggings",
+     "garments": [
+      "leggings",
+      "sweater"
+     ],
+     "orient": "crouching",
+     "frame": "full_body",
+     "pose": "kneeling",
+     "expr": "surprised",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "strapless top"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "era": "release",
+     "place": "sports_studio",
+     "act": "warmup",
+     "ofam": "active",
+     "item": "sports_bra_leggings",
+     "garments": [
+      "crop_top",
+      "leggings"
+     ],
+     "orient": "three_quarter_back",
+     "frame": "three_quarter",
+     "pose": "mid_action",
+     "expr": "exhausted",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "halter neck"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "era": "in_pokemon",
+     "place": "pw_roof",
+     "act": "look_out",
+     "ofam": "swimwear",
+     "item": "halter_bikini",
+     "garments": [
+      "bikini"
+     ],
+     "orient": "profile_close",
+     "frame": "chest_up",
+     "pose": "",
+     "expr": "cold_smile",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "side cutouts"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2,
+      3
+     ]
+    },
+    "low": [
+     "street",
+     "studio",
+     "water",
+     "spa",
+     "sports",
+     "night",
+     "stage",
+     "evening",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "leggings",
+     "sweater",
+     "bikini"
+    ],
+    "orient": [
+     "crouching",
+     "three_quarter_back",
+     "profile_close"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}

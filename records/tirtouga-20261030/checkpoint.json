@@ -1,0 +1,180 @@
+{
+ "card": "프로토가",
+ "style": "glossy_promo",
+ "source": "data/face-design.json:564; data/source-appearance.json:564; prompt-pack generated FACE/HAIR/WEAR",
+ "face_rationale": {
+  "name": "프로토가",
+  "en": "Tirtouga",
+  "line": "프로토가",
+  "how": "draft",
+  "registered": false,
+  "face": {
+   "face shape": "oval",
+   "face length": "balanced",
+   "face width": "wide",
+   "jaw & chin": "wide heavy chin",
+   "eye shape": "almond",
+   "eye size": "medium",
+   "eye tilt": "downturned outer corners",
+   "eye spacing": "wide-set eyes",
+   "eyebrows": "straight medium brows",
+   "nose character": "rounded soft tip",
+   "lips": "medium lips"
+  },
+  "why": "",
+  "cues": [
+   "몸 형태 quadruped → 눈 간격 눈 사이가 넓은"
+  ],
+  "adjusted": "[머리] 많이 쓴 헤어스타일이라 고르게 나누려고 웨이브 헤어 → 목덜미 낮은 번",
+  "hair": {
+   "hairstyle": "low bun",
+   "hair length": "medium",
+   "bangs": "curtain bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "바위 타입에서 목덜미 낮은 번(올림머리) · 중간 길이 · 커튼뱅",
+  "hair_cues": [
+   "바위 타입 → 헤어스타일 목덜미 낮은 번"
+  ]
+ },
+ "anchor": {
+  "slot": "light",
+  "original": "/workspace/scratch/6470c858bf92/generated_images/exec-a3378d8f-60f9-428d-8ede-a577250a2f08.png",
+  "original_sha256": "0af5b20adf619797088bad71bce0872f450809cc5f3f57988e69696ffde19c7a",
+  "output": "프로토가_light_glossy_promo_f.webp",
+  "output_sha256": "7307d10e8b4dc4596c56a5c64ffe829b4bbfdc7131bedc0a30273e570f222d2d",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "reference": null
+ },
+ "comparison": [
+  "빠모트",
+  "빠르모트",
+  "데스마스"
+ ],
+ "comparison_result": "최근 3명의 짧은 금발·높은 묶음머리와 달리 낮은 번·커튼뱅. 일상은 열차 작업복 전신, 오락실 제복풍 상반신, 해변 물병 핀업으로 실루엣과 활동 구분. 데스마스 오락실은 뒷 3/4 전신이라 이번 상반신 휴식과 다름.",
+ "images": [
+  {
+   "slot": "light",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-a3378d8f-60f9-428d-8ede-a577250a2f08.png",
+   "original_sha256": "0af5b20adf619797088bad71bce0872f450809cc5f3f57988e69696ffde19c7a",
+   "output": "프로토가_light_glossy_promo_f.webp",
+   "output_sha256": "7307d10e8b4dc4596c56a5c64ffe829b4bbfdc7131bedc0a30273e570f222d2d",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": null
+  },
+  {
+   "slot": "heavy",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-7ab7c92e-9aeb-437c-bda7-19d57e9fcd51.png",
+   "original_sha256": "0bdfe6dc697ce235bc9d88aadbb7967405239e5eb7f2d24a7ef7512c445b9a35",
+   "output": "프로토가_heavy_glossy_promo_f.webp",
+   "output_sha256": "f163e0f6837e845e46e45304844e96745743d1907cb8ac8b4716c4481901e2dd",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  },
+  {
+   "slot": "mobility",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-3eb8775f-d9ee-4f70-9aca-99616cdb6741.png",
+   "original_sha256": "8ef38f577b4f4e4dbe4c70e21f602751df93ba2f5fdd24ad34344a2150164526",
+   "output": "프로토가_mobility_glossy_promo_f.webp",
+   "output_sha256": "9402c6a9644c04b2ce82b77be2011026a89d2a7c0be5fafa088c7999faf0a151",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  },
+  {
+   "slot": "light_overdrive",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-5968653c-ea66-43e7-bd73-4280d5d188f8.png",
+   "original_sha256": "263a527bd9196458fc0d5af7a162173fb4acb175b1a9c9c5b5c4e51c6b52bd6f",
+   "output": "프로토가_light_overdrive_glossy_promo_f.webp",
+   "output_sha256": "4ee18b1b225481239a2c1ad33681fd92c0cb5e7ca9a8cc4d9802e6398b0558fb",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  },
+  {
+   "slot": "heavy_overdrive",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-41abb052-0590-4ac5-ae76-dc0ef1e6b8ca.png",
+   "original_sha256": "0a5c0a1bc4abfb37b90ad49b3e2f2c54620cdaac874a90f410c32be6700c69d1",
+   "output": "프로토가_heavy_overdrive_glossy_promo_f.webp",
+   "output_sha256": "b82359ccabe5af6e2049160b3ff1be4016dec2747ce2315a1ff8736d308a3b98",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "heavy"
+  },
+  {
+   "slot": "mobility_overdrive",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-6f3aa682-6392-47a0-8707-6d1e82c8925f.png",
+   "original_sha256": "064eefec4259157148e717a1361d4efa5ca57a872ebfc4f7f24467785a17bfb4",
+   "output": "프로토가_mobility_overdrive_glossy_promo_f.webp",
+   "output_sha256": "2b61ed70a1864ac7b9f506192d2a1576e71dfe90a1b5fad824a1b374a0f99cf9",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "mobility"
+  },
+  {
+   "slot": "casual1",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-fb525ca7-ab69-4879-8e8b-46e0f590b60b.png",
+   "original_sha256": "4a79f1fd3364509bf3f6fcbf54dcc37f7bb8890a8412ff66597f56ddd15b10a6",
+   "output": "프로토가_glossy_promo_f_casual1.webp",
+   "output_sha256": "03ab7860fe867398519ec3a288255892569f2a8526d8a7d237783f2de37bcbc8",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  },
+  {
+   "slot": "casual2",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-a6b41788-c882-4412-b002-a830963a48a5.png",
+   "original_sha256": "d56afb89da29a1c2a0e635b2e1a839f19a40c708e9658c08cad209f1ced39cfa",
+   "output": "프로토가_glossy_promo_f_casual2.webp",
+   "output_sha256": "c1a63fe44b639255a074e404be9df33be513cf6e1b559c7a3538942fc3bb1f9e",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  },
+  {
+   "slot": "casual3",
+   "original": "/workspace/scratch/6470c858bf92/generated_images/exec-24f2b203-d15a-4d45-a8ad-acbbe904ec70.png",
+   "original_sha256": "68d8f469c7725831798bb58dee537ce1dda771ef38813e7afc790d3daad8150e",
+   "output": "프로토가_glossy_promo_f_casual3.webp",
+   "output_sha256": "e4b98300cfd27d859fba284932f354d98d6f84cb27a6b6f96c9a04c65fc04fd2",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "reference": "light"
+  }
+ ],
+ "generation": "built-in image_gen, one call per slot; no regeneration",
+ "publication": "Git HTTPS push authentication unavailable; connected GitHub non-forced fast-forward commit update; original PNG excluded"
+}

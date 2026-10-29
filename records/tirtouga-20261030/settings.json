@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "프로토가",
+ "no": 564,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/6470c858bf92/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Large carriage windows catch the amber light of late afternoon; a small maintenance kit rests on the cushion beside her.",
+   "outfit": "Sand-coloured short work overalls over a fitted ivory tank with a strapless bodice line and a slim halter tie, leaving her shoulders and upper back open; knee-high rubber boots.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "열차 선택지에 없는 시간대와 내려둔 공구를 보충한다.",
+    "outfit": "선택한 작업 오버롤과 탱크를 유지하며 계획의 홀터·어깨 노출을 반영한다."
+   },
+   "guide": {
+    "path": "in_pokemon / work_train / shift_break / work / keeper_overalls",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_train",
+      "ko": "여행 열차 객실",
+      "en": "a carriage of a Pokémon travel train with luggage racks and resting cushions",
+      "group": "포켓몬 직업 현장"
+     },
+     "act": {
+      "key": "shift_break",
+      "ko": "일 사이 숨 돌리기",
+      "en": "pausing between tasks with a warm mug, her tools set down beside her",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "keeper_overalls",
+      "ko": "사육 작업복",
+      "en": "work overalls over a fitted tank top and rubber boots"
+     }
+    },
+    "garments": [
+     "overalls",
+     "tank"
+    ],
+    "expose": [
+     "strapless top",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A foam star baton lies beside the seat, beneath violet cabinet lights during an arcade costume evening.",
+   "outfit": "A coral uniform-inspired event costume with crisp lapels and decorative epaulettes: a cropped sleeveless bodice, side waist cutouts and a high-waisted mini skirt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "오락실 행사 맥락과 의자 옆 소품을 보충한다.",
+    "outfit": "유니폼풍의 옷깃과 견장을 살리며 계획의 옆트임과 복부 노출을 정한다."
+   },
+   "guide": {
+    "path": "now / arcade_hall / rest_seat / roleplay / uniform_inspired",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow",
+      "group": "오락실·사진 부스"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     }
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "side cutouts",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "She pauses for a sip from a clear water bottle as the surf recedes in bright afternoon sunlight.",
+   "outfit": "A fully opaque rose satin 1950s pin-up lingerie set with a structured plunging bra and high-waisted high-cut bottoms, worn as a beach fashion editorial look.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "물병 활동에 오후 빛과 밀려나는 파도를 더한다.",
+    "outfit": "50년대 핀업 속옷 세트를 유지하며 계획의 하이컷과 깊은 목선을 반영한다."
+   },
+   "guide": {
+    "path": "now / water_beach / water_break / retro / pinup_lingerie",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_beach",
+      "ko": "해변",
+      "en": "a sunny beach with wet sand and shallow surf",
+      "group": "물가"
+     },
+     "act": {
+      "key": "water_break",
+      "ko": "물 마시며 숨 고르기",
+      "en": "catching her breath with a water bottle",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_lingerie",
+      "ko": "50년대 핀업 란제리",
+      "en": "a 1950s pin-up lingerie set with a structured bra and high-waisted bottoms"
+     }
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
