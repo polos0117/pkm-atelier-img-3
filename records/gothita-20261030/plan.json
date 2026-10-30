@@ -443,6 +443,13 @@
    "changed_inputs": "generator selections unchanged; partial edit with light reference and edit target",
    "reason": "컵을 든 팔의 위팔이 등·허리에서 나온 것처럼 보였고 양 어깨와 흉곽 회전이 일치하지 않았다.",
    "record": "casual3-anatomy-edit.json"
+  },
+  {
+   "slot": "casual3",
+   "changed_inputs": "흉곽과 골반을 함께 정면에 가까운 앞 3/4로 돌리고 컵과 팔꿈치를 몸 앞쪽에 둔다.",
+   "reason": "First repair retained the back-facing torso and the cup arm still bent backward behind the body. User explicitly rejected this result.",
+   "record": "casual3-anatomy-edit-v2.json",
+   "original_plan_preserved": true
   }
  ]
 }

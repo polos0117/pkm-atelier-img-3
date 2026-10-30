@@ -1,0 +1,40 @@
+{
+ "slot": "casual3",
+ "kind": "user-requested pose correction, second repair",
+ "reason": "First repair retained the back-facing torso and the cup arm still bent backward behind the body. User explicitly rejected this result.",
+ "supersedes": "casual3-anatomy-edit.json",
+ "previous_webp_sha256": "6fa8503d97c81afbdd7e1f4a1f52a2d1c8d808e1ca13d7d4daf3003fd29c0002",
+ "source_commit": "f2db63a7b63560b4c2d84e73788c67612066efee",
+ "edit_prompt": "casual3-anatomy-edit-v2-prompt.txt",
+ "references": [
+  {
+   "role": "edit target",
+   "sha256": "6fa8503d97c81afbdd7e1f4a1f52a2d1c8d808e1ca13d7d4daf3003fd29c0002"
+  },
+  {
+   "role": "identity only",
+   "file": "고디탱_light_glossy_promo_f.webp"
+  }
+ ],
+ "changed_pose": "흉곽과 골반을 함께 정면에 가까운 앞 3/4로 돌리고 컵과 팔꿈치를 몸 앞쪽에 둔다.",
+ "observed": "양 쇄골과 앞가슴이 보이고 골반도 앞 방향이다. 컵 손의 위팔은 어깨 아래에서 몸 옆으로 내려오며 팔꿈치는 허리 옆 앞쪽, 아래팔은 가슴 앞 컵으로 올라간다. 반대 팔은 몸 옆으로 내려가고 두 팔 모두 등 뒤로 돌아가지 않는다.",
+ "original": "/workspace/scratch/088e0a11deac/generated_images/exec-9420a3d0-69a6-469e-a88d-66696600fb0a.png",
+ "original_sha256": "099b3ad867561625d4123c535e77ed5baabd5727783178815d81544e0e1b4e3a",
+ "file": "고디탱_glossy_promo_f_casual3.webp",
+ "sha256": "f5f1bcd1af8facdb590b01aefe6d1319bb26c7b7555a9f5c3ce49866762c999c",
+ "dimensions": [
+  1024,
+  1536
+ ],
+ "format": "WEBP",
+ "image_tool": "built-in imagegen",
+ "qa": {
+  "anatomy_tool": "unavailable: mediapipe absent; exit 3",
+  "visual_checked": true,
+  "arms": 2,
+  "legs": 2,
+  "hands": "컵 손은 손잡이에 엄지와 네 손가락을 감싸 일부가 컵에 가려짐. 내린 손은 엄지와 굽힌 네 손가락 일부가 겹친다. 두 손목과 팔 연결을 확대 확인.",
+  "face_outfit_background_preserved": true,
+  "direction_deviation": "기존 계획의 뒤 3/4·어깨 너머 보기를 유지하지 않음. 사용자가 지적한 역방향 팔을 바로잡기 위해 몸·골반을 함께 앞 방향으로 바꾸었다."
+ }
+}
