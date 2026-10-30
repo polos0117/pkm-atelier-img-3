@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "card": "이상해씨",
+ "no": 1,
+ "style": "glossy_promo",
+ "plan": "/tmp/claude-0/-home-user-atelier/bc7bc145-312e-5a4a-8461-32d6d0ea4734/scratchpad/bulb/PLAN-r3.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Warm amber pendant lamps pool light over the low tables in the evening, and a tall window beside her shows the city lights; a half-finished strategy game is spread out nearby, with a small green bulb-shaped game piece among the tokens.",
+   "outfit": "a glossy black cropped vinyl stage jacket with a halter-neck collar fastened at the nape, worn slipped low off both shoulders, with knee-high vinyl boots",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "장소 문장엔 시간대·조명·창이 없어 저녁 조명과 시선이 닿을 창(계획의 시선 「창밖」)과 펼쳐 둔 게임을 넣었고, 원작 모티프는 옷 대신 초록 구근 모양 말 하나로 남겼다(세 장 중 이 컷만)",
+    "outfit": "고른 옷(광택 재킷+부츠)을 살려 계획의 드러내기 둘(홀터 목선·오프숄더)을 재킷 입는 법으로 넣었다 — 색은 원작 초록을 피해 검정"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / boardgame_lounge / roleplay / vinyl_stage / lean_wall / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "vinyl_stage",
+      "ko": "비닐 무대 의상",
+      "en": "a vinyl stage costume with a glossy fitted jacket and boots"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "jacket"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "Pausing her search between the tall shelves; rain streaks the big windows behind her in the grey late afternoon, and a green-shaded reading lamp glows on the desk.",
+   "outfit": "an off-shoulder midnight-blue velvet robe gown with a plunging neckline, a jewelled belt and a high thigh slit",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "열람실 문장에 날씨·시간대가 없어 비 오는 늦은 오후와 책상 스탠드를 넣었다 — 계획 첫머리 action 에 맞춰 책장 사이에서 찾다 멈춘 순간부터",
+    "outfit": "마법사 로브 문장에 색이 없어 짙은 남색 벨벳으로, 계획의 드러내기 둘(깊은 목선·높은 허벅지 트임)을 그 드레스 구조로 넣었다. 지팡이 소품은 손 칸(머리 넘기기)과 부딪쳐 말하지 않는다"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / library_reading / costume / sorceress_robe / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "library_reading",
+      "ko": "도서관 열람실",
+      "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "sorceress_robe",
+      "ko": "마법사",
+      "en": "a sorceress costume — an off-shoulder velvet robe gown with a jewelled belt and a crystal staff prop"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "dress",
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Unwinding between shots of a fashion shoot on the soft white carpet of a sunken living area; a round porthole window shows a violet dusk sky, and a chrome orb lamp glows beside her.",
+   "outfit": "a sleek pearl-white retro-futurist jumpsuit with an off-shoulder plunging neckline, a wide chrome belt and vintage piping along the seams",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "계획 첫머리 action 에 맞춰 화보 촬영 사이에 쉬는 순간부터 쓰고, 장소 문장에 없는 바닥(낮은 거실 카펫)·창 밖 해질녘·크롬 조명을 넣었다",
+    "outfit": "레트로 퓨처 점프수트 문장에 색이 없어 진주빛 흰색으로, 계획의 드러내기 둘(오프숄더·깊은 목선)을 그 점프수트 목선으로 넣었다 — 원작 초록은 피했다"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_retro_home / editorial / retro_jumpsuit / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_retro_home",
+      "ko": "레트로 퓨처 집",
+      "en": "a retro-futurist home of rounded chrome appliances and soft panels"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "editorial",
+      "ko": "화보 쿠튀르",
+      "en": "an editorial couture look whose cut and tailoring read clearly"
+     },
+     "item": {
+      "key": "retro_jumpsuit",
+      "ko": "레트로 퓨처 점프수트",
+      "en": "a sleek retro-futurist jumpsuit with vintage trim"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "behind_head · floor_brace"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "plunging neckline"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

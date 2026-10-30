@@ -1,0 +1,81 @@
+{
+ "card": "이상해씨",
+ "status": "일상컷 두 장(casual2·3) 생성·검토 끝 — 올리기 전",
+ "outputs": [
+  {
+   "slot": "casual2",
+   "plan_cut": 1,
+   "card": "이상해씨",
+   "style": "glossy_promo",
+   "basis": "tools/prompt-pack.cjs 버전2 계획 컷(treeV 2) 그대로 — 지시문 손대지 않음",
+   "reference": "이상해씨_light_glossy_promo_f.webp",
+   "reference_sha256": "b7c9151ca98a80c3ef29199503d29bf84e465ba4eb8c2c13956afc898aaa4b94",
+   "original_sha256": "6b9dbc9e36ee83dd2af946427fef888ffb8832d924467c936370bd83368852d2",
+   "original_session_only": true,
+   "file": "이상해씨_glossy_promo_f_casual2.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "webp_sha256": "75511da8c84766c2491f8731e0d72aff3f2466d11611588410b0fba9d6a97fde",
+   "generation": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "1024x1536",
+    "endpoint": "images/edits",
+    "created": 1793347293,
+    "usage": {
+     "input_tokens": 2454,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 918
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3826
+    }
+   }
+  },
+  {
+   "slot": "casual3",
+   "plan_cut": 3,
+   "card": "이상해씨",
+   "style": "glossy_promo",
+   "basis": "tools/prompt-pack.cjs 버전2 계획 컷(treeV 2) 그대로 — 지시문 손대지 않음",
+   "reference": "이상해씨_light_glossy_promo_f.webp",
+   "reference_sha256": "b7c9151ca98a80c3ef29199503d29bf84e465ba4eb8c2c13956afc898aaa4b94",
+   "original_sha256": "37fe6ee4308e45b186dd2725dc6405b35d29b165c91ebf0f0c763046524796fe",
+   "original_session_only": true,
+   "file": "이상해씨_glossy_promo_f_casual3.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "webp_sha256": "8be7f587a27f808fe6fb953cfeceb3ab6351d2f40c7782c0a8c450798da8ca99",
+   "generation": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "1024x1536",
+    "endpoint": "images/edits",
+    "created": 1793348477,
+    "usage": {
+     "input_tokens": 2531,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 995
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3903
+    }
+   }
+  }
+ ],
+ "pending": "그림 저장소3 main 반영 · 썸네일 · 그림 등록"
+}
