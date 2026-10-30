@@ -148,5 +148,12 @@
  "manual_why": {
   "scene": "선택한 장소에 없는 시간대·빛·가구를 A smartphone with a pearl-colored case catches the roof 요소로 구체화한다.",
   "outfit": "고른 옷 종류는 유지하며 plunging neckline, halter neck 구조와 색·소재를 명시한다."
- }
+ },
+ "postprocess_edits": [
+  {
+   "prompt": "casual1-anatomy-edit-prompt.txt",
+   "record": "casual1-anatomy-edit.json",
+   "reason": "뒤를 향한 어깨처럼 보이는 델토이드가 앞가슴에 붙어 있고 폰 팔의 연결과 원근이 부자연스러웠다."
+  }
+ ]
 }

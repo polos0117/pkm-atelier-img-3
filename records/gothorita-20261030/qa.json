@@ -90,19 +90,38 @@
   "deviations": "없음"
  },
  "casual1": {
-  "identity": {
-   "match": true,
-   "evidence": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
+  "previous_qa": {
+   "identity": {
+    "match": true,
+    "evidence": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "폰 가장자리에 네 손가락이 보이고 엄지는 기기 뒤에 가려진다. 상완·팔꿈치가 화면 밖 전완으로 자연스럽게 이어진다. 반대 팔·다리는 크롭 밖이다.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+   },
+   "deviations": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
   },
+  "user_reported_issue": "뒤를 향한 어깨처럼 보이는 델토이드가 앞가슴에 붙어 있고 폰 팔의 연결과 원근이 부자연스러웠다.",
+  "correction": {
+   "observed": "어깨의 둥근 돌출이 줄고 쇄골·가슴·겨드랑이가 같은 앞 3/4 방향이다. 위팔이 실제 어깨에서 앞으로 나오고 왼쪽 가장자리 안의 팔꿈치에서 전완이 폰으로 이어진다.",
+   "hands": "컵·폰을 쥔 손은 손가락 일부가 소품 뒤에 가려지며 엄지와 네 손가락의 자연스러운 쥠을 유지. 고디탱의 내린 손도 다섯 손가락이며 팔목에서 전완으로 이어진다.",
+   "anatomy_tool": "unavailable: mediapipe absent; exit 3",
+   "visual_checked": true,
+   "image_tool": "built-in imagegen"
+  },
+  "edit_record": "casual1-anatomy-edit.json",
   "anatomy": {
-   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "tool": "unavailable: mediapipe absent; exit 3",
    "arms": 2,
    "legs": 2,
-   "hands": "폰 가장자리에 네 손가락이 보이고 엄지는 기기 뒤에 가려진다. 상완·팔꿈치가 화면 밖 전완으로 자연스럽게 이어진다. 반대 팔·다리는 크롭 밖이다.",
+   "hands": "컵·폰을 쥔 손은 손가락 일부가 소품 뒤에 가려지며 엄지와 네 손가락의 자연스러운 쥠을 유지. 고디탱의 내린 손도 다섯 손가락이며 팔목에서 전완으로 이어진다.",
    "overlay_checked": false,
-   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
-  },
-  "deviations": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
+   "note": "어깨의 둥근 돌출이 줄고 쇄골·가슴·겨드랑이가 같은 앞 3/4 방향이다. 위팔이 실제 어깨에서 앞으로 나오고 왼쪽 가장자리 안의 팔꿈치에서 전완이 폰으로 이어진다."
+  }
  },
  "casual2": {
   "identity": {
