@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "더스트나",
+ "no": 569,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/9447e6a01e14/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Mottled olive and warm brown recycled composite plates, small polished blue and pink aggregate insets, and braided cable-like trims reinterpret a lumpy trash heap as elegant wearable armor; green torn-bag contours become a short scalloped mantle.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "body type": "hourglass"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A small porcelain cup and saucer catch the neon reflections on the vanity; a tiny blue-and-pink glass bead ornament rests beside them.",
+   "outfit": "A casino dealer event costume with a fitted black cropped waistcoat, bow tie and detached cuffs, worn with tailored ivory high-waist shorts; the cropped hem leaves the midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "The cup-setting motion needs a vanity surface and cup; the glass ornament supplies a small source cue without copying armor.",
+    "outfit": "The selected dealer costume does not define the lower garment; tailored shorts complete it and the planned cropped hem exposes the midriff."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_powder / roleplay / casino_dealer / sit_chair / environmental / cup_set",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_powder",
+      "ko": "파우더룸",
+      "en": "a club powder room with a lit mirror and neon on the tiles"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_set",
+      "ko": "잔을 내려놓는다",
+      "en": "sets a cup down on the surface in front of her",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "casino_dealer",
+      "ko": "카지노 딜러",
+      "en": "a casino dealer costume with a fitted waistcoat, bow tie and cuffs"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "vest"
+    ],
+    "expose": [
+     "bare midriff",
+     "cropped hem"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "The harvest path winds between trees laden with ripe berries, with a woven collecting basket full of freshly picked fruit.",
+   "outfit": "Fitted pale-denim short overalls over an opaque strapless terracotta cropped top, with side-waist cutouts in the overalls.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "The selected basket-carry motion lacks the harvest context around it; a picked-fruit path clarifies the orchard activity.",
+    "outfit": "Keep the selected denim overalls and cropped top, making the top strapless and the overall sides cut out as planned."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_orchard / everyday / overalls / walk / three_quarter / basket_carry",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_orchard",
+      "ko": "나무열매 과수원",
+      "en": "a sunny berry orchard of small trees heavy with ripe, colorful berries"
+     },
+     "role": null,
+     "use": {
+      "key": "basket_carry",
+      "ko": "나무열매 바구니를 팔에 건다",
+      "en": "carries a woven basket of berries in the crook of her arm",
+      "prop": "나무열매 바구니"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "overalls",
+      "ko": "멜빵바지",
+      "en": "fitted denim overalls over a cropped top"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "crop_top",
+     "overalls"
+    ],
+    "expose": [
+     "strapless top",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Late-afternoon light crosses a brick wall beside the boxing ring and a leather heavy bag.",
+   "outfit": "An opaque white one-shoulder athletic tank with an open-back cut and navy training shorts, worn with white canvas lace-up athletic shoes with solid white side panels and rubber toe caps.",
+   "camera": "",
+   "custom": "For this correction, replace only the athletic shoes in the attached off-duty scene with white canvas lace-ups with solid white side panels and rubber toe caps; preserve the rest of that scene.",
+   "why": {
+    "scene": "The gym selection does not locate the wall support; the brick wall beside the ring provides a clear grounded setting.",
+    "outfit": "The selected tank and shorts retain their one-shoulder and open-back construction; the footwear is specified as plain canvas panels after the initial generated shoes acquired a recognisable N-like brand mark.",
+    "custom": "The original gym scene is accepted except for the branded-looking sneaker side panels; this limits the revision to that visible footwear defect."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / sports_gym / active / lean_wall / full_body",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_gym",
+      "ko": "체육관·복싱장",
+      "en": "a training gym with a heavy bag, ring ropes, a fencing strip and racks of weights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "shorts",
+     "tank"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

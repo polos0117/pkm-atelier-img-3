@@ -1,0 +1,487 @@
+{
+ "session": "trubbish-garbodor-9447",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "깨봉이",
+   "species": "trubbish-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_jazz",
+     "ofam": "retro",
+     "item": "nineties_slip",
+     "garments": [
+      "cardigan",
+      "dress",
+      "slip"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "arms_crossed",
+     "left": "arms_crossed",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "crossed_wall",
+     "expr": "serious",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "high thigh slit"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_starstage",
+     "ofam": "lingerie",
+     "item": "babydoll",
+     "garments": [
+      "slip"
+     ],
+     "weather": "",
+     "posture": "sit_floor",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "high",
+     "right": "chin_knee",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "camera",
+     "preset": "floor_knee",
+     "expr": "wink",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "mini length"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_open_air",
+     "ofam": "traditional",
+     "item": "caftan_evening",
+     "garments": [
+      "robe"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "hair_tuck",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "preset": "hair_close",
+     "expr": "nostalgic",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1,
+      2
+     ],
+     "two": true,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "street",
+     "spa",
+     "sports",
+     "night",
+     "stage",
+     "evening",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "cardigan",
+     "dress",
+     "slip",
+     "robe"
+    ],
+    "orient": [
+     "front_3q+with_body",
+     "front_3q+tilt",
+     "side+with_body"
+    ],
+    "frame": [
+     "chest_up",
+     "face_close"
+    ]
+   }
+  },
+  {
+   "card": "더스트나",
+   "species": "garbodor-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_powder",
+     "ofam": "roleplay",
+     "item": "casino_dealer",
+     "garments": [
+      "vest"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "cup_set",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "sleepy",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "berry_orchard",
+     "ofam": "everyday",
+     "item": "overalls",
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "basket_carry",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "preset": "walk_lookback",
+     "expr": "laughing_open",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "side cutouts"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "sports_gym",
+     "ofam": "active",
+     "item": "",
+     "garments": [
+      "shorts",
+      "tank"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "full_body",
+     "body": "side",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "horizon",
+     "preset": "",
+     "expr": "determined",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "open back"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      1,
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "spa",
+     "sports",
+     "evening",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "vest",
+     "crop_top",
+     "overalls",
+     "shorts",
+     "tank"
+    ],
+    "orient": [
+     "front+turn_side",
+     "side+tilt"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "casual_plan": [
+  {
+   "cut": 1,
+   "treeV": 2,
+   "era": "now",
+   "place": "night_powder",
+   "ofam": "roleplay",
+   "item": "casino_dealer",
+   "garments": [
+    "vest"
+   ],
+   "weather": "",
+   "posture": "sit_chair",
+   "support": "none",
+   "frame": "environmental",
+   "body": "front",
+   "head": "turn_side",
+   "camera": "eye",
+   "right": "prop",
+   "left": "lap",
+   "use": "cup_set",
+   "legs": "knees_together",
+   "gaze": "screen_left",
+   "preset": "bench_sit",
+   "expr": "sleepy",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "strong",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "bare midriff",
+    "cropped hem"
+   ],
+   "lead": "detail",
+   "axes_why": {
+    "action_level": "Cup placement while seated is a held event-preparation moment; mostly posed.",
+    "source_influence": "Colored bead ornaments retain the blue-pink aggregate cue; strong.",
+    "separates_preference": "Cropped waistcoat and tailored shorts are separate garments."
+   },
+   "manual_inputs": {
+    "scene": "A small porcelain cup and saucer catch the neon reflections on the vanity; a tiny blue-and-pink glass bead ornament rests beside them.",
+    "outfit": "A casino dealer event costume with a fitted black cropped waistcoat, bow tie and detached cuffs, worn with tailored ivory high-waist shorts; the cropped hem leaves the midriff bare."
+   },
+   "manual_why": {
+    "scene": "The cup-setting motion needs a vanity surface and cup; the glass ornament supplies a small source cue without copying armor.",
+    "outfit": "The selected dealer costume does not define the lower garment; tailored shorts complete it and the planned cropped hem exposes the midriff."
+   },
+   "reservation_verify": "Stamp matches; e36debe1a0814d38833d5f632da626e36d8d8a90 pushed before generation"
+  },
+  {
+   "cut": 2,
+   "treeV": 2,
+   "era": "in_pokemon",
+   "place": "berry_orchard",
+   "ofam": "everyday",
+   "item": "overalls",
+   "garments": [
+    "crop_top",
+    "overalls"
+   ],
+   "weather": "",
+   "posture": "walk",
+   "support": "none",
+   "frame": "three_quarter",
+   "body": "rear_3q",
+   "head": "over_shoulder",
+   "camera": "eye",
+   "right": "prop",
+   "left": "down",
+   "use": "basket_carry",
+   "legs": "walk_pause",
+   "gaze": "camera",
+   "preset": "walk_lookback",
+   "expr": "laughing_open",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly active",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "strapless top",
+    "side cutouts"
+   ],
+   "lead": "action",
+   "axes_why": {
+    "action_level": "Walking along a harvest path carrying a basket is an active mid-action moment.",
+    "source_influence": "Unusual blue and pink berries and ornaments provide obvious Pokemon-world source props; strong.",
+    "separates_preference": "Overall garment is a one-piece over a cropped top, so balanced preserves that outfit choice."
+   },
+   "manual_inputs": {
+    "scene": "The harvest path winds between trees laden with ripe berries, with a woven collecting basket full of freshly picked fruit.",
+    "outfit": "Fitted pale-denim short overalls over an opaque strapless terracotta cropped top, with side-waist cutouts in the overalls."
+   },
+   "manual_why": {
+    "scene": "The selected basket-carry motion lacks the harvest context around it; a picked-fruit path clarifies the orchard activity.",
+    "outfit": "Keep the selected denim overalls and cropped top, making the top strapless and the overall sides cut out as planned."
+   },
+   "reservation_verify": "Stamp matches; e36debe1a0814d38833d5f632da626e36d8d8a90 pushed before generation"
+  },
+  {
+   "cut": 3,
+   "treeV": 2,
+   "era": "release",
+   "place": "sports_gym",
+   "ofam": "active",
+   "item": "",
+   "garments": [
+    "shorts",
+    "tank"
+   ],
+   "weather": "",
+   "posture": "lean_wall",
+   "support": "back_wall",
+   "frame": "full_body",
+   "body": "side",
+   "head": "tilt",
+   "camera": "eye",
+   "right": "",
+   "left": "",
+   "use": "",
+   "legs": "",
+   "gaze": "horizon",
+   "preset": "",
+   "expr": "determined",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "subtle",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "one-shoulder cut",
+    "open back"
+   ],
+   "lead": "light",
+   "axes_why": {
+    "action_level": "Leaning against a wall between training sets is a gentle transitional moment; balanced.",
+    "source_influence": "Training outfit and gym dominate; only a small source accessory remains, hence subtle.",
+    "separates_preference": "Athletic tank and navy shorts are separate top and bottom."
+   },
+   "manual_inputs": {
+    "scene": "Late-afternoon light crosses a brick wall beside the boxing ring and a leather heavy bag.",
+    "outfit": "An opaque white one-shoulder athletic tank with an open-back cut and navy training shorts, worn with white canvas lace-up athletic shoes with solid white side panels and rubber toe caps.",
+    "custom": "For this correction, replace only the athletic shoes in the attached off-duty scene with white canvas lace-ups with solid white side panels and rubber toe caps; preserve the rest of that scene."
+   },
+   "manual_why": {
+    "scene": "The gym selection does not locate the wall support; the brick wall beside the ring provides a clear grounded setting.",
+    "outfit": "The selected tank and shorts retain their one-shoulder and open-back construction; the footwear is specified as plain canvas panels after the initial generated shoes acquired a recognisable N-like brand mark.",
+    "custom": "The original gym scene is accepted except for the branded-looking sneaker side panels; this limits the revision to that visible footwear defect."
+   },
+   "reservation_verify": "Stamp matches; e36debe1a0814d38833d5f632da626e36d8d8a90 pushed before generation"
+  }
+ ]
+}

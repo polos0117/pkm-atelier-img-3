@@ -1,0 +1,210 @@
+{
+ "card": "더스트나",
+ "tool": "Built-in imagegen; exact prompt-pack outputs",
+ "face_comparison": {
+  "compared": [
+   "깨봉이",
+   "아케오스",
+   "아켄"
+  ],
+  "evidence": "Softly rounded jaw, wider full lips and rounded nose tip differ from the narrow heart-shaped Trubbish face and sharp-eyed avian faces; puff hairstyle remains identical across her set."
+ },
+ "diversity": {
+  "compared": [
+   "깨봉이",
+   "아케오스",
+   "아켄"
+  ],
+  "evidence": "Neon vanity seated cup placement, bright orchard mid-walk basket carrying and a brick gym wall break differ in place, posture, clothing silhouette and framing. These also differ from Trubbish jazz portrait, stage babydoll and caftan close-up."
+ },
+ "corrections": [
+  {
+   "slot": "casual3",
+   "problem": "Recognisable N-like mark on first generated sneakers; initial image excluded from publication.",
+   "original_sha256": "8e67445276def45f45aeeb8a9e459e1f30ec78a6cfd929bbcb2d97bb90cb0895",
+   "changed_fields": [
+    "outfit",
+    "custom"
+   ],
+   "references": [
+    "canonical light",
+    "initial casual3 image"
+   ],
+   "result": "Accepted: final shoes have plain white canvas side panels and rubber toe caps; no visible letter or logo. Same face, arms, legs, stance and gym background preserved."
+  }
+ ],
+ "images": {
+  "light": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Rounded face, warm brown skin, full lips and two dark puff buns with blue and pink small insets. Two arms hang from matching shoulders, gloved hands relaxed. Two legs join pelvis and both boots are fully inside frame.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Rounded face, warm brown skin, full lips and two dark puff buns with blue and pink small insets. Two arms hang from matching shoulders, gloved hands relaxed. Two legs join pelvis and both boots are fully inside frame."
+   }
+  },
+  "heavy": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Same face and puff hair retained; broad layered shoulders, abdomen, pelvis, thigh and shin plates enlarge the armor outline. Both arms and boots keep their original placement.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Same face and puff hair retained; broad layered shoulders, abdomen, pelvis, thigh and shin plates enlarge the armor outline. Both arms and boots keep their original placement."
+   }
+  },
+  "mobility": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Same face and proportions; perforated narrow plates fan back from shoulders, hips and calves, with compact pink-blue thrusters and thin temple fins. No giant wings or helmet.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Same face and proportions; perforated narrow plates fan back from shoulders, hips and calves, with compact pink-blue thrusters and thin temple fins. No giant wings or helmet."
+   }
+  },
+  "light_overdrive": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Same forward leg, camera and subject size; slim bronze plates hinge away from dark frame with violet glow. Original gloves and boots remain; brown eyes keep their original color.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Same forward leg, camera and subject size; slim bronze plates hinge away from dark frame with violet glow. Original gloves and boots remain; brown eyes keep their original color."
+   }
+  },
+  "heavy_overdrive": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Thick stacked plates open around the shoulders, hips, thighs and shins to show inner struts and violet light. Crown piece belongs to closed heavy form; no additional helmet or weapon.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Thick stacked plates open around the shoulders, hips, thighs and shins to show inner struts and violet light. Crown piece belongs to closed heavy form; no additional helmet or weapon."
+   }
+  },
+  "mobility_overdrive": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Swept panels spread and thruster covers open in the same stance as closed mobility; violet vapor glows behind the panel undersides. Both relaxed gloved hands stay outside the effects.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right glove shows four bent fingers plus separated thumb; left fingers loosely curled and partly overlapped, thumb on corresponding side; no detached hand.",
+    "overlay_checked": false,
+    "note": "Swept panels spread and thruster covers open in the same stance as closed mobility; violet vapor glows behind the panel undersides. Both relaxed gloved hands stay outside the effects."
+   }
+  },
+  "casual1": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Black cropped fitted dealer waistcoat, white detached cuffs and bow tie with ivory shorts, midriff and shoulders bare. Seated at a neon vanity, right hand on cup, left on knee. Both black heels visible. Original large hair ornaments remain; record-only.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Right hand grips cup handle with thumb/index and overlapping partly occluded fingers; left hand on knee has four long fingers and thumb.",
+    "overlay_checked": false,
+    "note": "Black cropped fitted dealer waistcoat, white detached cuffs and bow tie with ivory shorts, midriff and shoulders bare. Seated at a neon vanity, right hand on cup, left on knee. Both black heels visible. Original large hair ornaments remain; record-only."
+   }
+  },
+  "casual2": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "Pale denim short overalls and strapless terracotta top expose shoulders and side waist; a woven berry basket rests in right elbow crook. Left arm falls naturally at side. Rear three-quarter torso and head turned toward the camera; she laughs with mouth open. No second person.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Left hand down has four loosely curled fingers plus separated thumb; right hand is occluded by the basket after its forearm and elbow remain visibly connected.",
+    "overlay_checked": false,
+    "note": "Pale denim short overalls and strapless terracotta top expose shoulders and side waist; a woven berry basket rests in right elbow crook. Left arm falls naturally at side. Rear three-quarter torso and head turned toward the camera; she laughs with mouth open. No second person."
+   }
+  },
+  "casual3": {
+   "dimensions": {
+    "match": true,
+    "evidence": "Source PNG opens as 1024x1536; WebP conversion preserves size."
+   },
+   "identity": {
+    "match": true,
+    "evidence": "Same dark brown puff buns, small colored ornaments, warm brown skin, almond eyes, rounded chin and full lips."
+   },
+   "observation": "White athletic tank and navy shorts, back resting against brick pillar near the heavy bag and ring ropes. Both arms folded and hands naturally obscured; two legs connected, one knee bent and both plain white canvas shoes fully visible. Original large puff ornaments retained as record-only. White tank neckline differs slightly from planned one-shoulder cut, also record-only.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3 on shared environment); manual inspection used",
+    "arms": 2,
+    "legs": 2,
+    "hands": "Both hands hidden by crossed forearms and torso; two elbows and two continuous upper arms visible.",
+    "overlay_checked": false,
+    "note": "White athletic tank and navy shorts, back resting against brick pillar near the heavy bag and ring ropes. Both arms folded and hands naturally obscured; two legs connected, one knee bent and both plain white canvas shoes fully visible. Original large puff ornaments retained as record-only. White tank neckline differs slightly from planned one-shoulder cut, also record-only."
+   }
+  }
+ },
+ "casual_look": "work/pkm-atelier-img-3/img/더스트나_glossy_promo_f_casual1.webp — 가까운 컷 0장(점수 245 미만)\n     293  무우마_glossy_promo_f_casual1.webp\n     301  데구리_glossy_promo_f_casual1.webp\n     302  곤율랭_glossy_promo_f_casual1.webp\nwork/pkm-atelier-img-3/img/더스트나_glossy_promo_f_casual2.webp — 가까운 컷 0장(점수 245 미만)\n     270  찌르버드_glossy_promo_f_casual3.webp\n     270  캐터피_glossy_promo_f_casual2.webp\n     275  암스타_glossy_promo_f_casual2.webp\nwork/pkm-atelier-img-3/img/더스트나_glossy_promo_f_casual3.webp — 가까운 컷 0장(점수 245 미만)\n     275  패리퍼_glossy_promo_f_casual1.webp\n     278  디그다_glossy_promo_f_casual1.webp\n     280  대검귀_glossy_promo_f_casual2.webp\n통과 — 거의 같은 일상컷 없음\n"
+}

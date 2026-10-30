@@ -1,0 +1,172 @@
+[
+ {
+  "slot": "light",
+  "file": "더스트나_light_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-70c5cc8d-301c-4077-b249-cd32509f7bd9.png",
+  "source_sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9",
+  "sha256": "7664c5b2a5621c2eef763f32c864dabdfaf93c45177eaebe690d9fc918d8789a",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": []
+ },
+ {
+  "slot": "heavy",
+  "file": "더스트나_heavy_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-33a6480d-a963-40ae-804b-38f21276d78f.png",
+  "source_sha256": "ae406f1e777ec51b7bf44c6707cec8a858bd9f1081e49a51e3ef7152a4230155",
+  "sha256": "820077c3fd2347d79c370e4f3b67729aa312f60dd0cb903a328c1ecd4e1566a0",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "mobility",
+  "file": "더스트나_mobility_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-f0455879-9943-4aed-8c27-9754f7c9ceeb.png",
+  "source_sha256": "72a8730c55a753797f5bef2f6b64bce46d4536b3b74e1e28f9adc9769fcd89a3",
+  "sha256": "198cc166edc7fa91d9f716f592dd3d855f6f2287846ccdbd8b11f8c6aebfbb64",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "light_overdrive",
+  "file": "더스트나_light_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-9ffa702c-2dbc-4771-ab6c-10c50eddc819.png",
+  "source_sha256": "0e931c65a1eafb50b1538741556f2c775661192bc10fe69e522e42a8ca06b527",
+  "sha256": "269585628aedd3fce53674e230d3ce757cd3285adeca0a87f50644c6bda34a22",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "heavy_overdrive",
+  "file": "더스트나_heavy_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-dca5bd69-6595-4f18-b34e-d3e4c85dbd98.png",
+  "source_sha256": "f8072eea1678f33491d4fe280a474e3f058ce848c5c485eddde7cfb713c7e0a6",
+  "sha256": "f2db0b62ec32cb66f84e97b3a82f1e43e9a005b5815e55e9698c1b1134a32b1f",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "heavy",
+    "sha256": "ae406f1e777ec51b7bf44c6707cec8a858bd9f1081e49a51e3ef7152a4230155"
+   },
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "mobility_overdrive",
+  "file": "더스트나_mobility_overdrive_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-35d69b76-e3ea-43cc-8af3-99840d651350.png",
+  "source_sha256": "4ae568bc9926b704aac0bd223cbb6c0b53aec3bd46db92af1dfe46489193423a",
+  "sha256": "b87dbe449b7ec7eb0fb9046ec691bb5c0e4b1d9c629999a4ec820ebecb713fdc",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "mobility",
+    "sha256": "72a8730c55a753797f5bef2f6b64bce46d4536b3b74e1e28f9adc9769fcd89a3"
+   },
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "casual1",
+  "file": "더스트나_glossy_promo_f_casual1.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-127fd6ff-5a8d-47ca-9f2b-c0b80758cc43.png",
+  "source_sha256": "21b23a4cd7248ddaeaff493fd8a715fd15808871385b1177cb3bc127840cf6d6",
+  "sha256": "4143ccd6706a739475e2c940bbaa660d5b39e5abeb79af8f98cda1a5845d491c",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "casual2",
+  "file": "더스트나_glossy_promo_f_casual2.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-8602dc77-9a13-4d25-a556-5b9741a53f04.png",
+  "source_sha256": "b670a7b6e85f79c58a9c54c6a6bf51ca2f9643646c0e4f3e81e4a2c54300464a",
+  "sha256": "fc68758d004425a0543a18a2de07ed487521acc4c10cf5a33034aec1cba29b58",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   }
+  ]
+ },
+ {
+  "slot": "casual3",
+  "file": "더스트나_glossy_promo_f_casual3.webp",
+  "source_path": "/workspace/scratch/9447e6a01e14/generated_images/exec-00dd4263-7c64-4ad0-a81f-013a9d94cc20.png",
+  "source_sha256": "3d259b3401e62d05250bb08e0ab0aeb283572dd23360c4675b042ea471ad8b0c",
+  "sha256": "6c0c0e16a6773fd791759378be49378abdb5779285c533ec5dc686632991ee09",
+  "width": 1024,
+  "height": 1536,
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings, not inferred",
+  "references": [
+   {
+    "slot": "light",
+    "sha256": "22e7dbe7e9ddc3552ad3f524382c16a76f2d9901f00d0efa4db584673e3265e9"
+   },
+   {
+    "role": "partial correction target",
+    "slot": "initial casual3",
+    "sha256": "8e67445276def45f45aeeb8a9e459e1f30ec78a6cfd929bbcb2d97bb90cb0895"
+   }
+  ]
+ }
+]
