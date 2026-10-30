@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "에리본",
+ "no": 743,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/59c754f30817/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "A small chestnut-brown scarf at the collar, fluffy golden-yellow hair, black antenna-inspired hair ornaments and white wing-shaped split cape; retain a normal adult human face.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Holding her closed book during a break from a costume rehearsal; a small Ribombee rests separately on the grooming mat.",
+   "outfit": "An off-shoulder plum velvet sorceress robe gown, cut to mini length with an open upper back, a jewelled belt and secure opaque lining.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "마법사 가운의 색과 짧은 기장·오픈백을 구체화하고 책 동작과 중복되는 지팡이는 생략한다.",
+    "scene": "동료 묶음이라 함께 있는 포켓몬 한 마리와 의상 리허설 맥락을 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_room / costume / sorceress_robe / recline / environmental / book_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_room",
+      "ko": "그루밍 매트 있는 방",
+      "en": "a sunny room with a grooming mat, a towel and a small brush basket"
+     },
+     "role": null,
+     "use": {
+      "key": "book_hold",
+      "ko": "책을 안는다",
+      "en": "holds a book closed against her chest",
+      "prop": "책"
+     },
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "sorceress_robe",
+      "ko": "마법사",
+      "en": "a sorceress costume — an off-shoulder velvet robe gown with a jewelled belt and a crystal staff prop"
+     },
+     "posture": {
+      "key": "recline",
+      "ko": "기대 눕기",
+      "en": "reclining on her back"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "behind_head · prop"
+    },
+    "garments": [
+     "dress",
+     "robe"
+    ],
+    "expose": [
+     "open back",
+     "mini length"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Warm candlelight falls across cream stone and small flowers prepared for a themed stage event.",
+   "outfit": "A stylised navy uniform-inspired event costume with crisp lapels and decorative epaulettes, a cropped sleeveless jacket with an open back and matching high-waisted shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "유니폼풍 선택을 유지하며 무대 행사복의 재킷 길이와 등 트임을 정한다.",
+    "scene": "환상 예배당에서 역할극 의상을 입은 행사 맥락과 조명만 보충한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_taxi / roleplay / uniform_inspired / stand / chest_up / cup_sip",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "uniform_inspired",
+      "ko": "유니폼풍",
+      "en": "a stylised uniform-inspired costume with crisp lapels and decorative epaulettes, no real insignia"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "uniform"
+    ],
+    "expose": [
+     "cropped hem",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Amber reading lights glow inside the sleeper compartment as the train crosses the countryside.",
+   "outfit": "A flowing teal evening caftan with a one-shoulder neckline and a high thigh slit, secured with a slim belt.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "침대칸의 독서등과 이동 맥락을 보충한다.",
+    "outfit": "카프탄 선택을 유지하며 색·한쪽 어깨·허벅지 슬릿의 구조를 정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / lodge_terrace / bridal / bridal_lace / squat / full_body / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "lodge_terrace",
+      "ko": "겨울 산장 테라스",
+      "en": "a snowy mountain-lodge terrace with a wooden railing and benches above a winter valley"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "bridal_lace",
+      "ko": "브라이덜 레이스",
+      "en": "a white lace bridal lingerie set with a short veil"
+     },
+     "posture": {
+      "key": "squat",
+      "ko": "쪼그려 앉기",
+      "en": "crouching low on her heels"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

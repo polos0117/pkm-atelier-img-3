@@ -1,0 +1,161 @@
+{
+ "reviewer": "gpt",
+ "images": {
+  "light": {
+   "accepted": true,
+   "observations": "금발 긴 트윈테일·호박색 눈·갈색 목 리본. 두 팔이 어깨에서 손목으로 이어지고 부츠 두 발이 프레임 안에 보임. 머리장식 끝은 상단에 조금 걸림.",
+   "image_sha256": "8c1136308ddb0f3769453c21fa00cda434ecee9350e80b1ee2a56087ee9dbe96",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "observations": "경장의 얼굴과 긴 트윈테일 유지, 어깨·흉부·골반·허벅지에 넓은 이중 판과 두꺼운 테두리. 양손과 두 발 확인.",
+   "image_sha256": "2f49aecb20d6e949655497af23560e9f4d3a721542289f913d2c453d5ea632b0",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "observations": "각진 가는 스윕 판과 소형 분사구, 무릎과 어깨 관절의 자유. 경장 얼굴과 신체 비율을 유지함.",
+   "image_sha256": "3b3cb5bfcb847126bcf3396651228b7e8a68459e9d7470c0fb25e1ae491ca6f1",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "observations": "기본 경장과 같은 자세·부츠 위치, 이음새를 열고 연두빛 내부 프레임. 호박색 눈 유지.",
+   "image_sha256": "ce30b2dbff42c1648cbca4a7a59df3528fdb4485cde957d6507ea97f9b2bcf41",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "observations": "중장 이중 판이 벌어지고 연두빛 내부가 보임. 일반 중장과 머리·카메라·발 위치 일치.",
+   "image_sha256": "092a9476fb1f64bfffee1034cc45ff934d0f756158468d1d68b2fc0563aa20d4",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "observations": "高기동의 스윕 판이 열려 소형 분사구와 내부 프레임을 드러냄. 눈에 연두 반사광이 더 강하게 비침.",
+   "image_sha256": "aa1963e95e25d66139808be2fd471d1390bb0eb64c1c3648b0acdc822fea566a",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼쪽 펴진 손: 엄지와 네 손가락, 화면 오른쪽 아래로 굽힌 손: 엄지와 네 손가락(일부 겹침)",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "observations": "자주색 오프숄더 가운, 긴 다리를 뻗어 소파에 기대고 오른팔은 머리 뒤·왼손은 책. 별도의 에리본 한 마리가 수건 위. 발끝 테두리 근접, 원작 머리장식 남음.",
+   "image_sha256": "eb15c5d257503a5c6cd92327be29a3938ca4fadac202b5cd2f2f3a1014978ea3",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "책을 잡은 왼손 엄지+네 손가락; 오른손은 머리 뒤에 가려짐; 양발 발가락 다섯씩 보임",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 소파에 등을 기대 누워 다리를 뻗음",
+    "expression": "부분 일치: 눈과 입은 열려 있고 눈썹 비대칭은 약함",
+    "outfit": "일치: 자주 오프숄더 미니 로브",
+    "frame": "메모: 환경 와이드보다 인물이 크게 보임; 발끝 테두리 근접"
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "observations": "촛불과 스테인드글라스 앞 유니폼풍 짧은 무대 의상, 윙크하며 꽃다발을 코 가까이에 듦. 계획 오른손 대신 실제 왼손에 꽃, 가슴 위보다 아래까지 크롭됨.",
+   "image_sha256": "0c4f73a9d4b5b026f9b2e2813592faccca6e2299348112a8301fd7f4072e5bb9",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "꽃다발 쥔 왼손 엄지+네 손가락; 오른팔은 크롭 밖",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 서서 꽃다발을 코에 가까이 듦",
+    "expression": "일치: 한쪽 눈을 감는 윙크",
+    "hand": "불일치 메모: 계획 오른손 대신 왼손에 꽃다발",
+    "frame": "메모: chest_up보다 복부까지 보이는 크롭"
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "observations": "야간 침대 열차, 청록 카프탄을 입고 엎드려 양손으로 턱을 받침. 두 팔꿈치가 침대에 닿고 무릎을 접어 두 발을 교차. 둥근 입과 커진 눈의 놀란 표정.",
+   "image_sha256": "1bba62f265077d49f64a52c206c9aeb3fbfa645675bbfaa422de1b81da9610be",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손이 턱을 받치며 엄지와 손가락은 손등 뒤로 일부 가려짐; 두 손목 모두 팔꿈치로 연결; 양발 다섯 발가락",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 두 팔·다리는 자연 관절로 이어지며 여분 손이나 팔 없음."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 엎드려 두 팔꿈치로 받치고 양손으로 턱을 감쌈",
+    "legs": "일치: 종아리를 들어 발목 교차",
+    "expression": "일치: 둥근 입과 크게 뜬 눈",
+    "outfit": "부분 일치: 청록 드레이프 원피스, 한쪽 어깨 구조가 약함"
+   }
+  }
+ },
+ "face_reason": {
+  "sources": [
+   "data/face-design.json#743",
+   "data/source-appearance.json#743"
+  ],
+  "compared_characters": [
+   "에블리",
+   "치라미",
+   "고디탱"
+  ],
+  "observed": "에블리의 짧은 트윈테일과 달리 매우 긴 트윈테일. 하트형 얼굴·가는 턱·큰 호박색 눈·부드러운 눈썹·활 모양 윗입술을 유지. 치라미의 은회색, 고디탱의 흑백 적색과 구별."
+ },
+ "diversity_comparison": {
+  "compared_characters": [
+   "고디보미",
+   "고디탱",
+   "에블리"
+  ],
+  "actual_images_viewed": true,
+  "observed": "고디보미의 야경 셀카·쇼파 차회·산길 레인저, 고디탱의 파티 의자·옥상 V셀카·라운지 카드, 에블리의 음료 클로즈업·오버롤 꽃·클럽 역할복을 나란히 확인. 이번 에리본은 자주 가운+동료+누운 독서, 예배당 꽃다발+군복풍 확대, 청록 카프탄+열차+엎드린 턱받침으로 장소·활동·옷 실루엣·자세가 구별됨. 에블리와 꽃 소품은 겹치나 의상과 장소·표정·구도는 다름."
+ }
+}
