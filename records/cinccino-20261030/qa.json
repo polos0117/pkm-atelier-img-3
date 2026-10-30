@@ -1,0 +1,178 @@
+{
+ "reviewer": "gpt",
+ "accepted": true,
+ "image_tool": "built-in imagegen",
+ "compared_characters": [
+  "치라미",
+  "조로아",
+  "조로아크",
+  "더스트나"
+ ],
+ "face_reason": "치라미의 짧고 둥근 얼굴보다 길어진 타원 윤곽·아몬드 눈·긴 아치 눈썹·도톰한 입술, 길게 흐르는 포니테일로 계열 안에서 구분된다. 최근 세 인물의 검정·빨강 머리 또는 번 헤어와도 다르다.",
+ "diversity_comparison": "샹들리에 아래 레오타드·타이츠 전신과 부채, 풀숲 배경의 니트·컵 상반신, 링 조명 사진 부스에서 걸으며 돌아보는 모노키니 전신이 의상·손·카메라·배경에서 구분된다. 치라미 3컷 및 조로아·조로아크·더스트나 실제 비교 시트와 대조했다.",
+ "casual_look": "passed; nearest 230,299,294; casual1 has a near neighbor above 215 reject threshold",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "image_sha256": "ff0b0bad270ae6b8f2457b52337ac9d61f3cba4e9e9f59e3b5765c79efb4adfa",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "image_sha256": "f3cd627f9a527776e8310e59721295fe8ff1e1b086e0f33aef4da3ebcec78f0c",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "image_sha256": "5bfb8d14165c3db501d954e01781703085973c9e4182cce8e3345cdc295aade2",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "image_sha256": "e7e54d9b0ba1e0f5e8545d12039c53e72c8c92c447959a12f22c196ba66ef2a8",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "image_sha256": "c194dcb47f4fe77d1101339fbdd98cf5e2cc6a46cd5442a84ffcee0a79144431",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "image_sha256": "7562d089e3c2b83e3160a1869ef0a6fb1437591884a53ce541bedc651eadbab4",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "화면 왼손의 펼친 엄지와 굽힌 네 손가락, 오른손은 네 손가락과 일부 겹친 엄지. 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "얇은 경장·겹판 중장·스윕 분할판 고기동을 구분하고, 개방은 기존 이음새와 코어가 금빛으로 열림. 두 발과 힐이 모두 프레임 안.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "닫힘/개방의 카메라·자세·인물 크기 유지."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "image_sha256": "74466a1824b656d06b99018a001fb2cf6f7158dce80814c62aac596de47f2ab6",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "부채를 잡은 손은 네 손가락과 뒤쪽 엄지; 늘어뜨린 손은 굽힌 손가락과 엄지 연결, 중복 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "산호색 레오타드 허리 트임·청록색 타이츠·레그워머·머리띠, 부채·샹들리에 전신. 작은 신발 라벨은 실제 상표로 판독되지 않음.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "일상에 큰 귀 장식이 남아 있음 — 기록만 하는 항목. 사진 부스 컷은 환경 와이드보다 인물 비중이 큼."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "image_sha256": "56303644ee8b83c4950d068b8c22b8721b77a71c42d11f5a9000f0b41105b92a",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "컵 양쪽에 각 네 손가락이 보이고 엄지는 컵 뒤로 가려짐. 손목 둘 모두 소매 안으로 이어짐.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "라벤더 니트가 한쪽 어깨 아래로 내려가고 컵을 두 손으로 감쌈. 흙길·풀숲·마을 배경, 하의는 상반신 프레임 밖.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "일상에 큰 귀 장식이 남아 있음 — 기록만 하는 항목. 사진 부스 컷은 환경 와이드보다 인물 비중이 큼."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "image_sha256": "48f3d75e76fb3134248b107457705d71c91851e5a936a907619eb64862ac0b24",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손의 굽힌 네 손가락과 엄지가 각 손목에 자연스럽게 이어짐, 추가 손 없음.",
+    "overlay_checked": false,
+    "note": "손·발 확대와 전체 그림을 확인해 손목-팔꿈치-어깨 연결 및 골반-무릎-발 연결을 확인. 가려진 손가락은 가려짐으로 기록."
+   },
+   "observations": {
+    "identity": "회갈색 눈·은회색 긴 포니테일·타원 얼굴·긴 아치 눈썹 유지.",
+    "costume": "파란 홀터 모노키니·샌들, 사진 부스의 링 조명과 분홍 커튼. 뒤3/4 골반·몸통에서 얼굴이 카메라 쪽으로 돌아오며 두 발이 보임.",
+    "frame": "1024×1536, 폼 및 일상1·3은 두 발 포함; 일상2는 상반신 선택.",
+    "difference": "일상에 큰 귀 장식이 남아 있음 — 기록만 하는 항목. 사진 부스 컷은 환경 와이드보다 인물 비중이 큼."
+   }
+  }
+ }
+}

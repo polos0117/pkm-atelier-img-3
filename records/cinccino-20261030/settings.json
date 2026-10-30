@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "치라치노",
+ "no": 573,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/75bfe492cd93/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The masquerade ballroom has mirrored columns and a luminous checkerboard dance floor beneath cascading crystal chandeliers.",
+   "outfit": "An 1980s coral aerobics leotard with a mini-length high-cut hip line and a small midriff cutout over shiny teal leggings, with leg warmers and a matching headband.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "가면무도회장의 거울 기둥과 바닥 무늬를 보충한다.",
+    "outfit": "레오타드·빛나는 타이츠·레그워머 구조를 유지하고 작은 허리 트임으로 노출을 표현한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_ballroom / retro / aerobics_80s / walk / full_body / fan_hold",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_ballroom",
+      "ko": "가면무도회장",
+      "en": "a chandelier ballroom at a masquerade"
+     },
+     "role": null,
+     "use": {
+      "key": "fan_hold",
+      "ko": "부채를 든다",
+      "en": "holds a folding fan open near her chest",
+      "prop": "접부채"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "aerobics_80s",
+      "ko": "80년대 에어로빅",
+      "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "leggings"
+    ],
+    "expose": [
+     "mini length",
+     "bare midriff"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "The warm cup releases a thin wisp of steam as dew sparkles on the tall grass along the dirt route.",
+   "outfit": "A soft lavender knit lounge top with an asymmetric off-shoulder neckline exposing one shoulder and the collarbones, paired with short ivory lounge shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "컵의 김과 풀숲의 이슬을 보충한다.",
+    "outfit": "홈웨어의 니트 상의·쇼츠를 유지하고 비대칭 어깨 목선을 정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_route / homewear / stand / chest_up / cup_wrap",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_route",
+      "ko": "풀숲 길",
+      "en": "a route of tall grass and a dirt path between two Pokémon-world towns"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_wrap",
+      "ko": "두 손으로 잔을 감싼다",
+      "en": "holds a cup in both hands, wrapped around its warm sides",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "knit_top",
+     "shorts"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Bright ring lights reflect in the photo-booth curtain rails, while pastel arcade lights tint the polished floor.",
+   "outfit": "A cobalt sculptural monokini with asymmetric side cutouts joined by a solid central panel, a secure plunging halter neckline, fully opaque lining and simple flat sandals.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "사진기의 링 조명과 커튼 레일·바닥 반사를 구체화한다.",
+    "outfit": "모노키니의 중앙 패널과 옆 트임을 유지하고 홀터 목선을 정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_photo / swimwear / monokini / walk / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_photo",
+      "ko": "스티커 사진기",
+      "en": "an arcade photo-sticker booth under bright ring lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "monokini",
+      "ko": "모노키니",
+      "en": "a sculptural monokini with asymmetric side cut-outs joined by a solid central panel"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
