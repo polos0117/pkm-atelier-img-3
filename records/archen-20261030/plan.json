@@ -1,0 +1,259 @@
+{
+ "session": "archen-archeops-deb578c7",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "아켄",
+   "species": "archen-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "now",
+     "place": "home_bedroom",
+     "act": "rain_window",
+     "ofam": "lingerie",
+     "item": "sari_blouse_set",
+     "garments": [
+      "blouse",
+      "traditional"
+     ],
+     "orient": "leaning_back",
+     "frame": "environmental",
+     "pose": "",
+     "expr": "calm",
+     "lens": "documentary35",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "cropped hem"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "era": "release",
+     "place": "spa_onsen",
+     "act": "wet_hair",
+     "ofam": "bath",
+     "item": "bath_yukata",
+     "garments": [
+      "traditional"
+     ],
+     "orient": "looking_down",
+     "frame": "face_close",
+     "pose": "",
+     "expr": "confident",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "open back",
+      "off-shoulder neckline"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "era": "now",
+     "place": "evening_museum",
+     "act": "stroll",
+     "ofam": "evening",
+     "item": "opera_coat",
+     "garments": [
+      "coat",
+      "dress"
+     ],
+     "orient": "front",
+     "frame": "three_quarter",
+     "pose": "walking",
+     "expr": "smug",
+     "lens": "portrait85",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "mini length",
+      "plunging neckline"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "studio",
+     "spa",
+     "night",
+     "evening",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse",
+     "traditional",
+     "coat",
+     "dress"
+    ],
+    "orient": [
+     "leaning_back",
+     "looking_down",
+     "front"
+    ],
+    "frame": [
+     "face_close"
+    ]
+   }
+  },
+  {
+   "card": "아케오스",
+   "species": "archeops-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "era": "now",
+     "place": "night_livehouse",
+     "act": "rest_seat",
+     "ofam": "subculture",
+     "item": "emo",
+     "garments": [
+      "trousers"
+     ],
+     "orient": "over_shoulder",
+     "frame": "full_body",
+     "pose": "sitting",
+     "expr": "bored",
+     "lens": "wide24",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "mini length"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "era": "now",
+     "place": "water_beach",
+     "act": "sunbed",
+     "ofam": "retro",
+     "item": "disco_halter",
+     "garments": [
+      "jumpsuit"
+     ],
+     "orient": "reclining",
+     "frame": "waist_up",
+     "pose": "",
+     "expr": "sensual",
+     "lens": "telephoto135",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 3,
+     "era": "release",
+     "place": "studio_art",
+     "act": "rest_seat",
+     "ofam": "homewear",
+     "item": "one_shoulder_lounge",
+     "garments": [
+      "trousers"
+     ],
+     "orient": "leaning_forward",
+     "frame": "three_quarter",
+     "pose": "perched_seat",
+     "expr": "playful",
+     "lens": "natural50",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "strapless top"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "studio",
+     "spa",
+     "night",
+     "berry",
+     "fx"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "trousers",
+     "jumpsuit"
+    ],
+    "orient": [
+     "over_shoulder",
+     "reclining",
+     "leaning_forward"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
