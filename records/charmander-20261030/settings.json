@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "card": "파이리",
+ "no": 4,
+ "style": "mecha_cinematic_keyart",
+ "plan": "/tmp/claude-0/-home-user-atelier/bc7bc145-312e-5a4a-8461-32d6d0ea4734/scratchpad/t2/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Late at night the bar's brick wall behind her is hung with framed vintage records, the grand piano gleams under a single amber spotlight, and a small flame-shaped candle flickers on a nearby table.",
+   "outfit": "a tailored oversized ivory shirt worn open over a matching black satin lingerie set — a halter-neck bralette and high-waisted briefs with side cutouts",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "계획 첫머리 place 에 맞춰 재즈바의 모습(벽돌 벽 · 레코드 액자 · 스포트라이트 받은 피아노)부터 쓰고, 원작 모티프는 옷 대신 불꽃 모양 촛불 하나로 남겼다(SOURCE strong 인 이 컷만)",
+    "outfit": "란제리 위 오픈 셔츠 문장에 색이 없어 아이보리 셔츠 · 검정 새틴으로, 계획의 드러내기 둘(홀터 목선 · 옆 컷아웃)을 브라렛 · 브리프 구조로 넣었다 — 원작 주황은 피했다"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_jazz / lingerie / open_shirt_lingerie / lean_wall / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_jazz",
+      "ko": "재즈바",
+      "en": "a dim jazz bar with a grand piano"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "open_shirt_lingerie",
+      "ko": "란제리 위 오픈 셔츠",
+      "en": "a tailored oversized shirt worn open over a matching satin lingerie set"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "arms_crossed · arms_crossed"
+    },
+    "garments": [
+     "lingerie_set",
+     "shirt"
+    ],
+    "expose": [
+     "side cutouts",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "Fluorescent ceiling light and the glow of a cold-drink cooler wash over 1990s aisles of snacks and instant noodles; she has dropped in for a drink on her way to a mermaid-show rehearsal.",
+   "outfit": "a mermaid show costume — a cropped seafoam-blue scale-sequined bodice that leaves the back open, and a flowing teal chiffon wrap skirt",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "계획 첫머리 light 에 맞춰 형광등 · 냉장고 불빛부터, 장소 문장에 없는 90년대 진열대를 넣고 편의점에 무대 의상인 까닭(인어 쇼 리허설 가는 길)을 붙였다",
+    "outfit": "인어 쇼 문장을 살려 계획의 드러내기 둘(짧은 밑단 · 등 트임)을 짧은 비즈 보디스 구조로, 색은 원작 주황을 피해 바다색으로"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / street_grocery / costume / mermaid_show / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "street_grocery",
+      "ko": "마트·편의점",
+      "en": "a neighbourhood grocery or convenience store with bright aisles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "mermaid_show",
+      "ko": "인어 쇼",
+      "en": "a mermaid show costume — a scale-sequined bodice and a flowing chiffon wrap skirt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "thumbs_up · hip"
+    },
+    "garments": [
+     "skirt"
+    ],
+    "expose": [
+     "cropped hem",
+     "open back"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "A brass star chart is clipped to the railing beside her; beyond the open dome slit a clear night sky full of stars and a thin crescent moon, and the great telescope glints in cold blue light.",
+   "outfit": "a deep navy wrap-front swimsuit with a crossed plunging bodice tied at the waist and high-cut legs",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "계획 첫머리 detail 에 맞춰 난간에 꽂힌 별자리 판부터 쓰고, 장소 문장에 없는 맑은 별하늘 · 초승달 · 망원경 빛을 넣었다",
+    "outfit": "랩 프론트 수영복 문장에 색이 없어 짙은 남색으로, 계획의 드러내기 둘(깊은 목선 · 하이컷)을 그 수영복 구조로 넣었다"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_observatory / swimwear / wrap_swim / lean_rail / environmental",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_observatory",
+      "ko": "밤 천문대",
+      "en": "a night observatory under an open dome"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "wrap_swim",
+      "ko": "랩 프론트",
+      "en": "a wrap-front swimsuit with a crossed bodice tied at the waist"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "rail · hair_tuck"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}

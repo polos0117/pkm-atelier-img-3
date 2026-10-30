@@ -1,0 +1,340 @@
+{
+ "note": "일상컷 트리 버전2 둘째 시범(pkm docs/CASUAL_TREE_V2.md 5단계) — 옛 시트 캐릭터 파이리의 빈 자리 casual2·3. 계획기 --v2 · 세션 예약 charm-v2 · check 통과 · verify 도장 맞음",
+ "slot_map": {
+  "casual2": "계획 2번",
+  "casual3": "계획 3번"
+ },
+ "planner": "node tools/casual-plan.cjs 파이리 --session charm-v2 --v2 --avoid 파이리::place=library_reading --avoid 파이리::use=book_read --avoid 파이리::use=book_hold --avoid 파이리::use=book_turn (casual1 — 서점에서 책 읽기) --avoid 파이리::item=bridal_lace (이상해씨 때 안전 필터 두 번) --avoid 파이리:2:frame=face_close --avoid 파이리:2:ofam=bridal (사용자가 B안 — A안은 세 장 모두 가까운 컷이고 2번이 이상해씨 2번과 같은 꼴)",
+ "code_commit": "8df0673ab122d7280d1057b0fd080992e53f5468",
+ "alternative_a": {
+  "session": "charm-v2",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "파이리",
+    "species": "charmander-20261030",
+    "cuts": [
+     {
+      "cut": 1,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_jazz",
+      "ofam": "lingerie",
+      "item": "open_shirt_lingerie",
+      "garments": [
+       "lingerie_set",
+       "shirt"
+      ],
+      "weather": "",
+      "posture": "lean_wall",
+      "support": "back_wall",
+      "frame": "chest_up",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "arms_crossed",
+      "left": "arms_crossed",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "crossed_wall",
+      "expr": "serious",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "side cutouts",
+       "halter neck"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "release",
+      "place": "street_grocery",
+      "ofam": "bridal",
+      "item": "slip_wedding",
+      "garments": [
+       "dress",
+       "slip"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "face_close",
+      "body": "side",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "hair_tuck",
+      "left": "out",
+      "use": "",
+      "legs": "",
+      "gaze": "down",
+      "preset": "hair_close",
+      "expr": "mischievous",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high thigh slit",
+       "mini length"
+      ],
+      "lead": "action"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "fantasy",
+      "place": "fx_observatory",
+      "ofam": "swimwear",
+      "item": "asymmetric_swim",
+      "garments": [
+       "swimsuit"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "waist_up",
+      "body": "front",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "thumbs_up",
+      "left": "hip",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "thumbs_waist",
+      "expr": "amused",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "open back"
+      ],
+      "lead": "light"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       1,
+       3
+      ],
+      "two": true,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "street",
+      "spa",
+      "sports",
+      "stage",
+      "evening",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "lingerie_set",
+      "shirt",
+      "slip",
+      "swimsuit"
+     ],
+     "orient": [
+      "front_3q+with_body",
+      "side+with_body",
+      "front+with_body"
+     ],
+     "frame": [
+      "chest_up"
+     ]
+    }
+   }
+  ]
+ },
+ "final": {
+  "session": "charm-v2",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "파이리",
+    "species": "charmander-20261030",
+    "cuts": [
+     {
+      "cut": 1,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_jazz",
+      "ofam": "lingerie",
+      "item": "open_shirt_lingerie",
+      "garments": [
+       "lingerie_set",
+       "shirt"
+      ],
+      "weather": "",
+      "posture": "lean_wall",
+      "support": "back_wall",
+      "frame": "chest_up",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "arms_crossed",
+      "left": "arms_crossed",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "crossed_wall",
+      "expr": "serious",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "strong",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "side cutouts",
+       "halter neck"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "release",
+      "place": "street_grocery",
+      "ofam": "costume",
+      "item": "mermaid_show",
+      "garments": [
+       "skirt"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "waist_up",
+      "body": "front",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "thumbs_up",
+      "left": "hip",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "thumbs_waist",
+      "expr": "curious",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "cropped hem",
+       "open back"
+      ],
+      "lead": "light"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "fantasy",
+      "place": "fx_observatory",
+      "ofam": "swimwear",
+      "item": "wrap_swim",
+      "garments": [
+       "swimsuit"
+      ],
+      "weather": "",
+      "posture": "lean_rail",
+      "support": "none",
+      "frame": "environmental",
+      "body": "rear_3q",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "rail",
+      "left": "hair_tuck",
+      "use": "",
+      "legs": "contrapposto",
+      "gaze": "camera",
+      "preset": "rail_lookback",
+      "expr": "mischievous",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "plunging neckline"
+      ],
+      "lead": "detail"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       1,
+       3
+      ],
+      "two": true,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "street",
+      "spa",
+      "sports",
+      "stage",
+      "evening",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "lingerie_set",
+      "shirt",
+      "skirt",
+      "swimsuit"
+     ],
+     "orient": [
+      "front_3q+with_body",
+      "front+with_body",
+      "rear_3q+over_shoulder"
+     ],
+     "frame": [
+      "chest_up"
+     ]
+    }
+   }
+  ]
+ }
+}

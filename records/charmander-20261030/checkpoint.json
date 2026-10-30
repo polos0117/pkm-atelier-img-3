@@ -1,0 +1,81 @@
+{
+ "card": "파이리",
+ "status": "일상컷 두 장(casual2·3) 생성·검토 끝 — 올리기 전",
+ "outputs": [
+  {
+   "slot": "casual2",
+   "plan_cut": 2,
+   "card": "파이리",
+   "style": "mecha_cinematic_keyart",
+   "basis": "tools/prompt-pack.cjs 버전2 계획 컷(treeV 2) 그대로 — 지시문 손대지 않음",
+   "reference": "파이리_light_mecha_cinematic_keyart_f.webp",
+   "reference_sha256": "f4f674bdd9415e6eecf51602f73fbd878185fc083ab932724d020cfa0693d1cc",
+   "original_sha256": "77c31cbaee76a7b31b8ab509a13728c0276b150dd43aaa19950aa2238f4e524c",
+   "original_session_only": true,
+   "file": "파이리_mecha_cinematic_keyart_f_casual2.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "webp_sha256": "e756ea22878b9dbf64cf0428867bb08b303f2c29bcd1326cc91af8f0fe83c452",
+   "generation": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "1024x1536",
+    "endpoint": "images/edits",
+    "created": 1793350155,
+    "usage": {
+     "input_tokens": 2568,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 1032
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3940
+    }
+   }
+  },
+  {
+   "slot": "casual3",
+   "plan_cut": 3,
+   "card": "파이리",
+   "style": "mecha_cinematic_keyart",
+   "basis": "tools/prompt-pack.cjs 버전2 계획 컷(treeV 2) 그대로 — 지시문 손대지 않음",
+   "reference": "파이리_light_mecha_cinematic_keyart_f.webp",
+   "reference_sha256": "f4f674bdd9415e6eecf51602f73fbd878185fc083ab932724d020cfa0693d1cc",
+   "original_sha256": "d93ccf107c057e780d687e26c33175dbeb5a85b8ebff8b2525b1989b877e3d5d",
+   "original_session_only": true,
+   "file": "파이리_mecha_cinematic_keyart_f_casual3.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "webp_sha256": "64d23f91a55912cb996fbfb72e0a0ce4c65ab1de7051cdc0e3c27beb162e8760",
+   "generation": {
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "high",
+    "size": "1024x1536",
+    "endpoint": "images/edits",
+    "created": 1793350160,
+    "usage": {
+     "input_tokens": 2570,
+     "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 1034
+     },
+     "output_tokens": 1372,
+     "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+     },
+     "total_tokens": 3942
+    }
+   }
+  }
+ ],
+ "pending": "그림 저장소3 main 반영 · 썸네일 · 그림 등록"
+}
