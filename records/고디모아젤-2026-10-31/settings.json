@@ -1,0 +1,287 @@
+{
+ "version": 1,
+ "card": "고디모아젤",
+ "no": 576,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f75adf581270/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Amber stage lights and a mirrored disco ball illuminate an upbeat retro costume night.",
+   "outfit": "A coral 1980s high-cut aerobics leotard with a wide off-shoulder neckline over sheer tan shiny tights, matching leg warmers and a headband; bare shoulders and high-cut hips define the silhouette.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "라이브 하우스의 레트로 테마 공연 행사와 조명 구체화",
+    "outfit": "고른 에어로빅 레오타드·타이츠를 유지하며 오프숄더와 하이컷으로 어깨·골반선 드러내기"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_livehouse / retro / aerobics_80s / stand / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_livehouse",
+      "ko": "라이브 하우스",
+      "en": "a small live house with a low stage, a crowd barrier and amps"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "aerobics_80s",
+      "ko": "80년대 에어로빅",
+      "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "wave · down"
+    },
+    "garments": [
+     "leggings"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "mini length"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A small silver bookmark with a star-shaped tip rests on the nearest reading desk in late afternoon light.",
+   "outfit": "An ivory tuxedo jacket worn open over a cropped teal silk halter camisole and tailored ivory trousers; the halter neckline exposes her collarbones and the short camisole exposes a strip of midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "2010년 무렵 열람실의 책상 소품과 시간대만 보완",
+    "outfit": "턱시도 재킷·캐미솔·바지를 유지하면서 계획의 홀터 목선과 허리 노출 반영"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / library_reading / evening / tuxedo_cami_trousers / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "library_reading",
+      "ko": "도서관 열람실",
+      "en": "a quiet library reading room with tall bookshelves, reading desks and big windows"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "tuxedo_cami_trousers",
+      "ko": "턱시도 재킷 + 캐미솔 + 정장 바지",
+      "en": "a sharp tuxedo jacket over a silk camisole with tailored trousers"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "jacket",
+     "tank",
+     "trousers"
+    ],
+    "expose": [
+     "halter neck",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Dewy ferns surround an enchanted garden bathing spring, with tiny lanterns reflected in its water.",
+   "outfit": "A fully lined terracotta strapless one-piece swimsuit with high-cut leg openings; bare shoulders and upper thighs remain uncovered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "요정 숲 수영복 장면에 맞는 작은 샘과 수면 반사 추가",
+    "outfit": "종류가 자동인 수영복을 스트랩리스 하이컷 원피스로 확정"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_forest / swimwear / stand / chest_up / bouquet_smell",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_forest",
+      "ko": "요정 숲 정원",
+      "en": "a misty enchanted garden of moss, ivy and lanterns"
+     },
+     "role": null,
+     "use": {
+      "key": "bouquet_smell",
+      "ko": "꽃향기를 맡는다",
+      "en": "brings a small bouquet up to her face to smell the flowers",
+      "prop": "꽃다발"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "strapless top"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

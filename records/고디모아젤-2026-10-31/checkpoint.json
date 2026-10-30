@@ -1,0 +1,56 @@
+{
+ "card": "고디모아젤",
+ "status": "validated, ready for publication",
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "reference": {
+  "card": "고디모아젤",
+  "slot": "light",
+  "style": "glossy_promo",
+  "gender": "f",
+  "evidence": "tools/prompt-pack.cjs build; exact prompt and UI snapshot attached",
+  "original": {
+   "session_path": "/workspace/scratch/f75adf581270/generated_images/exec-6ce28d08-a8c8-49c1-a0cc-ba01dcb2d9db.png",
+   "sha256": "89b8c9055bd8d9e1946dec8869d006a6eac6c0f9ede0f128021208f12b96b9b8",
+   "persisted_in_repository": false
+  },
+  "reference": null,
+  "output": {
+   "file": "고디모아젤_light_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "quality": 85,
+   "method": 6,
+   "sha256": "d36901ab27a3e9e338727d256af8922d054f3ea2a033c4e78c8f54b2c9add2ba"
+  }
+ },
+ "face": {
+  "source": "pkm-atelier/data/face-design.json",
+  "final_face_and_hair": [
+   "FACE (her own structure, not the style's default face): oval face, long length, narrow width; long chin with defined jaw; narrow eyes, small size, level outer corners, average spacing; thin straight brows; straight slender bridge nose; thin lips.",
+   "HAIR: long side ponytail, parted bangs."
+  ],
+  "reason": "천체를 보는 가늘고 긴 얼굴과 긴 사이드 포니테일; 고디보미의 쌍갈래 묶음과 구별",
+  "compared": [
+   "고디탱",
+   "고디보미",
+   "춤추새",
+   "치라치노"
+  ]
+ },
+ "reservation_main_commit": "7c08c20a3562e28da7a40510deec860ba183c46b",
+ "original_storage": "session only; original PNGs not published; only hashes retained",
+ "publication": "not yet verified at time of this checkpoint"
+}

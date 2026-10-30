@@ -1,0 +1,475 @@
+{
+ "session": "gpt-gothitelle-solosis-20261031",
+ "characters": [
+  {
+   "card": "고디모아젤",
+   "species": "gothitelle-20261031",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_livehouse",
+     "ofam": "retro",
+     "item": "aerobics_80s",
+     "garments": [
+      "leggings"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "full_body",
+     "body": "side",
+     "head": "with_body",
+     "camera": "low",
+     "right": "wave",
+     "left": "down",
+     "use": "",
+     "legs": "tiptoe",
+     "gaze": "camera",
+     "preset": "tiptoe_wave",
+     "expr": "proud",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "mini length"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "release",
+     "place": "library_reading",
+     "ofam": "evening",
+     "item": "tuxedo_cami_trousers",
+     "garments": [
+      "jacket",
+      "tank",
+      "trousers"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "v_sign",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "vsign_close",
+     "expr": "sleepy",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "halter neck",
+      "bare midriff"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_forest",
+     "ofam": "swimwear",
+     "item": "",
+     "garments": [
+      "swimsuit"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "bouquet_smell",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "lookback_raise",
+     "expr": "amused",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "strapless top"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1,
+      3
+     ],
+     "two": true,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "sports",
+     "evening",
+     "travel",
+     "work",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "leggings",
+     "tank",
+     "swimsuit"
+    ],
+    "orient": [
+     "side+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "batch": {
+  "session": "gpt-gothitelle-solosis-20261031",
+  "planner": "tools/casual-plan.cjs",
+  "characters": [
+   {
+    "card": "고디모아젤",
+    "species": "gothitelle-20261031",
+    "cuts": [
+     {
+      "cut": 1,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_livehouse",
+      "ofam": "retro",
+      "item": "aerobics_80s",
+      "garments": [
+       "leggings"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "full_body",
+      "body": "side",
+      "head": "with_body",
+      "camera": "low",
+      "right": "wave",
+      "left": "down",
+      "use": "",
+      "legs": "tiptoe",
+      "gaze": "camera",
+      "preset": "tiptoe_wave",
+      "expr": "proud",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "off-shoulder neckline",
+       "mini length"
+      ],
+      "lead": "light"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "release",
+      "place": "library_reading",
+      "ofam": "evening",
+      "item": "tuxedo_cami_trousers",
+      "garments": [
+       "jacket",
+       "tank",
+       "trousers"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "face_close",
+      "body": "front",
+      "head": "tilt",
+      "camera": "low",
+      "right": "v_sign",
+      "left": "out",
+      "use": "",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "vsign_close",
+      "expr": "sleepy",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "halter neck",
+       "bare midriff"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "fantasy",
+      "place": "fx_forest",
+      "ofam": "swimwear",
+      "item": "",
+      "garments": [
+       "swimsuit"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "side",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "prop",
+      "left": "out",
+      "use": "bouquet_smell",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "lookback_raise",
+      "expr": "amused",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly posed",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "high-cut leg",
+       "strapless top"
+      ],
+      "lead": "place"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       1,
+       3
+      ],
+      "two": true,
+      "prev": [
+       2
+      ]
+     },
+     "low": [
+      "street",
+      "sports",
+      "evening",
+      "travel",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "leggings",
+      "tank",
+      "swimsuit"
+     ],
+     "orient": [
+      "side+over_shoulder"
+     ],
+     "frame": []
+    }
+   },
+   {
+    "card": "유니란",
+    "species": "solosis-20261031",
+    "cuts": [
+     {
+      "cut": 1,
+      "treeV": 2,
+      "era": "now",
+      "place": "night_livehouse",
+      "ofam": "lingerie",
+      "item": "bodysuit",
+      "garments": [
+       "lingerie_set"
+      ],
+      "weather": "",
+      "posture": "walk",
+      "support": "none",
+      "frame": "three_quarter",
+      "body": "rear_3q",
+      "head": "over_shoulder",
+      "camera": "eye",
+      "right": "prop",
+      "left": "down",
+      "use": "guitar_carry",
+      "legs": "walk_pause",
+      "gaze": "camera",
+      "preset": "walk_lookback",
+      "expr": "pensive",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "balanced",
+       "separates_preference": "balanced"
+      },
+      "expose": [
+       "plunging neckline",
+       "halter neck"
+      ],
+      "lead": "detail"
+     },
+     {
+      "cut": 2,
+      "treeV": 2,
+      "era": "now",
+      "place": "evening_museum",
+      "ofam": "homewear",
+      "item": "sleep_shirt",
+      "garments": [
+       "shirt"
+      ],
+      "weather": "",
+      "posture": "walk",
+      "support": "none",
+      "frame": "full_body",
+      "body": "front_3q",
+      "head": "with_body",
+      "camera": "eye",
+      "right": "prop",
+      "left": "down",
+      "use": "glass_hold",
+      "legs": "walk_stride",
+      "gaze": "camera",
+      "preset": "stride_prop",
+      "expr": "candid",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "mostly active",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "off-shoulder neckline",
+       "side cutouts"
+      ],
+      "lead": "place"
+     },
+     {
+      "cut": 3,
+      "treeV": 2,
+      "era": "in_pokemon",
+      "place": "work_storeroom",
+      "ofam": "active",
+      "item": "ski_set",
+      "garments": [
+       "jacket",
+       "trousers"
+      ],
+      "weather": "",
+      "posture": "stand",
+      "support": "none",
+      "frame": "chest_up",
+      "body": "front",
+      "head": "tilt",
+      "camera": "eye",
+      "right": "prop",
+      "left": "prop",
+      "use": "cup_wrap",
+      "legs": "",
+      "gaze": "camera",
+      "preset": "wrap_close",
+      "expr": "mischievous",
+      "aspect": "2:3",
+      "axes": {
+       "overall_intensity": "strong",
+       "skin_exposure": "bold",
+       "action_level": "balanced",
+       "source_influence": "subtle",
+       "separates_preference": "prefer separates"
+      },
+      "expose": [
+       "one-shoulder cut",
+       "strapless top"
+      ],
+      "lead": "light"
+     }
+    ],
+    "why": {
+     "tree": 2,
+     "required": {
+      "slots": [
+       1
+      ],
+      "two": false,
+      "prev": [
+       1,
+       3
+      ]
+     },
+     "low": [
+      "street",
+      "sports",
+      "evening",
+      "travel",
+      "work",
+      "partner",
+      "berry"
+     ]
+    },
+    "claims": {
+     "garment": [
+      "lingerie_set",
+      "shirt"
+     ],
+     "orient": [
+      "rear_3q+over_shoulder"
+     ],
+     "frame": []
+    }
+   }
+  ]
+ },
+ "reservation_remote_commit": "7c08c20a3562e28da7a40510deec860ba183c46b"
+}

@@ -1,0 +1,282 @@
+{
+ "card": "고디모아젤",
+ "generator": "built-in image_gen; prompt-pack output submitted unchanged",
+ "style": "glossy_promo",
+ "skipped": [],
+ "slots": {
+  "light": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "검정 밀착 슈트 위 얇은 팔·허리·정강이 판. 양팔은 어깨부터 손목까지 이어지고 다리는 골반에서 각각 발로 이어진다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 검정 밀착 슈트 위 얇은 팔·허리·정강이 판. 양팔은 어깨부터 손목까지 이어지고 다리는 골반에서 각각 발로 이어진다."
+   }
+  },
+  "heavy": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "어깨와 골반의 겹판, 두꺼운 정강이 외장이 경장보다 넓다. 두 장갑 손과 두 부츠가 분리되어 보인다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 어깨와 골반의 겹판, 두꺼운 정강이 외장이 경장보다 넓다. 두 장갑 손과 두 부츠가 분리되어 보인다."
+   }
+  },
+  "mobility": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "좁은 몸통에 뒤로 흐르는 분할 판과 작은 관절 틈. 팔은 양옆으로 내려오며 양발 끝이 화면 안에 있다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 좁은 몸통에 뒤로 흐르는 분할 판과 작은 관절 틈. 팔은 양옆으로 내려오며 양발 끝이 화면 안에 있다."
+   }
+  },
+  "light_overdrive": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "경장의 얼굴·손·다리 위치와 배경을 유지하고 어깨·팔·골반의 판 사이 마젠타 프레임이 드러난다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 경장의 얼굴·손·다리 위치와 배경을 유지하고 어깨·팔·골반의 판 사이 마젠타 프레임이 드러난다."
+   }
+  },
+  "heavy_overdrive": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "중장의 넓은 겹판이 같은 실루엣에서 벌어지고 어깨·골반·무릎의 내부 프레임과 마젠타 빛이 보인다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 중장의 넓은 겹판이 같은 실루엣에서 벌어지고 어깨·골반·무릎의 내부 프레임과 마젠타 빛이 보인다."
+   }
+  },
+  "mobility_overdrive": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "긴 짙은 자주색 사이드 포니테일, 가는 눈과 같은 얼굴 비율"
+   },
+   "form": {
+    "match": true,
+    "evidence": "고기동의 긴 분할 판 안쪽 원형 코어와 마젠타 빛이 드러나며 양손·양발·얼굴 위치를 유지한다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양쪽 손에 엄지와 네 손가락; 느슨하게 굽힌 곳은 일부 겹침. 손목은 해당 팔 끝에 이어짐.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대 확인. 부츠 속 발가락은 가려짐. 고기동의 긴 분할 판 안쪽 원형 코어와 마젠타 빛이 드러나며 양손·양발·얼굴 위치를 유지한다."
+   }
+  },
+  "casual1": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "①과 같은 얼굴·눈색·머리색·머리 형태. 표정과 머리 각도만 장면에 따라 달라짐."
+   },
+   "scene": {
+    "match": true,
+    "evidence": "미러볼·앰프·낮은 무대와 뒤편의 작은 관객 실루엣. 얼굴을 다투는 두 번째 인물은 없다."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "산호색 오프숄더 레오타드와 타이츠·레그워머·헤드밴드. 어깨와 하이컷 골반선이 드러난다."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "오른손을 얼굴 옆에 들어 흔들며 양발 뒤꿈치를 든다. 반대 팔은 어깨에서 팔꿈치·손목으로 자연스럽게 내려온다."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "전신과 양발을 담은 낮은 시점, 몸은 옆 3/4. 고른 완전 측면보다 얼굴이 카메라 쪽으로 더 돌아왔다."
+   },
+   "expression": {
+    "match": true,
+    "evidence": "입꼬리가 살짝 오른 닫힌 미소와 카메라를 보는 눈."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "흔드는 손 다섯; 아래 손은 구부린 손가락 일부가 겹치나 엄지와 네 손가락의 이어짐이 보임.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인; 크롭 밖 팔다리는 직접 세었다고 주장하지 않음. 오른손을 얼굴 옆에 들어 흔들며 양발 뒤꿈치를 든다. 반대 팔은 어깨에서 팔꿈치·손목으로 자연스럽게 내려온다."
+   },
+   "notes": [
+    "완전 측면보다 뒤 3/4에 가까운 몸 방향. 재생성 대상이 아닌 구도 차이로 기록."
+   ]
+  },
+  "casual2": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "①과 같은 얼굴·눈색·머리색·머리 형태. 표정과 머리 각도만 장면에 따라 달라짐."
+   },
+   "scene": {
+    "match": true,
+    "evidence": "큰 책장·독서등·창으로 들어오는 따뜻한 빛. 책상에 작은 별 모양 장식이 놓였다."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "아이보리 재킷 안 청록 실크 홀터 캐미솔, 쇄골과 목선 노출."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "얼굴 옆 오른손 V 사인. 반대 손은 크롭 밖."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "정면 몸통과 기울인 머리. 선택한 얼굴 클로즈업보다 넓어 가슴 아래까지 담겼다."
+   },
+   "expression": {
+    "match": true,
+    "evidence": "반쯤 내려온 눈꺼풀과 부드럽게 열린 입."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "V의 검지·중지, 접힌 약지·소지, 옆으로 감긴 엄지 총 다섯. 왼손 크롭 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인; 크롭 밖 팔다리는 직접 세었다고 주장하지 않음. 얼굴 옆 오른손 V 사인. 반대 손은 크롭 밖."
+   },
+   "notes": [
+    "얼굴 클로즈업보다 넓은 크롭. 선택값은 고치지 않고 결과 차이만 기록."
+   ]
+  },
+  "casual3": {
+   "result": "accepted",
+   "size": {
+    "match": true,
+    "evidence": "Pillow 확인: 1024×1536"
+   },
+   "identity": {
+    "match": true,
+    "evidence": "①과 같은 얼굴·눈색·머리색·머리 형태. 표정과 머리 각도만 장면에 따라 달라짐."
+   },
+   "scene": {
+    "match": true,
+    "evidence": "이끼와 꽃·담쟁이, 등불과 작은 수면 반사가 있는 숲 정원."
+   },
+   "wardrobe": {
+    "match": true,
+    "evidence": "테라코타색 스트랩리스 수영복. 두 어깨·등 윗부분과 목선이 드러난다."
+   },
+   "activity": {
+    "match": true,
+    "evidence": "오른손으로 작은 꽃다발을 코 가까이에 올림. 팔꿈치는 몸 앞에서 접히며 손목으로 이어진다."
+   },
+   "composition": {
+    "match": false,
+    "evidence": "옆 몸통에서 어깨 너머로 고개를 돌린 모습. 선택한 가슴 위보다 넓어 허리·골반 일부가 보인다."
+   },
+   "expression": {
+    "match": true,
+    "evidence": "입꼬리가 올라간 부드러운 미소와 편안한 눈썹."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "꽃다발을 쥔 네 손가락과 줄기 뒤에 가린 엄지. 반대 손은 크롭 밖.",
+    "overlay_checked": false,
+    "note": "원본과 손 확대를 확인; 크롭 밖 팔다리는 직접 세었다고 주장하지 않음. 오른손으로 작은 꽃다발을 코 가까이에 올림. 팔꿈치는 몸 앞에서 접히며 손목으로 이어진다."
+   },
+   "notes": [
+    "크롭이 계획보다 넓고 ①의 흰 머리 장식이 남음. IMAGE_RULES의 기록만 하는 차이."
+   ]
+  }
+ },
+ "diversity": {
+  "look_gate": "pass; both three-cut sets returned 0; threshold 215",
+  "comparison_images": [
+   "춤추새 casual1-3",
+   "에블리 casual1-3",
+   "치라치노 casual1-3",
+   "other character in this batch casual1-3"
+  ],
+  "visual_evidence": "전신 레트로 무대·도서관 상반신 V·숲 꽃다발 수영복"
+ }
+}
