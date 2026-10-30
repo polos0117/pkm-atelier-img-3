@@ -1,0 +1,296 @@
+{
+ "version": 1,
+ "card": "유니란",
+ "no": 577,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/f75adf581270/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The acoustic guitar has warm honey-colored wood and a simple woven strap; violet spotlights spill across the stage-side floor.",
+   "outfit": "An opaque plum lingerie-inspired bodysuit with a plunging scooped neckline, wide straps and lined lace side panels, high-cut hips and exposed upper thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "들고 있는 기타의 재질과 공연장 조명만 구체화",
+    "outfit": "보디수트·넓은 스트랩·레이스 패널 구조를 유지하고 깊은 목선·하이컷으로 노출 반영"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_livehouse / lingerie / bodysuit / walk / three_quarter / guitar_carry",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_livehouse",
+      "ko": "라이브 하우스",
+      "en": "a small live house with a low stage, a crowd barrier and amps"
+     },
+     "role": null,
+     "use": {
+      "key": "guitar_carry",
+      "ko": "기타를 든다",
+      "en": "carries an acoustic guitar by its neck at her side",
+      "prop": "기타"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "bodysuit",
+      "ko": "보디수트",
+      "en": "a lingerie bodysuit with a scooped neckline, wide straps and lace side panels"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Marble sculptures flank a late-night museum fashion reception, with amber light reflected on polished floors.",
+   "outfit": "A loose apricot off-shoulder sleep shirt cut to upper-thigh length, with softly draped sleeves and small waist-side cutouts; one shoulder and the upper thighs are bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "박물관 갈라를 홈웨어 패션 리셉션으로 구체화",
+    "outfit": "고른 잠옷 셔츠의 구조를 유지하며 어깨·옆허리·다리 노출 구현"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_museum / homewear / sleep_shirt / walk / full_body / glass_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_museum",
+      "ko": "박물관 갈라",
+      "en": "a grand museum hall with marble statues at night"
+     },
+     "role": null,
+     "use": {
+      "key": "glass_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cocktail glass by the stem at chest height",
+      "prop": "칵테일 잔"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Cold blue refrigeration light contrasts with the steam rising from her cup among padded berry crates.",
+   "outfit": "A cropped ice-blue fitted ski jacket worn open and slipped below one shoulder over an opaque strapless sports top, paired with padded ski pants; the exposed shoulder and bare midriff contrast with insulated fabric.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "열매 저장고의 저온 분위기와 컵의 온기 대비 보완",
+    "outfit": "스키 재킷·패딩 바지 실루엣을 유지하면서 계획의 한쪽 어깨·스트랩리스 구조를 구현"
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_storeroom / active / ski_set / stand / chest_up / cup_wrap",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_storeroom",
+      "ko": "열매 저장고",
+      "en": "a cool berry storeroom stacked with padded crates"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_wrap",
+      "ko": "두 손으로 잔을 감싼다",
+      "en": "holds a cup in both hands, wrapped around its warm sides",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "ski_set",
+      "ko": "스키 재킷 + 스키 팬츠",
+      "en": "a fitted ski jacket and padded ski pants"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "card": "유니란",
+ "status": "validated, ready for publication",
+ "completed_slots": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "reference": {
+  "card": "유니란",
+  "slot": "light",
+  "style": "glossy_promo",
+  "gender": "f",
+  "evidence": "tools/prompt-pack.cjs build; exact prompt and UI snapshot attached",
+  "original": {
+   "session_path": "/workspace/scratch/f75adf581270/generated_images/exec-debb3c81-0987-4685-979b-c7e44b3db924.png",
+   "sha256": "ce8a8a0fabc03663beab5ef81c7ca4e671a7aba1e8c4b9596d3af6b695693081",
+   "persisted_in_repository": false
+  },
+  "reference": null,
+  "output": {
+   "file": "유니란_light_glossy_promo_f.webp",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "quality": 85,
+   "method": 6,
+   "sha256": "e3244db6e57577f9aaa58f04279cfc0b276aff7db802caa7a4f23b22dd57aeb6"
+  }
+ },
+ "face": {
+  "source": "pkm-atelier/data/face-design.json",
+  "final_face_and_hair": [
+   "FACE (her own structure, not the style's default face): softly rounded face, short length, medium width; soft rounded jaw; open rounded eyes, small size, level outer corners, average spacing; fine soft arches; small delicate nose; small mouth.",
+   "HAIR: pixie cut, parted bangs."
+  ],
+  "reason": "작은 세포의 둥근 중심을 짧고 둥근 얼굴과 가벼운 픽시컷으로 해석",
+  "compared": [
+   "고디탱",
+   "고디보미",
+   "춤추새",
+   "치라치노"
+  ]
+ },
+ "reservation_main_commit": "7c08c20a3562e28da7a40510deec860ba183c46b",
+ "original_storage": "session only; original PNGs not published; only hashes retained",
+ "publication": "not yet verified at time of this checkpoint"
+}
