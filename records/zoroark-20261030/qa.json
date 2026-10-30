@@ -1,0 +1,219 @@
+{
+ "light": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "길고 붉은 갈기형 머리와 검은 칼라, 검붉은 밀착 판금. 양손은 몸 옆에 있고 양 부츠가 화면 안이다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "heavy": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "넓은 어깨와 굵은 테두리의 흉부·골반·허벅지·정강이 겹판이 경장보다 두꺼우며 얼굴은 유지된다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "mobility": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "가느다란 분절판이 어깨·골반·정강이에서 뒤로 펼쳐지고 관자 센서가 길어졌다. 얼굴과 팔다리가 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "light_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "경장의 자세·발·손 위치를 유지하며 목·팔·흉갑·다리 이음새에서 보라색 광채가 나온다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "heavy_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "중장 어깨·골반·허벅지 겹판의 이음새가 벌어지고 보라색 내부 프레임이 드러난다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "mobility_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "고기동의 링·후방 판 안쪽이 보라색으로 빛나며 기본 폼과 같은 구도다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "양손 장갑의 엄지와 굽힌 네 손가락 구조가 보이며 일부 손가락은 포개져 가려짐. 손목이 팔 끝으로 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "casual1": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "앞치마와 소매 없는 짧은 작업 셔츠, 이마 위 안전 안경. 노점의 끓는 냄비와 과즙병 앞에서 몬스터볼을 얼굴 옆에 든다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "볼을 감싼 엄지와 네 손가락의 구조가 보이고 일부는 볼 뒤로 가려짐. 반대 팔은 프레임 밖으로 자연스럽게 이어짐.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ],
+  "deviations": [
+   "선택 가슴 위보다 허리·골반 일부가 더 보임."
+  ]
+ },
+ "casual2": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "은색 장식 흰 우주 테마 점프슈트의 등이 열려 있고, 뒤 3/4 몸에서 한 어깨 너머 얼굴이 보인다. 잔을 든 손과 내린 손이 팔로 이어진다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "잔을 든 손의 엄지·손가락은 잔에 일부 가려짐. 내린 손은 굽힌 네 손가락과 엄지가 겹치며 양 팔꿈치 연결 자연스러움.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ]
+ },
+ "casual3": {
+  "identity": {
+   "match": true,
+   "evidence": "길고 검붉은 층진 머리·붉은 눈·긴 윤곽·올라간 눈꼬리와 얇은 콧대가 경장에 이어진다."
+  },
+  "scene_form": {
+   "match": true,
+   "evidence": "사막 모래 언덕의 웨딩 촬영장. 흰 실크 드레스·긴 베일을 입고 휴대폰을 내려다본다. 어깨·쇄골과 옆구리 일부가 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe missing",
+   "arms": 2,
+   "legs": 2,
+   "hands": "휴대폰 앞 네 손가락과 뒤쪽 엄지 그립. 아래 빈손은 네 손가락과 엄지가 겹쳐 굽혀져 있고 양 손목이 각각 팔에 연결됨.",
+   "overlay_checked": false,
+   "note": "원본과 확대 손 이미지를 확인. 폼 컷은 다리 둘·발 둘이 연결됨. 일상 1·3은 하체가 크롭 밖이며 일상2는 무릎 위까지 보임."
+  },
+  "size": [
+   1024,
+   1536
+  ],
+  "deviations": [
+   "선택 허리 위보다 아래 손과 허벅지 일부가 더 보임. 단순 슬립보다 레이스 장식이 많음."
+  ]
+ },
+ "diversity": {
+  "look_check": "passed; nearest scores 275/276/265, no near-identical registered cuts",
+  "visual": "노점 작업복의 놀란 가슴 위, 코스튬 파티의 뒤 3/4 잔 든 모습, 사막 웨딩 촬영의 내려다보는 모습이 장소·의상·실루엣에서 다르다. 조로아·더스트나·깨봉이·파이리의 실제 컷과 비교."
+ },
+ "replan": {
+  "slot": "casual3",
+  "blocked_attempts": 1,
+  "reason": "imagegen output moderation: sexual",
+  "original": "rooftop bridal_lace",
+  "replacement": "desert slip_wedding; fresh planner reservation, prior cuts kept",
+  "authorization": "IMAGE_RULES scene replan procedure",
+  "reference": "light canonical image"
+ }
+}

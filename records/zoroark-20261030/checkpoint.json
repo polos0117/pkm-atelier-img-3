@@ -1,0 +1,71 @@
+{
+ "card": "조로아크",
+ "canonical": {
+  "slot": "light",
+  "file": "조로아크_light_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/6c35d804681a/generated_images/exec-66b5da8d-da7e-4132-acf9-a70b228722d8.png",
+  "source_sha256": "f2a191e361a84f172b3ecb3ab6d63b9647e296fbfad14215032895607cbec798",
+  "sha256": "af3e7eac5e1c9cee6f068d01d93b50842a7276af8d063e621325af9fbf3cf927",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings",
+  "references": []
+ },
+ "completed": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "publication": "pending",
+ "image_tool": "built-in imagegen",
+ "face_design": {
+  "name": "조로아크",
+  "en": "Zoroark",
+  "line": "조로아",
+  "how": "species",
+  "registered": false,
+  "face": {
+   "face shape": "elongated",
+   "face length": "long",
+   "face width": "narrow",
+   "jaw & chin": "long chin with defined jaw",
+   "eye shape": "sharp",
+   "eye size": "medium",
+   "eye tilt": "upturned outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "long arched brows",
+   "nose character": "straight slender bridge",
+   "lips": "wide mouth"
+  },
+  "why": "환영 여우의 긴 갈기와 날카로운 선을 긴 얼굴 및 올라간 눈매로 옮긴다.",
+  "cues": [
+   "‘pointed snout’ → 얼굴 길이 긴 얼굴",
+   "악 타입 → 눈매 강하게 치켜올라간 눈"
+  ],
+  "adjusted": "[머리] 많이 쓴 헤어스타일이라 고르게 나누려고 층감이 강한 울프컷 → 덥수룩하게 흐트러진 컷",
+  "hair": {
+   "hairstyle": "shaggy",
+   "hair length": "long",
+   "bangs": "asymmetric bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘large, red, voluminous mane’·‘black ruff’·키 1.6m에서 덥수룩하게 흐트러진 컷(층 낸 컷) · 긴 머리 · 좌우 길이가 다른 앞머리 — 조로아에서 이어 같은 묶음",
+  "hair_cues": [
+   "‘large, red, voluminous mane’ → 헤어스타일 덥수룩하게 흐트러진 컷",
+   "키 1.6m → 머리 길이 긴 머리",
+   "악 타입 → 앞머리 좌우 길이가 다른 앞머리"
+  ]
+ },
+ "face_reason": "환영 여우의 긴 갈기와 날카로운 선을 긴 얼굴 및 올라간 눈매로 옮긴다.",
+ "png_policy": "Session-only originals; hashes, WebP and records persist."
+}

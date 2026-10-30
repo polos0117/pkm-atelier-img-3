@@ -1,0 +1,300 @@
+{
+ "version": 1,
+ "card": "조로아크",
+ "no": 571,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/6c35d804681a/PLAN-revised.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A timber counter displays berry-juice pitchers and glazed cooking pots, with golden morning light crossing the canvas awning.",
+   "outfit": "A cropped sleeveless work shirt beneath a short canvas workshop apron with an open-sided waist, leaving her shoulders and midriff visible; safety glasses pushed up.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "노점 선택을 유지하며 포켓몬볼을 든 장면의 배경 조리 도구와 아침빛만 보충.",
+    "outfit": "고른 공방 앞치마의 종류를 유지하며 bare midriff, strapless top 구조와 소재를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_stall / work / workshop_apron / stand / chest_up / ball_raise",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_stall",
+      "ko": "길가 노점",
+      "en": "a small roadside stall with a counter, a juice pitcher and steaming pots"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_raise",
+      "ko": "몬스터볼을 얼굴 옆에 든다",
+      "en": "raises a Poké Ball beside her face",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "workshop_apron",
+      "ko": "공방 앞치마",
+      "en": "a work shirt under a canvas workshop apron, safety glasses pushed up"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "apron",
+     "shirt"
+    ],
+    "expose": [
+     "bare midriff",
+     "strapless top"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "A space-themed adult costume party occupies the private karaoke room, with star-shaped lamps above a low drinks table.",
+   "outfit": "A retro space-age costume: a fitted white sleeveless jumpsuit with silver trim, a plunging neckline and open back, paired with moon boots; the chest and pelvis remain securely covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "우주비행사 역할 의상과 노래방에 맞는 성인 코스튬 파티 소품만 보충.",
+    "outfit": "고른 레트로 우주비행사의 종류를 유지하며 plunging neckline, open back 구조와 소재를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_karaoke / roleplay / retro_astronaut / walk / three_quarter / cup_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_karaoke",
+      "ko": "노래방",
+      "en": "a private karaoke room with spinning coloured lights"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cup at chest height",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "retro_astronaut",
+      "ko": "레트로 우주비행사",
+      "en": "a retro space-age costume — a fitted white jumpsuit with silver trim and moon boots"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "plunging neckline",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Warm late-afternoon light sweeps over sand ripples, with a small bridal photo-shoot pavilion in the distance.",
+   "outfit": "A simple ivory silk slip wedding dress with a long veil, a mini-length hem and a high side slit; its thin straps leave her shoulders and collarbones bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "선택한 슬립 웨딩드레스와 mini length·high thigh slit 구조를 유지하며 실크 소재와 얇은 끈을 구체화.",
+    "scene": "사막 길 선택에 맞는 빛과 웨딩 촬영의 현장 맥락만 보충."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / travel_dunes / bridal / slip_wedding / stand / waist_up / phone_look",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "travel_dunes",
+      "ko": "사막 길",
+      "en": "a wind-rippled desert dune trail"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_look",
+      "ko": "휴대폰을 본다",
+      "en": "holds a smartphone at chest height, screen toward her",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "bridal",
+      "ko": "웨딩",
+      "en": "bridal wear"
+     },
+     "item": {
+      "key": "slip_wedding",
+      "ko": "슬립 웨딩드레스",
+      "en": "a simple slip wedding dress with a long veil"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "mini length",
+     "high thigh slit"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

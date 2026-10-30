@@ -1,0 +1,158 @@
+{
+ "session": "zorua-zoroark-6c35",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "조로아크",
+   "species": "zoroark-20261030",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "berry_stall",
+     "weather": "",
+     "ofam": "work",
+     "item": "workshop_apron",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "side",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "ball_raise",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "surprised",
+     "preset": "lookback_raise",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "apron",
+      "shirt"
+     ],
+     "expose": [
+      "bare midriff",
+      "strapless top"
+     ],
+     "lead": "action",
+     "act": "ball_raise",
+     "orient": "side+over_shoulder",
+     "pose": "lookback_raise"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_karaoke",
+     "weather": "",
+     "ofam": "roleplay",
+     "item": "retro_astronaut",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "cup_hold",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "expr": "half_smile",
+     "preset": "walk_lookback",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "jumpsuit"
+     ],
+     "expose": [
+      "plunging neckline",
+      "open back"
+     ],
+     "lead": "place",
+     "act": "cup_hold",
+     "orient": "rear_3q+over_shoulder",
+     "pose": "walk_lookback"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "travel_dunes",
+     "ofam": "bridal",
+     "item": "slip_wedding",
+     "garments": [
+      "dress",
+      "slip"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "natural",
+     "use": "phone_look",
+     "legs": "",
+     "gaze": "at_prop",
+     "preset": "stand_inspect",
+     "expr": "wistful",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "mini length",
+      "high thigh slit"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "home",
+     "studio",
+     "spa",
+     "stage",
+     "evening",
+     "travel",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [],
+    "orient": [],
+    "frame": []
+   }
+  }
+ ]
+}
