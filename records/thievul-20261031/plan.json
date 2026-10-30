@@ -1,0 +1,624 @@
+{
+  "card": "폭슬라이",
+  "batch_plan": {
+    "session": "gpt-fox-cotton-20261031-9dcf",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "폭슬라이",
+        "species": "thievul-20261031",
+        "cuts": [
+          {
+            "kept": true,
+            "cut": 1,
+            "treeV": 2,
+            "era": "now",
+            "place": "spa_cedar",
+            "weather": "",
+            "ofam": "work",
+            "item": "keeper_overalls",
+            "posture": "lean_wall",
+            "support": "back_wall",
+            "frame": "environmental",
+            "body": "side",
+            "head": "tilt",
+            "camera": "high",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "stand_relaxed",
+            "gaze": "horizon",
+            "expr": "gentle",
+            "preset": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "garments": [
+              "overalls",
+              "tank"
+            ],
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "action",
+            "act": "lean_wall:-:-",
+            "orient": "side+tilt",
+            "pose": null
+          },
+          {
+            "kept": true,
+            "cut": 2,
+            "treeV": 2,
+            "era": "now",
+            "place": "travel_lodge",
+            "weather": "",
+            "ofam": "roleplay",
+            "item": "event_staff",
+            "posture": "lie_side",
+            "support": "side_floor",
+            "frame": "full_body",
+            "body": "front_3q",
+            "head": "turn_side",
+            "camera": "low",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "legs_bent_side",
+            "gaze": "screen_right",
+            "expr": "wistful",
+            "preset": "",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "garments": [
+              "vest"
+            ],
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail",
+            "act": "lie_side:-:-",
+            "orient": "front_3q+turn_side",
+            "pose": null
+          },
+          {
+            "cut": 3,
+            "treeV": 2,
+            "era": "release",
+            "place": "stage_festival",
+            "ofam": "bridal",
+            "item": "slip_wedding",
+            "garments": [
+              "dress",
+              "slip"
+            ],
+            "weather": "",
+            "posture": "stand",
+            "support": "none",
+            "frame": "face_close",
+            "body": "front",
+            "head": "tilt",
+            "camera": "low",
+            "right": "v_sign",
+            "left": "out",
+            "use": "",
+            "legs": "",
+            "gaze": "camera",
+            "preset": "vsign_close",
+            "expr": "nostalgic",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "tree": 2,
+          "required": {
+            "slots": [],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "water",
+            "spa",
+            "sports",
+            "stage",
+            "travel",
+            "pokeworld",
+            "partner",
+            "berry"
+          ]
+        },
+        "claims": {
+          "garment": [],
+          "orient": [],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "original_batch_plan": {
+    "session": "gpt-fox-cotton-20261031-9dcf",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "폭슬라이",
+        "species": "thievul-20261031",
+        "cuts": [
+          {
+            "cut": 1,
+            "treeV": 2,
+            "era": "now",
+            "place": "spa_cedar",
+            "ofam": "work",
+            "item": "keeper_overalls",
+            "garments": [
+              "overalls",
+              "tank"
+            ],
+            "weather": "",
+            "posture": "lean_wall",
+            "support": "back_wall",
+            "frame": "environmental",
+            "body": "side",
+            "head": "tilt",
+            "camera": "high",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "stand_relaxed",
+            "gaze": "horizon",
+            "preset": "",
+            "expr": "gentle",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "bare midriff",
+              "side cutouts"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "treeV": 2,
+            "era": "now",
+            "place": "travel_lodge",
+            "ofam": "roleplay",
+            "item": "event_staff",
+            "garments": [
+              "vest"
+            ],
+            "weather": "",
+            "posture": "lie_side",
+            "support": "side_floor",
+            "frame": "full_body",
+            "body": "front_3q",
+            "head": "turn_side",
+            "camera": "low",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "legs_bent_side",
+            "gaze": "screen_right",
+            "preset": "",
+            "expr": "wistful",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "subtle",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "one-shoulder cut",
+              "halter neck"
+            ],
+            "lead": "detail"
+          },
+          {
+            "cut": 3,
+            "treeV": 2,
+            "era": "release",
+            "place": "stage_dance",
+            "ofam": "bridal",
+            "item": "bridal_lace",
+            "garments": [
+              "lingerie_set"
+            ],
+            "weather": "",
+            "posture": "walk",
+            "support": "none",
+            "frame": "face_close",
+            "body": "front_3q",
+            "head": "over_shoulder",
+            "camera": "high",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "",
+            "gaze": "up",
+            "preset": "",
+            "expr": "cold_smile",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly active",
+              "source_influence": "subtle",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high-cut leg",
+              "plunging neckline"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "tree": 2,
+          "required": {
+            "slots": [
+              2
+            ],
+            "two": false,
+            "prev": [
+              1
+            ]
+          },
+          "low": [
+            "water",
+            "spa",
+            "sports",
+            "stage",
+            "travel",
+            "pokeworld",
+            "partner",
+            "berry"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "overalls",
+            "tank",
+            "vest"
+          ],
+          "orient": [
+            "side+tilt",
+            "front_3q+turn_side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "generator": "tools/prompt-pack.cjs",
+  "settings": {
+    "version": 1,
+    "card": "폭슬라이",
+    "no": 828,
+    "style": "glossy_promo",
+    "plan": "/workspace/scratch/9dcf96f61358/PLAN-thievul-v2.json",
+    "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+    "slots": {
+      "light": {
+        "motifs": "burnt-orange main plates with black extremities and a white chest inset; the fox ears and domino mask are slim face-framing ornaments with the eyes unobstructed, and the long black-tipped tail is a tapered belt sash",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "heavy": {
+        "motifs": "",
+        "formOverride": "",
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "mobility": {
+        "motifs": "",
+        "formOverride": "",
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "light_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "heavy_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "mobility_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "casual1": {
+        "scene": "She pauses after checking the bath equipment; late-afternoon light runs across the cedar planks, with a small fox-shaped bath key resting on a ledge.",
+        "outfit": "Work overalls in pale denim over a fitted plum tank top and rubber boots; the bib has broad side cutouts and the cropped tank leaves a narrow band of bare midriff, with shorts-length legs.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "scene": "히노키 탕의 목재 질감과 점검 후 휴식의 맥락을 더한다. 작은 열쇠만 원작을 잇는다.",
+          "outfit": "계획의 overalls+tank와 bare midriff·side cutouts를 작업복 구조로 구현한다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "now / spa_hammam / work / keeper_overalls / lean_wall / full_body",
+          "v2": {
+            "era": {
+              "key": "now",
+              "ko": "지금 현실",
+              "en": "present-day real world"
+            },
+            "place": {
+              "key": "spa_hammam",
+              "ko": "하맘",
+              "en": "a domed marble hammam with warm stone slabs and brass bowls"
+            },
+            "role": null,
+            "use": null,
+            "ofam": {
+              "key": "work",
+              "ko": "직업복",
+              "en": "practical clothing for her Pokémon-world job, readable through its tools",
+              "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+            },
+            "item": {
+              "key": "keeper_overalls",
+              "ko": "사육 작업복",
+              "en": "work overalls over a fitted tank top and rubber boots"
+            },
+            "posture": {
+              "key": "lean_wall",
+              "ko": "벽에 기대 서기",
+              "en": "standing, leaning back against a wall"
+            },
+            "frame": "full_body",
+            "body": {
+              "key": "front",
+              "ko": "정면",
+              "en": "body facing the camera"
+            },
+            "hands": "AUTO · AUTO"
+          },
+          "garments": [
+            "overalls",
+            "tank"
+          ],
+          "expose": [
+            "bare midriff",
+            "side cutouts"
+          ],
+          "lead": "action"
+        }
+      },
+      "casual2": {
+        "scene": "A ribbon and lanyard lie beside her on the lodge rug after the themed staff-costume party; a stone hearth gives the room a warm amber glow.",
+        "outfit": "An event staff costume with a fitted ivory halter vest, a diagonal one-shoulder ribbon, name-tag ribbon and lanyard, paired with charcoal high-waisted shorts; the upper back and legs are bare.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "scene": "역할극이 실제 근무로 읽히지 않도록 산장 테마 파티가 끝난 맥락과 난롯빛을 보충한다.",
+          "outfit": "조끼 실루엣을 유지하며 halter neck·one-shoulder cut을 한쪽 리본 구조로 양립시킨다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "now / street_station / roleplay / event_staff / lean_rail / environmental",
+          "v2": {
+            "era": {
+              "key": "now",
+              "ko": "지금 현실",
+              "en": "present-day real world"
+            },
+            "place": {
+              "key": "street_station",
+              "ko": "역·전철",
+              "en": "a city station platform or the inside of a commuter train"
+            },
+            "role": null,
+            "use": null,
+            "ofam": {
+              "key": "roleplay",
+              "ko": "역할극·직업 의상",
+              "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+            },
+            "item": {
+              "key": "event_staff",
+              "ko": "이벤트 스태프",
+              "en": "an event staff costume with a fitted vest, name-tag ribbon and lanyard"
+            },
+            "posture": {
+              "key": "lean_rail",
+              "ko": "난간·창턱에 기대 서기",
+              "en": "standing at a waist-high railing or sill, leaning lightly on it"
+            },
+            "frame": "environmental",
+            "body": {
+              "key": "rear_3q",
+              "ko": "뒤 3/4",
+              "en": "body turned three-quarters away from the camera"
+            },
+            "hands": "rail · hair_tuck"
+          },
+          "garments": [
+            "vest"
+          ],
+          "expose": [
+            "one-shoulder cut",
+            "halter neck"
+          ],
+          "lead": "light"
+        }
+      },
+      "casual3": {
+        "scene": "",
+        "outfit": "A simple ivory satin slip wedding dress with a long veil, a halter neckline and a single diagonal shoulder band, leaving the shoulders and collarbones bare.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "outfit": "계획기가 새로 고른 slip_wedding에 one-shoulder cut·halter neck 디테일만 더하며, 이전 거절된 레이스 세트는 쓰지 않는다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "release / stage_fireworks / bridal / bridal_lace / walk / face_close",
+          "v2": {
+            "era": {
+              "key": "release",
+              "ko": "첫 등장 무렵 현실",
+              "en": "the real world around the year her Pokémon first appeared"
+            },
+            "place": {
+              "key": "stage_fireworks",
+              "ko": "불꽃놀이 강변",
+              "en": "a riverside seating area waiting for festival fireworks"
+            },
+            "role": null,
+            "use": null,
+            "ofam": {
+              "key": "bridal",
+              "ko": "웨딩",
+              "en": "bridal wear"
+            },
+            "item": {
+              "key": "bridal_lace",
+              "ko": "브라이덜 레이스",
+              "en": "a white lace bridal lingerie set with a short veil"
+            },
+            "posture": {
+              "key": "walk",
+              "ko": "걷기",
+              "en": "walking"
+            },
+            "frame": "face_close",
+            "body": {
+              "key": "side",
+              "ko": "옆모습",
+              "en": "body in side profile"
+            },
+            "hands": "AUTO · AUTO"
+          },
+          "garments": [
+            "lingerie_set"
+          ],
+          "expose": [
+            "high-cut leg",
+            "plunging neckline"
+          ],
+          "lead": "place"
+        }
+      }
+    }
+  },
+  "check": "casual-ledger check passed; reservation stamp verified before generation",
+  "replans": [
+    {
+      "slot": "casual3",
+      "reason": "image tool output moderation refusal; no output image",
+      "changed": "planner --avoid 폭슬라이:3:item=bridal_lace --keep 폭슬라이:1,2; bridal slip wedding dress replaces bridal lingerie set"
+    }
+  ],
+  "reference": "light is identity master; open slots reference their own closed form",
+  "face_basis": {
+    "source": "data/face-design.json no.828",
+    "reason": "훔처우 계열의 long tail과 long black ears에 근거한 포니테일·비대칭 앞머리·아치 눈썹을 유지",
+    "comparison": [
+      "암멍이",
+      "에리본",
+      "킬가르도"
+    ],
+    "distinction": "적갈색 긴 묶음 머리와 비대칭 앞머리, 좁은 턱과 날카로운 눈·활 모양 윗입술로 최근 세 인물과 구분"
+  }
+}
