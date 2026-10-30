@@ -1,0 +1,465 @@
+{
+ "session": "oricorio-cutiefly-2f0b",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "춤추새",
+   "species": "oricorio-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "spa_sauna",
+     "ofam": "bath",
+     "item": "bath_yukata",
+     "garments": [
+      "traditional"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "environmental",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "prop",
+     "use": "towel_dry",
+     "legs": "stand_relaxed",
+     "gaze": "",
+     "preset": "stand_use",
+     "expr": "flustered",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "cropped hem",
+      "side cutouts"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "release",
+     "place": "home_balcony",
+     "ofam": "roleplay",
+     "item": "uniform_inspired",
+     "garments": [
+      "uniform"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "cup_sip",
+     "legs": "",
+     "gaze": "",
+     "preset": "raise_chest",
+     "expr": "laughing",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "balanced",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "open back",
+      "strapless top"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "tailor_room",
+     "ofam": "subculture",
+     "item": "gothic_lolita",
+     "garments": [
+      "skirt",
+      "sweater"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "preset": "",
+     "expr": "unimpressed",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "one-shoulder cut"
+     ],
+     "lead": "detail"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      2
+     ],
+     "two": false,
+     "prev": [
+      1,
+      3
+     ]
+    },
+    "low": [
+     "home",
+     "studio",
+     "water",
+     "spa",
+     "stage",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "traditional",
+     "uniform",
+     "skirt",
+     "sweater"
+    ],
+    "orient": [
+     "front+turn_side"
+    ],
+    "frame": []
+   }
+  },
+  {
+   "card": "에블리",
+   "species": "cutiefly-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "release",
+     "place": "water_resort",
+     "ofam": "traditional",
+     "item": "",
+     "garments": [
+      "blouse"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "back_seat",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "out",
+     "use": "glass_sip",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "sip_close",
+     "expr": "focused",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "cropped hem",
+      "mini length"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_redcarpet",
+     "ofam": "everyday",
+     "item": "overalls",
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "prop",
+     "left": "pocket",
+     "use": "bouquet_hold",
+     "legs": "",
+     "gaze": "at_prop",
+     "preset": "pocket_look",
+     "expr": "relieved",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "open back"
+     ],
+     "lead": "place"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "travel_rural_station",
+     "ofam": "retro",
+     "item": "",
+     "garments": [
+      "bikini"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "over_shoulder",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "",
+     "preset": "",
+     "expr": "confident",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "high-cut leg",
+      "strapless top"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      3
+     ],
+     "two": false,
+     "prev": [
+      2
+     ]
+    },
+    "low": [
+     "water",
+     "stage",
+     "travel",
+     "pokeworld",
+     "work",
+     "partner"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "blouse",
+     "crop_top",
+     "overalls",
+     "bikini"
+    ],
+    "orient": [
+     "front_3q+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ],
+ "card": "춤추새",
+ "check_result": "계획 통과 — 2명\n",
+ "reservation_commit": "a8d122d9accc81c7a30ee379b7a274e150123dd8",
+ "casual_plan": [
+  {
+   "cut": 1,
+   "treeV": 2,
+   "era": "now",
+   "place": "spa_sauna",
+   "ofam": "bath",
+   "item": "bath_yukata",
+   "garments": [
+    "traditional"
+   ],
+   "weather": "",
+   "posture": "stand",
+   "support": "none",
+   "frame": "environmental",
+   "body": "side",
+   "head": "with_body",
+   "camera": "eye",
+   "right": "prop",
+   "left": "prop",
+   "use": "towel_dry",
+   "legs": "stand_relaxed",
+   "gaze": "",
+   "preset": "stand_use",
+   "expr": "flustered",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "strong",
+    "separates_preference": "balanced"
+   },
+   "expose": [
+    "cropped hem",
+    "side cutouts"
+   ],
+   "lead": "light",
+   "manual_inputs": {
+    "scene": "Warm amber light pools across cedar boards after sunset.",
+    "outfit": "A light cotton bath yukata with a soft sash, a short hem above the knees and small covered-edge side cutouts at the waist; chest and hips remain fully covered."
+   },
+   "manual_why": {
+    "scene": "사우나 나무결 위 저녁 조명을 보충",
+    "outfit": "선택한 유카타를 유지하며 짧은 기장과 허리 절개로 계획한 드러내기를 구현"
+   }
+  },
+  {
+   "cut": 2,
+   "treeV": 2,
+   "era": "release",
+   "place": "home_balcony",
+   "ofam": "roleplay",
+   "item": "uniform_inspired",
+   "garments": [
+    "uniform"
+   ],
+   "weather": "",
+   "posture": "stand",
+   "support": "none",
+   "frame": "chest_up",
+   "body": "front_3q",
+   "head": "tilt",
+   "camera": "eye",
+   "right": "prop",
+   "left": "out",
+   "use": "cup_sip",
+   "legs": "",
+   "gaze": "",
+   "preset": "raise_chest",
+   "expr": "laughing",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "mostly posed",
+    "source_influence": "balanced",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "open back",
+    "strapless top"
+   ],
+   "lead": "place",
+   "manual_inputs": {
+    "scene": "Potted hibiscus flank the balcony rail during a costume-party intermission.",
+    "outfit": "A strapless stylised uniform-inspired event costume with crisp folded lapels and decorative epaulettes joined to an open-back bodice; the bust remains securely covered."
+   },
+   "manual_why": {
+    "scene": "발코니 화분 종류와 의상행사 휴식 맥락을 보충",
+    "outfit": "유니폼풍 구조를 살리고 계획의 스트랩리스와 열린 등을 반영"
+   }
+  },
+  {
+   "cut": 3,
+   "treeV": 2,
+   "era": "now",
+   "place": "tailor_room",
+   "ofam": "subculture",
+   "item": "gothic_lolita",
+   "garments": [
+    "skirt",
+    "sweater"
+   ],
+   "weather": "",
+   "posture": "lean_wall",
+   "support": "back_wall",
+   "frame": "waist_up",
+   "body": "front",
+   "head": "turn_side",
+   "camera": "eye",
+   "right": "",
+   "left": "",
+   "use": "",
+   "legs": "",
+   "gaze": "down",
+   "preset": "",
+   "expr": "unimpressed",
+   "aspect": "2:3",
+   "axes": {
+    "overall_intensity": "strong",
+    "skin_exposure": "bold",
+    "action_level": "balanced",
+    "source_influence": "strong",
+    "separates_preference": "prefer separates"
+   },
+   "expose": [
+    "bare midriff",
+    "one-shoulder cut"
+   ],
+   "lead": "detail",
+   "manual_inputs": {
+    "scene": "Spools of silver thread and folded velvet sit on the cutting table.",
+    "outfit": "A black-and-white lace jumper skirt with a bonnet, paired with a cropped one-shoulder fine-knit sweater; the short bodice leaves a narrow midriff visible."
+   },
+   "manual_why": {
+    "scene": "수선실 재료를 구체화",
+    "outfit": "레이스 점퍼스커트와 계획된 니트를 함께 두고 한쪽 어깨와 허리를 드러냄"
+   }
+  }
+ ],
+ "axes_reasons": {
+  "casual1": "머리를 말리는 가벼운 동작은 balanced, 붉은 깃 소품으로 strong, 한 벌 유카타라 balanced.",
+  "casual2": "잔을 입 앞에 멈춘 장면은 mostly posed, 꽃과 작은 장식은 balanced, 코스튬 상하의라 prefer separates.",
+  "casual3": "벽에 기대어 미세한 움직임은 balanced, 깃 장식·수선 소품은 strong, 니트와 스커트 조합이라 prefer separates."
+ }
+}
