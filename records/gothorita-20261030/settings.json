@@ -1,0 +1,295 @@
+{
+ "version": 1,
+ "card": "고디보미",
+ "no": 575,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/088e0a11deac/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "white bow-shaped hair ornaments",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A smartphone with a pearl-colored case catches the rooftop party lights.",
+   "outfit": "An opaque terracotta lingerie-inspired set with a structured halter top, a plunging neckline and high-waisted briefs, exposing shoulders and midriff while retaining secure intimate coverage.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 A smartphone with a pearl-colored case catches the roof 요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 plunging neckline, halter neck 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_rooftop / lingerie / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_rooftop",
+      "ko": "옥상 파티",
+      "en": "a city rooftop party under string lights"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "plunging neckline",
+     "halter neck"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Amber lamps reflect in the night-dark penthouse window wall, beside a low marble coffee table and upholstered chair in 2010.",
+   "outfit": "A loose ivory off-shoulder sleep shirt with a short upper-thigh hem and small secured side cutouts at the waist, showing shoulders, side waist and bare legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 Amber lamps reflect in the night-dark penthouse window  요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 off-shoulder neckline, side cutouts 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / evening_penthouse / homewear / sleep_shirt / sit_chair / environmental / cup_set",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "evening_penthouse",
+      "ko": "펜트하우스",
+      "en": "a penthouse window wall over the city at night"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_set",
+      "ko": "잔을 내려놓는다",
+      "en": "sets a cup down on the surface in front of her",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "sleep_shirt",
+      "ko": "오프숄더 잠옷 셔츠",
+      "en": "a loose off-shoulder sleep shirt"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "shirt"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "side cutouts"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "Morning light reaches the ranger station through mountain-trail windows, revealing rescue ropes and field kits on wall hooks.",
+   "outfit": "A fitted rust-colored athletic short jumpsuit with an off-shoulder neckline and a plunging neckline secured by an opaque inset, exposing shoulders and thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 Morning light reaches the ranger station through mounta 요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 off-shoulder neckline, plunging neckline 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / work_station / active / walk / full_body / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "work_station",
+      "ko": "레인저 초소",
+      "en": "a mountain-trail Pokémon ranger station with rescue gear on the wall"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · natural"
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "off-shoulder neckline",
+     "plunging neckline"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

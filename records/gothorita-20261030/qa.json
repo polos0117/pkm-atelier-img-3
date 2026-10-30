@@ -1,0 +1,150 @@
+{
+ "light": {
+  "identity": {
+   "match": true,
+   "evidence": "좁고 긴 얼굴·가는 눈·검보라 묶은 머리·흰 리본. 한 팔을 내밀고 반대 팔을 옆으로 내린 전신. 부츠 두 개가 여백 안에 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "heavy": {
+  "identity": {
+   "match": true,
+   "evidence": "어깨·팔·배·골반·허벅지·정강이에 넓고 두꺼운 두 번째 판이 겹치며 눈·앞머리·턱이 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "mobility": {
+  "identity": {
+   "match": true,
+   "evidence": "어깨 뒤·골반·종아리의 긴 얇은 판이 뒤로 벌어져 분리되고 작은 추진부로 살짝 떠 있다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "light_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "경장의 얼굴·손·부츠 위치에서 얇은 판이 이음새로 열리고 마젠타 프레임이 드러난다. 눈은 기존 붉은 계열이다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "heavy_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "중장의 얼굴·손·발 위치와 겹친 판을 유지하며 두 겹 판 사이에 마젠타 빛과 고리가 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "mobility_overdrive": {
+  "identity": {
+   "match": true,
+   "evidence": "고기동의 공중 자세와 뒤로 뻗은 판을 유지하며 원형 추진부·판 안쪽에 마젠타 발광이 보인다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "내민 손은 엄지와 길이가 다른 네 손가락이 구분된다. 내린 손은 굽힌 네 손가락과 엄지가 일부 겹치며 손목이 전완에 연결된다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "없음"
+ },
+ "casual1": {
+  "identity": {
+   "match": true,
+   "evidence": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "폰 가장자리에 네 손가락이 보이고 엄지는 기기 뒤에 가려진다. 상완·팔꿈치가 화면 밖 전완으로 자연스럽게 이어진다. 반대 팔·다리는 크롭 밖이다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "전구 아래 옥상에서 진주빛 폰을 팔 길이로 들어 셀카를 찍는다. 테라코타 홀터 상의로 어깨·목선이 드러나고 처진 눈꺼풀과 약하게 벌어진 입이 보인다. 계획보다 허리까지 넓은 크롭·큰 머리장식 잔존은 기록만 한다."
+ },
+ "casual2": {
+  "identity": {
+   "match": true,
+   "evidence": "야경 유리벽 앞 의자에 무릎을 모아 앉아 오른손으로 잔을 테이블에 내려놓고 왼손은 무릎에 둔다. 셔츠가 어깨·옆허리·다리를 드러낸다. 시선은 계획의 화면 왼쪽과 달리 오른쪽이다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "잔 손은 엄지와 손잡이를 잡은 네 손가락이 부분 겹침. 무릎 손은 네 손가락과 옆으로 가려진 엄지. 맨발은 각각 발가락 다섯 개가 보인다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "야경 유리벽 앞 의자에 무릎을 모아 앉아 오른손으로 잔을 테이블에 내려놓고 왼손은 무릎에 둔다. 셔츠가 어깨·옆허리·다리를 드러낸다. 시선은 계획의 화면 왼쪽과 달리 오른쪽이다."
+ },
+ "casual3": {
+  "identity": {
+   "match": true,
+   "evidence": "지도·구조 로프·의료 키트가 있는 산악 초소에서 볼을 들고 걷는다. 러스트 숏 점프슈트로 어깨와 허벅지가 드러나고 부츠가 모두 여백 안에 있다. 입 한쪽이 올라간 미소다."
+  },
+  "anatomy": {
+   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "arms": 2,
+   "legs": 2,
+   "hands": "볼 손의 엄지와 네 손가락이 볼 주변에 일부 가려져 보인다. 내린 손도 다섯 손가락이 자연스럽게 굽혀져 있다. 두 부츠의 발목은 종아리와 이어진다.",
+   "overlay_checked": false,
+   "note": "원본 및 손·발 확대에서 중복·분리된 팔다리 없음 확인."
+  },
+  "deviations": "지도·구조 로프·의료 키트가 있는 산악 초소에서 볼을 들고 걷는다. 러스트 숏 점프슈트로 어깨와 허벅지가 드러나고 부츠가 모두 여백 안에 있다. 입 한쪽이 올라간 미소다."
+ },
+ "diversity": {
+  "look_check": "passed: no near-identical images",
+  "own": "옥상 폰 셀카 근접·펜트하우스 의자와 컵의 환경 전신·초소 볼 보행 전신으로 옷·동작·배치가 구분된다.",
+  "recent_visual_comparison": {
+   "cards": [
+    "에블리",
+    "춤추새",
+    "치라치노",
+    "고디탱"
+   ],
+   "evidence": "에블리의 꽃다발·이벤트 조끼, 춤추새의 머리 말리기·찻잔 근접, 치라치노의 에어로빅·양손 머그·피팅룸과 구분된다. 고디탱은 의자 칵테일·V자 근접·게임 라운지여서 이번 폰 셀카·컵 내려놓는 야경 의자·구조 초소 보행과 주 동작·옷·구도가 다르다."
+  }
+ }
+}
