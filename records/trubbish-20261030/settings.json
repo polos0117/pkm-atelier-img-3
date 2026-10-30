@@ -1,0 +1,286 @@
+{
+ "version": 1,
+ "card": "깨봉이",
+ "no": 568,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/9447e6a01e14/packs/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "Olive-green knotted-bag folds become crisp folded armor panels, paired triangular tie ends become a small tied crown ornament, and cream triangular accents edge the collar. Keep a playful resourceful scavenger-engineer feel.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s",
+    "body type": "curvy"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Amber pendant lights reflected in the polished upright bass beside the piano; a small knotted-bag charm hangs from a nearby stool.",
+   "outfit": "A burgundy 1990s satin slip dress with small side-waist cutouts and a high thigh slit under a small ivory cropped cardigan worn open below the shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "The jazz-bar selection does not specify its light or a source prop; the lamp glow and knotted charm supply those details.",
+    "outfit": "Keep the selected satin slip and cropped cardigan, adding the planned cutouts and slit so the fitted dress differs from the flared babydoll."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_jazz / retro / nineties_slip / lean_wall / chest_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_jazz",
+      "ko": "재즈바",
+      "en": "a dim jazz bar with a grand piano"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "nineties_slip",
+      "ko": "90년대 미니멀 슬립",
+      "en": "a 1990s minimal satin slip dress under a small cropped cardigan"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "arms_crossed · arms_crossed"
+    },
+    "garments": [
+     "cardigan",
+     "dress",
+     "slip"
+    ],
+    "expose": [
+     "side cutouts",
+     "high thigh slit"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "A crystal-star prop glitters beside a scattering of silver confetti on the lacquered stage floor.",
+   "outfit": "An opaque pearl-pink babydoll slip with narrow asymmetrical one-shoulder straps, an empire waist and a softly flared mini hem, with securely fitted opaque matching briefs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "The selected painted-star stage lacks close foreground set dressing; the crystal and confetti make its theatrical surface specific.",
+    "outfit": "Preserve the selected empire-waist babydoll while specifying its one-shoulder construction and mini hem as the planned exposure methods."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_starstage / lingerie / babydoll / sit_floor / three_quarter",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_starstage",
+      "ko": "별빛 무대",
+      "en": "a stage under a painted night sky of crystal stars"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "babydoll",
+      "ko": "베이비돌",
+      "en": "a babydoll slip with narrow straps, an empire waist and a softly flared hem"
+     },
+     "posture": {
+      "key": "sit_floor",
+      "ko": "바닥에 앉기",
+      "en": "sitting on the ground"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "chin_knee · floor_brace"
+    },
+    "garments": [
+     "slip"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "mini length"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "The curtain call has just finished, leaving warm gold footlights and deep blue dusk over the outdoor tiered seats.",
+   "outfit": "A coral Moroccan evening caftan, a long embroidered robe with a decorated belt, adapted with a halter fastening above a low off-shoulder neckline.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "The outdoor theatre selection does not give the event phase or time; the moments after curtain call explain the warm footlights.",
+    "outfit": "Keep the selected embroidered caftan and belt while adding the planned halter fastening and off-shoulder neckline visible in the close crop."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / stage_open_air / traditional / caftan_evening / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "stage_open_air",
+      "ko": "야외 공연장",
+      "en": "an outdoor theatre of tiered seats facing a stage"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "caftan_evening",
+      "ko": "모로코 카프탄",
+      "en": "a Moroccan evening caftan — a long embroidered robe with a decorated belt"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "halter neck",
+     "off-shoulder neckline"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}

@@ -1,0 +1,325 @@
+{
+ "session": "trubbish-garbodor-9447",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "깨봉이",
+   "species": "trubbish-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_jazz",
+     "ofam": "retro",
+     "item": "nineties_slip",
+     "garments": [
+      "cardigan",
+      "dress",
+      "slip"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "chest_up",
+     "body": "front_3q",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "arms_crossed",
+     "left": "arms_crossed",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "preset": "crossed_wall",
+     "expr": "serious",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "side cutouts",
+      "high thigh slit"
+     ],
+     "lead": "light"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "fantasy",
+     "place": "fx_starstage",
+     "ofam": "lingerie",
+     "item": "babydoll",
+     "garments": [
+      "slip"
+     ],
+     "weather": "",
+     "posture": "sit_floor",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "front_3q",
+     "head": "tilt",
+     "camera": "high",
+     "right": "chin_knee",
+     "left": "floor_brace",
+     "use": "",
+     "legs": "knee_up",
+     "gaze": "camera",
+     "preset": "floor_knee",
+     "expr": "wink",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "mini length"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "now",
+     "place": "stage_open_air",
+     "ofam": "traditional",
+     "item": "caftan_evening",
+     "garments": [
+      "robe"
+     ],
+     "weather": "",
+     "posture": "stand",
+     "support": "none",
+     "frame": "face_close",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "hair_tuck",
+     "left": "out",
+     "use": "",
+     "legs": "",
+     "gaze": "down",
+     "preset": "hair_close",
+     "expr": "nostalgic",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "subtle",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "halter neck",
+      "off-shoulder neckline"
+     ],
+     "lead": "action"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1,
+      2
+     ],
+     "two": true,
+     "prev": [
+      3
+     ]
+    },
+    "low": [
+     "street",
+     "spa",
+     "sports",
+     "night",
+     "stage",
+     "evening",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "cardigan",
+     "dress",
+     "slip",
+     "robe"
+    ],
+    "orient": [
+     "front_3q+with_body",
+     "front_3q+tilt",
+     "side+with_body"
+    ],
+    "frame": [
+     "chest_up",
+     "face_close"
+    ]
+   }
+  },
+  {
+   "card": "더스트나",
+   "species": "garbodor-20261030",
+   "cuts": [
+    {
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_powder",
+     "ofam": "roleplay",
+     "item": "casino_dealer",
+     "garments": [
+      "vest"
+     ],
+     "weather": "",
+     "posture": "sit_chair",
+     "support": "none",
+     "frame": "environmental",
+     "body": "front",
+     "head": "turn_side",
+     "camera": "eye",
+     "right": "prop",
+     "left": "lap",
+     "use": "cup_set",
+     "legs": "knees_together",
+     "gaze": "screen_left",
+     "preset": "bench_sit",
+     "expr": "sleepy",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "bare midriff",
+      "cropped hem"
+     ],
+     "lead": "detail"
+    },
+    {
+     "cut": 2,
+     "treeV": 2,
+     "era": "in_pokemon",
+     "place": "berry_orchard",
+     "ofam": "everyday",
+     "item": "overalls",
+     "garments": [
+      "crop_top",
+      "overalls"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "three_quarter",
+     "body": "rear_3q",
+     "head": "over_shoulder",
+     "camera": "eye",
+     "right": "prop",
+     "left": "down",
+     "use": "basket_carry",
+     "legs": "walk_pause",
+     "gaze": "camera",
+     "preset": "walk_lookback",
+     "expr": "laughing_open",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "strapless top",
+      "side cutouts"
+     ],
+     "lead": "action"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "sports_gym",
+     "ofam": "active",
+     "item": "",
+     "garments": [
+      "shorts",
+      "tank"
+     ],
+     "weather": "",
+     "posture": "lean_wall",
+     "support": "back_wall",
+     "frame": "full_body",
+     "body": "side",
+     "head": "tilt",
+     "camera": "eye",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "horizon",
+     "preset": "",
+     "expr": "determined",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "subtle",
+      "separates_preference": "prefer separates"
+     },
+     "expose": [
+      "one-shoulder cut",
+      "open back"
+     ],
+     "lead": "light"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [
+      1
+     ],
+     "two": false,
+     "prev": [
+      1,
+      2
+     ]
+    },
+    "low": [
+     "street",
+     "spa",
+     "sports",
+     "evening",
+     "partner",
+     "berry"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "vest",
+     "crop_top",
+     "overalls",
+     "shorts",
+     "tank"
+    ],
+    "orient": [
+     "front+turn_side",
+     "side+tilt"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
