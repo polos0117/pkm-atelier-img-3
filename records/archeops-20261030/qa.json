@@ -1,0 +1,124 @@
+{
+ "reviewer": "gpt",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "image_sha256": "2fbc79a85ef4df2148ac47ef5714cac85c33580fe75802fc6e752063afeb7176",
+   "observations": "한 인물 전신, 머리와 양발이 프레임 안. 갑옷의 양팔·양다리 연결과 구부린 양손의 엄지 방향을 확대 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "image_sha256": "8178cbdba834611d5139d6bedb8d74437ba5f156d00b10073cbb724caef486e5",
+   "observations": "한 인물 전신, 머리와 양발이 프레임 안. 갑옷의 양팔·양다리 연결과 구부린 양손의 엄지 방향을 확대 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "image_sha256": "ab84c8d77ae4b079acad6c73e796b8cd7ef1532e7afd404652a59ea685b8af8a",
+   "observations": "한 인물 전신, 머리와 양발이 프레임 안. 갑옷의 양팔·양다리 연결과 구부린 양손의 엄지 방향을 확대 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "light_overdrive": {
+   "accepted": false,
+   "status": "moderation_blocked",
+   "stage": "output",
+   "category": "sexual",
+   "image_received": false,
+   "retry_count": 0,
+   "request_id": "29b65ce5-752a-48cd-8cb7-afe95d5c9c6b",
+   "note": "이미지 도구가 결과를 거절하여 파일을 받지 못함. 재시도·프롬프트 우회 없음."
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "image_sha256": "1b79bc1b86661f7fc190a882f1bc79dc490f886b9698c6403a3c88559d162745",
+   "observations": "한 인물 전신, 머리와 양발이 프레임 안. 갑옷의 양팔·양다리 연결과 구부린 양손의 엄지 방향을 확대 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": false,
+   "status": "moderation_blocked",
+   "stage": "output",
+   "category": "sexual",
+   "image_received": false,
+   "retry_count": 0,
+   "request_id": "b77585b7-00c9-4b47-8156-63bc739329fc",
+   "note": "이미지 도구가 결과를 거절하여 파일을 받지 못함. 재시도·프롬프트 우회 없음."
+  },
+  "casual1": {
+   "accepted": true,
+   "image_sha256": "07538e41891da41bd9d4451d0474d1dfce1895b1bfabe4a420dc94cb8c5b4c16",
+   "observations": "라이브 하우스 벨벳 자리에 앉아 휴식. 보이는 한 손은 무릎 옆으로 내려오고 다른 팔은 몸 뒤에 가려짐. 어깨와 목의 회전 및 양 신발 연결 확인.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "image_sha256": "654352e65aadf81e6b2477f40392b15a6fe966b7c51d09daa93c647fb5a50570",
+   "observations": "해변 선베드에서 한 팔은 머리 뒤로, 다른 팔은 음료 잔으로 이어짐. 잔을 감싼 손의 네 손가락과 반대편 엄지 일부 가려짐. 구릿빛 레트로 점프슈트의 상체가 보임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "image_sha256": "19a0c04c77d3f5cb0a916b657f4a7bb47261d7b55141d5588b9fb312ff81057f",
+   "observations": "화실 의자에서 한 손으로 턱을 받치고 다른 손으로 붓을 늘어뜨림. 두 팔의 어깨·팔꿈치·손목 연결과 붓 손의 다섯 손가락 확인. 크림색 라운지웨어와 캔버스·도구가 보임.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손의 손목 연결·엄지 방향 확인; 구부린 손/소품/머리카락 뒤의 손가락은 가려짐으로 기록. 추가 손이나 손가락은 보이지 않음.",
+    "overlay_checked": false,
+    "note": "원본 및 손·발 확대를 직접 확인. 크롭된 일상컷의 하체는 화면 밖이며 수를 시각적으로 단정하지 않음."
+   }
+  }
+ },
+ "face_reason": "원작 깃털 단서를 반영한 페더컷과 종별 얼굴 설계를 실제 경장 프롬프트로 제출. 경장 정본을 고정해 후속 컷을 직접 참조 생성.",
+ "compared_characters": [
+  "데스마스",
+  "데스니칸",
+  "빠르모트"
+ ],
+ "diversity_comparison": "아켄의 짧은 청적색 머리와 달리 긴 청록 페더컷·가느다란 윤곽·황록 눈으로 구별됨. 라이브 하우스의 청바지와 뒤돌아본 앉은 전신, 해변 선베드의 구릿빛 레트로 상반신, 화실 의자의 크림색 라운지웨어와 붓 동작은 배경·옷·구도가 다름. 비교한 데스마스·데스니칸·빠르모트의 실제 이미지에서도 장소와 의상 조합이 다름.",
+ "casual_look": "passed: no nearly identical casual images"
+}

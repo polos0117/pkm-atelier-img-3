@@ -1,0 +1,256 @@
+{
+ "version": 1,
+ "card": "아케오스",
+ "no": 567,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/deb578c7c816/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A low velvet seat sits beside stacked amplifier cases and a coiled instrument cable.",
+   "outfit": "An emo fitted striped long-sleeve top with a very short cropped hem and open back, a studded belt, skinny jeans and checkered sneakers; the midriff and back remain bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "공연장 쉬는 자리 옆의 앰프 케이스와 케이블을 보충.",
+    "outfit": "이모의 긴소매 스트라이프 상의·스키니진을 유지하고 짧은 길이는 상의 밑단에 적용해 등을 드러냄."
+   },
+   "guide": {
+    "path": "now / night_livehouse / rest_seat / subculture / emo",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_livehouse",
+      "ko": "라이브 하우스",
+      "en": "a small live house with a low stage, a crowd barrier and amps",
+      "group": "밤 문화"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "emo",
+      "ko": "이모",
+      "en": "emo — a fitted striped long-sleeve top, a studded belt, skinny jeans and checkered sneakers"
+     }
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "open back",
+     "mini length"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Late-afternoon sunshine glints on a cold drink set on a wicker side table beside the sunbed.",
+   "outfit": "A 1970s lurex halter jumpsuit in copper, with a single broad shoulder strap and securely overlapped high thigh slits in the flared legs, exposing one shoulder and the thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "해변 선베드 옆 차가운 음료의 자리와 오후 햇빛을 보충.",
+    "outfit": "플레어 점프슈트를 유지하고 비대칭 홀터 스트랩과 겹쳐진 다리 슬릿으로 계획의 한쪽 어깨·허벅지 노출을 반영."
+   },
+   "guide": {
+    "path": "now / water_beach / sunbed / retro / disco_halter",
+    "tree": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "water_beach",
+      "ko": "해변",
+      "en": "a sunny beach with wet sand and shallow surf",
+      "group": "물가"
+     },
+     "act": {
+      "key": "sunbed",
+      "ko": "선베드에 눕기",
+      "en": "lying back on a sunbed with a cold drink beside her",
+      "pose_family": "눕기·기대 눕기"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "disco_halter",
+      "ko": "70년대 디스코",
+      "en": "a 1970s lurex halter jumpsuit with flared legs"
+     }
+    },
+    "garments": [
+     "jumpsuit"
+    ],
+    "expose": [
+     "high thigh slit",
+     "one-shoulder cut"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "A palette knife and a folded paint-stained cloth lie on a low stool beside unfinished canvases.",
+   "outfit": "A soft cream lounge top with a strapless bodice and a loose drape attached at one shoulder, cropped above matching soft pants, exposing the midriff and shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "화실에서 쉬는 장면에 팔레트 나이프·헝겊·미완성 캔버스를 보충.",
+    "outfit": "원숄더 라운지 상의와 부드러운 바지 조합을 유지하며 몸판은 스트랩리스, 한쪽 어깨에는 느슨한 드레이프를 두어 배를 드러냄."
+   },
+   "guide": {
+    "path": "release / studio_art / rest_seat / homewear / one_shoulder_lounge",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables",
+      "group": "화실·공방"
+     },
+     "act": {
+      "key": "rest_seat",
+      "ko": "앉아 쉬기",
+      "en": "resting on a seat for a moment, catching her breath",
+      "pose_family": "앉기"
+     },
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "one_shoulder_lounge",
+      "ko": "원숄더 라운지",
+      "en": "a one-shoulder lounge top and matching soft pants"
+     }
+    },
+    "garments": [
+     "trousers"
+    ],
+    "expose": [
+     "bare midriff",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  }
+ }
+}
