@@ -1,0 +1,258 @@
+{
+ "version": 1,
+ "card": "늑골라",
+ "no": 565,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/6470c858bf92/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A soft felt ball and a small Squirtle companion share the grass beside the feeding bowl in fresh morning light.",
+   "outfit": "A cropped chunky ivory knit sweater with a strapless top edge, worn with olive leggings; the short hem exposes her waist and the open neckline exposes both shoulders.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 묶음에 필요한 꼬부기 한 마리와 공의 재질을 구체화한다.",
+    "outfit": "선택된 니트와 레깅스를 유지하면서 계획의 짧은 밑단·스트랩리스 형태를 반영한다."
+   },
+   "guide": {
+    "path": "in_pokemon / partner_garden / care_play / everyday / sweater_leggings",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_garden",
+      "ko": "조용한 정원",
+      "en": "a quiet garden with a feeding bowl set on the grass",
+      "group": "동료 포켓몬과 함께"
+     },
+     "act": {
+      "key": "care_play",
+      "ko": "장난감 놀이",
+      "en": "rolling a soft toy ball toward her playful Pokémon companion",
+      "pose_family": "무릎·쪼그림"
+     },
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "sweater_leggings",
+      "ko": "니트 + 레깅스",
+      "en": "a chunky knit sweater and leggings"
+     }
+    },
+    "garments": [
+     "leggings",
+     "sweater"
+    ],
+    "expose": [
+     "cropped hem",
+     "strapless top"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Tall studio windows cast pale rectangular morning light across the wood; the mirror reflects the room at an oblique angle.",
+   "outfit": "A plum sports bra with an asymmetric one-shoulder halter strap and charcoal high-waisted leggings, leaving the shoulders and a band of midriff visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "2010년경 연습실에서 가능한 창빛과 거울 각도만 보충한다.",
+    "outfit": "스포츠 브라와 레깅스를 유지하며 계획의 비대칭 홀터 절개를 반영한다."
+   },
+   "guide": {
+    "path": "release / sports_studio / warmup / active / sports_bra_leggings",
+    "tree": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "sports_studio",
+      "ko": "연습실",
+      "en": "a mirrored dance, yoga or Pilates studio with a wooden floor",
+      "group": "운동"
+     },
+     "act": {
+      "key": "warmup",
+      "ko": "몸풀기",
+      "en": "warming up in a forward lunge stretch, both hands resting on her front knee",
+      "pose_family": "움직임"
+     },
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "sports_bra_leggings",
+      "ko": "스포츠 브라 + 레깅스",
+      "en": "a sports bra and high-waisted leggings"
+     }
+    },
+    "garments": [
+     "crop_top",
+     "leggings"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "halter neck"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Beyond the terrace ledge the harbor boats cast long reflections in the peach dusk; a rolled swimming towel rests beside a stone bench.",
+   "outfit": "A securely lined terracotta halter bikini with a neck tie and underbust band, high-cut legs and small cutouts at the hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "항구 풍경 감상에 해질녘과 수영 수건만 보충한다.",
+    "outfit": "선택된 홀터 비키니의 끈과 밴드를 살리고 계획의 하이컷·옆트임을 반영한다."
+   },
+   "guide": {
+    "path": "in_pokemon / pw_roof / look_out / swimwear / halter_bikini",
+    "tree": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_roof",
+      "ko": "항구 마을 지붕 테라스",
+      "en": "a rooftop terrace above a Pokémon-world harbor town",
+      "group": "포켓몬 세계"
+     },
+     "act": {
+      "key": "look_out",
+      "ko": "창밖·풍경 바라보기",
+      "en": "looking out at the view, one hand resting on the nearest ledge",
+      "pose_family": "서기"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "halter_bikini",
+      "ko": "홀터 비키니",
+      "en": "a halter bikini with a neck tie and an underbust band"
+     }
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
