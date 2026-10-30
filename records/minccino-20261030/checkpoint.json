@@ -1,0 +1,75 @@
+{
+ "card": "치라미",
+ "canonical": {
+  "slot": "light",
+  "file": "치라미_light_glossy_promo_f.webp",
+  "source_path": "/workspace/scratch/75bfe492cd93/generated_images/exec-a8b0120c-41d2-4b09-846f-b62309a6d913.png",
+  "source_sha256": "34362d17dedef398418580d0ee4f17bd1355e8251841db39d4d0242393dcc1db",
+  "sha256": "b37235f10f66bf549c48ea6416c03799224273e05b456dc5f305f6d106b2cf4a",
+  "size": [
+   1024,
+   1536
+  ],
+  "format": "WEBP",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs settings",
+  "references": []
+ },
+ "completed": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "publication": "pending",
+ "image_tool": "built-in imagegen",
+ "face_design": {
+  "name": "치라미",
+  "en": "Minccino",
+  "line": "치라미",
+  "how": "species",
+  "registered": false,
+  "face": {
+   "face shape": "compact",
+   "face length": "short",
+   "face width": "wide",
+   "jaw & chin": "soft rounded jaw",
+   "eye shape": "large",
+   "eye size": "medium",
+   "eye tilt": "level outer corners",
+   "eye spacing": "average eye spacing",
+   "eyebrows": "fine soft arches",
+   "nose character": "small delicate nose",
+   "lips": "bow-shaped upper lip"
+  },
+  "why": "친칠라의 큰 귀와 보드라운 체적을 둥근 볼과 짧은 코로 해석한다.",
+  "cues": [
+   "키 0.4m → 얼굴형 짧고 응축된 얼굴형",
+   "키 0.4m → 얼굴 길이 짧은 얼굴"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 얼굴형 부드럽고 둥근 얼굴형 → 짧고 응축된 얼굴형, 눈 간격 눈 사이가 넓은 → 눈 하나 너비 안팎",
+  "hair": {
+   "hairstyle": "twin tail",
+   "hair length": "short",
+   "bangs": "curtain bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘large ears’·키 0.4m에서 트윈테일(묶은 꼬리) · 짧은 머리 · 커튼뱅",
+  "hair_cues": [
+   "‘large ears’ → 헤어스타일 트윈테일",
+   "키 0.4m → 머리 길이 짧은 머리"
+  ]
+ },
+ "face_reason": "짧고 넓은 얼굴·둥근 볼·작은 코와 짧은 트윈테일이 세 비교 인물의 긴 얼굴·검은 머리 또는 둥근 번 헤어와 구분된다.",
+ "png_policy": "Session-only originals; hashes, WebP and records persist.",
+ "compared_characters": [
+  "조로아",
+  "조로아크",
+  "더스트나"
+ ]
+}
