@@ -1,0 +1,89 @@
+{
+ "card": "킬가르도",
+ "canonical": {
+  "card": "킬가르도",
+  "slot": "light",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs actual settings and unmodified prompt",
+  "source": {
+   "path": "/workspace/scratch/e14440a9e224/generated_images/exec-afabc22f-e90d-4dbe-ab45-aac3343a6416.png",
+   "sha256": "b86bc2e9b2d3be507be95aef7f86e37ebd27cb9efc2cdfa01fda71f2828bf762",
+   "session_only": true
+  },
+  "output": {
+   "file": "킬가르도_light_glossy_promo_f.webp",
+   "sha256": "7e6effe3d907e8dad22764848d5536d6d51be0eb3aacc530e4029ef4c36fdbb9",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "quality": 85,
+   "method": 6
+  },
+  "references": []
+ },
+ "completed": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "face_design": {
+  "name": "킬가르도",
+  "en": "Aegislash",
+  "line": "단칼빙",
+  "how": "draft",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "angular defined jaw",
+   "eye shape": "narrow",
+   "eye size": "medium",
+   "eye tilt": "level outer corners",
+   "eye spacing": "wide-set eyes",
+   "eyebrows": "straight medium brows",
+   "nose character": "prominent defined nose",
+   "lips": "straight even lips"
+  },
+  "why": "",
+  "cues": [
+   "‘thick, striated spike’ → 얼굴형 각지고 선명한 얼굴형",
+   "‘thick, striated spike’ → 턱선 · 턱끝 각지고 또렷한 턱",
+   "‘thick, striated spike’ → 눈매 가늘고 날카로운 눈",
+   "몸 형태 blob → 눈 간격 눈 사이가 넓은",
+   "‘thick, striated spike’ → 코 크고 또렷한 코",
+   "‘thick, striated spike’ → 입술 굴곡 없이 곧은"
+  ],
+  "adjusted": "같은 계열 쌍검킬와 겹쳐 원작 단서의 다음 후보로 옮김 — 눈 간격 눈 하나 너비 안팎 → 눈 사이가 넓은, 눈썹 바깥에서 꺾이는 사선 → 중간 두께의 직선, 코 보통 → 크고 또렷한 코, 입술 얇은 입술 → 굴곡 없이 곧은",
+  "hair": {
+   "hairstyle": "asymmetric cut",
+   "hair length": "long",
+   "bangs": "long side bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘golden sword’·‘steel blade’·강철 타입에서 좌우 길이가 다른 비대칭컷(층 낸 컷) · 긴 머리 · 긴 사이드뱅 — 쌍검킬에서 이어 같은 묶음",
+  "hair_cues": [
+   "‘golden sword’ → 헤어스타일 좌우 길이가 다른 비대칭컷",
+   "키 1.7m → 머리 길이 긴 머리"
+  ]
+ },
+ "face_reason": "왕검의 굵고 각진 선을 또렷한 턱·직선 눈썹·높고 뚜렷한 코로 해석했다. 단칼빙의 가는 타원형 윤곽, 쌍검킬의 가까운 눈과 얇은 입술, 고디보미의 부드러운 눈썹, 에블리의 둥근 눈과 구별되는 넓은 눈 간격·코 길이를 실제 그림에서 확인했다.",
+ "compared_characters": [
+  "단칼빙",
+  "쌍검킬",
+  "고디탱",
+  "고디보미",
+  "에블리"
+ ],
+ "publication": "9 images prepared; pending remote image and dex registration",
+ "image_tool": "built-in imagegen",
+ "png_policy": "Session-only originals; WebP, source hashes and records persist."
+}

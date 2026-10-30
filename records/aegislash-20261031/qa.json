@@ -1,0 +1,142 @@
+{
+ "reviewer": "gpt",
+ "accepted": true,
+ "anatomy_tool": "unavailable: mediapipe not installed; exit code 3 observed earlier in this session",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "image_sha256": "b86bc2e9b2d3be507be95aef7f86e37ebd27cb9efc2cdfa01fda71f2828bf762",
+   "observations": "금색 좁은 판과 갈색 슈트, 고리 세 개 문양과 긴 비대칭 갈색·금발. 턱과 양발 전체가 보이는 정면 3/4 자세.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "image_sha256": "083fbb0cce833dc996463ab908f0e9e0ba62e2323412963f91f65058db232c87",
+   "observations": "어깨·팔·골반·허벅지·정강이에서 판이 여러 겹으로 넓어졌다. 열린 관자부 가드 아래 경장의 눈·턱·긴 사이드뱅을 유지.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "image_sha256": "72f401186fe730e1c2ea5d2986ddd6263594b9cac33ee26d788eafa11cff1a2e",
+   "observations": "어깨·골반·종아리의 얇은 판이 뒤로 벌어지고 작은 원형 추진구가 보인다. 관절 노출과 머리 옆 가는 핀, 전신 여백.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "image_sha256": "670e0f1a961dcfea493c34e55947e8c828cd4efc241b6a8cc117865fab0eab9c",
+   "observations": "경장과 같은 서 있는 자세·카메라·손·발 위치. 판이 이음새에서 들리고 은백색 프레임과 광채가 보이며 금색 눈을 유지.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "image_sha256": "b5738e3a5f92fb9c30983c2f8d807455212d1a2d23a6091ae16e6716495821f0",
+   "observations": "중장과 같은 넓은 겹판과 열린 관자부 가드를 유지. 어깨·팔·허벅지·정강이 겹 사이로 은백색 내부 구조가 드러난다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "image_sha256": "6319de713c8e25191a68324fb3d3eb7a692ab96b6cc106ccd26ed217ff46f8d1",
+   "observations": "고기동의 후방 분할 판과 원형 추진구 덮개가 더 열려 긴 내부 지지대와 은백색 발광선이 보인다. 자세·얼굴·발 위치 동일.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손 각각 다섯 손가락 구조. 느슨하게 굽힌 손가락 일부는 겹쳐 보이며 손목·팔꿈치 연결과 엄지 쪽을 확대 확인.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "image_sha256": "f0dfeebfea899dfaee54eb1b567ed5f09bcf122a1fa8ba226168f4a518d73018",
+   "observations": "색광이 반사되는 롤러장 난간에 기대어 물병을 내려다보는 옆얼굴. 산호색 가디건이 어깨 아래로 내려가고 크림 슬립 상체가 보인다. 반대 손은 난간을 짚는다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "물병 손은 엄지와 네 손가락, 난간을 짚은 손은 네 손끝과 옆으로 가려진 엄지. 두 팔은 각 어깨·팔꿈치에서 연결.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "image_sha256": "5360b7666d350e3438a61e8abce6d9e3778b048295a0e80ea336c37181f08eeb",
+   "observations": "젖은 골목에서 카메라를 두 손으로 받쳐 사진을 확인. 청록색 루렉스 점프슈트와 허벅지 슬릿, 목의 금속 고리 장신구. 카메라 위 작은 가짜 라벨은 실제 상표로 식별되지 않는다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "카메라 그립 손은 일부가 기기 뒤에 가려짐, 받침 손은 엄지와 길게 뻗은 검지·나머지 굽힌 세 손가락. 두 아래팔이 기기 양쪽 손목으로 연결.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "image_sha256": "f84c54f1f863862fe2d595802d339df465691bca88e9997e9f4e6c235bc27664",
+   "observations": "흰 스포트라이트가 켜진 런웨이, 샴페인 새틴 스트랩리스 목선과 어깨. 어깨를 넘어 본 얼굴이 읽히고 손·하체는 크롭 밖이다. 작은 관자부 고리 장식 잔류는 기록만.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 프레임 밖. 화면 안 양팔은 어깨에서 이어져 하단 크롭 밖으로 자연스럽게 나간다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대에서 연결·관절·보이는 손가락을 수동 확인. 일상은 해당 크롭 밖 하체를 판단하지 않음."
+   }
+  }
+ },
+ "face_reason": "왕검의 굵고 각진 선을 또렷한 턱·직선 눈썹·높고 뚜렷한 코로 해석했다. 단칼빙의 가는 타원형 윤곽, 쌍검킬의 가까운 눈과 얇은 입술, 고디보미의 부드러운 눈썹, 에블리의 둥근 눈과 구별되는 넓은 눈 간격·코 길이를 실제 그림에서 확인했다.",
+ "compared_characters": [
+  "단칼빙",
+  "쌍검킬",
+  "고디탱",
+  "고디보미",
+  "에블리"
+ ],
+ "diversity_comparison": {
+  "actual_images": [
+   "쌍검킬 casual1-3",
+   "고디탱 casual1-3",
+   "고디보미 casual1-3",
+   "에블리 casual1-3"
+  ],
+  "result": "롤러장 옆모습+물병+가디건, 골목 카메라 확인+플레어 점프슈트, 런웨이 어깨 뒤돌아보기+새틴 목선으로 분리된다. 쌍검킬의 부엌 검지·관람석 몬스터볼·사진 부스와 장소·하는 일·카메라 범위가 다르다. 고디보미·에블리의 셀피·꽃·음료 및 정면 앉기 조합을 반복하지 않는다.",
+  "look_check": "passed; no cuts below score 245"
+ }
+}

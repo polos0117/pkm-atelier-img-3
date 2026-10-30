@@ -3,11 +3,11 @@
  "planner": "tools/casual-plan.cjs",
  "characters": [
   {
-   "card": "쌍검킬",
    "species": "doublade-20261031",
+   "card": "쌍검킬",
+   "at": "2026-10-31T01:31:12+09:00",
    "cuts": [
     {
-     "kept": true,
      "cut": 1,
      "treeV": 2,
      "era": "in_pokemon",
@@ -44,12 +44,9 @@
       "off-shoulder neckline"
      ],
      "lead": "action",
-     "act": "ball_hold",
-     "orient": "front+turn_side",
-     "pose": "bench_sit"
+     "kept": true
     },
     {
-     "kept": true,
      "cut": 2,
      "treeV": 2,
      "era": "in_pokemon",
@@ -86,12 +83,9 @@
       "mini length"
      ],
      "lead": "place",
-     "act": "stand:shush:out",
-     "orient": "front+with_body",
-     "pose": "shush_close"
+     "kept": true
     },
     {
-     "kept": true,
      "cut": 3,
      "treeV": 2,
      "era": "now",
@@ -126,46 +120,17 @@
       "high thigh slit",
       "off-shoulder neckline"
      ],
-     "lead": "detail",
-     "act": "stand:-:-",
-     "orient": "rear_3q+turn_side",
-     "pose": null
+     "lead": "detail"
     }
    ],
-   "why": {
-    "tree": 2,
-    "required": {
-     "slots": [],
-     "two": false,
-     "prev": [
-      1
-     ]
-    },
-    "low": [
-     "home",
-     "studio",
-     "water",
-     "spa",
-     "sports",
-     "stage",
-     "travel",
-     "pokeworld",
-     "partner",
-     "berry"
-    ]
-   },
-   "claims": {
-    "garment": [],
-    "orient": [],
-    "frame": []
-   }
+   "stamp": "d5797b30316858192fffa6ff9d5cebdd462ad1ab80bfd8415372724d4d8784d1"
   },
   {
-   "card": "킬가르도",
    "species": "aegislash-20261031",
+   "card": "킬가르도",
+   "at": "2026-10-31T01:31:12+09:00",
    "cuts": [
     {
-     "kept": true,
      "cut": 1,
      "treeV": 2,
      "era": "release",
@@ -203,21 +168,16 @@
       "off-shoulder neckline"
      ],
      "lead": "light",
-     "act": "bottle_hold",
-     "orient": "side+with_body",
-     "pose": "counter_cup"
+     "kept": true
     },
     {
      "cut": 2,
      "treeV": 2,
-     "era": "in_pokemon",
-     "place": "partner_room",
-     "ofam": "costume",
-     "item": "mermaid_show",
-     "garments": [
-      "skirt"
-     ],
+     "era": "now",
+     "place": "street_alley",
      "weather": "",
+     "ofam": "retro",
+     "item": "disco_halter",
      "posture": "stand",
      "support": "none",
      "frame": "three_quarter",
@@ -226,27 +186,29 @@
      "camera": "eye",
      "right": "prop",
      "left": "prop",
-     "use": "ball_polish",
+     "use": "camera_check",
      "legs": "stand_relaxed",
      "gaze": "",
+     "expr": "soft_smile",
      "preset": "camera_shot",
-     "expr": "wink",
-     "aspect": "2:3",
      "axes": {
       "overall_intensity": "strong",
       "skin_exposure": "bold",
       "action_level": "balanced",
       "source_influence": "strong",
-      "separates_preference": "prefer separates"
+      "separates_preference": "balanced"
      },
-     "expose": [
-      "open back",
-      "cropped hem"
+     "garments": [
+      "jumpsuit"
      ],
-     "lead": "place"
+     "expose": [
+      "high thigh slit",
+      "one-shoulder cut"
+     ],
+     "lead": "action",
+     "kept": true
     },
     {
-     "kept": true,
      "cut": 3,
      "treeV": 2,
      "era": "fantasy",
@@ -282,38 +244,10 @@
       "strapless top"
      ],
      "lead": "action",
-     "act": "kneel:-:-",
-     "orient": "front_3q+over_shoulder",
-     "pose": null
+     "kept": true
     }
    ],
-   "why": {
-    "tree": 2,
-    "required": {
-     "slots": [],
-     "two": false,
-     "prev": [
-      3
-     ]
-    },
-    "low": [
-     "home",
-     "studio",
-     "water",
-     "spa",
-     "sports",
-     "stage",
-     "travel",
-     "partner"
-    ]
-   },
-   "claims": {
-    "garment": [
-     "skirt"
-    ],
-    "orient": [],
-    "frame": []
-   }
+   "stamp": "686301849fce796b82ff6a94f194904ad3af8bac6331cb9ed64b956bf13d77fd"
   }
  ]
 }
