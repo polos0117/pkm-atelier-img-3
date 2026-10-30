@@ -1,0 +1,292 @@
+{
+ "version": 1,
+ "card": "고디탱",
+ "no": 574,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/088e0a11deac/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Warm festoon bulbs glow across a rooftop cocktail gathering, with a velvet chair beside a low drinks table.",
+   "outfit": "A 1950s pin-up lingerie set in opaque champagne satin, with a structured halter bra and high-waisted high-cut briefs, exposing shoulders, midriff and legs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 Warm festoon bulbs glow across a rooftop cocktail gathe 요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 high-cut leg, halter neck 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_rooftop / retro / pinup_lingerie / sit_chair / full_body / glass_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_rooftop",
+      "ko": "옥상 파티",
+      "en": "a city rooftop party under string lights"
+     },
+     "role": null,
+     "use": {
+      "key": "glass_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cocktail glass by the stem at chest height",
+      "prop": "칵테일 잔"
+     },
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "pinup_lingerie",
+      "ko": "50년대 핀업 란제리",
+      "en": "a 1950s pin-up lingerie set with a structured bra and high-waisted bottoms"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "The rooftop water tank catches the blue hour glow above a cluster of low buildings.",
+   "outfit": "An open cropped tuxedo jacket over a silk halter camisole ending above the navel, with tailored trousers; the open front shows her collarbones and bare midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 The rooftop water tank catches the blue hour glow above 요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 halter neck, bare midriff 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / street_rooftop / evening / tuxedo_cami_trousers / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "street_rooftop",
+      "ko": "옥상",
+      "en": "a city rooftop with a water tank, string lights and the skyline"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "tuxedo_cami_trousers",
+      "ko": "턱시도 재킷 + 캐미솔 + 정장 바지",
+      "en": "a sharp tuxedo jacket over a silk camisole with tailored trousers"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "v_sign · out"
+    },
+    "garments": [
+     "jacket",
+     "tank",
+     "trousers"
+    ],
+    "expose": [
+     "halter neck",
+     "bare midriff"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Late afternoon light pools across a resort board-game lounge in 2010, with game-box shelves and low tables.",
+   "outfit": "A fully lined coral wrap-front swimsuit with a crossed strapless bodice tied at the waist and high-cut leg openings, showing shoulders and thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "선택한 장소에 없는 시간대·빛·가구를 Late afternoon light pools across a resort board-game l 요소로 구체화한다.",
+    "outfit": "고른 옷 종류는 유지하며 high-cut leg, strapless top 구조와 색·소재를 명시한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / boardgame_lounge / swimwear / wrap_swim / walk / three_quarter / cup_hold",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "boardgame_lounge",
+      "ko": "보드게임 라운지",
+      "en": "a cozy board-game lounge with shelves of game boxes and low tables"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cup at chest height",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "wrap_swim",
+      "ko": "랩 프론트",
+      "en": "a wrap-front swimsuit with a crossed bodice tied at the waist"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "strapless top"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}

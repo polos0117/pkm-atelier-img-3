@@ -1,0 +1,21 @@
+{
+ "stage": "9 images generated, visual QA and casual-look passed; prepublication complete",
+ "reference": "/workspace/scratch/088e0a11deac/generated_images/exec-f9118ea5-1f50-4801-9b87-e6f09b87f279.png",
+ "sha256": "10aab40eed4d733b39ba0bd5e223dc3ae9f3d53e15d0e4f248ef40d2bcbd4df7",
+ "face_reason": "큰 파란 눈·작은 붉은 입·흰 두 리본이라는 원작 자료를 성인 얼굴의 큰 둥근 눈·작은 입과 짧은 트윈테일로 옮겼다. 긴 타원형과 또렷한 턱은 성인 비율과 계열 구분을 위한 설계 제안이다.",
+ "sources": [
+  "data/source-appearance.json#574",
+  "data/face-design.json#574",
+  "data/card.json#574"
+ ],
+ "face_line": "FACE (her own structure, not the style's default face): oval face, long length, narrow width; long chin with defined jaw; open rounded eyes, large size, level outer corners, average spacing; straight medium brows; straight slender bridge nose; small mouth.",
+ "commits": {
+  "reservation": "ea4fe2a39a5141c087618f6c1d2fcc94cbfc9527"
+ },
+ "compared_characters": [
+  "에블리",
+  "춤추새",
+  "치라치노"
+ ],
+ "face_comparison": "고디탱은 좁고 긴 윤곽·작은 입과 큰 둥근 눈. 에블리의 더 둥근 뺨·낮은 턱, 춤추새의 긴 눈매·도톰한 입, 치라치노의 가는 눈과 더 넓은 아랫얼굴과 구별된다."
+}
