@@ -1,0 +1,84 @@
+{
+ "card": "쌍검킬",
+ "canonical": {
+  "card": "쌍검킬",
+  "slot": "light",
+  "style": "glossy_promo",
+  "basis": "prompt-pack.cjs actual settings and unmodified prompt",
+  "source": {
+   "path": "/workspace/scratch/e14440a9e224/generated_images/exec-07700cfd-c119-4328-bcc2-6bfdd40767fd.png",
+   "sha256": "58a0354dc008dbbc0c5b799642955ac7683a685ffc99c6a0774d2719a75ceace",
+   "session_only": true
+  },
+  "output": {
+   "file": "쌍검킬_light_glossy_promo_f.webp",
+   "sha256": "d8ab92a60974b487ac87402776d3e35a11086a41807b0068c0a37e6cb34ed1fe",
+   "size": [
+    1024,
+    1536
+   ],
+   "format": "WEBP",
+   "quality": 85,
+   "method": 6
+  },
+  "references": []
+ },
+ "completed": [
+  "light",
+  "heavy",
+  "mobility",
+  "light_overdrive",
+  "heavy_overdrive",
+  "mobility_overdrive",
+  "casual1",
+  "casual2",
+  "casual3"
+ ],
+ "face_design": {
+  "name": "쌍검킬",
+  "en": "Doublade",
+  "line": "단칼빙",
+  "how": "species",
+  "registered": false,
+  "face": {
+   "face shape": "angular",
+   "face length": "balanced",
+   "face width": "medium",
+   "jaw & chin": "angular defined jaw",
+   "eye shape": "narrow",
+   "eye size": "medium",
+   "eye tilt": "level outer corners",
+   "eye spacing": "close-set eyes",
+   "eyebrows": "fine soft arches",
+   "nose character": "balanced nose",
+   "lips": "thin lips"
+  },
+  "why": "쌍검의 반복과 대칭을 각진 윤곽과 수평적인 두 눈으로 구분한다.",
+  "cues": [
+   "강철 타입 → 얼굴형 각지고 선명한 얼굴형",
+   "몸 형태 heads → 눈 간격 눈 사이가 가까운"
+  ],
+  "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 중간 두께의 직선 → 가늘고 완만한 곡선",
+  "hair": {
+   "hairstyle": "asymmetric cut",
+   "hair length": "long",
+   "bangs": "asymmetric bangs"
+  },
+  "hair_locked": false,
+  "hair_why": "‘two swords’·‘silver blade’·강철 타입에서 좌우 길이가 다른 비대칭컷(층 낸 컷) · 긴 머리 · 좌우 길이가 다른 앞머리 — 단칼빙에서 이어 같은 묶음",
+  "hair_cues": [
+   "‘two swords’ → 헤어스타일 좌우 길이가 다른 비대칭컷",
+   "‘two swords’ → 앞머리 좌우 길이가 다른 앞머리"
+  ]
+ },
+ "face_reason": "쌍검의 날과 반복 대칭을 각진 턱·수평으로 가늘고 가까운 눈·얇은 입술로 읽었다. 단칼빙의 매끈한 타원 윤곽보다 턱이 또렷하고, 고디보미보다 눈 간격이 좁으며 에블리의 둥근 눈과 구분된다.",
+ "compared_characters": [
+  "단칼빙",
+  "고디탱",
+  "고디보미",
+  "에블리"
+ ],
+ "publication": "9 images prepared; pending remote image and dex registration",
+ "image_tool": "built-in imagegen",
+ "replan": "casual3: output moderation_blocked; no image returned. Replanned from bikini photo scene to retro jumpsuit photo scene. Prior prompt/UI and failure preserved."
+}

@@ -1,0 +1,140 @@
+{
+ "reviewer": "gpt",
+ "accepted": true,
+ "anatomy_tool": "unavailable: mediapipe is not installed; exit code 3 observed",
+ "slots": {
+  "light": {
+   "accepted": true,
+   "image_sha256": "58a0354dc008dbbc0c5b799642955ac7683a685ffc99c6a0774d2719a75ceace",
+   "observations": "정면에 가까운 3/4 얼굴, 은색 좁은 장갑과 분홍 원형 보석·반복 고리, 양발 전체가 바닥 위에 보인다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "image_sha256": "2d96f82beeac9d50e595202699aa687791f41114cbabe7363b855d24bff81c6b",
+   "observations": "어깨·허벅지·정강이의 큰 겹판과 관자부 열린 장식, 경장보다 넓어진 외곽. 얼굴·비대칭 긴 머리·체형 유지.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "image_sha256": "f66e66e7711258cc6acdd7b6a49931f44c1ee74a242f598072f03e234a9cd76c",
+   "observations": "어깨·골반·종아리의 뒤로 갈라지는 얇은 판과 분홍 소형 추진구, 관절이 비어 있다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "image_sha256": "1b7c4db933d6d05d2c8417c2e2e86c2873dfd515c94f77e1f773a9fb9913c5f1",
+   "observations": "경장과 같은 카메라·발 위치·손 자세. 팔과 정강이 판이 열린 틈에 은백색 내부 프레임과 빛이 보인다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "image_sha256": "6398c6502c59003cb199ea415ee2338b73c60241029af782742af5aee3629e46",
+   "observations": "중장과 같은 포즈·겹판 윤곽. 어깨·팔·허벅지·정강이의 겹 사이로 프레임과 은백색 광채가 드러난다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "image_sha256": "2e6be82e522faf7697432aea1a88ab78ee77b85b2d69abd48c20c842f568e116",
+   "observations": "고기동과 같은 포즈에서 뒤로 펼친 판의 덮개가 더 벌어지고 추진구 내부가 은백색으로 밝아졌다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손에 각각 다섯 손가락. 굽힌 손가락은 일부 겹치며 엄지와 손목 방향이 자연스럽다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "image_sha256": "d6ced19739f6ae0008869473b5cd39bab97262458e9a278ebf8b00f87aaa198d",
+   "observations": "스타디움 관람석 의자에 앉아 몬스터볼을 들고 산호색 긴 드레스와 열린 아이보리 코트를 입었다. 다른 손은 무릎에 연결된다. 두 무릎과 샌들이 자연스럽다.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "무릎 위 손은 다섯 손가락, 몬스터볼을 잡은 손은 엄지·손가락 일부가 볼 뒤에 가려진다. 손 좌우는 계획과 바뀌어 기록한다.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "image_sha256": "131db3d9e3dcf2a1fe5b64cf92176946775b6fe4ecd5cc011179ac7a6c8721da",
+   "observations": "베리 그릇과 창빛이 있는 부엌. 검지를 입술에 대고, 복숭아색 랩 목선과 아이보리 앞치마가 보인다. 계획보다 가슴 아래까지 넓어진 크롭은 기록만.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "입술 검지와 접힌 나머지 네 손가락, 반대 손은 프레임 밖.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "image_sha256": "92d2d3aee8cab327c655c4b93b8eedefaccbdb4ac5f7886e39477f7711d07d69",
+   "observations": "사진 부스의 링 조명과 메탈 커튼. 구리색 루렉스 홀터 점프슈트 상체, 한 손은 목 가까이에 자연스럽게 연결된다. 계획 rear_3q와 달리 앞 3/4가 보이며 기록만.",
+   "anatomy": {
+    "tool": "unavailable: mediapipe not installed",
+    "arms": 2,
+    "legs": 2,
+    "hands": "목 가까이 오른쪽 화면의 손에 다섯 손가락, 다른 손은 프레임 밖.",
+    "overlay_checked": false,
+    "note": "원본 전신 및 손 확대를 눈으로 확인. 일상2·3의 하체는 계획 크롭 밖."
+   }
+  }
+ },
+ "face_reason": "쌍검의 날과 반복 대칭을 각진 턱·수평으로 가늘고 가까운 눈·얇은 입술로 읽었다. 단칼빙의 매끈한 타원 윤곽보다 턱이 또렷하고, 고디보미보다 눈 간격이 좁으며 에블리의 둥근 눈과 구분된다.",
+ "compared_characters": [
+  "단칼빙",
+  "고디탱",
+  "고디보미",
+  "에블리"
+ ],
+ "diversity_comparison": {
+  "actual_images": [
+   "고디탱 casual1-3",
+   "고디보미 casual1-3",
+   "에블리 casual1-3"
+  ],
+  "result": "이번 세 컷은 전신 관람석 의자+몬스터볼+긴 드레스, 부엌 입술 검지 클로즈업+앞치마, 사진부스 선 자세+루렉스 점프슈트로 구분된다. 비교 대상의 옥상 셀피·테마 의상·부케·음료와 활동·장소·옷 실루엣이 함께 다르다.",
+  "look_check": "passed; no cuts below score 245"
+ }
+}

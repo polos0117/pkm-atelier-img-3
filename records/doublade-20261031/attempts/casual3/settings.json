@@ -1,0 +1,289 @@
+{
+ "version": 1,
+ "card": "쌍검킬",
+ "no": 680,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/e14440a9e224/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "The evening exhibition lights illuminate the stadium terraces.",
+   "outfit": "A coral silk long gown with an off-shoulder neckline and a high thigh slit, under a short ivory evening coat worn open at the elbows.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "경기장 전시전의 저녁 조명이 선택지에 없어 보충.",
+    "outfit": "가운과 코트를 유지하며 예약된 오프숄더·허벅지 슬릿을 실제 구조로 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / pw_stadium / evening / opera_coat / sit_chair / environmental / ball_hold",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "pw_stadium",
+      "ko": "배틀 스타디움",
+      "en": "the stands of an open-air Pokémon battle stadium above a marked battle court"
+     },
+     "role": null,
+     "use": {
+      "key": "ball_hold",
+      "ko": "몬스터볼을 든다",
+      "en": "holds a Poké Ball at chest height",
+      "prop": "몬스터볼"
+     },
+     "ofam": {
+      "key": "evening",
+      "ko": "저녁 드레스",
+      "en": "an evening dress or night-out outfit"
+     },
+     "item": {
+      "key": "opera_coat",
+      "ko": "가운 + 이브닝 코트",
+      "en": "a long gown under an evening coat"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "coat",
+     "dress"
+    ],
+    "expose": [
+     "high thigh slit",
+     "off-shoulder neckline"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Warm window light catches bowls of freshly rinsed berries on the counter.",
+   "outfit": "A peach fitted wrap mini dress with a plunging neckline under a crisp short ivory apron.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "베리 부엌의 창가 빛과 씻은 열매의 질감을 보충.",
+    "outfit": "랩 드레스·앞치마를 유지하고 깊은 목선·미니 기장으로 예약 노출을 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_kitchen / work / glam_apron / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_kitchen",
+      "ko": "포켓몬 세계 부엌",
+      "en": "a sunny home kitchen in a Pokémon-world town, bowls of berries on the counter"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "work",
+      "ko": "직업복",
+      "en": "practical clothing for her Pokémon-world job, readable through its tools",
+      "guide": "her own original workwear — never a copy of an existing trainer, Gym Leader or Pokémon Center uniform"
+     },
+     "item": {
+      "key": "glam_apron",
+      "ko": "글래머 앞치마 룩",
+      "en": "a sleek fitted wrap dress under a crisp short apron"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "shush · out"
+    },
+    "garments": [
+     "apron",
+     "dress"
+    ],
+    "expose": [
+     "plunging neckline",
+     "mini length"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "Bright ring lights turn the booth curtain pearly white; a poolside resort arcade hosts a holiday photo session.",
+   "outfit": "A fully lined turquoise bandeau bikini, with a straight strapless crop top and high-cut bottoms exposing her midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "사진 부스 수영복 차림에 맞는 리조트 오락실 맥락을 보충.",
+    "outfit": "반두 비키니에 예약한 하이컷·맨배를 반영."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / arcade_photo / swimwear / bandeau_bikini / stand / full_body",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "arcade_photo",
+      "ko": "스티커 사진기",
+      "en": "an arcade photo-sticker booth under bright ring lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "bandeau_bikini",
+      "ko": "반두 비키니",
+      "en": "a bandeau bikini with a straight strapless top"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini",
+     "crop_top"
+    ],
+    "expose": [
+     "high-cut leg",
+     "bare midriff"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
