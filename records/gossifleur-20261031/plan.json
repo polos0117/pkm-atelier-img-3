@@ -1,0 +1,470 @@
+{
+  "card": "꼬모카",
+  "batch_plan": {
+    "session": "gpt-gossifleur-20261031-9dcf",
+    "planner": "tools/casual-plan.cjs",
+    "characters": [
+      {
+        "card": "꼬모카",
+        "species": "gossifleur-20261031",
+        "cuts": [
+          {
+            "cut": 1,
+            "treeV": 2,
+            "era": "now",
+            "place": "water_river",
+            "ofam": "costume",
+            "item": "mermaid_show",
+            "garments": [
+              "skirt"
+            ],
+            "weather": "",
+            "posture": "soak",
+            "support": "water",
+            "frame": "waist_up",
+            "body": "front",
+            "head": "with_body",
+            "camera": "high",
+            "right": "hair_tuck",
+            "left": "water_trail",
+            "use": "",
+            "legs": "",
+            "gaze": "camera",
+            "preset": "soak_hair",
+            "expr": "playful",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "cropped hem",
+              "bare midriff"
+            ],
+            "lead": "action"
+          },
+          {
+            "cut": 2,
+            "treeV": 2,
+            "era": "in_pokemon",
+            "place": "pw_room",
+            "ofam": "active",
+            "item": "ski_set",
+            "garments": [
+              "jacket",
+              "trousers"
+            ],
+            "weather": "",
+            "posture": "sit_floor",
+            "support": "none",
+            "frame": "three_quarter",
+            "body": "front_3q",
+            "head": "tilt",
+            "camera": "high",
+            "right": "chin_knee",
+            "left": "floor_brace",
+            "use": "",
+            "legs": "knee_up",
+            "gaze": "camera",
+            "preset": "floor_knee",
+            "expr": "laughing",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "balanced",
+              "source_influence": "balanced",
+              "separates_preference": "prefer separates"
+            },
+            "expose": [
+              "strapless top",
+              "mini length"
+            ],
+            "lead": "light"
+          },
+          {
+            "cut": 3,
+            "treeV": 2,
+            "era": "in_pokemon",
+            "place": "work_trail",
+            "ofam": "lingerie",
+            "item": "sari_blouse_set",
+            "garments": [
+              "blouse",
+              "traditional"
+            ],
+            "weather": "",
+            "posture": "stand",
+            "support": "none",
+            "frame": "chest_up",
+            "body": "front",
+            "head": "turn_side",
+            "camera": "low",
+            "right": "",
+            "left": "",
+            "use": "",
+            "legs": "",
+            "gaze": "up",
+            "preset": "",
+            "expr": "flustered",
+            "aspect": "2:3",
+            "axes": {
+              "overall_intensity": "strong",
+              "skin_exposure": "bold",
+              "action_level": "mostly posed",
+              "source_influence": "strong",
+              "separates_preference": "balanced"
+            },
+            "expose": [
+              "high thigh slit",
+              "side cutouts"
+            ],
+            "lead": "place"
+          }
+        ],
+        "why": {
+          "tree": 2,
+          "required": {
+            "slots": [
+              3
+            ],
+            "two": false,
+            "prev": [
+              2
+            ]
+          },
+          "low": [
+            "home",
+            "studio",
+            "water",
+            "spa",
+            "sports",
+            "pokeworld",
+            "partner",
+            "berry"
+          ]
+        },
+        "claims": {
+          "garment": [
+            "skirt",
+            "trousers",
+            "blouse"
+          ],
+          "orient": [
+            "front+turn_side"
+          ],
+          "frame": []
+        }
+      }
+    ]
+  },
+  "generator": "tools/prompt-pack.cjs",
+  "settings": {
+    "version": 1,
+    "card": "꼬모카",
+    "no": 829,
+    "style": "glossy_promo",
+    "plan": "/workspace/scratch/9dcf96f61358/PLAN-gossifleur.json",
+    "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+    "slots": {
+      "light": {
+        "motifs": "leaf-green fitted armor with cream accents; the large yellow flower with a red central ring becomes a light petal-shaped head ornament, and broad curled green leaves become layered hip guards",
+        "formOverride": "",
+        "headFeature": "",
+        "faceDesignOn": true,
+        "params": {},
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "heavy": {
+        "motifs": "",
+        "formOverride": "",
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "mobility": {
+        "motifs": "",
+        "formOverride": "",
+        "scene": {
+          "expr": "",
+          "pose": "",
+          "orient": "",
+          "frame": "",
+          "lens": "",
+          "aspect": "2:3",
+          "camera": "",
+          "scene": "",
+          "outfit": "",
+          "custom": "",
+          "action": {
+            "category": "",
+            "example": "",
+            "timing": "",
+            "equipment": "",
+            "power": "",
+            "effects": "",
+            "speed": "",
+            "environment": ""
+          }
+        }
+      },
+      "light_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "heavy_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "mobility_overdrive": {
+        "motifs": "",
+        "formOverride": "",
+        "custom": ""
+      },
+      "casual1": {
+        "scene": "She is cooling off after a riverside mermaid-show rehearsal; sunset reflections travel over the shallows, and one small yellow flower clip rests in her braid.",
+        "outfit": "A mermaid show costume: a cropped cobalt scale-sequined bodice with a securely fitted opaque lining and a flowing lilac chiffon wrap skirt, leaving her midriff and shoulders bare.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "scene": "강가를 쇼 리허설 후 휴식으로 구체화하고 작은 꽃핀 하나로 원작 모티프를 잇는다.",
+          "outfit": "인어 쇼의 스팽글 상의·시폰 랩스커트를 유지해 cropped hem·bare midriff를 구현한다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "now / water_pool / costume / mermaid_show / sit_chair / environmental / towel_neck",
+          "v2": {
+            "era": {
+              "key": "now",
+              "ko": "지금 현실",
+              "en": "present-day real world"
+            },
+            "place": {
+              "key": "water_pool",
+              "ko": "수영장",
+              "en": "an outdoor pool with lounge chairs and clear blue water"
+            },
+            "role": null,
+            "use": {
+              "key": "towel_neck",
+              "ko": "목에 건 수건 끝을 잡는다",
+              "en": "holds one end of a towel hung around her neck",
+              "prop": "수건"
+            },
+            "ofam": {
+              "key": "costume",
+              "ko": "무대·판타지 의상",
+              "en": "a stage or fantasy costume"
+            },
+            "item": {
+              "key": "mermaid_show",
+              "ko": "인어 쇼",
+              "en": "a mermaid show costume — a scale-sequined bodice and a flowing chiffon wrap skirt"
+            },
+            "posture": {
+              "key": "sit_chair",
+              "ko": "의자에 앉기",
+              "en": "seated on a chair"
+            },
+            "frame": "environmental",
+            "body": {
+              "key": "front",
+              "ko": "정면",
+              "en": "body facing the camera"
+            },
+            "hands": "prop · lap"
+          },
+          "garments": [
+            "skirt"
+          ],
+          "expose": [
+            "cropped hem",
+            "bare midriff"
+          ],
+          "lead": "action"
+        }
+      },
+      "casual2": {
+        "scene": "Morning light reaches the guestroom floor, with a packed ski bag and a small berry-patterned travel case beside the bed.",
+        "outfit": "A fitted sky-blue ski jacket with a mini-length cropped hem, worn unzipped and slipped below the shoulders over a white strapless top, with padded slate ski pants; the shoulders, collarbones and a narrow midriff band are bare.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "scene": "선택한 포켓몬 세계 객실에서 스키 여행 준비 맥락과 아침빛을 보충한다.",
+          "outfit": "ski jacket+padded pants 종류를 유지하면서 mini length를 재킷 기장에 적용하고 strapless top으로 어깨·쇄골을 드러낸다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "in_pokemon / berry_camp / active / ski_set / stand / waist_up / curry_stir",
+          "v2": {
+            "era": {
+              "key": "in_pokemon",
+              "ko": "포켓몬 세계 안",
+              "en": "inside the Pokémon world, as if she simply lives there"
+            },
+            "place": {
+              "key": "berry_camp",
+              "ko": "야영 조리장",
+              "en": "an outdoor cooking site at a campsite with a camp stove and a folding table"
+            },
+            "role": null,
+            "use": {
+              "key": "curry_stir",
+              "ko": "국자로 카레를 젓는다",
+              "en": "stirs a pot of berry curry with a ladle",
+              "prop": "국자"
+            },
+            "ofam": {
+              "key": "active",
+              "ko": "운동복",
+              "en": "activewear made for the activity"
+            },
+            "item": {
+              "key": "ski_set",
+              "ko": "스키 재킷 + 스키 팬츠",
+              "en": "a fitted ski jacket and padded ski pants"
+            },
+            "posture": {
+              "key": "stand",
+              "ko": "서기",
+              "en": "standing"
+            },
+            "frame": "waist_up",
+            "body": {
+              "key": "front_3q",
+              "ko": "3/4 정면",
+              "en": "body turned three-quarters toward the camera"
+            },
+            "hands": "prop · pocket"
+          },
+          "garments": [
+            "jacket",
+            "trousers"
+          ],
+          "expose": [
+            "mini length",
+            "strapless top"
+          ],
+          "lead": "place"
+        }
+      },
+      "casual3": {
+        "scene": "A stone-paved trail winds between tall grasses and distant field-marker posts in the Pokémon countryside.",
+        "outfit": "A sari-blouse-inspired set in opaque rose silk: a short fitted blouse with small side cutouts and a draped lower piece with a high thigh slit; a wide neckline leaves her collarbones and shoulders bare.",
+        "camera": "",
+        "custom": "",
+        "why": {
+          "scene": "선택된 현장 산책길에 풀숲과 표석의 구체적 지형만 보충한다.",
+          "outfit": "계획의 사리 블라우스·드레이프 하의를 유지해 side cutouts·high thigh slit을 의상 구조로 쓴다."
+        },
+        "guide": {
+          "tree": 2,
+          "path": "now / street_shop / lingerie / sari_blouse_set / lean_rail / three_quarter",
+          "v2": {
+            "era": {
+              "key": "now",
+              "ko": "지금 현실",
+              "en": "present-day real world"
+            },
+            "place": {
+              "key": "street_shop",
+              "ko": "작은 가게",
+              "en": "a small shop — a bookstore, record store or plant shop — with crowded shelves"
+            },
+            "role": null,
+            "use": null,
+            "ofam": {
+              "key": "lingerie",
+              "ko": "란제리풍",
+              "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+            },
+            "item": {
+              "key": "sari_blouse_set",
+              "ko": "사리 블라우스 응용",
+              "en": "a sari-blouse-inspired set with a short fitted top and a draped lower piece"
+            },
+            "posture": {
+              "key": "lean_rail",
+              "ko": "난간·창턱에 기대 서기",
+              "en": "standing at a waist-high railing or sill, leaning lightly on it"
+            },
+            "frame": "three_quarter",
+            "body": {
+              "key": "rear_3q",
+              "ko": "뒤 3/4",
+              "en": "body turned three-quarters away from the camera"
+            },
+            "hands": "AUTO · AUTO"
+          },
+          "garments": [
+            "blouse",
+            "traditional"
+          ],
+          "expose": [
+            "high thigh slit",
+            "side cutouts"
+          ],
+          "lead": "detail"
+        }
+      }
+    }
+  },
+  "check": "casual-ledger check passed; reservation stamp verified",
+  "reference": "light is identity master; each open slot references own closed form",
+  "face_basis": {
+    "source": "data/face-design.json no.829",
+    "reason": "cream-colored head·green stem-like body와 꽃 모티프에 근거한 부드러운 짧은 얼굴·긴 땋은 머리·커튼 앞머리를 유지",
+    "comparison": [
+      "암멍이",
+      "에리본",
+      "킬가르도",
+      "폭슬라이"
+    ],
+    "distinction": "크림색 한 갈래 땋은 머리·커튼 앞머리·둥근 턱과 부드러운 코, 황록색 눈으로 최근 인물들과 구분"
+  }
+}
