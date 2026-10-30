@@ -1,0 +1,284 @@
+{
+ "version": 1,
+ "card": "조로아",
+ "no": 570,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/6c35d804681a/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {
+    "apparent age": "20s"
+   },
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A winter sportwear campaign takes place at the frost-edged court, with a tennis net and a bench holding ski gear.",
+   "outfit": "A fitted, cropped ski jacket worn open over a strapless ivory bandeau and padded ski pants worn low at the waist; her collarbones and midriff are exposed.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "스키복 선택을 유지하며 코트에서 찍는 겨울 운동복 촬영 맥락과 보이지 않는 장비 위치만 보충.",
+    "outfit": "고른 스키 재킷 + 스키 팬츠의 종류를 유지하며 strapless top, cropped hem 구조와 소재를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_court / active / ski_set / stand / waist_up",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_court",
+      "ko": "코트",
+      "en": "an outdoor court for tennis or basketball"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "active",
+      "ko": "운동복",
+      "en": "activewear made for the activity"
+     },
+     "item": {
+      "key": "ski_set",
+      "ko": "스키 재킷 + 스키 팬츠",
+      "en": "a fitted ski jacket and padded ski pants"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "clasp_both · clasp_both"
+    },
+    "garments": [
+     "jacket",
+     "trousers"
+    ],
+    "expose": [
+     "strapless top",
+     "cropped hem"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual2": {
+   "scene": "Low amber evening light brushes the park lawn and the edge of a picnic blanket beside a small Eevee.",
+   "outfit": "A sorceress costume: a one-shoulder plum velvet robe gown with a jewelled halter strap and a high side slit, revealing her shoulder and thigh; a crystal staff prop rests nearby.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "동료 묶음에 필요한 한 마리를 Eevee로 명시하고 누울 수 있는 잔디·담요와 시간대만 보충.",
+    "outfit": "고른 마법사의 종류를 유지하며 one-shoulder cut, halter neck 구조와 소재를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_park / costume / sorceress_robe / lie_front / environmental",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_park",
+      "ko": "공원 산책길",
+      "en": "a park path lined with trees and benches"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "costume",
+      "ko": "무대·판타지 의상",
+      "en": "a stage or fantasy costume"
+     },
+     "item": {
+      "key": "sorceress_robe",
+      "ko": "마법사",
+      "en": "a sorceress costume — an off-shoulder velvet robe gown with a jewelled belt and a crystal staff prop"
+     },
+     "posture": {
+      "key": "lie_front",
+      "ko": "엎드리기",
+      "en": "lying on her front"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "dress",
+     "robe"
+    ],
+    "expose": [
+     "one-shoulder cut",
+     "halter neck"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual3": {
+   "scene": "Wood-panelled walls, a wired microphone on the low table and coloured disco lights belong to a private poolside-resort karaoke room around 2010.",
+   "outfit": "A fully lined coral bikini joined at the centre and hips by polished metal rings, with high-cut legs and small side openings; chest and pelvis securely covered.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "2010년 무렵 기기와 수영복이 자연스러운 리조트 노래방 맥락을 보충.",
+    "outfit": "고른 링 장식 비키니의 종류를 유지하며 high-cut leg, side cutouts 구조와 소재를 구체화."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / night_karaoke / swimwear / oring_bikini / lean_wall / full_body",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "night_karaoke",
+      "ko": "노래방",
+      "en": "a private karaoke room with spinning coloured lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "oring_bikini",
+      "ko": "링 장식 비키니",
+      "en": "a bikini joined at the centre and hips by polished metal rings"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "bikini"
+    ],
+    "expose": [
+     "high-cut leg",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}
