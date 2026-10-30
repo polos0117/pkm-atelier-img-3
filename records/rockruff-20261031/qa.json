@@ -1,0 +1,163 @@
+{
+ "reviewer": "gpt",
+ "images": {
+  "light": {
+   "accepted": true,
+   "observations": "짧은 애쉬브라운 언더컷, 가늘고 길게 뜬 갈색 눈, 두꺼운 낮은 눈썹, 돌 목깃과 사암색 장갑. 두 팔과 다리가 이어지고 전신·두 부츠가 프레임 안. 앞머리 없음 선택보다 옆으로 흐르는 머리 있음.",
+   "image_sha256": "7b7ed059d40b0dba79dd95d359786f583569d2c1f10e13a060026597c699d0cb",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "heavy": {
+   "accepted": true,
+   "observations": "중장에 넓고 두꺼운 돌 모양 이중 판, 커진 어깨·골반·정강이 실루엣. 경장의 언더컷·눈·피부·체형 유지.",
+   "image_sha256": "9c5b5f5d8cff11d5e72410decd891833370254a4a4bdf209d2d0fd2a6fe60075",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "mobility": {
+   "accepted": true,
+   "observations": "후방 스윕의 가는 분할 판과 소형 분사구. 허벅지와 어깨 관절 노출, 무기 없이 경장 얼굴과 체형 유지.",
+   "image_sha256": "1d34878489fd0964142c32b707136c939bfa1ad7915f076ef56d8a064324cc50",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "light_overdrive": {
+   "accepted": true,
+   "observations": "경장 판이 작은 힌지로 벌어져 황금빛 프레임과 돌가루 입자. 원본 카메라·자세·갈색 눈 유지.",
+   "image_sha256": "12bc44aafa94930c1e7110ab3ecd31fa698255c54359be9e2f07b6445be03e86",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "heavy_overdrive": {
+   "accepted": true,
+   "observations": "중장의 두꺼운 겹판이 열려 황금빛 프레임을 드러냄. 크라운과 목깃·얼굴·양손·부츠 위치를 원본과 대조.",
+   "image_sha256": "b8baf5af2f78dc82a556d850195f91bec541447e033165a229dcac0765b99643",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "mobility_overdrive": {
+   "accepted": true,
+   "observations": "고기동 스윕 판이 벌어지고 황금빛 분사구와 내부 힌지가 노출. 일반과 같은 카메라·자세·갑옷 종류.",
+   "image_sha256": "a14b7491069131ab4a683130928d93d719d1d5183c2375fc279979aabb045384",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "양손은 엄지와 네 손가락을 자연스럽게 구부림; 손가락 일부는 쥔 자세로 겹침",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   }
+  },
+  "casual1": {
+   "accepted": true,
+   "observations": "택시 뒷좌석에서 다리를 교차하고 오른손 컵·왼손 무릎. 청록 반두 비키니와 컵의 작은 강아지 그림. 몸은 계획 측면보다 정면 3/4, 시선은 컵에.",
+   "image_sha256": "ba78d393b818509fc5d397eb1398b0113ea4f8002802a88545ce710625429694",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손 컵 엄지+네 손가락, 왼손 무릎 엄지+네 손가락",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 등받이 기대고 무릎 교차",
+    "body": "불일치 메모: 측면보다 정면 3/4",
+    "expression": "부분 일치: 입 한쪽 올라가며 입술 살짝 벌어짐",
+    "outfit": "일치: 청록 반두 비키니·높은 하의"
+   }
+  },
+  "casual2": {
+   "accepted": true,
+   "observations": "산호색 유카타와 아침 주방, 오른손 거품기로 반죽을 섞고 왼손으로 볼을 잡음. 양쪽 팔꿈치·손목이 이어짐. 계획 윙크 대신 두 눈을 가늘게 뜬 미소, 허리 위보다 아래까지 보임.",
+   "image_sha256": "945acd743280c8326ad9fafe95a961994c3730e9f66354454b04c5de9af9ad0b",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "오른손 거품기 엄지+네 손가락 일부 겹침; 왼손 볼 엄지+네 손가락",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 작업대 위로 상체 기울임",
+    "activity": "일치: 거품기를 쥔 오른손과 볼을 잡은 왼손",
+    "expression": "불일치 메모: 윙크 대신 두 눈을 가늘게 뜸",
+    "outfit": "일치: 산호색 짧은 유카타와 허벅지 슬릿"
+   }
+  },
+  "casual3": {
+   "accepted": true,
+   "observations": "베이커리 작업대 앞 셀카. 숯색 스트랩리스 옆트임 니트와 버건디 쇼츠. 오른팔이 어깨에서 앞으로 이어져 폰을 잡고 왼팔은 하단 크롭 밖. 진지한 표정, 고개는 몸에서 자연스럽게 돌아옴.",
+   "image_sha256": "789c2c61cb9470231ef2957391eb83ad62573fdab58ced36bc1c613f63d7200b",
+   "anatomy": {
+    "tool": "unavailable: mediapipe is not installed (exit 3)",
+    "arms": 2,
+    "legs": 2,
+    "hands": "폰 손의 네 손가락이 폰을 감싸고 엄지는 폰 뒤에 가려짐; 다른 손은 크롭 밖",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대를 확인. 팔은 어깨·팔꿈치·손목으로 이어지며 여분 손·팔 없음. 폼 전신 두 부츠 확인, 일상 발은 선택 크롭 밖."
+   },
+   "selected_vs_observed": {
+    "posture": "일치: 몸을 옆으로 돌리고 오른팔 앞으로 뻗음",
+    "activity": "일치: 폰을 들고 셀카",
+    "expression": "일치: 입을 살짝 열고 진지한 눈",
+    "frame": "메모: chest_up보다 쇼츠까지 넓게 보임"
+   }
+  }
+ },
+ "face_reason": {
+  "sources": [
+   "data/face-design.json#744",
+   "data/source-appearance.json#744"
+  ],
+  "compared_characters": [
+   "에블리",
+   "치라미",
+   "고디탱",
+   "에리본"
+  ],
+  "observed": "둥근 턱의 타원형, 길고 가는 갈색 눈·두꺼운 낮은 눈썹·곧은 코와 짧은 언더컷. 비교한 트윈테일 캐릭터들보다 성숙하고 직선적인 인상이며, 전 컷 같은 언더컷과 갈색 눈을 유지."
+ },
+ "diversity_comparison": {
+  "compared_characters": [
+   "고디보미",
+   "고디탱",
+   "에블리",
+   "에리본"
+  ],
+  "actual_images_viewed": true,
+  "observed": "고디보미·고디탱의 야경/라운지 컷, 에블리의 오버롤 꽃·클럽 역할복, 이번 에리본의 가운 독서·예배당 행사복·열차 카프탄과 나란히 확인. 암멍이는 택시 반두 수영복+컵+교차 다리, 밝은 주방 유카타+양손 반죽, 따뜻한 베이커리 스트랩리스 니트+셀카로 활동·의상·배경·자세가 서로 구별됨. 주방/베이커리는 유사한 실내지만 실루엣·손동작·카메라가 다름."
+ }
+}

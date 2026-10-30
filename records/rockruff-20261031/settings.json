@@ -1,0 +1,297 @@
+{
+ "version": 1,
+ "card": "암멍이",
+ "no": 744,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/59c754f30817/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "A collar of small angular stone ornaments, sandstone-brown and ivory armour with dark brown accents, button-ear hair ornaments.",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A lidded cold-drink cup from the resort rests in her hand as she rides home after an evening swim.",
+   "outfit": "A teal bandeau bikini with a straight strapless top, fully lined, and secure high-waisted bottoms with small side openings, leaving her back and midriff bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "반두 비키니의 색과 안정적인 커버·등과 배 노출을 구체화한다.",
+    "scene": "택시 수영복의 생활 맥락과 컵의 종류만 보충한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_taxi / swimwear / bandeau_bikini / sit_chair / three_quarter / cup_hold",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_taxi",
+      "ko": "밤 택시",
+      "en": "the back seat of a taxi at night, city lights streaking past"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_hold",
+      "ko": "잔을 든다",
+      "en": "holds a cup at chest height",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "bandeau_bikini",
+      "ko": "반두 비키니",
+      "en": "a bandeau bikini with a straight strapless top"
+     },
+     "posture": {
+      "key": "sit_chair",
+      "ko": "의자에 앉기",
+      "en": "seated on a chair"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · lap"
+    },
+    "garments": [
+     "bikini",
+     "crop_top"
+    ],
+    "expose": [
+     "open back",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "Mixing pancake batter for breakfast while sunlight reaches the tiled counter.",
+   "outfit": "A light cotton bath yukata in soft coral, with a soft sash, short sleeves, a cropped above-knee hem and a high thigh slit; the wrap securely overlaps over chest and hips.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "유카타의 짧은 기장과 허벅지 슬릿을 적용하되 주방 동작에 맞게 여밈을 고정한다.",
+    "scene": "고른 반죽 섞기의 음식 종류와 아침 빛만 추가한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / home_kitchen / bath / bath_yukata / lean_counter / waist_up / bowl_mix",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "home_kitchen",
+      "ko": "주방",
+      "en": "her home kitchen with a counter, open shelves and hanging pans"
+     },
+     "role": null,
+     "use": {
+      "key": "bowl_mix",
+      "ko": "반죽을 섞는다",
+      "en": "mixes the batter in a mixing bowl of batter and a whisk on the worktable",
+      "prop": "반죽 그릇과 거품기"
+     },
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "bath_yukata",
+      "ko": "목욕 유카타",
+      "en": "a light cotton bath yukata with a soft sash"
+     },
+     "posture": {
+      "key": "lean_counter",
+      "ko": "작업대에 몸 숙이기",
+      "en": "standing at a work surface, upper body leaning slightly forward over it, hips back and weight on both feet"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "traditional"
+    ],
+    "expose": [
+     "cropped hem",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "Flour-dusted shelves and amber oven light surround the workroom after the last batch of bread.",
+   "outfit": "A charcoal subculture sweater cropped into a strapless knit top with small side cutouts, worn with tailored burgundy shorts.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "outfit": "선택된 sweater+shorts를 짧은 니트·쇼츠의 서브컬처 실루엣으로 구체화한다.",
+    "scene": "베이커리 셀카의 배경 세부와 시간대만 정한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / bakery_kitchen / subculture / stand / chest_up / phone_selfie",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "bakery_kitchen",
+      "ko": "베이커리 작업실",
+      "en": "a small bakery workroom with a floury wooden worktable and warm ovens"
+     },
+     "role": null,
+     "use": {
+      "key": "phone_selfie",
+      "ko": "셀카를 찍는다",
+      "en": "holds a smartphone up at arm's length to take a selfie",
+      "prop": "휴대폰"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "shorts",
+     "sweater"
+    ],
+    "expose": [
+     "strapless top",
+     "side cutouts"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}
