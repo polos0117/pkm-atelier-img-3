@@ -1,0 +1,34 @@
+{
+ "slot": "casual3",
+ "kind": "partial anatomy edit",
+ "reason": "컵을 든 팔의 위팔이 등·허리에서 나온 것처럼 보였고 양 어깨와 흉곽 회전이 일치하지 않았다.",
+ "user_request": "몸과 팔 연결구도가 이상해. 수정해줘.",
+ "initial_qa_missed_issue": true,
+ "unchanged_generator_selection": true,
+ "edit_prompt": "casual3-anatomy-edit-prompt.txt",
+ "inputs": [
+  {
+   "role": "edit target",
+   "previous_webp_sha256": "217b3245786bfb0f50e460c2f47fe4270a2830c5ecffe2315095a455cf74f207"
+  },
+  {
+   "role": "identity reference only",
+   "file": "고디탱_light_glossy_promo_f.webp"
+  }
+ ],
+ "original": "/workspace/scratch/088e0a11deac/generated_images/exec-19948c01-2962-4013-8730-78b1f80702e3.png",
+ "original_sha256": "526a3e779f68a7b1a5c40da90e6a23d1d04634209371ac3937494cb3f4a82cd7",
+ "output": "고디탱_glossy_promo_f_casual3.webp",
+ "sha256": "6fa8503d97c81afbdd7e1f4a1f52a2d1c8d808e1ca13d7d4daf3003fd29c0002",
+ "size": [
+  1024,
+  1536
+ ],
+ "qa": {
+  "observed": "컵 팔의 먼쪽 어깨가 목 옆·등 위쪽에서 이어지고, 위팔이 팔꿈치까지 수직으로 내려온 뒤 아래팔이 컵으로 올라간다. 가까운 어깨와 내린 팔도 자연스러운 길이로 이어진다.",
+  "hands": "컵·폰을 쥔 손은 손가락 일부가 소품 뒤에 가려지며 엄지와 네 손가락의 자연스러운 쥠을 유지. 고디탱의 내린 손도 다섯 손가락이며 팔목에서 전완으로 이어진다.",
+  "anatomy_tool": "unavailable: mediapipe absent; exit 3",
+  "visual_checked": true,
+  "image_tool": "built-in imagegen"
+ }
+}

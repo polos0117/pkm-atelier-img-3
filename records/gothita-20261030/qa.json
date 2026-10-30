@@ -120,19 +120,38 @@
   "deviations": "급수탑을 배경으로 얼굴 옆에 V자를 든다. 눈썹은 편평하고 입은 조금 벌어졌다. 검은 턱시도 재킷·아이보리 캐미솔·배가 보여 얼굴 전용 크롭보다 넓게 나왔다."
  },
  "casual3": {
-  "identity": {
-   "match": true,
-   "evidence": "게임 상자 선반과 보드게임 테이블 앞에서 코랄 랩 수영복을 입고 컵을 들었다. 몸통은 뒤 3/4, 얼굴은 어깨 위에서 자연스럽게 돌아오며 뒷목과 먼 뺨 일부가 가려진다. 어깨·등·허벅지가 드러난다."
+  "previous_qa": {
+   "identity": {
+    "match": true,
+    "evidence": "게임 상자 선반과 보드게임 테이블 앞에서 코랄 랩 수영복을 입고 컵을 들었다. 몸통은 뒤 3/4, 얼굴은 어깨 위에서 자연스럽게 돌아오며 뒷목과 먼 뺨 일부가 가려진다. 어깨·등·허벅지가 드러난다."
+   },
+   "anatomy": {
+    "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+    "arms": 2,
+    "legs": 2,
+    "hands": "컵 손은 엄지와 손잡이를 감싼 네 손가락이 겹친다. 아래로 둔 손은 엄지와 길이가 다른 네 손가락이 보인다.",
+    "overlay_checked": false,
+    "note": "원본과 손·발 확대에서 연결·관절·중복 팔다리 없음 확인. 양 다리가 골반에서 자연스럽게 이어진다."
+   },
+   "deviations": "게임 상자 선반과 보드게임 테이블 앞에서 코랄 랩 수영복을 입고 컵을 들었다. 몸통은 뒤 3/4, 얼굴은 어깨 위에서 자연스럽게 돌아오며 뒷목과 먼 뺨 일부가 가려진다. 어깨·등·허벅지가 드러난다."
   },
+  "user_reported_issue": "컵을 든 팔의 위팔이 등·허리에서 나온 것처럼 보였고 양 어깨와 흉곽 회전이 일치하지 않았다.",
+  "correction": {
+   "observed": "컵 팔의 먼쪽 어깨가 목 옆·등 위쪽에서 이어지고, 위팔이 팔꿈치까지 수직으로 내려온 뒤 아래팔이 컵으로 올라간다. 가까운 어깨와 내린 팔도 자연스러운 길이로 이어진다.",
+   "hands": "컵·폰을 쥔 손은 손가락 일부가 소품 뒤에 가려지며 엄지와 네 손가락의 자연스러운 쥠을 유지. 고디탱의 내린 손도 다섯 손가락이며 팔목에서 전완으로 이어진다.",
+   "anatomy_tool": "unavailable: mediapipe absent; exit 3",
+   "visual_checked": true,
+   "image_tool": "built-in imagegen"
+  },
+  "edit_record": "casual3-anatomy-edit.json",
   "anatomy": {
-   "tool": "unavailable: mediapipe absent (No module named mediapipe), exit 3",
+   "tool": "unavailable: mediapipe absent; exit 3",
    "arms": 2,
    "legs": 2,
-   "hands": "컵 손은 엄지와 손잡이를 감싼 네 손가락이 겹친다. 아래로 둔 손은 엄지와 길이가 다른 네 손가락이 보인다.",
+   "hands": "컵·폰을 쥔 손은 손가락 일부가 소품 뒤에 가려지며 엄지와 네 손가락의 자연스러운 쥠을 유지. 고디탱의 내린 손도 다섯 손가락이며 팔목에서 전완으로 이어진다.",
    "overlay_checked": false,
-   "note": "원본과 손·발 확대에서 연결·관절·중복 팔다리 없음 확인. 양 다리가 골반에서 자연스럽게 이어진다."
-  },
-  "deviations": "게임 상자 선반과 보드게임 테이블 앞에서 코랄 랩 수영복을 입고 컵을 들었다. 몸통은 뒤 3/4, 얼굴은 어깨 위에서 자연스럽게 돌아오며 뒷목과 먼 뺨 일부가 가려진다. 어깨·등·허벅지가 드러난다."
+   "note": "컵 팔의 먼쪽 어깨가 목 옆·등 위쪽에서 이어지고, 위팔이 팔꿈치까지 수직으로 내려온 뒤 아래팔이 컵으로 올라간다. 가까운 어깨와 내린 팔도 자연스러운 길이로 이어진다."
+  }
  },
  "diversity": {
   "look_check": "passed: no near-identical images",

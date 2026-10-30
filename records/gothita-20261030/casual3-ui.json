@@ -152,5 +152,12 @@
  "manual_why": {
   "scene": "선택한 장소에 없는 시간대·빛·가구를 Late afternoon light pools across a resort board-game l 요소로 구체화한다.",
   "outfit": "고른 옷 종류는 유지하며 high-cut leg, strapless top 구조와 색·소재를 명시한다."
- }
+ },
+ "postprocess_edits": [
+  {
+   "prompt": "casual3-anatomy-edit-prompt.txt",
+   "record": "casual3-anatomy-edit.json",
+   "reason": "컵을 든 팔의 위팔이 등·허리에서 나온 것처럼 보였고 양 어깨와 흉곽 회전이 일치하지 않았다."
+  }
+ ]
 }

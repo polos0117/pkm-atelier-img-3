@@ -1,5 +1,5 @@
 {
- "stage": "9 images generated, visual QA and casual-look passed; prepublication complete",
+ "stage": "user-requested anatomy correction validated; awaiting replacement publication",
  "reference": "/workspace/scratch/088e0a11deac/generated_images/exec-f9118ea5-1f50-4801-9b87-e6f09b87f279.png",
  "sha256": "10aab40eed4d733b39ba0bd5e223dc3ae9f3d53e15d0e4f248ef40d2bcbd4df7",
  "face_reason": "큰 파란 눈·작은 붉은 입·흰 두 리본이라는 원작 자료를 성인 얼굴의 큰 둥근 눈·작은 입과 짧은 트윈테일로 옮겼다. 긴 타원형과 또렷한 턱은 성인 비율과 계열 구분을 위한 설계 제안이다.",
@@ -17,5 +17,13 @@
   "춤추새",
   "치라치노"
  ],
- "face_comparison": "고디탱은 좁고 긴 윤곽·작은 입과 큰 둥근 눈. 에블리의 더 둥근 뺨·낮은 턱, 춤추새의 긴 눈매·도톰한 입, 치라치노의 가는 눈과 더 넓은 아랫얼굴과 구별된다."
+ "face_comparison": "고디탱은 좁고 긴 윤곽·작은 입과 큰 둥근 눈. 에블리의 더 둥근 뺨·낮은 턱, 춤추새의 긴 눈매·도톰한 입, 치라치노의 가는 눈과 더 넓은 아랫얼굴과 구별된다.",
+ "corrections": [
+  {
+   "slot": "casual3",
+   "record": "casual3-anatomy-edit.json",
+   "sha256": "6fa8503d97c81afbdd7e1f4a1f52a2d1c8d808e1ca13d7d4daf3003fd29c0002",
+   "reason": "컵을 든 팔의 위팔이 등·허리에서 나온 것처럼 보였고 양 어깨와 흉곽 회전이 일치하지 않았다."
+  }
+ ]
 }
