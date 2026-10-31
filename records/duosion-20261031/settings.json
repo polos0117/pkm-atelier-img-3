@@ -1,0 +1,291 @@
+{
+ "version": 1,
+ "card": "듀란",
+ "no": 578,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/37fa3b27790b/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "Softbox light reflects across a polished studio floor; a compact camera has a plain woven wrist strap.",
+   "outfit": "A lined midnight-blue one-piece swimsuit with a secure deep V, wide waistband and high-cut legs that leave the shoulders and thighs bare.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "스튜디오의 바닥·광원과 카메라 스트랩 재질만 더한다.",
+    "outfit": "계획의 원피스 수영복에 딥 플런지와 하이컷을 적용한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_studio / swimwear / plunge_onepiece / walk / three_quarter / camera_carry",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_studio",
+      "ko": "화보 스튜디오",
+      "en": "an editorial photo studio with a seamless backdrop and dramatic lights"
+     },
+     "role": null,
+     "use": {
+      "key": "camera_carry",
+      "ko": "카메라를 든다",
+      "en": "carries a camera by its grip at her side",
+      "prop": "카메라"
+     },
+     "ofam": {
+      "key": "swimwear",
+      "ko": "수영복",
+      "en": "modern swimwear, fully lined and secure during movement"
+     },
+     "item": {
+      "key": "plunge_onepiece",
+      "ko": "딥 플런지 원피스",
+      "en": "a one-piece swimsuit with a deep plunging V and a secure wide waistband"
+     },
+     "posture": {
+      "key": "walk",
+      "ko": "걷기",
+      "en": "walking"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "prop · down"
+    },
+    "garments": [
+     "swimsuit"
+    ],
+    "expose": [
+     "high-cut leg",
+     "plunging neckline"
+    ],
+    "lead": "light"
+   }
+  },
+  "casual2": {
+   "scene": "The hotel suite has a suitcase of party props beside the table; warm city lights mark the evening before a costume event.",
+   "outfit": "A pirate captain party costume with an off-shoulder cropped burgundy brocade coat, a fitted ivory bandeau, high-waisted charcoal shorts, a tricorn hat and tall boots; the short coat exposes her midriff.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "호텔이라는 선택 장소를 해적 테마 파티 준비 맥락으로 구체화한다.",
+    "outfit": "해적 선장 의상을 유지하면서 크롭 기장과 오프숄더로 어깨·배를 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / evening_hotel / roleplay / pirate_captain / stand / environmental / book_turn",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "evening_hotel",
+      "ko": "호텔 방",
+      "en": "a hotel suite with a city view and an open suitcase"
+     },
+     "role": null,
+     "use": {
+      "key": "book_turn",
+      "ko": "탁자 위 책장을 넘긴다",
+      "en": "turns a page of a book lying open on the table",
+      "prop": "책"
+     },
+     "ofam": {
+      "key": "roleplay",
+      "ko": "역할극·직업 의상",
+      "en": "a playful adult event costume inspired by an occupation or role — clearly a costume, not a real uniform, no real insignia"
+     },
+     "item": {
+      "key": "pirate_captain",
+      "ko": "해적 선장",
+      "en": "a pirate captain party costume — a cropped brocade coat over a cinched waist, a tricorn hat and tall boots"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · prop"
+    },
+    "garments": [
+     "coat"
+    ],
+    "expose": [
+     "cropped hem",
+     "off-shoulder neckline"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual3": {
+   "scene": "She pauses during camp cooking while a small kettle steams beside berry jars on the folding table.",
+   "outfit": "A pale apricot short-sleeved shirt with a one-shoulder neckline and an open-back tie panel, paired with high-waisted sand trousers; the shirt exposes one shoulder, collarbone and upper back.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "야영 조리장의 구체적인 조리 소품과 시간을 보충한다.",
+    "outfit": "계획의 셔츠·바지를 유지하고 한쪽 어깨와 오픈백을 셔츠 재단으로 만든다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / berry_camp / everyday / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "berry_camp",
+      "ko": "야영 조리장",
+      "en": "an outdoor cooking site at a campsite with a camp stove and a folding table"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "everyday",
+      "ko": "평상복",
+      "en": "everyday clothes that suit the place and activity"
+     },
+     "item": {
+      "key": "",
+      "ko": "자동 — 계열 안에서 장면에 맞게",
+      "en": ""
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "cheek · out"
+    },
+    "garments": [
+     "shirt",
+     "trousers"
+    ],
+    "expose": [
+     "open back",
+     "one-shoulder cut"
+    ],
+    "lead": "action"
+   }
+  }
+ }
+}
