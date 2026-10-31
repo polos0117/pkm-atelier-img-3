@@ -1,0 +1,289 @@
+{
+ "version": 1,
+ "card": "꼬지보리",
+ "no": 580,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/2247ff91c8a3/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "In the fenced courtyard beside a bathhouse, a small Psyduck rests on a low bench beside her at waist height. A plaster garden wall supports her back; afternoon light catches water droplets on the grass.",
+   "outfit": "The striped cotton wrap dress is securely tied across the chest and hips, with an open back above the wrapped waist and a narrow side opening showing the waist. Its stripes are terracotta and cream.",
+   "camera": "",
+   "custom": "Small blue feather earrings are the only personal motif; the Psyduck is a separate natural companion.",
+   "why": {
+    "scene": "트리의 장소와 자세를 그대로 두고 실제 받침·배경 및 필요한 동료만 구체화.",
+    "outfit": "고른 의상 실루엣을 유지하고 계획의 드러내기 두 항목을 구체적인 재단으로 표현.",
+    "custom": "선택 메뉴에 없는 소품의 재질·빛과 손의 실제 접점을 보완."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "in_pokemon / partner_yard / bath / peshtemal / lean_wall / waist_up",
+    "v2": {
+     "era": {
+      "key": "in_pokemon",
+      "ko": "포켓몬 세계 안",
+      "en": "inside the Pokémon world, as if she simply lives there"
+     },
+     "place": {
+      "key": "partner_yard",
+      "ko": "울타리 친 풀밭 마당",
+      "en": "an enclosed grassy courtyard with a low wooden fence"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "bath",
+      "ko": "목욕 차림",
+      "en": "a bath-time wrap, robe or bathhouse loungewear that stays fully covering at chest and hips"
+     },
+     "item": {
+      "key": "peshtemal",
+      "ko": "페슈테말",
+      "en": "a striped cotton peshtemal wrapped like a dress"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "waist_up",
+     "body": {
+      "key": "front_3q",
+      "ko": "3/4 정면",
+      "en": "body turned three-quarters toward the camera"
+     },
+     "hands": "hair_tuck · out"
+    },
+    "garments": [
+     "dress"
+    ],
+    "expose": [
+     "side cutouts",
+     "open back"
+    ],
+    "lead": "place"
+   }
+  },
+  "casual2": {
+   "scene": "A paint-stained pottery wheel and terracotta cups sit behind the model during a 2010 art-studio break.",
+   "outfit": "A black velvet halter dress with a corset belt and short lace sleevelets; bare shoulders and upper chest remain visible, with a high-cut side slit below the frame.",
+   "camera": "",
+   "custom": "Warm window light grazes the velvet and her face; the cup is a small handmade ceramic teacup.",
+   "why": {
+    "scene": "트리의 장소와 자세를 그대로 두고 실제 받침·배경 및 필요한 동료만 구체화.",
+    "outfit": "고른 의상 실루엣을 유지하고 계획의 드러내기 두 항목을 구체적인 재단으로 표현.",
+    "custom": "선택 메뉴에 없는 소품의 재질·빛과 손의 실제 접점을 보완."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / studio_art / subculture / romantic_goth / stand / chest_up / cup_sip",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "studio_art",
+      "ko": "화실·공방",
+      "en": "an art or pottery studio of easels, clay and paint-splattered tables"
+     },
+     "role": null,
+     "use": {
+      "key": "cup_sip",
+      "ko": "잔을 입에 댄다",
+      "en": "brings a cup to her lips",
+      "prop": "잔·컵"
+     },
+     "ofam": {
+      "key": "subculture",
+      "ko": "서브컬처",
+      "en": "a subculture street look"
+     },
+     "item": {
+      "key": "romantic_goth",
+      "ko": "로맨틱 고스",
+      "en": "romantic goth — a black velvet dress with a corset belt and lace sleeves"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "chest_up",
+     "body": {
+      "key": "side",
+      "ko": "옆모습",
+      "en": "body in side profile"
+     },
+     "hands": "prop · out"
+    },
+    "garments": [
+     "dress",
+     "lingerie_set"
+    ],
+    "expose": [
+     "high-cut leg",
+     "halter neck"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual3": {
+   "scene": "Amber bottle lights and violet neon fill a spacious lounge; the waist-high brass guardrail is clearly visible beside the bar.",
+   "outfit": "An opaque black longline lace top with a plunging neckline and geometric lace trim, paired with high-waisted briefs, leaving her midriff bare.",
+   "camera": "",
+   "custom": "A blue feather pendant rests at her neck. The left elbow stays beside her shoulder as the fingertips tuck her hair; the right forearm connects naturally to the hand on the rail.",
+   "why": {
+    "scene": "트리의 장소와 자세를 그대로 두고 실제 받침·배경 및 필요한 동료만 구체화.",
+    "outfit": "고른 의상 실루엣을 유지하고 계획의 드러내기 두 항목을 구체적인 재단으로 표현.",
+    "custom": "선택 메뉴에 없는 소품의 재질·빛과 손의 실제 접점을 보완."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / night_bar / lingerie / lace_set / lean_rail / environmental",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "night_bar",
+      "ko": "바",
+      "en": "a neon-lit bar counter with backlit bottles"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "lingerie",
+      "ko": "란제리풍",
+      "en": "tasteful lingerie-inspired fashion, fully opaque and securely fitted, with full intimate coverage"
+     },
+     "item": {
+      "key": "lace_set",
+      "ko": "레이스 세트",
+      "en": "a black lace lingerie set with a longline top, high-waisted bottoms and geometric lace trim"
+     },
+     "posture": {
+      "key": "lean_rail",
+      "ko": "난간·창턱에 기대 서기",
+      "en": "standing at a waist-high railing or sill, leaning lightly on it"
+     },
+     "frame": "environmental",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "rail · hair_tuck"
+    },
+    "garments": [
+     "lingerie_set"
+    ],
+    "expose": [
+     "plunging neckline",
+     "bare midriff"
+    ],
+    "lead": "light"
+   }
+  }
+ }
+}
