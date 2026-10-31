@@ -1,0 +1,161 @@
+{
+ "session": "ducklett-swanna-20261031-2247ff",
+ "planner": "tools/casual-plan.cjs",
+ "characters": [
+  {
+   "card": "스완나",
+   "species": "swanna-20261031",
+   "cuts": [
+    {
+     "kept": true,
+     "cut": 1,
+     "treeV": 2,
+     "era": "now",
+     "place": "home_entry",
+     "weather": "",
+     "ofam": "evening",
+     "item": "silk_robe_slip",
+     "posture": "squat",
+     "support": "none",
+     "frame": "full_body",
+     "body": "side",
+     "head": "with_body",
+     "camera": "eye",
+     "right": "prop",
+     "left": "natural",
+     "use": "phones_neck",
+     "legs": "",
+     "gaze": "",
+     "expr": "sleepy",
+     "preset": "squat_offer",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "balanced",
+      "source_influence": "strong",
+      "separates_preference": "balanced"
+     },
+     "garments": [
+      "robe",
+      "slip"
+     ],
+     "expose": [
+      "off-shoulder neckline",
+      "plunging neckline"
+     ],
+     "lead": "action",
+     "act": "phones_neck",
+     "orient": "side+with_body",
+     "pose": "squat_offer"
+    },
+    {
+     "kept": true,
+     "cut": 2,
+     "treeV": 2,
+     "era": "now",
+     "place": "night_bar",
+     "weather": "",
+     "ofam": "lingerie",
+     "item": "kebaya_lace",
+     "posture": "stand",
+     "support": "none",
+     "frame": "waist_up",
+     "body": "front",
+     "head": "tilt",
+     "camera": "low",
+     "right": "clasp_both",
+     "left": "clasp_both",
+     "use": "",
+     "legs": "",
+     "gaze": "camera",
+     "expr": "mischievous",
+     "preset": "clasp_low",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly posed",
+      "source_influence": "strong",
+      "separates_preference": "prefer separates"
+     },
+     "garments": [
+      "tank"
+     ],
+     "expose": [
+      "bare midriff",
+      "one-shoulder cut"
+     ],
+     "lead": "detail",
+     "act": "stand:clasp_both:clasp_both",
+     "orient": "front+tilt",
+     "pose": "clasp_low"
+    },
+    {
+     "cut": 3,
+     "treeV": 2,
+     "era": "release",
+     "place": "street_shop",
+     "ofam": "work",
+     "item": "",
+     "garments": [
+      "overalls",
+      "tank"
+     ],
+     "weather": "",
+     "posture": "walk",
+     "support": "none",
+     "frame": "face_close",
+     "body": "front_3q",
+     "head": "over_shoulder",
+     "camera": "low",
+     "right": "",
+     "left": "",
+     "use": "",
+     "legs": "",
+     "gaze": "",
+     "preset": "",
+     "expr": "amused",
+     "aspect": "2:3",
+     "axes": {
+      "overall_intensity": "strong",
+      "skin_exposure": "bold",
+      "action_level": "mostly active",
+      "source_influence": "balanced",
+      "separates_preference": "balanced"
+     },
+     "expose": [
+      "off-shoulder neckline",
+      "bare midriff"
+     ],
+     "lead": "place"
+    }
+   ],
+   "why": {
+    "tree": 2,
+    "required": {
+     "slots": [],
+     "two": false,
+     "prev": [
+      1
+     ]
+    },
+    "low": [
+     "home",
+     "street",
+     "water",
+     "spa",
+     "stage"
+    ]
+   },
+   "claims": {
+    "garment": [
+     "overalls",
+     "tank"
+    ],
+    "orient": [
+     "front_3q+over_shoulder"
+    ],
+    "frame": []
+   }
+  }
+ ]
+}
