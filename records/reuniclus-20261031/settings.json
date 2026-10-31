@@ -1,0 +1,281 @@
+{
+ "version": 1,
+ "card": "란쿨루스",
+ "no": 579,
+ "style": "glossy_promo",
+ "plan": "/workspace/scratch/37fa3b27790b/PLAN.json",
+ "note": "고칠 수 있는 칸만 있다. 자리마다 고정인 것(출력·인물 기준·장갑 폼·폭주 기준·첨부)은 tools/prompt-pack.cjs 가 정한다. 다 쓰면 build.",
+ "slots": {
+  "light": {
+   "motifs": "",
+   "formOverride": "",
+   "headFeature": "",
+   "faceDesignOn": true,
+   "params": {},
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "heavy": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "mobility": {
+   "motifs": "",
+   "formOverride": "",
+   "scene": {
+    "expr": "",
+    "pose": "",
+    "orient": "",
+    "frame": "",
+    "lens": "",
+    "aspect": "2:3",
+    "camera": "",
+    "scene": "",
+    "outfit": "",
+    "custom": "",
+    "action": {
+     "category": "",
+     "example": "",
+     "timing": "",
+     "equipment": "",
+     "power": "",
+     "effects": "",
+     "speed": "",
+     "environment": ""
+    }
+   }
+  },
+  "light_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "heavy_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "mobility_overdrive": {
+   "motifs": "",
+   "formOverride": "",
+   "custom": ""
+  },
+  "casual1": {
+   "scene": "A pair of textured leg warmers and a small cell-shaped glass charm catch hard studio light against a rose seamless backdrop.",
+   "outfit": "An opaque cobalt 1980s aerobics leotard with a secure abdomen cutout over glossy footless leggings, cropped leg warmers and a cloth headband; the high-cut leotard and short leg warmers keep the waist and ankles visible.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "80년대 스튜디오 화보의 소품·배경 재질을 구체화한다.",
+    "outfit": "선택한 에어로빅 레오타드·레깅스를 유지하고 허리의 컷아웃으로 계획의 bare midriff를 구현한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "fantasy / fx_studio / retro / aerobics_80s / lie_side / full_body",
+    "v2": {
+     "era": {
+      "key": "fantasy",
+      "ko": "무대·환상",
+      "en": "a stylised stage, editorial or fantasy setting not bound to a real year"
+     },
+     "place": {
+      "key": "fx_studio",
+      "ko": "화보 스튜디오",
+      "en": "an editorial photo studio with a seamless backdrop and dramatic lights"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "retro",
+      "ko": "레트로",
+      "en": "a period look from a past decade"
+     },
+     "item": {
+      "key": "aerobics_80s",
+      "ko": "80년대 에어로빅",
+      "en": "an 1980s high-cut aerobics leotard over shiny tights with leg warmers and a headband"
+     },
+     "posture": {
+      "key": "lie_side",
+      "ko": "옆으로 눕기",
+      "en": "lying on her side"
+     },
+     "frame": "full_body",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "behind_head · floor_brace"
+    },
+    "garments": [
+     "leggings"
+    ],
+    "expose": [
+     "mini length",
+     "bare midriff"
+    ],
+    "lead": "detail"
+   }
+  },
+  "casual2": {
+   "scene": "She pauses at a community athletics festival; the coloured running lanes remain visible behind the grandstand edge.",
+   "outfit": "A flowing West African boubou in warm terracotta cloth, with a secured deep V neckline, wide short sleeves, a high thigh slit and a matching head wrap; its embroidery stays tonal.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "육상 트랙과 전통복이 자연스러운 지역 문화 축제 맥락을 보충한다.",
+    "outfit": "부부의 넓은 로브 실루엣을 유지하고 깊은 목선·허벅지 슬릿을 더한다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "now / sports_track / traditional / boubou_flow / stand / face_close",
+    "v2": {
+     "era": {
+      "key": "now",
+      "ko": "지금 현실",
+      "en": "present-day real world"
+     },
+     "place": {
+      "key": "sports_track",
+      "ko": "육상 트랙",
+      "en": "a running track with lane lines and a grandstand"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "traditional",
+      "ko": "전통 의상",
+      "en": "a traditional dress that suits her, worn naturally",
+      "guide": "the traditional dress named in Outfit wins over her apparent ethnicity and the attached image's costume"
+     },
+     "item": {
+      "key": "boubou_flow",
+      "ko": "부부",
+      "en": "a flowing West African boubou — a wide floor-length embroidered robe with a matching head wrap"
+     },
+     "posture": {
+      "key": "stand",
+      "ko": "서기",
+      "en": "standing"
+     },
+     "frame": "face_close",
+     "body": {
+      "key": "front",
+      "ko": "정면",
+      "en": "body facing the camera"
+     },
+     "hands": "shush · out"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "plunging neckline",
+     "high thigh slit"
+    ],
+    "lead": "action"
+   }
+  },
+  "casual3": {
+   "scene": "The arcade hall has a lounge corner dressed for a 2010 sleepover-themed costume evening, with coloured cabinet glow along the wood panelling.",
+   "outfit": "A short cream satin morning robe worn loosely tied over a secure rose halter bandeau and matching opaque high-waisted shorts; its open neckline exposes shoulders and collarbones and its short hem exposes her thighs.",
+   "camera": "",
+   "custom": "",
+   "why": {
+    "scene": "첫 등장 해 2010년 오락실의 홈웨어 의상을 테마 행사 맥락으로 설명한다.",
+    "outfit": "로브라는 선택 의상을 유지하고 안쪽 홀터 상의·짧은 기장으로 어깨와 다리를 드러낸다."
+   },
+   "guide": {
+    "tree": 2,
+    "path": "release / arcade_hall / homewear / robe_morning / lean_wall / three_quarter",
+    "v2": {
+     "era": {
+      "key": "release",
+      "ko": "첫 등장 무렵 현실",
+      "en": "the real world around the year her Pokémon first appeared"
+     },
+     "place": {
+      "key": "arcade_hall",
+      "ko": "오락실",
+      "en": "an arcade hall of upright cabinets whose screens show only coloured glow"
+     },
+     "role": null,
+     "use": null,
+     "ofam": {
+      "key": "homewear",
+      "ko": "홈웨어",
+      "en": "soft homewear or loungewear"
+     },
+     "item": {
+      "key": "robe_morning",
+      "ko": "아침 로브",
+      "en": "a loosely tied robe"
+     },
+     "posture": {
+      "key": "lean_wall",
+      "ko": "벽에 기대 서기",
+      "en": "standing, leaning back against a wall"
+     },
+     "frame": "three_quarter",
+     "body": {
+      "key": "rear_3q",
+      "ko": "뒤 3/4",
+      "en": "body turned three-quarters away from the camera"
+     },
+     "hands": "AUTO · AUTO"
+    },
+    "garments": [
+     "robe"
+    ],
+    "expose": [
+     "halter neck",
+     "strapless top"
+    ],
+    "lead": "place"
+   }
+  }
+ }
+}

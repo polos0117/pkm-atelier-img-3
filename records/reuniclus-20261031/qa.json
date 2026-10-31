@@ -1,0 +1,250 @@
+{
+  "reviewer": "gpt",
+  "anatomy_tool": "unavailable: mediapipe missing (exit 3); full original and hand/foot crops visually inspected",
+  "casual_look": {
+    "crowd_below": 245,
+    "cuts": [
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/37fa3b27790b/generated_images/exec-64de82b5-a62b-4e2a-b5ef-f2aaf4feac8a.png",
+        "near": [
+          [
+            "이어롭_glossy_promo_f_casual1.webp",
+            323
+          ],
+          [
+            "페르시온_glossy_promo_f_casual3.webp",
+            329
+          ],
+          [
+            "브케인_glossy_promo_f_casual2.webp",
+            330
+          ],
+          [
+            "보송송_glossy_promo_f_casual1.webp",
+            332
+          ],
+          [
+            "푸린_glossy_promo_f_casual3.webp",
+            334
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/37fa3b27790b/generated_images/exec-633f445f-47b2-4c22-a4d7-a3bc61d7cebf.png",
+        "near": [
+          [
+            "야나프_glossy_promo_f_casual1.webp",
+            308
+          ],
+          [
+            "연꽃몬_glossy_promo_f_casual2.webp",
+            310
+          ],
+          [
+            "꼬모카_glossy_promo_f_casual3.webp",
+            311
+          ],
+          [
+            "보송송_glossy_promo_f_casual2.webp",
+            311
+          ],
+          [
+            "파오리_glossy_promo_f_casual3.webp",
+            315
+          ]
+        ],
+        "same_as_own": []
+      },
+      {
+        "crowd": 0,
+        "duplicate_of": [],
+        "file": "/workspace/scratch/37fa3b27790b/generated_images/exec-fe385eb1-7d9e-4181-9bda-1a1d0727cca1.png",
+        "near": [
+          [
+            "나무킹_glossy_promo_f_casual3.webp",
+            272
+          ],
+          [
+            "데스니칸_glossy_promo_f_casual1.webp",
+            301
+          ],
+          [
+            "체리꼬_glossy_promo_f_casual1.webp",
+            302
+          ],
+          [
+            "카포에라_glossy_promo_f_casual2.webp",
+            304
+          ],
+          [
+            "한바이트_glossy_promo_f_casual2.webp",
+            307
+          ]
+        ],
+        "same_as_own": []
+      }
+    ],
+    "dup_below": 215,
+    "ok": true
+  },
+  "diversity": {
+    "compared": [
+      "폭슬라이",
+      "꼬모카",
+      "유니란",
+      "듀란"
+    ],
+    "observation": "누운 에어로빅 전신·달리기 트랙 부부 얼굴 확대·오락실 로브 3/4의 장소·의상·자세·담긴 범위가 구분된다. 듀란 스튜디오와 장소 묶음은 같지만 서서 카메라 휴대와 바닥 에어로빅이라는 자세·소품·의상·프레임이 다르다. 생김새 중복 검사 통과."
+  },
+  "slots": {
+    "light": {
+      "accepted": true,
+      "observations": "양쪽 풍성한 곱슬 묶음과 짧은 일자 앞머리, 초록 눈을 확인. 뻗은 손을 부분 수정한 뒤 화면 왼쪽 손바닥에 엄지 하나와 손가락 넷을 확대 확인. 반대 손의 접힌 손가락은 일부 겹침. 두 부츠 완전 포함.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "양쪽 풍성한 곱슬 묶음과 짧은 일자 앞머리, 초록 눈을 확인. 뻗은 손을 부분 수정한 뒤 화면 왼쪽 손바닥에 엄지 하나와 손가락 넷을 확대 확인. 반대 손의 접힌 손가락은 일부 겹침. 두 부츠 완전 포함."
+      }
+    },
+    "heavy": {
+      "accepted": true,
+      "observations": "둥근 어깨·팔·정강이 겹판과 얼굴 개방형 헤드기어. 손가락 국소 수정 뒤 양팔·손목의 연결과 뻗은 손 다섯 갈래 확인. 체형은 경장과 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "둥근 어깨·팔·정강이 겹판과 얼굴 개방형 헤드기어. 손가락 국소 수정 뒤 양팔·손목의 연결과 뻗은 손 다섯 갈래 확인. 체형은 경장과 유지."
+      }
+    },
+    "mobility": {
+      "accepted": true,
+      "observations": "관자 센서핀, 뒤로 뻗는 가늘고 나뉜 판, 관절 자유. 뻗은 손 다섯 손가락 확인. 머리 묶음과 얼굴 유지, 전신 두 부츠 포함.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "관자 센서핀, 뒤로 뻗는 가늘고 나뉜 판, 관절 자유. 뻗은 손 다섯 손가락 확인. 머리 묶음과 얼굴 유지, 전신 두 부츠 포함."
+      }
+    },
+    "light_overdrive": {
+      "accepted": true,
+      "observations": "경장과 같은 자세·인물 위치를 유지하며 얇은 판이 열린 틈에 분홍빛 내부 프레임이 보임. 다섯 손가락의 수정된 손바닥과 반대 손목 연결을 확인.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "경장과 같은 자세·인물 위치를 유지하며 얇은 판이 열린 틈에 분홍빛 내부 프레임이 보임. 다섯 손가락의 수정된 손바닥과 반대 손목 연결을 확인."
+      }
+    },
+    "heavy_overdrive": {
+      "accepted": true,
+      "observations": "겹친 둥근 판이 층별로 벌어져 분홍빛이 드러난다. 기본 중장과 같은 머리·발·몸 위치, 앞 손 다섯 갈래를 확대 확인.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "겹친 둥근 판이 층별로 벌어져 분홍빛이 드러난다. 기본 중장과 같은 머리·발·몸 위치, 앞 손 다섯 갈래를 확대 확인."
+      }
+    },
+    "mobility_overdrive": {
+      "accepted": true,
+      "observations": "분할판이 뒤로 벌어지고 각 판 내부 채널이 자홍빛을 낸다. 고기동과 같은 얼굴·센서핀·구도이며 뻗은 손에 다섯 손가락.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "분할판이 뒤로 벌어지고 각 판 내부 채널이 자홍빛을 낸다. 고기동과 같은 얼굴·센서핀·구도이며 뻗은 손에 다섯 손가락."
+      }
+    },
+    "casual1": {
+      "accepted": true,
+      "observations": "장미색 스튜디오 바닥에 옆으로 기대 누운 인물. 파란 컷아웃 레오타드·광택 레깅스·레그워머. 한 팔은 머리 뒤로 접혀 손이 가려지고 다른 손은 바닥 지지. 바닥 손의 다섯 손가락과 앞쪽 발가락 다섯을 확대 확인. 반대 발은 일부 가림.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "장미색 스튜디오 바닥에 옆으로 기대 누운 인물. 파란 컷아웃 레오타드·광택 레깅스·레그워머. 한 팔은 머리 뒤로 접혀 손이 가려지고 다른 손은 바닥 지지. 바닥 손의 다섯 손가락과 앞쪽 발가락 다섯을 확대 확인. 반대 발은 일부 가림."
+      }
+    },
+    "casual2": {
+      "accepted": true,
+      "observations": "육상 트랙·관중석 배경에 테라코타 부부의 깊은 목선·헤드랩. 웃는 입 앞에 세운 검지와 자연스럽게 접힌 나머지 손가락을 확인. 얼굴 클로즈업이라 다른 손·몸 하단은 프레임 밖. 베이지-초록 곱슬 묶음과 눈 유지.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "육상 트랙·관중석 배경에 테라코타 부부의 깊은 목선·헤드랩. 웃는 입 앞에 세운 검지와 자연스럽게 접힌 나머지 손가락을 확인. 얼굴 클로즈업이라 다른 손·몸 하단은 프레임 밖. 베이지-초록 곱슬 묶음과 눈 유지."
+      }
+    },
+    "casual3": {
+      "accepted": true,
+      "observations": "2010년 분위기의 캐비닛 오락실 목재 벽에 기대 선 모습. 크림색 짧은 로브·로즈 홀터 상의와 반바지. 손은 로브·몸 뒤로 가려져 손가락 수를 판정하지 않는다. 계획 뒤 3/4와 달리 정면 3/4로 나온 차이는 기록만 함.",
+      "identity": {
+        "match": true,
+        "evidence": "양쪽 곱슬 묶음·일자 앞머리·녹색 눈·살짝 길어진 얼굴과 부드러운 턱을 경장과 대조"
+      },
+      "anatomy": {
+        "tool": "unavailable: mediapipe missing",
+        "arms": 2,
+        "legs": 2,
+        "hands": "폼 6장: 뻗은 손 5개(엄지1+손가락4) 확대 확인, 반대 손은 일부 접힘·겹침. 일상 가림은 관찰문에 기록.",
+        "overlay_checked": false,
+        "note": "2010년 분위기의 캐비닛 오락실 목재 벽에 기대 선 모습. 크림색 짧은 로브·로즈 홀터 상의와 반바지. 손은 로브·몸 뒤로 가려져 손가락 수를 판정하지 않는다. 계획 뒤 3/4와 달리 정면 3/4로 나온 차이는 기록만 함."
+      }
+    }
+  }
+}

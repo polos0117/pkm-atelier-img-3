@@ -1,0 +1,84 @@
+{
+  "card": "란쿨루스",
+  "canonical_light": {
+    "slot": "light",
+    "source_path": "/workspace/scratch/37fa3b27790b/generated_images/exec-5b61a87a-5478-49eb-933b-e172d65adce6.png",
+    "source_sha256": "6985c360a290f2e0d31e6ada01232fffaf09d746fd9b6efd588320c1159c61f9",
+    "source_session_only": true,
+    "card": "란쿨루스",
+    "style": "glossy_promo",
+    "style_basis": "prompt-pack settings and exact submitted prompt",
+    "reference_slots": [],
+    "output_file": "란쿨루스_light_glossy_promo_f.webp",
+    "output_size": [
+      1024,
+      1536
+    ],
+    "output_sha256": "210b810437c513d440dffd0093e16eef340d4ba3f4916f239b9cdbdc45b1a24f",
+    "output_format": "WEBP",
+    "quality": 85,
+    "method": 6
+  },
+  "face_design_source": "pkm-atelier/data/face-design.json",
+  "face_design": {
+    "name": "란쿨루스",
+    "en": "Reuniclus",
+    "line": "유니란",
+    "how": "draft",
+    "registered": false,
+    "face": {
+      "face shape": "softly rounded",
+      "face length": "short",
+      "face width": "wide",
+      "jaw & chin": "soft rounded jaw",
+      "eye shape": "almond",
+      "eye size": "medium",
+      "eye tilt": "level outer corners",
+      "eye spacing": "average eye spacing",
+      "eyebrows": "short rounded brows",
+      "nose character": "small delicate nose",
+      "lips": "full lips"
+    },
+    "why": "",
+    "cues": [
+      "‘large, round head’ → 얼굴형 부드럽고 둥근 얼굴형",
+      "‘large, round head’ → 얼굴 길이 짧은 얼굴",
+      "‘large, round head’ → 얼굴 폭 넓은 얼굴",
+      "‘large, round head’ → 턱선 · 턱끝 부드럽고 둥근 턱",
+      "에스퍼 타입 → 눈매 아몬드형 눈",
+      "‘large, round head’ → 눈썹 짧고 둥근"
+    ],
+    "adjusted": "다른 종과 넷 이상 겹쳐 원작 단서의 다음 후보로 옮김 — 눈썹 가늘고 완만한 곡선 → 짧고 둥근, 코 코끝이 둥근 → 작고 여린 코 [머리] 많이 쓴 헤어스타일이라 고르게 나누려고 굵은 곱슬 → 양쪽 아프로 퍼프",
+    "hair": {
+      "hairstyle": "afro puffs",
+      "hair length": "long",
+      "bangs": "straight bangs"
+    },
+    "hair_locked": false,
+    "hair_why": "‘large, round head’에서 양쪽 아프로 퍼프(올림머리) · 긴 머리 · 일자 앞머리 — 듀란에서 이어 더 공들인 묶음",
+    "hair_cues": [
+      "‘large, round head’ → 헤어스타일 양쪽 아프로 퍼프"
+    ]
+  },
+  "final_face_and_hair_lines": [
+    "FACE (her own structure, not the style's default face): softly rounded face, short length, wide width; soft rounded jaw; almond eyes, medium size, level outer corners, average spacing; short rounded brows; small delicate nose; full lips.",
+    "HAIR: long afro puffs, straight bangs."
+  ],
+  "compared_characters": [
+    "유니란",
+    "폭슬라이",
+    "꼬모카"
+  ],
+  "complete_slots": [
+    "light",
+    "heavy",
+    "mobility",
+    "light_overdrive",
+    "heavy_overdrive",
+    "mobility_overdrive",
+    "casual1",
+    "casual2",
+    "casual3"
+  ],
+  "publish_status": "ready for normal fast-forward publication; original PNGs excluded"
+}

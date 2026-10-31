@@ -1,0 +1,50 @@
+{
+  "issue": "outstretched glove hand had only four visible digits; fixed locally before first publication",
+  "initial_paths": {
+    "light": "/workspace/scratch/37fa3b27790b/generated_images/exec-29bfe56e-3838-4c97-8b1b-a672d863cfe4.png",
+    "heavy": "/workspace/scratch/37fa3b27790b/generated_images/exec-dda8556e-e89b-4959-8104-8e6e04f7ec5d.png",
+    "mobility": "/workspace/scratch/37fa3b27790b/generated_images/exec-7ab9df14-bd6c-4232-93b1-f19164189106.png",
+    "light_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-7fab4a09-2d92-4412-b58a-b8f3aa3af01c.png",
+    "heavy_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-366e9a9c-2b15-4649-97b0-c13aa1b51b7d.png",
+    "mobility_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-6ff6d8f4-7753-4122-81c8-9e35709c9d5b.png",
+    "casual1": "/workspace/scratch/37fa3b27790b/generated_images/exec-64de82b5-a62b-4e2a-b5ef-f2aaf4feac8a.png",
+    "casual2": "/workspace/scratch/37fa3b27790b/generated_images/exec-633f445f-47b2-4c22-a4d7-a3bc61d7cebf.png",
+    "casual3": "/workspace/scratch/37fa3b27790b/generated_images/exec-fe385eb1-7d9e-4181-9bda-1a1d0727cca1.png"
+  },
+  "final_paths": {
+    "light": "/workspace/scratch/37fa3b27790b/generated_images/exec-5b61a87a-5478-49eb-933b-e172d65adce6.png",
+    "heavy": "/workspace/scratch/37fa3b27790b/generated_images/exec-75865ed8-3feb-4b44-931c-bb2f1a1e3864.png",
+    "mobility": "/workspace/scratch/37fa3b27790b/generated_images/exec-675fe951-8774-4b4d-abb8-803d9a70fdb1.png",
+    "light_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-316d3b44-2bfa-4cd9-9137-93015bdf9ac6.png",
+    "heavy_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-2ad0ec5a-0ef1-4e2b-be42-08722448a8cd.png",
+    "mobility_overdrive": "/workspace/scratch/37fa3b27790b/generated_images/exec-ecec64ab-fa00-4b03-9f48-c9f868523bff.png",
+    "casual1": "/workspace/scratch/37fa3b27790b/generated_images/exec-64de82b5-a62b-4e2a-b5ef-f2aaf4feac8a.png",
+    "casual2": "/workspace/scratch/37fa3b27790b/generated_images/exec-633f445f-47b2-4c22-a4d7-a3bc61d7cebf.png",
+    "casual3": "/workspace/scratch/37fa3b27790b/generated_images/exec-fe385eb1-7d9e-4181-9bda-1a1d0727cca1.png"
+  },
+  "light_prompt": "Precise local anatomy correction to this image. Keep the entire illustration, exact camera, pose, face, eyes, hair, body proportions, armor, scenery and image dimensions unchanged. Correct ONLY the outstretched glove hand on the LEFT SIDE OF THE IMAGE. That hand currently has only four visible digits. Redraw it as one natural human hand with EXACTLY FIVE clearly distinct digits: one thumb and four fingers, all connected to the same palm and to its existing wrist. Keep its palm facing the viewer in the same position and size, natural fingers gently spread, no overlapping/hidden digits, no extra hand. Do not alter the other hand. One final image, 1024x1536.",
+  "followup_prompt": "Image 1 is the edit target. Image 2 is the approved same woman's corrected LIGHT form, used ONLY for the correct FIVE-finger glove-hand anatomy. Precise local anatomy correction to this image. Keep the entire illustration, exact camera, pose, face, eyes, hair, body proportions, armor, scenery and image dimensions unchanged. Correct ONLY the outstretched glove hand on the LEFT SIDE OF THE IMAGE. That hand currently has only four visible digits. Redraw it as one natural human hand with EXACTLY FIVE clearly distinct digits: one thumb and four fingers, all connected to the same palm and to its existing wrist. Keep its palm facing the viewer in the same position and size, natural fingers gently spread, no overlapping/hidden digits, no extra hand. Do not alter the other hand. One final image, 1024x1536. In image 1 keep the exact original armor form and its current closed/open state; do not copy armor or background from image 2. Replace the outstretched palm with the same natural five-digit hand orientation as image 2.",
+  "invariants": "same face/body/camera/pose/armor open-state/scenery; only reaching glove-hand anatomy corrected; casual images untouched",
+  "initial_sha256": {
+    "light": "5ba135b6682d1da4d7f5797f53c6731340575975cd5e3ded6b552672baa4ac24",
+    "heavy": "05abb75cf2d2c1e43416842aad9df3115b87624cced6c5759bbcae98a3c3a449",
+    "mobility": "142affb1ea8106ccafc97a4546bdc43067a15856b85200b0c18263c5b232f140",
+    "light_overdrive": "260a72cb2830156bfde13a924d370e0646638ef95c0ca9066e384273c20d112e",
+    "heavy_overdrive": "3814621b4444b1a8cb92ed49b93460978b3152d57e89bd70a2cbd16d237e447f",
+    "mobility_overdrive": "a16abb67b7c0fc471fb4e392208516067460969f1b87b9650d16c8998fa2059f",
+    "casual1": "43ec4bcf72f4c1580b0809fbde70492304cd8d9f0628a1ae16349209f435db6d",
+    "casual2": "1fea236e9d96462945b0af9894e54f1a0b419d8271a49569acddf0118c6bda92",
+    "casual3": "ed9c20382abf773e0a4f7bae35aa1d9c28e8cf2519c604a340cbaa2a5b609024"
+  },
+  "final_sha256": {
+    "light": "6985c360a290f2e0d31e6ada01232fffaf09d746fd9b6efd588320c1159c61f9",
+    "heavy": "ca1e9e54b72eb9657d7f4b0ea3cd25209e98e09cedd84cf266e49682dff185c4",
+    "mobility": "6a6013e83d2c25bd523b7faa894aa7453cc1fa7f2a81eb5428142c9ac8d65ac5",
+    "light_overdrive": "3c4b45004cc71d447bb6ae4ce28b86594d90c385319e6fe10b618e34165ba94f",
+    "heavy_overdrive": "d141101ea15300b08e00b0daa13cbb381a06f9f3c9685460aa754abb2a3bbe7d",
+    "mobility_overdrive": "6d79895957ecd8591336fbd29945a213ed620792f99e1aea2a1cbf8235f604bb",
+    "casual1": "43ec4bcf72f4c1580b0809fbde70492304cd8d9f0628a1ae16349209f435db6d",
+    "casual2": "1fea236e9d96462945b0af9894e54f1a0b419d8271a49569acddf0118c6bda92",
+    "casual3": "ed9c20382abf773e0a4f7bae35aa1d9c28e8cf2519c604a340cbaa2a5b609024"
+  }
+}
